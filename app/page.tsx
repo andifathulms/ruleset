@@ -55,13 +55,8 @@ export default function Home() {
             key={s.id}
             href={`/sports/${s.id}/`}
             className="group block border-l-4 pl-4"
-            style={{ borderColor: `var(--x)` }}
+            style={{ borderColor: colourOf(s.family_colour) }}
           >
-            <span
-              aria-hidden
-              className="mb-2 block h-1 w-10"
-              style={{ background: colourOf(s.family_colour) }}
-            />
             <h3 className="font-display text-2xl text-chalk group-hover:underline">{s.label}</h3>
             <p className="mt-1 text-[15px] text-chalk/70">{s.tagline}</p>
           </Link>
