@@ -15,6 +15,15 @@ export default function ProgramPage() {
   const years = program.editions.map((e) => e.year)
   const deepCount = program.sports.filter((s) => s.coverage === 'deep').length
 
+  /* Column headers are two digits or the table will not fit, and across
+     1896–2028 that made sixteen of the thirty-one columns ambiguous: 96, 00,
+     04, 08, 12, 20, 24 and 28 each name two different Games. A band above the
+     digits says which century you are reading. */
+  const centuries = [
+    program.editions.filter((e) => e.year < 2000),
+    program.editions.filter((e) => e.year >= 2000),
+  ].filter((c) => c.length > 0)
+
   const sports = [...program.sports].sort((a, b) => {
     if (a.coverage !== b.coverage) return a.coverage === 'deep' ? -1 : 1
     return b.held.length - a.held.length || a.label.localeCompare(b.label)
@@ -78,25 +87,47 @@ export default function ProgramPage() {
           <thead>
             <tr>
               <th
+                rowSpan={2}
                 scope="col"
-                className="sticky left-0 z-10 bg-ink px-3 py-2.5 text-left font-display text-[15px] font-normal text-chalk"
+                className="sticky left-0 z-10 bg-ink px-3 py-2.5 text-left align-bottom font-display text-[15px] font-normal text-chalk"
               >
                 Sport
               </th>
+              {centuries.map((c, i) => (
+                <th
+                  key={c[0].year}
+                  colSpan={c.length}
+                  scope="colgroup"
+                  className={`numeral px-1 pb-1 pt-2.5 text-center text-[12px] font-normal text-unmarked ${
+                    i > 0 ? 'shadow-[inset_1px_0_0_rgb(242_245_241_/_0.13)]' : ''
+                  }`}
+                >
+                  {c[0].year}&ndash;{c[c.length - 1].year}
+                </th>
+              ))}
+              <th
+                rowSpan={2}
+                scope="col"
+                className="px-3 py-2.5 text-right align-bottom font-normal text-unmarked"
+              >
+                Total
+              </th>
+            </tr>
+            <tr>
               {program.editions.map((e) => (
                 <th
                   key={e.year}
                   scope="col"
-                  className="numeral px-1 py-2.5 text-center text-[12px] font-normal text-chalk/55"
+                  className={`numeral px-1 pb-2.5 text-center text-[12px] font-normal text-chalk/65 ${
+                    e.year === 2000 ? 'shadow-[inset_1px_0_0_rgb(242_245_241_/_0.13)]' : ''
+                  }`}
                 >
-                  <span title={`${e.city}${e.note ? ` — ${e.note}` : ''}`}>
+                  <span title={`${e.year} — ${e.city}${e.note ? ` — ${e.note}` : ''}`}>
                     {String(e.year).slice(2)}
                   </span>
+                  <span className="sr-only">{e.year}</span>
                 </th>
               ))}
-              <th scope="col" className="px-3 py-2.5 text-right font-normal text-unmarked">
-                Total
-              </th>
             </tr>
           </thead>
           <tbody>
@@ -121,7 +152,9 @@ export default function ProgramPage() {
                   {years.map((y) => (
                     <td
                       key={y}
-                      className="border-t chalk-rule px-1 py-1.5 text-center transition-colors group-hover:bg-chalk/[0.04]"
+                      className={`border-t chalk-rule px-1 py-1.5 text-center transition-colors group-hover:bg-chalk/[0.04] ${
+                        y === 2000 ? 'shadow-[inset_1px_0_0_rgb(242_245_241_/_0.13)]' : ''
+                      }`}
                     >
                       {held.has(y) ? (
                         <span
@@ -137,7 +170,7 @@ export default function ProgramPage() {
                           headers already carry the context. */}
                     </td>
                   ))}
-                  <td className="numeral border-t chalk-rule px-3 py-1.5 text-right text-[15px] text-chalk/70">
+                  <td className="numeral border-t chalk-rule px-3 py-1.5 text-right text-[15px] text-chalk/70 transition-colors group-hover:bg-chalk/[0.04]">
                     {sport.held.length}
                   </td>
                 </tr>
