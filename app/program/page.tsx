@@ -1,16 +1,19 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { Reveal } from '@/components/Motion'
 import { getProgram, getSources } from '@/lib/content'
 
 export const metadata: Metadata = {
   title: 'Olympic programme',
-  description: 'Every sport on the Games of the Olympiad, with its status per edition. Status data only.',
+  description:
+    'Every sport on the Games of the Olympiad, with its status per edition. Status data only.',
 }
 
 export default function ProgramPage() {
   const program = getProgram()
   const source = getSources().find((s) => s.id === program.source)
   const years = program.editions.map((e) => e.year)
+  const deepCount = program.sports.filter((s) => s.coverage === 'deep').length
 
   const sports = [...program.sports].sort((a, b) => {
     if (a.coverage !== b.coverage) return a.coverage === 'deep' ? -1 : 1
@@ -18,27 +21,46 @@ export default function ProgramPage() {
   })
 
   return (
-    <div className="mx-auto max-w-[100rem] px-5 py-10 sm:py-14">
-      <h1 className="font-display text-5xl text-chalk">The Olympic programme</h1>
-      <div className="prose-measure mt-4 space-y-4 text-[17px] text-chalk/85">
-        <p>
-          Every sport contested at the Games of the Olympiad, with its status per
-          edition. This is the skeleton layer: structured data, not research.
-        </p>
-        <p className="text-unmarked">
-          Nothing on this page carries a cause or a rule citation, and no sport
-          here should be read as researched merely because it appears in a table
-          next to one that is. Sourced to{' '}
-          {source?.url ? (
-            <a href={source.url} className="underline underline-offset-4" target="_blank" rel="noopener noreferrer">
-              {source.title}
-            </a>
-          ) : (
-            source?.title
-          )}
-          , last reviewed {program.last_reviewed}.
-        </p>
-      </div>
+    <div className="mx-auto max-w-[100rem] px-5 py-12 sm:py-16">
+      <Reveal>
+        <p className="eyebrow">The skeleton layer</p>
+        <h1 className="display-xl mt-4 max-w-[18ch] text-fluid-h1 text-chalk">
+          The Olympic programme
+        </h1>
+        <div className="prose-measure mt-5 space-y-4 text-fluid-base text-chalk/85">
+          <p>
+            Every sport contested at the Games of the Olympiad, with its status
+            per edition. This is structured data, not research: cheap to build,
+            and interesting on its own.
+          </p>
+          <p className="text-unmarked">
+            Nothing on this page carries a cause or a rule citation, and no sport
+            here should be read as researched merely because it appears in a
+            table next to one that is. Sourced to{' '}
+            {source?.url ? (
+              <a
+                href={source.url}
+                className="link-paint text-chalk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {source.title}
+              </a>
+            ) : (
+              source?.title
+            )}
+            , last reviewed {program.last_reviewed}.
+          </p>
+        </div>
+      </Reveal>
+
+      <Reveal delay={80}>
+        <dl className="mt-10 grid gap-px border chalk-rule bg-chalk/[0.08] sm:grid-cols-3">
+          <Stat n={program.editions.length} label="editions" sub={`${years[0]} to ${years[years.length - 1]}`} />
+          <Stat n={program.sports.length} label="sports listed" sub="ever contested" />
+          <Stat n={deepCount} label="researched here" sub="the rest are status only" />
+        </dl>
+      </Reveal>
 
       {/* border-separate, not border-collapse: a sticky cell inside a
           collapsed-border table leaks its width to the root scroller in
@@ -47,7 +69,7 @@ export default function ProgramPage() {
           positioned, so without a positioned ancestor its containing block is
           the viewport, it escapes this container's clipping, and ~700 of them
           drag the whole page into a horizontal scroll on a phone. */}
-      <div className="relative mt-10 max-w-full overflow-x-auto border chalk-rule">
+      <div className="relative mt-10 max-w-full overflow-x-auto border chalk-rule bg-surface/30">
         <table className="w-full border-separate border-spacing-0 text-[13px]">
           <caption className="sr-only">
             Olympic status per sport per edition. A filled cell means the sport
@@ -55,21 +77,24 @@ export default function ProgramPage() {
           </caption>
           <thead>
             <tr>
-              <th scope="col" className="sticky left-0 z-10 bg-surface px-3 py-2 text-left font-display text-[15px] font-normal text-chalk">
+              <th
+                scope="col"
+                className="sticky left-0 z-10 bg-ink px-3 py-2.5 text-left font-display text-[15px] font-normal text-chalk"
+              >
                 Sport
               </th>
               {program.editions.map((e) => (
                 <th
                   key={e.year}
                   scope="col"
-                  className="numeral px-1 py-2 text-center text-[12px] font-normal text-chalk/60"
+                  className="numeral px-1 py-2.5 text-center text-[12px] font-normal text-chalk/55"
                 >
                   <span title={`${e.city}${e.note ? ` — ${e.note}` : ''}`}>
                     {String(e.year).slice(2)}
                   </span>
                 </th>
               ))}
-              <th scope="col" className="px-3 py-2 text-right font-normal text-unmarked">
+              <th scope="col" className="px-3 py-2.5 text-right font-normal text-unmarked">
                 Total
               </th>
             </tr>
@@ -78,13 +103,13 @@ export default function ProgramPage() {
             {sports.map((sport) => {
               const held = new Set(sport.held)
               return (
-                <tr key={sport.id}>
+                <tr key={sport.id} className="group">
                   <th
                     scope="row"
-                    className="sticky left-0 z-10 border-t chalk-rule bg-surface px-3 py-1.5 text-left text-[14px] font-normal"
+                    className="sticky left-0 z-10 border-t chalk-rule bg-ink px-3 py-1.5 text-left text-[14px] font-normal transition-colors group-hover:bg-raised"
                   >
                     {sport.coverage === 'deep' ? (
-                      <Link href={`/sports/${sport.id}/`} className="text-chalk underline underline-offset-4">
+                      <Link href={`/sports/${sport.id}/`} className="link-paint text-chalk">
                         {sport.label}
                       </Link>
                     ) : (
@@ -94,10 +119,13 @@ export default function ProgramPage() {
                     )}
                   </th>
                   {years.map((y) => (
-                    <td key={y} className="border-t chalk-rule px-1 py-1.5 text-center">
+                    <td
+                      key={y}
+                      className="border-t chalk-rule px-1 py-1.5 text-center transition-colors group-hover:bg-chalk/[0.04]"
+                    >
                       {held.has(y) ? (
                         <span
-                          className={`mx-auto block h-2.5 w-2.5 ${
+                          className={`mx-auto block h-2.5 w-2.5 transition-transform duration-300 group-hover:scale-125 ${
                             sport.coverage === 'deep' ? 'bg-chalk' : 'bg-unmarked'
                           }`}
                           title={`${sport.label}, ${y}`}
@@ -109,7 +137,7 @@ export default function ProgramPage() {
                           headers already carry the context. */}
                     </td>
                   ))}
-                  <td className="numeral border-t chalk-rule px-3 py-1.5 text-right text-chalk/70">
+                  <td className="numeral border-t chalk-rule px-3 py-1.5 text-right text-[15px] text-chalk/70">
                     {sport.held.length}
                   </td>
                 </tr>
@@ -119,18 +147,42 @@ export default function ProgramPage() {
         </table>
       </div>
 
-      <h2 className="mt-14 font-display text-3xl text-chalk">Absences worth noticing</h2>
-      <ul className="prose-measure mt-4 space-y-3 text-[16px] text-chalk/85">
-        {sports
-          .filter((s) => s.note)
-          .map((s) => (
-            <li key={s.id}>
-              <span className="font-display text-[19px] text-chalk">{s.label}</span>
-              {' — '}
-              {s.note}
-            </li>
-          ))}
-      </ul>
+      <p className="mt-3 text-[13px] text-unmarked">
+        A filled cell means the sport was contested at that Games. Bright cells
+        are the researched sports; grey ones are status data only.
+      </p>
+
+      <Reveal as="section" className="mt-16">
+        <h2 className="flex items-baseline gap-4 font-display text-fluid-h2 text-chalk">
+          Absences worth noticing
+          <span aria-hidden className="h-px flex-1 bg-chalk/15" />
+        </h2>
+        <ul className="mt-8 grid gap-x-10 gap-y-6 md:grid-cols-2 xl:grid-cols-3">
+          {sports
+            .filter((s) => s.note)
+            .map((s) => (
+              <li key={s.id} className="border-l-2 border-chalk/20 pl-5">
+                <p className="flex items-baseline gap-3">
+                  <span className="font-display text-[21px] text-chalk">{s.label}</span>
+                  <span className="numeral text-[13px] text-unmarked">
+                    {s.held.length} edition{s.held.length === 1 ? '' : 's'}
+                  </span>
+                </p>
+                <p className="mt-1 text-[15px] leading-snug text-chalk/75">{s.note}</p>
+              </li>
+            ))}
+        </ul>
+      </Reveal>
+    </div>
+  )
+}
+
+function Stat({ n, label, sub }: { n: number; label: string; sub: string }) {
+  return (
+    <div className="bg-ink px-5 py-5">
+      <dd className="numeral text-fluid-h3 leading-none text-chalk">{n}</dd>
+      <dt className="mt-1.5 text-[15px] text-chalk/80">{label}</dt>
+      <p className="mt-0.5 text-[13px] text-unmarked">{sub}</p>
     </div>
   )
 }
