@@ -2,7 +2,9 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { scaleLinear } from 'd3'
-import { BREAK_KIND_LABEL, chartTitle, layoutSeries, type SegmentLayout } from '@/lib/series'
+import {
+  BREAK_GUTTER, BREAK_KIND_LABEL, chartTitle, layoutSeries, type SegmentLayout,
+} from '@/lib/series'
 import type { Series } from '@/lib/types'
 
 const CHALK = '#F2F5F1'
@@ -25,11 +27,18 @@ const SURFACE: Record<string, string> = {
 export default function SeriesChart({
   series,
   colour = 'pool',
+  now,
 }: {
   series: Series
   colour?: string
+  /**
+   * The year an open-ended segment runs to. Passed in from the server rather
+   * than read from the clock here: this is a static export, so the client would
+   * otherwise compute a different year from the one baked into the HTML.
+   */
+  now: number
 }) {
-  const layout = useMemo(() => layoutSeries(series), [series])
+  const layout = useMemo(() => layoutSeries(series, now), [series, now])
   const [width, setWidth] = useState(880)
   const wrap = useRef<HTMLDivElement>(null)
 
@@ -81,7 +90,7 @@ export default function SeriesChart({
   const w = Math.max(width, 320)
   const stacked = w < 640
   const h = stacked ? 150 * layout.segments.length + 46 : 320
-  const pad = { top: 26, right: 12, bottom: 34, left: 46 }
+  const pad = { top: 26, right: 12, bottom: 44, left: 46 }
 
   return (
     <figure ref={wrap} className="my-10">
@@ -130,7 +139,10 @@ export default function SeriesChart({
         {/* The gutter. The eye must not be able to complete the line. */}
         {series.break && layout.segments.length > 1 && !stacked && (
           <BreakGutter
-            x={pad.left + (layout.segments[0].widthFraction + 0.5 * 0.07) * (w - pad.left - pad.right)}
+            x={
+              pad.left +
+              (layout.segments[0].widthFraction + BREAK_GUTTER / 2) * (w - pad.left - pad.right)
+            }
             top={pad.top - 14}
             bottom={h - pad.bottom + 10}
             year={series.break.at}
@@ -202,8 +214,11 @@ function SegmentPanel({
       <rect x={box.x} y={box.y} width={box.w} height={box.h} fill={family} fillOpacity={0.14} />
 
       {seg.points.length === 0 ? (
-        <foreignObject x={box.x} y={box.y} width={box.w} height={box.h}>
-          <div className="flex h-full items-center justify-center p-3 text-center text-[13px] leading-snug text-unmarked">
+        <foreignObject x={box.x} y={box.y} width={Math.max(0, box.w)} height={Math.max(0, box.h)}>
+          <div
+            className="flex h-full w-full items-center justify-center overflow-hidden p-4 text-center text-[13px] leading-snug text-unmarked"
+            style={{ maxWidth: box.w }}
+          >
             {seg.note?.replace(/\s+/g, ' ') ?? 'No points recorded in this segment.'}
           </div>
         </foreignObject>
@@ -218,16 +233,20 @@ function SegmentPanel({
               </title>
             </g>
           ))}
-          {/* First and last value labelled, so the panel reads without hover. */}
-          <text
-            x={x(seg.points[0].year)} y={yy(seg.points[0].value) - 9}
-            className="numeral" fontSize={12} fill={CHALK} fillOpacity={0.75}
-          >
-            {format(seg.points[0].value, unit)}
-          </text>
+          {/* First and last value labelled, so the panel reads without hover.
+              With a single point the two labels would collide, so only the
+              last is drawn — it is the same number either way. */}
+          {seg.points.length > 1 && (
+            <text
+              x={x(seg.points[0].year)} y={clamp(yy(seg.points[0].value) - 9, box)}
+              className="numeral" fontSize={12} fill={CHALK} fillOpacity={0.75}
+            >
+              {format(seg.points[0].value, unit)}
+            </text>
+          )}
           <text
             x={box.x + box.w - 6}
-            y={yy(seg.points[seg.points.length - 1].value) - 9}
+            y={clamp(yy(seg.points[seg.points.length - 1].value) - 9, box)}
             className="numeral" fontSize={13} fill={CHALK} textAnchor="end"
           >
             {format(seg.points[seg.points.length - 1].value, unit)}
@@ -250,6 +269,11 @@ function SegmentPanel({
   )
 }
 
+/** Keeps a value label inside its own panel rather than over the axis. */
+function clamp(y: number, box: { y: number; h: number }): number {
+  return Math.min(Math.max(y, box.y + 12), box.y + box.h - 4)
+}
+
 function BreakGutter({ x, top, bottom, year }: { x: number; top: number; bottom: number; year: number }) {
   return (
     <g>
@@ -261,7 +285,7 @@ function BreakGutter({ x, top, bottom, year }: { x: number; top: number; bottom:
         {year}
       </text>
       <text
-        x={x} y={bottom + 16}
+        x={x} y={bottom + 26}
         fontSize={11} fill={UNMARKED} textAnchor="middle"
       >
         not comparable

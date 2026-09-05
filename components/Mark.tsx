@@ -56,10 +56,10 @@ export function Mark({
       d={markPath(shape, size)}
       fill={hollow ? 'none' : colour}
       stroke={colour}
-      strokeWidth={hollow ? 1.6 : 0.75}
       // A rule adopted and then rescinded is drawn as an outline: it was on the
-      // books, so it belongs on the lane, but it never governed anything.
-      strokeDasharray={withdrawn && !isHollow(shape) ? '2.2 1.8' : undefined}
+      // books, so it belongs on the lane, but it never governed anything. A
+      // dashed outline was illegible at 11px, so the weight carries it instead.
+      strokeWidth={hollow ? 1.6 : 0.75}
     />
   )
 }

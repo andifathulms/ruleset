@@ -29,6 +29,7 @@ export function generateMetadata({ params }: { params: { sport: string } }): Met
 export default function SportPage({ params }: { params: { sport: string } }) {
   if (!getSportIds().includes(params.sport)) notFound()
 
+  const now = new Date().getFullYear()
   const sport = getSport(params.sport)
   const rules = getRuleChanges(params.sport)
   const series = getSeriesForSport(params.sport)
@@ -150,7 +151,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
           ) : (
             series.map((s) => (
               <div key={s.id} id={s.id}>
-                <SeriesChart series={s} colour={sport.family_colour} />
+                <SeriesChart series={s} colour={sport.family_colour} now={now} />
               </div>
             ))
           )}

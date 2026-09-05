@@ -12,6 +12,8 @@ export const metadata: Metadata = {
 const KIND_ORDER = ['reset', 'retained', 'scale-change', 'scoped', 'none']
 
 export default function BreaksPage() {
+  // Baked at build time so the static HTML and the client agree.
+  const now = new Date().getFullYear()
   const all = getAllSeries().filter(({ series }) => series.break)
   const rules = Object.fromEntries(getAllRuleChanges().map((r) => [r.id, r]))
   const sports = Object.fromEntries(getSports().map((s) => [s.id, s]))
@@ -64,7 +66,7 @@ export default function BreaksPage() {
               <>
                 <h2 className="mt-2 font-display text-4xl text-chalk">
                   <Link href={`/sports/${sport}/#${rule.id}`} className="hover:underline">
-                    {rule.what_changed.trim().split(/(?<=\.)\s/)[0]}
+                    {headline(rule.what_changed)}
                   </Link>
                 </h2>
                 <p className="prose-measure mt-3 text-[16px] text-unmarked">
@@ -74,7 +76,7 @@ export default function BreaksPage() {
                 </p>
               </>
             )}
-            <SeriesChart series={series} colour={s?.family_colour ?? 'unmarked'} />
+            <SeriesChart series={series} colour={s?.family_colour ?? 'unmarked'} now={now} />
           </section>
         )
       })}
@@ -104,6 +106,12 @@ export default function BreaksPage() {
       </section>
     </div>
   )
+}
+
+/** The first sentence, trimmed to something that sets on two lines at display size. */
+function headline(text: string): string {
+  const first = text.trim().split(/(?<=\.)\s/)[0]
+  return first.length > 104 ? `${first.slice(0, 101).trimEnd()}…` : first
 }
 
 const KIND_BLURB: Record<string, string> = {

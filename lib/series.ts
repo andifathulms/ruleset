@@ -40,9 +40,15 @@ export type SeriesLayout =
 /** The gutter drawn at a break, as a fraction of plot width. Visible on purpose. */
 export const BREAK_GUTTER = 0.07
 
-function span(seg: SeriesSegment): { from: number; to: number } {
+/**
+ * An open-ended segment runs to now, not to its last point. That matters most
+ * where a segment has no points at all: the men's 200 m freestyle has had no
+ * ratified mark since 2009, and the blank years since are the finding. Sizing
+ * that panel by its contents would collapse it to nothing and hide it.
+ */
+function span(seg: SeriesSegment, now: number): { from: number; to: number } {
   const years = seg.points.map((p) => p.year)
-  const to = seg.to ?? (years.length ? Math.max(...years) : seg.from)
+  const to = seg.to ?? Math.max(now, ...years, seg.from + 1)
   return { from: seg.from, to: Math.max(to, seg.from + 1) }
 }
 
@@ -60,10 +66,10 @@ function padded(values: number[]): [number, number] {
  * span, or if any point sits on the far side of the break from its segment.
  * A silently misfiled point is exactly how a line ends up crossing a break.
  */
-export function assertSegmentsAreClean(series: Series): void {
+export function assertSegmentsAreClean(series: Series, now = new Date().getFullYear()): void {
   const at = series.break?.at
   for (const seg of series.segments) {
-    const { from, to } = span(seg)
+    const { from, to } = span(seg, now)
     for (const p of seg.points) {
       if (p.year < from || p.year > to) {
         throw new Error(
@@ -87,19 +93,28 @@ export function assertSegmentsAreClean(series: Series): void {
   }
 }
 
-export function layoutSeries(series: Series): SeriesLayout {
-  if (series.cannot_exist) return { kind: 'absent', reason: series.cannot_exist }
-  assertSegmentsAreClean(series)
+/** Below this, a panel is too narrow to read a note or an axis label in. */
+const MIN_SEGMENT_FRACTION = 0.22
 
-  const spans = series.segments.map(span)
+export function layoutSeries(series: Series, now = new Date().getFullYear()): SeriesLayout {
+  if (series.cannot_exist) return { kind: 'absent', reason: series.cannot_exist }
+  assertSegmentsAreClean(series, now)
+
+  const spans = series.segments.map((seg) => span(seg, now))
   const total = spans.reduce((sum, s) => sum + (s.to - s.from), 0)
   const gutters = Math.max(0, series.segments.length - 1) * BREAK_GUTTER
   const usable = 1 - gutters
 
+  // Proportional to the years each segment covers, then floored so a short
+  // segment stays legible, with the remainder taken from the longer ones.
+  const raw = spans.map((s) => (total > 0 ? (s.to - s.from) / total : 1 / spans.length))
+  const floored = raw.map((f) => Math.max(f, MIN_SEGMENT_FRACTION))
+  const scale = 1 / floored.reduce((a, b) => a + b, 0)
+
   let offset = 0
   const segments: SegmentLayout[] = series.segments.map((seg, i) => {
     const { from, to } = spans[i]
-    const widthFraction = total > 0 ? ((to - from) / total) * usable : usable
+    const widthFraction = floored[i] * scale * usable
     const layout: SegmentLayout = {
       id: seg.id,
       from,

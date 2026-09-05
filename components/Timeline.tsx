@@ -31,8 +31,8 @@ export interface TimelineProps {
   sources: Source[]
 }
 
-const LANE_H = 92
-const PAD = { top: 34, right: 24, bottom: 44, left: 128 }
+const LANE_H = 104
+const PAD = { top: 46, right: 24, bottom: 44, left: 128 }
 
 export default function Timeline(props: TimelineProps) {
   const { rules, series, lenses, causes, sports } = props
@@ -80,7 +80,6 @@ export default function Timeline(props: TimelineProps) {
 
   // Switching lens rebuilds the lanes, rather than recolouring marks in place.
   const lanes = useMemo(() => buildLanes(lens, marks, series), [lens, marks, series])
-  const drawn = lanes.filter((l) => !l.empty || l.members.length > 0)
 
   const vertical = width > 0 && width < 760
   const selectedRule = selected ? ruleMap[selected] : null
@@ -107,7 +106,7 @@ export default function Timeline(props: TimelineProps) {
 
       {vertical ? (
         <VerticalBoard
-          lanes={drawn}
+          lanes={lanes}
           bounds={bounds}
           causeMap={causeMap}
           withdrawn={withdrawn}
@@ -117,7 +116,7 @@ export default function Timeline(props: TimelineProps) {
       ) : (
         <HorizontalBoard
           key={lensId}
-          lanes={drawn}
+          lanes={lanes}
           bounds={bounds}
           width={width}
           causeMap={causeMap}
@@ -362,15 +361,23 @@ function LaneRow({
 
   return (
     <g>
-      {/* The lane is painted in the family colour at low opacity. */}
+      {/* The lane is painted in the family colour. The tint alone went muddy
+          against the dark teal ground — gold and pitch were hard to separate —
+          so a saturated swatch of the pure colour caps the left edge as a
+          reference. An uncovered lane is painted in `unmarked` and stays
+          visible: an empty lane is a fact about the coverage, not noise. */}
       <rect
         x={left} y={y - LANE_H / 2 + 10} width={Math.max(0, right - left)} height={LANE_H - 20}
-        fill={colour} fillOpacity={0.16}
+        fill={lane.empty ? UNMARKED : colour} fillOpacity={lane.empty ? 0.07 : 0.26}
+      />
+      <rect
+        x={left} y={y - LANE_H / 2 + 10} width={5} height={LANE_H - 20}
+        fill={lane.empty ? UNMARKED : colour} fillOpacity={lane.empty ? 0.5 : 1}
       />
 
       <text
         x={left - 14} y={y - 4}
-        className="font-display" fontSize={20} fill={CHALK} textAnchor="end"
+        className="font-display" fontSize={20} fill={lane.empty ? UNMARKED : CHALK} textAnchor="end"
       >
         {lane.label}
       </text>
@@ -378,7 +385,7 @@ function LaneRow({
         x={left - 14} y={y + 14}
         fontSize={12} fill={UNMARKED} textAnchor="end"
       >
-        {lane.members.length ? `${lane.marks.length} changes` : 'not yet covered'}
+        {lane.empty ? 'not yet covered' : `${lane.marks.length} changes`}
       </text>
 
       {/* The chalk centre line, in pieces. A break is the only thing that
@@ -391,7 +398,10 @@ function LaneRow({
           <line
             key={i}
             x1={p.x1} x2={p.x2} y1={y + p.dy} y2={y + p.dy}
-            stroke={CHALK} strokeOpacity={0.85} strokeWidth={2}
+            stroke={lane.empty ? UNMARKED : CHALK}
+            strokeOpacity={lane.empty ? 0.45 : 0.85}
+            strokeWidth={2}
+            strokeDasharray={lane.empty ? '2 7' : undefined}
           />
         ))}
         {steps.map((s, i) => (
@@ -401,8 +411,8 @@ function LaneRow({
               stroke={CHALK} strokeOpacity={0.4} strokeWidth={2} strokeDasharray="3 3"
             />
             <text
-              x={s.x} y={y - 26}
-              className="numeral" fontSize={12} fill={CHALK} fillOpacity={0.7} textAnchor="middle"
+              x={s.x} y={y - 40}
+              className="numeral" fontSize={12} fill={CHALK} fillOpacity={0.75} textAnchor="middle"
             >
               break {s.year}
             </text>
@@ -482,7 +492,7 @@ function VerticalBoard({
     .sort((a, b) => a.mark.time - b.mark.time)
 
   return (
-    <ol className="mt-6 border-l-2 border-chalk/25 pl-0">
+    <ol className="ml-3 mt-6 border-l-2 border-chalk/25">
       {rows.map(({ mark, lane, isBreak }) => {
         const cause = causeMap[mark.cause]
         const colour = SURFACE[lane.colour] ?? UNMARKED
