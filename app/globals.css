@@ -364,3 +364,17 @@
     animation-iteration-count: 1 !important;
   }
 }
+
+/* A record point grows under the cursor rather than needing a hit target drawn. */
+.chart-point circle:nth-of-type(2) {
+  transition: r 0.2s cubic-bezier(0.34, 1.32, 0.42, 1), stroke-width 0.2s ease;
+}
+
+.chart-point:hover circle:nth-of-type(2) {
+  r: 5.5;
+  stroke-width: 3;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chart-point circle:nth-of-type(2) { transition: none; }
+}
