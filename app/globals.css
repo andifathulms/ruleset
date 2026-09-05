@@ -333,6 +333,14 @@
   transform: translateY(-4px);
 }
 
+/* Printing never scrolls, so a deferred reveal would print a blank column. */
+@media print {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   /* The painted board arrives immediately; lens switching does not tween. */
   html { scroll-behavior: auto; }

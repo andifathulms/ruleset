@@ -298,7 +298,7 @@ function Controls({
                   on
                     ? 'border-chalk bg-chalk text-ink'
                     : active.length
-                      ? 'border-chalk/15 text-chalk/45 hover:border-chalk/40 hover:text-chalk'
+                      ? 'border-chalk/15 text-chalk/55 hover:border-chalk/40 hover:text-chalk'
                       : 'border-chalk/20 text-chalk/85 hover:border-chalk/50 hover:text-chalk'
                 }`}
               >
@@ -770,7 +770,7 @@ function VerticalBoard({
         return (
           <li key={mark.id} className="relative">
             {newDecade && (
-              <p className="numeral -ml-5 mb-1 mt-4 bg-surface pl-1 pr-2 text-[13px] text-unmarked first:mt-0">
+              <p className="numeral -ml-[10px] mb-1 mt-6 w-fit bg-ink px-2 py-0.5 text-[13px] text-unmarked">
                 {decade}s
               </p>
             )}

@@ -165,7 +165,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
         {sections
           .filter((s) => s.slug === 'origin')
           .map((s) => (
-            <Section key={s.slug} title={s.title} id={s.slug} n={1} colour={c.bright}>
+            <Section key={s.slug} title={s.title} id={s.slug} n={1} colour={c.bright} reading tint={c.base}>
               <Prose source={s.body} />
             </Section>
           ))}
@@ -184,7 +184,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
         {sections
           .filter((s) => s.slug === 'equipment')
           .map((s) => (
-            <Section key={s.slug} title={s.title} id={s.slug} n={3} colour={c.bright}>
+            <Section key={s.slug} title={s.title} id={s.slug} n={3} colour={c.bright} reading tint={c.base}>
               <Prose source={s.body} />
             </Section>
           ))}
@@ -193,7 +193,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
         {sections
           .filter((s) => s.slug === 'politics')
           .map((s) => (
-            <Section key={s.slug} title={s.title} id={s.slug} n={4} colour={c.bright}>
+            <Section key={s.slug} title={s.title} id={s.slug} n={4} colour={c.bright} reading tint={c.base}>
               <Prose source={s.body} />
             </Section>
           ))}
@@ -202,7 +202,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
         {sections
           .filter((s) => s.slug === 'controversies')
           .map((s) => (
-            <Section key={s.slug} title={s.title} id={s.slug} n={5} colour={c.bright}>
+            <Section key={s.slug} title={s.title} id={s.slug} n={5} colour={c.bright} reading tint={c.base}>
               <Prose source={s.body} />
             </Section>
           ))}
@@ -250,13 +250,17 @@ function Fact({ term, value, numeral }: { term: string; value: string; numeral?:
 }
 
 function Section({
-  title, id, n, colour, children,
+  title, id, n, colour, children, reading, tint,
 }: {
   title: string
   id: string
   n: number
   colour: string
   children: React.ReactNode
+  /** Narrative sections read on a tint of the family colour (DESIGN.md), so
+      reading mode is recognisable without being labelled. */
+  reading?: boolean
+  tint?: string
 }) {
   return (
     <section id={id} className="mt-20 scroll-mt-24">
@@ -269,7 +273,21 @@ function Section({
           <span aria-hidden className="h-px flex-1 bg-chalk/[0.12]" />
         </h2>
       </Reveal>
-      <Reveal delay={80}>{children}</Reveal>
+      <Reveal delay={80}>
+        {reading ? (
+          <div
+            className="border-l-2 py-9 pl-6 pr-5 sm:pl-12"
+            style={{
+              borderColor: colour,
+              background: `linear-gradient(100deg, ${tint}26, ${tint}08 55%, transparent 88%)`,
+            }}
+          >
+            {children}
+          </div>
+        ) : (
+          children
+        )}
+      </Reveal>
     </section>
   )
 }
