@@ -1,0 +1,21 @@
+id: football
+label: Football
+tagline: The sport with no central record book, and therefore no way to break one.
+governing_body: FIFA, with the Laws held by the International Football Association Board
+founded: >
+  Laws of the Game first codified by the Football Association in 1863; the
+  International Football Association Board formed in 1886 and has held the Laws
+  since.
+coverage: deep
+family_colour: pitch
+classification:
+  official: football
+  game-category: invasion
+  adjudication: decided-by-score
+summary: >
+  Football's rules govern space and time rather than an implement or a scale,
+  so its comparability problem takes a different shape. There is no world
+  record to reset, and no single body that keeps a continuous quantitative
+  series for the sport. Any rate statistic — goals per game above all — belongs
+  to one named competition and must be labelled as that competition wherever it
+  appears.

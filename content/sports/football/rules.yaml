@@ -1,0 +1,146 @@
+- id: ifab-1925-offside
+  scope: { sport: football, discipline: all }
+  date_adopted: 1925-06
+  date_effective: 1925-07
+  status: adopted
+  governing_body: International Football Association Board
+  what_changed: >
+    Law 11 was amended so that two opponents, rather than three, must be
+    between an attacker and the goal line for the attacker to be onside. The
+    change is small on the page and enormous on the pitch: it is the origin of
+    the modern defensive line and, indirectly, of the centre-half becoming a
+    defender.
+  cause_primary: dominance suppression
+  cause_secondary: commercial
+  trigger:
+    description: >
+      The offside trap as developed at Newcastle United, associated with Bill
+      McCracken, had become reliable enough to suppress scoring across the
+      English league, and attendances were understood to be suffering for it.
+      The Board legislated against a tactic rather than against a team.
+  citation:
+    source: ifab-laws-of-the-game
+    edition: Laws of the Game, 1925/26
+    article: "Law 11"
+  comparability_break: null
+
+- id: ifab-1992-back-pass
+  scope: { sport: football, discipline: all }
+  date_adopted: 1992-06
+  date_effective: 1992-07
+  status: adopted
+  governing_body: International Football Association Board
+  what_changed: >
+    A goalkeeper may no longer handle the ball after it has been deliberately
+    kicked to them by a team-mate; doing so is an indirect free kick. The rule
+    removed the single most effective method of running down the clock and
+    forced goalkeepers to become players who use their feet.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      The 1990 World Cup is the standard reference: the lowest goals-per-game
+      figure of any finals tournament, and sustained time-wasting in which the
+      ball was passed back and picked up. The Board's concern was the
+      watchability of the game as a broadcast product.
+  citation:
+    source: ifab-laws-of-the-game
+    edition: Laws of the Game, 1992/93
+    article: "Law 12"
+  comparability_break: goals-per-game-scoped
+
+- id: ifab-1993-golden-goal
+  scope: { sport: football, discipline: all }
+  date_adopted: 1993
+  date_effective: 1993
+  status: adopted
+  governing_body: International Football Association Board
+  what_changed: >
+    Competitions were permitted to end extra time immediately upon a goal being
+    scored, the match finishing at that moment. Adopted into the Laws as an
+    option for competition organisers rather than as a universal requirement.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      The stated aim was to encourage attacking play in extra time and to
+      reduce the number of ties decided by penalty kicks.
+    also_said: >
+      In practice it was widely reported to have had the opposite effect, with
+      teams becoming more cautious because a single concession ended the match
+      with no chance to reply. That reading is what the 2004 reversal rests on.
+  citation:
+    source: ifab-laws-of-the-game
+    edition: Laws of the Game, 1993/94
+    missing: true
+  comparability_break: null
+
+- id: ifab-1998-tackle-from-behind
+  scope: { sport: football, discipline: all }
+  date_adopted: 1998
+  date_effective: 1998-06
+  status: adopted
+  governing_body: International Football Association Board
+  what_changed: >
+    A tackle from behind that endangers the safety of an opponent was made a
+    sending-off offence, rather than a cautionable one. Applied from the 1998
+    World Cup.
+  cause_primary: safety
+  trigger:
+    description: >
+      A sustained pattern of serious leg injuries from challenges made from
+      behind, where the player being tackled cannot see the challenge coming
+      and cannot protect the standing leg.
+  citation:
+    source: ifab-laws-of-the-game
+    edition: Laws of the Game, 1998/99
+    article: "Law 12"
+  comparability_break: null
+
+- id: ifab-2004-golden-goal-abolished
+  scope: { sport: football, discipline: all }
+  date_adopted: 2004-02
+  date_effective: 2004
+  status: adopted
+  governing_body: International Football Association Board
+  what_changed: >
+    Golden goal, and the silver goal variant that had briefly replaced it, were
+    removed from the Laws. Extra time returned to two full periods played out
+    in full. Eleven years after adopting a change to make extra time more
+    attacking, the Board concluded that it had made it less so and reversed it.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      The reversal is one of the few cases in this collection where a governing
+      body publicly accepted that a rule change had produced the opposite of
+      its stated aim.
+  citation:
+    source: ifab-circulars
+    edition: IFAB Annual General Meeting, 2004
+    missing: true
+  comparability_break: null
+
+- id: ifab-2018-var
+  scope: { sport: football, discipline: all }
+  date_adopted: 2018-03
+  date_effective: 2018-06
+  status: adopted
+  governing_body: International Football Association Board
+  what_changed: >
+    Video assistant referees were written into the Laws of the Game after a
+    two-year trial, permitting review of four categories of decision: goals,
+    penalty decisions, direct red cards, and mistaken identity. Review is
+    limited to clear and obvious errors and serious missed incidents; the
+    referee's decision remains the decision.
+  cause_primary: integrity
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      No single incident. The Board's stated case was the accumulated weight of
+      match-deciding errors that broadcast cameras had already shown to
+      everyone watching, which had made the discrepancy between what the
+      referee could see and what the audience could see untenable.
+  citation:
+    source: ifab-laws-of-the-game
+    edition: Laws of the Game, 2018/19
+    article: "VAR protocol"
+  comparability_break: null

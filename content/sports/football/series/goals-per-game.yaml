@@ -1,0 +1,33 @@
+id: goals-per-game-scoped
+label: Goals per game
+competition: English top flight
+unit: goals per match
+absence_kind: unpublished
+higher_is_better: false
+cannot_exist: >
+  There is no such thing as football's goals-per-game figure. Football has no
+  central record book and no body that keeps a continuous quantitative series
+  for the sport, so any rate statistic belongs to one named competition and
+  means nothing outside it. That is why this series is titled with its
+  competition and not with the sport, here and everywhere else it appears.
+
+  Even scoped, this particular series has a confound that deserves stating
+  rather than smoothing over. The back-pass rule took effect in July 1992. The
+  English top flight was reconstituted as the Premier League in February 1992
+  and began play the same month the rule did. A change in goals per game across
+  that line is a change across a rule amendment and a competition
+  reorganisation at once, and this site will not present it as measuring the
+  rule.
+
+  The figures themselves are not entered because they have not been taken from
+  a cited source. When they are, the chart appears here in two segments with
+  the 1992 line between them, and the confound stays in the caption.
+segments: []
+break:
+  at: 1992
+  caused_by: ifab-1992-back-pass
+  kind: scoped
+  note: >
+    The break is real but it is a break in a competition's series, not in the
+    sport's. Football has no series for the sport as a whole to break.
+source: ifab-laws-of-the-game
