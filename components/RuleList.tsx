@@ -34,7 +34,7 @@ export default function RuleList({
           <li
             key={rule.id}
             id={rule.id}
-            className="group relative scroll-mt-24 py-9 pl-7 transition-colors hover:bg-chalk/[0.02]"
+            className="group relative scroll-anchor py-9 pl-7 transition-colors hover:bg-chalk/[0.02]"
           >
             {broke ? (
               // The only element allowed to interrupt this line.

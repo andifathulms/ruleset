@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 /**
  * A sport page runs to six long sections. This is the strip that says where in
@@ -9,6 +9,22 @@ import { useEffect, useState } from 'react'
  */
 export default function SectionNav({ items }: { items: { id: string; label: string }[] }) {
   const [active, setActive] = useState(items[0]?.id ?? '')
+  const bar = useRef<HTMLElement>(null)
+
+  // Anchors on this page have to clear this strip as well as the header.
+  useEffect(() => {
+    const el = bar.current
+    if (!el) return
+    const publish = () =>
+      document.documentElement.style.setProperty('--subnav-h', `${el.offsetHeight}px`)
+    publish()
+    const ro = new ResizeObserver(publish)
+    ro.observe(el)
+    return () => {
+      ro.disconnect()
+      document.documentElement.style.removeProperty('--subnav-h')
+    }
+  }, [])
 
   useEffect(() => {
     const targets = items
@@ -30,9 +46,14 @@ export default function SectionNav({ items }: { items: { id: string; label: stri
   }, [items])
 
   return (
+    /* Flush to the header rather than 57px below the top: the header
+       condenses on scroll, and the hardcoded offset left a moving sliver of
+       page showing between the two bars. */
     <nav
+      ref={bar}
       aria-label="Sections"
-      className="sticky top-[57px] z-30 border-b chalk-rule bg-ink/85 backdrop-blur-xl"
+      style={{ top: 'var(--header-h, 56px)' }}
+      className="sticky z-30 border-b chalk-rule bg-ink/85 backdrop-blur-xl"
     >
       <ul className="mx-auto flex max-w-[86rem] gap-x-1 overflow-x-auto px-5 py-1.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {items.map((item) => (

@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 const NAV = [
   { href: '/', label: 'Timeline' },
@@ -24,11 +24,28 @@ export default function SiteHeader() {
   const [stuck, setStuck] = useState(false)
   const [open, setOpen] = useState(false)
 
+  const bar = useRef<HTMLElement>(null)
+
   useEffect(() => {
     const onScroll = () => setStuck(window.scrollY > 24)
     onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
     return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
+  /* Everything that has to sit under this header — the section strip, and the
+     scroll-margin on every anchor — used to hardcode its height. The header
+     condenses on scroll and reflows with the font, so the number was wrong
+     twice over: a 1.6px seam under the bar and links landing beneath it. */
+  useEffect(() => {
+    const el = bar.current
+    if (!el) return
+    const publish = () =>
+      document.documentElement.style.setProperty('--header-h', `${el.offsetHeight}px`)
+    publish()
+    const ro = new ResizeObserver(publish)
+    ro.observe(el)
+    return () => ro.disconnect()
   }, [])
 
   useEffect(() => setOpen(false), [pathname])
@@ -38,6 +55,7 @@ export default function SiteHeader() {
 
   return (
     <header
+      ref={bar}
       className={`sticky top-0 z-40 border-b transition-all duration-500 ease-paint ${
         stuck
           ? 'border-chalk/[0.12] bg-ink/85 backdrop-blur-xl'

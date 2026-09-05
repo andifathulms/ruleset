@@ -215,7 +215,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
             </p>
           ) : (
             series.map((s) => (
-              <div key={s.id} id={s.id} className="scroll-mt-24">
+              <div key={s.id} id={s.id} className="scroll-anchor">
                 <SeriesChart series={s} colour={sport.family_colour} now={now} />
               </div>
             ))
@@ -263,7 +263,7 @@ function Section({
   tint?: string
 }) {
   return (
-    <section id={id} className="mt-20 scroll-mt-24">
+    <section id={id} className="mt-20 scroll-anchor">
       <Reveal>
         <h2 className="mb-8 flex items-baseline gap-5 font-display text-fluid-h2 text-chalk">
           <span className="numeral text-[18px]" style={{ color: colour }}>

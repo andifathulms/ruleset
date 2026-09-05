@@ -15,9 +15,8 @@
 
 @layer base {
   :root {
-    --font-display: 'Archivo', 'Archivo Narrow', 'Oswald', ui-sans-serif, sans-serif;
-    --font-body: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
-
+    /* --font-display and --font-body are supplied by next/font on <html>,
+       each already carrying its own metrics-matched fallback stack. */
     --ink: #05161a;
     --surface: #0b2b30;
     --raised: #10373e;
@@ -221,6 +220,16 @@
   .range-thumb:focus-visible::-webkit-slider-thumb {
     outline: 2px solid var(--chalk);
     outline-offset: 3px;
+  }
+
+  /*
+    Anything a link can point at. The sticky chrome is a header, and on a sport
+    page a section strip under it, so a fixed scroll-margin was guesswork: at
+    96px it left the rule you followed a link to sitting 12px under the bars.
+    Both bars publish their height, so this is measured rather than assumed.
+  */
+  .scroll-anchor {
+    scroll-margin-top: calc(var(--header-h, 56px) + var(--subnav-h, 0px) + 1.25rem);
   }
 
   .prose-measure {

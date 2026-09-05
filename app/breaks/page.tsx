@@ -121,9 +121,9 @@ export default function BreaksPage() {
               as="section"
               key={series.id}
               delay={40}
-              className="mt-16 scroll-mt-24"
+              className="mt-16 scroll-anchor"
             >
-              <div id={series.id} className="scroll-mt-24 border chalk-rule bg-surface/40 p-5 sm:p-8">
+              <div id={series.id} className="scroll-anchor border chalk-rule bg-surface/40 p-5 sm:p-8">
                 <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
                   <span
                     className="numeral text-fluid-h3 leading-none"

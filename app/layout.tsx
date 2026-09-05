@@ -1,8 +1,9 @@
 import type { Metadata, Viewport } from 'next'
+import { Archivo, IBM_Plex_Sans } from 'next/font/google'
 import Link from 'next/link'
 import './globals.css'
 import SiteHeader from '@/components/SiteHeader'
-import { ScrollProgress } from '@/components/Motion'
+import { HashLanding, ScrollProgress } from '@/components/Motion'
 
 export const metadata: Metadata = {
   title: {
@@ -14,6 +15,33 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = { themeColor: '#05161A' }
+
+/*
+  Self-hosted at build time rather than fetched from Google.
+  Two reasons, one of them measured: the stylesheet plus font files were four
+  external round-trips on a site that otherwise needs none, and when they
+  landed at roughly 800ms the prose re-flowed and the page lost about 600px of
+  height — which silently moved every anchor a deep link had already scrolled
+  to. next/font also emits a fallback whose metrics are adjusted to match, so
+  the swap no longer changes how much room the text takes.
+
+  The wdth axis is not optional: the display face is set at 62% width
+  throughout, which is the whole reason it reads as scoreboard type.
+*/
+const display = Archivo({
+  subsets: ['latin'],
+  axes: ['wdth'],
+  variable: '--font-display',
+  display: 'swap',
+})
+
+const body = IBM_Plex_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  style: ['normal', 'italic'],
+  variable: '--font-body',
+  display: 'swap',
+})
 
 const FOOTER_NAV = [
   {
@@ -36,17 +64,10 @@ const FOOTER_NAV = [
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
-        />
-      </head>
+    <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body className="min-h-screen bg-ink text-chalk">
         <ScrollProgress />
+        <HashLanding />
 
         <a
           href="#main"

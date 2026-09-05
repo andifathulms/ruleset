@@ -134,7 +134,7 @@ export default function Home() {
       </section>
 
       {/* ----------------------------------------------------------- board */}
-      <section id="board" className="relative scroll-mt-20 border-b chalk-rule">
+      <section id="board" className="relative scroll-anchor border-b chalk-rule">
         <div aria-hidden className="court-grid absolute inset-0 opacity-40" />
         <div className="relative mx-auto max-w-[86rem] px-5 py-16 sm:py-20">
           <Reveal>

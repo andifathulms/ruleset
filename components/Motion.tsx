@@ -151,3 +151,90 @@ export function ScrollProgress() {
     </div>
   )
 }
+
+/**
+ * Lands a fragment link under the sticky chrome rather than behind it.
+ *
+ * `scroll-margin-top` alone is not enough here. The header condenses once the
+ * page scrolls, which both shortens the document and changes the margin, so a
+ * smooth scroll is animating toward a position computed from measurements that
+ * are no longer true by the time it arrives — links were landing up to 37px
+ * under the bars. This waits for the scroll to settle and corrects what is
+ * left, and it gives up the moment the reader takes over.
+ */
+export function HashLanding() {
+  useEffect(() => {
+    let taken = false
+    const surrender = () => {
+      taken = true
+    }
+    const passive = { passive: true } as AddEventListenerOptions
+    window.addEventListener('wheel', surrender, passive)
+    window.addEventListener('touchstart', surrender, passive)
+    window.addEventListener('keydown', surrender)
+
+    const correct = () => {
+      if (taken) return
+      const id = decodeURIComponent(window.location.hash.slice(1))
+      if (!id) return
+      const el = document.getElementById(id)
+      if (!el) return
+
+      // Only bars actually pinned to the top of the viewport are in the way.
+      let chrome = 0
+      document
+        .querySelectorAll('header, nav[aria-label="Sections"]')
+        .forEach((bar) => {
+          const box = bar.getBoundingClientRect()
+          if (box.top <= 1) chrome = Math.max(chrome, box.bottom)
+        })
+
+      const top = el.getBoundingClientRect().top
+      if (top < chrome + 4) window.scrollBy({ top: top - chrome - 20, behavior: 'auto' })
+    }
+
+    /* The correction has to wait for the smooth scroll to finish. Firing on a
+       fixed delay ran it mid-animation, where the browser simply continued to
+       its own stale destination and overrode it, so this waits for scrollY to
+       stop moving. `scrollend` would say this directly but is not everywhere
+       yet, and two identical samples is the same answer. */
+    let poll = 0
+    const whenSettled = () => {
+      let last = -1
+      let still = 0
+      let ticks = 0
+      window.clearInterval(poll)
+      poll = window.setInterval(() => {
+        if (taken || ++ticks > 40) {
+          window.clearInterval(poll)
+          return
+        }
+        const y = Math.round(window.scrollY)
+        still = y === last ? still + 1 : 0
+        last = y
+        if (still >= 2) {
+          window.clearInterval(poll)
+          correct()
+        }
+      }, 100)
+    }
+
+    const timers = [setTimeout(whenSettled, 120)]
+    const onHashChange = () => {
+      taken = false
+      timers.push(setTimeout(whenSettled, 120))
+    }
+    window.addEventListener('hashchange', onHashChange)
+
+    return () => {
+      window.clearInterval(poll)
+      timers.forEach(clearTimeout)
+      window.removeEventListener('wheel', surrender)
+      window.removeEventListener('touchstart', surrender)
+      window.removeEventListener('keydown', surrender)
+      window.removeEventListener('hashchange', onHashChange)
+    }
+  }, [])
+
+  return null
+}
