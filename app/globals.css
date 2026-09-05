@@ -182,6 +182,47 @@
     background-size: 100% 1px;
   }
 
+  /*
+    Two of these overlap on one painted track to make the date range. The
+    input itself is transparent and only the thumb is drawn, so both handles
+    stay reachable — pointer-events are re-enabled on the thumb alone.
+  */
+  .range-thumb {
+    pointer-events: none;
+  }
+
+  .range-thumb::-webkit-slider-thumb {
+    pointer-events: auto;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 999px;
+    background: var(--chalk);
+    border: 2px solid var(--ink);
+    cursor: grab;
+    transition: transform 0.2s cubic-bezier(0.34, 1.32, 0.42, 1);
+  }
+
+  .range-thumb::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+  }
+
+  .range-thumb::-moz-range-thumb {
+    pointer-events: auto;
+    width: 16px;
+    height: 16px;
+    border-radius: 999px;
+    background: var(--chalk);
+    border: 2px solid var(--ink);
+    cursor: grab;
+  }
+
+  .range-thumb:focus-visible::-webkit-slider-thumb {
+    outline: 2px solid var(--chalk);
+    outline-offset: 3px;
+  }
+
   .prose-measure {
     max-width: 70ch;
   }
