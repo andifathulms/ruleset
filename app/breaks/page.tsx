@@ -84,16 +84,26 @@ export default function BreaksPage() {
                     {KIND_BLURB[kind]}
                   </p>
                   {hits.length > 0 && (
-                    <p className="mt-3 flex flex-wrap gap-x-3 gap-y-1 text-[13px]">
-                      {hits.map((h) => (
-                        <Link
-                          key={h.series.id}
-                          href={`#${h.series.id}`}
-                          className="link-paint text-chalk/70 hover:text-chalk"
-                        >
-                          {sports[h.sport]?.label ?? h.sport}
-                        </Link>
-                      ))}
+                    <p className="mt-3 flex flex-col gap-y-1 text-[13px]">
+                      {hits.map((h) => {
+                        // One rule can sever more than one series in a sport —
+                        // the 2010 suit ban took both freestyle records — and
+                        // naming both links after the sport gave two entries a
+                        // reader could not tell apart.
+                        const ambiguous =
+                          hits.filter((o) => o.sport === h.sport).length > 1
+                        return (
+                          <Link
+                            key={h.series.id}
+                            href={`#${h.series.id}`}
+                            className="link-paint self-start text-chalk/70 hover:text-chalk"
+                          >
+                            {ambiguous
+                              ? h.series.label
+                              : (sports[h.sport]?.label ?? h.sport)}
+                          </Link>
+                        )
+                      })}
                     </p>
                   )}
                 </li>
@@ -194,10 +204,36 @@ export default function BreaksPage() {
   )
 }
 
-/** The first sentence, trimmed to something that sets on two lines at display size. */
-function headline(text: string): string {
+/**
+ * The first sentence, trimmed to something that sets at display size.
+ *
+ * It used to slice at a fixed character count, which cut three of the six
+ * headings mid-word — "four centimetr…", "by a team-ma…" — at the largest type
+ * on the page. It now prefers a clause boundary, falls back to a word
+ * boundary, and drops any trailing function word so a heading never ends on a
+ * dangling "and", "which" or "to".
+ */
+const DANGLING = new Set([
+  'a', 'an', 'the', 'and', 'or', 'but', 'to', 'of', 'in', 'on', 'by', 'with',
+  'that', 'which', 'is', 'are', 'was', 'were', 'may', 'must', 'not', 'no',
+  'as', 'at', 'for', 'from', 'its', 'it', 'they', 'them', 'so', 'than',
+  'then', 'into', 'relative', 'has', 'have', 'had', 'doing', 'being',
+])
+
+function headline(text: string, limit = 118): string {
   const first = text.trim().split(/(?<=\.)\s/)[0]
-  return first.length > 104 ? `${first.slice(0, 101).trimEnd()}…` : first
+  if (first.length <= limit) return first
+
+  const cut = first.slice(0, limit)
+  const semicolon = cut.lastIndexOf(';')
+  if (semicolon > 60) return `${cut.slice(0, semicolon)}…`
+
+  const space = cut.lastIndexOf(' ')
+  const words = (space > 60 ? cut.slice(0, space) : cut).split(' ')
+  while (words.length > 8 && DANGLING.has(words[words.length - 1].replace(/\W/g, '').toLowerCase())) {
+    words.pop()
+  }
+  return `${words.join(' ').replace(/[,;:]$/, '')}…`
 }
 
 const KIND_BLURB: Record<string, string> = {

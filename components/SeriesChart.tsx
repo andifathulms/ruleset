@@ -235,6 +235,23 @@ export default function SeriesChart({
         </svg>
       </div>
 
+      {/* A segment note used to render only where the segment had no points
+          at all, so a note written about a sparse segment was dropped — the
+          100 m freestyle's "fifteen years with no ratified improvement" was
+          the explanation for the emptiest panel on the site and never
+          appeared. An empty segment still carries its note inside the panel,
+          so those are not repeated here. */}
+      {layout.segments
+        .filter((seg) => seg.note && seg.points.length > 0)
+        .map((seg) => (
+          <p key={seg.id} className="mt-4 max-w-measure text-[14px] text-unmarked">
+            <span className="numeral text-chalk/80">
+              {seg.from}&ndash;{seg.to}
+            </span>{' '}
+            {seg.note?.replace(/\s+/g, ' ')}
+          </p>
+        ))}
+
       {series.break && (
         <p className="mt-4 max-w-measure border-l-2 border-chalk/40 pl-4 text-[15px] text-chalk/80">
           {series.break.note.replace(/\s+/g, ' ')}
