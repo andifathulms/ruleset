@@ -78,6 +78,12 @@ export interface RuleChange {
   date_effective: string
   governing_body: string
   what_changed: string
+  /**
+   * adopted   in force, and still in force or superseded normally
+   * trial-only tried under a stated trial and then abandoned
+   * withdrawn adopted but rescinded before it was ever enforced
+   */
+  status?: 'adopted' | 'trial-only' | 'withdrawn'
   cause_primary: CauseId
   cause_secondary?: CauseId
   trigger?: Trigger
@@ -117,6 +123,12 @@ export interface Series {
   competition?: string
   /** Set when no chartable series can exist. Rule 5: prose replaces the chart. */
   cannot_exist?: string
+  /**
+   * Why the series is absent, which is not one thing:
+   *   impossible   no comparable series can exist, in principle
+   *   unpublished  a series could exist but no governing body publishes one
+   */
+  absence_kind?: 'impossible' | 'unpublished'
   higher_is_better?: boolean
   segments: SeriesSegment[]
   break?: SeriesBreak

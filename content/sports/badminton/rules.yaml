@@ -1,0 +1,130 @@
+# Badminton rule changes. Rule 3: cause_primary comes from a stated reason or a
+# sourced account, never from what sounds plausible.
+
+- id: bwf-2002-seven-point-trial
+  scope: { sport: badminton, discipline: all }
+  date_adopted: 2001-12
+  date_effective: 2002-01
+  status: trial-only
+  governing_body: International Badminton Federation
+  what_changed: >
+    Matches were played as best of five games to seven points, replacing the
+    best of three games to fifteen under side-out scoring. The system was run
+    on the international circuit and abandoned within about two years, leaving
+    fifteen-point side-out scoring in place until 2006.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      The federation was looking for a format that would produce matches of
+      predictable length for television, and tried shortening the games before
+      it tried changing who could score.
+  citation:
+    source: bwf-laws-of-badminton
+    edition: IBF Laws of Badminton, 2002 revision
+    missing: true
+  comparability_break: null
+
+- id: bwf-2006-rally-scoring
+  scope: { sport: badminton, discipline: all }
+  date_adopted: 2005-05
+  date_effective: 2006-05
+  status: adopted
+  governing_body: Badminton World Federation
+  what_changed: >
+    Replaced fifteen-point side-out scoring with twenty-one-point rally
+    scoring, best of three games. A point is now scored on every rally
+    regardless of which side served, and the men's fifteen-point and women's
+    eleven-point games were unified into one system. Approved for trial by the
+    membership in 2005, run from December 2005, and confirmed for general use
+    at the 2006 Annual General Meeting.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Under side-out scoring a rally could be won without scoring, so match
+      length was unbounded in principle and unpredictable in practice, which
+      made scheduled broadcast slots impossible to guarantee.
+    source: bwf-agm-2005
+  citation:
+    source: bwf-laws-of-badminton
+    edition: BWF Laws of Badminton, 2006 revision
+    article: "7"
+  comparability_break: badminton-match-statistics
+
+- id: bwf-2011-womens-dress-code
+  scope: { sport: badminton, discipline: all, event: women }
+  date_adopted: 2011-05
+  date_effective: 2011-06
+  status: withdrawn
+  governing_body: Badminton World Federation
+  what_changed: >
+    A dress regulation requiring women to wear a skirt or dress in play at
+    top-tier events. Announced to take effect in May 2011, deferred to June,
+    and dropped after objection from players and member associations. It was
+    never enforced, and it is recorded here because the reason given for it is
+    unusually explicit.
+  cause_primary: commercial
+  trigger:
+    description: >
+      The federation's stated aim was to improve the presentation of the
+      women's game to sponsors and broadcasters.
+    also_said: >
+      Player associations and several national federations described the rule
+      as sexist and as unworkable for players from countries whose dress norms
+      it conflicted with. Both readings are recorded; the sources do not agree
+      on which consideration ended the rule.
+  citation:
+    source: bwf-laws-of-badminton
+    edition: BWF General Competition Regulations, 2011
+    missing: true
+  comparability_break: null
+
+- id: bwf-2014-olympic-draw-procedure
+  scope: { sport: badminton, discipline: all }
+  date_adopted: 2013
+  date_effective: 2014
+  status: adopted
+  governing_body: Badminton World Federation
+  what_changed: >
+    The group stage of the Olympic tournament was restructured so that the
+    knockout bracket is drawn after the group results are known, removing the
+    situation in which a pair could improve its bracket by losing a group
+    match. The players' code of conduct obligation to use best efforts was
+    enforced alongside it.
+  cause_primary: integrity
+  trigger:
+    description: >
+      At London 2012 four women's doubles pairs were disqualified for not using
+      best efforts in group matches, having worked out that losing produced an
+      easier knockout draw. The incident is the clearest case in this
+      collection of a rule creating the behaviour it then punished.
+  citation:
+    source: bwf-laws-of-badminton
+    edition: BWF Statutes, Players' Code of Conduct
+    missing: true
+  comparability_break: null
+
+- id: bwf-2018-fixed-service-height
+  scope: { sport: badminton, discipline: all }
+  date_adopted: 2018-03
+  date_effective: 2018-03
+  status: adopted
+  governing_body: Badminton World Federation
+  what_changed: >
+    The service law was rewritten so that the whole shuttle must be below a
+    fixed height of 1.15 metres from the court surface at the moment of
+    contact, replacing the previous test, which was measured relative to the
+    server's own waist or lowest rib. Trialled from March 2018 and retained.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      A test defined against the server's own body could not be applied
+      consistently between players of different heights, and produced service
+      judging that players and umpires disputed. The stated aim was a test a
+      judge could apply identically to everyone.
+  citation:
+    source: bwf-laws-of-badminton
+    edition: BWF Laws of Badminton, 2018 revision
+    article: "9.1.6"
+  comparability_break: null

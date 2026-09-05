@@ -1,0 +1,20 @@
+id: badminton
+label: Badminton
+tagline: The racket sport that rewrote its scoring for television and severed its own statistics doing it.
+governing_body: Badminton World Federation
+founded: >
+  International Badminton Federation founded 1934; renamed Badminton World
+  Federation in 2006.
+coverage: deep
+family_colour: clay
+classification:
+  official: racket-sports
+  game-category: net-and-wall
+  adjudication: decided-by-score
+summary: >
+  Badminton's rules are mostly rules about scoring, and its scoring has been
+  rewritten twice in twenty years for the same reason both times: nobody could
+  tell a broadcaster how long a match would take. The 2006 switch to 21-point
+  rally scoring is the cleanest case in this collection of a governing body
+  stating its reason plainly, and it severed every match statistic before it
+  from every one after.

@@ -1,0 +1,28 @@
+id: badminton-match-statistics
+label: Match statistics across the scoring change
+unit: points
+absence_kind: unpublished
+cannot_exist: >
+  Rally scoring changed what a point is. A point under the fifteen-point
+  side-out system could only be won by the serving side, so a rally won by the
+  receiver produced no number at all; from 2006 every rally produces a point.
+  Rally counts, points per match, match duration and the scoreline itself all
+  mean different things on either side of May 2006, and none of them can be
+  rescaled from one system to the other.
+
+  This is a different kind of absence from gymnastics. A series here is not
+  impossible in principle — a run of match durations from one tournament held
+  continuously across 2006 would be a real series, and it would show the break
+  clearly. It is absent because no governing body publishes one, and because
+  assembling it from tournament records is work this site has not done. When
+  it is done, the chart appears here, in two segments, with the 2006 rule
+  change between them.
+segments: []
+break:
+  at: 2006
+  caused_by: bwf-2006-rally-scoring
+  kind: reset
+  note: >
+    Every match statistic recorded before May 2006 is measured in a unit that
+    stopped existing in May 2006. Nothing crosses this line.
+source: bwf-laws-of-badminton
