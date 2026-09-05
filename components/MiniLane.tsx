@@ -8,9 +8,14 @@ const BRIGHT: Record<string, string> = {
 
 /**
  * One sport's lane at card size: the same chalk line, the same rule that a
- * break — and only a break — may interrupt it. Marks are plain dots here
- * rather than cause glyphs, because at this size a shape could not be read and
- * a shape that cannot be read is a cause claimed without being legible.
+ * break — and only a break — may interrupt it.
+ *
+ * Marks are vertical ticks rather than dots. Dots were drawn as circles in a
+ * viewBox stretched to the card width, which rendered them as ellipses about
+ * 40% wider than tall; a tick paired with a non-scaling stroke is immune to
+ * that stretch, and a tick on a painted line is the site's own grammar anyway.
+ * They carry no cause: a shape too small to be told from its neighbours would
+ * be a cause claimed illegibly.
  */
 export default function MiniLane({
   years,
@@ -28,24 +33,31 @@ export default function MiniLane({
   className?: string
 }) {
   const W = 260
-  const H = 34
+  const H = 40
   const bright = BRIGHT[colour] ?? BRIGHT.unmarked
   const span = Math.max(1, to - from)
   const x = (y: number) => 4 + ((y - from) / span) * (W - 8)
 
-  // The line in pieces: it stops at each break, steps, and resumes offset.
-  const cuts = [...breaks].filter((b) => b > from && b < to).sort((a, b) => a - b)
+  /* The line in pieces: it stops at each break, steps, and resumes offset.
+     Deduplicated by year — swimming has two series severed by the same 2010
+     rule, and cutting twice at one x produced a zero-width segment between
+     them and a step that went down and straight back up, which drew as a T
+     rather than as a break. One rule change is one break in the lane however
+     many series it severed. */
+  const cuts = Array.from(
+    new Set(breaks.filter((b) => b > from && b < to)),
+  ).sort((a, b) => a - b)
   const pieces: { x1: number; x2: number; dy: number }[] = []
   const steps: { x: number; from: number; to: number }[] = []
   let cursor = 4
   let dy = 0
   cuts.forEach((year, i) => {
     const at = x(year)
-    pieces.push({ x1: cursor, x2: at - 4, dy })
-    const next = dy + (i % 2 === 0 ? -5 : 5)
+    pieces.push({ x1: cursor, x2: at - 5, dy })
+    const next = dy + (i % 2 === 0 ? -7 : 7)
     steps.push({ x: at, from: dy, to: next })
     dy = next
-    cursor = at + 4
+    cursor = at + 5
   })
   pieces.push({ x1: cursor, x2: W - 4, dy })
 
@@ -72,19 +84,29 @@ export default function MiniLane({
         <line
           key={i}
           x1={s.x} x2={s.x} y1={mid + s.from} y2={mid + s.to}
-          stroke="#F2F5F1" strokeOpacity={0.3} strokeWidth={1.25} strokeDasharray="2 2"
+          stroke="#F2F5F1" strokeOpacity={0.35} strokeWidth={1.25} strokeDasharray="2 2"
           vectorEffect="non-scaling-stroke"
         />
       ))}
-      {years.map((yr, i) => (
-        <circle
-          key={`${yr}-${i}`}
-          cx={x(yr)}
-          cy={mid + offsetAt(x(yr))}
-          r={2.6}
-          fill={breaks.includes(yr) ? bright : '#F2F5F1'}
-        />
-      ))}
+      {years.map((yr, i) => {
+        const px = x(yr)
+        const cy = mid + offsetAt(px)
+        // A rule change that severed a series wears a taller tick in the
+        // family colour, so the break reads at a glance and not only as a
+        // step you have to look for.
+        const broke = breaks.includes(yr)
+        const half = broke ? 8 : 4.5
+        return (
+          <line
+            key={`${yr}-${i}`}
+            x1={px} x2={px} y1={cy - half} y2={cy + half}
+            stroke={broke ? bright : '#F2F5F1'}
+            strokeWidth={broke ? 2.5 : 2}
+            strokeLinecap="butt"
+            vectorEffect="non-scaling-stroke"
+          />
+        )
+      })}
     </svg>
   )
 }

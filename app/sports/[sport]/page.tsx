@@ -92,7 +92,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
             <Reveal delay={140}>
               <figure className="panel p-5">
                 <MiniLane
-                  className="h-12 w-full"
+                  className="h-14 w-full"
                   years={ruleYears}
                   breaks={breakYears}
                   colour={sport.family_colour}

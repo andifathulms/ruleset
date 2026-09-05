@@ -76,13 +76,20 @@ export default function SportsIndex() {
                   />
                   <div className="relative flex flex-1 flex-col p-6">
                     <h3 className="font-display text-fluid-h3 text-chalk">{s.label}</h3>
-                    <p className="mt-2 flex-1 text-[15px] leading-snug text-chalk/75">
-                      {s.tagline}
-                    </p>
+                    <p className="mt-2 text-[15px] leading-snug text-chalk/75">{s.tagline}</p>
+                    <p className="mt-3 text-[13px] text-unmarked">{s.governing_body}</p>
+
+                    {/* Everything above the lane is flexible and everything from
+                        the lane down is fixed, so the lanes sit at the same
+                        height in every card. They share one date span precisely
+                        so the cards can be read against each other, which they
+                        could not be while a two-line governing body pushed one
+                        lane twenty pixels off its neighbours. */}
+                    <span aria-hidden className="flex-1" />
 
                     {/* The sport's own lane at card size, with its breaks in it. */}
                     <MiniLane
-                      className="mt-6 h-9 w-full"
+                      className="mt-6 h-10 w-full"
                       years={own.map((r) => Number(r.date_effective.slice(0, 4)))}
                       breaks={breakYears}
                       colour={s.family_colour}
@@ -109,7 +116,6 @@ export default function SportsIndex() {
                         →
                       </span>
                     </dl>
-                    <p className="mt-3 text-[13px] text-unmarked">{s.governing_body}</p>
                   </div>
                 </Link>
               </Reveal>
