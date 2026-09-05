@@ -58,7 +58,7 @@ export default function Home() {
                 changed
                 <span
                   aria-hidden
-                  className="absolute -bottom-1 left-0 h-[3px] w-full bg-gold-bright"
+                  className="absolute bottom-[0.1em] left-0 h-[3px] w-full bg-gold-bright"
                 />
               </span>
               , for a reason, on a date.
