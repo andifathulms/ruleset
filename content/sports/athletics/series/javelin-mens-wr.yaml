@@ -1,0 +1,46 @@
+id: javelin-mens-wr
+label: Men's javelin world record
+unit: m
+higher_is_better: true
+source: wa-record-progressions
+segments:
+  - id: pre-1986
+    from: 1912
+    to: 1986
+    points:
+      - { year: 1912, value: 62.32, holder: Eric Lemming, source: wa-record-progressions }
+      - { year: 1928, value: 71.01, holder: Erik Lundqvist, source: wa-record-progressions }
+      - { year: 1936, value: 77.23, holder: Matti Järvinen, source: wa-record-progressions }
+      - { year: 1953, value: 80.41, holder: Bud Held, source: wa-record-progressions }
+      - { year: 1964, value: 91.72, holder: Terje Pedersen, source: wa-record-progressions }
+      - { year: 1976, value: 94.58, holder: Miklós Németh, source: wa-record-progressions }
+      - { year: 1980, value: 96.72, holder: Ferenc Paragi, source: wa-record-progressions }
+      - year: 1984
+        value: 104.80
+        holder: Uwe Hohn
+        detail: The last mark set with the old implement, and the throw that ended it.
+        source: wa-record-progressions
+  - id: post-1986
+    from: 1986
+    to: null
+    points:
+      - { year: 1986, value: 85.74, holder: Klaus Tafelmeier, source: wa-record-progressions }
+      - { year: 1987, value: 87.66, holder: Jan Železný, source: wa-record-progressions }
+      - { year: 1990, value: 90.98, holder: Steve Backley, source: wa-record-progressions }
+      - { year: 1992, value: 94.74, holder: Jan Železný, source: wa-record-progressions }
+      - { year: 1993, value: 95.66, holder: Jan Železný, source: wa-record-progressions }
+      - year: 1996
+        value: 98.48
+        holder: Jan Železný
+        detail: Still the record, and still nearly six metres short of a throw made in 1984.
+        source: wa-record-progressions
+break:
+  at: 1986
+  caused_by: iaaf-1986-javelin-redesign
+  kind: reset
+  note: >
+    The implement was redesigned to shift the centre of gravity forward and the
+    record book was restarted on 1 April 1986. Distances either side of this
+    line were produced by different objects and are not comparable. Note that
+    the post-1986 record has climbed back to within six metres of Uwe Hohn's
+    1984 throw without ever being the same measurement as it.

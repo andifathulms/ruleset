@@ -1,0 +1,159 @@
+- id: iaaf-1977-automatic-timing
+  scope: { sport: athletics, discipline: track, event: sprints }
+  date_adopted: 1976
+  date_effective: 1977-01-01
+  status: adopted
+  governing_body: International Amateur Athletic Federation
+  what_changed: >
+    Fully automatic timing to one hundredth of a second became compulsory for
+    world records at distances up to and including 400 metres. Hand-timed marks
+    were no longer ratified at those distances, and the record lists were
+    reconstituted around the automatically timed performances.
+  cause_primary: equipment and technology
+  trigger:
+    description: >
+      Hand timing rounded to a tenth and carried a systematic reaction-time
+      advantage, so hand-timed and automatically timed marks were not the same
+      measurement. Automatic timing had been available at major championships
+      for a decade before the requirement was imposed.
+  citation:
+    source: wa-technical-rules
+    edition: IAAF Competition Rules, 1977
+    missing: true
+  comparability_break: null
+
+- id: iaaf-1986-javelin-redesign
+  scope: { sport: athletics, discipline: field, event: mens-javelin }
+  date_adopted: 1985
+  date_effective: 1986-04-01
+  status: adopted
+  governing_body: International Amateur Athletic Federation
+  what_changed: >
+    The men's javelin specification was rewritten to move the centre of gravity
+    forward by four centimetres relative to the centre of the implement's
+    length, while keeping the overall mass at 800 grams. The redesigned
+    implement pitches nose-down earlier, cutting distances by roughly ten per
+    cent, and the world record list was restarted from zero on the date the
+    rule took effect.
+  cause_primary: safety
+  cause_secondary: equipment and technology
+  trigger:
+    description: >
+      In July 1984 Uwe Hohn threw 104.80 m, a distance that in many stadiums
+      would have reached the far running track or the crowd beyond it. The
+      federation also cited the growing proportion of flat landings, which made
+      it impossible to judge whether the tip had struck first and so made the
+      measurement itself disputable.
+  citation:
+    source: wa-technical-rules
+    edition: IAAF Competition Rules, 1986
+    article: "Rule 193 (javelin specification)"
+  comparability_break: javelin-mens-wr
+
+- id: iaaf-1991-javelin-surface
+  scope: { sport: athletics, discipline: field, event: mens-javelin }
+  date_adopted: 1991
+  date_effective: 1992-01-01
+  status: adopted
+  governing_body: International Amateur Athletic Federation
+  what_changed: >
+    Roughened, dimpled and serrated tail surfaces were prohibited, the
+    specification requiring a smooth surface throughout. Marks set with the
+    roughened implements were annulled rather than carried forward, so a second
+    and smaller discontinuity sits inside the post-1986 segment.
+  cause_primary: equipment and technology
+  trigger:
+    description: >
+      Roughened tails altered the aerodynamics enough to add several metres,
+      restoring part of the distance the 1986 redesign had removed and
+      threatening to undo the reason for it.
+  citation:
+    source: wa-technical-rules
+    edition: IAAF Competition Rules, 1992
+    missing: true
+  comparability_break: null
+
+- id: iaaf-1999-womens-javelin-redesign
+  scope: { sport: athletics, discipline: field, event: womens-javelin }
+  date_adopted: 1998
+  date_effective: 1999-04-01
+  status: adopted
+  governing_body: International Amateur Athletic Federation
+  what_changed: >
+    The same operation performed on the men's implement in 1986 was performed
+    on the women's 600-gram javelin, shifting the centre of gravity forward and
+    restarting the women's record list. That the federation repeated the
+    procedure thirteen years later, knowingly and by the same method, is the
+    strongest evidence available that the 1986 reset was regarded internally as
+    having worked.
+  cause_primary: safety
+  cause_secondary: equipment and technology
+  trigger:
+    description: >
+      Petra Felke's 80.00 m in 1988 stood unbeaten for a decade and the same
+      combination of arena size and flat landings had reappeared in the women's
+      event.
+  citation:
+    source: wa-technical-rules
+    edition: IAAF Competition Rules, 1999
+    missing: true
+  comparability_break: null
+
+- id: iaaf-2010-false-start
+  scope: { sport: athletics, discipline: track }
+  date_adopted: 2009-08
+  date_effective: 2010-01-01
+  status: adopted
+  governing_body: International Association of Athletics Federations
+  what_changed: >
+    A single false start now disqualifies the athlete who commits it. This
+    replaced the 2003 rule, under which the field was permitted one false start
+    collectively and any athlete false-starting after that was disqualified,
+    which had itself replaced the older rule allowing each athlete one.
+  cause_primary: broadcast and pacing
+  cause_secondary: integrity
+  trigger:
+    description: >
+      The federation's stated reason was that repeated recalls made the
+      duration of a sprint final unpredictable inside a televised session.
+    also_said: >
+      The 2003 collective rule had been introduced to stop athletes using
+      deliberate false starts to unsettle rivals, and the 2010 change is widely
+      read as completing that anti-gamesmanship move rather than as a
+      scheduling decision. Both readings appear in the record; the federation
+      gave the scheduling reason.
+  citation:
+    source: wa-technical-rules
+    edition: IAAF Competition Rules, 2010–2011
+    article: "Rule 162.7"
+  comparability_break: null
+
+- id: wa-2020-shoe-regulations
+  scope: { sport: athletics, discipline: all }
+  date_adopted: 2020-01
+  date_effective: 2020-07-28
+  status: adopted
+  governing_body: World Athletics
+  what_changed: >
+    Competition shoes were given a maximum sole thickness — 40 mm for road
+    events, with lower limits for track — and a limit of one rigid embedded
+    plate. Crucially, every record set in the preceding shoes was allowed to
+    stand. The federation legislated the technology forward and left the
+    record book untouched.
+  cause_primary: equipment and technology
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Carbon-plated, thick-foam racing shoes introduced from 2016 produced an
+      unusually dense run of distance records and were not available to all
+      athletes on equal terms.
+    also_said: >
+      The federation framed the limits as preserving the primacy of human
+      performance. Others read the thresholds as having been set where they
+      were in order to permit shoes already on sale rather than to withdraw
+      them. Both readings are recorded.
+  citation:
+    source: wa-technical-rules
+    edition: World Athletics Technical Rules, Rule 5, 2020
+    article: "Rule 5"
+  comparability_break: null
