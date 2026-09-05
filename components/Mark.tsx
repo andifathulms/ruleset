@@ -73,8 +73,17 @@ export function MarkGlyph({
   label: string
   withdrawn?: boolean
 }) {
+  // A glyph beside its own written label is decoration, not content: an
+  // empty aria-label would announce an unnamed image to a screen reader.
+  const decorative = label.length === 0
   return (
-    <svg width={18} height={18} viewBox="-9 -9 18 18" role="img" aria-label={label} className="shrink-0">
+    <svg
+      width={18}
+      height={18}
+      viewBox="-9 -9 18 18"
+      className="shrink-0"
+      {...(decorative ? { 'aria-hidden': true } : { role: 'img', 'aria-label': label })}
+    >
       <Mark shape={shape} size={5.5} withdrawn={withdrawn} />
     </svg>
   )
