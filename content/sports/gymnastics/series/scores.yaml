@@ -1,0 +1,35 @@
+id: gymnastics-scores
+label: Artistic gymnastics scores across the 2006 Code
+unit: points
+absence_kind: impossible
+cannot_exist: >
+  There is no chart here, and there is not going to be one.
+
+  Until 2006 a routine was scored against a maximum of 10.0. From 2006 the
+  score is a difficulty value with no upper bound plus an execution score out
+  of 10, and the two numbers are added. A 9.85 and a 15.633 are not two values
+  of one quantity. They are values of two different quantities that happen to
+  share the word "score", and no conversion between them exists — not an
+  approximate one, not a rough one, not one good enough for a dotted line.
+
+  This is a stronger claim than the one made about the javelin. There, two
+  incomparable series each measure a real distance in metres, and a chart of
+  each is meaningful even though a chart across them is not. Here the quantity
+  itself was replaced. Nadia Comăneci's 10.0 in 1976 does not sit lower than a
+  modern 15.7; it sits outside it. The vertical axis a chart would need cannot
+  be constructed.
+
+  It is also worth saying what was lost. Between 1949 and 2005 gymnastics had a
+  public, legible, unambiguous top of the scale, and the perfect 10 became one
+  of the few numbers in sport that a general audience understood without
+  explanation. The 2006 Code bought accountability and the ability to reward
+  difficulty, and it paid for them with that.
+segments: []
+break:
+  at: 2006
+  caused_by: fig-2006-open-ended-code
+  kind: scale-change
+  note: >
+    The measurement scale itself was replaced. Scores before and after 2006 are
+    not the same kind of number, and no mapping exists in either direction.
+source: fig-code-of-points

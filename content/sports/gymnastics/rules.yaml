@@ -1,0 +1,131 @@
+- id: fig-1997-minimum-age
+  scope: { sport: gymnastics, discipline: artistic }
+  date_adopted: 1996
+  date_effective: 1997-01-01
+  status: adopted
+  governing_body: Fédération Internationale de Gymnastique
+  what_changed: >
+    The minimum age for senior international competition was raised to sixteen
+    in the calendar year of the competition, up from fifteen, which had itself
+    been raised from fourteen in 1981.
+  cause_primary: safety
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      A sustained pattern through the 1970s and 1980s of competitors reaching
+      the elite level before puberty, at a point where the sport's demands fell
+      on a growing skeleton, together with several widely reported cases of
+      federations misstating ages.
+  citation:
+    source: fig-code-of-points
+    edition: FIG Technical Regulations, 1997
+    missing: true
+  comparability_break: null
+
+- id: fig-1997-compulsories-abolished
+  scope: { sport: gymnastics, discipline: artistic }
+  date_adopted: 1996
+  date_effective: 1997-01-01
+  status: adopted
+  governing_body: Fédération Internationale de Gymnastique
+  what_changed: >
+    Compulsory exercises — a set routine performed identically by every
+    competitor alongside their optional routine — were removed from
+    international competition, leaving optionals only. Half the competition,
+    and the half that most directly compared gymnasts against each other on the
+    same material, was deleted.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Competitions ran to two full sessions per phase and compulsories were
+      regarded as unwatchable for a general audience. The change roughly halved
+      the length of a championship.
+  citation:
+    source: fig-code-of-points
+    edition: FIG Code of Points, 1997–2000
+    missing: true
+  comparability_break: null
+
+- id: fig-2001-vaulting-table
+  scope: { sport: gymnastics, discipline: artistic, event: vault }
+  date_adopted: 2000
+  date_effective: 2001
+  status: adopted
+  governing_body: Fédération Internationale de Gymnastique
+  what_changed: >
+    The vaulting horse was replaced by the vaulting table, a wider and longer
+    sloped platform with a much larger contact area. The apparatus a gymnast
+    pushes off was redesigned outright, and every vault difficulty value was
+    reissued for the new apparatus.
+  cause_primary: safety
+  cause_secondary: equipment and technology
+  trigger:
+    description: >
+      At the 2000 Games the vaulting horse was set five centimetres below the
+      required height for a full rotation of the women's competition before the
+      error was found. Gymnasts crashed, some withdrew, and the resulting
+      review found that the horse's small contact area left no margin for a
+      hand placed slightly wrong.
+  citation:
+    source: fig-code-of-points
+    edition: FIG Apparatus Norms, 2001
+    missing: true
+  comparability_break: null
+
+- id: fig-2006-open-ended-code
+  scope: { sport: gymnastics, discipline: artistic }
+  date_adopted: 2005
+  date_effective: 2006-01-01
+  status: adopted
+  governing_body: Fédération Internationale de Gymnastique
+  what_changed: >
+    The Code of Points was rewritten so that a routine's score is the sum of a
+    difficulty score, which has no upper limit and is built from the elements
+    performed, and an execution score out of 10 from which deductions are
+    taken. The 10.0 maximum, in place in one form or another since 1949,
+    ceased to exist. A perfect routine no longer has a number.
+  cause_primary: disputed
+  cause_secondary: integrity
+  trigger:
+    description: >
+      The federation's stated reason was that the closed system had run out of
+      room: as difficulty rose, more and more routines started from 10.0 and
+      the score could only distinguish them by execution, so the sport could no
+      longer reward a harder routine.
+    also_said: >
+      The change is very widely read as a response to the 2004 men's all-around
+      final, where an error in the start value assigned to Yang Tae-young's
+      parallel bars routine altered the medal order and the federation
+      suspended the judges responsible. On that reading the open-ended code is
+      an attempt to make difficulty an auditable arithmetic sum rather than a
+      panel's judgement. The sources do not agree on which consideration drove
+      the decision, and both are recorded here rather than one being chosen.
+  citation:
+    source: fig-code-of-points
+    edition: FIG Code of Points, 2006–2008
+  comparability_break: gymnastics-scores
+
+- id: fig-2006-judging-panels
+  scope: { sport: gymnastics, discipline: artistic }
+  date_adopted: 2005
+  date_effective: 2006-01-01
+  status: adopted
+  governing_body: Fédération Internationale de Gymnastique
+  what_changed: >
+    Judging was split into two panels operating independently: a D panel
+    determining the difficulty score and an E panel scoring execution. The
+    two tasks had previously been performed by one panel producing one number,
+    and separating them made it possible to identify which panel a disputed
+    score came from.
+  cause_primary: integrity
+  trigger:
+    description: >
+      Adopted together with the open-ended code and for the accountability half
+      of the same argument. A single composite score cannot be audited; two
+      scores from two panels can.
+  citation:
+    source: fig-code-of-points
+    edition: FIG Code of Points, 2006–2008
+    missing: true
+  comparability_break: null

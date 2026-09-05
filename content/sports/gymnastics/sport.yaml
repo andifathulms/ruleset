@@ -1,0 +1,19 @@
+id: gymnastics
+label: Gymnastics
+tagline: The sport that abolished its own maximum, and with it any possibility of a continuous series.
+governing_body: Fédération Internationale de Gymnastique
+founded: >
+  Founded 1881 as the Bureau des Fédérations Européennes de Gymnastique, the
+  oldest international federation of any sport.
+coverage: deep
+family_colour: gold
+classification:
+  official: gymnastics
+  game-category: performance
+  adjudication: judged
+summary: >
+  In a judged sport the rule is the scoring scale itself, so a rule change does
+  not sever a series — it replaces the units the series was measured in. The
+  2006 Code of Points removed the 10.0 maximum and split the score into
+  difficulty and execution. There is no mapping from a score before it to a
+  score after it, and this site does not draw one.
