@@ -90,11 +90,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
 
             {/* The site's argument, as a hairline: a line that steps. */}
-            <div aria-hidden className="mt-12 flex items-center gap-0">
-              <span className="h-px flex-1 bg-chalk/20" />
-              <span className="h-4 w-px bg-chalk/20" />
-              <span className="h-px flex-1 translate-y-[-16px] bg-chalk/20" />
-            </div>
+            <svg
+              aria-hidden
+              viewBox="0 0 1000 20"
+              preserveAspectRatio="none"
+              className="mt-12 h-5 w-full"
+            >
+              <path
+                d="M0,15 H482 M488,15 V5 M494,5 H1000"
+                stroke="#F2F5F1"
+                strokeOpacity="0.22"
+                strokeWidth="1"
+                fill="none"
+                vectorEffect="non-scaling-stroke"
+              />
+            </svg>
 
             <p className="mt-10 text-[13px] text-unmarked">
               Nothing here is interpolated across a break.
