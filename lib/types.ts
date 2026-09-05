@@ -106,6 +106,8 @@ export interface SeriesSegment {
   from: number
   to: number | null
   points: SeriesPoint[]
+  /** Rendered in place of a line where a segment is legitimately empty. */
+  note?: string
 }
 
 export interface SeriesBreak {

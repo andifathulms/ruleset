@@ -23,6 +23,7 @@ export interface SegmentLayout {
   /** Open-ended segments run to the last point they actually have. */
   to: number
   points: SeriesPoint[]
+  note?: string
   /** Fraction of the plot width this segment occupies, before the gutter. */
   widthFraction: number
   /** Left edge as a fraction of the plot width, gutters already subtracted. */
@@ -104,6 +105,7 @@ export function layoutSeries(series: Series): SeriesLayout {
       from,
       to,
       points: [...seg.points].sort((a, b) => a.year - b.year),
+      note: seg.note,
       widthFraction,
       offsetFraction: offset,
       // Own domain, own baseline. This is what stops the eye completing the line.

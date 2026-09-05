@@ -1,0 +1,132 @@
+- id: fina-1957-underwater-breaststroke
+  scope: { sport: swimming, discipline: pool, event: breaststroke }
+  date_adopted: 1956
+  date_effective: 1957
+  status: adopted
+  governing_body: Fédération Internationale de Natation
+  what_changed: >
+    Swimming the breaststroke underwater was prohibited; part of the head must
+    break the surface during each complete cycle. Competitors at the 1956 Games
+    had covered large portions of the race submerged, which is faster than
+    swimming on the surface.
+  cause_primary: safety
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Swimmers holding their breath for extended underwater sections risked
+      shallow-water blackout, and several were reported to have surfaced in
+      distress. A secondary concern was that the event had become largely
+      invisible to spectators.
+  citation:
+    source: world-aquatics-rules
+    edition: FINA Rules, 1957
+    missing: true
+  comparability_break: null
+
+- id: fina-1991-backstroke-fifteen-metres
+  scope: { sport: swimming, discipline: pool, event: backstroke }
+  date_adopted: 1988
+  date_effective: 1991
+  status: adopted
+  governing_body: Fédération Internationale de Natation
+  what_changed: >
+    The distance a backstroke swimmer may remain submerged after the start and
+    each turn was limited — first to ten metres, then settled at fifteen — after
+    which the head must break the surface. Underwater dolphin kicking is faster
+    than surface backstroke, and without a limit the event tends towards being
+    swum underwater.
+  cause_primary: disputed
+  trigger:
+    description: >
+      At the 1988 Games David Berkoff swam roughly the first third of the
+      100 m backstroke submerged. The stated concern was the same hypoxia risk
+      that had ended underwater breaststroke thirty years earlier.
+    also_said: >
+      It is at least as widely held that the federation acted because a
+      backstroke race in which the swimmers are not visible is unusable as a
+      spectator and broadcast event. The sources do not separate the two, so
+      the cause is recorded as disputed.
+  citation:
+    source: world-aquatics-rules
+    edition: FINA Rules, 1991
+    missing: true
+  comparability_break: null
+
+- id: fina-2000-full-body-suits
+  scope: { sport: swimming, discipline: pool }
+  date_adopted: 1999
+  date_effective: 2000
+  status: adopted
+  governing_body: Fédération Internationale de Natation
+  what_changed: >
+    Swimwear covering the torso and limbs was permitted, ending the previous
+    restriction of suits to the trunk. The decision opened roughly a decade in
+    which suit construction, rather than swimming, became the fastest-moving
+    variable in the sport.
+  cause_primary: equipment and technology
+  trigger:
+    description: >
+      Manufacturers had developed low-drag full-body fabrics and sought
+      approval; the federation permitted them rather than writing a
+      construction specification.
+  citation:
+    source: world-aquatics-rules
+    edition: FINA Rules, 2000
+    missing: true
+  comparability_break: null
+
+- id: fina-2010-textile-only-swimwear
+  scope: { sport: swimming, discipline: pool }
+  date_adopted: 2009-07
+  date_effective: 2010-01-01
+  status: adopted
+  governing_body: Fédération Internationale de Natation
+  what_changed: >
+    Swimsuits must be made of textile, may not cover the neck or extend past
+    the shoulders or ankles, and men's suits may not extend above the waist.
+    Polyurethane and other non-textile constructions were prohibited outright.
+    Every world record set in the banned suits was allowed to stand.
+  cause_primary: equipment and technology
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Forty-three world records fell at the 2009 World Championships in Rome
+      alone. The federation's stated position was that the suits had made the
+      sport a contest between manufacturers, and that swimmers on teams tied to
+      a slower supplier were competing on unequal terms.
+    also_said: >
+      On the decision to let the records stand, the federation's position was
+      that the marks were set legally under the rules in force. Critics argued
+      that this left a set of records effectively unreachable under the new
+      rules — which is what happened, and is visible in the charts on this
+      page.
+    source: fina-dubai-charter-2009
+  citation:
+    source: world-aquatics-rules
+    edition: FINA Rules, 2010, swimwear provisions
+    article: "BL 8"
+  comparability_break: swimming-100-free-mens
+
+- id: fina-2015-breaststroke-dolphin-kick
+  scope: { sport: swimming, discipline: pool, event: breaststroke }
+  date_adopted: 2014
+  date_effective: 2015
+  status: adopted
+  governing_body: Fédération Internationale de Natation
+  what_changed: >
+    A single downward dolphin kick was explicitly permitted at any point during
+    the first arm pull after the start and each turn, having previously been
+    permitted only as part of the pull-out and been a disqualification
+    otherwise.
+  cause_primary: integrity
+  trigger:
+    description: >
+      Underwater video had made it clear that the kick was being performed
+      routinely and was not being detected by officials at the surface. The
+      federation legalised a rule it could not enforce rather than continue to
+      disqualify the swimmers it happened to catch.
+  citation:
+    source: world-aquatics-rules
+    edition: FINA Rules, 2015
+    article: "SW 7.1"
+  comparability_break: null

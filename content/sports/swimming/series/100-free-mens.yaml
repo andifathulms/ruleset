@@ -1,0 +1,46 @@
+id: swimming-100-free-mens
+label: Men's 100 m freestyle world record
+unit: s
+higher_is_better: false
+source: world-aquatics-rules
+segments:
+  - id: pre-2010
+    from: 1976
+    to: 2010
+    points:
+      - year: 1976
+        value: 49.99
+        holder: Jim Montgomery
+        detail: The first man under fifty seconds.
+        source: world-aquatics-rules
+      - { year: 1988, value: 48.42, holder: Matt Biondi, source: world-aquatics-rules }
+      - { year: 2000, value: 47.84, holder: Pieter van den Hoogenband, source: world-aquatics-rules }
+      - { year: 2008, value: 47.05, holder: Eamon Sullivan, source: world-aquatics-rules }
+      - year: 2009
+        value: 46.91
+        holder: César Cielo
+        detail: Set in Rome in a polyurethane suit, four months before the suits were banned.
+        source: world-aquatics-rules
+  - id: post-2010
+    from: 2010
+    to: null
+    note: >
+      Fifteen years with no ratified improvement, then two in one season.
+    points:
+      - year: 2024
+        value: 46.40
+        holder: Pan Zhanle
+        detail: >
+          The first textile-suit mark to beat the 2009 record, fifteen years
+          after it was set.
+        source: world-aquatics-rules
+break:
+  at: 2010
+  caused_by: fina-2010-textile-only-swimwear
+  kind: retained
+  note: >
+    Non-textile suits were prohibited from 1 January 2010 and the records set
+    in them were allowed to stand. The rule changed; the record book did not.
+    The two segments are not comparable — the left one was swum in equipment
+    that is now illegal — but unlike the javelin, the left one is still the
+    record to beat. Fifteen years passed before anyone did.

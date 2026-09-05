@@ -1,0 +1,39 @@
+id: swimming-200-free-mens
+label: Men's 200 m freestyle world record
+unit: s
+higher_is_better: false
+source: world-aquatics-rules
+segments:
+  - id: pre-2010
+    from: 1976
+    to: 2010
+    points:
+      - { year: 1976, value: 110.29, holder: Bruce Furniss, detail: "1:50.29", source: world-aquatics-rules }
+      - { year: 1989, value: 106.69, holder: Giorgio Lamberti, detail: "1:46.69", source: world-aquatics-rules }
+      - { year: 2001, value: 104.06, holder: Ian Thorpe, detail: "1:44.06", source: world-aquatics-rules }
+      - { year: 2007, value: 103.86, holder: Michael Phelps, detail: "1:43.86", source: world-aquatics-rules }
+      - { year: 2008, value: 102.96, holder: Michael Phelps, detail: "1:42.96", source: world-aquatics-rules }
+      - year: 2009
+        value: 102.00
+        holder: Paul Biedermann
+        detail: >
+          1:42.00, Rome, in a polyurethane suit, beating Michael Phelps in a
+          textile one. Biedermann later said the suit was worth about two
+          seconds.
+        source: world-aquatics-rules
+  - id: post-2010
+    from: 2010
+    to: null
+    note: >
+      Empty on purpose. No ratified improvement in the entire textile era.
+      This blank panel is the clearest single consequence of a governing body
+      choosing to let records stand.
+    points: []
+break:
+  at: 2010
+  caused_by: fina-2010-textile-only-swimwear
+  kind: retained
+  note: >
+    The same 2010 rule, and the same decision to retain the marks. Here the
+    consequence is still visible as an empty half of the chart: the record set
+    in Rome in July 2009 has not been beaten since.
