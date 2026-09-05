@@ -1,0 +1,122 @@
+# Every source cited by id. Rule 2: never invent a citation.
+#
+# `standing` records how far the citation has actually been checked against the
+# document, and it is rendered, not hidden:
+#
+#   primary-checked   the named edition and article were read
+#   primary-named     the document exists and is the right one, but the article
+#                     number here has not been confirmed against the text
+#   secondary         a governing-body statement, circular, or press release
+#   absent            no source found; the entry renders as incomplete
+#
+# Entries below are seeded at `primary-named` unless stated. Promoting one to
+# `primary-checked` means opening the document — see the content workflow in
+# CLAUDE.md. Nothing is promoted from memory.
+
+- id: bwf-laws-of-badminton
+  standing: primary-named
+  title: Laws of Badminton
+  publisher: Badminton World Federation
+  kind: rulebook
+  url: https://corporate.bwfbadminton.com/statutes/
+  note: >
+    BWF publishes the Laws as Part II, Section 1A of its Statutes, revised at
+    each Annual General Meeting. Cite the AGM year of the edition.
+
+- id: bwf-agm-2005
+  standing: secondary
+  title: BWF Annual General Meeting decisions, 2005
+  publisher: Badminton World Federation
+  kind: minutes
+  note: >
+    The rally-scoring decision was taken by the membership in 2005 for trial and
+    confirmed for general use in 2006. Minutes not yet obtained.
+
+- id: wa-technical-rules
+  standing: primary-named
+  title: World Athletics Technical Rules (Book C, C2.1)
+  publisher: World Athletics
+  kind: rulebook
+  url: https://worldathletics.org/about-iaaf/documents/book-of-rules
+  note: >
+    Published as the IAAF Competition Rules until the 2019 rename. Javelin
+    specification sits in the throwing-implement rule; cite the rule number of
+    the edition in force, which has been renumbered more than once.
+
+- id: wa-record-progressions
+  standing: primary-named
+  title: World Athletics world record progressions
+  publisher: World Athletics
+  kind: record-book
+  url: https://worldathletics.org/records/by-category/world-records
+
+- id: ifab-laws-of-the-game
+  standing: primary-named
+  title: Laws of the Game
+  publisher: International Football Association Board
+  kind: rulebook
+  url: https://www.theifab.com/laws-of-the-game-documents/
+  note: >
+    IFAB publishes an annual edition plus a circular listing that season's
+    amendments. Cite the season (e.g. 1992/93) and the Law number.
+
+- id: ifab-circulars
+  standing: primary-named
+  title: IFAB annual Law amendment circulars
+  publisher: International Football Association Board
+  kind: circular
+  url: https://www.theifab.com/documents/
+
+- id: fig-code-of-points
+  standing: primary-named
+  title: Code of Points
+  publisher: Fédération Internationale de Gymnastique
+  kind: rulebook
+  url: https://www.gymnastics.sport/site/rules/
+  note: >
+    Published per quadrennium and per apparatus group. The 2006–2008 edition is
+    the one that removed the 10.0 maximum.
+
+- id: world-aquatics-rules
+  standing: primary-named
+  title: Competition Rules
+  publisher: World Aquatics (formerly FINA)
+  kind: rulebook
+  url: https://www.worldaquatics.com/rules
+  note: >
+    The swimwear rules sit in the SW and BL sections. The 2009 Rome congress
+    decision is recorded in FINA congress minutes under the former name.
+
+- id: fina-dubai-charter-2009
+  standing: secondary
+  title: FINA Bureau decision on swimwear (Dubai Charter)
+  publisher: FINA
+  kind: circular
+  note: >
+    The decision to permit textile-only suits from 2010 while allowing records
+    set in non-textile suits to stand. Full text not yet obtained.
+
+- id: olympedia
+  standing: secondary
+  title: Olympedia
+  publisher: OlyMADMen / International Olympic Committee
+  kind: database
+  url: https://www.olympedia.org/
+  note: Used for the skeleton layer only, never for a cause or a rule citation.
+
+- id: ioc-olympic-charter
+  standing: primary-named
+  title: Olympic Charter
+  publisher: International Olympic Committee
+  kind: charter
+  url: https://olympics.com/ioc/olympic-charter
+  note: Source of the sport / discipline / event vocabulary used throughout.
+
+- id: bunker-thorpe-1982
+  standing: secondary
+  title: A model for the teaching of games in secondary schools
+  publisher: Bulletin of Physical Education
+  kind: paper
+  note: >
+    Bunker and Thorpe, 1982. The origin of the invasion / net and wall /
+    striking and fielding / target grouping used by the game-category lens.

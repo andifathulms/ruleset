@@ -1,0 +1,80 @@
+# Three switchable classification schemes (PRD §6). A lens re-lanes the whole
+# board; it is not a tag on a page. Each lens cites the source of its taxonomy
+# rather than inventing one.
+
+- id: official
+  label: Official
+  blurb: >
+    The IOC's own sport / discipline / event grouping, as published per Games.
+    Using the IOC vocabulary makes the taxonomy itself citable.
+  source: ioc-olympic-charter
+  groups:
+    - id: racket-sports
+      label: Racket sports
+      colour: clay
+      members: [badminton]
+    - id: athletics
+      label: Athletics
+      colour: pool
+      members: [athletics]
+    - id: football
+      label: Football
+      colour: pitch
+      members: [football]
+    - id: gymnastics
+      label: Gymnastics
+      colour: gold
+      members: [gymnastics]
+    - id: aquatics
+      label: Aquatics
+      colour: pool
+      members: [swimming]
+
+- id: game-category
+  label: Game category
+  blurb: >
+    The invasion / net and wall / striking and fielding / target grouping from
+    the Teaching Games for Understanding literature, where it originates.
+  source: bunker-thorpe-1982
+  groups:
+    - id: net-and-wall
+      label: Net and wall
+      colour: clay
+      members: [badminton]
+    - id: invasion
+      label: Invasion
+      colour: pitch
+      members: [football]
+    - id: target
+      label: Target
+      colour: pool
+      members: []
+    - id: performance
+      label: Performance
+      colour: gold
+      members: [athletics, gymnastics, swimming]
+
+- id: adjudication
+  label: Adjudication
+  blurb: >
+    How the winner is determined. This is the lens that answers the question
+    the timeline exists to ask: do judged sports change their rules for
+    different reasons than measured ones?
+  source: null
+  groups:
+    - id: measured
+      label: Measured
+      colour: pool
+      members: [athletics, swimming]
+    - id: judged
+      label: Judged
+      colour: gold
+      members: [gymnastics]
+    - id: decided-by-score
+      label: Decided by score
+      colour: pitch
+      members: [football, badminton]
+    - id: combat
+      label: Combat
+      colour: clay
+      members: []

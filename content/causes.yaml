@@ -1,0 +1,66 @@
+# Closed cause vocabulary (PRD §3). Exactly one primary cause per rule change.
+# `mark` is the SVG glyph the timeline draws — cause is carried by shape, never
+# by colour, because colour is already carrying sport family (DESIGN.md).
+
+- id: safety
+  label: Safety
+  mark: square
+  definition: >
+    Changed to reduce risk of injury or death to competitors or spectators.
+    Frequently follows a specific incident, which belongs in `trigger`.
+
+- id: broadcast and pacing
+  label: Broadcast and pacing
+  mark: triangle
+  definition: >
+    Changed to make match length predictable, shorten dead time, or fit a
+    scheduled slot. The dominant cause of scoring rewrites from the 1990s on.
+
+- id: dominance suppression
+  label: Dominance suppression
+  mark: diamond
+  definition: >
+    Changed after a period in which one nation, athlete, or tactic won
+    consistently enough that the governing body legislated against it.
+
+- id: equipment and technology
+  label: Equipment and technology
+  mark: circle
+  definition: >
+    Changed because an implement, surface, or garment outran the rules
+    written for it. Usually the cause of the most total comparability breaks.
+
+- id: fairness and eligibility
+  label: Fairness and eligibility
+  mark: cross
+  definition: >
+    Changed to define who may compete, in what category, or under what
+    qualification.
+
+- id: commercial
+  label: Commercial
+  mark: bar
+  definition: >
+    Changed to serve sponsorship, ticketing, or the commercial interests of
+    the governing body, distinct from broadcast scheduling.
+
+- id: participation and access
+  label: Participation and access
+  mark: chevron
+  definition: >
+    Changed to widen or narrow who plays the sport, including the addition
+    of women's events and the lowering of entry barriers.
+
+- id: integrity
+  label: Integrity
+  mark: hexagon
+  definition: >
+    Changed in response to match-fixing, doping, deliberate underperformance,
+    or the manipulation of judging.
+
+- id: disputed
+  label: Disputed
+  mark: hollow-circle
+  definition: >
+    Sources give conflicting reasons. Both readings are recorded in `trigger`
+    and neither is presented as settled. Rendered in `unmarked`.
