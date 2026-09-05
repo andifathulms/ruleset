@@ -8,9 +8,22 @@ import type {
 const CONTENT = path.join(process.cwd(), 'content')
 const SPORTS = path.join(CONTENT, 'sports')
 
-function readYaml<T>(...parts: string[]): T {
-  return yaml.load(fs.readFileSync(path.join(...parts), 'utf8')) as T
+/**
+ * CORE_SCHEMA rather than the default: the default schema turns `2006-01-01`
+ * into a Date and `1996` into a number, so a date field's type depended on how
+ * precisely it happened to be written. Here every scalar is a JSON type, and
+ * dates are normalised to strings on the way out.
+ */
+function parse<T>(text: string): T {
+  return yaml.load(text, { schema: yaml.CORE_SCHEMA }) as T
 }
+
+function readYaml<T>(...parts: string[]): T {
+  return parse<T>(fs.readFileSync(path.join(...parts), 'utf8'))
+}
+
+/** `1986` and `1986-04-01` are both dates; only one of them parses as a string. */
+const asDate = (v: unknown): string => (v == null ? '' : String(v))
 
 function dirs(at: string): string[] {
   if (!fs.existsSync(at)) return []
@@ -47,8 +60,14 @@ export function getSports(): Sport[] {
 export function getRuleChanges(id: string): RuleChange[] {
   const file = path.join(SPORTS, id, 'rules.yaml')
   if (!fs.existsSync(file)) return []
-  const rules = yaml.load(fs.readFileSync(file, 'utf8')) as RuleChange[] | null
-  return (rules ?? []).sort((a, b) => a.date_effective.localeCompare(b.date_effective))
+  const rules = parse<RuleChange[] | null>(fs.readFileSync(file, 'utf8')) ?? []
+  return rules
+    .map((r) => ({
+      ...r,
+      date_effective: asDate(r.date_effective),
+      date_adopted: r.date_adopted ? asDate(r.date_adopted) : undefined,
+    }))
+    .sort((a, b) => a.date_effective.localeCompare(b.date_effective))
 }
 
 /** Every rule change across every sport, in date order. The timeline's input. */
@@ -64,7 +83,7 @@ export function getSeriesForSport(id: string): Series[] {
   return fs.readdirSync(at)
     .filter((f) => f.endsWith('.yaml'))
     .sort()
-    .map((f) => yaml.load(fs.readFileSync(path.join(at, f), 'utf8')) as Series)
+    .map((f) => parse<Series>(fs.readFileSync(path.join(at, f), 'utf8')))
 }
 
 export function getAllSeries(): { sport: string; series: Series }[] {
