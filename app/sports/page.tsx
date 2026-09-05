@@ -99,7 +99,7 @@ export default function SportsIndex() {
                         <dd className="numeral text-[17px]" style={{ color: c.bright }}>
                           {breakYears.length}
                         </dd>
-                        <dt>breaks</dt>
+                        <dt>{breakYears.length === 1 ? 'break' : 'breaks'}</dt>
                       </div>
                       <div className="flex items-baseline gap-1.5">
                         <dd className="numeral text-[17px] text-chalk">{ownSeries.length}</dd>

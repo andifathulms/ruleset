@@ -348,7 +348,10 @@ function HorizontalBoard({
   onSelect: (id: string | null) => void
 }) {
   const [hover, setHover] = useState<Hover | null>(null)
-  const w = Math.max(width, 760)
+  // Less the 1px border on each side of the frame this sits in. Sized to the
+  // full wrapper width it overflowed by exactly two pixels, which showed a
+  // horizontal scrollbar under a board that had nothing to scroll to.
+  const w = Math.max(width - 2, 760)
   const laneTop = PAD.top
   const laneBottom = laneTop + lanes.length * LANE_H
   const h = laneBottom + DENSITY_H + PAD.bottom
@@ -521,14 +524,40 @@ function LaneRow({
   const { pieces, steps } = laneLinePieces(lane, x, bounds)
   const length = right - left
 
+  /* Two rule changes a year apart landed on top of each other — football's
+     1992 and 1993, gymnastics' two in 2006 — and the glyphs became one
+     illegible blob. Marks that would collide are spread to a minimum spacing
+     and the cluster is then re-centred on its own mean, so a group straddles
+     the year it happened rather than drifting to the right of it. The nudge is
+     a few pixels, well under a year at any width the board is drawn at. */
+  const MIN_GAP = 17
+  const positions = useMemo(() => {
+    const raw = lane.marks.map((m) => x(m.time))
+    const out = [...raw]
+    for (let i = 1; i < out.length; i++) {
+      if (out[i] - out[i - 1] < MIN_GAP) out[i] = out[i - 1] + MIN_GAP
+    }
+    let start = 0
+    for (let i = 1; i <= out.length; i++) {
+      const endsRun = i === out.length || out[i] - out[i - 1] > MIN_GAP + 0.5
+      if (!endsRun) continue
+      if (i - start > 1) {
+        const sum = (arr: number[]) => arr.reduce((a, b) => a + b, 0)
+        const shift = (sum(raw.slice(start, i)) - sum(out.slice(start, i))) / (i - start)
+        for (let j = start; j < i; j++) out[j] += shift
+      }
+      start = i
+    }
+    return out
+  }, [lane.marks, x])
+
   /* Year labels alternated on index parity, which put two adjacent marks on
      the same side whenever a third sat between them. Sides are now chosen by
      how close the last label on each side actually is. */
   const labelSide = useMemo(() => {
     let lastAbove = -Infinity
     let lastBelow = -Infinity
-    return lane.marks.map((m) => {
-      const px = x(m.time)
+    return positions.map((px) => {
       // Whichever side has more room. Preferring one side and only falling
       // back on the other still collided once three marks arrived together.
       const above = px - lastAbove >= px - lastBelow
@@ -536,7 +565,7 @@ function LaneRow({
       else lastBelow = px
       return above
     })
-  }, [lane.marks, x])
+  }, [positions])
   const top = y - LANE_H / 2 + 9
   const boxH = LANE_H - 18
 
@@ -604,9 +633,11 @@ function LaneRow({
       </g>
 
       {lane.marks.map((m, i) => {
-        const px = x(m.time)
+        const px = positions[i]
         const above = labelSide[i]
-        const dy = markOffset(pieces, px)
+        // Which side of a break a mark sits on is decided by its true date,
+        // never by the few pixels it may have been nudged for legibility.
+        const dy = markOffset(pieces, x(m.time))
         const cause = causeMap[m.cause]
         const isSelected = selected === m.id
         const breaks = Boolean(m.breaksSeries)

@@ -170,7 +170,9 @@ export default function Home() {
       <section className="mx-auto max-w-[86rem] px-5 py-16 sm:py-24">
         <Reveal>
           <p className="eyebrow">The deep layer</p>
-          <h2 className="mt-3 text-fluid-h2 text-chalk">Four sports, four kinds of rule</h2>
+          <h2 className="mt-3 text-fluid-h2 text-chalk">
+            {NUMBER[deep.length] ?? deep.length} sports, one rulebook at a time
+          </h2>
           <p className="prose-measure mt-4 text-fluid-base text-chalk/80">
             At least one from each family, chosen because a &ldquo;rule&rdquo;
             is a structurally different object in each — a scoring system, an
@@ -215,7 +217,7 @@ export default function Home() {
                       <span className="numeral text-[17px]" style={{ color: c.bright }}>
                         {b}
                       </span>{' '}
-                      breaks
+                      {b === 1 ? 'break' : 'breaks'}
                     </span>
                     <span className="ml-auto transition-transform duration-300 group-hover:translate-x-1">
                       →
