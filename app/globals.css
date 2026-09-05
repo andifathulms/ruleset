@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  White line-work on painted surfaces. The lane is the primary structure and a
+  comparability break is drawn as a break in the line itself. Nothing else on
+  the page is allowed to break a line.
+*/
+
+@layer base {
+  :root {
+    --font-display: 'Archivo', 'Archivo Narrow', 'Oswald', ui-sans-serif, sans-serif;
+    --font-body: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+    color-scheme: dark;
+  }
+
+  html {
+    background: #0b2b30;
+  }
+
+  body {
+    background: #0b2b30;
+    color: #f2f5f1;
+    font-family: var(--font-body);
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Condensed grotesque is the vernacular of scoreboards and lane numbers. */
+  .font-display,
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-stretch: 62%;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    line-height: 1.05;
+  }
+
+  /* Years and all numerals share the display face. */
+  .numeral {
+    font-family: var(--font-display);
+    font-stretch: 62%;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Visible keyboard focus everywhere, on the dark ground. */
+  :focus-visible {
+    outline: 2px solid #f2f5f1;
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background: #c8a02c;
+    color: #0b2b30;
+  }
+}
+
+@layer components {
+  /* A painted court line. Used for every rule on the page. */
+  .chalk-rule {
+    border-color: rgb(242 245 241 / 0.22);
+  }
+
+  .prose-measure {
+    max-width: 70ch;
+  }
+
+  .prose-measure p {
+    margin-bottom: 1.15em;
+  }
+
+  .prose-measure p:last-child {
+    margin-bottom: 0;
+  }
+
+  .prose-measure strong {
+    color: #f2f5f1;
+    font-weight: 600;
+  }
+
+  .prose-measure em {
+    font-style: italic;
+  }
+}
+
+/*
+  Motion: the lanes paint left to right once, the way a line marker walks a
+  pitch. Then nothing moves on its own.
+*/
+@keyframes paint-lane {
+  from { stroke-dashoffset: var(--lane-length, 2000); }
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes mark-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.lane-paint {
+  stroke-dasharray: var(--lane-length, 2000);
+  animation: paint-lane 1.2s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+
+.mark-in {
+  animation: mark-in 0.28s linear both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* The painted board arrives immediately; lens switching does not tween. */
+  .lane-paint,
+  .mark-in {
+    animation: none !important;
+    stroke-dashoffset: 0 !important;
+    opacity: 1 !important;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
