@@ -82,6 +82,11 @@ Uncovered sports show status and classification only and are marked as such.
   SeriesChart.tsx        segments that cannot be joined
   RuleList.tsx           a rule change in full
   Mark.tsx               nine causes as nine shapes
+  MiniLane.tsx           one sport's lane at card size
+  BreakDiagram.tsx       the argument, drawn: a line that stops and steps
+  Motion.tsx             scroll reveal, counters, read progress
+  SiteHeader.tsx         sticky nav that condenses on scroll
+  SectionNav.tsx         where in a sport page you are
 ```
 
 ## Design
@@ -97,10 +102,23 @@ DESIGN.md and CLAUDE.md disagree on this point — DESIGN.md's second pass moved
 cause from colour to shape and gives its reasoning, so that is what is
 implemented.
 
-Archivo at 62% width for headings and all numerals, IBM Plex Sans for body at
-17px with the measure capped at 70 characters. One motion moment: the lanes
-paint left to right on first load, the way a line marker walks a pitch.
-`prefers-reduced-motion` renders the board immediately.
+The ground is a two-step ink: a near-black page with the court teal reserved
+for anything raised off it, lit by a soft wash from the top corners and carrying
+a fine grain so the large flat areas do not band. Each family colour has a
+brighter sibling for line-work, labels and glow — the base hues were mixed as a
+fill and lost their edge as a stroke.
+
+Archivo at 62% width for headings and all numerals, narrower and tighter still
+at signage sizes; IBM Plex Sans for body, on a fluid scale with the measure
+capped at 70 characters. Long reading sections sit on a tint of the sport's
+family colour, so reading mode is recognisable without a label.
+
+Motion answers the reader rather than running on its own. The lanes paint left
+to right the way a line marker walks a pitch and the marks scale in as the paint
+reaches them; a record draws itself when you arrive at it; sections rise as they
+enter view; switching lens slides the indicator and re-lanes the board. Nothing
+loops. `prefers-reduced-motion` renders everything immediately and printing
+forces every deferred reveal visible, so a print is never a blank column.
 
 ## Where it is incomplete, deliberately
 
