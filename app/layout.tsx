@@ -66,9 +66,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <p className="font-display text-3xl text-chalk">Ruleset</p>
                 <p className="prose-measure mt-3 text-[15px] text-dim">
                   Read-only, static, and deliberately incomplete. Coverage grows
-                  where the author&rsquo;s curiosity goes. Four sports are
-                  researched; the rest of the Olympic programme is present as
-                  status data only and is marked as such wherever it appears.
+                  where the author&rsquo;s curiosity goes. The researched sports
+                  carry a cause and a citation per rule change; the rest of the
+                  Olympic programme is present as status data only, and is
+                  marked as such wherever it appears.
                 </p>
               </div>
 
