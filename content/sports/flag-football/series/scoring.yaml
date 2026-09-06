@@ -1,0 +1,38 @@
+id: flag-football-scoring
+label: Points per game
+unit: points per game
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  No continuous scoring series exists for flag football, and the reason is that
+  the sport is younger than most of its own rule changes.
+
+  The five-a-side international format dates from 2002. Before that, flag
+  football was a family of local codes — four a side, seven a side, eight a
+  side, with and without contact blocking, on fields of varying size — and
+  figures from those codes describe different games.
+
+  Since 2002 the format has been stable but the competition record is thin: a
+  world championship every two years, with a field whose strength varies more
+  between editions than the scoring does. A rate statistic drawn from it would
+  measure who entered, not how the game is played.
+
+  What can be said is structural. There is no punt and no field goal, so every
+  possession ends in a score or a turnover on downs, and scoring rates are high
+  by the standards of any football code. Whether they have moved is not
+  something a cited source currently supports.
+segments: []
+breaks:
+  - at: 1940
+    caused_by: flag-1940s-flag-pull
+    kind: scoped
+    note: >
+      The flag pull replaces the tackle. Nothing in tackle football's record is
+      comparable with what follows.
+  - at: 2002
+    caused_by: flag-no-run-zones
+    kind: scoped
+    note: >
+      The international five-a-side code, with no-run zones, supersedes a family
+      of local formats that scored differently.
+source: ifaf-flag-rules

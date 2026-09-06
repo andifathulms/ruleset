@@ -1,0 +1,124 @@
+sport: flag-football
+as_of: 2026-09
+edition: IFAF Flag Football Competition Rules
+source: ifaf-flag-rules
+standing: primary-named
+summary: >
+  Five a side, twenty-minute halves, on a field a quarter the size of an
+  American football pitch. No tackling, no blocking, no kicking of any kind.
+  A ball carrier is down when someone pulls a flag off their belt.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Advance the ball into the opponent's end zone. The offence has four downs
+      to reach the halfway line and, having reached it, four more to score.
+
+      Because there is no punt and no field goal, a failed drive simply hands
+      the ball over where it lies. Every possession ends in a touchdown or a
+      turnover, which is why the game is played at the pace it is.
+    shaped_by: [flag-no-punt-no-kick]
+
+  - id: field
+    label: The field
+    body: >
+      Fifty yards by twenty-five, with ten-yard end zones at each end — about a
+      quarter of the area of an American football field.
+
+      Five yards before each first-down line, and five yards before the end
+      zone, sit the no-run zones. Inside them the offence must pass.
+    facts:
+      - { label: Field of play, value: 50 × 25 yd }
+      - { label: End zones, value: 10 yd each }
+      - { label: No-run zones, value: 5 yd before the halfway and goal lines }
+    shaped_by: [flag-five-a-side, flag-no-run-zones]
+
+  - id: equipment
+    label: Equipment
+    body: >
+      A belt carrying two flags on each hip, and a ball. No helmet, no pads, no
+      protective equipment of any kind, because there is nothing to protect
+      against.
+
+      Flags must detach cleanly, which sounds trivial and is the most disputed
+      piece of equipment in the sport: a flag that is tucked, held or tightened
+      changes whether a defender can end a play.
+    facts:
+      - { label: Flags, value: Two per player, one on each hip }
+      - { label: Protective equipment, value: None }
+      - { label: Ball, value: Smaller than an eleven-a-side ball }
+    shaped_by: [flag-1940s-flag-pull]
+
+  - id: players
+    label: Players and officials
+    body: >
+      Five a side, with rolling substitutions between plays. There is no
+      offensive line, so there is no position that exists to absorb contact,
+      and every player on the field is eligible to receive a pass.
+
+      That is the deepest consequence of removing the tackle: the sport has no
+      use for size. The body type of a flag football player is a sprinter's.
+    facts:
+      - { label: On the field, value: "5" }
+      - { label: Roster, value: Up to 12 }
+      - { label: Eligible receivers, value: Every player }
+    shaped_by: [flag-five-a-side]
+
+  - id: duration
+    label: Time
+    body: >
+      Two halves of twenty minutes, with a running clock that stops only in the
+      final two minutes of each half and for specified events. A whole match is
+      shorter than one quarter of an eleven-a-side game.
+    facts:
+      - { label: Halves, value: 2 × 20 min }
+      - { label: Clock, value: Running, except the last two minutes }
+      - { label: Play clock, value: "Typically 25 s" }
+    shaped_by: [flag-five-a-side]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      A touchdown is six points. The conversion is a single play from one, five
+      or ten yards out, worth one, two or three points respectively — the
+      three-point conversion has no equivalent in any other football code and
+      makes a two-score deficit recoverable in a way the eleven-a-side game
+      does not.
+
+      A defence that intercepts a conversion attempt and returns it scores.
+      There are no field goals.
+    facts:
+      - { label: Touchdown, value: "6" }
+      - { label: Conversion, value: 1, 2 or 3 points, by distance }
+      - { label: Safety, value: "2" }
+      - { label: Field goal, value: Does not exist }
+    shaped_by: [flag-no-punt-no-kick]
+
+  - id: restarts
+    label: Starting and restarting
+    body: >
+      No kick-off. Play begins with the ball on the offence's own five-yard
+      line, and every change of possession does the same. The snap is from the
+      ground or between the legs to a quarterback who must release the ball
+      within a short count.
+    shaped_by: [flag-no-punt-no-kick]
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Flag guarding — using a hand, arm or the ball to shield a flag — is the
+      offence that keeps the sport non-contact from the ball carrier's side. It
+      is called constantly and is the most argued call in the game.
+
+      Blocking, screening with contact, diving to advance the ball, and
+      stripping the ball are all prohibited. So is contact by a defender making
+      a flag pull.
+    shaped_by: [flag-1940s-flag-pull]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More points at full time. A tie is resolved by alternating single plays
+      from the five-yard line, each team getting the same number of attempts —
+      a shoot-out with no kicking in it.

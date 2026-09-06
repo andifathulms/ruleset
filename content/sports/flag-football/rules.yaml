@@ -1,0 +1,130 @@
+- id: flag-1940s-flag-pull
+  scope: { sport: flag-football, discipline: all }
+  date_adopted: 1940
+  date_effective: 1940
+  status: adopted
+  governing_body: United States military recreation programmes
+  what_changed: >
+    A ball carrier is down when a flag is pulled from their belt, not when they
+    are tackled. Blocking below the waist, and eventually blocking with contact
+    at all, went with it.
+
+    Everything downstream follows. With no tackle there is no need for an
+    offensive line to protect a passer by force, no reward for mass, and no
+    scrum of bodies at the line of scrimmage — so the game became a passing
+    game played by small fast people.
+  cause_primary: safety
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      American football was played in the United States military during the
+      Second World War as recreation, and injuries to servicemen from a contact
+      game were an unacceptable cost. The flag replaced the tackle so the game
+      could be played without removing men from duty.
+  citation:
+    source: ifaf-flag-rules
+    edition: IFAF Flag Football Competition Rules, definitions
+    missing: true
+  comparability_break: flag-football-scoring
+
+- id: flag-five-a-side
+  scope: { sport: flag-football, discipline: all }
+  date_adopted: 2002
+  date_effective: 2002
+  status: adopted
+  governing_body: IFAF
+  what_changed: >
+    The international format is five a side on a field 50 yards by 25, with
+    10-yard end zones — roughly a quarter of the area of an American football
+    field, for less than half the players.
+
+    Twenty-minute halves and a running clock stopped only in the last two
+    minutes make a whole match shorter than one quarter of the eleven-a-side
+    game.
+  cause_primary: participation and access
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      A sport that needs a full-size field, eleven a side, protective equipment
+      and a squad of forty cannot be adopted by countries without that
+      infrastructure. The five-a-side format was written to be exportable.
+  citation:
+    source: ifaf-flag-rules
+    edition: IFAF Flag Football Competition Rules, field and team
+    missing: true
+
+- id: flag-no-run-zones
+  scope: { sport: flag-football, discipline: all }
+  date_adopted: 2002
+  date_effective: 2002
+  status: adopted
+  governing_body: IFAF
+  what_changed: >
+    In the five yards before each first-down line and before the end zone, the
+    offence may not run the ball. It must pass.
+
+    Without this the short-yardage play would be a quarterback sneak behind a
+    wall of bodies, which is the one situation where mass would still win in a
+    game designed to remove that advantage.
+  cause_primary: fairness and eligibility
+  cause_secondary: safety
+  trigger:
+    description: >
+      A no-contact game still rewards a pile of players pushing forward one
+      yard. The no-run zone removes the last place where that tactic worked.
+  citation:
+    source: ifaf-flag-rules
+    edition: IFAF Flag Football Competition Rules, no-run zones
+    missing: true
+  comparability_break: flag-football-scoring
+
+- id: flag-no-punt-no-kick
+  scope: { sport: flag-football, discipline: all }
+  date_adopted: 2002
+  date_effective: 2002
+  status: adopted
+  governing_body: IFAF
+  what_changed: >
+    There is no kicking of any kind: no punt, no field goal, no kick-off. A
+    team that fails to advance simply turns the ball over where it stands, and
+    a conversion after a touchdown is a play from one, five or ten yards for
+    one, two or three points.
+  cause_primary: safety
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Kick-offs and punt returns are the plays in American football with the
+      highest injury rate, because they are the only ones with players running
+      at full speed into each other from a distance. A sport built to remove
+      collisions removed those plays entirely rather than regulate them.
+  citation:
+    source: ifaf-flag-rules
+    edition: IFAF Flag Football Competition Rules, scoring and possession
+    missing: true
+
+- id: flag-2023-olympic-inclusion
+  scope: { sport: flag-football, discipline: all }
+  date_adopted: 2023-10
+  date_effective: 2028
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Flag football was added to the Los Angeles 2028 programme as a host-city
+    proposal, with men's and women's tournaments, having never previously
+    appeared at a Games.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The proposal was made by the Los Angeles organisers and backed by the
+      National Football League, which stands to gain an international showcase
+      for a game whose eleven-a-side form cannot be exported.
+    also_said: >
+      IFAF presents the inclusion as recognition of a genuinely global amateur
+      sport. Both readings are recorded: a host city added a sport whose
+      commercial sponsor is domestic, and the sport does have a world
+      championship dating from 2002.
+  citation:
+    source: ifaf-flag-rules
+    edition: IOC Session decision, Mumbai, October 2023
+    missing: true

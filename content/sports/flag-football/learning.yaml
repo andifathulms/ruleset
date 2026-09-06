@@ -1,0 +1,87 @@
+sport: flag-football
+standing: editorial
+summary: >
+  The easiest sport on this site to start, because it was designed to be, and
+  much harder than it looks at the top, because with the collision removed the
+  game becomes almost entirely about reading space in the first two seconds.
+
+entry:
+  verdict: very-low
+  claim: A belt, a ball, a small field, ten people. No equipment and nothing that hurts.
+  why: >
+    Flag football exists because American football's barriers were removed one
+    at a time. There is no protective equipment to buy, no contact to be
+    frightened of, no full-size field to find, and a match takes forty minutes.
+
+    Five a side means ten people make a game, and rolling substitution means an
+    uneven number still does. Every player is an eligible receiver, so a
+    beginner is never assigned to a position whose job is to be hit.
+
+    What stops it being trivially easy is that the offence runs plays: even at
+    a casual level someone must call something and four people must know what
+    it means.
+  evidence:
+    - { label: Players needed, value: "10", basis: rule, rule: flag-five-a-side }
+    - { label: Kit to start, value: A belt with flags and a ball, basis: observation }
+    - { label: Protective equipment, value: None, basis: rule, rule: flag-1940s-flag-pull }
+    - { label: Match length, value: 40 min, basis: rule, rule: flag-five-a-side }
+    - { label: Time to a real game, value: One session, basis: judgement }
+
+mastery:
+  verdict: high
+  claim: A passing game with no line to hide behind, decided in about two seconds.
+  why: >
+    Take away the tackle and you take away the offensive line, which is the
+    thing that buys an American football quarterback time. In flag football the
+    rush arrives almost immediately, the read must be made before it does, and
+    there is no version of the play where a passer survives by being protected.
+
+    The defensive equivalent is that a flag pull is a precision act performed at
+    a sprint by someone who is not allowed to touch the ball carrier's body. It
+    is harder than a tackle, not easier: a tackle can be imprecise and still
+    work.
+
+    The no-run zones and the tiered conversion make the game unusually
+    strategic for its length — the choice of a one, two or three-point
+    conversion is a live decision several times a match.
+
+    The ceiling is lower than most sports here for one reason: the elite
+    competitive history is short. The international format dates from 2002 and
+    the sport has never been at a Games.
+  evidence:
+    - label: No blocking
+      value: Since inception
+      basis: rule
+      rule: flag-1940s-flag-pull
+      note: No offensive line, so no protection for the passer.
+    - label: No-run zones
+      value: 5 yd
+      basis: rule
+      rule: flag-no-run-zones
+      note: The short-yardage play must be a pass, which removes the last refuge of mass.
+    - label: International format
+      value: Since 2002
+      basis: rule
+      rule: flag-five-a-side
+      note: A short elite history compared with every other sport on this site.
+    - { label: Typical peak age, value: 22–30, basis: judgement }
+
+gap: >
+  Very low to high — the widest ratio on this site between how easy a sport is
+  to start and how demanding it is at the top, and the only case where that gap
+  was engineered rather than inherited.
+
+  Every other sport here arrived at its entry barrier by accident of history.
+  Flag football's low barrier is the product: the tackle, the equipment, the
+  field size, the squad size and the kicking game were removed deliberately so
+  that people could play. What remained turned out to be a fast, spatial,
+  read-and-react game that rewards a different athlete entirely from the one
+  American football rewards.
+
+  It is also the sport with the shortest professional pathway on this site,
+  which flattens the top of the curve. That will change if the 2028 Games do
+  what its federation expects.
+
+shaped_by:
+  - flag-1940s-flag-pull
+  - flag-five-a-side

@@ -431,6 +431,13 @@
     Sevens is governed by the fifteen-a-side Laws with a published set of
     variations, not by a separate book.
 
+- id: ifaf-flag-rules
+  standing: primary-named
+  title: IFAF Flag Football Competition Rules
+  publisher: International Federation of American Football
+  kind: rulebook
+  url: https://americanfootball.sport/
+
 - id: wbsc-softball-rules
   standing: primary-named
   title: WBSC Softball Playing Rules
