@@ -1,0 +1,42 @@
+id: wrestling-scores
+label: Bout scores across the format changes
+unit: points
+absence_kind: impossible
+cannot_exist: >
+  Wrestling scores are not comparable across 2013, and the reason is unusually
+  stark: before that year, a bout's winner was not necessarily the wrestler who
+  scored more points.
+
+  From 2005 a bout was best of three two-minute periods. Each period was won
+  separately, so a wrestler could lose 1–0, win 5–0 and lose 1–0, and be
+  defeated by an opponent who had scored two points to their five. A scoreless
+  period could be resolved by a clinch, or in freestyle by drawing a coloured
+  ball from a bag to decide who started with the advantage.
+
+  From 2013 a bout is two periods of three minutes with points accumulating
+  across the whole match, and the higher total wins.
+
+  So a scoreline before 2013 records a sequence of separate period results, and
+  one after it records a total. Those are different quantities, and no mapping
+  exists — the same wrestling could produce either outcome depending on how the
+  points fell across the periods.
+
+  It is the same structural break archery made in 2011 by moving to sets, and
+  taekwondo made in 2022 by moving to best of three rounds. Wrestling is the
+  only one of the three that moved in the opposite direction, from sets back to
+  a total.
+segments: []
+breaks:
+  - at: 2005
+    caused_by: fila-2005-clinch-and-ball
+    kind: scale-change
+    note: >
+      Bouts became best of three periods, so the score stopped being a total.
+      A scoreless period could be settled by drawing a ball from a bag.
+  - at: 2013
+    caused_by: uww-2013-scoring-rewrite
+    kind: scale-change
+    note: >
+      Back to a cumulative total across the bout. Rewritten in seven months,
+      under an IOC deadline, and the sport was reinstated.
+source: uww-rules

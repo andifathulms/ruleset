@@ -1,0 +1,133 @@
+- id: uww-2013-scoring-rewrite
+  scope: { sport: wrestling, discipline: all }
+  date_adopted: 2013-05
+  date_effective: 2013-09
+  status: adopted
+  governing_body: FILA, becoming United World Wrestling
+  what_changed: >
+    A bout became two periods of three minutes with points accumulating across
+    the whole match, replacing a best-of-three-periods structure in which each
+    two-minute period was won separately and could be decided by a clinch or a
+    ball draw. Passivity rules were tightened to force engagement, and scoring
+    values were revised to reward throws.
+
+    Under the old system a wrestler could win a bout while scoring fewer points
+    than the opponent, and periods could be settled by a coloured ball drawn
+    from a bag. Both were removed.
+  cause_primary: broadcast and pacing
+  cause_secondary: integrity
+  trigger:
+    description: >
+      In February 2013 the IOC Executive Board voted to remove wrestling from
+      the core Olympic programme, citing governance, universality and audience.
+      The sport had until September to make its case for reinstatement. It
+      replaced its president, rewrote the competition rules, added women's
+      weight categories and restructured its governance inside that window, and
+      the IOC restored it.
+    also_said: >
+      The changes were substantively good — the sport was genuinely more
+      watchable afterwards, and the ball draw was indefensible. What is
+      recorded here is that they were made under an existential deadline set by
+      an outside body, which is a cause no other rule change on this site has.
+  citation:
+    source: uww-rules
+    edition: FILA International Wrestling Rules, 2013
+    missing: true
+  comparability_break: wrestling-scores
+
+- id: uww-2013-womens-categories
+  scope: { sport: wrestling, discipline: freestyle }
+  date_adopted: 2013-05
+  date_effective: 2016
+  status: adopted
+  governing_body: United World Wrestling
+  what_changed: >
+    Women's wrestling was expanded to six Olympic weight categories, equal to
+    the men's freestyle programme, by reducing the number of men's categories
+    rather than by adding athletes.
+  cause_primary: participation and access
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Gender balance was among the criteria the IOC cited when it removed the
+      sport, and the federation moved immediately. Women's wrestling had been
+      on the programme since 2004 with fewer categories than either men's
+      style.
+  citation:
+    source: uww-rules
+    edition: UWW International Wrestling Rules, 2016
+    missing: true
+  comparability_break: null
+
+- id: fila-2005-clinch-and-ball
+  scope: { sport: wrestling, discipline: all }
+  date_adopted: 2004
+  date_effective: 2005
+  status: adopted
+  governing_body: FILA
+  what_changed: >
+    Bouts became best of three two-minute periods, and a scoreless period was
+    resolved by a clinch — in Greco-Roman — or, in freestyle, by a leg-grab
+    contest whose starting advantage was decided by drawing a coloured ball
+    from a bag.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      The federation wanted shorter, more decisive periods and a guaranteed
+      score. What it produced was a system in which a world title could turn on
+      a randomly drawn ball, and in which a wrestler could lose having outscored
+      their opponent.
+    also_said: >
+      This is the rule the IOC's 2013 decision is most often traced to. A
+      combat sport deciding periods by lot was cited repeatedly as evidence
+      that the federation had lost sight of what its competition was for.
+  citation:
+    source: uww-rules
+    edition: FILA International Wrestling Rules, 2005
+    missing: true
+  comparability_break: wrestling-scores
+
+- id: uww-2018-passivity-shot-clock
+  scope: { sport: wrestling, discipline: all }
+  date_adopted: 2017
+  date_effective: 2018
+  status: adopted
+  governing_body: United World Wrestling
+  what_changed: >
+    Passivity enforcement was formalised into a timed procedure: a wrestler
+    warned for passivity is placed on a shot clock and must score within a set
+    time or concede a point. A judgement about whether somebody is trying was
+    converted into a countable interval.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Passivity is the hardest call in any combat sport with a clock, and
+      wrestling's version had been inconsistent for decades. The shot clock is
+      the same instrument basketball invented in 1954 for the same problem.
+  citation:
+    source: uww-rules
+    edition: UWW International Wrestling Rules, 2018
+    missing: true
+  comparability_break: null
+
+- id: uww-2016-greco-parterre
+  scope: { sport: wrestling, discipline: greco-roman }
+  date_adopted: 2016
+  date_effective: 2017
+  status: adopted
+  governing_body: United World Wrestling
+  what_changed: >
+    In Greco-Roman, a wrestler penalised for passivity is placed in a par terre
+    position — on hands and knees, with the opponent behind them — giving the
+    opponent a scoring opportunity rather than merely a point.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Greco-Roman forbids attacks below the waist, which makes stalemate easy
+      and scoring rare. Forcing a par terre position after passivity guarantees
+      an attempt at a throw and keeps scores moving.
+  citation:
+    source: uww-rules
+    edition: UWW International Wrestling Rules, 2017
+    missing: true
+  comparability_break: null

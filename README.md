@@ -29,10 +29,11 @@ Three layers, marked as such everywhere:
 - **Skeleton** — 47 sports across 31 editions in `content/program.yaml`. Status
   per edition only, sourced to Olympedia, carrying no causes and no rule
   citations.
-- **Deep** — eighteen sports: badminton, athletics, football, gymnastics,
+- **Deep** — twenty-six sports: badminton, athletics, football, gymnastics,
   swimming, table tennis, basketball, cycling, judo, archery, volleyball,
-  tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo and
-  boxing.
+  tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo,
+  boxing, equestrian, fencing, rowing, sailing, golf, sport climbing, wrestling
+  and shooting.
 
 The first five were one per family, because a "rule" is a structurally
 different object in each: racket sports legislate scoring, measured sports
@@ -72,6 +73,26 @@ And the third wave, again chosen for what each proves:
 - **Boxing** tried the same fix in 1992 with buttons in the judges' hands
   instead of sensors on the athlete, reversed it in 2016, and lost its
   governing body in 2023.
+
+The fourth wave was picked for the same reason:
+
+- **Rowing, sailing and golf** are three answers to one question — our
+  conditions cannot be standardised, so what do our numbers mean? Rowing
+  refuses to call its times records. Sailing abandoned times entirely and
+  scores a series of positions with a discard. Golf built the handicap, the
+  only deliberate comparability *solution* anywhere in this collection.
+- **Fencing** did taekwondo's judged-to-measured crossing fifty years earlier
+  and took fifty-two years to finish, one weapon at a time.
+- **Equestrian** is the only sport with a non-human competitor and the only
+  fully mixed-gender one, now facing the welfare pressure that removed riding
+  from modern pentathlon.
+- **Sport climbing** holds the best and worst comparability on the site at
+  once: a speed route identical worldwide since 2007, and an Olympic combined
+  format that multiplied ranks together and lasted one Games.
+- **Wrestling** is the only sport here to have rewritten its rules to survive.
+  Voted off the programme in February 2013, reinstated in September.
+- **Shooting** measures more precisely than anything here and has spent thirty
+  years arranging its competition so the measurement matters less.
 
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause

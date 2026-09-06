@@ -1,0 +1,119 @@
+- id: ifsc-2007-standard-speed-route
+  scope: { sport: sport-climbing, discipline: speed }
+  date_adopted: 2007
+  date_effective: 2007
+  status: adopted
+  governing_body: IFSC
+  what_changed: >
+    Speed climbing was standardised onto a single route: the same wall angle,
+    the same fifteen metres, and the same holds in the same positions,
+    everywhere in the world. Every speed climber on earth now climbs an
+    identical problem.
+
+    The consequence is unusual on this site. Because the route is identical,
+    speed climbing times genuinely are comparable across venues and across
+    decades — which is exactly the property rowing, sailing and golf all
+    concluded they could not have.
+  cause_primary: fairness and eligibility
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Speed races on different routes measure different things, so there was no
+      record to chase and no way to compare climbers who had never met.
+      Standardising the route created a world record where none could exist.
+  citation:
+    source: ifsc-rules
+    edition: IFSC Rules, speed discipline
+    missing: true
+  comparability_break: null
+
+- id: ifsc-2020-combined-multiplication
+  scope: { sport: sport-climbing, discipline: all }
+  date_adopted: 2016
+  date_effective: 2021
+  status: adopted
+  governing_body: IFSC
+  what_changed: >
+    For the sport's first Olympic appearance, one medal was awarded across all
+    three disciplines, and the combined result was calculated by multiplying a
+    climber's rank in each together. A climber finishing 1st, 4th and 2nd
+    scored eight; the lowest product won.
+
+    Multiplying ranks means the value of a place depends on the other results,
+    so a climber could improve their position in one discipline and lose ground
+    overall. Neither competitors nor commentators could compute standings
+    reliably during the competition.
+  cause_primary: commercial
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      The IOC granted climbing a very small athlete quota — one medal event per
+      sex — and the federation had three disciplines to fit into it. Combining
+      them was the only way to include all three, and multiplication was chosen
+      because it separates results more sharply than addition.
+    also_said: >
+      Speed climbing is a sprint and lead climbing is an endurance discipline;
+      almost no elite climber trains both. The format therefore asked
+      specialists to contest events they did not practise, and was widely
+      described within the sport as producing the wrong champion. Both the
+      quota explanation and the criticism are recorded.
+  citation:
+    source: ifsc-rules
+    edition: IFSC Rules, Olympic combined format, 2020
+    missing: true
+  comparability_break: climbing-combined
+
+- id: ifsc-2024-format-split
+  scope: { sport: sport-climbing, discipline: all }
+  date_adopted: 2021
+  date_effective: 2024
+  status: adopted
+  governing_body: IFSC
+  what_changed: >
+    The combined format was abandoned after one Games. Speed became its own
+    medal event, and boulder and lead were combined into a second — scored by
+    adding points rather than multiplying ranks, with points awarded for
+    reaching holds.
+
+    Two events, an additive score, and the two disciplines that share training
+    kept together.
+  cause_primary: fairness and eligibility
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      The 2020 format was judged to have failed on its own terms: it produced a
+      champion by arithmetic, was incomprehensible to watch, and forced
+      specialists into disciplines they did not train. The federation obtained
+      a second medal event and split the sport along the line its athletes
+      actually specialise on.
+  citation:
+    source: ifsc-rules
+    edition: IFSC Rules, Olympic format, 2024
+    missing: true
+  comparability_break: climbing-combined
+
+- id: ifsc-2024-boulder-lead-scoring
+  scope: { sport: sport-climbing, discipline: boulder-lead }
+  date_adopted: 2023
+  date_effective: 2024
+  status: adopted
+  governing_body: IFSC
+  what_changed: >
+    Boulder and lead were put on a common hundred-point scale, with points for
+    reaching defined holds and deductions for attempts, so the two disciplines
+    could be added rather than ranked against each other.
+
+    This replaced a system in which boulder results were counted in tops and
+    zones and lead results in the highest hold reached, which are not
+    commensurable quantities at all.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Combining two disciplines requires a common currency, and the federation
+      had to invent one. The hundred-point scale is that invention, and like
+      gymnastics' difficulty values it is a price list written in an office.
+  citation:
+    source: ifsc-rules
+    edition: IFSC Rules, 2024
+    missing: true
+  comparability_break: climbing-combined

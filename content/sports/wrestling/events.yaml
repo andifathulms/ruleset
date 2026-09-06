@@ -1,0 +1,34 @@
+sport: wrestling
+as_of: 2026-09
+source: uww-rules
+standing: primary-named
+summary: >
+  Eighteen Olympic events across two styles, and the balance between them is
+  itself a 2013 artefact: women's freestyle was expanded to six categories, and
+  the men's programme reduced, to meet the gender-balance criterion the IOC had
+  cited when it removed the sport.
+disciplines:
+  - id: freestyle-men
+    label: "Freestyle, men"
+    blurb: The legs may be attacked and used.
+    events:
+      - { id: fm, label: Weight categories, olympic: true, count: 6 }
+  - id: freestyle-women
+    label: "Freestyle, women"
+    blurb: Equal to the men's freestyle programme since 2016.
+    events:
+      - { id: fw, label: Weight categories, olympic: true, count: 6 }
+  - id: greco
+    label: "Greco-Roman, men"
+    blurb: >
+      No attacks below the waist and no use of the legs — which is the whole of
+      the difference, and enough to make it a separate sport.
+    events:
+      - { id: gr, label: Weight categories, olympic: true, count: 6 }
+  - id: other
+    label: Governed by the federation, not on the programme
+    counts: false
+    events:
+      - { id: greco-women, label: "Greco-Roman, women", note: "Not contested internationally at senior level." }
+      - { id: beach, label: Beach wrestling }
+      - { id: grappling, label: Grappling and pankration }

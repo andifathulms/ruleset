@@ -1,0 +1,88 @@
+sport: sport-climbing
+standing: editorial
+summary: >
+  One of the lowest entry barriers of any sport added to the Olympic programme
+  this century, and a top end that has been redefined twice in two Games. The
+  climbing has not changed; what counts as winning has, repeatedly.
+
+entry:
+  verdict: low
+  claim: A gym, shoes and a session. Most people get up something on their first visit.
+  why: >
+    Indoor climbing walls are the reason this sport exists as a mass activity.
+    They are urban, commercial, open to walk-ins, and graded so that a complete
+    beginner has routes they can finish on their first hour. Bouldering needs
+    no rope, no partner and no instruction beyond how to fall.
+
+    That is an unusually gentle introduction, and it is why climbing grew fast
+    enough to be added to the Games. The sport's participation base is
+    recreational and enormous relative to its competitive one.
+
+    The barrier that exists is facility: a wall is a building, and a town
+    either has one or does not.
+  evidence:
+    - { label: Kit to start, value: Shoes and chalk, basis: observation, note: Both rentable. }
+    - { label: Facility, value: An indoor wall, basis: observation }
+    - { label: Partner required, value: Not for bouldering, basis: observation }
+    - { label: Coach needed, value: "No", basis: judgement }
+    - { label: Time to first climb, value: One session, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Three disciplines that do not share training, and a format that keeps changing which of them counts.
+  why: >
+    The physical demands are extreme and specific — finger strength above all,
+    which takes years to build and injures easily. But the distinctive feature
+    of this ceiling is that the sport has not settled what it is asking for.
+
+    In 2020 one Olympic medal covered speed, boulder and lead, scored by
+    multiplying ranks. Speed is a five-second sprint and lead is a six-minute
+    endurance route; almost nobody trains both, so specialists were required to
+    contest disciplines they did not practise, and the medal turned partly on
+    arithmetic. In 2024 that was abandoned and the sport split into two medals.
+
+    An athlete who spent the 2010s becoming the best lead climber in the world
+    had to become a competent sprinter to win an Olympic title, and then, one
+    cycle later, did not.
+  evidence:
+    - label: Combined by multiplication
+      value: "2020"
+      basis: rule
+      rule: ifsc-2020-combined-multiplication
+      note: Improving in one discipline could lower your overall position.
+    - label: Format abandoned
+      value: After one Games
+      basis: rule
+      rule: ifsc-2024-format-split
+    - label: Boulder and lead scale
+      value: Invented 2024
+      basis: rule
+      rule: ifsc-2024-boulder-lead-scoring
+      note: A common currency had to be written before the two could be added.
+    - label: Speed route
+      value: Identical worldwide since 2007
+      basis: rule
+      rule: ifsc-2007-standard-speed-route
+      note: Which is why speed times, alone in this sport, are genuinely comparable.
+    - { label: Typical peak age, value: 22–30, basis: judgement }
+
+gap: >
+  Climbing's gap is wide and the bottom of it is genuinely low — the sport's
+  commercial gyms are among the most welcoming facilities in any sport here.
+
+  What makes the top unusual is not difficulty but instability of definition.
+  Modern pentathlon replaced a discipline; sailing reselects its boats; judo
+  removed techniques. Climbing changed how its disciplines are *combined* into a
+  result, twice, in two Games, and the second change came after the first was
+  judged to have produced the wrong champion.
+
+  It also contains the site's cleanest counter-example. Speed climbing
+  standardised its route in 2007 so completely that every climber on earth
+  attempts an identical problem, and its times are comparable in a way rowing's,
+  sailing's and golf's explicitly are not. One sport, holding both the best and
+  the worst comparability on this board.
+
+shaped_by:
+  - ifsc-2020-combined-multiplication
+  - ifsc-2024-format-split
+  - ifsc-2007-standard-speed-route

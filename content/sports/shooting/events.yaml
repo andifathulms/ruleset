@@ -1,0 +1,38 @@
+sport: shooting
+as_of: 2026-09
+source: issf-rules
+standing: primary-named
+summary: >
+  Fifteen Olympic events across three disciplines, restructured in 2018 for
+  gender balance by removing three men's events and adding three mixed-team
+  ones. Several events contested for decades — the men's 50 m free pistol among
+  them — were removed to make the arithmetic work.
+disciplines:
+  - id: rifle
+    label: Rifle
+    events:
+      - { id: ar10, label: "10 m air rifle", olympic: true, count: 2 }
+      - { id: r3p, label: "50 m rifle three positions", olympic: true, count: 2 }
+      - { id: armix, label: "10 m air rifle mixed team", olympic: true }
+  - id: pistol
+    label: Pistol
+    events:
+      - { id: ap10, label: "10 m air pistol", olympic: true, count: 2 }
+      - { id: rfp, label: "25 m rapid fire pistol, men", olympic: true }
+      - { id: p25, label: "25 m pistol, women", olympic: true }
+      - { id: apmix, label: "10 m air pistol mixed team", olympic: true }
+  - id: shotgun
+    label: Shotgun
+    events:
+      - { id: trap, label: Trap, olympic: true, count: 2 }
+      - { id: skeet, label: Skeet, olympic: true, count: 2 }
+      - { id: skmix, label: Skeet mixed team, olympic: true }
+  - id: former
+    label: Removed from the programme
+    counts: false
+    blurb: Cut in 2018 so that mixed-team events could be added within the quota.
+    events:
+      - { id: freepistol, label: "50 m free pistol, men", note: Contested since 1896, with interruptions. }
+      - { id: prone, label: "50 m rifle prone, men" }
+      - { id: doubletrap, label: "Double trap, men" }
+      - { id: runningtarget, label: Running target, note: "Removed after 2004; still contested at world level." }

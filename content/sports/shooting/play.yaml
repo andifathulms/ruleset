@@ -1,0 +1,133 @@
+sport: shooting
+as_of: 2026-09
+edition: ISSF Official Statutes, Rules and Regulations
+source: issf-rules
+standing: primary-named
+summary: >
+  Put a projectile as close to the centre of a target as possible, repeatedly,
+  without moving. Shooting has the least physical action of any sport on this
+  site and one of the most precise measurements — and it has spent thirty years
+  rearranging its competition format so that the measurement produces a
+  televisable ending.
+
+sections:
+  - id: object
+    label: The object of the competition
+    body: >
+      Score as close to the centre as possible with each shot. In rifle and
+      pistol events the target is stationary and the shooter is not; in shotgun
+      events the target is a clay disc thrown into the air.
+
+      There is no opponent interaction of any kind — a competitor's score is
+      unaffected by everyone else — which makes shooting, with archery, one of
+      the two purest measured contests here.
+
+  - id: field
+    label: The range
+    body: >
+      A range with fixed distances and, at international level, electronic
+      targets that register a shot's position acoustically or optically. The
+      environment is controlled to a degree impossible in archery: indoors for
+      the air events, with lighting and wind eliminated rather than tolerated.
+
+      That is the difference between the two target sports on this site.
+      Archery shoots outdoors at 70 m in whatever weather arrives; shooting
+      removes the variables.
+    facts:
+      - { label: Air rifle and pistol, value: 10 m, indoors }
+      - { label: Rifle three positions, value: 50 m }
+      - { label: Shotgun, value: Clay targets in flight }
+      - { label: Targets, value: Electronic }
+    shaped_by: [issf-2005-electronic-targets]
+
+  - id: equipment
+    label: Firearms and kit
+    body: >
+      Specified in detail by event: trigger weight, sight type, stock
+      dimensions, and — most distinctively — the shooting clothing. Rifle
+      jackets and trousers are stiff enough to support a shooter's position,
+      and their thickness and rigidity are measured with a gauge, because a
+      stiffer jacket is a steadier hold.
+
+      That is an equipment rule of exactly the kind this site keeps finding: a
+      performance advantage regulated by measurement rather than banned.
+    facts:
+      - { label: Jacket stiffness, value: Measured }
+      - { label: Trigger weight, value: Minimum by event }
+      - { label: Optical sights, value: Not permitted in ISSF events }
+
+  - id: players
+    label: Shooters and officials
+    body: >
+      Individual and mixed-team events. Range officers control the line and
+      timing; scoring is done by the electronic targets, so officials adjudicate
+      procedure rather than results.
+
+      Since 2005 there has been almost nothing for an official to judge. A
+      shot's value is a measurement, and the argument about whether a hole
+      touches a line — which was the sport's routine dispute for a century — no
+      longer arises.
+    shaped_by: [issf-2005-electronic-targets]
+
+  - id: duration
+    label: Format
+    body: >
+      Qualification, then a final for the leading shooters. Since 2013 the
+      final starts from zero and eliminates progressively: competitors drop out
+      one at a time as the final proceeds, until two are left shooting for gold.
+
+      A shooter can lead qualification by a wide margin and finish eighth,
+      because none of that score carries forward.
+    facts:
+      - { label: Final starts from, value: Zero, since 2013 }
+      - { label: Final format, value: Progressive elimination }
+      - { label: Qualification, value: Determines only who qualifies }
+    shaped_by: [issf-2013-finals-from-zero, issf-1988-finals-added]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Ten rings, and since 2013 in the air events, tenths of a ring. Decimal
+      scoring exists because whole-ring scores had stopped separating elite
+      shooters, who were producing near-identical totals — the instrument had
+      run out of resolution.
+
+      The result is a sport measuring to a tenth of a millimetre-scale ring and
+      then discarding sixty shots of it when the final begins.
+    facts:
+      - { label: Rings, value: 10 down to 1 }
+      - { label: Decimal scoring, value: Tenths of a ring }
+      - { label: Air events qualification, value: Decimal since 2013 }
+    shaped_by: [issf-2013-decimal-qualification, issf-2013-finals-from-zero]
+
+  - id: restarts
+    label: Series and timing
+    body: >
+      Shots are fired in series with time limits, and in finals the sequence is
+      commanded — competitors shoot on instruction, one shot or a pair at a
+      time, so the audience can follow. The rapid-fire pistol and shotgun
+      events have their own timed sequences.
+
+      The commanded final is a broadcast structure. Before 1988 competitors
+      simply shot their series in their own time.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Firing before or after the command, exceeding the time, equipment outside
+      specification, and — the one that matters most — a cross-fire, where a
+      shooter hits another competitor's target. Penalties are point deductions
+      or annulled shots.
+
+      Safety rules sit above all of it and are absolute: a firearm handled
+      outside procedure ends a competitor's participation regardless of
+      anything else.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The last shooter standing in the final. Not the highest total across the
+      competition, and not the best qualifier — a distinction the sport made
+      deliberately in 2013 and which its own competitors continue to argue
+      about.
+    shaped_by: [issf-2013-finals-from-zero]

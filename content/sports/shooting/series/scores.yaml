@@ -1,0 +1,47 @@
+id: shooting-scores
+label: Scores across the finals and scoring changes
+unit: points
+absence_kind: impossible
+cannot_exist: >
+  Shooting measures more precisely than any sport on this site and has made its
+  own measurements harder to compare than most.
+
+  Three changes did it. In 1988 finals were added, so a result stopped being a
+  qualification total and became a total plus a final. In 2013 finals were
+  reset to start from zero, so the qualification score stopped counting towards
+  the result at all — a competitor can lead qualification by a wide margin and
+  finish eighth. And in 2013 decimal scoring came into qualification in the air
+  events, so a qualification total is now measured in tenths of a ring where it
+  used to be measured in whole rings.
+
+  A 1984 result, a 2000 result and a 2020 result are therefore three different
+  quantities: a qualification total, a qualification total plus a final, and a
+  final score from zero after an elimination. Records in these events are kept
+  separately for exactly this reason.
+
+  What makes it striking is the direction. Archery moved to sets in 2011 and
+  taekwondo to rounds in 2022, both for broadcast, and both accepted that a
+  competitor could out-shoot or outscore an opponent and lose. Shooting did the
+  same thing while simultaneously making its instrument ten times more precise.
+  The measurement improved and its relevance to the result fell.
+segments: []
+breaks:
+  - at: 1988
+    caused_by: issf-1988-finals-added
+    kind: scale-change
+    note: >
+      A result stopped being a qualification total and became a total plus a
+      final round, scored to a tenth of a ring.
+  - at: 2013
+    caused_by: issf-2013-finals-from-zero
+    kind: reset
+    note: >
+      Finals start from zero and eliminate progressively. The qualification
+      score now decides only who is in the final, not who wins it.
+  - at: 2013
+    caused_by: issf-2013-decimal-qualification
+    kind: scale-change
+    note: >
+      Qualification in the air events moved to decimal scoring, so a
+      qualification total is a different unit from the day it took effect.
+source: issf-rules

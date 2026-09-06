@@ -1,0 +1,85 @@
+sport: wrestling
+standing: editorial
+summary: >
+  Cheap, universal, physically brutal, and — for seven months in 2013 — a sport
+  whose athletes did not know whether the thing they had trained their lives
+  for would exist at the next Games.
+
+entry:
+  verdict: low
+  claim: A mat, a partner and a coach. The cheapest combat sport here to enter.
+  why: >
+    Wrestling needs a mat, a singlet and somebody to wrestle. There is no
+    equipment to buy, no facility beyond a room, and school programmes across
+    much of the world provide the entry route free.
+
+    It is genuinely accessible in a way judo's falling prerequisite and boxing's
+    gym culture are not quite, because the beginner's version is the real
+    version at low intensity — two people trying to take each other down, under
+    supervision.
+
+    The barrier that exists is a coach and a partner, both non-negotiable.
+    Nothing in wrestling can be practised alone.
+  evidence:
+    - { label: Kit to start, value: A singlet and shoes, basis: observation, note: The least equipment of any combat sport here. }
+    - { label: Facility, value: A mat, basis: observation }
+    - { label: Partner required, value: Always, basis: observation }
+    - { label: Coach needed, value: "Yes", basis: judgement }
+    - { label: Time to first competition, value: Months, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Weight cutting, a deep global field, and a sport that nearly ceased to be Olympic.
+  why: >
+    The physical demand is among the highest here — six minutes of continuous
+    maximal effort against resistance — and the field is one of the deepest,
+    because wrestling is genuinely global and cheap enough to be contested
+    everywhere.
+
+    Weight cutting is the specific health problem and it is worse in this sport
+    than most. The practice of extreme dehydration before a weigh-in has been
+    linked to deaths in collegiate wrestling, and it is the reason some
+    competitions moved to daily weigh-ins.
+
+    And there is a fact no other athlete on this site has faced. In February
+    2013 wrestlers learned their sport had been voted off the core Olympic
+    programme. For seven months the ceiling of the sport simply did not exist,
+    and it was restored only after the federation replaced its leadership and
+    rewrote its rules.
+  evidence:
+    - label: Scoring rewritten
+      value: In seven months, 2013
+      basis: rule
+      rule: uww-2013-scoring-rewrite
+      note: Under an IOC deadline, to save the sport's Olympic place.
+    - label: The ball draw
+      value: Abolished 2013
+      basis: rule
+      rule: fila-2005-clinch-and-ball
+      note: A world title could turn on a coloured ball drawn from a bag.
+    - label: Passivity shot clock
+      value: Since 2018
+      basis: rule
+      rule: uww-2018-passivity-shot-clock
+    - { label: "Women's Olympic categories", value: Equal to men's freestyle since 2016, basis: rule, rule: uww-2013-womens-categories }
+    - { label: Typical peak age, value: 24–30, basis: judgement }
+
+gap: >
+  Wrestling's gap is low to very high, and its bottom end is the most
+  accessible of any combat sport here — cheaper than boxing, with no falling
+  prerequisite as judo has, and available through schools in much of the world.
+
+  What is singular is the instability at the top, and it is a different kind
+  from anything else on this board. Judo removed techniques. Weightlifting
+  redrew categories. Modern pentathlon deleted a discipline. Wrestling's sport
+  was removed entirely, by an outside body, and given seven months to earn its
+  way back.
+
+  The rules it wrote in that window are better than the ones they replaced —
+  the ball draw was indefensible and the sport is more watchable now. But they
+  were written under an existential deadline set by someone else, which is a
+  cause that appears nowhere else in this collection.
+
+shaped_by:
+  - uww-2013-scoring-rewrite
+  - fila-2005-clinch-and-ball

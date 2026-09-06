@@ -1,0 +1,137 @@
+sport: wrestling
+as_of: 2026-09
+edition: UWW International Wrestling Rules
+source: uww-rules
+standing: primary-named
+summary: >
+  Take your opponent down and control them, or pin their shoulders to the mat
+  and end the bout instantly. Wrestling runs two styles under one federation —
+  freestyle, where the legs are available, and Greco-Roman, where attacks below
+  the waist are forbidden — and almost every scoring rule in the book exists to
+  stop a stalemate.
+
+sections:
+  - id: object
+    label: The object of the bout
+    body: >
+      Pin both of your opponent's shoulders to the mat, which ends the bout
+      immediately whatever the score. Failing that, score more points by taking
+      them down, turning them, and exposing their back.
+
+      The pin is the only outcome in wrestling that ignores the scoreboard, and
+      it is the sport's equivalent of judo's ippon: a complete result that stops
+      everything.
+
+  - id: field
+    label: The mat
+    body: >
+      A circular contest area with a passivity zone at its edge and a
+      protection area beyond it. Leaving the mat is penalised, so the boundary
+      is a scoring device rather than merely a limit.
+    facts:
+      - { label: Contest circle, value: 9 m diameter }
+      - { label: Passivity zone, value: 1 m band at the edge }
+      - { label: Stepping out, value: A point to the opponent }
+
+  - id: equipment
+    label: Singlet and shoes
+    body: >
+      A singlet, wrestling shoes and, in some competitions, a headgear. There
+      is essentially nothing to regulate, which makes wrestling one of the few
+      sports here with no equipment history at all.
+
+      What is regulated instead is the body: weigh-ins, and since 2013 a
+      second-day weigh-in in some competitions, introduced because extreme
+      weight cutting had become the sport's most serious health problem.
+    facts:
+      - { label: Kit, value: Singlet and shoes }
+      - { label: Weigh-in, value: Daily in some competitions }
+
+  - id: players
+    label: Wrestlers and officials
+    body: >
+      Two wrestlers in a weight category. Three officials — a referee on the
+      mat, a judge and a mat chairman — with points awarded by agreement
+      between them, and a coach's challenge available for video review.
+
+      That three-official structure exists because wrestling's scoring
+      judgements are fast, physical and frequently obscured by the wrestlers'
+      own bodies.
+    facts:
+      - { label: Officials, value: "3" }
+      - { label: Challenge, value: Coach may request video review }
+
+  - id: duration
+    label: Format
+    body: >
+      Two periods of three minutes with a thirty-second break, and points
+      accumulate across the whole bout.
+
+      Between 2005 and 2013 it was best of three two-minute periods, each won
+      separately — so a wrestler could outscore an opponent across the bout and
+      lose it. A scoreless period could be settled by a clinch, or in freestyle
+      by drawing a coloured ball from a bag to decide who started with an
+      advantage. The IOC's 2013 decision to remove wrestling from the programme
+      is most often traced to exactly that.
+    facts:
+      - { label: Periods, value: 2 × 3 min }
+      - { label: Scoring, value: Cumulative across the bout }
+      - { label: Format before 2013, value: Best of three periods }
+    shaped_by: [uww-2013-scoring-rewrite, fila-2005-clinch-and-ball]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Points for a takedown, for turning an opponent and exposing their back,
+      for a throw of amplitude, and for an opponent stepping out or being
+      penalised. A throw that takes an opponent through the air scores most,
+      which is a deliberate price on the action the sport wants to see.
+
+      A pin ends the bout. So does a technical superiority margin — ten points
+      in freestyle, eight in Greco-Roman — which stops one-sided bouts running
+      their course.
+    facts:
+      - { label: Takedown, value: 2 or 4 }
+      - { label: Throw of grand amplitude, value: "5" }
+      - { label: "Technical superiority, freestyle", value: 10 points }
+      - { label: "Technical superiority, Greco-Roman", value: 8 points }
+      - { label: Fall, value: Ends the bout }
+    shaped_by: [uww-2013-scoring-rewrite]
+
+  - id: restarts
+    label: Passivity and par terre
+    body: >
+      Wrestling's central procedural problem is a wrestler who does not engage,
+      and the sport has converted that judgement into a clock. A wrestler warned
+      for passivity goes on a shot clock and must score within a set time or
+      concede a point — the same instrument basketball invented in 1954 for the
+      same problem.
+
+      In Greco-Roman, where attacks below the waist are forbidden and stalemate
+      is easier, a passivity penalty puts the offender in par terre: on hands
+      and knees with the opponent behind them, which guarantees an attempt at a
+      score.
+    facts:
+      - { label: Passivity, value: Shot clock }
+      - { label: "Greco-Roman passivity", value: Par terre position }
+    shaped_by: [uww-2018-passivity-shot-clock, uww-2016-greco-parterre]
+
+  - id: prohibitions
+    label: Penalties
+    body: >
+      In Greco-Roman, any attack below the waist and any use of the legs — the
+      defining prohibition, and the reason the two styles are different sports.
+      In both: locks that endanger the neck or spine, striking, grabbing
+      clothing, and fleeing the mat or the hold.
+
+      Accumulated cautions lead to disqualification, and passivity is penalised
+      progressively rather than at once.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      A fall, technical superiority, or the higher score after six minutes.
+      Ties go to the wrestler with fewer penalties and then to whoever scored
+      the last point — so wrestling, unlike archery or taekwondo, always gives
+      the bout to the higher scorer.
+    shaped_by: [uww-2013-scoring-rewrite]

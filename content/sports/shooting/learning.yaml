@@ -1,0 +1,88 @@
+sport: shooting
+standing: editorial
+summary: >
+  A sport where a beginner can produce a respectable score in an afternoon and
+  the difference at the top is measured in tenths of a ring — and where the
+  competition format has been rearranged three times so that those tenths
+  matter less to the result.
+
+entry:
+  verdict: moderate
+  claim: A club and supervision. The physical demand is close to zero; the legal one is not.
+  why: >
+    Shooting asks almost nothing physically. There is no strength, speed or
+    endurance requirement of any consequence, and it is one of very few sports
+    here where age, size and physical condition are largely irrelevant — which
+    is why it has one of the widest age ranges in Olympic competition.
+
+    The barriers are legal and institutional. Firearms are regulated, ranges
+    are supervised facilities, and in many countries participation requires
+    licensing and club membership before a beginner can hold a rifle. That is
+    a genuine barrier and it varies enormously by country in a way no other
+    sport's does.
+
+    Air events lower it substantially — 10 m, indoors, low-powered — and are
+    the route most competitors take in.
+  evidence:
+    - { label: Physical requirement, value: Minimal, basis: judgement }
+    - { label: Facility, value: A supervised range, basis: observation }
+    - { label: Legal barrier, value: Varies by country, basis: observation, note: The only sport here whose entry depends on national firearms law. }
+    - { label: Kit to start, value: Club equipment, basis: observation }
+    - { label: Time to a first competition, value: Weeks, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Tenths of a ring, and a format that throws sixty shots away before the medal.
+  why: >
+    Elite shooting is almost entirely a stillness and consistency problem. The
+    technical margin at the top is so small that the sport had to move to
+    decimal scoring because whole rings no longer separated anyone, and the
+    remaining difference is the ability to repeat an identical action under
+    pressure.
+
+    That pressure has been deliberately amplified. Since 2013 the final starts
+    from zero and eliminates competitors one at a time, so a shooter who has
+    outshot the field for sixty shots begins level with the eighth qualifier
+    and can be eliminated early. The federation built that on purpose to make
+    the ending televisable.
+
+    It is the same trade archery made in 2011 and taekwondo in 2022, and
+    shooting made it while simultaneously making its measurement ten times more
+    precise.
+  evidence:
+    - label: Finals from zero
+      value: Since 2013
+      basis: rule
+      rule: issf-2013-finals-from-zero
+      note: A shooter can win qualification by a distance and finish eighth.
+    - label: Decimal scoring in qualification
+      value: Since 2013
+      basis: rule
+      rule: issf-2013-decimal-qualification
+      note: Because whole rings had stopped separating elite shooters.
+    - label: Electronic targets
+      value: From the 2000s
+      basis: rule
+      rule: issf-2005-electronic-targets
+      note: Removed the sport's routine dispute about whether a hole touched a line.
+    - { label: Typical peak age, value: 25–40, basis: judgement, note: One of the widest windows here, and the least physically bounded. }
+
+gap: >
+  Shooting's gap is unusual in that its bottom is limited by law rather than by
+  the body, and its top is limited by a margin so small the sport had to invent
+  more decimal places to see it.
+
+  Put it beside archery, the other target sport here. Archery shoots outdoors
+  in uncontrolled weather and moved to set scoring in 2011. Shooting eliminates
+  its variables — indoors, electronic targets, tenths of a ring — and then
+  discards the qualification score entirely at the final.
+
+  Both federations concluded that a pure measurement does not make a watchable
+  medal, and both chose the same answer. What makes shooting the sharper case
+  is the contradiction: it is the most precisely measured sport on this site
+  and it has arranged its competition so that the precision has the least
+  possible bearing on who wins.
+
+shaped_by:
+  - issf-2013-finals-from-zero
+  - issf-2013-decimal-qualification

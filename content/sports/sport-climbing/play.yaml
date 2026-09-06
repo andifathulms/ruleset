@@ -1,0 +1,138 @@
+sport: sport-climbing
+as_of: 2026-09
+edition: IFSC Rules
+source: ifsc-rules
+standing: primary-named
+summary: >
+  Three disciplines that share a wall and almost nothing else. Speed is a
+  fifteen-metre sprint up an identical route; boulder is a series of short
+  problems close to the ground; lead is a single long route climbed on a rope
+  as high as you can get. Almost no elite climber does all three, which is what
+  made the 2020 Olympic format so contested.
+
+sections:
+  - id: object
+    label: The object of the competition
+    body: >
+      In speed, reach the top faster than the climber in the next lane. In
+      boulder, solve as many problems as possible in as few attempts. In lead,
+      get higher than anyone else on a route nobody has climbed before, on a
+      single attempt, without falling.
+
+      Only speed is a race. The other two are attempts at a problem the setters
+      designed that morning.
+
+  - id: field
+    label: The wall
+    body: >
+      Artificial walls with bolt-on holds, set by route-setters for each
+      competition — so in boulder and lead the field of play is newly invented
+      for every event and climbers see it for the first time on the day.
+
+      Speed is the exception and the reason this sport appears on the site. Its
+      route has been identical worldwide since 2007: same angle, same fifteen
+      metres, same holds in the same positions. It is the most standardised
+      field of play in this collection.
+    facts:
+      - { label: Speed route, value: 15 m, identical worldwide }
+      - { label: Speed wall angle, value: 5° overhanging }
+      - { label: Boulder problems, value: Under 4.5 m, no rope }
+      - { label: Lead route, value: Over 15 m, on a rope }
+      - { label: Boulder and lead routes, value: Newly set for every competition }
+    shaped_by: [ifsc-2007-standard-speed-route]
+
+  - id: equipment
+    label: Shoes, chalk and rope
+    body: >
+      Very little, and almost none of it regulated for performance. Shoes,
+      chalk, a harness and a rope in lead; mats below in boulder. There is no
+      equipment arms race here, because the difficulty is set by the route
+      rather than by what the climber carries.
+
+      The route-setting itself is the closest thing this sport has to
+      equipment, and it is the largest single influence on a result.
+    facts:
+      - { label: Kit, value: Shoes, chalk, harness }
+      - { label: Boulder protection, value: Mats }
+      - { label: Regulated for performance, value: Almost nothing }
+
+  - id: players
+    label: Climbers and officials
+    body: >
+      Individual competition. Judges rule on whether a hold was controlled, on
+      the highest point reached, and on whether an attempt counts — which in
+      boulder and lead makes the sport partly judged, despite its measured
+      classification here.
+
+      Route-setters are the other decisive figures and they are not officials
+      at all. They design the problems, and a set that suits one style of
+      climber over another shapes the result before anybody climbs.
+    facts:
+      - { label: Judged elements, value: Control of a hold, height reached }
+      - { label: Speed, value: Electronically timed }
+
+  - id: duration
+    label: Format
+    body: >
+      Qualification and final rounds within a day or two. Boulder gives a fixed
+      time per problem; lead gives a time limit for the route; speed is over in
+      about five seconds.
+
+      That last figure is the format problem in a sentence. A sport containing
+      a five-second sprint and a six-minute endurance route tried to award one
+      combined medal in 2020, and abandoned it after one Games.
+    facts:
+      - { label: Speed run, value: About 5 s }
+      - { label: Lead attempt, value: One, up to 6 min }
+      - { label: Boulder, value: Fixed time per problem }
+    shaped_by: [ifsc-2024-format-split]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Speed is a time and a knockout bracket. Boulder and lead are scored on a
+      shared hundred-point scale, with points for reaching defined holds and
+      deductions for attempts, so the two can be added.
+
+      That common scale had to be invented. Boulder had been counted in tops
+      and zones and lead in the highest hold reached, and those are not
+      commensurable quantities — combining them required the federation to
+      write a price list, in the way gymnastics writes difficulty values.
+
+      In 2020 the combination was done by multiplying ranks instead, which
+      meant a climber's score depended on everyone else's placings and
+      improving in one discipline could cost you overall.
+    facts:
+      - { label: Boulder and lead, value: 100-point scale }
+      - { label: 2020 combined, value: Product of ranks }
+      - { label: 2024 combined, value: Sum of points }
+      - { label: Speed, value: Time, to 0.001 s }
+    shaped_by: [ifsc-2020-combined-multiplication, ifsc-2024-boulder-lead-scoring]
+
+  - id: restarts
+    label: Attempts
+    body: >
+      Boulder allows repeated attempts within the time, with each attempt
+      costing points. Lead allows one: a fall ends the route and the score is
+      the highest hold controlled. Speed is a knockout — lose and you are out,
+      except in the repechage rounds.
+
+      Climbers in boulder and lead are held in isolation and do not see other
+      competitors attempt the route, which is a rule about information rather
+      than about climbing.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Exceeding the time, touching the ground or a hold outside the route,
+      receiving beta — information about the route — from outside, and in speed
+      a false start. The isolation rule is the one that matters most: a climber
+      who learns how the problem is solved has been given the answer.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Fastest time, most points, or highest hold. Since 2024 there are two
+      medals per sex rather than one, which is the federation acknowledging that
+      its three disciplines could not be reduced to a single champion.
+    shaped_by: [ifsc-2024-format-split]

@@ -1,0 +1,131 @@
+- id: issf-1988-finals-added
+  scope: { sport: shooting, discipline: all }
+  date_adopted: 1986
+  date_effective: 1988
+  status: adopted
+  governing_body: International Shooting Union
+  what_changed: >
+    A final round was added for the leading competitors, shot separately after
+    qualification, with the qualification score carried forward and the final's
+    shots added to it. Decimal scoring — a tenth of a ring — was used in finals
+    to separate competitors that whole-ring scoring could not.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Shooting had no visible conclusion. Competitors fired their series over
+      hours and a result was announced from a scoreboard. The final created a
+      moment, and decimal scoring gave it enough resolution to produce a
+      winner.
+  citation:
+    source: issf-rules
+    edition: ISSF Rules, 1988
+    missing: true
+  comparability_break: shooting-scores
+
+- id: issf-2013-finals-from-zero
+  scope: { sport: shooting, discipline: all }
+  date_adopted: 2012
+  date_effective: 2013
+  status: adopted
+  governing_body: ISSF
+  what_changed: >
+    Finals were reset to start from zero. The qualification score no longer
+    carries forward; it determines only who reaches the final and in what
+    order they are seeded. Finals also became progressive elimination —
+    competitors are removed one by one as the final proceeds — so the last
+    shots are fired by two people for the gold medal.
+
+    A competitor can therefore win qualification by a wide margin and finish
+    eighth.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Under the carried-forward system a large qualification lead frequently
+      made the final a formality, which defeated the point of having one. The
+      reset guarantees that the medal is decided in the final and that the
+      final ends with a head-to-head.
+    also_said: >
+      Shooters objected that discarding sixty shots of qualification in favour
+      of a short final is a worse measure of shooting, and that a sport whose
+      whole claim is precision had made its most precise data irrelevant to the
+      result. The federation has not disputed the description.
+  citation:
+    source: issf-rules
+    edition: ISSF Rules, 2013
+    missing: true
+  comparability_break: shooting-scores
+
+- id: issf-2013-decimal-qualification
+  scope: { sport: shooting, discipline: rifle-pistol }
+  date_adopted: 2012
+  date_effective: 2013
+  status: adopted
+  governing_body: ISSF
+  what_changed: >
+    Decimal scoring was extended from finals to qualification in the air rifle
+    and air pistol events, so a qualification score became a number to a tenth
+    of a ring rather than a whole-ring total. Every qualification record in
+    those events was therefore expressed in a different unit from the day it
+    took effect.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Whole-ring scoring had ceased to separate elite shooters, who were
+      producing near-identical totals. Decimal scoring restored resolution to a
+      measurement that had run out of it.
+  citation:
+    source: issf-rules
+    edition: ISSF Rules, 2013
+    missing: true
+  comparability_break: shooting-scores
+
+- id: issf-2018-programme-restructure
+  scope: { sport: shooting, discipline: all }
+  date_adopted: 2016
+  date_effective: 2018
+  status: adopted
+  governing_body: ISSF
+  what_changed: >
+    The Olympic programme was restructured for gender balance: three men's
+    events were removed and three mixed-team events added, so the sport
+    contests fifteen events with equal numbers for men and women plus mixed
+    teams.
+  cause_primary: participation and access
+  cause_secondary: commercial
+  trigger:
+    description: >
+      The IOC required parity within a fixed athlete quota, so events had to be
+      exchanged rather than added. The men's 50 m free pistol and 50 m rifle
+      prone, both contested for decades, were among those removed.
+  citation:
+    source: issf-rules
+    edition: ISSF Rules, 2018
+    missing: true
+  comparability_break: null
+
+- id: issf-2005-electronic-targets
+  scope: { sport: shooting, discipline: all }
+  date_adopted: 1990s
+  date_effective: 2000s
+  status: adopted
+  governing_body: ISSF
+  what_changed: >
+    Electronic scoring targets replaced paper targets and manual gauging at
+    international level. A shot's position is registered acoustically or
+    optically and displayed immediately, to a precision paper and a plug gauge
+    could not reach.
+  cause_primary: integrity
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Scoring a paper target involves a judgement about whether a hole touches a
+      line, made by an official with a gauge, and disputes were routine.
+      Electronic targets removed the judgement and made decimal scoring
+      possible at all.
+  citation:
+    source: issf-rules
+    edition: ISSF Rules, technical provisions
+    missing: true
+  comparability_break: null

@@ -1,0 +1,41 @@
+id: climbing-combined
+label: Olympic combined results
+unit: points
+absence_kind: impossible
+cannot_exist: >
+  Sport climbing has had three different Olympic scoring systems in three
+  Games, and none of them produces a number comparable with the others.
+
+  In 2020, one medal covered all three disciplines and the result was the
+  **product** of a climber's ranks. In 2024, speed separated off and boulder and
+  lead were **added** on a shared hundred-point scale. The 2020 score is a
+  dimensionless product of positions; the 2024 score is a points total. They
+  are not two values of one quantity, and neither is comparable with whatever
+  comes next.
+
+  There is a second problem inside the first. Multiplying ranks means the value
+  of a position depends on the other results — improving in one discipline can
+  lose you ground overall — so even within 2020 the score is not a measurement
+  of climbing. It is arithmetic about placings.
+
+  The honest thing to say is that this sport's Olympic results are three
+  separate experiments. Speed climbing is the exception and it is charted
+  nowhere here only because the times have not been assembled from a cited
+  source: because the route has been identical worldwide since 2007, those
+  times are genuinely comparable, which is more than most sports on this site
+  can say.
+segments: []
+breaks:
+  - at: 2021
+    caused_by: ifsc-2020-combined-multiplication
+    kind: scale-change
+    note: >
+      One medal across three disciplines, scored by multiplying ranks. A result
+      that is a product of positions is not a measurement of climbing.
+  - at: 2024
+    caused_by: ifsc-2024-format-split
+    kind: scale-change
+    note: >
+      Abandoned after a single Games. Speed separated, boulder and lead added
+      on a new hundred-point scale — a different quantity again.
+source: ifsc-rules
