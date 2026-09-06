@@ -1,0 +1,131 @@
+sport: swimming
+as_of: 2026-09
+edition: World Aquatics Competition Rules, swimming (SW) section
+source: world-aquatics-rules
+standing: primary-named
+summary: >
+  Swim a set distance faster than everyone else. The complication, and the
+  source of nearly every rule, is that three of the four strokes are defined
+  by regulation rather than by physics: a breaststroke swimmer is doing
+  breaststroke because the rulebook says what breaststroke is, and the sport's
+  history is a history of swimmers finding faster motions the definition did
+  not quite exclude.
+
+sections:
+  - id: object
+    label: The object of the race
+    body: >
+      Reach the finish wall first, having covered the distance in a stroke that
+      satisfies the definition of the event. Freestyle is the exception and is
+      a category rather than a technique — it means any style, which is why the
+      front crawl is universal in it without ever being required.
+
+  - id: field
+    label: The pool
+    body: >
+      A long course pool is 50 m; short course is 25 m, and the two keep
+      separate record lists because a 25 m pool gives twice as many turns and
+      turns are faster than swimming. Backstroke flags hang across the lanes to
+      warn a swimmer on their back that the wall is coming.
+    facts:
+      - { label: Long course length, value: 50 m }
+      - { label: Short course length, value: 25 m }
+      - { label: Lanes, value: 8 or 10 }
+      - { label: Lane width, value: 2.5 m }
+      - { label: Backstroke flags, value: 5 m from each wall }
+    citation:
+      source: world-aquatics-rules
+      article: "FR 2 (facilities)"
+      missing: true
+
+  - id: equipment
+    label: Swimwear
+    body: >
+      Suits must be made of textile, may not cover the neck, and may not extend
+      past the shoulders or the ankles; men's suits may not go above the waist.
+      This specification exists because for a decade there was none, and
+      polyurethane construction produced a run of records that the sport then
+      chose to leave standing.
+    facts:
+      - { label: Material, value: Textile only }
+      - { label: "Men's coverage", value: Waist to knee, max }
+      - { label: "Women's coverage", value: Shoulder to knee, max }
+    shaped_by: [fina-2000-full-body-suits, fina-2010-textile-only-swimwear]
+    citation:
+      source: world-aquatics-rules
+      article: "BL 8 (swimwear)"
+
+  - id: players
+    label: Swimmers and officials
+    body: >
+      One swimmer per lane; relays are four swimmers in sequence. A referee
+      runs the meet, stroke judges walk the deck watching for illegal
+      technique, turn judges stand at each end, and underwater cameras are now
+      used at major meets — which changed what could actually be enforced, and
+      in one case changed the rule instead.
+    shaped_by: [fina-2015-breaststroke-dolphin-kick]
+
+  - id: duration
+    label: Format
+    body: >
+      Heats, then semi-finals for shorter events, then a final of eight.
+      Qualification is on time alone, so a swimmer can win a heat and go out.
+      There is no clock limit and no format decision left to organisers — the
+      distance is the format.
+
+  - id: scoring
+    label: Timing
+    body: >
+      Touchpads at each end are triggered by the swimmer's own hand, and times
+      are recorded to one hundredth of a second. Where two swimmers register
+      the same hundredth the result is a dead heat, and both are awarded the
+      place — swimming does not break ties by going to a thousandth, on the
+      stated grounds that lane construction cannot be guaranteed accurate to
+      that precision.
+    facts:
+      - { label: Timing precision, value: 0.01 s }
+      - { label: Ties, value: Dead heat, both placed }
+
+  - id: restarts
+    label: Starts and turns
+    body: >
+      Freestyle, breaststroke and butterfly start from the blocks; backstroke
+      starts in the water. After the start and every turn a swimmer may travel
+      submerged for a limited distance before the head must break the surface —
+      a limit that exists because underwater dolphin kick is faster than any of
+      the surface strokes, and without it the events tend towards being swum
+      underwater.
+    facts:
+      - { label: Underwater limit after start and turns, value: 15 m }
+      - { label: Backstroke start, value: In the water }
+      - { label: False starts allowed, value: None }
+    shaped_by: [fina-1991-backstroke-fifteen-metres, fina-1957-underwater-breaststroke]
+    citation:
+      source: world-aquatics-rules
+      article: "SW 6 (backstroke)"
+      missing: true
+
+  - id: prohibitions
+    label: Disqualifications
+    body: >
+      Breaking the stroke definition is the main one: an illegal kick in
+      breaststroke, a non-simultaneous arm recovery in butterfly, rolling past
+      vertical in backstroke other than as part of a turn. Beyond the stroke:
+      a false start, pushing off the bottom, pulling on the lane rope,
+      surfacing beyond the underwater limit, or an early takeover in a relay.
+
+      Breaststroke is the exception that proves the rule about enforcement.
+      Swimmers were adding a downward dolphin kick off the walls, underwater
+      video showed it was near universal, and surface officials could not see
+      it. In 2015 the rule was changed to allow one, rather than continuing to
+      disqualify only the swimmers who happened to be caught.
+    shaped_by: [fina-2015-breaststroke-dolphin-kick]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The first legal touch. Records are ratified separately and, unlike
+      athletics with the javelin, marks set under superseded equipment rules
+      were kept — which is why several world records in this sport were set in
+      2009 in suits that have been illegal since 2010.
+    shaped_by: [fina-2010-textile-only-swimwear]

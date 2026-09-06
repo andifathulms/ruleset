@@ -1,0 +1,150 @@
+sport: athletics
+as_of: 2026-09
+edition: World Athletics Technical Rules (Book C, C2.1)
+source: wa-technical-rules
+standing: primary-named
+summary: >
+  Athletics is not one game but a programme of events sharing a rulebook, and
+  what unites them is a measurement rather than a contest. Almost every rule is
+  there to make today's number the same kind of thing as a number from another
+  stadium in another decade — which is why the specification of an implement is
+  as much a law here as the definition of a false start.
+
+sections:
+  - id: object
+    label: The object of the events
+    body: >
+      Cover a set distance in the least time, or send a body or an implement
+      the greatest distance. Competitors are ranked by the measurement, not by
+      what happened between them, which is what makes athletics a measured
+      sport rather than one decided by score.
+
+      This has a consequence that shapes the whole rulebook: an opponent is
+      almost irrelevant to the result, so the rules police conditions instead
+      of conduct. Wind, surface, implement mass and timing method all have to
+      be legislated, because all of them change the number.
+
+  - id: field
+    label: The arena
+    body: >
+      A standard outdoor track is 400 m around the inside lane, with a straight
+      long enough for a 100 m race. Field events sit inside and beside it.
+      Distances on the track are measured 30 cm out from the inner kerb,
+      because that is where a runner actually runs, and lanes are staggered so
+      that every athlete covers the same distance.
+    facts:
+      - { label: Track length, value: 400 m }
+      - { label: Lanes, value: 8 or 9 }
+      - { label: Lane width, value: 1.22 m }
+      - { label: Marathon, value: 42.195 km }
+      - { label: "Hurdle height, men's 110 m", value: 1.067 m }
+      - { label: "Hurdle height, women's 100 m", value: 0.838 m }
+    citation:
+      source: wa-technical-rules
+      article: "Rule 14 (the track)"
+      missing: true
+
+  - id: equipment
+    label: The implements
+    body: >
+      A throwing implement is defined by mass and dimensions, and in the
+      javelin's case by where its centre of gravity sits — a specification that
+      exists only because the implement was redesigned in 1986 to shorten the
+      throw. Shoes are specified too, by sole thickness and by the number of
+      rigid plates, which is a rule that did not exist before 2020.
+    facts:
+      - { label: "Javelin, men", value: 800 g, note: "2.6–2.7 m; centre of gravity set by rule since 1986." }
+      - { label: "Javelin, women", value: 600 g, note: Redesigned on the same principle in 1999. }
+      - { label: "Shot, men", value: 7.26 kg }
+      - { label: "Shot, women", value: 4 kg }
+      - { label: "Discus, men", value: 2 kg }
+      - { label: "Hammer, men", value: 7.26 kg }
+      - { label: "Road shoe sole, max", value: 40 mm }
+      - { label: Rigid plates per shoe, value: "1" }
+    shaped_by:
+      - iaaf-1986-javelin-redesign
+      - iaaf-1991-javelin-surface
+      - iaaf-1999-womens-javelin-redesign
+      - wa-2020-shoe-regulations
+    citation:
+      source: wa-technical-rules
+      article: "Rules 5 and 32 (shoes and throwing implements)"
+      missing: true
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      Athletes compete individually except in relays and team events. Officials
+      are specialised by event: starters and recallers on the track, judges and
+      measurers in the field, and umpires watching lane infringements. A
+      photo-finish system rather than a person decides a close track result.
+
+  - id: duration
+    label: Format
+    body: >
+      Track events run in rounds — heats, semi-finals, a final — with
+      qualification by place and by time. Field events give each competitor a
+      set number of attempts, usually three, with the leading eight taking
+      three more. There is no clock governing the competition itself; the clock
+      is the thing being measured.
+
+  - id: scoring
+    label: Measurement
+    body: >
+      Sprints up to 400 m require fully automatic timing to one hundredth of a
+      second for a record, a requirement introduced in 1977 that ended the
+      hand-timed era. Distances are measured to the nearest centimetre below
+      the mark in throws, and horizontal jumps to the nearest centimetre from
+      the take-off line.
+
+      Wind assistance above 2.0 m/s invalidates a record in sprints and
+      horizontal jumps, which is the plainest statement in any rulebook here
+      that the point of the rules is comparability rather than fairness on
+      the day.
+    facts:
+      - { label: Timing precision, value: 0.01 s }
+      - { label: Legal tailwind limit, value: 2.0 m/s }
+      - { label: Timing required for records, value: Fully automatic }
+    shaped_by: [iaaf-1977-automatic-timing]
+    citation:
+      source: wa-technical-rules
+      article: "Rule 19 (timing)"
+      missing: true
+
+  - id: restarts
+    label: The start
+    body: >
+      Races up to and including 400 m are started from blocks in a crouch. A
+      single false start disqualifies the athlete who commits it — there is no
+      warning and no allowance for the field. Blocks carry pressure sensors, and
+      a reaction under 0.100 s after the gun is ruled a false start on the
+      assumption that no one can react faster than that.
+    facts:
+      - { label: False starts allowed, value: None }
+      - { label: Reaction-time threshold, value: 0.100 s }
+    shaped_by: [iaaf-2010-false-start]
+    citation:
+      source: wa-technical-rules
+      article: "Rule 16 (the start)"
+      missing: true
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      On the track: leaving your lane to a rival's disadvantage, stepping
+      inside the kerb, obstructing, or false starting. In the field: touching
+      beyond the foul line, leaving the circle before the implement lands, or
+      leaving it forwards. In throws, the implement must land inside the
+      marked sector and the landing must satisfy the event's own rule — for the
+      javelin, the tip must strike the ground first, which is a rule the 1986
+      redesign existed partly to make judgeable again.
+    shaped_by: [iaaf-1986-javelin-redesign]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      First across the line, or the best single mark. A tie in a jump is broken
+      by the count of failures at the winning height; a tie in a throw or a
+      horizontal jump is broken by the next-best attempt. Records are a
+      separate question from winning, and are ratified centrally against
+      conditions the athlete does not control.
