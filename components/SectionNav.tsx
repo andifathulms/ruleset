@@ -7,7 +7,14 @@ import { useEffect, useRef, useState } from 'react'
  * it you are — it sticks under the header, highlights the section in view, and
  * scrolls its own overflow on a phone rather than wrapping to three lines.
  */
-export default function SectionNav({ items }: { items: { id: string; label: string }[] }) {
+export interface NavItem {
+  id: string
+  label: string
+  /** First item of an act carries its name, so the strip shows the grouping. */
+  act?: string
+}
+
+export default function SectionNav({ items }: { items: NavItem[] }) {
   const [active, setActive] = useState(items[0]?.id ?? '')
   const bar = useRef<HTMLElement>(null)
 
@@ -57,7 +64,12 @@ export default function SectionNav({ items }: { items: { id: string; label: stri
     >
       <ul className="mx-auto flex max-w-[86rem] gap-x-1 overflow-x-auto px-5 py-1.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {items.map((item) => (
-          <li key={item.id} className="shrink-0">
+          <li key={item.id} className="flex shrink-0 items-center">
+            {item.act && (
+              <span className="ml-3 mr-2 border-l chalk-rule pl-3 text-[11px] uppercase tracking-[0.16em] text-unmarked first:ml-0 first:border-l-0 first:pl-0">
+                {item.act}
+              </span>
+            )}
             <a
               href={`#${item.id}`}
               aria-current={active === item.id ? 'true' : undefined}

@@ -208,6 +208,103 @@ export interface Play {
   sections: LawSection[]
 }
 
+/* ------------------------------------------------------------ learning curve */
+
+/**
+ * Five-point ordinal, not a score out of ten. There is no arithmetic anywhere
+ * on these values and they are never summed, averaged or ranked against each
+ * other — a sport is not 1.7 times harder than another and this site will not
+ * imply that it is.
+ */
+export const DIFFICULTY = ['very-low', 'low', 'moderate', 'high', 'very-high'] as const
+export type Difficulty = (typeof DIFFICULTY)[number]
+
+export const DIFFICULTY_LABEL: Record<Difficulty, string> = {
+  'very-low': 'Very low',
+  low: 'Low',
+  moderate: 'Moderate',
+  high: 'High',
+  'very-high': 'Very high',
+}
+
+/**
+ * What a piece of evidence actually is. The distinction is the whole point:
+ *   rule        a sourced rule on this site, and it links to it
+ *   observation a checkable fact about the sport that is not a rule
+ *   judgement   the author's estimate, unsourced, and marked as such
+ */
+export type EvidenceBasis = 'rule' | 'observation' | 'judgement'
+
+export interface Evidence {
+  label: string
+  value: string
+  basis: EvidenceBasis
+  /** Required when basis is `rule`: the rule change this comes from. */
+  rule?: string
+  note?: string
+}
+
+export interface LearningAxis {
+  verdict: Difficulty
+  claim: string
+  why: string
+  evidence: Evidence[]
+}
+
+export interface Learning {
+  sport: string
+  /**
+   * Always `editorial`. The verdicts here are the site's own reading, not a
+   * sourced fact, and the interface says so rather than letting them sit
+   * alongside the citations as though they were the same kind of claim.
+   */
+  standing: 'editorial'
+  summary: string
+  entry: LearningAxis
+  mastery: LearningAxis
+  /** Why the two verdicts differ, which is the part worth reading. */
+  gap: string
+  /** Rule changes that moved the curve in either direction. */
+  shaped_by?: string[]
+}
+
+/* -------------------------------------------------- disciplines and events */
+
+export interface EventEntry {
+  id: string
+  label: string
+  note?: string
+  olympic?: boolean
+  /**
+   * How many medal events this row stands for. A row reading "Sprints — 100,
+   * 200, 400 m" is six medal events once men's and women's are counted
+   * separately, and a total built by counting rows would say one. Defaults to 1.
+   */
+  count?: number
+}
+
+export interface Discipline {
+  id: string
+  label: string
+  blurb?: string
+  /**
+   * False for a group listed only for context — the other disciplines of
+   * aquatics, football's variants — which must not be added to this sport's
+   * own totals.
+   */
+  counts?: boolean
+  events: EventEntry[]
+}
+
+export interface Events {
+  sport: string
+  as_of: string
+  source: string
+  standing: SourceStanding
+  summary: string
+  disciplines: Discipline[]
+}
+
 export interface Sport {
   id: string
   label: string

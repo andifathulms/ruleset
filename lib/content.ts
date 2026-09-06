@@ -2,7 +2,8 @@ import fs from 'node:fs'
 import path from 'node:path'
 import yaml from 'js-yaml'
 import type {
-  Cause, Lens, Play, Program, RuleChange, Series, Source, SourcedImage, Sport,
+  Cause, Events, Learning, Lens, Play, Program, RuleChange, Series, Source,
+  SourcedImage, Sport,
 } from './types'
 import { LAW_SECTIONS } from './types'
 
@@ -144,6 +145,45 @@ export function getAllPlay(): { sport: string; play: Play }[] {
   return getSportIds()
     .map((sport) => ({ sport, play: getPlay(sport) }))
     .filter((x): x is { sport: string; play: Play } => x.play !== null)
+}
+
+/**
+ * The learning curve for a sport. Every evidence item is checked for the thing
+ * that would make this layer dishonest: an item claiming to rest on a rule
+ * without naming one, which would let a judgement pass as sourced.
+ */
+export function getLearning(id: string): Learning | null {
+  const file = path.join(SPORTS, id, 'learning.yaml')
+  if (!fs.existsSync(file)) return null
+  const learning = parse<Learning>(fs.readFileSync(file, 'utf8'))
+  const ruleIds = new Set(getRuleChanges(id).map((r) => r.id))
+  for (const axis of [learning.entry, learning.mastery]) {
+    for (const e of axis.evidence) {
+      if (e.basis === 'rule' && !e.rule) {
+        throw new Error(
+          `learning.yaml (${id}): "${e.label}" claims a rule basis but names no rule`,
+        )
+      }
+      if (e.rule && !ruleIds.has(e.rule)) {
+        throw new Error(
+          `learning.yaml (${id}): "${e.label}" cites rule "${e.rule}", which this sport does not have`,
+        )
+      }
+    }
+  }
+  return learning
+}
+
+export function getAllLearning(): { sport: string; learning: Learning }[] {
+  return getSportIds()
+    .map((sport) => ({ sport, learning: getLearning(sport) }))
+    .filter((x): x is { sport: string; learning: Learning } => x.learning !== null)
+}
+
+export function getEvents(id: string): Events | null {
+  const file = path.join(SPORTS, id, 'events.yaml')
+  if (!fs.existsSync(file)) return null
+  return parse<Events>(fs.readFileSync(file, 'utf8'))
 }
 
 /** MDX narrative sections for a sport, ordered by their numeric filename prefix. */

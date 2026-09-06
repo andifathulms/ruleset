@@ -13,9 +13,12 @@ import ScoringSystems from '@/components/diagrams/ScoringSystems'
 import ScoreScales from '@/components/diagrams/ScoreScales'
 import { Reveal } from '@/components/Motion'
 import CurrentLaws from '@/components/CurrentLaws'
+import LearningCurve from '@/components/LearningCurve'
+import EventTree from '@/components/EventTree'
 import {
-  getCauses, getImageForSport, getLenses, getPlay, getProgram, getRuleChanges,
-  getSections, getSeriesForSport, getSourceMap, getSport, getSportIds,
+  getCauses, getEvents, getImageForSport, getLearning, getLenses, getPlay,
+  getProgram, getRuleChanges, getSections, getSeriesForSport, getSourceMap,
+  getSport, getSportIds,
 } from '@/lib/content'
 
 const COLOUR: Record<string, { base: string; bright: string }> = {
@@ -102,6 +105,8 @@ export default function SportPage({ params }: { params: { sport: string } }) {
   const series = getSeriesForSport(params.sport)
   const sections = getSections(params.sport)
   const play = getPlay(params.sport)
+  const learning = getLearning(params.sport)
+  const events = getEvents(params.sport)
   const lenses = getLenses()
   const program = getProgram().sports.find((s) => s.id === params.sport)
   const c = COLOUR[sport.family_colour] ?? COLOUR.unmarked
@@ -118,15 +123,183 @@ export default function SportPage({ params }: { params: { sport: string } }) {
     ) : null
 
   const has = (slug: string) => sections.some((s) => s.slug === slug)
-  const nav = [
-    play && { id: 'play', label: 'How it is played' },
-    has('origin') && { id: 'origin', label: 'Origin' },
-    { id: 'rules', label: 'Rule timeline' },
-    has('equipment') && { id: 'equipment', label: 'Equipment' },
-    has('politics') && { id: 'politics', label: 'Politics' },
-    has('controversies') && { id: 'controversies', label: 'Controversies' },
-    { id: 'series', label: 'Series' },
-  ].filter(Boolean) as { id: string; label: string }[]
+  const prose = (slug: string) => {
+    const found = sections.find((s) => s.slug === slug)
+    return found ? { id: slug, label: found.title, body: found.body } : null
+  }
+
+  /**
+   * Every section the page can show, in order, grouped into three acts. Built
+   * as data so that adding a section is one entry rather than a hand-renumbered
+   * edit in four places — which is how the numbering drifted last time.
+   */
+  const plan: {
+    act: string
+    blurb: string
+    items: ({ id: string; label: string; node: React.ReactNode; reading?: boolean } | null)[]
+  }[] = [
+    {
+      act: 'The game',
+      blurb: 'what it is now',
+      items: [
+        play && {
+          id: 'play',
+          label: 'How it is played',
+          node: (
+            <CurrentLaws
+              play={play}
+              rules={rules}
+              source={getSourceMap()[play.source]}
+              colour={c}
+              sportLabel={sport.label}
+            />
+          ),
+        },
+        events && {
+          id: 'events',
+          label: 'Disciplines and events',
+          node: <EventTree events={events} colour={c} />,
+        },
+        prose('officiating') &&
+          {
+            id: 'officiating',
+            label: prose('officiating')!.label,
+            reading: true,
+            node: <Prose source={prose('officiating')!.body} />,
+          },
+        prose('geography') && {
+          id: 'geography',
+          label: prose('geography')!.label,
+          reading: true,
+          node: <Prose source={prose('geography')!.body} />,
+        },
+        learning && {
+          id: 'learning',
+          label: 'Learning curve',
+          node: <LearningCurve learning={learning} rules={rules} colour={c} />,
+        },
+      ],
+    },
+    {
+      act: 'The history',
+      blurb: 'how it got here',
+      items: [
+        prose('origin') && {
+          id: 'origin',
+          label: prose('origin')!.label,
+          reading: true,
+          node: <Prose source={prose('origin')!.body} />,
+        },
+        {
+          id: 'rules',
+          label: 'Rule timeline',
+          node: (
+            <>
+              <p className="prose-measure mb-8 text-fluid-base text-unmarked">
+                The sport&rsquo;s own lane, expanded. Every entry carries a cause
+                from the closed vocabulary and a citation, and says so where the
+                citation is incomplete.
+              </p>
+              <RuleList rules={rules} causes={getCauses()} sources={getSourceMap()} series={series} />
+              {diagramFor(params.sport, 'rules')}
+            </>
+          ),
+        },
+        prose('equipment') && {
+          id: 'equipment',
+          label: prose('equipment')!.label,
+          reading: true,
+          node: (
+            <>
+              <Prose source={prose('equipment')!.body} />
+              {diagramFor(params.sport, 'equipment')}
+              {photoFor('equipment')}
+            </>
+          ),
+        },
+        prose('politics') && {
+          id: 'politics',
+          label: prose('politics')!.label,
+          reading: true,
+          node: <Prose source={prose('politics')!.body} />,
+        },
+        prose('controversies') && {
+          id: 'controversies',
+          label: prose('controversies')!.label,
+          reading: true,
+          node: (
+            <>
+              <Prose source={prose('controversies')!.body} />
+              {photoFor('controversies')}
+            </>
+          ),
+        },
+      ],
+    },
+    {
+      act: 'Where it stands',
+      blurb: 'the record, and what is still open',
+      items: [
+        {
+          id: 'series',
+          label: 'Series',
+          node:
+            series.length === 0 ? (
+              <p className="prose-measure text-fluid-base text-unmarked">
+                No series has been assembled for this sport.
+              </p>
+            ) : (
+              <>
+                {series.map((s) => (
+                  <div key={s.id} id={s.id} className="scroll-anchor">
+                    <SeriesChart series={s} colour={sport.family_colour} now={now} />
+                  </div>
+                ))}
+                {diagramFor(params.sport, 'series')}
+                {photoFor('series')}
+              </>
+            ),
+        },
+        prose('contested') && {
+          id: 'contested',
+          label: prose('contested')!.label,
+          reading: true,
+          node: <Prose source={prose('contested')!.body} />,
+        },
+      ],
+    },
+  ]
+
+  let n = 0
+  const acts = plan
+    .map((group) => ({
+      title: group.act,
+      blurb: group.blurb,
+      sections: group.items
+        .filter((i): i is NonNullable<typeof i> => Boolean(i))
+        .map((i) => ({ ...i, n: ++n })),
+    }))
+    .filter((group) => group.sections.length > 0)
+
+  /* The nav strip is one line that scrolls; a section title that reads well as
+     a heading — "Controversies that forced rule changes" — is too long for it. */
+  const NAV_SHORT: Record<string, string> = {
+    origin: 'Origin',
+    equipment: 'Equipment',
+    politics: 'Politics',
+    controversies: 'Controversies',
+    officiating: 'Officiating',
+    geography: 'Where it is played',
+    contested: 'Contested now',
+    events: 'Events',
+  }
+  const nav = acts.flatMap((group) =>
+    group.sections.map((item, i) => ({
+      id: item.id,
+      label: NAV_SHORT[item.id] ?? item.label,
+      ...(i === 0 ? { act: group.title } : {}),
+    })),
+  )
 
   return (
     <article>
@@ -230,87 +403,36 @@ export default function SportPage({ params }: { params: { sport: string } }) {
           </Reveal>
         )}
 
-        {/* 2. How it is played — the laws as they now stand. This comes before
-            the history on purpose: the current law is what the changes
-            produced, so the page reads forwards from the answer. */}
-        {play && (
-          <Section title="How it is played" id="play" n={1} colour={c.bright}>
-            <CurrentLaws
-              play={play}
-              rules={rules}
-              source={getSourceMap()[play.source]}
-              colour={c}
-              sportLabel={sport.label}
-            />
-          </Section>
-        )}
-
-        {/* 3. Origin and invention. */}
-        {sections
-          .filter((s) => s.slug === 'origin')
-          .map((s) => (
-            <Section key={s.slug} title={s.title} id={s.slug} n={2} colour={c.bright} reading tint={c.base}>
-              <Prose source={s.body} />
-            </Section>
-          ))}
-
-        {/* 3. Rule timeline — the sport's own lane, expanded. */}
-        <Section title="Rule timeline" id="rules" n={3} colour={c.bright}>
-          <p className="prose-measure mb-8 text-fluid-base text-unmarked">
-            The sport&rsquo;s own lane, expanded. Every entry carries a cause
-            from the closed vocabulary and a citation, and says so where the
-            citation is incomplete.
-          </p>
-          <RuleList rules={rules} causes={getCauses()} sources={getSourceMap()} series={series} />
-          {diagramFor(params.sport, 'rules')}
-        </Section>
-
-        {/* 4. Equipment evolution, tied to the rules that forced it. */}
-        {sections
-          .filter((s) => s.slug === 'equipment')
-          .map((s) => (
-            <Section key={s.slug} title={s.title} id={s.slug} n={4} colour={c.bright} reading tint={c.base}>
-              <Prose source={s.body} />
-              {diagramFor(params.sport, 'equipment')}
-              {photoFor('equipment')}
-            </Section>
-          ))}
-
-        {/* 5. Governing body politics and schisms. */}
-        {sections
-          .filter((s) => s.slug === 'politics')
-          .map((s) => (
-            <Section key={s.slug} title={s.title} id={s.slug} n={5} colour={c.bright} reading tint={c.base}>
-              <Prose source={s.body} />
-            </Section>
-          ))}
-
-        {/* 6. Controversies that forced rule changes. */}
-        {sections
-          .filter((s) => s.slug === 'controversies')
-          .map((s) => (
-            <Section key={s.slug} title={s.title} id={s.slug} n={6} colour={c.bright} reading tint={c.base}>
-              <Prose source={s.body} />
-              {photoFor('controversies')}
-            </Section>
-          ))}
-
-        {/* 7. Series charts, with breaks rendered as breaks. */}
-        <Section title="Series" id="series" n={7} colour={c.bright}>
-          {series.length === 0 ? (
-            <p className="prose-measure text-fluid-base text-unmarked">
-              No series has been assembled for this sport.
-            </p>
-          ) : (
-            series.map((s) => (
-              <div key={s.id} id={s.id} className="scroll-anchor">
-                <SeriesChart series={s} colour={sport.family_colour} now={now} />
-              </div>
-            ))
-          )}
-          {diagramFor(params.sport, 'series')}
-          {photoFor('series')}
-        </Section>
+        {/*
+          Three acts. The page runs to a dozen sections now, and they are not
+          all the same kind of thing: what the sport IS, how it GOT here, and
+          what that did to its numbers. Numbering runs unbroken across the acts
+          so a section keeps one identity in the nav and in a deep link.
+        */}
+        {acts.map((act) => (
+          <div key={act.title}>
+            <Reveal>
+              <h2 className="mt-24 flex items-baseline gap-4 text-[13px] uppercase tracking-[0.2em] text-unmarked">
+                {act.title}
+                <span aria-hidden className="h-px flex-1 bg-chalk/12" />
+                <span className="numeral text-[13px]">{act.blurb}</span>
+              </h2>
+            </Reveal>
+            {act.sections.map((item) => (
+              <Section
+                key={item.id}
+                title={item.label}
+                id={item.id}
+                n={item.n}
+                colour={c.bright}
+                reading={item.reading}
+                tint={item.reading ? c.base : undefined}
+              >
+                {item.node}
+              </Section>
+            ))}
+          </div>
+        ))}
 
         <nav className="mb-20 mt-20 flex flex-wrap items-center gap-x-8 gap-y-3 border-t chalk-rule pt-8 text-[15px]">
           <Link href="/" className="link-paint text-chalk">
