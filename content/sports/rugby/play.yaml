@@ -1,0 +1,129 @@
+sport: rugby
+as_of: 2026-09
+edition: World Rugby Laws of the Game, with Sevens Variations
+source: world-rugby-laws
+standing: primary-named
+summary: >
+  Carry the ball over the opponent's line, but only by passing backwards. That
+  single constraint — the ball may not be passed forward — is what makes rugby
+  a sport of collision rather than of evasion, and everything else in the Laws
+  follows from managing what happens when the carrier is stopped.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Ground the ball over the opponent's goal line for a try, or kick it
+      between the posts. The ball may be carried and kicked forwards but only
+      passed backwards, so territory is gained by running into opposition
+      rather than around it.
+
+      A tackled player must release the ball, which creates the contest for
+      possession on the ground that fills most of a match.
+
+  - id: field
+    label: The pitch
+    body: >
+      The same full-size pitch for both formats, which is why sevens is so
+      open: seven players cover ground designed for fifteen.
+    facts:
+      - { label: Pitch, value: Up to 100 × 70 m }
+      - { label: In-goal area, value: Up to 22 m deep }
+      - { label: Posts, value: 5.6 m apart, crossbar at 3 m }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      An oval ball, boots, and optional padding within strict thickness limits.
+      Rugby permits far less protective equipment than American football and
+      the reasoning is explicit: hard protection encourages harder collisions.
+
+      Headgear is permitted and does not prevent concussion — it protects
+      against cuts and cauliflower ear. World Rugby has been careful to say so,
+      which is unusual candour about equipment that looks protective and is not.
+    facts:
+      - { label: Ball, value: Oval, 410–460 g }
+      - { label: Padding, value: Thickness limited }
+      - { label: Headgear, value: Optional; does not prevent concussion }
+
+  - id: players
+    label: Players and officials
+    body: >
+      Fifteen a side in the principal game, seven in the Olympic one. A referee
+      with two assistants, plus a television match official at elite level who
+      reviews tries, foul play and grounding.
+
+      A head injury assessment protocol, from 2012, removes a player with
+      suspected concussion for a structured off-field examination with a
+      temporary replacement permitted.
+    facts:
+      - { label: "Fifteens, per side", value: "15" }
+      - { label: "Sevens, per side", value: "7" }
+      - { label: HIA, value: Since 2012 }
+    shaped_by: [rugby-2012-head-injury-assessment, rugby-2009-sevens-olympic]
+
+  - id: duration
+    label: Time
+    body: >
+      Two halves of forty minutes in fifteens; two halves of seven minutes in
+      sevens, so an entire Olympic tournament fits into three days.
+
+      That compression is the whole reason rugby is on the programme at all.
+      Fifteens requires large squads and days of recovery between matches, and
+      no Olympic schedule can hold it.
+    facts:
+      - { label: "Fifteens", value: 2 × 40 min }
+      - { label: "Sevens", value: 2 × 7 min }
+    shaped_by: [rugby-2009-sevens-olympic]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Five for a try, two for the conversion kick that follows it, three for a
+      penalty kick or drop goal. The try is worth most because the sport wants
+      the ball carried over the line rather than kicked between posts, and its
+      value has been raised repeatedly across the sport's history for exactly
+      that reason.
+
+      Sevens produces several times the scoring rate of fifteens on the same
+      pitch, which is why their statistics do not travel.
+    facts:
+      - { label: Try, value: "5" }
+      - { label: Conversion, value: "2" }
+      - { label: Penalty or drop goal, value: "3" }
+
+  - id: restarts
+    label: Scrum, lineout and breakdown
+    body: >
+      Rugby's set pieces are its distinctive machinery. A scrum restarts play
+      after a knock-on or forward pass — eight players a side in fifteens,
+      three in sevens. A lineout restarts it after the ball goes into touch.
+
+      The breakdown is what happens after every tackle: the carrier releases,
+      players arrive to contest possession, and a body of law governs who may
+      do what and from where. It is the most complex and least legible part of
+      the sport, and the hardest thing in it to referee.
+
+  - id: prohibitions
+    label: Foul play and the tackle
+    body: >
+      Forward passes, knock-ons, offside, and — dominating everything else now
+      — dangerous contact.
+
+      Since 2019 a published framework escalates high-tackle sanctions from
+      penalty to yellow to red according to contact height, degree of danger
+      and mitigation. Since 2023 the legal tackle height itself has been lowered
+      in community rugby and is being trialled upwards through the game.
+
+      Rugby is rewriting its defining action. A tackle is what the sport is,
+      and the law now specifies where on the body it may begin.
+    facts:
+      - { label: High tackle framework, value: Since 2019 }
+      - { label: Tackle height, value: Being lowered by law }
+    shaped_by: [rugby-2019-high-tackle-framework, rugby-2023-tackle-height]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More points. Draws stand in league play; knockout matches go to extra
+      time and, if still level, to a kicking competition.

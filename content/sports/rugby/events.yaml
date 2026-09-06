@@ -1,0 +1,31 @@
+sport: rugby
+as_of: 2026-09
+source: world-rugby-laws
+standing: primary-named
+summary: >
+  Two Olympic events, contested in sevens. Rugby's Olympic history splits
+  across two different games: fifteens from 1900 to 1924, then nothing for
+  ninety-two years, then sevens from 2016.
+disciplines:
+  - id: sevens
+    label: Sevens
+    blurb: The Olympic discipline. Seven a side, fourteen minutes, full-size pitch.
+    events:
+      - { id: men, label: "Men's tournament", olympic: true }
+      - { id: women, label: "Women's tournament", olympic: true }
+  - id: fifteens
+    label: Fifteens
+    counts: false
+    blurb: >
+      The sport's principal form, and its Olympic sport until 1924. Not on the
+      programme, because a tournament needs weeks and large squads.
+    events:
+      - { id: rwc, label: Rugby World Cup, note: "The sport's largest competition, in fifteens." }
+      - { id: olympic-1924, label: "Olympic fifteens, 1900–1924", note: "The United States are the reigning Olympic champions in fifteens, from 1924." }
+  - id: other
+    label: Other codes and forms
+    counts: false
+    events:
+      - { id: league, label: Rugby league, note: "A separate sport since the 1895 split over paying players. Different laws, different federation." }
+      - { id: touch, label: Touch and tag rugby, note: Non-contact forms, and the usual entry route for children. }
+      - { id: wheelchair, label: Wheelchair rugby, olympic: false }

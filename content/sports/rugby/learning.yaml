@@ -1,0 +1,88 @@
+sport: rugby
+standing: editorial
+summary: >
+  A sport that is easy to start and physically expensive to continue, and the
+  only one on this site currently rewriting its defining action because of what
+  it has learned about long-term harm.
+
+entry:
+  verdict: low
+  claim: A ball and a field. Contact can be introduced gradually or not at all.
+  why: >
+    Rugby needs a ball and space, and the passing game can be learned without
+    contact. Most countries run touch and tag versions for children, and sevens
+    itself is a simpler entry point than fifteens — fewer players, fewer set
+    pieces, less specialisation.
+
+    The backward pass is the only counterintuitive thing a beginner must
+    absorb, and it takes minutes rather than weeks.
+
+    What makes the verdict low rather than very low is that the full game
+    involves being tackled, and a beginner cannot participate in the real sport
+    without accepting that.
+  evidence:
+    - { label: Kit to start, value: A ball, basis: observation }
+    - { label: Facility, value: A field, basis: observation }
+    - { label: Non-contact versions, value: Touch and tag, basis: observation, note: The usual entry route for children. }
+    - { label: "Sevens, per side", value: "7", basis: rule, rule: rugby-2009-sevens-olympic, note: Fewer players and fewer set pieces than fifteens. }
+    - { label: Time to a real game, value: Weeks, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Sustained collision, a legal target area that keeps shrinking, and a documented long-term cost.
+  why: >
+    Elite rugby demands repeated high-speed collision across eighty minutes,
+    plus the technical vocabulary of scrum, lineout and breakdown, plus
+    positional specialisation so extreme that a prop and a winger are barely
+    doing the same sport.
+
+    Sevens asks for a different profile again: seven players covering a
+    fifteen-a-side pitch, so every player must have the pace and endurance of a
+    back and the contact skills of a forward.
+
+    The ceiling now carries a cost the sport has acknowledged. Repeated head
+    impact — not only diagnosed concussions but the accumulated sub-concussive
+    contact of a career — is linked to long-term neurological harm, litigation
+    has been brought by former professionals, and the sport is lowering the
+    legal tackle height in response. A player entering elite rugby today is
+    entering a sport actively rewriting its central action because of what it
+    costs them.
+  evidence:
+    - label: High tackle framework
+      value: Since 2019
+      basis: rule
+      rule: rugby-2019-high-tackle-framework
+      note: A published decision procedure rather than a rule — telling officials how to think.
+    - label: Tackle height lowered
+      value: From 2024, in community rugby first
+      basis: rule
+      rule: rugby-2023-tackle-height
+    - label: Head injury assessment
+      value: Since 2012
+      basis: rule
+      rule: rugby-2012-head-injury-assessment
+    - label: Professionalism
+      value: Only from 1995
+      basis: rule
+      rule: rugby-1995-professionalism
+      note: The latest abolition of amateurism of any sport on this site.
+    - { label: Typical peak age, value: 26–31, basis: judgement }
+
+gap: >
+  Rugby is low to very high, and its gap is unusual in being physical at the
+  top rather than technical. The skills are learnable; the collisions are not
+  something you get better at absorbing.
+
+  What puts it on this board is the direction of its current rulemaking. Most
+  safety rules on this site were written after a specific incident — a javelin
+  throw, a broken blade, a horse on camera. Rugby's are being written against
+  an accumulating body of evidence about a harm that is intrinsic to the sport
+  rather than accidental to it, and the sport is responding by changing the
+  action that defines it.
+
+  Boxing has the same problem and has done nothing comparable. That contrast is
+  the reason both are on this site.
+
+shaped_by:
+  - rugby-2023-tackle-height
+  - rugby-2009-sevens-olympic

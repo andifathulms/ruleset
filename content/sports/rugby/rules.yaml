@@ -1,0 +1,148 @@
+- id: rugby-1995-professionalism
+  scope: { sport: rugby, discipline: all }
+  date_adopted: 1995-08
+  date_effective: 1995
+  status: adopted
+  governing_body: International Rugby Football Board
+  what_changed: >
+    Rugby union declared itself open, ending a century of enforced amateurism
+    in which players could not be paid and were banned for life for going to
+    the professional code.
+
+    It is the latest abolition of amateurism of any sport on this site — later
+    than tennis by twenty-seven years, later than athletics, and a hundred and
+    twenty years after football accepted professionals.
+  cause_primary: commercial
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      The 1995 World Cup demonstrated the sport's commercial value, and
+      unofficial payment had become widespread enough that the amateur rule was
+      unenforceable. A rival professional circuit was being organised in
+      parallel.
+    also_said: >
+      The amateurism rule had also enforced a class and geographic division —
+      rugby league existed because northern English clubs wanted to compensate
+      players for lost wages in 1895 and were expelled for it. Union's 1995
+      decision ended a schism it had created a century earlier.
+  citation:
+    source: world-rugby-laws
+    edition: IRFB regulations, 1995
+    missing: true
+  comparability_break: null
+
+- id: rugby-2009-sevens-olympic
+  scope: { sport: rugby, discipline: sevens }
+  date_adopted: 2009-10
+  date_effective: 2016
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Rugby returned to the Olympic programme as sevens rather than fifteens.
+    Seven players a side, two halves of seven minutes, on a full-size pitch,
+    with the same Laws modified by a published set of variations.
+
+    The Olympic sport is therefore a different game from the one contested in
+    1900 to 1924, and from the one the sport's own World Cup is played in.
+  cause_primary: commercial
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Fifteen-a-side needs large squads, long recovery between matches and a
+      tournament of weeks. Sevens fits an entire competition into three days
+      with small squads, which is what made Olympic inclusion possible.
+    also_said: >
+      Lacrosse did the same thing in 2021 by inventing Sixes, and cricket will
+      appear in 2028 as Twenty20. Three sports on this site now send a reduced
+      format to the Games while their principal competition is played in
+      another.
+  citation:
+    source: world-rugby-laws
+    edition: World Rugby Sevens Variations
+    missing: true
+  comparability_break: rugby-formats
+
+- id: rugby-2012-head-injury-assessment
+  scope: { sport: rugby, discipline: all }
+  date_adopted: 2012
+  date_effective: 2012
+  status: adopted
+  governing_body: World Rugby
+  what_changed: >
+    A head injury assessment protocol was introduced: a player with suspected
+    concussion leaves the field for a structured off-field examination, with a
+    temporary replacement permitted, and may only return if they pass.
+
+    Before it, concussion was assessed on the pitch in seconds by people
+    watching a match.
+  cause_primary: safety
+  trigger:
+    description: >
+      Growing evidence on the cumulative effects of head impact, and several
+      high-profile incidents in which players continued after visible
+      concussions.
+  citation:
+    source: world-rugby-laws
+    edition: World Rugby Regulation 10 and the HIA protocol
+    missing: true
+  comparability_break: null
+
+- id: rugby-2019-high-tackle-framework
+  scope: { sport: rugby, discipline: all }
+  date_adopted: 2019
+  date_effective: 2019
+  status: adopted
+  governing_body: World Rugby
+  what_changed: >
+    A decision framework was published for sanctioning high tackles, escalating
+    from penalty to yellow to red card according to the height of contact, the
+    degree of danger and any mitigating factors. Officials apply a structured
+    sequence rather than an unaided judgement.
+  cause_primary: safety
+  trigger:
+    description: >
+      Head contact in the tackle is the sport's principal concussion mechanism,
+      and sanctioning had been inconsistent. The framework was designed to make
+      the outcome predictable and therefore to change behaviour.
+    also_said: >
+      It is one of very few examples on this site of a federation publishing a
+      decision procedure rather than a rule — telling officials how to think
+      rather than what to decide. Gymnastics' judging guidelines are the
+      nearest relative.
+  citation:
+    source: world-rugby-laws
+    edition: World Rugby High Tackle Sanction Framework, 2019
+    missing: true
+  comparability_break: null
+
+- id: rugby-2023-tackle-height
+  scope: { sport: rugby, discipline: all }
+  date_adopted: 2023
+  date_effective: 2024
+  status: adopted
+  governing_body: World Rugby
+  what_changed: >
+    The legal tackle height was lowered in community rugby in several unions —
+    to the base of the sternum, and in some competitions to the waist — with
+    trials extending upwards through the game.
+
+    Rugby is rewriting its defining physical action. A tackle is what
+    distinguishes the sport, and the law now governs where on the body it may
+    begin.
+  cause_primary: safety
+  trigger:
+    description: >
+      Evidence linking repeated head impacts to long-term neurological harm,
+      and litigation brought by former professional players alleging the sport
+      failed to protect them. Lowering the tackle reduces head-to-head contact
+      between tackler and ball-carrier.
+    also_said: >
+      Players and coaches argue that a lower tackle produces more contact with
+      hips and knees and may simply move the injuries rather than reduce them,
+      and that the sport is being reshaped by legal exposure rather than by
+      evidence. Both readings are in the record.
+  citation:
+    source: world-rugby-laws
+    edition: World Rugby Law trials and union directives, 2024
+    missing: true
+  comparability_break: null

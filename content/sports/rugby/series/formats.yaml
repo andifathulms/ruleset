@@ -1,0 +1,34 @@
+id: rugby-formats
+label: Statistics across fifteens and sevens
+unit: points
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Rugby's Olympic sport and rugby's principal sport are different games that
+  share a rulebook.
+
+  Fifteen a side runs eighty minutes with contested scrums of eight, lineouts,
+  and long periods of possession. Sevens runs fourteen minutes with three-man
+  scrums and enormous space, and produces scoring rates several times higher.
+  A points-per-game figure spanning them would be meaningless, and nobody in
+  rugby has ever suggested otherwise.
+
+  This is now the third sport on this site to send a reduced format to the
+  Games while its main competition is played in another — after cricket, which
+  goes as Twenty20, and lacrosse, which invented Sixes for the purpose. In all
+  three cases the discontinuity is deliberate and handled correctly, by keeping
+  the records separate.
+
+  Rugby's version is the starkest because the Olympic history is split across
+  it. The sport was contested as fifteens from 1900 to 1924 and returned in
+  2016 as sevens, so its own Olympic record spans two different games with a
+  ninety-two-year gap in the middle.
+segments: []
+breaks:
+  - at: 2016
+    caused_by: rugby-2009-sevens-olympic
+    kind: scoped
+    note: >
+      The Olympic sport changed from fifteens to sevens. Same Laws, different
+      game, and no statistic crosses between them.
+source: world-rugby-laws
