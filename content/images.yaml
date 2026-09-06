@@ -1,0 +1,73 @@
+# Images used on this site, and what each one is evidence of.
+#
+# Every entry is a citation in the same sense as sources.yaml: it names the
+# author, the licence, and the page it came from, and its `shows` line says
+# what the photograph is actually evidence of. A photograph of a person is
+# evidence of the person, not of the rule change beside it, and the captions
+# are written to say so rather than let the placement imply otherwise.
+
+- id: athletics
+  sport: athletics
+  file: /images/athletics.jpg
+  width: 540
+  height: 788
+  alt: "Uwe Hohn in 1984, the year he threw 104.80 m."
+  shows: >
+   A portrait of the thrower, not of the throw. The record it refers to was
+   set on 20 July 1984 in Berlin; two years later the implement was
+   redesigned and the list restarted, which is why this mark has no
+   successor.
+  title: "Bundesarchiv Bild 183-1984-0603-003, Uwe Hohn.jpg"
+  author: "Wolfgang Kluge"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1984-0603-003,_Uwe_Hohn.jpg"
+
+- id: badminton
+  sport: badminton
+  file: /images/badminton.jpg
+  width: 900
+  height: 600
+  alt: "The group match at London 2012 that changed the draw."
+  shows: >
+   Photographed at the 2012 Olympic tournament, in the round where four
+   pairs were later disqualified for not using best efforts. The
+   photographer titled it "Bad losers". It shows the competition, not the
+   specific rally any charge rested on.
+  title: "2012 Olympics Korea.jpg"
+  author: "Tom Page"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2012_Olympics_Korea.jpg"
+
+- id: gymnastics
+  sport: gymnastics
+  file: /images/gymnastics.jpg
+  width: 785
+  height: 1121
+  alt: "Nadia Com\u0103neci, three-time Olympic champion, 1976."
+  shows: >
+   A contemporary Romanian postcard. Her 10.0 in Montreal is the number the
+   2006 Code made unreachable — not by raising the bar, but by removing the
+   top of the scale it was measured against.
+  title: "Nadia Comaneci tripla campioana olimpica.jpg"
+  author: "I.P. \u201eFilaret\u201d"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Nadia_Comaneci_tripla_campioana_olimpica.jpg"
+
+- id: swimming
+  sport: swimming
+  file: /images/swimming.jpg
+  width: 399
+  height: 349
+  alt: "The LZR Racer, unveiled in New York in February 2008."
+  shows: >
+   The suit itself, photographed at its launch. This is the generation of
+   swimwear that was banned from 1 January 2010; the records set in it were
+   allowed to stand.
+  title: "Unveiling of LZR Racer in NYC 2008-02-13.jpg"
+  author: "Kathy Barnstorff"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Unveiling_of_LZR_Racer_in_NYC_2008-02-13.jpg"

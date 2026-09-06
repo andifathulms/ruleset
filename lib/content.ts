@@ -2,7 +2,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import yaml from 'js-yaml'
 import type {
-  Cause, Lens, Program, RuleChange, Series, Source, Sport,
+  Cause, Lens, Program, RuleChange, Series, Source, SourcedImage, Sport,
 } from './types'
 
 const CONTENT = path.join(process.cwd(), 'content')
@@ -108,4 +108,16 @@ export function getSections(id: string): { slug: string; title: string; body: st
         body: raw.replace(/^#\s+.+$\n?/m, '').trim(),
       }
     })
+}
+
+/** Every photograph on the site, with the attribution its licence requires. */
+export function getImages(): SourcedImage[] {
+  const file = path.join(CONTENT, 'images.yaml')
+  if (!fs.existsSync(file)) return []
+  const raw = parse<SourcedImage[]>(fs.readFileSync(file, 'utf8')) ?? []
+  return raw.map((i) => ({ ...i, shows: i.shows.replace(/\s+/g, ' ').trim() }))
+}
+
+export function getImageForSport(sport: string): SourcedImage | undefined {
+  return getImages().find((i) => i.sport === sport)
 }

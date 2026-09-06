@@ -7,13 +7,14 @@ import RuleList from '@/components/RuleList'
 import MiniLane from '@/components/MiniLane'
 import SectionNav from '@/components/SectionNav'
 import Diagram from '@/components/Diagram'
+import SourcedPhoto from '@/components/SourcedPhoto'
 import JavelinCentreOfGravity from '@/components/diagrams/JavelinCentreOfGravity'
 import ScoringSystems from '@/components/diagrams/ScoringSystems'
 import ScoreScales from '@/components/diagrams/ScoreScales'
 import { Reveal } from '@/components/Motion'
 import {
-  getCauses, getLenses, getProgram, getRuleChanges, getSections, getSeriesForSport,
-  getSourceMap, getSport, getSportIds,
+  getCauses, getImageForSport, getLenses, getProgram, getRuleChanges, getSections,
+  getSeriesForSport, getSourceMap, getSport, getSportIds,
 } from '@/lib/content'
 
 const COLOUR: Record<string, { base: string; bright: string }> = {
@@ -70,6 +71,14 @@ function diagramFor(sport: string, slot: string) {
   return null
 }
 
+/** Where each sport's photograph belongs: beside the thing it is evidence of. */
+const PHOTO_SLOT: Record<string, string> = {
+  athletics: 'series',
+  badminton: 'controversies',
+  gymnastics: 'controversies',
+  swimming: 'equipment',
+}
+
 export function generateStaticParams() {
   return getSportIds().map((sport) => ({ sport }))
 }
@@ -98,6 +107,13 @@ export default function SportPage({ params }: { params: { sport: string } }) {
   const ruleYears = rules.map((r) => Number(r.date_effective.slice(0, 4)))
   const breakYears = series.filter((s) => s.break).map((s) => s.break!.at)
   const span: [number, number] = [Math.min(...ruleYears) - 4, Math.max(...ruleYears) + 4]
+
+  const photo = getImageForSport(params.sport)
+  const photoSlot = PHOTO_SLOT[params.sport]
+  const photoFor = (slot: string) =>
+    photo && photoSlot === slot ? (
+      <SourcedPhoto image={photo} colour={sport.family_colour} />
+    ) : null
 
   const has = (slug: string) => sections.some((s) => s.slug === slug)
   const nav = [
@@ -238,6 +254,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
             <Section key={s.slug} title={s.title} id={s.slug} n={3} colour={c.bright} reading tint={c.base}>
               <Prose source={s.body} />
               {diagramFor(params.sport, 'equipment')}
+              {photoFor('equipment')}
             </Section>
           ))}
 
@@ -256,6 +273,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
           .map((s) => (
             <Section key={s.slug} title={s.title} id={s.slug} n={5} colour={c.bright} reading tint={c.base}>
               <Prose source={s.body} />
+              {photoFor('controversies')}
             </Section>
           ))}
 
@@ -273,6 +291,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
             ))
           )}
           {diagramFor(params.sport, 'series')}
+          {photoFor('series')}
         </Section>
 
         <nav className="mb-20 mt-20 flex flex-wrap items-center gap-x-8 gap-y-3 border-t chalk-rule pt-8 text-[15px]">

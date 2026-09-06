@@ -158,6 +158,46 @@
     mask-image: radial-gradient(120% 92% at 50% 0%, #000 30%, transparent 78%);
   }
 
+  /*
+    A photograph tinted into its sport's family colour, so imagery reinforces
+    the colour system rather than competing with it. Luminance comes from the
+    photograph and hue from the overlay, which is what `color` blending does;
+    on a browser without it the image simply stays monochrome, which is the
+    safe direction. Colour still carries family and nothing else.
+  */
+  .duotone {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+  }
+
+  .duotone img {
+    display: block;
+    width: 100%;
+    height: auto;
+    filter: grayscale(1) contrast(1.08) brightness(0.92);
+  }
+
+  .duotone::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--tint, #7a8c8a);
+    mix-blend-mode: color;
+    opacity: 0.82;
+    pointer-events: none;
+  }
+
+  /* A hairline of the family colour along the top, as everywhere else. */
+  .duotone::before {
+    content: '';
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 2px;
+    z-index: 2;
+    background: var(--tint-bright, #9fb2b0);
+  }
+
   /* An eyebrow: small, wide, and never louder than the heading under it. */
   .eyebrow {
     font-size: 12px;

@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 import { Reveal } from '@/components/Motion'
-import { getAllRuleChanges, getSources } from '@/lib/content'
+import { getAllRuleChanges, getImages, getSources } from '@/lib/content'
 import type { SourceStanding } from '@/lib/types'
+import { asset } from '@/lib/asset'
 
 export const metadata: Metadata = {
   title: 'Sources',
@@ -32,6 +33,7 @@ const ORDER: SourceStanding[] = ['primary-checked', 'primary-named', 'secondary'
 export default function SourcesPage() {
   const sources = getSources()
   const rules = getAllRuleChanges()
+  const images = getImages()
 
   const usage = new Map<string, number>()
   for (const r of rules) usage.set(r.citation.source, (usage.get(r.citation.source) ?? 0) + 1)
@@ -105,6 +107,64 @@ export default function SourcesPage() {
           })}
         </dl>
       </Reveal>
+
+      {images.length > 0 && (
+        <Reveal as="section" className="mt-14 border-t chalk-rule pt-10">
+          <h2 className="flex items-baseline gap-4 font-display text-fluid-h2 text-chalk">
+            Images
+            <span className="numeral text-[18px] text-unmarked">{images.length}</span>
+            <span aria-hidden className="h-px flex-1 bg-chalk/15" />
+          </h2>
+          <p className="prose-measure mt-4 text-fluid-base text-unmarked">
+            Photographs are borrowed, so they are cited like everything else
+            borrowed here: author, licence, and the page they came from. Each
+            one is also captioned with what it is actually evidence of, which is
+            usually narrower than the section it sits in — a portrait of a
+            thrower is evidence of the thrower, not of the rule beside it. The
+            diagrams elsewhere on the site are drawn here and carry no credit
+            because none is owed.
+          </p>
+          <ul className="mt-8 grid gap-x-10 gap-y-5 md:grid-cols-2">
+            {images.map((img) => (
+              <li key={img.id} className="flex gap-4 border-t border-chalk/10 pt-4">
+                <span
+                  aria-hidden
+                  className="mt-1 h-12 w-12 shrink-0 border border-chalk/15 bg-cover bg-center opacity-70"
+                  style={{ backgroundImage: `url(${asset(img.file)})`, filter: 'grayscale(1)' }}
+                />
+                <div className="min-w-0">
+                  <p className="text-[15px] leading-snug text-chalk/85">{img.alt}</p>
+                  <p className="mt-1 text-[13px] text-unmarked">
+                    {img.author}
+                    {' · '}
+                    {img.licence_url ? (
+                      <a
+                        href={img.licence_url}
+                        className="link-paint"
+                        target="_blank"
+                        rel="noopener noreferrer license"
+                      >
+                        {img.licence}
+                      </a>
+                    ) : (
+                      img.licence
+                    )}
+                    {' · '}
+                    <a
+                      href={img.source_url}
+                      className="link-paint"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Commons
+                    </a>
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </Reveal>
+      )}
 
       <ul className="mt-14 border-t chalk-rule">
         {sources.map((s, i) => (

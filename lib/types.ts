@@ -171,3 +171,23 @@ export interface Program {
   editions: Edition[]
   sports: ProgramSport[]
 }
+
+/**
+ * A photograph used on the site. Treated as a citation, not as decoration:
+ * `shows` records what the image is actually evidence of, which is often
+ * narrower than the section it sits in.
+ */
+export interface SourcedImage {
+  id: string
+  sport: string
+  file: string
+  width: number
+  height: number
+  alt: string
+  shows: string
+  title: string
+  author: string
+  licence: string
+  licence_url?: string
+  source_url: string
+}
