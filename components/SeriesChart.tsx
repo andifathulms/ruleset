@@ -150,7 +150,10 @@ export default function SeriesChart({
           viewBox={`0 0 ${w} ${h}`}
           role="img"
           aria-label={describe(series, layout.segments)}
-          className="block"
+          /* The 320 floor keeps a panel legible, but in a container narrower
+             than that the floor would otherwise push the chart off the page —
+             so the viewBox holds the geometry and the box scales to fit. */
+          className="block h-auto w-full"
         >
           <defs>
             <linearGradient id={`panel-${uid}`} x1="0" y1="0" x2="0" y2="1">
