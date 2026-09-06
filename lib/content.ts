@@ -27,6 +27,24 @@ function readYaml<T>(...parts: string[]): T {
 /** `1986` and `1986-04-01` are both dates; only one of them parses as a string. */
 const asDate = (v: unknown): string => (v == null ? '' : String(v))
 
+/**
+ * A date must begin with a four-digit year. `1990s` looks reasonable in YAML
+ * and is not a year: Number('1990s') is NaN, which propagated through the
+ * timeline's domain and silently filtered every mark off the board. The
+ * homepage rendered its lanes and nothing in them, with no error anywhere.
+ */
+const DATE = /^\d{4}(-\d{2}(-\d{2})?)?$/
+
+function assertDate(sport: string, rule: string, field: string, value: string): string {
+  if (!DATE.test(value)) {
+    throw new Error(
+      `rules.yaml (${sport}): ${rule}.${field} is "${value}", which is not a date. ` +
+        'Use YYYY, YYYY-MM or YYYY-MM-DD — an approximate decade must still be a single year.',
+    )
+  }
+  return value
+}
+
 function dirs(at: string): string[] {
   if (!fs.existsSync(at)) return []
   return fs.readdirSync(at, { withFileTypes: true })
@@ -85,8 +103,10 @@ export function getRuleChanges(id: string): RuleChange[] {
   return rules
     .map((r) => ({
       ...r,
-      date_effective: asDate(r.date_effective),
-      date_adopted: r.date_adopted ? asDate(r.date_adopted) : undefined,
+      date_effective: assertDate(id, r.id, 'date_effective', asDate(r.date_effective)),
+      date_adopted: r.date_adopted
+        ? assertDate(id, r.id, 'date_adopted', asDate(r.date_adopted))
+        : undefined,
     }))
     .sort((a, b) => a.date_effective.localeCompare(b.date_effective))
 }

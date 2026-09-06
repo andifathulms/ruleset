@@ -1,7 +1,7 @@
 - id: sailing-series-scoring
   scope: { sport: sailing, discipline: all }
-  date_adopted: 1900s
-  date_effective: 1900s
+  date_adopted: 1907
+  date_effective: 1907
   status: adopted
   governing_body: International Yacht Racing Union
   what_changed: >
@@ -12,6 +12,10 @@
     Sailing is therefore the only sport on this site that does not measure how
     long its competitors took. A race lasting an hour and one lasting three
     produce the same information: an order.
+
+    The date is the federation's founding year rather than a decision date.
+    Series scoring predates the international body, and this site has not
+    established when it was first codified.
   cause_primary: fairness and eligibility
   trigger:
     description: >
@@ -27,8 +31,8 @@
 
 - id: sailing-discard
   scope: { sport: sailing, discipline: all }
-  date_adopted: 1900s
-  date_effective: 1900s
+  date_adopted: 1907
+  date_effective: 1907
   status: adopted
   governing_body: International Yacht Racing Union
   what_changed: >

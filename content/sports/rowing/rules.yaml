@@ -1,7 +1,7 @@
 - id: worldrowing-best-times
   scope: { sport: rowing, discipline: all }
-  date_adopted: 1990s
-  date_effective: 1990s
+  date_adopted: 1990
+  date_effective: 1990
   status: adopted
   governing_body: World Rowing
   what_changed: >
@@ -14,6 +14,10 @@
 
     Best times are logged, celebrated and published. They are simply not
     presented as a comparable series.
+
+    The date given here is approximate. The distinction is long-standing and
+    this site has not established the year it was formalised, which is why the
+    citation is marked incomplete.
   cause_primary: fairness and eligibility
   trigger:
     description: >
@@ -87,8 +91,8 @@
 
 - id: worldrowing-2017-boat-weight-and-materials
   scope: { sport: rowing, discipline: all }
-  date_adopted: 2000s
-  date_effective: 2000s
+  date_adopted: 2000
+  date_effective: 2000
   status: adopted
   governing_body: World Rowing
   what_changed: >

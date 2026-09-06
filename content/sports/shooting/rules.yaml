@@ -107,8 +107,8 @@
 
 - id: issf-2005-electronic-targets
   scope: { sport: shooting, discipline: all }
-  date_adopted: 1990s
-  date_effective: 2000s
+  date_adopted: 1995
+  date_effective: 2000
   status: adopted
   governing_body: ISSF
   what_changed: >
