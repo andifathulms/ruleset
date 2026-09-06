@@ -1,0 +1,21 @@
+id: golf
+label: Golf
+tagline: The only sport on this site with a formal system for making unequal players comparable.
+governing_body: >
+  R&A and USGA jointly own the Rules; the IGF runs Olympic golf.
+founded: >
+  Earliest surviving code of rules, Leith, 1744. The R&A dates from the same
+  decade; the USGA from 1894.
+coverage: deep
+family_colour: pitch
+classification:
+  official: golf
+  game-category: target
+  adjudication: measured
+summary: >
+  Everything else on this site is a record of comparability breaking. Golf is
+  the one sport that built a comparability machine on purpose: the handicap
+  takes players of different abilities on different courses in different
+  conditions and produces a number that can be compared. It is the only
+  systematic answer to this site's problem anywhere in the collection — and it
+  works for amateurs and is switched off entirely at the top.

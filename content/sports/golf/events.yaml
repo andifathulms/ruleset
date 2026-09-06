@@ -1,0 +1,33 @@
+sport: golf
+as_of: 2026-09
+source: randa-rules-of-golf
+standing: primary-named
+summary: >
+  Two Olympic events, in a sport whose real calendar is elsewhere — the four
+  major championships are independent tournaments run by different bodies, none
+  of which is the IGF. The same shape as tennis, and for the same reason: the
+  sport was fully professionalised long before it returned to the Games.
+disciplines:
+  - id: olympic
+    label: Olympic golf
+    blurb: 72 holes of stroke play. Returned in 2016 after 112 years away.
+    events:
+      - { id: men, label: "Men's individual", olympic: true }
+      - { id: women, label: "Women's individual", olympic: true }
+  - id: majors
+    label: The championships that matter more
+    counts: false
+    blurb: >
+      Four independent tournaments, run by four different organisations, each
+      setting its own conditions and its own play-off format.
+    events:
+      - { id: masters, label: The Masters, note: "Played on the same course every year — the only major that is." }
+      - { id: pga, label: PGA Championship }
+      - { id: usopen, label: U.S. Open, note: Run by the USGA, one of the two bodies that owns the Rules. }
+      - { id: open, label: The Open Championship, note: Run by the R&A, the other one. }
+  - id: amateur
+    label: Where the handicap actually operates
+    counts: false
+    events:
+      - { id: club, label: Club competition, note: "The handicap system's purpose: players of any standard competing against each other." }
+      - { id: whs, label: World Handicap System, note: "Six regional systems unified in 2020 so a handicap means the same everywhere." }

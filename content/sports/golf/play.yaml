@@ -1,0 +1,140 @@
+sport: golf
+as_of: 2026-09
+edition: The Rules of Golf, 2019 Code, with the Rules of Handicapping
+source: randa-rules-of-golf
+standing: primary-named
+summary: >
+  Get the ball into the hole in as few strokes as possible. Golf's rules are
+  long because the ball is played wherever it comes to rest, on ground nobody
+  designed to be fair — so most of the book is about what to do when the
+  situation is not a fairway.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Fewest strokes over the round, in stroke play; most holes won, in match
+      play. The ball is played as it lies, which is the governing principle and
+      the source of almost every complication in the rulebook.
+
+      Golf is the only sport here where the competitors do not interact at all
+      and the opponent is the course.
+
+  - id: field
+    label: The course
+    body: >
+      Eighteen holes, and no two courses are alike in length, difficulty or
+      conditions. That non-standardisation is more extreme than tennis's
+      surfaces or baseball's outfields: the venue is a different shape at every
+      event and changes with the weather during the round.
+
+      Golf handles this not by standardising but by measuring the difficulty.
+      Course and slope ratings quantify how hard a course plays from a given
+      set of tees, which is what makes the handicap work.
+    facts:
+      - { label: Holes, value: "18" }
+      - { label: Course length, value: Not standardised }
+      - { label: Course rating, value: Measures difficulty for a scratch player }
+      - { label: Slope rating, value: Measures difficulty for a bogey player }
+    shaped_by: [golf-handicap-system]
+
+  - id: equipment
+    label: Clubs and ball
+    body: >
+      Fourteen clubs maximum, each conforming to specifications on head size,
+      face flexibility and groove geometry. The ball conforms to limits on size,
+      weight, velocity and overall distance under a standard test.
+
+      That last one is about to change. From 2028 the test conditions tighten so
+      that conforming balls fly shorter, because driving distance had risen far
+      enough that historic courses could no longer test the best players and
+      lengthening them was running into limits of land and water.
+    facts:
+      - { label: Clubs, value: 14 max }
+      - { label: Ball diameter, value: 42.67 mm min }
+      - { label: Ball weight, value: 45.93 g max }
+      - { label: Ball rollback, value: From 2028 }
+    shaped_by: [golf-2028-ball-rollback, golf-2010-groove-rule]
+
+  - id: players
+    label: Players and officials
+    body: >
+      Golf is officiated primarily by the players themselves. A competitor
+      calls penalties on themselves, and doing so is treated as a defining
+      norm of the sport rather than as an unusual burden.
+
+      Referees and rules officials exist and are consulted, but they are not
+      watching every player — there are too many, spread over too much ground.
+      Sailing's penalty turn is the nearest relative on this site.
+    facts:
+      - { label: Primary official, value: The player }
+      - { label: Handicap, value: Used in amateur play, not in elite competition }
+
+  - id: duration
+    label: Format
+    body: >
+      Four rounds of eighteen holes over four days in a professional
+      tournament, with a cut after two. Match play, used in some team events,
+      counts holes won rather than strokes.
+
+      Pace has been a persistent problem, and the 2019 rewrite addressed it
+      directly: a three-minute limit on searching for a lost ball, dropping
+      from knee height, and a recommendation to play in about forty seconds.
+    shaped_by: [golf-2019-rules-modernisation]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Strokes, counted. In amateur play the handicap converts that raw count
+      into a comparable number by adjusting for the course, the tees and — since
+      2020 — the conditions on the day.
+
+      That system is why golf appears on this site. Everything else here
+      records comparability being lost. Golf built a formal apparatus for
+      creating it, has run it for over a century, and unified it worldwide in
+      2020 so that a handicap means the same thing in every country.
+
+      Elite golf switches it off. Professionals play off scratch, and their
+      scores are not comparable between courses — which is why golf's records
+      are counts of titles rather than numbers of strokes.
+    facts:
+      - { label: Scoring, value: Strokes }
+      - { label: Handicap, value: Since 1911 }
+      - { label: World Handicap System, value: Since 2020 }
+      - { label: Elite play, value: No handicap }
+    shaped_by: [golf-handicap-system, golf-2020-world-handicap-system]
+
+  - id: restarts
+    label: Relief and drops
+    body: >
+      Most of the rulebook. A ball in a penalty area, in an abnormal course
+      condition, out of bounds, or unplayable each has its own procedure, and
+      each involves taking relief with or without penalty and dropping the ball
+      correctly.
+
+      The 2019 rewrite simplified a great deal of this — dropping from knee
+      height rather than shoulder height, and removing several penalties for
+      accidental actions — after decades in which players broke rules by
+      accident and were penalised for it on television.
+    shaped_by: [golf-2019-rules-modernisation]
+
+  - id: prohibitions
+    label: Penalties
+    body: >
+      Playing a wrong ball, grounding the club in a penalty area, improving
+      your lie, taking advice, carrying more than fourteen clubs, and signing
+      an incorrect scorecard.
+
+      That last one produced golf's most-criticised enforcement: viewers
+      telephoning broadcasters about breaches a player could not have seen,
+      leading to disqualification days later, and only for players who happened
+      to be on television. It was ended in 2019.
+    shaped_by: [golf-2019-video-call-in-ended]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Fewest strokes, or most holes. Ties in major professional competition are
+      resolved by play-off, in formats that differ by championship — which is
+      tennis's deciding-set problem in a different sport, and golf has not
+      harmonised it either.

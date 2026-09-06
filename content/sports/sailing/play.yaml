@@ -1,0 +1,129 @@
+sport: sailing
+as_of: 2026-09
+edition: The Racing Rules of Sailing
+source: world-sailing-rrs
+standing: primary-named
+summary: >
+  Sail a course faster than the rest of the fleet, repeatedly, and be ahead on
+  points at the end. Sailing's rulebook is unlike anything else here because it
+  is mostly a collision-avoidance code — a system of right of way governing what
+  boats converging at speed must do — with the racing bolted onto it.
+
+sections:
+  - id: object
+    label: The object of the regatta
+    body: >
+      Finish each race as high as possible. Points equal finishing position,
+      lowest total wins, and the worst race is discarded.
+
+      There is no time. A sailing result records an order, not a duration, and
+      that is a deliberate consequence of the wind being the propulsion.
+
+  - id: field
+    label: The course
+    body: >
+      A course laid with inflatable marks, set for the wind on the day and
+      frequently moved between races as it shifts. No two courses are the same
+      and none is the same twice, which is the most extreme version of the
+      non-standardised venue on this site.
+    facts:
+      - { label: Course, value: Laid for the day's wind }
+      - { label: Marks, value: Moved as conditions change }
+      - { label: Standard distance, value: None }
+
+  - id: equipment
+    label: The boats
+    body: >
+      Olympic sailing is contested in one-design classes: every boat in an
+      event is built to the same specification, so the racing is between
+      sailors rather than between budgets.
+
+      What is unique here is that the classes themselves are reselected between
+      Olympic cycles. The federation chooses which boats the Games will be
+      sailed in, and it changes them — foiling equipment arrived for 2024 and
+      long-standing classes were removed. No other sport on this site
+      periodically replaces the equipment that defines its events.
+    facts:
+      - { label: Class type, value: One-design }
+      - { label: Classes, value: Reselected per Olympic cycle }
+      - { label: Foiling, value: Introduced for 2024 }
+    shaped_by: [sailing-2024-equipment-cycle]
+
+  - id: players
+    label: Sailors and officials
+    body: >
+      Crews of one, two or more depending on the class. A race committee sets
+      the course and starts the race; umpires increasingly follow the fleet on
+      the water and signal penalties immediately; a jury hears protests.
+
+      Historically almost all enforcement was by protest — competitors accused
+      each other after racing and a jury decided hours later. Extending on-water
+      umpiring has moved sailing towards resolving incidents in real time.
+    shaped_by: [sailing-2017-protest-and-umpiring]
+
+  - id: duration
+    label: Format
+    body: >
+      A series of races across several days, then a medal race for the top ten
+      worth double points and not discardable.
+
+      The medal race exists because the series format frequently settled the
+      medals before the last race was sailed, which is unusable as broadcast.
+      It is also in direct tension with the reason the series exists: the series
+      averages luck out, and the medal race concentrates it in one race.
+    facts:
+      - { label: Races in a series, value: About 10 }
+      - { label: Discard, value: Worst result }
+      - { label: Medal race, value: Double points, no discard }
+    shaped_by: [sailing-2008-medal-race, sailing-discard]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Finishing position is your score for the race — first is one point, last
+      is one more than the fleet size. Lowest total wins. The worst race is
+      discarded once enough races have been completed.
+
+      That is the whole system, and it has been essentially unchanged for a
+      century. It exists because the sport's central variable cannot be
+      standardised, and every part of it — aggregating over races, discarding
+      the worst — is an explicit acknowledgement that the results contain
+      noise.
+    facts:
+      - { label: Points, value: Finishing position }
+      - { label: Lowest total, value: Wins }
+      - { label: Medal race, value: Points doubled }
+    shaped_by: [sailing-series-scoring, sailing-discard, sailing-2008-medal-race]
+
+  - id: restarts
+    label: Starts and recalls
+    body: >
+      Boats start together on a line between a committee boat and a mark, and
+      the start is the most contested moment in the sport because position on
+      the line is worth a great deal. A boat over the line early is recalled or
+      penalised, and where too many are over, the whole fleet is recalled and
+      the start run again.
+
+      A race may be abandoned and resailed if the wind shifts substantially or
+      dies, which is the sport's blunt admission that some conditions do not
+      produce a meaningful result at all.
+
+  - id: prohibitions
+    label: The right-of-way rules
+    body: >
+      The bulk of the rulebook, and the reason it is called the Racing Rules of
+      Sailing rather than the laws of a game. A port-tack boat keeps clear of a
+      starboard-tack boat; a windward boat keeps clear of a leeward boat; a boat
+      astern keeps clear of one ahead. These are collision-avoidance rules from
+      seamanship, adopted as competition rules.
+
+      A boat that breaks one may exonerate itself by taking a penalty turn on
+      the water, which is unusual: an offender voluntarily serving their own
+      sentence immediately, without an official.
+    shaped_by: [sailing-2017-protest-and-umpiring]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Lowest total after the series and the medal race. Ties are broken by the
+      number of better finishes, and then by the result of the last race.

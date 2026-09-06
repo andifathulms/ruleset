@@ -1,0 +1,20 @@
+id: sailing
+label: Sailing
+tagline: "Faced rowing's problem and answered it the other way: no times at all, and a final race worth double."
+governing_body: World Sailing
+founded: >
+  International Yacht Racing Union founded 1907; renamed ISAF in 1996 and
+  World Sailing in 2015.
+coverage: deep
+family_colour: pool
+classification:
+  official: sailing
+  game-category: performance
+  adjudication: measured
+summary: >
+  Sailing has rowing's problem in a more extreme form — the wind is not merely
+  an uncontrolled variable, it is the propulsion — and it answered differently.
+  Rowing kept timing its races and stopped calling the times records. Sailing
+  stopped caring about times altogether and scores a regatta on finishing
+  positions across many races, then made the last one worth double so that
+  something happens at the end.

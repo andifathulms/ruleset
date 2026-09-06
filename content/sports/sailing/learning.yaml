@@ -1,0 +1,86 @@
+sport: sailing
+standing: editorial
+summary: >
+  Two barriers, both structural. You need water and a boat, which is expensive
+  and geographically fixed. And you need to learn a right-of-way code before you
+  can race safely, which is a rulebook problem more than a physical one — the
+  same shape as fencing's priority, and about as hard to see from outside.
+
+entry:
+  verdict: high
+  claim: A boat, water, a club, and a collision-avoidance code you must know before you start.
+  why: >
+    Sailing cannot be improvised and cannot be self-taught safely. Boats are
+    expensive, need storage on or near water, and racing puts several of them
+    on converging courses at speed — which is why the rulebook is mostly about
+    who must keep clear of whom.
+
+    Club dinghy sailing genuinely lowers this: shared boats, sheltered water,
+    and a beginner racing within a season. But the access question is
+    geographic and absolute in the way rowing's is. No suitable water, no sport.
+
+    The rules are the other half. A beginner must understand port and starboard,
+    windward and leeward, and mark-rounding rights before they can race without
+    being a hazard, and none of it is visible to a spectator.
+  evidence:
+    - { label: Facility, value: Water and a club, basis: observation }
+    - { label: Kit to start, value: A club dinghy, basis: observation, note: Individually, a boat is among the most expensive equipment on this site. }
+    - { label: Rules to learn first, value: Right of way, basis: observation }
+    - { label: Time to first race, value: A season, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Reading water and wind that nobody controls, in a boat that may not exist next cycle.
+  why: >
+    Elite sailing is a perception problem before a physical one. The decisive
+    skill is reading the water for wind that has not arrived yet and choosing a
+    side of the course accordingly, and it is close to invisible from outside
+    the boat. The physical demands are real and class-dependent, and foiling
+    classes have raised them sharply.
+
+    What is distinctive here is the instability of the event itself. Olympic
+    classes are reselected between cycles: a sailor may spend a decade
+    specialising in a boat and find the event removed. Judo removed techniques,
+    weightlifting redrew categories, modern pentathlon deleted a discipline —
+    sailing changes the equipment its events are defined by, on a schedule, as
+    a matter of routine.
+
+    And the medal race concentrates the luck the whole format exists to spread
+    out, in the one race where a medal is decided.
+  evidence:
+    - label: Olympic classes reselected
+      value: Per cycle
+      basis: rule
+      rule: sailing-2024-equipment-cycle
+      note: A specialisation can be legislated out of existence between Games.
+    - label: Medal race
+      value: Double points, no discard
+      basis: rule
+      rule: sailing-2008-medal-race
+      note: Reintroduces the randomness the series format was built to suppress.
+    - label: Discard
+      value: Worst race dropped
+      basis: rule
+      rule: sailing-discard
+      note: An explicit rule acknowledging that results contain luck.
+    - { label: Typical peak age, value: 27–35, basis: judgement, note: Later than most here; experience compounds. }
+
+gap: >
+  Sailing is high at both ends and the reasons are money, water and a rulebook
+  you must learn before you can participate safely.
+
+  Its interest on this board is what it shares with rowing and how it differs.
+  Both face conditions nobody controls. Rowing kept timing its races and
+  refused to call the times records. Sailing stopped producing times at all and
+  built a scoring system — aggregate the positions, discard the worst — that is
+  a century-old statement that its results are noisy and must be averaged.
+
+  Then in 2008 it doubled the points of the final race for broadcast, which
+  undoes a good deal of that. It is the clearest case on this site of a
+  federation contradicting its own epistemics for a camera, and the sailors
+  have said so continuously ever since.
+
+shaped_by:
+  - sailing-series-scoring
+  - sailing-2008-medal-race
+  - sailing-2024-equipment-cycle

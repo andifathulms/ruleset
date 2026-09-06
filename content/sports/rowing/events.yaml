@@ -1,0 +1,35 @@
+sport: rowing
+as_of: 2026-09
+source: world-rowing-rules
+standing: primary-named
+summary: >
+  Fourteen Olympic events, split between sculling and sweep rowing, and a
+  programme that has been rebalanced repeatedly to reach parity by sex within a
+  fixed athlete quota — which is why the lightweight category shrank and then
+  disappeared. Coastal beach sprint arrives for 2028.
+disciplines:
+  - id: sculling
+    label: Sculling
+    blurb: Two oars per rower.
+    events:
+      - { id: single, label: Single sculls, olympic: true, count: 2 }
+      - { id: double, label: Double sculls, olympic: true, count: 2 }
+      - { id: quad, label: Quadruple sculls, olympic: true, count: 2 }
+  - id: sweep
+    label: Sweep
+    blurb: One oar per rower.
+    events:
+      - { id: pair, label: Coxless pair, olympic: true, count: 2 }
+      - { id: four, label: Coxless four, olympic: true, count: 2 }
+      - { id: eight, label: Eight, olympic: true, count: 2, note: With a coxswain — the only Olympic boat that carries one. }
+  - id: coastal
+    label: Coastal
+    blurb: Added for 2028. Raced in open sea on a short knockout course, with a run up the beach.
+    events:
+      - { id: beach, label: Beach sprint, olympic: true, count: 2 }
+  - id: former
+    label: No longer on the programme
+    counts: false
+    events:
+      - { id: lwfour, label: Lightweight four, note: "Removed after 2016." }
+      - { id: lwdouble, label: Lightweight double sculls, note: "Removed after 2024. The lightweight category is gone from the Games." }

@@ -1,0 +1,130 @@
+- id: sailing-series-scoring
+  scope: { sport: sailing, discipline: all }
+  date_adopted: 1900s
+  date_effective: 1900s
+  status: adopted
+  governing_body: International Yacht Racing Union
+  what_changed: >
+    A sailing result is decided by a series of races rather than by one, with
+    each boat scoring points equal to its finishing position and the lowest
+    total winning. Time is not recorded as a result at all.
+
+    Sailing is therefore the only sport on this site that does not measure how
+    long its competitors took. A race lasting an hour and one lasting three
+    produce the same information: an order.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Wind is the propulsion, and it changes across a course, across a race and
+      across a day. A time is meaningless and even a single race's order is
+      substantially luck, so the sport aggregates over many races to average the
+      conditions out.
+  citation:
+    source: world-sailing-rrs
+    edition: The Racing Rules of Sailing
+    missing: true
+  comparability_break: sailing-results
+
+- id: sailing-discard
+  scope: { sport: sailing, discipline: all }
+  date_adopted: 1900s
+  date_effective: 1900s
+  status: adopted
+  governing_body: International Yacht Racing Union
+  what_changed: >
+    A competitor discards their worst race or races from the series total. A
+    single catastrophic result — a broken mast, a wind hole, a disqualification
+    — does not end a regatta.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      In a sport where a windshift can put a leading boat last through nobody's
+      error, some mechanism for absorbing bad luck was necessary. The discard is
+      that mechanism, and it is unusual on this site: an explicit rule
+      acknowledging that the sport's results contain noise.
+  citation:
+    source: world-sailing-rrs
+    edition: The Racing Rules of Sailing, Appendix A
+    missing: true
+  comparability_break: null
+
+- id: sailing-2008-medal-race
+  scope: { sport: sailing, discipline: all }
+  date_adopted: 2007
+  date_effective: 2008
+  status: adopted
+  governing_body: ISAF
+  what_changed: >
+    A short final race for the top ten boats, scored at double points and not
+    discardable, was added to the Olympic regatta. The regatta had previously
+    been decided by the accumulated series, which frequently meant the gold
+    medal was mathematically settled before the last race was sailed.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      A competition that ends with an uncontested procession is unusable as
+      broadcast. The medal race guarantees that the medals are decided in a
+      short race, on a course close to shore, at a known time.
+    also_said: >
+      Doubling the points of one race in a series designed to average out luck
+      is in direct tension with the reason the series exists. Sailors have
+      argued since 2008 that it reintroduces exactly the randomness the format
+      was built to suppress, in the one race where it matters most.
+  citation:
+    source: world-sailing-rrs
+    edition: World Sailing Olympic regatta regulations, 2008
+    missing: true
+  comparability_break: null
+
+- id: sailing-2017-protest-and-umpiring
+  scope: { sport: sailing, discipline: all }
+  date_adopted: 2016
+  date_effective: 2017
+  status: adopted
+  governing_body: World Sailing
+  what_changed: >
+    On-water umpiring was extended in Olympic and high-level fleet racing, with
+    umpires following the fleet and signalling penalties immediately, rather
+    than every incident being resolved by a protest hearing after racing.
+  cause_primary: broadcast and pacing
+  cause_secondary: integrity
+  trigger:
+    description: >
+      Sailing's right-of-way rules were historically enforced by competitors
+      protesting each other, with a jury hearing evidence hours later. That is
+      unwatchable and leaves results provisional long after the racing ends.
+  citation:
+    source: world-sailing-rrs
+    edition: The Racing Rules of Sailing, 2017–2020
+    missing: true
+  comparability_break: null
+
+- id: sailing-2024-equipment-cycle
+  scope: { sport: sailing, discipline: all }
+  date_adopted: 2018
+  date_effective: 2024
+  status: adopted
+  governing_body: World Sailing
+  what_changed: >
+    The Olympic classes were substantially reselected, with foiling equipment
+    introduced and long-standing classes removed. Sailing periodically replaces
+    the boats its Olympic events are sailed in, which no other sport on this
+    site does — it is as though athletics changed which events it contested
+    every cycle.
+  cause_primary: equipment and technology
+  cause_secondary: commercial
+  trigger:
+    description: >
+      The federation selects equipment for each Olympic cycle, balancing
+      relevance, cost, and the manufacturers' interests. Foiling had transformed
+      the sport outside the Games and the programme was judged to be lagging.
+    also_said: >
+      Each reselection ends careers. Sailors specialise in a class for a decade
+      and can find it removed, which is the same instability judo and modern
+      pentathlon have — except here it happens on a four-year cycle by design.
+  citation:
+    source: world-sailing-rrs
+    edition: World Sailing Olympic equipment decisions, 2018 onwards
+    missing: true
+  comparability_break: sailing-results

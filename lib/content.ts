@@ -55,8 +55,23 @@ export function getSportIds(): string[] {
   return dirs(SPORTS).filter((id) => fs.existsSync(path.join(SPORTS, id, 'sport.yaml')))
 }
 
+/**
+ * An unquoted YAML scalar containing ": " parses as a nested mapping, so a
+ * tagline reading "answered it the other way: no times at all" silently became
+ * an object and surfaced as an unreadable prerender error three pages away.
+ * Caught here, where the message can name the file.
+ */
 export function getSport(id: string): Sport {
-  return readYaml<Sport>(SPORTS, id, 'sport.yaml')
+  const sport = readYaml<Sport>(SPORTS, id, 'sport.yaml')
+  for (const field of ['tagline', 'summary', 'governing_body', 'founded'] as const) {
+    const value = sport[field]
+    if (value !== undefined && typeof value !== 'string') {
+      throw new Error(
+        `sport.yaml (${id}): "${field}" did not parse as text. A colon followed by a space in an unquoted YAML scalar makes it a mapping — quote the value.`,
+      )
+    }
+  }
+  return sport
 }
 
 export function getSports(): Sport[] {

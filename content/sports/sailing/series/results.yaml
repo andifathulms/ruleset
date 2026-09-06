@@ -1,0 +1,42 @@
+id: sailing-results
+label: Results across boats and conditions
+unit: points
+higher_is_better: false
+absence_kind: impossible
+cannot_exist: >
+  Sailing does not produce a number that could be charted, and it has arranged
+  itself that way deliberately.
+
+  There are no times. A result is a finishing position, aggregated across a
+  series of races, with the worst result discarded. That structure exists
+  because the wind is the propulsion: it changes across a course, across a race
+  and across a day, so a single race's order contains a large amount of luck
+  and a time contains no information at all.
+
+  Rowing has the same problem in weaker form and answered it by timing its
+  races and refusing to call the times records. Sailing went further and
+  stopped producing times.
+
+  There is a second discontinuity on top of that one, and it is unique here.
+  The Olympic classes — the actual boats — are reselected between cycles. A
+  result in the Finn class and a result in the class that replaced it are not
+  comparable in any sense at all, because the equipment is different and the
+  event no longer exists. It is as though athletics changed which events it
+  contested every four years.
+segments: []
+breaks:
+  - at: 1908
+    caused_by: sailing-series-scoring
+    kind: scale-change
+    note: >
+      A sailing result has never been a time. It is a position, aggregated over
+      a series, with a discard — a scoring system built from the start around
+      conditions nobody controls.
+  - at: 2024
+    caused_by: sailing-2024-equipment-cycle
+    kind: scale-change
+    note: >
+      The boats themselves are reselected between Olympic cycles, so results
+      are not comparable across them. No other sport on this site periodically
+      replaces the equipment its events are defined by.
+source: world-sailing-rrs

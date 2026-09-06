@@ -1,0 +1,121 @@
+sport: rowing
+as_of: 2026-09
+edition: World Rowing Rule Book
+source: world-rowing-rules
+standing: primary-named
+summary: >
+  Cover 2000 metres of flat water faster than five other crews, sitting
+  backwards. Rowing's rules are short because the sport is simple, and its most
+  interesting provision is not about how to race at all — it is the decision
+  not to call the resulting times records.
+
+sections:
+  - id: object
+    label: The object of the race
+    body: >
+      Cross the line first. Rowing is one of the few sports here that is purely
+      a race with no interaction between competitors at all — crews are in
+      separate lanes, contact is a foul, and nothing one crew does affects
+      another except through the water they leave.
+
+      Sculling means two oars per rower; sweep rowing means one. They are
+      different disciplines and most rowers do one of them.
+
+  - id: field
+    label: The course
+    body: >
+      A 2000-metre buoyed course on flat water, standardised in 1912 and
+      unchanged since. That is the one condition rowing controls.
+
+      Everything else — wind direction and strength, current, water
+      temperature, air density — is not controlled, not limited and not
+      compensated for. There is no equivalent of athletics' wind gauge,
+      because there is no threshold that would make a headwind race and a
+      tailwind race the same event.
+    facts:
+      - { label: Distance, value: 2000 m }
+      - { label: Lanes, value: "6", note: Eight at some venues. }
+      - { label: Wind limit, value: None }
+      - { label: Standardised since, value: "1912" }
+    shaped_by: [worldrowing-2000-metre-standard]
+
+  - id: equipment
+    label: Boats and oars
+    body: >
+      Minimum boat weights by class, and a requirement that equipment be
+      commercially available to all competitors rather than unique to one crew.
+      That second clause is rowing's distinctive answer to the equipment
+      problem: it does not freeze the technology, it regulates access to it.
+
+      Cycling defined the shape of a bicycle. Swimming banned a material.
+      Rowing said a boat may not be a prototype nobody else can buy.
+    facts:
+      - { label: "Single scull, minimum", value: 14 kg }
+      - { label: "Eight, minimum", value: 96 kg }
+      - { label: Equipment, value: Must be commercially available }
+    shaped_by: [worldrowing-2017-boat-weight-and-materials]
+
+  - id: players
+    label: Crews and officials
+    body: >
+      Boats of one, two, four or eight, with or without a coxswain. Umpires
+      follow the race by launch and intervene for lane infringements and
+      steering, which is close to the whole of their job — there is very little
+      in rowing for an official to interpret.
+
+      The coxswain is the one position on this site whose occupant does not
+      generate any of the boat's power and is nonetheless a competitor with a
+      medal.
+
+  - id: duration
+    label: Format
+    body: >
+      Heats, repechages, semi-finals and finals across a regatta of several
+      days. The repechage is rowing's characteristic structure — a second
+      chance for crews eliminated in the heats — and it exists because
+      conditions vary between heats and the federation is unwilling to let a
+      bad lane draw end a campaign.
+
+      That is the same reasoning as the world best times decision, applied to
+      the competition structure rather than to the record book.
+
+  - id: scoring
+    label: Timing and results
+    body: >
+      Finish order decides the race. Times are recorded, published and
+      celebrated, and the federation is explicit that they are **world best
+      times** rather than world records.
+
+      The distinction is the reason this sport is on the site. A record implies
+      a comparable measurement. Rowing's position is that its times are not
+      comparable, because the course conditions are not, and that saying so is
+      more honest than pretending otherwise or imposing a condition limit it
+      could not enforce.
+    facts:
+      - { label: Recognised as, value: World best times }
+      - { label: World records, value: Not recognised }
+      - { label: Timing precision, value: 0.01 s }
+    shaped_by: [worldrowing-best-times]
+
+  - id: restarts
+    label: The start
+    body: >
+      Boats are held at a starting gate and released together. A false start is
+      penalised and repeated false starts exclude a crew. There are no restarts
+      after that — the race runs to the line.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Leaving your lane to another crew's disadvantage, contact between boats
+      or oars, receiving assistance, and equipment outside specification. In a
+      sport where crews are physically separated for the whole race, the list
+      is short by necessity.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      First across the line. Not the fastest time — that would be the wrong
+      question in a sport whose federation has formally stated that times from
+      different races are not comparable.
+    shaped_by: [worldrowing-best-times]

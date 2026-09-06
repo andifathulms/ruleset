@@ -1,0 +1,78 @@
+sport: rowing
+standing: editorial
+summary: >
+  A sport whose beginner's problem is staying upright and whose elite problem
+  is tolerating one of the highest sustained physiological loads in sport.
+  Rowing also has an access barrier that is entirely about geography: you need
+  suitable water, and either you have it or you do not.
+
+entry:
+  verdict: high
+  claim: A club, a stretch of water, a boat you cannot afford alone, and a coach.
+  why: >
+    Rowing cannot be started without a club. A racing shell costs more than
+    most sports' entire equipment, requires storage on the water, and is
+    unstable enough that a beginner in a single scull will capsize repeatedly.
+    Almost everyone begins in a larger crew boat, which requires other people
+    to begin at the same time.
+
+    The geographic barrier is absolute in a way few sports' are. You need
+    flat, sheltered, navigable water within reach, and either your town has a
+    river or a lake or it does not. Indoor rowing machines have widened
+    participation enormously and are a genuinely different activity.
+  evidence:
+    - { label: Facility, value: Flat sheltered water and a boathouse, basis: observation }
+    - { label: Kit to start, value: A club's boat, basis: observation, note: Individually unaffordable for most beginners. }
+    - { label: Crew required, value: Usually, basis: observation }
+    - { label: Coach needed, value: "Yes", basis: judgement }
+    - { label: Time to race, value: Months, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Six minutes at close to maximum, and a result partly decided by the weather.
+  why: >
+    A 2000-metre race lasts about six minutes and is among the most
+    physiologically demanding efforts in sport, drawing on aerobic and
+    anaerobic capacity almost simultaneously across the whole body. Elite
+    rowers are physiological outliers by measurable margins, and the sport
+    selects hard for size — which is what the lightweight category existed to
+    counterbalance, and it has now been removed from the Olympic programme.
+
+    The distinctive part of this ceiling is that the sport openly admits its
+    numbers cannot be compared. A rower cannot chase a world record because
+    there are none — only best times, which the federation says are not a
+    comparable series. Mastery here is measured against the crews in the other
+    lanes on the day, and nothing else.
+  evidence:
+    - label: World records
+      value: Not recognised
+      basis: rule
+      rule: worldrowing-best-times
+      note: The federation's own position. There is no number to chase across time.
+    - label: Lightweight category
+      value: Cut to one event, then removed
+      basis: rule
+      rule: worldrowing-2017-lightweight-cut
+      note: The route into elite rowing for athletes of ordinary size, closed.
+    - label: Wind limit
+      value: None
+      basis: observation
+      note: Unlike athletics, rowing does not invalidate a result for conditions. It declines to call it a record instead.
+    - { label: Typical peak age, value: 24–30, basis: judgement }
+
+gap: >
+  Rowing is high at both ends, and its bottom barrier is one almost nothing
+  else here has: water. A person in a landlocked town without a river cannot
+  take up rowing at any price, which is closer to swimming's pool problem than
+  to anything else on this board.
+
+  What is singular is the top. Every other measured sport on this site gives
+  its athletes a number to chase across generations, and this site's whole
+  subject is what happens when those numbers stop being comparable. Rowing
+  removed the question by never claiming the numbers were comparable in the
+  first place. An elite rower's ceiling is the other five boats, on the day, in
+  whatever wind there is.
+
+shaped_by:
+  - worldrowing-best-times
+  - worldrowing-2017-lightweight-cut

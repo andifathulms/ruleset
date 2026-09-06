@@ -1,0 +1,84 @@
+sport: golf
+standing: editorial
+summary: >
+  The only sport on this site with a built-in mechanism for making a beginner's
+  game meaningful against an expert's. Golf is genuinely hard to learn, and the
+  handicap means that being bad at it does not stop you competing — which is
+  why the entry verdict here is lower than the raw difficulty would suggest.
+
+entry:
+  verdict: moderate
+  claim: The swing is hard, the cost is real, and the handicap makes a beginner competitive anyway.
+  why: >
+    Hitting a stationary ball with a long lever, accurately, is much harder
+    than it looks, and a beginner will spend months before the ball goes where
+    intended with any consistency. On difficulty alone the barrier is high.
+
+    Two things pull it down. Golf can be practised alone, on a range, with
+    instant feedback and no opponent — one of the few sports here where solo
+    practice is the normal route in. And the handicap means a beginner can
+    enter a club competition in their first season and genuinely win it,
+    because the system converts their bad score into a comparable one.
+
+    What keeps the verdict at moderate rather than low is cost and time. Clubs,
+    green fees, membership and four hours a round make golf one of the more
+    expensive and time-consuming sports here to play regularly.
+  evidence:
+    - { label: Handicap, value: Since 1911, basis: rule, rule: golf-handicap-system, note: A beginner can compete against an expert and win, by design. }
+    - { label: Kit to start, value: A partial set of clubs, basis: observation }
+    - { label: Facility, value: A course or a range, basis: observation }
+    - { label: Partner required, value: "No", basis: observation }
+    - { label: Round duration, value: About 4 hours, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: No handicap, no standard course, and an equipment change coming that shortens the ball.
+  why: >
+    Elite golf turns the handicap off. A professional plays off scratch, and
+    the comparability apparatus that makes the amateur game work is simply not
+    used — so the top of this sport has the same problem every other sport here
+    has, and no system for it.
+
+    The technical demand is extreme and unusually cerebral: the same shot is
+    never repeated, because the lie, the wind, the slope and the pin position
+    differ every time. There is no equivalent of a standard delivery to groove
+    against.
+
+    And the object itself is about to change. From 2028 the conforming ball
+    flies shorter, which is the first equipment rollback of its kind on this
+    site — every other equipment rule here has restricted a new advantage
+    rather than withdrawing an established one.
+  evidence:
+    - label: Ball rollback
+      value: From 2028
+      basis: rule
+      rule: golf-2028-ball-rollback
+      note: The first equipment change here that takes back distance already in the game.
+    - label: Groove restriction
+      value: "2010"
+      basis: rule
+      rule: golf-2010-groove-rule
+      note: Restored a penalty for missing the fairway that technology had removed.
+    - label: Handicap at elite level
+      value: Not used
+      basis: rule
+      rule: golf-handicap-system
+    - { label: Typical peak age, value: 27–35, basis: judgement, note: Among the longest careers here. }
+
+gap: >
+  Golf's gap is wide and its bottom end is artificially lowered by the only
+  deliberate comparability machine on this site. A beginner cannot play well,
+  and can compete — that combination exists nowhere else here.
+
+  It is worth setting against rowing and sailing, the two sports on this board
+  that concluded their conditions could not be standardised. Rowing stopped
+  calling its times records. Sailing stopped recording times. Golf did the
+  third thing: it measured the difficulty of the conditions and adjusted the
+  score for them.
+
+  Three sports, three coherent answers to the same problem, and golf's is the
+  only one that produces a number you can actually compare.
+
+shaped_by:
+  - golf-handicap-system
+  - golf-2028-ball-rollback

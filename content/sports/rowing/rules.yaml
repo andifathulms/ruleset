@@ -1,0 +1,137 @@
+- id: worldrowing-best-times
+  scope: { sport: rowing, discipline: all }
+  date_adopted: 1990s
+  date_effective: 1990s
+  status: adopted
+  governing_body: World Rowing
+  what_changed: >
+    The federation formalised that it recognises world best times rather than
+    world records. The distinction is not cosmetic: a record implies a
+    comparable measurement, and rowing's position is that a time set on a
+    2000-metre course with a following wind and one set into a headwind are not
+    measurements of the same thing, so the sport declines to call either a
+    record.
+
+    Best times are logged, celebrated and published. They are simply not
+    presented as a comparable series.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Conditions on open water cannot be controlled and are not measured to a
+      standard the way a wind gauge measures a sprint. Rather than impose a
+      condition limit it could not enforce, the federation changed what it
+      claims its numbers mean.
+    also_said: >
+      This site records it as the only case in the collection of a governing
+      body pre-empting a comparability problem rather than responding to one.
+      Athletics, swimming and weightlifting all had to decide what to do about
+      records after the fact. Rowing decided in advance not to have any.
+  citation:
+    source: world-rowing-rules
+    edition: World Rowing Rule Book, world best times provisions
+    missing: true
+  comparability_break: rowing-times
+
+- id: worldrowing-2017-lightweight-cut
+  scope: { sport: rowing, discipline: all }
+  date_adopted: 2017-02
+  date_effective: 2020
+  status: adopted
+  governing_body: World Rowing
+  what_changed: >
+    Lightweight rowing was reduced to a single Olympic event, the lightweight
+    double sculls, with the lightweight four removed and replaced by women's
+    coxless four to balance the programme by sex.
+  cause_primary: participation and access
+  cause_secondary: commercial
+  trigger:
+    description: >
+      The IOC required gender parity in the rowing programme within a fixed
+      athlete quota, so events had to be exchanged rather than added. The
+      lightweight category, introduced in 1996 partly to widen the sport beyond
+      very large athletes, was the part that was cut.
+    also_said: >
+      Lightweight rowing's own weight-making practices had also been under
+      scrutiny for years, and the federation has since removed the category
+      from the Olympic programme entirely for 2028. Whether the cut was quota
+      arithmetic or a welfare decision presented as quota arithmetic is argued.
+  citation:
+    source: world-rowing-rules
+    edition: World Rowing Rule Book, 2017
+    missing: true
+  comparability_break: null
+
+- id: worldrowing-2000-metre-standard
+  scope: { sport: rowing, discipline: all }
+  date_adopted: 1912
+  date_effective: 1912
+  status: adopted
+  governing_body: Fédération Internationale des Sociétés d'Aviron
+  what_changed: >
+    The Olympic and championship distance was standardised at 2000 metres, and
+    it has not moved since. Earlier Olympic regattas had been rowed over
+    varying distances, which made results incomparable in the most basic
+    possible way.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Standardising the distance is the one condition rowing can control, and
+      it fixed it early. Everything the sport cannot control — wind, current,
+      water temperature, altitude — is why it later declined to recognise
+      records.
+  citation:
+    source: world-rowing-rules
+    edition: FISA rules, 1912
+    missing: true
+  comparability_break: null
+
+- id: worldrowing-2017-boat-weight-and-materials
+  scope: { sport: rowing, discipline: all }
+  date_adopted: 2000s
+  date_effective: 2000s
+  status: adopted
+  governing_body: World Rowing
+  what_changed: >
+    Minimum boat weights were set by class, and the rules require that
+    equipment be available to all competitors on commercial terms rather than
+    being unique to one crew. A boat may not be a prototype nobody else can
+    buy.
+  cause_primary: equipment and technology
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Composite hull construction had begun to produce meaningful differences
+      between crews with different budgets, and the federation's response was
+      to require commercial availability rather than to freeze the technology.
+    also_said: >
+      That is a different answer from cycling's, which defined the shape of a
+      bicycle, and from swimming's, which banned a material. Rowing regulated
+      access to the equipment instead of the equipment itself.
+  citation:
+    source: world-rowing-rules
+    edition: World Rowing Rule Book, equipment provisions
+    missing: true
+  comparability_break: null
+
+- id: worldrowing-2021-coastal-beach-sprint
+  scope: { sport: rowing, discipline: coastal }
+  date_adopted: 2023
+  date_effective: 2028
+  status: adopted
+  governing_body: World Rowing
+  what_changed: >
+    Coastal beach sprint rowing was added to the Olympic programme for 2028 —
+    a knockout format raced in open sea, on a short course, with a run up the
+    beach at each end. It is the sport's answer to the criticism that flatwater
+    rowing is expensive to stage and hard to watch.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Flatwater rowing needs a purpose-built 2000-metre course with buoyed
+      lanes, which almost no host city has. Beach sprint needs a beach.
+  citation:
+    source: world-rowing-rules
+    edition: World Rowing Rule Book, coastal rowing
+    missing: true
+  comparability_break: null

@@ -1,0 +1,159 @@
+- id: golf-handicap-system
+  scope: { sport: golf, discipline: amateur }
+  date_adopted: 1911
+  date_effective: 1911
+  status: adopted
+  governing_body: R&A and national associations
+  what_changed: >
+    A formal handicap system was established, giving each player a number
+    representing their ability so that players of different standards could
+    compete against each other on level terms. It was later extended by course
+    and slope ratings, which adjust for how difficult a particular course is
+    from a particular set of tees.
+
+    The effect is that a round played by one golfer on one course on one day can
+    be compared with a round played by a different golfer on a different course
+    on a different day. Nothing else on this site attempts this.
+  cause_primary: participation and access
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Golf is played on courses that differ enormously in length and
+      difficulty, by players of wildly different standards, and a raw score
+      carries almost no information without knowing both. The handicap exists
+      to supply that context.
+  citation:
+    source: randa-rules-of-golf
+    edition: Handicapping regulations, from 1911
+    missing: true
+  comparability_break: null
+
+- id: golf-2020-world-handicap-system
+  scope: { sport: golf, discipline: amateur }
+  date_adopted: 2018
+  date_effective: 2020
+  status: adopted
+  governing_body: R&A and USGA
+  what_changed: >
+    Six regional handicap systems were merged into a single World Handicap
+    System, so a handicap issued anywhere is now calculated the same way and
+    means the same thing everywhere. Daily playing conditions are also factored
+    in, adjusting for the weather on the day a score was posted.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      A handicap that meant different things in different countries defeated
+      the purpose of having one. Unifying the calculation made the number
+      genuinely portable.
+    also_said: >
+      Recorded here as the only case on this site of a governing body
+      *increasing* the comparability of its numbers. Every other entry in this
+      collection is a record of comparability being lost.
+  citation:
+    source: randa-rules-of-golf
+    edition: Rules of Handicapping, 2020
+    missing: true
+  comparability_break: null
+
+- id: golf-2010-groove-rule
+  scope: { sport: golf, discipline: all }
+  date_adopted: 2008
+  date_effective: 2010
+  status: adopted
+  governing_body: R&A and USGA
+  what_changed: >
+    The permitted dimensions and sharpness of grooves on club faces were
+    restricted, reducing the spin a player can impart from the rough. Square
+    or U-shaped grooves had made it possible to control a ball from bad lies
+    almost as well as from the fairway.
+  cause_primary: equipment and technology
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Driving accuracy had ceased to matter at the top level, because the
+      penalty for missing a fairway had been engineered away. The rule was
+      intended to restore a reason to keep the ball in play.
+  citation:
+    source: randa-rules-of-golf
+    edition: Rules of Golf, 2010, equipment rules
+    missing: true
+  comparability_break: null
+
+- id: golf-2019-rules-modernisation
+  scope: { sport: golf, discipline: all }
+  date_adopted: 2017
+  date_effective: 2019
+  status: adopted
+  governing_body: R&A and USGA
+  what_changed: >
+    The Rules were comprehensively rewritten and shortened. Among the changes:
+    the flagstick may be left in while putting, a ball is dropped from knee
+    height rather than shoulder height, a lost-ball search is limited to three
+    minutes, and several penalties for accidental actions were removed.
+  cause_primary: broadcast and pacing
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Rounds had become slow, the Rules were long and technical enough that
+      players broke them accidentally, and televised penalties for accidents
+      nobody could see were damaging. The stated aim was a simpler book and a
+      faster round.
+  citation:
+    source: randa-rules-of-golf
+    edition: Rules of Golf, 2019
+    article: "Rules 13 and 14"
+  comparability_break: null
+
+- id: golf-2019-video-call-in-ended
+  scope: { sport: golf, discipline: all }
+  date_adopted: 2018
+  date_effective: 2019
+  status: adopted
+  governing_body: R&A and USGA
+  what_changed: >
+    Penalties arising from viewers telephoning a broadcaster about a rules
+    breach were ended, and a player is no longer penalised for a scorecard
+    signed before a breach was known that could not reasonably have been seen.
+  cause_primary: fairness and eligibility
+  cause_secondary: integrity
+  trigger:
+    description: >
+      Players were being disqualified days after the fact because a member of
+      the public had watched high-definition footage and telephoned in a breach
+      the player could not have detected. Only players shown on television were
+      exposed to it, which made the enforcement arbitrary by broadcast schedule.
+  citation:
+    source: randa-rules-of-golf
+    edition: Rules of Golf, 2019
+    missing: true
+  comparability_break: null
+
+- id: golf-2028-ball-rollback
+  scope: { sport: golf, discipline: all }
+  date_adopted: 2023-12
+  date_effective: 2028
+  status: adopted
+  governing_body: R&A and USGA
+  what_changed: >
+    The testing conditions for conforming golf balls were changed so that balls
+    must fly shorter under the standard test, reducing distance at the elite
+    end. It applies to all golfers from 2030, having applied to elite
+    competition from 2028.
+  cause_primary: equipment and technology
+  trigger:
+    description: >
+      Driving distance had risen for decades to the point that historic courses
+      were becoming too short to test the best players, and lengthening them
+      further was reaching limits of land, cost and water use.
+    also_said: >
+      Manufacturers and a substantial part of the professional game opposed it,
+      arguing that distance is not a problem and that bifurcating the rules
+      between elite and everyday play — which the initial proposal would have
+      done — would damage golf's unusual property of everyone playing the same
+      game under the same rules. The governing bodies dropped the bifurcation
+      and applied the change to everyone.
+  citation:
+    source: randa-rules-of-golf
+    edition: Equipment Rules, 2028
+    missing: true
+  comparability_break: golf-scoring

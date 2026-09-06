@@ -1,0 +1,20 @@
+id: rowing
+label: Rowing
+tagline: Refuses to call its times world records, because it knows they are not comparable.
+governing_body: World Rowing
+founded: >
+  Fédération Internationale des Sociétés d'Aviron founded 1892, the oldest
+  international sports federation; renamed World Rowing in 2020.
+coverage: deep
+family_colour: pool
+classification:
+  official: rowing
+  game-category: performance
+  adjudication: measured
+summary: >
+  This site exists to record the moments when a governing body's numbers stop
+  being comparable. Rowing is the federation that worked it out in advance and
+  said so in its own rulebook. It does not recognise world records. It
+  recognises world best times, on the stated ground that a 2000-metre course's
+  wind, current and water temperature cannot be standardised — so two times set
+  on different days are not measurements of the same thing.

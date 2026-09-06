@@ -1,0 +1,39 @@
+id: rowing-times
+label: World best times
+unit: s
+higher_is_better: false
+absence_kind: impossible
+cannot_exist: >
+  There is no chart here, and rowing is the reason this site should have
+  expected that before it started.
+
+  Every other federation in this collection publishes records and then has to
+  decide what to do when they stop being comparable. Athletics reset the
+  javelin list. Swimming kept the supersuit marks. Weightlifting annulled
+  everything twice. Cycling split its hour record in two and then merged it
+  back.
+
+  Rowing declined the premise. It recognises **world best times**, not world
+  records, and its stated reason is exactly the argument this site makes
+  everywhere else: a 2000-metre course's wind, current and water temperature
+  cannot be standardised, so a time set on one day and a time set on another
+  are not measurements of the same thing.
+
+  A chart of best times would therefore be a chart of which crews happened to
+  race in a tailwind, and the federation says so itself. The times exist, they
+  are published, and they are not a series.
+
+  This is the only entry on this site where the absence of a chart is not a
+  gap in the research or a consequence of a rule change. It is the federation's
+  own position, held since before the problem arose.
+segments: []
+breaks:
+  - at: 1912
+    caused_by: worldrowing-2000-metre-standard
+    kind: none
+    note: >
+      The distance was standardised at 2000 metres in 1912 and has not moved.
+      That is the one condition rowing controls, and controlling it is what
+      makes the rest of the argument coherent: everything still uncontrolled is
+      why there are no records.
+source: world-rowing-rules
