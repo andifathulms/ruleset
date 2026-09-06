@@ -1,0 +1,128 @@
+sport: karate
+as_of: 2026-09
+edition: WKF Competition Rules
+source: wkf-rules
+standing: primary-named
+summary: >
+  Two disciplines that share a name and nothing else. Kumite is a bout in which
+  strikes score only if they are controlled — delivered with the form to injure
+  and deliberately not landed hard. Kata is a solo performance of a prescribed
+  sequence, judged. One is a combat sport that punishes contact; the other has
+  no opponent at all.
+
+sections:
+  - id: object
+    label: The object of the competition
+    body: >
+      In **kumite**, score more points than your opponent by landing controlled
+      techniques on scoring areas. A technique scores if it has good form,
+      correct distance, correct timing, awareness and control — and landing it
+      with excessive force is a penalty, not a score.
+
+      In **kata**, perform a prescribed sequence of movements better than the
+      other competitors, judged on technical and athletic criteria.
+
+  - id: field
+    label: The tatami
+    body: >
+      A square matted area for both disciplines. Kumite adds a warning zone at
+      the edge, because leaving the area is penalised — a competitor cannot
+      retreat indefinitely.
+    facts:
+      - { label: Competition area, value: 8 × 8 m }
+      - { label: Warning zone, value: At the perimeter }
+      - { label: Leaving the area, value: Penalised }
+
+  - id: equipment
+    label: Gi and protection
+    body: >
+      A karategi with a red or blue belt to distinguish competitors, mitts,
+      gum shield, and shin and instep protection. Body protectors and face
+      shields are required for younger competitors.
+
+      That protective equipment exists to make an error survivable rather than
+      to permit contact. Because scoring requires control, protection is
+      insurance against the technique that goes wrong — the opposite of boxing's
+      gloves, which exist so that repeated contact is possible.
+    facts:
+      - { label: Belts, value: Red and blue, to distinguish competitors }
+      - { label: Mitts and gum shield, value: Required }
+      - { label: Purpose of protection, value: Against error, not for contact }
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      Kumite is one against one in weight categories. Kata is performed
+      individually or in teams of three.
+
+      Kumite is judged by a referee and four judges with flags, plus video
+      review. Karate is the striking sport on this site that cannot be
+      instrumented: a sensor measures force, and karate's central question is
+      whether a strike was controlled — which means it was deliberately not
+      delivered with force.
+    facts:
+      - { label: Kumite officials, value: Referee and four judges }
+      - { label: Video review, value: Available }
+      - { label: Sensors, value: Not usable, by the nature of the scoring }
+    shaped_by: [wkf-controlled-contact]
+
+  - id: duration
+    label: Format
+    body: >
+      Kumite bouts run three minutes for men and two for women, or until one
+      competitor leads by eight points. Kata is a single performance of a
+      chosen sequence from a catalogued list.
+    facts:
+      - { label: "Kumite, men", value: 3 min }
+      - { label: "Kumite, women", value: 2 min }
+      - { label: Winning margin, value: 8 points ends the bout }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Kumite: one point for a punch to the body or head, two for a kick to the
+      body, three for a kick to the head or for a takedown followed by a
+      scoring technique. The weighting was revised in 2019 to reward the
+      techniques that are hardest and most characteristic.
+
+      Kata: a points score out of a stated scale since 2019, weighted seventy
+      per cent technical and thirty per cent athletic. Before that it was judged
+      by flags — a comparative decision between two competitors with no number
+      attached.
+    facts:
+      - { label: Punch, value: "1" }
+      - { label: Kick to the body, value: "2" }
+      - { label: Kick to the head, value: "3" }
+      - { label: Kata, value: Points since 2019, flags before }
+    shaped_by: [wkf-2019-scoring-revision, wkf-kata-scoring-2019]
+
+  - id: restarts
+    label: Between exchanges
+    body: >
+      The referee halts after every scoring exchange and returns the
+      competitors to their marks, so a kumite bout is a sequence of discrete
+      engagements rather than continuous fighting — the same structure fencing
+      and judo have.
+
+  - id: prohibitions
+    label: Penalties
+    body: >
+      Excessive contact is the defining prohibition and the one that makes
+      karate what it is. A technique that lands too hard is penalised even
+      though it would otherwise have scored, and repeated excessive contact
+      disqualifies.
+
+      Also penalised: attacks to prohibited areas, repeated exits from the
+      area, avoiding combat, and grabbing or wrestling beyond permitted limits.
+    facts:
+      - { label: Excessive contact, value: Penalty, not a score }
+      - { label: Avoiding combat, value: Penalised }
+    shaped_by: [wkf-controlled-contact]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      An eight-point lead, the higher score at time, or the opponent's
+      disqualification. A drawn bout was decided by senshu — who scored first —
+      until that was removed in 2019, and is now decided by the judges.
+    shaped_by: [wkf-2019-scoring-revision]

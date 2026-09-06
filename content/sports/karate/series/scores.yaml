@@ -1,0 +1,39 @@
+id: karate-scores
+label: Competition scores
+unit: points
+absence_kind: impossible
+cannot_exist: >
+  Karate scores two different things and neither produces a comparable series.
+
+  **Kumite** awards points for controlled techniques — strikes delivered with
+  good form, distance and awareness, deliberately not landed hard. A score is a
+  panel's judgement that a strike would have worked, which is a counterfactual
+  rather than an observation. It is closer to squash's let than to taekwondo's
+  sensor reading, and it is why karate cannot be instrumented the way taekwondo
+  was. Scoring values were also re-weighted in 2019, so the units changed.
+
+  **Kata** was judged by flags — a comparative decision between two competitors,
+  with no number attached — until 2019, when it moved to a points score out of a
+  stated scale. A flag result and a points score are not two values of one
+  quantity, in exactly the way breaking's Trivium split and gymnastics'
+  execution mark are not.
+
+  So there is no chart, and the two disciplines fail to produce one for
+  opposite reasons: kumite because its scores are judgements about strikes that
+  did not land, kata because the sport replaced a comparative system with an
+  absolute one.
+segments: []
+breaks:
+  - at: 2019
+    caused_by: wkf-kata-scoring-2019
+    kind: scale-change
+    note: >
+      Kata moved from flag decisions to a points score. Karate adopted an
+      absolute scale at the point breaking and skateboarding were refusing to.
+  - at: 2019
+    caused_by: wkf-2019-scoring-revision
+    kind: scale-change
+    note: >
+      Kumite values re-weighted towards kicks and head techniques, and the
+      senshu first-score rule removed.
+source: wkf-rules

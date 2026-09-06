@@ -1,0 +1,138 @@
+- id: wkf-controlled-contact
+  scope: { sport: karate, discipline: kumite }
+  date_adopted: 1990
+  date_effective: 1990
+  status: adopted
+  governing_body: World Karate Federation
+  what_changed: >
+    Competition kumite is scored on controlled technique: a strike must be
+    delivered with good form, correct distance, awareness and control, and
+    landing it with excessive force is a penalty rather than a score.
+
+    That is the opposite of every other striking sport on this site. Boxing and
+    taekwondo score impact — taekwondo literally measures force with a sensor.
+    Karate scores a strike that could have landed and deliberately did not.
+  cause_primary: safety
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Karate's techniques are designed to injure, and full-contact competition
+      in them is not survivable at volume. Scoring controlled technique lets
+      the sport be contested without the strikes actually landing hard.
+    also_said: >
+      It also makes the sport almost impossible to instrument. A sensor can
+      measure force; it cannot measure a strike that was deliberately stopped
+      short with good form. Karate's judging problem is structurally unfixable
+      by the means taekwondo used.
+  citation:
+    source: wkf-rules
+    edition: WKF Competition Rules
+    missing: true
+  comparability_break: karate-scores
+
+- id: wkf-2019-scoring-revision
+  scope: { sport: karate, discipline: kumite }
+  date_adopted: 2018
+  date_effective: 2019
+  status: adopted
+  governing_body: World Karate Federation
+  what_changed: >
+    Kumite scoring was revised, with values weighted towards more difficult
+    techniques: one point for a punch to the body or head, two for a kick to
+    the body, three for a kick to the head or for a takedown followed by a
+    scoring technique.
+
+    The senshu rule — awarding the win to whoever scored first in a drawn bout —
+    was also removed after several cycles.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Weighting kicks above punches encourages the techniques that look like
+      karate, which is the same instrument taekwondo used when it re-priced
+      head kicks and spins in 2010. Senshu had produced bouts in which a
+      competitor scored early and then avoided engagement.
+  citation:
+    source: wkf-rules
+    edition: WKF Competition Rules, 2019
+    missing: true
+  comparability_break: karate-scores
+
+- id: wkf-kata-scoring-2019
+  scope: { sport: karate, discipline: kata }
+  date_adopted: 2018
+  date_effective: 2019
+  status: adopted
+  governing_body: World Karate Federation
+  what_changed: >
+    Kata — a solo performance of a prescribed sequence — moved from a flag-based
+    comparative decision between two competitors to a points score out of a
+    stated scale, with technical and athletic components weighted seventy to
+    thirty.
+
+    Karate therefore moved towards an absolute scale at exactly the point
+    breaking and skateboarding were deciding not to.
+  cause_primary: fairness and eligibility
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Flag decisions produced a winner and no information. A points score is
+      explicable to an audience and comparable within a competition.
+    also_said: >
+      Kata has an advantage the newer judged sports do not: the sequences are
+      prescribed and catalogued, so a scale can be written against material
+      everyone already agrees on. Breaking and skateboarding had no such
+      catalogue.
+  citation:
+    source: wkf-rules
+    edition: WKF Competition Rules, 2019
+    missing: true
+  comparability_break: karate-scores
+
+- id: ioc-2016-karate-added
+  scope: { sport: karate, discipline: all }
+  date_adopted: 2016-08
+  date_effective: 2021
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Karate was added to the 2020 Olympic programme as a host-nation proposal,
+    with three kumite weight categories and one kata event for each sex.
+  cause_primary: commercial
+  trigger:
+    description: >
+      Host cities may propose additional sports. Tokyo proposed karate, along
+      with baseball and softball, skateboarding, sport climbing and surfing.
+      Karate had campaigned for inclusion for decades without success.
+  citation:
+    source: wkf-rules
+    edition: IOC Session decision, 2016
+    missing: true
+  comparability_break: null
+
+- id: ioc-2020-karate-dropped
+  scope: { sport: karate, discipline: all }
+  date_adopted: 2020-12
+  date_effective: 2024
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Karate was not included on the 2024 programme, and has not been on any
+    since. It was contested at one Games only, in the country where it was
+    codified.
+  cause_primary: commercial
+  trigger:
+    description: >
+      The Paris organisers proposed a different set of additional sports, and
+      karate was not among them. Host-nation proposals do not carry from one
+      Games to the next.
+    also_said: >
+      Skateboarding, sport climbing and surfing — added at Tokyo alongside
+      karate — were all retained. Karate and baseball-softball were not. The
+      federation has argued that host-city discretion produces exactly this
+      outcome and that a sport cannot build on an appearance it is not allowed
+      to repeat.
+  citation:
+    source: wkf-rules
+    edition: IOC Session decision, 2020
+    missing: true
+  comparability_break: null

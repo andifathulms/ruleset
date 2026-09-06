@@ -1,0 +1,84 @@
+sport: karate
+standing: editorial
+summary: >
+  One of the most widely taught martial arts in the world, with a graded
+  syllabus designed for children, and an Olympic competitive form that most
+  practitioners never enter. The gap between the two is the same one taekwondo
+  has, and karate's ceiling was removed entirely after one Games.
+
+entry:
+  verdict: low
+  claim: A dojo, a gi and a syllabus built for beginners.
+  why: >
+    Karate is organised worldwide as a graded curriculum with a belt structure,
+    taught to children in ordinary halls, needing only a suit and an
+    instructor. It is among the most accessible martial arts to begin and among
+    the most widely available.
+
+    There is no falling prerequisite as judo has, and much of the syllabus —
+    kata, basics, conditioning — can be practised alone, which makes progress
+    possible without a partner.
+
+    What a beginner learns is largely not the Olympic sport. Kata is part of
+    the syllabus; competitive kumite, with its controlled-contact scoring and
+    weight categories, is a specialism within it.
+  evidence:
+    - { label: Kit to start, value: A karategi, basis: observation }
+    - { label: Facility, value: A hall, basis: observation }
+    - { label: Partner required, value: Not for kata or basics, basis: observation }
+    - { label: Time to first grading, value: Months, basis: judgement }
+    - { label: Time to competitive kumite, value: A year or more, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Scored on strikes you deliberately do not land, and judged by people rather than sensors.
+  why: >
+    Elite kumite demands a skill that sounds contradictory and is not: deliver a
+    technique with the form, speed and distance to injure, and stop it. A strike
+    that lands hard is penalised; a strike without the form to have worked does
+    not score. The competitive margin sits between those two failures.
+
+    That is also why karate could not follow taekwondo. A sensor measures force,
+    and karate's whole premise is that the force was withheld. There is no
+    instrument for a strike that was deliberately controlled, so the sport
+    remains judged and always will be.
+
+    The ceiling itself was then removed. Karate campaigned for Olympic
+    inclusion for decades, appeared once, in Tokyo, and was left off the next
+    programme by a decision taken before it was contested.
+  evidence:
+    - label: Controlled contact
+      value: Excessive force is a penalty
+      basis: rule
+      rule: wkf-controlled-contact
+      note: Why sensors cannot score this sport, unlike taekwondo.
+    - label: Scoring re-weighted
+      value: "2019"
+      basis: rule
+      rule: wkf-2019-scoring-revision
+      note: Kicks and head techniques priced above punches.
+    - label: Olympic status
+      value: One Games, then removed
+      basis: rule
+      rule: ioc-2020-karate-dropped
+    - { label: Typical peak age, value: 23–30, basis: judgement }
+
+gap: >
+  Karate sits low to very high and belongs directly beside taekwondo, which has
+  almost the same shape and made the opposite technological choice.
+
+  Both are striking sports taught worldwide as a graded syllabus to children,
+  and in both the Olympic competitive form has diverged far from what most
+  practitioners do. Taekwondo faced a judging crisis and solved it with sensors,
+  crossing from judged to measured. Karate cannot make that crossing, because
+  its scoring rewards a strike that was deliberately withheld and no instrument
+  can detect restraint.
+
+  So one of the two remains on the Olympic programme with a measured scoring
+  system, and the other was contested once and dropped. Nothing about the
+  scoring explains which — karate's exclusion was a host-city decision — but the
+  contrast is the reason both are here.
+
+shaped_by:
+  - wkf-controlled-contact
+  - ioc-2020-karate-dropped
