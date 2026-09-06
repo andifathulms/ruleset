@@ -1,0 +1,39 @@
+id: cricket-batting-records
+label: Batting records across the three formats
+unit: runs
+absence_kind: impossible
+cannot_exist: >
+  Cricket did not replace a format. It added two, and kept the first.
+
+  A batting average in Test cricket measures how many runs a player scores
+  before being dismissed, over five days, with no limit on how long they may
+  take. The same statistic in a Twenty20 match measures something else
+  entirely, because a batter who occupies twenty overs carefully has failed at
+  the job. The sport knows this, which is why it keeps three separate sets of
+  records and has never once claimed they are comparable.
+
+  That makes cricket the clearest voluntary case on this site. Everywhere else,
+  a governing body severed a series by accident or under pressure and then had
+  to decide what to do about the record book. Cricket created the discontinuity
+  deliberately, in 1971 and again in 2003, and handled it correctly from the
+  start by never merging the lists.
+
+  So there is no chart here, and there should not be one. A combined batting
+  average across Tests, one-day internationals and Twenty20 would be an
+  arithmetic operation on three different quantities — and unlike every other
+  absence on this site, nobody in cricket has ever wanted it.
+segments: []
+breaks:
+  - at: 1971
+    caused_by: icc-1971-limited-overs
+    kind: scoped
+    note: >
+      One-day internationals began keeping their own records from the first
+      match. The sport never attempted a combined figure.
+  - at: 2003
+    caused_by: icc-2003-twenty20
+    kind: scoped
+    note: >
+      A third format and a third set of records. A strike rate that is
+      excellent in one is unplayable in another.
+source: icc-playing-conditions

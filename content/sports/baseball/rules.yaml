@@ -1,0 +1,137 @@
+- id: mlb-1969-mound-and-strike-zone
+  scope: { sport: baseball, discipline: all }
+  date_adopted: 1968-12
+  date_effective: 1969
+  status: adopted
+  governing_body: Major League Baseball
+  what_changed: >
+    The pitcher's mound was lowered from fifteen inches to ten, and the strike
+    zone was reduced to run from the armpits to the top of the knees. Both
+    changes made it harder to pitch and easier to hit, and they were made
+    together and deliberately.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      1968 is known in the sport as the Year of the Pitcher. Bob Gibson
+      finished with an earned run average of 1.12, Carl Yastrzemski won the
+      American League batting title at .301, and scoring across both leagues
+      fell to a level the sport regarded as unwatchable. The rules were changed
+      within months.
+  citation:
+    source: mlb-official-rules
+    edition: Official Baseball Rules, 1969
+    missing: true
+  comparability_break: baseball-offensive-statistics
+
+- id: mlb-1973-designated-hitter
+  scope: { sport: baseball, discipline: all }
+  date_adopted: 1973-01
+  date_effective: 1973
+  status: adopted
+  governing_body: American League
+  what_changed: >
+    The American League allowed a designated hitter to bat in place of the
+    pitcher. The National League did not. For forty-nine years the two halves
+    of the same competition played under different batting rules, and their
+    statistics were not directly comparable.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Attendance and scoring in the American League were lagging behind the
+      National, and removing the weakest batter in every lineup was the
+      available lever.
+    also_said: >
+      That one league adopted it and the other refused, and that the split
+      persisted for half a century, is the more remarkable fact. It is the only
+      case on this site of a single competition knowingly running two rulebooks
+      and comparing the results anyway.
+  citation:
+    source: mlb-official-rules
+    edition: Official Baseball Rules, 1973
+    missing: true
+  comparability_break: baseball-offensive-statistics
+
+- id: mlb-2008-instant-replay
+  scope: { sport: baseball, discipline: all }
+  date_adopted: 2008
+  date_effective: 2008-08
+  status: adopted
+  governing_body: Major League Baseball
+  what_changed: >
+    Video review was introduced, initially only for boundary calls on home runs
+    — fair or foul, over the fence or not, spectator interference — and
+    expanded from 2014 into a manager's challenge covering most calls other
+    than balls and strikes.
+  cause_primary: integrity
+  trigger:
+    description: >
+      Baseball's calls are almost entirely questions of fact about where an
+      object or a foot was at a moment in time, which is the class of question
+      a camera settles and an umpire at distance does not.
+  citation:
+    source: mlb-official-rules
+    edition: Official Baseball Rules, replay review regulations
+    missing: true
+  comparability_break: null
+
+- id: mlb-2022-universal-designated-hitter
+  scope: { sport: baseball, discipline: all }
+  date_adopted: 2022-03
+  date_effective: 2022
+  status: adopted
+  governing_body: Major League Baseball
+  what_changed: >
+    The designated hitter was adopted by the National League, ending
+    forty-nine years in which the two leagues batted under different rules.
+    Both halves of the sport finally became statistically comparable with each
+    other.
+  cause_primary: fairness and eligibility
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Interleague play had made the split increasingly awkward — teams were
+      building rosters for one rulebook and playing a substantial number of
+      games under the other — and the pitcher's plate appearance had become
+      close to an automatic out.
+  citation:
+    source: mlb-official-rules
+    edition: Official Baseball Rules, 2022
+    missing: true
+  comparability_break: null
+
+- id: mlb-2023-pitch-clock-and-shift-ban
+  scope: { sport: baseball, discipline: all }
+  date_adopted: 2022-09
+  date_effective: 2023
+  status: adopted
+  governing_body: Major League Baseball
+  what_changed: >
+    Three changes at once. A pitch clock, requiring the pitcher to begin
+    delivery within a set time and the batter to be ready. A restriction on
+    defensive positioning, requiring two infielders on each side of second base
+    with both feet on the infield dirt. And larger bases, increasing the
+    incentive to attempt a steal.
+
+    A sport that had gone a century and a half without a clock acquired one.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Average game length had risen steadily for decades while the amount of
+      time the ball was actually in play had fallen, and the sport's own
+      analysis identified dead time between pitches as the problem. The shift
+      restriction addressed a separate finding: defensive positioning based on
+      batted-ball data had suppressed hits.
+    also_said: >
+      The shift ban is the more contested half. It legislates against a
+      defensive method arrived at through analysis of the sport's own data,
+      which some regard as penalising teams for thinking correctly. The same
+      objection was made about basketball's illegal-defence rules and about
+      football's 1925 offside change.
+  citation:
+    source: mlb-official-rules
+    edition: Official Baseball Rules, 2023
+    missing: true
+  comparability_break: baseball-offensive-statistics

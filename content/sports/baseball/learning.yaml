@@ -1,0 +1,87 @@
+sport: baseball
+standing: editorial
+summary: >
+  Two skills at the heart of this sport are among the hardest single actions in
+  any of them: hitting a pitched ball, and pitching one accurately at speed
+  without destroying your own arm. Almost everything else about baseball is
+  accessible, which produces one of the widest internal gaps on this board.
+
+entry:
+  verdict: moderate
+  claim: Catch and throw on day one. Hit a real pitch, not for a long time.
+  why: >
+    Baseball scales down well. Catch, throw and hit off a tee are learnable
+    immediately, and the informal versions — stickball, wiffle ball, catch in a
+    yard — need almost nothing. Youth baseball is one of the most widely
+    organised children's sports in the countries that play it.
+
+    The barrier is the pitched ball. Hitting a baseball thrown competently is
+    routinely described as the hardest single act in sport, and it is not an
+    exaggeration a beginner discovers gradually: a novice facing real pitching
+    does not make contact at all. That is different from badminton, where a
+    beginner's mishit still produces a rally.
+
+    Nine a side and a large field are the other constraint, though the sport
+    degrades to smaller versions more gracefully than cricket does.
+  evidence:
+    - { label: Players needed, value: "18", basis: observation, note: For a full game; the informal versions need far fewer. }
+    - { label: Pitching distance, value: 60 ft 6 in, basis: observation, note: About 0.4 seconds of flight at professional speed. }
+    - { label: Kit to start, value: A ball, a bat and a glove, basis: observation }
+    - { label: Bat material, value: Wood professionally, aluminium in amateur play, basis: observation, note: The amateur game is deliberately easier to hit in. }
+    - { label: Time to hit live pitching, value: Months, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Failing seven times in ten is a good career, and the arm is not built for the job.
+  why: >
+    A hitter succeeding three times in ten is excellent. No other sport on this
+    site defines competence as a failure rate that high, and the psychological
+    demand of a season built from that is genuinely distinctive.
+
+    The pitching half is a physiological problem. Throwing a baseball at
+    professional velocity applies forces to the elbow near the failure point of
+    the ligament, and reconstruction surgery is close to a routine career
+    event. This is the only sport here whose primary skill reliably injures the
+    people who are best at it, and no rule has ever addressed it.
+
+    The sport's statistical culture adds a third layer. Because everything is
+    recorded and analysed, elite play is now shaped by data — which is what
+    produced the defensive shift, and in 2023 the shift was banned.
+  evidence:
+    - label: Mound lowered
+      value: 15 in to 10 in, 1969
+      basis: rule
+      rule: mlb-1969-mound-and-strike-zone
+      note: The sport rebalanced hitting against pitching by moving the ground.
+    - label: Pitch clock
+      value: Since 2023
+      basis: rule
+      rule: mlb-2023-pitch-clock-and-shift-ban
+      note: Removed the pitcher's ability to reset at will between deliveries.
+    - label: Defensive shift
+      value: Restricted 2023
+      basis: rule
+      rule: mlb-2023-pitch-clock-and-shift-ban
+      note: A rule against a defensive arrangement derived from the sport's own data.
+    - { label: Elite batting average, value: About .300, basis: judgement, note: Failing seven times in ten. }
+    - { label: Typical peak age, value: 26–30, basis: judgement }
+
+gap: >
+  Baseball's gap is between two halves of the same sport. Catching, throwing
+  and fielding are ordinary skills that most people can acquire. Hitting a
+  pitched ball and throwing one at ninety-five miles an hour are extraordinary
+  ones, and there is very little between the two.
+
+  What makes it worth putting next to cricket — the other striking and fielding
+  sport here — is that cricket's barrier is comprehension and cricket's elite
+  demand is breadth across three formats, while baseball's barrier is a single
+  physical act and its elite demand is tolerating failure at it. Two sports
+  from the same family, arriving at very high by completely different routes.
+
+  Baseball is also the only sport on this board whose primary skill injures its
+  best practitioners as a matter of course, and the only one where no rule has
+  ever been written about that.
+
+shaped_by:
+  - mlb-1969-mound-and-strike-zone
+  - mlb-2023-pitch-clock-and-shift-ban

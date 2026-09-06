@@ -1,0 +1,147 @@
+sport: cricket
+as_of: 2026-09
+edition: MCC Laws of Cricket, 2017 Code, with ICC playing conditions per format
+source: mcc-laws-of-cricket
+standing: primary-named
+summary: >
+  Two teams of eleven, one bats while the other bowls and fields, and the
+  batting side tries to score runs before losing ten wickets. What makes
+  cricket structurally unlike every other sport here is that the two sides do
+  not do the same thing at the same time: it is a sport of alternating roles
+  rather than simultaneous ones, which is why an innings is the unit and why
+  the formats can differ so much while the Laws barely change.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Score more runs than the opposition. The batting side scores by running
+      between the wickets or by hitting the ball to or over the boundary; the
+      fielding side tries to dismiss the batters, and ten dismissals end the
+      innings whatever the score.
+
+      Because the sides bat in turn rather than together, cricket has no
+      equivalent of possession and no defence in the invasion-sport sense. The
+      contest is between one bowler and one batter, repeated.
+
+  - id: field
+    label: The ground
+    body: >
+      An oval field with no specified dimensions — grounds differ substantially
+      in size, and the Laws set only a minimum boundary distance in playing
+      conditions rather than in the Laws themselves. At the centre is a
+      22-yard pitch, and that is specified precisely.
+    facts:
+      - { label: Pitch length, value: 22 yd, note: 20.12 m, between the wickets. }
+      - { label: Pitch width, value: 10 ft }
+      - { label: Stumps, value: 28 in high }
+      - { label: Ground size, value: Not fixed, note: Set by playing conditions, not by the Laws. }
+    citation:
+      source: mcc-laws-of-cricket
+      article: "Laws 6 and 8"
+
+  - id: equipment
+    label: Bat and ball
+    body: >
+      The ball is specified by weight and circumference and has barely changed.
+      The bat was specified only by length and width for two centuries, and in
+      2017 gained limits on edge thickness and depth for the first time —
+      because manufacturers had learned to press lighter timber into much
+      thicker bats without adding weight, and mishits were carrying for six.
+    facts:
+      - { label: Bat length, value: 38 in max }
+      - { label: Bat width, value: 4.25 in max }
+      - { label: Bat edge, value: 40 mm max, note: Limit introduced in 2017. }
+      - { label: Ball weight, value: 155.9–163 g }
+    shaped_by: [mcc-2017-bat-size-limits]
+    citation:
+      source: mcc-laws-of-cricket
+      article: "Law 5"
+
+  - id: players
+    label: Players and officials
+    body: >
+      Eleven a side. Two on-field umpires, a third umpire with access to
+      replay, and a match referee. Cricket gave its officials technology
+      earlier and more comprehensively than most sports here, and it did so
+      through a player-initiated review rather than an official-initiated one.
+
+      The distinctive feature is umpire's call: where ball tracking shows a
+      marginal outcome, the on-field decision stands. The technology informs
+      the umpire rather than replacing them, which is a choice tennis made in
+      the opposite direction.
+    shaped_by: [icc-2009-decision-review-system]
+
+  - id: duration
+    label: Format
+    body: >
+      Three of them, and this is the sport's defining structural fact. A Test
+      match is five days and may still be drawn. A one-day international is
+      fifty overs a side. A Twenty20 is twenty overs a side and finishes in
+      about three hours.
+
+      None replaced any other. Cricket added the one-day game in 1971 and the
+      twenty-over game in 2003 and kept playing all three, so the same
+      international players compete in three sports that share a rulebook and
+      almost nothing else.
+    facts:
+      - { label: Test, value: 5 days }
+      - { label: One-day international, value: 50 overs a side }
+      - { label: Twenty20, value: 20 overs a side }
+      - { label: Formats retained, value: All three }
+    shaped_by: [icc-1971-limited-overs, icc-2003-twenty20]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Runs, scored in ones and twos by running or in fours and sixes by
+      reaching the boundary. Extras are added for illegal deliveries. An
+      innings ends after ten wickets or when the overs run out, depending on
+      the format.
+
+      A batting average is runs divided by dismissals and a strike rate is runs
+      per hundred balls, and both mean something different in each format —
+      which is why the sport keeps three separate record books and has never
+      combined them.
+    facts:
+      - { label: Boundary along the ground, value: "4" }
+      - { label: Boundary in the air, value: "6" }
+      - { label: Wickets per innings, value: "10" }
+      - { label: Record books kept, value: "3" }
+    shaped_by: [icc-1971-limited-overs, icc-2003-twenty20]
+
+  - id: restarts
+    label: Overs and innings
+    body: >
+      The game restarts constantly and by design. Six deliveries make an over,
+      after which the bowling switches to the other end and a different bowler
+      takes it. That rotation is why cricket is played from both ends and why
+      field placings change every six balls.
+
+      A Super Over decides a tied limited-overs match. Between 2019 and its
+      abolition later that year, a tied Super Over was resolved by counting
+      boundaries — a rule used once, to decide a World Cup final, and removed
+      within months.
+    shaped_by: [icc-2019-boundary-countback-removed]
+
+  - id: prohibitions
+    label: Dismissals and illegal deliveries
+    body: >
+      Ten ways to be out, of which bowled, caught, leg before wicket, run out
+      and stumped account for nearly all. LBW is the judgement-heavy one and
+      the one the Laws have rewritten most: the 1980 Code extended it to a ball
+      pitching outside off stump where the batter made no attempt to play,
+      because padding away had become the safe option.
+
+      A no ball is an illegal delivery — overstepping the crease, above waist
+      height on the full — and a wide is one the batter cannot reasonably
+      reach. Both give a run and, in limited-overs cricket, another delivery.
+    shaped_by: [mcc-1980-code-lbw]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More runs. A Test match can be drawn if neither side completes the task
+      in five days, which makes cricket one of only two sports here where not
+      finishing is a legitimate result — and unlike football's draw, cricket's
+      is a consequence of running out of time rather than of parity.

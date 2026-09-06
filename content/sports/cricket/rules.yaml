@@ -1,0 +1,149 @@
+- id: mcc-1980-code-lbw
+  scope: { sport: cricket, discipline: all }
+  date_adopted: 1979
+  date_effective: 1980
+  status: adopted
+  governing_body: Marylebone Cricket Club
+  what_changed: >
+    The 1980 Code rewrote the leg before wicket Law, allowing a batter to be
+    given out to a ball pitching outside off stump if they made no genuine
+    attempt to play it. The rule stopped rewarding a batter for deliberately
+    padding away a delivery they could have hit.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Batters had learned that the safest response to a ball outside off stump
+      was to push the pad at it and take no risk with the bat, which was legal
+      and made large parts of a match uneventful.
+  citation:
+    source: mcc-laws-of-cricket
+    edition: Laws of Cricket, 1980 Code
+    article: "Law 36"
+  comparability_break: null
+
+- id: icc-1971-limited-overs
+  scope: { sport: cricket, discipline: one-day }
+  date_adopted: 1971
+  date_effective: 1971-01
+  status: adopted
+  governing_body: International Cricket Council
+  what_changed: >
+    A one-day international was played for the first time, with each side
+    limited to a fixed number of overs and a result guaranteed in a day. It did
+    not replace the five-day form; it was added alongside it, and the sport
+    began keeping two sets of records that measure different games.
+  cause_primary: commercial
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      The first ODI was improvised. A Test match in Melbourne was abandoned to
+      rain, and rather than send the crowd away the authorities arranged a
+      one-day exhibition on what would have been the final day. It drew a large
+      crowd, and the format was adopted deliberately afterwards.
+  citation:
+    source: icc-playing-conditions
+    edition: ICC playing conditions, one-day internationals
+    missing: true
+  comparability_break: cricket-batting-records
+
+- id: icc-2003-twenty20
+  scope: { sport: cricket, discipline: twenty20 }
+  date_adopted: 2003
+  date_effective: 2003-06
+  status: adopted
+  governing_body: England and Wales Cricket Board, adopted internationally
+  what_changed: >
+    Twenty overs a side, a match inside three hours. Introduced as a domestic
+    competition in England in 2003 and international within two years, adding a
+    third format to a sport that already had two — again without replacing
+    anything.
+  cause_primary: commercial
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Domestic attendances in England had been falling for years, and the
+      format was designed explicitly around the length of a working evening.
+      It is the most commercially successful rule change on this site by a wide
+      margin.
+  citation:
+    source: icc-playing-conditions
+    edition: ICC playing conditions, Twenty20
+    missing: true
+  comparability_break: cricket-batting-records
+
+- id: icc-2009-decision-review-system
+  scope: { sport: cricket, discipline: all }
+  date_adopted: 2008
+  date_effective: 2009
+  status: adopted
+  governing_body: International Cricket Council
+  what_changed: >
+    Teams were given the right to refer an umpire's decision to a third
+    official using ball-tracking, edge detection and slow-motion replay, with a
+    limited number of unsuccessful reviews per innings. Crucially the system
+    retained the concept of umpire's call: where ball tracking shows a marginal
+    outcome, the original decision stands.
+  cause_primary: integrity
+  trigger:
+    description: >
+      Television had been showing audiences ball-tracking predictions for years
+      before players could use them, and a small number of visibly wrong
+      decisions in high-profile matches made the gap untenable.
+    also_said: >
+      Umpire's call remains contested within the sport: it means the same
+      delivery can produce opposite outcomes depending on what the umpire
+      originally said, which critics regard as incoherent and defenders regard
+      as a correct acknowledgement of the tracking system's margin of error.
+  citation:
+    source: icc-playing-conditions
+    edition: ICC playing conditions, DRS
+    missing: true
+  comparability_break: null
+
+- id: mcc-2017-bat-size-limits
+  scope: { sport: cricket, discipline: all }
+  date_adopted: 2017
+  date_effective: 2017-10
+  status: adopted
+  governing_body: Marylebone Cricket Club
+  what_changed: >
+    The 2017 Code set maximum bat dimensions for the first time — an edge
+    thickness of 40 mm and a depth of 67 mm — where previously only the width
+    and length had been constrained. Bats had grown enormously thick without
+    gaining weight, because manufacturers were pressing lighter timber.
+  cause_primary: equipment and technology
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Mishit shots were carrying for six, which shifted the balance between bat
+      and ball measurably, and the change had happened entirely inside a
+      specification that had never anticipated it.
+  citation:
+    source: mcc-laws-of-cricket
+    edition: Laws of Cricket, 2017 Code
+    article: "Law 5"
+  comparability_break: null
+
+- id: icc-2019-boundary-countback-removed
+  scope: { sport: cricket, discipline: one-day }
+  date_adopted: 2019-10
+  date_effective: 2019-10
+  status: adopted
+  governing_body: International Cricket Council
+  what_changed: >
+    The rule that a tied Super Over be resolved by counting boundaries was
+    abolished, replaced by repeated Super Overs until one side wins. It was
+    removed within months of being used to decide a World Cup final.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      The 2019 World Cup final was tied, its Super Over was tied, and the title
+      was awarded to England on the number of boundaries hit across the match.
+      The reaction was close to universal disbelief that a world title had been
+      settled by a tiebreak with no relationship to the contest, and the ICC
+      removed the rule at the next opportunity.
+  citation:
+    source: icc-playing-conditions
+    edition: ICC playing conditions, October 2019
+    missing: true
+  comparability_break: null

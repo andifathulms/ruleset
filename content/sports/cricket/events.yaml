@@ -1,0 +1,26 @@
+sport: cricket
+as_of: 2026-09
+source: icc-playing-conditions
+standing: primary-named
+summary: >
+  Two Olympic events for 2028, in a sport whose Olympic history is one match in
+  1900 and a 128-year absence. The format chosen for the Games is Twenty20 —
+  the newest of the three, and the only one that fits an Olympic schedule.
+disciplines:
+  - id: olympic
+    label: On the 2028 programme
+    blurb: Twenty20, six teams per event.
+    events:
+      - { id: men, label: "Men's tournament", olympic: true }
+      - { id: women, label: "Women's tournament", olympic: true }
+  - id: formats
+    label: The three formats
+    counts: false
+    blurb: >
+      Each keeps its own record book. The sport has never combined them and has
+      never suggested it should.
+    events:
+      - { id: test, label: Test cricket, note: "Five days, and may be drawn. The oldest form; first played 1877." }
+      - { id: odi, label: One-day international, note: "Fifty overs a side. First played 1971, as an improvisation after a washed-out Test." }
+      - { id: t20, label: Twenty20 international, note: "Twenty overs a side. Introduced domestically in 2003." }
+      - { id: firstclass, label: First-class and domestic competition, note: "Where most professional cricket is actually played." }

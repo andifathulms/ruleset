@@ -1,0 +1,21 @@
+id: cricket
+label: Cricket
+tagline: Three formats of the same sport whose statistics were never meant to be compared, and one rule used once to decide a World Cup and then deleted.
+governing_body: >
+  Marylebone Cricket Club owns the Laws; the International Cricket Council runs
+  the international game.
+founded: >
+  MCC founded 1787 and first issued the Laws in 1788; the ICC founded 1909 as
+  the Imperial Cricket Conference.
+coverage: deep
+family_colour: pitch
+classification:
+  official: cricket
+  game-category: striking-and-fielding
+  adjudication: decided-by-score
+summary: >
+  Cricket has the same governance split as football — a body that owns the Laws
+  and a body that runs the sport — and a comparability problem neither football
+  nor anything else here has: it invented two new formats without replacing the
+  old ones, so the sport now plays three games under one name whose numbers are
+  not interchangeable and were never claimed to be.

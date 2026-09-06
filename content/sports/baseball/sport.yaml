@@ -1,0 +1,21 @@
+id: baseball
+label: Baseball
+tagline: Ran two different rulebooks inside one sport for forty-nine years, then put a clock on a game that had never had one.
+governing_body: >
+  WBSC internationally; Major League Baseball keeps the rulebook that matters
+  for this site's purposes.
+founded: >
+  Codified from earlier bat-and-ball games in New York in the 1840s; the
+  National League founded 1876, the American League 1901.
+coverage: deep
+family_colour: pitch
+classification:
+  official: baseball
+  game-category: striking-and-fielding
+  adjudication: decided-by-score
+summary: >
+  Baseball is the most statistically self-aware sport in the world and has
+  severed its own numbers repeatedly. It lowered the pitching mound in 1969
+  after a season nobody could hit in, ran two leagues under different batting
+  rules from 1973 to 2022, and in 2023 put a clock on a game that had defined
+  itself for a century by not having one.

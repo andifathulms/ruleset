@@ -1,0 +1,49 @@
+id: baseball-offensive-statistics
+label: Offensive statistics
+competition: Major League Baseball
+unit: runs per game
+absence_kind: unpublished
+higher_is_better: true
+cannot_exist: >
+  Baseball keeps better records than any sport on this site and has severed
+  them more often than almost any.
+
+  Runs per game, batting average, earned run average and every rate statistic
+  built on them respond directly to rule changes, and this sport has made three
+  large ones. The mound was lowered and the strike zone shrunk in 1969, both
+  designed to make hitting easier. The designated hitter arrived in one league
+  in 1973 and the other in 2022, which means that for forty-nine years the two
+  halves of the same competition were not comparable with each other, let alone
+  across time. The pitch clock and shift restriction in 2023 moved the numbers
+  again.
+
+  The series is scoped to one league because there is no such thing as
+  baseball's runs per game: the international game, the professional leagues of
+  Japan and Korea, and MLB all differ, and MLB itself was two rulebooks for
+  half a century.
+
+  The figures are not entered because they have not been taken from a cited
+  source. When they are, the chart appears here in segments — and it will need
+  more of them than any other chart on this site.
+segments: []
+breaks:
+  - at: 1969
+    caused_by: mlb-1969-mound-and-strike-zone
+    kind: scoped
+    note: >
+      The mound was lowered five inches and the strike zone shrunk, in the same
+      off-season, explicitly to raise scoring. Every rate statistic moves here.
+  - at: 1973
+    caused_by: mlb-1973-designated-hitter
+    kind: scoped
+    note: >
+      One league removed the pitcher from its batting order and the other did
+      not. The break is not between before and after; it is between two halves
+      of the same league, for forty-nine years.
+  - at: 2023
+    caused_by: mlb-2023-pitch-clock-and-shift-ban
+    kind: scoped
+    note: >
+      A clock, a restriction on where fielders may stand, and larger bases, all
+      in one season and all intended to change the numbers.
+source: mlb-official-rules

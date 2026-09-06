@@ -1,0 +1,86 @@
+sport: cricket
+standing: editorial
+summary: >
+  A sport whose rules are famously hard to explain and whose basic actions are
+  not. Cricket's entry barrier is almost entirely comprehension and logistics
+  rather than skill — and Twenty20 was, among other things, a deliberate attack
+  on exactly that.
+
+entry:
+  verdict: high
+  claim: Twenty-two people, a long afternoon, and a rulebook nobody can summarise.
+  why: >
+    Hitting a ball with a bat and throwing one are not hard. What is hard is
+    everything around them: eleven a side, a match that historically took a
+    day at minimum, ten ways of being dismissed, and fielding positions with
+    names that carry no information to a newcomer.
+
+    The logistics compound it. A full game needs twenty-two people, a prepared
+    strip, and hours. In countries where cricket is the national sport this is
+    solved by infrastructure and by informal versions — street and tape-ball
+    cricket across South Asia, beach cricket in the Caribbean and Australia —
+    which are the real entry routes and require almost nothing.
+
+    Outside those countries, cricket is one of the least accessible sports
+    here.
+  evidence:
+    - { label: Players needed, value: "22", basis: observation, note: The most of any sport on this site. }
+    - { label: Shortest format, value: 3 hours, basis: rule, rule: icc-2003-twenty20, note: A format designed around the length of a working evening. }
+    - { label: Ways of being dismissed, value: "10", basis: observation }
+    - { label: Kit to start, value: A bat and a ball, basis: observation, note: The informal versions need nothing else. }
+    - { label: Time to understand the game, value: Weeks, basis: judgement, note: Longer than any other sport here. }
+
+mastery:
+  verdict: very-high
+  claim: Three formats demanding contradictory skills, and a season with no off-season.
+  why: >
+    An elite international cricketer is asked to be good at three games whose
+    requirements pull against each other. Test batting rewards leaving the ball
+    and occupying the crease for hours; Twenty20 batting punishes exactly that.
+    A bowler's economy rate matters enormously in one format and barely at all
+    in another.
+
+    Very few players are elite in all three, and the sport's modern
+    professional structure increasingly encourages specialising in one — which
+    is a career decision made against a rulebook rather than against opponents.
+
+    The technical demands are individually extreme. Facing a ball at 145 km/h
+    from twenty-two yards gives about half a second to decide and move, which
+    is at the edge of human reaction; spin bowling asks for a repeatable
+    release under fatigue over long spells.
+  evidence:
+    - label: Formats to be good at
+      value: "3"
+      basis: rule
+      rule: icc-2003-twenty20
+      note: And their requirements contradict each other.
+    - label: One-day cricket added
+      value: "1971"
+      basis: rule
+      rule: icc-1971-limited-overs
+    - label: Review system
+      value: Since 2009
+      basis: rule
+      rule: icc-2009-decision-review-system
+      note: Removed the marginal LBW as a source of luck, in both directions.
+    - { label: Bat edge limit, value: 40 mm, basis: rule, rule: mcc-2017-bat-size-limits }
+    - { label: Typical peak age, value: 26–32, basis: judgement, note: Among the latest here. }
+
+gap: >
+  Cricket's gap is unusual because the bottom of it is intellectual rather than
+  physical. Nothing about swinging a bat excludes anyone; the rules, the
+  duration and the twenty-two people do.
+
+  The sport is also the only one here to have attacked its own entry barrier
+  deliberately and successfully. Twenty20 was designed in 2003 around how long
+  a person will stay after work, and it worked — it is the most commercially
+  successful rule change in this collection. That it also fractured the sport's
+  statistics into three incomparable sets was accepted from the start, and
+  handled correctly by never merging them.
+
+  Compare volleyball, which invented a position to widen its physical door.
+  Cricket invented a format to widen its temporal one.
+
+shaped_by:
+  - icc-2003-twenty20
+  - icc-1971-limited-overs

@@ -1,0 +1,143 @@
+sport: baseball
+as_of: 2026-09
+edition: Official Baseball Rules, with WBSC variations for international play
+source: mlb-official-rules
+standing: primary-named
+summary: >
+  Nine a side, alternating between batting and fielding, for nine innings. Like
+  cricket, the two teams do not do the same thing at the same time. Unlike
+  cricket, baseball had no clock at all for a century and a half — and acquired
+  one in 2023, which is the largest single change to how the sport feels since
+  the mound was lowered in 1969.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Score more runs. A run is scored by a batter reaching all four bases in
+      order without being put out. The fielding side records three outs to end
+      an inning, and each side bats nine times.
+
+      The central confrontation is one pitcher against one batter, repeated,
+      with seven fielders arranged behind. Everything else in the sport is
+      built on that pairing.
+
+  - id: field
+    label: The field
+    body: >
+      A diamond of four bases with a pitcher's mound at the centre, and an
+      outfield with no fixed dimensions — outfield walls differ from park to
+      park, which is a source of real competitive variation that the rules have
+      never tried to standardise.
+
+      The mound's height is specified, and lowering it by five inches in 1969
+      is one of the largest deliberate rebalancings of any sport on this site.
+    facts:
+      - { label: Base paths, value: 90 ft }
+      - { label: Pitching distance, value: 60 ft 6 in }
+      - { label: Mound height, value: 10 in, note: Lowered from 15 in in 1969. }
+      - { label: Base size, value: 18 in square, note: Enlarged from 15 in in 2023. }
+      - { label: Outfield dimensions, value: Not standardised }
+    shaped_by: [mlb-1969-mound-and-strike-zone, mlb-2023-pitch-clock-and-shift-ban]
+
+  - id: equipment
+    label: Bat, ball and glove
+    body: >
+      A wooden bat in professional play, aluminium and composite bats in
+      amateur and college competition — which means the sport runs materially
+      different equipment at different levels and does not pretend the
+      statistics travel.
+
+      The ball's construction has been a recurring controversy without ever
+      being a rule change: the sport has repeatedly been accused of altering
+      its ball's aerodynamic properties, and home run rates have moved in ways
+      that correlate with it.
+    facts:
+      - { label: Ball weight, value: 5–5.25 oz }
+      - { label: Bat, value: One piece of solid wood, in professional play }
+      - { label: Bat diameter, value: 2.61 in max }
+
+  - id: players
+    label: Players and officials
+    body: >
+      Nine in the field. In the batting order, the designated hitter may bat in
+      place of the pitcher — a rule the American League adopted in 1973 and the
+      National League refused until 2022, so for forty-nine years one sport ran
+      two batting rulebooks.
+
+      Four umpires in the regular season, six in the postseason. Video review
+      covers most calls since 2014; balls and strikes remain with the umpire,
+      and that is the sport's last large unautomated judgement.
+    facts:
+      - { label: Fielders, value: "9" }
+      - { label: Designated hitter, value: Universal since 2022 }
+      - { label: Umpires, value: 4, or 6 in the postseason }
+    shaped_by: [mlb-1973-designated-hitter, mlb-2022-universal-designated-hitter]
+
+  - id: duration
+    label: Time
+    body: >
+      Nine innings, and until 2023 no clock of any kind. Baseball's lack of a
+      clock was part of its self-description — the game is over when it is
+      over, and a team behind in the ninth always technically has time.
+
+      The 2023 pitch clock does not limit the game. It limits the gap between
+      pitches, which is where the time had gone: the sport's own analysis found
+      that game length had risen for decades while the ball was in play for
+      less of it.
+    facts:
+      - { label: Innings, value: "9" }
+      - { label: Pitch clock, value: Since 2023 }
+      - { label: Game clock, value: None }
+      - { label: Ties, value: Extra innings until resolved }
+    shaped_by: [mlb-2023-pitch-clock-and-shift-ban]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      One run per runner reaching home. Baseball's real scoring, though, is its
+      statistics: no sport on this site records itself as thoroughly or is as
+      widely understood through its numbers.
+
+      Which is why its rule changes are unusually consequential. The 1969 mound
+      and strike zone changes were made explicitly to raise scoring. The
+      designated hitter removed the weakest batter from one league's lineup for
+      forty-nine years. The 2023 package moved the numbers again on purpose.
+    shaped_by: [mlb-1969-mound-and-strike-zone, mlb-1973-designated-hitter]
+
+  - id: restarts
+    label: Between pitches
+    body: >
+      Baseball is almost entirely restarts. Every pitch is a discrete event
+      with its own set-up, and the gap between them is where the pitch clock
+      now operates: the pitcher must begin delivery within the time, the batter
+      must be in the box and alert, and violations award a ball or a strike.
+
+      A sport that had never told a player to hurry now does so several hundred
+      times a game.
+    facts:
+      - { label: Pitch clock, bases empty, value: Set by rule, note: Shortened again since 2023. }
+      - { label: Violation by pitcher, value: Ball }
+      - { label: Violation by batter, value: Strike }
+    shaped_by: [mlb-2023-pitch-clock-and-shift-ban]
+
+  - id: prohibitions
+    label: Restrictions
+    body: >
+      Balks, interference, obstruction, illegal substances on the ball. Since
+      2023 there is also a restriction on where fielders may stand: two
+      infielders on each side of second base, both feet on the infield dirt.
+
+      That last one is unusual and worth stating plainly. It legislates against
+      a defensive arrangement that teams arrived at by analysing the sport's own
+      batted-ball data — the shift — and it is the same kind of act as
+      basketball banning zone defence or football changing the offside law in
+      1925: a rule written against a way of playing that was working.
+    shaped_by: [mlb-2023-pitch-clock-and-shift-ban]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More runs after nine innings, and extra innings until somebody is ahead
+      at the end of one. There is no draw and no clock to run out, which is the
+      thing baseball was proudest of and the thing 2023 partially qualified.
