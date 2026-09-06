@@ -1,0 +1,160 @@
+sport: football
+as_of: 2026-09
+edition: IFAB Laws of the Game, current season
+source: ifab-laws-of-the-game
+standing: primary-named
+summary: >
+  Eleven against eleven, get the ball into the goal, use anything but your
+  hands. The Laws run to seventeen and are unusually short for a sport this
+  large — they specify the pitch loosely, the ball loosely, and spend most of
+  their length on what a referee should do about conduct. Football legislates
+  space and time rather than an implement, which is why it has no record book
+  and nothing central to break.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Move the ball into the opponent's goal more often than they move it into
+      yours. A goal is scored when the whole ball crosses the whole goal line
+      between the posts and under the bar — the only completely unambiguous
+      definition in the Laws, and the one thing goal-line technology exists to
+      settle.
+
+  - id: field
+    label: The pitch
+    body: >
+      Law 1 gives ranges rather than dimensions, which is why no two grounds
+      are the same size and why a home advantage can be built into the turf.
+      International matches use a narrower band, but even there a pitch may be
+      100 m long or 110 m long.
+    facts:
+      - { label: Length, value: 90–120 m, note: "100–110 m for international matches." }
+      - { label: Width, value: 45–90 m, note: "64–75 m for international matches." }
+      - { label: Goal, value: 7.32 × 2.44 m }
+      - { label: Penalty spot, value: 11 m from goal line }
+      - { label: Penalty area, value: 16.5 m deep }
+      - { label: Centre circle, value: 9.15 m radius }
+    citation:
+      source: ifab-laws-of-the-game
+      article: "Law 1"
+
+  - id: equipment
+    label: The ball and the kit
+    body: >
+      Law 2 specifies circumference, weight and pressure, and says nothing at
+      all about construction. That looseness is the reason football has no
+      equipment-driven comparability break: the ball went from waterlogged
+      leather to thermally bonded synthetic panels over forty years without the
+      specification ever having to move.
+
+      Shin guards are compulsory. Anything dangerous, including most jewellery,
+      is not permitted.
+    facts:
+      - { label: Ball circumference, value: 68–70 cm }
+      - { label: Ball weight at kick-off, value: 410–450 g }
+      - { label: Pressure, value: 0.6–1.1 atm }
+      - { label: Shin guards, value: Compulsory }
+    citation:
+      source: ifab-laws-of-the-game
+      article: "Laws 2 and 4"
+
+  - id: players
+    label: Players and officials
+    body: >
+      Eleven a side, one of whom is the goalkeeper, and a match may not
+      continue if a team falls below seven. Substitutions are set by the
+      competition, commonly five, made in a limited number of stoppages.
+
+      The referee's decision is final on fact. A video assistant referee may
+      recommend a review, but only in four categories — goals, penalty
+      decisions, direct red cards, and mistaken identity — and only for a clear
+      and obvious error or a serious missed incident.
+    facts:
+      - { label: Players per side, value: "11" }
+      - { label: Minimum to continue, value: "7" }
+      - { label: Reviewable by VAR, value: "4 categories" }
+    shaped_by: [ifab-2018-var]
+    citation:
+      source: ifab-laws-of-the-game
+      article: "Law 3 and the VAR protocol"
+
+  - id: duration
+    label: Time
+    body: >
+      Two halves of 45 minutes, plus whatever the referee adds for stoppages.
+      Football is the rare sport where the clock is not stopped and the exact
+      finish time is at one official's discretion.
+
+      Where a knockout tie needs a winner, extra time is two further periods of
+      15 minutes, played out in full. It was not always played out in full: from
+      1993 a goal in extra time could end the match immediately, and that was
+      removed in 2004 on the reading that it had made extra time more cautious
+      rather than more attacking.
+    facts:
+      - { label: Halves, value: 2 × 45 min }
+      - { label: Extra time, value: 2 × 15 min }
+      - { label: Added time, value: Referee's discretion }
+    shaped_by: [ifab-1993-golden-goal, ifab-2004-golden-goal-abolished]
+    citation:
+      source: ifab-laws-of-the-game
+      article: "Law 7"
+
+  - id: scoring
+    label: Scoring
+    body: >
+      One goal, one point, from anywhere, by any legal part of the body. There
+      is no equivalent of a two-point line, no bonus for difficulty, and no
+      partial credit — which is why football produces such low scores and why
+      a single rule change can move its rate statistics noticeably.
+
+      There is no central goals-per-game series for the sport, because there is
+      no body that keeps one. Any such figure belongs to a named competition.
+    shaped_by: [ifab-1992-back-pass, ifab-1925-offside]
+
+  - id: restarts
+    label: Restarts
+    body: >
+      Kick-off, throw-in, goal kick, corner kick, free kick — direct or
+      indirect — penalty kick, and dropped ball. Which restart applies is
+      usually the referee's most consequential decision, because a direct free
+      kick near the area and an indirect one are very different things.
+
+      The goalkeeper's restart options were rewritten in 1992: they may no
+      longer handle a ball deliberately kicked to them by a team-mate, which
+      is punished by an indirect free kick. That single clause is why modern
+      goalkeepers are selected for their feet.
+    shaped_by: [ifab-1992-back-pass]
+    citation:
+      source: ifab-laws-of-the-game
+      article: "Law 12"
+
+  - id: prohibitions
+    label: Fouls, misconduct and offside
+    body: >
+      Careless, reckless or excessively forceful contact is a direct free kick;
+      the last of the three is also a red card. A tackle from behind that
+      endangers an opponent has been a sending-off offence since 1998.
+      Handball is judged on whether the arm made the body unnaturally bigger,
+      a test rewritten repeatedly and still the most argued clause in the book.
+
+      Offside is Law 11 and needs two opponents, not three, between the
+      attacker and the goal line — a change made in 1925 to stop a defensive
+      method that had become reliable enough to suppress scoring across a whole
+      league.
+    facts:
+      - { label: Opponents needed to play onside, value: "2" }
+      - { label: Tackle from behind endangering an opponent, value: Red card }
+    shaped_by: [ifab-1925-offside, ifab-1998-tackle-from-behind]
+    citation:
+      source: ifab-laws-of-the-game
+      article: "Laws 11 and 12"
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More goals. A draw is a legitimate result in league play, which
+      distinguishes football from every other sport on this site. Where a
+      competition needs a winner: extra time played in full, then kicks from
+      the penalty mark, which the Laws are careful to describe as a method of
+      determining the winner rather than as part of the match.

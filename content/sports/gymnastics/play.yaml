@@ -1,0 +1,136 @@
+sport: gymnastics
+as_of: 2026-09
+edition: FIG Code of Points, current cycle
+source: fig-code-of-points
+standing: primary-named
+summary: >
+  Perform a routine on an apparatus and be given a number for it. Gymnastics is
+  the only sport here whose rulebook is not a set of prohibitions but a pricing
+  system: the Code of Points lists the elements, says what each is worth, and
+  says what comes off for doing it badly. The rule and the score are the same
+  document.
+
+sections:
+  - id: object
+    label: The object of the competition
+    body: >
+      Assemble a routine from catalogued elements and perform it well enough
+      that the deductions are small. A gymnast is not trying to beat an
+      opponent's action, and there is nothing an opponent can do to them —
+      which makes this a judged sport rather than a contest, and makes the
+      composition of the routine a strategic decision taken weeks in advance.
+
+  - id: field
+    label: The apparatus
+    body: >
+      Men contest six apparatus, women four, and they are different sports in
+      almost every respect except the scoring system. The vaulting table
+      replaced the vaulting horse in 2001 after a review found the horse's
+      small contact area left no margin for a hand placed slightly wrong.
+    facts:
+      - { label: "Men's apparatus", value: "6", note: Floor, pommel horse, rings, vault, parallel bars, horizontal bar. }
+      - { label: "Women's apparatus", value: "4", note: Vault, uneven bars, beam, floor. }
+      - { label: Floor area, value: 12 × 12 m }
+      - { label: Beam width, value: 10 cm }
+      - { label: Beam height, value: 125 cm }
+      - { label: Beam length, value: 5 m }
+    shaped_by: [fig-2001-vaulting-table]
+    citation:
+      source: fig-code-of-points
+      article: FIG Apparatus Norms
+      missing: true
+
+  - id: equipment
+    label: Equipment
+    body: >
+      Grips, chalk and tape are permitted and largely unregulated. What matters
+      far more is the apparatus itself, which is specified centrally, and the
+      landing surface, which has deepened over decades and quietly made
+      possible most of the difficulty that broke the old scoring scale.
+    shaped_by: [fig-2001-vaulting-table]
+
+  - id: players
+    label: Gymnasts and judges
+    body: >
+      A senior international gymnast must turn sixteen in the calendar year of
+      the competition — raised from fifteen in 1997, and from fourteen before
+      that.
+
+      Judging is split across two panels that work independently. The D panel
+      determines the difficulty of what was performed; the E panel scores how
+      well it was performed. Splitting them is what makes a disputed score
+      attributable to one panel rather than to a single composite number.
+    facts:
+      - { label: Minimum senior age, value: "16", note: In the calendar year of the competition. }
+      - { label: Judging panels, value: "2", note: D for difficulty, E for execution. }
+    shaped_by: [fig-1997-minimum-age, fig-2006-judging-panels]
+    citation:
+      source: fig-code-of-points
+      article: FIG Technical Regulations
+      missing: true
+
+  - id: duration
+    label: Format
+    body: >
+      Qualification, then team final, all-around final and apparatus finals,
+      with a cap on how many gymnasts one country may put into a final.
+      Compulsory exercises — a set routine performed identically by everyone —
+      were removed in 1997, which halved the length of a championship and
+      deleted the half of the competition that most directly compared gymnasts
+      on the same material.
+    shaped_by: [fig-1997-compulsories-abolished]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      A score is a difficulty value plus an execution score. The difficulty
+      value is built from the elements performed and their connections and has
+      no upper limit. The execution score starts at 10 and deductions are taken
+      from it for form, control and landing.
+
+      There is no maximum. The 10.0 that stood in one form or another from 1949
+      ceased to exist in 2006, and a perfect routine no longer has a number.
+      This is why there is no chart on this page's series section: scores
+      before and after 2006 are not two values of one quantity.
+    facts:
+      - { label: Score, value: D + E }
+      - { label: Difficulty ceiling, value: None }
+      - { label: Execution starts from, value: "10.0" }
+      - { label: Maximum possible score, value: Undefined }
+    shaped_by: [fig-2006-open-ended-code, fig-2006-judging-panels]
+    citation:
+      source: fig-code-of-points
+      article: FIG Code of Points, current cycle
+
+  - id: restarts
+    label: Performing the routine
+    body: >
+      A gymnast salutes, performs once, and salutes again. There is no restart
+      and no second attempt except in vault, where two vaults are performed in
+      apparatus finals and averaged. A fall costs a fixed deduction and the
+      routine continues; the clock on beam and floor continues through it.
+    facts:
+      - { label: Attempts, value: "1", note: Two in a vault final, averaged. }
+      - { label: Fall deduction, value: Fixed }
+
+  - id: prohibitions
+    label: Deductions and penalties
+    body: >
+      Almost nothing is forbidden outright; nearly everything is priced.
+      Stepping outside the floor area, exceeding the time limit, an incorrect
+      number of elements, a coach's presence on the podium where it is not
+      allowed — each carries a stated deduction rather than a disqualification.
+
+      That is the structural difference between this sport and every other one
+      here. Football has fouls, swimming has disqualifications, athletics has
+      invalid attempts. Gymnastics converts nearly every infringement into
+      arithmetic.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The highest total. Ties are broken by the execution score, on the
+      principle that between two routines of equal difficulty the better
+      performed one should win — which is the closed system's logic surviving
+      inside the open-ended one.
+    shaped_by: [fig-2006-open-ended-code]
