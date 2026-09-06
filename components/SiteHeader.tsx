@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from 'react'
 const NAV = [
   { href: '/', label: 'Timeline' },
   { href: '/sports/', label: 'Sports' },
+  { href: '/play/', label: 'How to play' },
   { href: '/program/', label: 'Programme' },
   { href: '/breaks/', label: 'Breaks' },
   { href: '/sources/', label: 'Sources' },
@@ -14,7 +15,7 @@ const NAV = [
 ]
 
 /**
- * The header is a scoreboard header: the wordmark, the strapline, and the six
+ * The header is a scoreboard header: the wordmark, the strapline, and the
  * places to go. It condenses on scroll rather than disappearing, because the
  * timeline is long and losing the nav halfway down it was the main complaint
  * the layout invited.

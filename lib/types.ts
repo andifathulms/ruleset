@@ -157,6 +157,23 @@ export const LAW_SECTIONS = [
 
 export type LawSectionId = (typeof LAW_SECTIONS)[number]
 
+/**
+ * Neutral names for the nine questions. Each sport titles its own answer in its
+ * own vocabulary — athletics calls it Measurement, swimming calls it Timing —
+ * so the shared question needs a name that belongs to none of them.
+ */
+export const LAW_SECTION_LABEL: Record<LawSectionId, string> = {
+  object: 'The object',
+  field: 'Where it is played',
+  equipment: 'Equipment',
+  players: 'Players and officials',
+  duration: 'Format and time',
+  scoring: 'Scoring',
+  restarts: 'Starting and restarting',
+  prohibitions: 'What is forbidden',
+  winning: 'Deciding the winner',
+}
+
 export interface LawFact {
   label: string
   value: string
