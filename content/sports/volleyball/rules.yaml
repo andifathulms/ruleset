@@ -1,0 +1,122 @@
+- id: fivb-1998-libero
+  scope: { sport: volleyball, discipline: indoor }
+  date_adopted: 1998
+  date_effective: 1998
+  status: adopted
+  governing_body: FIVB
+  what_changed: >
+    A specialist defensive player was introduced who wears a contrasting shirt,
+    may substitute freely for any back-row player without counting against the
+    substitution limit, and may not attack the ball above the height of the
+    net, block, or serve in most conditions.
+
+    It is the only new playing position invented by rule in any sport on this
+    site.
+  cause_primary: broadcast and pacing
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Elite volleyball had become dominated by height, and the jump serve had
+      made rallies short: a well-struck serve frequently ended the point.
+      Introducing a defensive specialist who could not attack extended rallies
+      and created a place in the elite game for shorter players.
+  citation:
+    source: fivb-rules
+    edition: FIVB Official Volleyball Rules, 1998
+    missing: true
+  comparability_break: null
+
+- id: fivb-1999-rally-scoring
+  scope: { sport: volleyball, discipline: indoor }
+  date_adopted: 1998
+  date_effective: 1999
+  status: adopted
+  governing_body: FIVB
+  what_changed: >
+    Sets were rescored so that a point is awarded on every rally regardless of
+    which team served, and the target was raised from 15 to 25, with a
+    deciding fifth set to 15. Under the previous side-out system only the
+    serving team could score, so a rally won by the receiving side produced no
+    point at all.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Match length under side-out scoring was unbounded in principle and
+      unpredictable in practice, which made a scheduled broadcast slot
+      impossible to guarantee. The federation had trialled variants through the
+      1990s before adopting rally scoring outright.
+  citation:
+    source: fivb-rules
+    edition: FIVB Official Volleyball Rules, 1999
+    missing: true
+  comparability_break: volleyball-match-statistics
+
+- id: fivb-2000-let-serve
+  scope: { sport: volleyball, discipline: indoor }
+  date_adopted: 2000
+  date_effective: 2000
+  status: adopted
+  governing_body: FIVB
+  what_changed: >
+    A serve that touches the net and continues into the opponent's court became
+    legal, where previously it was a fault. The let serve was abolished as a
+    concept.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Replaying a serve costs time and produces nothing, and under rally
+      scoring every stoppage is more visible because every rally now produces a
+      point. Removing the replay was a small change of exactly the kind that
+      only becomes worth making once the scoring system has changed.
+  citation:
+    source: fivb-rules
+    edition: FIVB Official Volleyball Rules, 2000
+    missing: true
+  comparability_break: null
+
+- id: fivb-2009-video-challenge
+  scope: { sport: volleyball, discipline: indoor }
+  date_adopted: 2008
+  date_effective: 2009
+  status: adopted
+  governing_body: FIVB
+  what_changed: >
+    A coach challenge system was introduced for questions of fact — whether the
+    ball landed in or out, whether it touched a block, whether a foot crossed
+    the line on a serve — with a limited number of unsuccessful challenges per
+    set.
+  cause_primary: integrity
+  trigger:
+    description: >
+      Almost every close call in volleyball is a question about where an object
+      was at a moment in time, which is precisely the class of question a
+      camera answers well and an official at floor level answers badly.
+  citation:
+    source: fivb-rules
+    edition: FIVB Official Volleyball Rules, 2009
+    missing: true
+  comparability_break: null
+
+- id: fivb-2015-double-contact-serve-receive
+  scope: { sport: volleyball, discipline: indoor }
+  date_adopted: 2014
+  date_effective: 2015
+  status: adopted
+  governing_body: FIVB
+  what_changed: >
+    The interpretation of double contact on the first ball was relaxed, so a
+    receiving player may play a hard-driven ball with a less clean contact
+    without it being called a fault.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Jump serves had become fast enough that a clean first contact was
+      frequently impossible, so strict enforcement was ending rallies on the
+      serve. Relaxing it kept the ball alive — the same objective the libero
+      had been invented for seventeen years earlier.
+  citation:
+    source: fivb-rules
+    edition: FIVB Official Volleyball Rules, 2015
+    missing: true
+  comparability_break: null

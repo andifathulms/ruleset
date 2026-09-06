@@ -1,0 +1,84 @@
+sport: volleyball
+standing: editorial
+summary: >
+  The only sport on this site whose beginner's version is genuinely difficult
+  and whose social version is genuinely easy, depending entirely on which
+  version you mean. Beach volleyball on holiday is trivial. Indoor volleyball
+  with a proper net and the no-catching rule is one of the harder sports here
+  to play badly, let alone well.
+
+entry:
+  verdict: moderate
+  claim: You need five other people, a high net, and a first contact that is legal.
+  why: >
+    Volleyball's entry barrier is mostly social. Six a side means twelve people
+    for a game, and the sport degrades badly below that — three-a-side indoor
+    volleyball is not really the sport. Almost nothing else here needs so many
+    people to exist at all.
+
+    The technical barrier is real too, and it comes from one rule: the ball may
+    not be caught or held. A beginner's instinct on a fast ball is to catch and
+    throw, which is a fault, and learning a legal contact — a platform pass, an
+    overhead set — takes weeks rather than minutes. Most sports here let you
+    play badly on day one. Volleyball mostly does not.
+
+    Beach volleyball offsets this and is the route most people take in.
+  evidence:
+    - { label: Players needed, value: "12", basis: observation, note: Six a side; the fewest of any team sport here that still resembles itself. }
+    - { label: Net height, value: 2.43 m, basis: observation, note: Higher than a basketball rim. }
+    - { label: Kit to start, value: A ball and a net, basis: observation }
+    - { label: Catching the ball, value: A fault, basis: observation, note: The rule that makes the first hour hard. }
+    - { label: Time to a real rally, value: Weeks, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Height, jump, and a sport that keeps legislating to keep the ball alive.
+  why: >
+    Elite indoor volleyball is a height and jump sport before it is anything
+    else. The net is 2.43 m for men, higher than a basketball rim, and
+    attacking above it against a two-person block is the central action. The
+    physical selection is close to basketball's.
+
+    What is distinctive is that the sport has repeatedly legislated against its
+    own trajectory. The jump serve made rallies short; the libero was invented
+    in 1998 to make them longer, and double-contact enforcement was relaxed in
+    2015 for the same reason. Volleyball keeps adding rules whose purpose is to
+    stop the best players ending points too quickly.
+
+    The libero is also the one genuine door into elite volleyball for a player
+    of ordinary height, and it exists because a federation created it
+    deliberately.
+  evidence:
+    - label: The libero
+      value: Invented 1998
+      basis: rule
+      rule: fivb-1998-libero
+      note: The only new position created by rule on this site, and the only deliberate widening of a sport's physical door.
+    - label: Rally scoring
+      value: Since 1999
+      basis: rule
+      rule: fivb-1999-rally-scoring
+      note: Every error now costs a point, which raised the consistency demand sharply.
+    - label: First-contact enforcement
+      value: Relaxed 2015
+      basis: rule
+      rule: fivb-2015-double-contact-serve-receive
+      note: Because the serve had outrun the receiver.
+    - { label: "Net height, men", value: 2.43 m, basis: observation }
+    - { label: Typical peak age, value: 25–30, basis: judgement }
+
+gap: >
+  Volleyball's gap is narrower at the bottom than most of this board, because
+  its entry barrier is genuinely non-trivial: twelve people, a high net, and a
+  rule against the thing a beginner instinctively does with a fast ball.
+
+  At the top it joins basketball as a sport where an untrainable physical trait
+  is close to a precondition, and it is the only sport here that has done
+  something about that on purpose. The libero is a position invented by rule so
+  that a player under six feet could have an elite career, and it worked. Set
+  against basketball, which has never moved its rim, volleyball is the one
+  federation on this site to have widened its own door deliberately.
+
+shaped_by:
+  - fivb-1998-libero
+  - fivb-1999-rally-scoring

@@ -1,0 +1,30 @@
+id: volleyball-match-statistics
+label: Set and match statistics across rally scoring
+unit: points
+absence_kind: unpublished
+cannot_exist: >
+  A set to 15 under side-out scoring and a set to 25 under rally scoring are
+  not the same object. Under the old system a rally won by the receiving team
+  produced no number at all; under the new one every rally produces a point.
+  Points per set, points per match, match duration and the scoreline itself all
+  changed meaning in 1999.
+
+  This is the third time this exact absence appears on the site, and by now the
+  repetition is the argument. Volleyball in 1999, table tennis in 2001,
+  badminton in 2006 — three federations, three continents' worth of member
+  associations, one stated reason, and not one of them kept a series across its
+  own change. The homepage claims a wave of broadcast-driven scoring rewrites;
+  this empty chart, three times over, is what the wave left behind.
+
+  A run of match durations from one tournament held continuously across 1999
+  would be a real series and would show the break plainly. Nobody publishes
+  one.
+segments: []
+breaks:
+  - at: 1999
+    caused_by: fivb-1999-rally-scoring
+    kind: reset
+    note: >
+      Every set and match statistic before 1999 is counted in a unit the sport
+      stopped using. Nothing crosses this line.
+source: fivb-rules

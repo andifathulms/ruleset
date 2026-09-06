@@ -1,0 +1,29 @@
+sport: volleyball
+as_of: 2026-09
+source: fivb-rules
+standing: primary-named
+summary: >
+  Two Olympic disciplines that share a federation and a name and very little
+  else. Indoor volleyball is six a side on a hard court; beach volleyball is
+  two a side on sand with a different court size, a different scoring target
+  and no substitutions at all. The IOC counts them as one sport.
+disciplines:
+  - id: indoor
+    label: Indoor
+    events:
+      - { id: men, label: "Men's tournament", olympic: true }
+      - { id: women, label: "Women's tournament", olympic: true }
+  - id: beach
+    label: Beach
+    blurb: >
+      Two players, no substitutions, a smaller court, and sets to 21. A
+      separate rulebook, not a variant.
+    events:
+      - { id: bm, label: "Men's tournament", olympic: true }
+      - { id: bw, label: "Women's tournament", olympic: true }
+  - id: other
+    label: Governed by the federation, not on the programme
+    counts: false
+    events:
+      - { id: snow, label: Snow volleyball }
+      - { id: sitting, label: Sitting volleyball, note: Paralympic, governed by World ParaVolley. }

@@ -1,0 +1,147 @@
+sport: volleyball
+as_of: 2026-09
+edition: FIVB Official Volleyball Rules
+source: fivb-rules
+standing: primary-named
+summary: >
+  Six a side, a high net, and a maximum of three touches to get the ball back
+  over it. Volleyball's defining constraint is that no player may touch the
+  ball twice in succession, which means every point is necessarily
+  collaborative — it is the only sport on this site where the rules make
+  passing to a team-mate compulsory rather than optional.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Ground the ball in the opponent's court, or force them to fail to return
+      it. A team has three touches, and no player may take two of them in a
+      row. The ball may not be caught, held or thrown; it must be struck.
+
+      That last rule is why volleyball looks the way it does. The prohibition
+      on holding the ball forces every contact to be a rebound, and the
+      three-touch limit forces those rebounds into a sequence — receive, set,
+      attack — that is the same at every level of the sport.
+
+  - id: field
+    label: The court
+    body: >
+      Two nine-metre squares separated by a high net, with an attack line three
+      metres from the net that divides front-row players from back-row ones.
+      That line is the sport's central geometry: a back-row player may not
+      attack the ball above the net from in front of it.
+    facts:
+      - { label: Court, value: 18 × 9 m }
+      - { label: "Net height, men", value: 2.43 m }
+      - { label: "Net height, women", value: 2.24 m }
+      - { label: Attack line, value: 3 m from the net }
+      - { label: Clear height, value: 12.5 m recommended }
+    citation:
+      source: fivb-rules
+      article: "Rule 1"
+      missing: true
+
+  - id: equipment
+    label: The ball
+    body: >
+      A leather or synthetic ball, specified by circumference, weight and
+      pressure, and nothing else of consequence. Volleyball has produced no
+      equipment-driven comparability break — the panel construction changed to
+      a dimpled, fewer-panel design in the 2000s and altered the flight of a
+      float serve noticeably, but the specification never had to move.
+
+      The one piece of kit written into the rules is a shirt. The libero must
+      wear a contrasting one, because the position's restrictions can only be
+      officiated if the official can see at a glance who it is.
+    facts:
+      - { label: Circumference, value: 65–67 cm }
+      - { label: Weight, value: 260–280 g }
+      - { label: Libero shirt, value: Must contrast }
+    shaped_by: [fivb-1998-libero]
+
+  - id: players
+    label: Players and officials
+    body: >
+      Six on court, rotating one position clockwise each time the team wins
+      back the serve — so every player must play in every zone, which is why
+      volleyball has both specialists and a rule forcing them out of their
+      speciality.
+
+      The libero is the exception and the only position invented by rule
+      anywhere on this site. Introduced in 1998, they substitute freely for
+      back-row players, wear a different shirt, and may not attack above the
+      net, block or serve. The position exists to keep rallies alive and to
+      give shorter players a route into a sport that had become dominated by
+      height.
+    facts:
+      - { label: On court, value: "6" }
+      - { label: Libero, value: Since 1998 }
+      - { label: Rotation, value: One position, clockwise }
+    shaped_by: [fivb-1998-libero]
+
+  - id: duration
+    label: Format
+    body: >
+      Best of five sets, with no clock at all. Match length is entirely a
+      function of the scoring system, which is exactly why the scoring system
+      was rewritten: under the old one, a match could run to two and a half
+      hours or finish in fifty minutes and nobody could say which in advance.
+    facts:
+      - { label: Sets, value: Best of 5 }
+      - { label: Clock, value: None }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      A point on every rally, to whichever side wins it. Sets go to 25 and must
+      be won by two; the deciding fifth set goes to 15, also by two.
+
+      Before 1999 only the serving team could score. A rally won by the
+      receiving side won back the serve and nothing else, which is why matches
+      had no predictable length and why every set and match statistic from
+      before that year is counted in a unit the sport no longer uses.
+    facts:
+      - { label: Set to, value: "25" }
+      - { label: Deciding set to, value: "15" }
+      - { label: Must win by, value: "2" }
+      - { label: Point on every rally, value: Since 1999 }
+    shaped_by: [fivb-1999-rally-scoring]
+    citation:
+      source: fivb-rules
+      article: "Rule 6"
+      missing: true
+
+  - id: restarts
+    label: The serve
+    body: >
+      Struck from behind the end line, into the opponent's court, with no
+      restriction on technique — which is why the jump serve exists and why it
+      is now hit hard enough to end rallies outright.
+
+      A serve that clips the net and continues has been legal since 2000.
+      Before that it was replayed, and removing the replay is a small change
+      that only became worth making once every rally started producing a point.
+    facts:
+      - { label: Net touch on serve, value: Legal since 2000 }
+      - { label: Serving order, value: By rotation }
+    shaped_by: [fivb-2000-let-serve]
+
+  - id: prohibitions
+    label: Faults
+    body: >
+      Four touches; two consecutive touches by the same player; catching or
+      throwing rather than striking; touching the net during play; a back-row
+      player attacking above the net from in front of the attack line; a foot
+      over the line on serve; and rotational faults, which are positional
+      errors at the moment of service.
+
+      The double-contact rule on the first ball was relaxed in 2015, because
+      jump serves had become fast enough that a clean first contact was often
+      impossible and strict enforcement was ending rallies on the serve.
+    shaped_by: [fivb-2015-double-contact-serve-receive]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Three sets. No draw, no clock, and no cap: a set cannot end without a
+      two-point margin, so in principle it runs until one appears.
