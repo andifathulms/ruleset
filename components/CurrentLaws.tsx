@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Reveal } from './Motion'
+import { headline } from '@/lib/text'
 import type { Play, RuleChange, Source } from '@/lib/types'
 
 /**
@@ -57,7 +58,7 @@ export default function CurrentLaws({
         {play.sections.map((section) => (
           <Reveal key={section.id}>
             <section id={`law-${section.id}`} className="scroll-anchor">
-              <h3 className="font-display text-2xl text-chalk">{section.label}</h3>
+              <h4 className="font-display text-2xl text-chalk">{section.label}</h4>
 
               <div className="prose-measure mt-3 space-y-4 text-[16px] text-chalk/85">
                 {paragraphs(section.body).map((para, i) => (
@@ -65,8 +66,17 @@ export default function CurrentLaws({
                 ))}
               </div>
 
+              {/* Columns follow the count. Padding two facts out to three
+                  columns left an empty bordered cell that reads as a missing
+                  fact rather than as spacing. */}
               {section.facts && section.facts.length > 0 && (
-                <dl className="mt-5 grid gap-px border chalk-rule bg-chalk/15 sm:grid-cols-2 lg:grid-cols-3">
+                <dl
+                  className={`mt-5 grid gap-px border chalk-rule bg-chalk/15 sm:grid-cols-2 ${
+                    section.facts.length % 3 === 0 || section.facts.length > 4
+                      ? 'lg:grid-cols-3'
+                      : ''
+                  }`}
+                >
                   {section.facts.map((f, i) => (
                     <div key={`${f.label}-${i}`} className="bg-ink px-4 py-3">
                       <dt className="text-[13px] text-unmarked">{f.label}</dt>
@@ -76,11 +86,12 @@ export default function CurrentLaws({
                       )}
                     </div>
                   ))}
-                  {/* The grid's gap colour shows through an unfilled cell, so
-                      the last row is padded out to keep the rule lines square. */}
-                  {fillers(section.facts.length).map((k) => (
-                    <div key={k} aria-hidden className="hidden bg-ink lg:block" />
-                  ))}
+                  {/* Only ever needed when the count does divide by three. */}
+                  {section.facts.length % 3 === 0
+                    ? null
+                    : fillers(section.facts.length).map((k) => (
+                        <div key={k} aria-hidden className="hidden bg-ink lg:block" />
+                      ))}
                 </dl>
               )}
 
@@ -99,7 +110,7 @@ export default function CurrentLaws({
                           <Link href={`#${id}`} className="link-paint text-chalk">
                             <span className="numeral">{rule.date_effective.slice(0, 4)}</span>
                             {' — '}
-                            {headline(rule.what_changed)}
+                            {headline(rule.what_changed, 96)}
                           </Link>
                         </li>
                       )
@@ -151,7 +162,3 @@ const paragraphs = (body: string) =>
 const fillers = (n: number) =>
   Array.from({ length: (3 - (n % 3)) % 3 }, (_, i) => `filler-${i}`)
 
-function headline(text: string): string {
-  const first = clean(text).split(/(?<=\.)\s/)[0]
-  return first.length > 88 ? `${first.slice(0, 85).trimEnd()}…` : first
-}

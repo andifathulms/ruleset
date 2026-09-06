@@ -4,6 +4,7 @@ import SeriesChart from '@/components/SeriesChart'
 import BreakDiagram from '@/components/BreakDiagram'
 import { Reveal } from '@/components/Motion'
 import { BREAK_KIND_LABEL } from '@/lib/series'
+import { headline } from '@/lib/text'
 import { getAllRuleChanges, getAllSeries, getSports } from '@/lib/content'
 
 export const metadata: Metadata = {
@@ -202,38 +203,6 @@ export default function BreaksPage() {
       </div>
     </div>
   )
-}
-
-/**
- * The first sentence, trimmed to something that sets at display size.
- *
- * It used to slice at a fixed character count, which cut three of the six
- * headings mid-word — "four centimetr…", "by a team-ma…" — at the largest type
- * on the page. It now prefers a clause boundary, falls back to a word
- * boundary, and drops any trailing function word so a heading never ends on a
- * dangling "and", "which" or "to".
- */
-const DANGLING = new Set([
-  'a', 'an', 'the', 'and', 'or', 'but', 'to', 'of', 'in', 'on', 'by', 'with',
-  'that', 'which', 'is', 'are', 'was', 'were', 'may', 'must', 'not', 'no',
-  'as', 'at', 'for', 'from', 'its', 'it', 'they', 'them', 'so', 'than',
-  'then', 'into', 'relative', 'has', 'have', 'had', 'doing', 'being',
-])
-
-function headline(text: string, limit = 118): string {
-  const first = text.trim().split(/(?<=\.)\s/)[0]
-  if (first.length <= limit) return first
-
-  const cut = first.slice(0, limit)
-  const semicolon = cut.lastIndexOf(';')
-  if (semicolon > 60) return `${cut.slice(0, semicolon)}…`
-
-  const space = cut.lastIndexOf(' ')
-  const words = (space > 60 ? cut.slice(0, space) : cut).split(' ')
-  while (words.length > 8 && DANGLING.has(words[words.length - 1].replace(/\W/g, '').toLowerCase())) {
-    words.pop()
-  }
-  return `${words.join(' ').replace(/[,;:]$/, '')}…`
 }
 
 const KIND_BLURB: Record<string, string> = {
