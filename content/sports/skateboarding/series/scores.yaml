@@ -1,0 +1,42 @@
+id: skateboarding-scores
+label: Contest scores
+unit: points
+absence_kind: impossible
+cannot_exist: >
+  A skateboarding score is an impression out of 100, awarded holistically, on a
+  course that is different at every competition.
+
+  There is no difficulty table. That is not an omission — it is a decision. Every
+  other judged sport on this site prices its elements: gymnastics assigns
+  difficulty values, diving tabulates degrees of difficulty, taekwondo prices
+  head kicks and spins, climbing prices holds. Skateboarding declined, because
+  its culture does not accept that a trick has a fixed value independent of
+  where and how it is performed.
+
+  So an 88.6 in one park final and an 88.6 in another are not two values of one
+  quantity. They are two panels' impressions of two runs on two different
+  courses.
+
+  The criteria have also been revised between every Olympic cycle the sport has
+  contested, which means the scale itself has not held still across the two
+  Games it has appeared at.
+
+  This is the same shape as breaking's entry and for the same underlying
+  reason: a culture with holistic contest traditions was asked to produce a
+  transparent scale in a hurry, and chose not to invent one it did not believe
+  in.
+segments: []
+breaks:
+  - at: 2019
+    caused_by: worldskate-holistic-judging
+    kind: scale-change
+    note: >
+      A single impression score out of 100, with no published difficulty table.
+      Deliberate, and it means no score is decomposable or comparable.
+  - at: 2024
+    caused_by: worldskate-2024-criteria-revision
+    kind: scale-change
+    note: >
+      Criteria and weightings revised between the sport's first and second
+      Games. The scale has not been stable for a single Olympic cycle.
+source: world-skate-rules

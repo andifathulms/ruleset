@@ -1,0 +1,28 @@
+sport: skateboarding
+as_of: 2026-09
+source: world-skate-rules
+standing: primary-named
+summary: >
+  Four Olympic events across two disciplines, retained for 2028 — unlike
+  breaking, which was added a cycle later and dropped. Both disciplines were
+  chosen because they are the two the sport's own contest circuit already ran.
+disciplines:
+  - id: street
+    label: Street
+    blurb: Stairs, rails, ledges and banks. Two runs and five tricks, best four count.
+    events:
+      - { id: sm, label: "Men's street", olympic: true }
+      - { id: sw, label: "Women's street", olympic: true }
+  - id: park
+    label: Park
+    blurb: A bowl of transitions. Three runs, best one counts.
+    events:
+      - { id: pm, label: "Men's park", olympic: true }
+      - { id: pw, label: "Women's park", olympic: true }
+  - id: other
+    label: Outside the Olympic programme
+    counts: false
+    events:
+      - { id: vert, label: Vert, note: "The half-pipe discipline of the sport's 1980s and 1990s peak. Not on the programme." }
+      - { id: big-air, label: Big air }
+      - { id: circuit, label: The commercial contest circuit, note: "Predates the federation by decades and continues alongside it." }

@@ -1,0 +1,116 @@
+- id: worldskate-2017-governance
+  scope: { sport: skateboarding, discipline: all }
+  date_adopted: 2017
+  date_effective: 2017
+  status: adopted
+  governing_body: World Skate
+  what_changed: >
+    Skateboarding was placed under World Skate — formerly the international
+    roller sports federation — for Olympic purposes, alongside the existing
+    commercial competition circuit that the sport had run for decades without
+    any governing body.
+
+    A culture with contests, judges and a professional scene acquired an
+    international federation it had not asked for.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The IOC sought youth-facing, urban and inexpensive additions to the
+      programme. An existing recognised federation was the available route, as
+      it later was for breaking through the dance federation.
+    also_said: >
+      Skateboarding's community was divided rather than uniformly opposed.
+      Contests already existed and were taken seriously; the objection was to
+      codification and to an outside body rather than to competition itself,
+      which is a materially weaker version of the objection breaking made.
+  citation:
+    source: world-skate-rules
+    edition: World Skate Skateboarding Rulebook, 2017
+    missing: true
+  comparability_break: null
+
+- id: worldskate-holistic-judging
+  scope: { sport: skateboarding, discipline: all }
+  date_adopted: 2018
+  date_effective: 2019
+  status: adopted
+  governing_body: World Skate
+  what_changed: >
+    Judges award a single impression score out of 100 for a run or a trick,
+    assessing difficulty, execution, variety, flow, use of the course and
+    consistency together — without a published table assigning values to
+    individual tricks.
+
+    That is a deliberate refusal. Gymnastics prices its elements, diving
+    tabulates degrees of difficulty, taekwondo prices head kicks and climbing
+    prices holds. Skateboarding declined to write the equivalent.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Skateboarding's contest tradition had always judged holistically, and a
+      difficulty table would have required asserting that a trick has a fixed
+      value — which the culture does not accept, because the same trick is
+      worth different amounts depending on where and how it is done.
+    also_said: >
+      The cost is transparency. A skateboarding score cannot be explained
+      component by component the way a gymnastics score can, and disputes about
+      judging cannot be resolved by pointing at a table. The federation
+      accepted that trade explicitly.
+  citation:
+    source: world-skate-rules
+    edition: World Skate judging criteria
+    missing: true
+  comparability_break: skateboarding-scores
+
+- id: worldskate-2020-format
+  scope: { sport: skateboarding, discipline: all }
+  date_adopted: 2018
+  date_effective: 2021
+  status: adopted
+  governing_body: World Skate
+  what_changed: >
+    The Olympic format was set: in street, two runs and five single tricks,
+    with the best four of seven scores counting; in park, three runs with the
+    best counting. The formats differ because the disciplines do.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Counting the best scores rather than all of them encourages attempting
+      difficult tricks, because a failure costs nothing beyond the attempt.
+      The sport wanted competitors trying things rather than protecting a
+      score.
+  citation:
+    source: world-skate-rules
+    edition: World Skate Olympic format, 2021
+    missing: true
+  comparability_break: null
+
+- id: worldskate-2024-criteria-revision
+  scope: { sport: skateboarding, discipline: all }
+  date_adopted: 2023
+  date_effective: 2024
+  status: adopted
+  governing_body: World Skate
+  what_changed: >
+    Judging criteria and score weightings were revised between the 2020 and
+    2024 Games, adjusting how difficulty, consistency and use of the course
+    contribute to an impression score.
+
+    Skateboarding has revised its judging between every Olympic cycle it has
+    contested.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Holistic judging without a published table is harder to keep consistent
+      between judges and between events, and the federation has been tuning it
+      since the sport's first Games.
+    also_said: >
+      Sport climbing rewrote its Olympic format between the same two Games,
+      and breaking's was used once. The three newest sports on this site have
+      all found their scoring unstable.
+  citation:
+    source: world-skate-rules
+    edition: World Skate judging criteria, 2024
+    missing: true
+  comparability_break: skateboarding-scores

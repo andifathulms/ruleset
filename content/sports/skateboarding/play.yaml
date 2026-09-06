@@ -1,0 +1,125 @@
+sport: skateboarding
+as_of: 2026-09
+edition: World Skate Skateboarding Rulebook
+source: world-skate-rules
+standing: primary-named
+summary: >
+  Perform tricks on a course and be judged on the impression the whole thing
+  makes. Skateboarding has fewer rules than anything else on this site — no
+  difficulty table, no element list, no required moves — and the absence is
+  deliberate.
+
+sections:
+  - id: object
+    label: The object of the competition
+    body: >
+      Score higher than the other skaters. What is being assessed is the
+      difficulty of what was attempted, how cleanly it was executed, the
+      variety, the flow of a run, how the course was used, and consistency
+      across attempts — all together, as one number.
+
+      There is no list of what anything is worth.
+
+  - id: field
+    label: The course
+    body: >
+      **Street** replicates urban architecture: stairs, handrails, ledges,
+      banks. **Park** is a bowl of transitions and curves. Both are designed
+      fresh for each competition, so no two events use the same field of play.
+
+      That is the same situation surfing and sport climbing are in, and the
+      opposite of gymnastics, whose apparatus is specified precisely so
+      difficulty values can mean the same thing twice.
+    facts:
+      - { label: Street, value: Stairs, rails, ledges }
+      - { label: Park, value: Bowl with transitions }
+      - { label: Course, value: Designed per competition }
+
+  - id: equipment
+    label: The board
+    body: >
+      Almost unregulated. Deck dimensions, wheels and trucks are a skater's
+      choice, and no specification meaningfully constrains them.
+
+      Protective equipment is required for younger competitors and optional at
+      senior level, which is unusual — most sports here either mandate
+      protection or forbid it, and skateboarding leaves it to the athlete.
+    facts:
+      - { label: Board, value: Unregulated dimensions }
+      - { label: Helmet, value: Required for juniors, optional at senior level }
+
+  - id: players
+    label: Skaters and judges
+    body: >
+      Individual competition. A panel of judges awards impression scores, with
+      the highest and lowest discarded — the standard defence of a judged
+      sport, used here as it is in gymnastics, diving and surfing.
+
+      What the judges do not have is a table. They are skaters, and the system
+      relies on their shared understanding of what is hard rather than on a
+      published document.
+    facts:
+      - { label: Judges, value: A panel, with high and low discarded }
+      - { label: Difficulty table, value: None }
+    shaped_by: [worldskate-holistic-judging]
+
+  - id: duration
+    label: Format
+    body: >
+      In street: two runs and five single tricks, with the best four of those
+      seven scores counting. In park: three runs, best one counting.
+
+      Counting only the best scores is deliberate. A failed trick costs
+      nothing beyond the attempt, so a skater is encouraged to try the hardest
+      thing they have rather than protect a score — which is the opposite of
+      how gymnastics' deductions work.
+    facts:
+      - { label: "Street", value: 2 runs and 5 tricks, best 4 count }
+      - { label: "Park", value: 3 runs, best counts }
+    shaped_by: [worldskate-2020-format]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      One number out of 100 per run or trick, awarded holistically.
+
+      This is skateboarding's defining decision and the reason it is on this
+      site. Every other judged sport here prices its elements. Skateboarding
+      refused, because its culture does not accept that a trick has a fixed
+      value independent of where and how it was done — a kickflip down a
+      twelve-stair and the same kickflip on flat ground are not the same
+      achievement, and no table captures that.
+
+      The cost is transparency. A score cannot be explained component by
+      component, and judging disputes cannot be settled by pointing at a
+      document.
+    facts:
+      - { label: Score, value: Out of 100 }
+      - { label: Components, value: Not separately published }
+      - { label: Criteria, value: Revised between Games }
+    shaped_by: [worldskate-holistic-judging, worldskate-2024-criteria-revision]
+
+  - id: restarts
+    label: Runs and attempts
+    body: >
+      A run is a continuous timed attempt at the course. A trick attempt is a
+      single effort at one manoeuvre. A fall ends the run or the attempt, and
+      the skater takes the next one.
+
+      There is no penalty for falling beyond losing that score, which is what
+      makes the best-of format work.
+
+  - id: prohibitions
+    label: Rules of conduct
+    body: >
+      Very few. Time limits on runs, course boundaries, and conduct
+      requirements. There are no forbidden tricks and no compulsory elements,
+      which distinguishes skateboarding from every other judged sport on this
+      site — gymnastics requires elements from specified groups, diving
+      requires a declared list.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The highest total of counting scores. No tiebreak beyond further scores,
+      and no draw.

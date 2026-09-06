@@ -1,0 +1,83 @@
+sport: skateboarding
+standing: editorial
+summary: >
+  Almost free to start, extremely painful to progress in, and the only sport
+  here whose learning process happens mostly in public space rather than in any
+  facility or club.
+
+entry:
+  verdict: very-low
+  claim: A board and a pavement. Nothing else, and nobody's permission.
+  why: >
+    Skateboarding needs one object and any hard flat surface. There is no
+    club to join, no coach required, no session to book and no opponent. It is
+    among the cheapest sports on this site to begin and the most independent of
+    institutions.
+
+    That independence is the point culturally as well as practically.
+    Skateboarding developed in public space, transmitted through peers and
+    video rather than through coaching structures, and the arrival of a
+    governing body in 2017 did not change how anyone learns.
+
+    What is genuinely hard is that progress hurts. Learning tricks involves
+    falling repeatedly onto concrete, and the attrition is physical rather than
+    financial.
+  evidence:
+    - { label: Kit to start, value: A board, basis: observation }
+    - { label: Facility, value: Any flat surface, basis: observation }
+    - { label: Coach needed, value: "No", basis: judgement }
+    - { label: Partner required, value: "No", basis: observation }
+    - { label: Time to roll and turn, value: One session, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Judged holistically on a course nobody has seen before, against criteria that keep changing.
+  why: >
+    The physical demand is a consistency demand. Elite tricks require a
+    repeatable movement performed on a surface that differs at every
+    competition, and the injury cost of practising them is high and cumulative
+    — ankles, knees, wrists.
+
+    The competitive ceiling is unusual in that it is not fully described
+    anywhere. There is no difficulty table, so a skater cannot compute what
+    would win; they have to know what a panel of skaters will regard as hard,
+    which is cultural knowledge rather than published information.
+
+    And the criteria have been revised between each of the two Games the sport
+    has contested, so what the judges reward has not held still for a full
+    cycle.
+  evidence:
+    - label: Holistic scoring
+      value: No difficulty table
+      basis: rule
+      rule: worldskate-holistic-judging
+      note: The only judged sport here that declined to price its elements.
+    - label: Criteria revised
+      value: Between 2020 and 2024
+      basis: rule
+      rule: worldskate-2024-criteria-revision
+    - label: Best scores count
+      value: Failed attempts cost nothing
+      basis: rule
+      rule: worldskate-2020-format
+      note: Encourages attempting the hardest available trick.
+    - { label: Typical peak age, value: 18–26, basis: judgement, note: Among the youngest here, and the injury profile is why. }
+
+gap: >
+  Skateboarding has the widest gap available — very low to very high — and it
+  shares that shape with breaking, for the same reasons: no equipment barrier,
+  no facility barrier, no gatekeeper, and an elite standard set by cultural
+  consensus rather than by a published document.
+
+  The two sports diverge on what they did about it. Breaking built Trivium, a
+  comparative system that avoids assigning absolute values. Skateboarding kept
+  absolute scores and refused to publish what they are made of.
+
+  Both are refusals to invent a difficulty table, arrived at independently, by
+  the two sports on this site whose cultures most resemble each other. One kept
+  its Olympic place and one did not, and nothing about the scoring explains
+  which.
+
+shaped_by:
+  - worldskate-holistic-judging
+  - worldskate-2024-criteria-revision
