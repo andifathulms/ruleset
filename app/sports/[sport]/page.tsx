@@ -17,7 +17,7 @@ import LearningCurve from '@/components/LearningCurve'
 import EventTree from '@/components/EventTree'
 import {
   getCauses, getEvents, getImageForSport, getLearning, getLenses, getPlay,
-  getProgram, getRuleChanges, getSections, getSeriesForSport, getSourceMap,
+  getProgram, getProgrammes, getRuleChanges, getSections, getSeriesForSport, getSourceMap,
   getSport, getSportIds,
 } from '@/lib/content'
 
@@ -109,6 +109,12 @@ export default function SportPage({ params }: { params: { sport: string } }) {
   const events = getEvents(params.sport)
   const lenses = getLenses()
   const program = getProgram().sports.find((s) => s.id === params.sport)
+  /* The other programmes that list this sport. A sport's standing used to be
+     a single Olympic fact, which said nothing about the squash contested at
+     the World Games for decades while the Games kept turning it down. */
+  const alsoOn = getProgrammes()
+    .filter((p) => p.id !== 'olympic' && p.sports.some((s) => s.id === params.sport))
+    .map((p) => p.short)
   const c = COLOUR[sport.family_colour] ?? COLOUR.unmarked
 
   const ruleYears = rules.map((r) => Number(r.date_effective.slice(0, 4)))
@@ -306,7 +312,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
 
   return (
     <article>
-      {/* 1. Identity, governing body, current status in the Olympic programme. */}
+      {/* 1. Identity, governing body, current standing on the programmes. */}
       <header className="relative overflow-hidden border-b chalk-rule">
         <div aria-hidden className="court-grid court-grid-fade absolute inset-0" />
         <div
@@ -357,20 +363,24 @@ export default function SportPage({ params }: { params: { sport: string } }) {
           </div>
 
           <Reveal delay={200}>
-            <dl className="mt-12 grid gap-px border chalk-rule bg-chalk/[0.08] sm:grid-cols-2 lg:grid-cols-4">
+            <dl className="mt-12 grid gap-px border chalk-rule bg-chalk/[0.08] sm:grid-cols-2 lg:grid-cols-5">
               <Fact term="Governing body" value={sport.governing_body} />
               <Fact term="Founded" value={sport.founded ?? 'Not recorded'} />
               <Fact
                 term="Olympic status"
                 value={
                   program
-                    ? `${program.held.length} editions${
+                    ? `${program.held.length} edition${program.held.length === 1 ? '' : 's'}${
                         program.held.includes(2028)
                           ? ', on the 2028 programme'
                           : ', not on the 2028 programme'
                       }`
                     : 'Not on the Olympic programme'
                 }
+              />
+              <Fact
+                term="Also contested at"
+                value={alsoOn.length ? alsoOn.join(', ') : 'No other programme here'}
               />
               <Fact term="Rule changes recorded" value={String(rules.length)} numeral />
             </dl>

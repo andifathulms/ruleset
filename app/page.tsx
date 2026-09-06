@@ -4,7 +4,8 @@ import BreakDiagram from '@/components/BreakDiagram'
 import { Counter, Reveal } from '@/components/Motion'
 import { BREAK_KIND_LABEL } from '@/lib/series'
 import {
-  getAllRuleChanges, getAllSeries, getCauses, getLenses, getProgram, getSources, getSports,
+  getAllRuleChanges, getAllSeries, getCauses, getLenses, getProgram, getProgrammes, getSources,
+  getSports,
 } from '@/lib/content'
 
 const COLOUR: Record<string, { base: string; bright: string }> = {
@@ -32,6 +33,11 @@ export default function Home() {
   const sports = getSports()
   const sources = getSources()
   const program = getProgram()
+  /* Every sport listed on any programme, deduplicated: several appear on all
+     three, and a sport counted twice would overstate the skeleton layer. */
+  const programmeSports = new Set(
+    getProgrammes().flatMap((p) => p.sports.map((s) => s.id)),
+  ).size
   const deep = sports.filter((s) => s.coverage === 'deep')
   const broken = series.flatMap(({ sport, series: x }) => x.breaks.map((brk) => ({ sport, series: x, brk })))
   const kinds = Array.from(new Set(broken.map((b) => b.brk.kind)))
@@ -124,9 +130,9 @@ export default function Home() {
               <Stat n={deep.length} label="sports researched" sub="every family covered" />
               <Stat n={broken.length} label="comparability breaks" sub={`${kinds.length} kinds`} />
               <Stat
-                n={program.sports.length}
-                label="sports on the programme"
-                sub="status data only"
+                n={programmeSports}
+                label="sports on a programme"
+                sub="Olympic, Asian, World"
               />
             </dl>
           </Reveal>

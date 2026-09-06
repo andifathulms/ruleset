@@ -3,12 +3,12 @@ import type { Metadata } from 'next'
 import MiniLane from '@/components/MiniLane'
 import { Reveal } from '@/components/Motion'
 import {
-  getAllRuleChanges, getAllSeries, getProgram, getSports,
+  getAllRuleChanges, getAllSeries, getProgrammes, getSports,
 } from '@/lib/content'
 
 export const metadata: Metadata = {
   title: 'Sports',
-  description: 'Two layers, marked as such: the researched sports, and the rest of the Olympic programme as status data only.',
+  description: 'Two layers, marked as such: the researched sports, and the rest of the Olympic, Asian Games and World Games programmes as status data only.',
 }
 
 const COLOUR: Record<string, { base: string; bright: string }> = {
@@ -21,11 +21,31 @@ const COLOUR: Record<string, { base: string; bright: string }> = {
 
 export default function SportsIndex() {
   const deep = getSports()
-  const program = getProgram()
   const rules = getAllRuleChanges()
   const series = getAllSeries()
-  const skeletonOnly = program.sports.filter((s) => s.coverage === 'skeleton')
-  const editions = program.editions.length
+  /* Across every programme, not only the Olympic one. Deduplicated by id,
+     because a sport uncovered here is uncovered once however many programmes
+     happen to list it. */
+  const skeletonOnly = [
+    ...new Map(
+      getProgrammes()
+        .flatMap((p) => p.sports)
+        .filter((s) => s.coverage === 'skeleton')
+        .map((s) => [s.id, s]),
+    ).values(),
+  ].sort((a, b) => a.label.localeCompare(b.label))
+
+  /* Which programmes each uncovered sport appears on. The bar used to be a
+     fraction of the Olympic editions, which is meaningless for a sport whose
+     only entered edition is one Asian Games — it read as 1 of 31 rather than
+     as "listed, on that programme". */
+  const listedOn = new Map<string, string[]>()
+  for (const p of getProgrammes()) {
+    for (const sport of p.sports) {
+      if (sport.coverage !== 'skeleton') continue
+      listedOn.set(sport.id, [...(listedOn.get(sport.id) ?? []), p.short])
+    }
+  }
   const span: [number, number] = [
     Math.min(...rules.map((r) => Number(r.date_effective.slice(0, 4)))) - 4,
     Math.max(...rules.map((r) => Number(r.date_effective.slice(0, 4)))) + 4,
@@ -42,8 +62,9 @@ export default function SportsIndex() {
           <Link href="/play/" className="link-paint text-chalk">
             laws in force
           </Link>{' '}
-          written out. The other {skeletonOnly.length} are present as Olympic
-          status data only and carry none of that authority.
+          written out. The other {skeletonOnly.length}, drawn from the Olympic,
+          Asian Games and World Games programmes, are present as status data
+          only and carry none of that authority.
         </p>
       </Reveal>
 
@@ -136,9 +157,9 @@ export default function SportsIndex() {
           </h2>
           <p className="prose-measure mt-4 text-fluid-base text-unmarked">
             Status and classification only. No rule research has been done on
-            these, and nothing here should be read as though it had. The bar is
-            how many of the {editions} editions each was contested at — the only
-            thing this site actually knows about them.
+            these, and nothing here should be read as though it had. Beside
+            each is the programme that lists it — the only thing this site
+            actually knows about them.
           </p>
         </Reveal>
 
@@ -152,14 +173,8 @@ export default function SportsIndex() {
                 <span className="min-w-0 flex-1 truncate text-[15px] text-unmarked transition-colors group-hover:text-chalk">
                   {s.label}
                 </span>
-                <span aria-hidden className="h-[3px] w-20 shrink-0 bg-chalk/[0.07]">
-                  <span
-                    className="block h-full bg-unmarked-bright/70 transition-colors group-hover:bg-chalk"
-                    style={{ width: `${(s.held.length / editions) * 100}%` }}
-                  />
-                </span>
-                <span className="numeral w-7 shrink-0 text-right text-[13px] text-unmarked">
-                  {s.held.length}
+                <span className="shrink-0 text-right text-[12px] text-unmarked/80">
+                  {(listedOn.get(s.id) ?? []).join(' · ')}
                 </span>
               </Link>
             </Reveal>
