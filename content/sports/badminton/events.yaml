@@ -1,0 +1,20 @@
+sport: badminton
+as_of: 2026-09
+source: bwf-laws-of-badminton
+standing: primary-named
+summary: >
+  One discipline and five events, which is the smallest programme of any sport
+  on this site. Badminton also has the only Olympic event in any sport where a
+  man and a woman compete as a team against another such team.
+disciplines:
+  - id: badminton
+    label: Badminton
+    blurb: >
+      The IOC treats badminton as a single discipline; the five events are
+      distinguished by who is on court, not by any change in the laws.
+    events:
+      - { id: ms, label: "Men's singles", olympic: true }
+      - { id: ws, label: "Women's singles", olympic: true }
+      - { id: md, label: "Men's doubles", olympic: true }
+      - { id: wd, label: "Women's doubles", olympic: true }
+      - { id: xd, label: Mixed doubles, olympic: true, note: "The only mixed-sex team event of its kind on the programme." }

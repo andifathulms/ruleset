@@ -1,0 +1,39 @@
+sport: swimming
+as_of: 2026-09
+source: world-aquatics-rules
+standing: primary-named
+summary: >
+  Swimming is one discipline of aquatics, which is the clearest illustration on
+  this site of why the IOC's three-level vocabulary is worth using. Aquatics is
+  the sport; swimming, diving, water polo, artistic swimming and open water are
+  its disciplines; the 100 m freestyle is an event.
+disciplines:
+  - id: pool
+    label: "Swimming, pool events"
+    blurb: >
+      Four strokes at a range of distances, plus medley and relays. Each is
+      contested by men and by women, and the mixed medley relay is contested by
+      both at once.
+    events:
+      - { id: free, count: 12, label: "Freestyle — 50, 100, 200, 400, 800, 1500 m", olympic: true, note: "A category, not a technique: any style is legal." }
+      - { id: back, count: 4, label: "Backstroke — 100, 200 m", olympic: true }
+      - { id: breast, count: 4, label: "Breaststroke — 100, 200 m", olympic: true }
+      - { id: fly, count: 4, label: "Butterfly — 100, 200 m", olympic: true, note: "Split off from breaststroke as its own event in 1952." }
+      - { id: im, count: 4, label: "Individual medley — 200, 400 m", olympic: true }
+      - { id: relays, count: 6, label: Freestyle and medley relays, olympic: true }
+      - { id: mixed, count: 1, label: Mixed medley relay, olympic: true, note: Two men and two women in one team. }
+  - id: open-water
+    label: Open water
+    events:
+      - { id: ow10k, count: 2, label: 10 km marathon swim, olympic: true }
+  - id: other-aquatics
+    label: Other disciplines of aquatics
+    counts: false
+    blurb: >
+      Governed by the same federation under the same rulebook's other sections.
+      They are not swimming, and this site does not cover their rules.
+    events:
+      - { id: diving, label: Diving, olympic: true }
+      - { id: waterpolo, label: Water polo, olympic: true }
+      - { id: artistic, label: Artistic swimming, olympic: true }
+      - { id: highdiving, label: High diving }

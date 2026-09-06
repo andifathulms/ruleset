@@ -1,0 +1,53 @@
+sport: gymnastics
+as_of: 2026-09
+source: fig-code-of-points
+standing: primary-named
+summary: >
+  Three Olympic disciplines under one federation, and they share a scoring
+  philosophy rather than any apparatus. Artistic is split into men's and
+  women's programmes that have four apparatus in common between them only in
+  the loosest sense — vault and floor — and are otherwise different sports.
+disciplines:
+  - id: artistic-men
+    label: "Artistic, men"
+    blurb: Six apparatus, plus the all-around and the team event.
+    events:
+      - { id: m-team, label: Team all-around, olympic: true }
+      - { id: m-aa, label: Individual all-around, olympic: true }
+      - { id: m-floor, label: Floor exercise, olympic: true }
+      - { id: m-pommel, label: Pommel horse, olympic: true }
+      - { id: m-rings, label: Rings, olympic: true }
+      - { id: m-vault, label: Vault, olympic: true }
+      - { id: m-pbars, label: Parallel bars, olympic: true }
+      - { id: m-hbar, label: Horizontal bar, olympic: true }
+  - id: artistic-women
+    label: "Artistic, women"
+    blurb: Four apparatus, plus the all-around and the team event.
+    events:
+      - { id: w-team, label: Team all-around, olympic: true }
+      - { id: w-aa, label: Individual all-around, olympic: true }
+      - { id: w-vault, label: Vault, olympic: true }
+      - { id: w-ubars, label: Uneven bars, olympic: true }
+      - { id: w-beam, label: Balance beam, olympic: true }
+      - { id: w-floor, label: Floor exercise, olympic: true }
+  - id: rhythmic
+    label: Rhythmic
+    blurb: Women only on the Olympic programme, with hand apparatus.
+    events:
+      - { id: r-aa, label: Individual all-around, olympic: true }
+      - { id: r-group, label: Group all-around, olympic: true }
+  - id: trampoline
+    label: Trampoline
+    events:
+      - { id: t-men, label: "Men's individual", olympic: true }
+      - { id: t-women, label: "Women's individual", olympic: true }
+  - id: non-olympic
+    label: Contested by the federation but not at the Games
+    counts: false
+    blurb: >
+      The FIG also governs disciplines that have never been on the Olympic
+      programme, which is why its rulebook is larger than the Games suggests.
+    events:
+      - { id: acro, label: Acrobatic gymnastics }
+      - { id: aerobic, label: Aerobic gymnastics }
+      - { id: parkour, label: Parkour }

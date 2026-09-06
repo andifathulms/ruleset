@@ -1,0 +1,29 @@
+sport: football
+as_of: 2026-09
+source: ifab-laws-of-the-game
+standing: primary-named
+summary: >
+  Two Olympic events under one set of Laws, which is the most extreme case on
+  this site of a huge sport with a tiny programme. Football's competitive life
+  happens almost entirely outside the Games, and the Olympic men's tournament
+  is age-restricted for that reason — an eligibility rule imposed to stop it
+  competing with the World Cup.
+disciplines:
+  - id: football
+    label: Football
+    blurb: >
+      One discipline. The variants below share the Laws in modified form and
+      are governed by FIFA, but none is a separate Olympic discipline.
+    events:
+      - { id: men, label: "Men's tournament", olympic: true, note: "Age-restricted, with a limited number of older players per squad." }
+      - { id: women, label: "Women's tournament", olympic: true, note: No age restriction. }
+  - id: variants
+    label: Variants under modified Laws
+    counts: false
+    blurb: >
+      Recorded because they show what the Laws are load-bearing for: change the
+      number of players and the size of the pitch, and almost everything else
+      in the book still works.
+    events:
+      - { id: futsal, label: Futsal }
+      - { id: beach, label: Beach soccer }
