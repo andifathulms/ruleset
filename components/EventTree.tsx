@@ -52,7 +52,7 @@ export default function EventTree({
       <div className="mt-8 space-y-8">
         {events.disciplines.map((d) => (
           <section key={d.id}>
-            <h3 className="flex items-baseline gap-3 font-display text-2xl text-chalk">
+            <h4 className="flex items-baseline gap-3 font-display text-2xl text-chalk">
               <span aria-hidden className="h-2.5 w-2.5 shrink-0" style={{ background: colour.bright }} />
               {d.label}
               <span className="numeral text-[15px] text-unmarked">
@@ -60,7 +60,7 @@ export default function EventTree({
                   ? d.events.length
                   : d.events.reduce((m, e) => m + (e.count ?? 1), 0)}
               </span>
-            </h3>
+            </h4>
             {d.blurb && (
               <p className="prose-measure mt-2 text-[16px] text-chalk/75">{clean(d.blurb)}</p>
             )}

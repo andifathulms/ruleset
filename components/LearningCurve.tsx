@@ -52,7 +52,7 @@ export default function LearningCurve({
 
       <Reveal>
         <div className="mt-10 border-l-2 pl-5" style={{ borderColor: colour.bright }}>
-          <h3 className="font-display text-2xl text-chalk">Why the two differ</h3>
+          <h4 className="font-display text-2xl text-chalk">Why the two differ</h4>
           <div className="prose-measure mt-3 space-y-4 text-[16px] text-chalk/85">
             {paragraphs(learning.gap).map((p, i) => (
               <p key={i}>{p}</p>
@@ -76,7 +76,7 @@ function Axis({
   return (
     <section className="bg-ink p-6 sm:p-7">
       <p className="text-[13px] uppercase tracking-[0.14em] text-unmarked">{heading}</p>
-      <h3 className="mt-1 font-display text-fluid-h3 text-chalk">{question}</h3>
+      <h4 className="mt-1 font-display text-fluid-h3 text-chalk">{question}</h4>
 
       <Scale verdict={axis.verdict} colour={colour} />
 
@@ -88,7 +88,7 @@ function Axis({
         ))}
       </div>
 
-      <h4 className="mt-6 text-[13px] uppercase tracking-[0.14em] text-unmarked">Evidence</h4>
+      <h5 className="mt-6 text-[13px] uppercase tracking-[0.14em] text-unmarked">Evidence</h5>
       <ul className="mt-2 divide-y divide-chalk/10 border-t chalk-rule">
         {axis.evidence.map((e, i) => (
           <EvidenceRow key={`${e.label}-${i}`} evidence={e} rule={e.rule ? ruleMap[e.rule] : undefined} />

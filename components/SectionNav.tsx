@@ -33,6 +33,14 @@ export default function SectionNav({ items }: { items: NavItem[] }) {
     }
   }, [])
 
+  // The strip is wider than a laptop viewport once the acts are in it, so the
+  // section you are reading has to be scrolled into the strip, or the last act
+  // is never seen.
+  useEffect(() => {
+    const el = bar.current?.querySelector(`a[href="#${active}"]`)
+    el?.scrollIntoView({ block: 'nearest', inline: 'nearest', behavior: 'smooth' })
+  }, [active])
+
   useEffect(() => {
     const targets = items
       .map((i) => document.getElementById(i.id))
@@ -62,13 +70,28 @@ export default function SectionNav({ items }: { items: NavItem[] }) {
       style={{ top: 'var(--header-h, 56px)' }}
       className="sticky z-30 border-b chalk-rule bg-ink/85 backdrop-blur-xl"
     >
+      {/* Says the strip continues, rather than letting the last act look absent. */}
+      <span
+        aria-hidden
+        className="pointer-events-none absolute inset-y-0 right-0 z-10 w-14 bg-gradient-to-l from-ink to-transparent"
+      />
       <ul className="mx-auto flex max-w-[86rem] gap-x-1 overflow-x-auto px-5 py-1.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-        {items.map((item) => (
+        {items.map((item, i) => (
           <li key={item.id} className="flex shrink-0 items-center">
-            {item.act && (
-              <span className="ml-3 mr-2 border-l chalk-rule pl-3 text-[11px] uppercase tracking-[0.16em] text-unmarked first:ml-0 first:border-l-0 first:pl-0">
-                {item.act}
-              </span>
+            {/*
+              A group opens with a rule, not with its name. Spelling the three
+              act names out here cost a third of the strip's width and pushed
+              the last act off the end of a laptop screen, and set in the same
+              row as the links they read as links. The names are already stated
+              at full size on the act headings in the page; the strip only has
+              to show where one group ends and the next begins.
+            */}
+            {item.act && i > 0 && (
+              <span
+                aria-hidden
+                className="mx-3 h-4 w-px shrink-0 bg-chalk/25"
+                title={item.act}
+              />
             )}
             <a
               href={`#${item.id}`}

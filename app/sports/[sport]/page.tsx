@@ -284,13 +284,16 @@ export default function SportPage({ params }: { params: { sport: string } }) {
   /* The nav strip is one line that scrolls; a section title that reads well as
      a heading — "Controversies that forced rule changes" — is too long for it. */
   const NAV_SHORT: Record<string, string> = {
+    play: 'The laws',
+    geography: 'Geography',
+    learning: 'Learning',
+    rules: 'Rule timeline',
+    contested: 'Contested',
     origin: 'Origin',
     equipment: 'Equipment',
     politics: 'Politics',
     controversies: 'Controversies',
     officiating: 'Officiating',
-    geography: 'Where it is played',
-    contested: 'Contested now',
     events: 'Events',
   }
   const nav = acts.flatMap((group) =>
@@ -412,10 +415,23 @@ export default function SportPage({ params }: { params: { sport: string } }) {
         {acts.map((act) => (
           <div key={act.title}>
             <Reveal>
-              <h2 className="mt-24 flex items-baseline gap-4 text-[13px] uppercase tracking-[0.2em] text-unmarked">
-                {act.title}
-                <span aria-hidden className="h-px flex-1 bg-chalk/12" />
-                <span className="numeral text-[13px]">{act.blurb}</span>
+              {/* With the act names out of the nav strip, this is the only
+                  place the grouping is stated, so it is drawn as a division of
+                  the page rather than as a caption above one. */}
+              <h2 className="mt-28 border-t-2 pt-5" style={{ borderColor: `${c.bright}55` }}>
+                <span className="flex flex-wrap items-baseline gap-x-5 gap-y-1">
+                  <span
+                    className="font-display text-[26px] uppercase tracking-[0.14em]"
+                    style={{ color: c.bright }}
+                  >
+                    {act.title}
+                  </span>
+                  <span className="text-[15px] text-unmarked">{act.blurb}</span>
+                  <span aria-hidden className="h-px flex-1 bg-chalk/12" />
+                  <span className="numeral text-[13px] text-unmarked">
+                    {act.sections.length} sections
+                  </span>
+                </span>
               </h2>
             </Reveal>
             {act.sections.map((item) => (
@@ -477,13 +493,16 @@ function Section({
   return (
     <section id={id} className="mt-20 scroll-anchor">
       <Reveal>
-        <h2 className="mb-8 flex items-baseline gap-5 font-display text-fluid-h2 text-chalk">
+        {/* h3, not h2: these sit under the act heading that opens their
+            group, and a flat run of h2s hid the grouping from a screen reader
+            exactly as the missing divider hid it from the eye. */}
+        <h3 className="mb-8 flex items-baseline gap-5 font-display text-fluid-h2 text-chalk">
           <span className="numeral text-[18px]" style={{ color: colour }}>
             {String(n).padStart(2, '0')}
           </span>
           {title}
           <span aria-hidden className="h-px flex-1 bg-chalk/[0.12]" />
-        </h2>
+        </h3>
       </Reveal>
       <Reveal delay={80}>
         {reading ? (
