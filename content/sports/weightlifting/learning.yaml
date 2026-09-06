@@ -1,0 +1,84 @@
+sport: weightlifting
+standing: editorial
+summary: >
+  Two lifts, no opponent, no tactics on the platform and no judgement about
+  anything except whether the bar was held still. Weightlifting looks like the
+  simplest sport on this site and has one of the highest technical barriers,
+  because the two movements are among the fastest and most coordinated things
+  a human body can be asked to do.
+
+entry:
+  verdict: high
+  claim: Nobody can snatch on their first day, and attempting to is how people get hurt.
+  why: >
+    The snatch takes a loaded bar from the floor to locked arms overhead in a
+    single movement, and it requires shoulder and ankle mobility most adults do
+    not have, timing that takes months, and a catch position that punishes
+    error immediately. Coaches routinely spend weeks on the movement with an
+    empty bar or a broomstick before adding weight.
+
+    That is a genuine barrier and it is unlike almost everything else here. A
+    beginner can play bad football, bad basketball or bad table tennis on day
+    one. There is no bad snatch that is still a snatch.
+
+    What offsets it is cost and access: a barbell, plates and a platform, and
+    the sport has no facility requirement beyond a room with a solid floor.
+  evidence:
+    - { label: Kit to start, value: A bar and plates, basis: observation }
+    - { label: Coach needed, value: "Yes", basis: judgement, note: Both for technique and because the catch position is unforgiving. }
+    - { label: Facility, value: A platform, basis: observation }
+    - { label: Time to a competent snatch, value: Months, basis: judgement }
+    - { label: Attempts per lift, value: "3", basis: observation, note: And the weight may only go up, so there is no easy fallback. }
+
+mastery:
+  verdict: very-high
+  claim: A physical outlier in a category whose boundaries the sport has redrawn twice.
+  why: >
+    Elite weightlifting selects for a narrow combination of leverage, power and
+    mobility, and within a bodyweight category it selects for it very sharply.
+    The sport is contested at a made weight, so the top of it also involves the
+    same cutting practices that judo and boxing have, with the same
+    inadequately regulated health consequences.
+
+    What is particular to this sport is that the frame of comparison itself has
+    moved. A lifter's career is measured against a category, and the categories
+    were completely redrawn in 1993 and again in 2018, annulling every world
+    record both times. An athlete who set a record in 2017 held a world record
+    in a division that no longer existed a year later.
+
+    No other sport on this site has done that to its athletes twice.
+  evidence:
+    - label: World records annulled
+      value: 1993 and 2018
+      basis: rule
+      rule: iwf-1993-categories-redrawn
+      note: Every record in the sport, twice, for substantially the same reason.
+    - label: Categories redrawn again
+      value: "2018"
+      basis: rule
+      rule: iwf-2018-categories-redrawn-again
+    - label: The press
+      value: Abolished 1973
+      basis: rule
+      rule: iwf-1973-press-abolished
+      note: A whole lift removed because it could not be judged consistently.
+    - { label: Typical peak age, value: 24–30, basis: judgement }
+    - { label: Typical age of specialisation, value: 12–16, basis: judgement }
+
+gap: >
+  Weightlifting is one of the few sports here that is hard at both ends, and it
+  shares that shape with gymnastics for the same underlying reason: the
+  beginner's version of the movement is the elite version of the movement, only
+  lighter. There is no simplified game to start with.
+
+  Where it stands alone is the instability of what mastery is measured against.
+  Judo changed which techniques were legal three times in a decade and this
+  site called that a moving target. Weightlifting changed who its athletes were
+  competing against, and did it by annulling every number the sport had. Twice.
+  A lifter cannot be compared with the generation before them, and after 2018,
+  cannot be compared with the generation five years before them either.
+
+shaped_by:
+  - iwf-1993-categories-redrawn
+  - iwf-2018-categories-redrawn-again
+  - iwf-1973-press-abolished

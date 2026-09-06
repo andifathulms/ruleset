@@ -1,0 +1,116 @@
+sport: modern-pentathlon
+as_of: 2026-09
+edition: UIPM Competition Rules
+source: uipm-rules
+standing: primary-named
+summary: >
+  Fence, swim, ride and then run while shooting, in one day, scored on a common
+  points table. Modern pentathlon is the only sport on this site assembled from
+  other sports on purpose, and the only one where the question "what is this
+  sport" has a documented answer that the federation has now overruled: de
+  Coubertin built it to test the skills a nineteenth-century cavalry officer
+  would need behind enemy lines.
+
+sections:
+  - id: object
+    label: The object of the competition
+    body: >
+      Accumulate the most points across the disciplines. Since 2009 the final
+      discipline is a handicap race — competitors start with a stagger set by
+      their points so far — so the winner is simply whoever crosses the line
+      first, and the arithmetic is resolved before the last event rather than
+      after it.
+
+  - id: field
+    label: Where it happens
+    body: >
+      A fencing piste, a 200 m swimming pool, a show jumping arena and a
+      combined running and shooting course, historically across a whole day and
+      several venues. Since 2024 the Olympic competition is compressed into a
+      single ninety-minute final in one place.
+    facts:
+      - { label: Swim, value: 200 m freestyle }
+      - { label: Fence, value: Épée, one hit }
+      - { label: Combined event, value: Running loops with shooting bouts }
+      - { label: Olympic final, value: 90 minutes }
+    shaped_by: [uipm-2024-laser-run-format]
+
+  - id: equipment
+    label: Equipment
+    body: >
+      Épée for the fencing, and a laser pistol for the shooting. The pistol
+      stopped firing a projectile in 2011, which removed the range, the
+      backstop, the licence and the ammunition from the sport in one change —
+      the single largest reduction in staging cost anywhere on this site.
+
+      Until 2028 there is also a horse, and the horse is not the competitor's.
+      It is drawn by lot from a pool provided by the organiser, and the rider
+      has twenty minutes to get to know it before jumping.
+    facts:
+      - { label: Pistol, value: Laser, since 2011 }
+      - { label: Weapon, value: Épée }
+      - { label: Horse, value: Drawn by lot, until 2028 }
+      - { label: Warm-up with the horse, value: 20 minutes }
+    shaped_by: [uipm-2011-laser-pistols, uipm-2022-riding-removed]
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      Individual competition, with a small field by Olympic standards. Each
+      discipline is officiated by its own specialists — fencing judges, swim
+      officials, show jumping judges — which makes modern pentathlon the only
+      sport here that borrows its entire officiating apparatus from other
+      sports.
+
+  - id: duration
+    label: Format
+    body: >
+      Historically a full day. Since 2024 the Olympic final runs ninety
+      minutes, which is the clearest single statement of what has been driving
+      this sport's rule changes for fifteen years: it is competing for its place
+      on the programme against criteria that include cost and audience.
+    shaped_by: [uipm-2024-laser-run-format]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Each discipline converts to points on a table the federation writes, and
+      the totals set the stagger for the final handicap race. That means the
+      conversion tables are a rule, and a consequential one: changing how many
+      points a second of swimming is worth changes which athlete wins.
+
+      Because the score is a sum over a set of disciplines, changing the set
+      changes the quantity. The sport has done that twice — merging shooting
+      and running in 2009, and removing riding from 2028.
+    facts:
+      - { label: Scoring, value: Points table across disciplines }
+      - { label: Final event, value: Handicap start }
+      - { label: Disciplines scored, value: "4 since 2009" }
+    shaped_by: [uipm-2009-combined-event, uipm-2022-riding-removed]
+
+  - id: restarts
+    label: Between disciplines
+    body: >
+      Each discipline runs to its own rules and is scored independently, and
+      the competitor carries their points forward. There is no restart in the
+      usual sense; there are four separate competitions and one arithmetic.
+
+  - id: prohibitions
+    label: Penalties
+    body: >
+      Each discipline brings its own: fencing's rules on hits and priority,
+      swimming's stroke and turn rules, show jumping's faults for refusals and
+      knockdowns, and time penalties in the combined event.
+
+      The riding rules carried one obligation that this sport's recent history
+      turns on entirely: the treatment of a horse the competitor did not choose
+      and had twenty minutes to learn.
+    shaped_by: [uipm-2022-riding-removed]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      First across the line in the combined event, which since 2009 means the
+      handicap has already done the arithmetic. Before 2009 it meant totalling
+      five scores and announcing the answer.
+    shaped_by: [uipm-2009-combined-event]

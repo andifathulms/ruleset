@@ -1,0 +1,122 @@
+sport: weightlifting
+as_of: 2026-09
+edition: IWF Technical and Competition Rules and Regulations
+source: iwf-technical-rules
+standing: primary-named
+summary: >
+  Lift a loaded barbell from the floor to overhead, twice, in two prescribed
+  ways. Weightlifting has the simplest object of any sport on this site and one
+  of the most complicated rulebooks, because almost everything in it is about
+  who a lifter is allowed to be compared with and in what order they are
+  allowed to attempt.
+
+sections:
+  - id: object
+    label: The object of the competition
+    body: >
+      Total the heaviest successful snatch and the heaviest successful clean
+      and jerk. Three attempts at each, and the weight may only go up — a
+      lifter who fails an attempt does not get an easier one.
+
+      That last rule is what makes the sport tactical. A lifter is not simply
+      trying to lift as much as possible; they are choosing numbers against
+      opponents whose choices they can see, knowing that a miss cannot be
+      taken back.
+
+  - id: field
+    label: The platform
+    body: >
+      A four-metre square. Stepping off it invalidates the lift. That is
+      essentially the whole of the venue specification, which makes
+      weightlifting the least spatially regulated sport here.
+    facts:
+      - { label: Platform, value: 4 × 4 m }
+      - { label: Attempts per lift, value: "3" }
+      - { label: Weight may, value: Only increase }
+
+  - id: equipment
+    label: Barbell and kit
+    body: >
+      A specified bar and calibrated plates, colour-coded by weight so that a
+      spectator and a judge can read the load from a distance. The lifter's
+      equipment is regulated mainly by what it may not do: a belt within a
+      width limit, wraps within a length limit, and a singlet that leaves the
+      knees and elbows visible so the judges can see whether the lift was
+      pressed out.
+    facts:
+      - { label: "Bar, men", value: 20 kg }
+      - { label: "Bar, women", value: 15 kg }
+      - { label: Smallest increment, value: 1 kg }
+      - { label: Belt width, value: 12 cm max }
+
+  - id: players
+    label: Lifters and officials
+    body: >
+      Lifters compete within a bodyweight category, established at a weigh-in
+      before the session. Three referees judge each attempt by majority, and
+      their decision is about the movement rather than the weight: was the bar
+      brought overhead in the prescribed manner, was it fixed, was there a
+      press-out.
+
+      Those categories are the sport's central instrument and its central
+      problem. They have been redrawn twice in a way that annulled every record
+      in the sport.
+    shaped_by: [iwf-1993-categories-redrawn, iwf-2018-categories-redrawn-again]
+
+  - id: duration
+    label: Format
+    body: >
+      One session, snatch first and then clean and jerk, with lifters called to
+      the platform in ascending order of the weight they have declared. A
+      lifter following themselves gets two minutes; otherwise one.
+
+      There is no clock on the competition as a whole. Its length is a function
+      of how the coaches choose their attempts, which is why the attempt
+      sequence had to be formalised at all.
+    facts:
+      - { label: Lifts, value: Snatch, then clean and jerk }
+      - { label: Time per attempt, value: 1 min, or 2 following yourself }
+    shaped_by: [iwf-2005-two-minute-rule]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      The total of the best snatch and the best clean and jerk. A lifter who
+      fails all three snatches records no total and is out, regardless of what
+      they could have jerked — the sport does not average or partial-credit.
+
+      Until 1973 the total included a third lift, the clean and press, so no
+      total recorded before that year is the same measurement as one recorded
+      after it.
+    facts:
+      - { label: Total, value: Best snatch + best clean and jerk }
+      - { label: Failing all three snatches, value: No total }
+      - { label: Ties, value: Broken by bodyweight, then by attempt order }
+    shaped_by: [iwf-1973-press-abolished]
+
+  - id: restarts
+    label: Attempts
+    body: >
+      A declared weight may be changed twice before the lifter is called, which
+      turns the warm-up room into a game of concealed information between
+      coaches. There is no restart within an attempt: once the bar leaves the
+      floor, the lift is being judged.
+
+  - id: prohibitions
+    label: No lift
+    body: >
+      Pressing out — continuing to push the bar after the arms have begun to
+      extend — is the most contested call, and it is the same judgement problem
+      that caused the press to be abolished in 1973. Also: touching the
+      platform with anything but the feet, failing to hold the bar motionless
+      overhead, lowering it before the referees' signal, and stepping off the
+      platform.
+    shaped_by: [iwf-1973-press-abolished]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The highest total within the category. Ties go to the lighter lifter, and
+      then to whoever reached the weight first — so a lifter can win by having
+      declared more boldly earlier, which is the only place in this sport where
+      tactics beat strength outright.

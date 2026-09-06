@@ -1,0 +1,82 @@
+sport: modern-pentathlon
+standing: editorial
+summary: >
+  The highest entry barrier on this site by a wide margin, and it is not close.
+  Modern pentathlon requires competence in four separate sports, one of which
+  needs a swimming pool, one a fencing club, and one — until 2028 — a horse.
+  Nobody stumbles into this sport.
+
+entry:
+  verdict: very-high
+  claim: Four sports, four facilities, four coaches, and a horse you do not own.
+  why: >
+    Every other sport here can be started with one facility and one skill.
+    Modern pentathlon needs a pool, a piste, a range and, until 2028, an
+    equestrian centre — and enough competence in each that the combination is
+    worth entering. There is no casual version and no informal version. A
+    beginner cannot practise modern pentathlon; they can only practise its
+    components.
+
+    Riding is the specific barrier, and the sport has known it for decades.
+    Access to horses is expensive, geographically limited and socially narrow,
+    and the discipline's removal from 2028 is defended partly on exactly that
+    ground. Obstacle racing needs a frame and a field.
+  evidence:
+    - { label: Sports required, value: "4", basis: observation, note: Five before 2009. }
+    - { label: Facilities required, value: Pool, piste, range, arena, basis: observation }
+    - { label: Riding removed, value: From 2028, basis: rule, rule: uipm-2022-riding-removed, note: The single largest reduction in this sport's entry barrier. }
+    - { label: Pistol, value: Laser since 2011, basis: rule, rule: uipm-2011-laser-pistols, note: Removed the licence, the range and the ammunition. }
+    - { label: Time to a first competition, value: Years, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Elite in nothing, excellent in four things, and the sport keeps changing which four.
+  why: >
+    A pentathlete would not qualify for an Olympic final in any of their
+    component sports, and that is the point of the event rather than a
+    criticism of it. The demand is breadth held simultaneously: a swimmer's
+    aerobic base, a fencer's reactions, a rider's feel, a shooter's stillness
+    and a runner's endurance, in one body, on one day.
+
+    What makes the ceiling unusual is instability. A competitor who spent a
+    decade becoming good enough at riding to medal learned in 2022 that the
+    discipline would not exist by 2028. No athlete on this site has had a
+    quarter of their sport removed mid-career.
+
+    The scoring tables are the other moving part. Because each discipline
+    converts to points on a table the federation writes, the federation can
+    change what a second of swimming is worth relative to a fencing hit, and
+    with it who wins.
+  evidence:
+    - label: Riding deleted
+      value: Announced 2022, effective 2028
+      basis: rule
+      rule: uipm-2022-riding-removed
+      note: A discipline removed from a sport within a year of a televised incident.
+    - label: Five disciplines became four
+      value: "2009"
+      basis: rule
+      rule: uipm-2009-combined-event
+    - label: Olympic final compressed
+      value: 90 minutes
+      basis: rule
+      rule: uipm-2024-laser-run-format
+    - { label: Typical peak age, value: 24–30, basis: judgement }
+
+gap: >
+  Modern pentathlon is the only sport on this board that is very high at both
+  ends, and it is the clearest case of a barrier that is structural rather than
+  athletic. Nothing about the individual skills is beyond an ordinary person;
+  assembling access to four sports at once is.
+
+  It is also the sport with the least stable definition. Judo changed which
+  techniques win. Weightlifting changed who competes against whom. Modern
+  pentathlon changed what the sport is made of — twice — and will have replaced
+  a founding discipline with an unrelated one inside a single athlete's career.
+  Whether it is still the sport de Coubertin devised is a question the
+  federation has effectively answered no to, and it is worth noticing that no
+  other governing body here has had to face that question at all.
+
+shaped_by:
+  - uipm-2022-riding-removed
+  - uipm-2009-combined-event

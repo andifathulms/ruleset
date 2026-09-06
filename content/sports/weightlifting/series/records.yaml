@@ -1,0 +1,48 @@
+id: weightlifting-records
+label: World records across the two resets
+unit: kg
+absence_kind: impossible
+cannot_exist: >
+  There is no chart here, and the reason is different from every other absence
+  on this site.
+
+  A weightlifting world record is a weight lifted in a bodyweight category. The
+  weight is a real, comparable number — kilograms are kilograms. What has not
+  held still is the category. The classes were completely redrawn in 1993 and
+  again in 2018, so there is no bodyweight division that has existed
+  continuously for the sport's modern history, and a record has nowhere to live
+  across either line.
+
+  Even the heaviest class, which sounds as though it should be continuous, is
+  not: its lower bound has moved repeatedly, so the superheavyweight record of
+  1990 and of 2020 are records in different competitions that happen to share a
+  name.
+
+  And before both of those, the sport removed one of its three lifts. Every
+  total recorded before 1973 includes a press. Every total after it does not.
+
+  Athletics changed an implement and reset one event. Weightlifting changed the
+  definition of who is competing against whom, twice, and reset everything.
+segments: []
+breaks:
+  - at: 1973
+    caused_by: iwf-1973-press-abolished
+    kind: reset
+    note: >
+      A three-lift total and a two-lift total are not the same measurement. The
+      press records did not become worse or better; the event stopped existing.
+  - at: 1993
+    caused_by: iwf-1993-categories-redrawn
+    kind: reset
+    note: >
+      Every world record in the sport annulled at once, and a new list begun
+      from standards rather than from performances. No other federation here
+      has done this.
+  - at: 2018
+    caused_by: iwf-2018-categories-redrawn-again
+    kind: reset
+    note: >
+      The same instrument, twenty-five years later, for the same problem. That
+      it was needed twice is the strongest evidence available that the first
+      reset did not work.
+source: iwf-technical-rules

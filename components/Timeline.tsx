@@ -47,7 +47,16 @@ const PAD = { top: 54, right: 26, bottom: 30, left: 148 }
 export default function Timeline(props: TimelineProps) {
   const { rules, series, lenses, causes, sports } = props
 
-  const [lensId, setLensId] = useState(lenses[0]?.id ?? 'official')
+  /*
+    Adjudication, not the first lens in the file. The official grouping is one
+    sport to one lane and is now eighteen lanes tall, which is a bad first view
+    of a board whose point is the clustering. Adjudication is four lanes and,
+    by the site's own copy, "the lens that answers the question the timeline
+    exists to ask". The lens order in lenses.yaml still follows the PRD.
+  */
+  const [lensId, setLensId] = useState(
+    lenses.find((l) => l.id === 'adjudication')?.id ?? lenses[0]?.id ?? 'official',
+  )
   const [activeCauses, setActiveCauses] = useState<CauseId[]>([])
   const [range, setRange] = useState<[number, number] | null>(null)
   const [selected, setSelected] = useState<string | null>(null)

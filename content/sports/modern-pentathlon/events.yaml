@@ -1,0 +1,23 @@
+sport: modern-pentathlon
+as_of: 2026-09
+source: uipm-rules
+standing: primary-named
+summary: >
+  Two Olympic events and, uniquely on this site, a list of disciplines that is
+  about to change. From 2028 the fifth component is obstacle racing rather than
+  riding, so the sport's own definition of itself has a date attached.
+disciplines:
+  - id: events
+    label: Olympic events
+    events:
+      - { id: men, label: "Men's individual", olympic: true }
+      - { id: women, label: "Women's individual", olympic: true }
+  - id: components
+    label: The disciplines that make it up
+    counts: false
+    events:
+      - { id: fencing, label: Fencing, note: "Épée, one hit, round robin." }
+      - { id: swimming, label: Swimming, note: 200 m freestyle. }
+      - { id: riding, label: Riding, note: "Show jumping on a horse drawn by lot. Removed from 2028." }
+      - { id: laser-run, label: Laser run, note: "Running and shooting combined, since 2009. Contested as separate disciplines before that." }
+      - { id: obstacle, label: Obstacle racing, note: "Replaces riding from 2028." }

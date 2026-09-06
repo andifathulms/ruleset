@@ -1,0 +1,132 @@
+- id: iwf-1973-press-abolished
+  scope: { sport: weightlifting, discipline: all }
+  date_adopted: 1972
+  date_effective: 1973-01-01
+  status: adopted
+  governing_body: International Weightlifting Federation
+  what_changed: >
+    The clean and press was removed, leaving the snatch and the clean and jerk.
+    Weightlifting had been a three-lift sport since the 1920s and became a
+    two-lift one, so every total ever recorded ceased to describe the same
+    competition and the press records ceased to exist as a category.
+  cause_primary: fairness and eligibility
+  cause_secondary: integrity
+  trigger:
+    description: >
+      The press was supposed to be a strict overhead push from a stationary
+      position, and by the late 1960s lifters were leaning back so far and
+      driving with the legs so hard that the movement had become a slow jerk.
+      Judges could not apply the rule consistently, and the same lift was
+      passed at one competition and failed at another.
+    also_said: >
+      Removing an event rather than rewriting its definition was read by some
+      as the federation admitting it could not officiate its own sport. The
+      alternative reading is that no achievable definition existed.
+  citation:
+    source: iwf-technical-rules
+    edition: IWF Technical Rules, 1973
+    missing: true
+  comparability_break: weightlifting-records
+
+- id: iwf-1993-categories-redrawn
+  scope: { sport: weightlifting, discipline: all }
+  date_adopted: 1992
+  date_effective: 1993-01-01
+  status: adopted
+  governing_body: International Weightlifting Federation
+  what_changed: >
+    The bodyweight categories were completely redrawn and every world record in
+    the sport was annulled. The existing marks were retired as historical
+    figures and a new list was begun from scratch, initially as "world
+    standards" that a lifter had to exceed before a record could be set at all.
+  cause_primary: integrity
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      A large number of standing records dated from a period of widespread and
+      subsequently documented doping, and were regarded as unreachable by
+      lifters competing under a functioning testing regime. Redrawing the
+      categories annulled them without the federation having to adjudicate any
+      individual case.
+    also_said: >
+      It is described by supporters as a necessary reset and by critics as an
+      administrative device to erase results the federation could not otherwise
+      justify keeping or removing. Both readings are recorded.
+  citation:
+    source: iwf-technical-rules
+    edition: IWF Technical Rules, 1993
+    missing: true
+  comparability_break: weightlifting-records
+
+- id: iwf-2018-categories-redrawn-again
+  scope: { sport: weightlifting, discipline: all }
+  date_adopted: 2018
+  date_effective: 2018-11-01
+  status: adopted
+  governing_body: International Weightlifting Federation
+  what_changed: >
+    The categories were redrawn a second time and every world record annulled a
+    second time, twenty-five years after the first reset and for substantially
+    the same reason.
+  cause_primary: integrity
+  trigger:
+    description: >
+      Retesting of stored samples from the 2008 and 2012 Games produced a very
+      large number of positive results in this sport, and the IOC had put
+      weightlifting's place on the Olympic programme under explicit review.
+      The record reset accompanied a wider governance overhaul.
+    also_said: >
+      That a federation used the same instrument twice, a quarter of a century
+      apart, for the same problem is itself the finding. The 1993 reset did not
+      solve what it was meant to solve.
+  citation:
+    source: iwf-technical-rules
+    edition: IWF Technical and Competition Rules, 2018
+    missing: true
+  comparability_break: weightlifting-records
+
+- id: iwf-2005-two-minute-rule
+  scope: { sport: weightlifting, discipline: all }
+  date_adopted: 2005
+  date_effective: 2005
+  status: adopted
+  governing_body: International Weightlifting Federation
+  what_changed: >
+    A lifter who follows themselves on the platform is given two minutes rather
+    than one, and the clock and attempt order were formalised into a published
+    sequence.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Attempt order in weightlifting is a tactical game played by coaches
+      between lifts, and without a fixed clock the competition had no
+      predictable shape for a broadcaster or a spectator.
+  citation:
+    source: iwf-technical-rules
+    edition: IWF Technical Rules, 2005
+    missing: true
+  comparability_break: null
+
+- id: iwf-2024-olympic-categories-cut
+  scope: { sport: weightlifting, discipline: all }
+  date_adopted: 2022
+  date_effective: 2024
+  status: adopted
+  governing_body: International Weightlifting Federation
+  what_changed: >
+    The number of bodyweight categories contested at the Games was reduced
+    again, to five per sex, without a further annulment of the world record
+    list — the categories used for records and the categories contested at the
+    Games are no longer the same set.
+  cause_primary: commercial
+  cause_secondary: integrity
+  trigger:
+    description: >
+      The IOC reduced the sport's athlete quota as part of the sanctions
+      following the doping and governance findings, and the federation
+      distributed the reduction across categories.
+  citation:
+    source: iwf-technical-rules
+    edition: IWF Technical and Competition Rules, 2024
+    missing: true
+  comparability_break: null

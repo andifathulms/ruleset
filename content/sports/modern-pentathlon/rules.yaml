@@ -1,0 +1,110 @@
+- id: uipm-2009-combined-event
+  scope: { sport: modern-pentathlon, discipline: all }
+  date_adopted: 2008
+  date_effective: 2009
+  status: adopted
+  governing_body: Union Internationale de Pentathlon Moderne
+  what_changed: >
+    Shooting and running were merged into a single combined event, in which
+    competitors alternate between a shooting range and a running loop, starting
+    at intervals determined by their points from the first three disciplines.
+    Five separate events became four, and the last of them became a handicap
+    race that finishes with a visible winner crossing a line.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      A sport scored by adding points across five disciplines produces no
+      moment of victory — the winner is whoever the arithmetic favours once
+      everything is added up. The handicap start makes the leader the person in
+      front, which is the single most consequential thing a governing body can
+      do to make a multi-discipline sport watchable.
+  citation:
+    source: uipm-rules
+    edition: UIPM Competition Rules, 2009
+    missing: true
+  comparability_break: modern-pentathlon-scores
+
+- id: uipm-2011-laser-pistols
+  scope: { sport: modern-pentathlon, discipline: shooting }
+  date_adopted: 2010
+  date_effective: 2011
+  status: adopted
+  governing_body: Union Internationale de Pentathlon Moderne
+  what_changed: >
+    Air pistols were replaced by laser pistols. The projectile was removed from
+    the sport entirely, so shooting no longer requires a range with a backstop,
+    a firearms licence, or the movement of ammunition across borders.
+  cause_primary: participation and access
+  cause_secondary: safety
+  trigger:
+    description: >
+      The cost and legal complexity of running a live-fire discipline had made
+      the sport difficult to stage and difficult to enter, particularly in
+      countries with restrictive firearms law. Laser pistols made a school
+      sports hall a viable venue.
+  citation:
+    source: uipm-rules
+    edition: UIPM Competition Rules, 2011
+    missing: true
+  comparability_break: null
+
+- id: uipm-2022-riding-removed
+  scope: { sport: modern-pentathlon, discipline: riding }
+  date_adopted: 2022-05
+  date_effective: 2028
+  status: adopted
+  governing_body: Union Internationale de Pentathlon Moderne
+  what_changed: >
+    Riding was removed from modern pentathlon. From 2028 the fifth discipline
+    is obstacle racing, an assault course of the kind used in obstacle course
+    racing, replacing a show jumping round on a horse the competitor had never
+    ridden before and had twenty minutes to get to know.
+
+    The sport devised in 1912 to test the skills of a cavalry officer no longer
+    contains a horse.
+  cause_primary: disputed
+  trigger:
+    description: >
+      At the Tokyo Games in August 2021 the horse drawn by Annika Schleu
+      refused repeatedly and her coach struck it, on camera, during a medal
+      round. The footage travelled far beyond the sport and produced sustained
+      public and welfare pressure within days.
+    also_said: >
+      The federation's stated reasons were animal welfare, cost, and the
+      difficulty of staging equestrian facilities — all of which predate the
+      incident by decades and were already under discussion. The competing
+      reading is that Tokyo made an existing IOC-driven cost argument
+      unanswerable and that the welfare framing was the available public
+      justification. A substantial part of the sport's own athlete body opposed
+      the removal and said the reason given was not the real one. Both readings
+      are recorded; the sources do not settle it.
+  citation:
+    source: uipm-rules
+    edition: UIPM Congress decision, 2022
+    missing: true
+  comparability_break: modern-pentathlon-scores
+
+- id: uipm-2024-laser-run-format
+  scope: { sport: modern-pentathlon, discipline: all }
+  date_adopted: 2023
+  date_effective: 2024
+  status: adopted
+  governing_body: Union Internationale de Pentathlon Moderne
+  what_changed: >
+    The Olympic competition was compressed into a ninety-minute final,
+    including a semi-final structure, so that the whole medal decision fits a
+    single broadcast window on a single day.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Modern pentathlon's place on the Olympic programme has been under review
+      for years, and the IOC's stated criteria include audience and cost. A
+      sport that takes a day to decide is difficult to defend against that
+      test.
+  citation:
+    source: uipm-rules
+    edition: UIPM Competition Rules, 2024
+    missing: true
+  comparability_break: null

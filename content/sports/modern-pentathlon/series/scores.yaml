@@ -1,0 +1,40 @@
+id: modern-pentathlon-scores
+label: Pentathlon points across the format changes
+unit: points
+absence_kind: impossible
+cannot_exist: >
+  A modern pentathlon score is a sum of points from separate disciplines,
+  converted onto a common scale by tables the federation writes. That means the
+  score depends entirely on which disciplines are in the sport and how each is
+  converted — and both have changed repeatedly.
+
+  In 2009 five events became four, when shooting and running merged into a
+  handicap race in which the finishing order is the result. In 2011 the pistol
+  stopped firing a projectile. From 2028 riding is gone and obstacle racing
+  replaces it.
+
+  So a total from 2008 and a total from 2028 are not two values of one
+  quantity. They are sums over different sets of things, on conversion tables
+  the sport rewrote in between. This is the gymnastics case rather than the
+  javelin case: the scale itself was replaced, more than once, and there is no
+  mapping in either direction.
+
+  It is also the only sport on this site where the *composition* of the
+  competition changed. Athletics redesigned an implement; weightlifting redrew
+  its categories; modern pentathlon removed a discipline and added a different
+  one.
+segments: []
+breaks:
+  - at: 2009
+    caused_by: uipm-2009-combined-event
+    kind: scale-change
+    note: >
+      Five scored disciplines became four, and the last one became a handicap
+      race whose finishing order is the result rather than a points total.
+  - at: 2028
+    caused_by: uipm-2022-riding-removed
+    kind: scale-change
+    note: >
+      Riding out, obstacle racing in. The sport's five components are no longer
+      the five components it was invented with, so no total spans this line.
+source: uipm-rules

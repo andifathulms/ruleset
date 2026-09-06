@@ -214,3 +214,91 @@
     conditions on top of the Rules, which is why final-set formats differed
     between them for decades.
 
+# ---- Third wave.
+
+- id: iwf-technical-rules
+  standing: primary-named
+  title: IWF Technical and Competition Rules and Regulations
+  publisher: International Weightlifting Federation
+  kind: rulebook
+  url: https://iwf.sport/weightlifting_/rules/
+  note: >
+    Contains the bodyweight categories, which is where this sport's
+    comparability problem lives: the categories have been redrawn twice and
+    the record list annulled both times.
+
+- id: uipm-rules
+  standing: primary-named
+  title: UIPM Competition Rules
+  publisher: Union Internationale de Pentathlon Moderne
+  kind: rulebook
+  url: https://www.uipmworld.org/rules
+  note: >
+    Published per discipline. The 2022 decision to replace riding is recorded
+    in UIPM Congress minutes rather than in the rulebook of the time.
+
+- id: mcc-laws-of-cricket
+  standing: primary-named
+  title: The Laws of Cricket
+  publisher: Marylebone Cricket Club
+  kind: rulebook
+  url: https://www.lords.org/mcc/the-laws-of-cricket
+  note: >
+    MCC owns the Laws; the ICC runs the international game and issues playing
+    conditions on top of them. The same split as football's, and it means a
+    cricket rule must say whether it is a Law or a playing condition.
+
+- id: icc-playing-conditions
+  standing: primary-named
+  title: ICC Standard Playing Conditions
+  publisher: International Cricket Council
+  kind: circular
+  url: https://www.icc-cricket.com/about/cricket/rules-and-regulations/playing-conditions
+  note: Format-specific, and reissued far more often than the Laws themselves.
+
+- id: mlb-official-rules
+  standing: primary-named
+  title: Official Baseball Rules
+  publisher: Major League Baseball
+  kind: rulebook
+  url: https://www.mlb.com/official-information/rules-regulations
+  note: >
+    A league rulebook. Baseball's international federation is the WBSC, but the
+    rule changes that matter to this site were made by MLB, and for forty-nine
+    years its two leagues did not use the same ones.
+
+- id: wbsc-rules
+  standing: primary-named
+  title: WBSC Baseball Rules
+  publisher: World Baseball Softball Confederation
+  kind: rulebook
+  url: https://www.wbsc.org/
+
+- id: wt-competition-rules
+  standing: primary-named
+  title: World Taekwondo Competition Rules
+  publisher: World Taekwondo
+  kind: rulebook
+  url: https://www.worldtaekwondo.org/rules/
+  note: >
+    Revised almost every year since the electronic scoring system arrived,
+    largely to keep pace with what the sensors made possible.
+
+- id: iba-aiba-rules
+  standing: secondary
+  title: AIBA and IBA Technical and Competition Rules
+  publisher: AIBA, later IBA
+  kind: rulebook
+  note: >
+    The governing body that made most of the rule changes recorded here lost
+    IOC recognition in 2023. Its documents remain the source for decisions
+    taken while it governed, which is an unusual citation problem.
+
+- id: world-boxing-rules
+  standing: primary-named
+  title: World Boxing Technical and Competition Rules
+  publisher: World Boxing
+  kind: rulebook
+  url: https://www.worldboxing.org/
+  note: Recognised by the IOC for the 2028 Games.
+
