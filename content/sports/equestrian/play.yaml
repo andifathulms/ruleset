@@ -1,0 +1,138 @@
+sport: equestrian
+as_of: 2026-09
+edition: FEI Rules, per discipline
+source: fei-rules
+standing: primary-named
+summary: >
+  Three disciplines, one partnership. Dressage is judged on the quality of
+  movement, jumping is measured in faults and seconds, and eventing runs both
+  plus a cross-country course. That split is why equestrian sits awkwardly in
+  this site's adjudication lens: it is a judged sport and a measured one at the
+  same time, and the lens can only hold one answer.
+
+sections:
+  - id: object
+    label: The object of the competition
+    body: >
+      In jumping, complete a course without knocking a fence down or exceeding
+      the time. In dressage, perform a prescribed sequence of movements as well
+      as a panel of judges thinks it can be done. In eventing, do both and add a
+      cross-country course between them.
+
+      In all three the competitor is a partnership, and only one half of it
+      chose to be there. That fact is not sentimental — it is the basis of every
+      rule change on this page since 2005.
+
+  - id: field
+    label: Arena and course
+    body: >
+      A dressage arena is a rectangle marked with lettered points, and the test
+      is performed to those markers. A jumping course is a set of numbered
+      obstacles with a designed route and an optimum time. A cross-country
+      course runs over natural terrain with fixed obstacles.
+    facts:
+      - { label: Dressage arena, value: 60 × 20 m }
+      - { label: Jumping obstacles, value: Fall on contact }
+      - { label: Cross-country obstacles, value: Fixed, note: A frangible-pin standard now applies to many of them. }
+
+  - id: equipment
+    label: Tack and permitted equipment
+    body: >
+      This is where the sport's welfare rules mostly live. Bits, nosebands,
+      spurs, whips and boots are each specified, and the specification has
+      tightened repeatedly — noseband tightness is now measured, whip use is
+      limited and stewarded, and equipment permitted in the warm-up arena is
+      regulated as closely as equipment in competition.
+
+      A helmet is compulsory in jumping and cross-country. Body protectors are
+      compulsory in cross-country.
+    facts:
+      - { label: Noseband tightness, value: Measured }
+      - { label: Whip use, value: Limited and stewarded }
+      - { label: Blood on the horse, value: Elimination }
+      - { label: Helmet, value: Compulsory in jumping and cross-country }
+    shaped_by: [fei-2013-blood-rule, fei-2023-social-licence]
+
+  - id: players
+    label: Riders, horses and officials
+    body: >
+      Men and women compete against each other in every event. Equestrian is
+      the only sport on the Olympic programme where this is true, and it has
+      been since women were admitted — dressage in 1952, jumping in 1956,
+      eventing in 1964.
+
+      The horse is a competitor with its own passport, its own eligibility and
+      its own veterinary record. It is inspected before competition and may be
+      withdrawn by a veterinary panel over the rider's objection, which makes
+      the veterinary delegate the only official on this site who can remove a
+      competitor for reasons unrelated to the rules of play.
+    facts:
+      - { label: Mixed-gender, value: In every event }
+      - { label: Team size, value: "3", note: Reduced from four, with no drop score, from 2021. }
+      - { label: Horse inspection, value: Before and during competition }
+    shaped_by: [fei-1952-women-admitted, fei-2020-teams-of-three]
+
+  - id: duration
+    label: Format
+    body: >
+      Dressage and jumping run as qualifying rounds and finals. Eventing runs
+      over several days: dressage, then cross-country, then jumping.
+
+      Until 2005 eventing's endurance day included roads and tracks and a
+      steeplechase before the cross-country. Those phases were removed, which
+      shortened the competition and changed what its score measures.
+    shaped_by: [fei-2005-short-format-eventing]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Jumping counts faults — four for a fence down, penalties for a refusal,
+      one for each second over the time — and the lowest total wins. This is a
+      measurement.
+
+      Dressage is scored by a panel awarding marks out of ten for each
+      movement, converted to a percentage. This is a judgement, with all the
+      apparatus judged sports need: multiple judges at different positions,
+      published guidelines, and statistical review of scoring patterns.
+
+      Eventing adds them together, which means the sport routinely sums a
+      judgement and a measurement into one number.
+    facts:
+      - { label: Fence down, value: 4 faults }
+      - { label: Over the time, value: 1 fault per second }
+      - { label: Dressage, value: Percentage of available marks }
+      - { label: Eventing, value: Penalties across three phases }
+
+  - id: restarts
+    label: Refusals and retirement
+    body: >
+      A refusal is penalised and, after a set number, eliminates. A rider may
+      retire at any point, and the rules increasingly encourage it — the
+      federation's welfare position is that a horse in difficulty should be
+      pulled up rather than persuaded.
+
+      That sits directly against the 2021 reduction to teams of three with no
+      drop score, which makes retiring cost a team its whole competition. The
+      federation has acknowledged the tension and answered it with substitution
+      rules rather than by restoring the fourth rider.
+    shaped_by: [fei-2020-teams-of-three]
+
+  - id: prohibitions
+    label: Elimination
+    body: >
+      Blood on the horse. Excessive whip use. Equipment outside specification.
+      Marks indicating harsh use of spurs or bit. Failure at a veterinary
+      inspection. Three refusals. A fall of horse or rider in cross-country.
+
+      Almost every item on that list concerns the horse rather than the
+      contest, which is not true of any other prohibitions section on this
+      site.
+    shaped_by: [fei-2013-blood-rule, fei-2023-social-licence]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Fewest faults in jumping, highest percentage in dressage, lowest penalty
+      total in eventing. Ties in jumping are settled by a jump-off against the
+      clock, which is the one place in the sport where speed decides a medal
+      outright.

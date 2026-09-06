@@ -1,0 +1,138 @@
+- id: fei-1952-women-admitted
+  scope: { sport: equestrian, discipline: dressage }
+  date_adopted: 1951
+  date_effective: 1952
+  status: adopted
+  governing_body: Fédération Equestre Internationale
+  what_changed: >
+    Civilian riders and women were admitted to Olympic dressage. Until 1948 the
+    equestrian events had been restricted to commissioned military officers,
+    which excluded women entirely. Jumping followed in 1956 and eventing in
+    1964, after which equestrian became the only sport on the Olympic programme
+    in which men and women compete against each other in every event.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The military restriction had made the sport a contest between armies at a
+      point when cavalry had ceased to exist, and the federation opened it to
+      civilians. Admitting women was a consequence of that rather than its
+      stated purpose.
+  citation:
+    source: fei-rules
+    edition: FEI General Regulations, 1952
+    missing: true
+  comparability_break: null
+
+- id: fei-2005-short-format-eventing
+  scope: { sport: equestrian, discipline: eventing }
+  date_adopted: 2004
+  date_effective: 2005
+  status: adopted
+  governing_body: Fédération Equestre Internationale
+  what_changed: >
+    The long format of three-day eventing was abolished. Phases A, B and C —
+    roads and tracks, a steeplechase, and a second roads and tracks section —
+    were removed, leaving the cross-country phase alone. A discipline that had
+    tested a horse's endurance over most of a day became one that tests it over
+    a single cross-country course.
+  cause_primary: safety
+  cause_secondary: commercial
+  trigger:
+    description: >
+      A run of horse and rider fatalities in eventing through the late 1990s
+      focused attention on the cumulative fatigue the long format produced, and
+      the endurance phases were the part hardest to justify on welfare grounds.
+    also_said: >
+      The change also removed the phases that were most expensive to stage and
+      least watchable, and it arrived while the sport's Olympic position was
+      under review. Traditionalists argued that the long format was the test
+      and that what remains is a different discipline. Both readings are
+      recorded.
+  citation:
+    source: fei-rules
+    edition: FEI Eventing Rules, 2005
+    missing: true
+  comparability_break: eventing-scores
+
+- id: fei-2013-blood-rule
+  scope: { sport: equestrian, discipline: all }
+  date_adopted: 2012
+  date_effective: 2013
+  status: adopted
+  governing_body: Fédération Equestre Internationale
+  what_changed: >
+    Blood anywhere on a horse became grounds for elimination, tightened from a
+    judgement about severity to something much closer to an absolute. A rider
+    whose spur or bit marks a horse is out, regardless of intent or of how the
+    round was going.
+  cause_primary: safety
+  cause_secondary: integrity
+  trigger:
+    description: >
+      A visible mark on a horse in a televised competition is indefensible
+      whatever its cause, and the previous discretionary standard produced
+      inconsistent decisions and public damage.
+  citation:
+    source: fei-rules
+    edition: FEI Veterinary Regulations and discipline rules, 2013
+    missing: true
+  comparability_break: null
+
+- id: fei-2020-teams-of-three
+  scope: { sport: equestrian, discipline: all }
+  date_adopted: 2017
+  date_effective: 2021
+  status: adopted
+  governing_body: Fédération Equestre Internationale
+  what_changed: >
+    Olympic teams were reduced from four riders with a discarded score to three
+    riders with every score counting. One elimination now ends a team's
+    competition, where previously a team could absorb a bad round.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The IOC required a smaller athlete quota and more competing nations. Cutting
+      teams to three achieved both, and the drop score went with it.
+    also_said: >
+      Riders argued that removing the drop score creates pressure to continue a
+      round that should be retired, which is a welfare argument against a rule
+      adopted for quota reasons. The federation introduced a substitution
+      mechanism in response rather than restoring the fourth rider.
+  citation:
+    source: fei-rules
+    edition: FEI Olympic Regulations, 2021
+    missing: true
+  comparability_break: null
+
+- id: fei-2023-social-licence
+  scope: { sport: equestrian, discipline: all }
+  date_adopted: 2023
+  date_effective: 2024
+  status: adopted
+  governing_body: Fédération Equestre Internationale
+  what_changed: >
+    Following the report of its own Equine Ethics and Wellbeing Commission, the
+    federation tightened restrictions on training and warm-up practices,
+    equipment permitted in competition, and stewarding of the warm-up arena,
+    and adopted the framing that the sport's continued existence depends on a
+    public licence that cannot be assumed.
+  cause_primary: safety
+  cause_secondary: disputed
+  trigger:
+    description: >
+      The commission's own survey work found that a substantial share of the
+      public was not confident horses in sport are treated well, and that a
+      significant minority opposed equestrian sport outright. The federation
+      accepted the finding rather than contesting it.
+    also_said: >
+      The immediate context was the removal of riding from modern pentathlon in
+      2022 after a televised incident, which demonstrated that an equestrian
+      discipline could be deleted from the Olympic programme within a year.
+      Whether these changes are welfare reform or reputational defence is
+      argued within the sport, and the two are difficult to separate.
+  citation:
+    source: fei-rules
+    edition: FEI General Regulations and Veterinary Regulations, 2024
+    missing: true
+  comparability_break: null

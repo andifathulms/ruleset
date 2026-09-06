@@ -302,3 +302,86 @@
   url: https://www.worldboxing.org/
   note: Recognised by the IOC for the 2028 Games.
 
+# ---- Fourth wave.
+
+- id: fei-rules
+  standing: primary-named
+  title: FEI Rules for Equestrian Events
+  publisher: Fédération Equestre Internationale
+  kind: rulebook
+  url: https://inside.fei.org/fei/regulations
+  note: >
+    Published per discipline — jumping, dressage, eventing — plus Veterinary
+    Regulations, which in this sport are competition rules rather than
+    administrative ones.
+
+- id: fie-rules
+  standing: primary-named
+  title: FIE Technical Rules
+  publisher: Fédération Internationale d'Escrime
+  kind: rulebook
+  url: https://fie.org/fie/documents/rules
+  note: >
+    The material rules and the technical rules are separate books, which
+    matters here: fencing's largest changes were changes to the apparatus, not
+    to the conduct of a bout.
+
+- id: world-rowing-rules
+  standing: primary-named
+  title: World Rowing Rule Book
+  publisher: World Rowing
+  kind: rulebook
+  url: https://worldrowing.com/technical/rules-regulations/
+  note: >
+    Contains the provision this site cares about most in any rulebook: rowing
+    recognises world best times rather than world records, because a course's
+    conditions cannot be standardised.
+
+- id: world-sailing-rrs
+  standing: primary-named
+  title: The Racing Rules of Sailing
+  publisher: World Sailing
+  kind: rulebook
+  url: https://www.sailing.org/inside-world-sailing/rules-regulations/
+  note: Reissued every four years. Sailing instructions per event sit on top of it.
+
+- id: randa-rules-of-golf
+  standing: primary-named
+  title: The Rules of Golf
+  publisher: R&A and USGA
+  kind: rulebook
+  url: https://www.randa.org/rog
+  note: >
+    Two bodies jointly own one rulebook and divide the world between them —
+    another variant of the ownership split football and cricket have. The World
+    Handicap System is a separate document.
+
+- id: ifsc-rules
+  standing: primary-named
+  title: IFSC Rules
+  publisher: International Federation of Sport Climbing
+  kind: rulebook
+  url: https://www.ifsc-climbing.org/index.php/world-competition/rules
+  note: Reissued annually, and the Olympic format has been rewritten between every Games so far.
+
+- id: uww-rules
+  standing: primary-named
+  title: International Wrestling Rules
+  publisher: United World Wrestling
+  kind: rulebook
+  url: https://uww.org/organisation/documents
+  note: >
+    Published separately for freestyle, Greco-Roman and women's wrestling. The
+    2013 revisions were made under an explicit deadline set by the IOC.
+
+- id: issf-rules
+  standing: primary-named
+  title: ISSF Official Statutes, Rules and Regulations
+  publisher: International Shooting Sport Federation
+  kind: rulebook
+  url: https://www.issf-sports.org/theissf/rules.ashx
+  note: >
+    Contains the finals procedures, which the federation has rewritten more
+    often than any other part of the book and which are the source of this
+    sport's comparability problem.
+

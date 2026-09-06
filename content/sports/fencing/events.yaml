@@ -1,0 +1,39 @@
+sport: fencing
+as_of: 2026-09
+source: fie-rules
+standing: primary-named
+summary: >
+  Twelve Olympic events — three weapons, individual and team, for each sex. For
+  decades the programme rotated, dropping some team events each Games because
+  of quota limits, and only recently settled at the full twelve.
+disciplines:
+  - id: foil
+    label: Foil
+    blurb: Torso only, with right of way. Electrified 1957.
+    events:
+      - { id: fmi, label: "Men's individual", olympic: true }
+      - { id: fwi, label: "Women's individual", olympic: true }
+      - { id: fmt, label: "Men's team", olympic: true }
+      - { id: fwt, label: "Women's team", olympic: true }
+  - id: epee
+    label: Épée
+    blurb: Whole body, no priority, and double hits score for both. Electrified 1936.
+    events:
+      - { id: emi, label: "Men's individual", olympic: true }
+      - { id: ewi, label: "Women's individual", olympic: true }
+      - { id: emt, label: "Men's team", olympic: true }
+      - { id: ewt, label: "Women's team", olympic: true }
+  - id: sabre
+    label: Sabre
+    blurb: Above the waist, edge and point, with right of way. Electrified 1989.
+    events:
+      - { id: smi, label: "Men's individual", olympic: true }
+      - { id: swi, label: "Women's individual", olympic: true }
+      - { id: smt, label: "Men's team", olympic: true }
+      - { id: swt, label: "Women's team", olympic: true }
+  - id: other
+    label: Governed by the federation, not on the programme
+    counts: false
+    events:
+      - { id: wheelchair, label: Wheelchair fencing, olympic: false }
+      - { id: veterans, label: Veterans competition }

@@ -1,0 +1,33 @@
+id: eventing-scores
+label: Eventing scores across the format change
+unit: penalties
+higher_is_better: false
+absence_kind: impossible
+cannot_exist: >
+  An eventing score is a penalty total across the phases of the competition.
+  In 2005 three of those phases were removed.
+
+  Before the change a horse arrived at the cross-country course having already
+  covered roads and tracks twice and a steeplechase in between; the score
+  recorded performance under accumulated fatigue. Afterwards it records
+  performance on a fresh horse over one course. The dressage and jumping phases
+  did not change, but the quantity they are added to did.
+
+  So a penalty total from 2003 and one from 2007 are not two values of one
+  thing. The sport did what modern pentathlon did seventeen years later —
+  removed a component and kept the name — and the score stopped meaning what it
+  had meant.
+
+  This is worth stating alongside pentathlon's entry, because the two are the
+  only cases here of a sport changing what it is composed of. Eventing did it
+  for welfare reasons in 2005 and pentathlon did it for welfare reasons in
+  2022, and both removed the phase involving a horse.
+segments: []
+breaks:
+  - at: 2005
+    caused_by: fei-2005-short-format-eventing
+    kind: scale-change
+    note: >
+      Roads and tracks and the steeplechase were removed. The remaining phases
+      are the same, and the total they add up to is not.
+source: fei-rules

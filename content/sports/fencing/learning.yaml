@@ -1,0 +1,83 @@
+sport: fencing
+standing: editorial
+summary: >
+  A sport whose entry barrier is almost entirely equipment and coaching rather
+  than physical, and whose elite version demands a decision speed that sits at
+  the edge of human reaction. Fencing is also the only sport here where a
+  beginner must learn a rule — right of way — before they can understand who
+  won a point they just watched.
+
+entry:
+  verdict: high
+  claim: A club, a coach, several hundred pounds of kit, and a rule you cannot see.
+  why: >
+    Fencing cannot be improvised. It needs a piste, a scoring machine, a mask,
+    a jacket, a body wire and a weapon, and it needs a coach because the actions
+    are unintuitive and the equipment is dangerous without instruction. Clubs
+    lend kit to beginners, which is the only reason the barrier is high rather
+    than very high.
+
+    The distinctive difficulty is conceptual. In foil and sabre, both fencers
+    frequently land, and the point goes to whoever had priority — a rule about
+    who initiated a correctly formed attack. A beginner watching a bout cannot
+    tell who scored or why, and neither can most spectators. No other sport on
+    this site requires you to learn a rule in order to perceive the result.
+  evidence:
+    - { label: Kit to start, value: Mask, jacket, glove, weapon, body wire, basis: observation }
+    - { label: Facility, value: A club with a piste and a scoring machine, basis: observation }
+    - { label: Coach needed, value: "Yes", basis: judgement }
+    - { label: Weapons to choose between, value: "3", basis: observation, note: "They are close to different sports; most fencers specialise early." }
+    - { label: Time to understand priority, value: Months, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Decisions inside a fifth of a second, on a strip where retreat runs out.
+  why: >
+    Elite fencing exchanges happen faster than deliberate reaction allows, so
+    the skill is largely pre-loaded: reading distance and tempo well enough to
+    have already chosen. The physical demand is real but the decision demand is
+    what separates the top.
+
+    Three of the sport's changes have moved that target under its athletes. Each
+    electrification changed what registers as a hit, and the sabre timing
+    revision in 2005 changed which actions the machine rewards without changing
+    a single rule about what a fencer may do — a whole dominant style became
+    unrewarding in a season.
+
+    That is an unusual kind of instability. Judo removed techniques and said so.
+    Fencing adjusted a constant inside a box.
+  evidence:
+    - label: Sabre timing revised
+      value: "2005"
+      basis: rule
+      rule: fie-2005-sabre-timing
+      note: A dominant style stopped working, with no change to the rules of conduct.
+    - label: Sabre electrified
+      value: "1989"
+      basis: rule
+      rule: fie-1988-electric-sabre
+      note: And crossing the feet prohibited at the same time.
+    - label: Blade and mask standards
+      value: "1984"
+      basis: rule
+      rule: fie-1984-blade-and-mask-standards
+      note: Written after a fencer was killed by a broken blade in 1982.
+    - { label: Priority, value: Still a referee's judgement, basis: observation, note: The one thing seventy years of apparatus has not mechanised. }
+    - { label: Typical peak age, value: 24–32, basis: judgement }
+
+gap: >
+  Fencing's gap is high-to-very-high rather than low-to-very-high, and the
+  reason is that its beginner's version is not simpler than its elite version,
+  only slower. There is no informal fencing.
+
+  What it shares with taekwondo is the instrument, and the comparison is the
+  point of having both. Taekwondo automated its scoring in one act in 2009 and
+  has spent fifteen years chasing the consequences. Fencing automated in three
+  acts across fifty-two years and had the same experience three times, weapon
+  by weapon. Both sports discovered that once a machine decides what scores,
+  athletes optimise for the machine — and both responded by adjusting the
+  machine rather than the rules.
+
+shaped_by:
+  - fie-2005-sabre-timing
+  - fie-1988-electric-sabre

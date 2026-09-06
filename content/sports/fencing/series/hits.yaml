@@ -1,0 +1,44 @@
+id: fencing-hits
+label: What a hit is, across the three electrifications
+unit: hits
+absence_kind: impossible
+cannot_exist: >
+  There is no chart here because fencing changed what a hit is three times, one
+  weapon at a time, over fifty-two years.
+
+  Before electrification a hit existed when a president and four judges agreed
+  they had seen one. Afterwards it exists when a circuit closes. Those are
+  different quantities in exactly the way a taekwondo judge's button and a
+  taekwondo sensor are different quantities — one is an agreement about
+  perception, the other a physical event.
+
+  What makes fencing unlike taekwondo is that it did this three separate times
+  and produced three separate discontinuities in one sport. Épée in 1936, foil
+  in 1957, sabre in 1989. For twenty-one years the sport ran one measured
+  weapon and two judged ones; for another thirty-two years, two and one.
+
+  So a 5–3 in épée in 1938 and a 5–3 in sabre in 1938 were not the same kind of
+  result, and neither is comparable with the same score in its own weapon
+  before its own electrification. There is no continuous quantity across any of
+  it.
+segments: []
+breaks:
+  - at: 1936
+    caused_by: fie-1936-electric-epee
+    kind: scale-change
+    note: >
+      Épée first, because it is the simplest case: whole-body target, no
+      priority, so a machine only has to answer whether the point landed.
+  - at: 1957
+    caused_by: fie-1957-electric-foil
+    kind: scale-change
+    note: >
+      Foil needed apparatus that could tell target from off-target. Priority
+      stayed with the referee and still does.
+  - at: 1989
+    caused_by: fie-1988-electric-sabre
+    kind: scale-change
+    note: >
+      Sabre last, because a cut scores with the edge anywhere along the blade.
+      Fifty-two years after épée, the sport finished the job.
+source: fie-rules

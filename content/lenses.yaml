@@ -33,6 +33,14 @@
     - { id: tennis, label: Tennis, colour: clay, members: [tennis] }
     - { id: volleyball, label: Volleyball, colour: pitch, members: [volleyball] }
     - { id: weightlifting, label: Weightlifting, colour: pool, members: [weightlifting] }
+    - { id: equestrian, label: Equestrian, colour: gold, members: [equestrian] }
+    - { id: fencing, label: Fencing, colour: clay, members: [fencing] }
+    - { id: golf, label: Golf, colour: pitch, members: [golf] }
+    - { id: rowing, label: Rowing, colour: pool, members: [rowing] }
+    - { id: sailing, label: Sailing, colour: pool, members: [sailing] }
+    - { id: shooting, label: Shooting, colour: pool, members: [shooting] }
+    - { id: sport-climbing, label: Sport climbing, colour: gold, members: [sport-climbing] }
+    - { id: wrestling, label: Wrestling, colour: clay, members: [wrestling] }
 
 - id: game-category
   label: Game category
@@ -60,15 +68,16 @@
     - id: target
       label: Target
       colour: pool
-      members: [archery]
+      members: [archery, shooting, golf]
     - id: performance
       label: Performance
       colour: gold
-      members: [athletics, gymnastics, swimming, cycling, weightlifting]
+      members: [athletics, gymnastics, swimming, cycling, weightlifting, rowing,
+                sailing, sport-climbing, equestrian]
     - id: outside-taxonomy
       label: Outside this taxonomy
       colour: unmarked
-      members: [judo, taekwondo, boxing, modern-pentathlon]
+      members: [judo, taekwondo, boxing, modern-pentathlon, fencing, wrestling]
 
 - id: adjudication
   label: Adjudication
@@ -81,11 +90,12 @@
     - id: measured
       label: Measured
       colour: pool
-      members: [athletics, swimming, cycling, archery, weightlifting, modern-pentathlon]
+      members: [athletics, swimming, cycling, archery, weightlifting, modern-pentathlon,
+                rowing, sailing, shooting, golf, sport-climbing]
     - id: judged
       label: Judged
       colour: gold
-      members: [gymnastics]
+      members: [gymnastics, equestrian]
     - id: decided-by-score
       label: Decided by score
       colour: pitch
@@ -94,4 +104,4 @@
     - id: combat
       label: Combat
       colour: clay
-      members: [judo, taekwondo, boxing]
+      members: [judo, taekwondo, boxing, fencing, wrestling]

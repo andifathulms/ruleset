@@ -1,0 +1,38 @@
+sport: equestrian
+as_of: 2026-09
+source: fei-rules
+standing: primary-named
+summary: >
+  Six Olympic events across three disciplines, and every one of them is
+  contested by men and women together. No other sport on the programme has a
+  single mixed event, let alone six.
+disciplines:
+  - id: jumping
+    label: Jumping
+    blurb: Measured in faults and seconds. The flagship Olympic discipline.
+    events:
+      - { id: ji, label: Individual, olympic: true }
+      - { id: jt, label: Team, olympic: true }
+  - id: dressage
+    label: Dressage
+    blurb: Judged by a panel on the quality of prescribed movements.
+    events:
+      - { id: di, label: Individual, olympic: true }
+      - { id: dt, label: Team, olympic: true }
+  - id: eventing
+    label: Eventing
+    blurb: >
+      Dressage, cross-country and jumping across several days. Until 2005 the
+      endurance day also included roads and tracks and a steeplechase.
+    events:
+      - { id: ei, label: Individual, olympic: true }
+      - { id: et, label: Team, olympic: true }
+  - id: other
+    label: Governed by the federation, not on the programme
+    counts: false
+    events:
+      - { id: driving, label: Driving, note: Carriage driving, with world championships. }
+      - { id: endurance, label: Endurance, note: "Long-distance racing, and the discipline with the sport's worst welfare record." }
+      - { id: vaulting, label: Vaulting }
+      - { id: reining, label: Reining }
+      - { id: para, label: Para dressage, olympic: false }

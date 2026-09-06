@@ -1,0 +1,81 @@
+sport: equestrian
+standing: editorial
+summary: >
+  The most expensive sport on this site to enter and one of the few where the
+  competitor's own ability is not the whole barrier — you also need a horse
+  capable of the job, and at the top that is a purchase rather than an
+  achievement.
+
+entry:
+  verdict: very-high
+  claim: A horse, its upkeep, a facility to ride in, and years before any of it is competitive.
+  why: >
+    Riding well takes years, and none of those years are possible without
+    access to a horse. Horses are expensive to buy, more expensive to keep, and
+    require land and stabling that exist only where the sport already exists.
+    Riding schools lower the barrier for learning; they do not lower it for
+    competing.
+
+    This is the same barrier that got riding removed from modern pentathlon in
+    2022, and the federation's own case for that removal was largely about
+    cost and access. Equestrian cannot make the same argument about itself.
+  evidence:
+    - { label: Kit to start, value: A horse, basis: observation, note: Everything else follows from it. }
+    - { label: Facility, value: Stabling, land and an arena, basis: observation }
+    - { label: Partner, value: An animal, basis: observation, note: The only sport here where the other half of the competitor must be acquired. }
+    - { label: Time to competitive level, value: Years, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: A partnership, a purchase, and a sport arguing about whether it should exist.
+  why: >
+    Elite equestrian requires a rider at the top of a difficult craft and a
+    horse capable of the same, and the second is bought as often as it is made.
+    That is a real and unusual feature of this sport's ceiling: money buys
+    competitive quality more directly here than anywhere else on this site,
+    which is why the sport's elite is drawn from a narrower social band than
+    any other.
+
+    The peak window is also the longest here, because it does not depend on a
+    young human body. Riders compete at the highest level into their fifties
+    and beyond, which nothing else on this board comes close to.
+
+    And the ceiling now has a question mark over it that no other sport's has.
+    The federation's own commission has reported that public consent for
+    equestrian sport cannot be assumed, and modern pentathlon has already
+    demonstrated that an equestrian discipline can be removed from the Olympic
+    programme within a year of a bad afternoon.
+  evidence:
+    - label: Social licence
+      value: Formally questioned, 2023
+      basis: rule
+      rule: fei-2023-social-licence
+      note: The federation accepted its own commission's finding rather than contesting it.
+    - label: Teams of three, no drop score
+      value: Since 2021
+      basis: rule
+      rule: fei-2020-teams-of-three
+      note: One elimination ends a team, which pushes against the welfare rule to retire early.
+    - label: Blood on the horse
+      value: Elimination
+      basis: rule
+      rule: fei-2013-blood-rule
+    - { label: Typical peak age, value: 30–50, basis: judgement, note: By far the widest window on this site. }
+    - { label: Mixed-gender competition, value: Every event, basis: rule, rule: fei-1952-women-admitted }
+
+gap: >
+  Equestrian is very high at both ends and the reason is money at one end and
+  a purchase at the other, which makes it the least meritocratic learning curve
+  on this board — and the sport does not really dispute that.
+
+  It is also the only entry here whose mastery section has to discuss whether
+  the sport will continue to exist. That is not hyperbole and it is not this
+  site editorialising: the federation's own Equine Ethics and Wellbeing
+  Commission reported in 2023 that a significant share of the public does not
+  believe horses in sport are well treated, and modern pentathlon lost its
+  riding discipline in 2022 within a year of a televised incident. A young
+  rider is training towards a ceiling whose existence is a live question.
+
+shaped_by:
+  - fei-2023-social-licence
+  - fei-2020-teams-of-three

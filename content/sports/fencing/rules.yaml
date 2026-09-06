@@ -1,0 +1,134 @@
+- id: fie-1936-electric-epee
+  scope: { sport: fencing, discipline: epee }
+  date_adopted: 1933
+  date_effective: 1936
+  status: adopted
+  governing_body: Fédération Internationale d'Escrime
+  what_changed: >
+    Épée was electrified. A hit began to be registered by a circuit closed
+    through the blade tip and the opponent's conductive equipment, rather than
+    by four judges and a president watching and agreeing.
+
+    Épée went first because it is the simplest case: the whole body is target
+    and there is no priority to interpret, so a machine only has to answer
+    whether the point landed.
+  cause_primary: integrity
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Visual judging could not reliably see a light touch at speed, and
+      national bias among panels of judges was a standing complaint. Épée's
+      double hits — both fencers scoring within a few hundredths of a second —
+      were essentially unjudgeable by eye.
+  citation:
+    source: fie-rules
+    edition: FIE Technical Rules, 1936
+    missing: true
+  comparability_break: fencing-hits
+
+- id: fie-1957-electric-foil
+  scope: { sport: fencing, discipline: foil }
+  date_adopted: 1955
+  date_effective: 1957
+  status: adopted
+  governing_body: Fédération Internationale d'Escrime
+  what_changed: >
+    Foil was electrified, twenty-one years after épée. Because foil has a
+    restricted target area, the apparatus had to distinguish a valid hit on the
+    torso from an off-target one, which required a conductive jacket as well as
+    a scoring machine.
+
+    What the machine could not do was decide priority. Foil is governed by
+    right of way — which fencer's attack has precedence — and that remained a
+    judgement made by one referee, as it still is.
+  cause_primary: integrity
+  trigger:
+    description: >
+      The same problem as épée and a harder engineering case. Foil had waited
+      two decades for equipment that could tell target from non-target.
+  citation:
+    source: fie-rules
+    edition: FIE Technical Rules, 1957
+    missing: true
+  comparability_break: fencing-hits
+
+- id: fie-1984-blade-and-mask-standards
+  scope: { sport: fencing, discipline: all }
+  date_adopted: 1983
+  date_effective: 1984
+  status: adopted
+  governing_body: Fédération Internationale d'Escrime
+  what_changed: >
+    Blade steel, mask construction and uniform fabric were given strength
+    standards. Maraging steel became the requirement for blades because it
+    fails without producing the long sharp fragment ordinary steel produces,
+    and uniforms were required to resist puncture to a stated force.
+  cause_primary: safety
+  trigger:
+    description: >
+      In 1982 Vladimir Smirnov, the reigning Olympic foil champion, was killed
+      at the world championships when an opponent's blade broke and the
+      fragment passed through his mask. The federation rewrote its material
+      rules within two years.
+  citation:
+    source: fie-rules
+    edition: FIE Material Rules, 1984
+    missing: true
+  comparability_break: null
+
+- id: fie-1988-electric-sabre
+  scope: { sport: fencing, discipline: sabre }
+  date_adopted: 1988
+  date_effective: 1989
+  status: adopted
+  governing_body: Fédération Internationale d'Escrime
+  what_changed: >
+    Sabre was electrified, fifty-two years after épée. Sabre scores with the
+    edge as well as the point, so the apparatus had to register contact
+    anywhere along the blade against a conductive jacket covering the whole
+    upper body — the hardest of the three engineering problems, which is why it
+    was last.
+
+    Crossing the feet, which had made a running attack possible, was prohibited
+    at the same time.
+  cause_primary: integrity
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Sabre judging by eye had become the least credible in the sport, because
+      a cut can land almost anywhere and the exchanges are the fastest in
+      fencing.
+  citation:
+    source: fie-rules
+    edition: FIE Technical Rules, 1989
+    missing: true
+  comparability_break: fencing-hits
+
+- id: fie-2005-sabre-timing
+  scope: { sport: fencing, discipline: sabre }
+  date_adopted: 2004
+  date_effective: 2005
+  status: adopted
+  governing_body: Fédération Internationale d'Escrime
+  what_changed: >
+    The timing intervals in sabre were revised, changing how long after one
+    fencer's hit the apparatus will still register the other's, and with it
+    which actions the referee awards. A style of attack that had dominated the
+    weapon became unrewarding within a season, and sabre bouts became markedly
+    shorter and faster.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Sabre had converged on a single dominant approach — a long, committed
+      running attack from the line — which made bouts repetitive and hard to
+      follow. Changing a timing constant in the apparatus changed the sport
+      without changing a word about what fencers may do.
+    also_said: >
+      That a federation can reshape a weapon by adjusting a number inside a
+      box, without amending any rule of conduct, is the fact worth recording.
+      No other sport on this site has a dial of quite this kind.
+  citation:
+    source: fie-rules
+    edition: FIE Technical Rules, 2005
+    missing: true
+  comparability_break: null

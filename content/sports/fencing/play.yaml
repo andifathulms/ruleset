@@ -1,0 +1,136 @@
+sport: fencing
+as_of: 2026-09
+edition: FIE Technical Rules and Material Rules
+source: fie-rules
+standing: primary-named
+summary: >
+  Three weapons, three different sports, one federation. Épée is the whole body
+  and no priority; foil is the torso with priority; sabre is everything above
+  the waist, with the edge, with priority. Almost every rule in fencing is a
+  rule about one weapon, which is why this sport electrified in three
+  instalments rather than once.
+
+sections:
+  - id: object
+    label: The object of the bout
+    body: >
+      Hit the opponent's valid target area without being hit, or — in the two
+      weapons with priority — hit them while holding right of way.
+
+      Right of way is the concept that makes foil and sabre unlike anything
+      else on this site. If both fencers land, the point goes to whoever had
+      the attack, and a referee decides which that was. So two of fencing's
+      three weapons are measured and judged at the same moment: the machine
+      says who landed, a human says who deserves it.
+
+  - id: field
+    label: The piste
+    body: >
+      A narrow strip. Fencing is the only combat sport here contested on a
+      line rather than in an area, which means retreat is finite: run out of
+      piste and the opponent scores.
+    facts:
+      - { label: Piste length, value: 14 m }
+      - { label: Piste width, value: 1.5–2 m }
+      - { label: Retreating off the end, value: A hit against you }
+
+  - id: equipment
+    label: Weapons and apparatus
+    body: >
+      A blade, a conductive jacket, a mask, a body wire and a scoring machine.
+      In modern fencing the equipment is the referee for the question of
+      whether a hit landed, which is why the Material Rules are a separate book
+      from the Technical Rules and why this sport's largest changes are in the
+      first of them.
+
+      Blades must be maraging steel, which fails without producing the long
+      sharp fragment ordinary steel produces, and masks and uniforms must
+      resist puncture to a stated force. Those requirements date from 1984 and
+      exist because a fencer was killed by a broken blade in 1982.
+    facts:
+      - { label: Blade steel, value: Maraging }
+      - { label: Uniform, value: Puncture-resistant to a stated force }
+      - { label: Épée electrified, value: "1936" }
+      - { label: Foil electrified, value: "1957" }
+      - { label: Sabre electrified, value: "1989" }
+    shaped_by:
+      - fie-1984-blade-and-mask-standards
+      - fie-1936-electric-epee
+      - fie-1957-electric-foil
+      - fie-1988-electric-sabre
+
+  - id: players
+    label: Fencers and officials
+    body: >
+      Two fencers and one referee. The referee's job has shrunk enormously
+      since electrification — they no longer decide whether a hit landed — and
+      what remains is priority, which is the hardest judgement in the sport and
+      the only one that has never been mechanised.
+
+      Video review is available to fencers in the form of a limited number of
+      appeals, and it reviews the referee's priority call rather than the
+      apparatus.
+
+  - id: duration
+    label: Format
+    body: >
+      Individual bouts run to fifteen hits or nine minutes of fencing time,
+      in three periods. Pool bouts run to five hits. Team matches are a relay
+      of nine bouts to a cumulative forty-five.
+    facts:
+      - { label: Direct elimination bout, value: 15 hits or 9 min }
+      - { label: Pool bout, value: 5 hits }
+      - { label: Team match, value: 45 hits, relay of 9 }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      One hit, one point, and what counts as a hit depends entirely on the
+      weapon. Épée: anywhere on the body, and if both land within about
+      forty milliseconds both score. Foil: torso only, one point to whoever
+      had priority. Sabre: everything above the waist including the head and
+      arms, with the edge or the point, priority again.
+
+      Before electrification all of this was decided by watching. The
+      apparatus answers the first question and has never been able to answer
+      the second.
+    facts:
+      - { label: "Épée target", value: Whole body }
+      - { label: "Foil target", value: Torso }
+      - { label: "Sabre target", value: Above the waist }
+      - { label: Double hit, value: Both score, in épée only }
+    shaped_by: [fie-1936-electric-epee, fie-1957-electric-foil, fie-1988-electric-sabre]
+
+  - id: restarts
+    label: Between hits
+    body: >
+      The referee halts after every exchange and returns the fencers to guard,
+      so a bout is a sequence of discrete engagements rather than continuous
+      play.
+
+      The timing intervals inside the scoring apparatus govern which of those
+      exchanges register as one hit or two, and revising them in sabre in 2005
+      changed the weapon's dominant style within a season without a word of the
+      conduct rules changing.
+    shaped_by: [fie-2005-sabre-timing]
+
+  - id: prohibitions
+    label: Penalties
+    body: >
+      Cards rather than points, mostly: yellow for a first offence, red for a
+      hit against, black for exclusion. Offences include bodily contact,
+      turning the back, covering the target, and — in sabre since 1989 —
+      crossing the feet, which had made a running attack possible.
+
+      There is also a substantial body of rules about equipment that fails
+      testing, because in a sport where the apparatus decides the point, a
+      faulty body wire is a competitive matter.
+    shaped_by: [fie-1988-electric-sabre]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Fifteen hits, or the higher score when time expires. A bout tied at time
+      goes to a one-minute period with priority randomly assigned in advance —
+      so if nobody scores, the fencer who was awarded priority by lot wins.
+      That is the only coin toss deciding a result anywhere on this site.

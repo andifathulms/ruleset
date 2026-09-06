@@ -1,0 +1,19 @@
+id: equestrian
+label: Equestrian
+tagline: The only sport where half the competitors cannot be asked whether they consent.
+governing_body: Fédération Equestre Internationale
+founded: Fédération Equestre Internationale founded 1921.
+coverage: deep
+family_colour: gold
+classification:
+  official: equestrian
+  game-category: performance
+  adjudication: judged
+summary: >
+  Two things make equestrian unlike anything else on this site. It is the only
+  Olympic sport in which men and women compete directly against each other in
+  every event, and it is the only one with a competitor who is not a person.
+  The second fact now dominates its rulemaking: after riding was removed from
+  modern pentathlon in 2022, the same welfare argument arrived at equestrian's
+  door, and the federation's own commission has told it that public consent for
+  the sport cannot be assumed.

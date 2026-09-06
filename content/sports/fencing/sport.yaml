@@ -1,0 +1,18 @@
+id: fencing
+label: Fencing
+tagline: Made a judged sport measurable in three instalments across fifty-two years, one weapon at a time.
+governing_body: Fédération Internationale d'Escrime
+founded: Fédération Internationale d'Escrime founded 1913.
+coverage: deep
+family_colour: clay
+classification:
+  official: fencing
+  game-category: outside-taxonomy
+  adjudication: combat
+summary: >
+  Taekwondo installed sensors in 2009 and stopped being a judged sport
+  overnight. Fencing did the same thing fifty years earlier and took half a
+  century to finish: épée was electrified in 1936, foil in 1957 and sabre in
+  1988. Each time, a hit stopped being something four judges agreed they saw
+  and became something a circuit registered — and each time the sport that
+  weapon produced changed within a season.
