@@ -1,0 +1,90 @@
+sport: athletics
+standing: editorial
+summary: >
+  Athletics is not one learning curve but forty, and averaging them would be
+  meaningless. Running needs nothing and is the lowest barrier in sport; pole
+  vault needs a pit, a coach and years. What the events share is a mastery
+  problem no other sport here has: the competition is not only the other
+  athletes, it is a published number set by someone who may be long retired.
+
+entry:
+  verdict: very-low
+  claim: For the running events, none at all. For the technical events, high.
+  why: >
+    Nobody has to be taught to run, and the sport's largest participation base
+    — road and distance running — needs no facility, no opponent and no
+    official. This is the lowest entry barrier of anything on this site.
+
+    The rest of the programme is not like that. Pole vault, hammer, javelin
+    and the jumps need a specific facility, a coach, and in several cases a
+    landing area that does not exist outside an athletics club. The verdict
+    here is very low because the sport's front door is running; it would be
+    high for the throws taken alone, and this is the clearest case on the site
+    of a single verdict being the wrong shape for the thing it describes.
+  evidence:
+    - { label: Kit to start running, value: Shoes, basis: observation }
+    - { label: Facility to start running, value: None, basis: observation }
+    - { label: Facility for the throws, value: Cage, sector and implements, basis: observation }
+    - { label: Time to a first race, value: One session, basis: judgement }
+    - { label: Time to a first legal pole vault, value: Months, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: You are competing against a number, and the number does not decline with age.
+  why: >
+    A measured sport ranks by the mark, so an athlete is never only beating the
+    people present. They are being compared with every performance ever
+    ratified under the same conditions, which is a competitor that never has an
+    off day and never retires.
+
+    That comparison is only fair if the conditions really are the same, which is
+    why so much of this sport's rulebook is about eliminating variables: fully
+    automatic timing, a wind limit, a fixed implement specification, a limit on
+    shoe construction. Each of those rules exists to make today's number the
+    same kind of object as an old one, and each of them defines what mastery is
+    measured against.
+
+    Peak ages differ sharply by event — sprinters and jumpers earlier, throwers
+    and marathon runners later — which is another reason the single verdict is a
+    compression.
+  evidence:
+    - label: Timing required for records
+      value: Fully automatic
+      basis: rule
+      rule: iaaf-1977-automatic-timing
+      note: Since 1977, which is where the modern sprint record list begins.
+    - label: Legal tailwind
+      value: 2.0 m/s
+      basis: rule
+      rule: iaaf-2010-false-start
+      note: >
+        Recorded here as an example of condition control; the wind limit itself
+        predates this site's earliest athletics entry.
+    - label: False starts allowed
+      value: None
+      basis: rule
+      rule: iaaf-2010-false-start
+      note: One twitch ends a career-defining final. No other sport here punishes a single error this hard.
+    - label: Shoe sole limit
+      value: 40 mm
+      basis: rule
+      rule: wa-2020-shoe-regulations
+    - { label: Typical peak age, value: 25–28, basis: judgement, note: Sprints and jumps earlier, marathon and throws later. }
+
+gap: >
+  The interesting thing about athletics is not the size of the gap but that
+  the sport contains the whole range inside one rulebook. Running is the
+  easiest sport in the world to begin and the pole vault is among the hardest;
+  both are governed by the same book, the same federation and the same
+  competition.
+
+  That is also why "a rule" means something different here than in badminton or
+  football. In an invasion sport a rule governs what players may do to each
+  other. In a measured sport a rule mostly governs the conditions, because the
+  conditions are what make the number comparable — and comparability is what
+  mastery is being judged against.
+
+shaped_by:
+  - iaaf-1977-automatic-timing
+  - iaaf-2010-false-start
+  - wa-2020-shoe-regulations

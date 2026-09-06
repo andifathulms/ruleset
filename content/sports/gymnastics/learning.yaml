@@ -1,0 +1,84 @@
+sport: gymnastics
+standing: editorial
+summary: >
+  The only sport here that is hard at both ends, and the only one whose
+  rulebook has removed the definition of the top. Since 2006 the difficulty
+  score has had no upper limit, so there is no longer a score that means a
+  routine could not have been better — mastery in this sport has no stated
+  end point, as a matter of law.
+
+entry:
+  verdict: high
+  claim: A beginner cannot perform the sport at all until months of preparation are done.
+  why: >
+    Almost every other sport on this site can be played badly on day one.
+    Gymnastics cannot. Its most basic competitive elements — a handstand held
+    still, a back handspring, a swing to handstand on bars — require strength
+    and body awareness that do not exist in an untrained adult and are built
+    over months, and attempting them early is how people get hurt.
+
+    Access is the other half. It needs a specialised hall, sprung floor, pits
+    and matting, and a qualified coach spotting. There is no informal version:
+    you cannot do gymnastics in a park with a friend the way you can play
+    football or hit a shuttle.
+  evidence:
+    - { label: Facility needed, value: A specialised gym, basis: observation, note: Sprung floor, apparatus, deep matting, foam pit. }
+    - { label: Coach needed, value: "Yes", basis: judgement, note: Spotting is a safety requirement, not a preference. }
+    - { label: "Men's apparatus", value: "6", basis: observation }
+    - { label: "Women's apparatus", value: "4", basis: observation }
+    - { label: Time to a first competitive routine, value: Months to years, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Specialisation begins before the athlete can consent to it, and the ceiling is undefined by rule.
+  why: >
+    The elite window is short and it opens early. Gymnasts train seriously from
+    an age at which other sports are still play, peak young by the standards of
+    every other sport here, and are gone by an age at which a footballer is
+    entering their best years. The federation's own minimum age exists because
+    the sport was recruiting below it.
+
+    Then there is the ceiling, which is a rule rather than a fact of the body.
+    Until 2006 a routine could be worth 10.0 and no more, so perfection was
+    defined and reachable. The open-ended Code removed the maximum: difficulty
+    is now a sum with no cap, and there is always a harder routine. The sport
+    legislated away its own finish line.
+  evidence:
+    - label: Minimum senior age
+      value: "16"
+      basis: rule
+      rule: fig-1997-minimum-age
+      note: In the calendar year of the competition; raised from 15 in 1997 and from 14 before that.
+    - label: Maximum possible score
+      value: Undefined
+      basis: rule
+      rule: fig-2006-open-ended-code
+      note: >
+        There has been no perfect score since 2006. Mastery has no stated end
+        point because the Code no longer provides one.
+    - label: Compulsory routines
+      value: Abolished 1997
+      basis: rule
+      rule: fig-1997-compulsories-abolished
+      note: Removed the shared material that let two gymnasts be compared directly.
+    - { label: Typical age of specialisation, value: 6–8, basis: judgement }
+    - { label: Typical peak age, value: 16–22, basis: judgement, note: The youngest of any sport recorded here. }
+
+gap: >
+  The gap here is the narrowest on the site, and that is the finding. Every
+  other sport is much easier to start than to master; gymnastics is hard
+  immediately, because the first competitive skill and the hundredth are the
+  same kind of thing — a controlled, dangerous movement performed on
+  apparatus — and only the difficulty value differs.
+
+  It is also the only sport whose mastery verdict rests partly on a rule rather
+  than on the body. Between 1949 and 2005 a gymnast could be perfect, and the
+  perfect 10 was a public, legible end of the scale. The 2006 Code bought
+  accountability and the ability to reward difficulty, and the price was the
+  finish line. That trade is recorded elsewhere on this page as a comparability
+  break; here it shows up as the reason the ceiling cannot be described.
+
+shaped_by:
+  - fig-2006-open-ended-code
+  - fig-1997-minimum-age
+  - fig-1997-compulsories-abolished

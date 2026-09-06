@@ -1,0 +1,76 @@
+sport: football
+standing: editorial
+summary: >
+  The lowest entry barrier of any sport in the world, and the reason it is the
+  world's sport. What makes it unusual here is that the barrier to the top is
+  not mainly technical — it is competitive. The skills are learnable. The
+  problem is that a quarter of a billion people are learning them.
+
+entry:
+  verdict: very-low
+  claim: One ball, any surface, any number of people.
+  why: >
+    Football is the only sport on this site whose entry requirements can be
+    met with a single object and no marked space. Goals can be jumpers, teams
+    can be uneven, and the game degrades gracefully all the way down to one
+    person against a wall. Nothing in the Laws is needed to have a game; the
+    Laws describe the formal version of something people already play.
+
+    The first skill — moving a ball with your feet — is awkward for an adult
+    and near-automatic for a child, which is why the sport recruits at an age
+    when nobody is deciding to take up a sport.
+  evidence:
+    - { label: Players needed, value: Any number, basis: observation }
+    - { label: Kit to start, value: A ball, basis: observation }
+    - { label: Pitch length in the Laws, value: 90–120 m, basis: observation, note: A range, not a dimension — the formal game does not require a standard space. }
+    - { label: Time to a real game, value: One session, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Not the hardest set of skills. Comfortably the hardest field to get out of.
+  why: >
+    The individual actions in football are less technically extreme than a
+    gymnastics tumbling pass or a javelin throw, and elite players are not
+    physiological outliers in the way elite swimmers and throwers are. What
+    makes the top nearly unreachable is population. Every country plays it,
+    academies recruit from the age of six or seven, and the funnel from
+    registered youth player to professional is the narrowest in team sport.
+
+    The tactical ceiling is genuinely high and genuinely invisible. Almost
+    everything an elite player does happens before they receive the ball, in
+    the positioning that the offside law and the shape of the pitch make
+    valuable, and it is the part a spectator cannot see and a coach cannot
+    easily teach.
+  evidence:
+    - label: Onside requires
+      value: 2 opponents
+      basis: rule
+      rule: ifab-1925-offside
+      note: >
+        The clause that makes positioning the game's central skill. A defensive
+        line only exists because this law does.
+    - label: Goalkeeper handling a back-pass
+      value: Forbidden since 1992
+      basis: rule
+      rule: ifab-1992-back-pass
+      note: Rewrote one position entirely; goalkeepers are now selected for their feet.
+    - { label: Typical age of academy entry, value: 6–9, basis: judgement }
+    - { label: Typical peak age, value: 26–29, basis: judgement }
+    - { label: Draws are a legitimate result, value: "Yes", basis: observation, note: The only sport here where not winning is a normal outcome, which changes what "good" means. }
+
+gap: >
+  Football's two verdicts sit at opposite ends for a reason that is almost
+  entirely social rather than physical. The sport is trivially easy to begin
+  because it demands nothing, and that is exactly why it is nearly impossible
+  to reach the top of: the same absence of barriers that lets anyone start
+  means everyone did.
+
+  It is worth setting this against gymnastics, which is hard at both ends and
+  for the opposite reason — a small population, a huge technical demand, and a
+  specialisation age in single digits. Two sports can arrive at "very high" by
+  completely different routes, which is why this section records why rather
+  than only how much.
+
+shaped_by:
+  - ifab-1925-offside
+  - ifab-1992-back-pass

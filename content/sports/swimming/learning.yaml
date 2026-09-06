@@ -1,0 +1,87 @@
+sport: swimming
+standing: editorial
+summary: >
+  The only sport here whose entry barrier is a survival skill. Nobody can begin
+  swimming competitively without first learning not to drown, which makes this
+  the one sport on the site where access to the facility determines access to
+  the sport, permanently and by geography.
+
+entry:
+  verdict: moderate
+  claim: Learning to swim is the barrier. After that, the sport starts immediately.
+  why: >
+    Once a person can swim, competitive swimming needs almost nothing —
+    a costume, goggles, a lane. There is no opponent to arrange, no equipment
+    to buy, no team to join, and the first race is available within weeks.
+
+    But the prerequisite is unusual. Swimming is the only sport on this site
+    that a person cannot begin without months of prior instruction in something
+    that is not the sport, and the instruction requires a pool. Pools are
+    expensive, unevenly distributed, and in much of the world simply absent, so
+    the barrier is not skill or money in the individual sense but where a
+    person happens to live.
+
+    The three regulated strokes add a second layer. Breaststroke, backstroke
+    and butterfly are defined by rule rather than by what is fastest, so a
+    swimmer must learn a legal technique rather than an effective one.
+  evidence:
+    - { label: Kit to start, value: Costume and goggles, basis: observation }
+    - { label: Facility needed, value: A pool, basis: observation, note: The whole barrier, and it is a question of geography rather than of talent. }
+    - { label: Prerequisite, value: Being able to swim, basis: observation }
+    - { label: Strokes defined by rule, value: "3", basis: observation, note: Freestyle is a category, not a technique. }
+    - { label: Time to a first race, value: Weeks, once you can swim, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: A closed environment, hundredths of a second, and several records still standing from a banned suit.
+  why: >
+    Elite swimming is a technical sport that looks like an endurance one. The
+    water returns nothing, so almost all improvement comes from reducing drag
+    rather than adding power, and the difference between a national and a world
+    swimmer is largely invisible from the side of the pool.
+
+    Volume is the other half: elite programmes train at a distance and
+    frequency that require the sport to be organised around them from
+    adolescence.
+
+    And there is a barrier unique to this sport. Because the records set in
+    polyurethane suits in 2008 and 2009 were allowed to stand, several of the
+    marks a swimmer is measured against were set under equipment rules that no
+    longer exist. In one event nobody has beaten the 2009 time in the entire
+    textile era.
+  evidence:
+    - label: Records set in banned suits
+      value: Still standing
+      basis: rule
+      rule: fina-2010-textile-only-swimwear
+      note: >
+        The men's 200 m freestyle record has not been beaten since July 2009.
+        The empty half of that chart is a mastery barrier written into the
+        record book.
+    - label: Underwater limit
+      value: 15 m
+      basis: rule
+      rule: fina-1991-backstroke-fifteen-metres
+      note: Caps the fastest part of a race, so a swimmer cannot simply be better at it.
+    - label: Legal breaststroke kick
+      value: One dolphin kick permitted
+      basis: rule
+      rule: fina-2015-breaststroke-dolphin-kick
+    - { label: Timing precision, value: 0.01 s, basis: observation }
+    - { label: Typical peak age, value: 22–26, basis: judgement }
+
+gap: >
+  Swimming's gap is created by the pool at one end and the record book at the
+  other, and both are structural rather than personal.
+
+  Set it against athletics, the other measured sport here. Both judge mastery
+  against a published number, but they made opposite decisions about whether an
+  unreachable number should stay in the book. Athletics redesigned the javelin
+  and annulled the list; swimming banned the suits and kept the marks. A young
+  swimmer in one event is therefore chasing a time that the sport itself has
+  said cannot be set again under current rules, and a young thrower is not.
+
+shaped_by:
+  - fina-2010-textile-only-swimwear
+  - fina-1991-backstroke-fifteen-metres
+  - fina-2015-breaststroke-dolphin-kick

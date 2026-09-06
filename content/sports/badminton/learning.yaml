@@ -1,0 +1,98 @@
+# The learning curve. Everything on this page is EDITORIAL — the site's own
+# reading, not a sourced claim — and it is marked as such wherever it renders.
+#
+# The two verdicts are five-point ordinals. They are never summed, averaged or
+# ranked, because "twice as hard" is not a thing anyone can measure.
+#
+# Each piece of evidence declares what it actually is:
+#   rule        a sourced rule change on this site, and it links to it
+#   observation a checkable fact that is not a rule
+#   judgement   an estimate, unsourced, and shown as such
+
+sport: badminton
+standing: editorial
+summary: >
+  The widest gap between the two verdicts of any sport here. Badminton is the
+  easiest sport on this site to have a real game of on your first afternoon,
+  and one of the hardest to be good at, and both facts have the same cause:
+  the shuttle.
+
+entry:
+  verdict: very-low
+  claim: Two people can have a genuine rally within minutes.
+  why: >
+    A shuttlecock decelerates so violently that a beginner's mishit mostly
+    stays on court. In tennis the ball keeps going, so a novice rally ends on
+    the second or third shot and the game is unplayable until you can control
+    depth; in badminton the implement does that work for you. The other net
+    sports make you earn the rally. Badminton hands it over.
+
+    The rest of the barrier is unusually low too. Two people, one net, and a
+    space smaller than a tennis court. It is played on beaches and in streets
+    across South and Southeast Asia without a court at all, because a version
+    of the game survives with almost nothing.
+  evidence:
+    - { label: Players needed, value: "2", basis: observation }
+    - { label: Kit to start, value: A racket each and a tube of shuttles, basis: observation }
+    - { label: Court length, value: 13.4 m, basis: observation, note: Roughly half a tennis court. }
+    - label: Time to a real rally
+      value: One session
+      basis: judgement
+      note: The site's estimate, and the softest claim on this page.
+    - label: Shuttle mass
+      value: 4.74–5.50 g
+      basis: observation
+      note: >
+        The number that does the work. Sixteen feathers on five grams produce
+        the drag that makes a beginner's shot land in.
+
+mastery:
+  verdict: very-high
+  claim: Among the most physically extreme racket sports at the top.
+  why: >
+    The same drag that makes the shuttle forgiving at the bottom makes it
+    brutal at the top. Because it slows so fast, a smash has to be hit
+    enormously hard to arrive quickly, and because it slows so fast the
+    defender is never truly out of the point. The result is a sport of
+    repeated maximal jumps and full-body rotations, with rally-to-rest ratios
+    that put it among the most demanding events at a Games.
+
+    Deception is the other half. A shuttle can be struck late and disguised
+    until the last moment, so elite play is a continuous feint — and reading
+    it is a skill that takes many years to build and does not transfer from
+    any other sport.
+  evidence:
+    - label: Scoring since 2006
+      value: A point on every rally
+      basis: rule
+      rule: bwf-2006-rally-scoring
+      note: Removed the recovery time that side-out scoring allowed.
+    - label: Service height test
+      value: Fixed at 1.15 m
+      basis: rule
+      rule: bwf-2018-fixed-service-height
+      note: A measurement of the court, so a tall player's serve is no longer judged differently.
+    - { label: Typical age of specialisation, value: 10–12, basis: judgement }
+    - { label: Typical peak age, value: 24–28, basis: judgement }
+    - label: Olympic quota per country
+      value: Limited per event
+      basis: observation
+      note: >
+        The depth of the strongest nations exceeds the places available to
+        them, so the hardest tournament to win is often a national trial.
+
+gap: >
+  Almost every sport is easier to start than to master. What makes badminton
+  worth recording is the size of the gap and the fact that one object causes
+  both ends of it. The shuttle's drag is a beginner's assistant and an elite
+  player's punishment, and the specification that fixes it — sixteen feathers,
+  under five and a half grams — is a law, not an accident.
+
+  The 2006 change to rally scoring widened the gap further. Under side-out
+  scoring a losing player could not concede points while not serving, which
+  gave weaker players shelter; every rally now costs. That was a broadcast
+  decision with a side effect nobody legislated for.
+
+shaped_by:
+  - bwf-2006-rally-scoring
+  - bwf-2018-fixed-service-height
