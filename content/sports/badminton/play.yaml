@@ -1,0 +1,154 @@
+# The laws in force. Same discipline as the rest of the site: the edition is
+# named, the standing says how far it has been checked, and every clause that a
+# recorded rule change produced points back at that change.
+
+sport: badminton
+as_of: 2026-09
+edition: BWF Laws of Badminton, in the BWF Statutes
+source: bwf-laws-of-badminton
+standing: primary-named
+summary: >
+  Two or four players hit a shuttlecock over a net with rackets, and a rally
+  ends when the shuttle touches the floor or a fault is called. What separates
+  badminton from every other net game is the shuttle: it decelerates so hard
+  that it cannot be hit long from anywhere, which is why the court is small,
+  the rallies are fast, and almost every law that matters is a law about the
+  serve.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Land the shuttle inside the opponent's court, or force them into an error
+      that ends the rally. A rally begins with a serve and ends the moment the
+      shuttle touches the ground, hits a player, goes out, or a fault is
+      called. There is no volleying it back and forth over multiple touches —
+      each side gets exactly one contact per rally turn.
+
+  - id: field
+    label: The court
+    body: >
+      One rectangle with two sets of boundaries drawn on it. Singles uses the
+      long, narrow court; doubles uses the full width but a shorter service
+      box. That is why the tramlines matter differently at the sides than at
+      the back, and why the in-out call changes depending on which discipline
+      is being played and whether the shuttle is a serve.
+    facts:
+      - { label: Court length, value: 13.4 m }
+      - { label: Width, doubles, value: 6.1 m }
+      - { label: Width, singles, value: 5.18 m }
+      - { label: Net height at centre, value: 1.524 m }
+      - { label: Net height at posts, value: 1.55 m }
+      - label: Clear height above court
+        value: 12 m
+        note: Recommended for top-tier play; the shuttle is hit very high.
+    citation:
+      source: bwf-laws-of-badminton
+      article: "Law 1"
+      missing: true
+
+  - id: equipment
+    label: Racket and shuttle
+    body: >
+      The shuttle is the specified object, not the racket. Competition
+      shuttles use sixteen feathers fixed in a cork base, and the laws
+      prescribe the mass and the feather length rather than the material —
+      which is how synthetic shuttles remain legal in general play while top
+      competition keeps feathers.
+
+      Shuttles are also graded by speed, and a shuttle of the correct speed is
+      defined by where it lands when hit full-force from the back line. The law
+      defines the object by its behaviour, not by its construction.
+    facts:
+      - { label: Shuttle mass, value: 4.74–5.50 g }
+      - { label: Feathers, value: "16" }
+      - { label: Feather length, value: 62–70 mm }
+      - { label: Racket frame length, value: 680 mm max }
+      - { label: Racket frame width, value: 230 mm max }
+    citation:
+      source: bwf-laws-of-badminton
+      article: "Laws 2 and 4"
+      missing: true
+
+  - id: players
+    label: Players and officials
+    body: >
+      Singles is one against one; doubles is two against two, including mixed
+      doubles, which is the only Olympic event in any sport where a man and a
+      woman compete as a team against another such team. The umpire runs the
+      match from a raised chair, a service judge watches the serve alone, and
+      line judges call in or out. Instant review of line calls is used at top
+      tier events, on a limited number of challenges per game.
+
+  - id: duration
+    label: Format
+    body: >
+      A match is the best of three games. There is no clock: a game ends when
+      somebody reaches the target score, so match length is a consequence of
+      the scoring system rather than something the rules set directly. That
+      relationship is the whole reason the scoring system was rewritten in
+      2006.
+    shaped_by: [bwf-2006-rally-scoring]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      A point is scored on every rally, by whichever side wins it, regardless
+      of who served. A game goes to 21, but a side must lead by two — and if
+      the score reaches 29-all, the next point wins at 30, which is the only
+      hard ceiling in the system.
+
+      The side that wins a rally serves next. Serving is therefore a
+      consequence of scoring rather than a precondition for it, which is the
+      exact reversal made in 2006.
+    facts:
+      - { label: Game to, value: "21" }
+      - { label: Must win by, value: "2" }
+      - { label: Hard cap, value: "30" }
+      - { label: Games per match, value: Best of 3 }
+      - { label: Change ends, value: "At 11 in game 3" }
+    shaped_by: [bwf-2006-rally-scoring, bwf-2002-seven-point-trial]
+    citation:
+      source: bwf-laws-of-badminton
+      article: "Law 7"
+
+  - id: restarts
+    label: The serve
+    body: >
+      The serve is the most heavily regulated action in the sport. It must be
+      hit upward, below a fixed height, with the racket head pointing
+      downwards, both feet stationary and in contact with the floor, and it
+      travels diagonally into the opposite service court.
+
+      The fixed height is recent. Until 2018 the test was the server's own
+      waist or lowest rib, which meant the same action was legal for one player
+      and a fault for another. It is now a measurement of the court rather than
+      a judgement about a person.
+    facts:
+      - { label: Maximum service height, value: 1.15 m }
+      - { label: Measured from, value: Court surface }
+      - { label: Direction, value: Diagonally, upward }
+    shaped_by: [bwf-2018-fixed-service-height]
+    citation:
+      source: bwf-laws-of-badminton
+      article: "Law 9"
+
+  - id: prohibitions
+    label: Faults
+    body: >
+      A fault ends the rally and gives the point to the other side. The main
+      ones: the shuttle lands outside the boundary or fails to cross the net;
+      a player touches the net or the posts with racket, body or dress while
+      the shuttle is in play; a player is struck by the shuttle; the shuttle is
+      hit twice in succession by the same side; or a player invades the
+      opponent's court under the net.
+
+      Play is continuous, with two set intervals — a short one when the leading
+      side reaches 11, and a longer one between games.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Two games. There is no draw, no tiebreak in the tennis sense and no time
+      limit — the 29-all cap is the only mechanism that can end a game other
+      than a two-point lead.

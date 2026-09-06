@@ -2,8 +2,9 @@ import fs from 'node:fs'
 import path from 'node:path'
 import yaml from 'js-yaml'
 import type {
-  Cause, Lens, Program, RuleChange, Series, Source, SourcedImage, Sport,
+  Cause, Lens, Play, Program, RuleChange, Series, Source, SourcedImage, Sport,
 } from './types'
+import { LAW_SECTIONS } from './types'
 
 const CONTENT = path.join(process.cwd(), 'content')
 const SPORTS = path.join(CONTENT, 'sports')
@@ -90,6 +91,28 @@ export function getAllSeries(): { sport: string; series: Series }[] {
   return getSportIds().flatMap((sport) =>
     getSeriesForSport(sport).map((series) => ({ sport, series })),
   )
+}
+
+/**
+ * The laws in force for a sport, if a snapshot has been taken. Sections are
+ * returned in the canonical order rather than file order, so two sports can be
+ * read side by side without the sections drifting apart.
+ */
+export function getPlay(id: string): Play | null {
+  const file = path.join(SPORTS, id, 'play.yaml')
+  if (!fs.existsSync(file)) return null
+  const play = parse<Play>(fs.readFileSync(file, 'utf8'))
+  const order = (s: { id: string }) => {
+    const i = LAW_SECTIONS.indexOf(s.id as (typeof LAW_SECTIONS)[number])
+    return i === -1 ? LAW_SECTIONS.length : i
+  }
+  return { ...play, sections: [...play.sections].sort((a, b) => order(a) - order(b)) }
+}
+
+export function getAllPlay(): { sport: string; play: Play }[] {
+  return getSportIds()
+    .map((sport) => ({ sport, play: getPlay(sport) }))
+    .filter((x): x is { sport: string; play: Play } => x.play !== null)
 }
 
 /** MDX narrative sections for a sport, ordered by their numeric filename prefix. */

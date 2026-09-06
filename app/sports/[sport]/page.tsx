@@ -12,9 +12,10 @@ import JavelinCentreOfGravity from '@/components/diagrams/JavelinCentreOfGravity
 import ScoringSystems from '@/components/diagrams/ScoringSystems'
 import ScoreScales from '@/components/diagrams/ScoreScales'
 import { Reveal } from '@/components/Motion'
+import CurrentLaws from '@/components/CurrentLaws'
 import {
-  getCauses, getImageForSport, getLenses, getProgram, getRuleChanges, getSections,
-  getSeriesForSport, getSourceMap, getSport, getSportIds,
+  getCauses, getImageForSport, getLenses, getPlay, getProgram, getRuleChanges,
+  getSections, getSeriesForSport, getSourceMap, getSport, getSportIds,
 } from '@/lib/content'
 
 const COLOUR: Record<string, { base: string; bright: string }> = {
@@ -100,6 +101,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
   const rules = getRuleChanges(params.sport)
   const series = getSeriesForSport(params.sport)
   const sections = getSections(params.sport)
+  const play = getPlay(params.sport)
   const lenses = getLenses()
   const program = getProgram().sports.find((s) => s.id === params.sport)
   const c = COLOUR[sport.family_colour] ?? COLOUR.unmarked
@@ -117,6 +119,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
 
   const has = (slug: string) => sections.some((s) => s.slug === slug)
   const nav = [
+    play && { id: 'play', label: 'How it is played' },
     has('origin') && { id: 'origin', label: 'Origin' },
     { id: 'rules', label: 'Rule timeline' },
     has('equipment') && { id: 'equipment', label: 'Equipment' },
@@ -227,17 +230,32 @@ export default function SportPage({ params }: { params: { sport: string } }) {
           </Reveal>
         )}
 
-        {/* 2. Origin and invention. */}
+        {/* 2. How it is played — the laws as they now stand. This comes before
+            the history on purpose: the current law is what the changes
+            produced, so the page reads forwards from the answer. */}
+        {play && (
+          <Section title="How it is played" id="play" n={1} colour={c.bright}>
+            <CurrentLaws
+              play={play}
+              rules={rules}
+              source={getSourceMap()[play.source]}
+              colour={c}
+              sportLabel={sport.label}
+            />
+          </Section>
+        )}
+
+        {/* 3. Origin and invention. */}
         {sections
           .filter((s) => s.slug === 'origin')
           .map((s) => (
-            <Section key={s.slug} title={s.title} id={s.slug} n={1} colour={c.bright} reading tint={c.base}>
+            <Section key={s.slug} title={s.title} id={s.slug} n={2} colour={c.bright} reading tint={c.base}>
               <Prose source={s.body} />
             </Section>
           ))}
 
         {/* 3. Rule timeline — the sport's own lane, expanded. */}
-        <Section title="Rule timeline" id="rules" n={2} colour={c.bright}>
+        <Section title="Rule timeline" id="rules" n={3} colour={c.bright}>
           <p className="prose-measure mb-8 text-fluid-base text-unmarked">
             The sport&rsquo;s own lane, expanded. Every entry carries a cause
             from the closed vocabulary and a citation, and says so where the
@@ -251,7 +269,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
         {sections
           .filter((s) => s.slug === 'equipment')
           .map((s) => (
-            <Section key={s.slug} title={s.title} id={s.slug} n={3} colour={c.bright} reading tint={c.base}>
+            <Section key={s.slug} title={s.title} id={s.slug} n={4} colour={c.bright} reading tint={c.base}>
               <Prose source={s.body} />
               {diagramFor(params.sport, 'equipment')}
               {photoFor('equipment')}
@@ -262,7 +280,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
         {sections
           .filter((s) => s.slug === 'politics')
           .map((s) => (
-            <Section key={s.slug} title={s.title} id={s.slug} n={4} colour={c.bright} reading tint={c.base}>
+            <Section key={s.slug} title={s.title} id={s.slug} n={5} colour={c.bright} reading tint={c.base}>
               <Prose source={s.body} />
             </Section>
           ))}
@@ -271,14 +289,14 @@ export default function SportPage({ params }: { params: { sport: string } }) {
         {sections
           .filter((s) => s.slug === 'controversies')
           .map((s) => (
-            <Section key={s.slug} title={s.title} id={s.slug} n={5} colour={c.bright} reading tint={c.base}>
+            <Section key={s.slug} title={s.title} id={s.slug} n={6} colour={c.bright} reading tint={c.base}>
               <Prose source={s.body} />
               {photoFor('controversies')}
             </Section>
           ))}
 
         {/* 7. Series charts, with breaks rendered as breaks. */}
-        <Section title="Series" id="series" n={6} colour={c.bright}>
+        <Section title="Series" id="series" n={7} colour={c.bright}>
           {series.length === 0 ? (
             <p className="prose-measure text-fluid-base text-unmarked">
               No series has been assembled for this sport.

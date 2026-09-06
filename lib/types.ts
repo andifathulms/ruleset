@@ -137,6 +137,60 @@ export interface Series {
   source?: string
 }
 
+/**
+ * The current law layer — what the rules actually say now, as opposed to how
+ * they changed. Canonical section ids, in this order, so that the same clause
+ * can be compared across sports: a scoring section in badminton and a scoring
+ * section in gymnastics are answers to the same question.
+ */
+export const LAW_SECTIONS = [
+  'object',
+  'field',
+  'equipment',
+  'players',
+  'duration',
+  'scoring',
+  'restarts',
+  'prohibitions',
+  'winning',
+] as const
+
+export type LawSectionId = (typeof LAW_SECTIONS)[number]
+
+export interface LawFact {
+  label: string
+  value: string
+  note?: string
+}
+
+export interface LawSection {
+  id: LawSectionId
+  label: string
+  body: string
+  /** Measurements and limits, which is what a reader usually came for. */
+  facts?: LawFact[]
+  /**
+   * Rule changes on this site's timeline that produced the clause as it now
+   * reads. This is what stops the layer being a generic encyclopedia: the
+   * current law is the accumulated output of the changes, and says so.
+   */
+  shaped_by?: string[]
+  citation?: Citation
+}
+
+export interface Play {
+  sport: string
+  /** When this snapshot of the laws was taken. */
+  as_of: string
+  /** The edition in force, named exactly. */
+  edition: string
+  source: string
+  /** How far the figures below have been checked against that edition. */
+  standing: SourceStanding
+  summary: string
+  sections: LawSection[]
+}
+
 export interface Sport {
   id: string
   label: string
