@@ -12,37 +12,37 @@ disciplines:
     label: Track
     blurb: Run on the oval, in lanes for the shorter distances.
     events:
-      - { id: sprints, count: 6, label: "Sprints — 100, 200, 400 m", olympic: true }
-      - { id: middle, count: 4, label: "Middle distance — 800, 1500 m", olympic: true }
-      - { id: long, count: 4, label: "Long distance — 5000, 10,000 m", olympic: true }
-      - { id: hurdles, count: 4, label: "Hurdles — 100/110, 400 m", olympic: true, note: "1.067 m for men's 110 m, 0.838 m for women's 100 m." }
-      - { id: steeple, count: 2, label: 3000 m steeplechase, olympic: true }
-      - { id: relays, count: 5, label: "Relays — 4×100, 4×400, mixed 4×400", olympic: true }
+      - { id: sprints, count: 6, label: "Sprints — 100, 200, 400 m", at: [olympic] }
+      - { id: middle, count: 4, label: "Middle distance — 800, 1500 m", at: [olympic] }
+      - { id: long, count: 4, label: "Long distance — 5000, 10,000 m", at: [olympic] }
+      - { id: hurdles, count: 4, label: "Hurdles — 100/110, 400 m", at: [olympic], note: "1.067 m for men's 110 m, 0.838 m for women's 100 m." }
+      - { id: steeple, count: 2, label: 3000 m steeplechase, at: [olympic] }
+      - { id: relays, count: 5, label: "Relays — 4×100, 4×400, mixed 4×400", at: [olympic] }
   - id: field-jumps
     label: "Field, jumps"
     events:
-      - { id: hj, count: 2, label: High jump, olympic: true }
-      - { id: pv, count: 2, label: Pole vault, olympic: true, note: "The highest entry barrier in the sport: needs a pit, a coach and a facility." }
-      - { id: lj, count: 2, label: Long jump, olympic: true }
-      - { id: tj, count: 2, label: Triple jump, olympic: true }
+      - { id: hj, count: 2, label: High jump, at: [olympic] }
+      - { id: pv, count: 2, label: Pole vault, at: [olympic], note: "The highest entry barrier in the sport: needs a pit, a coach and a facility." }
+      - { id: lj, count: 2, label: Long jump, at: [olympic] }
+      - { id: tj, count: 2, label: Triple jump, at: [olympic] }
   - id: field-throws
     label: "Field, throws"
     blurb: >
       Every event here is defined by an implement specification, which is why
       the throws produce most of this sport's comparability breaks.
     events:
-      - { id: shot, count: 2, label: Shot put, olympic: true, note: "7.26 kg men, 4 kg women." }
-      - { id: discus, count: 2, label: Discus, olympic: true }
-      - { id: hammer, count: 2, label: Hammer, olympic: true }
-      - { id: javelin, count: 2, label: Javelin, olympic: true, note: "Redesigned in 1986 for men and 1999 for women; both record lists were restarted." }
+      - { id: shot, count: 2, label: Shot put, at: [olympic], note: "7.26 kg men, 4 kg women." }
+      - { id: discus, count: 2, label: Discus, at: [olympic] }
+      - { id: hammer, count: 2, label: Hammer, at: [olympic] }
+      - { id: javelin, count: 2, label: Javelin, at: [olympic], note: "Redesigned in 1986 for men and 1999 for women; both record lists were restarted." }
   - id: road
     label: Road
     blurb: The sport's largest participation base, and the part of it with no facility requirement at all.
     events:
-      - { id: marathon, count: 2, label: Marathon, olympic: true, note: 42.195 km. }
-      - { id: walk, count: 3, label: Race walking, olympic: true, note: "The only event judged by eye rather than measured, which makes it structurally a judged sport inside a measured one." }
+      - { id: marathon, count: 2, label: Marathon, at: [olympic], note: 42.195 km. }
+      - { id: walk, count: 3, label: Race walking, at: [olympic], note: "The only event judged by eye rather than measured, which makes it structurally a judged sport inside a measured one." }
   - id: combined
     label: Combined events
     events:
-      - { id: dec, count: 1, label: Decathlon, olympic: true, note: "Ten events scored on a points table, so the table itself is a rule." }
-      - { id: hep, count: 1, label: Heptathlon, olympic: true }
+      - { id: dec, count: 1, label: Decathlon, at: [olympic], note: "Ten events scored on a points table, so the table itself is a rule." }
+      - { id: hep, count: 1, label: Heptathlon, at: [olympic] }

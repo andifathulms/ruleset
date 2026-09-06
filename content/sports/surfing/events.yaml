@@ -12,13 +12,13 @@ disciplines:
     label: Shortboard
     blurb: The Olympic discipline.
     events:
-      - { id: men, label: "Men's shortboard", olympic: true }
-      - { id: women, label: "Women's shortboard", olympic: true }
+      - { id: men, label: "Men's shortboard", at: [olympic] }
+      - { id: women, label: "Women's shortboard", at: [olympic] }
   - id: other
-    label: Governed by the federation, not on the programme
+    label: Contested away from the Games
     counts: false
     events:
-      - { id: longboard, label: Longboard, note: Judged on different criteria — style and nose-riding rather than power manoeuvres. }
-      - { id: sup, label: Stand-up paddle }
-      - { id: bigwave, label: Big wave, note: "Contested by invitation when conditions allow; no fixed calendar at all." }
-      - { id: para, label: Para surfing, olympic: false }
+      - { id: longboard, label: Longboard, note: Judged on different criteria — style and nose-riding rather than power manoeuvres., at: [world-championship] }
+      - { id: sup, label: Stand-up paddle, at: [world-championship] }
+      - { id: bigwave, label: Big wave, note: "Contested by invitation when conditions allow; no fixed calendar at all.", at: [professional] }
+      - { id: para, label: Para surfing, at: [world-championship] }

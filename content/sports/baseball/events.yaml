@@ -12,8 +12,8 @@ disciplines:
   - id: olympic
     label: On the 2028 programme
     events:
-      - { id: baseball, label: "Baseball, men's tournament", olympic: true }
-      - { id: softball, label: "Softball, women's tournament", olympic: true, note: "A separate sport under the same federation and the same Olympic listing." }
+      - { id: baseball, label: "Baseball, men's tournament", at: [olympic] }
+      - { id: softball, label: "Softball, women's tournament", at: [olympic], note: "A separate sport under the same federation and the same Olympic listing." }
   - id: professional
     label: Where the sport is actually played
     counts: false
@@ -22,7 +22,7 @@ disciplines:
       league rather than by a federation, which is the same situation as
       basketball's and more extreme.
     events:
-      - { id: mlb, label: Major League Baseball, note: "Made every rule change on this page. Two leagues under different batting rules from 1973 to 2022." }
-      - { id: npb, label: Nippon Professional Baseball }
-      - { id: kbo, label: KBO League }
-      - { id: wbc, label: World Baseball Classic, note: The international tournament that draws the professional players. }
+      - { id: mlb, label: Major League Baseball, note: "Made every rule change on this page. Two leagues under different batting rules from 1973 to 2022.", at: [professional] }
+      - { id: npb, label: Nippon Professional Baseball, at: [professional] }
+      - { id: kbo, label: KBO League, at: [professional] }
+      - { id: wbc, label: World Baseball Classic, note: The international tournament that draws the professional players., at: [world-championship] }

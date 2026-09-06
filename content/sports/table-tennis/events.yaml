@@ -10,14 +10,14 @@ disciplines:
   - id: table-tennis
     label: Table tennis
     events:
-      - { id: ms, label: "Men's singles", olympic: true }
-      - { id: ws, label: "Women's singles", olympic: true }
-      - { id: mt, label: "Men's team", olympic: true }
-      - { id: wt, label: "Women's team", olympic: true }
-      - { id: xd, label: Mixed doubles, olympic: true, note: "Added for 2020; the only doubles event on the Olympic programme." }
+      - { id: ms, label: "Men's singles", at: [olympic] }
+      - { id: ws, label: "Women's singles", at: [olympic] }
+      - { id: mt, label: "Men's team", at: [olympic] }
+      - { id: wt, label: "Women's team", at: [olympic] }
+      - { id: xd, label: Mixed doubles, at: [olympic], note: "Added for 2020; the only doubles event on the Olympic programme." }
   - id: para
     label: Contested by the federation beyond the Olympic programme
     counts: false
     events:
-      - { id: para-tt, label: Para table tennis, note: "Eleven classes, the largest para sport by class count." }
-      - { id: doubles, label: "Men's and women's doubles", note: "Contested at world championships, not at the Games." }
+      - { id: para-tt, label: Para table tennis, note: "Eleven classes, the largest para sport by class count.", at: [paralympic] }
+      - { id: doubles, label: "Men's and women's doubles", note: "Contested at world championships, not at the Games.", at: [world-championship] }

@@ -12,11 +12,11 @@ disciplines:
   - id: tennis
     label: Tennis
     events:
-      - { id: ms, label: "Men's singles", olympic: true }
-      - { id: ws, label: "Women's singles", olympic: true }
-      - { id: md, label: "Men's doubles", olympic: true }
-      - { id: wd, label: "Women's doubles", olympic: true }
-      - { id: xd, label: Mixed doubles, olympic: true, note: "Restored in 2012 after an 88-year absence." }
+      - { id: ms, label: "Men's singles", at: [olympic] }
+      - { id: ws, label: "Women's singles", at: [olympic] }
+      - { id: md, label: "Men's doubles", at: [olympic] }
+      - { id: wd, label: "Women's doubles", at: [olympic] }
+      - { id: xd, label: Mixed doubles, at: [olympic], note: "Restored in 2012 after an 88-year absence." }
   - id: majors
     label: The competitions that actually matter
     counts: false
@@ -24,8 +24,8 @@ disciplines:
       Listed because a sport's event structure is not the same as its Olympic
       programme, and in tennis the gap is wider than anywhere else on this site.
     events:
-      - { id: ao, label: Australian Open, note: Hard court. }
-      - { id: rg, label: Roland-Garros, note: Clay. The only major on the surface. }
-      - { id: wim, label: Wimbledon, note: Grass. Held out longest against the deciding-set tiebreak. }
-      - { id: uso, label: US Open, note: "Hard court. Used a deciding-set tiebreak from 1970, fifty-two years before the others agreed." }
-      - { id: davis, label: Davis Cup and Billie Jean King Cup, note: The team competitions, run by the ITF. }
+      - { id: ao, label: Australian Open, note: Hard court., at: [professional] }
+      - { id: rg, label: Roland-Garros, note: Clay. The only major on the surface., at: [professional] }
+      - { id: wim, label: Wimbledon, note: Grass. Held out longest against the deciding-set tiebreak., at: [professional] }
+      - { id: uso, label: US Open, note: "Hard court. Used a deciding-set tiebreak from 1970, fifty-two years before the others agreed.", at: [professional] }
+      - { id: davis, label: Davis Cup and Billie Jean King Cup, note: The team competitions, run by the ITF., at: [professional] }

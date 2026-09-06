@@ -10,11 +10,11 @@ disciplines:
     label: Flag football
     blurb: Five a side, 50 × 25 yards, no contact and no kicking.
     events:
-      - { id: men, label: "Men's tournament", olympic: true, note: New for 2028. }
-      - { id: women, label: "Women's tournament", olympic: true, note: New for 2028. }
+      - { id: men, label: "Men's tournament", at: [olympic], note: New for 2028. }
+      - { id: women, label: "Women's tournament", at: [olympic], note: New for 2028. }
   - id: related
     label: Governed by the same federation, not on the programme
     counts: false
     events:
-      - { id: tackle, label: American football, note: "The eleven-a-side tackle code; IFAF governs it internationally and it is not proposed for any Games." }
-      - { id: other-formats, label: "Seven and eight-a-side flag", note: Played domestically in several countries under national rules. }
+      - { id: tackle, label: American football, note: "The eleven-a-side tackle code; IFAF governs it internationally and it is not proposed for any Games.", at: [world-championship] }
+      - { id: other-formats, label: "Seven and eight-a-side flag", note: Played domestically in several countries under national rules., at: [federation-only] }

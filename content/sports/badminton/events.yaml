@@ -13,8 +13,8 @@ disciplines:
       The IOC treats badminton as a single discipline; the five events are
       distinguished by who is on court, not by any change in the laws.
     events:
-      - { id: ms, label: "Men's singles", olympic: true }
-      - { id: ws, label: "Women's singles", olympic: true }
-      - { id: md, label: "Men's doubles", olympic: true }
-      - { id: wd, label: "Women's doubles", olympic: true }
-      - { id: xd, label: Mixed doubles, olympic: true, note: "The only mixed-sex team event of its kind on the programme." }
+      - { id: ms, label: "Men's singles", at: [olympic] }
+      - { id: ws, label: "Women's singles", at: [olympic] }
+      - { id: md, label: "Men's doubles", at: [olympic] }
+      - { id: wd, label: "Women's doubles", at: [olympic] }
+      - { id: xd, label: Mixed doubles, at: [olympic], note: "The only mixed-sex team event of its kind on the programme." }

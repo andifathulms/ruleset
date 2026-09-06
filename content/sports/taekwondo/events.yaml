@@ -12,18 +12,18 @@ disciplines:
     label: "Kyorugi, sparring"
     blurb: The Olympic discipline. Electronically scored since 2009.
     events:
-      - { id: m58, label: "Men −58 kg", olympic: true }
-      - { id: m68, label: "Men −68 kg", olympic: true }
-      - { id: m80, label: "Men −80 kg", olympic: true }
-      - { id: m80p, label: "Men +80 kg", olympic: true }
-      - { id: w49, label: "Women −49 kg", olympic: true }
-      - { id: w57, label: "Women −57 kg", olympic: true }
-      - { id: w67, label: "Women −67 kg", olympic: true }
-      - { id: w67p, label: "Women +67 kg", olympic: true }
+      - { id: m58, label: "Men −58 kg", at: [olympic] }
+      - { id: m68, label: "Men −68 kg", at: [olympic] }
+      - { id: m80, label: "Men −80 kg", at: [olympic] }
+      - { id: m80p, label: "Men +80 kg", at: [olympic] }
+      - { id: w49, label: "Women −49 kg", at: [olympic] }
+      - { id: w57, label: "Women −57 kg", at: [olympic] }
+      - { id: w67, label: "Women −67 kg", at: [olympic] }
+      - { id: w67p, label: "Women +67 kg", at: [olympic] }
   - id: other
-    label: Governed by the federation, not on the programme
+    label: Contested away from the Games
     counts: false
     events:
-      - { id: poomsae, label: "Poomsae, forms", note: "Judged, not measured — the part of the sport that electronic scoring did not touch." }
-      - { id: worlds, label: World championship weight categories, note: "Eight per sex, against four at the Games." }
-      - { id: para, label: Para taekwondo, olympic: false }
+      - { id: poomsae, label: "Poomsae, forms", note: "Judged, not measured — the part of the sport that electronic scoring did not touch.", at: [world-championship, world-games] }
+      - { id: worlds, label: World championship weight categories, note: "Eight per sex, against four at the Games.", at: [world-championship] }
+      - { id: para, label: Para taekwondo, at: [paralympic] }

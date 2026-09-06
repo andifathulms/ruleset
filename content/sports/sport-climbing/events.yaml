@@ -13,8 +13,8 @@ disciplines:
       Fifteen metres, identical route worldwide since 2007, about five seconds.
       Its times are comparable in a way almost nothing else on this site is.
     events:
-      - { id: sm, label: "Men's speed", olympic: true }
-      - { id: sw, label: "Women's speed", olympic: true }
+      - { id: sm, label: "Men's speed", at: [olympic] }
+      - { id: sw, label: "Women's speed", at: [olympic] }
     # count defaults to 1 each
   - id: boulder-lead
     label: Boulder and lead
@@ -22,16 +22,16 @@ disciplines:
       Combined on a shared hundred-point scale from 2024. The two disciplines
       climbers actually train together.
     events:
-      - { id: blm, label: "Men's boulder and lead", olympic: true }
-      - { id: blw, label: "Women's boulder and lead", olympic: true }
+      - { id: blm, label: "Men's boulder and lead", at: [olympic] }
+      - { id: blw, label: "Women's boulder and lead", at: [olympic] }
   - id: former
     label: The format that was abandoned
     counts: false
     events:
-      - { id: combined2020, label: Combined, all three disciplines, note: "Contested at 2020 only. Scored by multiplying ranks; dropped after one Games." }
+      - { id: combined2020, label: Combined, all three disciplines, note: "Contested at 2020 only. Scored by multiplying ranks; dropped after one Games.", at: [lapsed] }
   - id: outside
-    label: Governed by the federation, not on the programme
+    label: Contested away from the Games
     counts: false
     events:
-      - { id: paraclimbing, label: Paraclimbing, olympic: false }
-      - { id: ice, label: Ice climbing, note: Contested at world level, on the Winter programme's fringe. }
+      - { id: paraclimbing, label: Paraclimbing, at: [paralympic] }
+      - { id: ice, label: Ice climbing, note: Contested at world level, on the Winter programme's fringe., at: [world-championship] }

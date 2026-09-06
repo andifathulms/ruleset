@@ -11,23 +11,23 @@ disciplines:
     label: Kumite
     blurb: Sparring, in weight categories, scored on controlled technique.
     events:
-      - { id: m67, label: "Men −67 kg", olympic: true }
-      - { id: m75, label: "Men −75 kg", olympic: true }
-      - { id: m75p, label: "Men +75 kg", olympic: true }
-      - { id: w55, label: "Women −55 kg", olympic: true }
-      - { id: w61, label: "Women −61 kg", olympic: true }
-      - { id: w61p, label: "Women +61 kg", olympic: true }
+      - { id: m67, label: "Men −67 kg", at: [olympic] }
+      - { id: m75, label: "Men −75 kg", at: [olympic] }
+      - { id: m75p, label: "Men +75 kg", at: [olympic] }
+      - { id: w55, label: "Women −55 kg", at: [olympic] }
+      - { id: w61, label: "Women −61 kg", at: [olympic] }
+      - { id: w61p, label: "Women +61 kg", at: [olympic] }
   - id: kata
     label: Kata
     blurb: A solo performance of a prescribed sequence, judged.
     events:
-      - { id: km, label: "Men's kata", olympic: true }
-      - { id: kw, label: "Women's kata", olympic: true }
+      - { id: km, label: "Men's kata", at: [olympic] }
+      - { id: kw, label: "Women's kata", at: [olympic] }
   - id: other
-    label: Governed by the federation, not on the programme
+    label: Contested away from the Games
     counts: false
     events:
-      - { id: team-kata, label: Team kata, note: Three competitors performing in synchrony. }
-      - { id: team-kumite, label: Team kumite }
-      - { id: para, label: Para karate, olympic: false }
-      - { id: styles, label: Styles outside WKF competition, note: "Shotokan, Goju-ryu, Wado-ryu, Shito-ryu and others, with their own organisations and rules." }
+      - { id: team-kata, label: Team kata, note: Three competitors performing in synchrony., at: [world-championship, world-games] }
+      - { id: team-kumite, label: Team kumite, at: [world-championship, world-games] }
+      - { id: para, label: Para karate, at: [world-championship] }
+      - { id: styles, label: Styles outside WKF competition, note: "Shotokan, Goju-ryu, Wado-ryu, Shito-ryu and others, with their own organisations and rules.", context: true }

@@ -11,26 +11,26 @@ disciplines:
   - id: dinghy
     label: Dinghy
     events:
-      - { id: ilca7, label: "ILCA 7", olympic: true, note: "Men's one-person dinghy." }
-      - { id: ilca6, label: "ILCA 6", olympic: true, note: "Women's one-person dinghy." }
-      - { id: 470, label: "470 mixed", olympic: true, note: "Two-person dinghy, now sailed by a mixed crew." }
+      - { id: ilca7, label: "ILCA 7", at: [olympic], note: "Men's one-person dinghy." }
+      - { id: ilca6, label: "ILCA 6", at: [olympic], note: "Women's one-person dinghy." }
+      - { id: 470, label: "470 mixed", at: [olympic], note: "Two-person dinghy, now sailed by a mixed crew." }
   - id: skiff
     label: Skiff
     events:
-      - { id: 49er, label: "49er", olympic: true }
-      - { id: 49erfx, label: "49erFX", olympic: true }
+      - { id: 49er, label: "49er", at: [olympic] }
+      - { id: 49erfx, label: "49erFX", at: [olympic] }
   - id: board-and-kite
     label: Board and kite
     blurb: The newest part of the programme and the part that has changed most.
     events:
-      - { id: iqm, label: "iQFOiL, men", olympic: true }
-      - { id: iqw, label: "iQFOiL, women", olympic: true }
-      - { id: km, label: "Formula Kite, men", olympic: true }
-      - { id: kw, label: "Formula Kite, women", olympic: true }
+      - { id: iqm, label: "iQFOiL, men", at: [olympic] }
+      - { id: iqw, label: "iQFOiL, women", at: [olympic] }
+      - { id: km, label: "Formula Kite, men", at: [olympic] }
+      - { id: kw, label: "Formula Kite, women", at: [olympic] }
   - id: multihull
     label: Multihull
     events:
-      - { id: nacra, label: "Nacra 17 mixed", olympic: true, note: "Foiling catamaran, sailed by a mixed crew." }
+      - { id: nacra, label: "Nacra 17 mixed", at: [olympic], note: "Foiling catamaran, sailed by a mixed crew." }
   - id: former
     label: Classes removed from the programme
     counts: false
@@ -38,6 +38,6 @@ disciplines:
       Listed because their removal ended careers. Sailors specialise in a class
       for a decade and can find the event gone.
     events:
-      - { id: finn, label: Finn, note: "Contested from 1952 to 2020. The heavyweight men's dinghy." }
-      - { id: star, label: Star, note: "Contested, with interruptions, from 1932 to 2012." }
-      - { id: rsx, label: "RS:X", note: "The windsurfing class replaced by foiling equipment for 2024." }
+      - { id: finn, label: Finn, note: "Contested from 1952 to 2020. The heavyweight men's dinghy.", at: [lapsed] }
+      - { id: star, label: Star, note: "Contested, with interruptions, from 1932 to 2012.", at: [lapsed] }
+      - { id: rsx, label: "RS:X", note: "The windsurfing class replaced by foiling equipment for 2024.", at: [lapsed] }

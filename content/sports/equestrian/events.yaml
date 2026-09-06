@@ -11,28 +11,28 @@ disciplines:
     label: Jumping
     blurb: Measured in faults and seconds. The flagship Olympic discipline.
     events:
-      - { id: ji, label: Individual, olympic: true }
-      - { id: jt, label: Team, olympic: true }
+      - { id: ji, label: Individual, at: [olympic] }
+      - { id: jt, label: Team, at: [olympic] }
   - id: dressage
     label: Dressage
     blurb: Judged by a panel on the quality of prescribed movements.
     events:
-      - { id: di, label: Individual, olympic: true }
-      - { id: dt, label: Team, olympic: true }
+      - { id: di, label: Individual, at: [olympic] }
+      - { id: dt, label: Team, at: [olympic] }
   - id: eventing
     label: Eventing
     blurb: >
       Dressage, cross-country and jumping across several days. Until 2005 the
       endurance day also included roads and tracks and a steeplechase.
     events:
-      - { id: ei, label: Individual, olympic: true }
-      - { id: et, label: Team, olympic: true }
+      - { id: ei, label: Individual, at: [olympic] }
+      - { id: et, label: Team, at: [olympic] }
   - id: other
-    label: Governed by the federation, not on the programme
+    label: Contested away from the Games
     counts: false
     events:
-      - { id: driving, label: Driving, note: Carriage driving, with world championships. }
-      - { id: endurance, label: Endurance, note: "Long-distance racing, and the discipline with the sport's worst welfare record." }
-      - { id: vaulting, label: Vaulting }
-      - { id: reining, label: Reining }
-      - { id: para, label: Para dressage, olympic: false }
+      - { id: driving, label: Driving, note: Carriage driving, with world championships., at: [world-championship, world-games] }
+      - { id: endurance, label: Endurance, note: "Long-distance racing, and the discipline with the sport's worst welfare record.", at: [world-championship] }
+      - { id: vaulting, label: Vaulting, at: [world-championship, world-games] }
+      - { id: reining, label: Reining, at: [lapsed] }
+      - { id: para, label: Para dressage, at: [paralympic] }

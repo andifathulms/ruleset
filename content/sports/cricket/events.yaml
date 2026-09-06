@@ -11,8 +11,8 @@ disciplines:
     label: On the 2028 programme
     blurb: Twenty20, six teams per event.
     events:
-      - { id: men, label: "Men's tournament", olympic: true }
-      - { id: women, label: "Women's tournament", olympic: true }
+      - { id: men, label: "Men's tournament", at: [olympic] }
+      - { id: women, label: "Women's tournament", at: [olympic] }
   - id: formats
     label: The three formats
     counts: false
@@ -20,7 +20,7 @@ disciplines:
       Each keeps its own record book. The sport has never combined them and has
       never suggested it should.
     events:
-      - { id: test, label: Test cricket, note: "Five days, and may be drawn. The oldest form; first played 1877." }
-      - { id: odi, label: One-day international, note: "Fifty overs a side. First played 1971, as an improvisation after a washed-out Test." }
-      - { id: t20, label: Twenty20 international, note: "Twenty overs a side. Introduced domestically in 2003." }
-      - { id: firstclass, label: First-class and domestic competition, note: "Where most professional cricket is actually played." }
+      - { id: test, label: Test cricket, note: "Five days, and may be drawn. The oldest form; first played 1877.", at: [professional] }
+      - { id: odi, label: One-day international, note: "Fifty overs a side. First played 1971, as an improvisation after a washed-out Test.", at: [world-championship] }
+      - { id: t20, label: Twenty20 international, note: "Twenty overs a side. Introduced domestically in 2003.", at: [world-championship] }
+      - { id: firstclass, label: First-class and domestic competition, note: "Where most professional cricket is actually played.", at: [professional] }

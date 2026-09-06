@@ -15,8 +15,8 @@ disciplines:
       One discipline. The variants below share the Laws in modified form and
       are governed by FIFA, but none is a separate Olympic discipline.
     events:
-      - { id: men, label: "Men's tournament", olympic: true, note: "Age-restricted, with a limited number of older players per squad." }
-      - { id: women, label: "Women's tournament", olympic: true, note: No age restriction. }
+      - { id: men, label: "Men's tournament", at: [olympic], note: "Age-restricted, with a limited number of older players per squad." }
+      - { id: women, label: "Women's tournament", at: [olympic], note: No age restriction. }
   - id: variants
     label: Variants under modified Laws
     counts: false
@@ -25,5 +25,5 @@ disciplines:
       number of players and the size of the pitch, and almost everything else
       in the book still works.
     events:
-      - { id: futsal, label: Futsal }
-      - { id: beach, label: Beach soccer }
+      - { id: futsal, label: Futsal, at: [world-championship] }
+      - { id: beach, label: Beach soccer, at: [world-championship] }

@@ -12,24 +12,24 @@ disciplines:
     label: Sculling
     blurb: Two oars per rower.
     events:
-      - { id: single, label: Single sculls, olympic: true, count: 2 }
-      - { id: double, label: Double sculls, olympic: true, count: 2 }
-      - { id: quad, label: Quadruple sculls, olympic: true, count: 2 }
+      - { id: single, label: Single sculls, at: [olympic], count: 2 }
+      - { id: double, label: Double sculls, at: [olympic], count: 2 }
+      - { id: quad, label: Quadruple sculls, at: [olympic], count: 2 }
   - id: sweep
     label: Sweep
     blurb: One oar per rower.
     events:
-      - { id: pair, label: Coxless pair, olympic: true, count: 2 }
-      - { id: four, label: Coxless four, olympic: true, count: 2 }
-      - { id: eight, label: Eight, olympic: true, count: 2, note: With a coxswain — the only Olympic boat that carries one. }
+      - { id: pair, label: Coxless pair, at: [olympic], count: 2 }
+      - { id: four, label: Coxless four, at: [olympic], count: 2 }
+      - { id: eight, label: Eight, at: [olympic], count: 2, note: With a coxswain — the only Olympic boat that carries one. }
   - id: coastal
     label: Coastal
     blurb: Added for 2028. Raced in open sea on a short knockout course, with a run up the beach.
     events:
-      - { id: beach, label: Beach sprint, olympic: true, count: 2 }
+      - { id: beach, label: Beach sprint, at: [olympic], count: 2 }
   - id: former
     label: No longer on the programme
     counts: false
     events:
-      - { id: lwfour, label: Lightweight four, note: "Removed after 2016." }
-      - { id: lwdouble, label: Lightweight double sculls, note: "Removed after 2024. The lightweight category is gone from the Games." }
+      - { id: lwfour, label: Lightweight four, note: "Removed after 2016.", at: [lapsed] }
+      - { id: lwdouble, label: Lightweight double sculls, note: "Removed after 2024. The lightweight category is gone from the Games.", at: [lapsed] }

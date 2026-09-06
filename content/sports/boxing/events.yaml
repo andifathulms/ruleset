@@ -12,18 +12,18 @@ disciplines:
   - id: men
     label: "Men's categories"
     events:
-      - { id: m, label: "Men's weight categories", olympic: true, count: 7 }
+      - { id: m, label: "Men's weight categories", at: [olympic], count: 7 }
   - id: women
     label: "Women's categories"
     blurb: On the programme since 2012, and expanding towards parity since.
     events:
-      - { id: w, label: "Women's weight categories", olympic: true, count: 6 }
+      - { id: w, label: "Women's weight categories", at: [olympic], count: 6 }
   - id: governance
     label: Who has set these categories
     counts: false
     blurb: >
       Recorded because for two Games the answer was not a federation.
     events:
-      - { id: aiba, label: "AIBA, to 2019" }
-      - { id: ioc, label: "The IOC task force, 2020 and 2024", note: "The IOC wrote the competition and qualification rules itself." }
-      - { id: wb, label: "World Boxing, from 2025", note: Recognised for the 2028 Games. }
+      - { id: aiba, label: "AIBA, to 2019", context: true }
+      - { id: ioc, label: "The IOC task force, 2020 and 2024", note: "The IOC wrote the competition and qualification rules itself.", context: true }
+      - { id: wb, label: "World Boxing, from 2025", note: Recognised for the 2028 Games., context: true }

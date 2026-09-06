@@ -12,15 +12,15 @@ disciplines:
     label: On the programme
     blurb: Olympic distance, drafting legal.
     events:
-      - { id: men, label: "Men's individual", olympic: true }
-      - { id: women, label: "Women's individual", olympic: true }
-      - { id: mixed, label: Mixed relay, olympic: true, note: "Two men and two women, added for 2020." }
+      - { id: men, label: "Men's individual", at: [olympic] }
+      - { id: women, label: "Women's individual", at: [olympic] }
+      - { id: mixed, label: Mixed relay, at: [olympic], note: "Two men and two women, added for 2020." }
   - id: other
     label: Contested outside the programme
     counts: false
     events:
-      - { id: sprint, label: Sprint distance, note: "Half the Olympic distance; the usual entry point." }
-      - { id: longcourse, label: Long course and full distance, note: "3.8 km swim, 180 km bike, 42.2 km run. Non-drafting, and largely run by commercial organisers rather than the federation." }
-      - { id: duathlon, label: Duathlon, note: "Run, bike, run. Also what a triathlon becomes when the swim is cancelled for water quality." }
-      - { id: aquathlon, label: Aquathlon and winter triathlon }
-      - { id: para, label: Paratriathlon, olympic: false }
+      - { id: sprint, label: Sprint distance, note: "Half the Olympic distance; the usual entry point.", at: [world-championship] }
+      - { id: longcourse, label: Long course and full distance, note: "3.8 km swim, 180 km bike, 42.2 km run. Non-drafting, and largely run by commercial organisers rather than the federation.", at: [world-championship] }
+      - { id: duathlon, label: Duathlon, note: "Run, bike, run. Also what a triathlon becomes when the swim is cancelled for water quality.", at: [world-championship, world-games] }
+      - { id: aquathlon, label: Aquathlon and winter triathlon, at: [world-championship] }
+      - { id: para, label: Paratriathlon, at: [paralympic] }

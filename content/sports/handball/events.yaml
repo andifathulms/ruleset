@@ -12,16 +12,16 @@ disciplines:
     label: Indoor handball
     blurb: Seven a side on a court. The international standard since 1966.
     events:
-      - { id: men, label: "Men's tournament", olympic: true }
-      - { id: women, label: "Women's tournament", olympic: true }
+      - { id: men, label: "Men's tournament", at: [olympic] }
+      - { id: women, label: "Women's tournament", at: [olympic] }
   - id: former
     label: The game it replaced
     counts: false
     events:
-      - { id: field, label: Field handball, note: "Eleven a side outdoors on a football pitch. The Olympic sport in 1936; world championships contested into the 1960s." }
+      - { id: field, label: Field handball, note: "Eleven a side outdoors on a football pitch. The Olympic sport in 1936; world championships contested into the 1960s.", at: [lapsed] }
   - id: other
-    label: Governed by the federation, not on the programme
+    label: Contested away from the Games
     counts: false
     events:
-      - { id: beach, label: Beach handball, note: "Four a side on sand, with a different scoring system in which spectacular goals count double." }
-      - { id: wheelchair, label: Wheelchair handball }
+      - { id: beach, label: Beach handball, note: "Four a side on sand, with a different scoring system in which spectacular goals count double.", at: [world-championship, world-games] }
+      - { id: wheelchair, label: Wheelchair handball, at: [federation-only] }

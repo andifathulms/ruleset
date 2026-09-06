@@ -12,33 +12,33 @@ disciplines:
   - id: road
     label: Road
     events:
-      - { id: rr, label: Road race, olympic: true, count: 2 }
-      - { id: itt, label: Individual time trial, olympic: true, count: 2 }
+      - { id: rr, label: Road race, at: [olympic], count: 2 }
+      - { id: itt, label: Individual time trial, at: [olympic], count: 2 }
   - id: track
     label: Track
     blurb: >
       The discipline the hour record belongs to, though the record itself is
       not an Olympic event.
     events:
-      - { id: sprint, label: Sprint, olympic: true, count: 2 }
-      - { id: team-sprint, label: Team sprint, olympic: true, count: 2 }
-      - { id: keirin, label: Keirin, olympic: true, count: 2 }
-      - { id: team-pursuit, label: Team pursuit, olympic: true, count: 2 }
-      - { id: omnium, label: Omnium, olympic: true, count: 2 }
-      - { id: madison, label: Madison, olympic: true, count: 2 }
+      - { id: sprint, label: Sprint, at: [olympic], count: 2 }
+      - { id: team-sprint, label: Team sprint, at: [olympic], count: 2 }
+      - { id: keirin, label: Keirin, at: [olympic], count: 2 }
+      - { id: team-pursuit, label: Team pursuit, at: [olympic], count: 2 }
+      - { id: omnium, label: Omnium, at: [olympic], count: 2 }
+      - { id: madison, label: Madison, at: [olympic], count: 2 }
   - id: mtb
     label: Mountain bike
     events:
-      - { id: xco, label: Cross-country, olympic: true, count: 2 }
+      - { id: xco, label: Cross-country, at: [olympic], count: 2 }
   - id: bmx
     label: BMX
     events:
-      - { id: bmx-race, label: BMX racing, olympic: true, count: 2 }
-      - { id: bmx-free, label: BMX freestyle park, olympic: true, count: 2, note: "Judged, not measured — a judged event inside a measured sport." }
+      - { id: bmx-race, label: BMX racing, at: [olympic], count: 2 }
+      - { id: bmx-free, label: BMX freestyle park, at: [olympic], count: 2, note: "Judged, not measured — a judged event inside a measured sport." }
   - id: non-olympic
-    label: Governed by the federation, not on the programme
+    label: Contested away from the Games
     counts: false
     events:
-      - { id: hour, label: The hour record, note: "A ratified world record, contested whenever a rider chooses. Not an event at any championship." }
-      - { id: cx, label: Cyclo-cross }
-      - { id: track-endurance, label: Individual pursuit, note: "Dropped from the Olympic programme after 2008; still a world championship event." }
+      - { id: hour, label: The hour record, note: "A ratified world record, contested whenever a rider chooses. Not an event at any championship.", at: [federation-only] }
+      - { id: cx, label: Cyclo-cross, at: [world-championship] }
+      - { id: track-endurance, label: Individual pursuit, note: "Dropped from the Olympic programme after 2008; still a world championship event.", at: [world-championship] }

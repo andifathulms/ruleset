@@ -13,8 +13,8 @@ disciplines:
     label: Contested at the Games
     blurb: Five categories per sex from 2024, reduced from seven and before that from eight.
     events:
-      - { id: m, label: "Men's categories", olympic: true, count: 5 }
-      - { id: w, label: "Women's categories", olympic: true, count: 5 }
+      - { id: m, label: "Men's categories", at: [olympic], count: 5 }
+      - { id: w, label: "Women's categories", at: [olympic], count: 5 }
   - id: records
     label: Categories recognised for world records
     counts: false
@@ -22,12 +22,12 @@ disciplines:
       A larger set than the Olympic programme uses. Records exist in divisions
       nobody can win a medal in.
     events:
-      - { id: rm, label: "Men's record categories" }
-      - { id: rw, label: "Women's record categories" }
+      - { id: rm, label: "Men's record categories", context: true }
+      - { id: rw, label: "Women's record categories", context: true }
   - id: lifts
     label: The lifts themselves
     counts: false
     events:
-      - { id: snatch, label: Snatch }
-      - { id: cj, label: Clean and jerk }
-      - { id: press, label: Clean and press, note: "Contested until 1972. Removed because it could not be judged consistently." }
+      - { id: snatch, label: Snatch, context: true }
+      - { id: cj, label: Clean and jerk, context: true }
+      - { id: press, label: Clean and press, note: "Contested until 1972. Removed because it could not be judged consistently.", context: true }

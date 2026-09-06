@@ -10,14 +10,14 @@ disciplines:
   - id: events
     label: Olympic events
     events:
-      - { id: men, label: "Men's individual", olympic: true }
-      - { id: women, label: "Women's individual", olympic: true }
+      - { id: men, label: "Men's individual", at: [olympic] }
+      - { id: women, label: "Women's individual", at: [olympic] }
   - id: components
     label: The disciplines that make it up
     counts: false
     events:
-      - { id: fencing, label: Fencing, note: "Épée, one hit, round robin." }
-      - { id: swimming, label: Swimming, note: 200 m freestyle. }
-      - { id: riding, label: Riding, note: "Show jumping on a horse drawn by lot. Removed from 2028." }
-      - { id: laser-run, label: Laser run, note: "Running and shooting combined, since 2009. Contested as separate disciplines before that." }
-      - { id: obstacle, label: Obstacle racing, note: "Replaces riding from 2028." }
+      - { id: fencing, label: Fencing, note: "Épée, one hit, round robin.", context: true }
+      - { id: swimming, label: Swimming, note: 200 m freestyle., context: true }
+      - { id: riding, label: Riding, note: "Show jumping on a horse drawn by lot. Removed from 2028.", context: true }
+      - { id: laser-run, label: Laser run, note: "Running and shooting combined, since 2009. Contested as separate disciplines before that.", context: true }
+      - { id: obstacle, label: Obstacle racing, note: "Replaces riding from 2028.", context: true }

@@ -12,35 +12,35 @@ disciplines:
     label: "Artistic, men"
     blurb: Six apparatus, plus the all-around and the team event.
     events:
-      - { id: m-team, label: Team all-around, olympic: true }
-      - { id: m-aa, label: Individual all-around, olympic: true }
-      - { id: m-floor, label: Floor exercise, olympic: true }
-      - { id: m-pommel, label: Pommel horse, olympic: true }
-      - { id: m-rings, label: Rings, olympic: true }
-      - { id: m-vault, label: Vault, olympic: true }
-      - { id: m-pbars, label: Parallel bars, olympic: true }
-      - { id: m-hbar, label: Horizontal bar, olympic: true }
+      - { id: m-team, label: Team all-around, at: [olympic] }
+      - { id: m-aa, label: Individual all-around, at: [olympic] }
+      - { id: m-floor, label: Floor exercise, at: [olympic] }
+      - { id: m-pommel, label: Pommel horse, at: [olympic] }
+      - { id: m-rings, label: Rings, at: [olympic] }
+      - { id: m-vault, label: Vault, at: [olympic] }
+      - { id: m-pbars, label: Parallel bars, at: [olympic] }
+      - { id: m-hbar, label: Horizontal bar, at: [olympic] }
   - id: artistic-women
     label: "Artistic, women"
     blurb: Four apparatus, plus the all-around and the team event.
     events:
-      - { id: w-team, label: Team all-around, olympic: true }
-      - { id: w-aa, label: Individual all-around, olympic: true }
-      - { id: w-vault, label: Vault, olympic: true }
-      - { id: w-ubars, label: Uneven bars, olympic: true }
-      - { id: w-beam, label: Balance beam, olympic: true }
-      - { id: w-floor, label: Floor exercise, olympic: true }
+      - { id: w-team, label: Team all-around, at: [olympic] }
+      - { id: w-aa, label: Individual all-around, at: [olympic] }
+      - { id: w-vault, label: Vault, at: [olympic] }
+      - { id: w-ubars, label: Uneven bars, at: [olympic] }
+      - { id: w-beam, label: Balance beam, at: [olympic] }
+      - { id: w-floor, label: Floor exercise, at: [olympic] }
   - id: rhythmic
     label: Rhythmic
     blurb: Women only on the Olympic programme, with hand apparatus.
     events:
-      - { id: r-aa, label: Individual all-around, olympic: true }
-      - { id: r-group, label: Group all-around, olympic: true }
+      - { id: r-aa, label: Individual all-around, at: [olympic] }
+      - { id: r-group, label: Group all-around, at: [olympic] }
   - id: trampoline
     label: Trampoline
     events:
-      - { id: t-men, label: "Men's individual", olympic: true }
-      - { id: t-women, label: "Women's individual", olympic: true }
+      - { id: t-men, label: "Men's individual", at: [olympic] }
+      - { id: t-women, label: "Women's individual", at: [olympic] }
   - id: non-olympic
     label: Contested by the federation but not at the Games
     counts: false
@@ -48,6 +48,6 @@ disciplines:
       The FIG also governs disciplines that have never been on the Olympic
       programme, which is why its rulebook is larger than the Games suggests.
     events:
-      - { id: acro, label: Acrobatic gymnastics }
-      - { id: aerobic, label: Aerobic gymnastics }
-      - { id: parkour, label: Parkour }
+      - { id: acro, label: Acrobatic gymnastics, at: [world-championship, world-games] }
+      - { id: aerobic, label: Aerobic gymnastics, at: [world-championship, world-games] }
+      - { id: parkour, label: Parkour, at: [world-championship, world-games] }

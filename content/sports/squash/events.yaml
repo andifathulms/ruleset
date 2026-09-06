@@ -11,12 +11,12 @@ disciplines:
     label: Singles
     blurb: The Olympic discipline, on a glass show court.
     events:
-      - { id: men, label: "Men's singles", olympic: true }
-      - { id: women, label: "Women's singles", olympic: true }
+      - { id: men, label: "Men's singles", at: [olympic] }
+      - { id: women, label: "Women's singles", at: [olympic] }
   - id: other
-    label: Governed by the federation, not on the programme
+    label: Contested away from the Games
     counts: false
     events:
-      - { id: doubles, label: Doubles, note: "Played on a wider court; contested at the Commonwealth Games." }
-      - { id: mixed, label: Mixed doubles }
-      - { id: team, label: World team championships }
+      - { id: doubles, label: Doubles, note: "Played on a wider court; contested at the Commonwealth Games.", at: [world-championship, world-games] }
+      - { id: mixed, label: Mixed doubles, at: [world-championship] }
+      - { id: team, label: World team championships, at: [world-championship] }

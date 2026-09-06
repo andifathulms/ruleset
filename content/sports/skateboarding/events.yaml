@@ -11,18 +11,18 @@ disciplines:
     label: Street
     blurb: Stairs, rails, ledges and banks. Two runs and five tricks, best four count.
     events:
-      - { id: sm, label: "Men's street", olympic: true }
-      - { id: sw, label: "Women's street", olympic: true }
+      - { id: sm, label: "Men's street", at: [olympic] }
+      - { id: sw, label: "Women's street", at: [olympic] }
   - id: park
     label: Park
     blurb: A bowl of transitions. Three runs, best one counts.
     events:
-      - { id: pm, label: "Men's park", olympic: true }
-      - { id: pw, label: "Women's park", olympic: true }
+      - { id: pm, label: "Men's park", at: [olympic] }
+      - { id: pw, label: "Women's park", at: [olympic] }
   - id: other
     label: Outside the Olympic programme
     counts: false
     events:
-      - { id: vert, label: Vert, note: "The half-pipe discipline of the sport's 1980s and 1990s peak. Not on the programme." }
-      - { id: big-air, label: Big air }
-      - { id: circuit, label: The commercial contest circuit, note: "Predates the federation by decades and continues alongside it." }
+      - { id: vert, label: Vert, note: "The half-pipe discipline of the sport's 1980s and 1990s peak. Not on the programme.", at: [professional] }
+      - { id: big-air, label: Big air, at: [professional] }
+      - { id: circuit, label: The commercial contest circuit, note: "Predates the federation by decades and continues alongside it.", at: [professional] }

@@ -12,8 +12,8 @@ disciplines:
     label: Olympic golf
     blurb: 72 holes of stroke play. Returned in 2016 after 112 years away.
     events:
-      - { id: men, label: "Men's individual", olympic: true }
-      - { id: women, label: "Women's individual", olympic: true }
+      - { id: men, label: "Men's individual", at: [olympic] }
+      - { id: women, label: "Women's individual", at: [olympic] }
   - id: majors
     label: The championships that matter more
     counts: false
@@ -21,13 +21,13 @@ disciplines:
       Four independent tournaments, run by four different organisations, each
       setting its own conditions and its own play-off format.
     events:
-      - { id: masters, label: The Masters, note: "Played on the same course every year — the only major that is." }
-      - { id: pga, label: PGA Championship }
-      - { id: usopen, label: U.S. Open, note: Run by the USGA, one of the two bodies that owns the Rules. }
-      - { id: open, label: The Open Championship, note: Run by the R&A, the other one. }
+      - { id: masters, label: The Masters, note: "Played on the same course every year — the only major that is.", at: [professional] }
+      - { id: pga, label: PGA Championship, at: [professional] }
+      - { id: usopen, label: U.S. Open, note: Run by the USGA, one of the two bodies that owns the Rules., at: [professional] }
+      - { id: open, label: The Open Championship, note: Run by the R&A, the other one., at: [professional] }
   - id: amateur
     label: Where the handicap actually operates
     counts: false
     events:
-      - { id: club, label: Club competition, note: "The handicap system's purpose: players of any standard competing against each other." }
-      - { id: whs, label: World Handicap System, note: "Six regional systems unified in 2020 so a handicap means the same everywhere." }
+      - { id: club, label: Club competition, note: "The handicap system's purpose: players of any standard competing against each other.", context: true }
+      - { id: whs, label: World Handicap System, note: "Six regional systems unified in 2020 so a handicap means the same everywhere.", context: true }

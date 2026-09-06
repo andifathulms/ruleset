@@ -11,24 +11,24 @@ disciplines:
     label: Sprint
     blurb: Flat water, buoyed lanes, timed to a thousandth.
     events:
-      - { id: k1-1000, label: "K-1 1000 m", olympic: true, count: 2 }
-      - { id: k1-500, label: "K-1 500 m", olympic: true, count: 2 }
-      - { id: k2-500, label: "K-2 500 m", olympic: true, count: 2 }
-      - { id: k4-500, label: "K-4 500 m", olympic: true, count: 2 }
-      - { id: c1, label: "C-1", olympic: true, count: 2, note: "Women's C-1 added for 2021." }
-      - { id: c2, label: "C-2 500 m", olympic: true, count: 1 }
+      - { id: k1-1000, label: "K-1 1000 m", at: [olympic], count: 2 }
+      - { id: k1-500, label: "K-1 500 m", at: [olympic], count: 2 }
+      - { id: k2-500, label: "K-2 500 m", at: [olympic], count: 2 }
+      - { id: k4-500, label: "K-4 500 m", at: [olympic], count: 2 }
+      - { id: c1, label: "C-1", at: [olympic], count: 2, note: "Women's C-1 added for 2021." }
+      - { id: c2, label: "C-2 500 m", at: [olympic], count: 1 }
   - id: slalom
     label: Slalom
     blurb: Whitewater, hanging gates, time plus penalties.
     events:
-      - { id: k1-slalom, label: "K-1 slalom", olympic: true, count: 2 }
-      - { id: c1-slalom, label: "C-1 slalom", olympic: true, count: 2, note: "Women's C-1 slalom added for 2021." }
-      - { id: kayak-cross, label: Kayak cross, olympic: true, count: 2, note: "Added 2024. Four boats, contact permitted, a required roll." }
+      - { id: k1-slalom, label: "K-1 slalom", at: [olympic], count: 2 }
+      - { id: c1-slalom, label: "C-1 slalom", at: [olympic], count: 2, note: "Women's C-1 slalom added for 2021." }
+      - { id: kayak-cross, label: Kayak cross, at: [olympic], count: 2, note: "Added 2024. Four boats, contact permitted, a required roll." }
   - id: other
-    label: Governed by the federation, not on the programme
+    label: Contested away from the Games
     counts: false
     events:
-      - { id: marathon, label: Canoe marathon }
-      - { id: polo, label: Canoe polo }
-      - { id: freestyle, label: Freestyle kayak, note: Judged, on a single whitewater feature. }
-      - { id: para, label: Paracanoe, olympic: false }
+      - { id: marathon, label: Canoe marathon, at: [world-championship, world-games] }
+      - { id: polo, label: Canoe polo, at: [world-championship, world-games] }
+      - { id: freestyle, label: Freestyle kayak, note: Judged, on a single whitewater feature., at: [world-championship, world-games] }
+      - { id: para, label: Paracanoe, at: [paralympic] }

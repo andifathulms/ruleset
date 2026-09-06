@@ -12,23 +12,23 @@ disciplines:
     label: "Freestyle, men"
     blurb: The legs may be attacked and used.
     events:
-      - { id: fm, label: Weight categories, olympic: true, count: 6 }
+      - { id: fm, label: Weight categories, at: [olympic], count: 6 }
   - id: freestyle-women
     label: "Freestyle, women"
     blurb: Equal to the men's freestyle programme since 2016.
     events:
-      - { id: fw, label: Weight categories, olympic: true, count: 6 }
+      - { id: fw, label: Weight categories, at: [olympic], count: 6 }
   - id: greco
     label: "Greco-Roman, men"
     blurb: >
       No attacks below the waist and no use of the legs — which is the whole of
       the difference, and enough to make it a separate sport.
     events:
-      - { id: gr, label: Weight categories, olympic: true, count: 6 }
+      - { id: gr, label: Weight categories, at: [olympic], count: 6 }
   - id: other
-    label: Governed by the federation, not on the programme
+    label: Contested away from the Games
     counts: false
     events:
-      - { id: greco-women, label: "Greco-Roman, women", note: "Not contested internationally at senior level." }
-      - { id: beach, label: Beach wrestling }
-      - { id: grappling, label: Grappling and pankration }
+      - { id: greco-women, label: "Greco-Roman, women", note: "Not contested internationally at senior level.", at: [federation-only] }
+      - { id: beach, label: Beach wrestling, at: [world-championship, world-games] }
+      - { id: grappling, label: Grappling and pankration, at: [world-championship, world-games] }

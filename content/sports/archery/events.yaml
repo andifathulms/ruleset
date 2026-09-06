@@ -13,16 +13,16 @@ disciplines:
     label: Recurve, outdoor target
     blurb: The Olympic discipline. Sights and stabilisers permitted, optics and release aids not.
     events:
-      - { id: mi, label: "Men's individual", olympic: true }
-      - { id: wi, label: "Women's individual", olympic: true }
-      - { id: mt, label: "Men's team", olympic: true }
-      - { id: wt, label: "Women's team", olympic: true }
-      - { id: mx, label: Mixed team, olympic: true, note: "Added 2021, and scored cumulatively rather than in sets." }
+      - { id: mi, label: "Men's individual", at: [olympic] }
+      - { id: wi, label: "Women's individual", at: [olympic] }
+      - { id: mt, label: "Men's team", at: [olympic] }
+      - { id: wt, label: "Women's team", at: [olympic] }
+      - { id: mx, label: Mixed team, at: [olympic], note: "Added 2021, and scored cumulatively rather than in sets." }
   - id: other
-    label: Governed by the federation, not on the programme
+    label: Contested away from the Games
     counts: false
     events:
-      - { id: compound, label: Compound, note: "Magnifying sights and a release aid. World championship discipline; repeatedly proposed for the Games." }
-      - { id: indoor, label: Indoor target, note: "18 m, and scored cumulatively." }
-      - { id: field, label: Field archery, note: Varying distances over terrain. }
-      - { id: para, label: Para archery, olympic: false }
+      - { id: compound, label: Compound, note: "Magnifying sights and a release aid. World championship discipline; repeatedly proposed for the Games.", at: [world-championship, world-games] }
+      - { id: indoor, label: Indoor target, note: "18 m, and scored cumulatively.", at: [world-championship] }
+      - { id: field, label: Field archery, note: Varying distances over terrain., at: [world-championship, world-games] }
+      - { id: para, label: Para archery, at: [paralympic] }

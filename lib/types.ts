@@ -282,11 +282,68 @@ export interface Learning {
 
 /* -------------------------------------------------- disciplines and events */
 
+/**
+ * Where an event is actually contested. This replaced a boolean `olympic`,
+ * which could say "not on the programme" and nothing else — so compound
+ * archery, high diving and canoe polo all read as the same kind of absence
+ * when they are three different ones. The Olympic programme is one entry in
+ * this list, not the axis the list is measured against.
+ */
+export const CONTEST_STATUS = [
+  'olympic',
+  'paralympic',
+  'asian-games',
+  'world-games',
+  'world-championship',
+  'professional',
+  'federation-only',
+  'lapsed',
+] as const
+
+export type ContestStatus = (typeof CONTEST_STATUS)[number]
+
+export const CONTEST_LABEL: Record<ContestStatus, string> = {
+  olympic: 'Olympic',
+  paralympic: 'Paralympic',
+  'asian-games': 'Asian Games',
+  'world-games': 'World Games',
+  'world-championship': 'World championship',
+  professional: 'Professional',
+  'federation-only': 'Federation only',
+  lapsed: 'Lapsed',
+}
+
+/** What each status asserts, so a chip on a page can be held to a definition. */
+export const CONTEST_DEFINITION: Record<ContestStatus, string> = {
+  olympic: 'On the programme of the Games of the Olympiad as currently constituted.',
+  paralympic: 'On the Paralympic programme.',
+  'asian-games': 'On the Asian Games programme.',
+  'world-games': 'On the World Games programme — the multi-sport event for sports not on the Olympic one.',
+  'world-championship':
+    'Contested at the governing body\u2019s own world championship, and at no multi-sport games.',
+  professional:
+    'A professional competition, which the sport\u2019s federation may or may not govern.',
+  'federation-only':
+    'Governed and regulated by the federation, with no championship of its own recorded here.',
+  lapsed: 'Contested in the past, and on no current programme.',
+}
+
 export interface EventEntry {
   id: string
   label: string
   note?: string
-  olympic?: boolean
+  /**
+   * Every programme this event is contested at. Required: an event with no
+   * status is an event whose standing nobody checked, and the build says so.
+   */
+  at?: ContestStatus[]
+  /**
+   * Set on a row that is not a competition at all — a governing body, a
+   * component discipline, one of weightlifting's two lifts. Those rows carry
+   * no status, and forcing one on them would be inventing a fact to satisfy
+   * a schema.
+   */
+  context?: true
   /**
    * How many medal events this row stands for. A row reading "Sprints — 100,
    * 200, 400 m" is six medal events once men's and women's are counted

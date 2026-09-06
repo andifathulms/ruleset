@@ -13,19 +13,19 @@ disciplines:
     label: Basketball
     blurb: The five-a-side game, on the Olympic programme since 1936 for men and 1976 for women.
     events:
-      - { id: men, label: "Men's tournament", olympic: true }
-      - { id: women, label: "Women's tournament", olympic: true }
+      - { id: men, label: "Men's tournament", at: [olympic] }
+      - { id: women, label: "Women's tournament", at: [olympic] }
   - id: three-x-three
     label: 3x3
     blurb: >
       Half court, three a side, one basket, ten minutes or twenty-one points.
       Added for 2020 and governed by a separate FIBA rulebook.
     events:
-      - { id: m3, label: "Men's tournament", olympic: true }
-      - { id: w3, label: "Women's tournament", olympic: true }
+      - { id: m3, label: "Men's tournament", at: [olympic] }
+      - { id: w3, label: "Women's tournament", at: [olympic] }
   - id: variants
     label: Governed elsewhere
     counts: false
     events:
-      - { id: nba, label: The NBA, note: "Keeps its own rulebook, with a longer arc, twelve-minute quarters and six fouls." }
-      - { id: wheelchair, label: Wheelchair basketball, note: Governed by the IWBF under adapted rules. }
+      - { id: nba, label: The NBA, note: "Keeps its own rulebook, with a longer arc, twelve-minute quarters and six fouls.", at: [professional] }
+      - { id: wheelchair, label: Wheelchair basketball, note: Governed by the IWBF under adapted rules., at: [paralympic] }

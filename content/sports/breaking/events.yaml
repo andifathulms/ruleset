@@ -11,8 +11,8 @@ disciplines:
     label: Breaking
     blurb: One against one, to music selected live.
     events:
-      - { id: bboys, label: B-Boys, olympic: true, note: Contested at 2024 only. }
-      - { id: bgirls, label: B-Girls, olympic: true, note: Contested at 2024 only. }
+      - { id: bboys, label: B-Boys, at: [olympic], note: Contested at 2024 only. }
+      - { id: bgirls, label: B-Girls, at: [olympic], note: Contested at 2024 only. }
   - id: outside
     label: The form outside competition
     counts: false
@@ -20,6 +20,6 @@ disciplines:
       Listed because breaking's competitive circuit is a small part of it, and
       the part the community is most ambivalent about.
     events:
-      - { id: battles, label: Crew and solo battles, note: "The form's own competitive tradition, judged by respected practitioners without stated criteria." }
-      - { id: cyphers, label: Cyphers and jams, note: Where the form is actually transmitted. }
-      - { id: yog, label: Youth Olympic Games 2018, note: "Breaking's first appearance under Olympic governance." }
+      - { id: battles, label: Crew and solo battles, note: "The form's own competitive tradition, judged by respected practitioners without stated criteria.", context: true }
+      - { id: cyphers, label: Cyphers and jams, note: Where the form is actually transmitted., context: true }
+      - { id: yog, label: Youth Olympic Games 2018, note: "Breaking's first appearance under Olympic governance.", at: [lapsed] }

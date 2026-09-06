@@ -5,7 +5,7 @@ import type {
   Cause, Events, Learning, Lens, Play, Program, RuleChange, Series, Source,
   SeriesBreak, SourcedImage, Sport,
 } from './types'
-import { LAW_SECTIONS } from './types'
+import { CONTEST_STATUS, LAW_SECTIONS } from './types'
 
 const CONTENT = path.join(process.cwd(), 'content')
 const SPORTS = path.join(CONTENT, 'sports')
@@ -237,7 +237,47 @@ export function getAllLearning(): { sport: string; learning: Learning }[] {
 export function getEvents(id: string): Events | null {
   const file = path.join(SPORTS, id, 'events.yaml')
   if (!fs.existsSync(file)) return null
-  return parse<Events>(fs.readFileSync(file, 'utf8'))
+  const events = parse<Events>(fs.readFileSync(file, 'utf8'))
+  assertEventsAreStatused(id, events)
+  return events
+}
+
+/**
+ * Every event must say where it is contested. The field replaced a boolean,
+ * and a boolean has a default — so an unchecked event looked exactly like one
+ * checked and found to be non-Olympic. A list has no default, and this refuses
+ * to let one be omitted or invented.
+ */
+function assertEventsAreStatused(sport: string, events: Events): void {
+  for (const d of events.disciplines) {
+    for (const e of d.events) {
+      if (e.context) {
+        if (e.at) {
+          throw new Error(
+            `events.yaml (${sport}/${d.id}): "${e.label}" is marked context and also given a status — pick one`,
+          )
+        }
+        continue
+      }
+      if (!Array.isArray(e.at) || e.at.length === 0) {
+        throw new Error(
+          `events.yaml (${sport}/${d.id}): "${e.label}" has no "at" — say where it is contested, or say federation-only`,
+        )
+      }
+      for (const status of e.at) {
+        if (!CONTEST_STATUS.includes(status)) {
+          throw new Error(
+            `events.yaml (${sport}/${d.id}): "${e.label}" is contested at "${status}", which is not a known programme`,
+          )
+        }
+      }
+      if (e.at.includes('lapsed') && e.at.length > 1) {
+        throw new Error(
+          `events.yaml (${sport}/${d.id}): "${e.label}" is both lapsed and currently contested — lapsed means no current programme`,
+        )
+      }
+    }
+  }
 }
 
 /** MDX narrative sections for a sport, ordered by their numeric filename prefix. */

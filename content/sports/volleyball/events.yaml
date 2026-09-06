@@ -11,19 +11,19 @@ disciplines:
   - id: indoor
     label: Indoor
     events:
-      - { id: men, label: "Men's tournament", olympic: true }
-      - { id: women, label: "Women's tournament", olympic: true }
+      - { id: men, label: "Men's tournament", at: [olympic] }
+      - { id: women, label: "Women's tournament", at: [olympic] }
   - id: beach
     label: Beach
     blurb: >
       Two players, no substitutions, a smaller court, and sets to 21. A
       separate rulebook, not a variant.
     events:
-      - { id: bm, label: "Men's tournament", olympic: true }
-      - { id: bw, label: "Women's tournament", olympic: true }
+      - { id: bm, label: "Men's tournament", at: [olympic] }
+      - { id: bw, label: "Women's tournament", at: [olympic] }
   - id: other
-    label: Governed by the federation, not on the programme
+    label: Contested away from the Games
     counts: false
     events:
-      - { id: snow, label: Snow volleyball }
-      - { id: sitting, label: Sitting volleyball, note: Paralympic, governed by World ParaVolley. }
+      - { id: snow, label: Snow volleyball, at: [federation-only] }
+      - { id: sitting, label: Sitting volleyball, note: Paralympic, governed by World ParaVolley., at: [paralympic] }

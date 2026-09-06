@@ -11,28 +11,28 @@ disciplines:
   - id: rifle
     label: Rifle
     events:
-      - { id: ar10, label: "10 m air rifle", olympic: true, count: 2 }
-      - { id: r3p, label: "50 m rifle three positions", olympic: true, count: 2 }
-      - { id: armix, label: "10 m air rifle mixed team", olympic: true }
+      - { id: ar10, label: "10 m air rifle", at: [olympic], count: 2 }
+      - { id: r3p, label: "50 m rifle three positions", at: [olympic], count: 2 }
+      - { id: armix, label: "10 m air rifle mixed team", at: [olympic] }
   - id: pistol
     label: Pistol
     events:
-      - { id: ap10, label: "10 m air pistol", olympic: true, count: 2 }
-      - { id: rfp, label: "25 m rapid fire pistol, men", olympic: true }
-      - { id: p25, label: "25 m pistol, women", olympic: true }
-      - { id: apmix, label: "10 m air pistol mixed team", olympic: true }
+      - { id: ap10, label: "10 m air pistol", at: [olympic], count: 2 }
+      - { id: rfp, label: "25 m rapid fire pistol, men", at: [olympic] }
+      - { id: p25, label: "25 m pistol, women", at: [olympic] }
+      - { id: apmix, label: "10 m air pistol mixed team", at: [olympic] }
   - id: shotgun
     label: Shotgun
     events:
-      - { id: trap, label: Trap, olympic: true, count: 2 }
-      - { id: skeet, label: Skeet, olympic: true, count: 2 }
-      - { id: skmix, label: Skeet mixed team, olympic: true }
+      - { id: trap, label: Trap, at: [olympic], count: 2 }
+      - { id: skeet, label: Skeet, at: [olympic], count: 2 }
+      - { id: skmix, label: Skeet mixed team, at: [olympic] }
   - id: former
     label: Removed from the programme
     counts: false
     blurb: Cut in 2018 so that mixed-team events could be added within the quota.
     events:
-      - { id: freepistol, label: "50 m free pistol, men", note: Contested since 1896, with interruptions. }
-      - { id: prone, label: "50 m rifle prone, men" }
-      - { id: doubletrap, label: "Double trap, men" }
-      - { id: runningtarget, label: Running target, note: "Removed after 2004; still contested at world level." }
+      - { id: freepistol, label: "50 m free pistol, men", note: Contested since 1896, with interruptions., at: [lapsed] }
+      - { id: prone, label: "50 m rifle prone, men", at: [lapsed] }
+      - { id: doubletrap, label: "Double trap, men", at: [lapsed] }
+      - { id: runningtarget, label: Running target, note: "Removed after 2004; still contested at world level.", at: [lapsed] }

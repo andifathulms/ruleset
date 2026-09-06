@@ -11,7 +11,7 @@ disciplines:
     label: Fastpitch
     blurb: The competitive form. Underhand pitching from a flat circle.
     events:
-      - { id: women, label: "Women's tournament", olympic: true }
+      - { id: women, label: "Women's tournament", at: [olympic] }
   - id: shared-listing
     label: The listing it shares
     counts: false
@@ -20,10 +20,10 @@ disciplines:
       sport, having merged their federations in 2013 after both were removed
       after 2008.
     events:
-      - { id: baseball, label: "Baseball, men's tournament", note: A separate sport, on the same listing. }
+      - { id: baseball, label: "Baseball, men's tournament", note: A separate sport, on the same listing., at: [olympic] }
   - id: other
-    label: Governed by the federation, not on the programme
+    label: Contested away from the Games
     counts: false
     events:
-      - { id: slowpitch, label: Slowpitch, note: "A high arcing delivery; the recreational form, and far more widely played than fastpitch." }
-      - { id: mens-fastpitch, label: "Men's fastpitch", note: Contested at world championships, never at the Games. }
+      - { id: slowpitch, label: Slowpitch, note: "A high arcing delivery; the recreational form, and far more widely played than fastpitch.", at: [federation-only] }
+      - { id: mens-fastpitch, label: "Men's fastpitch", note: Contested at world championships, never at the Games., at: [world-championship] }

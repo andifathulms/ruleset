@@ -10,11 +10,11 @@ disciplines:
   - id: hockey
     label: Field hockey
     events:
-      - { id: men, label: "Men's tournament", olympic: true }
-      - { id: women, label: "Women's tournament", olympic: true }
+      - { id: men, label: "Men's tournament", at: [olympic] }
+      - { id: women, label: "Women's tournament", at: [olympic] }
   - id: variants
-    label: Governed by the federation, not on the programme
+    label: Contested away from the Games
     counts: false
     events:
-      - { id: hockey5s, label: Hockey5s, note: "Five a side on a smaller pitch, developed for cheaper staging and youth competition." }
-      - { id: indoor, label: Indoor hockey, note: "Six a side, with boards; a separate world championship." }
+      - { id: hockey5s, label: Hockey5s, note: "Five a side on a smaller pitch, developed for cheaper staging and youth competition.", at: [world-championship] }
+      - { id: indoor, label: Indoor hockey, note: "Six a side, with boards; a separate world championship.", at: [world-championship] }
