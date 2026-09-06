@@ -1,0 +1,82 @@
+sport: handball
+standing: editorial
+summary: >
+  One of the most accessible team sports on this site — throwing and catching
+  are near-universal skills — and a top end that now demands a tactical
+  judgement no other sport asks: whether to play with no goalkeeper.
+
+entry:
+  verdict: low
+  claim: A hall, a ball and fourteen people. The basic actions are already known.
+  why: >
+    Handball's fundamental skills are running, throwing and catching, which
+    almost everyone can already do. There is no implement, no unusual body
+    position, and no equivalent of a hockey stick or a lacrosse crosse to learn
+    first. A beginner can play a real game in their first session.
+
+    It is standard in school physical education across much of Europe for
+    exactly that reason.
+
+    The barrier is the hall. Handball is an indoor court sport, so it needs a
+    building — the same constraint volleyball and basketball have, and one that
+    limits it more than either because handball courts are larger.
+  evidence:
+    - { label: Kit to start, value: A ball, basis: observation }
+    - { label: Facility, value: An indoor court, basis: observation }
+    - { label: Players needed, value: "14", basis: observation }
+    - { label: Prerequisite skills, value: Running, throwing, catching, basis: observation }
+    - { label: Time to a real game, value: One session, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Heavy continuous contact, and a decision about whether to leave your goal empty.
+  why: >
+    Elite handball is a contact sport that does not advertise itself as one.
+    Defenders may obstruct a moving attacker with a bent arm, collisions are
+    constant, and shoulder and knee injuries are among the highest in indoor
+    sport.
+
+    The tactical demand changed sharply in 2016. Because a team may now field
+    seven outfield players and no goalkeeper, elite sides attack seven against
+    six with an empty net — accepting that a turnover concedes a goal from
+    anywhere on court in exchange for a numerical advantage in attack.
+
+    That is the highest-variance legal tactic in any team sport here, it is
+    used constantly, and it arrived from a rule change presented as a
+    procedural simplification.
+  evidence:
+    - label: Seventh field player
+      value: Legal since 2016
+      basis: rule
+      rule: ihf-2016-seventh-field-player
+      note: A procedural tidy-up that produced the empty-net attack within two seasons.
+    - label: Four passes after a passive warning
+      value: Since 2016
+      basis: rule
+      rule: ihf-2016-passive-play
+      note: A judgement converted into a count.
+    - label: Fast throw-off
+      value: Since 1994
+      basis: rule
+      rule: ihf-1994-fast-throw-off
+      note: Created a scoring opportunity out of a restart rule.
+    - { label: Typical peak age, value: 25–31, basis: judgement }
+
+gap: >
+  Handball's gap is low to very high, and it belongs beside volleyball and
+  basketball as an indoor court sport whose barrier is a building rather than a
+  skill.
+
+  Its distinctive entry on this board is the 2016 rule. Almost every rule change
+  in this collection was made to produce an effect — to raise scoring, shorten
+  matches, remove a judgement, protect an athlete. The seventh field player was
+  a simplification of a substitution procedure, and it changed how elite
+  handball attacks.
+
+  That is the clearest case here of a federation not knowing what it was doing
+  when it did it, and it is worth recording because most of this site's entries
+  assume governing bodies can predict the consequences of their own rules.
+
+shaped_by:
+  - ihf-2016-seventh-field-player
+  - ihf-1994-fast-throw-off

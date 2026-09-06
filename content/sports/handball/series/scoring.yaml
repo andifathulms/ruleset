@@ -1,0 +1,44 @@
+id: handball-scoring
+label: Goals per game
+competition: International tournaments
+unit: goals per match
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  Handball changed which sport it was in 1966 and how it attacks in 2016, and
+  both moved scoring substantially.
+
+  Before 1966 the international game was eleven a side, outdoors, on a football
+  pitch. Afterwards it was seven a side indoors on a court, and the scoring rate
+  multiplied. Those are different sports sharing a name, in the way rugby
+  fifteens and sevens are.
+
+  The 2016 change is subtler and this site finds it more interesting. Removing
+  the goalkeeper-substitution restriction let teams attack seven against six
+  with an empty net, and elite teams do it constantly. That raises the
+  attacking team's conversion rate and simultaneously concedes long-range goals
+  into an empty net, so both teams' scoring moved and in the same direction.
+
+  The series is scoped to international tournaments because domestic leagues
+  adopted the 2016 rule at different points and the IHF publishes no continuous
+  series for the sport as a whole.
+
+  The figures are not entered because they have not been taken from a cited
+  source. When they are, the chart appears here with two segments and a caption
+  noting that the second break was an accident — a procedural tidy-up that
+  changed how the sport is played.
+segments: []
+breaks:
+  - at: 1966
+    caused_by: ihf-1966-indoor-standard
+    kind: scoped
+    note: >
+      Eleven a side outdoors became seven a side indoors. The scoring rate
+      multiplied, and the two games are not comparable.
+  - at: 2016
+    caused_by: ihf-2016-seventh-field-player
+    kind: scoped
+    note: >
+      The empty-net attack became standard within two seasons of a rule change
+      that was presented as procedural.
+source: ihf-rules

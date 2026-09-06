@@ -1,0 +1,27 @@
+sport: handball
+as_of: 2026-09
+source: ihf-rules
+standing: primary-named
+summary: >
+  Two Olympic events, in a sport whose Olympic history contains a discontinuity
+  most people have never heard of: handball was contested in 1936 as an
+  eleven-a-side outdoor game on a football pitch, disappeared for thirty-six
+  years, and returned in 1972 as the indoor seven-a-side sport.
+disciplines:
+  - id: indoor
+    label: Indoor handball
+    blurb: Seven a side on a court. The international standard since 1966.
+    events:
+      - { id: men, label: "Men's tournament", olympic: true }
+      - { id: women, label: "Women's tournament", olympic: true }
+  - id: former
+    label: The game it replaced
+    counts: false
+    events:
+      - { id: field, label: Field handball, note: "Eleven a side outdoors on a football pitch. The Olympic sport in 1936; world championships contested into the 1960s." }
+  - id: other
+    label: Governed by the federation, not on the programme
+    counts: false
+    events:
+      - { id: beach, label: Beach handball, note: "Four a side on sand, with a different scoring system in which spectacular goals count double." }
+      - { id: wheelchair, label: Wheelchair handball }

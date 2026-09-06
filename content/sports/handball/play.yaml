@@ -1,0 +1,136 @@
+sport: handball
+as_of: 2026-09
+edition: IHF Rules of the Game
+source: ihf-rules
+standing: primary-named
+summary: >
+  Seven a side, throw a ball into a goal, and do not step inside the arc in
+  front of it. Handball's defining rule is that arc — the six-metre area only
+  the goalkeeper may stand in — which forces every shot to be taken from
+  distance or from the air, and produces the sport's characteristic jump into
+  the space above it.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Throw the ball into the opponent's goal more often than they throw it
+      into yours. A player may take three steps, hold the ball for three
+      seconds, bounce it and take three more.
+
+      Nobody except the goalkeeper may stand in the six-metre area, but a
+      player may jump into it and must release the ball before landing. That is
+      why handball looks the way it does: attackers leap into the space in
+      front of the goal and shoot in mid-air.
+
+  - id: field
+    label: The court
+    body: >
+      An indoor court with a six-metre goal area marked by an arc, and a
+      nine-metre free-throw line beyond it. Until 1966 the international game
+      was played outdoors on a football pitch by eleven players a side.
+    facts:
+      - { label: Court, value: 40 × 20 m }
+      - { label: Goal area, value: 6 m arc }
+      - { label: Free-throw line, value: 9 m }
+      - { label: Goal, value: 3 × 2 m }
+      - { label: Penalty throw, value: 7 m }
+    shaped_by: [ihf-1966-indoor-standard]
+
+  - id: equipment
+    label: The ball
+    body: >
+      A ball small enough to be held in one hand, in different sizes for the
+      men's and women's game, and grippy enough to be controlled — which is why
+      resin is used and why resin is one of the sport's recurring arguments,
+      because it damages court surfaces and several venues ban it.
+    facts:
+      - { label: "Ball, men", value: Size 3 }
+      - { label: "Ball, women", value: Size 2 }
+      - { label: Resin, value: Widely used, and banned in some halls }
+
+  - id: players
+    label: Players and officials
+    body: >
+      Seven on court — six outfield and a goalkeeper — with unlimited rolling
+      substitutions. Two referees, which is unusual and necessary, because the
+      sport's contact is heavy and continuous and one official cannot see
+      enough of it.
+
+      Since 2016 a team may substitute the goalkeeper for an outfield player
+      without restriction, and attack seven against six with an empty net.
+    facts:
+      - { label: On court, value: "7" }
+      - { label: Substitutions, value: Rolling, unlimited }
+      - { label: Referees, value: "2" }
+      - { label: Empty-net attack, value: Legal since 2016 }
+    shaped_by: [ihf-2016-seventh-field-player]
+
+  - id: duration
+    label: Time
+    body: >
+      Two halves of thirty minutes with a running clock, stopped for timeouts
+      and serious incidents. Each team has three team timeouts across a match.
+
+      Since 1994 a throw-off after a goal may be taken immediately, without
+      waiting for the opponents to retreat — which created the fast centre, a
+      scoring opportunity generated entirely by a restart rule.
+    facts:
+      - { label: Halves, value: 2 × 30 min }
+      - { label: Team timeouts, value: "3" }
+      - { label: Fast throw-off, value: Since 1994 }
+    shaped_by: [ihf-1994-fast-throw-off]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      One goal, one point, and there are a great many of them — a men's
+      international commonly finishes in the high twenties or thirties per
+      side, which makes handball one of the highest-scoring team sports on this
+      site.
+
+      That is a consequence of the goal area rule. Every shot is taken from
+      outside six metres or from the air above it, which favours the attacker
+      enough that conversion rates are high and defences are built to obstruct
+      rather than to intercept.
+    facts:
+      - { label: Goal, value: "1" }
+      - { label: Typical score, value: 25–35 per side }
+
+  - id: restarts
+    label: Throws
+    body: >
+      Throw-off from the centre after a goal, free throw from nine metres after
+      a foul, seven-metre throw for a clear scoring chance denied, and
+      goalkeeper throw when the ball leaves over the goal line.
+
+      After a warning for passive play, a team has four passes to shoot. That
+      replaced a vague sanction with a count, which is the same instrument
+      basketball's shot clock and wrestling's passivity clock are.
+    facts:
+      - { label: Passes after a passive warning, value: "4" }
+      - { label: Penalty throw, value: 7 m }
+    shaped_by: [ihf-2016-passive-play]
+
+  - id: prohibitions
+    label: Fouls and suspensions
+    body: >
+      Handball permits substantial contact — a defender may use a bent arm to
+      obstruct a moving attacker — and prohibits striking, pulling, pushing
+      from behind and endangering an opponent.
+
+      The sanction is a two-minute suspension, so the offending team plays a
+      player short, and three suspensions disqualify. The blue card, from 2016,
+      accompanies a red for serious foul play and triggers a written report and
+      a disciplinary process beyond the match.
+    facts:
+      - { label: Suspension, value: 2 minutes }
+      - { label: Three suspensions, value: Disqualification }
+      - { label: Blue card, value: Triggers a written report }
+    shaped_by: [ihf-2016-blue-card]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More goals. Draws stand in group play; knockout matches go to extra time
+      and then to a seven-metre shoot-out.

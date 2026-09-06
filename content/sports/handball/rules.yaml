@@ -1,0 +1,130 @@
+- id: ihf-1966-indoor-standard
+  scope: { sport: handball, discipline: all }
+  date_adopted: 1965
+  date_effective: 1966
+  status: adopted
+  governing_body: International Handball Federation
+  what_changed: >
+    Indoor seven-a-side handball became the standard international form,
+    replacing the outdoor eleven-a-side game played on a football pitch. The
+    outdoor version had been the Olympic sport in 1936 and world championships
+    were contested in it into the 1960s.
+
+    A sport played on grass by eleven became a sport played on a court by
+    seven, and its scoring rate multiplied.
+  cause_primary: broadcast and pacing
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Indoor handball is faster, higher-scoring, weather-independent and
+      stageable in any sports hall. The outdoor game had none of those
+      properties and had already been losing ground in Scandinavia, where the
+      winters made an indoor version necessary.
+  citation:
+    source: ihf-rules
+    edition: IHF Rules of the Game, 1966
+    missing: true
+  comparability_break: handball-scoring
+
+- id: ihf-1994-fast-throw-off
+  scope: { sport: handball, discipline: all }
+  date_adopted: 1993
+  date_effective: 1994
+  status: adopted
+  governing_body: International Handball Federation
+  what_changed: >
+    The throw-off after a goal may be taken immediately, without waiting for
+    the opposing team to return to their own half. A team that concedes can
+    restart before the scorers have retreated.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Handball is a high-scoring sport and every goal produced a stoppage while
+      players walked back. Removing the wait raised the tempo and created the
+      fast centre — a scoring opportunity that exists purely because of a
+      restart rule.
+  citation:
+    source: ihf-rules
+    edition: IHF Rules of the Game, 1994
+    missing: true
+  comparability_break: null
+
+- id: ihf-2016-seventh-field-player
+  scope: { sport: handball, discipline: all }
+  date_adopted: 2016
+  date_effective: 2016-07
+  status: adopted
+  governing_body: International Handball Federation
+  what_changed: >
+    The requirement that a substitute for the goalkeeper wear a distinguishing
+    shirt and act as goalkeeper was removed. A team may now field seven outfield
+    players and no goalkeeper at all, substituting freely.
+
+    Elite teams immediately began attacking seven against six with an empty
+    net, accepting the risk of a long-range shot into it in exchange for a
+    numerical advantage in attack. It is the highest-variance legal tactic in
+    any team sport on this site.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      The previous rule required a specially designated player and a shirt
+      change, which made goalkeeper substitution slow and rare. Simplifying it
+      was presented as a tidying-up of a procedural rule.
+    also_said: >
+      Nobody predicted what teams would do with it. Within two seasons the
+      empty-net attack was standard at elite level, and the federation has been
+      arguing since about whether a rule intended to simplify substitution
+      should have been allowed to change how the sport is played.
+  citation:
+    source: ihf-rules
+    edition: IHF Rules of the Game, 2016
+    missing: true
+  comparability_break: handball-scoring
+
+- id: ihf-2016-passive-play
+  scope: { sport: handball, discipline: all }
+  date_adopted: 2016
+  date_effective: 2016-07
+  status: adopted
+  governing_body: International Handball Federation
+  what_changed: >
+    After a warning for passive play, the attacking team has a maximum of four
+    passes before it must shoot. A referee's judgement about whether a team is
+    genuinely attacking became a countable number of passes.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Passive play warnings had been inconsistent and the sanction vague, so
+      teams could stall after a warning and argue about it. The four-pass limit
+      is the same instrument basketball's shot clock is: a judgement converted
+      into a count.
+  citation:
+    source: ihf-rules
+    edition: IHF Rules of the Game, 2016
+    missing: true
+  comparability_break: null
+
+- id: ihf-2016-blue-card
+  scope: { sport: handball, discipline: all }
+  date_adopted: 2016
+  date_effective: 2016-07
+  status: adopted
+  governing_body: International Handball Federation
+  what_changed: >
+    A blue card was introduced, shown alongside a red for serious foul play,
+    requiring the referees to file a written report and triggering a
+    disciplinary process beyond the match. It separates being sent off from
+    being sanctioned afterwards.
+  cause_primary: safety
+  cause_secondary: integrity
+  trigger:
+    description: >
+      Handball is played at speed in a confined court with heavy contact
+      permitted, and the sport needed a way to distinguish a red card for a
+      tactical foul from one for a dangerous act, without asking a referee to
+      decide the consequences on the spot.
+  citation:
+    source: ihf-rules
+    edition: IHF Rules of the Game, 2016
+    missing: true
+  comparability_break: null
