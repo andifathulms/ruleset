@@ -1,0 +1,34 @@
+id: triathlon-splits
+label: Bike splits and finishing times
+unit: s
+higher_is_better: false
+absence_kind: impossible
+cannot_exist: >
+  A triathlon time is a sum of three legs plus two transitions, and in 1995 the
+  middle leg stopped being an individual effort.
+
+  Before that year, drafting was illegal: a rider maintained a gap and the bike
+  split measured what they could do alone. After it, riders sit in packs where
+  the aerodynamic saving is very large, and a bike split measures which pack
+  you were in. Those are different quantities, and no adjustment recovers the
+  difference.
+
+  Two further things make even the post-1995 numbers uncomparable. Courses are
+  not standardised — every triathlon is a different swim, a different bike
+  course with different hills, and a different run — so a finishing time is a
+  fact about a venue. And the swim can be shortened or cancelled for water
+  quality, which means the same event's results sometimes describe a duathlon.
+
+  Triathlon is therefore closer to rowing and sailing than to athletics: the
+  conditions cannot be standardised and the numbers are not a series. Unlike
+  rowing, it has never said so.
+segments: []
+breaks:
+  - at: 1995
+    caused_by: itu-1995-drafting-legalised
+    kind: scale-change
+    note: >
+      The bike leg stopped being a time trial. A split before 1995 measures a
+      rider alone; a split after it measures a pack, and the sport's
+      differentiator moved to the run.
+source: world-triathlon-rules

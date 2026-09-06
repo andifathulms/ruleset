@@ -41,6 +41,19 @@
     - { id: shooting, label: Shooting, colour: pool, members: [shooting] }
     - { id: sport-climbing, label: Sport climbing, colour: gold, members: [sport-climbing] }
     - { id: wrestling, label: Wrestling, colour: clay, members: [wrestling] }
+    - { id: breaking, label: Breaking, colour: gold, members: [breaking] }
+    - { id: canoeing, label: Canoeing, colour: pool, members: [canoeing] }
+    - { id: flag-football, label: Flag football, colour: pitch, members: [flag-football] }
+    - { id: handball, label: Handball, colour: pitch, members: [handball] }
+    - { id: hockey, label: Hockey, colour: pitch, members: [hockey] }
+    - { id: karate, label: Karate, colour: clay, members: [karate] }
+    - { id: lacrosse, label: Lacrosse, colour: pitch, members: [lacrosse] }
+    - { id: rugby, label: Rugby, colour: pitch, members: [rugby] }
+    - { id: skateboarding, label: Skateboarding, colour: gold, members: [skateboarding] }
+    - { id: softball, label: Softball, colour: pitch, members: [softball] }
+    - { id: squash, label: Squash, colour: clay, members: [squash] }
+    - { id: surfing, label: Surfing, colour: gold, members: [surfing] }
+    - { id: triathlon, label: Triathlon, colour: pool, members: [triathlon] }
 
 - id: game-category
   label: Game category
@@ -56,15 +69,16 @@
     - id: net-and-wall
       label: Net and wall
       colour: clay
-      members: [badminton, table-tennis, tennis, volleyball]
+      members: [badminton, table-tennis, tennis, volleyball, squash]
     - id: invasion
       label: Invasion
       colour: pitch
-      members: [football, basketball]
+      members: [football, basketball, hockey, handball, rugby, lacrosse,
+                flag-football]
     - id: striking-and-fielding
       label: Striking and fielding
       colour: pitch
-      members: [cricket, baseball]
+      members: [cricket, baseball, softball]
     - id: target
       label: Target
       colour: pool
@@ -73,11 +87,13 @@
       label: Performance
       colour: gold
       members: [athletics, gymnastics, swimming, cycling, weightlifting, rowing,
-                sailing, sport-climbing, equestrian]
+                sailing, sport-climbing, equestrian, canoeing, triathlon,
+                skateboarding, surfing]
     - id: outside-taxonomy
       label: Outside this taxonomy
       colour: unmarked
-      members: [judo, taekwondo, boxing, modern-pentathlon, fencing, wrestling]
+      members: [judo, taekwondo, boxing, modern-pentathlon, fencing, wrestling,
+                karate, breaking]
 
 - id: adjudication
   label: Adjudication
@@ -91,17 +107,18 @@
       label: Measured
       colour: pool
       members: [athletics, swimming, cycling, archery, weightlifting, modern-pentathlon,
-                rowing, sailing, shooting, golf, sport-climbing]
+                rowing, sailing, shooting, golf, sport-climbing, canoeing, triathlon]
     - id: judged
       label: Judged
       colour: gold
-      members: [gymnastics, equestrian]
+      members: [gymnastics, equestrian, skateboarding, surfing, breaking]
     - id: decided-by-score
       label: Decided by score
       colour: pitch
       members: [football, badminton, table-tennis, tennis, volleyball, basketball,
-                cricket, baseball]
+                cricket, baseball, hockey, handball, rugby, softball, lacrosse,
+                squash, flag-football]
     - id: combat
       label: Combat
       colour: clay
-      members: [judo, taekwondo, boxing, fencing, wrestling]
+      members: [judo, taekwondo, boxing, fencing, wrestling, karate]

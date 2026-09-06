@@ -1,0 +1,47 @@
+id: hockey-goals-per-game
+label: Goals per game
+competition: Olympic tournaments
+unit: goals per match
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  Hockey changed the ground under its own game in 1976, removed offside in
+  1998, and stopped the clock in 2015. Each of those moved scoring, and the
+  first two moved it substantially.
+
+  A goals-per-game figure spanning them would be measuring three different
+  sports. On grass the ball did not run true; on turf it does. With offside,
+  attackers could not wait behind the defence; without it, they can. With a
+  running clock, a leading team could waste time; with a stopped one, it
+  cannot.
+
+  The series is scoped to Olympic tournaments because, as in football, there is
+  no body that keeps a continuous quantitative series for hockey as a whole and
+  domestic competitions adopted these changes at different times.
+
+  The figures are not entered because they have not been taken from a cited
+  source. When they are, the chart appears here in segments — and the caption
+  will have to say that the 1976 break is a change of surface rather than of
+  rules, which is a distinction nothing else on this site has had to draw.
+segments: []
+breaks:
+  - at: 1976
+    caused_by: fih-1976-artificial-turf
+    kind: scoped
+    note: >
+      The surface changed, not the laws. Every skill in the sport and every
+      scoring pattern moved with it, which makes this the only comparability
+      break here caused by the ground.
+  - at: 1998
+    caused_by: fih-1998-offside-abolished
+    kind: scoped
+    note: >
+      Offside removed outright. Attackers may stand anywhere, and scoring rose
+      accordingly.
+  - at: 2015
+    caused_by: fih-2014-quarters
+    kind: scoped
+    note: >
+      Quarters and a stopped clock. The same sixty minutes now contains more
+      play.
+source: fih-rules

@@ -1,0 +1,128 @@
+sport: triathlon
+as_of: 2026-09
+edition: World Triathlon Competition Rules
+source: world-triathlon-rules
+standing: primary-named
+summary: >
+  Swim, cycle, run, in that order, with the clock running through the changes
+  between them. Triathlon's rules are mostly about two things nothing else here
+  has to legislate: what happens in transition, and whether you may ride behind
+  somebody. The second answer differs depending on whether you are a
+  professional.
+
+sections:
+  - id: object
+    label: The object of the race
+    body: >
+      Complete all three legs and the two transitions faster than anyone else.
+      The clock does not stop between disciplines, which is why transition is
+      a timed part of the sport rather than an interval in it.
+
+      Since drafting was legalised in elite racing in 1995, the practical
+      answer is narrower: stay with the front pack on the bike and outrun it.
+
+  - id: field
+    label: The course
+    body: >
+      Open water, public roads and a running course, none of them
+      standardised. Every triathlon is a different swim, a different bike
+      course and a different run, so finishing times are facts about a venue
+      rather than about an athlete.
+
+      The swim is the least controlled element of any sport on this site: it is
+      held in water the organiser does not own, and can be shortened or removed
+      entirely if bacterial levels exceed thresholds after rainfall.
+    facts:
+      - { label: Olympic swim, value: 1500 m }
+      - { label: Olympic bike, value: 40 km }
+      - { label: Olympic run, value: 10 km }
+      - { label: Course, value: Not standardised }
+      - { label: Swim, value: May be cancelled for water quality }
+    shaped_by: [itu-2000-olympic-distance, worldtri-water-quality]
+
+  - id: equipment
+    label: Equipment
+    body: >
+      A wetsuit, mandatory or prohibited according to water temperature bands;
+      a road bicycle conforming to the cycling federation's frame rules; a
+      helmet, which must be fastened before the bike is taken from the rack and
+      not unfastened until it is replaced.
+
+      Elite drafting-legal racing prohibits the aerodynamic extensions that
+      dominate age-group racing, because a rider in a pack on tri-bars is
+      dangerous. So the two versions of the sport use different bicycles as
+      well as different rules.
+    facts:
+      - { label: Wetsuit, value: By water temperature }
+      - { label: "Tri-bars, elite", value: Not permitted }
+      - { label: Helmet, value: Fastened before the bike leaves the rack }
+    shaped_by: [worldtri-age-group-no-drafting]
+
+  - id: players
+    label: Athletes and officials
+    body: >
+      Individual, plus a mixed relay of two men and two women. Officials
+      marshal the bike course on motorcycles, and in non-drafting racing their
+      principal job is judging the gap between bicycles — the enforcement
+      problem that legalising drafting removed at elite level.
+    shaped_by: [itu-1995-drafting-legalised]
+
+  - id: duration
+    label: Format
+    body: >
+      Under two hours at Olympic distance, which is why that distance was
+      chosen. The sport grew out of long-course events lasting most of a day,
+      and picked a length that fits a broadcast window.
+
+      The mixed relay is shorter again — four legs of roughly a quarter
+      distance, finishing in about eighty minutes.
+    facts:
+      - { label: Olympic race, value: Under 2 hours }
+      - { label: Mixed relay, value: About 80 min }
+    shaped_by: [itu-2000-olympic-distance, worldtri-2020-mixed-relay]
+
+  - id: scoring
+    label: Timing
+    body: >
+      One elapsed time from the start of the swim to the finish of the run,
+      including transitions. Split times are published for each leg.
+
+      Those splits stopped being comparable in 1995. A bike split before
+      drafting was legalised measures a rider alone; afterwards it measures
+      which pack they were in. Combined with courses that differ at every
+      event, triathlon's numbers are not a series and the federation has never
+      claimed they are.
+    shaped_by: [itu-1995-drafting-legalised]
+
+  - id: restarts
+    label: Transition
+    body: >
+      The two transitions are part of the race and are governed in detail:
+      where equipment may be racked, when the helmet must be fastened, where
+      the bike may be mounted and dismounted, and that nothing may be
+      discarded outside the designated area.
+
+      It is the only part of any sport on this site where changing your clothes
+      is a timed competitive skill.
+
+  - id: prohibitions
+    label: Penalties
+    body: >
+      In age-group racing, drafting — riding inside a defined zone behind
+      another competitor without passing — which carries a time penalty served
+      in a penalty box.
+
+      In elite racing, drafting is legal and the penalties are for blocking,
+      transition infringements, unfastened helmets, outside assistance and
+      littering outside the designated zones.
+
+      The sport therefore has a rule that is its central offence in one version
+      and entirely absent from the other.
+    shaped_by: [worldtri-age-group-no-drafting, itu-1995-drafting-legalised]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      First across the line. Since 1995 that has usually meant the fastest
+      runner in the front pack, which is the consequence the drafting decision
+      is most often criticised for.

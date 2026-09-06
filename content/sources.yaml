@@ -385,3 +385,110 @@
     often than any other part of the book and which are the source of this
     sport's comparability problem.
 
+# ---- Fifth wave: the rest of the summer programme.
+
+- id: fih-rules
+  standing: primary-named
+  title: Rules of Hockey
+  publisher: International Hockey Federation
+  kind: rulebook
+  url: https://www.fih.hockey/rules-of-hockey
+  note: Reissued annually, with a mandatory experiment programme run alongside it.
+
+- id: icf-rules
+  standing: primary-named
+  title: ICF Competition Rules
+  publisher: International Canoe Federation
+  kind: rulebook
+  url: https://www.canoeicf.com/rules
+  note: Published separately for sprint, slalom and the newer kayak cross.
+
+- id: ihf-rules
+  standing: primary-named
+  title: IHF Rules of the Game
+  publisher: International Handball Federation
+  kind: rulebook
+  url: https://www.ihf.info/regulations-documents
+  note: Reissued per cycle, most recently rewritten substantially in 2016.
+
+- id: world-triathlon-rules
+  standing: primary-named
+  title: World Triathlon Competition Rules
+  publisher: World Triathlon
+  kind: rulebook
+  url: https://www.triathlon.org/about/downloads/category/competition_rules
+  note: >
+    The drafting provisions are the ones that matter here, and they differ
+    between elite and age-group racing — the same sport under two rulebooks.
+
+- id: world-rugby-laws
+  standing: primary-named
+  title: Laws of the Game and Sevens Variations
+  publisher: World Rugby
+  kind: rulebook
+  url: https://www.world.rugby/the-game/laws
+  note: >
+    Sevens is governed by the fifteen-a-side Laws with a published set of
+    variations, not by a separate book.
+
+- id: wbsc-softball-rules
+  standing: primary-named
+  title: WBSC Softball Playing Rules
+  publisher: World Baseball Softball Confederation
+  kind: rulebook
+  url: https://www.wbsc.org/
+
+- id: world-skate-rules
+  standing: primary-named
+  title: World Skate Skateboarding Rulebook
+  publisher: World Skate
+  kind: rulebook
+  url: https://www.worldskate.org/skateboarding/about/rulebook.html
+  note: Judging criteria have been revised between every Olympic cycle so far.
+
+- id: isa-rules
+  standing: primary-named
+  title: ISA Rule Book
+  publisher: International Surfing Association
+  kind: rulebook
+  url: https://isasurf.org/about-isa/rule-book/
+
+- id: wkf-rules
+  standing: primary-named
+  title: WKF Competition Rules
+  publisher: World Karate Federation
+  kind: rulebook
+  url: https://www.wkf.net/structure-statutes-rules
+
+- id: wdsf-breaking-rules
+  standing: primary-named
+  title: WDSF Breaking Competition Rules and the Trivium judging system
+  publisher: World DanceSport Federation
+  kind: rulebook
+  url: https://www.worlddancesport.org/Rule/Athlete/Breaking
+  note: >
+    The Trivium system is documented separately from the competition rules and
+    is the only judging system on this site invented for a single Games.
+
+- id: world-lacrosse-rules
+  standing: primary-named
+  title: World Lacrosse Rules
+  publisher: World Lacrosse
+  kind: rulebook
+  url: https://worldlacrosse.sport/about-world-lacrosse/rules/
+  note: Sixes has its own rulebook, written in 2021 for Olympic inclusion.
+
+- id: world-squash-rules
+  standing: primary-named
+  title: World Squash Rules of Singles Squash
+  publisher: World Squash Federation
+  kind: rulebook
+  url: https://www.worldsquash.org/rules/
+
+- id: ifaf-rules
+  standing: primary-named
+  title: IFAF Flag Football Rules
+  publisher: International Federation of American Football
+  kind: rulebook
+  url: https://www.ifaf.org/
+

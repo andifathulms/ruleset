@@ -1,0 +1,87 @@
+sport: squash
+standing: editorial
+summary: >
+  Among the easiest racket sports to have a real rally in, and among the
+  hardest to be good at, for a reason peculiar to it: the difficulty is not
+  hitting the ball but knowing where to stand, and a beginner cannot see that
+  problem at all.
+
+entry:
+  verdict: low
+  claim: A court, a racket and one other person. The walls return the ball for you.
+  why: >
+    Squash's court does the beginner a favour in the same way badminton's
+    shuttle does. The ball comes back off the front wall whatever you do with
+    it, the space is enclosed so nothing goes out of reach, and two novices can
+    keep a rally going within minutes.
+
+    It also needs less than tennis: a court a quarter the size, one other
+    person, and no net to clear. Club and gym courts are widely available in
+    the countries that play it.
+
+    The barrier is the court itself, which is a building. A town either has
+    squash courts or it does not, and they are steadily being converted to
+    other uses in several countries.
+  evidence:
+    - { label: Players needed, value: "2", basis: observation }
+    - { label: Kit to start, value: A racket and a ball, basis: observation }
+    - { label: Facility, value: An enclosed court, basis: observation }
+    - { label: Court size, value: 9.75 × 6.4 m, basis: observation, note: About a quarter of a tennis court. }
+    - { label: Time to a real rally, value: One session, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: The decisive skill is where you stand, and you cannot see it happening.
+  why: >
+    Elite squash is a positional problem disguised as a hitting one. Because
+    both players share the court, the whole sport is about controlling the
+    centre — the T — and forcing your opponent away from it, and a player who
+    holds it plays four fewer metres to every ball.
+
+    That is invisible to a spectator and largely invisible to a beginner, which
+    makes squash's gap unusually deceptive: the actions look the same at every
+    level and the outcomes do not.
+
+    The physical demand is at the top of racket sport. The rallies are long,
+    the court is small, and the changes of direction are constant, which is why
+    lowering the tin in 2001 and shortening the scoring in 2004 were both aimed
+    at reducing attrition.
+  evidence:
+    - label: Point-a-rally scoring
+      value: Since 2004
+      basis: rule
+      rule: wsf-2004-point-a-rally
+      note: Shortened matches deliberately, and severed the sport's statistics.
+    - label: Tin lowered
+      value: 19 in to 17 in
+      basis: rule
+      rule: wsf-2001-ball-and-tin
+      note: A larger target, to reward attacking play over attrition.
+    - label: Interference decisions
+      value: Let, stroke or no let
+      basis: rule
+      rule: wsf-2019-video-review
+      note: A judgement about what would have happened, made several times a game.
+    - { label: Typical peak age, value: 25–32, basis: judgement }
+
+gap: >
+  Squash is low to very high, and it belongs beside badminton and table tennis
+  rather than beside tennis. In all three the implement or the court keeps a
+  beginner's rally alive; in all three the elite version is about information a
+  novice cannot perceive.
+
+  What is particular here is the shared court. Every other racket sport
+  separates the players with a net, so interference cannot happen and the
+  officiating is about where the ball landed. Squash puts both players in the
+  same nine metres, which produces the sport's central skill — holding the
+  centre — and its central officiating problem, which is deciding what would
+  have happened if somebody had not been in the way.
+
+  It is also the fifth sport on this site to have rewritten its scoring for
+  broadcast between 1999 and 2006, and the only one that did it while
+  campaigning for Olympic admission it did not receive for another nineteen
+  years.
+
+shaped_by:
+  - wsf-2004-point-a-rally
+  - wsf-2001-ball-and-tin

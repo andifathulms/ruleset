@@ -1,0 +1,34 @@
+id: squash-match-statistics
+label: Match statistics across the scoring change
+unit: points
+absence_kind: unpublished
+cannot_exist: >
+  A game to nine under hand-in hand-out and a game to eleven with a point on
+  every rally are not the same unit. Under the old system a rally won by the
+  receiver produced no number at all; under the new one every rally produces a
+  point. Points per game, rally counts, match duration and the scoreline all
+  changed meaning in 2004.
+
+  This is the fourth time this absence appears on this site, and by now the
+  pattern is the finding. Volleyball rewrote its scoring in 1999, table tennis
+  in 2001, squash in 2004, badminton in 2006. Four federations, four
+  continents' worth of member associations, one stated reason — a match had to
+  fit a broadcast slot — and not one of them kept a series across its own
+  change.
+
+  Squash adds a second variable the others do not have. The tin was lowered for
+  professional men's play in 2001, enlarging the target area and shortening
+  rallies, so a rally-length series spanning that date is measuring the court
+  as well as the scoring.
+
+  A run of match durations from one tournament held continuously across 2004
+  would be a real series and would show the break plainly. Nobody publishes one.
+segments: []
+breaks:
+  - at: 2004
+    caused_by: wsf-2004-point-a-rally
+    kind: reset
+    note: >
+      Every match statistic before 2004 is counted in a unit the sport stopped
+      using. The fourth identical break on this site in seven years of sport.
+source: world-squash-rules

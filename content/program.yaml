@@ -159,7 +159,7 @@ sports:
 
   - id: hockey
     label: Hockey
-    coverage: skeleton
+    coverage: deep
     governing_body: FIH
     held: [1908, 1920, 1928, 1932, 1936, 1948, 1952, 1956, 1960, 1964, 1968, 1972,
            1976, 1980, 1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020,
@@ -183,14 +183,14 @@ sports:
 
   - id: canoeing
     label: Canoeing
-    coverage: skeleton
+    coverage: deep
     governing_body: ICF
     held: [1936, 1948, 1952, 1956, 1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988,
            1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, 2024, 2028]
 
   - id: handball
     label: Handball
-    coverage: skeleton
+    coverage: deep
     governing_body: IHF
     note: Contested as field handball in 1936, then absent until 1972.
     held: [1936, 1972, 1976, 1980, 1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012,
@@ -241,13 +241,13 @@ sports:
 
   - id: triathlon
     label: Triathlon
-    coverage: skeleton
+    coverage: deep
     governing_body: World Triathlon
     held: [2000, 2004, 2008, 2012, 2016, 2020, 2024, 2028]
 
   - id: rugby
     label: Rugby
-    coverage: skeleton
+    coverage: deep
     governing_body: World Rugby
     note: Fifteen-a-side from 1900 to 1924; returned in 2016 as sevens, a different discipline.
     held: [1900, 1908, 1920, 1924, 2016, 2020, 2024, 2028]
@@ -267,13 +267,13 @@ sports:
 
   - id: softball
     label: Softball
-    coverage: skeleton
+    coverage: deep
     governing_body: WBSC
     held: [1996, 2000, 2004, 2008, 2020, 2028]
 
   - id: skateboarding
     label: Skateboarding
-    coverage: skeleton
+    coverage: deep
     governing_body: World Skate
     held: [2020, 2024, 2028]
 
@@ -285,20 +285,20 @@ sports:
 
   - id: surfing
     label: Surfing
-    coverage: skeleton
+    coverage: deep
     governing_body: ISA
     held: [2020, 2024, 2028]
 
   - id: karate
     label: Karate
-    coverage: skeleton
+    coverage: deep
     governing_body: WKF
     note: Contested at 2020 only, then dropped for 2024.
     held: [2020]
 
   - id: breaking
     label: Breaking
-    coverage: skeleton
+    coverage: deep
     governing_body: World DanceSport Federation
     note: Contested at 2024 only; not on the 2028 programme.
     held: [2024]
@@ -312,19 +312,19 @@ sports:
 
   - id: lacrosse
     label: Lacrosse
-    coverage: skeleton
+    coverage: deep
     governing_body: World Lacrosse
     held: [1904, 1908, 2028]
 
   - id: squash
     label: Squash
-    coverage: skeleton
+    coverage: deep
     governing_body: World Squash Federation
     held: [2028]
 
   - id: flag-football
     label: Flag football
-    coverage: skeleton
+    coverage: deep
     governing_body: IFAF
     held: [2028]
 

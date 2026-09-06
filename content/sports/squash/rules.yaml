@@ -1,0 +1,140 @@
+- id: wsf-2004-point-a-rally
+  scope: { sport: squash, discipline: all }
+  date_adopted: 2003
+  date_effective: 2004
+  status: adopted
+  governing_body: World Squash Federation
+  what_changed: >
+    Games were rescored to eleven points with a point awarded on every rally,
+    replacing games to nine in which only the server could score. Under the old
+    system a rally won by the receiver won back the serve and nothing else, so
+    a game had no bounded length.
+
+    Match duration became predictable for the first time, and every match
+    statistic recorded before the change was counted in a unit the sport
+    stopped using.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Squash had been campaigning for Olympic inclusion for years and was
+      repeatedly rejected, with match length and televisability cited among the
+      reasons. Point-a-rally scoring shortened matches and made them
+      schedulable.
+    also_said: >
+      Players argued that hand-in hand-out rewarded attrition and gave a
+      trailing player a route back, and that removing it favoured power over
+      patience. The professional tour adopted point-a-rally before the amateur
+      game did, which is the same order badminton's change followed.
+  citation:
+    source: world-squash-rules
+    edition: WSF Rules of Singles Squash, 2004
+    missing: true
+  comparability_break: squash-match-statistics
+
+- id: wsf-1980s-glass-court
+  scope: { sport: squash, discipline: all }
+  date_adopted: 1980
+  date_effective: 1981
+  status: adopted
+  governing_body: World Squash Federation
+  what_changed: >
+    All-glass show courts were approved for championship play, allowing an
+    audience to watch from all four sides and a camera to film a game
+    previously played inside a sealed white box.
+
+    Squash is the only sport on this site that had to rebuild its playing area
+    out of a different material in order to be watchable at all.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      A conventional squash court has four solid walls and a small viewing
+      gallery behind one of them. There is no camera position and almost no
+      audience position, which made the sport effectively unbroadcastable.
+  citation:
+    source: world-squash-rules
+    edition: WSF court specifications
+    missing: true
+  comparability_break: null
+
+- id: wsf-2001-ball-and-tin
+  scope: { sport: squash, discipline: all }
+  date_adopted: 2000
+  date_effective: 2001
+  status: adopted
+  governing_body: World Squash Federation
+  what_changed: >
+    The tin — the out-of-play strip at the bottom of the front wall — was
+    lowered for professional men's competition, from 19 inches to 17, making
+    the target area larger and attacking play more rewarding.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Elite squash had become attritional, with rallies of great length decided
+      by fitness rather than by shot-making. Lowering the tin rewards a player
+      who goes for a winner and shortens rallies.
+    also_said: >
+      As with the scoring change, this is a federation adjusting a physical
+      dimension of the court to alter how the sport is played rather than
+      amending a rule of conduct — the same instrument fencing used on its
+      timing constants and basketball used on its three-point arc.
+  citation:
+    source: world-squash-rules
+    edition: WSF court specifications, 2001
+    missing: true
+  comparability_break: null
+
+- id: wsf-2019-video-review
+  scope: { sport: squash, discipline: all }
+  date_adopted: 2018
+  date_effective: 2019
+  status: adopted
+  governing_body: World Squash Federation
+  what_changed: >
+    Video review was introduced on the professional tour for lets, strokes and
+    ball-up decisions, with a limited number of unsuccessful reviews per match.
+  cause_primary: integrity
+  trigger:
+    description: >
+      Squash's central decision — whether a player was obstructed enough to
+      warrant a let or a stroke — is the most disputed call in racket sport,
+      because both players share the court and interference is continuous.
+    also_said: >
+      Review has not settled it. Interference is a judgement about whether a
+      player could have reached the ball and whether the obstruction was
+      avoidable, which a camera can inform and not decide.
+  citation:
+    source: world-squash-rules
+    edition: WSF Rules of Singles Squash, 2019
+    missing: true
+  comparability_break: null
+
+- id: wsf-2023-olympic-inclusion
+  scope: { sport: squash, discipline: all }
+  date_adopted: 2023-10
+  date_effective: 2028
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Squash was added to the Olympic programme for 2028, after failed bids for
+    2012, 2016, 2020 and 2024. Almost every rule change on this page was made,
+    at least in part, to make that happen.
+  cause_primary: commercial
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Squash had been rejected repeatedly on grounds that included
+      televisability and match length, and had responded by rebuilding its
+      courts in glass, rewriting its scoring and lowering its tin. The
+      inclusion decision came twenty years after the first of those changes.
+    also_said: >
+      This site records it because the causal direction is unusually clear.
+      Most sports here changed their rules and then found the Olympic
+      consequences. Squash changed its rules in order to be admitted, over two
+      decades, and was.
+  citation:
+    source: world-squash-rules
+    edition: IOC Session decision, 2023
+    missing: true
+  comparability_break: null

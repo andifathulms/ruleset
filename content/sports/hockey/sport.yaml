@@ -1,0 +1,18 @@
+id: hockey
+label: Hockey
+tagline: The only major invasion sport to abolish offside outright, and the only one whose surface change priced half the world out.
+governing_body: International Hockey Federation
+founded: Fédération Internationale de Hockey founded 1924.
+coverage: deep
+family_colour: pitch
+classification:
+  official: hockey
+  game-category: invasion
+  adjudication: decided-by-score
+summary: >
+  Football's 1925 offside change is the most cited rule amendment in sport.
+  Hockey did something no other invasion sport has ever done and simply removed
+  offside altogether in 1998. The larger change was earlier and quieter: from
+  1976 the sport moved onto artificial turf, which made it faster, changed
+  every skill in it, and turned a game playable on any field into one requiring
+  a facility that costs more than most national federations have.

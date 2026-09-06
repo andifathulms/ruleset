@@ -1,0 +1,81 @@
+sport: hockey
+standing: editorial
+summary: >
+  A sport whose entry barrier moved sharply in one direction in 1976 and has
+  stayed there. Hockey used to be playable on any grass field; it is now
+  played on a surface that costs more to build than most clubs have, and its
+  competitive map narrowed to match.
+
+entry:
+  verdict: moderate
+  claim: A stick, a ball and a pitch you probably do not have.
+  why: >
+    The skills are learnable and the sport is well organised through schools in
+    the countries that play it. A stick and a ball are cheap and the basic
+    actions are approachable.
+
+    The barrier is the surface. Since 1976 competitive hockey has been played
+    on artificial turf, which is a facility rather than a field. A water-based
+    pitch is expensive to build and to irrigate, and a country or a club either
+    has one or plays a different game on grass that no longer prepares anyone
+    for the real one.
+
+    That is the same shape as swimming's pool problem and gymnastics' hall
+    problem, and it arrived suddenly rather than being inherent to the sport.
+  evidence:
+    - { label: Kit to start, value: A stick and a ball, basis: observation }
+    - { label: Facility, value: Artificial turf, basis: rule, rule: fih-1976-artificial-turf, note: A grass pitch no longer prepares a player for the competitive game. }
+    - { label: Players needed, value: "22", basis: observation }
+    - { label: Time to a real game, value: Weeks, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: A fast ball, one usable stick face, and a sport reshaped three times in thirty years.
+  why: >
+    Elite hockey demands stick skill at a speed few sports match, on a surface
+    that removes the excuse of a bad bounce, using a stick with only one legal
+    face — so half the natural movements are illegal and the reverse-stick
+    technique has to be built from nothing.
+
+    The tactical demand changed fundamentally in 1998 when offside was removed.
+    Defences had to be reinvented, and the sport that a player trained for in
+    1996 is not the one they played in 1999.
+
+    The penalty corner is the specialist's problem: a set piece producing a
+    large share of international goals, defended by players running at a drag
+    flick struck from fifteen metres.
+  evidence:
+    - label: Offside abolished
+      value: "1998"
+      basis: rule
+      rule: fih-1998-offside-abolished
+      note: The only major invasion sport to remove it entirely.
+    - label: Surface
+      value: Artificial turf since 1976
+      basis: rule
+      rule: fih-1976-artificial-turf
+      note: Changed every skill in the sport without changing a rule of play.
+    - label: Self-pass
+      value: Since 2009
+      basis: rule
+      rule: fih-2009-self-pass
+    - { label: Stick faces usable, value: "1", basis: observation }
+    - { label: Typical peak age, value: 24–30, basis: judgement }
+
+gap: >
+  Hockey's gap is moderate to very high, and what makes it worth recording is
+  that its entry barrier was raised by a decision rather than inherited from
+  the sport.
+
+  Football's Laws are loose precisely so the game works on packed earth. Hockey
+  went the other way: it standardised its surface, gained a faster and better
+  game, and priced out the countries that could not build one. India and
+  Pakistan dominated hockey for half a century on grass and have never fully
+  recovered from the switch.
+
+  That is the clearest case on this site of a rule change redistributing a
+  sport geographically, and nobody legislated for it.
+
+shaped_by:
+  - fih-1976-artificial-turf
+  - fih-1998-offside-abolished

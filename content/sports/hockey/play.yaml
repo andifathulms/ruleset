@@ -1,0 +1,137 @@
+sport: hockey
+as_of: 2026-09
+edition: FIH Rules of Hockey
+source: fih-rules
+standing: primary-named
+summary: >
+  Eleven a side, a curved stick, a hard ball, and a goal that can only be
+  scored from inside a semicircle. That last restriction is hockey's defining
+  rule and the reason the sport looks the way it does: everything decisive
+  happens in a small, crowded area, which is also why almost all of its
+  officiating technology points there.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Score more goals. A goal counts only if the ball is played by an attacker
+      inside the shooting circle — a semicircle about fifteen metres from goal
+      — so a shot from distance is worth nothing however well struck.
+
+      That single rule concentrates the entire sport into two small areas of
+      the pitch and produces the penalty corner, which is hockey's most
+      distinctive set piece and its largest source of goals.
+
+  - id: field
+    label: The pitch
+    body: >
+      Artificial turf, and this is the most consequential fact about modern
+      hockey. Grass made the ball bobble; synthetic surfaces make it run true
+      and fast, which changed every skill in the sport when the switch happened
+      from 1976.
+
+      It also made the sport expensive. A water-based pitch costs more than
+      most national federations can find, and the competitive map narrowed
+      accordingly.
+    facts:
+      - { label: Pitch, value: 91.4 × 55 m }
+      - { label: Surface, value: Artificial turf }
+      - { label: Shooting circle, value: 14.63 m radius }
+      - { label: Goal, value: 3.66 × 2.14 m }
+    shaped_by: [fih-1976-artificial-turf]
+
+  - id: equipment
+    label: Stick and ball
+    body: >
+      A stick with one flat face — the ball may only be played with that side,
+      which is the sport's oldest constraint and the reason the reverse-stick
+      technique had to be invented. The ball is hard and solid.
+
+      Goalkeepers wear extensive protective equipment; outfield players wear
+      almost none, with mouthguards and shin pads usual and face masks
+      permitted for penalty corner defence.
+    facts:
+      - { label: Stick, value: One flat face only }
+      - { label: Ball, value: 156–163 g, solid }
+      - { label: Goalkeeper, value: Full protective kit }
+
+  - id: players
+    label: Players and officials
+    body: >
+      Eleven a side with rolling substitutions — players may come on and off
+      continuously, which no other sport on this site permits so freely.
+
+      Two umpires, one per half of the pitch, plus a video umpire. Referrals
+      are limited to incidents in the circle and each team keeps a successful
+      referral, which is the same structure cricket uses.
+    facts:
+      - { label: On pitch, value: "11" }
+      - { label: Substitutions, value: Rolling, unlimited }
+      - { label: Umpires, value: 2, plus video }
+    shaped_by: [fih-2011-video-referral]
+
+  - id: duration
+    label: Time
+    body: >
+      Four quarters of fifteen minutes, with the clock stopped for penalty
+      corners and after goals. Until 2015 it was two halves of thirty-five
+      minutes with a running clock.
+
+      Stopping the clock removed time-wasting as a tactic and the quarters
+      added three guaranteed breaks, which is a broadcast structure rather than
+      a sporting one — the same change basketball made internationally in 2000.
+    facts:
+      - { label: Quarters, value: 4 × 15 min }
+      - { label: Clock, value: Stopped for corners and goals }
+    shaped_by: [fih-2014-quarters]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      One goal, one point, and only from inside the circle. Field goals,
+      penalty corners and penalty strokes all count the same.
+
+      The penalty corner is the sport's signature and its statistical engine: a
+      set piece awarded for defensive infringements in the circle, taken from
+      the backline, with the attacking team injecting the ball out and the
+      defence running from the goal line. A large share of international goals
+      come from it.
+    facts:
+      - { label: Goal, value: "1" }
+      - { label: Valid only from, value: Inside the circle }
+      - { label: Penalty stroke, value: From 6.4 m }
+
+  - id: restarts
+    label: Free hits and the self-pass
+    body: >
+      Since 2009 a player awarded a free hit may play the ball to themselves
+      and continue, rather than being required to pass. That removed most of
+      the dead time free hits used to create without removing the sanction.
+
+      Play restarts from the halfway line after a goal, and a penalty corner is
+      taken from the backline with defenders behind the goal line.
+    shaped_by: [fih-2009-self-pass]
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Playing the ball with the rounded side of the stick; playing it with the
+      body; obstruction — placing yourself between an opponent and the ball
+      without playing it; dangerous play; and raising the ball dangerously.
+
+      What is not here is offside. Hockey abolished it in 1998 and is the only
+      major invasion sport to have done so, so an attacker may stand anywhere,
+      including behind the last defender.
+    facts:
+      - { label: Offside, value: Abolished 1998 }
+      - { label: Rounded side of stick, value: May not play the ball }
+      - { label: Obstruction, value: A foul }
+    shaped_by: [fih-1998-offside-abolished]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More goals. A draw stands in pool play; in knockout matches a tie goes
+      straight to a shoot-out, in which an attacker has eight seconds to score
+      one-on-one against the goalkeeper — a format designed to be more
+      skill-dependent than a penalty stroke and more watchable than either.

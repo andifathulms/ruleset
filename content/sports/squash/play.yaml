@@ -1,0 +1,135 @@
+sport: squash
+as_of: 2026-09
+edition: WSF Rules of Singles Squash
+source: world-squash-rules
+standing: primary-named
+summary: >
+  Two players in a sealed box, hitting the same ball against the same front
+  wall, alternately. Squash is the only racket sport on this site where both
+  players occupy the same space rather than opposite sides of a net, and
+  essentially every difficult rule in it follows from that one fact.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Hit the ball onto the front wall above the tin and below the out line,
+      alternately with your opponent, until they cannot return it. The ball may
+      bounce once on the floor before you strike it and may use any of the four
+      walls on the way.
+
+      Because both players share the court, the rules must also govern what
+      happens when one is in the other's way — which is most rallies.
+
+  - id: field
+    label: The court
+    body: >
+      Four walls, a front wall with an out line at the top and a tin at the
+      bottom, and a service box on each side. At championship level the walls
+      are glass, so an audience can see in and a camera can film — a change the
+      sport had to make in the 1980s because a conventional court has no
+      viewing position at all.
+    facts:
+      - { label: Court, value: 9.75 × 6.4 m }
+      - { label: "Tin height, professional men", value: 17 in }
+      - { label: "Tin height, standard", value: 19 in }
+      - { label: Championship walls, value: Glass }
+    shaped_by: [wsf-1980s-glass-court, wsf-2001-ball-and-tin]
+
+  - id: equipment
+    label: Racket and ball
+    body: >
+      A racket within specified dimensions, and a small hollow rubber ball
+      graded by speed with coloured dots — a double yellow dot ball is the
+      slowest and is used at professional level, because a slower ball produces
+      longer rallies.
+
+      The ball only performs correctly once warm, so players hit before a match
+      to raise its temperature. It is the only implement on this site whose
+      behaviour depends on how long it has been in use.
+    facts:
+      - { label: Professional ball, value: Double yellow dot }
+      - { label: Ball, value: Hollow rubber, warms in play }
+      - { label: Racket length, value: 686 mm max }
+
+  - id: players
+    label: Players and officials
+    body: >
+      Singles, plus a doubles game on a wider court that is not on the Olympic
+      programme. A referee and, at professional level, two additional officials
+      voting on appeals — because the central decision is contested often
+      enough that one person's judgement was not enough.
+
+      Video review arrived in 2019 for lets and strokes, and has informed the
+      decision without settling it.
+    shaped_by: [wsf-2019-video-review]
+
+  - id: duration
+    label: Format
+    body: >
+      Best of five games to eleven points, win by two. There is no clock, so
+      match length is a function of the scoring system — which is precisely why
+      the scoring system was rewritten in 2004.
+
+      Under the old hand-in hand-out system, only the server could score, so a
+      game had no bounded length and a match could run to two hours or finish
+      in forty minutes with no way to tell in advance.
+    facts:
+      - { label: Game to, value: "11" }
+      - { label: Must win by, value: "2" }
+      - { label: Games per match, value: Best of 5 }
+      - { label: Clock, value: None }
+    shaped_by: [wsf-2004-point-a-rally]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      A point on every rally, to whoever wins it, since 2004. Before that a
+      game went to nine and only the server could score — a rally won by the
+      receiver won back the serve and nothing else.
+
+      That is the same change badminton made in 2006, table tennis in 2001 and
+      volleyball in 1999, for the same stated reason, and squash's version sits
+      in the middle of the sequence.
+    facts:
+      - { label: Point on every rally, value: Since 2004 }
+      - { label: Previous system, value: 9 points, hand-in hand-out }
+    shaped_by: [wsf-2004-point-a-rally]
+
+  - id: restarts
+    label: The serve
+    body: >
+      Struck from a service box with one foot inside it, onto the front wall
+      above the service line, to land in the opposite back quarter. The server
+      alternates boxes after each point won.
+
+      There is no second serve. Squash, unlike tennis, gives a player one
+      attempt at the action that starts the rally.
+    facts:
+      - { label: Serves per rally, value: "1" }
+      - { label: Serving side, value: Alternates on each point won }
+
+  - id: prohibitions
+    label: Interference, lets and strokes
+    body: >
+      The sport's defining rules and the reason its officiating is hard. A
+      player must give their opponent unobstructed access to the ball, a
+      direct swing at it, and the ability to hit it to the front wall.
+
+      When that does not happen the referee decides between three outcomes. Play
+      a **let** and replay the point, if the obstructed player could have
+      reached the ball and the obstruction was not deliberate or avoidable.
+      Award a **stroke** — the point outright — if the obstruction prevented a
+      winning shot or was avoidable. Or award **no let**, if the player could
+      not have reached the ball anyway.
+
+      Every one of those is a judgement about what would have happened, which
+      is a class of question nothing else on this site asks an official to
+      answer.
+    shaped_by: [wsf-2019-video-review]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Three games out of five. No draw, no clock, and no cap — a game cannot
+      end without a two-point margin.

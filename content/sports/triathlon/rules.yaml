@@ -1,0 +1,135 @@
+- id: itu-1995-drafting-legalised
+  scope: { sport: triathlon, discipline: elite }
+  date_adopted: 1994
+  date_effective: 1995
+  status: adopted
+  governing_body: International Triathlon Union
+  what_changed: >
+    Drafting — riding in the slipstream of another competitor — was legalised
+    in elite racing. It had been a penalty offence, enforced by motorcycle
+    marshals policing a minimum gap between bicycles.
+
+    A drafting-legal bike leg is a completely different event. Riders form
+    packs, the aerodynamic saving is enormous, and the leg stops separating
+    competitors on cycling ability at all. What had been three time trials
+    summed together became a race decided almost entirely by the run.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Enforcing a no-drafting rule requires marshals judging a moving gap
+      between bicycles across an entire bike course, which was expensive,
+      inconsistent and frequently disputed. Legalising drafting removed the
+      enforcement problem and produced a race that finishes as a pack, which is
+      far better television.
+    also_said: >
+      It also removed cycling as a differentiator. Competitors and coaches
+      argued at the time — and still argue — that a triathlon in which the bike
+      leg decides nothing is not a test of three disciplines. The federation
+      has not disputed the description.
+  citation:
+    source: world-triathlon-rules
+    edition: ITU Competition Rules, 1995
+    missing: true
+  comparability_break: triathlon-splits
+
+- id: itu-2000-olympic-distance
+  scope: { sport: triathlon, discipline: all }
+  date_adopted: 1994
+  date_effective: 2000
+  status: adopted
+  governing_body: International Triathlon Union
+  what_changed: >
+    The Olympic distance was fixed at a 1500 m swim, a 40 km bike and a 10 km
+    run, and triathlon entered the Games at Sydney in that format.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Triathlon had grown from long-distance events lasting most of a day. A
+      distance completing in under two hours was chosen because that is what an
+      Olympic broadcast slot can hold.
+  citation:
+    source: world-triathlon-rules
+    edition: ITU Competition Rules, 2000
+    missing: true
+  comparability_break: null
+
+- id: worldtri-2020-mixed-relay
+  scope: { sport: triathlon, discipline: all }
+  date_adopted: 2017
+  date_effective: 2021
+  status: adopted
+  governing_body: World Triathlon
+  what_changed: >
+    A mixed relay was added to the Olympic programme: four athletes, two men
+    and two women, each completing a short triathlon in sequence. The format is
+    roughly a quarter of the individual distance per leg and finishes in about
+    eighty minutes.
+  cause_primary: broadcast and pacing
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The IOC's push for mixed-sex events coincided with the federation's
+      interest in a shorter, more continuously watchable format. The relay
+      guarantees a close finish in a way an individual race does not.
+  citation:
+    source: world-triathlon-rules
+    edition: World Triathlon Competition Rules, 2021
+    missing: true
+  comparability_break: null
+
+- id: worldtri-age-group-no-drafting
+  scope: { sport: triathlon, discipline: age-group }
+  date_adopted: 1995
+  date_effective: 1995
+  status: adopted
+  governing_body: World Triathlon
+  what_changed: >
+    Drafting remained prohibited in age-group and most non-elite racing, and
+    still is. The sport therefore runs two rulebooks: elite races are pack
+    races, and everything below them is three time trials.
+  cause_primary: fairness and eligibility
+  cause_secondary: safety
+  trigger:
+    description: >
+      Packs of inexperienced riders at speed are dangerous, and a mass
+      age-group field cannot be marshalled the way an elite race can. The
+      federation kept the older rule for everyone except the professionals.
+    also_said: >
+      The consequence is that the sport most people compete in is not the sport
+      they watch. Baseball ran two batting rulebooks for forty-nine years and
+      this site called that remarkable; triathlon has run two for thirty and
+      barely anyone remarks on it.
+  citation:
+    source: world-triathlon-rules
+    edition: World Triathlon Competition Rules, drafting provisions
+    missing: true
+  comparability_break: null
+
+- id: worldtri-water-quality
+  scope: { sport: triathlon, discipline: all }
+  date_adopted: 2015
+  date_effective: 2016
+  status: adopted
+  governing_body: World Triathlon
+  what_changed: >
+    Water quality thresholds and contingency procedures were formalised: if
+    tested bacterial levels exceed limits, the swim is shortened or removed and
+    the event becomes a duathlon. Wetsuit use is also mandated or prohibited by
+    water temperature bands.
+  cause_primary: safety
+  trigger:
+    description: >
+      Open-water swim legs are held in rivers, harbours and coastal water that
+      the organiser does not control, and repeated events — most visibly at
+      recent Games — have been affected by contamination after rainfall.
+    also_said: >
+      An event that can lose an entire discipline to a rain shower has a
+      comparability problem it has never named as such: a duathlon result and a
+      triathlon result appear in the same series.
+  citation:
+    source: world-triathlon-rules
+    edition: World Triathlon Competition Rules, water quality provisions
+    missing: true
+  comparability_break: null

@@ -1,0 +1,20 @@
+sport: hockey
+as_of: 2026-09
+source: fih-rules
+standing: primary-named
+summary: >
+  Two Olympic events, in a sport with an unusually long unbroken Olympic
+  history — hockey has been contested at every Games since 1928 apart from
+  1924, and the women's tournament since 1980.
+disciplines:
+  - id: hockey
+    label: Field hockey
+    events:
+      - { id: men, label: "Men's tournament", olympic: true }
+      - { id: women, label: "Women's tournament", olympic: true }
+  - id: variants
+    label: Governed by the federation, not on the programme
+    counts: false
+    events:
+      - { id: hockey5s, label: Hockey5s, note: "Five a side on a smaller pitch, developed for cheaper staging and youth competition." }
+      - { id: indoor, label: Indoor hockey, note: "Six a side, with boards; a separate world championship." }

@@ -1,0 +1,82 @@
+sport: triathlon
+standing: editorial
+summary: >
+  Three sports at once, and a barrier that is mostly logistical rather than
+  physical. Triathlon's entry problem is that you need a pool, a bicycle,
+  somewhere to run and the time to do all three — and its top is unusual in
+  that one of the three disciplines stopped deciding anything in 1995.
+
+entry:
+  verdict: high
+  claim: Three sports' worth of access, equipment and training time.
+  why: >
+    Nothing in a triathlon is individually hard to begin. Running needs shoes.
+    Cycling needs a bicycle. Swimming needs a pool and the ability to swim,
+    which is the real constraint — and it is the same absolute barrier swimming
+    has, because a person who cannot get to water cannot train a third of this
+    sport.
+
+    What compounds it is time and cost. A competitive triathlete trains three
+    disciplines, owns a bicycle, and pays pool fees, and the sport's age-group
+    culture is built around people with the disposable income to do that.
+
+    Entry-level events are genuinely welcoming — sprint distances, mass
+    participation, no qualifying — which is what keeps this at high rather than
+    very high.
+  evidence:
+    - { label: Sports to train, value: "3", basis: observation }
+    - { label: Facility, value: A pool, a road and a running route, basis: observation }
+    - { label: Kit to start, value: A bicycle, a wetsuit and shoes, basis: observation }
+    - { label: Prerequisite, value: Being able to swim, basis: observation }
+    - { label: Time to a first race, value: Months, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: A pack race in which the bike leg decides nothing, so the whole sport turns on a 10 km run.
+  why: >
+    Legalising drafting in 1995 removed cycling as a differentiator at elite
+    level. Riders sit in packs, the aerodynamic saving is very large, and
+    almost everyone arrives at the second transition together. What decides an
+    Olympic triathlon is the run, and elite triathletes run 10 km times that
+    would be respectable in track athletics after ninety minutes of racing.
+
+    So the ceiling requires being an excellent swimmer — good enough to make
+    the front pack, because missing it is fatal — a competent bike handler in
+    a pack, and a near-elite distance runner. Two prerequisites and one
+    decider.
+
+    Age-group racing, which is where almost everyone competes, is the older
+    sport: no drafting, three genuine time trials, and the bike leg still
+    matters. The version most people train for is not the one they watch.
+  evidence:
+    - label: Drafting legalised
+      value: "1995"
+      basis: rule
+      rule: itu-1995-drafting-legalised
+      note: Removed the bike leg as a differentiator at elite level.
+    - label: Drafting still banned below elite
+      value: "Yes"
+      basis: rule
+      rule: worldtri-age-group-no-drafting
+      note: Two rulebooks, thirty years, in one sport.
+    - label: Olympic distance
+      value: 1500 m, 40 km, 10 km
+      basis: rule
+      rule: itu-2000-olympic-distance
+    - { label: Typical peak age, value: 26–32, basis: judgement }
+
+gap: >
+  Triathlon's gap is high to very high, which is unusual — most sports here are
+  much easier to start than to master, and triathlon is genuinely hard at both
+  ends because it demands three sets of access before anything begins.
+
+  The distinctive fact is the split rulebook. Baseball ran two batting rules
+  across its two leagues for forty-nine years and this site called that
+  remarkable. Triathlon has run two versions of its central rule for thirty
+  years, dividing elite from everyone else, and the sport barely discusses it.
+  An age-grouper who has trained the bike leg for a decade is preparing for a
+  discipline that, in the version on television, does not decide anything.
+
+shaped_by:
+  - itu-1995-drafting-legalised
+  - worldtri-age-group-no-drafting

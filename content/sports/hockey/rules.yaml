@@ -1,0 +1,132 @@
+- id: fih-1976-artificial-turf
+  scope: { sport: hockey, discipline: all }
+  date_adopted: 1975
+  date_effective: 1976
+  status: adopted
+  governing_body: International Hockey Federation
+  what_changed: >
+    Olympic hockey moved onto artificial turf. The ball runs true and fast on
+    a synthetic surface where grass had made it bobble, so the sport's
+    technique changed completely: the reverse stick, the drag flick and
+    close-quarters stickwork all became possible, and aerial and long-hitting
+    play became less necessary.
+
+    It is the largest change to how hockey is played in the sport's history and
+    it was made by changing the ground rather than the rules.
+  cause_primary: equipment and technology
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Synthetic surfaces produced a faster, more consistent game that suited
+      television, and removed the dependence on grass quality that had made
+      international results partly a function of the host's groundskeeping.
+    also_said: >
+      The consequence nobody legislated for was cost. A water-based hockey
+      pitch is expensive to build and to maintain, and nations that could not
+      afford one fell away from the top of the sport within a generation. The
+      federation has been trying to address that ever since, most recently by
+      approving surfaces that do not require irrigation.
+  citation:
+    source: fih-rules
+    edition: FIH Rules of Hockey, 1976
+    missing: true
+  comparability_break: hockey-goals-per-game
+
+- id: fih-1998-offside-abolished
+  scope: { sport: hockey, discipline: all }
+  date_adopted: 1997
+  date_effective: 1998
+  status: adopted
+  governing_body: International Hockey Federation
+  what_changed: >
+    Offside was abolished. An attacker may stand anywhere, including behind the
+    last defender, with no restriction at all.
+
+    No other major invasion sport has done this. Football, rugby, handball and
+    lacrosse all retain some version of a rule limiting where attackers may
+    wait, and hockey removed its entirely.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Offside had made the game congested in midfield and difficult to
+      officiate on a small pitch with a fast ball. Removing it stretched play,
+      raised scoring, and eliminated the sport's most disputed decision at a
+      stroke.
+    also_said: >
+      Coaches argued it would make defending impossible and produce basketball
+      on grass. It did not — defences reorganised within a season — and the
+      change is now regarded inside the sport as straightforwardly successful,
+      which makes it unusual on this page.
+  citation:
+    source: fih-rules
+    edition: FIH Rules of Hockey, 1998
+    missing: true
+  comparability_break: hockey-goals-per-game
+
+- id: fih-2009-self-pass
+  scope: { sport: hockey, discipline: all }
+  date_adopted: 2007
+  date_effective: 2009
+  status: adopted
+  governing_body: International Hockey Federation
+  what_changed: >
+    A player awarded a free hit may play the ball to themselves and dribble
+    away rather than being required to pass it. The stoppage that a free hit
+    used to create largely disappeared.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Free hits were the sport's principal dead time — a stoppage, a
+      repositioning, and a pass. The self-pass removed the pause without
+      removing the sanction.
+  citation:
+    source: fih-rules
+    edition: FIH Rules of Hockey, 2009
+    missing: true
+  comparability_break: null
+
+- id: fih-2014-quarters
+  scope: { sport: hockey, discipline: all }
+  date_adopted: 2014
+  date_effective: 2015
+  status: adopted
+  governing_body: International Hockey Federation
+  what_changed: >
+    Two halves of thirty-five minutes became four quarters of fifteen, with the
+    clock stopped for penalty corners and goals. A sixty-minute match became a
+    sixty-minute match with three extra breaks and a stopped clock.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Quarters create guaranteed commercial breaks and coaching intervals, and
+      stopping the clock for penalty corners removed the incentive to waste
+      time. Basketball made the same change to its international game in 2000
+      for the same reason.
+  citation:
+    source: fih-rules
+    edition: FIH Rules of Hockey, 2015
+    missing: true
+  comparability_break: hockey-goals-per-game
+
+- id: fih-2011-video-referral
+  scope: { sport: hockey, discipline: all }
+  date_adopted: 2010
+  date_effective: 2011
+  status: adopted
+  governing_body: International Hockey Federation
+  what_changed: >
+    A team may refer a decision inside the attacking or defending circle to a
+    video umpire, retaining the referral if successful. Umpires may also refer
+    on their own initiative.
+  cause_primary: integrity
+  trigger:
+    description: >
+      Almost everything decisive in hockey happens inside a small semicircle,
+      with a hard ball at speed and bodies between the umpire and the incident.
+      The reviewable questions are questions of fact.
+  citation:
+    source: fih-rules
+    edition: FIH Rules of Hockey, 2011
+    missing: true
+  comparability_break: null
