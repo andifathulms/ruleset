@@ -403,8 +403,21 @@ export interface Edition {
 }
 
 export interface Program {
+  id: string
+  label: string
+  /** Short form, for a switcher tab where the full name will not fit. */
+  short: string
+  organiser: string
+  blurb: string
   source: string
   last_reviewed: string
+  /**
+   * The editions whose rosters have actually been checked. Without this a
+   * blank cell is ambiguous: it means "absent" in an edition somebody entered
+   * and "nobody looked" in one they did not, and a table that draws both the
+   * same way is asserting a fact it does not have.
+   */
+  entered: number[]
   editions: Edition[]
   sports: ProgramSport[]
 }

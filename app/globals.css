@@ -134,6 +134,18 @@
     border-color: var(--line);
   }
 
+  /* An edition whose roster nobody has entered. Hatched rather than blank,
+     because a blank cell in this table means "absent" — and drawing "not
+     checked" the same way would be asserting a fact the site does not have.
+     The same hatch the series charts use at a break, for the same reason. */
+  .unentered {
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent 0 3px,
+      rgb(122 140 138 / 0.16) 3px 4px
+    );
+  }
+
   /* A raised panel: the painted surface lifted off the ink ground. */
   .panel {
     background:

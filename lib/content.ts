@@ -56,7 +56,27 @@ function dirs(at: string): string[] {
 export const getCauses = (): Cause[] => readYaml<Cause[]>(CONTENT, 'causes.yaml')
 export const getLenses = (): Lens[] => readYaml<Lens[]>(CONTENT, 'lenses.yaml')
 export const getSources = (): Source[] => readYaml<Source[]>(CONTENT, 'sources.yaml')
-export const getProgram = (): Program => readYaml<Program>(CONTENT, 'program.yaml')
+const PROGRAMMES = path.join(CONTENT, 'programmes')
+
+/**
+ * The programmes, Olympic first. The Olympic one used to be `program.yaml` at
+ * the root, which quietly made it the axis every other competition was
+ * measured against rather than one programme among them.
+ */
+export function getProgrammes(): Program[] {
+  const files = fs.readdirSync(PROGRAMMES).filter((f) => f.endsWith('.yaml')).sort()
+  const all = files.map((f) => parse<Program>(fs.readFileSync(path.join(PROGRAMMES, f), 'utf8')))
+  return all.sort((a, b) => (a.id === 'olympic' ? -1 : b.id === 'olympic' ? 1 : a.label.localeCompare(b.label)))
+}
+
+export function getProgramme(id: string): Program {
+  const found = getProgrammes().find((p) => p.id === id)
+  if (!found) throw new Error(`no programme "${id}" under content/programmes`)
+  return found
+}
+
+/** The Olympic programme, which several pages still ask for by name. */
+export const getProgram = (): Program => getProgramme('olympic')
 
 export const getSourceMap = (): Record<string, Source> =>
   Object.fromEntries(getSources().map((s) => [s.id, s]))

@@ -49,7 +49,7 @@ const FOOTER_NAV = [
     links: [
       { href: '/', label: 'Cross-sport timeline' },
       { href: '/breaks/', label: 'Comparability breaks' },
-      { href: '/program/', label: 'Olympic programme' },
+      { href: '/program/', label: 'The programmes' },
     ],
   },
   {
@@ -89,8 +89,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   Read-only, static, and deliberately incomplete. Coverage grows
                   where the author&rsquo;s curiosity goes. The researched sports
                   carry a cause and a citation per rule change; the rest of the
-                  Olympic programme is present as status data only, and is
-                  marked as such wherever it appears.
+                  programmes are present as status data only, and are marked as
+                  such wherever they appear.
                 </p>
               </div>
 

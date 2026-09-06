@@ -1,15 +1,29 @@
-# Skeleton layer (PRD §2). Olympic status per edition, for the Games of the
-# Olympiad. This is structured data, not research: every row is sourced to
-# Olympedia and the official IOC programme listings, and NOTHING here carries a
-# cause or a rule citation. Rule 6 — the skeleton layer never borrows the deep
-# layer's authority.
+# One of several programmes under content/programmes. Skeleton layer (PRD §2):
+# status per edition, structured data rather than research. Every row is
+# sourced, and NOTHING here carries a cause or a rule citation. Rule 6 — the
+# skeleton layer never borrows the deep layer's authority.
 #
 # `coverage: deep` means the sport has researched rule changes. `coverage:
 # skeleton` means status and classification only, and the sport renders as
 # not yet covered.
+#
+# `entered` names the editions whose rosters have actually been checked. A
+# blank cell in an entered edition means the sport was absent; a cell in an
+# edition that is not entered means nobody has looked, and the table must not
+# draw those the same way.
 
+id: olympic
+label: Olympic Games
+short: Olympic
+organiser: International Olympic Committee
+blurb: >
+  The Games of the Olympiad. The programme this site was built around, and —
+  since events now record where they are contested rather than whether they
+  are Olympic — one programme among several rather than the axis.
 source: olympedia
 last_reviewed: 2026-09
+
+entered: [1896, 1900, 1904, 1908, 1912, 1920, 1924, 1928, 1932, 1936, 1948, 1952, 1956, 1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, 2024, 2028]
 
 editions:
   - { year: 1896, city: Athens }
