@@ -29,11 +29,17 @@ Three layers, marked as such everywhere:
 - **Skeleton** — 47 sports across 31 editions in `content/program.yaml`. Status
   per edition only, sourced to Olympedia, carrying no causes and no rule
   citations.
-- **Deep** — twenty-six sports: badminton, athletics, football, gymnastics,
+- **Deep** — thirty-nine sports: badminton, athletics, football, gymnastics,
   swimming, table tennis, basketball, cycling, judo, archery, volleyball,
   tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo,
-  boxing, equestrian, fencing, rowing, sailing, golf, sport climbing, wrestling
-  and shooting.
+  boxing, equestrian, fencing, rowing, sailing, golf, sport climbing, wrestling,
+  shooting, hockey, triathlon, squash, surfing, lacrosse, breaking, rugby,
+  handball, canoeing, skateboarding, karate, softball and flag football.
+
+  That is every sport on the 2028 summer programme. The eight that remain in the
+  skeleton — tug of war, polo, rackets, roque, croquet, jeu de paume, basque
+  pelota and motorboating — lapsed from the programme before 1940 and carry
+  status and classification only.
 
 The first five were one per family, because a "rule" is a structurally
 different object in each: racket sports legislate scoring, measured sports
@@ -93,6 +99,29 @@ The fourth wave was picked for the same reason:
   Voted off the programme in February 2013, reinstated in September.
 - **Shooting** measures more precisely than anything here and has spent thirty
   years arranging its competition so the measurement matters less.
+
+The fifth wave completed the 2028 summer programme, and the sports left over at
+that point turned out to share a theme — every one of them is arguing about
+whether it belongs:
+
+- **Hockey, triathlon and squash** are the sports that changed their format for
+  television and for the Games. Hockey abolished the offside rule outright in
+  1998, which no other invasion sport has done. Squash spent thirty years
+  failing to be selected and rewrote its scoring in the attempt.
+- **Surfing, breaking and skateboarding** are judged sports admitted from
+  outside the federation system, each having had to invent an objective scoring
+  apparatus for an activity that never wanted one. Breaking lasted a single
+  Games.
+- **Rugby sevens and handball** legislate contact in a period when the medical
+  evidence about contact keeps moving.
+- **Canoeing** is two disciplines that share a boat and nothing else, and
+  **karate** is the clearest case on the site of a sport admitted by one host
+  city and dropped by the next.
+- **Softball and flag football** are both defined by another sport. Softball
+  shares an Olympic listing with baseball and was removed after 2008 for
+  reasons that were largely baseball's. Flag football is American football with
+  the tackle taken out — the only sport here whose founding rule is a
+  subtraction.
 
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause
