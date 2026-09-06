@@ -121,7 +121,7 @@ export default function Home() {
           <Reveal delay={300}>
             <dl className="mt-14 grid grid-cols-2 gap-px border chalk-rule bg-chalk/[0.08] sm:grid-cols-4">
               <Stat n={rules.length} label="rule changes" sub={`since ${earliest}`} />
-              <Stat n={deep.length} label="sports researched" sub="one per family" />
+              <Stat n={deep.length} label="sports researched" sub="every family covered" />
               <Stat n={broken.length} label="comparability breaks" sub={`${kinds.length} kinds`} />
               <Stat
                 n={program.sports.length}

@@ -617,20 +617,27 @@ function LaneRow({
             strokeDasharray={lane.empty ? '2 7' : undefined}
           />
         ))}
-        {steps.map((s, i) => (
-          <g key={i}>
-            <line
-              x1={s.x} x2={s.x} y1={y + s.from} y2={y + s.to}
-              stroke={CHALK} strokeOpacity={0.35} strokeWidth={2} strokeDasharray="3 3"
-            />
-            <text
-              x={s.x} y={y - 42}
-              className="numeral" fontSize={12} fill={CHALK} fillOpacity={0.7} textAnchor="middle"
-            >
-              break {s.year}
-            </text>
-          </g>
-        ))}
+        {steps.map((s, i) => {
+          /* Two breaks close together printed their captions on top of each
+             other — the measured lane now holds four, and 2010 and 2014 landed
+             as one smear. A caption within this distance of the last one is
+             lifted onto a second line. */
+          const crowded = i > 0 && s.x - steps[i - 1].x < 74
+          return (
+            <g key={i}>
+              <line
+                x1={s.x} x2={s.x} y1={y + s.from} y2={y + s.to}
+                stroke={CHALK} strokeOpacity={0.35} strokeWidth={2} strokeDasharray="3 3"
+              />
+              <text
+                x={s.x} y={y - (crowded ? 56 : 42)}
+                className="numeral" fontSize={12} fill={CHALK} fillOpacity={0.7} textAnchor="middle"
+              >
+                break {s.year}
+              </text>
+            </g>
+          )
+        })}
       </g>
 
       {lane.marks.map((m, i) => {
