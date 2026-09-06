@@ -60,23 +60,26 @@ export default function CurrentLaws({
               <h3 className="font-display text-2xl text-chalk">{section.label}</h3>
 
               <div className="prose-measure mt-3 space-y-4 text-[16px] text-chalk/85">
-                {clean(section.body)
-                  .split(/(?<=\.)\s{2,}|\n\n/)
-                  .map((para, i) => (
-                    <p key={i}>{para.trim()}</p>
-                  ))}
+                {paragraphs(section.body).map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
               </div>
 
               {section.facts && section.facts.length > 0 && (
                 <dl className="mt-5 grid gap-px border chalk-rule bg-chalk/15 sm:grid-cols-2 lg:grid-cols-3">
-                  {section.facts.map((f) => (
-                    <div key={f.label} className="bg-ink px-4 py-3">
+                  {section.facts.map((f, i) => (
+                    <div key={`${f.label}-${i}`} className="bg-ink px-4 py-3">
                       <dt className="text-[13px] text-unmarked">{f.label}</dt>
                       <dd className="numeral mt-0.5 text-[19px] text-chalk">{f.value}</dd>
                       {f.note && (
                         <dd className="mt-1 text-[13px] leading-snug text-unmarked">{f.note}</dd>
                       )}
                     </div>
+                  ))}
+                  {/* The grid's gap colour shows through an unfilled cell, so
+                      the last row is padded out to keep the rule lines square. */}
+                  {fillers(section.facts.length).map((k) => (
+                    <div key={k} aria-hidden className="hidden bg-ink lg:block" />
                   ))}
                 </dl>
               )}
@@ -133,6 +136,20 @@ export default function CurrentLaws({
 }
 
 const clean = (s: string) => s.replace(/[ \t]+/g, ' ').trim()
+
+/**
+ * A YAML folded scalar joins wrapped lines with a space and collapses a blank
+ * line to a single newline, so paragraphs split on one \n and not two.
+ */
+const paragraphs = (body: string) =>
+  clean(body)
+    .split('\n')
+    .map((p) => p.trim())
+    .filter(Boolean)
+
+/** Empty cells needed to square off the last row of a three-column grid. */
+const fillers = (n: number) =>
+  Array.from({ length: (3 - (n % 3)) % 3 }, (_, i) => `filler-${i}`)
 
 function headline(text: string): string {
   const first = clean(text).split(/(?<=\.)\s/)[0]

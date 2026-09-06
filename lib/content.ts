@@ -102,11 +102,42 @@ export function getPlay(id: string): Play | null {
   const file = path.join(SPORTS, id, 'play.yaml')
   if (!fs.existsSync(file)) return null
   const play = parse<Play>(fs.readFileSync(file, 'utf8'))
+  assertPlayIsClean(id, play)
   const order = (s: { id: string }) => {
     const i = LAW_SECTIONS.indexOf(s.id as (typeof LAW_SECTIONS)[number])
     return i === -1 ? LAW_SECTIONS.length : i
   }
   return { ...play, sections: [...play.sections].sort((a, b) => order(a) - order(b)) }
+}
+
+/**
+ * Fails the build on the mistakes this file's shape invites. An unquoted comma
+ * inside a flow mapping — `{ label: Width, doubles, value: 6.1 m }` — parses as
+ * a second key and silently truncates the label, which shipped two facts both
+ * labelled "Width" before this check existed.
+ */
+function assertPlayIsClean(sport: string, play: Play): void {
+  for (const section of play.sections) {
+    if (!LAW_SECTIONS.includes(section.id)) {
+      throw new Error(
+        `play.yaml (${sport}): section "${section.id}" is not one of the canonical sections`,
+      )
+    }
+    const labels = new Set<string>()
+    for (const fact of section.facts ?? []) {
+      if (!fact.label || fact.value === undefined || fact.value === null) {
+        throw new Error(
+          `play.yaml (${sport}/${section.id}): a fact is missing a label or a value — check for an unquoted comma`,
+        )
+      }
+      if (labels.has(fact.label)) {
+        throw new Error(
+          `play.yaml (${sport}/${section.id}): two facts are both labelled "${fact.label}"`,
+        )
+      }
+      labels.add(fact.label)
+    }
+  }
 }
 
 export function getAllPlay(): { sport: string; play: Play }[] {

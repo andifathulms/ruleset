@@ -35,8 +35,8 @@ sections:
       is being played and whether the shuttle is a serve.
     facts:
       - { label: Court length, value: 13.4 m }
-      - { label: Width, doubles, value: 6.1 m }
-      - { label: Width, singles, value: 5.18 m }
+      - { label: "Width, doubles", value: 6.1 m }
+      - { label: "Width, singles", value: 5.18 m }
       - { label: Net height at centre, value: 1.524 m }
       - { label: Net height at posts, value: 1.55 m }
       - label: Clear height above court
