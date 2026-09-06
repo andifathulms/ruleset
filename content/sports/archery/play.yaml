@@ -1,0 +1,133 @@
+sport: archery
+as_of: 2026-09
+edition: World Archery Rulebook, Book 3
+source: world-archery-rulebook
+standing: primary-named
+summary: >
+  Shoot arrows at a target 70 metres away and score more than your opponent —
+  except that since 2011 "more" has not meant more points. Archery is the
+  sport on this site with the least ambiguity in its measurement and, since it
+  stopped simply adding that measurement up, one of the most contested
+  relationships between what an athlete does and whether they win.
+
+sections:
+  - id: object
+    label: The object of the competition
+    body: >
+      Put arrows as close to the centre of the target as possible. The target
+      is divided into ten scoring rings, and an arrow's value is decided by
+      where the shaft touches — with the higher value awarded if it touches a
+      dividing line at all, which is why shaft diameter had to be limited.
+
+      There is no opponent interaction of any kind. Two archers shoot at
+      separate targets, and nothing either does affects the other's arrow.
+
+  - id: field
+    label: The field
+    body: >
+      An outdoor range with targets at a fixed distance, shot in the weather
+      that happens to be there. Wind is not controlled for, not measured, and
+      not compensated — which makes archery the one measured sport here that
+      does not attempt to standardise its conditions.
+    facts:
+      - { label: Olympic distance, value: 70 m }
+      - { label: Target face, value: 122 cm }
+      - { label: Ten ring, value: 12.2 cm }
+      - { label: Inner ten, value: 6.1 cm, note: Used to break ties. }
+    citation:
+      source: world-archery-rulebook
+      article: "Book 3"
+      missing: true
+
+  - id: equipment
+    label: Bow and arrow
+    body: >
+      The Olympic discipline uses the recurve bow, which may carry a sight, a
+      stabiliser and a clicker but no magnifying optics and no release aid. The
+      compound bow, which has both, is a separate discipline and is not on the
+      Olympic programme.
+
+      Arrows are limited to 9.3 mm in shaft diameter for outdoor target
+      archery. A fatter shaft touches a higher ring more often, so without the
+      limit an archer could buy points rather than shoot them.
+    facts:
+      - { label: Olympic bow, value: Recurve }
+      - { label: Magnifying sights, value: Not permitted }
+      - { label: Release aid, value: Not permitted }
+      - { label: Arrow shaft, value: 9.3 mm max }
+    shaped_by: [wa-2014-arrow-diameter]
+
+  - id: players
+    label: Archers and officials
+    body: >
+      Individual, team of three, and mixed team of two. Judges call arrow
+      values where an arrow touches a line, operate the timing, and inspect
+      equipment. There is very little for an official to interpret, which is
+      unusual on this site: the arrow is either touching the line or it is not.
+
+  - id: duration
+    label: Format
+    body: >
+      A ranking round of 72 arrows seeds the bracket, then head-to-head
+      elimination. That structure dates from 1992 and replaced a format in
+      which everyone shot a large number of arrows and the highest total won —
+      a competition with no moment of victory and nobody to point a camera at.
+    facts:
+      - { label: Ranking round, value: 72 arrows }
+      - { label: Time per arrow, value: 20 s, note: In alternating match play. }
+      - { label: Match format, value: First to 6 set points }
+    shaped_by: [wa-1992-olympic-round, wa-2014-timing-and-shoot-off]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      In the ranking round, arrows are added up, and that number means exactly
+      what it says. In a recurve match they are not. Each set of three arrows
+      is won, drawn or lost, worth two points, one or none, and the match goes
+      to the first archer to six set points.
+
+      The consequence is the most argued fact in the sport: an archer can shoot
+      more total points than their opponent across a match and lose it. A
+      cumulative score and a set score are different quantities, and every
+      match result before 2011 is recorded in the first while every result
+      since is recorded in the second.
+
+      The mixed team event, added in 2021, still uses cumulative scoring — so
+      the sport runs both systems at the same Games.
+    facts:
+      - { label: Ring values, value: 10 down to 1 }
+      - { label: Set win, value: 2 points }
+      - { label: Set draw, value: 1 point }
+      - { label: Match to, value: 6 set points }
+      - { label: Mixed team, value: Cumulative, not sets }
+    shaped_by: [wa-2011-set-system, wa-2021-mixed-team]
+    citation:
+      source: world-archery-rulebook
+      article: "Book 3, match play"
+      missing: true
+
+  - id: restarts
+    label: Shooting order
+    body: >
+      Match play alternates: one archer shoots, then the other, twenty seconds
+      each. A drawn match goes to a single-arrow shoot-off decided on value
+      and, if still level, on which arrow is physically closer to the centre —
+      measured, not judged.
+    shaped_by: [wa-2014-timing-and-shoot-off]
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Shooting outside the time limit forfeits the highest-scoring arrow of
+      that end. Equipment outside specification is not permitted onto the
+      shooting line. Beyond that there is almost nothing to forbid, because
+      there is almost nothing an archer can do to an opponent — which makes
+      this the shortest prohibitions section on the site, and that brevity is
+      itself the characteristic of a target sport.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Six set points, or the closer arrow in a shoot-off. Not, since 2011, the
+      higher score.
+    shaped_by: [wa-2011-set-system]

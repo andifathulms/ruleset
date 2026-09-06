@@ -1,0 +1,87 @@
+sport: judo
+standing: editorial
+summary: >
+  The only sport here where a beginner's first lesson is not the sport at all.
+  Before anyone can be thrown they have to learn to fall, and that comes first
+  in every judo club in the world — which makes the barrier to entry real, and
+  makes it the least negotiable barrier of any sport on this site.
+
+entry:
+  verdict: moderate
+  claim: You cannot start until you can land, and that is taught before anything else.
+  why: >
+    Ukemi — breakfall — is the first thing taught and it is a prerequisite
+    rather than a technique. Judo cannot be practised informally between two
+    people who have not learned it, because the basic action of the sport is
+    throwing someone onto their back onto a hard surface.
+
+    That rules out the entry route almost every other sport here has. There is
+    no park version of judo, no version with a friend and no equipment, and no
+    way to try it without a club, a mat and an instructor. What partly offsets
+    it is that clubs are cheap, the judogi is the only kit, and a beginner can
+    take part in randori within weeks of starting.
+  evidence:
+    - { label: Prerequisite, value: Learning to fall, basis: observation, note: Taught before any throw, in every syllabus. }
+    - { label: Facility needed, value: Tatami and an instructor, basis: observation }
+    - { label: Kit to start, value: A judogi, basis: observation }
+    - { label: Partner required, value: Always, basis: observation, note: Nothing in judo can be practised alone. }
+    - { label: Time to first randori, value: Weeks, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: A sport whose rules have changed under its athletes three times in a decade.
+  why: >
+    The physical demand is extreme and the technical vocabulary is large, but
+    what makes judo's ceiling distinctive here is instability. A judoka who
+    built a career on leg grabs found the technique illegal in 2013. One who
+    won on accumulated small scores found yuko abolished in 2017. One who won
+    on penalties found that route closed in 2018.
+
+    Very few sports on this site have removed a whole family of techniques from
+    competition within a single athlete's career. Athletics changed the
+    javelin; judo changed what a judoka is allowed to do with their hands.
+
+    The weight categories add a second demand that is not about skill at all:
+    the sport is contested at a made weight, and the practice of cutting to it
+    is a health question the federation has never fully resolved.
+  evidence:
+    - label: Leg grabs
+      value: Banned 2013
+      basis: rule
+      rule: ijf-2013-leg-grab-ban
+      note: An entire technique family removed mid-career for a stated reason of identity.
+    - label: Yuko
+      value: Abolished 2017
+      basis: rule
+      rule: ijf-2017-scoring-simplified
+      note: Closed the route to winning on accumulated small advantage.
+    - label: Penalties no longer score
+      value: Since 2018
+      basis: rule
+      rule: ijf-2018-shido-rewrite
+    - label: Golden score
+      value: Unlimited since 2017
+      basis: rule
+      rule: ijf-2017-golden-score
+      note: A contest has no maximum length, so conditioning cannot be planned against a clock.
+    - { label: Typical peak age, value: 24–29, basis: judgement }
+
+gap: >
+  Judo's shape is unusual on this board: a moderate entry rather than a very
+  low one, because of the falling, and a very high top like almost everything
+  else. Gymnastics is the only other sport here with a genuine barrier at the
+  door, and for the same underlying reason — both are sports where doing the
+  beginner's version wrong injures you.
+
+  What is particular to judo is the moving target. Every other sport here has
+  changed its rules, but mostly at the edges: a timing method, an implement
+  specification, a scoring scale. Judo has three times in a decade changed what
+  actually wins a contest. Mastery in this sport means mastery of a rulebook
+  that has not held still, and the sport knows it — the leg grab ban is
+  defended on grounds of what judo should look like, which is a claim no other
+  federation on this site has made out loud.
+
+shaped_by:
+  - ijf-2013-leg-grab-ban
+  - ijf-2017-scoring-simplified
+  - ijf-2018-shido-rewrite

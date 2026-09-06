@@ -46,9 +46,13 @@ export const getSourceMap = (): Record<string, Source> =>
 export const getCauseMap = (): Record<string, Cause> =>
   Object.fromEntries(getCauses().map((c) => [c.id, c]))
 
-/** Every sport directory under /content/sports, deep or not. */
+/**
+ * Every sport under /content/sports. A directory only counts once it has a
+ * sport.yaml: a half-created one otherwise crashed the build with an ENOENT
+ * naming a file the author already knew was missing.
+ */
 export function getSportIds(): string[] {
-  return dirs(SPORTS)
+  return dirs(SPORTS).filter((id) => fs.existsSync(path.join(SPORTS, id, 'sport.yaml')))
 }
 
 export function getSport(id: string): Sport {

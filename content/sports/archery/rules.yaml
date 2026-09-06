@@ -1,0 +1,125 @@
+- id: wa-1992-olympic-round
+  scope: { sport: archery, discipline: target }
+  date_adopted: 1991
+  date_effective: 1992
+  status: adopted
+  governing_body: Fédération Internationale de Tir à l'Arc
+  what_changed: >
+    Olympic competition moved to head-to-head elimination matches after a
+    ranking round, replacing a format in which archers shot a large number of
+    arrows and the highest cumulative total won. Archery stopped being a
+    contest against a scorecard and became a bracket.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      A cumulative-score format produces no moment of victory and no opponent
+      to point a camera at. The federation's stated aim was a competition with
+      a visible winner at a known time.
+  citation:
+    source: world-archery-rulebook
+    edition: FITA Constitution and Rules, 1992
+    missing: true
+  comparability_break: null
+
+- id: wa-2011-set-system
+  scope: { sport: archery, discipline: target, event: recurve }
+  date_adopted: 2010
+  date_effective: 2011
+  status: adopted
+  governing_body: World Archery Federation
+  what_changed: >
+    Recurve matches were rescored in sets. Each set of three arrows is won,
+    lost or drawn, awarding two points, none, or one, and the match goes to the
+    first archer to six set points. The cumulative arrow total no longer
+    decides anything.
+
+    An archer can therefore shoot more points than the opponent across a match
+    and lose it, which had been impossible in the sport's entire history.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Under cumulative scoring a match was frequently decided long before it
+      ended, because a two-point lead over three ends is close to
+      insurmountable at elite accuracy. The set system keeps every set live and
+      guarantees the match runs near its full length.
+    also_said: >
+      Archers objected that a system in which the better shooting can lose is a
+      worse measure of archery, and that the change subordinated the sport's
+      one unambiguous virtue — an objective score — to the needs of a
+      broadcast. The federation has not disputed the description, only the
+      priority.
+  citation:
+    source: world-archery-rulebook
+    edition: World Archery Rulebook, Book 3, 2011
+    missing: true
+  comparability_break: archery-match-scores
+
+- id: wa-2014-timing-and-shoot-off
+  scope: { sport: archery, discipline: target }
+  date_adopted: 2013
+  date_effective: 2014
+  status: adopted
+  governing_body: World Archery Federation
+  what_changed: >
+    Shot timing was tightened to twenty seconds per arrow in alternating
+    match play, and a drawn match is settled by a single-arrow shoot-off
+    decided on score and, if still level, on proximity to the centre.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Alternating shooting with a short clock produces a rhythm a camera can
+      follow and a match of predictable length. The single-arrow shoot-off
+      guarantees a conclusion that can be shown.
+  citation:
+    source: world-archery-rulebook
+    edition: World Archery Rulebook, Book 3, 2014
+    missing: true
+  comparability_break: null
+
+- id: wa-2014-arrow-diameter
+  scope: { sport: archery, discipline: target }
+  date_adopted: 2013
+  date_effective: 2014
+  status: adopted
+  governing_body: World Archery Federation
+  what_changed: >
+    A maximum arrow shaft diameter of 9.3 mm was set for outdoor target
+    archery. A fatter shaft is more likely to touch a higher scoring ring, so
+    diameter had become a way of buying points that the archer had not shot.
+  cause_primary: equipment and technology
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Line-cutting arrows were producing measurable score inflation and an
+      arms race in shaft manufacture that had nothing to do with shooting.
+  citation:
+    source: world-archery-rulebook
+    edition: World Archery Rulebook, Book 3, equipment
+    missing: true
+  comparability_break: null
+
+- id: wa-2021-mixed-team
+  scope: { sport: archery, discipline: target }
+  date_adopted: 2018
+  date_effective: 2021
+  status: adopted
+  governing_body: World Archery Federation
+  what_changed: >
+    A mixed team event of one man and one woman per nation was added to the
+    Olympic programme, scored cumulatively rather than in sets — so the sport
+    now runs two incompatible scoring systems side by side at the same Games.
+  cause_primary: participation and access
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Part of a programme-wide push for gender-balanced and mixed events. That
+      it kept cumulative scoring while the individual event uses sets is
+      recorded here because it means the sport did not consider the set system
+      universally correct, only correct for the format it was designed around.
+  citation:
+    source: world-archery-rulebook
+    edition: World Archery Rulebook, Book 3, 2021
+    missing: true
+  comparability_break: null

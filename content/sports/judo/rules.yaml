@@ -1,0 +1,163 @@
+- id: ijf-1997-blue-judogi
+  scope: { sport: judo, discipline: all }
+  date_adopted: 1997
+  date_effective: 1998
+  status: adopted
+  governing_body: International Judo Federation
+  what_changed: >
+    One contestant wears a blue judogi and the other white, replacing two white
+    judogi distinguished only by a coloured sash. Adopted for major
+    international competition after years of resistance.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Two athletes in identical white gripping each other on a white mat were
+      close to indistinguishable on television, which made the sport unusable
+      as broadcast and made refereeing decisions hard for spectators to follow.
+    also_said: >
+      The change was opposed within the sport, notably in Japan, on the grounds
+      that the white judogi was part of judo's identity and that changing it
+      for a camera subordinated the sport to its audience. That objection
+      recurs in every subsequent entry on this page.
+  citation:
+    source: ijf-sor
+    edition: IJF Sport and Organisation Rules, 1998
+    missing: true
+  comparability_break: null
+
+- id: ijf-2013-leg-grab-ban
+  scope: { sport: judo, discipline: all }
+  date_adopted: 2012
+  date_effective: 2013-01
+  status: adopted
+  governing_body: International Judo Federation
+  what_changed: >
+    Grabbing an opponent's leg or trousers with the hand was prohibited
+    outright, an immediate penalty. Restricted in 2010 and banned entirely
+    from 2013, this removed an entire family of techniques — including the
+    morote-gari and kata-guruma that had been winning medals at the highest
+    level — from competition.
+  cause_primary: disputed
+  trigger:
+    description: >
+      The federation's stated reason was to preserve judo's distinct
+      identity: leg grabs made contests resemble freestyle wrestling, and the
+      sport risked becoming indistinguishable from another one on the same
+      Olympic programme.
+    also_said: >
+      The competing reading is that the ban favoured the classical throwing
+      styles of the sport's traditional powers against wrestling-influenced
+      approaches that had become effective, particularly among nations
+      without a long judo lineage. The sources do not settle which motive
+      dominated, and the federation's own framing — identity — is unusually
+      candid about being aesthetic rather than sporting.
+  citation:
+    source: ijf-sor
+    edition: IJF Sport and Organisation Rules, 2013
+    missing: true
+  comparability_break: null
+
+- id: ijf-2017-scoring-simplified
+  scope: { sport: judo, discipline: all }
+  date_adopted: 2016
+  date_effective: 2017-01
+  status: adopted
+  governing_body: International Judo Federation
+  what_changed: >
+    The yuko score was abolished, leaving only ippon and waza-ari, and two
+    waza-ari again became equivalent to ippon. A three-tier scoring system that
+    had let contests be won on accumulated small advantages became a two-tier
+    one in which only substantial throws register.
+  cause_primary: broadcast and pacing
+  cause_secondary: disputed
+  trigger:
+    description: >
+      The federation's stated aim was to remove the incentive to win on a
+      minimal score and then defend, which had produced contests decided by a
+      single small advantage held for four minutes.
+    also_said: >
+      It is also read as a return towards Kano's original conception, in which
+      ippon — a decisive throw — was the point of the exercise and anything
+      less was an incomplete version of it. Both readings appear in the record.
+  citation:
+    source: ijf-sor
+    edition: IJF Sport and Organisation Rules, 2017
+    missing: true
+  comparability_break: null
+
+- id: ijf-2017-golden-score
+  scope: { sport: judo, discipline: all }
+  date_adopted: 2016
+  date_effective: 2017-01
+  status: adopted
+  governing_body: International Judo Federation
+  what_changed: >
+    Golden score was made unlimited. A contest tied at the end of regulation
+    continues until somebody scores or accumulates a third penalty, with no
+    time cap and no decision by the referees. Judo removed the draw, the
+    referees' decision, and the clock all at once.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Contests had previously been decided by a referees' decision when golden
+      score expired, which meant an important match could end on an opinion
+      rather than an action. Removing the cap guarantees a result produced on
+      the mat.
+    also_said: >
+      The cost is that a contest now has no predictable length at all, which is
+      the opposite of what broadcast scheduling usually asks for. Judo is the
+      only sport here to have made match length less predictable on purpose.
+  citation:
+    source: ijf-sor
+    edition: IJF Sport and Organisation Rules, 2017
+    missing: true
+  comparability_break: null
+
+- id: ijf-2018-shido-rewrite
+  scope: { sport: judo, discipline: all }
+  date_adopted: 2017
+  date_effective: 2018-01
+  status: adopted
+  governing_body: International Judo Federation
+  what_changed: >
+    Penalties were separated from scoring. A shido no longer gives the opponent
+    a score; three shido disqualify. A contest can therefore no longer be won
+    by drawing penalties out of an opponent, only by throwing them or by their
+    disqualification.
+  cause_primary: broadcast and pacing
+  cause_secondary: integrity
+  trigger:
+    description: >
+      Under the previous system a contestant could take a lead through the
+      opponent's penalties and then hold it defensively, so the optimal tactic
+      in a close contest was to provoke rather than to attack.
+  citation:
+    source: ijf-sor
+    edition: IJF Sport and Organisation Rules, 2018
+    missing: true
+  comparability_break: null
+
+- id: ijf-2022-safety-restrictions
+  scope: { sport: judo, discipline: all }
+  date_adopted: 2022
+  date_effective: 2022
+  status: adopted
+  governing_body: International Judo Federation
+  what_changed: >
+    Restrictions on techniques that risk the head, neck and shoulder,
+    including limits on how a throw may be finished when the opponent's arm is
+    trapped and prohibitions on diving head-first into the mat.
+  cause_primary: safety
+  trigger:
+    description: >
+      A pattern of cervical and shoulder injuries from throws taken onto the
+      head or with the arm locked, which the sport's own medical commission
+      documented. This is the least contested rule change in modern judo,
+      which is worth recording in a sport where almost everything else is
+      argued.
+  citation:
+    source: ijf-sor
+    edition: IJF Sport and Organisation Rules, 2022
+    missing: true
+  comparability_break: null

@@ -1,0 +1,87 @@
+sport: archery
+standing: editorial
+summary: >
+  The narrowest gap on this site. Archery is moderately hard to start and
+  extremely hard to master, but the distance between a competent club archer
+  and an Olympian is smaller in raw score than in any other sport here — and
+  that closeness is exactly what makes the top so brutal.
+
+entry:
+  verdict: moderate
+  claim: A club, a coach and a bow you cannot safely improvise.
+  why: >
+    Archery cannot be picked up informally. A bow is a weapon, the range needs
+    to be laid out safely, and a beginner needs supervision from the first
+    arrow — so entry runs through a club in a way that badminton or basketball
+    does not.
+
+    Once inside, the sport is unusually welcoming. Clubs lend equipment,
+    beginners hit the target within a session, and the scoring is immediately
+    legible: you can see how you did without knowing anything about the sport.
+    There is also no opponent and no physical contact, so age and body type
+    exclude almost nobody.
+  evidence:
+    - { label: Facility needed, value: A supervised range, basis: observation }
+    - { label: Coach needed, value: "Yes, initially", basis: judgement, note: Safety rather than technique. }
+    - { label: Kit to start, value: Club loan equipment, basis: observation }
+    - { label: Olympic distance, value: 70 m, basis: observation }
+    - { label: Time to first scoring arrows, value: One session, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Everyone at the top shoots nearly the same score, so the margin is entirely psychological.
+  why: >
+    At elite level the technical problem is close to solved. Top recurve
+    archers group arrows inside the ten ring with a consistency that leaves
+    very little room between them, which means the difference between a world
+    champion and someone who does not make the bracket is a handful of arrows
+    across a season.
+
+    When the margin is that thin, the contest moves to what happens under
+    pressure — and archery has arranged its own rules to maximise that
+    pressure. Alternating shots, twenty seconds each, a single arrow to settle
+    a drawn match, and since 2011 a set system that keeps every match alive to
+    the end and can hand victory to the archer who shot worse.
+
+    The wind is the other thing. Archery is the only measured sport here that
+    does not control its conditions: there is no wind limit, no rerun and no
+    adjustment, so an elite archer must read weather they cannot influence
+    while shooting at a target the size of a grapefruit.
+  evidence:
+    - label: Set system
+      value: Since 2011
+      basis: rule
+      rule: wa-2011-set-system
+      note: An archer can out-shoot an opponent and lose, so the pressure never resolves.
+    - label: Time per arrow
+      value: 20 s
+      basis: rule
+      rule: wa-2014-timing-and-shoot-off
+      note: Alternating, with the opponent watching.
+    - label: Arrow shaft limit
+      value: 9.3 mm
+      basis: rule
+      rule: wa-2014-arrow-diameter
+      note: Closed off the one route to points that was not shooting.
+    - { label: Ten ring, value: 12.2 cm at 70 m, basis: observation }
+    - { label: Typical peak age, value: 22–32, basis: judgement, note: One of the widest peak windows here. }
+
+gap: >
+  Archery inverts the usual shape. In badminton or table tennis the gap is
+  enormous because the elite version of the skill is unrecognisable from the
+  beginner's. In archery the actions are the same and the scores are much
+  closer — a good club archer might shoot within ten per cent of an Olympian's
+  ranking round, which is unthinkable in any other sport on this board.
+
+  The barrier is that the last ten per cent is almost entirely psychological,
+  and the sport has deliberately made it harder. Every rule change here since
+  1992 has increased pressure rather than reduced it: elimination brackets
+  instead of cumulative totals, a short clock, alternating shots, and a set
+  system that can take a match away from the archer who shot better. A
+  federation optimising for broadcast has, as a side effect, built the most
+  psychologically demanding competition format on this site.
+
+shaped_by:
+  - wa-2011-set-system
+  - wa-1992-olympic-round
+  - wa-2014-timing-and-shoot-off

@@ -1,0 +1,37 @@
+sport: judo
+as_of: 2026-09
+source: ijf-sor
+standing: primary-named
+summary: >
+  Weight categories and one mixed team event. Judo is one of two Olympic sports
+  where men and women compete on the same team in the same competition, and the
+  only combat sport to do it.
+disciplines:
+  - id: individual
+    label: Individual
+    blurb: Seven weight categories for each of men and women.
+    events:
+      - { id: m60, label: "Men −60 kg", olympic: true }
+      - { id: m66, label: "Men −66 kg", olympic: true }
+      - { id: m73, label: "Men −73 kg", olympic: true }
+      - { id: m81, label: "Men −81 kg", olympic: true }
+      - { id: m90, label: "Men −90 kg", olympic: true }
+      - { id: m100, label: "Men −100 kg", olympic: true }
+      - { id: m100p, label: "Men +100 kg", olympic: true }
+      - { id: w48, label: "Women −48 kg", olympic: true }
+      - { id: w52, label: "Women −52 kg", olympic: true }
+      - { id: w57, label: "Women −57 kg", olympic: true }
+      - { id: w63, label: "Women −63 kg", olympic: true }
+      - { id: w70, label: "Women −70 kg", olympic: true }
+      - { id: w78, label: "Women −78 kg", olympic: true }
+      - { id: w78p, label: "Women +78 kg", olympic: true }
+  - id: team
+    label: Team
+    events:
+      - { id: mixed, label: Mixed team, olympic: true, note: "Added for 2020; three men and three women per team." }
+  - id: non-olympic
+    label: Governed by the federation, not on the programme
+    counts: false
+    events:
+      - { id: kata, label: Kata competition, note: "Judged, not fought — a judged event inside a combat sport." }
+      - { id: open, label: Open weight, note: "Contested at world championships; no weight limit." }

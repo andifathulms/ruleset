@@ -1,0 +1,28 @@
+sport: archery
+as_of: 2026-09
+source: world-archery-rulebook
+standing: primary-named
+summary: >
+  Five Olympic events, all recurve, all at 70 metres. The compound bow — which
+  has magnifying sights, a release aid and a mechanical draw — is a full World
+  Archery discipline with world championships and is not on the Olympic
+  programme, which is why the Olympic events all use a bow design that is
+  essentially a refined version of a very old one.
+disciplines:
+  - id: recurve
+    label: Recurve, outdoor target
+    blurb: The Olympic discipline. Sights and stabilisers permitted, optics and release aids not.
+    events:
+      - { id: mi, label: "Men's individual", olympic: true }
+      - { id: wi, label: "Women's individual", olympic: true }
+      - { id: mt, label: "Men's team", olympic: true }
+      - { id: wt, label: "Women's team", olympic: true }
+      - { id: mx, label: Mixed team, olympic: true, note: "Added 2021, and scored cumulatively rather than in sets." }
+  - id: other
+    label: Governed by the federation, not on the programme
+    counts: false
+    events:
+      - { id: compound, label: Compound, note: "Magnifying sights and a release aid. World championship discipline; repeatedly proposed for the Games." }
+      - { id: indoor, label: Indoor target, note: "18 m, and scored cumulatively." }
+      - { id: field, label: Field archery, note: Varying distances over terrain. }
+      - { id: para, label: Para archery, olympic: false }

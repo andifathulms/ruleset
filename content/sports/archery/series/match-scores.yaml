@@ -1,0 +1,34 @@
+id: archery-match-scores
+label: Match results across the set system
+unit: points
+absence_kind: impossible
+cannot_exist: >
+  There is no chart here, and this is not the badminton case.
+
+  Before 2011 a recurve match produced a number: the sum of the arrows, out of
+  a known maximum, and the higher number won. After 2011 a match produces a
+  scoreline in set points, six-four or six-two, which is not a measurement of
+  anything the archer did with a bow. The quantity was not rescaled. It was
+  replaced by a different kind of object, in the way gymnastics replaced its
+  score in 2006.
+
+  The severity is easiest to see in the fact that makes archers angriest: an
+  archer can now out-shoot an opponent across a match and lose it. Any series
+  running across 2011 would be joining a measure of accuracy to a measure of
+  who won more sets, and those are not two values of one quantity.
+
+  What could exist, and does not here, is a series of ranking-round totals —
+  those are still cumulative and still comparable, subject to the 2014 arrow
+  diameter limit. That would be a real chart. It has not been assembled from a
+  cited source.
+segments: []
+breaks:
+  - at: 2011
+    caused_by: wa-2011-set-system
+    kind: scale-change
+    note: >
+      A match score stopped being a sum of arrows and became a count of sets
+      won. The two are different quantities, and no mapping exists between
+      them — the same shooting can produce either result depending on how the
+      arrows were distributed across the sets.
+source: world-archery-rulebook

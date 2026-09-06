@@ -1,0 +1,141 @@
+sport: judo
+as_of: 2026-09
+edition: IJF Sport and Organisation Rules
+source: ijf-sor
+standing: primary-named
+summary: >
+  Throw your opponent onto their back with force, control and speed, and the
+  contest ends immediately. Everything else in judo is a partial version of
+  that one outcome. The sport is unusual in defining a complete win first and
+  the lesser scores afterwards, which is why its rule changes keep circling
+  back to the same question: how much less than a perfect throw should be worth
+  anything at all.
+
+sections:
+  - id: object
+    label: The object of the contest
+    body: >
+      Score ippon. A throw that puts the opponent largely on their back with
+      control, speed and force ends the contest on the spot, as does a pin held
+      for twenty seconds or a submission from a strangle or an armlock.
+
+      Judo is the only sport on this site where the primary outcome is
+      instantaneous and total. There is no accumulating towards victory; a
+      contest that goes the distance is, in the sport's own terms, one where
+      nobody managed the thing they were trying to do.
+
+  - id: field
+    label: The mat
+    body: >
+      A square of tatami with a contest area and a safety area around it. The
+      surface has to absorb a body thrown from standing, which is the whole
+      engineering requirement.
+    facts:
+      - { label: Contest area, value: 8 × 8 m, note: "Up to 10 × 10 m; the safety area extends beyond it." }
+      - { label: Surface, value: Tatami }
+
+  - id: equipment
+    label: The judogi
+    body: >
+      A jacket, trousers and belt, specified by weave, thickness, sleeve length
+      and the gap at the wrist and lapel — because the judogi is not clothing
+      here, it is the thing both contestants grip. A jacket cut tight is
+      genuinely harder to grip, so the specification is a performance rule
+      pretending to be a uniform rule.
+
+      One contestant wears blue and the other white. That has only been true at
+      the top level since 1998, and it was done for the camera.
+    facts:
+      - { label: Colours, value: One blue, one white }
+      - { label: Belt, value: Rank-coloured, tied at the waist }
+      - { label: Sleeve gap, value: Measured at the wrist, note: A tight jacket resists gripping, so the tolerance is enforced. }
+    shaped_by: [ijf-1997-blue-judogi]
+    citation:
+      source: ijf-sor
+      article: Judogi provisions
+      missing: true
+
+  - id: players
+    label: Contestants and officials
+    body: >
+      Two contestants in a weight category. One referee on the mat, supported
+      by video review officials at the side who can and routinely do correct
+      the mat referee's score — an arrangement in which the official in the
+      room is not the final authority, which is unusual among the sports here.
+
+  - id: duration
+    label: Time
+    body: >
+      Four minutes of contest time, the clock stopped whenever the referee
+      calls a halt. If the score is level at the end, golden score begins and
+      runs without limit until somebody scores or receives a third penalty.
+
+      There is no cap, no referees' decision and no draw. A contest lasts
+      exactly as long as it takes, which makes judo the only sport on this site
+      to have deliberately made its own duration unpredictable.
+    facts:
+      - { label: Regulation time, value: 4 min }
+      - { label: Golden score, value: Unlimited }
+      - { label: Draws, value: None }
+    shaped_by: [ijf-2017-golden-score]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Two scores. Ippon ends the contest. Waza-ari is awarded for a throw
+      missing one of ippon's elements, and two waza-ari make ippon.
+
+      There used to be three. Yuko, the smallest score, was abolished in 2017
+      because contests were being won and then defended on a single minimal
+      advantage. Judo has been narrowing its scoring for a decade, always in the
+      same direction: towards the throw and away from the accumulation.
+    facts:
+      - { label: Ippon, value: Ends the contest }
+      - { label: Waza-ari, value: Two make ippon }
+      - { label: Yuko, value: Abolished 2017 }
+      - { label: Pin for ippon, value: 20 s }
+    shaped_by: [ijf-2017-scoring-simplified]
+    citation:
+      source: ijf-sor
+      article: Scoring provisions
+      missing: true
+
+  - id: restarts
+    label: Gripping and restarts
+    body: >
+      A contest begins standing, and everything follows from the grip: judo is
+      a fight for a hold on the jacket before it is a fight to throw. The
+      referee restarts from standing whenever groundwork stops progressing,
+      which keeps the sport a throwing contest rather than a wrestling one.
+
+      That preference for the standing game is also the reason for the most
+      contested rule in the sport. Grabbing the opponent's leg with the hand
+      has been forbidden outright since 2013.
+    shaped_by: [ijf-2013-leg-grab-ban]
+
+  - id: prohibitions
+    label: Penalties and forbidden techniques
+    body: >
+      Three shido and the contest is lost. Since 2018 a shido no longer scores
+      for the opponent, so penalties can only lose a contest, never win one —
+      which removed the tactic of provoking rather than attacking.
+
+      The forbidden list divides in two, and the division is the interesting
+      part. Some techniques are banned for safety: diving head-first, throwing
+      onto a trapped arm, anything endangering the neck. Others are banned for
+      identity: leg grabs were removed because they made judo look like
+      wrestling, and the federation said so.
+    facts:
+      - { label: Shido to disqualification, value: "3" }
+      - { label: Shido gives opponent a score, value: "No, since 2018" }
+      - { label: Direct leg grabs, value: Prohibited since 2013 }
+    shaped_by: [ijf-2018-shido-rewrite, ijf-2013-leg-grab-ban, ijf-2022-safety-restrictions]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Ippon, two waza-ari, the opponent's third penalty, or a score in golden
+      score. There is no other route. Judo removed the referees' decision in
+      2017 and has not replaced it, so every contest is now settled by
+      something that happened on the mat.
+    shaped_by: [ijf-2017-golden-score]
