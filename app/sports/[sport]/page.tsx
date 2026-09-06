@@ -6,6 +6,10 @@ import SeriesChart from '@/components/SeriesChart'
 import RuleList from '@/components/RuleList'
 import MiniLane from '@/components/MiniLane'
 import SectionNav from '@/components/SectionNav'
+import Diagram from '@/components/Diagram'
+import JavelinCentreOfGravity from '@/components/diagrams/JavelinCentreOfGravity'
+import ScoringSystems from '@/components/diagrams/ScoringSystems'
+import ScoreScales from '@/components/diagrams/ScoreScales'
 import { Reveal } from '@/components/Motion'
 import {
   getCauses, getLenses, getProgram, getRuleChanges, getSections, getSeriesForSport,
@@ -18,6 +22,52 @@ const COLOUR: Record<string, { base: string; bright: string }> = {
   clay: { base: '#B7502A', bright: '#EA7E4E' },
   gold: { base: '#C8A02C', bright: '#F2C94F' },
   unmarked: { base: '#7A8C8A', bright: '#9FB2B0' },
+}
+
+/**
+ * Diagrams are drawn by this site rather than sourced, and each one explains
+ * what a specific rule changed. They are keyed to the section that discusses
+ * that rule, so a diagram never appears as decoration next to prose it has
+ * nothing to do with.
+ */
+function diagramFor(sport: string, slot: string) {
+  if (sport === 'athletics' && slot === 'equipment') {
+    return (
+      <Diagram
+        eyebrow="What the 1986 rule changed"
+        title="Four centimetres, and the record book"
+        colour="pool"
+        caption="Drawn to scale, which is the point: four centimetres on a 2.6 metre shaft is a shift you have to be told to look for, and it took roughly ten per cent off the world record. Moving the balance point towards the tip makes the nose drop earlier, so the implement lands point-first and closer — which is what World Athletics wanted, because flat landings were producing judging arguments and throws were reaching the end of the stadium. The flight paths are schematic; the implement is not."
+      >
+        <JavelinCentreOfGravity />
+      </Diagram>
+    )
+  }
+  if (sport === 'badminton' && slot === 'rules') {
+    return (
+      <Diagram
+        eyebrow="What the 2006 rule changed"
+        title="The same rallies, counted twice"
+        colour="clay"
+        caption="One invented run of sixteen rallies, scored under both systems. Under side-out scoring only the serving side could score, so a rally won by the receiver produced no number at all and left nothing behind in the record; from May 2006 every rally produces a point. Same play, different data — which is why no match statistic crosses that line. The rallies are illustrative, not taken from a match."
+      >
+        <ScoringSystems />
+      </Diagram>
+    )
+  }
+  if (sport === 'gymnastics' && slot === 'series') {
+    return (
+      <Diagram
+        eyebrow="Why there is no chart here"
+        title="Two scales, and no way between them"
+        colour="gold"
+        caption="The two rulers are drawn with different baselines and different spacings on purpose. Putting them on one axis would be the exact claim this page refuses: a 9.85 does not sit below a 15.633, it sits outside it. The left scale had a real ceiling, which is what made the perfect 10 legible to people who knew nothing else about the sport; the right one has no maximum to draw."
+      >
+        <ScoreScales />
+      </Diagram>
+    )
+  }
+  return null
 }
 
 export function generateStaticParams() {
@@ -178,6 +228,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
             citation is incomplete.
           </p>
           <RuleList rules={rules} causes={getCauses()} sources={getSourceMap()} series={series} />
+          {diagramFor(params.sport, 'rules')}
         </Section>
 
         {/* 4. Equipment evolution, tied to the rules that forced it. */}
@@ -186,6 +237,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
           .map((s) => (
             <Section key={s.slug} title={s.title} id={s.slug} n={3} colour={c.bright} reading tint={c.base}>
               <Prose source={s.body} />
+              {diagramFor(params.sport, 'equipment')}
             </Section>
           ))}
 
@@ -220,6 +272,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
               </div>
             ))
           )}
+          {diagramFor(params.sport, 'series')}
         </Section>
 
         <nav className="mb-20 mt-20 flex flex-wrap items-center gap-x-8 gap-y-3 border-t chalk-rule pt-8 text-[15px]">

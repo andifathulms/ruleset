@@ -342,6 +342,30 @@
   transform: translateY(-4px);
 }
 
+/*
+  A diagram draws itself when its Reveal arrives, so an explanatory figure
+  paints the way the lanes do. Driven entirely from the ancestor's `is-in`
+  class, which means no diagram needs a client component of its own.
+*/
+.draw-on-reveal {
+  stroke-dasharray: var(--path-length, 600);
+  stroke-dashoffset: var(--path-length, 600);
+}
+
+.reveal.is-in .draw-on-reveal {
+  animation: draw-path 0.9s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  animation-delay: var(--draw-delay, 0ms);
+}
+
+.fade-on-reveal {
+  opacity: 0;
+}
+
+.reveal.is-in .fade-on-reveal {
+  animation: mark-in 0.4s cubic-bezier(0.34, 1.32, 0.42, 1) both;
+  animation-delay: var(--draw-delay, 0ms);
+}
+
 /* Printing never scrolls, so a deferred reveal would print a blank column. */
 @media print {
   .reveal {
@@ -357,6 +381,10 @@
   .lane-paint,
   .mark-in,
   .draw-path,
+  .draw-on-reveal,
+  .fade-on-reveal,
+  .reveal.is-in .draw-on-reveal,
+  .reveal.is-in .fade-on-reveal,
   .wipe-in {
     animation: none !important;
     stroke-dashoffset: 0 !important;
