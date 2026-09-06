@@ -1,0 +1,140 @@
+- id: softball-underhand-pitching
+  scope: { sport: softball, discipline: all }
+  date_adopted: 1887
+  date_effective: 1887
+  status: adopted
+  governing_body: Originating clubs, later the ISF
+  what_changed: >
+    Pitching is underhand, with the arm passing below the hip, and delivered
+    from a flat pitching circle rather than a raised mound. The distance is
+    shorter than baseball's — 43 feet in the women's game against baseball's
+    60 feet 6 inches.
+
+    Combined, those produce roughly the same reaction time for the batter as an
+    elite baseball fastball, from a delivery that rises and breaks in ways an
+    overhand pitch cannot.
+  cause_primary: safety
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The game was invented indoors, in a Chicago gymnasium, with a larger
+      softer ball and a gentler delivery because the space and the equipment
+      demanded it. What began as a constraint became the sport's defining
+      technical feature.
+  citation:
+    source: wbsc-softball-rules
+    edition: WBSC Softball Playing Rules, pitching provisions
+    missing: true
+  comparability_break: softball-statistics
+
+- id: softball-international-tiebreaker
+  scope: { sport: softball, discipline: all }
+  date_adopted: 1987
+  date_effective: 1987
+  status: adopted
+  governing_body: International Softball Federation
+  what_changed: >
+    In extra innings, each half-inning begins with a runner already on second
+    base. It guarantees scoring chances and brings games to a conclusion
+    rather than letting them run indefinitely.
+
+    Baseball adopted the same device in 2020, thirty-three years later, and
+    made it permanent in 2023.
+  cause_primary: broadcast and pacing
+  cause_secondary: safety
+  trigger:
+    description: >
+      Softball tournaments compress many games into a few days, and a pitcher
+      throwing underhand can pitch multiple games in a day — so extra innings
+      threatened both the schedule and the arms.
+    also_said: >
+      It is worth recording that softball solved this in 1987 and baseball,
+      which shares its federation, copied it in 2020 to widespread controversy
+      among its own supporters. The junior partner's rule became the senior
+      one's.
+  citation:
+    source: wbsc-softball-rules
+    edition: ISF playing rules, 1987
+    missing: true
+  comparability_break: softball-statistics
+
+- id: softball-2008-olympic-removal
+  scope: { sport: softball, discipline: all }
+  date_adopted: 2005-07
+  date_effective: 2012
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Softball was voted off the Olympic programme after 2008, together with
+    baseball, and did not return until 2020 as a host-nation proposal. It is on
+    the 2028 programme and was absent from 2024.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The stated grounds included limited global spread and, for baseball, the
+      absence of its best players. Softball was removed alongside baseball
+      despite being a separate sport with a different geography and no
+      professional-release problem.
+    also_said: >
+      Softball's federation argued at the time, and since, that it was removed
+      for baseball's reasons — the two sports were voted on together, and
+      merged their federations in 2013 partly in response. A sport being
+      excluded for the shortcomings of a different sport is a governance
+      outcome nothing else on this site has experienced.
+  citation:
+    source: wbsc-softball-rules
+    edition: IOC Session decision, 2005
+    missing: true
+  comparability_break: null
+
+- id: softball-2013-federation-merger
+  scope: { sport: softball, discipline: all }
+  date_adopted: 2013-04
+  date_effective: 2013
+  status: adopted
+  governing_body: World Baseball Softball Confederation
+  what_changed: >
+    The international softball and baseball federations merged into a single
+    body, and the two sports now share one Olympic listing — appearing on the
+    programme together and counted as one sport.
+  cause_primary: commercial
+  trigger:
+    description: >
+      Both had been removed from the programme after 2008 and neither was
+      succeeding alone. A combined bid, presenting men's baseball and women's
+      softball as a single gender-balanced package, was judged more likely to
+      succeed. It was, for 2020 and again for 2028.
+    also_said: >
+      The cost is that two distinct sports with different rules, different
+      participants and different geographies are administered and admitted as
+      one. This site records them separately because they are separate sports,
+      and notes that the Olympic movement does not.
+  citation:
+    source: wbsc-softball-rules
+    edition: WBSC constitution, 2013
+    missing: true
+  comparability_break: null
+
+- id: softball-2018-fastpitch-standards
+  scope: { sport: softball, discipline: fastpitch }
+  date_adopted: 2017
+  date_effective: 2018
+  status: adopted
+  governing_body: WBSC
+  what_changed: >
+    Bat performance standards were tightened, limiting the exit velocity a bat
+    may impart, and defensive face masks became standard equipment for
+    infielders in many competitions.
+  cause_primary: safety
+  cause_secondary: equipment and technology
+  trigger:
+    description: >
+      Composite bats had raised batted-ball speeds substantially, and the
+      distance from home plate to the pitcher's circle is short enough that a
+      pitcher has very little time to react to a line drive.
+  citation:
+    source: wbsc-softball-rules
+    edition: WBSC Softball Playing Rules, equipment standards
+    missing: true
+  comparability_break: null

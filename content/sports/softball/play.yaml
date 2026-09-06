@@ -1,0 +1,116 @@
+sport: softball
+as_of: 2026-09
+edition: WBSC Softball Playing Rules
+source: wbsc-softball-rules
+standing: primary-named
+summary: >
+  Nine a side, seven innings, and a pitcher throwing underhand from a flat
+  circle forty-three feet away. That last detail is the sport: the shorter
+  distance cancels the slower delivery, so a batter has about as long to decide
+  as they would against a baseball from sixty feet, against a ball that rises.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Score more runs across seven innings. As in baseball, the sides alternate
+      between batting and fielding and three outs end an innings — so the
+      structure is shared and almost nothing else is.
+
+  - id: field
+    label: The field
+    body: >
+      A smaller diamond than baseball's, with sixty-foot base paths and a
+      pitching circle rather than a raised mound. The outfield fence is closer.
+
+      The pitching distance is the number that matters. At forty-three feet in
+      the women's game, an underhand pitch at seventy miles an hour gives the
+      batter reaction time comparable to a ninety-five mile an hour baseball
+      from sixty feet six inches.
+    facts:
+      - { label: Base paths, value: 60 ft }
+      - { label: "Pitching distance, women", value: 43 ft }
+      - { label: Pitching area, value: A flat circle, not a mound }
+      - { label: Innings, value: "7" }
+    shaped_by: [softball-underhand-pitching]
+
+  - id: equipment
+    label: Bat and ball
+    body: >
+      A larger, softer ball — the name is a nineteenth-century description that
+      stopped being accurate as the sport hardened — and a bat regulated by
+      performance rather than only by dimension.
+
+      Composite bats raised batted-ball speeds enough to be dangerous, given
+      how close the pitcher stands, so bat standards now cap the exit velocity
+      a bat may impart. Defensive face masks for infielders followed for the
+      same reason.
+    facts:
+      - { label: Ball circumference, value: About 30 cm }
+      - { label: Bat, value: Performance-limited, not only dimension-limited }
+      - { label: Infielder face masks, value: Standard in many competitions }
+    shaped_by: [softball-2018-fastpitch-standards]
+
+  - id: players
+    label: Players and officials
+    body: >
+      Nine a side. The pitcher is a far larger share of a team than in
+      baseball, because the underhand motion is less damaging to the arm and a
+      pitcher can throw complete games on consecutive days — so a single
+      dominant pitcher can carry a tournament in a way no baseball pitcher can.
+    facts:
+      - { label: Fielders, value: "9" }
+      - { label: Pitcher workload, value: Multiple complete games in a tournament }
+
+  - id: duration
+    label: Time
+    body: >
+      Seven innings, with no clock. Extra innings use the international
+      tie-breaker: each half-inning begins with a runner on second base.
+
+      Softball adopted that in 1987, because its tournaments compress many
+      games into few days and a pitcher who can throw all of them still cannot
+      throw indefinitely. Baseball adopted the same device in 2020.
+    facts:
+      - { label: Innings, value: "7" }
+      - { label: Extra innings, value: Runner starts on second }
+      - { label: Adopted, value: "1987" }
+    shaped_by: [softball-international-tiebreaker]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Runs, as in baseball. Because the pitching is harder to hit and the
+      innings fewer, scores are typically lower and a single run is worth more
+      — which makes the sport's small-ball tactics, the bunt and the slap hit,
+      far more central than they are in modern baseball.
+
+  - id: restarts
+    label: Pitching
+    body: >
+      The pitcher must have both feet in contact with the pitching plate at the
+      start, and the delivery must pass below the hip with the wrist no further
+      from the body than the elbow. There is no windup off a mound and no
+      downward plane.
+
+      What that produces is movement no overhand pitch can generate: a
+      rise ball, which is genuinely difficult to hit because a batter's
+      expectation of gravity is wrong.
+    shaped_by: [softball-underhand-pitching]
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Illegal pitches — crow hopping off the circle, leaping, an illegal arm
+      motion — are the sport's characteristic call and among the most disputed,
+      because the legal delivery is defined by body positions moving at speed.
+
+      Also: leaving a base before the pitch is released, which softball forbids
+      and baseball does not, and interference and obstruction as in baseball.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More runs after seven innings, or after the tie-breaker resolves it. A
+      run-ahead rule ends games that are far out of reach, which no other sport
+      on this site applies as routinely.

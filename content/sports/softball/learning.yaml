@@ -1,0 +1,85 @@
+sport: softball
+standing: editorial
+summary: >
+  Easier to begin than baseball and, at the top, harder in one specific
+  respect: nobody can hit an elite rise ball on instinct, because it does
+  something a thrown ball is not supposed to do.
+
+entry:
+  verdict: low
+  claim: A bat, a ball, a glove and a field. Everything is closer and slower than baseball.
+  why: >
+    Softball was invented to be a more accessible version of baseball and it
+    still is. The ball is larger and easier to see and catch, the distances are
+    shorter, the underhand pitch is easier to make contact with at beginner
+    level, and seven innings is a shorter commitment.
+
+    It is standard in school and recreational sport across North America,
+    Australasia and Japan, and slowpitch — a recreational variant with a high
+    arcing delivery — lowers the barrier further to almost nothing.
+
+    The barrier that remains is the same as baseball's: nine a side, a field
+    and a glove.
+  evidence:
+    - { label: Players needed, value: "18", basis: observation }
+    - { label: Kit to start, value: A bat, ball and glove, basis: observation }
+    - { label: Ball, value: Larger than a baseball, basis: observation, note: Easier to see, catch and hit. }
+    - { label: Innings, value: "7", basis: observation }
+    - { label: Time to a real game, value: One session, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: A rise ball from forty-three feet, and a pitcher who can throw every game of a tournament.
+  why: >
+    Elite fastpitch is a pitcher's sport to a degree baseball is not. The
+    underhand motion is far less damaging to the arm, so a top pitcher can
+    throw complete games on consecutive days and a single athlete can carry a
+    national team through an entire tournament. Nothing in baseball works that
+    way.
+
+    Hitting is correspondingly harder. At forty-three feet, the reaction time
+    against an elite pitch is comparable to a ninety-five mile an hour baseball
+    — and the ball can rise, which an overhand pitch cannot make it do. A
+    batter's built-in expectation about gravity is wrong.
+
+    The ceiling is also institutional. Softball was voted off the Olympic
+    programme after 2008 for reasons that were substantially baseball's, absent
+    from 2012 to 2020, absent again in 2024, and returns in 2028. An athlete's
+    Olympic pathway has existed for two of the last five Games.
+  evidence:
+    - label: Pitching distance
+      value: 43 ft, underhand
+      basis: rule
+      rule: softball-underhand-pitching
+      note: Reaction time comparable to elite baseball, against a ball that rises.
+    - label: Removed from the programme
+      value: After 2008
+      basis: rule
+      rule: softball-2008-olympic-removal
+      note: Voted out alongside baseball, for reasons that were largely baseball's.
+    - label: Bat performance limits
+      value: Since 2018
+      basis: rule
+      rule: softball-2018-fastpitch-standards
+      note: Because the pitcher stands too close to react to a composite-bat line drive.
+    - { label: Typical peak age, value: 22–29, basis: judgement }
+
+gap: >
+  Softball is low to very high and it sits directly beside baseball, which is
+  the point of having both.
+
+  Baseball's gap is between ordinary fielding skills and one extraordinary
+  physical act. Softball's is the same shape with the act relocated: the
+  distance is shorter, the delivery is underhand, and the reaction time is
+  comparable — so a sport designed to be more accessible arrives at a
+  comparably hard central confrontation by a different route.
+
+  The institutional half is unique to it. Softball is the only sport on this
+  site to have been removed from the Olympic programme substantially for
+  another sport's shortcomings, and its federation merged with that sport's in
+  2013 partly in response. Its athletes' pathway now depends on a joint listing
+  with a game they do not play.
+
+shaped_by:
+  - softball-underhand-pitching
+  - softball-2008-olympic-removal

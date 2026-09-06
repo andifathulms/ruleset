@@ -1,0 +1,29 @@
+sport: softball
+as_of: 2026-09
+source: wbsc-softball-rules
+standing: primary-named
+summary: >
+  One Olympic event, and it shares a programme listing with baseball — the only
+  case on this site of two distinct sports counted as one entry. Softball has
+  been on the programme for 1996 to 2008, 2020, and 2028.
+disciplines:
+  - id: fastpitch
+    label: Fastpitch
+    blurb: The competitive form. Underhand pitching from a flat circle.
+    events:
+      - { id: women, label: "Women's tournament", olympic: true }
+  - id: shared-listing
+    label: The listing it shares
+    counts: false
+    blurb: >
+      Baseball and softball appear on the Olympic programme together, as one
+      sport, having merged their federations in 2013 after both were removed
+      after 2008.
+    events:
+      - { id: baseball, label: "Baseball, men's tournament", note: A separate sport, on the same listing. }
+  - id: other
+    label: Governed by the federation, not on the programme
+    counts: false
+    events:
+      - { id: slowpitch, label: Slowpitch, note: "A high arcing delivery; the recreational form, and far more widely played than fastpitch." }
+      - { id: mens-fastpitch, label: "Men's fastpitch", note: Contested at world championships, never at the Games. }

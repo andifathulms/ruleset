@@ -1,0 +1,39 @@
+id: softball-statistics
+label: Offensive statistics
+unit: runs per game
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  Softball's statistics are not comparable with baseball's and were never meant
+  to be, which this site notes only because the Olympic programme treats the two
+  sports as one entry.
+
+  A softball game is seven innings, not nine. The pitch is underhand from a
+  flat circle at a shorter distance. The ball is larger, the bases are closer,
+  and the field is smaller. Every rate statistic in the sport describes a
+  different game.
+
+  Internally there is a break too. The international tie-breaker, from 1987,
+  starts each extra half-inning with a runner on second, which raises scoring
+  in exactly the innings where games are decided. Bat performance standards
+  were tightened in 2018 after composite bats had raised batted-ball speeds.
+
+  The figures are not entered because they have not been taken from a cited
+  source. What can be said without them is the thing worth recording: baseball
+  adopted softball's tie-breaker in 2020, thirty-three years late, and severed
+  its own extra-innings statistics doing so.
+segments: []
+breaks:
+  - at: 1887
+    caused_by: softball-underhand-pitching
+    kind: scoped
+    note: >
+      Underhand pitching from a flat circle at a shorter distance. Softball's
+      numbers describe a different sport from baseball's, and always have.
+  - at: 1987
+    caused_by: softball-international-tiebreaker
+    kind: scoped
+    note: >
+      A runner on second to start each extra half-inning. Baseball copied it in
+      2020.
+source: wbsc-softball-rules
