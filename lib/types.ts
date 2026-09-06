@@ -410,7 +410,15 @@ export interface Program {
   organiser: string
   blurb: string
   source: string
+  standing?: SourceStanding
   last_reviewed: string
+  /**
+   * Set where the roster was entered from general reference rather than read
+   * off the organiser's own listing. Rendered where the reader cannot miss it.
+   * Rule 6 in a second form: a programme must not borrow the authority of the
+   * one next to it in a switcher.
+   */
+  caveat?: string
   /**
    * The editions whose rosters have actually been checked. Without this a
    * blank cell is ambiguous: it means "absent" in an edition somebody entered

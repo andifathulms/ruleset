@@ -431,6 +431,26 @@
     Sevens is governed by the fifteen-a-side Laws with a published set of
     variations, not by a separate book.
 
+- id: oca-asian-games
+  standing: primary-named
+  title: Asian Games sport programme listings
+  publisher: Olympic Council of Asia
+  kind: programme listing
+  url: https://ocasia.org/
+  note: >
+    Named, not opened. The 2022 Hangzhou roster here was entered from general
+    reference and has not been read line by line off the OCA's own listing.
+
+- id: iwga-world-games
+  standing: primary-named
+  title: The World Games sport programme
+  publisher: International World Games Association
+  kind: programme listing
+  url: https://www.theworldgames.org/
+  note: >
+    Named, not opened. The 2025 Chengdu roster here was entered from general
+    reference and has not been read line by line off the IWGA's own listing.
+
 - id: ifaf-flag-rules
   standing: primary-named
   title: IFAF Flag Football Competition Rules

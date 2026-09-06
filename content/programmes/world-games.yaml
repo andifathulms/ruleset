@@ -1,0 +1,186 @@
+# One of several programmes under content/programmes. Skeleton layer (PRD §2):
+# status per edition, structured data rather than research. Rule 6 — the
+# skeleton layer never borrows the deep layer's authority, and a programme
+# does not borrow the authority of the one beside it in the switcher.
+#
+# `entered` names the editions whose rosters have actually been checked. Only
+# 2025 is entered here. The earlier columns are not a record of absence.
+
+id: world-games
+label: The World Games
+short: World Games
+organiser: International World Games Association
+blurb: >
+  The multi-sport games for sports that are not on the Olympic programme, held
+  the year after each Summer Games since 1981. It is the closest thing that
+  exists to a register of what the Olympic movement left out, and several
+  sports have used it as a waiting room — squash was here for decades before
+  being selected for 2028.
+source: iwga-world-games
+standing: primary-named
+caveat: >
+  The 2025 roster was entered from general reference and has not been read off
+  the IWGA's own listing. Treat it as indicative of the programme's shape, not
+  as a checked record of which sports were contested.
+last_reviewed: 2026-09
+
+entered: [2025]
+
+editions:
+  - { year: 1981, city: Santa Clara }
+  - { year: 1985, city: London, note: London, Ontario. }
+  - { year: 1989, city: Karlsruhe }
+  - { year: 1993, city: The Hague }
+  - { year: 1997, city: Lahti }
+  - { year: 2001, city: Akita }
+  - { year: 2005, city: Duisburg }
+  - { year: 2009, city: Kaohsiung }
+  - { year: 2013, city: Cali }
+  - { year: 2017, city: "Wroc\u0142aw" }
+  - { year: 2022, city: Birmingham, note: Postponed a year, as the Tokyo Games had been. }
+  - { year: 2025, city: Chengdu }
+  - { year: 2029, city: Karlsruhe, status: planned }
+
+sports:
+  - id: air-sports
+    label: Air sports
+    coverage: skeleton
+    held: [2025]
+  - id: archery
+    label: Archery
+    coverage: deep
+    held: [2025]
+    note: >-
+      Compound and field, the two disciplines World Archery runs that the Games do not.
+  - id: billiards
+    label: Billiards sports
+    coverage: skeleton
+    held: [2025]
+  - id: boules
+    label: Boules sports
+    coverage: skeleton
+    held: [2025]
+  - id: bowling
+    label: Bowling
+    coverage: skeleton
+    held: [2025]
+  - id: canoeing
+    label: Canoeing
+    coverage: deep
+    held: [2025]
+    note: >-
+      Marathon and polo, neither of which is on the Olympic programme.
+  - id: cheerleading
+    label: Cheerleading
+    coverage: skeleton
+    held: [2025]
+  - id: dancesport
+    label: DanceSport
+    coverage: skeleton
+    held: [2025]
+  - id: duathlon
+    label: Duathlon
+    coverage: skeleton
+    held: [2025]
+  - id: finswimming
+    label: Finswimming
+    coverage: skeleton
+    held: [2025]
+  - id: fistball
+    label: Fistball
+    coverage: skeleton
+    held: [2025]
+  - id: floorball
+    label: Floorball
+    coverage: skeleton
+    held: [2025]
+  - id: flying-disc
+    label: Flying disc
+    coverage: skeleton
+    held: [2025]
+  - id: gymnastics
+    label: Gymnastics
+    coverage: deep
+    held: [2025]
+    note: >-
+      Acrobatic, aerobic and parkour — the disciplines the Games leaves out.
+  - id: ju-jitsu
+    label: Ju-jitsu
+    coverage: skeleton
+    held: [2025]
+  - id: karate
+    label: Karate
+    coverage: deep
+    held: [2025]
+    note: >-
+      Contested at one Olympic Games and dropped; a fixture here.
+  - id: kickboxing
+    label: Kickboxing
+    coverage: skeleton
+    held: [2025]
+  - id: korfball
+    label: Korfball
+    coverage: skeleton
+    held: [2025]
+    note: >-
+      Mixed-sex by rule, which almost no other team sport is.
+  - id: lacrosse
+    label: Lacrosse
+    coverage: deep
+    held: [2025]
+    note: >-
+      On both programmes: sixes here, and returning to the Games in 2028.
+  - id: lifesaving
+    label: Lifesaving
+    coverage: skeleton
+    held: [2025]
+  - id: muaythai
+    label: Muaythai
+    coverage: skeleton
+    held: [2025]
+  - id: orienteering
+    label: Orienteering
+    coverage: skeleton
+    held: [2025]
+  - id: powerlifting
+    label: Powerlifting
+    coverage: skeleton
+    held: [2025]
+    note: >-
+      A different sport from Olympic weightlifting, and often mistaken for it.
+  - id: racquetball
+    label: Racquetball
+    coverage: skeleton
+    held: [2025]
+  - id: roller-sports
+    label: Roller sports
+    coverage: skeleton
+    held: [2025]
+  - id: squash
+    label: Squash
+    coverage: deep
+    held: [2025]
+    note: >-
+      Here for decades while being rejected by the Games; on the 2028 programme at last.
+  - id: sumo
+    label: Sumo
+    coverage: skeleton
+    held: [2025]
+  - id: tug-of-war
+    label: Tug of war
+    coverage: skeleton
+    held: [2025]
+    note: >-
+      On the Olympic programme 1900 to 1920, and on this one ever since it began.
+  - id: underwater-sports
+    label: Underwater sports
+    coverage: skeleton
+    held: [2025]
+  - id: waterski-wakeboard
+    label: Water ski and wakeboard
+    coverage: skeleton
+    held: [2025]
+  - id: wushu
+    label: Wushu
+    coverage: skeleton
+    held: [2025]

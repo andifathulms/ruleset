@@ -1,0 +1,245 @@
+# One of several programmes under content/programmes. Skeleton layer (PRD §2):
+# status per edition, structured data rather than research. Rule 6 — the
+# skeleton layer never borrows the deep layer's authority, and a programme
+# does not borrow the authority of the one beside it in the switcher.
+#
+# `entered` names the editions whose rosters have actually been checked. Only
+# 2022 is entered here. The earlier columns are not a record of absence.
+
+id: asian-games
+label: Asian Games
+short: Asian Games
+organiser: Olympic Council of Asia
+blurb: >
+  The largest multi-sport games after the Olympics, and the one that carries
+  the most sports the Olympic programme has never held. Kabaddi, sepak takraw,
+  wushu, dragon boat, kurash and esports are contested here for medals, by
+  populations for which this is the pinnacle event and the Games is not.
+source: oca-asian-games
+standing: primary-named
+caveat: >
+  The 2022 Hangzhou roster was entered from general reference and has not been
+  read off the OCA's own listing. Treat it as indicative of the programme's
+  shape, not as a checked record of which sports were contested.
+last_reviewed: 2026-09
+
+entered: [2022]
+
+editions:
+  - { year: 1951, city: New Delhi }
+  - { year: 1954, city: Manila }
+  - { year: 1958, city: Tokyo }
+  - { year: 1962, city: Jakarta }
+  - { year: 1966, city: Bangkok }
+  - { year: 1970, city: Bangkok }
+  - { year: 1974, city: Tehran }
+  - { year: 1978, city: Bangkok }
+  - { year: 1982, city: New Delhi }
+  - { year: 1986, city: Seoul }
+  - { year: 1990, city: Beijing }
+  - { year: 1994, city: Hiroshima }
+  - { year: 1998, city: Bangkok }
+  - { year: 2002, city: Busan }
+  - { year: 2006, city: Doha }
+  - { year: 2010, city: Guangzhou }
+  - { year: 2014, city: Incheon }
+  - { year: 2018, city: Jakarta, note: "Jakarta and Palembang." }
+  - { year: 2022, city: Hangzhou, note: Postponed to 2023, and still titled 2022. }
+  - { year: 2026, city: Aichi, note: "Aichi and Nagoya." }
+  - { year: 2030, city: Doha, status: planned }
+
+sports:
+  - id: swimming
+    label: Aquatics
+    coverage: deep
+    held: [2022]
+  - id: archery
+    label: Archery
+    coverage: deep
+    held: [2022]
+  - id: athletics
+    label: Athletics
+    coverage: deep
+    held: [2022]
+  - id: badminton
+    label: Badminton
+    coverage: deep
+    held: [2022]
+  - id: baseball
+    label: Baseball and softball
+    coverage: deep
+    held: [2022]
+  - id: basketball
+    label: Basketball
+    coverage: deep
+    held: [2022]
+  - id: board-games
+    label: Board games
+    coverage: skeleton
+    held: [2022]
+    note: >-
+      Chess, xiangqi and go, contested for medals.
+  - id: boxing
+    label: Boxing
+    coverage: deep
+    held: [2022]
+  - id: breaking
+    label: Breaking
+    coverage: deep
+    held: [2022]
+    note: >-
+      Contested here in 2022 and at one Olympic Games.
+  - id: bridge
+    label: Contract bridge
+    coverage: skeleton
+    held: [2022]
+  - id: canoeing
+    label: Canoeing
+    coverage: deep
+    held: [2022]
+  - id: cricket
+    label: Cricket
+    coverage: deep
+    held: [2022]
+    note: >-
+      T20, and a far larger event here than the Games has ever staged.
+  - id: cycling
+    label: Cycling
+    coverage: deep
+    held: [2022]
+  - id: dragon-boat
+    label: Dragon boat
+    coverage: skeleton
+    held: [2022]
+  - id: equestrian
+    label: Equestrian
+    coverage: deep
+    held: [2022]
+  - id: esports
+    label: Esports
+    coverage: skeleton
+    held: [2022]
+    note: >-
+      Medal events from 2022, which no other programme here awards.
+  - id: fencing
+    label: Fencing
+    coverage: deep
+    held: [2022]
+  - id: football
+    label: Football
+    coverage: deep
+    held: [2022]
+  - id: golf
+    label: Golf
+    coverage: deep
+    held: [2022]
+  - id: gymnastics
+    label: Gymnastics
+    coverage: deep
+    held: [2022]
+  - id: handball
+    label: Handball
+    coverage: deep
+    held: [2022]
+  - id: hockey
+    label: Hockey
+    coverage: deep
+    held: [2022]
+  - id: ju-jitsu
+    label: Ju-jitsu
+    coverage: skeleton
+    held: [2022]
+  - id: judo
+    label: Judo
+    coverage: deep
+    held: [2022]
+  - id: kabaddi
+    label: Kabaddi
+    coverage: skeleton
+    held: [2022]
+    note: >-
+      Played across South Asia at a scale no Olympic sport matches there, and on no other programme.
+  - id: karate
+    label: Karate
+    coverage: deep
+    held: [2022]
+  - id: kurash
+    label: Kurash
+    coverage: skeleton
+    held: [2022]
+  - id: modern-pentathlon
+    label: Modern pentathlon
+    coverage: deep
+    held: [2022]
+  - id: roller-sports
+    label: Roller sports
+    coverage: skeleton
+    held: [2022]
+  - id: rowing
+    label: Rowing
+    coverage: deep
+    held: [2022]
+  - id: rugby
+    label: Rugby sevens
+    coverage: deep
+    held: [2022]
+  - id: sailing
+    label: Sailing
+    coverage: deep
+    held: [2022]
+  - id: sepak-takraw
+    label: Sepak takraw
+    coverage: skeleton
+    held: [2022]
+    note: >-
+      Volleyball played with the feet, and a Southeast Asian sport on no global programme.
+  - id: shooting
+    label: Shooting
+    coverage: deep
+    held: [2022]
+  - id: soft-tennis
+    label: Soft tennis
+    coverage: skeleton
+    held: [2022]
+  - id: sport-climbing
+    label: Sport climbing
+    coverage: deep
+    held: [2022]
+  - id: squash
+    label: Squash
+    coverage: deep
+    held: [2022]
+  - id: table-tennis
+    label: Table tennis
+    coverage: deep
+    held: [2022]
+  - id: taekwondo
+    label: Taekwondo
+    coverage: deep
+    held: [2022]
+  - id: tennis
+    label: Tennis
+    coverage: deep
+    held: [2022]
+  - id: triathlon
+    label: Triathlon
+    coverage: deep
+    held: [2022]
+  - id: volleyball
+    label: Volleyball
+    coverage: deep
+    held: [2022]
+  - id: weightlifting
+    label: Weightlifting
+    coverage: deep
+    held: [2022]
+  - id: wrestling
+    label: Wrestling
+    coverage: deep
+    held: [2022]
+  - id: wushu
+    label: Wushu
+    coverage: skeleton
+    held: [2022]
+    note: >-
+      A Chinese martial art with both a judged form and a fighting form.

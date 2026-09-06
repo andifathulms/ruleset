@@ -98,6 +98,13 @@ export default function ProgrammeBoard({
         , last reviewed {programme.last_reviewed}.
       </p>
 
+      {programme.caveat && (
+        <p className="mt-5 border border-dashed border-unmarked/60 bg-unmarked/[0.06] p-4 text-[15px] leading-snug text-unmarked">
+          <strong className="font-normal text-chalk/85">Entered from general reference.</strong>{' '}
+          {clean(programme.caveat)}
+        </p>
+      )}
+
       <dl className="mt-8 grid gap-px border chalk-rule bg-chalk/[0.08] sm:grid-cols-3">
         <Stat
           n={programme.editions.length}
