@@ -1,0 +1,44 @@
+sport: cycling
+as_of: 2026-09
+source: uci-regulations
+standing: primary-named
+summary: >
+  Five Olympic disciplines under one federation, which is unusual: road, track,
+  mountain bike, BMX racing and BMX freestyle share a governing body and almost
+  nothing else. The IOC counts them as one sport, and this is the clearest case
+  on the site of the official taxonomy grouping things that have very little in
+  common.
+disciplines:
+  - id: road
+    label: Road
+    events:
+      - { id: rr, label: Road race, olympic: true, count: 2 }
+      - { id: itt, label: Individual time trial, olympic: true, count: 2 }
+  - id: track
+    label: Track
+    blurb: >
+      The discipline the hour record belongs to, though the record itself is
+      not an Olympic event.
+    events:
+      - { id: sprint, label: Sprint, olympic: true, count: 2 }
+      - { id: team-sprint, label: Team sprint, olympic: true, count: 2 }
+      - { id: keirin, label: Keirin, olympic: true, count: 2 }
+      - { id: team-pursuit, label: Team pursuit, olympic: true, count: 2 }
+      - { id: omnium, label: Omnium, olympic: true, count: 2 }
+      - { id: madison, label: Madison, olympic: true, count: 2 }
+  - id: mtb
+    label: Mountain bike
+    events:
+      - { id: xco, label: Cross-country, olympic: true, count: 2 }
+  - id: bmx
+    label: BMX
+    events:
+      - { id: bmx-race, label: BMX racing, olympic: true, count: 2 }
+      - { id: bmx-free, label: BMX freestyle park, olympic: true, count: 2, note: "Judged, not measured — a judged event inside a measured sport." }
+  - id: non-olympic
+    label: Governed by the federation, not on the programme
+    counts: false
+    events:
+      - { id: hour, label: The hour record, note: "A ratified world record, contested whenever a rider chooses. Not an event at any championship." }
+      - { id: cx, label: Cyclo-cross }
+      - { id: track-endurance, label: Individual pursuit, note: "Dropped from the Olympic programme after 2008; still a world championship event." }

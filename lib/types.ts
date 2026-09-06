@@ -91,7 +91,13 @@ export interface RuleChange {
   comparability_break?: string
 }
 
-export type BreakKind = 'reset' | 'retained' | 'scale-change' | 'scoped' | 'none'
+export type BreakKind =
+  | 'reset'
+  | 'retained'
+  | 'scale-change'
+  | 'scoped'
+  | 'unified'
+  | 'none'
 
 export interface SeriesPoint {
   year: number
@@ -133,7 +139,13 @@ export interface Series {
   absence_kind?: 'impossible' | 'unpublished'
   higher_is_better?: boolean
   segments: SeriesSegment[]
-  break?: SeriesBreak
+  /**
+   * A series can be severed more than once, and pretending otherwise was a
+   * modelling error. The javelin was reset in 1986 and had marks annulled again
+   * in 1992; the hour record was split in 1997 and reunified in 2014. Normalised
+   * by the loader, which still accepts a single `break:` in YAML.
+   */
+  breaks: SeriesBreak[]
   source?: string
 }
 

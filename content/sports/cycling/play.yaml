@@ -1,0 +1,129 @@
+sport: cycling
+as_of: 2026-09
+edition: UCI Cycling Regulations
+source: uci-regulations
+standing: primary-named
+summary: >
+  Cover the distance faster than everyone else, on a machine the federation
+  will recognise as a bicycle. That second clause is the whole of cycling's
+  rulebook. More than any other sport here, its regulations describe an object
+  rather than a contest, because the object is where the advantage lives.
+
+sections:
+  - id: object
+    label: The object of the events
+    body: >
+      Finish first, or cover the greatest distance in a set time, or the set
+      distance in the least time. Road racing adds something no other sport on
+      this site has: because drafting saves so much energy, the fastest way to
+      ride is behind someone else, so a road race is a cooperative problem
+      pretending to be a competitive one until the final kilometres.
+
+  - id: field
+    label: Where it is raced
+    body: >
+      Track racing happens on a banked oval, usually 250 m for international
+      competition. Road racing happens on public roads, which means the course
+      is different every time and no road performance is comparable with
+      another. BMX and mountain biking use purpose-built and natural terrain
+      respectively.
+    facts:
+      - { label: Olympic track length, value: 250 m }
+      - { label: Track surface, value: Timber, indoors }
+      - { label: Hour record venue, value: Any UCI-approved track }
+    citation:
+      source: uci-regulations
+      article: "Part 3, track"
+      missing: true
+
+  - id: equipment
+    label: The bicycle
+    body: >
+      The Lugano Charter, in force from 2000, decided that a bicycle is a shape
+      rather than a function: a double-triangle frame of tubes within stated
+      dimensions, a minimum weight, limits on wheel construction and on where
+      the rider may sit relative to the bottom bracket.
+
+      The rules that produced it were written against individuals. Graeme
+      Obree's tucked position was banned in 1994 and his second invention, the
+      Superman, in 1996. Both had been legal, both were faster, and both were
+      arrived at by a rider building his own machine rather than by a
+      manufacturer.
+    facts:
+      - { label: Minimum weight, value: 6.8 kg }
+      - { label: Frame, value: Double triangle, tubed }
+      - { label: Handlebar extension, value: Limited ahead of the bottom bracket }
+      - { label: Concealed motors, value: Prohibited since 2016 }
+    shaped_by:
+      - uci-2000-lugano-charter
+      - uci-1994-praying-mantis-ban
+      - uci-1996-superman-ban
+      - uci-2016-technological-fraud
+    citation:
+      source: uci-regulations
+      article: "1.3.020"
+
+  - id: players
+    label: Riders and officials
+    body: >
+      Road races are contested by teams whose members are not trying to win
+      individually — most of a team's riders exist to shelter one of them from
+      the wind. Track events are individual or small-team. Commissaires
+      officiate, and their modern remit includes equipment inspection and, since
+      2016, scanning frames for concealed motors.
+    shaped_by: [uci-2016-technological-fraud]
+
+  - id: duration
+    label: Format
+    body: >
+      The hour record is exactly one hour and is the purest format in the sport.
+      Track events run from a 200 m flying start to a 50 km points race. Road
+      races run from a one-day classic to a three-week stage race scored on
+      cumulative time.
+
+      There is no clock management and no stoppage. Cycling is the only sport
+      on this site whose events can last three weeks and whose margin of
+      victory can be a few seconds.
+
+  - id: scoring
+    label: Measurement
+    body: >
+      Time, distance, or position. What makes cycling different from athletics
+      as a measured sport is that its most famous number depends on a machine
+      the federation defines, so the sport has had to decide repeatedly what
+      counts as the same performance done twice.
+
+      It answered that question three different ways in forty years: leave the
+      record alone as equipment improved, split it in two in 1997, and merge it
+      back in 2014.
+    facts:
+      - { label: Hour record, value: One hour, greatest distance }
+      - { label: Timing, value: To one thousandth on the track }
+    shaped_by: [uci-1997-hour-record-split, uci-2014-hour-record-unified]
+
+  - id: restarts
+    label: Starts
+    body: >
+      Track pursuit and time trial events use a starting gate that holds the
+      bicycle upright. Mass-start races begin on the line with no gate. The
+      hour record begins from a standing start and the clock does not stop.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      On the track: leaving the sprinter's lane to obstruct, and irregular
+      riding in a sprint. On the road: drafting behind a vehicle, holding onto
+      one, and taking a supply outside the permitted zones. Across the sport:
+      equipment outside the specification, and technological fraud, which since
+      2016 is a named offence with its own sanctions and its own detection
+      programme.
+    shaped_by: [uci-2016-technological-fraud]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      First across the line, or the greatest distance, or the lowest cumulative
+      time. Records are ratified centrally, and the hour record's ratification
+      history is the reason this sport is on the site: the same federation has
+      ruled three different ways on what a record is for.
+    shaped_by: [uci-1997-hour-record-split, uci-2014-hour-record-unified]

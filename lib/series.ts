@@ -1,4 +1,4 @@
-import type { Series, SeriesPoint, SeriesSegment } from './types'
+import type { Series, SeriesBreak, SeriesPoint, SeriesSegment } from './types'
 
 /**
  * Segment handling. The hard rules live here rather than in the chart component,
@@ -67,7 +67,6 @@ function padded(values: number[]): [number, number] {
  * A silently misfiled point is exactly how a line ends up crossing a break.
  */
 export function assertSegmentsAreClean(series: Series, now = new Date().getFullYear()): void {
-  const at = series.break?.at
   for (const seg of series.segments) {
     const { from, to } = span(seg, now)
     for (const p of seg.points) {
@@ -76,16 +75,16 @@ export function assertSegmentsAreClean(series: Series, now = new Date().getFullY
           `series ${series.id}: point ${p.year} lies outside segment ${seg.id} (${from}–${to})`,
         )
       }
-      if (at !== undefined) {
+      for (const at of series.breaks.map((b) => b.at)) {
         const before = from < at
         if (before && p.year > at) {
           throw new Error(
-            `series ${series.id}: point ${p.year} in pre-break segment ${seg.id} crosses the ${at} break`,
+            `series ${series.id}: point ${p.year} in segment ${seg.id} crosses the ${at} break`,
           )
         }
         if (!before && p.year < at) {
           throw new Error(
-            `series ${series.id}: point ${p.year} in post-break segment ${seg.id} crosses the ${at} break`,
+            `series ${series.id}: point ${p.year} in segment ${seg.id} crosses the ${at} break`,
           )
         }
       }
@@ -156,5 +155,11 @@ export const BREAK_KIND_LABEL: Record<string, string> = {
   retained: 'Rule changed, marks retained',
   'scale-change': 'Measurement scale changed',
   scoped: 'Scoped to one competition',
+  unified: 'Two lists merged back into one',
   none: 'No break',
+}
+
+/** The break that opens a segment, if any — used to caption a gutter. */
+export function breakBefore(series: Series, segmentIndex: number): SeriesBreak | undefined {
+  return series.breaks[segmentIndex - 1]
 }

@@ -1,0 +1,76 @@
+id: hour-record
+label: Hour record, men
+unit: km
+higher_is_better: true
+source: uci-hour-record
+segments:
+  - id: absolute-to-1997
+    from: 1972
+    to: 1997
+    points:
+      - year: 1972
+        value: 49.431
+        holder: Eddy Merckx
+        detail: >
+          Mexico City, on a conventional bicycle. This is the mark the 1997
+          rules would later reinstate as the record to beat.
+        source: uci-hour-record
+      - { year: 1984, value: 51.151, holder: Francesco Moser, detail: The first with disc wheels., source: uci-hour-record }
+      - { year: 1993, value: 51.596, holder: Graeme Obree, source: uci-hour-record }
+      - { year: 1993, value: 52.270, holder: Chris Boardman, source: uci-hour-record }
+      - { year: 1994, value: 53.040, holder: Miguel Indurain, source: uci-hour-record }
+      - { year: 1994, value: 55.291, holder: Tony Rominger, source: uci-hour-record }
+      - year: 1996
+        value: 56.375
+        holder: Chris Boardman
+        detail: >
+          Ridden in the Superman position, banned the same year. It would take
+          26 years for anyone to go further under any rules.
+        source: uci-hour-record
+  - id: merckx-equipment
+    from: 1997
+    to: 2014
+    note: >
+      Seventeen years, two marks. Almost nobody attempted a record whose
+      equipment they neither trained nor raced on.
+    points:
+      - year: 2000
+        value: 49.441
+        holder: Chris Boardman
+        detail: Ten metres further than Merckx, on Merckx's equipment, 28 years later.
+        source: uci-hour-record
+      - { year: 2005, value: 49.700, holder: Ondřej Sosenka, source: uci-hour-record }
+  - id: unified
+    from: 2014
+    to: null
+    points:
+      - { year: 2014, value: 51.115, holder: Jens Voigt, detail: The first attempt under the reunified rules., source: uci-hour-record }
+      - { year: 2015, value: 52.491, holder: Rohan Dennis, source: uci-hour-record }
+      - { year: 2015, value: 54.526, holder: Bradley Wiggins, source: uci-hour-record }
+      - { year: 2019, value: 55.089, holder: Victor Campenaerts, source: uci-hour-record }
+      - year: 2022
+        value: 56.792
+        holder: Filippo Ganna
+        detail: >
+          The first distance beyond Boardman's 1996 ride, twenty-six years after
+          the rules that had made it unrepeatable.
+        source: uci-hour-record
+breaks:
+  - at: 1997
+    caused_by: uci-1997-hour-record-split
+    kind: reset
+    note: >
+      The record was not annulled and not left alone. It was split: everything
+      set on aerodynamic equipment was moved to a separate list, and the
+      headline record rolled back twenty-five years to Merckx. A rider in 1998
+      was chasing 49.431 km while the furthest anyone had ridden in an hour was
+      56.375 km, and both numbers were official.
+  - at: 2014
+    caused_by: uci-2014-hour-record-unified
+    kind: unified
+    note: >
+      The two lists were merged, and this is the only reunification anywhere in
+      this collection. The mark to beat was taken from the restricted list
+      rather than from Boardman's 1996 ride, so the sport resumed from 49.700 km
+      with modern equipment — which is why the third segment climbs so fast and
+      why it took until 2022 to pass a distance ridden in 1996.

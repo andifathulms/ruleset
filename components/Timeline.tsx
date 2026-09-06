@@ -151,7 +151,8 @@ export default function Timeline(props: TimelineProps) {
         cause={selectedRule ? causeMap[selectedRule.cause_primary] : undefined}
         breakInfo={
           selectedRule
-            ? series.find((s) => s.series.break?.caused_by === selectedRule.id)?.series
+            ? series.find((s) => s.series.breaks.some((b) => b.caused_by === selectedRule.id))
+                ?.series
             : undefined
         }
         sources={props.sources}
@@ -952,7 +953,9 @@ function Detail({
             <div>
               <dt className="text-unmarked">Comparability break</dt>
               <dd className="text-chalk/85">
-                {BREAK_KIND_LABEL[breakInfo.break?.kind ?? 'none']}
+                {BREAK_KIND_LABEL[
+                  breakInfo.breaks.find((b) => b.caused_by === rule.id)?.kind ?? 'none'
+                ]}
                 <br />
                 <Link
                   href={`/breaks/#${breakInfo.id}`}

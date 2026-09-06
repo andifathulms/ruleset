@@ -33,8 +33,8 @@ export default function Home() {
   const sources = getSources()
   const program = getProgram()
   const deep = sports.filter((s) => s.coverage === 'deep')
-  const broken = series.filter((s) => s.series.break)
-  const kinds = Array.from(new Set(broken.map((b) => b.series.break!.kind)))
+  const broken = series.flatMap(({ sport, series: x }) => x.breaks.map((brk) => ({ sport, series: x, brk })))
+  const kinds = Array.from(new Set(broken.map((b) => b.brk.kind)))
   const label = Object.fromEntries(sports.map((s) => [s.id, s.label]))
   const earliest = Math.min(...rules.map((r) => Number(r.date_effective.slice(0, 4))))
 
@@ -266,7 +266,7 @@ export default function Home() {
 
           <ol className="mt-10 grid gap-px border chalk-rule bg-chalk/[0.08] sm:grid-cols-2 lg:grid-cols-4">
             {['reset', 'retained', 'scale-change', 'scoped'].map((kind, i) => {
-              const hit = broken.find((b) => b.series.break!.kind === kind)
+              const hit = broken.find((b) => b.brk.kind === kind)
               return (
                 <Reveal as="li" key={kind} delay={i * 70} className="bg-ink">
                   <Link
@@ -274,7 +274,7 @@ export default function Home() {
                     className="group flex h-full flex-col p-6 transition-colors hover:bg-surface"
                   >
                     <span className="numeral text-[15px] text-unmarked">
-                      {hit ? hit.series.break!.at : '—'}
+                      {hit ? hit.brk.at : '—'}
                     </span>
                     <span className="mt-1 font-display text-2xl text-chalk">
                       {BREAK_KIND_LABEL[kind]}

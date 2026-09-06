@@ -56,7 +56,11 @@ export function buildMarks(
 ): TimelineMark[] {
   const brokenBy = new Map<string, { seriesId: string; kind: string; at: number }>()
   for (const { series: s } of series) {
-    if (s.break) brokenBy.set(s.break.caused_by, { seriesId: s.id, kind: s.break.kind, at: s.break.at })
+    // Each break names the rule that caused it, so a series broken twice
+    // attaches to two different marks on the lane.
+    for (const b of s.breaks) {
+      brokenBy.set(b.caused_by, { seriesId: s.id, kind: b.kind, at: b.at })
+    }
   }
 
   return rules.map((rule) => ({
@@ -87,7 +91,7 @@ export function buildLanes(
           year: m.breaksSeries!.at,
           ruleId: m.id,
           kind: m.breaksSeries!.kind,
-          note: s?.break?.note ?? '',
+          note: s?.breaks.find((b) => b.at === m.breaksSeries!.at)?.note ?? '',
         }
       })
       .sort((a, b) => a.year - b.year)

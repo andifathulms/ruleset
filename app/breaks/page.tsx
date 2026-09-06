@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     'Rule changes that severed a quantitative series, and what each governing body decided to do about it.',
 }
 
-const KIND_ORDER = ['reset', 'retained', 'scale-change', 'scoped', 'none']
+const KIND_ORDER = ['reset', 'retained', 'scale-change', 'scoped', 'unified', 'none']
 
 const COLOUR: Record<string, string> = {
   pool: '#57ACE8', pitch: '#5CC684', clay: '#EA7E4E', gold: '#F2C94F', unmarked: '#9FB2B0',
@@ -22,14 +22,20 @@ const COLOUR: Record<string, string> = {
 export default function BreaksPage() {
   // Baked at build time so the static HTML and the client agree.
   const now = new Date().getFullYear()
-  const all = getAllSeries().filter(({ series }) => series.break)
+  const all = getAllSeries().filter(({ series }) => series.breaks.length > 0)
   const rules = Object.fromEntries(getAllRuleChanges().map((r) => [r.id, r]))
   const sports = Object.fromEntries(getSports().map((s) => [s.id, s]))
 
+  // Counted per break, not per series: the hour record was severed twice and
+  // the two severances are different kinds of act.
+  const everyBreak = all.flatMap(({ sport, series }) =>
+    series.breaks.map((brk) => ({ sport, series, brk })),
+  )
+
   const ordered = [...all].sort(
     (a, b) =>
-      KIND_ORDER.indexOf(a.series.break!.kind) - KIND_ORDER.indexOf(b.series.break!.kind) ||
-      a.series.break!.at - b.series.break!.at,
+      KIND_ORDER.indexOf(a.series.breaks[0].kind) - KIND_ORDER.indexOf(b.series.breaks[0].kind) ||
+      a.series.breaks[0].at - b.series.breaks[0].at,
   )
 
   return (
@@ -72,9 +78,9 @@ export default function BreaksPage() {
 
       <div className="mx-auto max-w-[86rem] px-5 py-14 sm:py-16">
         <Reveal>
-          <ol className="grid gap-px border chalk-rule bg-chalk/[0.08] sm:grid-cols-2 lg:grid-cols-4">
-            {KIND_ORDER.slice(0, 4).map((kind) => {
-              const hits = ordered.filter((o) => o.series.break!.kind === kind)
+          <ol className="grid gap-px border chalk-rule bg-chalk/[0.08] sm:grid-cols-2 lg:grid-cols-5">
+            {KIND_ORDER.slice(0, 5).map((kind) => {
+              const hits = everyBreak.filter((o) => o.brk.kind === kind)
               return (
                 <li key={kind} className="bg-ink p-5">
                   <p className="numeral text-fluid-h2 leading-none text-chalk">{hits.length}</p>
@@ -114,7 +120,7 @@ export default function BreaksPage() {
         </Reveal>
 
         {ordered.map(({ sport, series }, i) => {
-          const rule = rules[series.break!.caused_by]
+          const rule = rules[series.breaks[0].caused_by]
           const s = sports[sport]
           const bright = COLOUR[s?.family_colour ?? 'unmarked'] ?? COLOUR.unmarked
           return (
@@ -130,10 +136,11 @@ export default function BreaksPage() {
                     className="numeral text-fluid-h3 leading-none"
                     style={{ color: bright }}
                   >
-                    {series.break!.at}
+                    {series.breaks.map((b) => b.at).join(' · ')}
                   </span>
                   <span className="eyebrow">
-                    {BREAK_KIND_LABEL[series.break!.kind]} · {s?.label ?? sport}
+                    {series.breaks.map((b) => BREAK_KIND_LABEL[b.kind]).join(' · ')} ·{' '}
+                    {s?.label ?? sport}
                   </span>
                   <span className="numeral ml-auto text-[13px] text-unmarked">
                     {String(i + 1).padStart(2, '0')} / {String(ordered.length).padStart(2, '0')}
@@ -210,4 +217,5 @@ const KIND_BLURB: Record<string, string> = {
   retained: 'The rule changed and the old marks were allowed to stand.',
   'scale-change': 'The measurement scale itself was replaced. No mapping exists.',
   scoped: 'No series exists for the sport; the series belongs to one competition.',
+  unified: 'Two separate lists were merged back into one.',
 }

@@ -1,0 +1,85 @@
+sport: cycling
+standing: editorial
+summary: >
+  Most people on earth can already do the thing. Cycling is the only sport here
+  whose basic skill is a form of transport, learned in childhood by people with
+  no interest in racing, which makes its entry barrier close to zero and its
+  competitive barrier almost entirely about equipment and physiology.
+
+entry:
+  verdict: very-low
+  claim: If you can ride a bike, you can enter a race this weekend.
+  why: >
+    There is no technique to acquire before competing. A club road race, a
+    time trial or a sportive will accept a rider who has never trained, and the
+    sport's entry-level events are genuinely continuous with commuting.
+
+    What stands between a beginner and the sport is money rather than skill. A
+    competitive road bicycle costs more than the equipment of every other sport
+    on this site combined, and the difference between a cheap bicycle and an
+    expensive one is measurable in a way that a cheap racket and an expensive
+    one mostly is not.
+  evidence:
+    - { label: Prerequisite skill, value: Riding a bicycle, basis: observation }
+    - { label: Facility needed, value: A road, basis: observation }
+    - { label: Minimum bicycle weight, value: 6.8 kg, basis: rule, rule: uci-2000-lugano-charter, note: "A floor, not a ceiling — the rule exists to stop the arms race going further, not to make bicycles cheap." }
+    - { label: Time to a first race, value: One weekend, basis: judgement }
+    - { label: Cost of a competitive machine, value: The highest here, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: A physiological outlier on equipment the rules have spent thirty years constraining.
+  why: >
+    Elite endurance cycling selects for a narrow range of measurable
+    physiology as hard as any sport in the world, and the numbers involved are
+    published and unambiguous. There is very little technique to hide behind.
+
+    The equipment half is what makes this sport's ceiling unusual. Because a
+    bicycle can be improved almost without limit, the governing body has spent
+    thirty years deciding how much of the improvement to allow — the position
+    bans in 1994 and 1996, the Lugano Charter in 2000, and the hour record
+    split in 1997. Each of those was a decision about how much of the
+    performance should belong to the rider.
+
+    The hour record is the clearest illustration anywhere on this site of a
+    ceiling that moved because a rule moved. Chris Boardman's 56.375 km stood
+    as the furthest distance for twenty-six years, not because nobody was
+    strong enough, but because the equipment that produced it was banned and
+    then the record it belonged to was abolished.
+  evidence:
+    - label: Superman position
+      value: Banned 1996
+      basis: rule
+      rule: uci-1996-superman-ban
+      note: Worth several km/h for no additional power.
+    - label: Hour record split
+      value: 1997
+      basis: rule
+      rule: uci-1997-hour-record-split
+      note: Rolled the target back 25 years, to a distance 7 km short of the best ever ridden.
+    - label: Hour record reunified
+      value: 2014
+      basis: rule
+      rule: uci-2014-hour-record-unified
+      note: Reopened the ceiling. It took eight more years to beat a 1996 ride.
+    - { label: Typical peak age, value: 26–31, basis: judgement, note: Later for grand tours, earlier for track sprint. }
+    - { label: Typical age of specialisation, value: 14–18, basis: judgement, note: Late by the standards of every other sport here. }
+
+gap: >
+  Cycling's gap is the least about skill of any sport on this site. Almost
+  nobody is prevented from starting, and almost nobody can approach the top,
+  and the thing in between is not a technique that can be learned.
+
+  What makes it worth recording here is the equipment half, which no other
+  sport shows as clearly. In athletics the shoe rules changed what a record
+  means; in swimming the suit rules did. In cycling the machine is so
+  determinative that the federation had to answer the question three separate
+  ways within twenty years — leave it, split it, merge it — and the ceiling
+  moved each time. A rider in 1999 and a rider in 2015 were chasing different
+  numbers for reasons that had nothing to do with either of them.
+
+shaped_by:
+  - uci-1996-superman-ban
+  - uci-1997-hour-record-split
+  - uci-2014-hour-record-unified
+  - uci-2000-lugano-charter

@@ -34,13 +34,13 @@ segments:
         holder: Jan Železný
         detail: Still the record, and still nearly six metres short of a throw made in 1984.
         source: wa-record-progressions
-break:
-  at: 1986
-  caused_by: iaaf-1986-javelin-redesign
-  kind: reset
-  note: >
-    The implement was redesigned to shift the centre of gravity forward and the
-    record book was restarted on 1 April 1986. Distances either side of this
-    line were produced by different objects and are not comparable. Note that
-    the post-1986 record has climbed back to within six metres of Uwe Hohn's
-    1984 throw without ever being the same measurement as it.
+breaks:
+  - at: 1986
+    caused_by: iaaf-1986-javelin-redesign
+    kind: reset
+    note: >
+      The implement was redesigned to shift the centre of gravity forward and
+      the record book was restarted on 1 April 1986. Distances either side of
+      this line were produced by different objects and are not comparable. Note
+      that the post-1986 record has climbed back to within six metres of Uwe
+      Hohn's 1984 throw without ever being the same measurement as it.

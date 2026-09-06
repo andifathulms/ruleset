@@ -28,7 +28,9 @@ export default function RuleList({
         const cause = causeMap[rule.cause_primary]
         const source = sources[rule.citation.source]
         const incomplete = Boolean(rule.citation.missing) || !rule.citation.article
-        const broke = series.find((s) => s.break?.caused_by === rule.id)
+        const broke = series
+          .flatMap((s) => s.breaks.map((b) => ({ series: s, brk: b })))
+          .find((x) => x.brk.caused_by === rule.id)
 
         return (
           <li
@@ -91,11 +93,11 @@ export default function RuleList({
             {broke && (
               <div className="prose-measure mt-5 border-l-2 border-chalk/50 bg-chalk/[0.03] py-4 pl-5">
                 <p className="eyebrow">
-                  Comparability break · {BREAK_KIND_LABEL[broke.break!.kind]}
+                  Comparability break · {BREAK_KIND_LABEL[broke.brk.kind]}
                 </p>
                 <p className="mt-1.5 text-[16px] text-chalk/85">
-                  {broke.break!.note.replace(/\s+/g, ' ')}{' '}
-                  <Link href={`#${broke.id}`} className="link-paint text-chalk">
+                  {broke.brk.note.replace(/\s+/g, ' ')}{' '}
+                  <Link href={`#${broke.series.id}`} className="link-paint text-chalk">
                     See the series
                   </Link>
                 </p>

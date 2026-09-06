@@ -107,15 +107,18 @@ export default function SeriesChart({
               <p key={i}>{p.replace(/\s+/g, ' ')}</p>
             ))}
           </div>
-          {series.break && (
-            <p className="mt-7 flex flex-wrap items-baseline gap-x-3 border-t border-unmarked/40 pt-5 text-[14px] text-unmarked">
-              <span className="numeral text-[22px] text-chalk">{series.break.at}</span>
+          {series.breaks.map((brk) => (
+            <p
+              key={brk.at}
+              className="mt-7 flex flex-wrap items-baseline gap-x-3 border-t border-unmarked/40 pt-5 text-[14px] text-unmarked"
+            >
+              <span className="numeral text-[22px] text-chalk">{brk.at}</span>
               <span className="font-display text-[17px] text-chalk">
-                {BREAK_KIND_LABEL[series.break.kind] ?? series.break.kind}
+                {BREAK_KIND_LABEL[brk.kind] ?? brk.kind}
               </span>
-              <span className="max-w-measure">{series.break.note.replace(/\s+/g, ' ')}</span>
+              <span className="max-w-measure">{brk.note.replace(/\s+/g, ' ')}</span>
             </p>
-          )}
+          ))}
         </div>
       </figure>
     )
@@ -132,8 +135,10 @@ export default function SeriesChart({
         <h3 className="font-display text-fluid-h3 text-chalk">{title}</h3>
         <p className="text-[14px] text-unmarked">
           {series.unit === 's' ? 'Seconds — lower is better.' : `Measured in ${series.unit}.`}
-          {series.break
-            ? ` Broken at ${series.break.at}: ${BREAK_KIND_LABEL[series.break.kind]}.`
+          {series.breaks.length
+            ? ` Broken at ${series.breaks
+                .map((b) => `${b.at} (${BREAK_KIND_LABEL[b.kind].toLowerCase()})`)
+                .join(' and ')}.`
             : ''}
         </p>
       </figcaption>
@@ -199,39 +204,49 @@ export default function SeriesChart({
             )
           })}
 
-          {/* The gutter. The eye must not be able to complete the line. */}
-          {series.break && layout.segments.length > 1 && !stacked && (
-            <BreakGutter
-              uid={uid}
-              x={pad.left + layout.segments[0].widthFraction * (w - pad.left - pad.right)}
-              width={BREAK_GUTTER * (w - pad.left - pad.right)}
-              top={pad.top}
-              bottom={h - pad.bottom}
-              year={series.break.at}
-            />
-          )}
-          {series.break && layout.segments.length > 1 && stacked && (
-            <g>
-              <rect
-                x={pad.left} y={24 + 190 - 40} width={w - pad.left - pad.right} height={16}
-                fill={`url(#hatch-${uid})`}
+          {/* One gutter per break, between the segments it separates. The eye
+              must not be able to complete the line across any of them. */}
+          {!stacked &&
+            layout.segments.slice(0, -1).map((seg, i) => (
+              <BreakGutter
+                key={seg.id}
+                uid={`${uid}-${i}`}
+                x={
+                  pad.left +
+                  (seg.offsetFraction + seg.widthFraction) * (w - pad.left - pad.right)
+                }
+                width={BREAK_GUTTER * (w - pad.left - pad.right)}
+                top={pad.top}
+                bottom={h - pad.bottom}
+                year={series.breaks[i]?.at ?? seg.to}
               />
-              <line
-                x1={pad.left} x2={w - pad.right} y1={24 + 190 - 40} y2={24 + 190 - 40}
-                stroke={CHALK} strokeOpacity={0.4} strokeDasharray="4 5"
-              />
-              <line
-                x1={pad.left} x2={w - pad.right} y1={24 + 190 - 24} y2={24 + 190 - 24}
-                stroke={CHALK} strokeOpacity={0.4} strokeDasharray="4 5"
-              />
-              <text
-                x={pad.left} y={24 + 190 - 6}
-                className="numeral" fontSize={12} fill={CHALK} fillOpacity={0.75}
-              >
-                break {series.break.at} — not comparable across this line
-              </text>
-            </g>
-          )}
+            ))}
+          {stacked &&
+            layout.segments.slice(0, -1).map((seg, i) => {
+              const y = 24 + 190 * (i + 1) - 40
+              return (
+                <g key={seg.id}>
+                  <rect
+                    x={pad.left} y={y} width={w - pad.left - pad.right} height={16}
+                    fill={`url(#hatch-${uid})`}
+                  />
+                  <line
+                    x1={pad.left} x2={w - pad.right} y1={y} y2={y}
+                    stroke={CHALK} strokeOpacity={0.4} strokeDasharray="4 5"
+                  />
+                  <line
+                    x1={pad.left} x2={w - pad.right} y1={y + 16} y2={y + 16}
+                    stroke={CHALK} strokeOpacity={0.4} strokeDasharray="4 5"
+                  />
+                  <text
+                    x={pad.left} y={y + 34}
+                    className="numeral" fontSize={12} fill={CHALK} fillOpacity={0.75}
+                  >
+                    break {series.breaks[i]?.at} — not comparable across this line
+                  </text>
+                </g>
+              )
+            })}
         </svg>
       </div>
 
@@ -252,11 +267,52 @@ export default function SeriesChart({
           </p>
         ))}
 
-      {series.break && (
-        <p className="mt-4 max-w-measure border-l-2 border-chalk/40 pl-4 text-[15px] text-chalk/80">
-          {series.break.note.replace(/\s+/g, ' ')}
-        </p>
+      {/*
+        Each panel carries its own y scale, because segments must not share a
+        baseline — that is what stops the eye completing the line. The cost is
+        that a small rise and a large one look alike: the hour record's middle
+        panel spans 0.26 km and its first spans 9 km, and both fill the height.
+        So the range each panel actually covers is stated in words underneath,
+        where it cannot be misread off the shape.
+      */}
+      {layout.segments.length > 1 && (
+        <dl className="mt-4 grid gap-px border chalk-rule bg-chalk/12 sm:grid-cols-3">
+          {layout.segments.map((seg) => {
+            const lo = Math.min(...seg.points.map((p) => p.value))
+            const hi = Math.max(...seg.points.map((p) => p.value))
+            return (
+              <div key={seg.id} className="bg-ink px-4 py-3">
+                <dt className="numeral text-[13px] text-unmarked">
+                  {seg.from}–{seg.to}
+                </dt>
+                <dd className="numeral mt-0.5 text-[17px] text-chalk">
+                  {seg.points.length === 0
+                    ? 'no marks'
+                    : seg.points.length === 1
+                      ? format(hi, layout.unit)
+                      : `${format(lo, layout.unit)} → ${format(hi, layout.unit)}`}
+                </dd>
+                <dd className="text-[12px] text-unmarked">
+                  {seg.points.length === 0
+                    ? 'the panel is empty on purpose'
+                    : `spans ${format(hi - lo, layout.unit)} ${layout.unit}`}
+                </dd>
+              </div>
+            )
+          })}
+        </dl>
       )}
+
+      {series.breaks.map((brk) => (
+        <p
+          key={brk.at}
+          className="mt-4 max-w-measure border-l-2 border-chalk/40 pl-4 text-[15px] text-chalk/80"
+        >
+          <span className="numeral text-chalk">{brk.at}</span>{' '}
+          <span className="text-chalk">{BREAK_KIND_LABEL[brk.kind]}.</span>{' '}
+          {brk.note.replace(/\s+/g, ' ')}
+        </p>
+      ))}
       {series.competition && (
         <p className="mt-3 text-[14px] text-unmarked">
           Scoped to {series.competition}. This is not a figure for the sport.

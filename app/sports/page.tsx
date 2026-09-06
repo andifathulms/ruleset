@@ -62,8 +62,7 @@ export default function SportsIndex() {
             const own = rules.filter((r) => r.scope.sport === s.id)
             const ownSeries = series.filter((x) => x.sport === s.id)
             const breakYears = ownSeries
-              .filter((x) => x.series.break)
-              .map((x) => x.series.break!.at)
+              .flatMap((x) => x.series.breaks.map((b) => b.at))
             return (
               <Reveal as="li" key={s.id} delay={i * 70}>
                 <Link

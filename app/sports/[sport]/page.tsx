@@ -112,7 +112,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
   const c = COLOUR[sport.family_colour] ?? COLOUR.unmarked
 
   const ruleYears = rules.map((r) => Number(r.date_effective.slice(0, 4)))
-  const breakYears = series.filter((s) => s.break).map((s) => s.break!.at)
+  const breakYears = series.flatMap((s) => s.breaks.map((b) => b.at))
   const span: [number, number] = [Math.min(...ruleYears) - 4, Math.max(...ruleYears) + 4]
 
   const photo = getImageForSport(params.sport)

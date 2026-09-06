@@ -3,7 +3,7 @@ import path from 'node:path'
 import yaml from 'js-yaml'
 import type {
   Cause, Events, Learning, Lens, Play, Program, RuleChange, Series, Source,
-  SourcedImage, Sport,
+  SeriesBreak, SourcedImage, Sport,
 } from './types'
 import { LAW_SECTIONS } from './types'
 
@@ -85,7 +85,22 @@ export function getSeriesForSport(id: string): Series[] {
   return fs.readdirSync(at)
     .filter((f) => f.endsWith('.yaml'))
     .sort()
-    .map((f) => parse<Series>(fs.readFileSync(path.join(at, f), 'utf8')))
+    .map((f) => normaliseSeries(parse<Series & { break?: SeriesBreak }>(
+      fs.readFileSync(path.join(at, f), 'utf8'),
+    )))
+}
+
+/**
+ * A series carries a list of breaks. YAML may still write a single `break:`,
+ * which is normalised here so content files never have to say `breaks: [ ... ]`
+ * for the common case of one.
+ */
+function normaliseSeries(raw: Series & { break?: SeriesBreak }): Series {
+  const { break: single, ...rest } = raw
+  const breaks = [...(raw.breaks ?? []), ...(single ? [single] : [])].sort(
+    (a, b) => a.at - b.at,
+  )
+  return { ...(rest as Series), breaks }
 }
 
 export function getAllSeries(): { sport: string; series: Series }[] {

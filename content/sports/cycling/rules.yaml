@@ -1,0 +1,165 @@
+- id: uci-1994-praying-mantis-ban
+  scope: { sport: cycling, discipline: track }
+  date_adopted: 1994
+  date_effective: 1994
+  status: adopted
+  governing_body: Union Cycliste Internationale
+  what_changed: >
+    The tucked riding position developed by Graeme Obree, arms folded beneath
+    the chest on a bicycle he had built himself, was prohibited by a rule
+    requiring a minimum separation between the saddle and the handlebars.
+  cause_primary: equipment and technology
+  cause_secondary: safety
+  trigger:
+    description: >
+      Obree set the hour record in 1993 on a machine assembled partly from
+      washing-machine bearings, in a position nobody had used before. The UCI
+      cited safety and the definition of a bicycle; Obree's response was to
+      invent a second position, which is what produced the 1996 rule.
+    also_said: >
+      It is widely read as a governing body legislating against an outsider who
+      had beaten the sport's institutions with a homemade machine. Both
+      readings are recorded.
+  citation:
+    source: uci-regulations
+    edition: UCI Regulations, 1994
+    missing: true
+  comparability_break: null
+
+- id: uci-1996-superman-ban
+  scope: { sport: cycling, discipline: track }
+  date_adopted: 1996
+  date_effective: 1996
+  status: adopted
+  governing_body: Union Cycliste Internationale
+  what_changed: >
+    The "Superman" position — arms extended straight forward on long
+    tri-bars — was banned by limiting how far the handlebar extensions may
+    reach ahead of the bottom bracket. Chris Boardman had used it to set an
+    hour record of 56.375 km, a distance that would stand as the furthest
+    ridden in an hour for a quarter of a century.
+  cause_primary: equipment and technology
+  trigger:
+    description: >
+      The position was worth several kilometres an hour and required no
+      additional power, so the record had become a test of aerodynamic
+      innovation rather than of riders. The federation's concern was that the
+      bicycle was ceasing to be recognisable as one.
+  citation:
+    source: uci-regulations
+    edition: UCI Regulations, 1996
+    missing: true
+  comparability_break: null
+
+- id: uci-1997-hour-record-split
+  scope: { sport: cycling, discipline: track }
+  date_adopted: 1997
+  date_effective: 1997
+  status: adopted
+  governing_body: Union Cycliste Internationale
+  what_changed: >
+    The hour record was divided in two. The "UCI Hour Record" was restricted to
+    equipment substantially equivalent to that available to Eddy Merckx in
+    1972 — a conventional round-tubed steel frame, spoked wheels, drop
+    handlebars, no aerodynamic extensions. Everything set on modern aerodynamic
+    machines was moved to a separate list called the Best Human Effort.
+
+    The effect was to roll the headline record back from Chris Boardman's
+    56.375 km to Merckx's 49.431 km, set twenty-five years earlier.
+  cause_primary: equipment and technology
+  cause_secondary: disputed
+  trigger:
+    description: >
+      Between 1984 and 1996 the record had advanced by more than seven
+      kilometres, almost entirely through position and equipment. The stated
+      aim was to restore the record as a measure of the rider.
+    also_said: >
+      Critics described it as the federation retrospectively annulling
+      performances that were legal when set, and specifically as a response to
+      Obree and Boardman having beaten the sport at its own game. Both readings
+      are recorded, and the 2014 reversal is evidence that the federation
+      itself did not regard the question as closed.
+  citation:
+    source: uci-regulations
+    edition: UCI Regulations, 1997
+    missing: true
+  comparability_break: hour-record
+
+- id: uci-2000-lugano-charter
+  scope: { sport: cycling, discipline: all }
+  date_adopted: 1996
+  date_effective: 2000
+  status: adopted
+  governing_body: Union Cycliste Internationale
+  what_changed: >
+    A general specification for the racing bicycle: a double-triangle frame of
+    tubes within stated dimensions, minimum weight, limits on wheel design and
+    on the rider's position relative to the bottom bracket. The Lugano Charter
+    is the document that decided a bicycle is a shape rather than a function.
+  cause_primary: equipment and technology
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      The federation's stated case was that unrestricted development would make
+      the sport a contest between manufacturers and price out riders and teams
+      without the same resources.
+  citation:
+    source: uci-regulations
+    edition: UCI Regulations, Part 1, Chapter III
+    article: "1.3.020"
+  comparability_break: null
+
+- id: uci-2014-hour-record-unified
+  scope: { sport: cycling, discipline: track }
+  date_adopted: 2014-05
+  date_effective: 2014-05
+  status: adopted
+  governing_body: Union Cycliste Internationale
+  what_changed: >
+    The two lists were merged. The hour record was reopened to any bicycle
+    legal for endurance track events under current rules — which means
+    aerodynamic frames, disc wheels and tri-bars — and the mark to beat was set
+    at the best distance ridden under the restricted rules, not at Chris
+    Boardman's 1996 figure. Seventeen years of the Merckx-equipment record were
+    folded into the modern list, and the Best Human Effort list was retired.
+  cause_primary: commercial
+  cause_secondary: equipment and technology
+  trigger:
+    description: >
+      The restricted record had produced almost no attempts in seventeen years.
+      The federation's stated aim was to make the record attractive to riders
+      and sponsors again by letting them use the equipment they already train
+      and race on.
+    also_said: >
+      It is also read as an admission that the 1997 split had failed on its own
+      terms: it was meant to restore a pure test of the rider and instead
+      produced a record nobody wanted to attempt.
+  citation:
+    source: uci-regulations
+    edition: UCI Regulations, Part 3, track records
+    missing: true
+  comparability_break: null
+
+- id: uci-2016-technological-fraud
+  scope: { sport: cycling, discipline: all }
+  date_adopted: 2015
+  date_effective: 2016-01
+  status: adopted
+  governing_body: Union Cycliste Internationale
+  what_changed: >
+    Concealed motors were explicitly prohibited under a new offence of
+    technological fraud, with magnetic-resonance scanning of frames introduced
+    at races and sanctions running to years of suspension and substantial
+    fines.
+  cause_primary: integrity
+  trigger:
+    description: >
+      A concealed motor was found in a bicycle at the 2016 cyclo-cross world
+      championships, the first confirmed case in competition after years of
+      rumour. The rule had to define an offence that had previously been
+      unthinkable enough not to need naming.
+  citation:
+    source: uci-regulations
+    edition: UCI Regulations, technological fraud provisions, 2016
+    missing: true
+  comparability_break: null
