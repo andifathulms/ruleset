@@ -1,0 +1,42 @@
+id: boxing-scoring
+label: Bout scores across the scoring systems
+unit: points
+absence_kind: impossible
+cannot_exist: >
+  Amateur boxing has changed what a score is twice, in opposite directions, and
+  neither change was a rescaling.
+
+  Until 1992 judges scored a bout on their overall assessment. From 1992 a
+  point existed only when at least three of five judges registered the same
+  blow within about a second — an arithmetic, deliberately built to remove
+  discretion after the 1988 judging scandal. From 2016 the sport reverted to
+  the professional ten-point must system, in which judges score each round on
+  their assessment of it.
+
+  A bout won 12–7 in 2004 and one won 29–28 in 2018 are not two values of one
+  quantity. The first counts registered blows; the second counts rounds
+  awarded on judgement. The sport went from opinion to arithmetic and back to
+  opinion inside twenty-four years.
+
+  What makes this the strangest entry in this collection is the direction of
+  travel. Every other sport here that automated a judgement kept it automated —
+  taekwondo, archery, tennis, swimming. Boxing automated, disliked what
+  automation did to the sport, and reversed. And then, three years later, an
+  independent investigation found that bouts under the restored human system
+  had been manipulated.
+segments: []
+breaks:
+  - at: 1992
+    caused_by: aiba-1992-computerised-scoring
+    kind: scale-change
+    note: >
+      A judged score became a count of blows registered by a majority of judges
+      within a fixed interval. Different quantity, same name.
+  - at: 2016
+    caused_by: aiba-2016-ten-point-must
+    kind: scale-change
+    note: >
+      Back to round-by-round judging on the professional system. The
+      arithmetic introduced to remove discretion was removed, and the
+      discretion returned.
+source: iba-aiba-rules

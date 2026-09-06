@@ -1,0 +1,88 @@
+sport: boxing
+standing: editorial
+summary: >
+  The lowest entry barrier of any combat sport here and one of the highest tops,
+  and unlike every other sport on this board its ceiling includes a
+  well-documented risk of permanent neurological harm. That has to be stated in
+  a section about how hard a sport is to master, because for this one it is
+  part of the answer.
+
+entry:
+  verdict: low
+  claim: A gym, wraps and a bag. You can train for months before anyone hits you.
+  why: >
+    Boxing is unusually easy to begin and unusually easy to begin safely,
+    because most of the training is not sparring. Bag work, pads, footwork and
+    conditioning are the bulk of it, they can be done alone or with a coach,
+    and a beginner can train for months without taking a punch.
+
+    Gyms are cheap, widely distributed and historically concentrated in exactly
+    the places other sports are not. Boxing has the lowest correlation with
+    wealth of any sport on this site.
+
+    Amateur competition has weight categories, headguards for women and
+    juniors, short rounds and a referee empowered to stop a bout early, which
+    makes entering a controlled step rather than a leap.
+  evidence:
+    - { label: Kit to start, value: Wraps and gloves, basis: observation }
+    - { label: Facility, value: A gym, basis: observation }
+    - { label: Partner required, value: Not initially, basis: observation, note: Most training is solo or on pads. }
+    - { label: "Headguards, women and juniors", value: Retained, basis: rule, rule: aiba-2013-headguards-removed }
+    - { label: Time to a first bout, value: Months, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: A sport whose scoring, protective equipment and governing body have all been replaced mid-career.
+  why: >
+    The athletic demand is severe and conventional. What is not conventional is
+    the instability around it. A boxer who came through the amateur system in
+    the 2010s trained under computerised scoring, competed under the ten-point
+    must system, started with a headguard and finished without one, and did all
+    of it under a federation that was subsequently expelled from the Olympic
+    movement for manipulating results.
+
+    An independent investigation found that bouts at the 2016 Games had been
+    fixed. That is not a rule change, and it belongs in an assessment of what
+    mastery meant in this sport in that period, because for some competitors it
+    did not determine the outcome.
+
+    And the ceiling carries a cost no other sport here carries in the same way.
+    Repeated head impact is the sport's mechanism, not an accident of it, and
+    the long-term neurological consequences are documented.
+  evidence:
+    - label: Scoring system replaced
+      value: 1992 and again 2016
+      basis: rule
+      rule: aiba-2016-ten-point-must
+      note: Arithmetic replaced judgement, then judgement replaced the arithmetic.
+    - label: Headguards removed
+      value: "2013"
+      basis: rule
+      rule: aiba-2013-headguards-removed
+      note: For elite men only, on contested safety grounds.
+    - label: Governing body expelled
+      value: 2019 suspended, 2023 expelled
+      basis: rule
+      rule: ioc-2019-federation-suspended
+      note: The IOC ran two Olympic tournaments itself.
+    - { label: Typical peak age, value: 23–30, basis: judgement }
+
+gap: >
+  Boxing has the widest gap of any combat sport here, and the shape of it is
+  the opposite of judo's. Judo's entry is moderate because you must learn to
+  fall before you can start; boxing's is low because you can train for months
+  without being hit. Judo's elite version is recognisably the club version;
+  boxing's is the same activity performed against someone trying to concuss
+  you.
+
+  What sets this sport apart on the board is that its ceiling is partly a
+  governance problem rather than an athletic one. In no other sport here did
+  the people running the competition manipulate its results — that is a finding
+  of an independent investigation, not an allegation — and no other sport has
+  had its Olympic tournament run by the IOC because there was nobody else to
+  run it.
+
+shaped_by:
+  - aiba-2013-headguards-removed
+  - aiba-2016-ten-point-must
+  - ioc-2019-federation-suspended

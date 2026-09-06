@@ -1,0 +1,37 @@
+id: taekwondo-scores
+label: Contest scores across the scoring changes
+unit: points
+absence_kind: impossible
+cannot_exist: >
+  Twice over, taekwondo replaced the quantity rather than rescaling it.
+
+  Before 2009 a point existed when a majority of four judges pressed a button
+  within a fraction of a second of each other. After 2009 a point exists when a
+  sensor registers force above a threshold. Those are not the same measurement:
+  one is an agreement between people about what they saw, the other is a
+  physical reading. A score of 8–5 in 2007 and a score of 8–5 in 2011 record
+  different kinds of event.
+
+  Then in 2022 the contest stopped being a cumulative score at all. A match is
+  now best of three rounds, so the result is a count of rounds won, and a
+  competitor can outscore an opponent across a contest and lose it — the same
+  thing archery did in 2011.
+
+  There is no chart because there is no continuous quantity to chart. This is
+  the gymnastics case twice in thirteen years.
+segments: []
+breaks:
+  - at: 2009
+    caused_by: wt-2009-electronic-scoring
+    kind: scale-change
+    note: >
+      A judged point and a measured point are different objects. This is the
+      only place on this site where a sport crossed between adjudication
+      categories, and it did so by installing hardware.
+  - at: 2022
+    caused_by: wt-2022-best-of-three
+    kind: scale-change
+    note: >
+      Cumulative points became a count of rounds won. The contest score stopped
+      being a total.
+source: wt-competition-rules

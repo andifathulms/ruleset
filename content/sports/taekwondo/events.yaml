@@ -1,0 +1,29 @@
+sport: taekwondo
+as_of: 2026-09
+source: wt-competition-rules
+standing: primary-named
+summary: >
+  Eight Olympic weight categories, four per sex — fewer than the sport contests
+  at world level, which uses eight per sex. The Olympic categories are
+  therefore wider, and a competitor's world championship division may not exist
+  at a Games.
+disciplines:
+  - id: kyorugi
+    label: "Kyorugi, sparring"
+    blurb: The Olympic discipline. Electronically scored since 2009.
+    events:
+      - { id: m58, label: "Men −58 kg", olympic: true }
+      - { id: m68, label: "Men −68 kg", olympic: true }
+      - { id: m80, label: "Men −80 kg", olympic: true }
+      - { id: m80p, label: "Men +80 kg", olympic: true }
+      - { id: w49, label: "Women −49 kg", olympic: true }
+      - { id: w57, label: "Women −57 kg", olympic: true }
+      - { id: w67, label: "Women −67 kg", olympic: true }
+      - { id: w67p, label: "Women +67 kg", olympic: true }
+  - id: other
+    label: Governed by the federation, not on the programme
+    counts: false
+    events:
+      - { id: poomsae, label: "Poomsae, forms", note: "Judged, not measured — the part of the sport that electronic scoring did not touch." }
+      - { id: worlds, label: World championship weight categories, note: "Eight per sex, against four at the Games." }
+      - { id: para, label: Para taekwondo, olympic: false }

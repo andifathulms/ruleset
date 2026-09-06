@@ -1,0 +1,22 @@
+id: boxing
+label: Boxing
+tagline: Removed its headguards on safety grounds, and lost its governing body altogether.
+governing_body: >
+  World Boxing, recognised by the IOC in 2025. The previous body, AIBA and
+  later IBA, was suspended in 2019 and expelled in 2023.
+founded: >
+  Queensberry Rules published 1867; the Fédération Internationale de Boxe
+  Amateur founded 1920, becoming AIBA in 1946.
+coverage: deep
+family_colour: clay
+classification:
+  official: boxing
+  game-category: outside-taxonomy
+  adjudication: combat
+summary: >
+  Boxing is the only sport on this site whose governing body was expelled from
+  the Olympic movement, and the only one where the IOC ran the competition
+  itself because there was nobody it trusted to. It is also the sport with the
+  most counter-intuitive safety rule in the collection: headguards were removed
+  from elite men's competition in 2013, on the argument that they were making
+  concussion more likely rather than less.

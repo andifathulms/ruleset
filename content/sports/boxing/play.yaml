@@ -1,0 +1,118 @@
+sport: boxing
+as_of: 2026-09
+edition: World Boxing Technical and Competition Rules
+source: world-boxing-rules
+standing: primary-named
+summary: >
+  Hit the opponent above the belt with the knuckle part of a closed glove, more
+  cleanly and more often than they hit you, across three rounds. Boxing's rules
+  of play are among the simplest here and its rules about who governs, who
+  scores and what protective equipment is worn have been the most unstable of
+  any sport on this site.
+
+sections:
+  - id: object
+    label: The object of the bout
+    body: >
+      Win more rounds than the opponent in the judges' assessment, or end the
+      bout early by knockout, referee stoppage or the opponent's
+      disqualification. Only blows landed with the knuckle part of the glove,
+      above the belt, count.
+
+  - id: field
+    label: The ring
+    body: >
+      A square ring, roped, with a canvas over padding. There is nothing much
+      to say about it, which makes boxing one of the few sports here where the
+      venue specification carries no consequence at all.
+    facts:
+      - { label: Ring, value: 6.1 m square, note: Inside the ropes, at international level. }
+      - { label: Ropes, value: "4" }
+
+  - id: equipment
+    label: Gloves and protection
+    body: >
+      Gloves specified by weight, hand wraps by length, a mouthguard and a
+      groin protector required. The headguard is the contested item and the one
+      the sport has changed its mind about: compulsory from 1984, removed from
+      elite men's competition in 2013 on the argument that it made concussion
+      more likely, and retained for women and juniors throughout.
+
+      That a piece of protective equipment was removed on safety grounds is the
+      most counter-intuitive rule on this site, and the entry records the
+      dispute about whether that was really the reason.
+    facts:
+      - { label: "Headguard, elite men", value: Removed 2013 }
+      - { label: "Headguard, women and juniors", value: Retained }
+      - { label: Glove weight, value: 10 oz or 12 oz, by category }
+      - { label: Mouthguard, value: Compulsory }
+    shaped_by: [aiba-1984-headguards, aiba-2013-headguards-removed]
+
+  - id: players
+    label: Boxers and officials
+    body: >
+      Two boxers in a weight category. One referee in the ring, five judges at
+      ringside, and — since 2019 and until World Boxing took over — a
+      competition structure written by the IOC because there was no federation
+      it recognised.
+
+      Professionals have been eligible since 2016, which ended the amateur
+      distinction that had defined Olympic boxing for a century.
+    shaped_by: [aiba-2016-professionals-admitted, ioc-2019-federation-suspended]
+
+  - id: duration
+    label: Format
+    body: >
+      Three rounds of three minutes for elite men, three of three for elite
+      women, with a minute between. Elimination tournament, no repechage, and
+      bronze medals awarded to both losing semi-finalists — a convention boxing
+      shares with judo and taekwondo and almost nothing else.
+    facts:
+      - { label: Rounds, value: 3 × 3 min }
+      - { label: Bronze medals, value: "2" }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      The ten-point must system, taken from professional boxing: judges award
+      the winner of each round ten points and the loser nine or fewer, and the
+      totals decide the bout.
+
+      Between 1992 and 2016 it worked entirely differently. A point existed
+      only when at least three of five judges pressed a button for the same
+      blow within about a second, which was an arithmetic designed to remove
+      the judges' discretion after the 1988 scandal. It changed how boxers
+      fought — single visible shots scored, combinations did not — and it was
+      abandoned in 2016.
+
+      So the sport went from opinion to arithmetic and back to opinion inside
+      twenty-four years.
+    facts:
+      - { label: System, value: Ten-point must }
+      - { label: Judges, value: "5" }
+      - { label: Computerised counting, value: 1992 to 2016 }
+    shaped_by: [aiba-1992-computerised-scoring, aiba-2016-ten-point-must]
+
+  - id: restarts
+    label: Breaks and counts
+    body: >
+      The referee breaks a clinch, administers a count after a knockdown, and
+      may issue a standing count. The count is the sport's central safety
+      instrument and the one place where a single official's judgement can end
+      a contest immediately.
+
+  - id: prohibitions
+    label: Fouls
+    body: >
+      Below the belt, holding, hitting with the open glove or the inside of the
+      wrist, using the head, hitting an opponent who is down, and turning the
+      back. Fouls are penalised by warning and then by point deduction or
+      disqualification.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More rounds on the judges' cards, or a stoppage. There is no draw at the
+      Games, and where the cards are level the bout is resolved on criteria
+      rather than replayed.
+    shaped_by: [aiba-2016-ten-point-must]

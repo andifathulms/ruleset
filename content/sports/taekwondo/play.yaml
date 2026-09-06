@@ -1,0 +1,118 @@
+sport: taekwondo
+as_of: 2026-09
+edition: World Taekwondo Competition Rules
+source: wt-competition-rules
+standing: primary-named
+summary: >
+  Kick your opponent hard enough, in the right place, for a sensor to notice.
+  Taekwondo is a striking sport whose scoring has been automated to a degree no
+  other combat sport has attempted, and almost every rule since 2009 has been a
+  response to what athletes did once the sensors were installed.
+
+sections:
+  - id: object
+    label: The object of the contest
+    body: >
+      Score more than the opponent by landing techniques on the scoring areas —
+      the trunk protector and the head. Kicks score; punches to the trunk score
+      minimally and punches to the head are forbidden entirely, which is what
+      makes this a kicking sport rather than a general striking one.
+
+  - id: field
+    label: The court
+    body: >
+      An octagon, since 2011. It replaced a square, and it was made smaller at
+      the same time, because competitors were using corners and distance to
+      avoid engaging once they were ahead.
+    facts:
+      - { label: Contest area, value: Octagonal }
+      - { label: Adopted, value: "2011" }
+      - { label: Previous shape, value: Square }
+    shaped_by: [wt-2011-octagonal-court]
+
+  - id: equipment
+    label: The protectors
+    body: >
+      The trunk protector and head protector are not safety equipment in this
+      sport so much as instruments. Both carry sensors; the athlete's socks
+      carry sensors too, so the system can tell a foot from anything else.
+
+      A valid score is a contact registered above a force threshold by the
+      right part of the body on the right target. The equipment is the referee
+      for everything it can measure.
+    facts:
+      - { label: Trunk protector, value: Sensor-equipped }
+      - { label: Head protector, value: Sensor-equipped }
+      - { label: Socks, value: Sensor-equipped }
+      - { label: Since, value: "2009" }
+    shaped_by: [wt-2009-electronic-scoring, wt-2010-head-sensors-and-values]
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      Two competitors in a weight category. A referee on the mat controls the
+      contest and awards penalties; judges remain for the techniques the system
+      does not register, principally spinning techniques and disputed contacts.
+
+      That division is the interesting one. The officials have kept exactly the
+      decisions a machine cannot make, and lost the ones it can.
+    shaped_by: [wt-2009-electronic-scoring, wt-2017-instant-video-replay]
+
+  - id: duration
+    label: Format
+    body: >
+      Three rounds of two minutes, with a minute between. Since 2022 the
+      contest is best of three rounds rather than a cumulative score, so
+      winning a round by one point is worth exactly as much as winning it by
+      ten.
+    facts:
+      - { label: Rounds, value: 3 × 2 min }
+      - { label: Format, value: Best of three rounds, since 2022 }
+      - { label: Tie in a round, value: Decided on criteria }
+    shaped_by: [wt-2022-best-of-three]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Points are priced by difficulty. A kick to the trunk is worth least, a
+      kick to the head considerably more, and turning or spinning techniques
+      carry a bonus on top. A punch to the trunk scores one; a punch to the
+      head is forbidden.
+
+      That price list is a deliberate instrument. When automation made cheap
+      body kicks the reliable way to score, the federation raised the value of
+      head and spinning techniques to make the sport look the way it wanted —
+      which is what gymnastics does with its Code of Points, in a combat sport.
+    facts:
+      - { label: Kick to trunk, value: "2" }
+      - { label: Kick to head, value: "3" }
+      - { label: Spinning bonus, value: "+2" }
+      - { label: Punch to head, value: Forbidden }
+    shaped_by: [wt-2010-head-sensors-and-values, wt-2009-electronic-scoring]
+
+  - id: restarts
+    label: Between exchanges
+    body: >
+      The referee halts and restarts constantly — after a score is disputed,
+      after a fall, after a clinch, after a competitor leaves the area. In a
+      sport where holding a lead is rational, the restart is where much of the
+      tactical argument happens.
+
+  - id: prohibitions
+    label: Penalties
+    body: >
+      Gam-jeom, the single penalty class, awards a point to the opponent. It is
+      given for crossing the boundary, falling, avoiding the contest, grabbing,
+      pushing, punching the head, or attacking below the waist.
+
+      Because a penalty scores directly for the opponent, penalties decide a
+      significant number of contests — and they are the one part of the sport
+      the sensors do not adjudicate, which is why video review exists at all.
+    shaped_by: [wt-2017-instant-video-replay]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Two rounds out of three, a knockout, a twelve-point gap within a round,
+      or the opponent's disqualification. Not, since 2022, the higher total.
+    shaped_by: [wt-2022-best-of-three]

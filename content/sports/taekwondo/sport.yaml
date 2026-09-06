@@ -1,0 +1,19 @@
+id: taekwondo
+label: Taekwondo
+tagline: Installed sensors in 2009 and stopped being a judged sport.
+governing_body: World Taekwondo
+founded: >
+  Codified in South Korea in the 1950s; World Taekwondo founded 1973 as the
+  World Taekwondo Federation.
+coverage: deep
+family_colour: clay
+classification:
+  official: taekwondo
+  game-category: outside-taxonomy
+  adjudication: combat
+summary: >
+  The only sport on this site to change what kind of sport it is. Until 2009
+  taekwondo was scored by four judges pressing buttons and agreeing, which made
+  it a judged sport with all of gymnastics' problems and none of its
+  safeguards. Then it put sensors in the body protectors, and a kick that lands
+  hard enough now scores whether anyone saw it or not.

@@ -1,0 +1,161 @@
+- id: aiba-1984-headguards
+  scope: { sport: boxing, discipline: all }
+  date_adopted: 1983
+  date_effective: 1984
+  status: adopted
+  governing_body: AIBA
+  what_changed: >
+    Headguards were made compulsory in amateur competition, including at the
+    Olympic Games. Amateur boxing thereby diverged visibly from the
+    professional sport, and the headguard became the thing that distinguished
+    them.
+  cause_primary: safety
+  trigger:
+    description: >
+      Concern about cumulative head injury in a sport where a knockout is a
+      legitimate objective, and pressure from medical bodies on whether amateur
+      boxing should exist at all.
+  citation:
+    source: iba-aiba-rules
+    edition: AIBA Technical Rules, 1984
+    missing: true
+  comparability_break: null
+
+- id: aiba-1992-computerised-scoring
+  scope: { sport: boxing, discipline: all }
+  date_adopted: 1989
+  date_effective: 1992
+  status: adopted
+  governing_body: AIBA
+  what_changed: >
+    Scoring moved to a computerised system in which five judges pressed a
+    button for each scoring blow, and a point was recorded only when at least
+    three registered it within about a second of each other. The winner was
+    whoever accumulated more such points.
+  cause_primary: integrity
+  trigger:
+    description: >
+      At the 1988 Games, Roy Jones Jr dominated the light-middleweight final
+      and was awarded the loss on a 3–2 decision, in a competition where
+      several results were disputed and an investigation followed. The
+      federation replaced the discretion of judges with an arithmetic they
+      hoped could not be corrupted.
+    also_said: >
+      The system had an immediate and widely criticised effect on how boxing
+      was fought: because only clearly separated, individually registered blows
+      counted, combination punching and body work scored poorly, and boxers
+      adapted by throwing single, visible shots.
+  citation:
+    source: iba-aiba-rules
+    edition: AIBA Technical Rules, 1992
+    missing: true
+  comparability_break: boxing-scoring
+
+- id: aiba-2013-headguards-removed
+  scope: { sport: boxing, discipline: all, event: elite-men }
+  date_adopted: 2013-03
+  date_effective: 2013
+  status: adopted
+  governing_body: AIBA
+  what_changed: >
+    Headguards were removed from elite men's competition, twenty-nine years
+    after being made compulsory. Women's competition and junior categories kept
+    them.
+  cause_primary: disputed
+  cause_secondary: safety
+  trigger:
+    description: >
+      The federation cited its own analysis indicating that headguards were
+      associated with a higher rate of concussion, on the reasoning that they
+      enlarge the head as a target, obscure peripheral vision, and encourage
+      boxers to take shots they would otherwise avoid.
+    also_said: >
+      Independent commentary has questioned both the analysis and the
+      federation's motives, noting that removing headguards made amateur boxing
+      look more like the professional sport at exactly the time the federation
+      was moving to admit professionals. That the change applied to elite men
+      and not to women or juniors is difficult to explain on purely medical
+      grounds. Both readings are recorded; the sources do not settle it.
+  citation:
+    source: iba-aiba-rules
+    edition: AIBA Technical and Competition Rules, 2013
+    missing: true
+  comparability_break: null
+
+- id: aiba-2016-ten-point-must
+  scope: { sport: boxing, discipline: all }
+  date_adopted: 2015
+  date_effective: 2016
+  status: adopted
+  governing_body: AIBA
+  what_changed: >
+    Computerised point-counting was abandoned and replaced by the ten-point
+    must system used in professional boxing: judges score each round, the
+    winner of a round receives ten points and the loser nine or fewer.
+    Twenty-four years after replacing judgement with arithmetic, the sport
+    returned to judgement.
+  cause_primary: broadcast and pacing
+  cause_secondary: disputed
+  trigger:
+    description: >
+      The point-counting system had produced a style of boxing widely regarded
+      as unwatchable, in which single scoring blows were preferred to
+      combinations. Aligning with the professional system also removed a
+      difference at the moment professionals were being admitted.
+    also_said: >
+      Returning to round-by-round judging restored exactly the discretion the
+      1992 system had been introduced to eliminate, and the judging
+      controversies at the 2016 Games followed almost immediately.
+  citation:
+    source: iba-aiba-rules
+    edition: AIBA Technical and Competition Rules, 2016
+    missing: true
+  comparability_break: boxing-scoring
+
+- id: aiba-2016-professionals-admitted
+  scope: { sport: boxing, discipline: all }
+  date_adopted: 2016-06
+  date_effective: 2016
+  status: adopted
+  governing_body: AIBA
+  what_changed: >
+    Professional boxers were made eligible for the Olympic tournament, ending
+    the amateur distinction that had defined Olympic boxing since its
+    beginning.
+  cause_primary: commercial
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      The federation had been pursuing commercial ventures that blurred the
+      amateur boundary for several years, and the change formalised a
+      distinction that had already stopped meaning much.
+  citation:
+    source: iba-aiba-rules
+    edition: AIBA Technical and Competition Rules, 2016
+    missing: true
+  comparability_break: null
+
+- id: ioc-2019-federation-suspended
+  scope: { sport: boxing, discipline: all }
+  date_adopted: 2019-06
+  date_effective: 2020
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    The IOC suspended AIBA's recognition and ran the Olympic boxing tournaments
+    at the 2020 and 2024 Games itself, through a task force, writing the
+    competition and qualification rules directly. The federation, by then
+    renamed IBA, was expelled outright in 2023, and World Boxing was recognised
+    in 2025 for the 2028 Games.
+  cause_primary: integrity
+  trigger:
+    description: >
+      Findings on judging manipulation at the 2016 Games, together with
+      governance and financial concerns, led the IOC to conclude that the sport
+      had no body it could recognise. An independent investigation subsequently
+      documented that bouts at 2016 had been manipulated.
+  citation:
+    source: world-boxing-rules
+    edition: IOC Executive Board decisions, 2019 and 2023
+    missing: true
+  comparability_break: null

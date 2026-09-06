@@ -29,9 +29,10 @@ Three layers, marked as such everywhere:
 - **Skeleton** — 47 sports across 31 editions in `content/program.yaml`. Status
   per edition only, sourced to Olympedia, carrying no causes and no rule
   citations.
-- **Deep** — twelve sports: badminton, athletics, football, gymnastics,
-  swimming, table tennis, basketball, cycling, judo, archery, volleyball and
-  tennis.
+- **Deep** — eighteen sports: badminton, athletics, football, gymnastics,
+  swimming, table tennis, basketball, cycling, judo, archery, volleyball,
+  tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo and
+  boxing.
 
 The first five were one per family, because a "rule" is a structurally
 different object in each: racket sports legislate scoring, measured sports
@@ -52,6 +53,25 @@ comparisons possible rather than to add coverage:
 - **Basketball** supplies the 19–18 game the PRD names as its model trigger.
 - **Judo and archery** fill the Combat and Target lanes, without which two of
   the three lenses were visibly incomplete.
+
+And the third wave, again chosen for what each proves:
+
+- **Weightlifting** has annulled its entire world record book twice, in 1993
+  and 2018, by redrawing its bodyweight categories — the only sport to reach
+  for the same instrument a second time, which is the best evidence available
+  that annulling a record book does not change what produced it.
+- **Modern pentathlon** deleted a founding discipline nine months after a
+  televised incident. The most drastic trigger-to-rule sequence here, and the
+  only rule change publicly contested by the athletes it applies to.
+- **Cricket and baseball** fill the last empty lane. Cricket is the only
+  *voluntary* comparability break on the site — three formats, three record
+  books, never merged, deliberately. Baseball ran two different batting rules
+  in one competition for forty-nine years.
+- **Taekwondo** is the only sport to change adjudication category. Sensors in
+  2009 turned a judged sport into a measured one.
+- **Boxing** tried the same fix in 1992 with buttons in the judges' hands
+  instead of sensors on the athlete, reversed it in 2016, and lost its
+  governing body in 2023.
 
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause

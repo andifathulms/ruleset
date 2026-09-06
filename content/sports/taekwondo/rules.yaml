@@ -1,0 +1,127 @@
+- id: wt-2009-electronic-scoring
+  scope: { sport: taekwondo, discipline: kyorugi }
+  date_adopted: 2008
+  date_effective: 2009
+  status: adopted
+  governing_body: World Taekwondo
+  what_changed: >
+    Electronic body protectors were introduced. Sensors in the trunk protector
+    and in the athlete's socks register a valid kick above a threshold force,
+    and the point is awarded automatically. Scoring to the body ceased to be a
+    matter of judges seeing and agreeing.
+
+    This is the only change on this site that moves a sport from one
+    adjudication category to another. Taekwondo was judged; after 2009 its
+    principal scoring is measured.
+  cause_primary: integrity
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Judging at the 2008 Games was widely disputed, and the sport's Olympic
+      status was under real pressure as a result. Four judges pressing buttons
+      within a fraction of a second of each other had produced results that
+      neither competitors nor spectators could verify.
+  citation:
+    source: wt-competition-rules
+    edition: WTF Competition Rules, 2009
+    missing: true
+  comparability_break: taekwondo-scores
+
+- id: wt-2010-head-sensors-and-values
+  scope: { sport: taekwondo, discipline: kyorugi }
+  date_adopted: 2010
+  date_effective: 2010
+  status: adopted
+  governing_body: World Taekwondo
+  what_changed: >
+    Head contact was given a substantially higher point value than body
+    contact, and sensor-equipped head protectors followed. Spinning and turning
+    techniques were also given additional points, so the scale rewards
+    difficulty explicitly.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Once body scoring was automated, competitors optimised for the cheapest
+      reliable way to trigger a sensor, which produced repetitive low kicks to
+      the trunk. Raising the value of head and spinning techniques was a
+      deliberate re-pricing of the sport.
+    also_said: >
+      The re-pricing is read by some as the federation using the point table as
+      a choreography instrument — deciding what the sport should look like and
+      paying for it — which is close to what gymnastics' Code of Points does.
+  citation:
+    source: wt-competition-rules
+    edition: WT Competition Rules, 2010
+    missing: true
+  comparability_break: null
+
+- id: wt-2011-octagonal-court
+  scope: { sport: taekwondo, discipline: kyorugi }
+  date_adopted: 2010
+  date_effective: 2011
+  status: adopted
+  governing_body: World Taekwondo
+  what_changed: >
+    The square competition area was replaced by an octagon, and the contest
+    area reduced in size. Corners were removed and the distance a competitor
+    could retreat was cut.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Competitors were using the corners and the size of the square to avoid
+      engagement, which under a point-scoring system is a rational way to hold
+      a lead.
+  citation:
+    source: wt-competition-rules
+    edition: WT Competition Rules, 2011
+    missing: true
+  comparability_break: null
+
+- id: wt-2017-instant-video-replay
+  scope: { sport: taekwondo, discipline: kyorugi }
+  date_adopted: 2016
+  date_effective: 2017
+  status: adopted
+  governing_body: World Taekwondo
+  what_changed: >
+    A coach's video review was formalised, with a limited number of
+    unsuccessful challenges, covering the decisions the sensors do not make —
+    principally the referee's penalty calls and the validity of techniques the
+    system did not register.
+  cause_primary: integrity
+  trigger:
+    description: >
+      Automating the body score left the penalties as the remaining source of
+      dispute, and in a sport where accumulated penalties can decide a contest
+      that was where the pressure moved.
+  citation:
+    source: wt-competition-rules
+    edition: WT Competition Rules, 2017
+    missing: true
+  comparability_break: null
+
+- id: wt-2022-best-of-three
+  scope: { sport: taekwondo, discipline: kyorugi }
+  date_adopted: 2021
+  date_effective: 2022
+  status: adopted
+  governing_body: World Taekwondo
+  what_changed: >
+    Contests became best of three rounds rather than a single cumulative score
+    across three rounds. A competitor now wins by taking two rounds, so a large
+    lead in one round is worth no more than a narrow one.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Under cumulative scoring a competitor who built a lead could defend it
+      for the remainder of the contest, which the octagon had reduced but not
+      removed. Round-based scoring resets the contest twice.
+    also_said: >
+      This is the same move archery made in 2011 and for the same stated
+      reason, and it has the same consequence: a competitor can score more
+      points across a contest and lose it.
+  citation:
+    source: wt-competition-rules
+    edition: WT Competition Rules, 2022
+    missing: true
+  comparability_break: taekwondo-scores

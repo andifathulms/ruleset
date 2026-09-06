@@ -1,0 +1,29 @@
+sport: boxing
+as_of: 2026-09
+source: world-boxing-rules
+standing: primary-named
+summary: >
+  Weight categories, and the number and boundaries of them have been rewritten
+  repeatedly — most recently by the IOC rather than by a federation, because
+  from 2019 to 2025 there was no recognised federation to do it. Women's boxing
+  entered the programme only in 2012, the last sport on the Olympic programme
+  to admit women.
+disciplines:
+  - id: men
+    label: "Men's categories"
+    events:
+      - { id: m, label: "Men's weight categories", olympic: true, count: 7 }
+  - id: women
+    label: "Women's categories"
+    blurb: On the programme since 2012, and expanding towards parity since.
+    events:
+      - { id: w, label: "Women's weight categories", olympic: true, count: 6 }
+  - id: governance
+    label: Who has set these categories
+    counts: false
+    blurb: >
+      Recorded because for two Games the answer was not a federation.
+    events:
+      - { id: aiba, label: "AIBA, to 2019" }
+      - { id: ioc, label: "The IOC task force, 2020 and 2024", note: "The IOC wrote the competition and qualification rules itself." }
+      - { id: wb, label: "World Boxing, from 2025", note: Recognised for the 2028 Games. }

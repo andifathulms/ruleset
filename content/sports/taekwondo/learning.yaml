@@ -1,0 +1,85 @@
+sport: taekwondo
+standing: editorial
+summary: >
+  One of the most widely taught martial arts on earth and one of the least
+  widely understood elite sports, because the version practised in millions of
+  clubs and the version contested at a Games have almost nothing to do with
+  each other.
+
+entry:
+  verdict: low
+  claim: A club on almost every high street, and a syllabus designed for children.
+  why: >
+    Taekwondo is organised worldwide as a graded syllabus for beginners, mostly
+    children, with a belt structure that gives a visible path from the first
+    lesson. It is one of the most accessible martial arts to start: a dojang, a
+    dobok and an instructor, and a first grading within months.
+
+    Falling matters far less than in judo, because the sport is a striking one
+    — a beginner is not being thrown onto a mat by somebody heavier. That
+    removes the prerequisite that makes judo's entry moderate rather than low.
+
+    What a beginner learns, though, is largely not the competitive sport. Forms,
+    self-defence and board-breaking dominate the syllabus; Olympic sparring is
+    a specialism within it.
+  evidence:
+    - { label: Kit to start, value: A dobok, basis: observation }
+    - { label: Facility, value: A club with matting, basis: observation }
+    - { label: Partner required, value: For sparring only, basis: observation, note: Forms can be practised alone, unlike anything in judo. }
+    - { label: Time to first grading, value: Months, basis: judgement }
+    - { label: Time to competitive sparring, value: A year or more, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Optimising against a sensor, on a scale the federation keeps re-pricing.
+  why: >
+    Elite Olympic taekwondo is a game of scoring efficiently against an
+    instrument. Since 2009 a point exists when a sensor registers enough force
+    on the right target, which means the competitive problem is producing that
+    reading reliably at speed — a narrower and more technical objective than
+    "kick well".
+
+    The federation has re-priced the scale repeatedly in response, raising the
+    value of head kicks and spinning techniques when cheap body kicks became
+    the efficient answer. So an elite competitor is not only training against
+    opponents but against a point table that changes, and in 2022 the contest
+    stopped being cumulative at all.
+
+    The physical demands are severe: kicking to head height repeatedly, at
+    speed, under fatigue, in a weight category made by cutting.
+  evidence:
+    - label: Electronic scoring
+      value: Since 2009
+      basis: rule
+      rule: wt-2009-electronic-scoring
+      note: Changed what a point is, from an agreement between judges to a sensor reading.
+    - label: Head and spinning techniques
+      value: Re-priced 2010
+      basis: rule
+      rule: wt-2010-head-sensors-and-values
+      note: The point table used as an instrument to change what the sport looks like.
+    - label: Best of three rounds
+      value: Since 2022
+      basis: rule
+      rule: wt-2022-best-of-three
+      note: A competitor can outscore an opponent and lose.
+    - { label: Typical peak age, value: 22–28, basis: judgement }
+
+gap: >
+  Taekwondo has the widest gap between what a beginner practises and what an
+  elite competitor does of any sport on this board. A club student learns
+  forms, self-defence and grading syllabus; an Olympic competitor is producing
+  sensor-triggering contacts inside an octagon under a point table that has
+  been rewritten three times in fifteen years.
+
+  Set it against judo, the other combat sport here. Judo's entry is harder,
+  because you must learn to fall before anything else, and its elite version is
+  recognisably the same activity as its club version. Taekwondo's entry is
+  easier and the two versions have diverged further. The instrument is why: no
+  other sport on this site automated its scoring, and none has had to redesign
+  what winning looks like so many times as a consequence.
+
+shaped_by:
+  - wt-2009-electronic-scoring
+  - wt-2010-head-sensors-and-values
+  - wt-2022-best-of-three
