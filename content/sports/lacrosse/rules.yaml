@@ -1,0 +1,146 @@
+- id: lacrosse-1867-codification
+  scope: { sport: lacrosse, discipline: all }
+  date_adopted: 1867
+  date_effective: 1867
+  status: adopted
+  governing_body: National Lacrosse Association of Canada
+  what_changed: >
+    George Beers codified the game in Montreal: a fixed number of players, a
+    defined field, a goal, and a time limit. The Indigenous game it was taken
+    from had none of those — matches could involve hundreds of players, run
+    across kilometres of country, and last for days.
+
+    Codification made lacrosse a sport in the sense this site means. It also
+    detached it from the ceremonial and diplomatic functions it had held for
+    the Haudenosaunee, where the game was medicine and a means of settling
+    disputes between nations.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Beers wrote the rules explicitly to make lacrosse Canada's national game
+      and to make it playable by settler clubs on a marked field in an
+      afternoon.
+    also_said: >
+      Contemporary Canadian associations also barred Indigenous players from
+      competition on amateurism grounds — they were held to be professionals
+      because they had been paid to play — which excluded the game's originators
+      from the codified version of their own sport for decades. Both the
+      codification and that exclusion are part of the same act.
+  citation:
+    source: world-lacrosse-rules
+    edition: Beers, Laws of Lacrosse, 1867
+    missing: true
+  comparability_break: null
+
+- id: lacrosse-2021-sixes
+  scope: { sport: lacrosse, discipline: sixes }
+  date_adopted: 2021
+  date_effective: 2021
+  status: adopted
+  governing_body: World Lacrosse
+  what_changed: >
+    A new discipline was created: six a side on a smaller field, with a shot
+    clock, shorter quarters, no long defensive sticks and no specialist
+    face-off, in a match lasting about forty minutes.
+
+    Sixes was designed to be cheap to stage, quick to play, and legible to an
+    audience that has never seen lacrosse — which is to say, designed to meet
+    Olympic programme criteria.
+  cause_primary: commercial
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Field lacrosse is ten a side on a large field with specialist positions
+      and equipment, and would need an athlete quota and a venue the IOC was
+      not going to grant. The federation invented a format that fits.
+    also_said: >
+      This is the same move rugby made in adopting sevens, and unusually
+      explicit: World Lacrosse published the format two years before the
+      Olympic decision, and the sport was added for 2028.
+  citation:
+    source: world-lacrosse-rules
+    edition: World Lacrosse Sixes Rules, 2021
+    missing: true
+  comparability_break: lacrosse-formats
+
+- id: lacrosse-2018-haudenosaunee-recognition
+  scope: { sport: lacrosse, discipline: all }
+  date_adopted: 2018
+  date_effective: 2018
+  status: adopted
+  governing_body: World Lacrosse
+  what_changed: >
+    The Haudenosaunee Nationals — representing the confederacy whose people
+    invented the game — hold full membership of the international federation
+    and compete as a nation, one of very few Indigenous teams recognised in any
+    international sport.
+
+    Recognition by the sport did not resolve recognition elsewhere. The team
+    has repeatedly been unable to travel because host countries would not
+    accept Haudenosaunee passports, and its eligibility for the 2028 Games was
+    a separate and later question, resolved only in 2025 by an IOC decision
+    permitting participation under specific arrangements.
+  cause_primary: participation and access
+  cause_secondary: integrity
+  trigger:
+    description: >
+      Lacrosse is the only Olympic sport with a living Indigenous origin whose
+      originating people still field a competitive national team. Excluding
+      them from the sport's return to the Games was untenable, and admitting
+      them required an accommodation the Olympic movement does not normally
+      make.
+  citation:
+    source: world-lacrosse-rules
+    edition: World Lacrosse constitution, and IOC Executive Board decision, 2025
+    missing: true
+  comparability_break: null
+
+- id: lacrosse-2019-shot-clock
+  scope: { sport: lacrosse, discipline: field }
+  date_adopted: 2018
+  date_effective: 2019
+  status: adopted
+  governing_body: World Lacrosse
+  what_changed: >
+    A shot clock was introduced to international field lacrosse, requiring a
+    team in possession to attempt a shot within a set time. Before it, a team
+    could hold possession indefinitely, and did.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      The same problem basketball had in 1954 and for the same reason: no
+      obligation to shoot means a leading team can simply keep the ball. It is
+      the third sport on this site to adopt a shot clock, after basketball and
+      wrestling.
+  citation:
+    source: world-lacrosse-rules
+    edition: World Lacrosse Men's Field Rules, 2019
+    missing: true
+  comparability_break: null
+
+- id: lacrosse-womens-headgear
+  scope: { sport: lacrosse, discipline: women }
+  date_adopted: 2016
+  date_effective: 2017
+  status: adopted
+  governing_body: World Lacrosse
+  what_changed: >
+    Optional protective headgear to a defined standard was permitted in women's
+    lacrosse, which — unlike the men's game — is played without body checking
+    and had historically required only eyewear.
+  cause_primary: safety
+  trigger:
+    description: >
+      Head injuries in women's lacrosse come mostly from sticks and balls
+      rather than from body contact, and the argument for headgear ran against
+      a long-standing concern that protective equipment encourages more
+      physical play. The federation permitted rather than mandated it.
+    also_said: >
+      That is the same argument boxing had about headguards in 2013 and reached
+      the opposite conclusion on. Lacrosse added optional protection; boxing
+      removed compulsory protection. Both cited player safety.
+  citation:
+    source: world-lacrosse-rules
+    edition: World Lacrosse Women's Rules, 2017
+    missing: true
+  comparability_break: null

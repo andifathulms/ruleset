@@ -1,0 +1,130 @@
+sport: surfing
+as_of: 2026-09
+edition: ISA Rule Book
+source: isa-rules
+standing: primary-named
+summary: >
+  Ride waves, and be judged on how well. Surfing's rules are shorter than
+  almost anything here and they all address the same problem: the field of play
+  arrives on its own schedule, in unequal instalments, and can only be used by
+  one competitor at a time.
+
+sections:
+  - id: object
+    label: The object of the heat
+    body: >
+      Score higher than the other surfers in your heat, on your two best waves,
+      as assessed by a panel of judges.
+
+      What is being judged is the difficulty and quality of the manoeuvres
+      performed, the speed, power and flow of the ride, and the degree of
+      commitment — all relative to what the wave being ridden made possible.
+      That last clause is doing enormous work, because it means judges are
+      scoring a performance against a standard that changes with every wave.
+
+  - id: field
+    label: The break
+    body: >
+      A stretch of ocean where waves break in a rideable way, and no two are
+      alike. Competition venues are chosen for wave quality, which for the 2024
+      Games meant holding Olympic surfing fifteen thousand kilometres from the
+      host city.
+
+      From 2028 the Olympic field of play is an artificial pool that produces
+      the same wave every time.
+    facts:
+      - { label: Venue, value: Chosen for waves, not location }
+      - { label: 2024 Olympic venue, value: "Teahupo'o, Tahiti" }
+      - { label: 2028 Olympic venue, value: Artificial wave pool }
+    shaped_by: [isa-2024-teahupoo-venue, isa-2025-wave-pool]
+
+  - id: equipment
+    label: The board
+    body: >
+      Olympic competition is on shortboards, with dimensions largely
+      unregulated — a surfer chooses a board for the wave, and choosing wrongly
+      is a competitive error rather than a rules matter.
+
+      Leashes are required. Beyond that there is very little specification,
+      which makes surfing one of the least equipment-regulated sports on this
+      site despite equipment mattering a great deal.
+    facts:
+      - { label: Olympic board, value: Shortboard }
+      - { label: Board dimensions, value: Largely unregulated }
+      - { label: Leash, value: Required }
+
+  - id: players
+    label: Surfers and judges
+    body: >
+      Heats of two to four surfers, judged by a panel of five, with the highest
+      and lowest scores discarded and the remaining three averaged. That
+      discard structure is the standard defence of a judged sport, and surfing
+      uses it for the same reason gymnastics does.
+
+      What surfing's judges cannot do is compare like with like. A nine-point
+      ride on a large wave and a nine-point ride on a small one are the same
+      number for different achievements, and the criteria explicitly ask judges
+      to score relative to the wave's potential.
+    facts:
+      - { label: Judges, value: "5" }
+      - { label: Scores used, value: 3, after discarding high and low }
+      - { label: Scored relative to, value: The wave's potential }
+
+  - id: duration
+    label: Format
+    body: >
+      Heats of twenty to thirty-five minutes, in an elimination bracket. The
+      professional tour runs waiting periods of up to two weeks and starts when
+      the waves arrive; an Olympic schedule cannot, so the Games accept a
+      narrow window and the risk of a medal being decided in poor surf.
+    facts:
+      - { label: Heat length, value: 20–35 min }
+      - { label: Tour waiting period, value: Up to 2 weeks }
+      - { label: Olympic window, value: Fixed }
+    shaped_by: [isa-2016-olympic-inclusion]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Each ride is scored out of ten to two decimal places. A surfer's heat
+      total is their two best waves added — everything else counts for nothing,
+      so catching more waves is not an advantage.
+
+      The consequence is that a surfer needs two good waves to arrive while
+      they hold priority. A heat can be decided by the sea rather than by the
+      surfing, and everyone in the sport knows it.
+    facts:
+      - { label: Waves counted, value: "2" }
+      - { label: Each scored, value: Out of 10 }
+      - { label: Waves beyond two, value: Count for nothing }
+    shaped_by: [isa-two-wave-scoring]
+
+  - id: restarts
+    label: Priority
+    body: >
+      The rule that makes competitive surfing possible. Within a heat, one
+      surfer holds priority and has the unconditional right to any wave they
+      choose; priority rotates as waves are taken.
+
+      It exists because a wave cannot be shared and cannot be scheduled. It
+      allocates the right to choose, which is the only thing a rule can
+      allocate — the waves themselves still arrive when they arrive.
+    facts:
+      - { label: Priority, value: Unconditional right to a wave }
+      - { label: Rotation, value: After a wave is taken }
+    shaped_by: [isa-priority-system]
+
+  - id: prohibitions
+    label: Interference
+    body: >
+      Dropping in on a surfer with priority, paddling to obstruct them, or
+      otherwise preventing them taking a wave. The penalty is severe — an
+      interfering surfer loses one of their two counting waves — because in a
+      contest where waves are scarce, interference removes a competitor's
+      opportunity rather than merely gaining an advantage.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The higher two-wave total advances. In a bracket, the last surfer
+      standing wins.

@@ -1,0 +1,116 @@
+sport: breaking
+as_of: 2026-09
+edition: WDSF Breaking Competition Rules and the Trivium judging system
+source: wdsf-breaking-rules
+standing: primary-named
+summary: >
+  Two dancers take turns to music they have not heard, and judges decide which
+  one was better. Breaking's competitive rules are the youngest on this site
+  and were written for a form that had spent forty years judging itself without
+  any.
+
+sections:
+  - id: object
+    label: The object of the battle
+    body: >
+      Be judged better than your opponent across five dimensions in a series of
+      alternating rounds.
+
+      There is no score to accumulate and no target to reach. A battle produces
+      a percentage split between two dancers, and that split is the entire
+      result — a statement about a pairing rather than a measurement of either
+      dancer.
+
+  - id: field
+    label: The floor
+    body: >
+      A flat circular or square surface with room for the movements — footwork,
+      power moves, freezes — and space for the opponent to wait. There is
+      almost nothing to specify, which makes breaking one of the cheapest
+      sports on this site to stage.
+    facts:
+      - { label: Surface, value: Flat, smooth }
+      - { label: Staging cost, value: Among the lowest here }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      None specified. Dancers wear what they choose, and the only regulated
+      elements are the surface and the sound system.
+
+      That absence is worth recording. Every other judged sport here specifies
+      apparatus in detail, because the apparatus determines what is possible
+      and therefore what a difficulty value means. Breaking has no difficulty
+      table, so it has nothing to standardise apparatus for.
+
+  - id: players
+    label: Dancers and judges
+    body: >
+      One against one at the Games, in B-Boys and B-Girls events. Judges are
+      practitioners, which is the sport's continuity with its own tradition:
+      battles have always been decided by people the scene respects.
+
+      What changed is that the judgement now has to be stated in parts and
+      recorded, rather than delivered as a verdict.
+    facts:
+      - { label: Format, value: One against one }
+      - { label: Judges, value: Practitioners }
+      - { label: Criteria, value: "5" }
+
+  - id: duration
+    label: Format
+    body: >
+      Short alternating rounds — typically under a minute each — with dancers
+      taking turns. A battle is a handful of rounds, and a full Olympic
+      competition fits comfortably in a session.
+
+  - id: scoring
+    label: Trivium
+    body: >
+      Five criteria: technique, vocabulary, execution, musicality and
+      originality. For each, a judge moves a slider towards whichever dancer
+      they thought was better, and the sliders aggregate into a percentage
+      split of the round.
+
+      It is comparative rather than absolute, and that is the design's central
+      choice. Gymnastics awards a mark against a published standard; diving
+      multiplies a mark by a tabulated difficulty. Breaking had no standard to
+      borrow, because forty years of battles had been judged holistically by
+      practitioners, so the system asks only which of two dancers was better on
+      each dimension.
+
+      The cost is that no breaking result is a measurement. A 62–38 split says
+      one dancer beat another by that much on that day, and nothing more.
+    facts:
+      - { label: Criteria, value: "5" }
+      - { label: Judging, value: Comparative, not absolute }
+      - { label: Result, value: Percentage split of a battle }
+    shaped_by: [wdsf-2019-trivium]
+
+  - id: restarts
+    label: The music
+    body: >
+      A DJ selects the music and the dancers do not hear it in advance. That is
+      not an incidental staging detail — it is the sport's central constraint
+      and the reason musicality is a judged criterion.
+
+      A dancer cannot choreograph. Every round is a response to a track chosen
+      by somebody else, in real time, which makes breaking the only judged sport
+      on this site where the performance cannot be planned.
+
+  - id: prohibitions
+    label: Penalties
+    body: >
+      Deductions and penalties apply for crashes — failed moves — for repeating
+      material within a battle, for exceeding the round, and for
+      unsportsmanlike conduct towards an opponent.
+
+      Repetition is the interesting one. Vocabulary is a judged criterion, so
+      reusing a move within a battle costs twice: once as a deduction and once
+      in the comparative assessment.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The higher percentage across the rounds. There is no draw and nothing to
+      carry into the next battle.

@@ -1,0 +1,32 @@
+sport: lacrosse
+as_of: 2026-09
+source: world-lacrosse-rules
+standing: primary-named
+summary: >
+  Two Olympic events for 2028, contested in Sixes — a format that did not exist
+  before 2021 and was created to meet the criteria that got the sport admitted.
+  Lacrosse was last on the programme in 1908.
+disciplines:
+  - id: sixes
+    label: Sixes
+    blurb: >
+      The Olympic discipline. Six a side, smaller field, shot clock, no
+      specialist positions. Published 2021.
+    events:
+      - { id: men, label: "Men's tournament", olympic: true }
+      - { id: women, label: "Women's tournament", olympic: true }
+  - id: other-formats
+    label: The formats it came from
+    counts: false
+    blurb: >
+      Each has its own rules and its own statistics, and none is comparable
+      with another.
+    events:
+      - { id: field-m, label: "Men's field lacrosse", note: "Ten a side, with body checking and specialist positions." }
+      - { id: field-w, label: "Women's field lacrosse", note: "Twelve a side, no body checking, different equipment." }
+      - { id: box, label: Box lacrosse, note: "Six a side indoors on a hockey rink. The dominant form in Canada." }
+  - id: nations
+    label: A membership question
+    counts: false
+    events:
+      - { id: haudenosaunee, label: Haudenosaunee Nationals, note: "The confederacy whose people invented the game, competing as a nation. Olympic participation for 2028 required a specific IOC accommodation." }

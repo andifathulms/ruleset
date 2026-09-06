@@ -1,0 +1,147 @@
+- id: isa-priority-system
+  scope: { sport: surfing, discipline: all }
+  date_adopted: 1990
+  date_effective: 1990
+  status: adopted
+  governing_body: International Surfing Association
+  what_changed: >
+    A priority system was formalised: within a heat, one surfer has the
+    unconditional right to any wave they choose, and priority rotates as waves
+    are taken. A surfer without priority who interferes with the one who has it
+    is penalised.
+
+    Without it, competitive surfing has no way to allocate a resource that
+    arrives unpredictably and cannot be shared. Priority is the sport's answer
+    to a scarcity problem no other sport has.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Waves are not equal, do not arrive on a schedule, and cannot be taken by
+      two surfers at once. Some mechanism was needed to stop the best wave of a
+      heat being decided by who paddled hardest.
+    also_said: >
+      Priority allocates the right to choose. It cannot allocate the waves
+      themselves, so a heat in which good waves arrive during one surfer's
+      priority and not during another's is still decided partly by the sea.
+  citation:
+    source: isa-rules
+    edition: ISA Rule Book, judging and priority
+    missing: true
+  comparability_break: surfing-scores
+
+- id: isa-two-wave-scoring
+  scope: { sport: surfing, discipline: all }
+  date_adopted: 1990
+  date_effective: 1990
+  status: adopted
+  governing_body: International Surfing Association
+  what_changed: >
+    A surfer's heat score is the sum of their two best waves, each scored out
+    of ten by a panel of judges, with the highest and lowest judge scores
+    discarded. Waves beyond the best two count for nothing.
+
+    Counting only two removes the advantage of simply catching more waves and
+    makes the contest about quality — but it also means a surfer needs two good
+    waves to arrive during their priority, which is partly luck.
+  cause_primary: fairness and eligibility
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Scoring every wave rewarded volume over quality and made heats
+      unwatchable. Two waves is short enough to follow and long enough to
+      require consistency.
+  citation:
+    source: isa-rules
+    edition: ISA Rule Book, scoring
+    missing: true
+  comparability_break: surfing-scores
+
+- id: isa-2016-olympic-inclusion
+  scope: { sport: surfing, discipline: all }
+  date_adopted: 2016-08
+  date_effective: 2021
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Surfing was added to the Olympic programme for 2020, in the ocean, on
+    shortboards. Admission required the federation to accept a competition
+    format constrained by a fixed date window — an event that must happen in a
+    particular fortnight, whatever the sea is doing.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Professional surfing tours run waiting periods of up to two weeks and
+      start competition when the waves arrive. An Olympic schedule cannot do
+      that, so the sport accepted a much narrower window and the risk of
+      contesting a medal in poor conditions.
+    also_said: >
+      Whether a world champion crowned in whatever waves arrived on a given
+      Tuesday is meaningfully a champion is an argument the sport was having
+      before the Games and continues to have.
+  citation:
+    source: isa-rules
+    edition: ISA Rule Book, 2021
+    missing: true
+  comparability_break: null
+
+- id: isa-2024-teahupoo-venue
+  scope: { sport: surfing, discipline: all }
+  date_adopted: 2022
+  date_effective: 2024
+  status: adopted
+  governing_body: International Surfing Association
+  what_changed: >
+    The 2024 Olympic surfing competition was held at Teahupo'o in Tahiti,
+    fifteen thousand kilometres from the host city — a heavy, shallow reef
+    break selected for wave quality rather than for proximity.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      A surfing competition is only as good as its waves, and a Games host does
+      not necessarily have any. Choosing the wave over the location is a
+      concession no other sport on the programme has had to make.
+    also_said: >
+      The decision drew objection from residents and environmental groups over
+      the construction required on a fragile reef, which is the same class of
+      objection equestrian and golf face about land use. The event went ahead
+      with a modified structure.
+  citation:
+    source: isa-rules
+    edition: ISA competition regulations, 2024
+    missing: true
+  comparability_break: null
+
+- id: isa-2025-wave-pool
+  scope: { sport: surfing, discipline: all }
+  date_adopted: 2023
+  date_effective: 2028
+  status: adopted
+  governing_body: International Surfing Association
+  what_changed: >
+    Olympic surfing for 2028 is scheduled in an artificial wave pool, where a
+    machine generates an identical wave on demand.
+
+    Every surfer in a heat would receive the same wave. The sport's central
+    variable — which is also the source of every comparability problem on this
+    page — would be removed.
+  cause_primary: broadcast and pacing
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      A pool guarantees the event runs on schedule, in front of a crowd, at a
+      known time, with waves of known quality. It solves the staging problem
+      completely.
+    also_said: >
+      A large part of the sport regards it as no longer surfing. The argument
+      is that riding what the ocean gives you — reading it, choosing, adapting —
+      is the activity, and that a repeatable wave converts surfing into
+      gymnastics on water. The counter-argument is that a standardised wave
+      makes the judging fair for the first time. Both are recorded; the sport
+      has not settled it.
+  citation:
+    source: isa-rules
+    edition: ISA competition regulations, 2028
+    missing: true
+  comparability_break: surfing-scores

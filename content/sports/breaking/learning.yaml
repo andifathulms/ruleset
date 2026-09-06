@@ -1,0 +1,85 @@
+sport: breaking
+standing: editorial
+summary: >
+  The cheapest sport on this site to begin and one of the most physically
+  punishing to be good at. Breaking needs a floor and a speaker, which is
+  almost nothing, and its elite movements load the wrists, shoulders and neck
+  in ways the body is not built for.
+
+entry:
+  verdict: very-low
+  claim: A flat surface and music. Nothing else is required at all.
+  why: >
+    Breaking has the lowest material barrier of anything here. There is no
+    equipment, no facility beyond a smooth floor, no opponent needed to
+    practise, no coach required and no governing structure to join. It grew in
+    public spaces precisely because it needed none of those.
+
+    It is also learned socially rather than institutionally. The form's
+    transmission has always been through crews, jams and cyphers, which are
+    free and open, and that has not changed because a federation now runs a
+    competition.
+
+    That combination — no cost, no facility, no gatekeeper — is unique on this
+    board.
+  evidence:
+    - { label: Kit to start, value: None, basis: observation }
+    - { label: Facility, value: A flat floor, basis: observation }
+    - { label: Coach needed, value: "No", basis: judgement, note: The form is transmitted through crews rather than coaching structures. }
+    - { label: Partner required, value: "No", basis: observation }
+    - { label: Time to participate, value: Immediate, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Improvised to music nobody warned you about, on joints the movements are not kind to.
+  why: >
+    Elite breaking demands power moves that load the wrists, shoulders and
+    cervical spine in ways few activities do — headspins and airflares are
+    performed on structures not designed to bear them — and career-shortening
+    injury is common and under-discussed.
+
+    The distinctive demand, though, is improvisation. A dancer does not hear
+    the music in advance, so nothing can be choreographed. Every other judged
+    sport on this site performs a prepared routine; breaking's competitors must
+    generate material in real time, respond to a track chosen by a DJ, and
+    avoid repeating themselves because vocabulary is a scored criterion.
+
+    And the ceiling itself has no fixed shape. Trivium is comparative, so there
+    is no score to chase, no personal best and no standard to reach — only
+    other dancers.
+  evidence:
+    - label: Trivium
+      value: Comparative, not absolute
+      basis: rule
+      rule: wdsf-2019-trivium
+      note: No score to chase, because a result describes a pairing rather than a dancer.
+    - label: Music
+      value: Not known in advance
+      basis: observation
+      note: The only judged sport here where the performance cannot be prepared.
+    - label: Olympic status
+      value: One Games, then dropped
+      basis: rule
+      rule: ioc-2023-breaking-dropped
+      note: Removed from the 2028 programme ten months before it was first contested.
+    - { label: Typical peak age, value: 20–30, basis: judgement }
+
+gap: >
+  Breaking has the widest gap available on this board — very low to very high —
+  and it is the only sport here whose entry barrier is genuinely zero.
+
+  What makes it worth recording is the shape of the top. Every other judged
+  sport on this site gives its athletes a standard: gymnastics has difficulty
+  values, diving has a table, figure skating has elements. Breaking has none,
+  by design, because the form had none to codify. A dancer's ceiling is not a
+  score but the other dancers in the room.
+
+  And uniquely here, the ceiling was removed. Breaking was dropped from the
+  2028 Olympic programme in October 2023, ten months before it was first
+  contested. Whatever the athletes did at their only Games could not have
+  affected the decision — which is a fact about a sport's relationship with the
+  Olympic movement, not about the sport.
+
+shaped_by:
+  - wdsf-2019-trivium
+  - ioc-2023-breaking-dropped

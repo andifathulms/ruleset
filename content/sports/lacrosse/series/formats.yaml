@@ -1,0 +1,35 @@
+id: lacrosse-formats
+label: Statistics across the formats
+unit: goals
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Lacrosse now runs four versions of itself: men's field, women's field, box —
+  played indoors on a hockey rink — and Sixes, which was invented in 2021.
+  They differ in team size, field dimensions, equipment, contact rules and
+  scoring rates, and none of their statistics travels to another.
+
+  Sixes is the one that matters for this site. It is six a side on a smaller
+  field with a shot clock and no specialist positions, and it produces far more
+  goals in far less time than field lacrosse. A goals-per-game figure spanning
+  the two would be measuring two different sports that share a name.
+
+  What makes it worth recording rather than merely noting is why Sixes exists.
+  It was designed in 2021 to fit an Olympic athlete quota and a broadcast
+  window, and the sport was added to the programme for 2028. Cricket added
+  Twenty20 for commercial reasons and kept three separate record books; rugby
+  adopted sevens for the Games; lacrosse invented a format from scratch for
+  admission.
+
+  In all three cases the discontinuity was deliberate and is handled correctly,
+  by never combining the numbers.
+segments: []
+breaks:
+  - at: 2021
+    caused_by: lacrosse-2021-sixes
+    kind: scoped
+    note: >
+      A format invented to meet Olympic criteria. Its statistics are not
+      comparable with field lacrosse's, and the sport has not tried to make
+      them so.
+source: world-lacrosse-rules

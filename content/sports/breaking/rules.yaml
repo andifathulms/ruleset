@@ -1,0 +1,117 @@
+- id: wdsf-2017-governance
+  scope: { sport: breaking, discipline: all }
+  date_adopted: 2017
+  date_effective: 2018
+  status: adopted
+  governing_body: World DanceSport Federation
+  what_changed: >
+    Breaking was placed under the World DanceSport Federation for the purposes
+    of international competition, and contested at the 2018 Youth Olympic
+    Games. A street dance form with forty years of its own judging conventions,
+    crews, jams and lineages acquired an international governing body it had
+    not asked for.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The IOC was seeking youth-facing, urban, gender-balanced and inexpensive
+      additions to the programme, and breaking fitted every criterion. A
+      federation with existing Olympic recognition was the available route.
+    also_said: >
+      A substantial part of the breaking community objected that the form had
+      functioning judging traditions of its own, that an external ballroom-dance
+      federation had no standing to codify them, and that competitive
+      recognition would change the culture more than it would grow it. That
+      objection was never resolved and is part of why the sport's Olympic
+      appearance lasted one Games.
+  citation:
+    source: wdsf-breaking-rules
+    edition: WDSF Breaking rules, 2018
+    missing: true
+  comparability_break: null
+
+- id: wdsf-2019-trivium
+  scope: { sport: breaking, discipline: all }
+  date_adopted: 2019
+  date_effective: 2019
+  status: adopted
+  governing_body: World DanceSport Federation
+  what_changed: >
+    The Trivium judging system was adopted. Judges score five criteria —
+    technique, vocabulary, execution, musicality and originality — and do so
+    comparatively rather than absolutely: for each criterion a judge moves a
+    slider towards whichever dancer they think was better, and the sliders are
+    aggregated into a percentage split of the round.
+
+    That is a genuinely unusual instrument. Gymnastics, diving and figure
+    skating all award absolute marks against a standard. Trivium asks only
+    which of two dancers was better on each dimension, which removes the need
+    for a scale that would have to be invented for a form that never had one.
+  cause_primary: fairness and eligibility
+  cause_secondary: integrity
+  trigger:
+    description: >
+      Breaking battles had always been judged by respected practitioners making
+      a holistic call, often without stated criteria. Olympic competition
+      required something transparent, reproducible and explicable to an
+      audience, and no absolute scale existed to borrow.
+    also_said: >
+      Comparative judging is defensible and it has a cost: a Trivium result is
+      a statement about two dancers on a day, not a measurement of either. No
+      score from a breaking battle means anything outside that battle.
+  citation:
+    source: wdsf-breaking-rules
+    edition: WDSF Trivium judging system, 2019
+    missing: true
+  comparability_break: breaking-scores
+
+- id: ioc-2020-breaking-added
+  scope: { sport: breaking, discipline: all }
+  date_adopted: 2020-12
+  date_effective: 2024
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Breaking was added to the 2024 Olympic programme, with one B-Boys and one
+    B-Girls event, contested as one-on-one battles to music the dancers do not
+    hear in advance.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Part of a wider programme strategy to add urban, youth-facing and
+      gender-balanced events with low staging costs — the same strategy that
+      brought in skateboarding, sport climbing and surfing.
+  citation:
+    source: wdsf-breaking-rules
+    edition: IOC Session decision, 2020
+    missing: true
+  comparability_break: null
+
+- id: ioc-2023-breaking-dropped
+  scope: { sport: breaking, discipline: all }
+  date_adopted: 2023-10
+  date_effective: 2028
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Breaking was not included on the 2028 programme. It was contested at one
+    Games and dropped before the next, which no other sport on this site has
+    experienced except karate.
+  cause_primary: commercial
+  trigger:
+    description: >
+      The Los Angeles organisers proposed a programme built around sports with
+      established American commercial followings — flag football, squash,
+      lacrosse, cricket, baseball and softball — and breaking was not among
+      them. The decision was taken before the 2024 competition had been held.
+    also_said: >
+      That sequence is worth stating plainly. Breaking was removed from the
+      2028 programme in October 2023, ten months before it was first contested
+      at Paris. Whatever the sport did at its only Games could not have
+      affected the decision.
+  citation:
+    source: wdsf-breaking-rules
+    edition: IOC Session decision, 2023
+    missing: true
+  comparability_break: null

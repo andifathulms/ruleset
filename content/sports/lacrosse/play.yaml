@@ -1,0 +1,123 @@
+sport: lacrosse
+as_of: 2026-09
+edition: World Lacrosse Sixes Rules, with field and box variations
+source: world-lacrosse-rules
+standing: primary-named
+summary: >
+  Carry, pass and shoot a hard rubber ball with a netted stick, into a goal
+  defended by a keeper. Lacrosse runs four versions of itself with different
+  team sizes, fields and contact rules, and the Olympic one — Sixes — did not
+  exist before 2021.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Score more goals. The ball is carried in the net of a stick, which is the
+      sport's defining constraint: it can be dislodged by a legal check, so
+      possession is precarious in a way it is not in football or basketball.
+
+      Because the ball is carried rather than dribbled, lacrosse is the fastest
+      transition sport on this site — possession can change and produce a shot
+      within seconds.
+
+  - id: field
+    label: The field
+    body: >
+      Sixes uses a smaller field than the traditional ten-a-side game, with no
+      offside restriction and a shot clock. Field lacrosse uses a large pitch
+      with restraining lines and a required number of players in each half. Box
+      lacrosse is played indoors on a hockey rink surface.
+
+      Three fields, three sports, one federation.
+    facts:
+      - { label: "Sixes, team", value: "6" }
+      - { label: "Field, team", value: "10" }
+      - { label: "Box, team", value: "6", note: Indoors, on a rink. }
+      - { label: Sixes shot clock, value: Yes }
+    shaped_by: [lacrosse-2021-sixes]
+
+  - id: equipment
+    label: Stick, ball and protection
+    body: >
+      A crosse — a stick with a netted head — and a hard rubber ball. Head
+      dimensions and mesh depth are specified, because a deeper pocket holds the
+      ball more securely and makes it harder to dislodge.
+
+      Protection differs sharply between the men's and women's games. Men's
+      lacrosse permits body checking and requires helmets, gloves and pads.
+      Women's lacrosse does not permit body checking and historically required
+      only eyewear; optional headgear to a standard was permitted from 2017.
+    facts:
+      - { label: "Long defensive sticks, Sixes", value: Not permitted }
+      - { label: "Men's game", value: Helmet, gloves, pads }
+      - { label: "Women's game", value: Eyewear; headgear optional }
+    shaped_by: [lacrosse-womens-headgear, lacrosse-2021-sixes]
+
+  - id: players
+    label: Players and officials
+    body: >
+      Six a side in the Olympic format, ten in field lacrosse. Sixes removed
+      the specialist roles — no long-stick defenders, no face-off specialist —
+      so every player does everything, which is what makes the format cheap to
+      enter and quick to learn.
+
+      The Haudenosaunee Nationals compete as a nation. Lacrosse is the only
+      sport on this site where the people who invented the game field an
+      international team under their own flag, and their participation in the
+      2028 Games required a specific accommodation from the IOC.
+    shaped_by: [lacrosse-2018-haudenosaunee-recognition, lacrosse-2021-sixes]
+
+  - id: duration
+    label: Time
+    body: >
+      Sixes runs about forty minutes in short quarters with a shot clock.
+      Field lacrosse runs sixty minutes in four quarters, and acquired a shot
+      clock internationally only in 2019 — before which a leading team could
+      hold the ball indefinitely, the same problem basketball solved in 1954.
+    facts:
+      - { label: Sixes match, value: About 40 min }
+      - { label: Field match, value: 4 × 15 min }
+      - { label: Shot clock, value: Since 2019 in field }
+    shaped_by: [lacrosse-2019-shot-clock]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      One goal, one point, from anywhere outside the crease — the protected
+      circle around the goal that an attacker may not enter.
+
+      Sixes produces substantially more goals in less time than field lacrosse,
+      which is one of the reasons it was designed. The two formats' statistics
+      are not comparable and the sport has never suggested they are.
+    shaped_by: [lacrosse-2021-sixes]
+
+  - id: restarts
+    label: Face-offs and restarts
+    body: >
+      Field lacrosse starts each quarter and restarts after goals with a
+      face-off — two players crouched over the ball, contesting possession —
+      which produced a specialist position of its own.
+
+      Sixes removed it. Play restarts with a goalkeeper's possession, which
+      speeds the game and deletes a role that took years to learn. That is a
+      deliberate choice to lower the barrier to entry for new nations.
+    shaped_by: [lacrosse-2021-sixes]
+
+  - id: prohibitions
+    label: Fouls
+    body: >
+      In the men's game, checks to the head or from behind, slashing, and
+      illegal body checks; penalties are served in a box, so a team plays short
+      — the ice hockey model rather than the football one.
+
+      In the women's game, body checking is not permitted at all, and the rules
+      protect a sphere around a player's head. The two games have different
+      contact philosophies and therefore different injury profiles, which is
+      why their equipment rules diverge.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More goals. Ties in knockout play go to sudden-death overtime, which in a
+      transition sport this fast rarely lasts long.

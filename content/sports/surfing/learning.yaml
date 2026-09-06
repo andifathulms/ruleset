@@ -1,0 +1,85 @@
+sport: surfing
+standing: editorial
+summary: >
+  One of the hardest sports here to become competent at and one of the most
+  accessible to try, with a barrier that is purely geographic: you need an
+  ocean with rideable waves, and either it is near you or it is not.
+
+entry:
+  verdict: high
+  claim: A coast, a board, and a long time before you can stand up reliably.
+  why: >
+    Standing up on a moving wave is genuinely hard and takes most people
+    repeated sessions before it becomes reliable. Unlike most sports here,
+    there is no simplified version that works — you are either riding a wave or
+    you are not — and the learning process involves a large amount of failure
+    in cold water.
+
+    The barrier that dominates is access. Surfing requires a coast with
+    rideable waves within reach of where a person lives, and no amount of money
+    or coaching substitutes. It is the most geographically determined sport on
+    this site, more than rowing or sailing, because a river can be found and a
+    beach with surf cannot be manufactured.
+
+    Until now. Artificial wave pools are the first technology that would let
+    somebody learn to surf a thousand miles from an ocean.
+  evidence:
+    - { label: Facility, value: A coast with rideable waves, basis: observation }
+    - { label: Kit to start, value: A board and a wetsuit, basis: observation }
+    - { label: Wave pools, value: From 2028 at Olympic level, basis: rule, rule: isa-2025-wave-pool, note: The first route into the sport that does not require an ocean. }
+    - { label: Time to stand up reliably, value: Weeks to months, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Judged, on waves that arrive by chance, against a standard that changes every ride.
+  why: >
+    Elite surfing requires reading a sea, choosing which wave to take under
+    priority, and performing manoeuvres on a surface that will never repeat.
+    The physical demand is high and the perceptual demand — knowing which wave
+    will do what — is the part that separates the top and is invisible from the
+    beach.
+
+    What makes the ceiling unusual is that a competitor cannot control their
+    own opportunity. A surfer needs two good waves to arrive while they hold
+    priority. Heats have been lost by athletes who surfed better and were not
+    given anything to surf, and the sport has no mechanism to fix that because
+    no rule can schedule the ocean.
+
+    From 2028 that changes at Olympic level. In a wave pool everybody gets the
+    same wave, and the sport's ceiling becomes a question of execution alone.
+  evidence:
+    - label: Two-wave scoring
+      value: Best two count
+      basis: rule
+      rule: isa-two-wave-scoring
+      note: So a surfer needs two good waves to arrive during their priority.
+    - label: Priority
+      value: Allocates the choice, not the waves
+      basis: rule
+      rule: isa-priority-system
+    - label: Wave pool
+      value: Olympic venue from 2028
+      basis: rule
+      rule: isa-2025-wave-pool
+      note: Would remove the luck entirely, and a large part of the sport says it removes the sport with it.
+    - { label: Typical peak age, value: 22–32, basis: judgement }
+
+gap: >
+  Surfing is high at both ends, which puts it with gymnastics, weightlifting
+  and modern pentathlon — sports where the beginner's version is the elite
+  version at lower intensity and there is no easy way in.
+
+  Its distinctive feature on this board is that it is the only sport whose
+  central unfairness has a technological fix arriving on a known date. Rowing
+  cannot standardise its water. Sailing cannot standardise its wind. Golf built
+  a handicap because it could not standardise its courses. Surfing can
+  standardise its wave, and will, at the 2028 Games.
+
+  Whether that makes it a better sport or a different one is the most
+  interesting open question on this site, because it is the only case where a
+  federation has to choose between comparability and identity with both
+  genuinely available.
+
+shaped_by:
+  - isa-two-wave-scoring
+  - isa-2025-wave-pool

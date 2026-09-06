@@ -1,0 +1,81 @@
+sport: lacrosse
+standing: editorial
+summary: >
+  A sport with a genuine technical barrier at the door — you cannot do anything
+  until you can catch and throw with a stick — that has just designed a format
+  specifically to lower it.
+
+entry:
+  verdict: moderate
+  claim: A stick, a wall and several weeks before you can catch reliably.
+  why: >
+    Everything in lacrosse depends on cradling, catching and throwing with a
+    netted stick, and none of it is intuitive. A beginner cannot participate in
+    a game until those are reliable, which takes weeks of practice — but that
+    practice can be done alone against a wall, which is the sport's saving
+    grace and its traditional entry route.
+
+    Equipment cost is real in the men's game, where helmets, gloves and pads
+    are required. The women's game needs far less.
+
+    Sixes was designed to reduce all of this. Six players, a smaller field, no
+    specialist positions and no long sticks means a nation can field a
+    competitive team without a deep club system, which is precisely what World
+    Lacrosse intended.
+  evidence:
+    - { label: Prerequisite, value: Catching and throwing with a stick, basis: observation }
+    - { label: Practice alone, value: Possible, against a wall, basis: observation }
+    - { label: "Kit, men's game", value: Helmet, gloves, pads, basis: observation }
+    - { label: Sixes team size, value: "6", basis: rule, rule: lacrosse-2021-sixes, note: Designed to be enterable by nations without a club system. }
+    - { label: Time to play a game, value: Weeks, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: A carried ball that can be knocked out of your stick, at full speed, with a shot clock running.
+  why: >
+    Elite lacrosse combines the transition speed of ice hockey with the
+    stickwork demands of hockey and the physical contact of neither entirely.
+    Possession is precarious because the ball sits in a net that a legal check
+    can empty, so a player must protect it while running, passing and being
+    hit.
+
+    The shot clock, added internationally in 2019, removed the option of
+    holding possession and raised the tempo again.
+
+    Sixes compresses all of this. No specialists, a smaller field and a shot
+    clock means every player defends, attacks and transitions, which is a
+    broader demand than field lacrosse makes of most of its positions.
+  evidence:
+    - label: Shot clock
+      value: Since 2019
+      basis: rule
+      rule: lacrosse-2019-shot-clock
+      note: The third sport here to adopt one, after basketball and wrestling.
+    - label: Sixes
+      value: Invented 2021
+      basis: rule
+      rule: lacrosse-2021-sixes
+      note: No specialist positions, so every player must do everything.
+    - label: Haudenosaunee Nationals
+      value: Compete as a nation
+      basis: rule
+      rule: lacrosse-2018-haudenosaunee-recognition
+      note: Consistently among the strongest teams in the world.
+    - { label: Typical peak age, value: 24–30, basis: judgement }
+
+gap: >
+  Lacrosse sits at moderate to very high, and its interest on this board is
+  that the entry barrier is being deliberately lowered by rule.
+
+  Volleyball invented a position to widen its physical door. Cricket invented a
+  format to widen its temporal one. Lacrosse invented a format to widen its
+  institutional one: Sixes exists so that a country without a deep club system
+  or expensive equipment can field a competitive team, and it exists because
+  the Olympic programme demanded a version of lacrosse that would fit.
+
+  The commercial motive and the access outcome are the same act, which is
+  unusual. Most of the broadcast-driven changes on this site narrowed something.
+
+shaped_by:
+  - lacrosse-2021-sixes
+  - lacrosse-2019-shot-clock

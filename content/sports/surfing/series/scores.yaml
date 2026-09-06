@@ -1,0 +1,44 @@
+id: surfing-scores
+label: Heat scores
+unit: points
+absence_kind: impossible
+cannot_exist: >
+  A surfing score is a judgement about a ride on a wave that will never occur
+  again. Two surfers in the same heat do not get the same waves; two heats on
+  the same day do not have the same sea; and two events in different places are
+  not comparable in any respect at all.
+
+  This is the most extreme version of the problem rowing and sailing named
+  about themselves. Rowing has an uncontrolled variable and refuses to call its
+  times records. Sailing abandoned times and scores positions. Surfing cannot
+  even do that, because the competitors within a single heat are not attempting
+  the same task.
+
+  What makes this entry different from every other absence on this site is
+  that surfing is about to be able to fix it. An artificial wave pool produces
+  an identical wave on demand, and Olympic competition moves to one for 2028.
+  Every surfer would ride the same wave, and the sport would become comparable
+  for the first time in its history.
+
+  A large part of the sport regards that as the end of surfing rather than the
+  perfection of it. This site takes no position and notes only that no other
+  federation in this collection has ever had the option of removing its central
+  variable, and that surfing's is the only comparability problem here with a
+  technological solution.
+segments: []
+breaks:
+  - at: 1990
+    caused_by: isa-two-wave-scoring
+    kind: scale-change
+    note: >
+      A heat score became the sum of two judged waves out of ten. It measures
+      the best two rides a surfer was given the chance to take, not the best
+      two they could have taken.
+  - at: 2028
+    caused_by: isa-2025-wave-pool
+    kind: scale-change
+    note: >
+      An identical wave for every competitor. The comparability problem would
+      be solved, and a substantial part of the sport says the thing being
+      compared would no longer be surfing.
+source: isa-rules

@@ -1,0 +1,36 @@
+id: breaking-scores
+label: Battle results
+unit: percentage
+absence_kind: impossible
+cannot_exist: >
+  A Trivium result is a percentage split between two dancers in one battle. It
+  is not a score either of them received.
+
+  Gymnastics awards a difficulty value and an execution mark against a
+  published standard, so a routine has a number of its own. Diving multiplies a
+  judged mark by a tabulated degree of difficulty. Breaking does neither: a
+  judge moves a slider towards whichever dancer they thought was better on each
+  of five criteria, and the aggregate says who won and by how much.
+
+  That means there is nothing to chart. A dancer who wins 62–38 in one battle
+  and 55–45 in another has not produced two comparable performances; they have
+  beaten two different opponents by two different margins. Comparative judging
+  cannot generate a series by construction.
+
+  This is a deliberate design decision rather than an oversight, and a
+  defensible one. Breaking had no absolute scale to borrow, because forty years
+  of battles had been judged holistically by practitioners. Inventing one would
+  have meant asserting a standard the form did not have.
+
+  The site records it as impossible rather than unpublished for that reason.
+  There is no quantity here that anyone declined to publish.
+segments: []
+breaks:
+  - at: 2019
+    caused_by: wdsf-2019-trivium
+    kind: scale-change
+    note: >
+      A comparative judging system produces a result about a pairing, not a
+      measurement of a dancer. No breaking score means anything outside the
+      battle it came from.
+source: wdsf-breaking-rules
