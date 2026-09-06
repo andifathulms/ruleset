@@ -2,7 +2,8 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import LawCompare from '@/components/LawCompare'
 import { Reveal } from '@/components/Motion'
-import { getAllPlay, getSports } from '@/lib/content'
+import LearningBoard from '@/components/LearningBoard'
+import { getAllLearning, getAllPlay, getSports } from '@/lib/content'
 import { LAW_SECTIONS, LAW_SECTION_LABEL } from '@/lib/types'
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ const COLOUR: Record<string, string> = {
 
 export default function PlayPage() {
   const entries = getAllPlay()
+  const learning = getAllLearning()
   const sports = getSports()
   const sportMap = Object.fromEntries(sports.map((s) => [s.id, s]))
 
@@ -56,7 +58,24 @@ export default function PlayPage() {
         <LawCompare entries={entries} sports={sports} sections={sections} />
       </section>
 
-      <section className="mt-20 border-t chalk-rule pt-12">
+      <section className="mt-24 border-t chalk-rule pt-12">
+        <h2 className="font-display text-fluid-h2 text-chalk">
+          Easy to start, hard to be good at
+        </h2>
+        <div className="prose-measure mt-4 space-y-4 text-fluid-base text-chalk/85">
+          <p>
+            Almost every sport is easier to begin than to master. What is worth
+            recording is the size of the gap and the reason for it, which is
+            different in every case here — badminton&rsquo;s is caused by one
+            object, football&rsquo;s by the size of the field it has to get out
+            of, and gymnastics has barely any gap at all because it is hard from
+            the first session.
+          </p>
+        </div>
+        <LearningBoard entries={learning} sports={sports} />
+      </section>
+
+      <section className="mt-24 border-t chalk-rule pt-12">
         <h2 className="font-display text-fluid-h2 text-chalk">In full</h2>
         <ul className="mt-8 grid gap-px bg-chalk/15 sm:grid-cols-2 lg:grid-cols-3">
           {entries.map(({ sport, play }) => {

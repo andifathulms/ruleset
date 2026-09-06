@@ -71,8 +71,19 @@ export default function AboutPage() {
           </p>
           <p className="text-fluid-base">
             Read-only, static, and built for its author to read. There is no
-            ranking of sports against each other, no live data, and no estimated
-            numbers anywhere.
+            ranking of sports against each other and no live data.
+          </p>
+          <p className="text-fluid-base">
+            One layer is not sourced and is labelled as such wherever it
+            appears: the{' '}
+            <Link href="/play/#learning" className="link-paint text-chalk">
+              learning curve
+            </Link>{' '}
+            for each sport, which answers how hard it is to start and how hard
+            it is to be good at. Those are the author&rsquo;s verdicts on a
+            five-point scale, never a score out of ten and never summed or
+            averaged, and every piece of evidence under them says whether it is
+            a rule on this site, a checkable observation, or an estimate.
           </p>
         </div>
       </Reveal>

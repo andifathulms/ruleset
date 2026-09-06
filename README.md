@@ -41,6 +41,9 @@ scoring scale itself.
   written against nine canonical sections in a fixed order, so the same clause
   can be read across sports. `/play` asks one of those questions of every sport
   at once.
+- **Editorial** — `learning.yaml`: how hard a sport is to start and how hard to
+  be good at. This is the only layer that is not sourced, and it is labelled
+  editorial everywhere it appears.
 
 The current-law layer is deliberately not a neutral encyclopedia entry. Each
 clause lists the recorded rule changes that produced it and links to them, so
@@ -81,8 +84,11 @@ Uncovered sports show status and classification only and are marked as such.
     sport.yaml           identity, governing body, classification
     rules.yaml           every rule change
     play.yaml            the laws in force, in nine canonical sections
+    learning.yaml        barrier to entry and barrier to the top, editorial
+    events.yaml          the discipline and event tree
     series/*.yaml        a series with its segments and its break
-    0*.mdx               origin, equipment, politics, controversies
+    0*.mdx               origin, equipment, politics, controversies,
+                         officiating, geography, contested
 /lib
   types.ts               the data model
   content.ts             build-time loaders
@@ -90,6 +96,9 @@ Uncovered sports show status and classification only and are marked as such.
   series.ts              segment handling — the hard rules live here
 /components
   CurrentLaws.tsx        the laws in force, linked back to what produced them
+  LearningCurve.tsx      two verdicts, with what each rests on
+  LearningBoard.tsx      both verdicts for every sport, ordered by the gap
+  EventTree.tsx          sport to discipline to event
   LawCompare.tsx         one clause read across every sport
   Timeline.tsx           the spine
   SeriesChart.tsx        segments that cannot be joined
@@ -101,6 +110,25 @@ Uncovered sports show status and classification only and are marked as such.
   SiteHeader.tsx         sticky nav that condenses on scroll
   SectionNav.tsx         where in a sport page you are
 ```
+
+## The editorial layer
+
+`learning.yaml` is the one part of this site that is not sourced, and it exists
+because "is badminton easy?" is a real question that no amount of citation
+answers. It is handled as follows, and the handling is the point:
+
+- Two verdicts on a **five-point ordinal**, never a score out of ten. Nothing is
+  ever summed, averaged or ranked, because "twice as hard" is not measurable.
+  `LearningBoard` deliberately shows two aligned scales rather than a scatter,
+  since a scatter puts ordinals at coordinates and invites the eye to measure
+  distances that do not exist.
+- Every piece of evidence declares its **basis**: `rule` (a sourced rule change
+  on this site, which it links to), `observation` (a checkable fact), or
+  `judgement` (an estimate, shown in `unmarked` and tagged *estimate*).
+- The loader **fails the build** if an item claims a rule basis without naming a
+  rule, or names a rule the sport does not have.
+- The word *editorial* appears at the top of the section, under each verdict,
+  and on every unsourced row.
 
 ## Design
 
