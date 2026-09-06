@@ -38,7 +38,11 @@ export default function SportsIndex() {
         <h1 className="display-xl mt-4 max-w-[16ch] text-fluid-h1 text-chalk">Sports</h1>
         <p className="prose-measure mt-5 text-fluid-lead text-chalk/85">
           {deep.length} sports have researched rule changes with a cause and a
-          citation apiece. The other {skeletonOnly.length} are present as Olympic
+          citation apiece, and their{' '}
+          <Link href="/play/" className="link-paint text-chalk">
+            laws in force
+          </Link>{' '}
+          written out. The other {skeletonOnly.length} are present as Olympic
           status data only and carry none of that authority.
         </p>
       </Reveal>

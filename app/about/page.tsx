@@ -2,7 +2,9 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { MarkGlyph } from '@/components/Mark'
 import { Reveal } from '@/components/Motion'
-import { getAllRuleChanges, getAllSeries, getCauses, getLenses, getSports } from '@/lib/content'
+import {
+  getAllPlay, getAllRuleChanges, getAllSeries, getCauses, getLenses, getSports,
+} from '@/lib/content'
 
 export const metadata: Metadata = {
   title: 'About',
@@ -43,6 +45,7 @@ export default function AboutPage() {
   const rules = getAllRuleChanges()
   const series = getAllSeries()
   const sports = getSports()
+  const play = getAllPlay()
 
   return (
     <div className="mx-auto max-w-[86rem] px-5 py-12 sm:py-16">
@@ -55,6 +58,16 @@ export default function AboutPage() {
             a date, a citation, and a measurable consequence. The consequence is
             often that a number series stops being continuous, and that is the
             part nobody records systematically.
+          </p>
+          <p className="text-fluid-base">
+            It also says what the rules are now. Each covered sport has its{' '}
+            <Link href="/play/" className="link-paint text-chalk">
+              laws in force
+            </Link>{' '}
+            written out against nine questions asked in the same order of every
+            sport — and each clause links to the recorded changes that produced
+            it, so the current law reads as the output of the timeline rather
+            than as facts that were always true.
           </p>
           <p className="text-fluid-base">
             Read-only, static, and built for its author to read. There is no
@@ -159,7 +172,16 @@ export default function AboutPage() {
             have researched rule changes;{' '}
             <span className="numeral text-chalk">{rules.length}</span> rule
             changes and <span className="numeral text-chalk">{series.length}</span>{' '}
-            series are recorded.
+            series are recorded, and{' '}
+            <span className="numeral text-chalk">{play.length}</span> have their
+            laws in force written out.
+          </p>
+          <p>
+            Those law summaries carry the same standing as the citations, and
+            the same warning: the figures were entered from the named edition
+            but have not been checked against its text line by line. They are
+            this site&rsquo;s reading of the laws and not a substitute for them,
+            which is why every one of them links to the rulebook itself.
           </p>
           <p>
             Two of those series carry no figures. Football&rsquo;s goals per game

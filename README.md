@@ -24,7 +24,7 @@ workflow works out `BASE_PATH` from the repository name.
 
 ## What is here
 
-Two layers, marked as such everywhere:
+Three layers, marked as such everywhere:
 
 - **Skeleton** — 47 sports across 31 editions in `content/program.yaml`. Status
   per edition only, sourced to Olympedia, carrying no causes and no rule
@@ -36,6 +36,16 @@ One from each family, because a "rule" is a structurally different object in
 each: racket sports legislate scoring, measured sports legislate the implement,
 invasion sports legislate space and time, and judged sports legislate the
 scoring scale itself.
+
+- **Current law** — `play.yaml` per deep sport: what the rules actually say now,
+  written against nine canonical sections in a fixed order, so the same clause
+  can be read across sports. `/play` asks one of those questions of every sport
+  at once.
+
+The current-law layer is deliberately not a neutral encyclopedia entry. Each
+clause lists the recorded rule changes that produced it and links to them, so
+badminton's serve section carries 2018 and its scoring section carries 2006. The
+current law is the accumulated output of the timeline, and says so.
 
 ## The five rules this codebase enforces
 
@@ -70,6 +80,7 @@ Uncovered sports show status and classification only and are marked as such.
   /sports/<sport>
     sport.yaml           identity, governing body, classification
     rules.yaml           every rule change
+    play.yaml            the laws in force, in nine canonical sections
     series/*.yaml        a series with its segments and its break
     0*.mdx               origin, equipment, politics, controversies
 /lib
@@ -78,6 +89,8 @@ Uncovered sports show status and classification only and are marked as such.
   timeline.ts            lanes, marks, and the break-in-the-lane geometry
   series.ts              segment handling — the hard rules live here
 /components
+  CurrentLaws.tsx        the laws in force, linked back to what produced them
+  LawCompare.tsx         one clause read across every sport
   Timeline.tsx           the spine
   SeriesChart.tsx        segments that cannot be joined
   RuleList.tsx           a rule change in full
@@ -131,6 +144,11 @@ cited source, so both state that in place of a chart. Gymnastics is the
 different case — there, no series can exist at all, and the distinction between
 "impossible" and "merely unpublished" is recorded in the data as
 `absence_kind`.
+
+The law summaries carry the same standing as the citations and the same warning
+in the interface: the figures were entered from the named edition but have not
+been checked against its text line by line. They are this site's reading of the
+laws, not a substitute for them, and every one links to the rulebook itself.
 
 Most citations name the right edition without a confirmed article number. Every
 one of those renders as incomplete, and `/sources` counts them. Promoting a
