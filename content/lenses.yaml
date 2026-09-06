@@ -122,3 +122,55 @@
       label: Combat
       colour: clay
       members: [judo, taekwondo, boxing, fencing, wrestling, karate]
+
+# The fourth lens, and the only one derived from data on this site rather than
+# from a published taxonomy: the groups are computed from content/programmes,
+# and the members below are that computation written down.
+#
+# Two of its lanes are empty. That is the finding, not a defect — this site has
+# researched thirty-nine sports and every one of them is Olympic, so the lanes
+# for sports contested only away from the Games have nothing on them.
+- id: standing
+  label: Standing
+  blurb: >
+    How a sport holds its place. Eighteen of the thirty-seven sports on the
+    2028 programme have been removed from it and brought back at least once,
+    which is the single most surprising number on this site: a place on the
+    programme is not a settled thing, and the rule changes that follow a
+    removal read differently once you know that.
+  source: null
+  groups:
+    - id: never-off
+      label: Never off
+      colour: pool
+      members: [athletics, cycling, fencing, gymnastics, rowing, swimming]
+    - id: restored
+      label: Removed, restored
+      colour: gold
+      members: [archery, baseball, boxing, cricket, equestrian, football, golf,
+                handball, hockey, judo, lacrosse, rugby, sailing, shooting,
+                softball, tennis, weightlifting, wrestling]
+    - id: added
+      label: Added and kept
+      colour: pitch
+      members: [badminton, basketball, canoeing, flag-football, modern-pentathlon,
+                skateboarding, sport-climbing, squash, surfing, table-tennis,
+                taekwondo, triathlon, volleyball]
+    - id: dropped
+      label: Admitted, dropped
+      colour: clay
+      members: [breaking, karate]
+    - id: lapsed
+      label: Lapsed pre-1940
+      colour: unmarked
+      members: [tug-of-war, polo, croquet, basque-pelota, roque, jeu-de-paume,
+                rackets, motorboating]
+    - id: elsewhere
+      label: Never Olympic
+      colour: unmarked
+      members: [kabaddi, sepak-takraw, wushu, korfball, dragon-boat, esports,
+                powerlifting, orienteering, ju-jitsu, kurash, sumo, fistball,
+                floorball, flying-disc, lifesaving, muaythai, kickboxing,
+                racquetball, soft-tennis, board-games, bridge, air-sports,
+                billiards, boules, bowling, cheerleading, dancesport, duathlon,
+                finswimming, roller-sports, underwater-sports, waterski-wakeboard]
