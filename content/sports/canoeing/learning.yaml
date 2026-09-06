@@ -1,0 +1,86 @@
+sport: canoeing
+standing: editorial
+summary: >
+  Two very different learning curves under one federation. A kayak on flat
+  water is among the easier boats on this site to become competent in; a canoe
+  kneeling with a single blade, or any boat in whitewater, is not.
+
+entry:
+  verdict: moderate
+  claim: A club, a boat and water. The kayak is forgiving; the canoe is not.
+  why: >
+    Flat-water kayaking is learnable quickly — a double-bladed paddle is
+    intuitive and a stable club boat forgives a beginner. Most people can
+    paddle usefully within a session.
+
+    A racing kayak is a different object entirely, narrow enough that a novice
+    capsizes repeatedly, and a **canoe** — kneeling on one knee, single blade,
+    no rudder — requires holding a straight line by paddle technique alone,
+    which takes months.
+
+    Slalom adds whitewater, which cannot be practised gradually in the way flat
+    water can, and requires a course. Artificial courses are expensive
+    facilities and there are not many of them.
+
+    Access is the binding constraint throughout: a club, a boat you cannot
+    afford alone, and water of the right kind.
+  evidence:
+    - { label: Facility, value: Water, and a whitewater course for slalom, basis: observation }
+    - { label: Kit to start, value: A club boat, basis: observation }
+    - { label: Kayak, value: Seated, double blade, basis: observation, note: The forgiving entry point. }
+    - { label: Canoe, value: Kneeling, single blade, basis: observation, note: Holding a line is the skill. }
+    - { label: Time to paddle competently, value: Weeks in a kayak, months in a canoe, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Fifty seconds for a missed gate, and a discipline that only added women's events in 2021.
+  why: >
+    Sprint is a pure physiological contest at 200 m and an endurance one at
+    1000 m, with the technical demand of holding a racing boat at speed. Its
+    times are best times rather than records, because wind and water are not
+    standardised — the same position rowing takes.
+
+    Slalom's ceiling has an unusual shape. A missed gate costs fifty seconds,
+    which is more than the spread of an entire elite field, so the sport
+    punishes a single error more severely than almost anything else here. A
+    run is a sustained sequence of decisions in which one mistake is
+    terminal.
+
+    And the sport's own history is part of any honest account of its ceiling.
+    Women could not contest Olympic canoe events at all until 2021. Athletes
+    who spent careers in canoe classes had no Olympic pathway, which is a
+    ceiling imposed by rule rather than by ability.
+  evidence:
+    - label: "Women's canoe"
+      value: Olympic only from 2021
+      basis: rule
+      rule: icf-2020-womens-canoe
+      note: The latest correction of a single-sex exclusion on this site.
+    - label: Missed gate
+      value: 50 s
+      basis: rule
+      rule: icf-slalom-penalties
+      note: More than the spread of an elite field. One error ends a run.
+    - label: Kayak cross
+      value: Added 2024
+      basis: rule
+      rule: icf-2024-kayak-cross
+      note: Contact permitted, and a required roll — a different sport inside the discipline.
+    - { label: Typical peak age, value: 25–32, basis: judgement }
+
+gap: >
+  Canoeing sits at moderate to very high and its interest here is that it
+  contains two sports with different problems.
+
+  Sprint has rowing's problem — a standardised distance on unstandardised water
+  — and takes rowing's answer, recognising best times rather than records.
+  Slalom has surfing's problem in a controllable form: a course that is
+  different every time, which the sport has solved by building artificial
+  channels rather than by adjusting what its numbers claim.
+
+  Those two responses to the same underlying difficulty, inside one federation,
+  are the reason canoeing is worth having on this board.
+
+shaped_by:
+  - icf-slalom-penalties
+  - icf-2020-womens-canoe

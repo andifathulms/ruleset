@@ -1,0 +1,131 @@
+sport: canoeing
+as_of: 2026-09
+edition: ICF Competition Rules, per discipline
+source: icf-rules
+standing: primary-named
+summary: >
+  Two boats and two sports. A kayak is paddled seated with a double-blade
+  paddle; a canoe is paddled kneeling with a single blade. Sprint races them in
+  a straight line on flat water; slalom sends them down whitewater through
+  hanging gates. The federation governs both and they have almost nothing else
+  in common.
+
+sections:
+  - id: object
+    label: The object of the race
+    body: >
+      In sprint, cross the line first over a set distance in a marked lane. In
+      slalom, descend a whitewater course through numbered gates in the least
+      time, with penalties added for touching or missing them. In kayak cross,
+      four boats descend together and the first down wins.
+
+      Slalom is therefore a measured event with a penalty structure, and kayak
+      cross — added in 2024 — is a race with contact permitted. The same
+      discipline now contains both.
+
+  - id: field
+    label: The course
+    body: >
+      Sprint uses a flat-water course in buoyed lanes. Slalom uses whitewater,
+      increasingly artificial: a purpose-built channel with controllable flow,
+      the first of which was built for the 1972 Games.
+
+      Slalom gates are hung fresh for each competition, so the course is
+      different at every event and the times are not comparable between them.
+    facts:
+      - { label: Sprint distances, value: 200 m and 500 m and 1000 m }
+      - { label: Sprint lanes, value: "9" }
+      - { label: Slalom gates, value: Up to 25, set per competition }
+      - { label: Upstream gates, value: Must be negotiated against the flow }
+    shaped_by: [icf-1972-slalom-added]
+
+  - id: equipment
+    label: Canoe and kayak
+    body: >
+      The distinction that names the sport. A **kayak** is paddled from a seated
+      position with a double-bladed paddle and steered with a rudder in sprint.
+      A **canoe** is paddled kneeling on one knee with a single-bladed paddle
+      and no rudder, which makes holding a straight line a skill in itself.
+
+      Boats are specified by minimum length and weight, and slalom boats by
+      minimum width — a limit set after composite construction had made them
+      progressively narrower and faster.
+    facts:
+      - { label: Kayak, value: Seated, double blade }
+      - { label: Canoe, value: Kneeling, single blade }
+      - { label: "K1 sprint, minimum", value: 12 kg }
+      - { label: Slalom boat width, value: Minimum specified }
+    shaped_by: [icf-boat-specifications]
+
+  - id: players
+    label: Paddlers and officials
+    body: >
+      Solo, pairs and fours in sprint; solo in slalom; four at a time in kayak
+      cross. Gate judges assess slalom penalties, and video review supports
+      them.
+
+      Until 2021, Olympic women could compete only in kayak. Canoe classes —
+      kneeling, single blade — were men's events at the Games, and women's canoe
+      was added for Tokyo by removing men's events to fit the quota. It is the
+      latest correction of a single-sex exclusion of any sport on this site.
+    shaped_by: [icf-2020-womens-canoe]
+
+  - id: duration
+    label: Format
+    body: >
+      Sprint heats and finals over a day or two, with races lasting from about
+      thirty seconds at 200 m to around three and a half minutes at 1000 m.
+
+      Slalom runs a timed descent of about ninety seconds, in heats,
+      semi-finals and a final, with each round run afresh. Kayak cross is a
+      knockout bracket of four-boat heats.
+    facts:
+      - { label: Slalom run, value: About 90 s }
+      - { label: "Sprint 200 m", value: Around 35 s }
+      - { label: Kayak cross, value: Four boats, knockout }
+    shaped_by: [icf-2024-kayak-cross]
+
+  - id: scoring
+    label: Timing and penalties
+    body: >
+      Sprint is a time, recorded to a thousandth of a second, and the sport
+      recognises best times rather than records — the same position rowing
+      takes, and for the same reason: wind and water are not standardised.
+
+      Slalom is a time plus penalties. Two seconds for touching a gate, fifty
+      for missing one. Fifty seconds is larger than the spread of an entire
+      field, so missing a gate ends a run's chances outright, while a fast
+      messy descent can still lose to a slower clean one.
+    facts:
+      - { label: Gate touch, value: 2 s }
+      - { label: Gate missed, value: 50 s }
+      - { label: Sprint timing, value: 0.001 s }
+      - { label: Records, value: Best times, not world records }
+    shaped_by: [icf-slalom-penalties]
+
+  - id: restarts
+    label: Starts
+    body: >
+      Sprint uses a starting gate holding the boats level. Slalom runs are
+      individual and timed from a start line. Kayak cross starts with all four
+      boats dropping from a raised ramp into the water simultaneously, which is
+      the most abrupt start of anything on this site.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      In sprint: leaving your lane to another competitor's disadvantage, and
+      false starting. In slalom: negotiating a gate in the wrong direction or
+      order, and the gate penalties themselves.
+
+      Kayak cross is the exception and the reason it sits oddly beside the
+      rest. Contact between boats is permitted, and a competitor must perform a
+      required roll at a designated point — deliberately capsizing and
+      recovering — which no other event in the sport asks for.
+    shaped_by: [icf-2024-kayak-cross]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      First across the line in sprint and kayak cross; lowest time plus
+      penalties in slalom.

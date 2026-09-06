@@ -1,0 +1,135 @@
+- id: icf-1972-slalom-added
+  scope: { sport: canoeing, discipline: slalom }
+  date_adopted: 1971
+  date_effective: 1972
+  status: adopted
+  governing_body: International Canoe Federation
+  what_changed: >
+    Slalom canoeing was contested at the Olympic Games for the first time, at
+    Munich in 1972, on a purpose-built artificial course. It was then dropped
+    and did not return until 1992.
+
+    Munich's course was the first artificial whitewater channel built for
+    competition, and it began the sport's transition from natural rivers to
+    engineered ones.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Natural whitewater is unpredictable, inaccessible to spectators and
+      impossible to schedule. An artificial course puts the sport in one place
+      at a known time with a controllable water flow.
+  citation:
+    source: icf-rules
+    edition: ICF Canoe Slalom Competition Rules, 1972
+    missing: true
+  comparability_break: canoe-slalom-times
+
+- id: icf-2020-womens-canoe
+  scope: { sport: canoeing, discipline: all }
+  date_adopted: 2017
+  date_effective: 2021
+  status: adopted
+  governing_body: International Canoe Federation
+  what_changed: >
+    Women's canoe events — as distinct from kayak — were added to the Olympic
+    programme for the first time, in both sprint and slalom, by removing men's
+    events to make room within the athlete quota.
+
+    Until then, Olympic women could compete only in kayak. The canoe classes,
+    paddled kneeling with a single-blade paddle, were men's events only.
+  cause_primary: participation and access
+  cause_secondary: commercial
+  trigger:
+    description: >
+      The IOC's requirement for gender parity across the programme forced the
+      issue. The federation had run women's canoe world championship events for
+      years without them reaching the Games.
+    also_said: >
+      This is the latest single-sex exclusion of any sport on this site to be
+      corrected — later than boxing's admission of women in 2012, and eighty-five
+      years after canoeing entered the programme. The reasons given historically
+      for excluding women from canoe classes did not survive examination.
+  citation:
+    source: icf-rules
+    edition: ICF competition rules, 2021
+    missing: true
+  comparability_break: null
+
+- id: icf-2024-kayak-cross
+  scope: { sport: canoeing, discipline: slalom }
+  date_adopted: 2022
+  date_effective: 2024
+  status: adopted
+  governing_body: International Canoe Federation
+  what_changed: >
+    Kayak cross was added to the Olympic programme: four paddlers descending a
+    whitewater course together, starting by dropping from a ramp, with contact
+    permitted and a required roll. It replaces a timed technical descent with a
+    head-to-head race.
+
+    Slalom is measured; kayak cross is a race in which competitors interfere
+    with each other. They are different kinds of contest inside the same
+    discipline.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Slalom is a time trial run one boat at a time, so a spectator watching
+      cannot tell who is winning without a scoreboard. Kayak cross puts four
+      boats on the course at once and the winner is the one in front.
+  citation:
+    source: icf-rules
+    edition: ICF Kayak Cross Competition Rules, 2024
+    missing: true
+  comparability_break: null
+
+- id: icf-slalom-penalties
+  scope: { sport: canoeing, discipline: slalom }
+  date_adopted: 1990
+  date_effective: 1990
+  status: adopted
+  governing_body: International Canoe Federation
+  what_changed: >
+    Slalom penalties were simplified to two: two seconds for touching a gate,
+    fifty seconds for missing one. The earlier system had graded penalties for
+    different kinds of touch and different degrees of error.
+
+    A result is therefore a time plus penalties, which means a fast run with
+    two touches can lose to a slower clean one — and a missed gate ends any
+    realistic chance, because fifty seconds is more than the spread of a whole
+    field.
+  cause_primary: fairness and eligibility
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Graded penalties required judges to assess the severity of a touch, which
+      was inconsistent and difficult to explain. Two penalties, both large, are
+      unambiguous.
+  citation:
+    source: icf-rules
+    edition: ICF Canoe Slalom Competition Rules
+    missing: true
+  comparability_break: canoe-slalom-times
+
+- id: icf-boat-specifications
+  scope: { sport: canoeing, discipline: all }
+  date_adopted: 2000
+  date_effective: 2000
+  status: adopted
+  governing_body: International Canoe Federation
+  what_changed: >
+    Minimum boat lengths and weights were specified by class, and slalom boats
+    in particular were given a minimum width after designs had become
+    progressively narrower and faster through gates.
+  cause_primary: equipment and technology
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Composite construction had let slalom boats become extremely narrow,
+      which made them faster and less stable and pushed the sport towards an
+      equipment race. Setting a minimum width froze the design.
+  citation:
+    source: icf-rules
+    edition: ICF competition rules, boat specifications
+    missing: true
+  comparability_break: null

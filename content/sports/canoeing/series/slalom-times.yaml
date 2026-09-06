@@ -1,0 +1,41 @@
+id: canoe-slalom-times
+label: Slalom times
+unit: s
+higher_is_better: false
+absence_kind: impossible
+cannot_exist: >
+  A canoe slalom result is a run time plus penalties, on a course that is
+  different at every event and different again depending on where the gates
+  were hung that morning.
+
+  Nothing about it is comparable. The water flow varies, the gate positions are
+  set for each competition, and artificial courses differ from each other and
+  from natural rivers. A time from one venue means nothing at another, and the
+  federation has never suggested otherwise.
+
+  Sprint is the opposite case and belongs in the same entry for contrast. A
+  1000 m sprint on flat water is closer to rowing's problem: a standardised
+  distance, in lanes, with wind and water that nobody controls. Rowing decided
+  its times were world best times rather than records, and canoeing recognises
+  best times in the same way and for the same reason.
+
+  So this federation runs one discipline whose times cannot be compared because
+  the course changes, and another whose times cannot be compared because the
+  conditions do — and it has handled both by declining to claim they are a
+  series.
+segments: []
+breaks:
+  - at: 1972
+    caused_by: icf-1972-slalom-added
+    kind: scale-change
+    note: >
+      Artificial courses began replacing natural rivers, and every course is
+      different from every other. There has never been a comparable slalom
+      time.
+  - at: 1990
+    caused_by: icf-slalom-penalties
+    kind: scale-change
+    note: >
+      Graded penalties became two seconds for a touch and fifty for a miss. A
+      result is a time plus a penalty structure, and the structure changed.
+source: icf-rules
