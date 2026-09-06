@@ -26,9 +26,13 @@ workflow works out `BASE_PATH` from the repository name.
 
 Three layers, marked as such everywhere:
 
-- **Skeleton** — 47 sports across 31 editions in `content/program.yaml`. Status
-  per edition only, sourced to Olympedia, carrying no causes and no rule
-  citations.
+- **Skeleton** — three programmes under `content/programmes/`: the Olympic
+  Games (47 sports, 31 editions), the Asian Games (45 sports) and the World
+  Games (31 sports). Status per edition only, carrying no causes and no rule
+  citations. Each programme names the editions whose rosters have actually
+  been entered; every other column is hatched rather than blank, because
+  "nobody checked" and "absent" are not the same claim and must not be drawn
+  the same way.
 - **Deep** — thirty-nine sports: badminton, athletics, football, gymnastics,
   swimming, table tennis, basketball, cycling, judo, archery, volleyball,
   tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo,
@@ -36,10 +40,11 @@ Three layers, marked as such everywhere:
   shooting, hockey, triathlon, squash, surfing, lacrosse, breaking, rugby,
   handball, canoeing, skateboarding, karate, softball and flag football.
 
-  That is every sport on the 2028 summer programme. The eight that remain in the
-  skeleton — tug of war, polo, rackets, roque, croquet, jeu de paume, basque
-  pelota and motorboating — lapsed from the programme before 1940 and carry
-  status and classification only.
+  That is every sport on the 2028 summer programme. Forty more sit in the
+  skeleton: eight that lapsed from the Olympic programme before 1940, and
+  thirty-two — kabaddi, sepak takraw, wushu, korfball, dragon boat, esports
+  and the rest — that have never been on it and are contested at the Asian or
+  World Games instead.
 
 The first five were one per family, because a "rule" is a structurally
 different object in each: racket sports legislate scoring, measured sports
@@ -123,6 +128,38 @@ whether it belongs:
   the tackle taken out — the only sport here whose founding rule is a
   subtraction.
 
+## Where a sport is contested
+
+The Olympic programme used to do two jobs here: it was the skeleton layer, and
+it was the boundary of what counted as a sport. An event carried `olympic: true`
+or `false` — and a boolean can only say "not on the programme", so compound
+archery, high diving and canoe polo all read as the same kind of absence when
+they are three different ones.
+
+Events now carry `at`: a list over `olympic`, `paralympic`, `asian-games`,
+`world-games`, `world-championship`, `professional`, `federation-only` and
+`lapsed`. The list has no default, and the build refuses an event without one —
+an unchecked event used to be indistinguishable from one checked and found
+non-Olympic. Rows that are not competitions at all (a governing body, modern
+pentathlon's five components, weightlifting's two lifts) carry `context: true`
+and are not given a status they cannot have.
+
+The point of the change is that the Olympic boundary is itself a rule change
+with a cause and a date, which is the object this site was built to hold.
+Compound archery has been proposed and turned down repeatedly. Karate was
+admitted by one host city and dropped by the next. Squash spent decades at the
+World Games while the Games declined it. Some of those were already full rule
+entries and the rest were parentheticals; now they are the same kind of thing.
+
+The fourth lens, **Standing**, is the payoff, and it is the only lens derived
+from this site's own data rather than a published taxonomy. It groups sports by
+how they hold their place, and it produced the most surprising number here:
+**eighteen of the thirty-seven sports on the 2028 programme have been removed
+from it and brought back at least once**, accounting for 96 of the 201 rule
+changes. Two of its six lanes are empty and stay empty — this site has
+researched thirty-nine sports and every one of them is Olympic, which is a fact
+about the coverage and belongs on the board.
+
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause
   can be read across sports. `/play` asks one of those questions of every sport
@@ -162,8 +199,11 @@ Uncovered sports show status and classification only and are marked as such.
 
 ```
 /content
-  program.yaml           skeleton layer — status per edition
-  lenses.yaml            three classification schemes
+  programmes/
+    olympic.yaml         skeleton layer — status per edition
+    asian-games.yaml
+    world-games.yaml
+  lenses.yaml            four classification schemes
   causes.yaml            closed cause vocabulary
   sources.yaml           every source, with its standing
   /sports/<sport>
