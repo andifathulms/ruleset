@@ -1,0 +1,154 @@
+sport: tennis
+as_of: 2026-09
+edition: ITF Rules of Tennis, with Grand Slam conditions where they differ
+source: itf-rules-of-tennis
+standing: primary-named
+summary: >
+  Hit the ball over the net into the opponent's court until they cannot return
+  it. Tennis's distinguishing feature among the sports here is its scoring,
+  which is inherited rather than designed: points go 15, 30, 40, games go to
+  four, sets to six, and none of it is arithmetic anyone would choose. The
+  sport has spent fifty years patching that system rather than replacing it.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Win points, which win games, which win sets, which win the match.
+      Tennis is the only sport on this site with three nested scoring layers,
+      and that nesting is what makes it dramatic and what makes its length
+      unpredictable: a player can win more points than their opponent and lose
+      the match, and this happens regularly rather than as a curiosity.
+
+      The ball may bounce once before it is struck, and must land inside the
+      opponent's court.
+
+  - id: field
+    label: The court
+    body: >
+      A rectangle with tramlines used only in doubles, a service box on each
+      side, and a net lower in the middle than at the posts. Unusually among
+      the sports here, the surface is not standardised: grass, clay and hard
+      courts produce measurably different bounce and speed, and the sport
+      treats that variation as a feature.
+    facts:
+      - { label: Court length, value: 23.77 m }
+      - { label: "Width, singles", value: 8.23 m }
+      - { label: "Width, doubles", value: 10.97 m }
+      - { label: Net at centre, value: 0.914 m }
+      - { label: Net at posts, value: 1.07 m }
+      - { label: Surfaces, value: Grass, clay, hard, note: Not standardised. No other measured or scored sport here permits this much variation. }
+    citation:
+      source: itf-rules-of-tennis
+      article: "Rule 1"
+
+  - id: equipment
+    label: Racket and ball
+    body: >
+      The racket was essentially unspecified for a century, which was fine
+      until 1977, when double-strung "spaghetti" rackets produced spin that
+      unranked players used to beat professionals. The rules were amended
+      within a year to require interlaced stringing — the first time tennis had
+      had to write down what a racket was.
+
+      Frame materials went from wood to metal to graphite composite without any
+      rule change at all, and that transformation was far larger in its effect
+      on the sport than the stringing ban. Tennis regulated the string pattern
+      and left the frame alone.
+    facts:
+      - { label: Strings, value: Must be interlaced }
+      - { label: Racket length, value: 73.7 cm max }
+      - { label: Ball diameter, value: 6.54–6.86 cm }
+      - { label: Ball bounce, value: 135–147 cm, note: From a 254 cm drop onto concrete. }
+    shaped_by: [itf-1978-spaghetti-string-ban]
+    citation:
+      source: itf-rules-of-tennis
+      article: "Rule 4"
+
+  - id: players
+    label: Players and officials
+    body: >
+      Singles, doubles and mixed doubles. A chair umpire runs the match,
+      supported historically by line judges — a role that tour-level tennis
+      abolished outright in 2025 when electronic line calling took over every
+      call in real time.
+
+      Tennis is the first sport on this site to remove a category of official
+      rather than give them technology to check their work.
+    shaped_by: [itf-2025-electronic-line-calling, itf-2006-electronic-review]
+
+  - id: duration
+    label: Format
+    body: >
+      Best of three sets, or best of five for men at the Grand Slams. There is
+      no clock, and until 1970 there was no upper bound on a match at all.
+
+      The 2010 Isner–Mahut match at Wimbledon ran eleven hours and five minutes
+      across three days, its final set finishing 70–68. The tiebreak had existed
+      for forty years by then; it simply was not applied to the deciding set at
+      that tournament. All four Grand Slams finally adopted the same
+      deciding-set rule in 2022.
+    facts:
+      - { label: Sets, value: Best of 3, or 5 }
+      - { label: Deciding set, value: 10-point tiebreak at 6–6 }
+      - { label: Harmonised across the Slams, value: "2022" }
+    shaped_by: [itf-2019-final-set-tiebreaks, itf-2022-final-set-harmonised]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Points run 15, 30, 40, game, with deuce and advantage at 40–40. A set
+      goes to six games, won by two, with a tiebreak at six all. None of this
+      is designed; it is inherited from the 1870s and probably from a clock
+      face before that.
+
+      The tiebreak, invented in 1970, is the one piece of deliberate design in
+      the system, and it was bolted on rather than integrated. Tennis is the
+      only racket sport on this site that did not rewrite its scoring for
+      broadcast when the others did.
+    facts:
+      - { label: Points, value: "15, 30, 40, game" }
+      - { label: Set, value: 6 games, win by 2 }
+      - { label: Tiebreak, value: 7 points, win by 2 }
+      - { label: Deciding set tiebreak, value: 10 points }
+    shaped_by: [itf-1970-tiebreak, itf-2022-final-set-harmonised]
+    citation:
+      source: itf-rules-of-tennis
+      article: "Rules 5 to 7"
+
+  - id: restarts
+    label: The serve
+    body: >
+      Two attempts per point, struck from behind the baseline diagonally into
+      the opposite service box. The second serve is unique on this site: no
+      other sport gives a player a free failed attempt at the action that
+      starts the point, and the whole risk structure of tennis rests on it.
+
+      A serve that touches the net and lands in is a let and is replayed —
+      which volleyball abolished in 2000 and tennis has kept.
+    facts:
+      - { label: Serves per point, value: "2" }
+      - { label: Net cord on serve, value: Let, replayed }
+      - { label: Foot fault, value: Called on contact with the baseline }
+
+  - id: prohibitions
+    label: Losing the point
+    body: >
+      Failing to return the ball into the court; letting it bounce twice;
+      touching the net while the ball is in play; being struck by the ball;
+      hitting it before it crosses the net; a double fault. Hindrance —
+      deliberately distracting an opponent — is the one judgement call, and it
+      is rare.
+
+      Tennis also polices conduct through a code of penalties escalating from
+      warning to point to game to default, which is unusually formalised for a
+      non-contact sport and exists because the sport's history contains a lot
+      of arguing with officials.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Two sets out of three, or three out of five. There is no draw. Since 2022
+      every Grand Slam ends a deciding set the same way, which had not been true
+      at any point in the previous fifty-two years.
+    shaped_by: [itf-2022-final-set-harmonised]

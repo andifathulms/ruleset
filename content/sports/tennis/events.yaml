@@ -1,0 +1,31 @@
+sport: tennis
+as_of: 2026-09
+source: itf-rules-of-tennis
+standing: primary-named
+summary: >
+  Five Olympic events, the same shape as badminton's, but the Olympic
+  tournament is not this sport's main competition and everyone involved knows
+  it. Tennis is one of the few sports here whose four most important events are
+  run by nobody on this page — the Grand Slams are independent tournaments that
+  set some of their own conditions.
+disciplines:
+  - id: tennis
+    label: Tennis
+    events:
+      - { id: ms, label: "Men's singles", olympic: true }
+      - { id: ws, label: "Women's singles", olympic: true }
+      - { id: md, label: "Men's doubles", olympic: true }
+      - { id: wd, label: "Women's doubles", olympic: true }
+      - { id: xd, label: Mixed doubles, olympic: true, note: "Restored in 2012 after an 88-year absence." }
+  - id: majors
+    label: The competitions that actually matter
+    counts: false
+    blurb: >
+      Listed because a sport's event structure is not the same as its Olympic
+      programme, and in tennis the gap is wider than anywhere else on this site.
+    events:
+      - { id: ao, label: Australian Open, note: Hard court. }
+      - { id: rg, label: Roland-Garros, note: Clay. The only major on the surface. }
+      - { id: wim, label: Wimbledon, note: Grass. Held out longest against the deciding-set tiebreak. }
+      - { id: uso, label: US Open, note: "Hard court. Used a deciding-set tiebreak from 1970, fifty-two years before the others agreed." }
+      - { id: davis, label: Davis Cup and Billie Jean King Cup, note: The team competitions, run by the ITF. }

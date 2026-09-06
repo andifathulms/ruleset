@@ -1,0 +1,158 @@
+- id: itf-1970-tiebreak
+  scope: { sport: tennis, discipline: all }
+  date_adopted: 1970
+  date_effective: 1970
+  status: adopted
+  governing_body: United States Lawn Tennis Association, later adopted internationally
+  what_changed: >
+    At six games all, a set is decided by a tiebreak: first to seven points,
+    win by two. Before it, a set continued until one player led by two games,
+    with no limit — so a set could run to any length and a match had no
+    bounded duration at all.
+
+    Devised by James Van Alen and introduced at the US Open in 1970, initially
+    in a nine-point sudden-death form before the twelve-point version became
+    standard.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Matches were running long enough to break tournament schedules and make
+      television coverage impossible to plan. Van Alen had been arguing for
+      years that the sport's inherited scoring made it unmanageable.
+    also_said: >
+      The tiebreak was resisted as an artificial device grafted onto a system
+      that had worked for a century, and the resistance is why it took until
+      2022 for all four Grand Slams to apply it to the deciding set.
+  citation:
+    source: itf-rules-of-tennis
+    edition: Rules of Tennis, 1971
+    missing: true
+  comparability_break: null
+
+- id: itf-1978-spaghetti-string-ban
+  scope: { sport: tennis, discipline: all }
+  date_adopted: 1977
+  date_effective: 1978
+  status: adopted
+  governing_body: International Tennis Federation
+  what_changed: >
+    The rules were amended to require that a racket's strings be
+    interlaced — that is, woven in a conventional pattern — banning the
+    double-strung "spaghetti" racket, whose loose, tangled stringing imparted
+    enormous topspin. The specification of the racket face, which had been
+    unwritten for a century, had to be written down.
+  cause_primary: equipment and technology
+  trigger:
+    description: >
+      Spaghetti stringing appeared in 1977 and produced spin that made the
+      ball behave in ways opponents could not read. Players with no ranking
+      beat established professionals with it within weeks, which is the fastest
+      any technology has upended a sport on this site.
+  citation:
+    source: itf-rules-of-tennis
+    edition: Rules of Tennis, 1978
+    article: "Rule 4"
+  comparability_break: null
+
+- id: itf-2006-electronic-review
+  scope: { sport: tennis, discipline: all }
+  date_adopted: 2005
+  date_effective: 2006
+  status: adopted
+  governing_body: International Tennis Federation
+  what_changed: >
+    Players were given the right to challenge a line call, with the ball's
+    landing position determined by an electronic tracking system and displayed
+    to the crowd. Introduced at tour level in 2006 with a limited number of
+    unsuccessful challenges per set.
+  cause_primary: integrity
+  trigger:
+    description: >
+      A ball's landing point is a question of fact, decided in milliseconds by
+      an official at the side of a court, and television had been showing the
+      audience the correct answer for years before the players were allowed to
+      ask for it.
+  citation:
+    source: itf-rules-of-tennis
+    edition: Rules of Tennis, 2006, Appendix on player analysis technology
+    missing: true
+  comparability_break: null
+
+- id: itf-2019-final-set-tiebreaks
+  scope: { sport: tennis, discipline: all }
+  date_adopted: 2018
+  date_effective: 2019
+  status: adopted
+  governing_body: The four Grand Slam tournaments, individually
+  what_changed: >
+    Wimbledon introduced a tiebreak at twelve games all in the deciding set,
+    and the Australian Open a ten-point tiebreak at six all. The US Open had
+    used a deciding-set tiebreak since 1970 and the French Open had none. For
+    one season the four biggest tournaments in the sport used four different
+    rules for how a match ends.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      The 2010 first-round match between John Isner and Nicolas Mahut at
+      Wimbledon lasted eleven hours and five minutes over three days, with a
+      final set of 70 games to 68. It is the clearest single trigger in this
+      sport's history and it still took nine years to produce a rule.
+  citation:
+    source: itf-rules-of-tennis
+    edition: Grand Slam Rule Book, 2019
+    missing: true
+  comparability_break: null
+
+- id: itf-2022-final-set-harmonised
+  scope: { sport: tennis, discipline: all }
+  date_adopted: 2022-03
+  date_effective: 2022
+  status: adopted
+  governing_body: Grand Slam Board
+  what_changed: >
+    All four Grand Slam tournaments adopted the same deciding-set rule: a
+    ten-point tiebreak at six games all. Fifty-two years after the tiebreak was
+    invented, the sport finally applied one version of it to every one of its
+    major finals.
+  cause_primary: broadcast and pacing
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Four different rules for how a match ends, at the four tournaments that
+      matter most, had become indefensible — a player could reach the same
+      scoreline at two events and face completely different conditions.
+  citation:
+    source: itf-rules-of-tennis
+    edition: Grand Slam Rule Book, 2022
+    missing: true
+  comparability_break: null
+
+- id: itf-2025-electronic-line-calling
+  scope: { sport: tennis, discipline: all }
+  date_adopted: 2024
+  date_effective: 2025
+  status: adopted
+  governing_body: ATP, with the Grand Slams adopting individually
+  what_changed: >
+    Electronic line calling replaced human line judges entirely at tour level,
+    with the system making every call in real time rather than reviewing
+    challenged ones. The challenge, introduced in 2006, became unnecessary and
+    was removed along with the officials it had been created to check.
+  cause_primary: integrity
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Once the technology was trusted enough to overturn a human call, keeping
+      the human call as the default was hard to justify. Tennis is the first
+      sport on this site to remove a category of official outright rather than
+      supplement them.
+    also_said: >
+      The change was regretted by many in the sport as the loss of a visible
+      human element, and by line judges as the loss of a role. Neither
+      objection was about accuracy.
+  citation:
+    source: itf-rules-of-tennis
+    edition: Rules of Tennis, 2025
+    missing: true
+  comparability_break: null

@@ -29,13 +29,29 @@ Three layers, marked as such everywhere:
 - **Skeleton** — 47 sports across 31 editions in `content/program.yaml`. Status
   per edition only, sourced to Olympedia, carrying no causes and no rule
   citations.
-- **Deep** — badminton, athletics, football, gymnastics, and swimming as the
-  reference case. 27 rule changes, 6 series, 5 comparability breaks.
+- **Deep** — twelve sports: badminton, athletics, football, gymnastics,
+  swimming, table tennis, basketball, cycling, judo, archery, volleyball and
+  tennis.
 
-One from each family, because a "rule" is a structurally different object in
-each: racket sports legislate scoring, measured sports legislate the implement,
-invasion sports legislate space and time, and judged sports legislate the
-scoring scale itself.
+The first five were one per family, because a "rule" is a structurally
+different object in each: racket sports legislate scoring, measured sports
+legislate the implement, invasion sports legislate space and time, and judged
+sports legislate the scoring scale itself. The second seven were chosen to make
+comparisons possible rather than to add coverage:
+
+- **Table tennis and volleyball** complete the broadcast scoring wave the
+  homepage argument rests on. Volleyball rewrote its scoring in 1999, table
+  tennis in 2001, badminton in 2006 — one stated reason between them, and not
+  one kept a series across its own change.
+- **Tennis** is the racket sport that declined to. Set against badminton it
+  shows that a sport's accessibility is a property of its implement: a shuttle
+  decelerates and a tennis ball does not, and two otherwise identical games end
+  up with opposite learning curves.
+- **Cycling** is the only sport to have answered the equipment-and-records
+  question three ways — leave it, split it, merge it.
+- **Basketball** supplies the 19–18 game the PRD names as its model trigger.
+- **Judo and archery** fill the Combat and Target lanes, without which two of
+  the three lenses were visibly incomplete.
 
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause

@@ -1,0 +1,20 @@
+id: tennis
+label: Tennis
+tagline: Invented the tiebreak to stop matches running forever, then took forty-nine years to apply it to the set that needed it.
+governing_body: International Tennis Federation, with the four Grand Slams setting their own conditions
+founded: >
+  Lawn tennis patented by Walter Clopton Wingfield in 1874; the first
+  championship at Wimbledon in 1877. ITF founded 1913.
+coverage: deep
+family_colour: clay
+classification:
+  official: tennis
+  game-category: net-and-wall
+  adjudication: decided-by-score
+summary: >
+  The racket sport that did not rewrite its scoring for broadcast, and the
+  interesting question is why not. Badminton, table tennis and volleyball all
+  replaced their scoring systems between 1999 and 2006. Tennis kept a system
+  from the 1870s that nobody would design today, and solved its match-length
+  problem by bolting a tiebreak onto the side of it in 1970 — then let its four
+  biggest tournaments disagree about the final set for another half-century.
