@@ -1,22 +1,43 @@
 # Three switchable classification schemes (PRD §6). A lens re-lanes the whole
 # board; it is not a tag on a page. Each lens cites the source of its taxonomy
 # rather than inventing one.
+#
+# A group with no covered sport still appears, painted as uncovered. An empty
+# lane is a fact about this site's coverage and belongs on the board.
 
 - id: official
   label: Official
   blurb: >
-    The IOC's own sport / discipline / event grouping, as published per Games.
-    Using the IOC vocabulary makes the taxonomy itself citable.
+    The IOC's own sport-level grouping, as published per Games. It is almost
+    entirely flat — one sport, one lane — which is exactly why the other two
+    lenses exist: this one can tell you what a sport is called and nothing
+    about what kind of thing it is.
   source: ioc-olympic-charter
   groups:
-    - id: racket-sports
-      label: Racket sports
-      colour: clay
-      members: [badminton]
+    - id: aquatics
+      label: Aquatics
+      colour: pool
+      members: [swimming]
+    - id: archery
+      label: Archery
+      colour: pool
+      members: [archery]
     - id: athletics
       label: Athletics
       colour: pool
       members: [athletics]
+    - id: badminton
+      label: Badminton
+      colour: clay
+      members: [badminton]
+    - id: basketball
+      label: Basketball
+      colour: pitch
+      members: [basketball]
+    - id: cycling
+      label: Cycling
+      colour: pool
+      members: [cycling]
     - id: football
       label: Football
       colour: pitch
@@ -25,34 +46,57 @@
       label: Gymnastics
       colour: gold
       members: [gymnastics]
-    - id: aquatics
-      label: Aquatics
-      colour: pool
-      members: [swimming]
+    - id: judo
+      label: Judo
+      colour: clay
+      members: [judo]
+    - id: table-tennis
+      label: Table tennis
+      colour: clay
+      members: [table-tennis]
+    - id: tennis
+      label: Tennis
+      colour: clay
+      members: [tennis]
+    - id: volleyball
+      label: Volleyball
+      colour: pitch
+      members: [volleyball]
 
 - id: game-category
   label: Game category
   blurb: >
     The invasion / net and wall / striking and fielding / target grouping from
-    the Teaching Games for Understanding literature, where it originates.
+    the Teaching Games for Understanding literature, where it originates. It
+    was written to classify games, so it has nothing to say about combat sports
+    or about performance events, and this site shows that gap rather than
+    forcing them into a box.
   source: bunker-thorpe-1982
   groups:
     - id: net-and-wall
       label: Net and wall
       colour: clay
-      members: [badminton]
+      members: [badminton, table-tennis, tennis, volleyball]
     - id: invasion
       label: Invasion
       colour: pitch
-      members: [football]
+      members: [football, basketball]
+    - id: striking-and-fielding
+      label: Striking and fielding
+      colour: pitch
+      members: []
     - id: target
       label: Target
       colour: pool
-      members: []
+      members: [archery]
     - id: performance
       label: Performance
       colour: gold
-      members: [athletics, gymnastics, swimming]
+      members: [athletics, gymnastics, swimming, cycling]
+    - id: outside-taxonomy
+      label: Outside this taxonomy
+      colour: unmarked
+      members: [judo]
 
 - id: adjudication
   label: Adjudication
@@ -65,7 +109,7 @@
     - id: measured
       label: Measured
       colour: pool
-      members: [athletics, swimming]
+      members: [athletics, swimming, cycling, archery]
     - id: judged
       label: Judged
       colour: gold
@@ -73,8 +117,8 @@
     - id: decided-by-score
       label: Decided by score
       colour: pitch
-      members: [football, badminton]
+      members: [football, badminton, table-tennis, tennis, volleyball, basketball]
     - id: combat
       label: Combat
       colour: clay
-      members: []
+      members: [judo]

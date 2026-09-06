@@ -120,3 +120,97 @@
   note: >
     Bunker and Thorpe, 1982. The origin of the invasion / net and wall /
     striking and fielding / target grouping used by the game-category lens.
+
+# ---- Added with the second wave of sports. Same standing rules apply: the
+# document is named and real, the article is not confirmed until it is read.
+
+- id: ittf-handbook
+  standing: primary-named
+  title: ITTF Handbook
+  publisher: International Table Tennis Federation
+  kind: rulebook
+  url: https://www.ittf.com/handbook/
+  note: >
+    The Laws of Table Tennis are Chapter 2 of the Handbook, which is reissued
+    annually. Cite the year of the edition and the numbered law.
+
+- id: fiba-official-rules
+  standing: primary-named
+  title: Official Basketball Rules
+  publisher: FIBA
+  kind: rulebook
+  url: https://www.fiba.basketball/documents
+  note: >
+    Reissued every four years with interpretations published between editions.
+    The NBA keeps a separate rulebook, and the two differ on the three-point
+    distance and the shot clock reset, so a basketball rule must say which body
+    it belongs to.
+
+- id: nba-rulebook
+  standing: primary-named
+  title: Official Rules of the National Basketball Association
+  publisher: NBA
+  kind: rulebook
+  url: https://official.nba.com/rulebook/
+  note: >
+    A league rulebook, not an international federation's. Included because the
+    shot clock and the three-point line were both NBA rules years before FIBA
+    adopted anything comparable.
+
+- id: uci-regulations
+  standing: primary-named
+  title: UCI Cycling Regulations
+  publisher: Union Cycliste Internationale
+  kind: rulebook
+  url: https://www.uci.org/regulations/
+  note: >
+    Part 1 covers general organisation and Part 3 track racing; the equipment
+    articles are the ones that matter for the hour record.
+
+- id: uci-hour-record
+  standing: primary-named
+  title: UCI Hour Record progression
+  publisher: Union Cycliste Internationale
+  kind: record-book
+  note: >
+    The UCI has maintained more than one hour record list at once. Any figure
+    must say which list it belongs to and under which equipment rules it was
+    set.
+
+- id: ijf-sor
+  standing: primary-named
+  title: Sport and Organisation Rules
+  publisher: International Judo Federation
+  kind: rulebook
+  url: https://www.ijf.org/ijf/documents
+  note: >
+    Revised at the start of most Olympic cycles, which is why judo's scoring has
+    changed shape several times in twenty years.
+
+- id: world-archery-rulebook
+  standing: primary-named
+  title: World Archery Rulebook
+  publisher: World Archery Federation
+  kind: rulebook
+  url: https://www.worldarchery.sport/rulebook
+  note: Book 3 covers target archery, including the match and set systems.
+
+- id: fivb-rules
+  standing: primary-named
+  title: Official Volleyball Rules
+  publisher: FIVB
+  kind: rulebook
+  url: https://www.fivb.com/volleyball/the-game/
+  note: Reissued per quadrennium.
+
+- id: itf-rules-of-tennis
+  standing: primary-named
+  title: Rules of Tennis
+  publisher: International Tennis Federation
+  kind: rulebook
+  url: https://www.itftennis.com/en/about-us/governance/rules-and-regulations/
+  note: >
+    Published annually. The four Grand Slam tournaments set some of their own
+    conditions on top of the Rules, which is why final-set formats differed
+    between them for decades.
+

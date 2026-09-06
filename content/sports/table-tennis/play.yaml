@@ -1,0 +1,137 @@
+sport: table-tennis
+as_of: 2026-09
+edition: ITTF Handbook, Laws of Table Tennis
+source: ittf-handbook
+standing: primary-named
+summary: >
+  Two or four players hit a ball over a net on a table, and a point ends when
+  someone fails to make a legal return. What the laws are really about is spin:
+  the racket covering, the service action and the ball itself are all
+  specified in detail, because all three determine how much spin can be
+  imparted and how much of it the opponent is allowed to see.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Make a legal return until the opponent cannot. The ball must bounce once
+      on your side before you strike it and once on the opponent's side after,
+      and it must clear the net. There is no volley in table tennis: hitting
+      the ball before it bounces loses the point.
+
+  - id: field
+    label: The table
+    body: >
+      A dark, matt, uniformly coloured surface with a white line down the
+      middle used only in doubles. The specification is unusually tight about
+      the bounce, because a consistent bounce is what makes spin readable at
+      all.
+    facts:
+      - { label: Table length, value: 2.74 m }
+      - { label: Width, value: 1.525 m }
+      - { label: Height, value: 76 cm }
+      - { label: Net height, value: 15.25 cm }
+      - { label: Standard bounce, value: About 23 cm, note: From a 30 cm drop. }
+    citation:
+      source: ittf-handbook
+      article: "Law 2.1"
+      missing: true
+
+  - id: equipment
+    label: Racket and ball
+    body: >
+      The blade may be any size or shape but must be at least 85 per cent
+      natural wood. The covering is where the law does its work: pimpled rubber
+      to a stated thickness, and the two sides must be different colours so the
+      opponent can see which surface struck the ball.
+
+      The ball has changed twice this century. It went from 38 mm to 40 mm in
+      2000 to slow the game for television, and from celluloid to plastic in
+      2014 because celluloid was becoming impossible to manufacture and ship.
+      Both changes altered how much spin the ball holds.
+    facts:
+      - { label: Ball diameter, value: 40 mm, note: "Marked 40+; plastic, non-celluloid since 2014." }
+      - { label: Ball mass, value: 2.7 g }
+      - { label: Racket sides, value: One red, one black }
+      - { label: Blade, value: 85% natural wood, min }
+    shaped_by:
+      - ittf-2000-forty-millimetre-ball
+      - ittf-2014-plastic-ball
+      - ittf-1986-two-colour-racket
+      - ittf-2008-speed-glue-ban
+    citation:
+      source: ittf-handbook
+      article: "Law 2.4"
+
+  - id: players
+    label: Players and officials
+    body: >
+      Singles, doubles, mixed doubles and team events. In doubles the partners
+      must strike alternately, which is a constraint no other racket sport
+      imposes and which makes doubles a different game rather than the same one
+      with more people. An umpire and an assistant umpire run the match; the
+      assistant's main job is watching the service.
+
+  - id: duration
+    label: Format
+    body: >
+      Best of five or seven games, with no clock. There is an expedite system:
+      if a game reaches ten minutes without ten points having been scored, the
+      receiver wins the point on the thirteenth legal return, which effectively
+      forbids defensive stalemate. It is rarely invoked and exists because it
+      once had to be.
+
+  - id: scoring
+    label: Scoring
+    body: >
+      A game goes to 11 and a side must lead by two. Service changes every two
+      points, and at ten-all it changes every point. Before September 2001 a
+      game went to 21 and service changed every five, which is why match
+      statistics from before that date cannot be compared with anything after
+      it.
+    facts:
+      - { label: Game to, value: "11" }
+      - { label: Must win by, value: "2" }
+      - { label: Service changes every, value: 2 points }
+      - { label: Games per match, value: Best of 5 or 7 }
+    shaped_by: [ittf-2001-eleven-point-scoring]
+    citation:
+      source: ittf-handbook
+      article: "Law 2.11"
+
+  - id: restarts
+    label: The service
+    body: >
+      The most heavily specified action in the sport, and the one most
+      rewritten. The ball rests on an open, flat, stationary palm, is thrown
+      near-vertically at least 16 centimetres, and is struck as it descends. It
+      must be visible to the receiver from the moment it leaves the hand, and
+      the server may not screen it with an arm, body or clothing.
+
+      That visibility requirement dates from 2002. Before it, concealing the
+      contact was a legal and extremely effective way to win points outright.
+    facts:
+      - { label: Minimum throw, value: 16 cm }
+      - { label: Ball must be, value: Visible throughout }
+      - { label: Struck from, value: Behind the end line }
+    shaped_by: [ittf-2002-service-visibility]
+    citation:
+      source: ittf-handbook
+      article: "Law 2.6"
+
+  - id: prohibitions
+    label: Losing the point
+    body: >
+      Failing to make a service or a return; letting the ball bounce twice on
+      your side; striking it before it bounces; moving the table; touching the
+      net assembly; touching the playing surface with the free hand; obstructing
+      the ball on its way to the table. An illegal service is a point to the
+      opponent, with no second serve — table tennis has no equivalent of the
+      tennis double fault.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Three games out of five, or four out of seven. There is no draw and no
+      time limit other than the expedite system, and a game cannot end without
+      a two-point lead.

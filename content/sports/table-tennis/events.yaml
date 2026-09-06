@@ -1,0 +1,23 @@
+sport: table-tennis
+as_of: 2026-09
+source: ittf-handbook
+standing: primary-named
+summary: >
+  One discipline and five Olympic events, with mixed doubles the most recent
+  addition. Like badminton, table tennis distinguishes its events by who is on
+  the table rather than by any change in the laws.
+disciplines:
+  - id: table-tennis
+    label: Table tennis
+    events:
+      - { id: ms, label: "Men's singles", olympic: true }
+      - { id: ws, label: "Women's singles", olympic: true }
+      - { id: mt, label: "Men's team", olympic: true }
+      - { id: wt, label: "Women's team", olympic: true }
+      - { id: xd, label: Mixed doubles, olympic: true, note: "Added for 2020; the only doubles event on the Olympic programme." }
+  - id: para
+    label: Contested by the federation beyond the Olympic programme
+    counts: false
+    events:
+      - { id: para-tt, label: Para table tennis, note: "Eleven classes, the largest para sport by class count." }
+      - { id: doubles, label: "Men's and women's doubles", note: "Contested at world championships, not at the Games." }

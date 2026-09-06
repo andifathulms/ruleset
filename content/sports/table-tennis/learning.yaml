@@ -1,0 +1,82 @@
+sport: table-tennis
+standing: editorial
+summary: >
+  Probably the most extreme gap on the site, and it shares the top of that
+  scale with badminton. Almost everyone in the developed world has played table
+  tennis; almost nobody who has played it can read spin. The two facts are
+  connected, and the connector is the racket covering.
+
+entry:
+  verdict: very-low
+  claim: A basement, a folding table and no instruction at all.
+  why: >
+    Table tennis has the lowest facility requirement of any net sport. The
+    court is a table, it folds, and it fits in a garage. Two people who have
+    never held a bat can rally within minutes, because a slow ball hit flat
+    over a low net is easy to return.
+
+    Nothing about the beginner's version of the game requires the parts that
+    make the real one hard. You can play for years without ever imparting
+    deliberate spin or being troubled by it.
+  evidence:
+    - { label: Players needed, value: "2", basis: observation }
+    - { label: Kit to start, value: A table, a net, two bats, basis: observation }
+    - { label: Table footprint, value: 2.74 × 1.525 m, basis: observation, note: Folds; fits a domestic room. }
+    - { label: Time to a first rally, value: Minutes, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: The gap between social play and the lowest professional tier is larger than in any other sport here.
+  why: >
+    Elite table tennis is a spin-reading contest conducted at a distance of
+    under three metres. The ball can be given enormous rotation, the racket
+    covering that produces it is legally variable between the two sides of the
+    same bat, and the decisive information — which surface struck the ball, and
+    how — has to be extracted from a fraction of a second of arm movement.
+
+    The sport's own laws are the evidence for how hard this is. Two of them
+    exist purely to stop players winning on information the opponent cannot
+    have: the two-colour racket in 1986 and the service visibility rule in
+    2002. A federation does not legislate twice against deception in a sport
+    where deception is easy to see through.
+
+    A competent club player will typically not win a single point against a
+    professional, which is not true of football or basketball at the equivalent
+    distance.
+  evidence:
+    - label: Racket sides must differ in colour
+      value: Since 1986
+      basis: rule
+      rule: ittf-1986-two-colour-racket
+      note: Because the surface that struck the ball was otherwise unreadable.
+    - label: Service must be visible
+      value: Since 2002
+      basis: rule
+      rule: ittf-2002-service-visibility
+      note: The second law written to stop players hiding the spin they impart.
+    - label: Ball changed size
+      value: 38 → 40 mm in 2000
+      basis: rule
+      rule: ittf-2000-forty-millimetre-ball
+      note: Slowed the game deliberately, and reduced the spin the ball holds.
+    - { label: Typical age of specialisation, value: 6–10, basis: judgement }
+    - { label: Typical peak age, value: 22–28, basis: judgement }
+
+gap: >
+  Badminton and table tennis arrive at the same pair of verdicts by the same
+  route, and it is worth putting them side by side. In both, the implement
+  makes the beginner's game easy: a shuttle will not travel out of court, and a
+  slow ball over a low net will come back. In both, the same implement makes
+  the elite game brutal, because what the object does in flight is controlled
+  by something the opponent has to read rather than see.
+
+  Table tennis is the more extreme of the two for one reason. Badminton's
+  difficulty is largely physical — the speed, the jumps, the recovery. Table
+  tennis's is largely informational, and information cannot be trained into a
+  body the way speed can. That is also why table tennis has needed two separate
+  laws against concealment and badminton has needed none.
+
+shaped_by:
+  - ittf-1986-two-colour-racket
+  - ittf-2002-service-visibility
+  - ittf-2000-forty-millimetre-ball

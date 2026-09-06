@@ -86,7 +86,7 @@ sports:
 
   - id: cycling
     label: Cycling
-    coverage: skeleton
+    coverage: deep
     governing_body: UCI
     held: [1896, 1900, 1904, 1908, 1912, 1920, 1924, 1928, 1932, 1936, 1948, 1952,
            1956, 1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988, 1992, 1996, 2000,
@@ -176,7 +176,7 @@ sports:
 
   - id: basketball
     label: Basketball
-    coverage: skeleton
+    coverage: deep
     governing_body: FIBA
     held: [1936, 1948, 1952, 1956, 1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988,
            1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, 2024, 2028]
@@ -198,14 +198,14 @@ sports:
 
   - id: volleyball
     label: Volleyball
-    coverage: skeleton
+    coverage: deep
     governing_body: FIVB
     held: [1964, 1968, 1972, 1976, 1980, 1984, 1988, 1992, 1996, 2000, 2004, 2008,
            2012, 2016, 2020, 2024, 2028]
 
   - id: judo
     label: Judo
-    coverage: skeleton
+    coverage: deep
     governing_body: IJF
     note: Contested in 1964 as a host-nation sport, dropped in 1968, permanent from 1972.
     held: [1964, 1972, 1976, 1980, 1984, 1988, 1992, 1996, 2000, 2004, 2008, 2012,
@@ -213,7 +213,7 @@ sports:
 
   - id: archery
     label: Archery
-    coverage: skeleton
+    coverage: deep
     governing_body: World Archery
     note: A 52-year absence between 1920 and 1972.
     held: [1900, 1904, 1908, 1920, 1972, 1976, 1980, 1984, 1988, 1992, 1996, 2000,
@@ -221,7 +221,7 @@ sports:
 
   - id: tennis
     label: Tennis
-    coverage: skeleton
+    coverage: deep
     governing_body: ITF
     note: Dropped after 1924 over the amateurism dispute; returned as a full medal sport in 1988.
     held: [1896, 1900, 1904, 1908, 1912, 1920, 1924, 1988, 1992, 1996, 2000, 2004,
@@ -229,7 +229,7 @@ sports:
 
   - id: table-tennis
     label: Table tennis
-    coverage: skeleton
+    coverage: deep
     governing_body: ITTF
     held: [1988, 1992, 1996, 2000, 2004, 2008, 2012, 2016, 2020, 2024, 2028]
 

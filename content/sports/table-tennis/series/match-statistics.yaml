@@ -1,0 +1,31 @@
+id: table-tennis-match-statistics
+label: Match statistics across the scoring change
+unit: points
+absence_kind: unpublished
+cannot_exist: >
+  A game to 21 and a game to 11 are not the same unit, and a match is now best
+  of five or seven rather than best of three. Points per match, rally counts
+  and match duration all changed meaning on 1 September 2001, and none of them
+  can be rescaled across that date.
+
+  This is the second time this exact absence appears on the site. Badminton
+  has it too, for the same reason and five years later, and the repetition is
+  the finding rather than an oversight: two racket federations shortened their
+  scoring for broadcast within five years of each other and neither kept a
+  series across the change. A run of match durations from one tournament held
+  continuously through 2001 would be a real series and would show the break
+  plainly. Nobody publishes one.
+
+  Table tennis has a complication badminton does not. The ball changed size in
+  2000 and material in 2014, and both changes altered rally length on their
+  own. Even a scoped series would be measuring three changes at once.
+segments: []
+break:
+  at: 2001
+  caused_by: ittf-2001-eleven-point-scoring
+  kind: reset
+  note: >
+    Every match statistic before September 2001 is counted in a unit the sport
+    stopped using. Nothing crosses this line, and the two ball changes either
+    side of it mean nothing would be clean if it did.
+source: ittf-handbook

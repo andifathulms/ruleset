@@ -1,0 +1,156 @@
+- id: ittf-1986-two-colour-racket
+  scope: { sport: table-tennis, discipline: all }
+  date_adopted: 1985
+  date_effective: 1986
+  status: adopted
+  governing_body: International Table Tennis Federation
+  what_changed: >
+    The two sides of a racket were required to be clearly different colours,
+    settled as one red and one black. Until then a player could mount rubbers
+    with wildly different properties in the same colour, twiddle the bat during
+    a rally, and leave the opponent unable to tell which surface had struck the
+    ball.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Combination bats pairing a heavy-spin rubber with an anti-spin or
+      long-pimpled surface in matching colours made the ball's behaviour
+      unreadable. The deception was legal, effective, and invisible, and it was
+      winning matches on information the opponent could not have.
+  citation:
+    source: ittf-handbook
+    edition: ITTF Laws of Table Tennis, 1986
+    article: "2.4"
+  comparability_break: null
+
+- id: ittf-2000-forty-millimetre-ball
+  scope: { sport: table-tennis, discipline: all }
+  date_adopted: 2000-02
+  date_effective: 2000-10-01
+  status: adopted
+  governing_body: International Table Tennis Federation
+  what_changed: >
+    The ball's diameter was increased from 38 mm to 40 mm. A larger ball is
+    slower through the air and takes less spin, so rallies lengthen and the
+    ball becomes possible to follow. Adopted immediately after the 2000 Games
+    and applied to all international competition.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      At the top level the ball was moving faster than a television camera of
+      the period could usefully render, and faster than a spectator could
+      follow. The federation's stated aim was to make the sport watchable.
+  citation:
+    source: ittf-handbook
+    edition: ITTF Laws of Table Tennis, 2000
+    article: "2.3"
+  comparability_break: null
+
+- id: ittf-2001-eleven-point-scoring
+  scope: { sport: table-tennis, discipline: all }
+  date_adopted: 2000
+  date_effective: 2001-09-01
+  status: adopted
+  governing_body: International Table Tennis Federation
+  what_changed: >
+    Games were shortened from 21 points to 11, matches lengthened to the best
+    of five or seven games, and service changed hands every two points instead
+    of every five. The number of points in a match, the value of a single
+    point, and the rhythm of the service rotation all changed at once.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Match length under 21-point games was unpredictable and long, which made
+      a scheduled broadcast slot impossible to guarantee. This is the same
+      reasoning badminton would give for its own scoring rewrite five years
+      later, and table tennis got there first.
+  citation:
+    source: ittf-handbook
+    edition: ITTF Laws of Table Tennis, 2001
+    article: "2.11"
+  comparability_break: table-tennis-match-statistics
+
+- id: ittf-2002-service-visibility
+  scope: { sport: table-tennis, discipline: all }
+  date_adopted: 2002
+  date_effective: 2002-09-01
+  status: adopted
+  governing_body: International Table Tennis Federation
+  what_changed: >
+    The ball must be visible to the receiver throughout the service, thrown
+    upward at least 16 cm from an open palm, and the server may not screen it
+    with any part of the body or clothing. A hidden serve had been the single
+    most effective way to win a point outright.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Elite servers had developed actions that concealed the moment and
+      direction of contact behind the shoulder or free arm, so the receiver was
+      guessing rather than reading. As with the two-colour racket sixteen years
+      earlier, the federation legislated against winning on information the
+      opponent could not have.
+  citation:
+    source: ittf-handbook
+    edition: ITTF Laws of Table Tennis, 2002
+    article: "2.6"
+  comparability_break: null
+
+- id: ittf-2008-speed-glue-ban
+  scope: { sport: table-tennis, discipline: all }
+  date_adopted: 2007
+  date_effective: 2008-09-01
+  status: adopted
+  governing_body: International Table Tennis Federation
+  what_changed: >
+    Glues containing volatile organic compounds were prohibited. Players had
+    been re-gluing rubbers before every match with solvent-based adhesives that
+    swelled the sponge layer and added substantial speed and spin, an effect
+    that decayed over hours and so had to be repeated constantly.
+  cause_primary: safety
+  cause_secondary: equipment and technology
+  trigger:
+    description: >
+      The solvents were being inhaled daily in unventilated spaces by players
+      including children, and the practice had become universal at every level
+      that took the sport seriously. The stated reason was health.
+    also_said: >
+      The ban also removed a large, legal performance gain that favoured
+      players with the time and support to re-glue before every match, and some
+      accounts treat that as at least as important as the health case. Both
+      readings appear in the record; the federation gave health.
+  citation:
+    source: ittf-handbook
+    edition: ITTF Technical Leaflet on racket coverings, 2008
+    missing: true
+  comparability_break: null
+
+- id: ittf-2014-plastic-ball
+  scope: { sport: table-tennis, discipline: all }
+  date_adopted: 2013
+  date_effective: 2014-07-01
+  status: adopted
+  governing_body: International Table Tennis Federation
+  what_changed: >
+    Celluloid balls were replaced by a non-celluloid plastic ball, marked 40+
+    because the new material could not be manufactured to the same tolerance at
+    the same nominal size. The plastic ball is fractionally larger, marginally
+    harder, and takes noticeably less spin, so the sport's physics moved again
+    fourteen years after the first ball change.
+  cause_primary: safety
+  cause_secondary: equipment and technology
+  trigger:
+    description: >
+      Celluloid is flammable and was becoming difficult to manufacture,
+      transport and store under tightening regulation, with fewer suppliers
+      willing to make it at all. The change was forced from outside the sport.
+    also_said: >
+      Players widely reported that the plastic ball reduced the reward for
+      heavy topspin and shortened rallies, which cuts against the stated aim of
+      the 2000 ball change. The federation has not accepted that framing.
+  citation:
+    source: ittf-handbook
+    edition: ITTF Laws of Table Tennis, 2014
+    article: "2.3"
+  comparability_break: null
