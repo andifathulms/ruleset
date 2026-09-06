@@ -1,0 +1,149 @@
+- id: nba-1954-shot-clock
+  scope: { sport: basketball, discipline: all }
+  date_adopted: 1954-04
+  date_effective: 1954-10
+  status: adopted
+  governing_body: NBA
+  what_changed: >
+    A team gained possession must attempt a shot at the basket within 24
+    seconds or lose the ball. Before it there was no obligation to shoot at
+    all, so a team in the lead could hold the ball indefinitely and the trailing
+    team's only recourse was to foul.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      On 22 November 1950 the Fort Wayne Pistons beat the Minneapolis Lakers
+      19–18, holding the ball for long stretches against the best team in the
+      league. The scoreline is the single most cited trigger in the history of
+      sports rulemaking. The 24-second figure is attributed to Danny Biasone,
+      who divided the number of seconds in a game by the number of shots a
+      watchable game seemed to contain.
+  citation:
+    source: nba-rulebook
+    edition: NBA Official Rules, 1954–55
+    missing: true
+  comparability_break: null
+
+- id: nba-1979-three-point-line
+  scope: { sport: basketball, discipline: all }
+  date_adopted: 1979
+  date_effective: 1979-10
+  status: adopted
+  governing_body: NBA
+  what_changed: >
+    A field goal scored from beyond a marked arc counts three points instead of
+    two. Adopted by the NBA in 1979 after the American Basketball Association
+    had used it through the 1970s, and by FIBA in 1984. Every scoring statistic
+    in the sport changed meaning: points per game, field goal percentage and
+    the value of a possession are all measured against a different scale
+    afterwards.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      The stated aim was to open the floor by making long shooting worth
+      taking, and to give a trailing team a faster route back into a game. The
+      ABA had adopted it as an explicit spectator draw and the NBA followed a
+      rival league's innovation.
+  citation:
+    source: nba-rulebook
+    edition: NBA Official Rules, 1979–80
+    missing: true
+  comparability_break: basketball-scoring-scale
+
+- id: fiba-2000-shot-clock-and-quarters
+  scope: { sport: basketball, discipline: all }
+  date_adopted: 1998
+  date_effective: 2000
+  status: adopted
+  governing_body: FIBA
+  what_changed: >
+    The international game moved from two halves of twenty minutes to four
+    quarters of ten, and the shot clock was shortened from thirty seconds to
+    twenty-four, matching the NBA. The backcourt time limit was cut from ten
+    seconds to eight.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Quarters create three additional guaranteed stoppages, which is a
+      broadcast structure rather than a sporting one. Aligning the shot clock
+      with the NBA also removed a difference that made international and
+      professional statistics incomparable.
+  citation:
+    source: fiba-official-rules
+    edition: FIBA Official Basketball Rules, 2000
+    missing: true
+  comparability_break: null
+
+- id: nba-2001-zone-defence
+  scope: { sport: basketball, discipline: all }
+  date_adopted: 2001-04
+  date_effective: 2001-10
+  status: adopted
+  governing_body: NBA
+  what_changed: >
+    Zone defence was permitted, ending decades of illegal-defence rules that
+    had required defenders to guard an individual opponent. A defensive
+    three-second rule was introduced at the same time to stop a defender simply
+    camping under the basket.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      The illegal-defence rules had become unenforceably complicated and were
+      widely held to have produced isolation basketball — one attacker against
+      one defender while everyone else stood clear — which the league judged
+      unwatchable.
+  citation:
+    source: nba-rulebook
+    edition: NBA Official Rules, 2001–02
+    missing: true
+  comparability_break: null
+
+- id: fiba-2010-arc-and-lane
+  scope: { sport: basketball, discipline: all }
+  date_adopted: 2008
+  date_effective: 2010-10
+  status: adopted
+  governing_body: FIBA
+  what_changed: >
+    The international three-point arc was moved out to 6.75 m, the trapezoidal
+    key was replaced by a rectangular one, and a no-charge semi-circle was
+    added under the basket. Three changes to the geometry of the floor at once,
+    all bringing the international game closer to the NBA's.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      The stated aim was to open space under the basket and to reduce the
+      difference between international and professional play, which had made
+      players moving between them adapt to a different court.
+  citation:
+    source: fiba-official-rules
+    edition: FIBA Official Basketball Rules, 2010
+    article: "Rule 2"
+  comparability_break: null
+
+- id: fiba-2014-instant-replay
+  scope: { sport: basketball, discipline: all }
+  date_adopted: 2014
+  date_effective: 2014
+  status: adopted
+  governing_body: FIBA
+  what_changed: >
+    Instant replay was written into the international rules for a defined list
+    of situations — whether a shot was released before the buzzer, whether it
+    was worth two points or three, shot-clock errors, and the identification of
+    players in an altercation.
+  cause_primary: integrity
+  trigger:
+    description: >
+      The reviewable list is almost entirely questions of fact with a correct
+      answer, and most of them are questions about time. Basketball's
+      officiating problem is that its game is governed by four clocks at once.
+  citation:
+    source: fiba-official-rules
+    edition: FIBA Official Basketball Rules, 2014
+    missing: true
+  comparability_break: null

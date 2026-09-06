@@ -1,0 +1,80 @@
+sport: basketball
+standing: editorial
+summary: >
+  A hoop on a wall and one ball, which is about as low as a barrier gets. What
+  makes basketball's top end unusual is not the skill and not the population —
+  it is the body. This is the only sport on this site where a physical
+  characteristic nobody can train is close to a precondition.
+
+entry:
+  verdict: very-low
+  claim: One person, one ball, one hoop, no opponent required.
+  why: >
+    Basketball is the only invasion sport here that can be practised alone and
+    usefully. Shooting is a solo skill, the target is fixed, and feedback is
+    instant. A hoop on a garage or in a park makes the sport available without
+    a team, a pitch or a fixture.
+
+    The game also scales down gracefully. Three-a-side is a real version of
+    it, one-on-one is a real version of it, and a half court is enough. Very
+    few sports survive being cut in half.
+  evidence:
+    - { label: Players needed, value: "1", basis: observation, note: To practise. Two for a game. }
+    - { label: Kit to start, value: A ball, basis: observation }
+    - { label: Facility, value: A hoop and a hard surface, basis: observation }
+    - { label: Basket height, value: 3.05 m, basis: observation, note: Unchanged since 1891, when it was where the running track railing happened to be. }
+    - { label: Time to a first game, value: One session, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: The one sport here where an untrainable physical trait is close to a requirement.
+  why: >
+    Every sport rewards a body type. Basketball is the extreme case: the
+    target is 3.05 m up and fixed, so height converts directly into shooting
+    angle, rebounding reach and defensive coverage, and it cannot be trained.
+    The proportion of professional players drawn from the tallest fraction of
+    the population is unlike anything else on this site.
+
+    That is not the whole story — the skill demands are high and the tactical
+    literacy required is closer to football's than it looks — but it is the
+    part that makes the barrier different in kind. An athlete of average height
+    can become an elite marathon runner, gymnast, swimmer or footballer. The
+    equivalent claim in basketball is much harder to make.
+
+    The three-point line changed what the ceiling looks like without lowering
+    it. Range shooting rewards a skill rather than a body, and the modern game
+    values it more than it did, which is the closest thing to a widening of
+    this sport's door in a century.
+  evidence:
+    - label: Three-point line
+      value: Since 1979
+      basis: rule
+      rule: nba-1979-three-point-line
+      note: The one rule change that rewards a trainable skill over a physical trait.
+    - label: Shot clock
+      value: 24 s
+      basis: rule
+      rule: nba-1954-shot-clock
+      note: >
+        Raised the number of possessions per game sharply, which raised the
+        conditioning demand as much as the skill demand.
+    - { label: Basket height, value: 3.05 m, basis: observation, note: Fixed. Everything about the height barrier follows from this one number never moving. }
+    - { label: Typical age of academy entry, value: 8–12, basis: judgement }
+    - { label: Typical peak age, value: 26–29, basis: judgement }
+
+gap: >
+  Basketball and football have almost the same pair of verdicts and almost
+  nothing else in common about why. Football's top is unreachable because
+  everybody is trying — the barrier is population. Basketball's is unreachable
+  for a large majority of people because of a measurement taken at birth, and
+  no amount of trying changes it.
+
+  That distinction is worth keeping because it changes what a rule change can
+  do. Football cannot legislate its way to a wider funnel; the funnel is the
+  world. Basketball has, once, unintentionally: the three-point line made a
+  trainable skill more valuable relative to an untrainable trait, which is the
+  only door-widening rule change recorded anywhere on this site.
+
+shaped_by:
+  - nba-1954-shot-clock
+  - nba-1979-three-point-line

@@ -1,0 +1,33 @@
+id: basketball-scoring-scale
+label: Scoring statistics across the three-point line
+competition: NBA
+unit: points per game
+absence_kind: unpublished
+higher_is_better: true
+cannot_exist: >
+  Before 1979 every field goal in the NBA was worth two points. After it, some
+  were worth three. Points per game, field goal percentage, offensive rating
+  and the value of a possession are all measured against a different scale on
+  either side of that line, and no rescaling recovers the difference — a
+  pre-1979 shot from 25 feet was worth two points and there is no record of how
+  many were taken.
+
+  The series is scoped to one league on purpose, and this is a stronger version
+  of the football problem. Basketball does not have one rulebook: FIBA adopted
+  the three-point line five years after the NBA, at a different distance, and
+  moved it again in 2010. A figure for "basketball" would be averaging across
+  competitions whose courts are different shapes.
+
+  The figures are not entered because they have not been taken from a cited
+  source. When they are, the chart appears here in two segments with 1979
+  between them, and the caption will still have to say that the NBA changed the
+  distance twice in the 1990s and changed it back.
+segments: []
+break:
+  at: 1979
+  caused_by: nba-1979-three-point-line
+  kind: scoped
+  note: >
+    A real break, in one league's series. There is no series for the sport as a
+    whole to break, because there is no body that governs the sport as a whole.
+source: nba-rulebook

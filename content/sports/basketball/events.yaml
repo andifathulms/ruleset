@@ -1,0 +1,31 @@
+sport: basketball
+as_of: 2026-09
+source: fiba-official-rules
+standing: primary-named
+summary: >
+  Two disciplines on the Olympic programme since 2020, and the second one is
+  the interesting entry. 3x3 is not a reduced version of basketball; it is a
+  separate discipline with its own rulebook, its own ball, a twelve-second shot
+  clock and a scoring system where the arc is worth two and everything else is
+  worth one.
+disciplines:
+  - id: basketball
+    label: Basketball
+    blurb: The five-a-side game, on the Olympic programme since 1936 for men and 1976 for women.
+    events:
+      - { id: men, label: "Men's tournament", olympic: true }
+      - { id: women, label: "Women's tournament", olympic: true }
+  - id: three-x-three
+    label: 3x3
+    blurb: >
+      Half court, three a side, one basket, ten minutes or twenty-one points.
+      Added for 2020 and governed by a separate FIBA rulebook.
+    events:
+      - { id: m3, label: "Men's tournament", olympic: true }
+      - { id: w3, label: "Women's tournament", olympic: true }
+  - id: variants
+    label: Governed elsewhere
+    counts: false
+    events:
+      - { id: nba, label: The NBA, note: "Keeps its own rulebook, with a longer arc, twelve-minute quarters and six fouls." }
+      - { id: wheelchair, label: Wheelchair basketball, note: Governed by the IWBF under adapted rules. }

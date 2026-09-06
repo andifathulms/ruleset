@@ -1,0 +1,150 @@
+sport: basketball
+as_of: 2026-09
+edition: FIBA Official Basketball Rules, with NBA differences noted
+source: fiba-official-rules
+standing: primary-named
+summary: >
+  Five against five, put the ball through a hoop ten feet up, and do it before
+  one of four clocks stops you. Basketball is unusual among invasion sports in
+  legislating time rather than space as its main constraint: there is a game
+  clock, a shot clock, a backcourt clock and a three-second rule, and almost
+  every famous rule change in the sport is a change to one of them.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Score more points than the opponent by putting the ball through their
+      basket. The basket is horizontal and above head height, which is the
+      single design decision the whole sport rests on: a horizontal target
+      cannot be defended by standing in front of it, so the game had to be
+      about position and timing rather than about blocking a line.
+
+  - id: field
+    label: The court
+    body: >
+      A rectangle with a hoop at each end, marked with a restricted area under
+      each basket, a three-point arc, and a no-charge semi-circle. FIBA and the
+      NBA use different dimensions, and the three-point distance is the one
+      that matters most.
+    facts:
+      - { label: "Court, FIBA", value: 28 × 15 m }
+      - { label: "Court, NBA", value: 28.65 × 15.24 m }
+      - { label: Basket height, value: 3.05 m }
+      - { label: "Three-point arc, FIBA", value: 6.75 m }
+      - { label: "Three-point arc, NBA", value: 7.24 m, note: At the top of the arc; shorter in the corners. }
+      - { label: Free-throw line, value: 4.6 m from the backboard }
+    shaped_by: [fiba-2010-arc-and-lane, nba-1979-three-point-line]
+    citation:
+      source: fiba-official-rules
+      article: "Rule 2"
+
+  - id: equipment
+    label: Ball and basket
+    body: >
+      Almost nothing here has needed regulating. The ball is specified by
+      circumference and pressure, in different sizes for the men's and women's
+      game, and the rim and backboard by dimension and rebound. Basketball has
+      produced no equipment-driven comparability break, for the same reason
+      football has not: the specification was written loosely and the object
+      never outran it.
+    facts:
+      - { label: "Ball, men", value: Size 7 }
+      - { label: "Ball, women", value: Size 6 }
+      - { label: Rim diameter, value: 45 cm }
+      - { label: Backboard, value: 1.8 × 1.05 m }
+
+  - id: players
+    label: Players and officials
+    body: >
+      Five on court per side, with unlimited substitutions at stoppages. Three
+      officials at international level, plus a table crew running the clocks —
+      which in this sport is a substantive job rather than an administrative
+      one, because the shot clock decides possessions.
+
+      Officials also administer fouls, and basketball is unusual in making
+      accumulated fouls a resource: a player fouls out, and a team over the
+      limit concedes free throws for every subsequent foul.
+    facts:
+      - { label: On court per side, value: "5" }
+      - { label: Personal fouls before exclusion, value: "5", note: Six in the NBA. }
+      - { label: Team fouls before bonus free throws, value: "4 per quarter" }
+
+  - id: duration
+    label: Time
+    body: >
+      Four quarters of ten minutes under FIBA, twelve in the NBA, with the
+      clock stopped at every whistle — so a forty-minute game takes around two
+      hours. International basketball played two twenty-minute halves until
+      2000; quarters were adopted because they create three more guaranteed
+      breaks, which is a broadcast structure.
+
+      Ties are played out in five-minute overtime periods until somebody wins.
+      There is no draw.
+    facts:
+      - { label: "Quarters, FIBA", value: 4 × 10 min }
+      - { label: "Quarters, NBA", value: 4 × 12 min }
+      - { label: Overtime, value: 5 min, repeated }
+    shaped_by: [fiba-2000-shot-clock-and-quarters]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Three points from beyond the arc, two from inside it, one for a free
+      throw. Basketball is the only sport on this site where the same action
+      scores differently depending on where it is performed, and that has been
+      true only since 1979 — before which every field goal was worth two.
+
+      The consequence is that the sport's entire statistical record is severed
+      at that line, and severed differently in each competition, because FIBA
+      adopted the arc in 1984 at a different distance and moved it again in
+      2010.
+    facts:
+      - { label: Beyond the arc, value: "3" }
+      - { label: Inside the arc, value: "2" }
+      - { label: Free throw, value: "1" }
+    shaped_by: [nba-1979-three-point-line, fiba-2010-arc-and-lane]
+
+  - id: restarts
+    label: Clocks and restarts
+    body: >
+      The shot clock is the defining rule of modern basketball. A team must
+      attempt a shot that hits the rim within 24 seconds of gaining possession,
+      and an offensive rebound resets it to 14. Before 1954 there was no
+      obligation to shoot at all, and a leading team could simply keep the ball.
+
+      Two further clocks constrain where the ball may be: eight seconds to
+      advance it past halfway, and three seconds for an attacker to remain in
+      the restricted area. Play restarts by throw-in, jump ball at the opening,
+      and by the possession arrow thereafter.
+    facts:
+      - { label: Shot clock, value: 24 s }
+      - { label: Reset after offensive rebound, value: 14 s }
+      - { label: To cross halfway, value: 8 s }
+      - { label: In the restricted area, value: 3 s }
+    shaped_by: [nba-1954-shot-clock, fiba-2000-shot-clock-and-quarters]
+    citation:
+      source: fiba-official-rules
+      article: "Rule 8"
+
+  - id: prohibitions
+    label: Fouls and violations
+    body: >
+      Violations return the ball to the opponent: travelling, double dribble,
+      goaltending, and the clock violations above. Fouls are contact offences
+      and carry free throws once a team is over its quarterly limit.
+
+      Zone defence is legal everywhere now, but it was forbidden in the NBA
+      until 2001 by a set of illegal-defence rules so complicated that they had
+      become the hardest thing in the sport to officiate — and their effect was
+      to produce one-against-one basketball with everybody else standing clear.
+    shaped_by: [nba-2001-zone-defence]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More points, and there is no draw at any level: overtime periods repeat
+      until somebody is ahead. Basketball is one of the highest-scoring sports
+      on this site, which means a single rule change moves its rate statistics
+      visibly and immediately — the reason the 1979 arc severed the record so
+      cleanly.

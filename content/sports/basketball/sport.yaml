@@ -1,0 +1,20 @@
+id: basketball
+label: Basketball
+tagline: The only sport here invented on purpose, in an afternoon, to solve a stated problem.
+governing_body: FIBA, with the NBA keeping its own rulebook
+founded: >
+  Invented by James Naismith in Springfield, Massachusetts, in December 1891.
+  FIBA founded 1932; the NBA formed in 1949.
+coverage: deep
+family_colour: pitch
+classification:
+  official: basketball
+  game-category: invasion
+  adjudication: decided-by-score
+summary: >
+  Basketball has the cleanest documented origin of any sport on this site — one
+  man, one afternoon, thirteen written rules — and the cleanest documented
+  trigger. A 19–18 game in 1950 produced the shot clock in 1954, and the sport
+  has been managing its own pace by rule ever since. It also runs two rulebooks
+  at once, so almost every question here has to say whether it means FIBA or
+  the NBA.
