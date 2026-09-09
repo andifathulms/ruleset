@@ -1,0 +1,94 @@
+sport: ju-jitsu
+standing: editorial
+summary: >
+  Clubs are everywhere and a beginner is on the mat immediately, which is the
+  easy part. The hard part is that competing well means being competent in
+  three ranges that are separate sports elsewhere.
+
+entry:
+  verdict: low
+  claim: A gi and a club. There are clubs under this name in most towns in Europe.
+  why: >
+    The entry route is a martial arts club, which is one of the most widely
+    distributed pieces of sporting infrastructure that exists. A beginner
+    trains on a mat from the first session, with graded belts giving structured
+    progress, and the equipment is a gi.
+
+    Ne-waza in particular is a forgiving place to start: groundwork can be
+    trained at full resistance without striking anybody, so a beginner gets
+    genuine competitive practice early and safely.
+
+    What keeps it at low rather than very low is that the name is a maze. A
+    person looking for this sport will find traditional Japanese schools,
+    Brazilian grappling academies and independent organisations all using it,
+    most of which do not compete under the federation's rules.
+  evidence:
+    - { label: Kit to start, value: A gi, basis: observation }
+    - { label: Facility, value: A club with mats, basis: observation }
+    - { label: Grading, value: Coloured belts, structured progression, basis: observation }
+    - { label: Finding the right club, value: Genuinely confusing, basis: rule, rule: jujitsu-1998-federation, note: The name is used by many unrelated organisations. }
+    - { label: Time to a first competition, value: Months, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Striking, throwing and groundwork at competitive standard, because the rules require all three in one bout.
+  why: >
+    The Fighting system's phase structure is the reason the ceiling here is so
+    high. A bout passes through striking, then throwing, then the ground, and
+    an athlete cannot avoid a range they are weak in — the referee will take
+    them there.
+
+    Elsewhere on this site, each of those ranges is somebody's entire sport.
+    Boxing is the first phase. Judo is the second. The grappling arts are the
+    third. A ju-jitsu fighter is asked to be competent at all three against
+    opponents who may be specialists, and the phase that follows arrives whether
+    or not they won the previous one.
+
+    Duo is a different very high ceiling with the same difficulty as karate's
+    kata: performing techniques at speed with total control, judged on realism,
+    where anything genuinely convincing is also genuinely dangerous to a
+    team-mate.
+
+    The ceiling is institutionally capped. There is no professional layer, the
+    sport is at the World Games rather than the Olympics, and the largest
+    grappling constituency in the world competes under other federations
+    entirely.
+  evidence:
+    - label: Three phases, in order
+      value: Striking, throwing, ground
+      basis: rule
+      rule: jujitsu-three-phase-fighting
+      note: An athlete cannot avoid the range they are weakest in.
+    - label: Duo
+      value: Judged, with a team-mate
+      basis: rule
+      rule: jujitsu-duo-system
+      note: Convincing execution and complete control at the same time.
+    - label: Ne-waza added
+      value: "2015"
+      basis: rule
+      rule: jujitsu-newaza-discipline
+      note: A third distinct competitive specialism under one federation.
+    - { label: Typical peak age, value: 24–32, basis: judgement }
+
+gap: >
+  Low to very high, and the sport is the site's clearest example of a ceiling
+  raised by refusing to specialise.
+
+  Judo took ju-jitsu's throwing, removed most of the rest, and became an
+  Olympic sport. Brazilian grappling took the groundwork, removed the rest, and
+  became a global activity with its own federations. Boxing had the striking
+  already. Each of those is easier to be excellent at than ju-jitsu's Fighting
+  system, because each of them lets an athlete build a career in one range.
+
+  Ju-jitsu kept all three and legislated that a bout must pass through them.
+  That is a coherent decision about what the art is, and it means its athletes
+  are measured against specialists in every phase of every bout.
+
+  The Duo system sits outside that comparison entirely. It is a cooperative,
+  judged event contested at a world championship of a combat sport, and there
+  is nothing else quite like it on this site.
+
+shaped_by:
+  - jujitsu-three-phase-fighting
+  - jujitsu-duo-system

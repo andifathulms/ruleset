@@ -1,0 +1,117 @@
+- id: jujitsu-three-phase-fighting
+  scope: { sport: ju-jitsu, discipline: fighting }
+  date_adopted: 1998
+  date_effective: 1998
+  status: adopted
+  governing_body: Ju-Jitsu International Federation
+  what_changed: >
+    The Fighting system divides a bout into three phases in a fixed order.
+    **Part one** is striking at distance — punches and kicks, with contact
+    controlled. **Part two** begins on a grip and is throwing and takedown.
+    **Part three** is groundwork: holds, locks and strangles.
+
+    A contestant who scores full points in a phase moves the fight to the next
+    one, and the bout progresses through the ranges whether or not either
+    athlete wants it to.
+
+    No other combat sport on this site legislates range. Judo, wrestling,
+    boxing and taekwondo each specialise in one, and mixed martial arts leaves
+    the sequence to the fighters. Ju-jitsu's answer is to require all three, in
+    order, in every bout.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      The sport was assembled from a martial art that contains striking,
+      throwing and grappling, and a competition format that let athletes
+      specialise in one range would have reduced it to an existing sport.
+  citation:
+    source: jjif-rules
+    edition: JJIF Sporting Code, Fighting system
+    missing: true
+
+- id: jujitsu-duo-system
+  scope: { sport: ju-jitsu, discipline: duo }
+  date_adopted: 1998
+  date_effective: 1998
+  status: adopted
+  governing_body: Ju-Jitsu International Federation
+  what_changed: >
+    The Duo system contests pairs from the same team who demonstrate defences
+    against attacks called at random from a defined list — grips, embraces,
+    strikes, weapon attacks. Two pairs perform alternately and a panel of
+    judges marks them.
+
+    There is no opponent. The attacker is a team-mate whose job is to attack
+    convincingly and be defended against, and the marks reward the realism,
+    control, speed and effectiveness of the pair's execution.
+
+    It is a judged, cooperative event inside a combat sport, and it is
+    contested at world championships alongside the fighting.
+  cause_primary: fairness and eligibility
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Much of ju-jitsu's technical content is self-defence against attacks that
+      cannot be performed at full force on a resisting opponent without
+      injuring them, and the federation wanted those techniques contestable.
+  citation:
+    source: jjif-rules
+    edition: JJIF Sporting Code, Duo system
+    missing: true
+  comparability_break: jujitsu-scores
+
+- id: jujitsu-1998-federation
+  scope: { sport: ju-jitsu, discipline: all }
+  date_adopted: 1998
+  date_effective: 1998
+  status: adopted
+  governing_body: Ju-Jitsu International Federation
+  what_changed: >
+    The JJIF took its present form as the international body for competitive
+    ju-jitsu, consolidating European federations that had been running
+    competitions since the 1970s.
+
+    It governs a name rather than a lineage. Traditional Japanese schools, the
+    Brazilian grappling art that shares the name, and a large number of
+    independent organisations all use "ju-jitsu" or a spelling of it, and the
+    federation's competitive sport is one claimant among many.
+  cause_primary: fairness and eligibility
+  cause_secondary: disputed
+  trigger:
+    description: >
+      Competitive ju-jitsu had grown across Europe with national bodies running
+      incompatible formats, and no international body to hold championships.
+    also_said: >
+      Whether a single federation can meaningfully govern a name used by
+      hundreds of independent schools and by a separate and much larger
+      Brazilian grappling sport is disputed, including by those schools.
+  citation:
+    source: jjif-rules
+    edition: JJIF statutes
+    missing: true
+
+- id: jujitsu-newaza-discipline
+  scope: { sport: ju-jitsu, discipline: ne-waza }
+  date_adopted: 2015
+  date_effective: 2015
+  status: adopted
+  governing_body: Ju-Jitsu International Federation
+  what_changed: >
+    A ne-waza discipline was added: pure groundwork, contested without the
+    striking and throwing phases, scored on positional advancement and
+    submission.
+
+    This is the federation meeting the Brazilian grappling sport on its own
+    terms. Ne-waza competition had grown enormously outside the JJIF's
+    structure, and adding it brought that constituency inside — while leaving
+    the older Brazilian federations governing the same activity separately.
+  cause_primary: participation and access
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Submission grappling had become one of the fastest-growing combat
+      activities in the world, almost entirely outside the JJIF.
+  citation:
+    source: jjif-rules
+    edition: JJIF Sporting Code, Ne-Waza
+    missing: true

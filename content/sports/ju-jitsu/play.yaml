@@ -1,0 +1,123 @@
+sport: ju-jitsu
+as_of: 2026-09
+edition: JJIF Sporting Code
+source: jjif-rules
+standing: primary-named
+summary: >
+  Three competitive systems under one federation. Fighting runs a bout through
+  striking, throwing and groundwork in that order. Ne-waza is groundwork alone.
+  Duo is a judged, cooperative demonstration with no opponent.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      In **Fighting**, score more points across the three phases, or end the
+      bout with a full score or a submission. In **Ne-waza**, advance position
+      and submit the opponent. In **Duo**, be marked higher than the other pair
+      for the realism and effectiveness of your defences.
+
+      The three are different enough that an athlete is normally a specialist
+      in one, which is unusual for a single sport rather than a federation of
+      several.
+    shaped_by: [jujitsu-three-phase-fighting, jujitsu-duo-system]
+
+  - id: field
+    label: The mat
+    body: >
+      A matted competition area with a marked safety border, as in judo. The
+      same surface serves all three systems, which is part of why the sport is
+      cheap to stage.
+    facts:
+      - { label: Area, value: Matted, with a safety border }
+      - { label: Same mat, value: Used by all three systems }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      A gi, and coloured belts or sashes to distinguish the contestants. In
+      Fighting, gloves, shin protection and a mouthguard, because the first
+      phase contains strikes.
+
+      Duo requires nothing extra. Ne-waza is contested in a gi and, in some
+      categories, without one — the presence or absence of a jacket changes
+      grappling so completely that they are effectively separate events.
+    facts:
+      - { label: Gi, value: Required in Fighting and gi Ne-waza }
+      - { label: Gloves and shin guards, value: Fighting only }
+      - { label: No-gi, value: A separate category in Ne-waza }
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      One against one in Fighting and Ne-waza, in weight categories. In Duo, a
+      **pair from the same team** performs together — one attacking, one
+      defending — against another pair, judged by a panel.
+
+      That makes Duo the only event covered on this site where two people on
+      the same side compete against two other people on their own side, with
+      nobody opposing anybody.
+    facts:
+      - { label: Fighting and Ne-waza, value: One against one, by weight }
+      - { label: Duo, value: A pair from one team, judged }
+    shaped_by: [jujitsu-duo-system]
+
+  - id: duration
+    label: Time
+    body: >
+      Fighting bouts run a few minutes; the three phases happen inside that
+      single clock rather than being timed separately. Ne-waza bouts are longer,
+      as positional grappling needs time to develop. Duo performances are a
+      short sequence of called attacks.
+    facts:
+      - { label: Fighting, value: One clock, three phases within it }
+      - { label: Duo, value: A sequence of called attacks }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      In **Fighting**, points are scored within each phase — a controlled strike
+      that lands, a clean throw, a hold or submission — and a full score in a
+      phase advances the bout to the next.
+
+      In **Ne-waza**, points for positional advancement, with submission ending
+      the bout.
+
+      In **Duo**, judges mark each defence for realism, control, speed and
+      effectiveness, and the pair with the higher aggregate wins. It is a
+      judged score inside a combat sport, which puts it in the same category as
+      karate's kata.
+    shaped_by: [jujitsu-three-phase-fighting]
+
+  - id: restarts
+    label: Phases and restarts
+    body: >
+      The Fighting bout's phase structure is itself the restart mechanism: the
+      referee moves the contest from striking to gripping to the ground as the
+      conditions for each are met, rather than returning the athletes to a
+      neutral start.
+
+      In Duo, the referee calls each attack from the defined list and the pair
+      performs it; there is no continuous action to interrupt.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      In Fighting: uncontrolled contact in the striking phase — the strikes are
+      required to be controlled rather than damaging — plus the standard
+      combat-sport prohibitions on strikes to the spine, throat and joints, and
+      on dangerous throws.
+
+      In Ne-waza: locks and strangles are permitted by age and grade, with
+      heel hooks, neck cranks and some joint attacks restricted at lower
+      levels.
+
+      In Duo: an attack performed unconvincingly, or a defence performed
+      without control, is marked down rather than penalised.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Points, submission, or a judged decision depending on the system. The
+      three systems produce winners by three different mechanisms, which is
+      part of why the sport is hard to present as one thing.

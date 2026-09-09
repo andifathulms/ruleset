@@ -32,6 +32,7 @@
     - { id: fistball, label: Fistball, colour: clay, members: [fistball] }
     - { id: floorball, label: Floorball, colour: pitch, members: [floorball] }
     - { id: flying-disc, label: Flying disc, colour: pitch, members: [flying-disc] }
+    - { id: ju-jitsu, label: Ju-jitsu, colour: clay, members: [ju-jitsu] }
     - { id: kabaddi, label: Kabaddi, colour: pitch, members: [kabaddi] }
     - { id: korfball, label: Korfball, colour: pitch, members: [korfball] }
     - { id: lifesaving, label: Lifesaving, colour: pool, members: [lifesaving] }
@@ -109,7 +110,7 @@
       label: Outside this taxonomy
       colour: unmarked
       members: [judo, taekwondo, boxing, modern-pentathlon, fencing, wrestling,
-                karate, breaking, tug-of-war, sumo, dancesport]
+                karate, breaking, tug-of-war, sumo, dancesport, ju-jitsu]
 
 - id: adjudication
   label: Adjudication
@@ -139,7 +140,8 @@
     - id: combat
       label: Combat
       colour: clay
-      members: [judo, taekwondo, boxing, fencing, wrestling, karate, sumo]
+      members: [judo, taekwondo, boxing, fencing, wrestling, karate, sumo,
+                ju-jitsu]
     # A fifth category the lens did not have until a sport arrived that needed
     # it. Every other sport here is adjudicated by someone who is not playing;
     # ultimate is adjudicated by the players, and that is a rule rather than an

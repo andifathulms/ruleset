@@ -1,0 +1,42 @@
+sport: ju-jitsu
+as_of: 2026-09
+source: jjif-rules
+standing: primary-named
+summary: >
+  No Olympic events. Ju-jitsu is on the World Games programme, was contested at
+  the 2018 Asian Games, and holds world championships across three systems that
+  have very little in common with each other.
+disciplines:
+  - id: fighting
+    label: Fighting
+    blurb: Three phases in order — striking, throwing, groundwork — in weight categories.
+    events:
+      - { id: men-fight, label: Men's weight categories, at: [world-games, asian-games, world-championship], count: 5 }
+      - { id: women-fight, label: Women's weight categories, at: [world-games, asian-games, world-championship], count: 5 }
+  - id: newaza
+    label: Ne-waza
+    blurb: Groundwork alone, gi and no-gi. Added as a discipline in 2015.
+    events:
+      - { id: men-nw, label: Men's weight categories, at: [world-games, world-championship], count: 5 }
+      - { id: women-nw, label: Women's weight categories, at: [world-games, world-championship], count: 5 }
+  - id: duo
+    label: Duo
+    blurb: >
+      A pair from the same team demonstrating defences against called attacks,
+      judged by a panel. No opponent.
+    events:
+      - { id: duo-men, label: Duo men, at: [world-games, world-championship] }
+      - { id: duo-women, label: Duo women, at: [world-games, world-championship] }
+      - { id: duo-mixed, label: Duo mixed, at: [world-games, world-championship] }
+      - { id: duo-show, label: Duo show, at: [world-championship], note: A freer form, marked on presentation as well as technique. }
+  - id: elsewhere
+    label: The same name, governed elsewhere
+    counts: false
+    blurb: >
+      "Ju-jitsu", "jujutsu" and "jiu-jitsu" name a Japanese art, a Brazilian
+      grappling sport, and hundreds of independent schools. This federation
+      governs one competitive code among them.
+    events:
+      - { id: bjj, label: Brazilian jiu-jitsu, at: [federation-only], note: "A separate and much larger grappling sport with its own federations and its own competitive structure." }
+      - { id: traditional, label: Traditional Japanese schools, at: [federation-only], note: Classical lineages that do not compete at all. }
+      - { id: judo, label: Judo, at: [olympic], note: "Derived from ju-jitsu in the 1880s by removing most of its techniques — and on the Olympic programme since 1964, while its parent art is not." }

@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: jjif-rules
+  standing: primary-named
+  title: JJIF Sporting Code
+  publisher: Ju-Jitsu International Federation
+  kind: rulebook
+  url: https://jjif.sport/
+
 - id: wdsf-rules
   standing: primary-named
   title: WDSF Competition Rules

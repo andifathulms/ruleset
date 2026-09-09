@@ -1,0 +1,33 @@
+id: jujitsu-scores
+label: A comparable score
+unit: points
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Ju-jitsu cannot produce one series because it is not one competition.
+
+  Fighting scores points across three phases and can end in a submission.
+  Ne-waza scores positional advancement and can end in a submission. Duo is
+  marked by a panel of judges on the realism and control of a cooperative
+  demonstration. These are three different quantities wearing the same word.
+
+  A Duo mark and a Fighting score have less in common than a gymnastics D-score
+  and a boxing decision. One is a judged aesthetic-technical assessment of two
+  team-mates; the other is a count of things one person did to another.
+
+  There is also nothing stable underneath. The federation added Ne-waza as a
+  discipline in 2015, which changed what the world championship contains, and
+  the largest grappling constituency in the world competes under other bodies
+  whose scoring is different again.
+
+  So this space records what the sport is rather than what it measured: a
+  federation running three competitions that share a mat, a gi and a name.
+segments: []
+breaks:
+  - at: 1998
+    caused_by: jujitsu-duo-system
+    kind: scoped
+    note: >
+      Duo is judged and cooperative; Fighting is scored and adversarial. They
+      have never been comparable and were never intended to be.
+source: jjif-rules

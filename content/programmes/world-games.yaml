@@ -119,7 +119,7 @@ sports:
       Acrobatic, aerobic and parkour — the disciplines the Games leaves out.
   - id: ju-jitsu
     label: Ju-jitsu
-    coverage: skeleton
+    coverage: deep
     held: [2025]
   - id: karate
     label: Karate

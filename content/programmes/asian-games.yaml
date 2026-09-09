@@ -147,7 +147,7 @@ sports:
     held: [2022]
   - id: ju-jitsu
     label: Ju-jitsu
-    coverage: skeleton
+    coverage: deep
     held: [2022]
   - id: judo
     label: Judo
