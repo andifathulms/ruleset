@@ -58,6 +58,7 @@
     - { id: volleyball, label: Volleyball, colour: pitch, members: [volleyball] }
     - { id: weightlifting, label: Weightlifting, colour: pool, members: [weightlifting] }
     - { id: dragon-boat, label: Dragon boat, colour: pool, members: [dragon-boat] }
+    - { id: duathlon, label: Duathlon, colour: pool, members: [duathlon] }
     - { id: equestrian, label: Equestrian, colour: gold, members: [equestrian] }
     - { id: fencing, label: Fencing, colour: clay, members: [fencing] }
     - { id: golf, label: Golf, colour: pitch, members: [golf] }
@@ -119,7 +120,7 @@
       members: [athletics, gymnastics, swimming, cycling, weightlifting, rowing,
                 sailing, sport-climbing, equestrian, canoeing, triathlon,
                 skateboarding, surfing, powerlifting, orienteering, lifesaving,
-                finswimming, dragon-boat]
+                finswimming, dragon-boat, duathlon]
     - id: outside-taxonomy
       label: Outside this taxonomy
       colour: unmarked
@@ -142,7 +143,7 @@
       members: [athletics, swimming, cycling, archery, weightlifting, modern-pentathlon,
                 rowing, sailing, shooting, golf, sport-climbing, canoeing, triathlon,
                 powerlifting, orienteering, lifesaving, finswimming, boules,
-                bowling, dragon-boat, air-sports]
+                bowling, dragon-boat, air-sports, duathlon]
     - id: judged
       label: Judged
       colour: gold

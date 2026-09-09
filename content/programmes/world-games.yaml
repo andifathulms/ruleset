@@ -97,8 +97,10 @@ sports:
       never been on the programme.
   - id: duathlon
     label: Duathlon
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Triathlon with the swim removed, governed by triathlon's federation.
   - id: finswimming
     label: Finswimming
     coverage: deep

@@ -1,0 +1,35 @@
+id: duathlon-times
+label: Race times
+unit: s
+higher_is_better: false
+absence_kind: impossible
+cannot_exist: >
+  Duathlon times cannot form a progression, and the sport's own rules give two
+  independent reasons.
+
+  **The courses differ.** A duathlon is raced on roads, and every course has its
+  own profile, surface, altitude, number of turns and weather. Two standard
+  distance races are the same only in the numbers on the entry form. This is
+  the position road running and cycling are in, and both handle it by treating
+  a time as belonging to a course.
+
+  **The formats differ more.** Elite short-course racing is draft-legal and most
+  other racing is not. A draft-legal bike leg is a bunch race in which sitting
+  in a slipstream saves a large fraction of the effort; a non-drafting bike leg
+  is a time trial. The bicycles are different, the tactics are different, and
+  the race is decided by different disciplines. A time from one says nothing
+  about a time from the other.
+
+  What could be compared is the split — how much slower the second run is than
+  the first — because that ratio is the sport's distinctive physiological
+  signature and is course-dependent in a smaller way. It is collected by teams
+  and is not published in any consistent cited form, so nothing is entered.
+segments: []
+breaks:
+  - at: 1995
+    caused_by: duathlon-drafting-formats
+    kind: scoped
+    note: >
+      Draft-legal and non-drafting racing are separate sports with separate
+      equipment. Times belong to a format, not to duathlon.
+source: world-triathlon-rules

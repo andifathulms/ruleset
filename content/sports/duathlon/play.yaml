@@ -1,0 +1,111 @@
+sport: duathlon
+as_of: 2026-09
+edition: World Triathlon Competition Rules
+source: world-triathlon-rules
+standing: primary-named
+summary: >
+  Run, bike, run, against the clock, with the transitions timed as part of the
+  race. Elite short-course racing permits drafting on the bike; most other
+  racing does not, and the two are effectively different sports.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Complete the course fastest. The clock runs from the start of the first
+      run to the end of the second and does not stop — the transitions between
+      disciplines are inside the race time, so changing shoes and racking a bike
+      are timed activities.
+    facts:
+      - { label: Sequence, value: Run, bike, run }
+      - { label: Clock, value: Continuous, transitions included }
+
+  - id: field
+    label: The course
+    body: >
+      Roads and paths, with a transition area where bikes are racked. Standard
+      distances vary by format — a common championship configuration is roughly
+      10 km, 40 km and 5 km — and sprint, standard and long-course versions all
+      exist.
+
+      Cross duathlon is run on trails and mountain bikes, which is a different
+      event again.
+    facts:
+      - { label: Standard, value: About 10 km run, 40 km bike, 5 km run }
+      - { label: Transition area, value: Inside the race time }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      Running shoes, a bicycle and a helmet. The bike specification depends
+      entirely on the format: **draft-legal** racing uses road bikes with
+      restrictions on aerodynamic extensions, because a bunch riding at speed
+      in close proximity on time-trial bars is dangerous. **Non-drafting**
+      racing permits full time-trial equipment.
+
+      So the same athlete needs different bicycles for the two versions of the
+      sport, which is the clearest practical evidence that they are not one
+      thing.
+    facts:
+      - { label: Draft-legal, value: Road bikes, aerobar restrictions }
+      - { label: Non-drafting, value: Time-trial equipment permitted }
+      - { label: Helmet, value: Compulsory, fastened before touching the bike }
+    shaped_by: [duathlon-drafting-formats]
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      Individual racing, with relay formats at championship level. Officials
+      police the transition area, drafting where it is prohibited, and conduct
+      on course, issuing time penalties served in a penalty box.
+    facts:
+      - { label: Format, value: Individual, with relays }
+      - { label: Penalties, value: Served in a penalty box, during the race }
+
+  - id: duration
+    label: Time
+    body: >
+      Roughly two hours for a standard-distance championship race; sprint
+      formats around an hour; long course considerably more.
+    facts:
+      - { label: Standard distance, value: About 2 hours }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Elapsed time, and finishing order. There is nothing else — no points, no
+      bonuses, no adjustment for conditions.
+
+  - id: restarts
+    label: Transitions
+    body: >
+      The two transitions are part of the race and are governed in detail: the
+      bike must be racked in the assigned position, the helmet fastened before
+      the bike is touched and unfastened only after it is racked, and nobody may
+      ride inside the transition area.
+
+      A rider who mounts before the line or dismounts after it takes a penalty.
+      These are among the few rules on this site that regulate the act of
+      changing equipment.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      **Drafting**, where the format prohibits it — riding within a defined
+      distance behind or beside another competitor without completing an
+      overtake in the allowed time.
+
+      Blocking, outside assistance, discarding equipment outside designated
+      zones, and helmet offences in transition.
+
+      Penalties are time penalties served during the race rather than
+      disqualifications, which keeps a competitor in the event and makes the
+      penalty box a visible part of the racing.
+    shaped_by: [duathlon-drafting-formats]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      First across the line. In draft-legal racing that is almost always
+      decided on the second run, because the bike leg compresses the field; in
+      non-drafting racing the bike can decide it outright.

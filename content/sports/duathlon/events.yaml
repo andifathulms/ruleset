@@ -1,0 +1,38 @@
+sport: duathlon
+as_of: 2026-09
+source: world-triathlon-rules
+standing: primary-named
+summary: >
+  No Olympic events. Duathlon is contested at the World Games and holds world
+  championships across several distances — governed by the federation whose
+  Olympic place belongs to triathlon.
+disciplines:
+  - id: standard
+    label: Standard and sprint
+    blurb: Road racing, run–bike–run. Draft-legal at elite short course.
+    events:
+      - { id: men, label: Men's standard and sprint, at: [world-games, world-championship], count: 2 }
+      - { id: women, label: Women's standard and sprint, at: [world-games, world-championship], count: 2 }
+      - { id: relay, label: Mixed relay, at: [world-championship] }
+  - id: long
+    label: Long course
+    blurb: Non-drafting, over considerably longer distances.
+    events:
+      - { id: long-men, label: Men's long distance, at: [world-championship] }
+      - { id: long-women, label: Women's long distance, at: [world-championship] }
+  - id: cross
+    label: Cross duathlon
+    blurb: On trails and mountain bikes.
+    events:
+      - { id: cross-events, label: Cross duathlon, at: [world-championship], count: 2 }
+  - id: family
+    label: The federation's other multisport formats
+    counts: false
+    blurb: >
+      World Triathlon governs a family of combinations, of which only one is
+      Olympic.
+    events:
+      - { id: triathlon, label: Triathlon, at: [olympic], note: "Swim, bike, run — Olympic since 2000, and covered on this site as its own sport." }
+      - { id: aquathlon, label: Aquathlon, at: [world-championship], note: Swim and run, with no bike. }
+      - { id: aquabike, label: Aquabike, at: [world-championship], note: Swim and bike, with no run. }
+      - { id: winter, label: Winter triathlon, at: [world-championship], note: Run, mountain bike and cross-country ski. }

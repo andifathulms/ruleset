@@ -1,0 +1,89 @@
+- id: duathlon-run-bike-run
+  scope: { sport: duathlon, discipline: all }
+  date_adopted: 1990
+  date_effective: 1990
+  status: adopted
+  governing_body: International Triathlon Union, now World Triathlon
+  what_changed: >
+    The format was codified as run, bike, run, with world championships from
+    1990: a first run, a transition, a bike leg, a second transition, and a
+    final run.
+
+    The second run is the sport's distinctive demand and it is not a smaller
+    version of triathlon's. A triathlete runs off the bike on legs fatigued by
+    swimming and cycling. A duathlete runs off the bike on legs that have
+    already run hard, which produces a specific and well-recognised
+    deterioration — the running muscles have been loaded twice, with a cycling
+    leg in between that does not let them recover.
+
+    Removing the swim was not a simplification. It changed which discipline
+    decides the race.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      Triathlon's growth through the 1980s ran into two constraints — athletes
+      who could not swim well enough, and venues without safe open water — and
+      run-bike-run events were organised to work around both.
+  citation:
+    source: world-triathlon-rules
+    edition: World Triathlon Competition Rules, duathlon
+    missing: true
+
+- id: duathlon-1989-federation
+  scope: { sport: duathlon, discipline: all }
+  date_adopted: 1989
+  date_effective: 1989
+  status: adopted
+  governing_body: International Triathlon Union, now World Triathlon
+  what_changed: >
+    An international federation was formed for triathlon, and it took
+    responsibility for a family of multisport formats alongside it: duathlon,
+    aquathlon, aquabike, cross triathlon and winter triathlon.
+
+    Duathlon is therefore governed by a body named after a different sport, and
+    its institutional position follows from that. The federation's Olympic
+    place belongs to triathlon; duathlon has world championships and a World
+    Games place, and no prospect of a programme place while its own federation's
+    flagship already holds one.
+  cause_primary: fairness and eligibility
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Triathlon was pursuing Olympic inclusion and needed a single
+      international federation, which then inherited the multisport formats
+      that had grown up around it.
+  citation:
+    source: world-triathlon-rules
+    edition: World Triathlon statutes
+    missing: true
+
+- id: duathlon-drafting-formats
+  scope: { sport: duathlon, discipline: all }
+  date_adopted: 1995
+  date_effective: 1995
+  status: adopted
+  governing_body: International Triathlon Union, now World Triathlon
+  what_changed: >
+    Elite short-course racing became **draft-legal**: riders may sit in another
+    competitor's slipstream on the bike leg. Long-course and age-group racing
+    remained **non-drafting**, with penalties for riding within a defined
+    distance of the rider in front.
+
+    These are two different sports sharing a name. A draft-legal bike leg is a
+    bunch race in which a strong cyclist gains far less than they would alone,
+    so races are decided on the final run. A non-drafting bike leg is a time
+    trial, and the cycling is decisive.
+
+    Times, and any statistic drawn from them, are not comparable across the two.
+  cause_primary: broadcast and pacing
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Non-drafting racing spread the field out over the bike leg and produced
+      an event that could not be televised or followed. Allowing drafting
+      compressed the race and made the finish competitive.
+  citation:
+    source: world-triathlon-rules
+    edition: World Triathlon Competition Rules, drafting
+    missing: true
+  comparability_break: duathlon-times

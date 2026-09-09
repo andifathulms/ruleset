@@ -1,0 +1,95 @@
+sport: duathlon
+standing: editorial
+summary: >
+  Substantially easier to enter than triathlon, because the discipline that
+  stops people is the one that has been removed — and a top end that is harder
+  in one specific way, since the last run starts on legs that have already run.
+
+entry:
+  verdict: low
+  claim: If you can run and ride a bike, you can enter one. No open water, no swim technique.
+  why: >
+    Triathlon's barrier is swimming, and specifically open-water swimming.
+    Adult beginners can learn to run and to ride a bicycle without instruction;
+    learning to swim well enough to race in a crowded open-water start is a
+    different order of commitment, and it is where most prospective triathletes
+    stop.
+
+    Duathlon removes it. What remains — running and cycling — are the two
+    endurance activities with the largest existing participation base in the
+    world, so a very large number of people are already halfway trained for it
+    without knowing.
+
+    The equipment is running shoes, a bike and a helmet, and entry-level events
+    are short and untimed at the sharp end.
+
+    It sits at low rather than very low because a bicycle is a real purchase and
+    events need organising on roads.
+  evidence:
+    - { label: No swim, value: The barrier removed, basis: rule, rule: duathlon-run-bike-run, note: Open-water swimming is what keeps people out of triathlon. }
+    - { label: Kit to start, value: Shoes, a bike, a helmet, basis: observation }
+    - { label: Existing skills, value: Running and cycling, basis: judgement }
+    - { label: Facility, value: Roads and a transition area, basis: observation }
+    - { label: Time to a first race, value: Weeks, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: A final run started on running-fatigued legs, in a sport with no Olympic destination.
+  why: >
+    The physiological demand is genuinely distinct from triathlon's, and this is
+    the thing the sport is not given credit for. A triathlete's run comes off a
+    swim and a bike — different muscle recruitment, different loading. A
+    duathlete's second run comes after a hard first run *and* a bike leg, so the
+    running muscles have been loaded twice with an interval that does not
+    restore them. Elite duathletes describe the second run as a different
+    activity from the first, and the split times show it.
+
+    Pacing is correspondingly harder. The first run has to be fast enough to
+    stay in the race and slow enough to leave a second one, and misjudging it
+    is unrecoverable in a way a triathlon swim rarely is.
+
+    Then the ceiling. Duathlon's elite structure is a world championship, a
+    World Games place and a modest circuit, because the federation that governs
+    it already has an Olympic sport and it is not this one. An athlete good
+    enough to reach the top of duathlon is generally good enough to make a
+    living in triathlon or in running, and many do.
+  evidence:
+    - label: The second run
+      value: On legs that have already run
+      basis: rule
+      rule: duathlon-run-bike-run
+      note: A loading pattern triathlon does not produce.
+    - label: Two sports in one
+      value: Draft-legal and non-drafting
+      basis: rule
+      rule: duathlon-drafting-formats
+      note: Different bikes, different tactics, incomparable results.
+    - label: Governed by triathlon's federation
+      value: Since 1989
+      basis: rule
+      rule: duathlon-1989-federation
+      note: The Olympic place belongs to the flagship sport.
+    - { label: Typical peak age, value: 26–35, basis: judgement }
+
+gap: >
+  Low to very high, and duathlon is worth setting directly beside triathlon,
+  which this site already covers.
+
+  Triathlon's gap is wide because of the swim: an adult who cannot swim
+  competently is not going to become a triathlete, whatever else they can do.
+  Duathlon deletes that barrier and keeps almost the entire ceiling, because the
+  running and cycling demands at the top are the same and the second run is
+  harder.
+
+  That makes it the clearest accessibility experiment on this site after soft
+  tennis and pétanque: remove one component of an existing sport and the entry
+  barrier collapses while the elite requirement does not.
+
+  What duathlon does not get is the reward. Triathlon has been Olympic since
+  2000; duathlon is governed by triathlon's federation and has no route. It is
+  the more accessible sport and the less consequential one, and nothing about
+  its rules can change that.
+
+shaped_by:
+  - duathlon-run-bike-run
+  - duathlon-drafting-formats
