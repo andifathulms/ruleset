@@ -1,0 +1,144 @@
+sport: bridge
+as_of: 2026-09
+edition: Laws of Duplicate Bridge
+source: wbf-laws
+standing: primary-named
+summary: >
+  Four players in two partnerships, thirteen cards each. An auction determines
+  the contract; the side that wins it then tries to make it. In competition the
+  same deals are played at every table and results are scored by comparison.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Win the auction with a contract you can make, then make it — or push the
+      opponents into a contract they cannot.
+
+      The auction is a bidding conversation in which each bid is a coded but
+      fully disclosed statement about your hand. The partnership that describes
+      two hands to each other most accurately reaches the right contract, and
+      the play then tests whether the description was true.
+    facts:
+      - { label: Players, value: 4, in two partnerships }
+      - { label: Cards, value: 13 each }
+      - { label: Phases, value: An auction, then the play }
+
+  - id: field
+    label: The table
+    body: >
+      A table for four, with the deal held in a board so the same cards can be
+      passed to the next table and played again.
+
+      At the highest level the table carries a **screen**: a diagonal barrier
+      across it so that partners cannot see each other. Bids are passed under
+      it on a tray. The screen exists to make signalling by expression or
+      gesture physically impossible.
+    facts:
+      - { label: Boards, value: Hold the deal for replay at other tables }
+      - { label: Screens, value: At top level, blocking partners' view of each other }
+
+  - id: equipment
+    label: Cards, boxes and cards about cards
+    body: >
+      A standard 52-card pack, and three items that exist to control
+      information.
+
+      **Duplicate boards** hold each player's thirteen cards in a slot so the
+      deal survives being played and can be passed to the next table.
+
+      **Bidding boxes** replace spoken bids with printed cards laid on the
+      table. This removes tone of voice from the auction — a bid made
+      hesitantly and one made briskly look identical on a card, and the
+      information a voice would leak is not available to leak.
+
+      **The convention card** is a written summary of a partnership's
+      agreements, kept on the table and available to the opponents.
+    facts:
+      - { label: Bidding boxes, value: Remove tone of voice from a bid }
+      - { label: Convention card, value: Your agreements, for your opponents to read }
+      - { label: Duplicate boards, value: The same deal, played at every table }
+    shaped_by: [bridge-full-disclosure, bridge-duplicate-play]
+
+  - id: players
+    label: Players and officials
+    body: >
+      Four at a table. After the auction, the partner of the player who won the
+      contract becomes **dummy**: their thirteen cards are laid face up and
+      played by their partner, and dummy takes no further part.
+
+      So one player plays twenty-six cards and their partner plays none — a
+      distribution of participation nothing else on this site produces.
+
+      A tournament director rules on irregularities and may adjust a score after
+      the fact.
+    facts:
+      - { label: Declarer, value: Plays 26 cards }
+      - { label: Dummy, value: Plays none, and may not participate }
+    shaped_by: [bridge-1925-contract]
+
+  - id: duration
+    label: Time
+    body: >
+      Boards are played to a schedule — a set number per round, with a time
+      allowance — and a championship runs over days. There is no clock on an
+      individual decision, though slow play is penalised.
+    facts:
+      - { label: Session, value: A set number of boards per round }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      A contract made scores according to its level, its denomination and
+      whether the side is vulnerable, with bonuses for game and slam; a
+      contract defeated scores to the defenders.
+
+      Then the duplicate comparison. In **pairs** play, matchpoints: you score
+      against every other pair that held your cards. In **teams**, IMPs: the
+      difference between your table's result and your team-mates' at the other
+      table, converted on a scale.
+
+      That comparison is the sport's fairness mechanism. A modest result on a
+      poor hand can be a top if everybody else did worse with it.
+    facts:
+      - { label: Pairs, value: Matchpoints, against everyone who held your cards }
+      - { label: Teams, value: IMPs, against your team-mates' table }
+    shaped_by: [bridge-duplicate-play]
+
+  - id: restarts
+    label: Between boards
+    body: >
+      Boards move between tables and players move between boards, on a
+      published movement, so that over a session every pair meets a defined set
+      of opponents and deals.
+
+      There is no restart within a board. A revoke or an irregularity is
+      handled by the director with a rectification or an adjusted score rather
+      than by replaying the hand.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      **Unauthorised information** is the sport's characteristic offence, and it
+      is unusual in that the offender may be entirely innocent. If a partner
+      hesitates, or fidgets, or asks a question, they have transmitted
+      something — and the rule falls on the *other* partner, who must then
+      choose among the actions available to them the one least suggested by
+      what they were not supposed to know.
+
+      Also: failing to alert a conventional bid, misexplaining an agreement,
+      having undisclosed agreements, revoking, playing out of turn, and slow
+      play.
+
+      A director may adjust the score to what would probably have happened
+      without the infraction — an unusual remedy, and one that requires
+      judging a counterfactual.
+    shaped_by: [bridge-full-disclosure]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The highest comparison score over the session, or the team with more IMPs
+      over a match. Because every result is relative to what others did with
+      identical cards, a bridge score says how well you played the hand rather
+      than how good the hand was.

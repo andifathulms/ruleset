@@ -1,0 +1,37 @@
+id: bridge-scores
+label: A comparable score
+unit: matchpoints
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Bridge scores are relative by construction and cannot be placed on any axis
+  that runs between events.
+
+  A duplicate result is a **comparison**. In pairs, a matchpoint score says how
+  you did against everybody else holding those cards on that day, in that
+  field. In teams, an IMP margin says how you did against one other pair at one
+  other table. Neither number means anything outside the session that produced
+  it, and both are bounded by the field's size rather than by performance.
+
+  A top on a board is a top whether you beat the field by one trick or five.
+  Two identical percentage scores in different events describe different
+  achievements against different opposition.
+
+  This is not a defect. It is the mechanism that makes bridge fair: comparing
+  results across identical deals removes the luck that would otherwise decide
+  the game, and the price of that comparison is that the number only exists
+  inside the comparison.
+
+  What the sport does have is masterpoint and ranking systems that accumulate
+  across events, but those measure participation and placing over a career
+  rather than strength on a common scale — they are not the instrument chess
+  has, and the federation does not present them as one.
+segments: []
+breaks:
+  - at: 1958
+    caused_by: bridge-duplicate-play
+    kind: scoped
+    note: >
+      A duplicate result is relative to the field that played the same deals.
+      It has no meaning outside that session.
+source: wbf-laws

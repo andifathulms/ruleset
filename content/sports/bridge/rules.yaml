@@ -1,0 +1,124 @@
+- id: bridge-1925-contract
+  scope: { sport: bridge, discipline: all }
+  date_adopted: 1925
+  date_effective: 1925
+  status: adopted
+  governing_body: Harold Vanderbilt, and the card-playing bodies that adopted it
+  what_changed: >
+    Contract bridge replaced auction bridge by changing one thing about
+    scoring: a partnership only receives credit towards game for the tricks it
+    **contracted** to make. Bidding more than you can make is punished, and
+    bidding less than you can make wastes the hand.
+
+    That single change turned the auction from an opening formality into the
+    substance of the game. A bid is no longer a claim on the right to play; it
+    is a precise statement about your hand, and the partnership that describes
+    two hands most accurately to each other reaches the right contract.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Auction bridge rewarded overbidding, because tricks made above the
+      contract still counted towards game, so the auction carried little risk
+      and less information.
+  citation:
+    source: wbf-laws
+    edition: Laws of Duplicate Bridge, scoring
+    missing: true
+
+- id: bridge-duplicate-play
+  scope: { sport: bridge, discipline: all }
+  date_adopted: 1958
+  date_effective: 1958
+  status: adopted
+  governing_body: World Bridge Federation
+  what_changed: >
+    Competitive bridge is played **duplicate**: the same deals are played at
+    every table, and a result is scored by comparison with what everybody else
+    achieved holding those identical cards.
+
+    This removes the luck of the deal almost entirely, which no other card or
+    dice game has managed. A player dealt a poor hand is not disadvantaged —
+    every other pair sitting their direction was dealt the same poor hand, and
+    the question is what you did with it relative to them.
+
+    It is the most effective randomness-control mechanism on this site. Golf
+    invented the handicap to make unequal players comparable; bridge made the
+    deal itself constant.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Rubber bridge, played with freshly dealt hands, is decided substantially
+      by the cards, which makes it unusable as a competitive sport.
+  citation:
+    source: wbf-laws
+    edition: Laws of Duplicate Bridge
+    missing: true
+  comparability_break: bridge-scores
+
+- id: bridge-full-disclosure
+  scope: { sport: bridge, discipline: all }
+  date_adopted: 1958
+  date_effective: 1958
+  status: adopted
+  governing_body: World Bridge Federation
+  what_changed: >
+    Two obligations that pull in opposite directions and together define the
+    sport.
+
+    **Full disclosure:** a partnership's bidding agreements are not secret from
+    the opponents. They are written on a convention card the opponents may
+    consult, unusual bids must be alerted, and an opponent may ask what any bid
+    means and must be told accurately.
+
+    **No communication:** a player may convey information to their partner only
+    through the bids and cards they actually make. A hesitation, an inflection,
+    a mannerism or a gesture that conveys anything is an offence — and using
+    information a partner leaked, even unintentionally, is itself an offence.
+
+    So the information is public to the people trying to beat you and closed to
+    the person helping you.
+  cause_primary: integrity
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      A partnership with private agreements has an advantage that has nothing
+      to do with skill, and a partnership able to signal outside the bidding has
+      an unbeatable one. Both were dealt with by the same body of law.
+  citation:
+    source: wbf-laws
+    edition: Laws of Duplicate Bridge, disclosure and unauthorised information
+    missing: true
+
+- id: bridge-2017-not-a-sport
+  scope: { sport: bridge, discipline: all }
+  date_adopted: 2017
+  date_effective: 2017
+  status: adopted
+  governing_body: A European court, not a sporting body
+  what_changed: >
+    A European court ruled in 2017 that duplicate contract bridge is not a
+    sport for the purposes of a tax exemption, on the ground that it does not
+    involve a significant physical element.
+
+    The ruling changed no rule of bridge and is recorded here because it is one
+    of very few occasions on which the question this site's learning layer asks
+    informally — is this a sport — has been answered by a court with
+    consequences attached.
+
+    Cheerleading has faced the same question in American litigation about
+    educational funding. Bridge lost its version of it.
+  cause_primary: disputed
+  trigger:
+    description: >
+      The English Bridge Union sought treatment as a sport for a tax exemption,
+      and the question was referred upward for a ruling on what "sport" means
+      in that legislation.
+    also_said: >
+      The federation's position is that bridge is recognised as a sport by the
+      IOC and by numerous national bodies, and that a tax definition is not a
+      general verdict. The court's reasoning turned specifically on physical
+      activity. Both are recorded.
+  citation:
+    source: wbf-laws
+    edition: European Court of Justice ruling, 2017
+    missing: true

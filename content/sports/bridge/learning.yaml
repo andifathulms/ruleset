@@ -1,0 +1,100 @@
+sport: bridge
+standing: editorial
+summary: >
+  A pack of cards and three other people, and one of the longest learning
+  curves of anything on this site — because you are not learning a game so much
+  as a language you must speak with a partner and translate for your opponents.
+
+entry:
+  verdict: moderate
+  claim: A pack of cards, three other people, and a bidding system you both have to learn.
+  why: >
+    The materials cost nothing and the play of the cards is learnable quickly —
+    follow suit, win tricks, count.
+
+    The barrier is the auction. A bid is a coded statement, and the code is a
+    **partnership agreement** that both players must know identically. So a
+    beginner is not learning rules; they are learning a system, with a partner,
+    and neither of them can use it until both do. That is a much steeper start
+    than any other game covered here.
+
+    The other barrier is the fourth person. Bridge needs four, in two committed
+    partnerships, at the same time, repeatedly — an organisational demand that
+    chess and go do not have and that has done bridge real demographic damage.
+
+    Clubs teach it well, and the teaching structures are among the best of any
+    sport here. They are also mostly full of people who started decades ago.
+  evidence:
+    - { label: Kit to start, value: A pack of cards, basis: observation }
+    - { label: Players needed, value: "4", basis: observation, note: In two committed partnerships. }
+    - { label: The auction, value: A learned system, shared with a partner, basis: rule, rule: bridge-full-disclosure }
+    - { label: Physical demand, value: None, basis: judgement }
+    - { label: Time to a real game, value: Weeks to months, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Describing a hand precisely to a partner who may be told nothing, while your opponents read your notes.
+  why: >
+    The information structure is the difficulty, and it is unlike anything else
+    on this site.
+
+    You must convey your hand to your partner using only bids and cards. You may
+    not convey it any other way, and if your partner accidentally conveys
+    something to you — a pause, a question — you are then obliged to act as
+    though you did not notice, and choosing the action least suggested by
+    information you were not supposed to have is one of the hardest ethical and
+    technical judgements in any sport.
+
+    Meanwhile your opponents may read your convention card and ask what your
+    bids mean. So a partnership's system must be sophisticated enough to
+    describe hands precisely and robust enough to survive the opposition
+    knowing exactly how it works.
+
+    The card play adds a second discipline: counting the hand, inferring the
+    unseen distribution from the bidding and the cards played, and deceiving
+    opponents within the rules.
+
+    And a partnership is a long-term unit. Top pairs play together for decades,
+    because the system is only as good as the shared understanding of it — the
+    same constraint this site records for dancesport.
+  evidence:
+    - label: No communication with partner
+      value: Beyond bids and cards
+      basis: rule
+      rule: bridge-full-disclosure
+      note: An unintended hesitation constrains the innocent partner, not the leaker.
+    - label: Full disclosure to opponents
+      value: Compulsory
+      basis: rule
+      rule: bridge-full-disclosure
+      note: Your system must work while the opposition knows it.
+    - label: Duplicate comparison
+      value: The same deals everywhere
+      basis: rule
+      rule: bridge-duplicate-play
+      note: Luck of the deal is removed, so every result is a judgement on you.
+    - { label: Typical peak age, value: 35–60, basis: judgement, note: The latest peak of any sport covered here. }
+
+gap: >
+  Moderate to very high, and bridge holds a distinction on this site that
+  nothing else comes close to: it is the sport where competitors are at their
+  best latest in life.
+
+  Nothing decays. There is no physical component to lose, and the game rewards
+  accumulated pattern recognition, systemic knowledge and partnership
+  understanding built over decades. World-class players competing into their
+  sixties and seventies are ordinary rather than remarkable.
+
+  The gap's shape is also inverted relative to most sports here. Usually the
+  entrance is easy and the ceiling is physical. Here the entrance is the hard
+  part — you must learn a system with a partner before you can play properly at
+  all — and the ceiling is reached by people who never stopped.
+
+  What that has not produced is a healthy demographic. Bridge's participation
+  is old and shrinking in most countries, because a game requiring four
+  committed people and a shared learned language is a difficult thing to start
+  in a world of instantly available alternatives.
+
+shaped_by:
+  - bridge-full-disclosure
+  - bridge-duplicate-play

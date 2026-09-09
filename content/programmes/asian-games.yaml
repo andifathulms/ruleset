@@ -91,7 +91,7 @@ sports:
       Contested here in 2022 and at one Olympic Games.
   - id: bridge
     label: Contract bridge
-    coverage: skeleton
+    coverage: deep
     held: [2022]
   - id: canoeing
     label: Canoeing

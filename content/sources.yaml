@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: wbf-laws
+  standing: primary-named
+  title: Laws of Duplicate Bridge
+  publisher: World Bridge Federation
+  kind: rulebook
+  url: http://www.worldbridge.org/
+
 - id: fide-laws
   standing: primary-named
   title: FIDE Laws of Chess and Anti-Cheating Regulations

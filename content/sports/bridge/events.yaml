@@ -1,0 +1,34 @@
+sport: bridge
+as_of: 2026-09
+source: wbf-laws
+standing: primary-named
+summary: >
+  No Olympic events. Bridge was contested at the Asian Games in 2018, holds IOC
+  recognition, and its major competition is a world championship cycle run by
+  the World Bridge Federation.
+disciplines:
+  - id: teams
+    label: Teams
+    blurb: Scored in IMPs against a team-mate pair holding the same cards at another table.
+    events:
+      - { id: open-teams, label: Open teams, at: [asian-games, world-championship] }
+      - { id: women-teams, label: Women's teams, at: [asian-games, world-championship] }
+      - { id: mixed-teams, label: Mixed teams, at: [asian-games, world-championship] }
+      - { id: senior-teams, label: Seniors teams, at: [world-championship], note: "A full championship category — bridge is one of very few sports where a seniors title is a serious competitive event rather than a veterans' one." }
+  - id: pairs
+    label: Pairs
+    blurb: Scored in matchpoints against every other pair that held your cards.
+    events:
+      - { id: open-pairs, label: Open pairs, at: [asian-games, world-championship] }
+      - { id: women-pairs, label: Women's pairs, at: [world-championship] }
+      - { id: mixed-pairs, label: Mixed pairs, at: [asian-games, world-championship] }
+  - id: elsewhere
+    label: Where bridge actually lives
+    counts: false
+    blurb: >
+      The overwhelming majority of duplicate bridge is club play, and a large
+      and growing share is online.
+    events:
+      - { id: clubs, label: Club duplicate, at: [federation-only], note: Weekly sessions run by local clubs, which is where nearly all the sport happens. }
+      - { id: online, label: Online bridge, at: [federation-only], note: "Large commercial platforms, which grew sharply during the pandemic and brought their own cheating problems — screens cannot be built into a website." }
+      - { id: rubber, label: Rubber bridge, at: [federation-only], note: "The social, non-duplicate form; decided substantially by the cards, and not a competitive sport." }

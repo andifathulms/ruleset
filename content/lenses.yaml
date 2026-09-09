@@ -27,6 +27,7 @@
     - { id: boules, label: Boules sports, colour: pool, members: [boules] }
     - { id: bowling, label: Bowling, colour: pool, members: [bowling] }
     - { id: boxing, label: Boxing, colour: clay, members: [boxing] }
+    - { id: bridge, label: Contract bridge, colour: gold, members: [bridge] }
     - { id: cheerleading, label: Cheerleading, colour: gold, members: [cheerleading] }
     - { id: cricket, label: Cricket, colour: pitch, members: [cricket] }
     - { id: cycling, label: Cycling, colour: pool, members: [cycling] }
@@ -129,7 +130,7 @@
       members: [judo, taekwondo, boxing, modern-pentathlon, fencing, wrestling,
                 karate, breaking, tug-of-war, sumo, dancesport, ju-jitsu,
                 muaythai, wushu, kickboxing, air-sports, roller-sports,
-                cheerleading, kurash, board-games]
+                cheerleading, kurash, board-games, bridge]
 
 - id: adjudication
   label: Adjudication
@@ -158,7 +159,7 @@
                 cricket, baseball, hockey, handball, rugby, softball, lacrosse,
                 squash, flag-football, korfball, tug-of-war, fistball, floorball,
                 kabaddi, sepak-takraw, racquetball, soft-tennis, underwater-sports,
-                billiards, board-games]
+                billiards, board-games, bridge]
     - id: combat
       label: Combat
       colour: clay
