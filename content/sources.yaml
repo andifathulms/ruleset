@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: fip-rules
+  standing: primary-named
+  title: FIP Rules of Polo
+  publisher: Federation of International Polo
+  kind: rulebook
+  url: https://www.fippolo.com/
+
 - id: iesf-rules
   standing: primary-named
   title: IESF competition regulations

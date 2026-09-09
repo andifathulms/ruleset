@@ -1,0 +1,208 @@
+- id: polo-1874-line-of-the-ball
+  scope: { sport: polo, discipline: all }
+  date_adopted: 1874
+  date_effective: 1874
+  status: adopted
+  governing_body: Hurlingham Polo Committee
+  what_changed: >
+    The first English rules were codified, and their central provision is not
+    about possession of the ball but about an imaginary line.
+
+    **The line of the ball** is the path the ball is travelling along, extended
+    forwards and backwards. Right of way belongs to the player following that
+    line most closely, and crossing in front of a player who has it is the
+    cardinal foul — penalised severely regardless of whether contact occurred,
+    because the offence is creating the possibility of a collision between
+    animals at speed.
+
+    That is a right of way rule, and it belongs to the same family as sailing's
+    and aviation's rather than to any other ball sport on this site. Football,
+    hockey and lacrosse regulate what you may do to an opponent. Polo regulates
+    where you may be.
+  cause_primary: safety
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Two half-tonne animals converging at speed on the same ball is a
+      collision risk that no foul-based rule can manage after the fact, so the
+      code assigns priority before it happens.
+  citation:
+    source: fip-rules
+    edition: FIP Rules of Polo, right of way
+    missing: true
+
+- id: polo-1888-goal-handicap
+  scope: { sport: polo, discipline: all }
+  date_adopted: 1888
+  date_effective: 1888
+  status: adopted
+  governing_body: United States Polo Association, later adopted internationally
+  what_changed: >
+    Players are rated on a goal handicap from −2 to 10, a team's handicap is the
+    sum of its four players', and in handicap competition the weaker team starts
+    with the difference already on the scoreboard.
+
+    It is a deliberate comparability solution of exactly the kind golf built,
+    and this site had recorded golf's as the only one. Polo's differs in a
+    consequential way: golf's handicap adjusts an individual's score after the
+    round, while polo's awards goals **before** play, so a polo scoreboard does
+    not begin at nil and a final score is not a count of goals scored.
+
+    Ten-goal ratings are extremely rare — a handful of players hold one at any
+    time, and almost all of them are Argentine.
+  cause_primary: fairness and eligibility
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Polo's playing standard varies enormously and a team of four is easily
+      unbalanced by one strong player, so competition between clubs required a
+      way to make unequal teams contestable.
+  citation:
+    source: fip-rules
+    edition: FIP Rules of Polo, handicaps
+    missing: true
+  comparability_break: polo-goals
+
+- id: polo-1900-olympic-entry
+  scope: { sport: polo, discipline: all }
+  date_adopted: 1900
+  date_effective: 1900
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Polo entered the Olympic programme at Paris in 1900 and was contested at
+    five Games — 1900, 1908, 1920, 1924 and 1936. Entries were frequently clubs
+    and mixed-nationality teams rather than national selections, which was
+    normal at the time and became anomalous.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      Polo was an established sport of the British, American and Argentine
+      social and military elite, and the early Games drew their programme from
+      what those constituencies already played.
+  citation:
+    source: olympedia
+    edition: Olympedia, polo 1900–1936
+    missing: true
+
+- id: polo-1936-programme-removal
+  scope: { sport: polo, discipline: all }
+  date_adopted: 1936
+  date_effective: 1948
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Polo was not contested after the 1936 Games and has never returned.
+
+    No single reason is recorded as decisive. The cost and logistics of moving
+    strings of horses internationally, the decline of the cavalry that had
+    supplied much of the sport's manpower and mounts, the small number of
+    nations able to field a competitive team, and the sport's amateur-era
+    entanglement with wealth are all cited.
+  cause_primary: disputed
+  trigger:
+    description: >
+      The 1936 tournament drew five nations. A sport requiring each competitor
+      to transport several horses across continents was becoming impractical
+      for a Games that was growing in every other direction.
+    also_said: >
+      Accounts differ on how much weight to give cost, cavalry decline and the
+      IOC's mid-century pruning of the programme. This site records the
+      absence of a settled reason rather than choosing one.
+  citation:
+    source: olympedia
+    edition: Olympedia, polo
+    missing: true
+
+- id: polo-1974-right-handed-only
+  scope: { sport: polo, discipline: all }
+  date_adopted: 1974
+  date_effective: 1974
+  status: adopted
+  governing_body: Hurlingham Polo Association, later adopted internationally
+  what_changed: >
+    Left-handed play was prohibited. Every player must carry the mallet in the
+    right hand.
+
+    The reason is geometric rather than traditional. Two players approaching the
+    same ball on the same line, one striking on their right and one on their
+    left, converge head-on with their mallets and their horses on a collision
+    course. Requiring everybody to play right-handed means two players
+    contesting the same line pass on the same side.
+
+    It is one of very few rules on this site that prohibits a physical
+    characteristic outright, and it is defended entirely on safety.
+  cause_primary: safety
+  trigger:
+    description: >
+      Left-handed players contesting a line with right-handed opponents produce
+      approach geometries the right of way rules cannot make safe.
+  citation:
+    source: fip-rules
+    edition: FIP Rules of Polo, the mallet
+    missing: true
+
+- id: polo-1982-fip
+  scope: { sport: polo, discipline: all }
+  date_adopted: 1982
+  date_effective: 1982
+  status: adopted
+  governing_body: Federation of International Polo
+  what_changed: >
+    An international federation was formed — forty-six years after the sport
+    left the Olympic programme — to hold a world championship and represent
+    polo internationally, and it received IOC recognition in 1998.
+
+    The world championship it runs is contested at a capped team handicap, so
+    the very best players are not eligible for it. A sport whose international
+    championship excludes its best competitors is unusual, and it is a direct
+    consequence of the handicap system.
+  cause_primary: fairness and eligibility
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      National associations in Britain, the United States, Argentina and
+      elsewhere ran the sport to their own rules with no body able to hold
+      international competition between them.
+  citation:
+    source: fip-rules
+    edition: FIP statutes
+    missing: true
+
+- id: polo-2010-cloned-ponies
+  scope: { sport: polo, discipline: all }
+  date_adopted: 2010
+  date_effective: 2010
+  status: adopted
+  governing_body: None — permitted by the absence of a rule
+  what_changed: >
+    Cloned polo ponies were produced from an elite mare and subsequently played
+    in top-level Argentine competition, including matches won with several
+    clones of the same horse in one player's string.
+
+    No rule permitted this and none prohibited it. Polo's regulations govern
+    handicaps, right of way and equipment; they had nothing to say about the
+    genetic provenance of a horse, and the practice arrived through that gap.
+
+    It makes polo the only sport on this site where a competitor has fielded
+    copies of the same animal, and it raises a question the sport has not
+    answered: whether the pony is a competitor, in which case cloning is an
+    eligibility matter, or equipment, in which case it is manufacturing.
+  cause_primary: equipment and technology
+  cause_secondary: disputed
+  trigger:
+    description: >
+      Polo ponies are the sport's decisive variable and an exceptional one is
+      irreplaceable by breeding, which is uncertain. Cloning removed the
+      uncertainty.
+    also_said: >
+      Supporters argue a clone is a twin rather than a copy, that training
+      still determines the animal, and that the practice preserves exceptional
+      bloodlines. Critics argue it turns a living participant into a
+      manufactured product and narrows the gene pool. No governing body has
+      ruled.
+  citation:
+    source: fip-rules
+    edition: FIP Rules of Polo — no provision
+    missing: true
+  comparability_break: polo-goals

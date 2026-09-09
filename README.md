@@ -33,7 +33,7 @@ Three layers, marked as such everywhere:
   been entered; every other column is hatched rather than blank, because
   "nobody checked" and "absent" are not the same claim and must not be drawn
   the same way.
-- **Deep** — seventy-two sports: badminton, athletics, football, gymnastics,
+- **Deep** — seventy-three sports: badminton, athletics, football, gymnastics,
   swimming, table tennis, basketball, cycling, judo, archery, volleyball,
   tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo,
   boxing, equestrian, fencing, rowing, sailing, golf, sport climbing, wrestling,
@@ -44,12 +44,15 @@ Three layers, marked as such everywhere:
   dancesport, ju-jitsu, muaythai, wushu, kickboxing, boules, bowling, dragon
   boat, soft tennis, air sports, roller sports, underwater sports,
   cheerleading, billiards, kurash, duathlon, water ski and wakeboard, board
-  games, contract bridge and esports.
+  games, contract bridge, esports and polo.
 
   That is **every sport on the 2028 summer Olympic programme, every sport on
-  the World Games programme, and every sport on the Asian Games programme** —
-  the only exceptions anywhere are seven sports that lapsed from the Olympic
-  programme before 1940 and are recorded at skeleton depth: polo, croquet,
+  the World Games programme, and every sport on the Asian Games programme**,
+  plus two that lapsed from the Olympic programme and are still played
+  seriously — tug of war and polo.
+
+  Six sports remain at skeleton depth, all of them lapsed from the Olympic
+  programme before 1940 and none of them still contested at any scale: croquet,
   rackets, roque, jeu de paume, basque pelota and motorboating.
 
 The first five were one per family, because a "rule" is a structurally
@@ -96,8 +99,10 @@ The fourth wave was picked for the same reason:
 - **Rowing, sailing and golf** are three answers to one question — our
   conditions cannot be standardised, so what do our numbers mean? Rowing
   refuses to call its times records. Sailing abandoned times entirely and
-  scores a series of positions with a discard. Golf built the handicap, the
-  only deliberate comparability *solution* anywhere in this collection.
+  scores a series of positions with a discard. Golf built the handicap — one of
+  only two deliberate comparability *solutions* in this collection, and the
+  cleaner of them: polo built the other, and awards its goals before play
+  rather than adjusting a score after it.
 - **Fencing** did taekwondo's judged-to-measured crossing fifty years earlier
   and took fifty-two years to finish, one weapon at a time.
 - **Equestrian** is the only sport with a non-human competitor and the only
@@ -321,6 +326,20 @@ with no physical component at all:
   rules are software, revised by a company on a cycle of weeks, and a
   discipline can cease to exist because its owner stopped supporting it. It
   makes gymnastics' 2006 rewrite look like a stable constitution.
+
+And then the first sport researched here that lapsed from the Olympic
+programme and kept going:
+
+- **Polo** is played on the largest field in organised sport, and its
+  fundamental rule is not about the ball but about the **line** it is
+  travelling along — right of way to whoever follows it most closely, penalised
+  on the danger created rather than on contact caused. It is a navigation rule
+  in a ball sport. Left-handed play is banned outright for the same geometric
+  reason. Its goal handicap is the second deliberate comparability solution on
+  this site and, unlike golf's, it awards goals *before* play, so a polo
+  scoreboard does not start at nil and a final score is not a count of goals.
+  And since 2010 cloned ponies have played and won at the top of the sport,
+  through a gap in rules that never contemplated where a horse came from.
 
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause

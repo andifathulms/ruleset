@@ -1,0 +1,148 @@
+sport: polo
+as_of: 2026-09
+edition: FIP Rules of Polo
+source: fip-rules
+standing: primary-named
+summary: >
+  Four a side on a field three hundred yards long, in chukkas of seven and a
+  half minutes, with a fresh horse for most of them. The governing rule is the
+  line of the ball and who has right of way along it.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Hit the ball between the opponents' goalposts, which stand at either end
+      of an enormous field and have no crossbar — a ball at any height between
+      them scores.
+
+      Teams **change ends after every goal**, so that neither side holds an
+      advantage of wind, light or ground for long. Almost nothing else on this
+      site reverses direction that often.
+    facts:
+      - { label: Goals, value: No crossbar; any height counts }
+      - { label: Change of ends, value: After every goal }
+
+  - id: field
+    label: The field
+    body: >
+      Three hundred yards long and a hundred and sixty wide with boards, or two
+      hundred wide without them. That is the largest playing area of any
+      organised sport — roughly nine or ten football pitches — and it exists
+      because the participants gallop.
+
+      Arena polo, played indoors or in a sand arena, is three a side on a
+      fraction of the space, with a larger ball and different tactics.
+    facts:
+      - { label: Field, value: 300 × 160 yd boarded }
+      - { label: Unboarded, value: 300 × 200 yd }
+      - { label: Arena polo, value: Three a side, far smaller }
+
+  - id: equipment
+    label: Horses, mallet and ball
+    body: >
+      **The horses are the equipment, and there are several of them.** A player
+      brings a string of ponies and changes between chukkas, because a horse
+      cannot gallop for a whole match — typically no more than two chukkas each
+      and not consecutively. A high-goal player may use six or eight horses in
+      one game.
+
+      That is the distinction from equestrian, which this site also covers.
+      There, one horse is the registered competitor, passported and judged.
+      Here, no single animal is the competitor; the string is rotated through
+      the match, and the sport's decisive resource is the quality and depth of
+      it.
+
+      **The mallet** is a cane shaft with a hardwood head, and the ball is
+      struck with the side of the head rather than the end. It must be carried
+      in the right hand. **The ball** is plastic, about eight centimetres
+      across, and was once willow root.
+
+      Helmets are compulsory; knee guards and face guards are common.
+    facts:
+      - { label: Horses per player, value: Several — changed between chukkas }
+      - { label: A pony's workload, value: Usually no more than two chukkas }
+      - { label: Mallet, value: Right hand only }
+      - { label: Ball, value: Plastic, about 8 cm }
+    shaped_by: [polo-1974-right-handed-only]
+
+  - id: players
+    label: Players and officials
+    body: >
+      Four a side, positions numbered one to four from most attacking to most
+      defensive. Two mounted umpires on the field, and a **third man** on the
+      sideline who is referred to when the umpires disagree.
+
+      Players carry a **handicap** from −2 to 10 goals, and the team's handicap
+      is the sum of the four. Ten-goal players are exceptionally rare and almost
+      all Argentine.
+    facts:
+      - { label: Per side, value: "4" }
+      - { label: Umpires, value: Two mounted, plus a third man on the line }
+      - { label: Handicap, value: −2 to 10 goals per player }
+    shaped_by: [polo-1888-goal-handicap]
+
+  - id: duration
+    label: Time
+    body: >
+      Chukkas of seven and a half minutes, with four, six or eight to a match
+      depending on the competition. Between them, players change horses, and at
+      half time spectators are invited onto the field to tread back the divots
+      the hooves have torn out.
+    facts:
+      - { label: Chukka, value: 7 min 30 s }
+      - { label: Match, value: 4, 6 or 8 chukkas }
+      - { label: Half time, value: Spectators stamp the divots back }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      One goal per goal — and the scoreboard does not start at nil. In handicap
+      competition the difference between the two team handicaps is awarded to
+      the weaker side before play begins, so a match can start at two and a
+      half goals to nothing.
+
+      That makes a polo score a compound of what was awarded and what was
+      scored, and means a final score cannot be read as a count of goals.
+    facts:
+      - { label: Starting score, value: Not necessarily nil }
+      - { label: Awarded goals, value: The handicap difference, before play }
+    shaped_by: [polo-1888-goal-handicap]
+
+  - id: restarts
+    label: Throw-ins and penalties
+    body: >
+      Play begins with the umpire bowling the ball between the two lines of
+      players. After a goal the teams change ends and restart the same way.
+
+      Fouls are punished with free hits from set distances — thirty, forty or
+      sixty yards — or, for the most serious, an **automatic goal**, awarded
+      without the ball being struck. A penalty in polo can therefore be a goal
+      rather than a chance at one.
+    facts:
+      - { label: Penalties, value: Free hits from 30, 40 or 60 yd }
+      - { label: Most serious, value: An automatic goal }
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      **Crossing the line of the ball** in front of a player who has right of
+      way is the cardinal offence, penalised on the danger created rather than
+      on any contact resulting.
+
+      Also prohibited: dangerous riding, a ride-off taken at too great an angle,
+      hooking an opponent's mallet above shoulder height or across their horse,
+      and playing left-handed.
+
+      What is **permitted** surprises people: a **ride-off**, in which a player
+      pushes an opponent off the line shoulder to shoulder, is legal contact
+      between two animals at speed, provided the angle is shallow. So is
+      hooking an opponent's mallet.
+    shaped_by: [polo-1874-line-of-the-ball]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More goals at the end of the last chukka, including any awarded on
+      handicap. A tie goes to an extra chukka, often played with the goalposts
+      widened.

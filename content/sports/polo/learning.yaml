@@ -1,0 +1,93 @@
+sport: polo
+standing: editorial
+summary: >
+  The highest entry barrier on this site, because the equipment is a string of
+  horses — and a handicap system that nonetheless lets a beginner take the
+  field in a real match on day one, which almost nothing else here can offer.
+
+entry:
+  verdict: high
+  claim: You need horses. Several. Or a club that will hire them to you by the chukka.
+  why: >
+    Nothing else covered here has an entry cost like this. A player needs
+    several horses for a single match, each requiring stabling, feed,
+    veterinary care, transport and a groom, and the horses are the sport's
+    decisive variable rather than an accessory to it.
+
+    Club chukkas and polo schools hire ponies by the chukka, which is the only
+    realistic route in and still expensive. It is a sport you enter through
+    money or through employment — a substantial proportion of professional
+    players began as grooms.
+
+    What pulls the verdict back from very high is the **handicap**. A beginner
+    rated at −2 is not excluded from real competition; they are a valued team
+    member, because their low rating buys goals for their side. Very few sports
+    on this site let a novice play a meaningful part in a serious match, and
+    polo's rating system is designed to make exactly that happen.
+  evidence:
+    - { label: Equipment, value: Several horses per match, basis: rule, rule: polo-1888-goal-handicap, note: The string is the sport's decisive resource. }
+    - { label: Route in, value: Hired ponies by the chukka, at a club, basis: observation }
+    - { label: Handicap, value: A beginner at −2 buys goals for their team, basis: rule, rule: polo-1888-goal-handicap }
+    - { label: Prerequisite, value: Competent riding, basis: judgement }
+    - { label: Time to a first chukka, value: Months, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Striking a small ball from a galloping horse while obeying a right of way rule, in a sport where the horses decide most of it.
+  why: >
+    The technical act is hitting a plastic ball roughly eight centimetres across
+    with the side of a mallet head, from a horse at a gallop, accurately, in
+    traffic. That alone would place polo high.
+
+    The spatial demand is what places it higher. The **line of the ball** rule
+    means a player is continuously computing an invisible geometry — where the
+    line runs, who is following it most closely, whether their own approach
+    crosses it — while riding at speed among seven other horses. Getting it
+    wrong is not merely a foul; it is how people and animals get hurt.
+
+    And then the horses. A ten-goal player on ordinary ponies loses to a good
+    player on great ones, and the sport knows it: the string is widely reckoned
+    to account for a majority of performance. So the ceiling is bounded by an
+    asset that is bought, bred and now cloned, which makes elite polo unusually
+    difficult to reach on ability alone.
+
+    Ten-goal handicaps are held by a handful of people at any time, and almost
+    all of them are Argentine.
+  evidence:
+    - label: Right of way
+      value: Computed continuously, at a gallop
+      basis: rule
+      rule: polo-1874-line-of-the-ball
+      note: A spatial rule enforced on danger created, not contact caused.
+    - label: The string
+      value: Widely reckoned the majority of performance
+      basis: judgement
+      note: A bought asset, and since 2010 a cloned one.
+    - label: Cloned ponies
+      value: In top competition since the 2010s
+      basis: rule
+      rule: polo-2010-cloned-ponies
+      note: No rule permitted it and none prohibited it.
+    - { label: Typical peak age, value: 25–38, basis: judgement }
+
+gap: >
+  High to very high, and polo is the site's clearest case of a sport that
+  solved participation and never touched access.
+
+  The handicap is a genuine piece of design. It lets a −2 beginner play a real
+  match alongside professionals and contribute by existing, and it is one of
+  only two deliberate comparability solutions this site has found — golf built
+  the other. Golf's adjusts a score after the round; polo's awards goals before
+  play begins.
+
+  What it cannot do is make horses cheaper. The sport's entry barrier is a
+  living, feeding, transported asset that has to be owned or hired, and no rule
+  change reaches it. Air sports is the only comparable case here, and an
+  aeroplane does not need feeding on days nobody flies it.
+
+  The result is a sport that is unusually welcoming to beginners of any standard
+  and effectively closed to most of the world.
+
+shaped_by:
+  - polo-1888-goal-handicap
+  - polo-1874-line-of-the-ball

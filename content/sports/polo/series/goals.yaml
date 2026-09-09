@@ -1,0 +1,44 @@
+id: polo-goals
+label: Goals per match
+unit: goals per match
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Polo's scoreboard does not start at nil, and that alone prevents any series.
+
+  In handicap competition the difference between two team handicaps is awarded
+  to the weaker side **before play begins**. A match may start at two and a half
+  goals to nothing, and the final score is a compound of goals awarded and goals
+  scored. Counting them together measures a rating decision as much as a
+  performance.
+
+  Matches are also scoped by handicap level. A twenty-two-goal tournament and a
+  twelve-goal tournament are different competitions with different players,
+  different horses and different scoring rates, and results do not cross
+  between them.
+
+  Then the horses. The string is widely reckoned to account for the majority of
+  a player's performance, strings vary enormously in quality and cost, and since
+  the 2010s some of the best animals in the sport have been clones of one mare.
+  A goals-per-match figure would be measuring an asset market.
+
+  This is the same shape as golf's problem and the opposite arrangement. Golf's
+  handicap adjusts a score after the round, leaving the elite game's scratch
+  scores comparable. Polo's awards goals before it, so nothing is left
+  uncontaminated — the handicap that makes the sport playable makes its numbers
+  unreadable.
+segments: []
+breaks:
+  - at: 1888
+    caused_by: polo-1888-goal-handicap
+    kind: scoped
+    note: >
+      Goals are awarded on handicap before play. A score is not a count of
+      goals scored, and results belong to a handicap level.
+  - at: 2010
+    caused_by: polo-2010-cloned-ponies
+    kind: scoped
+    note: >
+      The decisive equipment is a living animal that can now be copied, which
+      no scoring record accounts for.
+source: fip-rules

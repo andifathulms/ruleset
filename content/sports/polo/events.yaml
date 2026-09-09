@@ -1,0 +1,39 @@
+sport: polo
+as_of: 2026-09
+source: fip-rules
+standing: primary-named
+summary: >
+  Contested at five Olympic Games to 1936 and never since. The Federation of
+  International Polo runs a world championship at a capped handicap, which
+  means the sport's best players are not eligible for it, and the competitions
+  that matter most are national opens.
+disciplines:
+  - id: field
+    label: Field polo
+    blurb: Four a side on the full-size field. The primary form.
+    events:
+      - { id: world-champ, label: FIP World Polo Championship, at: [world-championship], note: "Contested at a capped team handicap, so the highest-rated players cannot enter." }
+      - { id: women, label: Women's championships, at: [world-championship], note: A growing international structure with its own world championship. }
+  - id: arena
+    label: Arena polo
+    blurb: Three a side in an arena, with a larger ball and a smaller space.
+    events:
+      - { id: arena-champ, label: Arena world championship, at: [world-championship], count: 2 }
+  - id: opens
+    label: The competitions that matter most
+    counts: false
+    blurb: >
+      Polo's summit is national, not international. The Argentine Open at
+      Palermo is the highest-rated tournament in the world, and the sport's
+      best players are contracted to club teams rather than national ones.
+    events:
+      - { id: argentine-open, label: Argentine Open, at: [federation-only], note: "The highest team handicaps in the sport; effectively the world championship in all but name." }
+      - { id: british-us, label: British and United States high-goal seasons, at: [federation-only], note: The Gold Cup, the Queen's Cup and the US Open, contested by patron-funded club teams. }
+  - id: olympic-record
+    label: Its Olympic record
+    counts: false
+    blurb: >
+      Five Games, frequently contested by clubs and mixed-nationality teams
+      rather than national selections.
+    events:
+      - { id: former, label: Olympic polo, at: [lapsed], note: "1900, 1908, 1920, 1924 and 1936. Never contested since, and no single reason is recorded as decisive." }

@@ -351,7 +351,7 @@ sports:
 
   - id: polo
     label: Polo
-    coverage: skeleton
+    coverage: deep
     governing_body: FIP
     held: [1900, 1908, 1920, 1924, 1936]
 
