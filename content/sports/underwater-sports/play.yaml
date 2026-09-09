@@ -1,0 +1,138 @@
+sport: underwater-sports
+as_of: 2026-09
+edition: CMAS competition rules
+source: cmas-rules
+standing: primary-named
+summary: >
+  Underwater hockey: six a side on the bottom of a pool, short sticks, a lead
+  puck, no goalkeeper. Underwater rugby: six in the water at a time in a deep
+  pool, a ball that sinks, goals on the bottom, and play in every direction.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      In **hockey**, push the puck into a metal trough at the opponents' end of
+      the pool floor. In **rugby**, put the ball into a heavy basket on the
+      bottom of the opponents' half.
+
+      Both are invasion games and both are played on a single breath, so
+      possession is limited by lung capacity rather than by a clock. A player
+      who has to surface has left the play, and their team is briefly a player
+      short.
+    facts:
+      - { label: Hockey goal, value: A trough on the pool floor }
+      - { label: Rugby goal, value: A weighted basket on the bottom }
+      - { label: Possession limit, value: One breath }
+
+  - id: field
+    label: The pool
+    body: >
+      **Hockey** is played on the flat bottom of a pool about two metres deep,
+      across an area roughly 25 by 15 metres. Play is essentially on a plane —
+      the floor — with players descending to it and returning.
+
+      **Rugby** is played in a deep pool, typically three and a half to five
+      metres, and the entire volume is in play. That is the whole difference:
+      an attacking move can go over a defender rather than around them, and a
+      defence must cover space above and below as well as ahead.
+    facts:
+      - { label: Hockey pool, value: About 2 m deep }
+      - { label: Rugby pool, value: 3.5–5 m deep }
+      - { label: Rugby field of play, value: The whole water column }
+    shaped_by: [uw-1961-rugby]
+
+  - id: equipment
+    label: Equipment
+    body: >
+      Mask, snorkel and fins in both sports, and no breathing apparatus of any
+      kind for the players.
+
+      **Hockey** adds a stick about thirty centimetres long, held in one hand, a
+      protective glove on that hand, a mouthguard and ear protection. The puck
+      is lead, weighing around 1.3 kilograms, so it stays on the bottom and can
+      be flicked rather than thrown.
+
+      **Rugby** adds nothing but a ball — filled with saltwater so that it is
+      negatively buoyant and sinks at a controlled rate. A ball that floated
+      would drag the game to the surface and destroy it.
+
+      The referees wear scuba, which makes them the only officials on this site
+      with more equipment than the competitors.
+    facts:
+      - { label: Players' air supply, value: None }
+      - { label: Hockey puck, value: Lead, about 1.3 kg }
+      - { label: Hockey stick, value: About 30 cm, one hand }
+      - { label: Rugby ball, value: Saltwater-filled, sinks }
+    shaped_by: [uw-1954-hockey, uw-1961-rugby]
+
+  - id: players
+    label: Players and officials
+    body: >
+      Six a side in the water in both sports, with substitutes rotating
+      continuously — in rugby, squads of twelve with six in play and six
+      recovering, changing on the fly.
+
+      **Hockey has no goalkeeper.** Nobody can remain stationary at depth long
+      enough to keep goal, so defensive structure is fluid and depends on who
+      has air.
+
+      Officials are in the water on scuba, moving with play, supported by
+      officials at the surface.
+    facts:
+      - { label: In the water, value: 6 a side }
+      - { label: Goalkeeper, value: None, in hockey }
+      - { label: Referees, value: In the water, on scuba }
+    shaped_by: [uw-1954-hockey, uw-1980-world-championships]
+
+  - id: duration
+    label: Time
+    body: >
+      Halves of around fifteen minutes with the clock running. Within that, the
+      real unit of time is a breath: a player is effective for perhaps twenty to
+      forty seconds and then must surface, which makes substitution and
+      rotation continuous rather than tactical.
+    facts:
+      - { label: Halves, value: About 15 min }
+      - { label: A player's working time, value: One breath }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      One point per goal in both sports, and low scores are normal — an
+      underwater rugby match may end in single figures, because moving a sinking
+      ball through a defended volume while holding your breath is extremely
+      hard.
+
+  - id: restarts
+    label: Starting and restarting
+    body: >
+      Both sports start with the object in the middle of the pool floor and the
+      teams touching their own end wall, swimming for it on a signal — a race
+      to the bottom that begins every period and follows every goal.
+    facts:
+      - { label: Start, value: Teams on their own wall, object on the bottom }
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      In **hockey**: playing the puck with anything but the stick, using the
+      free hand to fend off or push, obstructing a player who is not playing the
+      puck, and dangerous use of the stick.
+
+      In **rugby**: attacking a player who does not have the ball, holding
+      someone under, interfering with a player's mask or snorkel, and — the one
+      that matters most — anything that prevents an opponent surfacing to
+      breathe.
+
+      That last category has no equivalent anywhere else on this site. In a
+      sport played on one breath, obstructing a person's route to air is not a
+      tactical foul; it is the sport's central safety rule.
+    shaped_by: [uw-1961-rugby]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More goals. Because possession is limited by breath and both defences are
+      constantly rotating, matches turn on which team's rotation is better
+      organised as much as on individual skill.

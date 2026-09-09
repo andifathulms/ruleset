@@ -1,0 +1,85 @@
+- id: uw-1954-hockey
+  scope: { sport: underwater-sports, discipline: hockey }
+  date_adopted: 1954
+  date_effective: 1954
+  status: adopted
+  governing_body: Southsea Sub-Aqua Club, later CMAS
+  what_changed: >
+    Underwater hockey — originally octopush — was devised as a way of keeping
+    divers fit through the winter: six a side on the bottom of a swimming pool,
+    pushing a weighted puck with a stick about thirty centimetres long, with
+    mask, snorkel and fins and no breathing apparatus.
+
+    The founding constraint produced the sport's defining absence. **There is no
+    goalkeeper**, because nobody can hold their breath in one place for long
+    enough to be one. Defence is therefore mobile and constantly rotating, and
+    a team's structure is built around who is currently down.
+  cause_primary: participation and access
+  cause_secondary: safety
+  trigger:
+    description: >
+      A British sub-aqua club wanted a way to keep members diving and fit
+      during winter, when open-water diving was unattractive, and invented a
+      game to be played in the local pool.
+  citation:
+    source: cmas-rules
+    edition: CMAS Underwater Hockey Rules
+    missing: true
+
+- id: uw-1961-rugby
+  scope: { sport: underwater-sports, discipline: rugby }
+  date_adopted: 1961
+  date_effective: 1961
+  status: adopted
+  governing_body: German diving clubs, later CMAS
+  what_changed: >
+    Underwater rugby was devised in Germany, and its two founding decisions
+    made it unlike any other team sport.
+
+    **The ball is filled with saltwater**, so it is negatively buoyant and
+    sinks. A ball that floats would force play to the surface; one that sinks
+    keeps it at depth and makes the whole water column live.
+
+    **The pool is deep** — typically three and a half to five metres — and the
+    goals are heavy metal baskets on the bottom. Play therefore happens in
+    three dimensions: an attack can come from above, below or any side, and a
+    defence has to cover a volume rather than a plane.
+
+    Every other team sport covered on this site is played on a surface.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      German diving clubs were looking for competitive underwater training and
+      built a game around the physical conditions of a deep pool rather than
+      adapting a surface sport into it.
+  citation:
+    source: cmas-rules
+    edition: CMAS Underwater Rugby Rules
+    missing: true
+
+- id: uw-1980-world-championships
+  scope: { sport: underwater-sports, discipline: all }
+  date_adopted: 1980
+  date_effective: 1980
+  status: adopted
+  governing_body: CMAS
+  what_changed: >
+    CMAS established world championships for the underwater team sports,
+    codifying internationally what had been club games with local rules — pool
+    dimensions, team sizes, substitution, and the officiating arrangement the
+    sports require.
+
+    That arrangement is itself distinctive: **referees are in the water**,
+    equipped with scuba so they can stay down, moving with play. A surface
+    official cannot see a sport played on the bottom of a pool, and in
+    underwater rugby cannot see most of the volume at all.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Both games had spread internationally through diving-club networks with
+      rules varying by country, and championships required a common code.
+  citation:
+    source: cmas-rules
+    edition: CMAS competition rules
+    missing: true
+  comparability_break: underwater-scores

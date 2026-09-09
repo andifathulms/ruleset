@@ -1,0 +1,36 @@
+sport: underwater-sports
+as_of: 2026-09
+source: cmas-rules
+standing: primary-named
+summary: >
+  No Olympic events. CMAS runs world championships across a set of underwater
+  disciplines, of which the two team sports are the most distinctive, and
+  underwater sports are contested at the World Games.
+disciplines:
+  - id: hockey
+    label: Underwater hockey
+    blurb: Six a side on the pool floor, short sticks, a lead puck, no goalkeeper.
+    events:
+      - { id: men-uwh, label: Men's tournament, at: [world-games, world-championship] }
+      - { id: women-uwh, label: Women's tournament, at: [world-games, world-championship] }
+      - { id: mixed-uwh, label: Mixed and age-group tournaments, at: [world-championship], count: 2 }
+  - id: rugby
+    label: Underwater rugby
+    blurb: >
+      Six in the water at a time in a deep pool, with a saltwater-filled ball
+      that sinks and goals on the bottom. Play occupies the whole volume.
+    events:
+      - { id: men-uwr, label: Men's tournament, at: [world-championship] }
+      - { id: women-uwr, label: Women's tournament, at: [world-championship] }
+  - id: other
+    label: Other CMAS disciplines
+    counts: false
+    blurb: >
+      The federation governs a wider set of underwater activities, measured and
+      judged rather than contested between teams.
+    events:
+      - { id: freediving, label: Freediving, at: [world-championship], count: 4, note: Depth, static apnea and dynamic apnea disciplines. }
+      - { id: orienteering-uw, label: Underwater orienteering, at: [world-championship], note: Navigation with compass and depth gauge, using a diving set. }
+      - { id: photography, label: Underwater photography, at: [world-championship], note: Judged, and one of very few competitive disciplines on this site with no physical contest at all. }
+      - { id: spearfishing, label: Spearfishing, at: [world-championship], note: "Competitive spearfishing is governed by the federation and restricted or banned in a number of countries on conservation grounds." }
+      - { id: finswimming, label: Finswimming, at: [world-games, world-championship], note: Governed by the same federation and covered on this site as its own sport. }

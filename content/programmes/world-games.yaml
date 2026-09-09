@@ -217,8 +217,10 @@ sports:
       On the Olympic programme 1900 to 1920, and on this one ever since it began.
   - id: underwater-sports
     label: Underwater sports
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Underwater rugby is the only team sport contested in three dimensions.
   - id: waterski-wakeboard
     label: Water ski and wakeboard
     coverage: skeleton

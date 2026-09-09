@@ -51,6 +51,7 @@
     - { id: table-tennis, label: Table tennis, colour: clay, members: [table-tennis] }
     - { id: taekwondo, label: Taekwondo, colour: clay, members: [taekwondo] }
     - { id: tennis, label: Tennis, colour: clay, members: [tennis] }
+    - { id: underwater-sports, label: Underwater sports, colour: pool, members: [underwater-sports] }
     - { id: volleyball, label: Volleyball, colour: pitch, members: [volleyball] }
     - { id: weightlifting, label: Weightlifting, colour: pool, members: [weightlifting] }
     - { id: dragon-boat, label: Dragon boat, colour: pool, members: [dragon-boat] }
@@ -99,7 +100,8 @@
       label: Invasion
       colour: pitch
       members: [football, basketball, hockey, handball, rugby, lacrosse,
-                flag-football, korfball, flying-disc, floorball, kabaddi]
+                flag-football, korfball, flying-disc, floorball, kabaddi,
+                underwater-sports]
     - id: striking-and-fielding
       label: Striking and fielding
       colour: pitch
@@ -148,7 +150,7 @@
       members: [football, badminton, table-tennis, tennis, volleyball, basketball,
                 cricket, baseball, hockey, handball, rugby, softball, lacrosse,
                 squash, flag-football, korfball, tug-of-war, fistball, floorball,
-                kabaddi, sepak-takraw, racquetball, soft-tennis]
+                kabaddi, sepak-takraw, racquetball, soft-tennis, underwater-sports]
     - id: combat
       label: Combat
       colour: clay

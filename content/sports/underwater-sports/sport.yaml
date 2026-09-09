@@ -1,0 +1,22 @@
+id: underwater-sports
+label: Underwater sports
+tagline: "Underwater rugby is played in a five-metre pool with a ball that sinks, and it is the only team sport contested in three dimensions."
+governing_body: CMAS
+founded: >
+  Underwater hockey was devised at Southsea in England in 1954 and underwater
+  rugby in Germany in 1961; both are governed by CMAS, the world underwater
+  federation founded in 1959.
+coverage: deep
+family_colour: pool
+classification:
+  official: underwater-sports
+  game-category: invasion
+  adjudication: decided-by-score
+summary: >
+  Two invasion games played on a single breath. Underwater hockey is contested
+  on the bottom of a pool with short sticks and a lead puck, and has no
+  goalkeeper because nobody can stay down long enough to be one. Underwater
+  rugby is played in a deep pool with a ball filled with saltwater so that it
+  sinks, and attacks arrive from above and below — the only genuinely
+  three-dimensional team sport that exists. Neither can be watched from the
+  side of the pool.

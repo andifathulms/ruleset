@@ -1,0 +1,93 @@
+sport: underwater-sports
+standing: editorial
+summary: >
+  A club, a pool and a mask will get you playing within a session, and the
+  ceiling is bounded by something no training fully removes: how long you can
+  hold your breath while working maximally.
+
+entry:
+  verdict: low
+  claim: Mask, snorkel, fins and a club with pool time. Clubs teach beginners as a matter of course.
+  why: >
+    Both sports were invented by diving clubs to keep members active, and they
+    are still taught that way. A club provides the sticks, pucks and balls, and
+    a beginner needs a mask, snorkel and fins.
+
+    The skills that matter first are ones anyone can practise: comfort under
+    water, an efficient duck dive, and equalising. Neither sport requires
+    swimming speed at entry, and neither has contact that a beginner cannot
+    handle — underwater rugby is full contact, but wrestling in water is
+    considerably gentler than wrestling on land.
+
+    It is low rather than very low for one structural reason: these sports need
+    a pool, at a depth the sport specifies, with lane time booked by a club.
+    Underwater rugby in particular needs a pool at least three and a half
+    metres deep, and there are not many of those.
+  evidence:
+    - { label: Kit to start, value: Mask, snorkel, fins, basis: observation }
+    - { label: Facility, value: A pool; 3.5 m deep for rugby, basis: rule, rule: uw-1961-rugby, note: The binding constraint — deep pools are scarce. }
+    - { label: Club provides, value: Sticks, pucks and balls, basis: observation }
+    - { label: Prerequisite, value: Comfort under water, basis: judgement }
+    - { label: Time to a real game, value: One session, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Maximal work on a single breath, in a sport whose defence covers a volume.
+  why: >
+    The physiological demand is unusual and specific. A player must work at or
+    near maximum — sprinting, wrestling, controlling an object — while
+    apnoeic, then recover at the surface in seconds and go down again. Trained
+    players hold useful working breath for perhaps twenty to forty seconds, and
+    the difference between a good player and an elite one is substantially how
+    productive those seconds are and how quickly they can repeat them.
+
+    **Underwater rugby's** tactical ceiling is the highest, because the defence
+    has to cover three dimensions. A pass can go up; an attacker can approach a
+    goal from directly above it; a defender who commits in one plane has left
+    two others open. No other team sport asks anyone to think in a volume.
+
+    **Underwater hockey's** ceiling is in the flick — moving a 1.3 kilogram lead
+    puck accurately with a thirty-centimetre stick held in one hand, upside
+    down, with no air — and in team rotation, since a side with no goalkeeper is
+    only ever as organised as its breathing.
+
+    The institutional ceiling is a world championship. There is no professional
+    layer of any kind in either sport.
+  evidence:
+    - label: One breath
+      value: The unit of possession
+      basis: rule
+      rule: uw-1954-hockey
+      note: Maximal work while apnoeic, repeated for fifteen-minute halves.
+    - label: Three dimensions
+      value: Underwater rugby
+      basis: rule
+      rule: uw-1961-rugby
+      note: The only team sport whose defence covers a volume rather than a plane.
+    - label: No goalkeeper
+      value: In hockey
+      basis: rule
+      rule: uw-1954-hockey
+      note: Nobody can stay down long enough, so defence is a rotation problem.
+    - { label: Typical peak age, value: 24–34, basis: judgement }
+
+gap: >
+  Low to very high, and what makes it unusual is that the ceiling is set by
+  human physiology rather than by skill acquisition or institutional access.
+
+  Most sports on this site have ceilings you can train towards indefinitely.
+  Here there is a hard biological limit on how long anyone can work without
+  breathing, it varies less between people than most athletic qualities, and
+  the sport's whole tactical structure is built around managing it. Elite play
+  is not about extending the breath much further; it is about wasting none of
+  it.
+
+  The other half of the gap is visibility. These are among the most tactically
+  interesting sports covered here and nobody can watch them. A spectator at the
+  side of a pool sees splashing. That is a harder problem than the one
+  orienteering and air sports have, because at least a glider eventually lands
+  where people are.
+
+shaped_by:
+  - uw-1961-rugby
+  - uw-1954-hockey

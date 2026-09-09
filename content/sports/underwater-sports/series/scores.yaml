@@ -1,0 +1,35 @@
+id: underwater-scores
+label: Scoring rate
+unit: goals per match
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  Nothing is entered for the underwater team sports, and the honest reason is
+  that nobody has compiled it.
+
+  These are small sports. Underwater hockey and underwater rugby have world
+  championships, national leagues in a handful of countries, and no
+  professional structure anywhere. Match statistics exist in tournament records
+  and have never been assembled into anything continuous or cited.
+
+  There is also a facility problem that would distort any series if one
+  existed. Underwater rugby requires a pool at least three and a half metres
+  deep, and depth varies between venues within the permitted range — so the
+  volume of the playing area, which is the sport's defining variable, is not
+  constant between competitions.
+
+  What can be said without numbers is that scoring in both sports is low, and
+  for a reason worth recording: possession is limited by breath rather than by
+  a clock or an opponent, so an attack that would succeed given ten more
+  seconds simply ends when the attacker has to surface. It is the only sport
+  covered here where the limiting factor on a move is the athlete's need for
+  air.
+segments: []
+breaks:
+  - at: 1980
+    caused_by: uw-1980-world-championships
+    kind: scoped
+    note: >
+      International codification. Before it, both sports were club games with
+      rules that varied by country and by pool.
+source: cmas-rules
