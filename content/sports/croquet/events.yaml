@@ -1,0 +1,36 @@
+sport: croquet
+as_of: 2026-09
+source: wcf-rules
+standing: primary-named
+summary: >
+  Contested at one Olympic Games, in 1900, and never again. The World Croquet
+  Federation runs world championships in both codes, and the simpler of the two
+  is now the larger sport.
+disciplines:
+  - id: association
+    label: Association croquet
+    blurb: The championship code, built on the break. Twenty-six points.
+    events:
+      - { id: assoc-singles, label: World championship singles, at: [world-championship], count: 2 }
+      - { id: assoc-doubles, label: World championship doubles, at: [world-championship] }
+      - { id: macrobertson, label: MacRobertson Shield, at: [world-championship], note: "A quadrennial team contest between Australia, England, New Zealand and the United States — the oldest and most prestigious event in the code." }
+  - id: golf-croquet
+    label: Golf croquet
+    blurb: >
+      One stroke per turn, all four balls contesting one hoop. Simpler, faster,
+      and now the larger game worldwide.
+    events:
+      - { id: gc-singles, label: World championship singles, at: [world-championship], count: 2 }
+      - { id: gc-doubles, label: World championship doubles, at: [world-championship], count: 2 }
+  - id: olympic-record
+    label: Its Olympic record
+    counts: false
+    events:
+      - { id: paris1900, label: Croquet, Paris 1900, at: [lapsed], note: "Contested once, almost entirely by French entrants, with women among the competitors — and reportedly one paying spectator." }
+  - id: relatives
+    label: Games in the same family
+    counts: false
+    events:
+      - { id: roque, label: Roque, at: [lapsed], note: "An American hard-court variant with a raised border, contested at the 1904 Olympics and effectively extinct." }
+      - { id: gateball, label: Gateball, at: [federation-only], note: "A Japanese team derivative from the 1940s, played five a side on a much smaller court to a strict clock, with a very large participation base in East Asia." }
+      - { id: ricochet, label: Ricochet and other national codes, at: [federation-only], note: Australian variants played domestically. }

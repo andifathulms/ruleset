@@ -1,0 +1,130 @@
+sport: croquet
+as_of: 2026-09
+edition: WCF Laws of Association Croquet and Rules of Golf Croquet
+source: wcf-rules
+standing: primary-named
+summary: >
+  Six hoops and a peg on a lawn thirty-five yards by twenty-eight, four balls,
+  two sides. In association croquet a turn can last the whole game; in golf
+  croquet a turn is one stroke.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      **Association croquet:** run both your balls through all six hoops in
+      order, in both directions, and finish by hitting the peg — twenty-six
+      points in all. A turn continues as long as you keep scoring or hitting
+      other balls.
+
+      **Golf croquet:** all four balls contest one hoop at a time, in strict
+      rotation, one stroke each. Whoever runs the hoop wins the point and
+      everybody moves on to the next.
+
+      The two share equipment and share almost no tactics.
+    facts:
+      - { label: Association, value: 26 points — 12 hoops each way, plus the peg }
+      - { label: Golf croquet, value: One hoop at a time, one stroke per turn }
+
+  - id: field
+    label: The lawn
+    body: >
+      Thirty-five yards by twenty-eight of mown grass, with six hoops in a
+      fixed arrangement and a peg in the centre.
+
+      The hoops are the precision. At championship level a hoop is only
+      fractionally wider than the ball — a clearance measured in fractions of a
+      millimetre — so running one from any distance is a genuine feat and
+      running one from an angle is close to impossible.
+    facts:
+      - { label: Lawn, value: 35 × 28 yd }
+      - { label: Hoops, value: Six, plus a centre peg }
+      - { label: Clearance, value: A fraction of a millimetre at championship level }
+
+  - id: equipment
+    label: Mallet, balls and hoops
+    body: >
+      A mallet with a long head, struck with either face. Four balls — blue and
+      black against red and yellow — and each side plays both of its own,
+      choosing which one to play at the start of each turn.
+
+      That is worth stating plainly, because it is unusual: a croquet player
+      controls two of the four objects on the field and must manage both, so a
+      singles match involves each player operating a pair.
+    facts:
+      - { label: Balls, value: Four — each side plays two }
+      - { label: Mallet, value: Struck with either face }
+      - { label: Choice of ball, value: Made at the start of each turn }
+
+  - id: players
+    label: Players and officials
+    body: >
+      Singles or doubles. In singles each player controls two balls; in doubles
+      each player controls one.
+
+      There is no referee in ordinary play. Players call their own faults and
+      may call a referee to watch a difficult stroke or adjudicate a contested
+      one — a self-officiating structure with an official available on request.
+    facts:
+      - { label: Singles, value: Each player plays two balls }
+      - { label: Officiating, value: Self-called, with a referee on request }
+
+  - id: duration
+    label: Time
+    body: >
+      Association games are played to the full twenty-six points or to a time
+      limit, and a championship game can run for hours. Golf croquet is much
+      faster, played to seven or thirteen hoops.
+    facts:
+      - { label: Association, value: Hours, or to a time limit }
+      - { label: Golf croquet, value: 7 or 13 hoops }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      One point per hoop run, plus the peg in association. Nothing is awarded
+      for the manner of it.
+
+      In **handicap play**, the weaker side receives **bisques** — free extra
+      turns, taken at a moment of their choosing. A bisque is spent when a
+      break has broken down, which is when an extra turn is worth most, so the
+      handicap does not merely add strokes but hands the recipient the right to
+      undo their worst moment.
+    facts:
+      - { label: Bisque, value: A free turn, taken when the recipient chooses }
+    shaped_by: [croquet-bisque-handicap]
+
+  - id: restarts
+    label: The turn
+    body: >
+      A turn is one stroke, extended by success. Running a hoop earns one extra
+      stroke. **Roqueting** another ball earns two: a **croquet stroke**, taken
+      with your ball placed against the one you hit so that both move, and then
+      a continuation.
+
+      Each ball may be roqueted once per turn, and the count resets when a hoop
+      is run — which is the mechanism that makes a long break possible and
+      also what ends one.
+    facts:
+      - { label: Run a hoop, value: One extra stroke }
+      - { label: Roquet, value: Two strokes, the first a croquet stroke }
+      - { label: Reset, value: Roquets refresh when a hoop is run }
+    shaped_by: [croquet-1868-codification]
+
+  - id: prohibitions
+    label: Faults
+    body: >
+      Pushing or pulling the ball rather than striking it cleanly. Striking with
+      anything but a mallet face. Touching a ball with the body. Playing a wrong
+      ball. Failing to move both balls in a croquet stroke, or sending the
+      croqueted ball off the lawn.
+
+      Almost all of these are called by the player who committed them, because
+      almost all are visible only to them.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Twenty-six points, or the higher score at a time limit, or the majority of
+      hoops in golf croquet. In association play a game can end with the loser
+      having had very few turns, which is the reason the handicap exists.

@@ -30,6 +30,7 @@
     - { id: bridge, label: Contract bridge, colour: gold, members: [bridge] }
     - { id: cheerleading, label: Cheerleading, colour: gold, members: [cheerleading] }
     - { id: cricket, label: Cricket, colour: pitch, members: [cricket] }
+    - { id: croquet, label: Croquet, colour: pool, members: [croquet] }
     - { id: cycling, label: Cycling, colour: pool, members: [cycling] }
     - { id: football, label: Football, colour: pitch, members: [football] }
     - { id: gymnastics, label: Gymnastics, colour: gold, members: [gymnastics] }
@@ -118,7 +119,7 @@
     - id: target
       label: Target
       colour: pool
-      members: [archery, shooting, golf, boules, bowling, billiards]
+      members: [archery, shooting, golf, boules, bowling, billiards, croquet]
     - id: performance
       label: Performance
       colour: gold
@@ -161,7 +162,7 @@
                 cricket, baseball, hockey, handball, rugby, softball, lacrosse,
                 squash, flag-football, korfball, tug-of-war, fistball, floorball,
                 kabaddi, sepak-takraw, racquetball, soft-tennis, underwater-sports,
-                billiards, board-games, bridge, esports, polo]
+                billiards, board-games, bridge, esports, polo, croquet]
     - id: combat
       label: Combat
       colour: clay

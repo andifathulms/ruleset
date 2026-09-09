@@ -1,0 +1,44 @@
+id: croquet-scores
+label: A comparable score
+unit: points
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Croquet's scores are bounded and its competitions are handicapped, and
+  between them there is nothing to chart.
+
+  An association game is won at twenty-six points and cannot exceed it. A
+  scoreline of 26–14 and one of 26–8 are both wins, and the losing figure
+  reflects how many turns the loser got rather than how well they played — in
+  a game decided by breaks, a strong player may win 26–0 without the result
+  meaning they played better than in a closer one.
+
+  **Handicap play** removes what remains. Bisques are free turns taken at a
+  moment of the recipient's choosing, so a handicap result depends on when they
+  were spent as much as on the play. And handicaps are recalculated as players
+  improve, so a given player's results are measured against a moving
+  entitlement.
+
+  The two codes rule out the rest. Association croquet and golf croquet share
+  a lawn, hoops and balls, and are scored differently, played differently and
+  contested by increasingly different people. A number from one says nothing
+  about the other.
+
+  What could be measured — the proportion of games won from a completed triple
+  peel, say — is recorded by enthusiasts and has never been assembled into
+  anything cited.
+segments: []
+breaks:
+  - at: 1868
+    caused_by: croquet-bisque-handicap
+    kind: scoped
+    note: >
+      Handicap results depend on bisques and on a handicap that is revised as a
+      player improves.
+  - at: 1996
+    caused_by: croquet-1996-golf-croquet-worlds
+    kind: scoped
+    note: >
+      Two codes, scored differently and contested by different fields. Results
+      belong to a code, not to croquet.
+source: wcf-rules

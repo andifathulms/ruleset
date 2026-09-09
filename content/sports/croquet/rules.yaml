@@ -1,0 +1,147 @@
+- id: croquet-1868-codification
+  scope: { sport: croquet, discipline: association }
+  date_adopted: 1868
+  date_effective: 1868
+  status: adopted
+  governing_body: All England Croquet Club
+  what_changed: >
+    Croquet was codified around the rule that defines it: striking another ball
+    — a **roquet** — earns two further strokes, the first of which is taken with
+    your ball placed in contact with the one you hit.
+
+    That is what creates the **break**. A player who can roquet, croquet a ball
+    into a useful position, run a hoop and roquet again can continue
+    indefinitely, using the other three balls as tools to carry themselves round
+    the course. A strong player may run the entire game in one turn.
+
+    Nothing else on this site gives a competitor an unbounded turn purchased by
+    skill. Snooker's break is the closest, and a snooker player cannot move the
+    other balls to wherever they need them next.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Croquet spread rapidly as a lawn game in the 1850s and 1860s with rules
+      varying by household, and competition required one code.
+  citation:
+    source: wcf-rules
+    edition: WCF Laws of Association Croquet
+    missing: true
+
+- id: croquet-bisque-handicap
+  scope: { sport: croquet, discipline: all }
+  date_adopted: 1868
+  date_effective: 1868
+  status: adopted
+  governing_body: All England Croquet Club, later the WCF
+  what_changed: >
+    The **bisque**: a weaker player receives a number of free extra turns, taken
+    whenever they choose, calculated from the difference between the two
+    players' handicaps.
+
+    It is croquet's answer to the problem the break creates. Without a
+    handicap, a player who can construct breaks beats one who cannot without
+    the loser ever taking a meaningful turn, and there is no contest at all.
+
+    A bisque is more powerful than golf's stroke allowance or polo's awarded
+    goals, because the recipient decides *when* to spend it — at the moment
+    their break has broken down, which is exactly when it is worth most.
+  cause_primary: participation and access
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      A game in which one player can complete the course without the other
+      playing is unplayable between people of different standards, which is
+      most games of croquet.
+  citation:
+    source: wcf-rules
+    edition: WCF Laws, handicap play
+    missing: true
+  comparability_break: croquet-scores
+
+- id: croquet-1877-lawns-to-tennis
+  scope: { sport: croquet, discipline: all }
+  date_adopted: 1877
+  date_effective: 1877
+  status: adopted
+  governing_body: All England Croquet and Lawn Tennis Club
+  what_changed: >
+    The All England Croquet Club, founded in 1868 for croquet, added lawn
+    tennis to its name in 1877 and held the first Wimbledon championship on its
+    croquet lawns that year.
+
+    Tennis displaced croquet so completely that the club dropped croquet from
+    its title within a few years and later restored it as a courtesy. The
+    world's most famous tennis venue is a croquet club that was taken over by
+    the sport it had let in.
+
+    This site records it as a rule change because it is one: the lawns, the
+    club and the constituency that had made croquet a competitive sport in
+    England were reallocated within a decade, and croquet never recovered the
+    ground.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Lawn tennis was faster, more physically appealing to a young membership,
+      and could be played on the same grass. The club that had been built for
+      croquet found its members preferred it.
+  citation:
+    source: wcf-rules
+    edition: All England Club history
+    missing: true
+
+- id: croquet-1900-olympic
+  scope: { sport: croquet, discipline: all }
+  date_adopted: 1900
+  date_effective: 1900
+  status: withdrawn
+  governing_body: International Olympic Committee
+  what_changed: >
+    Croquet was contested at the Paris Games in 1900 and never again. The
+    entrants were almost entirely French, and **women competed** — croquet is
+    among the first Olympic sports in which they did.
+
+    The tournament is also the standing example of Olympic obscurity: it is
+    reported to have drawn a single paying spectator, an Englishman who
+    travelled from Nice.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The 1900 Games were run alongside the Paris Exposition with a sprawling
+      and loosely defined programme, into which croquet fitted as an
+      established French and English lawn game.
+  citation:
+    source: olympedia
+    edition: Olympedia, croquet 1900
+    missing: true
+
+- id: croquet-1996-golf-croquet-worlds
+  scope: { sport: croquet, discipline: golf-croquet }
+  date_adopted: 1996
+  date_effective: 1996
+  status: adopted
+  governing_body: World Croquet Federation
+  what_changed: >
+    A world championship was established for **golf croquet**, the simpler code:
+    one stroke per turn, all four balls contesting the same hoop in order, no
+    roquets, no croquet strokes and no breaks.
+
+    It has since become the larger game worldwide by participation, and
+    decisively so in Egypt, which is now among the strongest nations in the
+    sport.
+
+    A federation whose founding code lets one player finish the game alone now
+    governs a second code built by removing that possibility — and the second
+    one is winning.
+  cause_primary: participation and access
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Association croquet is difficult to learn, slow to become competitive at,
+      and can leave a beginner sitting out while an opponent plays. Golf croquet
+      guarantees both players a stroke and is understood immediately.
+  citation:
+    source: wcf-rules
+    edition: WCF Rules of Golf Croquet
+    missing: true
+  comparability_break: croquet-scores

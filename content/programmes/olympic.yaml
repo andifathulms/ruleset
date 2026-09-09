@@ -357,7 +357,7 @@ sports:
 
   - id: croquet
     label: Croquet
-    coverage: skeleton
+    coverage: deep
     governing_body: WCF
     held: [1900]
 

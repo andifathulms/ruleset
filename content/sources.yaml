@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: wcf-rules
+  standing: primary-named
+  title: WCF Laws of Association Croquet and Rules of Golf Croquet
+  publisher: World Croquet Federation
+  kind: rulebook
+  url: https://worldcroquet.org/
+
 - id: fip-rules
   standing: primary-named
   title: FIP Rules of Polo

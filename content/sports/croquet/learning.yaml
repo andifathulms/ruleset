@@ -1,0 +1,91 @@
+sport: croquet
+standing: editorial
+summary: >
+  Golf croquet is understood in one turn and association croquet takes years —
+  and the handicap means a beginner can play a competitive match against a
+  champion in either, which almost nothing else on this site can offer.
+
+entry:
+  verdict: low
+  claim: A club with a lawn. Golf croquet is playable properly within an hour, and bisques make you competitive at once.
+  why: >
+    **Golf croquet** is the easiest competitive entry on this site after
+    pétanque. One stroke per turn, all four balls contesting the same hoop, no
+    roquets and no breaks — the rules take two minutes and a beginner is
+    playing the real game immediately, not a simplified version of it.
+
+    **Association croquet** is much harder to begin, because the break is the
+    game and a beginner cannot construct one. That is precisely what the
+    **bisque** is for: free turns spent when your break collapses, which is
+    every turn at first.
+
+    Between them, croquet is unusually good at letting a novice compete
+    honestly against an expert. The barrier is the lawn — mown, level, and
+    belonging to a club — which is a real facility requirement and the reason
+    the sport lives where clubs exist.
+  evidence:
+    - { label: Golf croquet, value: Playable properly in an hour, basis: rule, rule: croquet-1996-golf-croquet-worlds }
+    - { label: Bisques, value: Free turns, spent when you choose, basis: rule, rule: croquet-bisque-handicap }
+    - { label: Kit to start, value: Provided by the club, basis: observation }
+    - { label: Facility, value: A mown, level lawn, basis: observation }
+    - { label: Physical demand, value: Very low; playable at any age, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Running the whole course in one turn, through hoops barely wider than the ball, using three balls you did not choose the position of.
+  why: >
+    Association croquet's ceiling is one of the least visible on this site. A
+    top player wins by taking a **break** — using the other three balls as
+    stepping stones, croqueting each into the position it will be needed in
+    several strokes later, and running hoop after hoop without the opponent
+    playing.
+
+    That requires planning a sequence many strokes ahead while executing
+    croquet strokes that must send two balls to two different places with one
+    swing. The elite version, the **triple peel**, involves knocking your
+    partner ball through its remaining hoops during your own break so that the
+    game can be finished before an opponent gets in.
+
+    The precision is unforgiving: championship hoops are set with a clearance
+    over the ball measured in fractions of a millimetre, so a hoop that would
+    be a formality at club level is a genuine shot.
+
+    **Golf croquet's** ceiling is different and not lower — with no breaks, every
+    stroke is a tactical decision made against three other balls, and elite
+    golf croquet is a positional game of extreme accuracy over distance.
+  evidence:
+    - label: The break
+      value: A turn can last the whole game
+      basis: rule
+      rule: croquet-1868-codification
+      note: A skilled player wins without the opponent taking a meaningful turn.
+    - label: Hoop clearance
+      value: Fractions of a millimetre
+      basis: observation
+      note: Championship hoops are barely wider than the ball.
+    - label: Two balls each
+      value: In singles
+      basis: observation
+      note: A player manages a pair, not a ball.
+    - { label: Typical peak age, value: 30–55, basis: judgement, note: Among the longest competitive spans covered here. }
+
+gap: >
+  Low to very high — and croquet's handicap makes the gap unusually *crossable*
+  rather than unusually narrow.
+
+  This site has now found three deliberate comparability solutions: golf's
+  stroke handicap, polo's awarded goals, and croquet's bisques. All three come
+  from sports played across enormous ability ranges in club settings, and
+  croquet's is the most powerful of the three, because the recipient chooses
+  when to spend it. Golf adjusts your score afterwards and polo adds goals
+  before play; a bisque lets you undo the moment your game fell apart.
+
+  The other thing croquet demonstrates is what happens when a sport's central
+  mechanism is also its barrier. The break is the reason association croquet is
+  beautiful and the reason it is hard to take up, and the federation's answer
+  was not to change it but to run a second code without it. Golf croquet is now
+  the larger game.
+
+shaped_by:
+  - croquet-bisque-handicap
+  - croquet-1868-codification
