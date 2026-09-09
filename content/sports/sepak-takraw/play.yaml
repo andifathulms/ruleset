@@ -1,0 +1,117 @@
+sport: sepak-takraw
+as_of: 2026-09
+edition: ISTAF Laws of the Game
+source: istaf-rules
+standing: primary-named
+summary: >
+  Three a side over a net at about 1.5 metres, on a court the size of a
+  badminton doubles court. Three touches a side, taken with feet, knees, chest
+  or head — never the hands — and one player may take all three.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Return the ball over the net so that the opposition cannot return it
+      legally, using at most three touches and no hands.
+
+      Because the court is small and the net is low relative to what a kicking
+      leg can reach, the attacking shot is a spike struck above net height with
+      the foot, usually from an inverted or rotating position. What looks like
+      an acrobatic exception in this sport is its normal rally-ending shot.
+
+  - id: field
+    label: The court
+    body: >
+      13.4 metres by 6.1 — the dimensions of a badminton doubles court, which
+      is what the sport is very often played on. The net stands at about 1.52
+      metres for men and 1.42 for women.
+
+      A quarter circle at each net post and a service circle in each half mark
+      the areas the rules constrain. The small court is the sport's defining
+      physical fact: there is very little ground to defend, so rallies are
+      decided by whether a spike can be blocked or read rather than by
+      retrieving it.
+    facts:
+      - { label: Court, value: 13.4 × 6.1 m }
+      - { label: Same as, value: A badminton doubles court }
+      - { label: "Net height, men", value: 1.52 m }
+      - { label: "Net height, women", value: 1.42 m }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      A woven ball of about 170 grams and 42 centimetres around for the men's
+      game — originally rattan, now synthetic, and still made in the woven
+      open-lattice form the traditional ball had.
+
+      The weave is functional. An open woven ball is light, deforms slightly on
+      contact with a foot, and can be struck hard without the mass that would
+      make a foot-first sport punishing. No protective equipment is worn.
+    facts:
+      - { label: Ball, value: Woven synthetic, about 170 g }
+      - { label: Circumference, value: About 42 cm }
+      - { label: Protective equipment, value: None }
+
+  - id: players
+    label: Players and officials
+    body: >
+      Three a side — a *regu*. The tekong serves and plays deep; the feeder
+      sets; the killer spikes. Roles are conventional rather than mandated,
+      because nothing in the rules stops one player doing all three jobs in a
+      single rally.
+    facts:
+      - { label: On court, value: "3" }
+      - { label: Touches per side, value: "3" }
+      - { label: Consecutive touches, value: Permitted by the same player }
+    shaped_by: [takraw-three-touches-one-player]
+
+  - id: duration
+    label: Time
+    body: >
+      No clock. Sets are played to 21 points under rally scoring, and a match
+      is the best of three, with a shortened deciding set if the first two are
+      split.
+    facts:
+      - { label: Set, value: 21 points, rally scoring }
+      - { label: Match, value: Best of three sets }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      A point on every rally regardless of who served. There is no bonus for
+      the manner of a point and no equivalent of volleyball's distinction
+      between a block and an attack — a spike, a service ace and an opponent's
+      error are all worth one.
+
+  - id: restarts
+    label: Serving
+    body: >
+      The serve is the sport's most distinctive mechanic. The tekong stands
+      with one foot inside a service circle, a team-mate tosses the ball to
+      them, and they kick it over the net. The serving foot may leave the
+      ground but the grounded foot must stay in contact with the circle.
+
+      So a sepak takraw serve requires two players acting together before the
+      ball is in play, which no other net sport on this site does.
+    facts:
+      - { label: Serve, value: Kicked, from a service circle }
+      - { label: Tossed by, value: A team-mate }
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Touching the ball with a hand or arm — the fundamental one. A fourth
+      touch. Touching the net or crossing under it. The tekong's grounded foot
+      leaving the service circle. A player other than the tekong stepping
+      outside their quarter circle before the serve is struck.
+
+      Reaching over the net is restricted rather than banned outright: a
+      blocker may follow through over it in the act of blocking, but may not
+      make contact on the opponent's side.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The side taking two sets. A tied set continues to a two-point margin up
+      to a cap, at which point the next point decides it.

@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: istaf-rules
+  standing: primary-named
+  title: ISTAF Laws of the Game
+  publisher: International Sepaktakraw Federation
+  kind: rulebook
+  url: https://sepaktakraw.org/
+
 - id: ikf-rules
   standing: primary-named
   title: IKF Rules of Korfball

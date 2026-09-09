@@ -1,0 +1,31 @@
+sport: sepak-takraw
+as_of: 2026-09
+source: istaf-rules
+standing: primary-named
+summary: >
+  No Olympic events. Sepak takraw has been a full Asian Games medal sport since
+  1990, is a fixture of the Southeast Asian Games, and has its own world
+  championships. It is not on the World Games programme.
+disciplines:
+  - id: regu
+    label: Regu
+    blurb: The primary form. Three a side over a net.
+    events:
+      - { id: men-regu, label: Men's regu, at: [asian-games, world-championship] }
+      - { id: women-regu, label: Women's regu, at: [asian-games, world-championship] }
+  - id: team
+    label: Team events
+    blurb: Multiple regus per country, contested as a tie.
+    events:
+      - { id: men-team, label: Men's team regu, at: [asian-games, world-championship] }
+      - { id: women-team, label: Women's team regu, at: [asian-games, world-championship] }
+      - { id: quadrant, label: Doubles and quadrant, at: [world-championship], count: 2, note: Two and four-a-side variants contested at some championships. }
+  - id: traditional
+    label: The forms it came from
+    counts: false
+    blurb: >
+      Circle games in which a ball is kept airborne without hands, played
+      across Southeast Asia and still the way most people encounter the sport.
+    events:
+      - { id: hoop, label: Hoop takraw, at: [federation-only], note: "A team puts the ball through a hoop suspended above a circle; scored by technique and by placement." }
+      - { id: chinlone, label: Chinlone and related circle games, at: [federation-only], note: "Non-competitive in its Burmese form — judged on grace rather than won; the clearest case here of a game that declines to be a contest." }

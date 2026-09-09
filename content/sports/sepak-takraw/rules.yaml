@@ -1,0 +1,75 @@
+- id: takraw-1965-codification
+  scope: { sport: sepak-takraw, discipline: all }
+  date_adopted: 1965
+  date_effective: 1965
+  status: adopted
+  governing_body: Asian Sepaktakraw Federation
+  what_changed: >
+    The Malay and Thai forms of the game were codified into one competitive
+    sport in Kuala Lumpur: three a side, a net, a badminton-sized court, three
+    touches, and a set of legal contact surfaces excluding the hands and arms.
+
+    The name records the negotiation. *Sepak* is Malay for kick and *takraw*
+    is Thai for the woven ball, and the compound was adopted so that neither
+    country's term for the game won. Very few sports on this site carry the
+    politics of their founding in their name.
+  cause_primary: fairness and eligibility
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Closely related folk games — sepak raga in the Malay world, takraw in
+      Thailand — had circle and net variants with different rules, and regional
+      competition required one code.
+  citation:
+    source: istaf-rules
+    edition: ISTAF Laws of the Game
+    missing: true
+
+- id: takraw-three-touches-one-player
+  scope: { sport: sepak-takraw, discipline: all }
+  date_adopted: 1965
+  date_effective: 1965
+  status: adopted
+  governing_body: Asian Sepaktakraw Federation
+  what_changed: >
+    A side may touch the ball three times before returning it, and there is no
+    requirement that the touches be shared. One player may take all three —
+    control, set and spike — alone.
+
+    Volleyball's equivalent rule forbids consecutive touches by the same
+    player, and that single difference produces most of what separates the two
+    sports. Sepak takraw's rallies can be a solo sequence, its positional roles
+    are looser than volleyball's, and a single outstanding player can carry a
+    rally in a way that volleyball's rules make impossible.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      The game descends from circle forms in which individual continuous
+      juggling was the whole activity, and the competitive code kept the
+      permission rather than importing volleyball's restriction.
+  citation:
+    source: istaf-rules
+    edition: ISTAF Laws of the Game, playing the ball
+    missing: true
+
+- id: takraw-1990-asian-games
+  scope: { sport: sepak-takraw, discipline: all }
+  date_adopted: 1990
+  date_effective: 1990
+  status: adopted
+  governing_body: Olympic Council of Asia
+  what_changed: >
+    Sepak takraw became a full medal sport at the 1990 Asian Games in Beijing —
+    the same edition at which kabaddi was added — and has been contested at
+    every Games since, with Thailand winning the overwhelming majority of the
+    titles.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The Asian Games programme admitted two regionally dominant sports with no
+      global federation structure in the same year, which is the clearest
+      statement available of what that programme is for.
+  citation:
+    source: oca-asian-games
+    edition: Olympic Council of Asia programme listings
+    missing: true

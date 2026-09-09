@@ -35,6 +35,7 @@
     - { id: lifesaving, label: Lifesaving, colour: pool, members: [lifesaving] }
     - { id: orienteering, label: Orienteering, colour: pool, members: [orienteering] }
     - { id: powerlifting, label: Powerlifting, colour: pool, members: [powerlifting] }
+    - { id: sepak-takraw, label: Sepak takraw, colour: clay, members: [sepak-takraw] }
     - { id: sumo, label: Sumo, colour: clay, members: [sumo] }
     - { id: tug-of-war, label: Tug of war, colour: pool, members: [tug-of-war] }
     - { id: modern-pentathlon, label: Modern pentathlon, colour: gold, members: [modern-pentathlon] }
@@ -79,7 +80,8 @@
     - id: net-and-wall
       label: Net and wall
       colour: clay
-      members: [badminton, table-tennis, tennis, volleyball, squash, fistball]
+      members: [badminton, table-tennis, tennis, volleyball, squash, fistball,
+                sepak-takraw]
     - id: invasion
       label: Invasion
       colour: pitch
@@ -129,7 +131,7 @@
       members: [football, badminton, table-tennis, tennis, volleyball, basketball,
                 cricket, baseball, hockey, handball, rugby, softball, lacrosse,
                 squash, flag-football, korfball, tug-of-war, fistball, floorball,
-                kabaddi]
+                kabaddi, sepak-takraw]
     - id: combat
       label: Combat
       colour: clay

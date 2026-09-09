@@ -1,0 +1,24 @@
+id: sepak-takraw-scoring
+label: Points per set
+unit: points per set
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  No scoring series is entered for sepak takraw. The sport moved from
+  service-based scoring to 21-point rally scoring, as most net sports on this
+  site did, and this site has not found a cited date for the change — so the
+  break cannot be placed, and a series that cannot say where it breaks is worse
+  than none.
+
+  That is the honest reason and it is worth stating plainly rather than
+  charting around. The site's rule is that an approximate date is still a wrong
+  date, and a scoring change whose year is not established is a break that
+  cannot be drawn.
+
+  The other obstacle is the ordinary one for a regionally concentrated sport.
+  Thailand has won the overwhelming majority of Asian Games titles, so a
+  points-per-set figure drawn from international competition would substantially
+  measure how often Thailand played somebody else.
+segments: []
+breaks: []
+source: istaf-rules

@@ -1,0 +1,86 @@
+sport: sepak-takraw
+standing: editorial
+summary: >
+  A ball and a circle of friends gets you playing immediately, and the
+  competitive game has one of the steepest technical walls on this site: you
+  must strike a ball above head height with your foot, accurately, repeatedly.
+
+entry:
+  verdict: low
+  claim: One woven ball. The traditional form is a circle of people keeping it up.
+  why: >
+    The ancestral game — keeping a ball airborne in a circle without hands — is
+    still how most people meet the sport across Southeast Asia, and it needs a
+    ball and nothing else. No net, no court, no teams, no officials.
+
+    That circle form is a genuine on-ramp rather than a folk curiosity: it
+    trains exactly the first touch the competitive game needs, and it can be
+    played by two people or twelve.
+
+    The competitive game raises the barrier immediately. It needs a net, a
+    marked court and six players, and it requires you to control a ball with
+    surfaces most people have never used deliberately. Anyone can start; very
+    few can rally on the first day.
+  evidence:
+    - { label: Kit to start, value: A woven ball, basis: observation }
+    - { label: Traditional form, value: A circle, no net or court, basis: observation }
+    - { label: Players needed for a match, value: "6", basis: rule, rule: takraw-1965-codification }
+    - { label: Court, value: A badminton doubles court, basis: observation, note: Widely available across the sport's region. }
+    - { label: Time to a real game, value: Weeks, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: A bicycle-kick spike from above net height, as the ordinary way to end a rally.
+  why: >
+    The elite attacking shot is an inverted or rotating kick striking a ball
+    above 1.5 metres, downward, into a court 6.1 metres wide, at speed — and it
+    is not the highlight of the sport but its standard method of scoring.
+    Nothing else covered here requires an acrobatic inversion as routine
+    technique.
+
+    The permission for one player to take all three touches raises the ceiling
+    rather than lowering it. A killer can control, set and spike alone, which
+    means the very best players are asked to do the whole sequence rather than
+    specialise, and the sport's tactical variety comes from choices volleyball's
+    rules would forbid.
+
+    The court is small and the ball is fast, so defence is anticipation rather
+    than coverage. A blocker in sepak takraw is often airborne and inverted
+    too.
+
+    The ceiling is also geographically capped. Thailand and Malaysia have the
+    professional and semi-professional structures; almost everywhere else, the
+    elite ceiling is a national team place.
+  evidence:
+    - label: No hands or arms
+      value: All contact with feet, knees, chest, head
+      basis: rule
+      rule: takraw-1965-codification
+      note: The technical wall — the striking surfaces are ones most people never train.
+    - label: All three touches by one player
+      value: Permitted
+      basis: rule
+      rule: takraw-three-touches-one-player
+      note: Volleyball forbids it; here the best players do the whole sequence alone.
+    - { label: Spike height, value: Above a 1.52 m net, with the foot, basis: observation }
+    - { label: Typical peak age, value: 22–30, basis: judgement }
+
+gap: >
+  Low to very high, and the pairing to look at is volleyball, which this site
+  also covers.
+
+  The two sports share a net, a three-touch limit, a small team and a spike as
+  the scoring shot. Sepak takraw removes the hands and permits consecutive
+  touches by one player. Removing the hands raises the technical floor
+  enormously — a beginner can dig a volleyball on day one and cannot control a
+  takraw ball with a foot — and permitting consecutive touches raises the
+  ceiling, because the best players are allowed to do everything themselves.
+
+  So one sport made both ends harder than its relative, with two rules. It is
+  the sharpest example on this site of technical difficulty being designed in
+  rather than inherited, and it is why sepak takraw has never spread far beyond
+  the region that invented it despite needing almost no equipment.
+
+shaped_by:
+  - takraw-1965-codification
+  - takraw-three-touches-one-player

@@ -189,7 +189,7 @@ sports:
     held: [2022]
   - id: sepak-takraw
     label: Sepak takraw
-    coverage: skeleton
+    coverage: deep
     held: [2022]
     note: >-
       Volleyball played with the feet, and a Southeast Asian sport on no global programme.
