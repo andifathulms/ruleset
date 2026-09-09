@@ -1,0 +1,107 @@
+- id: softtennis-1884-rubber-ball
+  scope: { sport: soft-tennis, discipline: all }
+  date_adopted: 1884
+  date_effective: 1884
+  status: adopted
+  governing_body: Japanese physical education authorities
+  what_changed: >
+    A soft, air-filled rubber ball was adopted in place of the pressurised
+    cloth-covered tennis ball, because imported tennis balls were expensive and
+    hard to obtain in Meiji-era Japan and a rubber ball could be made locally.
+
+    It was a substitution made for supply reasons and it created a different
+    sport. A soft ball at about thirty grams decelerates quickly, deforms on the
+    strings, and cannot be hit through an opponent — so power stops being a
+    weapon, rallies lengthen, and the game becomes an argument about placement
+    and angle.
+
+    Every other distinctive feature of soft tennis follows from that one
+    object.
+  cause_primary: participation and access
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Tennis had been introduced to Japan by Western teachers, and the
+      equipment it required had to be imported at a cost that made the game
+      impossible to spread through schools.
+  citation:
+    source: istf-rules
+    edition: ISTF Rules of Soft Tennis, the ball
+    missing: true
+  comparability_break: soft-tennis-stats
+
+- id: softtennis-doubles-primary
+  scope: { sport: soft-tennis, discipline: all }
+  date_adopted: 1974
+  date_effective: 1974
+  status: adopted
+  governing_body: International Soft Tennis Federation
+  what_changed: >
+    Doubles was codified as the sport's principal format, with defined
+    positional roles — one player forward at the net, one back at the baseline —
+    that are far more fixed than tennis's.
+
+    Tennis treats singles as the senior event and doubles as a companion to it.
+    Soft tennis does the reverse, and its school and club structures are built
+    around pairs.
+
+    A game is four points, with a deciding point at three-all, and a match is
+    the best of an odd number of games. There is no fifteen-thirty-forty and no
+    equivalent of a tennis set.
+  cause_primary: fairness and eligibility
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The sport had grown through the Japanese school system, where doubles
+      accommodates twice as many players on the same number of courts, and the
+      international rules recorded the practice.
+  citation:
+    source: istf-rules
+    edition: ISTF Rules of Soft Tennis, scoring and formats
+    missing: true
+
+- id: softtennis-1974-istf
+  scope: { sport: soft-tennis, discipline: all }
+  date_adopted: 1974
+  date_effective: 1974
+  status: adopted
+  governing_body: International Soft Tennis Federation
+  what_changed: >
+    An international federation was formed, taking a sport that had been almost
+    entirely Japanese for ninety years and giving it a common rulebook across
+    the countries — principally Taiwan and Korea — where it had spread.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Soft tennis had been carried into Korea and Taiwan during the period of
+      Japanese rule and had developed there, with no body to hold competition
+      between the three.
+  citation:
+    source: istf-rules
+    edition: ISTF statutes
+    missing: true
+
+- id: softtennis-1990-asian-games
+  scope: { sport: soft-tennis, discipline: all }
+  date_adopted: 1990
+  date_effective: 1990
+  status: adopted
+  governing_body: Olympic Council of Asia
+  what_changed: >
+    Soft tennis became an Asian Games medal sport at Beijing in 1990 — the same
+    edition that added kabaddi, sepak takraw and wushu — and has been contested
+    at every Games since.
+
+    That single edition is the clearest statement available of what the Asian
+    Games programme is for: four sports with deep regional participation, no
+    global federation structure, and no realistic Olympic prospect, admitted
+    together.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The Asian Games programme has consistently admitted regionally dominant
+      sports that the Olympic system does not accommodate.
+  citation:
+    source: oca-asian-games
+    edition: Olympic Council of Asia programme listings
+    missing: true

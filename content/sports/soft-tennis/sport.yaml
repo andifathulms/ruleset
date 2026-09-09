@@ -1,0 +1,21 @@
+id: soft-tennis
+label: Soft tennis
+tagline: "Japan could not import tennis balls, substituted a rubber one, and the substitution became a different sport."
+governing_body: International Soft Tennis Federation
+founded: >
+  Devised in Japan in the 1880s, when imported tennis balls were scarce and
+  expensive and a soft rubber ball was used instead; the International Soft
+  Tennis Federation was formed in 1974.
+coverage: deep
+family_colour: clay
+classification:
+  official: soft-tennis
+  game-category: net-and-wall
+  adjudication: decided-by-score
+summary: >
+  Tennis played with a soft, air-filled rubber ball weighing about thirty
+  grams. The ball decelerates, so power achieves very little and the game is
+  decided by placement, angle and long rallies. Doubles is the primary form
+  rather than the secondary one, and a game is four points rather than tennis's
+  fifteen-thirty-forty. The whole sport is the downstream consequence of a
+  nineteenth-century supply problem.

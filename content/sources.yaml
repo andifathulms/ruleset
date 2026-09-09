@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: istf-rules
+  standing: primary-named
+  title: ISTF Rules of Soft Tennis
+  publisher: International Soft Tennis Federation
+  kind: rulebook
+  url: https://www.soft-tennis.org/
+
 - id: idbf-rules
   standing: primary-named
   title: IDBF Competition Rules

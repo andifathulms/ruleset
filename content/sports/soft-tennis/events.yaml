@@ -1,0 +1,35 @@
+sport: soft-tennis
+as_of: 2026-09
+source: istf-rules
+standing: primary-named
+summary: >
+  No Olympic events. Soft tennis has been an Asian Games medal sport since 1990
+  and holds its own world championships, contested seriously by a small number
+  of countries.
+disciplines:
+  - id: doubles
+    label: Doubles
+    blurb: The principal format, with defined forward and back positions.
+    events:
+      - { id: men-doubles, label: Men's doubles, at: [asian-games, world-championship] }
+      - { id: women-doubles, label: Women's doubles, at: [asian-games, world-championship] }
+      - { id: mixed-doubles, label: Mixed doubles, at: [asian-games, world-championship] }
+  - id: singles
+    label: Singles
+    blurb: Contested, and secondary to doubles — the reverse of tennis.
+    events:
+      - { id: men-singles, label: Men's singles, at: [asian-games, world-championship] }
+      - { id: women-singles, label: Women's singles, at: [asian-games, world-championship] }
+  - id: team
+    label: Team events
+    events:
+      - { id: men-team, label: Men's team, at: [asian-games, world-championship] }
+      - { id: women-team, label: Women's team, at: [asian-games, world-championship] }
+  - id: relative
+    label: The sport it split from
+    counts: false
+    blurb: >
+      Soft tennis and tennis share a court, a net and an ancestry, and diverged
+      in the 1880s over one object.
+    events:
+      - { id: tennis, label: Tennis, at: [olympic], note: "Pressurised ball, heavier racket, singles as the senior event, and a scoring system soft tennis did not adopt." }

@@ -199,7 +199,7 @@ sports:
     held: [2022]
   - id: soft-tennis
     label: Soft tennis
-    coverage: skeleton
+    coverage: deep
     held: [2022]
   - id: sport-climbing
     label: Sport climbing

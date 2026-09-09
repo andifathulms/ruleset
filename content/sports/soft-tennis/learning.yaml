@@ -1,0 +1,93 @@
+sport: soft-tennis
+standing: editorial
+summary: >
+  Considerably easier to begin than tennis, and for exactly one reason: the
+  ball. The top of the sport is harder to reach than the entry suggests,
+  because with power removed there is nowhere for a weak player to hide.
+
+entry:
+  verdict: low
+  claim: A rubber ball that does not punish you, a light racket, and a tennis court.
+  why: >
+    Soft tennis was created so that a game could be played without expensive
+    imported equipment, and the accessibility is still the point.
+
+    The ball is the whole story. It is light, slow and forgiving — it does not
+    arrive faster than a beginner can react, it does not hurt, and it does not
+    fly out of court off a mistimed swing the way a pressurised tennis ball
+    does. The commonest reason a beginner cannot rally in tennis is that the
+    ball is too fast and too lively; here it is neither.
+
+    The racket is light and softly strung, so it needs less strength to swing
+    and gives more control.
+
+    It is low rather than very low because it needs a tennis court, a net and
+    an opponent, and courts are contested facilities almost everywhere.
+  evidence:
+    - { label: Ball, value: About 30 g, air-filled rubber, basis: rule, rule: softtennis-1884-rubber-ball, note: Half a tennis ball's weight, and far slower. }
+    - { label: Racket, value: Light, low string tension, basis: observation }
+    - { label: Facility, value: A tennis-sized court, basis: observation }
+    - { label: Players needed, value: 2 or 4, basis: observation }
+    - { label: Time to a real rally, value: One session, basis: judgement }
+
+mastery:
+  verdict: high
+  claim: Constructing points with no power available, in a game where a doubles pair has fixed jobs.
+  why: >
+    Remove power from a racket sport and what is left is harder, not easier. An
+    elite soft tennis player cannot end a rally by hitting through an opponent,
+    because a thirty-gram ball will not go through anybody. Points have to be
+    constructed — angle, depth, disguise, drawing an opponent forward and
+    passing them — over rallies that go on far longer than tennis's.
+
+    The serve is not a weapon, which removes the structure tennis is built on.
+    There is no holding serve, no ace count, no shortcut through a bad day.
+    Every point is contested.
+
+    Doubles being the principal format raises it further. Pairs hold defined
+    positions, one forward and one back, and the partnership is a long-term
+    technical unit — so a player's ceiling is bound to their partner's in the
+    way this site records for dancesport.
+
+    The institutional ceiling is regional. The sport's competitive summit is an
+    Asian Games title and a world championship contested seriously by three
+    countries.
+  evidence:
+    - label: Power removed
+      value: A 30 g ball
+      basis: rule
+      rule: softtennis-1884-rubber-ball
+      note: Rallies cannot be ended by force, so they must be constructed.
+    - label: Doubles is primary
+      value: With fixed positions
+      basis: rule
+      rule: softtennis-doubles-primary
+      note: A player's ceiling is bound to their partner's.
+    - label: Four-point games
+      value: Deciding point at 3–3
+      basis: rule
+      rule: softtennis-doubles-primary
+      note: No nested comeback structure of the kind a tennis set provides.
+    - { label: Typical peak age, value: 21–29, basis: judgement }
+
+gap: >
+  Low to high — and this sport is the cleanest demonstration on the site of an
+  argument the tennis and badminton pages already make.
+
+  Those two pages argue that a racket sport's accessibility is a property of its
+  implement: a shuttle decelerates and a tennis ball does not, and two otherwise
+  similar games end up with opposite learning curves. Soft tennis is the
+  controlled version of that experiment, because it changed *only* the ball and
+  kept tennis's court, net and general shape.
+
+  The result is a game that is markedly easier to start and not easier to
+  master. Removing power lowered the barrier at the bottom and raised the
+  requirement at the top, because a player who cannot construct a point has no
+  other way to win one.
+
+  A sport created by a nineteenth-century supply problem turns out to be the
+  best evidence available for how much a single object decides.
+
+shaped_by:
+  - softtennis-1884-rubber-ball
+  - softtennis-doubles-primary

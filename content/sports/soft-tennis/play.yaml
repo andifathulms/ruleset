@@ -1,0 +1,117 @@
+sport: soft-tennis
+as_of: 2026-09
+edition: ISTF Rules of Soft Tennis
+source: istf-rules
+standing: primary-named
+summary: >
+  Tennis's court and net with a soft air-filled rubber ball of about thirty
+  grams. Games are four points, doubles is the principal format, and the ball
+  is too light to be hit through anybody.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Win points as in tennis: land the ball in the opponent's court so they
+      cannot return it. What differs is what that requires.
+
+      A thirty-gram ball loses speed quickly and deforms against the strings,
+      so a hard flat drive that would be a winner in tennis simply arrives
+      slower. Points are constructed instead — angle, depth, changes of pace,
+      and drawing an opponent out of position.
+    shaped_by: [softtennis-1884-rubber-ball]
+
+  - id: field
+    label: The court
+    body: >
+      A court the size of a tennis doubles court, with a net a little lower
+      than tennis's. Played on hard courts, clay and increasingly on synthetic
+      surfaces, indoors and out.
+
+      Because the ball travels more slowly, the same court plays much larger:
+      a player has time to reach balls that tennis would put away, which is
+      what lengthens the rallies.
+    facts:
+      - { label: Court, value: The size of a tennis doubles court }
+      - { label: Net, value: Slightly lower than tennis's }
+
+  - id: equipment
+    label: Ball and racket
+    body: >
+      **The ball** is the sport. Hollow air-filled rubber, about 30 grams and
+      6.6 centimetres across, with no felt covering — roughly half the weight
+      of a tennis ball, and far less lively off the strings.
+
+      **The racket** is much lighter than a tennis racket and strung at
+      considerably lower tension, because a soft ball needs a soft string bed to
+      be controlled rather than a stiff one to be driven.
+
+      That pairing is the reason the sports diverged permanently rather than
+      merging back. A soft tennis racket cannot usefully play tennis, and a
+      tennis racket cannot usefully play soft tennis.
+    facts:
+      - { label: Ball, value: Air-filled rubber, about 30 g }
+      - { label: Ball diameter, value: About 6.6 cm }
+      - { label: Racket, value: Lighter than tennis, low string tension }
+    shaped_by: [softtennis-1884-rubber-ball]
+
+  - id: players
+    label: Players and officials
+    body: >
+      Singles and doubles, with **doubles the principal format** — the reverse
+      of tennis. Doubles pairs hold defined positions, one forward at the net
+      and one back, more rigidly than tennis pairs do, and partnerships are
+      long-term units rather than seasonal ones.
+    facts:
+      - { label: Principal format, value: Doubles }
+      - { label: Doubles roles, value: One forward, one back }
+    shaped_by: [softtennis-doubles-primary]
+
+  - id: duration
+    label: Time
+    body: >
+      No clock. A match is the best of an odd number of games — commonly five,
+      seven or nine depending on the competition — and each game is four points.
+    facts:
+      - { label: Game, value: 4 points }
+      - { label: Match, value: Best of 5, 7 or 9 games }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      A game is the first to four points, with a deciding point played at
+      three-all. There is no fifteen-thirty-forty, no advantage and no set.
+
+      That is a much flatter structure than tennis's, and it has a consequence:
+      soft tennis has nothing equivalent to tennis's nested comebacks, where a
+      player can lose most points and still win the match. Games are short and
+      the score moves in a straight line.
+    shaped_by: [softtennis-doubles-primary]
+
+  - id: restarts
+    label: Serving
+    body: >
+      An underhand or overhand serve, with one fault permitted as in tennis.
+      Because the ball is light, the serve is nothing like the weapon it is in
+      tennis — there is no ace-driven soft tennis and no equivalent of a player
+      whose game is built on holding serve.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Foot faults, double faults, touching the net, hitting the ball before it
+      crosses, and in doubles, playing out of position where the format
+      specifies one.
+
+      The ball's softness removes a category of dispute that tennis has: there
+      is far less argument about a ball being hit before it bounces or about
+      double hits, because a soft ball stays on the strings longer and the
+      contact is visible.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The player or pair taking the required number of games. Because a game is
+      only four points, a match can turn quickly, and the sport has no
+      structural mechanism for a losing player to reset the way a tennis set
+      does.
