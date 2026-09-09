@@ -1,0 +1,114 @@
+- id: bowling-1952-fiq
+  scope: { sport: bowling, discipline: all }
+  date_adopted: 1952
+  date_effective: 1952
+  status: adopted
+  governing_body: Fédération Internationale des Quilleurs
+  what_changed: >
+    An international federation was formed, bringing ten-pin bowling and the
+    European nine-pin games under one body and standardising ten-pin
+    competition internationally: lane and pin dimensions, ball specifications,
+    and the scoring system that caps a game at 300.
+
+    The cap is the interesting part. Ten frames, two deliveries each, with
+    strikes and spares carrying bonus pins forward, produce a maximum of exactly
+    300 — a bounded perfect score, like gymnastics' old Perfect 10, and unlike
+    it in that a competitor can actually reach it.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Ten-pin had been codified in the United States and the European pin games
+      were governed nationally, with no international body to hold championships
+      between them.
+  citation:
+    source: ibf-rules
+    edition: IBF Playing Rules
+    missing: true
+
+- id: bowling-1988-olympic-demonstration
+  scope: { sport: bowling, discipline: all }
+  date_adopted: 1988
+  date_effective: 1988
+  status: withdrawn
+  governing_body: International Olympic Committee
+  what_changed: >
+    Bowling was contested at the 1988 Seoul Olympics as a demonstration sport.
+    The IOC discontinued the demonstration category after 1992, and bowling has
+    bid for inclusion repeatedly since without being selected.
+
+    It is one of very few sports covered here to have been at a Games in any
+    capacity and never on the programme.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      Bowling had a very large participation base, particularly in the United
+      States and East Asia, and the demonstration mechanism existed to showcase
+      exactly that kind of sport.
+  citation:
+    source: ibf-rules
+    edition: Seoul 1988 demonstration sports
+    missing: true
+
+- id: bowling-reactive-resin
+  scope: { sport: bowling, discipline: all }
+  date_adopted: 1991
+  date_effective: 1991
+  status: adopted
+  governing_body: Ball manufacturers, permitted under federation specifications
+  what_changed: >
+    Reactive resin ball coverstocks came into use, replacing polyester and
+    urethane. A reactive ball grips the dry part of the lane far more
+    aggressively, hooks harder into the pocket, and carries pins that earlier
+    equipment left standing.
+
+    Scores rose sharply and permanently. Perfect games, once rare enough to be
+    news, became common — and the maximum did not move, because 300 is defined
+    by the scoring system rather than by the difficulty of achieving it.
+
+    This is the inverse of every equipment case recorded elsewhere on this site.
+    The javelin's redesign reset the record book; the supersuits were banned and
+    the records kept. Here the number stayed exactly where it was while what it
+    took to reach it collapsed.
+  cause_primary: equipment and technology
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Manufacturers developed coverstocks with far greater friction on dry
+      lane surfaces, within the existing ball specifications, which regulated
+      weight, dimensions and balance rather than surface behaviour.
+  citation:
+    source: ibf-rules
+    edition: IBF equipment specifications
+    missing: true
+  comparability_break: bowling-scores
+
+- id: bowling-sport-patterns
+  scope: { sport: bowling, discipline: all }
+  date_adopted: 2005
+  date_effective: 2005
+  status: adopted
+  governing_body: National and international bowling federations
+  what_changed: >
+    Rather than restrict the balls, the sport changed the lane. Competition oil
+    patterns — longer, flatter and with far less margin between the dry outside
+    and the oiled centre than a recreational house pattern — were adopted to
+    make scoring difficult again.
+
+    A house pattern funnels a ball towards the pocket and forgives error. A
+    sport pattern does not, and the same bowler will score dramatically lower on
+    one than the other with identical equipment.
+
+    So the sport's answer to an equipment problem was to modify the invisible
+    surface the equipment acts on, which is an option no other sport on this
+    site has had available.
+  cause_primary: fairness and eligibility
+  cause_secondary: integrity
+  trigger:
+    description: >
+      Reactive equipment had made high scores routine on recreational lane
+      conditions, and averages ceased to distinguish between competitors.
+  citation:
+    source: ibf-rules
+    edition: IBF lane dressing specifications
+    missing: true
+  comparability_break: bowling-scores

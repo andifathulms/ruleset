@@ -1,0 +1,47 @@
+id: bowling-scores
+label: Scoring average
+unit: pins per game
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  Bowling has the strangest comparability problem on this site, because nothing
+  about its scoring system ever changed.
+
+  A strike has scored ten plus the next two deliveries for more than a century.
+  The maximum is 300 and always has been. The arithmetic is identical in 1960
+  and today, which is exactly why the numbers cannot be compared.
+
+  What changed is underneath. **Reactive resin** coverstocks from the early
+  1990s grip the dry lane far harder than the polyester and urethane balls
+  before them, hook into the pocket more aggressively, and carry pins that older
+  equipment left standing. Averages rose and perfect games went from rare to
+  routine — with no change whatsoever to the scale they were measured on.
+
+  Then the sport responded by changing the surface rather than the equipment.
+  Competition oil patterns are longer, flatter and far less forgiving than the
+  recreational house conditions most bowling is done on, so the same bowler
+  with the same ball scores dramatically differently depending on a coating
+  they cannot see.
+
+  So a score requires three pieces of context that are almost never recorded
+  together: the era's equipment, the oil pattern, and how far into the block it
+  was applied. Without them the number is arithmetic without a measurement.
+
+  Nothing is entered here because no series carrying that context has been
+  taken from a cited source.
+segments: []
+breaks:
+  - at: 1991
+    caused_by: bowling-reactive-resin
+    kind: retained
+    note: >
+      Reactive coverstocks raised scoring permanently. The scale was not
+      changed and the records were kept, so averages across this line describe
+      different sports under one number.
+  - at: 2005
+    caused_by: bowling-sport-patterns
+    kind: scoped
+    note: >
+      Competition oil patterns diverge from recreational ones. A score belongs
+      to a lane condition, not to the sport.
+source: ibf-rules

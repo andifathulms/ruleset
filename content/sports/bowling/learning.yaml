@@ -1,0 +1,90 @@
+sport: bowling
+standing: editorial
+summary: >
+  Almost everyone has bowled, and almost nobody has bowled on a competition
+  lane. The gap between the two is the widest on this site between what a sport
+  feels like to a beginner and what it is.
+
+entry:
+  verdict: very-low
+  claim: A commercial bowling centre will rent you shoes and a ball. Nothing else is required.
+  why: >
+    Bowling is one of the most widely tried sports in the world. Commercial
+    centres exist in most cities, they rent everything a beginner needs, the
+    rules take a minute, and the recreational lane condition is deliberately
+    forgiving — a house oil pattern funnels the ball towards the pocket and
+    hides a great deal of error.
+
+    That forgiveness is a commercial decision rather than a sporting one:
+    people who knock pins down come back. It is also why bowling's entry
+    experience misrepresents the sport so completely.
+
+    Nothing about starting requires strength, fitness, youth or a team, and it
+    is played socially by people who would never call it sport.
+  evidence:
+    - { label: Kit to start, value: Rented shoes and a house ball, basis: observation }
+    - { label: Facility, value: A commercial centre, basis: observation }
+    - { label: House oil pattern, value: Forgiving by design, basis: rule, rule: bowling-sport-patterns, note: It funnels the ball towards the pocket. }
+    - { label: Physical demand, value: Low, basis: judgement }
+    - { label: Time to a first game, value: Minutes, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Reading an invisible surface that changes under you, with the right ball, for sixty frames.
+  why: >
+    A competitive bowler is solving a problem the recreational player never
+    encounters. The oil pattern is invisible, it is far less forgiving than a
+    house condition, and it transitions continuously as balls carry oil down
+    the lane — so the line that worked in the second game is wrong by the fifth.
+
+    Elite bowlers respond by moving their feet and their target, by changing
+    the ball's surface, and by carrying several balls with different coverstocks
+    and layouts. Deciding *when* to change is the sport's central skill and it
+    is made on evidence — where the ball is reacting — rather than on anything
+    visible.
+
+    The physical skill is a repeatable delivery of a 16-pound ball with
+    substantial rotation, held together over blocks of many games. Consistency
+    is worth more here than in almost anything else covered here, because the
+    condition is already varying and the bowler must not.
+
+    The ceiling is capped institutionally: no Olympic place, a modest
+    professional structure, and a sport whose public image is a recreational
+    activity.
+  evidence:
+    - label: The lane is invisible
+      value: Oil pattern, applied by machine
+      basis: rule
+      rule: bowling-sport-patterns
+      note: Competition patterns are far less forgiving than recreational ones.
+    - label: It changes during play
+      value: Oil carries down and breaks down
+      basis: observation
+      note: The line that worked earlier in a block is wrong later in it.
+    - label: Reactive equipment
+      value: Since the early 1990s
+      basis: rule
+      rule: bowling-reactive-resin
+      note: Ball selection and surface adjustment became a core competitive skill.
+    - { label: Typical peak age, value: 25–40, basis: judgement }
+
+gap: >
+  Very low to very high, and it is the largest perception gap on this site.
+
+  Nearly everybody has bowled, and what they bowled on was a surface engineered
+  to make them succeed. Move the same person to a competition oil pattern with
+  the same ball and their score collapses, without anything visible having
+  changed. No other sport covered here hides its difficulty inside a condition
+  the participant cannot see.
+
+  The sport also has the strangest relationship to its own scale of anything on
+  this site. Gymnastics abolished the Perfect 10 in 2006 because athletes had
+  reached the ceiling and the scale could no longer separate them. Bowling has
+  the same problem — a fixed maximum of 300, reached far more often since
+  reactive equipment arrived — and solved it the other way: it kept the scale
+  and changed the surface underneath, so the number means less and the
+  arithmetic is untouched.
+
+shaped_by:
+  - bowling-sport-patterns
+  - bowling-reactive-resin

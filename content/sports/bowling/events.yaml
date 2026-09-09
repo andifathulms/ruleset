@@ -1,0 +1,41 @@
+sport: bowling
+as_of: 2026-09
+source: ibf-rules
+standing: primary-named
+summary: >
+  No Olympic events. Bowling was a demonstration sport at Seoul in 1988, has
+  bid repeatedly since, and is contested at the World Games with its own world
+  championships.
+disciplines:
+  - id: tenpin
+    label: Ten-pin
+    blurb: The international competitive form, on a 60-foot oiled lane.
+    events:
+      - { id: singles, label: Singles, at: [world-games, world-championship], count: 2 }
+      - { id: doubles, label: Doubles, at: [world-games, world-championship], count: 2 }
+      - { id: trios, label: Trios, at: [world-championship], count: 2 }
+      - { id: teams, label: Team, at: [world-championship], count: 2 }
+      - { id: allevents, label: All events and masters, at: [world-championship], count: 4, note: Decided on aggregate across the other formats, then a match-play ladder. }
+  - id: ninepin
+    label: Nine-pin
+    counts: false
+    blurb: >
+      The European pin games — schere, bohle and classic — governed under the
+      same international umbrella and played almost entirely in Central Europe.
+      They are a different sport from ten-pin and are not played across.
+    events:
+      - { id: ninepin-classic, label: Nine-pin classic, at: [world-championship], note: Strong in Germany, Austria, Croatia, Serbia and Slovenia. }
+  - id: olympic-record
+    label: Its Olympic record
+    counts: false
+    events:
+      - { id: seoul, label: Seoul 1988 demonstration, at: [lapsed], note: "Contested as a demonstration sport; the IOC discontinued the category after 1992." }
+  - id: elsewhere
+    label: Where the sport actually lives
+    counts: false
+    blurb: >
+      Bowling's participation base is overwhelmingly recreational and
+      commercial, on lane conditions that are not competition conditions.
+    events:
+      - { id: recreational, label: Commercial centre bowling, at: [federation-only], note: "House oil patterns, deliberately forgiving; the version nearly everyone has played." }
+      - { id: pro, label: Professional tours, at: [federation-only], note: Modest professional structures, principally in the United States and East Asia. }

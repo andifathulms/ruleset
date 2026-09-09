@@ -22,6 +22,7 @@
     - { id: baseball, label: Baseball, colour: pitch, members: [baseball] }
     - { id: basketball, label: Basketball, colour: pitch, members: [basketball] }
     - { id: boules, label: Boules sports, colour: pool, members: [boules] }
+    - { id: bowling, label: Bowling, colour: pool, members: [bowling] }
     - { id: boxing, label: Boxing, colour: clay, members: [boxing] }
     - { id: cricket, label: Cricket, colour: pitch, members: [cricket] }
     - { id: cycling, label: Cycling, colour: pool, members: [cycling] }
@@ -102,7 +103,7 @@
     - id: target
       label: Target
       colour: pool
-      members: [archery, shooting, golf, boules]
+      members: [archery, shooting, golf, boules, bowling]
     - id: performance
       label: Performance
       colour: gold
@@ -130,7 +131,8 @@
       colour: pool
       members: [athletics, swimming, cycling, archery, weightlifting, modern-pentathlon,
                 rowing, sailing, shooting, golf, sport-climbing, canoeing, triathlon,
-                powerlifting, orienteering, lifesaving, finswimming, boules]
+                powerlifting, orienteering, lifesaving, finswimming, boules,
+                bowling]
     - id: judged
       label: Judged
       colour: gold

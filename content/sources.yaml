@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: ibf-rules
+  standing: primary-named
+  title: IBF Playing Rules and equipment specifications
+  publisher: International Bowling Federation
+  kind: rulebook
+  url: https://bowling.sport/
+
 - id: fipjp-rules
   standing: primary-named
   title: FIPJP Rules of the Game of Pétanque

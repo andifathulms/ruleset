@@ -1,0 +1,20 @@
+id: bowling
+label: Bowling
+tagline: "The lane is dressed with oil in a pattern you cannot see, and it changes as you play on it."
+governing_body: International Bowling Federation
+founded: >
+  Pin games are ancient and ten-pin bowling was codified in the United States
+  in the nineteenth century; the international federation was founded in 1952
+  as the Fédération Internationale des Quilleurs.
+coverage: deep
+family_colour: pool
+classification:
+  official: bowling
+  game-category: target
+  adjudication: measured
+summary: >
+  Ten pins, two deliveries a frame, ten frames, and a maximum score of 300 that
+  has not changed since the scoring system was written. What has changed is how
+  hard it is to reach, because the lane is coated with an invisible oil pattern
+  that steers the ball and that degrades as balls carry oil down it. The field
+  of play cannot be seen and is different in the tenth frame from the first.

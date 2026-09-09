@@ -1,0 +1,131 @@
+sport: bowling
+as_of: 2026-09
+edition: IBF Playing Rules
+source: ibf-rules
+standing: primary-named
+summary: >
+  Ten frames, two deliveries each, ten pins, maximum 300. The lane is dressed
+  with an oil pattern the bowler cannot see, which steers the ball and breaks
+  down as the game goes on.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Knock down all ten pins. A strike — all ten with the first ball — carries
+      the next two deliveries as a bonus; a spare carries the next one. Twelve
+      consecutive strikes is 300, and the number cannot be exceeded.
+
+      A bounded maximum score is rare on this site. Gymnastics had one until
+      2006 and abolished it precisely because athletes were reaching it.
+      Bowling kept its cap and let the difficulty of reaching it change
+      underneath.
+    facts:
+      - { label: Frames, value: "10" }
+      - { label: Maximum score, value: "300" }
+      - { label: Strike, value: Carries the next two deliveries }
+
+  - id: field
+    label: The lane
+    body: >
+      Sixty feet from the foul line to the headpin, about 41 inches wide, with
+      a gutter each side — and coated with oil in a pattern that is invisible to
+      the bowler.
+
+      The oil is what makes the ball behave. Where there is oil the ball slides;
+      where the lane is dry it grips and hooks. The pattern's shape decides
+      where a ball can be thrown from and how much it will turn, and it is
+      applied by machine before play.
+
+      Then it changes. Every ball carries oil down the lane and moves it about,
+      so the pattern in the tenth frame is not the pattern in the first, and it
+      breaks down differently depending on where the bowlers in that pair have
+      been throwing. Reading the transition is the sport.
+    facts:
+      - { label: Lane, value: 60 ft to the headpin }
+      - { label: Oil pattern, value: Invisible, applied by machine }
+      - { label: During play, value: Carries down and breaks down }
+    shaped_by: [bowling-sport-patterns]
+
+  - id: equipment
+    label: Equipment
+    body: >
+      A ball of up to 16 pounds, drilled to fit the bowler's hand, with a
+      coverstock and an internal weight block chosen to produce a particular
+      reaction. Competitive bowlers carry several — different coverstocks and
+      layouts for different oil conditions — and changing ball mid-game is a
+      standard tactical response to the lane breaking down.
+
+      **Reactive resin** coverstocks, from the early 1990s, are the equipment
+      change that reshaped the sport: they grip the dry lane far harder than
+      polyester or urethane, hook more aggressively, and carry pins that older
+      equipment left standing.
+
+      Shoes are asymmetric — one slides, one grips — with interchangeable soles.
+    facts:
+      - { label: Ball, value: Up to 16 lb, drilled to the hand }
+      - { label: Coverstock, value: Reactive resin, since the early 1990s }
+      - { label: Balls carried, value: Several, for different lane conditions }
+    shaped_by: [bowling-reactive-resin]
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      One bowler at a time, with pairs sharing a pair of lanes and alternating —
+      which matters, because each bowler's deliveries change the oil for the
+      other.
+
+      Officials verify equipment and lane dressing rather than adjudicate play.
+      Almost nothing that happens during a game requires a judgement.
+    facts:
+      - { label: Competing, value: One at a time, alternating on a pair of lanes }
+      - { label: Officials, value: Verify equipment and lane conditions }
+
+  - id: duration
+    label: Time
+    body: >
+      A game is ten frames and takes about ten minutes; championships are
+      contested over blocks of many games, with the total or the average
+      deciding qualification.
+    facts:
+      - { label: Game, value: 10 frames }
+      - { label: Championship, value: Decided over many games }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Pins, with bonuses. The system is more than a century old and has not
+      changed: a strike scores ten plus the next two deliveries, a spare ten
+      plus the next one, an open frame just the pins knocked down.
+
+      That stability is the reason this sport's scores are so difficult to
+      compare across time. The arithmetic is identical; what the arithmetic is
+      applied to is not.
+    shaped_by: [bowling-reactive-resin]
+
+  - id: restarts
+    label: Frames and deliveries
+    body: >
+      Two deliveries per frame, except the tenth, which allows a third if the
+      bowler strikes or spares — which is why a perfect game is twelve strikes
+      rather than ten.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Crossing the foul line, which voids the pins knocked down by that
+      delivery and is detected automatically. Using a ball outside the
+      specifications for weight, dimension or surface preparation. Altering the
+      ball surface during a block outside the permitted process.
+
+      Notably, there is no rule against a bowler being helped by the lane
+      condition, because every bowler on that pair is subject to the same
+      condition — even though it changes between them.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Highest total, or the winner of a match-play ladder, depending on the
+      format. Because the lane transitions during a block, a large part of
+      winning is deciding when to move, when to change ball, and when the
+      pattern has stopped being the one you started on.

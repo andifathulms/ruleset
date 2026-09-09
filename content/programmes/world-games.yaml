@@ -65,8 +65,11 @@ sports:
       rheumatism keep playing.
   - id: bowling
     label: Bowling
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      The lane is dressed with an invisible oil pattern that changes as the
+      block goes on.
   - id: canoeing
     label: Canoeing
     coverage: deep
