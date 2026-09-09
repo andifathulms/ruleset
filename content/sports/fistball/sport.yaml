@@ -1,0 +1,20 @@
+id: fistball
+label: Fistball
+tagline: "A net sport in which the ball is allowed to hit the ground — once, between every touch."
+governing_body: International Fistball Association
+founded: >
+  Descended from European ball games with rules written as early as the
+  sixteenth century; codified in Germany in the late nineteenth century, with
+  the International Fistball Association formed in 1960.
+coverage: deep
+family_colour: clay
+classification:
+  official: fistball
+  game-category: net-and-wall
+  adjudication: decided-by-score
+summary: >
+  Five a side over a tape two metres up, three touches a side, struck with the
+  fist or the forearm and never with an open hand. The rule that makes it its
+  own sport is that the ball may bounce once before each touch — so a fistball
+  rally has the ground in it, and the game is played at a walking pace between
+  moments of violence rather than in volleyball's continuous scramble.

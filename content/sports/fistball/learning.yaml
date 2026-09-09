@@ -1,0 +1,86 @@
+sport: fistball
+standing: editorial
+summary: >
+  Much easier to start than volleyball, because the ball is allowed to land and
+  nobody has to dive — and correspondingly hard at the top, because a closed
+  fist is a poor instrument for precision and the field is enormous.
+
+entry:
+  verdict: low
+  claim: A ball and a rope between two posts. The floor is not your enemy.
+  why: >
+    The bounce rule removes the single hardest thing about starting a net
+    sport. In volleyball a beginner who fails to reach the ball has lost the
+    rally, so the sport demands a diving, sprawling defence from the first
+    session. In fistball the ball may land once, which converts defence from a
+    reaction test into a positioning problem.
+
+    Striking with a fist is also more intuitive than a volleyball dig or set:
+    it is closer to hitting something than to controlling it.
+
+    What holds the verdict at low rather than very low is the field. Twenty-five
+    metres of depth per side needs a large piece of grass and ten people, which
+    is a real organisational barrier outside the countries where clubs exist.
+  evidence:
+    - { label: Players needed, value: "10", basis: rule, rule: fistball-1960-ifa }
+    - { label: Kit to start, value: A ball and a tape, basis: observation }
+    - { label: Bounce permitted, value: Once before each touch, basis: rule, rule: fistball-one-bounce, note: Removes the diving defence that makes volleyball hard to begin. }
+    - { label: Field needed, value: 50 × 20 m, basis: observation }
+    - { label: Time to a real game, value: One session, basis: judgement }
+
+mastery:
+  verdict: high
+  claim: Precision from a closed fist, across a field twice the depth of a volleyball court.
+  why: >
+    The fist is the constraint that raises the ceiling. A volleyball setter
+    shapes a ball with ten fingers; a fistball setter must place it accurately
+    with a curved, unyielding surface the size of a fist, and the margin for
+    error is far smaller. Elite setting in this sport is genuinely difficult
+    and almost invisible to a spectator.
+
+    The attack is a strike with a straight arm at a ball dropping out of the
+    air, aimed into twenty-five metres of defended ground. Power alone achieves
+    nothing on a field that size, so the attacker is solving an angle problem
+    at speed.
+
+    And the bounce that makes the sport easy to begin makes it harder to
+    finish: a defence that is allowed one bounce can retrieve balls that would
+    end a volleyball rally, so points must be won rather than merely started.
+
+    The ceiling is flattened by the sport's size. There is a strong club
+    structure in a handful of countries and effectively no professional layer.
+  evidence:
+    - label: Fist or forearm only
+      value: No open hand
+      basis: rule
+      rule: fistball-fist-or-forearm
+      note: The setting surface is small and curved, which is the sport's technical bottleneck.
+    - label: Field depth
+      value: 25 m per side
+      basis: observation
+      note: More than twice a volleyball court, so power alone does not win a rally.
+    - label: Rally scoring
+      value: Since 2000
+      basis: rule
+      rule: fistball-rally-scoring
+      note: Every rally is a point, which raised the cost of a technical error.
+    - { label: Typical peak age, value: 24–32, basis: judgement }
+
+gap: >
+  Low to high, and the sport is the cleanest natural experiment on this site
+  for a single rule's effect on a learning curve.
+
+  Fistball and volleyball are close relatives: a net sport, three touches, five
+  or six a side, and a scoring system both rewrote within a year of each other.
+  The one substantive difference is that fistball lets the ball bounce. That
+  single permission moves the entry barrier down a full step, because the
+  diving defence that makes volleyball punishing for beginners is simply not
+  required — and it does not lower the ceiling at all, because retrievable
+  defence means rallies have to be won outright.
+
+  If you want evidence that a sport's accessibility is a property of its laws
+  rather than of its culture, this is the pair to look at.
+
+shaped_by:
+  - fistball-one-bounce
+  - fistball-fist-or-forearm

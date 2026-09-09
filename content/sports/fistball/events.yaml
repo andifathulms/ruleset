@@ -1,0 +1,31 @@
+sport: fistball
+as_of: 2026-09
+source: ifa-rules
+standing: primary-named
+summary: >
+  No Olympic events. The IFA runs outdoor and indoor world championships and
+  fistball is on the World Games programme, where it has been contested since
+  the event's early editions.
+disciplines:
+  - id: outdoor
+    label: Outdoor
+    blurb: On grass, 50 × 20 m. The primary form of the sport.
+    events:
+      - { id: men, label: Men's competition, at: [world-games, world-championship] }
+      - { id: women, label: Women's competition, at: [world-games, world-championship] }
+  - id: indoor
+    label: Indoor
+    blurb: In a hall on a shorter field, played through the northern winter.
+    events:
+      - { id: men-in, label: Men's competition, at: [world-championship] }
+      - { id: women-in, label: Women's competition, at: [world-championship] }
+  - id: related
+    label: The family it belongs to
+    counts: false
+    blurb: >
+      Fistball descends from a group of European ball games in which a ball is
+      struck with the arm and allowed to bounce. Most of them did not survive
+      codification.
+    events:
+      - { id: pallone, label: Pallone col bracciale, at: [lapsed], note: "The Italian ancestor, struck with a wooden arm-guard; once a major professional sport and now nearly extinct." }
+      - { id: llargues, label: Valencian and Basque hand games, at: [federation-only], note: Regional survivals of the same family, governed locally. }

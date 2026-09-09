@@ -1,0 +1,101 @@
+- id: fistball-one-bounce
+  scope: { sport: fistball, discipline: all }
+  date_adopted: 1894
+  date_effective: 1894
+  status: adopted
+  governing_body: German gymnastics associations, later the IFA
+  what_changed: >
+    The ball may touch the ground once before each contact, including between
+    the three touches a side is allowed. A rally therefore contains bounces,
+    and a ball that has landed is still live.
+
+    Every comparison with volleyball breaks on this one rule. Volleyball's
+    entire structure — the dig, the libero, the defensive dive — exists because
+    the floor ends the rally. Fistball's does not, so its defence is a
+    positioning problem rather than a diving one, and the game can be played by
+    people who are not prepared to throw themselves at the ground.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The game descends from open-air ball games played on grass, where a ball
+      that has bounced was always still in play. The codified sport kept the
+      inheritance rather than adopting the indoor convention.
+  citation:
+    source: ifa-rules
+    edition: IFA Rules of the Game, playing the ball
+    missing: true
+
+- id: fistball-fist-or-forearm
+  scope: { sport: fistball, discipline: all }
+  date_adopted: 1894
+  date_effective: 1894
+  status: adopted
+  governing_body: German gymnastics associations, later the IFA
+  what_changed: >
+    The ball may be struck with one closed fist or one forearm, and never with
+    an open hand, two hands together, or any other part of the body.
+
+    This is what caps the sport's precision. A closed fist has a small, curved
+    striking surface and no fingers to shape a contact, so a fistball attack is
+    a hit rather than a placement, and the setter's touch is far harder than a
+    volleyball set.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      The restriction is the sport's name and predates its codification: the
+      game was played with the fist in its folk forms and the written rules
+      recorded the practice.
+  citation:
+    source: ifa-rules
+    edition: IFA Rules of the Game, permitted contact
+    missing: true
+
+- id: fistball-1960-ifa
+  scope: { sport: fistball, discipline: all }
+  date_adopted: 1960
+  date_effective: 1960
+  status: adopted
+  governing_body: International Fistball Association
+  what_changed: >
+    The IFA was formed and brought the German, Austrian, Swiss and South
+    American codes into one rulebook — field dimensions, the height of the
+    tape, the number of touches and the scoring.
+
+    The South American half matters: fistball had been carried to Brazil,
+    Argentina and Chile by German-speaking emigrants and had developed there
+    for decades with no reference to the European game.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      The sport was being played on two continents under rules that had
+      diverged in isolation, with no body able to reconcile them.
+  citation:
+    source: ifa-rules
+    edition: IFA statutes
+    missing: true
+
+- id: fistball-rally-scoring
+  scope: { sport: fistball, discipline: all }
+  date_adopted: 2000
+  date_effective: 2000
+  status: adopted
+  governing_body: International Fistball Association
+  what_changed: >
+    Fistball moved to rally scoring, in which a point is scored on every rally
+    regardless of which side served, with sets played to eleven.
+
+    It belongs to the same wave as volleyball in 1999, table tennis in 2001 and
+    badminton in 2006 — a set of sports rewriting their scoring within seven
+    years of each other so that a match would fit a predictable slot.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Under service-based scoring a match had no reliable length, which made it
+      unschedulable for broadcast and difficult to run to a tournament
+      timetable.
+  citation:
+    source: ifa-rules
+    edition: IFA Rules of the Game, scoring
+    missing: true
+  comparability_break: fistball-match-stats

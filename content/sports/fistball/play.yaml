@@ -1,0 +1,104 @@
+sport: fistball
+as_of: 2026-09
+edition: IFA Rules of the Game
+source: ifa-rules
+standing: primary-named
+summary: >
+  Five a side on a 50 by 20 metre field split by a tape two metres up. Three
+  touches a side, struck with a fist or forearm, and the ball may bounce once
+  before each of them.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Play the ball over the tape so that the opposition cannot return it
+      legally. A side loses the rally if the ball bounces twice, is touched
+      more than three times, is hit with anything but a fist or forearm, or
+      lands outside the field.
+    shaped_by: [fistball-one-bounce]
+
+  - id: field
+    label: The field
+    body: >
+      Fifty metres by twenty, divided across the middle, with a tape rather
+      than a net — a band strung between two posts, with open space above and
+      below the sightline that a volleyball net would block.
+
+      The field is long. Each half is twenty-five metres deep, which is more
+      than twice a volleyball court, and that length is what the bounce rule
+      pays for: a ball can be allowed to land and still be retrieved.
+    facts:
+      - { label: Field, value: 50 × 20 m }
+      - { label: Each half, value: 25 m deep }
+      - { label: Tape height, value: 2 m for men }
+      - { label: Barrier, value: A tape, not a net }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      A ball a little smaller and lighter than a football, inflated hard, and
+      nothing else. No net, no protective equipment, and no specialised
+      footwear beyond a boot for grass or a court shoe indoors.
+
+      The sport is played outdoors on grass in summer and indoors in winter,
+      with the same rules and a shorter field indoors.
+    facts:
+      - { label: Ball, value: Slightly smaller and lighter than a football }
+      - { label: Surfaces, value: Grass outdoors, hall indoors }
+
+  - id: players
+    label: Players and officials
+    body: >
+      Five a side, with defined roles that the field's length produces:
+      defenders deep, a setter, and an attacker who strikes. Substitutions are
+      permitted between rallies.
+    facts:
+      - { label: On the field, value: "5" }
+      - { label: Touches per side, value: "3" }
+
+  - id: duration
+    label: Time
+    body: >
+      No clock. Sets are played to eleven points with a two-point margin, and a
+      match is decided on sets — the number varying by competition.
+    facts:
+      - { label: Set, value: 11 points, two clear }
+      - { label: Scoring, value: Rally scoring since 2000 }
+    shaped_by: [fistball-rally-scoring]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      A point on every rally, to whichever side wins it, regardless of who
+      served. Fistball adopted this in 2000, joining volleyball, table tennis
+      and badminton in the same short wave of scoring rewrites — and, like all
+      of them, severing its own match statistics in the process.
+    shaped_by: [fistball-rally-scoring]
+
+  - id: restarts
+    label: Serving
+    body: >
+      The serve is struck with a fist or forearm from behind the back line and
+      must cross the tape without touching it. Unlike volleyball, the serve may
+      bounce in the server's own half first, which makes it a far less
+      dominant act — there is no fistball equivalent of an ace-driven game.
+    shaped_by: [fistball-one-bounce]
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Two bounces between touches. A fourth touch. Contact with an open hand,
+      with both hands, or with any part of the body other than one fist or
+      forearm. Touching the tape or the posts. Crossing the centre line.
+
+      There is no rule against reaching over, because there is nothing to reach
+      over — a tape two metres up with open space above it makes blocking as
+      volleyball understands it impossible.
+    shaped_by: [fistball-fist-or-forearm]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The side taking the required number of sets. There is no tie-break device
+      beyond the two-point margin, and no clock to run down.

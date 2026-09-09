@@ -88,8 +88,11 @@ sports:
     held: [2025]
   - id: fistball
     label: Fistball
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      A net sport in which the ball is allowed to bounce, which is the whole
+      difference between it and volleyball.
   - id: floorball
     label: Floorball
     coverage: skeleton

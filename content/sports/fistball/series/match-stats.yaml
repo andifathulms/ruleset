@@ -1,0 +1,30 @@
+id: fistball-match-stats
+label: Points per set
+unit: points per set
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  Fistball severed its own match statistics in 2000 and did not publish either
+  side of the break.
+
+  Under the old scoring, a side could only score while serving, so a set was a
+  sequence of service exchanges of unpredictable length. Under rally scoring
+  every rally is a point and a set ends at eleven. Counts of points, of
+  rallies, and of anything expressed per set describe two different games
+  before and after.
+
+  This is the same severance volleyball made in 1999, table tennis in 2001 and
+  badminton in 2006 — four sports, one broadcast pressure, four severed record
+  sets within seven years. Fistball is the smallest of them and the only one
+  where the before-and-after figures were never compiled in the first place.
+
+  Nothing is entered because nothing has been taken from a cited source.
+segments: []
+breaks:
+  - at: 2000
+    caused_by: fistball-rally-scoring
+    kind: reset
+    note: >
+      Rally scoring replaces service-based scoring. Points, rallies and set
+      lengths are not comparable across this line.
+source: ifa-rules
