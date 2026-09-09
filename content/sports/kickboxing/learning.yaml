@@ -1,0 +1,89 @@
+sport: kickboxing
+standing: editorial
+summary: >
+  Among the easiest combat sports to start, because the lightest disciplines are
+  genuinely light and gyms are everywhere — and the ceiling is fragmented across
+  disciplines and federations that do not agree on what the sport is.
+
+entry:
+  verdict: low
+  claim: A gym, gloves and shin guards, and a discipline where nobody is trying to hurt you.
+  why: >
+    The federation's spread of disciplines is an entry ramp whether or not it
+    was designed as one. Point fighting and light contact are contested on a
+    tatami with restrained contact, headguards and foot protectors, and a
+    beginner can compete properly in them without ever being hit hard.
+
+    Recreationally, kickboxing is one of the largest fitness activities in the
+    world: bag and pad classes in commercial gyms everywhere, most of whose
+    participants never intend to compete.
+
+    Equipment is gloves, wraps, mouthguard and shin guards. Nothing about the
+    first months requires taking a punch.
+  evidence:
+    - { label: Kit to start, value: Gloves, wraps, shin guards, basis: observation }
+    - { label: Light disciplines, value: Restrained contact, on a tatami, basis: rule, rule: kickboxing-point-fighting }
+    - { label: Gyms, value: Very widely available, basis: observation }
+    - { label: First class, value: Pads and bags, no contact, basis: observation }
+    - { label: Time to a first bout, value: Under a year in the light codes, basis: judgement }
+
+mastery:
+  verdict: high
+  claim: Six disciplines that reward different fighters, and several federations that will not recognise each other's champions.
+  why: >
+    The technical ceiling is real but not the highest here. Elbows are barred
+    throughout, the clinch is broken rather than fought in, and the throwing and
+    grappling that muaythai and ju-jitsu demand are absent — so kickboxing asks
+    for excellence in a narrower range than either.
+
+    What raises it is the fragmentation. Full contact bars leg kicks; low kick
+    permits them; K-1 style permits knees as well. These are not variations of
+    emphasis — a fighter's whole defensive structure changes when the legs
+    become a target — and a champion in one discipline can be uncompetitive in
+    another.
+
+    Then the institutional half. Kickboxing has many international sanctioning
+    bodies, each with its own world titles, and IOC recognition went to one of
+    them. An athlete's standing depends on which body's belt they hold, and no
+    mechanism exists to reconcile them. It is the same shape of problem this
+    site records in powerlifting.
+
+    And full contact has the minimum kick rule, which means an elite fighter is
+    solving the bout while also meeting a technique quota.
+  evidence:
+    - label: Minimum kicks per round
+      value: Or a points deduction
+      basis: rule
+      rule: kickboxing-minimum-kicks
+      note: A quota an optimising fighter would otherwise ignore.
+    - label: Disciplines disagree on targets
+      value: Legs and knees, by code
+      basis: rule
+      rule: kickboxing-1976-wako
+      note: A champion in one code may be uncompetitive in another.
+    - label: Recognition went to one federation
+      value: "2021"
+      basis: rule
+      rule: kickboxing-2021-ioc-recognition
+      note: Rival bodies continue to sanction their own world titles.
+    - { label: Typical peak age, value: 23–31, basis: judgement }
+
+gap: >
+  Low to high, and the interesting part is that the ceiling is lowered by
+  fragmentation rather than raised by difficulty.
+
+  Muaythai, sitting right beside it, permits elbows and fights in the clinch,
+  and its summit is a single identifiable place. Kickboxing bars elbows, breaks
+  the clinch, and spreads its athletes across six disciplines and several
+  federations — so being the best kickboxer in the world is not a
+  well-defined achievement in the way being the best muaythai fighter is.
+
+  The minimum kick rule is the sport's most honest self-assessment. A code
+  assembled by adding kicks to boxing discovered that its competitors would
+  drop them if allowed, and rather than accept that, it made throwing them
+  compulsory. Very few sports on this site have had to legislate that their
+  athletes use the technique the sport is named after.
+
+shaped_by:
+  - kickboxing-minimum-kicks
+  - kickboxing-1976-wako

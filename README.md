@@ -33,7 +33,7 @@ Three layers, marked as such everywhere:
   been entered; every other column is hatched rather than blank, because
   "nobody checked" and "absent" are not the same claim and must not be drawn
   the same way.
-- **Deep** — fifty-three sports: badminton, athletics, football, gymnastics,
+- **Deep** — fifty-seven sports: badminton, athletics, football, gymnastics,
   swimming, table tennis, basketball, cycling, judo, archery, volleyball,
   tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo,
   boxing, equestrian, fencing, rowing, sailing, golf, sport climbing, wrestling,
@@ -41,13 +41,13 @@ Three layers, marked as such everywhere:
   handball, canoeing, skateboarding, karate, softball, flag football, korfball,
   flying disc, powerlifting, tug of war, fistball, orienteering, sumo,
   floorball, lifesaving, kabaddi, sepak takraw, finswimming, racquetball and
-  dancesport.
+  dancesport, ju-jitsu, muaythai, wushu and kickboxing.
 
-  The first thirty-nine are every sport on the 2028 summer programme. Twelve
-  are World Games sports — eleven that have never been Olympic, plus tug of
+  The first thirty-nine are every sport on the 2028 summer programme. Sixteen
+  are World Games sports — fifteen that have never been Olympic, plus tug of
   war, which was removed in the 1920s and carried on without the Games for a
   century — and two, kabaddi and sepak takraw, are contested at the Asian Games
-  and nowhere else. Twenty-six more sit in the skeleton.
+  and nowhere else. Twenty-two more sit in the skeleton.
 
 The first five were one per family, because a "rule" is a structurally
 different object in each: racket sports legislate scoring, measured sports
@@ -210,6 +210,28 @@ And the fifth wave, which pushed past the World Games into the Asian ones:
   then converted it into one — for breaking, in 2024, which it had governed for
   three years and which was dropped for 2028. Its own disciplines have never
   been on a programme.
+
+The sixth wave took the combat lane, which turned out to be about where a
+sport's summit actually sits:
+
+- **Ju-jitsu** legislates range. A Fighting bout passes through striking, then
+  throwing, then groundwork, so nobody can avoid the phase they are weakest in
+  — and its Duo system contests two athletes from the *same team* performing
+  defences against called attacks, judged, with no opponent at all.
+- **Muaythai** has the widest striking permission here — fists, elbows, knees,
+  shins, and a clinch that is fought in — and the same structure as sumo: the
+  recognised amateur code is padded and restricts elbows, while the sport's
+  summit is a Thai professional system scored by weighting the later rounds,
+  which the federation does not govern.
+- **Wushu** is the only sport here designed by a government. Its judged taolu
+  took declared-difficulty scoring in 2003 and severed its own history exactly
+  as gymnastics did in 2006; its sanda is fought on a platform whose edge
+  scores. In 2008 a wushu tournament was held inside the Beijing Games without
+  being an Olympic event.
+- **Kickboxing** requires a minimum number of kicks per round, because a
+  fighter left to optimise freely stops throwing them and the sport turns back
+  into boxing. It is the only technique quota on this site, and the clearest
+  case of a rule written to stop a sport becoming a different one.
 
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause

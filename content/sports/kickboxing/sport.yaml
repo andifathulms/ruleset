@@ -1,0 +1,21 @@
+id: kickboxing
+label: Kickboxing
+tagline: "Has a rule requiring a minimum number of kicks per round, because without one the sport turns back into boxing."
+governing_body: WAKO
+founded: >
+  Emerged in the 1960s and 1970s from karate practitioners who wanted
+  full-contact competition, in the United States, Japan and Europe; WAKO was
+  formed in 1976.
+coverage: deep
+family_colour: clay
+classification:
+  official: kickboxing
+  game-category: outside-taxonomy
+  adjudication: combat
+summary: >
+  A federation running several striking codes that disagree with each other
+  about the basics — whether you may kick the legs, whether knees are legal,
+  and whether the bout stops after every scoring technique or runs continuously.
+  Its most revealing rule is a minimum kick count per round in full contact: a
+  sport built by adding kicks to boxing found it had to legislate that they
+  actually be thrown.

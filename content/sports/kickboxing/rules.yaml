@@ -1,0 +1,114 @@
+- id: kickboxing-1976-wako
+  scope: { sport: kickboxing, discipline: all }
+  date_adopted: 1976
+  date_effective: 1976
+  status: adopted
+  governing_body: WAKO
+  what_changed: >
+    WAKO was founded to govern the full-contact competition that had grown out
+    of karate through the 1960s and 1970s, consolidating American, Japanese and
+    European versions into an international structure with weight categories,
+    rounds and a written rulebook.
+
+    What it consolidated was never one thing. The federation has governed a
+    family of striking codes from the beginning, and it still does.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Karate practitioners who wanted contact competition had created formats
+      in several countries independently, with no common rules and no way to
+      hold international events.
+  citation:
+    source: wako-rules
+    edition: WAKO General Rules
+    missing: true
+
+- id: kickboxing-minimum-kicks
+  scope: { sport: kickboxing, discipline: full-contact }
+  date_adopted: 1976
+  date_effective: 1976
+  status: adopted
+  governing_body: WAKO
+  what_changed: >
+    In the full contact discipline, a competitor must throw a minimum number of
+    kicks in each round — commonly six — or be penalised. Falling short costs a
+    warning and then points.
+
+    The rule exists because the sport does not work without it. Kicks are
+    slower than punches, easier to counter and more tiring, so a fighter
+    optimising purely to win has a standing incentive to stop throwing them —
+    at which point the contest becomes boxing with heavier gloves and a
+    different name.
+
+    It is the clearest case on this site of a rule written to stop a sport
+    turning into a different sport, and the only one that mandates a technique
+    quota.
+  cause_primary: fairness and eligibility
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Early full-contact competition showed fighters with boxing backgrounds
+      neglecting kicks entirely, producing bouts indistinguishable from boxing
+      in a sport whose whole premise was the addition of kicks.
+  citation:
+    source: wako-rules
+    edition: WAKO Full Contact rules, minimum kicks
+    missing: true
+
+- id: kickboxing-point-fighting
+  scope: { sport: kickboxing, discipline: point-fighting }
+  date_adopted: 1976
+  date_effective: 1976
+  status: adopted
+  governing_body: WAKO
+  what_changed: >
+    Point fighting — the semi-contact discipline — stops the bout after every
+    scoring technique. The referee halts the action, the point is awarded, and
+    the fighters restart at the centre.
+
+    That makes it structurally a fencing bout performed with hands and feet:
+    speed, timing and first contact decide it, and there is no accumulation of
+    damage, no clinch and no sustained exchange.
+
+    Contested under the same federation as full contact, in which none of that
+    is true.
+  cause_primary: safety
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Karate's competitive tradition scored controlled techniques with a
+      stoppage, and the discipline preserved that structure while the
+      full-contact codes moved away from it.
+  citation:
+    source: wako-rules
+    edition: WAKO Point Fighting rules
+    missing: true
+  comparability_break: kickboxing-scores
+
+- id: kickboxing-2021-ioc-recognition
+  scope: { sport: kickboxing, discipline: all }
+  date_adopted: 2021
+  date_effective: 2021
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    WAKO received full IOC recognition, having held provisional recognition
+    since 2018, and kickboxing was contested at the World Games from 2022.
+
+    Recognition went to one federation in a sport that has many. WAKO's rivals
+    continue to sanction their own world titles, and a kickboxing world
+    champion may hold a belt from a body the Olympic movement does not
+    acknowledge.
+  cause_primary: participation and access
+  cause_secondary: disputed
+  trigger:
+    description: >
+      The federation completed the governance and anti-doping requirements set
+      by its provisional recognition.
+    also_said: >
+      Competing sanctioning bodies dispute that any one federation speaks for
+      the sport. This site records the dispute rather than resolving it.
+  citation:
+    source: wako-rules
+    edition: IOC recognition, 2021
+    missing: true

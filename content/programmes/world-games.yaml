@@ -129,8 +129,11 @@ sports:
       Contested at one Olympic Games and dropped; a fixture here.
   - id: kickboxing
     label: Kickboxing
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Six disciplines that disagree about whether the legs may be kicked, and
+      a rule requiring a minimum number of kicks per round.
   - id: korfball
     label: Korfball
     coverage: deep

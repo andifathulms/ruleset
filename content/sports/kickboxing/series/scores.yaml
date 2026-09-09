@@ -1,0 +1,37 @@
+id: kickboxing-scores
+label: A comparable result
+unit: points
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Kickboxing cannot produce a comparable series, and the obstacles are stacked
+  three deep.
+
+  **The disciplines are different sports.** Point fighting halts after every
+  scoring technique and awards one, two or three points; the ring codes run
+  continuously and are scored round by round on a ten-point must system. A
+  point-fighting total and a full-contact decision are not the same kind of
+  number.
+
+  **The codes disagree on targets.** Full contact bars kicks below the waist;
+  low kick permits them; K-1 style adds knees. Results across them describe
+  contests with different permitted techniques, which is the same objection this
+  site records between amateur and professional muaythai.
+
+  **The federations disagree on everything.** Several international bodies
+  sanction world titles, IOC recognition went to one, and no mechanism
+  reconciles their records. As in powerlifting, there is no single authority to
+  say what a world championship result is.
+
+  What could be charted — the minimum kick counts actually thrown in full
+  contact, for instance — is not published in any cited form. It would be
+  genuinely interesting, because it would measure how hard the rule is working.
+segments: []
+breaks:
+  - at: 1976
+    caused_by: kickboxing-point-fighting
+    kind: scoped
+    note: >
+      Point fighting and the continuous ring codes have never been scored the
+      same way and were never intended to be compared.
+source: wako-rules

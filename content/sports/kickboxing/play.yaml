@@ -1,0 +1,121 @@
+sport: kickboxing
+as_of: 2026-09
+edition: WAKO General Rules
+source: wako-rules
+standing: primary-named
+summary: >
+  Several disciplines under one federation, differing on the questions that
+  usually define a striking sport: whether the legs may be kicked, whether
+  knees are legal, and whether the bout stops after each scoring technique.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Out-score or stop the opponent. What varies between disciplines is
+      everything about how.
+
+      **Point fighting** stops after each scoring technique and is decided on
+      accumulated points. **Light contact** and **kick light** run continuously
+      with contact restrained. **Full contact**, **low kick** and **K-1 style**
+      are unrestrained within their permitted targets and may end by knockout.
+    shaped_by: [kickboxing-point-fighting]
+
+  - id: field
+    label: The ring and the tatami
+    body: >
+      The full-contact codes are fought in a roped ring. The lighter codes —
+      point fighting, light contact — are fought on a matted tatami, as karate
+      is.
+
+      A federation that competes on two different surfaces is telling you it
+      governs two different sports.
+    facts:
+      - { label: Full contact codes, value: A roped ring }
+      - { label: Point and light contact, value: A matted tatami }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      Gloves, mouthguard, groin guard and shin protection throughout. The
+      lighter disciplines add foot protectors and headguards; the full-contact
+      ring codes vary by category and by whether the competition is amateur.
+
+      Foot protection is the equipment detail that distinguishes the tatami
+      codes: a padded foot makes a light-contact scoring kick safe, and would be
+      an obstacle in a low-kick bout where the shin is the striking surface.
+    facts:
+      - { label: Throughout, value: Gloves, mouthguard, groin guard, shin guards }
+      - { label: Tatami codes, value: Add foot protectors and headguard }
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      One against one in weight categories, with a referee and judges. Every
+      discipline has its own full set of weight classes for men and women,
+      which is why the sport's world championships are among the largest combat
+      events held anywhere by number of medals.
+    facts:
+      - { label: Categories, value: By discipline, weight and sex }
+      - { label: Medals per championship, value: Very large, because disciplines multiply }
+
+  - id: duration
+    label: Time
+    body: >
+      Rounds of two minutes in most amateur competition, three in the
+      professional ring codes, best of three rounds. Point fighting runs to a
+      fixed time with the clock stopped at every halt, so a two-minute round
+      takes much longer than two minutes.
+    facts:
+      - { label: Round, value: 2 min amateur, 3 min professional }
+      - { label: Point fighting, value: Clock stops at every point }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      **Point fighting** awards one, two or three points by technique — a hand
+      technique, a kick, a kick to the head — with the bout halted each time.
+
+      **The continuous codes** are scored round by round on a ten-point must
+      system, as boxing is.
+
+      And in **full contact**, a fighter must throw a minimum number of kicks
+      per round, commonly six. Falling short brings a warning and then a points
+      deduction — a technique quota, imposed because a fighter left to optimise
+      freely would stop kicking.
+    facts:
+      - { label: Point fighting, value: 1, 2 or 3 points, bout halted each time }
+      - { label: Continuous codes, value: Ten-point must, round by round }
+      - { label: Full contact, value: Minimum kicks per round, or penalised }
+    shaped_by: [kickboxing-minimum-kicks, kickboxing-point-fighting]
+
+  - id: restarts
+    label: Stoppages
+    body: >
+      In point fighting the stoppage is the mechanism: every scoring technique
+      halts the bout and both fighters return to the centre. In the continuous
+      codes the referee intervenes only for fouls, knockdowns and clinches,
+      which are broken rather than fought in — the opposite of muaythai.
+    shaped_by: [kickboxing-point-fighting]
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      What is prohibited depends on which discipline you entered, and this is
+      the sport's defining oddity.
+
+      **Full contact** bars kicks below the waist entirely — no leg kicks.
+      **Low kick** permits them. **K-1 style** permits low kicks and knees.
+      Elbows are barred throughout, which is the clearest line between this
+      sport and muaythai.
+
+      Universal: strikes to the back of the head, spine and groin; throws;
+      striking a downed opponent; and, in full contact, failing to kick enough.
+    shaped_by: [kickboxing-minimum-kicks]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Points, stoppage or knockout, according to the discipline. A fighter can
+      be a world champion in one WAKO discipline and uncompetitive in another,
+      because the rules that separate them are the rules that decide fights.

@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: wako-rules
+  standing: primary-named
+  title: WAKO General Rules
+  publisher: World Association of Kickboxing Organizations
+  kind: rulebook
+  url: https://wako.sport/
+
 - id: iwuf-rules
   standing: primary-named
   title: IWUF competition rules for taolu and sanda

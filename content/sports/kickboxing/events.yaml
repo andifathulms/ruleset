@@ -1,0 +1,42 @@
+sport: kickboxing
+as_of: 2026-09
+source: wako-rules
+standing: primary-named
+summary: >
+  No Olympic events. WAKO holds IOC recognition since 2021 and kickboxing has
+  been on the World Games programme since 2022 — while several rival
+  sanctioning bodies continue to award world titles of their own.
+disciplines:
+  - id: ring
+    label: Ring disciplines
+    blurb: >
+      Full contact in a roped ring, continuous, ending by points or knockout.
+      The codes differ on whether the legs and knees are legal targets.
+    events:
+      - { id: full, label: Full contact, at: [world-games, world-championship], count: 2, note: Above the waist only — no leg kicks — plus a minimum kick count per round. }
+      - { id: lowkick, label: Low kick, at: [world-games, world-championship], count: 2, note: Leg kicks permitted. }
+      - { id: k1, label: K-1 style, at: [world-games, world-championship], count: 2, note: Leg kicks and knees permitted. Elbows are not. }
+  - id: tatami
+    label: Tatami disciplines
+    blurb: On mats, with restrained contact and additional protective equipment.
+    events:
+      - { id: point, label: Point fighting, at: [world-games, world-championship], count: 2, note: The bout halts after every scoring technique — structurally a fencing bout. }
+      - { id: light, label: Light contact, at: [world-championship], count: 2 }
+      - { id: kicklight, label: Kick light, at: [world-championship], count: 2 }
+  - id: forms
+    label: Musical forms
+    counts: false
+    blurb: >
+      Choreographed routines performed to music and judged — contested under
+      the same federation as full-contact fighting.
+    events:
+      - { id: musical, label: Musical forms, at: [world-championship], note: Hard, soft and weapon categories, marked by a panel. }
+  - id: elsewhere
+    label: The same sport, sanctioned elsewhere
+    counts: false
+    blurb: >
+      Kickboxing has multiple international sanctioning bodies with their own
+      world titles. IOC recognition went to one of them.
+    events:
+      - { id: rivals, label: Other sanctioning bodies, at: [federation-only], note: "Independent organisations awarding their own world championships; no mechanism reconciles them." }
+      - { id: promotions, label: Professional promotions, at: [federation-only], note: Commercial promotions running their own rulesets and titles, where most of the sport's money is. }
