@@ -1,0 +1,33 @@
+sport: boules
+as_of: 2026-09
+source: fipjp-rules
+standing: primary-named
+summary: >
+  No Olympic events — pétanque bid for Paris 2024 and was not selected. The
+  boules codes are contested at the World Games under an umbrella confederation
+  that unites federations which do not otherwise play each other.
+disciplines:
+  - id: petanque
+    label: Pétanque
+    blurb: Feet planted in a circle, thrown to a jack 6 to 10 metres away. The largest code.
+    events:
+      - { id: men, label: Men's singles, doubles and triples, at: [world-games, world-championship], count: 3 }
+      - { id: women, label: Women's singles, doubles and triples, at: [world-games, world-championship], count: 3 }
+      - { id: precision, label: Precision shooting, at: [world-games, world-championship], count: 2, note: A timed shooting discipline against set targets, contested on its own. }
+  - id: other-codes
+    label: The other boules codes
+    counts: false
+    blurb: >
+      Each has its own international federation, its own rules and its own
+      championships. They share an umbrella body and are not played across.
+    events:
+      - { id: lyonnaise, label: Boule lyonnaise, at: [world-games, world-championship], note: "A long lane and a run-up; the game pétanque was created by simplifying." }
+      - { id: raffa, label: Raffa, at: [world-championship], note: The Italian code, played on a prepared lane. }
+      - { id: volo, label: Volo, at: [world-championship], note: Italian and French, with a running throw. }
+  - id: relatives
+    label: Games in the same family
+    counts: false
+    events:
+      - { id: bocce, label: Bocce, at: [federation-only], note: The Italian social game, and a Special Olympics sport. }
+      - { id: bowls, label: Lawn bowls, at: [federation-only], note: "Governed separately, played on grass with biased bowls; a Commonwealth Games sport." }
+      - { id: jeu-provencal, label: Jeu provençal, at: [federation-only], note: "The parent code, with its three-step run-up, still played in southern France." }

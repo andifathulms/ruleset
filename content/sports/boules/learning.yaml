@@ -1,0 +1,89 @@
+sport: boules
+standing: editorial
+summary: >
+  The lowest entry barrier of any sport on this site that uses equipment, by
+  design rather than by accident — and a genuinely high ceiling that is almost
+  entirely invisible to the people playing it in a park.
+
+entry:
+  verdict: very-low
+  claim: Three metal balls and any patch of rough ground. You can play at eighty.
+  why: >
+    Pétanque was created in 1907 by removing the physical demand from an
+    existing game so that a man with rheumatism could keep playing, and that
+    decision still governs the sport. Both feet stay on the ground inside a
+    small circle. There is no run-up, no stride, no impact and no requirement
+    to move quickly or at all.
+
+    The consequence is that pétanque is playable across a wider range of age
+    and physical capacity than anything else covered here. Children and people
+    in their eighties compete in the same club sessions, and it is played in
+    public squares by people who would not describe themselves as doing sport.
+
+    A set of boules is the only purchase, the ground is free, and the rules can
+    be explained in two minutes.
+  evidence:
+    - { label: Kit to start, value: Three boules, basis: observation }
+    - { label: Facility, value: Any rough open ground, basis: observation }
+    - { label: Physical demand, value: Standing, basis: rule, rule: petanque-1907-feet-planted, note: The founding rule removed the run-up deliberately. }
+    - { label: Age range, value: Effectively unlimited, basis: judgement }
+    - { label: Time to a real game, value: Minutes, basis: judgement }
+
+mastery:
+  verdict: high
+  claim: Hitting a 75 mm ball at ten metres, on purpose, and leaving your own in its place.
+  why: >
+    The gap between social pétanque and the competitive game is almost entirely
+    hidden, because the two look identical from a distance.
+
+    **Shooting** is the visible half. A *tireur* is asked to strike an
+    opponent's boule — a target 75 millimetres across, at up to ten metres, on
+    rough ground — cleanly out of position. Elite shooters do this at a very
+    high success rate, on demand, under pressure. The *carreau*, in which the
+    opponent's boule is driven out and yours stops in its place, is the sport's
+    perfect shot.
+
+    **Pointing** is harder to see and just as hard to do. A *pointeur* reads a
+    surface nobody has standardised — its stones, ruts, slope and hardness —
+    and chooses a trajectory and a landing point accordingly. On unfamiliar
+    ground this is close to what an orienteer does with terrain.
+
+    The tactical layer is the scoring shape. Because a side scores one point per
+    boule closer than the opponent's best, positions can be worth six points or
+    nothing, and the decision of when to point, when to shoot and when to
+    concede an end is a genuine game.
+  evidence:
+    - label: Shooting target
+      value: A 75 mm boule at up to 10 m
+      basis: observation
+      note: Elite shooters hit it on demand at a high rate.
+    - label: Unstandardised terrain
+      value: Read, not controlled
+      basis: observation
+      note: Unlike every other target sport covered here.
+    - label: Scoring shape
+      value: One point per boule closer than the opponent's best
+      basis: rule
+      rule: petanque-1958-fipjp
+      note: An end can be worth six points or nothing.
+    - { label: Typical peak age, value: 30–50, basis: judgement, note: Later than almost anything else here. }
+
+gap: >
+  Very low to high, and it is the site's most deliberate gap: the bottom of it
+  was lowered on purpose, in 1907, for one person.
+
+  Almost every accessible sport on this site is accessible by accident of what
+  it happens to require. Pétanque is accessible because somebody removed the
+  hard physical part so a friend could keep playing, and the removal turned out
+  to make a better game — one that a whole country now plays in its town
+  squares.
+
+  The ceiling was not lowered with it. Hitting a small metal ball at ten metres
+  on rough ground is difficult in a way that is invisible until you try it, and
+  the peak age of thirty to fifty says something no other sport here says:
+  this is a game where experience compounds for longer than physical decline
+  costs you.
+
+shaped_by:
+  - petanque-1907-feet-planted
+  - petanque-1958-fipjp

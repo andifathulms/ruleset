@@ -1,0 +1,118 @@
+sport: boules
+as_of: 2026-09
+edition: FIPJP Rules of the Game
+source: fipjp-rules
+standing: primary-named
+summary: >
+  Pétanque, the largest of the boules codes: throw metal boules closer to a
+  small wooden jack than the opposition, with both feet planted inside a circle
+  on the ground. First to thirteen points.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      At the end of each round, the side with the boule nearest the jack scores
+      — one point for every boule it has closer than the opponent's best. First
+      to thirteen wins.
+
+      That scoring shape is what makes the sport tactical. You are not trying
+      to get close; you are trying to have *more* boules closer than their best
+      one, which means a single well-placed opponent boule can cancel five of
+      yours.
+    facts:
+      - { label: Game to, value: 13 points }
+      - { label: Points per end, value: One per boule closer than the opponent's best }
+
+  - id: field
+    label: The terrain
+    body: >
+      Any rough open ground — gravel, packed earth, grit. Competition pitches
+      are marked at about 15 metres by 4, but the surface is deliberately not
+      standardised: stones, ruts and slopes are part of the game, and reading
+      the ground is a skill.
+
+      That is unusual among the target sports covered here. Archery and
+      shooting standardise everything between athlete and target; boules leaves
+      the intervening ground as it found it.
+    facts:
+      - { label: Pitch, value: About 15 × 4 m }
+      - { label: Surface, value: Rough ground, deliberately unstandardised }
+      - { label: Jack thrown, value: 6–10 m from the circle }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      Metal boules of 650 to 800 grams and 70.5 to 80 millimetres across, in
+      sets of three per player, chosen for weight and hardness to suit a
+      player's style. The jack — the *cochonnet* — is a small wooden ball.
+
+      A circle to throw from, which may be drawn on the ground or placed as a
+      plastic ring, and nothing else. There is no footwear requirement, no
+      protective equipment and no implement.
+    facts:
+      - { label: Boule, value: 650–800 g, 70.5–80 mm }
+      - { label: Boules per player, value: "3" }
+      - { label: Jack, value: A small wooden ball }
+      - { label: Circle, value: 35–50 cm across }
+
+  - id: players
+    label: Players and officials
+    body: >
+      Singles, doubles or triples, with the number of boules per player varying
+      so that each side throws the same total. Within a team, players
+      specialise: a *pointeur* places boules close, a *tireur* knocks the
+      opposition's away, and a *milieu* does both.
+    facts:
+      - { label: Formats, value: Singles, doubles, triples }
+      - { label: Roles, value: Pointeur, tireur, milieu }
+
+  - id: duration
+    label: Time
+    body: >
+      No clock in the traditional game — a match lasts as long as it takes to
+      reach thirteen. Time limits have been introduced in some televised and
+      championship formats, which is the sport's concession to scheduling.
+    facts:
+      - { label: Match length, value: Untimed, in the traditional game }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Measured, literally. When an end is close, officials and players use
+      callipers and tape to determine which boule is nearer, and the sport's
+      characteristic image is two people crouched over a measuring device.
+
+      It is the only sport covered here where the competitors routinely
+      perform the measurement themselves, in the middle of the game, and agree
+      the result.
+
+  - id: restarts
+    label: The end
+    body: >
+      The side that scored throws the jack for the next end, from a circle
+      drawn where the jack previously lay. Play alternates by disadvantage: the
+      side not holding the point throws until it takes the lead.
+
+      That rule — throw again if you are losing the end — is what produces the
+      sport's rhythm and means a side can throw several boules in succession.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Lifting a foot, or letting either foot leave the circle, before the boule
+      lands. Throwing out of turn. Moving a boule or the jack while an end is
+      live. Interfering with the ground — smoothing a rut, filling a hole, or
+      removing a stone in the target area.
+
+      That last one matters more than it sounds. Because the terrain is
+      unstandardised, the temptation to improve it is constant, and the
+      prohibition is what keeps the ground a shared condition rather than a
+      contested one.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Thirteen points. Because points accrue in blocks — a good end can be worth
+      six — a match can turn entirely on a single shot that displaces the
+      opponent's nearest boule.

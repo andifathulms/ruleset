@@ -58,8 +58,11 @@ sports:
     held: [2025]
   - id: boules
     label: Boules sports
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Pétanque's founding rule was written in 1907 to let a man with
+      rheumatism keep playing.
   - id: bowling
     label: Bowling
     coverage: skeleton

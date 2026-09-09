@@ -1,0 +1,33 @@
+id: boules-scores
+label: A comparable series
+unit: points
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  There is no series to draw here, and the reason is structural rather than
+  archival.
+
+  A pétanque match ends at thirteen points. The number is bounded, it has not
+  changed, and a final score of 13–7 in 1960 means what it means in 2026. There
+  is nothing to progress and nothing to break.
+
+  What could in principle be measured is shooting accuracy — the rate at which
+  an elite *tireur* displaces a target boule — and the precision shooting
+  discipline generates exactly that number. It is not published in any cited,
+  continuous form, and it would in any case be scoped to that discipline rather
+  than to the sport.
+
+  The umbrella structure rules out anything broader. Pétanque, boule lyonnaise,
+  raffa and volo are separate codes with separate federations, separate rules
+  and separate championships, united by a confederation formed in 1985 for
+  institutional reasons. A number from one says nothing about another, and the
+  confederation has never tried to make one.
+segments: []
+breaks:
+  - at: 1985
+    caused_by: boules-1985-cmsb
+    kind: scoped
+    note: >
+      The umbrella unites codes that are not played across. Results belong to a
+      code, never to boules as a whole.
+source: fipjp-rules

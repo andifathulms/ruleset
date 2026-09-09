@@ -1,0 +1,21 @@
+id: boules
+label: Boules sports
+tagline: "Pétanque's founding rule was written in 1907 to let a man with rheumatism keep playing, and it created the sport."
+governing_body: Confédération Mondiale des Sports de Boules
+founded: >
+  A family of European throwing games of great antiquity; pétanque was devised
+  at La Ciotat in 1907, its federation followed in 1958, and the umbrella body
+  uniting the boules codes was formed in 1985.
+coverage: deep
+family_colour: pool
+classification:
+  official: boules
+  game-category: target
+  adjudication: measured
+summary: >
+  Throw a metal ball closer to a small wooden jack than your opponent can. It
+  is a target sport whose target moves — the jack is knocked about by play — and
+  in which the most valued shot destroys the opponent's position rather than
+  improving your own. Pétanque, its largest code, exists because a rule was
+  relaxed in 1907 for a player who could no longer run, which makes it the only
+  sport here founded on an accessibility accommodation.

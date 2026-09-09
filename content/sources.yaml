@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: fipjp-rules
+  standing: primary-named
+  title: FIPJP Rules of the Game of Pétanque
+  publisher: Fédération Internationale de Pétanque et Jeu Provençal
+  kind: rulebook
+  url: https://www.fipjp.org/
+
 - id: wako-rules
   standing: primary-named
   title: WAKO General Rules

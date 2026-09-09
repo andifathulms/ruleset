@@ -1,0 +1,106 @@
+- id: petanque-1907-feet-planted
+  scope: { sport: boules, discipline: petanque }
+  date_adopted: 1907
+  date_effective: 1907
+  status: adopted
+  governing_body: Players at La Ciotat, later the FIPJP
+  what_changed: >
+    Pétanque was created by removing the run-up. In the dominant Provençal game
+    a player took three steps before releasing, and the throw was long. The new
+    rules required both feet to stay together inside a small circle, on the
+    ground, and shortened the distance to the jack.
+
+    The name records it: *pieds tanqués*, feet planted.
+
+    Every other consequence follows. A stationary throw from a fixed circle is
+    playable by anyone who can stand, on any rough ground, at any age — which
+    is why pétanque became a mass participation game across France and its
+    parent code did not.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The accepted account is that the rules were adapted at La Ciotat for
+      Jules Lenoir, a player whose rheumatism had made the run-up impossible,
+      so that he could keep competing with his friends.
+    also_said: >
+      The story is well established in the sport's own literature and is a
+      folk history rather than a documented committee decision. It is recorded
+      here as what the sport says about itself.
+  citation:
+    source: fipjp-rules
+    edition: FIPJP Rules of the Game, the throwing circle
+    missing: true
+
+- id: petanque-1958-fipjp
+  scope: { sport: boules, discipline: petanque }
+  date_adopted: 1958
+  date_effective: 1958
+  status: adopted
+  governing_body: FIPJP
+  what_changed: >
+    An international federation was formed for pétanque and jeu provençal,
+    fixing the competition rules internationally: games to thirteen points,
+    boule dimensions and weight, the circle, and the distance the jack must be
+    thrown.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      The game had spread well beyond Provence, including into French colonial
+      territories, with local conventions on distances and boules.
+  citation:
+    source: fipjp-rules
+    edition: FIPJP statutes
+    missing: true
+
+- id: boules-1985-cmsb
+  scope: { sport: boules, discipline: all }
+  date_adopted: 1985
+  date_effective: 1985
+  status: adopted
+  governing_body: Confédération Mondiale des Sports de Boules
+  what_changed: >
+    An umbrella confederation was formed above the separate boules codes —
+    pétanque, boule lyonnaise and the Italian raffa and volo games — each of
+    which keeps its own federation, its own rules and its own championships.
+
+    The umbrella exists for institutional reasons rather than sporting ones: a
+    single body could hold recognition and pursue multi-sport programmes on
+    behalf of codes that do not otherwise play each other.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Several national and international boules federations were separately too
+      small to be recognised, and the codes are close enough in family to be
+      presented together and far enough apart to be unplayable across.
+  citation:
+    source: fipjp-rules
+    edition: CMSB statutes
+    missing: true
+  comparability_break: boules-scores
+
+- id: petanque-2019-olympic-bid
+  scope: { sport: boules, discipline: petanque }
+  date_adopted: 2019
+  date_effective: 2019
+  status: withdrawn
+  governing_body: Paris 2024 organising committee
+  what_changed: >
+    Pétanque sought inclusion as an additional sport at the Paris 2024 Games
+    and was not selected. The organisers chose breaking, skateboarding, sport
+    climbing and surfing.
+
+    It is the clearest case on this site of the host-city mechanism working
+    against the host nation's own sport: a French organising committee declined
+    to add the game most closely identified with France, in favour of four
+    sports with younger audiences.
+  cause_primary: commercial
+  trigger:
+    description: >
+      The additional-sport mechanism asks host organisers to propose sports
+      that broaden the Games' appeal, and the selection criteria in this cycle
+      were explicitly about youth and urban audiences.
+  citation:
+    source: fipjp-rules
+    edition: Paris 2024 additional sports decision
+    missing: true
