@@ -1,0 +1,140 @@
+sport: billiards
+as_of: 2026-09
+edition: WCBS member federation rules
+source: wcbs-rules
+standing: primary-named
+summary: >
+  Three codes. Carom is played on a pocketless table and scores by making the
+  cue ball touch both object balls. Pool pockets numbered balls on a nine-foot
+  table. Snooker pockets reds and colours on a twelve-foot one.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      **Carom:** make the cue ball contact both object balls in one stroke. In
+      three-cushion, it must also touch the cushions three times first.
+
+      **Pool:** pot the balls of your group and then the black, or run the
+      numbered balls in order, depending on the game.
+
+      **Snooker:** pot a red, then a colour, then another red, alternating,
+      until the reds are gone and the colours are cleared in order. A frame is
+      won on points; a match is won on frames.
+    facts:
+      - { label: Carom, value: No pockets — score by contact }
+      - { label: Snooker, value: A maximum break of 147 }
+    shaped_by: [billiards-1959-umb]
+
+  - id: field
+    label: The tables
+    body: >
+      Three tables that cannot substitute for each other.
+
+      **Carom:** about ten feet by five, heated, with no pockets at all and a
+      cloth chosen for speed.
+
+      **Pool:** nine feet by four and a half in competition, six pockets, wide
+      and generously cut.
+
+      **Snooker:** twelve feet by six, six pockets, cut much tighter relative to
+      the ball, which is why snooker's potting is harder over distance than
+      pool's.
+
+      A player from one code cannot walk to another's table and compete. That
+      is the confederation's central problem stated physically.
+    facts:
+      - { label: Carom table, value: About 10 × 5 ft, no pockets }
+      - { label: Pool table, value: 9 × 4.5 ft, six pockets }
+      - { label: Snooker table, value: 12 × 6 ft, tight pockets }
+
+  - id: equipment
+    label: Cues and balls
+    body: >
+      A cue, chalk, and balls that differ by code — three balls in carom,
+      fifteen numbered plus a cue ball in pool, twenty-one plus a cue ball in
+      snooker.
+
+      Cues differ too: carom cues are shorter and stiffer with a smaller tip for
+      the fine control the game's spin demands, snooker cues are longer with a
+      narrow tip, pool cues sit between. Many players use a separate break cue
+      and, in snooker, an extension or rest to reach across a twelve-foot table.
+    facts:
+      - { label: Carom, value: 3 balls }
+      - { label: Pool, value: 15 numbered balls and a cue ball }
+      - { label: Snooker, value: 15 reds, 6 colours and a cue ball }
+
+  - id: players
+    label: Players and officials
+    body: >
+      One against one, in frames or to a points target, with a referee who
+      places balls, calls fouls and — distinctively in snooker — cleans the
+      balls and hands the player a rest without being asked.
+
+      Doubles and team formats exist in all three codes and are secondary
+      everywhere.
+    facts:
+      - { label: Format, value: One against one }
+      - { label: Referee, value: In the arena, handling the balls }
+
+  - id: duration
+    label: Time
+    body: >
+      No clock in the traditional forms, and this is snooker's long-standing
+      problem: a frame can take an hour and a world championship final runs over
+      two days.
+
+      Shot clocks exist in some professional pool and in shortened snooker
+      formats, adopted for scheduling — the same pressure this site records
+      pushing five other sports into rewriting their scoring.
+    facts:
+      - { label: Traditional, value: Untimed }
+      - { label: Shortened formats, value: Shot clocks, for broadcast }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      **Carom** counts points, one per successful carom, with matches to a
+      target.
+
+      **Pool** counts racks or games won.
+
+      **Snooker** counts points within a frame — reds one, colours two to seven
+      — and frames within a match. Its bounded maximum, **147**, is one of very
+      few perfect scores on this site that a competitor can actually reach, and
+      it is reached rarely enough to remain a genuine achievement. Bowling's 300
+      is the direct comparison, and the reason snooker's number still means what
+      it meant is that nothing changed the equipment underneath it.
+    facts:
+      - { label: Snooker maximum break, value: "147" }
+      - { label: Carom, value: One point per carom }
+
+  - id: restarts
+    label: The break and the visit
+    body: >
+      A frame begins with a break shot. From there a player continues while they
+      keep scoring — a **visit** — and the turn passes on a miss or a foul.
+
+      That structure is what makes these games unlike almost everything else
+      here: a player can win a frame without their opponent striking a ball,
+      and in snooker the highest expression of the sport is exactly that.
+
+  - id: prohibitions
+    label: Fouls
+    body: >
+      Failing to hit the correct ball first, potting the cue ball, failing to
+      hit a cushion after contact, touching a ball with anything but the cue
+      tip, and playing out of turn.
+
+      Snooker adds the offence the sport is named for. A player who cannot
+      strike the required ball because another is in the way has been
+      **snookered**, and if the referee judges no genuine attempt was made, a
+      **miss** is called and the shot replayed — a rule that regulates intent
+      rather than outcome, which very few rules on this site do.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Frames, racks or points, by code. Because a visit can run indefinitely
+      while a player keeps scoring, a match's competitive balance can be
+      entirely one-sided while remaining formally close.

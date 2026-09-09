@@ -22,6 +22,7 @@
     - { id: badminton, label: Badminton, colour: clay, members: [badminton] }
     - { id: baseball, label: Baseball, colour: pitch, members: [baseball] }
     - { id: basketball, label: Basketball, colour: pitch, members: [basketball] }
+    - { id: billiards, label: Billiards sports, colour: pool, members: [billiards] }
     - { id: boules, label: Boules sports, colour: pool, members: [boules] }
     - { id: bowling, label: Bowling, colour: pool, members: [bowling] }
     - { id: boxing, label: Boxing, colour: clay, members: [boxing] }
@@ -110,7 +111,7 @@
     - id: target
       label: Target
       colour: pool
-      members: [archery, shooting, golf, boules, bowling]
+      members: [archery, shooting, golf, boules, bowling, billiards]
     - id: performance
       label: Performance
       colour: gold
@@ -152,7 +153,8 @@
       members: [football, badminton, table-tennis, tennis, volleyball, basketball,
                 cricket, baseball, hockey, handball, rugby, softball, lacrosse,
                 squash, flag-football, korfball, tug-of-war, fistball, floorball,
-                kabaddi, sepak-takraw, racquetball, soft-tennis, underwater-sports]
+                kabaddi, sepak-takraw, racquetball, soft-tennis, underwater-sports,
+                billiards]
     - id: combat
       label: Combat
       colour: clay

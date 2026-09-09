@@ -57,8 +57,10 @@ sports:
       Compound and field, the two disciplines World Archery runs that the Games do not.
   - id: billiards
     label: Billiards sports
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Three codes on three incompatible tables, one of which has no pockets.
   - id: boules
     label: Boules sports
     coverage: deep

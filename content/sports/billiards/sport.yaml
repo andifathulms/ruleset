@@ -1,0 +1,21 @@
+id: billiards
+label: Billiards sports
+tagline: "Three sports that cannot be played on each other's tables — and one of them has no pockets at all."
+governing_body: World Confederation of Billiards Sports
+founded: >
+  Cue games descend from lawn games moved indoors in the fifteenth century;
+  carom's international federation dates from 1959, snooker's professional body
+  from 1968, and the confederation uniting the codes from 1992.
+coverage: deep
+family_colour: pool
+classification:
+  official: billiards
+  game-category: target
+  adjudication: decided-by-score
+summary: >
+  Carom, pool and snooker share a cue, a cloth and an ancestry, and are
+  otherwise three different sports. The carom table has no pockets — a point is
+  scored by making the cue ball touch both object balls — while pool and
+  snooker have six each, on tables of different sizes with different balls. An
+  umbrella confederation was built above them in 1992 to pursue Olympic
+  inclusion, obtained recognition in 1998, and has never been selected.

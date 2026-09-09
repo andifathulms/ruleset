@@ -1,0 +1,44 @@
+sport: billiards
+as_of: 2026-09
+source: wcbs-rules
+standing: primary-named
+summary: >
+  No Olympic events. The confederation has held IOC recognition since 1998,
+  billiards sports are contested at the World Games, and the sport's largest
+  professional competition is run by a body outside the confederation
+  altogether.
+disciplines:
+  - id: carom
+    label: Carom
+    blurb: A pocketless table. Score by making the cue ball contact both object balls.
+    events:
+      - { id: three-cushion, label: Three-cushion, at: [world-games, world-championship], count: 2, note: The premier carom discipline. Three cushions before completing the carom. }
+      - { id: other-carom, label: One-cushion, straight rail and artistic, at: [world-championship], count: 3, note: "Artistic billiards sets prescribed shots of declared difficulty — a judged-adjacent format inside a scored sport." }
+  - id: pool
+    label: Pool
+    blurb: Six pockets on a nine-foot table, with several games under one code.
+    events:
+      - { id: nine, label: Nine-ball, at: [world-games, world-championship], count: 2 }
+      - { id: ten, label: Ten-ball and eight-ball, at: [world-championship], count: 4 }
+      - { id: straight, label: Straight pool, at: [world-championship] }
+  - id: snooker
+    label: Snooker
+    blurb: A twelve-foot table with tight pockets; fifteen reds and six colours.
+    events:
+      - { id: amateur, label: Amateur world championships, at: [world-games, world-championship], count: 2 }
+  - id: professional
+    label: The professional tour
+    counts: false
+    blurb: >
+      Snooker's world championship, ranking tour and money are run by the
+      professional body formed in 1968, outside the confederation that holds
+      Olympic recognition on the sport's behalf.
+    events:
+      - { id: pro-tour, label: Professional snooker, at: [federation-only], note: Where the sport's elite competition and broadcast presence are. }
+      - { id: pro-pool, label: Professional pool events, at: [federation-only], note: A thinner but real commercial circuit, largely in the United States and East Asia. }
+  - id: relatives
+    label: Cue games governed elsewhere
+    counts: false
+    events:
+      - { id: english-billiards, label: English billiards, at: [world-championship], note: "Played on a snooker table with three balls; scores by cannons, pots and in-offs. An older game than snooker and now much smaller." }
+      - { id: russian, label: Russian pyramid, at: [federation-only], note: A large table with tight pockets and near-pocket-sized balls, governed separately. }

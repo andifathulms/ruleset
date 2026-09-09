@@ -1,0 +1,41 @@
+id: billiards-scores
+label: A comparable score
+unit: points
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Billiards sports cannot produce one series because they are not one sport.
+
+  A carom average, a pool rack count and a snooker break are three different
+  quantities produced on three tables of different sizes with different balls
+  and different numbers of pockets — none of which a player of another code
+  could compete on. The confederation that unites them was formed in 1992 for
+  institutional reasons and has never claimed otherwise.
+
+  Inside snooker, one number does hold. The maximum break of **147** is fixed by
+  the rules and has not changed, and unlike bowling's 300 it has not been
+  devalued by equipment: cloth and balls have improved, and a maximum remains
+  rare enough that each one is still counted. That makes snooker's perfect score
+  one of the very few bounded maxima on this site that still means what it
+  meant.
+
+  What prevents even that becoming a series is where the record lives. Snooker's
+  elite competition, its rankings and its statistics belong to a professional
+  body formed in 1968, separate from the confederation representing billiards
+  to the Olympic movement. The numbers are excellent and they are not the
+  recognised federation's.
+segments: []
+breaks:
+  - at: 1968
+    caused_by: billiards-1968-wpbsa
+    kind: scoped
+    note: >
+      Snooker's professional record sits with a body outside the recognised
+      confederation, and has since 1968.
+  - at: 1992
+    caused_by: billiards-1992-wcbs
+    kind: scoped
+    note: >
+      The umbrella unites three codes played on three incompatible tables.
+      Results belong to a code, never to billiards.
+source: wcbs-rules

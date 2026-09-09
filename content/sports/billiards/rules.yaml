@@ -1,0 +1,107 @@
+- id: billiards-1959-umb
+  scope: { sport: billiards, discipline: carom }
+  date_adopted: 1959
+  date_effective: 1959
+  status: adopted
+  governing_body: Union Mondiale de Billard
+  what_changed: >
+    Carom billiards was internationally codified: a table with **no pockets**,
+    three balls, and a point scored when the cue ball is made to contact both
+    object balls in a single stroke.
+
+    In three-cushion, the discipline's premier form, the cue ball must also
+    touch the cushions at least three times before completing the carom. A run
+    of a dozen is a very good one; the game's best players average somewhere
+    above one point per turn.
+
+    A pocketless table is the sport's defining fact. Every other cue game on
+    this site is about removing balls from the table. Carom is about geometry,
+    and nothing ever leaves.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Carom had been played across continental Europe, Japan and Latin America
+      with national variants of the disciplines and the table, and required a
+      common international code.
+  citation:
+    source: wcbs-rules
+    edition: UMB rules of carom billiards
+    missing: true
+
+- id: billiards-1968-wpbsa
+  scope: { sport: billiards, discipline: snooker }
+  date_adopted: 1968
+  date_effective: 1968
+  status: adopted
+  governing_body: World Professional Billiards and Snooker Association
+  what_changed: >
+    Snooker's professional players organised into their own body, separate from
+    the amateur federation structure, and it is the professional body that has
+    run the sport's world championship and its tour ever since.
+
+    That split has never healed and it shapes everything about snooker's
+    institutional position: the sport's elite competition, its money, its
+    ranking system and its broadcast presence all sit outside the confederation
+    that represents billiards sports to the Olympic movement.
+  cause_primary: commercial
+  cause_secondary: disputed
+  trigger:
+    description: >
+      Professional snooker needed a body to run a tour and negotiate broadcast
+      arrangements, which an amateur federation structure was not built to do.
+  citation:
+    source: wcbs-rules
+    edition: WPBSA constitution
+    missing: true
+  comparability_break: billiards-scores
+
+- id: billiards-1992-wcbs
+  scope: { sport: billiards, discipline: all }
+  date_adopted: 1992
+  date_effective: 1992
+  status: adopted
+  governing_body: World Confederation of Billiards Sports
+  what_changed: >
+    An umbrella confederation was formed above the three codes — carom, pool
+    and snooker — each of which keeps its own federation, its own rules, its own
+    tables and its own championships.
+
+    Its purpose was explicitly institutional: a single body could hold
+    recognition and pursue Olympic inclusion on behalf of games that are not
+    played across. This site records the same construction in boules, formed
+    for the same reason seven years earlier.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      None of the three codes was large enough alone to make an Olympic case,
+      and the international system recognises one federation per sport.
+  citation:
+    source: wcbs-rules
+    edition: WCBS statutes
+    missing: true
+  comparability_break: billiards-scores
+
+- id: billiards-1998-ioc-recognition
+  scope: { sport: billiards, discipline: all }
+  date_adopted: 1998
+  date_effective: 1998
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    The confederation received IOC recognition. Billiards sports have been on
+    no Olympic programme since, having been considered and passed over for
+    several editions.
+
+    Recognition has now been held for nearly three decades by a body that does
+    not run the sport's largest professional competition, on behalf of three
+    codes whose players cannot compete against each other.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The confederation completed the requirements recognition sets, six years
+      after being formed to do exactly that.
+  citation:
+    source: wcbs-rules
+    edition: IOC recognition, 1998
+    missing: true

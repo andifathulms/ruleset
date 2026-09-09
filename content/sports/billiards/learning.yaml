@@ -1,0 +1,92 @@
+sport: billiards
+standing: editorial
+summary: >
+  Everybody has played on a pub table and nobody has played the sport. The gap
+  between a pool table in a bar and a twelve-foot snooker table with tight
+  pockets is one of the widest misperceptions on this site.
+
+entry:
+  verdict: very-low
+  claim: A table in a pub or a hall, a cue off the wall, and an hour.
+  why: >
+    Pool in particular is among the most widely tried games in the world.
+    Tables are in bars, clubs, universities and community halls almost
+    everywhere, the equipment is provided, the rules take a minute, and two
+    people can play immediately.
+
+    There is no physical prerequisite of any kind — no fitness, no age limit at
+    either end, no strength requirement — which puts billiards alongside boules
+    as one of the few sports here playable across an entire adult lifespan.
+
+    The barrier to the *sport* rather than the game is a table of the right
+    kind. Carom tables and full-size snooker tables are rare outside clubs, and
+    that scarcity is the real entry constraint on both codes.
+  evidence:
+    - { label: Kit to start, value: Provided with the table, basis: observation }
+    - { label: Physical demand, value: None, basis: judgement }
+    - { label: Facility, value: A pub table; a club for snooker or carom, basis: observation }
+    - { label: Tables, value: Three kinds, not interchangeable, basis: rule, rule: billiards-1959-umb }
+    - { label: Time to a real game, value: Minutes, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Controlling where the cue ball stops, shot after shot, on a table that punishes a millimetre.
+  why: >
+    The skill nobody sees is **position**. Potting a ball is the visible part
+    and the easy part; the hard part is leaving the cue ball where the next
+    shot is available, and then the one after that. An elite snooker break of a
+    hundred is a hundred points of potting and ninety-nine acts of cue ball
+    control, and the control is what separates professionals from very good
+    amateurs.
+
+    **Carom** is the purest version, because there is nowhere for a ball to go.
+    Three-cushion asks a player to send the cue ball off three cushions and into
+    two object balls, repeatedly, and the world's best average somewhere above
+    one point per turn — a number that sounds low until you have tried it.
+
+    **Snooker** adds the tactical layer the sport is named for: playing safe,
+    leaving an opponent snookered, and forcing errors. A frame between good
+    players can be won without a single long pot.
+
+    The ceiling is also institutional. Professional snooker is a real career for
+    perhaps a hundred people; professional pool and carom are much thinner; and
+    the three codes' athletes do not compete with each other.
+  evidence:
+    - label: No pockets in carom
+      value: Score by contact
+      basis: rule
+      rule: billiards-1959-umb
+      note: Three-cushion's best players average a little over one point per turn.
+    - label: Snooker's maximum
+      value: "147"
+      basis: observation
+      note: A bounded perfect score that is still genuinely rare, unlike bowling's 300.
+    - label: Professional structure
+      value: Outside the recognised confederation
+      basis: rule
+      rule: billiards-1968-wpbsa
+      note: Snooker's tour and money sit with a body formed in 1968.
+    - { label: Typical peak age, value: 25–45, basis: judgement, note: One of the longest competitive spans covered here. }
+
+gap: >
+  Very low to very high, and the perception gap is the point.
+
+  A pub pool table has wide pockets, a short bed and a heavy ball, and it
+  flatters everyone. A competition snooker table is twelve feet long with
+  pockets cut tight enough that a ball struck a millimetre off line rattles out
+  from distance. They are not the same activity, and almost nobody who has
+  played the first has seen the second in person.
+
+  This site records the same structure in bowling, where a recreational oil
+  pattern funnels the ball towards the pocket and a competition pattern does
+  not — and in both cases the sport's enormous popular base is playing a
+  version engineered to be forgiving, which recruits people and teaches them
+  the sport is easy.
+
+  The other half of the gap has nothing to do with skill: three codes, three
+  tables, no crossover, and a professional structure that sits outside the body
+  holding the recognition.
+
+shaped_by:
+  - billiards-1959-umb
+  - billiards-1968-wpbsa
