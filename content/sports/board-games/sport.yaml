@@ -1,0 +1,21 @@
+id: board-games
+label: Board games
+tagline: "The only sports here a machine plays better than any human — and both know the year it happened."
+governing_body: FIDE, the International Go Federation and the World Xiangqi Federation
+founded: >
+  Chess, go and xiangqi are each many centuries old; their international
+  federations date from 1924, 1982 and 1993 respectively, and they were
+  contested together at the Asian Games from 2010.
+coverage: deep
+family_colour: gold
+classification:
+  official: board-games
+  game-category: outside-taxonomy
+  adjudication: decided-by-score
+summary: >
+  Chess, go and xiangqi, contested at the Asian Games as one listing under
+  three separate federations. They are the only sports on this site with no
+  physical component at all, the only ones where a machine is definitively
+  better than the best human, and the only ones where that produced an
+  integrity problem no other sport can have: a competitor with a hidden device
+  is unbeatable.

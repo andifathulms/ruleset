@@ -1,0 +1,139 @@
+- id: board-1924-fide
+  scope: { sport: board-games, discipline: chess }
+  date_adopted: 1924
+  date_effective: 1924
+  status: adopted
+  governing_body: FIDE
+  what_changed: >
+    An international chess federation was founded, standardising the laws, the
+    conditions of play and eventually the title system and the rating that
+    orders every player in the world on one scale.
+
+    That rating is worth naming as a rule rather than a statistic. A continuous
+    number, comparable between players who have never met, updated by results,
+    is a measurement instrument almost nothing else on this site possesses —
+    and it is the reason chess can say who the tenth best player in the world is
+    without holding a tournament to find out.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      International chess was played to national conventions, with no body able
+      to run a world championship or settle the laws between countries.
+  citation:
+    source: fide-laws
+    edition: FIDE Laws of Chess
+    missing: true
+  comparability_break: board-ratings
+
+- id: board-1997-engines-surpass-chess
+  scope: { sport: board-games, discipline: chess }
+  date_adopted: 1997
+  date_effective: 1997
+  status: adopted
+  governing_body: None — an external event the sport had to absorb
+  what_changed: >
+    A computer defeated the reigning world chess champion in a match. Engine
+    strength has been beyond every human player since, by a margin that has
+    only widened.
+
+    Nothing in the laws changed on the day, and everything about the sport did.
+    Opening preparation became a matter of engine analysis. Post-game analysis
+    became objective rather than argued. And the sport acquired an integrity
+    problem that no physical sport can have: a player receiving engine moves is
+    not advantaged, they are unbeatable.
+  cause_primary: equipment and technology
+  cause_secondary: integrity
+  trigger:
+    description: >
+      Deep Blue beat Garry Kasparov over six games in New York in 1997, the
+      first such result against a reigning world champion under match
+      conditions.
+    also_said: >
+      The result was disputed at the time by the defeated player on grounds of
+      match conditions and transparency. It is recorded here for its
+      consequences rather than as a settled verdict on that particular match —
+      the consequences arrived regardless, and quickly.
+  citation:
+    source: fide-laws
+    edition: FIDE anti-cheating regulations, background
+    missing: true
+  comparability_break: board-ratings
+
+- id: board-2016-engines-surpass-go
+  scope: { sport: board-games, discipline: go }
+  date_adopted: 2016
+  date_effective: 2016
+  status: adopted
+  governing_body: None — an external event the sport had to absorb
+  what_changed: >
+    A program defeated a top professional go player in a five-game match,
+    nineteen years after the equivalent result in chess.
+
+    Go had been the standing example of a game whose search space was too large
+    for the methods that solved chess, and the nineteen-year gap is the measure
+    of how much harder it was. When it fell, it fell the same way: engine
+    analysis reshaped opening theory within a few years, and moves that
+    generations of professionals had considered mistakes were reassessed.
+  cause_primary: equipment and technology
+  trigger:
+    description: >
+      AlphaGo beat Lee Sedol 4–1 in Seoul in March 2016, using methods that did
+      not depend on the exhaustive search chess engines had relied on.
+  citation:
+    source: igf-rules
+    edition: International Go Federation, competition background
+    missing: true
+  comparability_break: board-ratings
+
+- id: board-anti-cheating-regime
+  scope: { sport: board-games, discipline: all }
+  date_adopted: 2014
+  date_effective: 2014
+  status: adopted
+  governing_body: FIDE
+  what_changed: >
+    A formal anti-cheating regime was adopted: prohibition of electronic
+    devices in the playing area, screening on entry, delayed broadcast of moves
+    so that a transmitted position cannot be analysed live, restrictions on
+    leaving the board, and statistical analysis comparing a player's moves
+    against engine choices.
+
+    The last of those is unlike anything else on this site. It is a detection
+    method that works by measuring how *good* a player's moves were — because
+    beyond a certain level of agreement with an engine, the explanation is not
+    talent.
+  cause_primary: integrity
+  trigger:
+    description: >
+      Engine strength on a concealable device made undetectable assistance
+      possible at any level, and several cases at open tournaments made the
+      absence of a regime untenable.
+  citation:
+    source: fide-laws
+    edition: FIDE Anti-Cheating Regulations
+    missing: true
+
+- id: board-2010-asian-games
+  scope: { sport: board-games, discipline: all }
+  date_adopted: 2010
+  date_effective: 2010
+  status: adopted
+  governing_body: Olympic Council of Asia
+  what_changed: >
+    Chess, go and xiangqi were contested together at the Asian Games in
+    Guangzhou in 2010, under a single board games listing — three games with
+    three federations, three cultures of origin and no players in common,
+    grouped for programme purposes.
+
+    It is the same construction this site records for boules and for billiards:
+    unrelated codes presented as one sport because the multi-sport system
+    recognises one federation per entry.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The Games were held in China, where xiangqi and go have very deep
+      participation, and the host proposed a listing that could hold all three.
+  citation:
+    source: oca-asian-games
+    edition: Olympic Council of Asia programme listings
+    missing: true

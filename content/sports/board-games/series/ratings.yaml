@@ -1,0 +1,39 @@
+id: board-ratings
+label: Rating progression
+unit: rating points
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  Chess has the best measurement instrument on this site and it still cannot be
+  charted honestly across a century.
+
+  The rating is a continuous number, updated by results, calibrated so that a
+  difference predicts an expected score. It orders every rated player in the
+  world without their having to meet. Almost nothing else covered here has an
+  equivalent — most sports can rank the people who competed and no more.
+
+  The problem is that a rating is **relative**, and the population it is
+  relative to has changed enormously. Ratings are computed against other rated
+  players, so the scale drifts as the pool grows, as the entry threshold moves,
+  and as improvements in training raise the whole distribution. Whether a
+  rating of 2700 in 1980 describes the same strength as 2700 today is a genuine
+  and unresolved argument inside the sport, and rating inflation has been
+  studied and adjusted for more than once.
+
+  Engines complicate it further, in both directions. They raised the standard
+  of preparation for everybody, which lifts the pool. And they provide the only
+  absolute yardstick anyone has — comparing historical games against engine
+  evaluation — which is a different measurement from rating and does not
+  reconcile with it.
+
+  So the number is excellent within its era and drifting between them, and this
+  site does not draw a line through it.
+segments: []
+breaks:
+  - at: 1997
+    caused_by: board-1997-engines-surpass-chess
+    kind: scale-change
+    note: >
+      Engine preparation lifted the whole rated population, and the meaning of
+      a rating relative to the field moved with it.
+source: fide-laws

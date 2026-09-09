@@ -1,0 +1,40 @@
+sport: board-games
+as_of: 2026-09
+source: fide-laws
+standing: primary-named
+summary: >
+  No Olympic events. Chess, go and xiangqi were contested together at the Asian
+  Games from 2010, under three separate federations, and chess and bridge both
+  hold IOC recognition without any prospect of a programme place.
+disciplines:
+  - id: chess
+    label: Chess
+    blurb: Governed by FIDE since 1924, with a continuous world rating.
+    events:
+      - { id: chess-individual, label: Individual, at: [asian-games, world-championship], count: 2 }
+      - { id: chess-team, label: Team and rapid events, at: [asian-games, world-championship], count: 4 }
+  - id: go
+    label: Go
+    blurb: >
+      Governed internationally since 1982, with the deepest professional
+      structures in China, Japan and South Korea.
+    events:
+      - { id: go-individual, label: Individual, at: [asian-games, world-championship], count: 2 }
+      - { id: go-team, label: Team, at: [asian-games, world-championship], count: 2 }
+  - id: xiangqi
+    label: Xiangqi
+    blurb: Chinese chess, with its own international federation from 1993.
+    events:
+      - { id: xiangqi-events, label: Individual and team, at: [asian-games, world-championship], count: 3 }
+  - id: elsewhere
+    label: Where these games actually live
+    counts: false
+    blurb: >
+      The competitive structures of all three sit almost entirely outside the
+      multi-sport system, in professional circuits, national leagues and — for
+      chess — online platforms with more players than any federation.
+    events:
+      - { id: online, label: Online play, at: [federation-only], note: "Where the overwhelming majority of rated games are now played, on commercial platforms rather than under a federation." }
+      - { id: pro-go, label: Professional go, at: [federation-only], note: National professional systems in China, Japan and South Korea, with their own titles and their own ranking. }
+      - { id: olympiad, label: Chess Olympiad, at: [federation-only], note: "FIDE's biennial team event, which is not part of the Olympic Games despite the name." }
+      - { id: shogi, label: Shogi and other regional codes, at: [federation-only], note: "Japanese chess, in which captured pieces change sides and re-enter play; governed separately and not at the Asian Games." }

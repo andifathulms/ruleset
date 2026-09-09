@@ -1,0 +1,87 @@
+sport: board-games
+standing: editorial
+summary: >
+  The rules of chess take ten minutes and the rules of go take five, and both
+  are among the deepest competitive pursuits humans have. The gap between
+  knowing how the pieces move and being any good is the largest on this site.
+
+entry:
+  verdict: very-low
+  claim: A board, an opponent, and ten minutes to learn how the pieces move. It is free online.
+  why: >
+    Nothing here is cheaper to start. A chess set costs almost nothing and the
+    game is free on any phone; go's rules are simpler than chess's — place a
+    stone, surround to capture — and are learnable in five minutes.
+
+    There is no physical requirement whatsoever. Age, size, strength, mobility
+    and coordination are all irrelevant, which makes these the most genuinely
+    open competitive activities covered on this site: an eight-year-old and an
+    eighty-year-old can meet on equal terms and one of them will lose fairly.
+
+    Online play removed the last barrier — an opponent of exactly your strength,
+    available immediately, at any hour, rated automatically.
+  evidence:
+    - { label: Kit to start, value: A board, or nothing at all online, basis: observation }
+    - { label: Physical demand, value: None, basis: judgement }
+    - { label: Rules to learn, value: Minutes, basis: observation }
+    - { label: Opponent, value: Available online at your exact rating, basis: rule, rule: board-1924-fide }
+    - { label: Time to a real game, value: Immediate, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: A decade of study to reach a level a phone exceeds, in a field where every position has an objectively correct answer.
+  why: >
+    The depth is not in dispute and it is very large. Reaching international
+    master level in chess typically takes a decade of concentrated work started
+    in childhood, and grandmaster is a substantial further step. Professional
+    go in East Asia runs through insei systems that take children full-time from
+    a young age.
+
+    What makes the ceiling distinctive is what sits above it. In every other
+    sport covered here, the best human is the best there is. In these, a
+    consumer device plays better than the world champion, and has since 1997 in
+    chess and 2016 in go. Elite preparation is now conducted by consulting a
+    machine that would beat you, about a game you are better at than almost
+    everyone alive.
+
+    That also changed what mastery consists of. Opening preparation became
+    memorisation of engine-verified lines, and the competitive edge moved
+    towards positions engines evaluate as balanced but humans find hard — a
+    player is no longer trying to find the best move so much as the move that
+    is hardest for the person opposite.
+  evidence:
+    - label: Engines beat the world champion
+      value: Chess 1997, go 2016
+      basis: rule
+      rule: board-1997-engines-surpass-chess
+      note: The only sports here where the best competitor is not human.
+    - label: Rated on one continuous scale
+      value: Every player in the world
+      basis: rule
+      rule: board-1924-fide
+      note: A measurement instrument almost nothing else here possesses.
+    - label: Time controls create separate titles
+      value: Classical, rapid, blitz
+      basis: observation
+      note: The same player is a different strength at each.
+    - { label: Typical peak age, value: 24–35, basis: judgement }
+
+gap: >
+  Very low to very high — the widest gap on this site, and the only one where
+  the top is not the top.
+
+  Everything about starting is free, instant and open to anyone with a mind.
+  Everything about excelling takes a decade and a childhood start. And above
+  the very best human sits a machine that would beat them every time, which no
+  other sport on this page has to accommodate.
+
+  That fact has been absorbed rather than resisted, and the absorption is the
+  interesting part. Chess did not diminish when engines passed it — participation
+  grew enormously, because the same technology that beat everybody also made
+  the game free, instantly available, and automatically matched to your exact
+  strength. A sport that lost its claim to supremacy gained the largest playing
+  population it has ever had.
+
+shaped_by:
+  - board-1997-engines-surpass-chess
+  - board-anti-cheating-regime

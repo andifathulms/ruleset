@@ -23,6 +23,7 @@
     - { id: baseball, label: Baseball, colour: pitch, members: [baseball] }
     - { id: basketball, label: Basketball, colour: pitch, members: [basketball] }
     - { id: billiards, label: Billiards sports, colour: pool, members: [billiards] }
+    - { id: board-games, label: Board games, colour: gold, members: [board-games] }
     - { id: boules, label: Boules sports, colour: pool, members: [boules] }
     - { id: bowling, label: Bowling, colour: pool, members: [bowling] }
     - { id: boxing, label: Boxing, colour: clay, members: [boxing] }
@@ -128,7 +129,7 @@
       members: [judo, taekwondo, boxing, modern-pentathlon, fencing, wrestling,
                 karate, breaking, tug-of-war, sumo, dancesport, ju-jitsu,
                 muaythai, wushu, kickboxing, air-sports, roller-sports,
-                cheerleading, kurash]
+                cheerleading, kurash, board-games]
 
 - id: adjudication
   label: Adjudication
@@ -157,7 +158,7 @@
                 cricket, baseball, hockey, handball, rugby, softball, lacrosse,
                 squash, flag-football, korfball, tug-of-war, fistball, floorball,
                 kabaddi, sepak-takraw, racquetball, soft-tennis, underwater-sports,
-                billiards]
+                billiards, board-games]
     - id: combat
       label: Combat
       colour: clay

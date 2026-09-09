@@ -507,6 +507,20 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: fide-laws
+  standing: primary-named
+  title: FIDE Laws of Chess and Anti-Cheating Regulations
+  publisher: Fédération Internationale des Échecs
+  kind: rulebook
+  url: https://handbook.fide.com/
+
+- id: igf-rules
+  standing: primary-named
+  title: International Go Federation competition rules
+  publisher: International Go Federation
+  kind: rulebook
+  url: https://intergofed.org/
+
 - id: iwwf-rules
   standing: primary-named
   title: IWWF Tournament Rules

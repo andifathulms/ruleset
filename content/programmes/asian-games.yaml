@@ -75,7 +75,7 @@ sports:
     held: [2022]
   - id: board-games
     label: Board games
-    coverage: skeleton
+    coverage: deep
     held: [2022]
     note: >-
       Chess, xiangqi and go, contested for medals.

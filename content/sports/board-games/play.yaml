@@ -1,0 +1,143 @@
+sport: board-games
+as_of: 2026-09
+edition: FIDE Laws of Chess, and the rules of the other federations
+source: fide-laws
+standing: primary-named
+summary: >
+  Three games contested under one Asian Games listing. Chess: checkmate the
+  king. Go: surround more territory. Xiangqi: checkmate the general, across a
+  river, with pieces that cannot leave their palace.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      **Chess:** place the opponent's king under an attack it cannot escape.
+
+      **Go:** control more of the board than the opponent by surrounding
+      territory and capturing stones. Nothing moves once placed.
+
+      **Xiangqi:** checkmate the general. Pieces move on the intersections, a
+      river divides the board and changes what some pieces may do, and the
+      general is confined to a nine-point palace.
+
+      The three share a board and almost nothing else. Go is additive — stones
+      are placed and stay. Chess and xiangqi are subtractive and positional.
+    facts:
+      - { label: Chess, value: 64 squares, 32 pieces }
+      - { label: Go, value: 361 intersections, stones placed and not moved }
+      - { label: Xiangqi, value: Played on intersections, with a river and a palace }
+
+  - id: field
+    label: The board
+    body: >
+      Chess is played on the squares of an eight-by-eight board. Go is played
+      on the intersections of a nineteen-by-nineteen grid. Xiangqi is played on
+      the intersections of a nine-by-ten grid, with a river across the middle
+      and a marked palace at each end.
+
+      That distinction — squares against intersections — is not cosmetic. A
+      board of intersections has more points and different geometry, and go's
+      361 of them are the reason its search space defeated computers for two
+      decades after chess fell.
+    facts:
+      - { label: Chess, value: Squares }
+      - { label: Go and xiangqi, value: Intersections }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      A board, pieces or stones, and a clock. That is the whole list, and it is
+      the shortest on this site.
+
+      The clock is the only piece of technology, and it is essential: without a
+      time control a game has no bounded length, and time is now part of the
+      contest rather than an administrative limit. Increment systems add
+      seconds per move so a player cannot lose a won position purely to the
+      clock.
+
+      What is regulated far more heavily than the equipment is what a player may
+      **carry**. Electronic devices are prohibited in the playing area and
+      players are screened, because a phone is a stronger player than any human
+      alive.
+    facts:
+      - { label: Equipment, value: A board, pieces and a clock }
+      - { label: Prohibited, value: Any electronic device }
+    shaped_by: [board-anti-cheating-regime]
+
+  - id: players
+    label: Players and officials
+    body: >
+      Two players. An arbiter enforces the laws, the clock and the conditions,
+      and does not decide anything about the game itself — the position is a
+      fact and the rules apply to it mechanically.
+
+      That makes an arbiter's job unlike any other official's here. There is
+      nothing to judge about play. There is a great deal to enforce about
+      conduct, devices and time.
+    facts:
+      - { label: Players, value: "2" }
+      - { label: Arbiter, value: Enforces conditions, not play }
+
+  - id: duration
+    label: Time
+    body: >
+      Set by time control, and the control defines the event: classical games
+      run for hours, rapid for tens of minutes, blitz for minutes and bullet for
+      seconds per player.
+
+      These are treated as different disciplines with separate ratings and
+      separate world championships, because the same player is a different
+      strength at each. A sport where the clock setting creates distinct titles
+      has no real counterpart elsewhere on this site.
+    facts:
+      - { label: Classical, value: Hours per player }
+      - { label: Rapid and blitz, value: Separate titles and separate ratings }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      A game is won, lost or drawn — one point, nothing, or a half each. Matches
+      and tournaments accumulate those into scores, and tie-breaks are decided
+      by published systems rather than by replay.
+
+      Alongside the result sits the **rating**: a continuous number updated by
+      every game, calibrated so that a difference in rating predicts an expected
+      score. It orders every rated player in the world on one scale.
+    facts:
+      - { label: Result, value: 1, ½ or 0 }
+      - { label: Rating, value: A continuous scale, updated by results }
+    shaped_by: [board-1924-fide]
+
+  - id: restarts
+    label: Openings and adjournment
+    body: >
+      A game begins from a fixed starting position — the same one every time,
+      which almost nothing else on this site can say about its field of play.
+
+      Adjournment, in which an unfinished game was sealed and resumed the next
+      day, was abolished once engines made overnight analysis decisive. Games
+      are now played to a finish in one session, which is a rule changed
+      entirely by a machine.
+    shaped_by: [board-1997-engines-surpass-chess]
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Electronic devices in the playing area. Leaving the playing area without
+      permission. Receiving assistance of any kind. Distracting an opponent.
+      Illegal moves, which carry escalating penalties. Exceeding the time
+      control, which loses the game outright.
+
+      And, in chess, the rule that governs how a game may honourably end: a
+      draw may be agreed, but arranging a result in advance is an integrity
+      offence, and some events prohibit draw offers before a set move number to
+      prevent it.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Checkmate, resignation, a completed territory count, or the clock. In a
+      tournament, the highest score, with published tie-break systems applied
+      in order — a sport that resolves ties by arithmetic rather than by playing
+      again.
