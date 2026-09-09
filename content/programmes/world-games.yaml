@@ -146,7 +146,7 @@ sports:
     held: [2025]
   - id: powerlifting
     label: Powerlifting
-    coverage: skeleton
+    coverage: deep
     held: [2025]
     note: >-
       A different sport from Olympic weightlifting, and often mistaken for it.

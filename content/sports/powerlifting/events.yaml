@@ -1,0 +1,36 @@
+sport: powerlifting
+as_of: 2026-09
+source: ipf-rules
+standing: primary-named
+summary: >
+  No Olympic events — Para powerlifting is Paralympic and is a different sport,
+  contesting the bench press alone. The IPF runs world championships across
+  raw and equipped divisions, and the sport is on the World Games programme.
+disciplines:
+  - id: classic
+    label: Classic (raw)
+    blurb: Belt, singlet, sleeves and wraps. The larger division, added by the IPF in 2012.
+    events:
+      - { id: men, label: Men's bodyweight categories, at: [world-games, world-championship], count: 8 }
+      - { id: women, label: Women's bodyweight categories, at: [world-games, world-championship], count: 8 }
+  - id: equipped
+    label: Equipped
+    blurb: Adds squat suit, briefs and bench shirt. Separate records, never compared with raw.
+    events:
+      - { id: men-eq, label: Men's bodyweight categories, at: [world-championship], count: 8 }
+      - { id: women-eq, label: Women's bodyweight categories, at: [world-championship], count: 8 }
+  - id: single-lift
+    label: Single-lift competition
+    counts: false
+    events:
+      - { id: bench-only, label: Bench press only, at: [world-championship], note: Contested as its own championship in both divisions. }
+      - { id: para, label: Para powerlifting, at: [paralympic], note: "Bench press only, and governed by World Para Powerlifting rather than the IPF — a different sport with a similar name." }
+  - id: adjacent
+    label: Strength sports it is confused with
+    counts: false
+    blurb: >
+      Powerlifting is regularly mistaken for two other sports it shares almost
+      nothing with beyond a barbell.
+    events:
+      - { id: weightlifting, label: Olympic weightlifting, at: [olympic], note: "Snatch and clean and jerk, overhead, explosive. A different federation and a different sport." }
+      - { id: strongman, label: Strongman, at: [federation-only], note: Varying implements and events, no fixed programme, and no single governing body. }

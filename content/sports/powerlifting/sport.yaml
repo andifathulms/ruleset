@@ -1,0 +1,20 @@
+id: powerlifting
+label: Powerlifting
+tagline: "Constantly mistaken for Olympic weightlifting, and the two sports have almost nothing in common except a barbell."
+governing_body: International Powerlifting Federation
+founded: >
+  Emerged from American "odd lifts" competition in the 1950s and 1960s; the
+  International Powerlifting Federation was formed in 1972.
+coverage: deep
+family_colour: pool
+classification:
+  official: powerlifting
+  game-category: performance
+  adjudication: measured
+summary: >
+  Three lifts — squat, bench press, deadlift — each judged good or not good by
+  three referees, with the best of three attempts summed into a total. It looks
+  like weightlifting and is structurally its opposite: strength held under
+  control rather than a barbell moved explosively overhead, and a sport whose
+  record book has been fractured not by one rule change but by a permanent
+  schism between federations that will not recognise each other's numbers.

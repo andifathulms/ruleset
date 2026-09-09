@@ -1,0 +1,132 @@
+sport: powerlifting
+as_of: 2026-09
+edition: IPF Technical Rules
+source: ipf-rules
+standing: primary-named
+summary: >
+  Three lifts in a fixed order — squat, bench press, deadlift — three attempts
+  at each, best successful attempt at each summed into a total. Three referees
+  vote good lift or no lift, and the majority decides.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Post the highest total. Because only successful attempts count and each
+      lift gets three tries, the sport is as much about attempt selection as
+      about strength: a lifter who opens too heavy and fails all three squats
+      is out of the competition with no total at all, regardless of what they
+      could bench and pull.
+    facts:
+      - { label: Lifts, value: Squat, bench press, deadlift }
+      - { label: Attempts, value: 3 at each }
+      - { label: Total, value: Best successful attempt at each, summed }
+    shaped_by: [pl-1972-ipf-founded]
+
+  - id: field
+    label: The platform
+    body: >
+      A raised platform with a squat rack and a bench, three referees seated
+      around it — one in front, one at each side — and nothing else. There is
+      no field of play in any ordinary sense: the contest is between a lifter
+      and a loaded barbell, and the opponents are relevant only through the
+      numbers they choose.
+    facts:
+      - { label: Referees, value: "3" }
+      - { label: Decision, value: Majority of three }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      This is where the sport divides in two.
+
+      **Classic, or raw:** a belt, a singlet, knee sleeves, wrist wraps and
+      shoes. **Equipped:** in addition, a squat suit, briefs and a bench shirt
+      of dense polyester or canvas, which store elastic energy at the bottom of
+      the movement and return it on the way up.
+
+      The difference is not marginal. An equipped bench press can exceed the
+      same lifter's raw bench by a very large margin, and using a shirt well is
+      a distinct technical skill. The two are contested as separate divisions
+      with separate records and are never compared.
+    facts:
+      - { label: Raw, value: Belt, singlet, sleeves, wraps }
+      - { label: Equipped, value: Adds suit, briefs and bench shirt }
+      - { label: Record books, value: Separate, and not comparable }
+    shaped_by: [pl-equipped-lifting, pl-2012-ipf-raw-division]
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      One lifter at a time, in bodyweight categories, with spotters and
+      loaders on the platform for safety and three referees judging.
+
+      Every lift is decided by majority vote of three officials on whether the
+      movement met the standard. That makes powerlifting a measured sport whose
+      measurements are gated by a judgement — the weight is a fact, and whether
+      it counts is not.
+    facts:
+      - { label: On the platform, value: One lifter }
+      - { label: Categories, value: By bodyweight }
+    shaped_by: [pl-2020-weight-classes]
+
+  - id: duration
+    label: Time
+    body: >
+      There is no clock on the sport, only on the lifter: once called, a
+      competitor has one minute to begin the attempt. A full session runs for
+      hours and an individual's competition is roughly nine attempts spread
+      across it, with long waits between them.
+    facts:
+      - { label: Time to start an attempt, value: 1 min }
+      - { label: Attempts per lifter, value: "9" }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      The total, in kilograms. Comparison across bodyweight categories uses a
+      coefficient — currently the IPF's own points formula — which is itself a
+      rule: it decides who wins a best-lifter award and it has been revised,
+      each revision changing the historical answer to who was best.
+    facts:
+      - { label: Total, value: Sum of three best lifts }
+      - { label: Across categories, value: A points coefficient, periodically revised }
+
+  - id: restarts
+    label: Commands
+    body: >
+      Every lift is bracketed by referee commands and obeying them is part of
+      the lift. The squat begins on "squat" and ends on "rack". The bench press
+      requires "start", a pause with the bar motionless on the chest, "press",
+      and "rack". The deadlift has no start command and ends on "down".
+
+      A lifter who moves before a command or misses one has failed, at any
+      weight. The pause on the chest in particular removes the bounce, which is
+      why a competition bench is well below what the same lifter can move in
+      training.
+    facts:
+      - { label: Bench press, value: Paused, on command }
+      - { label: Deadlift, value: No start command; "down" ends it }
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Depth is the sport's characteristic dispute: a squat must break parallel
+      — the hip crease below the top of the knee — and three referees judge it
+      by eye from three angles. Federations differ in strictness and this is
+      one reason their records are not comparable.
+
+      Also: hitching or ramping a deadlift up the thighs, downward movement
+      during a press, lifting the buttocks off the bench, failure to follow a
+      command, and equipment outside the division's list.
+    shaped_by: [pl-federation-schism]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Highest total in the bodyweight category. A tie goes to the lighter
+      lifter, which is one of the few places in sport where being smaller is
+      the tiebreak.
+
+      A competitor who fails all three attempts at any one lift records no
+      total and is not placed, however heavy the other two were.

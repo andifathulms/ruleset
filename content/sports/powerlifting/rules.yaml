@@ -1,0 +1,146 @@
+- id: pl-1972-ipf-founded
+  scope: { sport: powerlifting, discipline: all }
+  date_adopted: 1972
+  date_effective: 1972
+  status: adopted
+  governing_body: International Powerlifting Federation
+  what_changed: >
+    The IPF was formed and fixed the sport at three lifts in a set order —
+    squat, bench press, deadlift — with three attempts at each and the best
+    successful attempt at each summed into a total.
+
+    Before this, American "odd lifts" meets contested a shifting menu that at
+    various times included the curl, the overhead press and others. Choosing
+    three and fixing their order is what turned a collection of feats of
+    strength into a sport with a comparable total.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Lifters competing under different regional rules had totals that could
+      not be set against each other, and the lifts themselves varied from meet
+      to meet.
+  citation:
+    source: ipf-rules
+    edition: IPF Technical Rules, the three lifts
+    missing: true
+  comparability_break: powerlifting-total
+
+- id: pl-equipped-lifting
+  scope: { sport: powerlifting, discipline: equipped }
+  date_adopted: 1980
+  date_effective: 1980
+  status: adopted
+  governing_body: International Powerlifting Federation
+  what_changed: >
+    Supportive equipment — squat suits, bench shirts and briefs made of dense
+    polyester or, later, canvas — was permitted and then regulated. The
+    garments store elastic energy at the bottom of a lift and return it, so an
+    equipped total can exceed a raw one by a very large margin, and a bench
+    shirt in particular changes the movement rather than merely assisting it.
+
+    The sport's eventual answer was to run raw and equipped as separate
+    divisions with separate record books, which is the same instrument
+    cycling reached for and the opposite of the one swimming chose.
+  cause_primary: equipment and technology
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Supportive gear began as a safety and support garment and became a
+      performance device, at which point totals across the two conditions
+      stopped meaning the same thing.
+    also_said: >
+      Manufacturers and equipped lifters argue the gear is a skill in itself —
+      that using a bench shirt well takes years — and that the division is not
+      an asterisk but a discipline. The site records both readings.
+  citation:
+    source: ipf-rules
+    edition: IPF Technical Rules, permitted equipment
+    missing: true
+  comparability_break: powerlifting-total
+
+- id: pl-federation-schism
+  scope: { sport: powerlifting, discipline: all }
+  date_adopted: 1982
+  date_effective: 1982
+  status: adopted
+  governing_body: Multiple, in dispute
+  what_changed: >
+    Powerlifting split, repeatedly, over drug testing. Federations formed
+    outside the IPF with their own rules on supportive equipment, their own
+    testing regimes or none, their own judging standards for squat depth, and
+    their own world records.
+
+    There is consequently no single world record in powerlifting. There is an
+    IPF record, and a set of other federations' records, and they are not
+    comparable because the conditions under which they were set differ in
+    ways the numbers do not carry.
+  cause_primary: integrity
+  cause_secondary: disputed
+  trigger:
+    description: >
+      Drug testing was introduced by the IPF and lifters and promoters who
+      objected — on cost, on method, or on principle — founded alternatives.
+      Further splits followed over equipment rules and judging.
+    also_said: >
+      Which federation's totals are the real ones is contested by every
+      federation, including about each other. This site takes no position, and
+      records that the disagreement is the reason no unified series exists.
+  citation:
+    source: ipf-rules
+    edition: IPF statutes and the record of competing federations
+    missing: true
+  comparability_break: powerlifting-total
+
+- id: pl-2012-ipf-raw-division
+  scope: { sport: powerlifting, discipline: raw }
+  date_adopted: 2012
+  date_effective: 2012
+  status: adopted
+  governing_body: International Powerlifting Federation
+  what_changed: >
+    The IPF added a classic — raw — division with its own world championships
+    and its own record book, in which supportive equipment is limited to a
+    belt, a singlet, knee sleeves and wrist wraps.
+
+    Raw lifting had been the dominant form outside the IPF for years. Adding
+    it did not merge the two record books; it created a second one inside the
+    same federation, which is why the sport now has raw and equipped totals
+    that are never set against each other.
+  cause_primary: participation and access
+  cause_secondary: equipment and technology
+  trigger:
+    description: >
+      Raw competition had grown rapidly outside the IPF and the federation was
+      losing the fastest-growing part of its own sport to rivals.
+  citation:
+    source: ipf-rules
+    edition: IPF Technical Rules, classic division
+    missing: true
+  comparability_break: powerlifting-total
+
+- id: pl-2020-weight-classes
+  scope: { sport: powerlifting, discipline: all }
+  date_adopted: 2011
+  date_effective: 2011
+  status: adopted
+  governing_body: International Powerlifting Federation
+  what_changed: >
+    The IPF redrew its bodyweight categories, which annulled the world records
+    attached to the old ones and restarted the lists.
+
+    Weightlifting has done exactly this twice, in 1993 and 2018, and for the
+    same reason. It is the standard instrument for a strength sport that wants
+    a clean record book, and it works by making the old numbers unattached to
+    any current category rather than by disproving them.
+  cause_primary: integrity
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Records in some categories had stood since the era before the
+      federation's current testing regime, and redrawing the categories
+      detached them.
+  citation:
+    source: ipf-rules
+    edition: IPF Technical Rules, bodyweight categories
+    missing: true
+  comparability_break: powerlifting-total

@@ -451,6 +451,13 @@
     Named, not opened. The 2025 Chengdu roster here was entered from general
     reference and has not been read line by line off the IWGA's own listing.
 
+- id: ipf-rules
+  standing: primary-named
+  title: IPF Technical Rules Book
+  publisher: International Powerlifting Federation
+  kind: rulebook
+  url: https://www.powerlifting.sport/
+
 - id: wfdf-rules
   standing: primary-named
   title: WFDF Rules of Ultimate

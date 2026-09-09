@@ -1,0 +1,47 @@
+id: powerlifting-total
+label: World record total
+unit: kg
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Powerlifting cannot have a world record progression, and it is the only sport
+  on this site whose obstacle is not one severing event but a permanent
+  condition.
+
+  There is no single world record because there is no single federation. The
+  sport split, repeatedly, over drug testing, and the federations that resulted
+  differ in what they test for, what supportive equipment they allow, and how
+  strictly they judge squat depth. Each keeps its own book. A number from one
+  cannot be placed on a line with a number from another, because the conditions
+  that produced them differ in ways the kilograms do not carry.
+
+  Inside the IPF alone there are two more divisions: raw and equipped, kept
+  apart deliberately since 2012 because a bench shirt returns stored elastic
+  energy and the totals are not the same measurement. And the bodyweight
+  categories were redrawn in 2011, which detached the records attached to the
+  old ones — the same instrument weightlifting used in 1993 and again in 2018.
+
+  So the honest rendering is this space. Powerlifting is a measured sport in
+  which the measurement is unambiguous and the comparison is impossible, which
+  is the reverse of most of the absences recorded on this site.
+segments: []
+breaks:
+  - at: 1980
+    caused_by: pl-equipped-lifting
+    kind: scoped
+    note: >
+      Supportive equipment permitted. Equipped and raw totals measure different
+      things and are kept in separate books.
+  - at: 1982
+    caused_by: pl-federation-schism
+    kind: scoped
+    note: >
+      The sport divides into federations that do not recognise each other's
+      records. From here there is no "the" world record to progress.
+  - at: 2011
+    caused_by: pl-2020-weight-classes
+    kind: reset
+    note: >
+      Bodyweight categories redrawn, annulling the records attached to the old
+      ones.
+source: ipf-rules

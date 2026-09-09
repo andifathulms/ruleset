@@ -29,6 +29,7 @@
     - { id: judo, label: Judo, colour: clay, members: [judo] }
     - { id: flying-disc, label: Flying disc, colour: pitch, members: [flying-disc] }
     - { id: korfball, label: Korfball, colour: pitch, members: [korfball] }
+    - { id: powerlifting, label: Powerlifting, colour: pool, members: [powerlifting] }
     - { id: modern-pentathlon, label: Modern pentathlon, colour: gold, members: [modern-pentathlon] }
     - { id: table-tennis, label: Table tennis, colour: clay, members: [table-tennis] }
     - { id: taekwondo, label: Taekwondo, colour: clay, members: [taekwondo] }
@@ -90,7 +91,7 @@
       colour: gold
       members: [athletics, gymnastics, swimming, cycling, weightlifting, rowing,
                 sailing, sport-climbing, equestrian, canoeing, triathlon,
-                skateboarding, surfing]
+                skateboarding, surfing, powerlifting]
     - id: outside-taxonomy
       label: Outside this taxonomy
       colour: unmarked
@@ -109,7 +110,8 @@
       label: Measured
       colour: pool
       members: [athletics, swimming, cycling, archery, weightlifting, modern-pentathlon,
-                rowing, sailing, shooting, golf, sport-climbing, canoeing, triathlon]
+                rowing, sailing, shooting, golf, sport-climbing, canoeing, triathlon,
+                powerlifting]
     - id: judged
       label: Judged
       colour: gold
