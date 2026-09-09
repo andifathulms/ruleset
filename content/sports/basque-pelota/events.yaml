@@ -1,0 +1,51 @@
+sport: basque-pelota
+as_of: 2026-09
+source: fipv-rules
+standing: primary-named
+summary: >
+  Contested for medals at one Olympic Games, in 1900, and as a demonstration
+  three times since. The international federation contests each specialty
+  separately, and the sport's most followed professional competition is run by
+  private companies in the Basque Country.
+disciplines:
+  - id: frontón
+    label: Frontón specialties
+    blurb: >
+      A front wall and a long left side wall, at thirty, thirty-six or
+      fifty-four metres. The implement changes with the length.
+    events:
+      - { id: mano, label: Mano — bare hand, at: [world-championship], count: 2, note: "Singles and pairs; the specialty the Basque Country follows." }
+      - { id: pala-paleta, label: Pala and paleta, at: [world-championship], count: 4, note: "Solid and light wooden bats, with leather or rubber balls." }
+      - { id: cesta-punta, label: Cesta punta, at: [world-championship], note: "The wicker basket, on the 54-metre wall; the fastest ball in sport." }
+      - { id: remonte, label: Remonte, at: [world-championship], note: "A shallower basket than the cesta, played on the long wall." }
+  - id: trinquete
+    label: Trinquete specialties
+    blurb: >
+      An enclosed court with a sloping penthouse roof and a corner buttress, all
+      of it live.
+    events:
+      - { id: trinquete-events, label: Hand, paleta and share, at: [world-championship], count: 4, note: "Share is a stringed racket used only here." }
+  - id: development
+    label: Formats built for export
+    counts: false
+    blurb: >
+      The federation's answer to needing a fronton, which almost nowhere
+      outside the Pyrenees and Latin America has.
+    events:
+      - { id: frontball, label: Frontball, at: [federation-only], note: A short three-wall format designed for schools and for countries with no court tradition. }
+  - id: olympic-record
+    label: Its Olympic record
+    counts: false
+    events:
+      - { id: paris1900, label: Basque pelota, Paris 1900, at: [lapsed], note: "A medal event contested by two teams, Spanish and French, in one match." }
+      - { id: demos, label: Demonstration appearances, at: [lapsed], note: "1924, 1968 and 1992 — the last at Barcelona." }
+  - id: professional
+    label: The professional game
+    counts: false
+    blurb: >
+      Hand pelota in the Basque Country is contracted, promoted and scheduled
+      by private companies rather than by the federation, and is played for
+      money in front of live betting.
+    events:
+      - { id: mano-pro, label: Professional hand pelota, at: [federation-only], note: "Where the sport's audience and money are; the federation does not run it." }
+      - { id: us-jai-alai, label: American jai alai, at: [lapsed], note: "A parimutuel betting industry from 1935, effectively collapsed after 1988 as other gambling was legalised." }

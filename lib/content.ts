@@ -304,6 +304,28 @@ export function getAllLearning(): { sport: string; learning: Learning }[] {
     .filter((x): x is { sport: string; learning: Learning } => x.learning !== null)
 }
 
+/**
+ * The same trap play.yaml's fact check exists for, one file over. An unquoted
+ * comma inside a flow mapping — `{ label: 50, 100 and 200 m bi-fins }` — makes
+ * a second key and truncates the value to `50`, which YAML then hands back as
+ * a number. Finswimming shipped two event labels reading "100" and "50" that
+ * way and they were live for weeks, because a number renders perfectly well as
+ * text and only breaks when something calls .replace on it.
+ */
+function assertIsText(
+  sport: string,
+  where: string,
+  field: string,
+  value: unknown,
+): void {
+  if (value === undefined) return
+  if (typeof value !== 'string') {
+    throw new Error(
+      `events.yaml (${sport}/${where}): "${field}" parsed as ${typeof value}, not text — check for an unquoted comma or colon inside a flow mapping.`,
+    )
+  }
+}
+
 export function getEvents(id: string): Events | null {
   const file = path.join(SPORTS, id, 'events.yaml')
   if (!fs.existsSync(file)) return null
@@ -321,7 +343,11 @@ export function getEvents(id: string): Events | null {
  */
 function assertEventsAreStatused(sport: string, events: Events): void {
   for (const d of events.disciplines) {
+    assertIsText(sport, d.id, 'label', d.label)
+    assertIsText(sport, d.id, 'blurb', d.blurb)
     for (const e of d.events) {
+      assertIsText(sport, `${d.id}/${e.id}`, 'label', e.label)
+      assertIsText(sport, `${d.id}/${e.id}`, 'note', e.note)
       if (e.context) {
         if (e.at) {
           throw new Error(

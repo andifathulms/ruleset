@@ -1,0 +1,94 @@
+sport: basque-pelota
+standing: editorial
+summary: >
+  A wall and a ball, and in the Basque Country a fronton in almost every
+  village — and a professional hand game whose entry cost is paid in permanent
+  damage to the hands you play it with.
+
+entry:
+  verdict: low
+  claim: A wall, a ball and a hand. In the Basque Country the wall is already there, next to the church.
+  why: >
+    Where pelota lives, the facility is public. Basque and Navarrese villages
+    have a **fronton** — often beside the church or the town hall, frequently
+    covered, always free — and children play against it with a ball and their
+    hands.
+
+    That is a genuinely unusual arrangement on this site: the sport's court is
+    municipal infrastructure rather than a club asset, which puts the entry
+    cost close to zero in its homeland and close to prohibitive everywhere
+    else.
+
+    The bat and racket specialties need an implement and cost more. **Frontball**,
+    a short three-wall format the federation promotes for schools and for
+    export, was designed to bring the entry cost down further and travel to
+    places with no fronton tradition.
+
+    What stops it being very low is the hand. Even at amateur level, striking a
+    hard ball with a bare palm hurts, and learning to take it is part of
+    starting.
+  evidence:
+    - { label: Facility, value: A public fronton, in Basque villages, basis: observation }
+    - { label: Kit to start, value: A ball, basis: rule, rule: pelota-bare-hand }
+    - { label: Outside the Basque Country, value: Almost no courts exist, basis: judgement }
+    - { label: The hand, value: Hurts from the first session, basis: observation }
+    - { label: Time to a real game, value: Immediate, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: The fastest ball in any sport, or a professional career measured by how long your hands last.
+  why: >
+    **Cesta punta** is the extreme. A ball slung from a wicker basket travels at
+    speeds recorded around three hundred kilometres an hour — faster than
+    anything else in sport — off a fifty-four-metre wall, and a player must
+    catch it in the basket, hold the momentum through a single continuous
+    motion and return it. The reaction demand is at the limit of what a person
+    can do.
+
+    **Mano** is harder in a different way, and this is the part outsiders miss.
+    A professional hand player strikes a hard ball with a bare palm, hundreds of
+    times a match, for a career. Hands swell, bruise to the bone, lose
+    sensation and are permanently deformed. Players build up pads and tape,
+    manage their hands between matches like an injury, and retire when the
+    hands go rather than when the legs do.
+
+    The professional structure is small and concentrated. A handful of
+    promotion companies contract a few dozen professionals in the Basque
+    Country, and outside it the elite pathway is a world championship in a
+    specialty most of the world has never seen played.
+  evidence:
+    - label: Cesta punta speed
+      value: About 300 km/h
+      basis: observation
+      note: The fastest ball recorded in any sport.
+    - label: The bare hand
+      value: No glove or padding beyond tape
+      basis: rule
+      rule: pelota-bare-hand
+      note: Hand damage ends more careers here than anything else.
+    - label: Specialties are separate sports
+      value: Court plus implement
+      basis: rule
+      rule: pelota-1929-fipv
+      note: A hand player and a cesta player do not compete.
+    - { label: Typical peak age, value: 24–33, basis: judgement }
+
+gap: >
+  Low to very high, and the interesting thing is where the cost falls.
+
+  Most sports on this site put the barrier at the entrance — equipment,
+  facilities, coaching — and then reward whoever gets through. Pelota inverts
+  it in its homeland: the fronton is free public infrastructure and a child can
+  start with a ball, and the price is charged later, out of the professional's
+  hands.
+
+  It is also the site's clearest case of a sport that is really several. Boules,
+  billiards and board games group unrelated codes under one federation for
+  institutional convenience; pelota's specialties are combinations of a court
+  and an implement, contested separately at world championships, and its two
+  most famous forms — the fastest ball in sport and a game played with the naked
+  hand — share nothing but a wall.
+
+shaped_by:
+  - pelota-bare-hand
+  - pelota-1929-fipv

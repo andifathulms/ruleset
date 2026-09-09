@@ -1,0 +1,37 @@
+id: pelota-speeds
+label: Ball speed
+unit: km/h
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  Pelota holds the fastest ball speed recorded in any sport, and it is not a
+  series.
+
+  The figure usually cited for cesta punta is around three hundred kilometres
+  an hour. It is a measurement taken on particular occasions, by particular
+  methods, rather than a ratified record with a progression behind it — there
+  is no equivalent of a governing body homologating ball speeds the way
+  athletics homologates a throw, and no continuous list to chart.
+
+  The specialties make anything broader impossible. A ball struck by a bare
+  hand, a solid wooden pala and a metre-long wicker basket are three different
+  projectiles, and the balls themselves differ — leather over a wound core for
+  the hand, rubber for paleta. Speeds across specialties are not comparable and
+  were never intended to be.
+
+  Nor are results. Each specialty is contested separately at world
+  championships, on courts of different lengths, and the professional hand game
+  — the sport's largest audience — is run by private promotion companies whose
+  competitive records are not the federation's.
+
+  So the sport's most striking number sits here as a single fact rather than a
+  line, which is the honest way to hold it.
+segments: []
+breaks:
+  - at: 1929
+    caused_by: pelota-1929-fipv
+    kind: scoped
+    note: >
+      A specialty is a court plus an implement. Speeds and results belong to a
+      specialty, never to pelota.
+source: fipv-rules

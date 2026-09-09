@@ -1,0 +1,148 @@
+- id: pelota-1900-olympic
+  scope: { sport: basque-pelota, discipline: all }
+  date_adopted: 1900
+  date_effective: 1900
+  status: withdrawn
+  governing_body: International Olympic Committee
+  what_changed: >
+    Basque pelota was contested at the Paris Games in 1900 as a medal event.
+    Two teams entered — one Spanish and one French — and one match was played.
+
+    It returned three times as a demonstration sport, in 1924, 1968 and 1992,
+    the last of those at Barcelona. It has never been on the programme since
+    1900, which makes it one of a small group of sports contested for medals
+    exactly once.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The 1900 Games ran alongside the Paris Exposition with a sprawling
+      programme drawn from what was played in France and its neighbours, and
+      pelota was a substantial professional sport across the Pyrenees.
+  citation:
+    source: olympedia
+    edition: Olympedia, basque pelota 1900
+    missing: true
+
+- id: pelota-1929-fipv
+  scope: { sport: basque-pelota, discipline: all }
+  date_adopted: 1929
+  date_effective: 1929
+  status: adopted
+  governing_body: Federación Internacional de Pelota Vasca
+  what_changed: >
+    An international federation was formed and did something unusual: rather
+    than choose a code, it recognised a set of **specialties**, each defined by
+    a court and an implement.
+
+    A specialty is a court length — a thirty-metre wall, a thirty-six-metre
+    wall, a fifty-four-metre wall, or an enclosed trinquete with a sloping
+    penthouse roof — combined with what the ball is struck with: the bare hand,
+    a solid wooden **pala**, a lighter **paleta**, a stringed **share**, or the
+    long curved wicker **cesta**.
+
+    The combinations are not variants of one game. A hand player on a
+    thirty-metre wall and a cesta player on a fifty-four-metre wall are doing
+    unrelated things, and world championships contest each specialty
+    separately.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Pelota was played across the Basque Country, Spain, France and Latin
+      America in locally distinct forms, and international competition needed a
+      structure that did not require any of them to be abandoned.
+  citation:
+    source: fipv-rules
+    edition: FIPV reglamento, especialidades
+    missing: true
+  comparability_break: pelota-speeds
+
+- id: pelota-bare-hand
+  scope: { sport: basque-pelota, discipline: mano }
+  date_adopted: 1929
+  date_effective: 1929
+  status: adopted
+  governing_body: FIPV, and the professional promotion companies
+  what_changed: >
+    **Pelota mano** is played by striking a hard ball with the naked hand. There
+    is no glove, no bat and no padding beyond tape and adhesive pads that
+    players build up on the striking surfaces themselves.
+
+    The ball has a rubber or wound core and a stitched leather cover, and it is
+    hard. Hands swell, bruise deeply, lose feeling and are permanently damaged;
+    hand condition determines whether a professional can play at all, and hand
+    injury ends more careers in this sport than anything else.
+
+    It is also the specialty the Basque Country actually follows. The most
+    dangerous form of the sport for the athlete is the popular one.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The hand game is the oldest form and the one embedded in Basque village
+      and festival life, and codification recorded practice rather than
+      substituting an implement for safety.
+  citation:
+    source: fipv-rules
+    edition: FIPV reglamento, mano
+    missing: true
+
+- id: pelota-1935-parimutuel
+  scope: { sport: basque-pelota, discipline: cesta-punta }
+  date_adopted: 1935
+  date_effective: 1935
+  status: adopted
+  governing_body: The State of Florida, not a sporting body
+  what_changed: >
+    Parimutuel wagering on jai alai — cesta punta — was legalised in Florida,
+    and an American industry grew around it: purpose-built frontons, imported
+    Basque and Latin American professionals, and daily programmes of matches
+    run principally as a betting product.
+
+    That is the reverse of the ordinary arrangement. Elsewhere on this site
+    betting attaches to a sport that exists; here a sport was imported and
+    staged because betting on it was legal, and the match card was designed
+    around wagering formats rather than around competition.
+  cause_primary: commercial
+  trigger:
+    description: >
+      Florida legalised parimutuel betting on jai alai as it had on horse and
+      dog racing, and promoters built frontons to take it.
+  citation:
+    source: fipv-rules
+    edition: Florida parimutuel statutes
+    missing: true
+  comparability_break: pelota-speeds
+
+- id: pelota-1988-jai-alai-collapse
+  scope: { sport: basque-pelota, discipline: cesta-punta }
+  date_adopted: 1988
+  date_effective: 1988
+  status: adopted
+  governing_body: None — a labour dispute and a gambling market
+  what_changed: >
+    American jai alai's players struck in 1988 over pay and conditions.
+    Frontons ran replacement players, the standard fell, and audiences did not
+    return in the numbers they had left in.
+
+    Two things finished it. A state lottery and, later, casino gambling gave
+    Floridians other ways to bet, and a sport whose American existence rested
+    on being the legal option lost the only reason it had been imported.
+
+    Jai alai in the United States has since contracted to almost nothing. It is
+    the clearest case on this site of a sport dying not from a rule, a scandal
+    or a safety problem, but because the gambling regulation that created it
+    changed.
+  cause_primary: commercial
+  cause_secondary: integrity
+  trigger:
+    description: >
+      A strike over pay coincided with the expansion of legal gambling in
+      Florida, and the fronton business had no proposition once wagering was
+      available elsewhere.
+    also_said: >
+      Some accounts weight the strike more heavily and some the lottery. The
+      site records both without ranking them, since the industry declined
+      through a period in which both were true.
+  citation:
+    source: fipv-rules
+    edition: Contemporary accounts of the Florida fronton industry
+    missing: true

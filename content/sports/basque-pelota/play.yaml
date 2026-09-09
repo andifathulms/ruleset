@@ -1,0 +1,131 @@
+sport: basque-pelota
+as_of: 2026-09
+edition: FIPV reglamento
+source: fipv-rules
+standing: primary-named
+summary: >
+  A ball struck against a front wall, alternately, until somebody fails to
+  return it — with the court, the implement and the ball all varying by
+  specialty, and the specialties contested separately.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Strike the ball against the front wall so that it lands in play and your
+      opponent cannot return it before it bounces twice.
+
+      That sentence covers every specialty and tells you almost nothing about
+      any of them, because the court length, the implement and the ball change
+      the game completely. The principle is shared; the sport is not.
+    facts:
+      - { label: Common principle, value: Return the ball off the front wall }
+
+  - id: field
+    label: The courts
+    body: >
+      **Frontón** courts have a front wall and a long left side wall, and come
+      in three lengths — thirty metres, thirty-six metres and fifty-four
+      metres. The longer the wall, the faster and more spectacular the
+      specialty played on it.
+
+      **Trinquete** is enclosed on four sides, with a sloping **penthouse** roof
+      running along one wall that the ball may be played off, and a buttress in
+      one corner. It is the most geometrically complicated court on this site —
+      surfaces at several angles, all live.
+
+      The court is the first half of a specialty's definition. A hand game on a
+      thirty-metre wall and a cesta game on fifty-four are different sports.
+    facts:
+      - { label: Frontón lengths, value: 30, 36 and 54 m }
+      - { label: Trinquete, value: Enclosed, with a sloping penthouse roof }
+      - { label: Live surfaces, value: Front wall, side wall, floor, and the penthouse }
+
+  - id: equipment
+    label: Hand, bat, racket and basket
+    body: >
+      The second half of a specialty's definition.
+
+      **Mano** — the bare hand. Nothing but tape and pads the player builds up
+      themselves, against a hard leather-covered ball.
+
+      **Pala** and **paleta** — solid wooden bats, heavier and lighter, with
+      leather or rubber balls to match.
+
+      **Share** — a stringed racket used in the trinquete.
+
+      **Remonte** and **cesta punta** — long curved wicker baskets strapped to
+      the arm, which catch the ball and slings it. The cesta produces the
+      fastest ball in any sport, recorded at around three hundred kilometres an
+      hour.
+
+      Helmets are compulsory in the basket specialties, for the obvious reason.
+    facts:
+      - { label: Mano, value: The bare hand, taped }
+      - { label: Cesta punta, value: A wicker basket; about 300 km/h }
+      - { label: Helmets, value: Compulsory in the basket specialties }
+    shaped_by: [pelota-bare-hand]
+
+  - id: players
+    label: Players and officials
+    body: >
+      Singles or pairs, depending on the specialty. A judge on the court, with
+      line judges, calling the ball in or out and adjudicating interference.
+
+      Professional hand pelota in the Basque Country is organised by private
+      **promotion companies**, which contract the players, arrange the matches
+      and set the pairings — so the sport's most followed form is run by
+      businesses rather than by the federation.
+    facts:
+      - { label: Format, value: Singles or pairs, by specialty }
+      - { label: Professional mano, value: Run by private promotion companies }
+
+  - id: duration
+    label: Time
+    body: >
+      No clock. Matches are played to a target number of points — commonly
+      twenty-two in professional hand pelota — and take as long as they take.
+    facts:
+      - { label: Professional mano, value: Usually to 22 points }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      A point on every rally, to whoever wins it. Simple, and unchanged — pelota
+      never made the service-scoring conversion that this site records in five
+      other net sports between 1999 and 2006, because it never had service
+      scoring to convert.
+
+      What sits alongside the score is the betting. In a Basque fronton,
+      **corredores** work the crowd during play, calling odds aloud as the match
+      swings and settling bets by throwing slit balls containing tickets into
+      the stands. The wagering is audible from the court and is part of what
+      the sport sounds like.
+    facts:
+      - { label: Scoring, value: A point on every rally }
+      - { label: Betting, value: Called aloud during play, in the fronton }
+
+  - id: restarts
+    label: The serve
+    body: >
+      The serve must reach the front wall and land within marked zones, which
+      vary by specialty and are the main thing keeping a serve from being an
+      outright weapon on a fifty-four-metre wall.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Letting the ball bounce twice, failing to reach the front wall, landing
+      outside the court's marked lines, holding the ball in a basket rather than
+      slinging it in one motion, and interfering with an opponent's swing or
+      path.
+
+      In **mano**, catching or scooping rather than striking, and touching the
+      ball with anything but the hand.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The target score. Because there is no clock and no set structure, a
+      pelota match has no natural comeback architecture — the score moves in
+      one line to the finish.

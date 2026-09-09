@@ -33,7 +33,7 @@ Three layers, marked as such everywhere:
   been entered; every other column is hatched rather than blank, because
   "nobody checked" and "absent" are not the same claim and must not be drawn
   the same way.
-- **Deep** — seventy-three sports: badminton, athletics, football, gymnastics,
+- **Deep** — seventy-five sports: badminton, athletics, football, gymnastics,
   swimming, table tennis, basketball, cycling, judo, archery, volleyball,
   tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo,
   boxing, equestrian, fencing, rowing, sailing, golf, sport climbing, wrestling,
@@ -44,16 +44,16 @@ Three layers, marked as such everywhere:
   dancesport, ju-jitsu, muaythai, wushu, kickboxing, boules, bowling, dragon
   boat, soft tennis, air sports, roller sports, underwater sports,
   cheerleading, billiards, kurash, duathlon, water ski and wakeboard, board
-  games, contract bridge, esports and polo.
+  games, contract bridge, esports, polo, croquet and basque pelota.
 
   That is **every sport on the 2028 summer Olympic programme, every sport on
   the World Games programme, and every sport on the Asian Games programme**,
-  plus two that lapsed from the Olympic programme and are still played
-  seriously — tug of war and polo.
+  plus four that lapsed from the Olympic programme and are still played
+  seriously — tug of war, polo, croquet and basque pelota.
 
-  Six sports remain at skeleton depth, all of them lapsed from the Olympic
-  programme before 1940 and none of them still contested at any scale: croquet,
-  rackets, roque, jeu de paume, basque pelota and motorboating.
+  Four sports remain at skeleton depth, all lapsed from the Olympic programme
+  before 1940 and none still contested at any scale: rackets, roque, jeu de
+  paume and motorboating.
 
 The first five were one per family, because a "rule" is a structurally
 different object in each: racket sports legislate scoring, measured sports
@@ -99,10 +99,12 @@ The fourth wave was picked for the same reason:
 - **Rowing, sailing and golf** are three answers to one question — our
   conditions cannot be standardised, so what do our numbers mean? Rowing
   refuses to call its times records. Sailing abandoned times entirely and
-  scores a series of positions with a discard. Golf built the handicap — one of
-  only two deliberate comparability *solutions* in this collection, and the
-  cleaner of them: polo built the other, and awards its goals before play
-  rather than adjusting a score after it.
+  scores a series of positions with a discard. Golf built the handicap, which
+  turns out to be one of a family: this collection now holds three deliberate
+  comparability *solutions*, all from sports played across enormous ability
+  ranges in clubs. Golf adjusts a score after the round, polo awards goals
+  before play, and croquet hands out free turns the recipient spends whenever
+  they choose — which is the most powerful of the three.
 - **Fencing** did taekwondo's judged-to-measured crossing fifty years earlier
   and took fifty-two years to finish, one weapon at a time.
 - **Equestrian** is the only sport with a non-human competitor and the only
@@ -340,6 +342,17 @@ programme and kept going:
   scoreboard does not start at nil and a final score is not a count of goals.
   And since 2010 cloned ponies have played and won at the top of the sport,
   through a gap in rules that never contemplated where a horse came from.
+- **Croquet's** founding club became Wimbledon and tennis took the lawns within
+  a decade. Its one Olympic appearance, in 1900, had women among the
+  competitors and reportedly one paying spectator. Everything structural in the
+  sport answers the **break** — a turn that a good player can extend to the
+  whole game — including a second code, golf croquet, built by removing it,
+  which is now the larger game.
+- **Basque pelota** is not one game but a set of specialties, each a court
+  length paired with an implement. One of them produces the fastest ball in any
+  sport, at around 300 km/h from a wicker basket. Another is played with the
+  bare hand and ends careers through it. And its American chapter is the site's
+  clearest case of a sport dying because a gambling statute stopped mattering.
 
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause

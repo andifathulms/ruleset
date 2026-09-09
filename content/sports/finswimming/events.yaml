@@ -27,12 +27,12 @@ disciplines:
       only racing event covered on this site where the athlete carries a
       breathing apparatus.
     events:
-      - { id: im, label: 100, 400 and 800 m immersion, at: [world-championship], count: 6 }
+      - { id: im, label: "100, 400 and 800 m immersion", at: [world-championship], count: 6 }
   - id: bifins
     label: Bi-fins
     blurb: Two conventional fins rather than a monofin. Separate records, never pooled.
     events:
-      - { id: bf, label: 50, 100 and 200 m bi-fins, at: [world-championship], count: 6 }
+      - { id: bf, label: "50, 100 and 200 m bi-fins", at: [world-championship], count: 6 }
   - id: elsewhere
     label: Governed by the same federation
     counts: false

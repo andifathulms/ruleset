@@ -363,7 +363,7 @@ sports:
 
   - id: basque-pelota
     label: Basque pelota
-    coverage: skeleton
+    coverage: deep
     governing_body: FIPV
     held: [1900]
 

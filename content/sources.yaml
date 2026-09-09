@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: fipv-rules
+  standing: primary-named
+  title: FIPV reglamento de especialidades
+  publisher: Federación Internacional de Pelota Vasca
+  kind: rulebook
+  url: https://www.fipv.net/
+
 - id: wcf-rules
   standing: primary-named
   title: WCF Laws of Association Croquet and Rules of Golf Croquet

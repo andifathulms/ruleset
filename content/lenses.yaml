@@ -20,6 +20,7 @@
     - { id: archery, label: Archery, colour: pool, members: [archery] }
     - { id: athletics, label: Athletics, colour: pool, members: [athletics] }
     - { id: badminton, label: Badminton, colour: clay, members: [badminton] }
+    - { id: basque-pelota, label: Basque pelota, colour: clay, members: [basque-pelota] }
     - { id: baseball, label: Baseball, colour: pitch, members: [baseball] }
     - { id: basketball, label: Basketball, colour: pitch, members: [basketball] }
     - { id: billiards, label: Billiards sports, colour: pool, members: [billiards] }
@@ -105,7 +106,7 @@
       label: Net and wall
       colour: clay
       members: [badminton, table-tennis, tennis, volleyball, squash, fistball,
-                sepak-takraw, racquetball, soft-tennis]
+                sepak-takraw, racquetball, soft-tennis, basque-pelota]
     - id: invasion
       label: Invasion
       colour: pitch
@@ -162,7 +163,8 @@
                 cricket, baseball, hockey, handball, rugby, softball, lacrosse,
                 squash, flag-football, korfball, tug-of-war, fistball, floorball,
                 kabaddi, sepak-takraw, racquetball, soft-tennis, underwater-sports,
-                billiards, board-games, bridge, esports, polo, croquet]
+                billiards, board-games, bridge, esports, polo, croquet,
+                basque-pelota]
     - id: combat
       label: Combat
       colour: clay
