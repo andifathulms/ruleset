@@ -541,6 +541,8 @@ function LaneRow({
      the year it happened rather than drifting to the right of it. The nudge is
      a few pixels, well under a year at any width the board is drawn at. */
   const MIN_GAP = 17
+  /** How far a mark may be moved from its true date. About a year and a half. */
+  const MAX_NUDGE = 12
   const positions = useMemo(() => {
     const raw = lane.marks.map((m) => x(m.time))
     const out = [...raw]
@@ -558,24 +560,84 @@ function LaneRow({
       }
       start = i
     }
+
+    /* And then bounded, which it was not. With sixty marks inside one decade
+       the spreading ran a lane's tail clean off the drawing — seventy-four
+       marks were being painted up to eight hundred pixels outside the SVG,
+       invisible and unreachable, at years decades from their own. The comment
+       above promised a nudge "well under a year"; this is what makes that
+       true. A dense era now reads as overlapping glyphs, which is what a dense
+       era is. */
+    for (let i = 0; i < out.length; i++) {
+      const bounded = Math.min(raw[i] + MAX_NUDGE, Math.max(raw[i] - MAX_NUDGE, out[i]))
+      // A mark at the very start of the range could still be nudged out past
+      // the painted lane; the plot edges are the last word.
+      out[i] = Math.min(right, Math.max(left, bounded))
+    }
     return out
-  }, [lane.marks, x])
+  }, [lane.marks, x, left, right])
 
   /* Year labels alternated on index parity, which put two adjacent marks on
      the same side whenever a third sat between them. Sides are now chosen by
-     how close the last label on each side actually is. */
+     how close the last label on each side actually is — and, crucially, a
+     label that fits on neither side is not drawn at all.
+
+     Choosing the roomier side was never enough on its own: it decided *where*
+     to print a label and never whether there was room for one, so seventy-one
+     of them were being printed over their neighbours. The mark stays, and the
+     year is on hover; an unreadable label is worth less than white space. */
+  const YEAR_W = 34
   const labelSide = useMemo(() => {
     let lastAbove = -Infinity
     let lastBelow = -Infinity
     return positions.map((px) => {
-      // Whichever side has more room. Preferring one side and only falling
-      // back on the other still collided once three marks arrived together.
-      const above = px - lastAbove >= px - lastBelow
+      const roomAbove = px - lastAbove >= YEAR_W
+      const roomBelow = px - lastBelow >= YEAR_W
+      if (!roomAbove && !roomBelow) return null
+      const above = roomAbove && (!roomBelow || px - lastAbove >= px - lastBelow)
       if (above) lastAbove = px
       else lastBelow = px
       return above
     })
   }, [positions])
+  /** Breaks within this of each other cannot both be captioned legibly. */
+  const BREAK_GAP = 76
+  /** And a cluster wider than this stops describing anywhere in particular. */
+  const BREAK_SPAN = 150
+  const breakCaptions = useMemo(() => {
+    /* Chaining on adjacency alone swallowed whole eras: every break in the
+       measured lane after 1961 was within the gap of the next, so they
+       collapsed into one caption reading "34 breaks 1961-2028", centred on a
+       mean that sat over nothing. A cluster is now also capped in width, so a
+       dense run produces several captions each sitting over the stretch it
+       actually describes. */
+    const runs: (typeof steps)[] = []
+    for (const s of steps) {
+      const run = runs[runs.length - 1]
+      const near = run && s.x - run[run.length - 1].x < BREAK_GAP
+      const fits = run && s.x - run[0].x <= BREAK_SPAN
+      if (near && fits) run.push(s)
+      else runs.push([s])
+    }
+
+    const rowLastRight = [-Infinity, -Infinity]
+    return runs.map((run) => {
+      const from = run[0].year
+      const to = run[run.length - 1].year
+      const text =
+        run.length === 1
+          ? `break ${from}`
+          : `${run.length} breaks ${from === to ? from : `${from}\u2013${to}`}`
+      const x = (run[0].x + run[run.length - 1].x) / 2
+      const half = (text.length * 6.2) / 2
+      // Two rows are all the gap above a lane affords; a caption that fits in
+      // neither is dropped, and the step in the line still says it happened.
+      const row = rowLastRight.findIndex((r) => x - half >= r)
+      if (row >= 0) rowLastRight[row] = x + half + 6
+      return { x, text, row }
+    }).filter((c) => c.row >= 0)
+  }, [steps])
+
   const top = y - LANE_H / 2 + 9
   const boxH = LANE_H - 18
 
@@ -626,27 +688,29 @@ function LaneRow({
             strokeDasharray={lane.empty ? '2 7' : undefined}
           />
         ))}
-        {steps.map((s, i) => {
-          /* Two breaks close together printed their captions on top of each
-             other — the measured lane now holds four, and 2010 and 2014 landed
-             as one smear. A caption within this distance of the last one is
-             lifted onto a second line. */
-          const crowded = i > 0 && s.x - steps[i - 1].x < 74
-          return (
-            <g key={i}>
-              <line
-                x1={s.x} x2={s.x} y1={y + s.from} y2={y + s.to}
-                stroke={CHALK} strokeOpacity={0.35} strokeWidth={2} strokeDasharray="3 3"
-              />
-              <text
-                x={s.x} y={y - (crowded ? 56 : 42)}
-                className="numeral" fontSize={12} fill={CHALK} fillOpacity={0.7} textAnchor="middle"
-              >
-                break {s.year}
-              </text>
-            </g>
-          )
-        })}
+        {steps.map((s, i) => (
+          <line
+            key={i}
+            x1={s.x} x2={s.x} y1={y + s.from} y2={y + s.to}
+            stroke={CHALK} strokeOpacity={0.35} strokeWidth={2} strokeDasharray="3 3"
+          />
+        ))}
+        {/* One caption per cluster of breaks, not one per break. Lifting a
+            crowded caption onto a second line worked for two and failed for
+            seven: the measured lane ends with a run of them and every caption
+            after the first went to the same fallback row, so seventy-seven of
+            a hundred and one were printed over each other. Breaks too close to
+            caption separately are now named once, with their count and range.
+            The step in the lane is the load-bearing signal either way. */}
+        {breakCaptions.map((c, i) => (
+          <text
+            key={i}
+            x={c.x} y={y - (c.row === 0 ? 42 : 56)}
+            className="numeral" fontSize={12} fill={CHALK} fillOpacity={0.7} textAnchor="middle"
+          >
+            {c.text}
+          </text>
+        ))}
       </g>
 
       {lane.marks.map((m, i) => {
@@ -700,13 +764,15 @@ function LaneRow({
                   withdrawn={withdrawn.has(m.id)}
                 />
               </g>
-              <text
-                className="numeral"
-                y={above ? -21 : 33}
-                fontSize={15} fill={CHALK} fillOpacity={0.75} textAnchor="middle"
-              >
-                {m.year}
-              </text>
+              {above !== null && (
+                <text
+                  className="numeral"
+                  y={above ? -21 : 33}
+                  fontSize={15} fill={CHALK} fillOpacity={0.75} textAnchor="middle"
+                >
+                  {m.year}
+                </text>
+              )}
             </g>
           </g>
         )
