@@ -1,0 +1,41 @@
+sport: air-sports
+as_of: 2026-09
+source: fai-code
+standing: primary-named
+summary: >
+  No Olympic events. Air sports are contested at the World Games in the
+  disciplines that can be staged for an audience, and the federation runs world
+  championships across a far wider range — as well as ratifying aviation
+  records that have nothing to do with sport.
+disciplines:
+  - id: worldgames
+    label: Contested at the World Games
+    blurb: The disciplines that can be held in a venue with spectators.
+    events:
+      - { id: para-accuracy, label: Paragliding accuracy, at: [world-games, world-championship], count: 2 }
+      - { id: canopy, label: Canopy piloting, at: [world-games, world-championship], count: 2, note: Flying a parachute through a course at speed, close to the water. }
+      - { id: drone, label: Drone racing, at: [world-games, world-championship], note: First world championship in 2018. }
+      - { id: aerobatics-glider, label: Glider aerobatics, at: [world-games, world-championship], count: 2 }
+  - id: air
+    label: Contested in the air, away from spectators
+    counts: false
+    blurb: >
+      The federation's larger disciplines, held over open country and difficult
+      to present to an audience.
+    events:
+      - { id: gliding, label: Gliding, at: [world-championship], count: 4, note: Tasks scored relative to what the field achieved in the same weather. }
+      - { id: ballooning, label: Ballooning, at: [world-championship], count: 2 }
+      - { id: hang, label: Hang gliding and paragliding cross-country, at: [world-championship], count: 4 }
+      - { id: skydiving, label: Skydiving formation and freefall disciplines, at: [world-championship], count: 6 }
+      - { id: powered, label: Powered aerobatics and air racing, at: [world-championship], count: 4 }
+      - { id: aeromodelling, label: Aeromodelling, at: [world-championship], count: 6, note: Flown by a competitor standing on the ground. }
+  - id: records
+    label: What else the federation does
+    counts: false
+    blurb: >
+      The FAI was founded in 1905 to certify records, and it still ratifies
+      absolute aeronautical performance — including flights that are in no
+      sense sporting.
+    events:
+      - { id: absolute, label: Absolute aviation records, at: [federation-only], note: "Altitude, speed and distance for aircraft, ratified regardless of whether the flight was a competition." }
+      - { id: astronautics, label: Astronautic records, at: [federation-only], note: "The federation's definitions extend above the atmosphere, which is how a sports body came to fix the accepted boundary of space at 100 km." }

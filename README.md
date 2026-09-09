@@ -33,7 +33,7 @@ Three layers, marked as such everywhere:
   been entered; every other column is hatched rather than blank, because
   "nobody checked" and "absent" are not the same claim and must not be drawn
   the same way.
-- **Deep** — fifty-seven sports: badminton, athletics, football, gymnastics,
+- **Deep** — sixty-two sports: badminton, athletics, football, gymnastics,
   swimming, table tennis, basketball, cycling, judo, archery, volleyball,
   tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo,
   boxing, equestrian, fencing, rowing, sailing, golf, sport climbing, wrestling,
@@ -41,13 +41,15 @@ Three layers, marked as such everywhere:
   handball, canoeing, skateboarding, karate, softball, flag football, korfball,
   flying disc, powerlifting, tug of war, fistball, orienteering, sumo,
   floorball, lifesaving, kabaddi, sepak takraw, finswimming, racquetball and
-  dancesport, ju-jitsu, muaythai, wushu and kickboxing.
+  dancesport, ju-jitsu, muaythai, wushu, kickboxing, boules, bowling, dragon
+  boat, soft tennis and air sports.
 
-  The first thirty-nine are every sport on the 2028 summer programme. Sixteen
-  are World Games sports — fifteen that have never been Olympic, plus tug of
+  The first thirty-nine are every sport on the 2028 summer programme. Nineteen
+  are World Games sports — eighteen that have never been Olympic, plus tug of
   war, which was removed in the 1920s and carried on without the Games for a
-  century — and two, kabaddi and sepak takraw, are contested at the Asian Games
-  and nowhere else. Twenty-two more sit in the skeleton.
+  century — and four, kabaddi, sepak takraw, dragon boat and soft tennis, are
+  contested at the Asian Games and nowhere else. Seventeen more sit in the
+  skeleton.
 
 The first five were one per family, because a "rule" is a structurally
 different object in each: racket sports legislate scoring, measured sports
@@ -232,6 +234,34 @@ sport's summit actually sits:
   fighter left to optimise freely stops throwing them and the sport turns back
   into boxing. It is the only technique quota on this site, and the clearest
   case of a rule written to stop a sport becoming a different one.
+
+The seventh wave took the sports with large participation and almost no
+institutional weight, and found five different reasons for that:
+
+- **Boules** is the only sport here founded on an accessibility accommodation.
+  Pétanque was created at La Ciotat in 1907 by removing the run-up so a player
+  with rheumatism could keep competing, and the removal made a better game. It
+  is also a target sport whose target moves, and whose competitors measure the
+  result themselves with callipers.
+- **Bowling** is the strangest comparability case on the site, because nothing
+  about its scoring ever changed. A strike has scored ten plus the next two
+  deliveries for a century and the maximum is still 300 — which is exactly why
+  the numbers cannot be compared, since reactive resin balls in the early 1990s
+  made reaching them far easier while the scale stood still. Its answer was one
+  nothing else here has had: leave the equipment alone and change the invisible
+  oil pattern the equipment acts on.
+- **Dragon boat** carries twenty-two people of whom two supply no propulsion —
+  a drummer beating time and a steerer — and its breast cancer survivor
+  divisions are the only competitive category here created by a clinical trial.
+- **Soft tennis** exists because Meiji-era Japan could not affordably import
+  tennis balls. Substituting a 30-gram rubber one around 1884 produced a
+  different sport, and it is the controlled version of the argument the tennis
+  and badminton pages make: change only the implement and the learning curve
+  inverts.
+- **Air sports** has the highest entry barrier here, set by aviation law rather
+  than by anything sporting — and a federation founded in 1905 to certify
+  records rather than run contests, which is how a sporting body came to fix
+  the accepted boundary of space at 100 km.
 
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause

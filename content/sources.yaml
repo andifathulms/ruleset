@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: fai-code
+  standing: primary-named
+  title: FAI Sporting Code
+  publisher: Fédération Aéronautique Internationale
+  kind: rulebook
+  url: https://www.fai.org/
+
 - id: istf-rules
   standing: primary-named
   title: ISTF Rules of Soft Tennis

@@ -1,0 +1,145 @@
+sport: air-sports
+as_of: 2026-09
+edition: FAI Sporting Code
+source: fai-code
+standing: primary-named
+summary: >
+  One federation, many disciplines, and no single set of rules. Gliding scores
+  tasks set on the day. Parachuting measures a landing to the centimetre.
+  Aerobatics is judged. Drone racing is a stadium race flown by a pilot
+  standing on the ground.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      It depends entirely on the discipline, and that is the honest answer.
+
+      **Gliding** flies a task — a course round turning points — for speed or
+      distance. **Parachuting** hits a target, or performs formations against
+      the clock, or flies a canopy through a course. **Aerobatics** performs a
+      sequence and is judged. **Ballooning** navigates to markers. **Drone
+      racing** goes round a course of gates fastest.
+
+      What unites them is the medium and the federation, not the contest.
+    facts:
+      - { label: Disciplines, value: Gliding, ballooning, parachuting, paragliding, hang gliding, aerobatics, aeromodelling, drones }
+
+  - id: field
+    label: The air
+    body: >
+      The field of play is the atmosphere, and it is the least standardised
+      playing surface of any sport covered here — by a distance that is not
+      close.
+
+      A glider stays up by finding rising air: thermals over heated ground,
+      ridge lift on a hillside, mountain wave downwind of a range. None of that
+      is available on demand, none is visible, and the day's weather determines
+      what is possible. A task set on Tuesday cannot be flown on Wednesday.
+
+      Drone racing is the exception: a stadium course of illuminated gates,
+      indoors or out, which is why it is the discipline the federation can
+      actually present to an audience.
+    facts:
+      - { label: Playing surface, value: The atmosphere }
+      - { label: Standardised, value: Only in drone racing }
+      - { label: Gliding lift, value: Thermal, ridge and mountain wave }
+
+  - id: equipment
+    label: Aircraft
+    body: >
+      The aircraft is the equipment and it varies from a fifteen-metre-span
+      composite sailplane to a paraglider that packs into a rucksack to a
+      racing drone that fits in a hand.
+
+      Gliding manages equipment inequality by **class**: competitors fly within
+      defined classes limited by wingspan or by a standard specification, so a
+      contest is between pilots rather than between budgets. That is the same
+      instrument sailing uses, and for the same reason.
+
+      Parachuting, paragliding and hang gliding all certify equipment for
+      airworthiness, which is a category of regulation almost nothing else on
+      this site needs: the equipment failing is not a competitive
+      disadvantage.
+    facts:
+      - { label: Gliding, value: Classes by wingspan or standard specification }
+      - { label: Certification, value: Airworthiness, not just fairness }
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      A pilot, sometimes a crew, and in two disciplines a competitor who never
+      leaves the ground: aeromodelling and drone racing are flown by someone
+      standing in a field or a stadium.
+
+      That range is unmatched here. The same federation governs a person at
+      four thousand metres in a sailplane and a person on the ground watching
+      through goggles.
+    facts:
+      - { label: In the air, value: Most disciplines }
+      - { label: On the ground, value: Aeromodelling and drone racing }
+    shaped_by: [fai-2018-drone-racing]
+
+  - id: duration
+    label: Time
+    body: >
+      A gliding task can take five hours or be abandoned when the weather
+      collapses. A drone race lasts a minute. A parachuting accuracy jump is
+      decided in the last second of a descent.
+
+      The federation's disciplines have less in common in duration than in
+      anything else.
+    facts:
+      - { label: Gliding task, value: Hours, weather permitting }
+      - { label: Drone race, value: About a minute }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      **Gliding** scores tasks relative to the field: points depend on what the
+      other competitors achieved in the same air on the same day, because a
+      fixed standard would measure the weather.
+
+      **Parachuting accuracy** measures the distance from the centre of a
+      target to the first point of contact, electronically, to the centimetre.
+
+      **Aerobatics** is judged by a panel against a declared sequence, with
+      deductions for deviation from the figure's geometry.
+
+      **Drone racing** is elapsed time.
+
+      One federation running a relative-scoring sport, a measured sport, a
+      judged sport and a timed sport is a broader spread than any other body on
+      this site attempts.
+    shaped_by: [fai-1937-world-championships]
+
+  - id: restarts
+    label: Launch
+    body: >
+      Gliders launch by aerotow or winch. Paragliders and hang gliders launch on
+      foot from a slope. Balloons inflate and lift. Parachutists exit an
+      aircraft. Drones start from a grid.
+
+      In several disciplines the launch is not part of the competition and is
+      simply how you get to the start, which is unusual: for most sports the
+      start is the contest's first moment.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Airspace violations, which carry consequences outside the sport entirely.
+      Missing a turning point or flying below a defined minimum height.
+      Equipment outside the class or certification. In aerobatics, breaking the
+      boundaries of the display box, which is penalised progressively.
+
+      Safety rules here are aviation regulations rather than sporting ones, and
+      a competitor who breaks them may answer to a national aviation authority
+      rather than to a federation.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Highest points, closest landing, best judged sequence, or fastest lap —
+      by discipline. Championship gliding accumulates points over many contest
+      days, so a title reflects consistency across whatever weather the week
+      supplied.

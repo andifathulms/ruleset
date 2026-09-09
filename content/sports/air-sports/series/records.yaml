@@ -1,0 +1,41 @@
+id: air-sports-records
+label: Record progressions
+unit: km
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  The FAI ratifies more records than any other body on this site, and none of
+  them belongs on a single line.
+
+  **The weather sets the ceiling.** A gliding distance record requires a
+  specific meteorological phenomenon — mountain wave downwind of a range,
+  usually — that occurs reliably in a small number of places on earth. The
+  great distance records are set in the Andes and in a handful of comparable
+  ranges, and they measure the availability of a weather system as much as the
+  skill of a pilot. Competitive gliding acknowledges this openly by scoring
+  tasks relative to what the rest of the field achieved in the same air.
+
+  **The classes multiply.** Records are held by aircraft class, by discipline,
+  by category of flight, and by whether the aircraft was launched under its own
+  power. A record is a fact about a category rather than about the sport.
+
+  **The remit exceeds the sport.** The federation certifies absolute
+  aeronautical performance — altitude, speed, distance — for flights that were
+  never competitions, and its definitions extend beyond the atmosphere
+  altogether. That is why the accepted boundary of space at 100 kilometres is a
+  sporting body's definition, adopted for the purpose of deciding which records
+  were aeronautical and which were astronautic.
+
+  A chart cannot hold that. What this space records instead is the oddest fact
+  about this federation: it was founded in 1905 to arbitrate performance rather
+  than to run contests, and it has been arbitrating things far outside sport
+  ever since.
+segments: []
+breaks:
+  - at: 1905
+    caused_by: fai-1905-founding
+    kind: scoped
+    note: >
+      Records are certified by class, discipline and category, and the
+      federation's remit extends to flights that were never sport.
+source: fai-code

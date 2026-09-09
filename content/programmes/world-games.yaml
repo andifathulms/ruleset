@@ -44,8 +44,11 @@ editions:
 sports:
   - id: air-sports
     label: Air sports
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Its federation was founded in 1905 to certify records, and fixed the
+      accepted boundary of space at 100 km.
   - id: archery
     label: Archery
     coverage: deep

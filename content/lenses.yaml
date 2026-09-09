@@ -16,6 +16,7 @@
   source: ioc-olympic-charter
   groups:
     - { id: aquatics, label: Aquatics, colour: pool, members: [swimming] }
+    - { id: air-sports, label: Air sports, colour: pool, members: [air-sports] }
     - { id: archery, label: Archery, colour: pool, members: [archery] }
     - { id: athletics, label: Athletics, colour: pool, members: [athletics] }
     - { id: badminton, label: Badminton, colour: clay, members: [badminton] }
@@ -118,7 +119,7 @@
       colour: unmarked
       members: [judo, taekwondo, boxing, modern-pentathlon, fencing, wrestling,
                 karate, breaking, tug-of-war, sumo, dancesport, ju-jitsu,
-                muaythai, wushu, kickboxing]
+                muaythai, wushu, kickboxing, air-sports]
 
 - id: adjudication
   label: Adjudication
@@ -134,7 +135,7 @@
       members: [athletics, swimming, cycling, archery, weightlifting, modern-pentathlon,
                 rowing, sailing, shooting, golf, sport-climbing, canoeing, triathlon,
                 powerlifting, orienteering, lifesaving, finswimming, boules,
-                bowling, dragon-boat]
+                bowling, dragon-boat, air-sports]
     - id: judged
       label: Judged
       colour: gold

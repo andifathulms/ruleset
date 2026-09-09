@@ -1,0 +1,86 @@
+- id: fai-1905-founding
+  scope: { sport: air-sports, discipline: all }
+  date_adopted: 1905
+  date_effective: 1905
+  status: adopted
+  governing_body: Fédération Aéronautique Internationale
+  what_changed: >
+    The FAI was founded to certify aeronautical records: to define what a
+    record was, what evidence was required, and who could ratify it.
+
+    That is an unusual founding purpose. Almost every federation on this site
+    was created to organise competition and acquired record-keeping as a
+    consequence. The FAI was created to be the arbiter first, and the
+    competitions came later.
+
+    The consequence is that its remit reaches far outside sport. The FAI
+    ratifies absolute performance records for aircraft — altitude, speed,
+    distance — regardless of whether the flight was a sporting one, and its
+    definitions have been used to settle questions that have nothing to do with
+    competition.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Powered flight was two years old, claims of performance were being made
+      without agreed measurement standards, and aero clubs across Europe needed
+      a body that could say whether a record had been set.
+  citation:
+    source: fai-code
+    edition: FAI Sporting Code, general section
+    missing: true
+  comparability_break: air-sports-records
+
+- id: fai-1937-world-championships
+  scope: { sport: air-sports, discipline: gliding }
+  date_adopted: 1937
+  date_effective: 1937
+  status: adopted
+  governing_body: Fédération Aéronautique Internationale
+  what_changed: >
+    The first world gliding championships were held, turning the federation
+    from a record-certifying body into one that also runs competitions.
+
+    Gliding competition required an invention: since a glider's performance
+    depends entirely on the day's weather, the sport scores tasks set on the
+    morning of each contest day, with points calculated relative to what the
+    field achieved. A competitor is scored against the other pilots flying the
+    same air, rather than against a fixed standard.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Soaring flight had developed rapidly in Germany in the 1920s and 1930s
+      and national contests existed, with no international competition and no
+      agreed way to score a sport whose conditions change hourly.
+  citation:
+    source: fai-code
+    edition: FAI Sporting Code, Section 3 — Gliding
+    missing: true
+
+- id: fai-2018-drone-racing
+  scope: { sport: air-sports, discipline: drone-racing }
+  date_adopted: 2018
+  date_effective: 2018
+  status: adopted
+  governing_body: Fédération Aéronautique Internationale
+  what_changed: >
+    The FAI held its first world drone racing championship, formalising a
+    discipline in which the competitor stands on the ground wearing goggles and
+    the aircraft flies a course by itself — piloted remotely, seen through its
+    own camera.
+
+    The federation had governed aeromodelling for decades, so a pilot who never
+    leaves the ground was not new. What drone racing added was a discipline
+    where the aircraft is disposable, the course is a set of gates in a stadium,
+    and the sport is watchable — which none of the federation's other
+    disciplines had managed.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      First-person-view drone racing had grown rapidly outside any federation,
+      organised by commercial leagues and online communities, and the FAI moved
+      to bring it inside the international system.
+  citation:
+    source: fai-code
+    edition: FAI Sporting Code, Section 4 — Aeromodelling and drones
+    missing: true

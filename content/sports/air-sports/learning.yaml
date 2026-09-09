@@ -1,0 +1,91 @@
+sport: air-sports
+standing: editorial
+summary: >
+  The highest entry barrier of any sport on this site for most of its
+  disciplines — you need an aircraft, a licence and an airfield — and one
+  discipline you can start this week with a two-hundred-pound drone.
+
+entry:
+  verdict: high
+  claim: An aircraft, a licence, an airfield and a club. Except in drone racing, where it is a controller and a field.
+  why: >
+    For most of the federation's disciplines the barrier is aviation itself.
+    Gliding requires a club with launch equipment, an instructor, a licence
+    earned over months, and an airfield. Ballooning requires a balloon and a
+    crew. Parachuting requires an aircraft and a drop zone. None of that is
+    cheap and none of it is available near most people.
+
+    Paragliding and hang gliding are the cheapest routes into the air —
+    equipment that fits in a car, launched on foot from a hill — and they still
+    need instruction, a licence in most jurisdictions, and suitable terrain.
+
+    **Drone racing is the exception and it is a large one.** A racing drone, a
+    controller and goggles cost less than a set of golf clubs, the sport can be
+    practised in a field or a car park, and a beginner is flying on the first
+    day. It is the only discipline here that a person can take up alone.
+  evidence:
+    - { label: Most disciplines, value: Aircraft, licence, airfield, club, basis: judgement }
+    - { label: Gliding, value: Months of instruction to fly solo, basis: judgement }
+    - { label: Drone racing, value: Equipment costs less than a bicycle, basis: rule, rule: fai-2018-drone-racing }
+    - { label: Foot-launched, value: Paragliding and hang gliding are the cheapest way into the air, basis: observation }
+    - { label: Time to a first competition, value: Years, or weeks for drones, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Reading air you cannot see, for hours, with the weather deciding what is possible.
+  why: >
+    Championship gliding is the clearest case. A pilot must find rising air that
+    is invisible, work it efficiently, choose a route across country that will
+    still have lift when they get there, and decide when to leave a thermal —
+    all while flying a task set that morning against pilots in the same air. The
+    decisions compound over five hours, and a wrong one puts you in a field.
+
+    That skill is closest, on this site, to orienteering: reading an environment
+    nobody standardised, at speed, where the mistake is a decision rather than a
+    physical failure.
+
+    Aerobatics is a judged discipline flown under g-loading, where the geometry
+    of a figure must be exact and the pilot is the only person who cannot see
+    the shape they are drawing.
+
+    Parachuting accuracy asks for a landing measured to the centimetre after a
+    descent through air that is moving.
+
+    And drone racing, the accessible one, has a very high ceiling of its own:
+    flying at speed through gates, seen through a camera, with reaction times
+    that select hard for young pilots.
+  evidence:
+    - label: Tasks scored relative to the field
+      value: Since 1937
+      basis: rule
+      rule: fai-1937-world-championships
+      note: A fixed standard would measure the weather rather than the pilot.
+    - label: The lift is invisible
+      value: Thermal, ridge and wave
+      basis: observation
+      note: The central skill is reading an environment that cannot be seen.
+    - label: Records certified since 1905
+      value: By the same body
+      basis: rule
+      rule: fai-1905-founding
+      note: The federation was created to arbitrate performance, not to run contests.
+    - { label: Typical peak age, value: 30–50 in gliding; under 25 in drone racing, basis: judgement }
+
+gap: >
+  High to very high, and it is the only sport on this site whose entry barrier
+  is set by aviation law rather than by anything sporting.
+
+  You cannot begin most of these disciplines without a licence, an aircraft and
+  a facility, and no rule change by any federation can alter that. Where every
+  other sport here can lower its barrier by simplifying its equipment — as
+  pétanque did in 1907 and flag football did by removing the tackle — air
+  sports cannot, because the aircraft is not negotiable.
+
+  Drone racing is the exception that proves it. The moment the aircraft became
+  cheap, disposable and legal to fly in a field, the barrier collapsed to
+  almost nothing, and the discipline grew outside the federation entirely
+  before being brought inside in 2018.
+
+shaped_by:
+  - fai-1905-founding
+  - fai-2018-drone-racing

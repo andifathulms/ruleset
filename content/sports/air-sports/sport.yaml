@@ -1,0 +1,22 @@
+id: air-sports
+label: Air sports
+tagline: "Its federation ratifies aviation and spaceflight records, and decided where space begins."
+governing_body: Fédération Aéronautique Internationale
+founded: >
+  The Fédération Aéronautique Internationale was founded in 1905 to certify
+  aeronautical records — before the aeroplane was a practical machine, and
+  before most of the sports on this site had international federations.
+coverage: deep
+family_colour: pool
+classification:
+  official: air-sports
+  game-category: outside-taxonomy
+  adjudication: measured
+summary: >
+  A federation older than most of the sports it sits beside, governing gliding,
+  ballooning, parachuting, paragliding, hang gliding, aerobatics, aeromodelling
+  and drone racing. Its competitors range from a pilot at four thousand metres
+  to a person standing in a field with a controller. And because it was founded
+  to certify records rather than to run competitions, it ratifies aviation and
+  spaceflight performance generally — which is how a sports body came to define
+  the boundary of space.
