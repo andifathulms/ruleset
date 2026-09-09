@@ -1,0 +1,85 @@
+sport: korfball
+standing: editorial
+summary: >
+  Very easy to start — no contact, no dribble, one point per goal — and
+  deceptively hard at the top, because a sport that has banned every physical
+  way of winning the ball leaves only the hard way.
+
+entry:
+  verdict: very-low
+  claim: A ball, a post and eight people. Nothing about it hurts and there is no dribble to master.
+  why: >
+    Korfball removes almost every skill barrier a beginner meets in an invasion
+    sport. There is no dribble, so the ball-handling requirement is catching
+    and passing. There is no contact, so a beginner is never physically
+    overwhelmed. Every goal is worth one, so there is nothing tactical to learn
+    before you can play.
+
+    It was designed for a school class in 1902 and it still behaves like it:
+    mixed ability, mixed sex and mixed age teams work, and the same-sex
+    defending rule means a beginner is matched against someone comparable
+    rather than against whoever is biggest.
+
+    The barrier is finding a game. Outside the Netherlands and Belgium, clubs
+    are scarce.
+  evidence:
+    - { label: Players needed, value: "16", basis: rule, rule: korfball-1902-mixed-sex }
+    - { label: Kit to start, value: A ball and a korf, basis: observation }
+    - { label: Contact, value: None permitted, basis: rule, rule: korfball-defended-shot }
+    - { label: Dribbling, value: Does not exist, basis: observation, note: The commonest barrier in invasion sports is simply absent. }
+    - { label: Time to a real game, value: One session, basis: judgement }
+
+mastery:
+  verdict: high
+  claim: Creating an undefended shot against a defence that is allowed to do nothing but stand in the right place.
+  why: >
+    Ban contact, ban the dribble, and cap every goal at one point, and the game
+    reduces to a single problem repeated: get a shot away that the defender is
+    not covering. There is no crossover to beat a defender with, no foul to
+    draw and no long-range shot worth more than a close one.
+
+    So the sport is played in movement without the ball, in timing, and in the
+    running-in shot — a moving shot taken off a cut past the post, which is the
+    game's signature act and is difficult because there is no backboard to
+    forgive it.
+
+    Two structural features raise the ceiling further. Every two goals the
+    zones switch, so every player must be competent at both ends; there are no
+    specialists to hide behind. And the same-sex defending rule means a team is
+    only as good as its weakest matched pair, which no amount of tactical
+    covering can conceal.
+
+    The ceiling is also flattened by the sport's size. There is a professional
+    layer in the Netherlands and effectively nowhere else.
+  evidence:
+    - label: Defended shot
+      value: An offence
+      basis: rule
+      rule: korfball-defended-shot
+      note: Removes the contested shot that other invasion sports are largely made of.
+    - label: Same-sex defending
+      value: Required
+      basis: rule
+      rule: korfball-1902-mixed-sex
+      note: A team is only as strong as its weakest matched pair.
+    - { label: Zone switch, value: Every 2 goals, basis: observation, note: No specialists — everyone attacks and defends. }
+    - { label: Typical peak age, value: 23–31, basis: judgement }
+
+gap: >
+  Very low to high, and the gap is unusually honest: nothing was made easy at
+  the entrance by lowering what the top demands, it was made easy by deleting
+  the parts of an invasion game that hurt or exclude people.
+
+  Set against handball, which is the same shape of sport with contact
+  permitted, korfball shows how much of an invasion sport's difficulty is
+  physical rather than tactical. Take the physical part away and the game does
+  not get simpler at the top; it gets narrower, and the remaining skill —
+  arriving unmarked at the right moment — gets harder to fake.
+
+  The thing that most limits a korfball player is not the sport. It is that
+  there are perhaps two countries where playing it seriously is a realistic
+  plan.
+
+shaped_by:
+  - korfball-1902-mixed-sex
+  - korfball-defended-shot

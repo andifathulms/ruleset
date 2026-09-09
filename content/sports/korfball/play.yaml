@@ -1,0 +1,117 @@
+sport: korfball
+as_of: 2026-09
+edition: IKF Rules of Korfball
+source: ikf-rules
+standing: primary-named
+summary: >
+  Eight a side — four men and four women — on a court split into two zones,
+  shooting at a basket on a pole set in from the end line so the whole court is
+  playable from every angle. No dribbling, no contact, and no shooting while
+  someone has you covered.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Throw the ball through your zone's korf. Every goal is worth one point,
+      from anywhere, which removes the shot-value arithmetic basketball spends
+      its tactics on and puts the whole question on whether a shot is free.
+
+      After every two goals scored in the match — by either side — the halves
+      switch: attackers become defenders and defenders attack. Nobody
+      specialises for a whole game.
+    shaped_by: [korfball-defended-shot]
+
+  - id: field
+    label: The court
+    body: >
+      Forty metres by twenty indoors, divided across the middle into two zones.
+      Four players of each team occupy each zone and may not leave it until the
+      next switch.
+
+      The korf stands on a pole 3.5 m high, placed a sixth of the court length
+      in from each end line rather than on it. That single measurement is why
+      korfball does not look like basketball: there is playable court behind
+      the post, so the defence can be attacked from 360 degrees and no shot is
+      ever taken with a wall at your back.
+    facts:
+      - { label: Court, value: 40 × 20 m }
+      - { label: Zones, value: "2" }
+      - { label: Korf height, value: 3.5 m }
+      - { label: Post position, value: One sixth of the court in from the end line }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      A ball similar in size to a size 5 football, and the korf itself — a
+      bottomless cylindrical basket, with no backboard.
+
+      No backboard is a rule with consequences. A shot has no surface to be
+      helped in by, so there is no bank shot and no rebound angle to learn: the
+      ball goes in or it does not.
+    facts:
+      - { label: Korf, value: Bottomless basket, no backboard }
+      - { label: Ball, value: Similar to a size 5 football }
+
+  - id: players
+    label: Players and officials
+    body: >
+      Eight a side: four men and four women, four of each team in each zone,
+      so every zone holds two men and two women per team.
+
+      A player may only defend an opponent of the same sex. That is the law
+      that makes the composition requirement work — without it the taller or
+      stronger players would simply be assigned to everyone.
+    facts:
+      - { label: On the court, value: "8" }
+      - { label: Composition, value: 4 men and 4 women }
+      - { label: Per zone, value: 4 from each team }
+      - { label: Defending, value: Same sex only }
+    shaped_by: [korfball-1902-mixed-sex]
+
+  - id: duration
+    label: Time
+    body: >
+      Two halves of twenty-five minutes at senior international level, with the
+      clock stopped for significant interruptions.
+    facts:
+      - { label: Halves, value: 2 × 25 min }
+      - { label: Zone switch, value: Every 2 goals }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      One point per goal, from any distance. There is no three-point line, no
+      free-throw value and no bonus for difficulty, so the entire offensive
+      problem is manufacturing an undefended shot rather than choosing between
+      shots of different worth.
+
+  - id: restarts
+    label: Starting and restarting
+    body: >
+      A throw-in from the side or end line restarts play, taken within four
+      seconds and not directly at goal. A penalty — awarded for an offence that
+      denied a scoring chance — is taken from a mark 2.5 m in front of the
+      post with every other player behind the line of the ball.
+    facts:
+      - { label: Penalty distance, value: 2.5 m }
+      - { label: Throw-in, value: Within 4 s, never straight at goal }
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      The list is unusually long and unusually consistent, because each entry
+      protects the same premise.
+
+      No dribbling and no running with the ball — a player in possession may
+      not move their pivot foot. No kicking. No physical contact: no blocking,
+      holding, pushing or striking at the ball in an opponent's hands. No
+      defending an opponent of the other sex. No shooting from a defended
+      position. No shooting from the defence zone, and no leaving your zone.
+    shaped_by: [korfball-defended-shot, korfball-1902-mixed-sex]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More goals at full time. Knockout matches drawn at full time go to extra
+      periods, and then to a penalty sequence.

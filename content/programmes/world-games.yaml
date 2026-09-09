@@ -120,7 +120,7 @@ sports:
     held: [2025]
   - id: korfball
     label: Korfball
-    coverage: skeleton
+    coverage: deep
     held: [2025]
     note: >-
       Mixed-sex by rule, which almost no other team sport is.

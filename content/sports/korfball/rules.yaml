@@ -1,0 +1,72 @@
+- id: korfball-1902-mixed-sex
+  scope: { sport: korfball, discipline: all }
+  date_adopted: 1902
+  date_effective: 1902
+  status: adopted
+  governing_body: Nico Broekhuysen, later the IKF
+  what_changed: >
+    A team is four men and four women, and a player may only defend an
+    opponent of the same sex. Both halves of that are law, not custom: the
+    composition requirement puts the sexes on the court together, and the
+    defending restriction is what stops the game collapsing into a men's game
+    with women present.
+
+    No other team sport on this site requires mixed teams. Several permit
+    mixed events; korfball cannot be played any other way.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      Broekhuysen was a schoolteacher looking for a game his co-educational
+      class could play together, having seen the Swedish game ringboll on a
+      teaching course at Nääs. The requirement came before the sport did.
+  citation:
+    source: ikf-rules
+    edition: IKF Rules of Korfball, composition of teams
+    missing: true
+
+- id: korfball-defended-shot
+  scope: { sport: korfball, discipline: all }
+  date_adopted: 1902
+  date_effective: 1902
+  status: adopted
+  governing_body: Nico Broekhuysen, later the IKF
+  what_changed: >
+    A player may not shoot while defended. The defender must be within arm's
+    length, facing the attacker, closer to the post, and actively attempting to
+    block — and when all four conditions hold, a shot is an offence rather than
+    a low-percentage attempt.
+
+    With no contact permitted and no dribble to escape with, this is what
+    replaces physical defending. A defender wins the ball by position, and the
+    referee adjudicates a geometric relationship rather than a collision.
+  cause_primary: fairness and eligibility
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      A game played by mixed teams cannot let a defence be settled by reach or
+      by strength, because the disparity would decide the match. Defining the
+      defended shot moved the contest to positioning.
+  citation:
+    source: ikf-rules
+    edition: IKF Rules of Korfball, defended shot
+    missing: true
+
+- id: korfball-1933-federation
+  scope: { sport: korfball, discipline: all }
+  date_adopted: 1933
+  date_effective: 1933
+  status: adopted
+  governing_body: International Korfball Federation
+  what_changed: >
+    The IKF was formed and the Dutch and Belgian codes were brought into a
+    single international rulebook, which is the point at which korfball stops
+    being a school game with local variants and becomes a governed sport.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      The game had spread from the Netherlands to Belgium and beyond with no
+      body able to settle a common set of laws between them.
+  citation:
+    source: ikf-rules
+    edition: IKF statutes
+    missing: true

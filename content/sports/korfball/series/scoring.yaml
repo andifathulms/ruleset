@@ -1,0 +1,23 @@
+id: korfball-scoring
+label: Goals per game
+unit: goals per game
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  No goals-per-game series is entered for korfball, and the reason is the one
+  this site keeps finding in small sports: the figures exist inside national
+  competitions and nowhere in a form that would mean anything across them.
+
+  The Dutch league is the only substantially professional competition in the
+  sport. A rate drawn from it would describe Dutch korfball, and under Rule 4
+  it would have to be labelled that way rather than as korfball's — which is
+  the same position football is in, arrived at from the opposite direction.
+
+  There is also nothing to break the series against. Korfball's defining laws
+  were written in 1902 and the sport has not rewritten its scoring the way the
+  broadcast-era sports on this site did. A continuous series is imaginable
+  here in a way it is not for badminton or gymnastics. It simply has not been
+  published.
+segments: []
+breaks: []
+source: ikf-rules

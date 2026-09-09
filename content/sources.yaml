@@ -451,6 +451,13 @@
     Named, not opened. The 2025 Chengdu roster here was entered from general
     reference and has not been read line by line off the IWGA's own listing.
 
+- id: ikf-rules
+  standing: primary-named
+  title: IKF Rules of Korfball
+  publisher: International Korfball Federation
+  kind: rulebook
+  url: https://korfball.sport/
+
 - id: ifaf-flag-rules
   standing: primary-named
   title: IFAF Flag Football Competition Rules

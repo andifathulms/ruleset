@@ -1,0 +1,28 @@
+sport: korfball
+as_of: 2026-09
+source: ikf-rules
+standing: primary-named
+summary: >
+  No Olympic events and no prospect of any. Korfball's competitive structure is
+  its own world championship and a place on the World Games programme, where it
+  has been a fixture since the 1980s.
+disciplines:
+  - id: indoor
+    label: Indoor korfball
+    blurb: The competitive form. Eight a side, two zones, 40 × 20 m.
+    events:
+      - { id: mixed, label: Mixed teams, at: [world-games, world-championship], note: "The only form there is: the teams are mixed by law, so there is no men's or women's event to hold." }
+  - id: other
+    label: Governed by the federation, not on any multi-sport programme
+    counts: false
+    events:
+      - { id: beach, label: Beach korfball, at: [federation-only], note: Four a side on sand, two of each sex. }
+      - { id: korfball4, label: Korfball4, at: [federation-only], note: A shortened four-a-side format written for smaller venues and broadcast. }
+  - id: olympic-history
+    label: Its Olympic record
+    counts: false
+    blurb: >
+      Korfball was played at two Games as a demonstration sport and has never
+      been on the programme proper.
+    events:
+      - { id: demo, label: Demonstration sport, at: [lapsed], note: "Antwerp 1920 and Amsterdam 1928, both in the Low Countries where the sport was played." }

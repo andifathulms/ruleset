@@ -27,6 +27,7 @@
     - { id: football, label: Football, colour: pitch, members: [football] }
     - { id: gymnastics, label: Gymnastics, colour: gold, members: [gymnastics] }
     - { id: judo, label: Judo, colour: clay, members: [judo] }
+    - { id: korfball, label: Korfball, colour: pitch, members: [korfball] }
     - { id: modern-pentathlon, label: Modern pentathlon, colour: gold, members: [modern-pentathlon] }
     - { id: table-tennis, label: Table tennis, colour: clay, members: [table-tennis] }
     - { id: taekwondo, label: Taekwondo, colour: clay, members: [taekwondo] }
@@ -74,7 +75,7 @@
       label: Invasion
       colour: pitch
       members: [football, basketball, hockey, handball, rugby, lacrosse,
-                flag-football]
+                flag-football, korfball]
     - id: striking-and-fielding
       label: Striking and fielding
       colour: pitch
@@ -117,7 +118,7 @@
       colour: pitch
       members: [football, badminton, table-tennis, tennis, volleyball, basketball,
                 cricket, baseball, hockey, handball, rugby, softball, lacrosse,
-                squash, flag-football]
+                squash, flag-football, korfball]
     - id: combat
       label: Combat
       colour: clay
