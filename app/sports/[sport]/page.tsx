@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Emphasis from '@/components/Emphasis'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import Prose from '@/components/Prose'
@@ -411,7 +412,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
               className="prose-measure mt-14 border-l-2 pl-6 text-fluid-lead text-chalk/85"
               style={{ borderColor: c.bright }}
             >
-              {sport.summary}
+              <Emphasis>{sport.summary}</Emphasis>
             </p>
           </Reveal>
         )}

@@ -1,4 +1,5 @@
 import { CONTEST_DEFINITION, CONTEST_LABEL, CONTEST_STATUS } from '@/lib/types'
+import Emphasis from '@/components/Emphasis'
 import type { ContestStatus, Events } from '@/lib/types'
 
 /**
@@ -34,7 +35,7 @@ export default function EventTree({
 
   return (
     <div>
-      <p className="prose-measure text-[17px] text-chalk/85">{clean(events.summary)}</p>
+      <p className="prose-measure text-[17px] text-chalk/85"><Emphasis>{clean(events.summary)}</Emphasis></p>
 
       <dl className="mt-8 flex flex-wrap gap-x-10 gap-y-3 border-y chalk-rule py-4">
         <div>
@@ -82,7 +83,7 @@ export default function EventTree({
               </span>
             </h4>
             {d.blurb && (
-              <p className="prose-measure mt-2 text-[16px] text-chalk/75">{clean(d.blurb)}</p>
+              <p className="prose-measure mt-2 text-[16px] text-chalk/75"><Emphasis>{clean(d.blurb)}</Emphasis></p>
             )}
             <ul className="mt-3 grid gap-px bg-chalk/12 sm:grid-cols-2 lg:grid-cols-3">
               {d.events.map((e) => (
@@ -107,7 +108,7 @@ export default function EventTree({
                   )}
                   {e.note && (
                     <span className="mt-0.5 block text-[13px] leading-snug text-unmarked">
-                      {clean(e.note)}
+                      <Emphasis>{clean(e.note)}</Emphasis>
                     </span>
                   )}
                 </li>

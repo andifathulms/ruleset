@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Emphasis from '@/components/Emphasis'
 import { MarkGlyph } from './Mark'
 import { BREAK_KIND_LABEL } from '@/lib/series'
 import type { Cause, RuleChange, Series, Source } from '@/lib/types'
@@ -76,15 +77,15 @@ export default function RuleList({
               )}
             </div>
 
-            <p className="prose-measure mt-4 text-fluid-base text-chalk/90">{rule.what_changed}</p>
+            <p className="prose-measure mt-4 text-fluid-base text-chalk/90"><Emphasis>{rule.what_changed}</Emphasis></p>
 
             {rule.trigger && (
               <div className="prose-measure mt-5 border-l border-chalk/15 pl-5">
                 <p className="eyebrow">Trigger</p>
-                <p className="mt-1.5 text-[16px] text-chalk/85">{rule.trigger.description}</p>
+                <p className="mt-1.5 text-[16px] text-chalk/85"><Emphasis>{rule.trigger.description}</Emphasis></p>
                 {rule.trigger.also_said && (
                   <p className="mt-3 border-l-2 border-unmarked pl-4 text-[16px] text-chalk/75">
-                    {rule.trigger.also_said}
+                    <Emphasis>{rule.trigger.also_said}</Emphasis>
                   </p>
                 )}
               </div>

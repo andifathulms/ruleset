@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useRef, useState } from 'react'
+import Emphasis from '@/components/Emphasis'
 import { scaleLinear } from 'd3'
 import {
   BREAK_GUTTER, BREAK_KIND_LABEL, chartTitle, layoutSeries, type SegmentLayout,
@@ -104,7 +105,7 @@ export default function SeriesChart({
           {/* The space a chart would have taken, holding the reason instead. */}
           <div className="prose-measure text-fluid-base text-chalk/85">
             {layout.reason.trim().split(/\n\s*\n/).map((p, i) => (
-              <p key={i}>{p.replace(/\s+/g, ' ')}</p>
+              <p key={i}><Emphasis>{p.replace(/\s+/g, ' ')}</Emphasis></p>
             ))}
           </div>
           {series.breaks.map((brk) => (
@@ -116,7 +117,7 @@ export default function SeriesChart({
               <span className="font-display text-[17px] text-chalk">
                 {BREAK_KIND_LABEL[brk.kind] ?? brk.kind}
               </span>
-              <span className="max-w-measure">{brk.note.replace(/\s+/g, ' ')}</span>
+              <span className="max-w-measure"><Emphasis>{brk.note.replace(/\s+/g, ' ')}</Emphasis></span>
             </p>
           ))}
         </div>

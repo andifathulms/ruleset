@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Emphasis from '@/components/Emphasis'
 import Link from 'next/link'
 import type { LawSectionId, Play, Sport } from '@/lib/types'
 
@@ -75,7 +76,7 @@ export default function LawCompare({
 
             <div className="mt-3 space-y-3 text-[16px] text-chalk/85">
               {paragraphs(row.section!.body).map((p, i) => (
-                <p key={i}>{p}</p>
+                <p key={i}><Emphasis>{p}</Emphasis></p>
               ))}
             </div>
 

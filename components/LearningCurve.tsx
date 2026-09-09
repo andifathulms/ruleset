@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Emphasis from '@/components/Emphasis'
 import { Reveal } from './Motion'
 import {
   DIFFICULTY, DIFFICULTY_LABEL,
@@ -26,7 +27,7 @@ export default function LearningCurve({
 
   return (
     <div>
-      <p className="prose-measure text-[17px] text-chalk/85">{clean(learning.summary)}</p>
+      <p className="prose-measure text-[17px] text-chalk/85"><Emphasis>{clean(learning.summary)}</Emphasis></p>
 
       <p className="mt-6 inline-flex items-center gap-2 border border-unmarked px-3 py-1 text-[13px] uppercase tracking-[0.14em] text-unmarked">
         <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-unmarked" />
@@ -55,7 +56,7 @@ export default function LearningCurve({
           <h4 className="font-display text-2xl text-chalk">Why the two differ</h4>
           <div className="prose-measure mt-3 space-y-4 text-[16px] text-chalk/85">
             {paragraphs(learning.gap).map((p, i) => (
-              <p key={i}>{p}</p>
+              <p key={i}><Emphasis>{p}</Emphasis></p>
             ))}
           </div>
         </div>
@@ -80,11 +81,11 @@ function Axis({
 
       <Scale verdict={axis.verdict} colour={colour} />
 
-      <p className="mt-4 text-[17px] text-chalk">{clean(axis.claim)}</p>
+      <p className="mt-4 text-[17px] text-chalk"><Emphasis>{clean(axis.claim)}</Emphasis></p>
 
       <div className="mt-4 space-y-3 text-[16px] text-chalk/80">
         {paragraphs(axis.why).map((p, i) => (
-          <p key={i}>{p}</p>
+          <p key={i}><Emphasis>{p}</Emphasis></p>
         ))}
       </div>
 
@@ -157,7 +158,7 @@ function EvidenceRow({ evidence, rule }: { evidence: Evidence; rule?: RuleChange
         {basis.tag}
       </span>
       {evidence.note && (
-        <span className="w-full text-[14px] leading-snug text-unmarked">{clean(evidence.note)}</span>
+        <span className="w-full text-[14px] leading-snug text-unmarked"><Emphasis>{clean(evidence.note)}</Emphasis></span>
       )}
       {rule && (
         <span className="w-full text-[14px]">

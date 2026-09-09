@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Emphasis from '@/components/Emphasis'
 import { Reveal } from './Motion'
 import { headline } from '@/lib/text'
 import type { Play, RuleChange, Source } from '@/lib/types'
@@ -24,7 +25,7 @@ export default function CurrentLaws({
 
   return (
     <div>
-      <p className="prose-measure text-[17px] text-chalk/85">{clean(play.summary)}</p>
+      <p className="prose-measure text-[17px] text-chalk/85"><Emphasis>{clean(play.summary)}</Emphasis></p>
 
       <div className="mt-8 flex flex-wrap items-baseline gap-x-6 gap-y-2 border-y chalk-rule py-3 text-[14px]">
         <span className="text-unmarked">In force</span>
@@ -62,7 +63,7 @@ export default function CurrentLaws({
 
               <div className="prose-measure mt-3 space-y-4 text-[16px] text-chalk/85">
                 {paragraphs(section.body).map((para, i) => (
-                  <p key={i}>{para}</p>
+                  <p key={i}><Emphasis>{para}</Emphasis></p>
                 ))}
               </div>
 
@@ -82,7 +83,7 @@ export default function CurrentLaws({
                       <dt className="text-[13px] text-unmarked">{f.label}</dt>
                       <dd className="numeral mt-0.5 text-[19px] text-chalk">{f.value}</dd>
                       {f.note && (
-                        <dd className="mt-1 text-[13px] leading-snug text-unmarked">{f.note}</dd>
+                        <dd className="mt-1 text-[13px] leading-snug text-unmarked"><Emphasis>{f.note}</Emphasis></dd>
                       )}
                     </div>
                   ))}

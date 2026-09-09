@@ -18,7 +18,8 @@ const DANGLING = new Set([
 ])
 
 export function headline(text: string, limit = 118): string {
-  const first = text.replace(/\s+/g, ' ').trim().split(/(?<=\.)\s/)[0]
+  // A compressed excerpt carries no markup, so the markers come out here.
+  const first = stripEmphasis(text).replace(/\s+/g, ' ').trim().split(/(?<=\.)\s/)[0]
   if (first.length <= limit) return first
 
   const cut = first.slice(0, limit)
@@ -32,3 +33,24 @@ export function headline(text: string, limit = 118): string {
   }
   return `${words.join(' ').replace(/[,;:]$/, '')}…`
 }
+
+/**
+ * `**like this**` inside a YAML prose field.
+ *
+ * play.yaml, learning.yaml, rules.yaml and the series files are prose, and
+ * they were written with markdown emphasis for run-in labels — "**Carom:**",
+ * "**The line of the ball**". Nothing rendered it: those fields go to the page
+ * as plain text, so 299 pairs of asterisks were printing literally across
+ * eighty-five files. The emphasis is deliberate and useful, so it is rendered
+ * rather than stripped.
+ */
+export function emphasisSegments(text: string): { text: string; bold: boolean }[] {
+  return text
+    .split(/\*\*([^*]+)\*\*/g)
+    .map((part, i) => ({ text: part, bold: i % 2 === 1 }))
+    .filter((s) => s.text.length > 0)
+}
+
+/** The same text with the markers removed, for anywhere that cannot carry markup. */
+export const stripEmphasis = (text: string): string =>
+  text.replace(/\*\*([^*]+)\*\*/g, '$1')
