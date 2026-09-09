@@ -1,0 +1,38 @@
+id: cheer-scores
+label: Routine scores
+unit: points
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Cheerleading scores cannot form a series, for the reason every judged sport
+  on this site gives and one that is particular to it.
+
+  The general reason: a routine is marked against a scoresheet that is revised,
+  and difficulty values change with it. A score is a statement about one
+  performance against one season's rubric.
+
+  The particular reason is more interesting. Cheerleading's scoresheet is
+  bounded by its **safety rules**, and those rules are what change most. The
+  permitted stunt classes, pyramid heights, released skills and toss forms are
+  restricted by age and level and are tightened when injury evidence warrants
+  it. So the ceiling on difficulty is set by a safety code rather than by what
+  athletes can do — and when the code changes, the maximum achievable score
+  changes with it.
+
+  No other sport here has its scoring ceiling set by a medical argument.
+  Gymnastics removed its ceiling in 2006 to let difficulty run open-ended;
+  cheerleading keeps a ceiling deliberately, and moves it for reasons that have
+  nothing to do with sport.
+
+  The two divisions compound it. A Cheer score and a Performance Cheer score
+  measure a stunting routine and a dance routine, and are not comparable at
+  all.
+segments: []
+breaks:
+  - at: 2004
+    caused_by: cheer-2004-icu
+    kind: scoped
+    note: >
+      Cheer and Performance Cheer are separately judged against separate
+      scoresheets and have never been comparable.
+source: icu-rules

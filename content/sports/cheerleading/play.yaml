@@ -1,0 +1,120 @@
+sport: cheerleading
+as_of: 2026-09
+edition: ICU Rules and Scoring
+source: icu-rules
+standing: primary-named
+summary: >
+  A team routine of about two and a half minutes on a matted floor, judged on
+  difficulty and execution. The Cheer division contains stunts, pyramids,
+  tosses and tumbling; Performance Cheer is dance-based with no stunting.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Perform a routine and be marked higher than the other teams. Marks reward
+      the difficulty of the skills attempted and the cleanliness of their
+      execution, with deductions for falls, dropped stunts and safety
+      violations.
+
+      A team performs once. There is no second attempt, and a stunt that fails
+      has failed in front of the panel.
+    facts:
+      - { label: Routine, value: About 2 min 30 s }
+      - { label: Attempts, value: One }
+    shaped_by: [cheer-2004-icu]
+
+  - id: field
+    label: The floor
+    body: >
+      A matted competition floor, sprung in senior competition. The surface is a
+      safety requirement rather than a performance one: teams throw people
+      several metres into the air, and what they land on is regulated.
+
+      A routine must stay within the marked area, and leaving it is penalised.
+    facts:
+      - { label: Surface, value: Matted, sprung at senior level }
+      - { label: Boundary, value: Marked; leaving it is penalised }
+    shaped_by: [cheer-safety-code]
+
+  - id: equipment
+    label: Equipment
+    body: >
+      Almost none. Uniforms, shoes, and — in Performance Cheer's pom category —
+      poms.
+
+      The absence is worth stating because of what it implies. In a sport where
+      people are thrown into the air and caught, there is no protective
+      equipment at all: no helmets, no harnesses, no padding. The safety system
+      is entirely procedural — restrictions on what may be attempted, and
+      required spotters standing in defined positions.
+    facts:
+      - { label: Protective equipment, value: None }
+      - { label: Safety system, value: Rules and spotters, not equipment }
+    shaped_by: [cheer-safety-code]
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      Teams of up to about twenty-four, in all-female and coed divisions. Roles
+      are specialised: **bases** support and throw, **flyers** are lifted and
+      thrown, **spotters** are positioned to catch, and **tumblers** perform
+      the gymnastic passes.
+
+      A panel of judges marks difficulty and execution, with separate officials
+      watching for safety violations, which carry deductions of their own.
+    facts:
+      - { label: Team, value: Up to about 24 }
+      - { label: Divisions, value: All-female and coed }
+      - { label: Roles, value: Bases, flyers, spotters, tumblers }
+
+  - id: duration
+    label: Time
+    body: >
+      About two and a half minutes, to music, with the routine's timing tightly
+      specified — overrunning is penalised. Everything a team has trained for a
+      season is delivered inside it.
+    facts:
+      - { label: Routine, value: About 2 min 30 s }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Difficulty and execution, marked by panel against a defined scoresheet
+      covering stunts, pyramids, tosses, tumbling and — in the Cheer division —
+      the crowd-leading elements the sport is named after.
+
+      Safety violations are deducted separately from execution errors, which is
+      an unusual structure: a team can perform a skill cleanly and still lose
+      marks because the skill was not permitted at that level.
+    shaped_by: [cheer-safety-code]
+
+  - id: restarts
+    label: The routine
+    body: >
+      There are none. A routine runs continuously from the first count to the
+      last, and a fall is incorporated and continued through rather than
+      stopped for.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      The prohibited list is the sport's most detailed rulebook section and it
+      is almost entirely about stunting: pyramids above a permitted height,
+      released stunts beyond a permitted class, basket tosses outside the
+      allowed forms, insufficient spotters, and any skill above the level
+      permitted for that age and division.
+
+      Also: overrunning the time, leaving the performance area, and inappropriate
+      music or choreography.
+
+      The restrictions tighten as the age falls, so a skill that is legal at
+      senior international level is banned at school level — the same graded
+      approach this site records in ju-jitsu's submission rules.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Highest score. Because a team performs once, in two and a half minutes,
+      with no second attempt, a single dropped stunt can decide a world
+      championship.

@@ -81,8 +81,11 @@ sports:
       Marathon and polo, neither of which is on the Olympic programme.
   - id: cheerleading
     label: Cheerleading
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Invented in 1898 to be an audience for another sport, and now judged as
+      one of its own.
   - id: dancesport
     label: DanceSport
     coverage: deep

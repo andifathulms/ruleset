@@ -25,6 +25,7 @@
     - { id: boules, label: Boules sports, colour: pool, members: [boules] }
     - { id: bowling, label: Bowling, colour: pool, members: [bowling] }
     - { id: boxing, label: Boxing, colour: clay, members: [boxing] }
+    - { id: cheerleading, label: Cheerleading, colour: gold, members: [cheerleading] }
     - { id: cricket, label: Cricket, colour: pitch, members: [cricket] }
     - { id: cycling, label: Cycling, colour: pool, members: [cycling] }
     - { id: football, label: Football, colour: pitch, members: [football] }
@@ -122,7 +123,8 @@
       colour: unmarked
       members: [judo, taekwondo, boxing, modern-pentathlon, fencing, wrestling,
                 karate, breaking, tug-of-war, sumo, dancesport, ju-jitsu,
-                muaythai, wushu, kickboxing, air-sports, roller-sports]
+                muaythai, wushu, kickboxing, air-sports, roller-sports,
+                cheerleading]
 
 - id: adjudication
   label: Adjudication
@@ -143,7 +145,7 @@
       label: Judged
       colour: gold
       members: [gymnastics, equestrian, skateboarding, surfing, breaking, dancesport,
-                roller-sports]
+                roller-sports, cheerleading]
     - id: decided-by-score
       label: Decided by score
       colour: pitch

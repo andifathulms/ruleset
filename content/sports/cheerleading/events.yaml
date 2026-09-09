@@ -1,0 +1,33 @@
+sport: cheerleading
+as_of: 2026-09
+source: icu-rules
+standing: primary-named
+summary: >
+  No Olympic events. Cheerleading holds full IOC recognition since 2021, was
+  contested at the World Games from 2022, and runs ICU world championships in
+  two divisions that share very little.
+disciplines:
+  - id: cheer
+    label: Cheer
+    blurb: Stunts, pyramids, basket tosses and tumbling, judged on difficulty and execution.
+    events:
+      - { id: allgirl, label: All-female team, at: [world-games, world-championship], count: 2 }
+      - { id: coed, label: Coed team, at: [world-games, world-championship], count: 2 }
+  - id: performance
+    label: Performance Cheer
+    blurb: Dance-based, with no stunting. Pom, hip hop and jazz categories.
+    events:
+      - { id: pom, label: Pom, at: [world-games, world-championship], count: 2 }
+      - { id: hiphop, label: Hip hop, at: [world-games, world-championship], count: 2 }
+      - { id: jazz, label: Jazz, at: [world-championship], count: 2 }
+  - id: elsewhere
+    label: Where the sport actually lives
+    counts: false
+    blurb: >
+      The overwhelming majority of cheerleading happens in the American school
+      and club system, on a commercial competition circuit that the
+      international federation does not run.
+    events:
+      - { id: school, label: School and collegiate squads, at: [federation-only], note: The sideline role the activity was invented for, and still the largest participation. }
+      - { id: allstar, label: All-star club competition, at: [federation-only], note: "A large commercial circuit in the United States, where much of the sport's competitive infrastructure — events, apparel and camps — is concentrated in a single company." }
+      - { id: parachute, label: Para cheer, at: [world-championship], note: Adaptive divisions contested at ICU championships. }

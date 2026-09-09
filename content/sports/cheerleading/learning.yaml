@@ -1,0 +1,88 @@
+sport: cheerleading
+standing: editorial
+summary: >
+  Enormously accessible in the United States through schools, and expensive
+  everywhere it is competitive — with a ceiling that requires gymnastic ability
+  and a genuine tolerance for physical risk.
+
+entry:
+  verdict: moderate
+  claim: A school squad will take a beginner; a competitive club will cost you a season's fees.
+  why: >
+    Where cheerleading is embedded in a school system — which in practice means
+    the United States — the entry barrier is close to nothing. Squads recruit
+    beginners, teach the basics, and the sideline role that the sport was
+    invented for requires no gymnastic background at all.
+
+    Everywhere else it is a club sport with real costs: coaching, mat time,
+    travel, uniforms, and in the American competitive scene a calendar of
+    commercial events with entry fees attached.
+
+    The other barrier is the graded skill ladder. A beginner cannot be thrown,
+    and should not be. Progression through the permitted stunt classes takes
+    time by design, because the restrictions tighten as the level falls.
+  evidence:
+    - { label: Kit to start, value: A uniform and shoes, basis: observation }
+    - { label: Facility, value: Matted floor and coaching, basis: rule, rule: cheer-safety-code }
+    - { label: Entry route, value: School squads, in the US; clubs elsewhere, basis: observation }
+    - { label: Skills, value: Graded by age and level, basis: rule, rule: cheer-safety-code, note: Beginners cannot legally attempt senior stunts. }
+    - { label: Time to a first competition, value: A season, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Gymnastic tumbling, throwing and catching people, and one two-and-a-half-minute attempt a season.
+  why: >
+    Elite cheerleading requires three separable capacities in one team.
+    **Tumblers** need gymnastic ability at a standard close to competitive
+    gymnastics, on a sprung floor, in sequence with others.  **Bases** throw and
+    catch a person several metres up, repeatedly, with the timing shared across
+    two or three people. **Flyers** hold body positions in the air with no
+    contact with the ground and no control over where they are going.
+
+    The one-attempt structure raises the pressure further than most judged
+    sports. A gymnast competes several apparatus; a cheerleading team delivers
+    one routine of two and a half minutes, and a single dropped stunt in it is
+    the season.
+
+    And the risk is real rather than notional. Cheerleading's stunting produces
+    catastrophic injury rates among the highest recorded in any sport, with no
+    protective equipment anywhere in it — the safety system is entirely rules
+    and spotters. Competing at the top means accepting that.
+  evidence:
+    - label: No protective equipment
+      value: None at all
+      basis: rule
+      rule: cheer-safety-code
+      note: Safety is procedural — restrictions and spotters, not gear.
+    - label: One routine
+      value: About 2 min 30 s, once
+      basis: rule
+      rule: cheer-2004-icu
+      note: No second attempt, and a dropped stunt is the result.
+    - label: Two divisions
+      value: Cheer and Performance Cheer
+      basis: rule
+      rule: cheer-2004-icu
+      note: Effectively separate sports with separate athletes.
+    - { label: Typical peak age, value: 18–25, basis: judgement }
+
+gap: >
+  Moderate to very high, and the sport's real distinction on this site is not
+  the size of the gap but where it started.
+
+  Cheerleading was created in 1898 to be an audience. Its purpose was to
+  organise a crowd supporting a different sport, and for most of a century that
+  was all it was. What it became — a judged team sport of thrown human beings,
+  with a scoresheet, a world federation and Olympic recognition — is not an
+  evolution of the original activity so much as a replacement of it.
+
+  The historical inversion is worth recording alongside that. Cheerleading was
+  an all-male university pursuit for its first four decades and became
+  overwhelmingly female during the Second World War, when the men were
+  conscripted and did not come back to it. Very few activities on this site
+  have flipped their participation that completely, and none has flipped it in
+  that direction.
+
+shaped_by:
+  - cheer-safety-code
+  - cheer-1898-origin

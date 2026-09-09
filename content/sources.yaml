@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: icu-rules
+  standing: primary-named
+  title: ICU Rules and Scoring
+  publisher: International Cheer Union
+  kind: rulebook
+  url: https://cheerunion.org/
+
 - id: fai-code
   standing: primary-named
   title: FAI Sporting Code

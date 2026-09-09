@@ -1,0 +1,113 @@
+- id: cheer-1898-origin
+  scope: { sport: cheerleading, discipline: all }
+  date_adopted: 1898
+  date_effective: 1898
+  status: adopted
+  governing_body: American university athletic clubs
+  what_changed: >
+    Organised crowd-leading began at American universities, conventionally
+    dated to a student at the University of Minnesota directing a crowd in
+    unison in 1898.
+
+    Its purpose was to be an audience. Every other sport on this site was
+    created to be contested; this one was created to support something else
+    being contested, and became a competitive activity in its own right over
+    the following century.
+
+    The participants were men. Cheerleading was an all-male university pursuit
+    for its first four decades, and the inversion came later.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      American college football drew large crowds and universities wanted them
+      organised and audible, so students were appointed to lead them.
+  citation:
+    source: icu-rules
+    edition: ICU historical materials
+    missing: true
+
+- id: cheer-2004-icu
+  scope: { sport: cheerleading, discipline: all }
+  date_adopted: 2004
+  date_effective: 2004
+  status: adopted
+  governing_body: International Cheer Union
+  what_changed: >
+    An international federation was formed and codified two competitive
+    divisions.
+
+    **Cheer** contains the stunting: partner stunts, pyramids, basket tosses
+    and tumbling, performed as a routine and judged on difficulty and
+    execution.
+
+    **Performance Cheer** is dance-based — pom, hip hop and jazz categories —
+    with no stunting, judged on choreography and execution.
+
+    They are contested separately, and a competitor in one is generally not a
+    competitor in the other, which makes them two sports under one federation
+    in the way this site has recorded for wushu and ju-jitsu.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Competitive cheerleading had grown enormously in the United States under
+      commercial event organisers, with no international body and no common
+      rules across countries.
+  citation:
+    source: icu-rules
+    edition: ICU Rules and Scoring
+    missing: true
+  comparability_break: cheer-scores
+
+- id: cheer-safety-code
+  scope: { sport: cheerleading, discipline: cheer }
+  date_adopted: 2004
+  date_effective: 2004
+  status: adopted
+  governing_body: International Cheer Union, and national federations
+  what_changed: >
+    Codified safety restrictions on what may be thrown and how high: limits on
+    pyramid height, on the number of people supporting a flyer, on basket
+    tosses and released stunts, and requirements for spotters and for a matted
+    surface.
+
+    Cheerleading's stunting produces a catastrophic injury rate among the
+    highest in any sport — a person is thrown several metres into the air and
+    caught by other people — and the rules are unusually prescriptive about
+    body positions, release heights and who must be standing where.
+
+    Restrictions tighten as the age and grade fall, so the permitted skills at
+    school level are substantially narrower than at senior international level.
+  cause_primary: safety
+  trigger:
+    description: >
+      Catastrophic injuries — spinal and head injuries from falls during
+      stunting — were documented at rates far above other school and collegiate
+      activities, particularly in the United States.
+  citation:
+    source: icu-rules
+    edition: ICU safety rules
+    missing: true
+
+- id: cheer-2021-ioc-recognition
+  scope: { sport: cheerleading, discipline: all }
+  date_adopted: 2021
+  date_effective: 2021
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    The ICU received full IOC recognition, having held provisional recognition
+    since 2016, and cheerleading was contested at the World Games from 2022.
+
+    Recognition arrived for an activity most of whose participants are in one
+    country and whose competitive infrastructure there is substantially owned
+    by a single commercial company.
+  cause_primary: participation and access
+  cause_secondary: commercial
+  trigger:
+    description: >
+      The federation completed the governance and anti-doping requirements set
+      by its provisional recognition.
+  citation:
+    source: icu-rules
+    edition: IOC recognition, 2021
+    missing: true
