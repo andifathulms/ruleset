@@ -1,0 +1,45 @@
+sport: roller-sports
+as_of: 2026-09
+source: world-skate-rules
+standing: primary-named
+summary: >
+  No Olympic events in any roller discipline, ever. Rink hockey was a
+  demonstration sport in 1992. The World Games contests several disciplines,
+  and the same federation's skateboarding has been Olympic since 2021.
+disciplines:
+  - id: artistic
+    label: Artistic
+    blurb: Figure skating's disciplines on quad skates, judged in the same structure.
+    events:
+      - { id: free, label: Free skating, at: [world-games, world-championship], count: 2 }
+      - { id: pairs, label: Pairs, at: [world-championship] }
+      - { id: dance, label: Dance and solo dance, at: [world-games, world-championship], count: 3 }
+      - { id: precision, label: Precision teams, at: [world-championship], note: A dozen or more skaters in formation, judged. }
+  - id: speed
+    label: Speed
+    blurb: Inline, on banked tracks and road circuits.
+    events:
+      - { id: track, label: Track events, at: [world-games, world-championship], count: 6 }
+      - { id: road, label: Road events and marathon, at: [world-games, world-championship], count: 4 }
+  - id: rink-hockey
+    label: Rink hockey
+    blurb: Five a side on quad skates, with a curved stick and a hard ball.
+    events:
+      - { id: men-rh, label: Men's tournament, at: [world-games, world-championship] }
+      - { id: women-rh, label: Women's tournament, at: [world-games, world-championship] }
+  - id: other
+    label: Also governed by World Skate
+    counts: false
+    blurb: >
+      The federation's other disciplines, including the one that reached the
+      Olympic programme.
+    events:
+      - { id: skateboarding, label: Skateboarding, at: [olympic], note: "Olympic since 2021, under the federation formed by merger in 2017. Covered on this site as its own sport." }
+      - { id: inline-hockey, label: Inline hockey, at: [world-games, world-championship], note: Closer to ice hockey than rink hockey is, on inline skates. }
+      - { id: downhill, label: Downhill and freestyle disciplines, at: [world-championship], count: 2 }
+      - { id: scooter, label: Scootering, at: [world-championship], note: Judged park and street, acquired by the federation alongside skateboarding. }
+  - id: olympic-record
+    label: Its Olympic record
+    counts: false
+    events:
+      - { id: barcelona, label: Rink hockey, Barcelona 1992, at: [lapsed], note: "A demonstration sport in a country where it is mainstream; the category was discontinued after that Games." }

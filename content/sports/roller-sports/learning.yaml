@@ -1,0 +1,91 @@
+sport: roller-sports
+standing: editorial
+summary: >
+  Skating itself is one of the easiest physical skills to acquire and roller
+  skates are cheap — and the disciplines built on it are as demanding as their
+  ice equivalents, with a fraction of the pathway.
+
+entry:
+  verdict: low
+  claim: A pair of skates and a flat surface. No ice, no rink hire, no season.
+  why: >
+    Roller skating removes the two barriers that keep people out of the ice
+    sports it mirrors: you do not need ice, and you do not need a facility that
+    makes it. A flat floor, a car park or a sports hall will do, and the skates
+    cost a fraction of a season's rink access.
+
+    That is the entire historical reason these sports exist. Artistic roller
+    skating, roller speed and rink hockey were developed as land equivalents of
+    ice disciplines by people who had no ice, or none in summer.
+
+    Learning to skate is quick — most people are moving within a session — and
+    the beginner failure mode is falling over on a floor rather than on ice,
+    which is meaningfully less unpleasant.
+  evidence:
+    - { label: Kit to start, value: Skates, basis: observation }
+    - { label: Facility, value: Any flat surface, basis: observation, note: No ice plant, no rink hire, no season. }
+    - { label: Disciplines, value: Three, on incompatible equipment, basis: rule, rule: roller-inline-transition }
+    - { label: Players needed, value: One, or ten for rink hockey, basis: observation }
+    - { label: Time to skating, value: One session, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Figure skating's jumps on wheels, or a stick-and-ball game at speed on quads, with almost no professional pathway.
+  why: >
+    **Artistic** is the clearest case. Elite roller free skating contests the
+    same jumps as figure skating, with the same rotation counts, judged in the
+    same structure — landed on a wheeled boot with no edge to carve and a toe
+    stop instead of a toe pick. It is not an easier version of figure skating;
+    it is the same technical problem with different physics.
+
+    **Speed** demands the aerobic and technical qualities of ice speed skating
+    over distances from twenty seconds to an hour, on tracks and roads where
+    pack racing adds tactics ice's lane racing does not have.
+
+    **Rink hockey** is played at speed on quad skates with a stick and a hard
+    ball in a boarded rink, which is a coordination problem few sports match.
+
+    What caps every one of them is the pathway. There is a professional rink
+    hockey structure in Portugal, Spain and Italy and effectively nothing else
+    anywhere in the roller disciplines. An athlete reaching the top of artistic
+    roller skating has reached a world championship and no further, because
+    there is nowhere further to go.
+  evidence:
+    - label: Artistic jumps
+      value: Figure skating's, on wheels
+      basis: observation
+      note: Same rotation counts, no edge to carve, a toe stop instead of a toe pick.
+    - label: No Olympic place
+      value: Ever
+      basis: rule
+      rule: roller-2017-world-skate
+      note: While the same federation's skateboarding reached the Games in 2021.
+    - label: Rink hockey demonstration
+      value: Barcelona 1992
+      basis: rule
+      rule: roller-1992-olympic-demonstration
+      note: The category was discontinued afterwards.
+    - { label: Typical peak age, value: 20–30, basis: judgement }
+
+gap: >
+  Low to very high — and the ceiling is depressed by something no rule change
+  can reach.
+
+  These disciplines are, technically, as hard as the ice sports they mirror.
+  What they do not have is the ice sports' consequence. Figure skating and
+  speed skating are Winter Olympic sports with professional structures,
+  broadcast contracts and national funding. Their wheeled twins have world
+  championships and, for rink hockey, three national leagues.
+
+  The comparison is unusually clean because so little else differs. Same jumps,
+  same distances, same judging structure, different surface — and one set is
+  inside the Olympic movement and the other has never been.
+
+  Then the federation merged with skateboarding in 2017, and the discipline
+  with no ice equivalent — the one that could not be dismissed as a version of
+  something already on a programme — was on the Olympic programme within four
+  years.
+
+shaped_by:
+  - roller-2017-world-skate
+  - roller-inline-transition

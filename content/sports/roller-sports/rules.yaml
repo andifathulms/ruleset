@@ -1,0 +1,116 @@
+- id: roller-1924-firs
+  scope: { sport: roller-sports, discipline: all }
+  date_adopted: 1924
+  date_effective: 1924
+  status: adopted
+  governing_body: Fédération Internationale de Roller Sports
+  what_changed: >
+    An international federation was formed for roller skating, bringing
+    artistic skating, speed skating and rink hockey under one body with common
+    rules.
+
+    All three had grown as deliberate land equivalents of ice sports — skating
+    where there was no ice, or no ice in summer — and each imported the ice
+    sport's structure with it. Artistic roller took figure skating's
+    disciplines and judging; roller speed took speed skating's distances; rink
+    hockey took a stick, a ball and a goal.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Roller skating had spread widely in Europe and the Americas with national
+      bodies running incompatible competitions in three quite different
+      activities.
+  citation:
+    source: world-skate-rules
+    edition: World Skate technical rules
+    missing: true
+
+- id: roller-inline-transition
+  scope: { sport: roller-sports, discipline: speed }
+  date_adopted: 1990
+  date_effective: 1990
+  status: adopted
+  governing_body: Fédération Internationale de Roller Sports
+  what_changed: >
+    Speed skating moved from quad skates to inline. An inline skate rolls
+    faster, holds a line better and is closer in mechanics to an ice blade, and
+    competitive speed skating changed over within a few years.
+
+    The other disciplines did not follow. **Rink hockey** stayed on quads,
+    because four wheels in a square give the lateral stability a stick-and-ball
+    game needs. **Artistic** stayed on quads for the same reason figure skating
+    needs a toe pick: the equipment defines the vocabulary of the discipline.
+
+    So one federation ended up with disciplines on incompatible equipment, and
+    a competitor in one cannot use another's skates at all.
+  cause_primary: equipment and technology
+  trigger:
+    description: >
+      Inline skate design improved rapidly in the late 1980s and produced
+      speeds quad skates could not match, making the transition inevitable in
+      the discipline where speed is the whole point.
+  citation:
+    source: world-skate-rules
+    edition: World Skate speed technical rules
+    missing: true
+  comparability_break: roller-speed-records
+
+- id: roller-1992-olympic-demonstration
+  scope: { sport: roller-sports, discipline: rink-hockey }
+  date_adopted: 1992
+  date_effective: 1992
+  status: withdrawn
+  governing_body: International Olympic Committee
+  what_changed: >
+    Rink hockey was contested at the Barcelona Games in 1992 as a demonstration
+    sport, in a country where it is a mainstream sport with a professional
+    league.
+
+    The IOC discontinued the demonstration category after that Games. Rink
+    hockey has not been at an Olympics since, and no roller discipline has ever
+    been on the programme proper.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The Games were held in Spain, where rink hockey has one of its two
+      deepest national structures, and the host used the demonstration
+      mechanism accordingly.
+  citation:
+    source: world-skate-rules
+    edition: Barcelona 1992 demonstration sports
+    missing: true
+
+- id: roller-2017-world-skate
+  scope: { sport: roller-sports, discipline: all }
+  date_adopted: 2017
+  date_effective: 2017
+  status: adopted
+  governing_body: World Skate
+  what_changed: >
+    The roller sports federation merged with the international skateboarding
+    body to form World Skate, which then held the Olympic recognition under
+    which skateboarding entered the 2020 Games.
+
+    The merged federation's oldest disciplines — artistic, speed and rink
+    hockey, governed since 1924 — remain outside the programme. Its newest
+    acquisition reached it within four years.
+
+    This site records the same pattern under a ballroom federation, which
+    governed breaking into the 2024 Games while its own disciplines stayed out.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Skateboarding needed a recognised international federation to be admitted
+      to the Olympic programme, and the roller sports body was the available
+      route.
+    also_said: >
+      Parts of the skateboarding community disputed whether a roller sports
+      federation should govern it at all — the same objection breaking made
+      about its own governing body. The roller disciplines' complaint is the
+      mirror image: the federation's recognition delivered a place to the
+      discipline that had just arrived.
+  citation:
+    source: world-skate-rules
+    edition: World Skate statutes
+    missing: true

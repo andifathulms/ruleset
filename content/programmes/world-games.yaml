@@ -191,8 +191,11 @@ sports:
       squash abandoned.
   - id: roller-sports
     label: Roller sports
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Every discipline is the wheeled twin of a Winter Olympic sport, and none
+      has ever been on a programme.
   - id: squash
     label: Squash
     coverage: deep

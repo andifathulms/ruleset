@@ -1,0 +1,127 @@
+sport: roller-sports
+as_of: 2026-09
+edition: World Skate technical rules
+source: world-skate-rules
+standing: primary-named
+summary: >
+  Three disciplines with almost nothing in common except wheels. Artistic is
+  judged routines on quad skates. Speed is racing on inline skates. Rink hockey
+  is five a side with sticks and a ball, on quads.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      In **artistic**, be marked highest for a routine — free skating, pairs,
+      dance or precision team. In **speed**, cross the line first. In **rink
+      hockey**, score more goals.
+
+      Three answers, three adjudication types, one federation. Artistic is
+      judged, speed is measured, rink hockey is decided by score.
+    facts:
+      - { label: Artistic, value: Judged }
+      - { label: Speed, value: Measured }
+      - { label: Rink hockey, value: Decided by score }
+
+  - id: field
+    label: Rink, track and road
+    body: >
+      **Artistic** is skated on a flat rink surface, indoors, on a marked
+      floor rather than ice.
+
+      **Speed** is contested on banked tracks and on road circuits, and the two
+      surfaces produce genuinely different racing — a road marathon and a 200
+      metre track time trial are not the same sport in anything but equipment.
+
+      **Rink hockey** uses a rink 40 metres by 20 with boards and goals — the
+      dimensions of a handball court, and close to floorball's.
+    facts:
+      - { label: Rink hockey, value: 40 × 20 m, with boards }
+      - { label: Speed, value: Banked track and road circuits }
+      - { label: Artistic, value: A flat indoor floor }
+
+  - id: equipment
+    label: Skates
+    body: >
+      The federation's disciplines are on incompatible equipment, which is
+      unusual enough to be the sport's defining physical fact.
+
+      **Quad skates** — four wheels in a square — for artistic and rink hockey,
+      because a square footprint gives lateral stability, and the artistic boot
+      carries a toe stop that does what a figure skate's toe pick does.
+
+      **Inline skates** for speed, because they roll faster and hold a line,
+      and speed skating changed over from quads around 1990.
+
+      Rink hockey adds a curved stick, a hard ball, and full goalkeeper
+      equipment — helmet, chest protector, leg guards and gloves — because a
+      ball struck by a stick at close range in a boarded rink needs stopping.
+    facts:
+      - { label: Artistic and rink hockey, value: Quad skates }
+      - { label: Speed, value: Inline skates }
+      - { label: Rink hockey ball, value: Hard, struck with a curved stick }
+    shaped_by: [roller-inline-transition]
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      Artistic is solo, in pairs, in dance couples, or in precision teams of a
+      dozen or more. Speed is raced individually and in relays. Rink hockey is
+      five a side including a goalkeeper, with rolling substitutions.
+    facts:
+      - { label: Rink hockey, value: 5 a side including a goalkeeper }
+      - { label: Artistic, value: Solo, pairs, dance, precision teams }
+
+  - id: duration
+    label: Time
+    body: >
+      An artistic routine runs to a prescribed length. A speed event runs from
+      a 200 metre time trial of under twenty seconds to a marathon of over an
+      hour. Rink hockey is two halves of twenty-five minutes with the clock
+      stopped.
+    facts:
+      - { label: Rink hockey, value: 2 × 25 min }
+      - { label: Speed, value: 200 m to marathon }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      **Artistic** is marked on technical elements and on components, in a
+      structure directly descended from figure skating's — the same jumps
+      named the same way, with rotation counts, executed on wheels.
+
+      **Speed** is elapsed time and finishing order.
+
+      **Rink hockey** is goals, with a distinctive addition: a team accumulating
+      fouls concedes a direct free hit from ten metres, which functions as a
+      penalty and makes team discipline a scoring variable.
+    facts:
+      - { label: Team fouls, value: Concede a direct hit from 10 m }
+
+  - id: restarts
+    label: Starting and restarting
+    body: >
+      Rink hockey restarts from the point of the offence or with a free hit,
+      and the ball stays live off the boards as in floorball. Speed events use
+      standing or rolling starts depending on the distance. Artistic routines
+      begin and end in a held position.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      **Rink hockey** prohibits raising the stick above shoulder height,
+      charging, and playing the ball with the hands or above a defined height —
+      and its team-foul system means individual offences accumulate into a
+      penalty against the side.
+
+      **Artistic** penalises falls, under-rotated jumps, time violations and
+      elements outside the declared programme.
+
+      **Speed** penalises lane infringements, impeding, and — in mass-start
+      races — cutting across a rival on a bend.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Highest marks, fastest time or most goals, by discipline. A World Skate
+      championship is three championships sharing a name.

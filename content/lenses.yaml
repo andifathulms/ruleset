@@ -57,6 +57,7 @@
     - { id: equestrian, label: Equestrian, colour: gold, members: [equestrian] }
     - { id: fencing, label: Fencing, colour: clay, members: [fencing] }
     - { id: golf, label: Golf, colour: pitch, members: [golf] }
+    - { id: roller-sports, label: Roller sports, colour: gold, members: [roller-sports] }
     - { id: rowing, label: Rowing, colour: pool, members: [rowing] }
     - { id: sailing, label: Sailing, colour: pool, members: [sailing] }
     - { id: shooting, label: Shooting, colour: pool, members: [shooting] }
@@ -119,7 +120,7 @@
       colour: unmarked
       members: [judo, taekwondo, boxing, modern-pentathlon, fencing, wrestling,
                 karate, breaking, tug-of-war, sumo, dancesport, ju-jitsu,
-                muaythai, wushu, kickboxing, air-sports]
+                muaythai, wushu, kickboxing, air-sports, roller-sports]
 
 - id: adjudication
   label: Adjudication
@@ -139,7 +140,8 @@
     - id: judged
       label: Judged
       colour: gold
-      members: [gymnastics, equestrian, skateboarding, surfing, breaking, dancesport]
+      members: [gymnastics, equestrian, skateboarding, surfing, breaking, dancesport,
+                roller-sports]
     - id: decided-by-score
       label: Decided by score
       colour: pitch

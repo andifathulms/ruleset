@@ -1,0 +1,36 @@
+id: roller-speed-records
+label: Speed records
+unit: s
+higher_is_better: false
+absence_kind: unpublished
+cannot_exist: >
+  Roller speed skating's marks were severed around 1990 by an equipment change
+  the sport made deliberately and completely.
+
+  Competitive speed skating moved from quad skates to inline within a few
+  years. An inline skate rolls faster and holds a line better, and the change
+  was not a marginal gain — it was a different way of moving. Times before and
+  after describe two sports.
+
+  Unlike the equipment cases this site records elsewhere, nobody had to decide
+  what to do about it. Athletics redesigned the javelin and reset the book;
+  swimming banned the supersuits and kept the records; finswimming split its
+  books by fin type. Roller speed simply changed over, and the quad-era times
+  stopped being relevant because nobody was skating on quads any more.
+
+  The other obstacle is that the discipline races on banked tracks and on open
+  roads over distances from 200 metres to a marathon, and a road time is a
+  function of the circuit. Records are kept by surface and distance and are not
+  pooled.
+
+  Nothing is entered because no series carrying that context has been taken
+  from a cited source.
+segments: []
+breaks:
+  - at: 1990
+    caused_by: roller-inline-transition
+    kind: reset
+    note: >
+      Speed skating changed from quad to inline. Times across the transition
+      are not comparable, and the earlier equipment left competition entirely.
+source: world-skate-rules
