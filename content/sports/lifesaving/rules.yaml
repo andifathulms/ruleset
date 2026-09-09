@@ -1,0 +1,103 @@
+- id: lifesaving-1910-federation
+  scope: { sport: lifesaving, discipline: pool }
+  date_adopted: 1910
+  date_effective: 1910
+  status: adopted
+  governing_body: Fédération Internationale de Sauvetage Aquatique
+  what_changed: >
+    The first international lifesaving federation was founded in France,
+    organising the European tradition: rescue practised and contested in still
+    water, in pools, with standardised drills.
+
+    Competition was a training device from the beginning. The events were
+    graded exercises in a rescue skill, timed so that clubs could compare
+    themselves, and that remains the logic of every pool event in the sport.
+  cause_primary: safety
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Drowning was a mass cause of death and national lifesaving societies had
+      formed across Europe through the nineteenth century with no common
+      standard for the skills they taught.
+  citation:
+    source: ils-rules
+    edition: ILS Competition Rule Book, history
+    missing: true
+
+- id: lifesaving-1993-ils-merger
+  scope: { sport: lifesaving, discipline: all }
+  date_adopted: 1993
+  date_effective: 1993
+  status: adopted
+  governing_body: International Life Saving Federation
+  what_changed: >
+    The European pool-based federation and the Australasian surf-based body
+    merged into the International Life Saving Federation, bringing two
+    genuinely different sports under one rulebook.
+
+    The pool tradition tested rescue as a set of standardised drills in still
+    water. The surf tradition — board, ski, surf race, beach sprint — grew out
+    of patrolled ocean beaches and tests the same purpose in conditions that
+    cannot be standardised at all. The federation holds both and does not
+    pretend the results are comparable.
+  cause_primary: fairness and eligibility
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Two international bodies were holding competing world championships for
+      what was nominally the same activity, in two environments, with no
+      relationship between them.
+  citation:
+    source: ils-rules
+    edition: ILS statutes
+    missing: true
+  comparability_break: lifesaving-times
+
+- id: lifesaving-technique-follows-practice
+  scope: { sport: lifesaving, discipline: all }
+  date_adopted: 1993
+  date_effective: 1993
+  status: adopted
+  governing_body: International Life Saving Federation
+  what_changed: >
+    Competition technique must reflect current rescue practice. A manikin must
+    be carried with its airway clear of the water. A tow must use a recognised
+    hold. The simulated emergency event is judged against the resuscitation
+    protocols in force at the time.
+
+    This is the sport's structural peculiarity. Its rules answer to an external
+    body of medical and rescue knowledge, so when resuscitation guidance
+    changes, the competition changes with it — and a technique that was correct
+    and fast in one decade can become both wrong and penalised in the next.
+  cause_primary: safety
+  trigger:
+    description: >
+      A competition that rewarded a fast technique which was not a good rescue
+      would train people to do the wrong thing, which defeats the reason the
+      federation exists.
+  citation:
+    source: ils-rules
+    edition: ILS Competition Rule Book, general conditions
+    missing: true
+  comparability_break: lifesaving-times
+
+- id: lifesaving-2001-world-games
+  scope: { sport: lifesaving, discipline: all }
+  date_adopted: 2001
+  date_effective: 2001
+  status: adopted
+  governing_body: International World Games Association
+  what_changed: >
+    Lifesaving entered the World Games programme at Akita in 2001 and has been
+    contested there since, with pool events forming the bulk of the programme
+    because they can be held wherever a pool is.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The federation had unified in 1993, held world championships across both
+      environments, and sought a multi-sport platform for a sport whose purpose
+      is public education as much as competition.
+  citation:
+    source: iwga-world-games
+    edition: IWGA programme listings
+    missing: true

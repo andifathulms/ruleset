@@ -1,0 +1,87 @@
+sport: lifesaving
+standing: editorial
+summary: >
+  You reach the sport through a lifeguard qualification rather than through a
+  club, which is a low barrier with a gate on it — and the top requires
+  swimming close to national level while doing something else at the same time.
+
+entry:
+  verdict: low
+  claim: Do a lifesaving award at a local club or pool. The sport is the training, timed.
+  why: >
+    Lifesaving's entry route is unlike anything else here: you arrive by
+    learning to save people. National societies run graded awards through
+    clubs, schools and swimming pools, and competition is the same syllabus
+    with a clock on it. Millions of people hold an entry-level qualification.
+
+    The equipment is provided — manikins, tubes, boards and lines belong to the
+    club, not the athlete — and the facility is an ordinary pool or a patrolled
+    beach.
+
+    The gate is that you must be able to swim competently before any of this
+    starts. That is a real barrier, and it is why the verdict is low rather
+    than very low: unlike a disc or a rope, this sport has a prerequisite.
+  evidence:
+    - { label: Route in, value: A lifesaving award at a club or pool, basis: observation }
+    - { label: Kit to start, value: Provided by the club, basis: observation }
+    - { label: Prerequisite, value: Competent swimming, basis: judgement }
+    - { label: Facility, value: A pool, or a patrolled beach, basis: observation }
+    - { label: Time to a first competition, value: Months, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Swim near national standard, then do the rescue correctly while you do it.
+  why: >
+    The pool events are swum by people who would be competitive swimmers if
+    they were only swimming. A 200 metre obstacle swim or a 100 metre manikin
+    carry with fins is a hard swimming event before any of the technical
+    requirements are added — and then the technical requirements are added, and
+    a fast swim that lets the manikin's airway dip is worth nothing.
+
+    The ocean events add conditions that cannot be trained against reliably.
+    Surf, current and sandbanks change between championships and between heats,
+    so the athlete has to read water as well as move through it, which is
+    closer to sailing's problem than to swimming's.
+
+    Beach flags is its own discipline: a reaction start from face down, a
+    turn, a short sprint and a dive, with one fewer baton than competitors, so
+    every round eliminates somebody. It rewards a body type and a reaction time
+    that nothing else in the sport does.
+
+    And the standard itself moves. Because technique must reflect current
+    rescue practice, a method that was correct and fast can be superseded when
+    the underlying medical guidance changes — so an athlete's technical model
+    has a shelf life set by people who are not in the sport.
+  evidence:
+    - label: Technique must be a real rescue
+      value: Enforced by disqualification
+      basis: rule
+      rule: lifesaving-technique-follows-practice
+      note: Speed is worthless if the carry would not have saved anybody.
+    - label: Two environments
+      value: Pool and ocean
+      basis: rule
+      rule: lifesaving-1993-ils-merger
+      note: Conditions on a surf beach cannot be standardised or rehearsed.
+    - { label: Swimming standard, value: Near national level, basis: judgement }
+    - { label: Typical peak age, value: 21–29, basis: judgement }
+
+gap: >
+  Low to very high, and the sport is the only one on this site where the entry
+  level has a purpose independent of the sport existing.
+
+  Everything else covered here is played because people want to play it.
+  Lifesaving's beginner syllabus is a public-health programme that happens to
+  be competitive at the top, and its federation would tell you — does tell you
+  — that the drowning statistics matter more than the medals. That gives the
+  bottom of the curve a reason to exist that no other sport has, and it means
+  the entry population is enormous relative to the competitive one.
+
+  The top of the curve is unusual in a different way. Every other measured
+  sport here lets an athlete optimise purely for speed. This one caps the
+  optimisation at the point where the technique would stop being a rescue, and
+  moves the cap when the medicine changes.
+
+shaped_by:
+  - lifesaving-technique-follows-practice
+  - lifesaving-1993-ils-merger

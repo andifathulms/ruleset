@@ -1,0 +1,133 @@
+sport: lifesaving
+as_of: 2026-09
+edition: ILS Competition Rule Book
+source: ils-rules
+standing: primary-named
+summary: >
+  Two environments and one purpose. In the pool: obstacle swims, manikin
+  carries, rescue medleys and a line throw. On the beach: surf races, boards,
+  skis and beach flags. Every event is a rescue reduced to something that can
+  be timed.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Complete a rescue task faster than everybody else, correctly. The second
+      word is doing as much work as the first: a manikin carried with its face
+      underwater is a disqualification however fast the swim was, because the
+      event is not a swim.
+
+      This is the sport's whole logic. Speed is the measure, but the technique
+      being measured has to remain a technique that would actually save
+      somebody.
+    shaped_by: [lifesaving-technique-follows-practice]
+
+  - id: field
+    label: The pool and the beach
+    body: >
+      **Pool events** are held in a fifty-metre pool with submerged obstacles,
+      manikins placed at specified depths and distances, and lane discipline as
+      in swimming.
+
+      **Ocean events** are held on a surf beach, and nothing about the
+      conditions can be standardised — surf, wind, current and sandbanks differ
+      between championships and between heats on the same day. The federation
+      holds both and does not compare them.
+    facts:
+      - { label: Pool, value: 50 m, with obstacles and manikins }
+      - { label: Ocean, value: A surf beach; conditions cannot be standardised }
+      - { label: Obstacle depth, value: Swum under, not over }
+    shaped_by: [lifesaving-1993-ils-merger]
+
+  - id: equipment
+    label: Equipment
+    body: >
+      The equipment is rescue equipment, not sports equipment, and that is the
+      point.
+
+      A **manikin** of specified dimensions and mass, which fills with water and
+      must be carried with its airway clear. A **rescue tube** with a strap, as
+      used by patrolling lifeguards. **Fins** for speed. A **throw line** on a
+      reel. On the beach: a **rescue board** and a **surf ski**, both derived
+      from patrol equipment.
+
+      Beach flags uses lengths of hose buried in the sand — batons that are not
+      flags and not the same number as the competitors.
+    facts:
+      - { label: Manikin, value: Specified mass; airway must stay clear }
+      - { label: Rescue tube, value: Patrol equipment, used as issued }
+      - { label: Board and ski, value: Derived from beach patrol craft }
+    shaped_by: [lifesaving-technique-follows-practice]
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      Individuals and relay teams. Officials judge both the clock and the
+      technique, and the second is unusual: a lifesaving referee is checking
+      that a carry, a tow and a release were performed to the standard a real
+      rescue requires.
+
+      One event is not timed at all. The **simulated emergency response**
+      places a team in front of an unseen scenario — an incident staged at the
+      poolside — and judges their assessment, their response and their
+      resuscitation against the protocols in force. It is the only judged event
+      in the sport and the one closest to the thing the sport is for.
+    facts:
+      - { label: Timed events, value: All but one }
+      - { label: Simulated emergency response, value: Judged, against an unseen scenario }
+
+  - id: duration
+    label: Time
+    body: >
+      Pool events run from about thirty seconds to a few minutes. Beach flags
+      lasts a couple of seconds per round. The ocean endurance events run
+      considerably longer and are the only ones where conditions decide the
+      duration rather than the athletes.
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Time, in almost every event. National teams accumulate points across the
+      programme for an overall championship, so the sport is scored twice: each
+      event individually, and the federation's own aggregate.
+
+      The judged emergency event is scored against a protocol rather than a
+      clock, which means it is the one event whose correct answer changes when
+      medical guidance changes.
+    shaped_by: [lifesaving-technique-follows-practice]
+
+  - id: restarts
+    label: Starts
+    body: >
+      Pool starts follow swimming's conventions. Beach events start on a signal
+      from a line drawn in the sand.
+
+      **Beach flags** has the strangest start in any sport covered here.
+      Competitors lie face down on the sand, feet towards the batons, heels
+      together, chins on hands. On the signal they must rise, turn, sprint and
+      take a baton — and there is always one fewer baton than there are
+      competitors, so somebody is eliminated every round.
+    facts:
+      - { label: Beach flags start, value: Face down, feet towards the batons }
+      - { label: Batons, value: One fewer than the competitors }
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Letting a manikin's airway go under. Carrying or towing with a
+      non-approved hold. Dropping the manikin. Surfacing during an underwater
+      section. Interference in beach flags, where contact between two
+      competitors diving for the same baton is the sport's most-argued call.
+
+      Almost every disqualification in the sport is technical rather than
+      tactical, and almost all of them mean the same thing: the rescue would
+      not have worked.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Fastest valid time, or the last competitor left holding a baton. The
+      overall championship goes to the nation with the most points across the
+      whole programme, which is why federations enter every event rather than
+      specialising.

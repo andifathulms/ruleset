@@ -1,0 +1,21 @@
+id: lifesaving
+label: Lifesaving
+tagline: "The only sport here whose events are a rehearsal for something else, and whose governing body would rather prevent drownings than hold races."
+governing_body: International Life Saving Federation
+founded: >
+  The first international federation was founded in France in 1910; the modern
+  International Life Saving Federation was created in 1993 by the merger of the
+  European pool-based body with the Australasian surf-based one.
+coverage: deep
+family_colour: pool
+classification:
+  official: lifesaving
+  game-category: performance
+  adjudication: measured
+summary: >
+  Swim two hundred metres over obstacles, dive for a submerged manikin, tow it
+  to the wall with its airway clear, throw a line to a person in the water, or
+  sprint up a beach for a baton that is not there. Every event is a rescue
+  broken into a measurable part, and the rules change when rescue practice
+  changes — which makes it the only sport on this site whose laws answer to a
+  body of knowledge outside sport.

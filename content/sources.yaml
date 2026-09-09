@@ -451,6 +451,13 @@
     Named, not opened. The 2025 Chengdu roster here was entered from general
     reference and has not been read line by line off the IWGA's own listing.
 
+- id: ils-rules
+  standing: primary-named
+  title: ILS Competition Rule Book
+  publisher: International Life Saving Federation
+  kind: rulebook
+  url: https://www.ilsf.org/
+
 - id: iff-rules
   standing: primary-named
   title: IFF Rules of the Game

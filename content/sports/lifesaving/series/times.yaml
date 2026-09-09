@@ -1,0 +1,41 @@
+id: lifesaving-times
+label: World best times
+unit: s
+higher_is_better: false
+absence_kind: unpublished
+cannot_exist: >
+  Lifesaving keeps world best times for its pool events, and this site does not
+  chart them, for a reason particular to this sport: the technique they measure
+  is not allowed to be stable.
+
+  Competition technique must reflect current rescue practice. When the
+  underlying medical and rescue guidance changes — how an airway is managed,
+  how a casualty is held, what a resuscitation sequence looks like — the rules
+  follow, and a method that was correct and fast becomes non-compliant. The
+  clock is honest; what it is timing has been redefined more than once by
+  people outside the sport.
+
+  The 1993 merger compounds it. Pool and ocean events came from two different
+  federations and two different traditions, and ocean conditions cannot be
+  standardised at all — a surf race time says as much about the sea that day as
+  about the swimmer, which puts it in the same position as rowing's times, and
+  rowing declines to call its marks records for exactly that reason.
+
+  Nothing is entered here because nothing has been taken from a cited source
+  with the rule version attached. A time without the technique standard it was
+  set under would be the kind of number this site exists to avoid.
+segments: []
+breaks:
+  - at: 1993
+    caused_by: lifesaving-1993-ils-merger
+    kind: unified
+    note: >
+      Two federations and two environments merged into one rulebook. Pool and
+      ocean results are held together and are not comparable with each other.
+  - at: 1993
+    caused_by: lifesaving-technique-follows-practice
+    kind: scale-change
+    note: >
+      Technique must track current rescue practice, so the task being timed is
+      revised whenever the underlying guidance is.
+source: ils-rules

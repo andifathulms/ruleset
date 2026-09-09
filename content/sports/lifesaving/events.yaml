@@ -1,0 +1,50 @@
+sport: lifesaving
+as_of: 2026-09
+source: ils-rules
+standing: primary-named
+summary: >
+  No Olympic events. Lifesaving has been on the World Games programme since
+  2001, contested largely in the pool because pool events travel; the ocean
+  half of the sport needs a surf beach and mostly stays at its own world
+  championships.
+disciplines:
+  - id: pool
+    label: Pool
+    blurb: Standardised rescue drills, timed. Held wherever there is a 50 m pool.
+    events:
+      - { id: obstacle, label: 200 m obstacle swim, at: [world-games, world-championship], count: 2 }
+      - { id: manikin-carry, label: 50 m manikin carry, at: [world-games, world-championship], count: 2 }
+      - { id: manikin-fins, label: 100 m manikin carry with fins, at: [world-games, world-championship], count: 2 }
+      - { id: medley, label: 100 m rescue medley, at: [world-games, world-championship], count: 2 }
+      - { id: tow, label: 100 m manikin tow with fins, at: [world-games, world-championship], count: 2 }
+      - { id: relays, label: Rescue relays, at: [world-games, world-championship], count: 4 }
+      - { id: line, label: Line throw, at: [world-championship], count: 2, note: Throw a line to a team-mate in the water and pull them in. }
+  - id: ocean
+    label: Ocean
+    blurb: >
+      On a surf beach, in conditions that change between heats. Derived from
+      Australasian beach patrol rather than from European pool drill.
+    events:
+      - { id: surf-race, label: Surf race, at: [world-championship], count: 2 }
+      - { id: board, label: Board race, at: [world-championship], count: 2 }
+      - { id: ski, label: Surf ski race, at: [world-championship], count: 2 }
+      - { id: ironman, label: Oceanman and Oceanwoman, at: [world-championship], count: 2, note: Swim, board, ski and run in sequence. }
+      - { id: flags, label: Beach flags, at: [world-championship], count: 2, note: "Face down on the sand, one fewer baton than competitors, elimination every round." }
+      - { id: beach-sprint, label: Beach sprint, at: [world-championship], count: 2 }
+  - id: judged
+    label: Judged, not timed
+    counts: false
+    blurb: >
+      The event closest to the sport's actual purpose, and the only one with no
+      clock.
+    events:
+      - { id: serc, label: Simulated emergency response, at: [world-championship], note: "A team meets an unseen staged incident and is judged on assessment, response and resuscitation against the protocols in force." }
+  - id: purpose
+    label: What the federation is actually for
+    counts: false
+    blurb: >
+      The ILS is a drowning-prevention body that also runs a sport. Its
+      standards work, education programmes and position statements are the
+      larger part of what it does.
+    events:
+      - { id: prevention, label: Drowning prevention and lifeguard standards, at: [federation-only], note: The federation's primary purpose; competition is a training and recruitment device. }

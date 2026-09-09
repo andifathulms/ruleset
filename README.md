@@ -33,20 +33,21 @@ Three layers, marked as such everywhere:
   been entered; every other column is hatched rather than blank, because
   "nobody checked" and "absent" are not the same claim and must not be drawn
   the same way.
-- **Deep** — forty-three sports: badminton, athletics, football, gymnastics,
+- **Deep** — forty-eight sports: badminton, athletics, football, gymnastics,
   swimming, table tennis, basketball, cycling, judo, archery, volleyball,
   tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo,
   boxing, equestrian, fencing, rowing, sailing, golf, sport climbing, wrestling,
   shooting, hockey, triathlon, squash, surfing, lacrosse, breaking, rugby,
   handball, canoeing, skateboarding, karate, softball, flag football, korfball,
-  flying disc, powerlifting and tug of war.
+  flying disc, powerlifting, tug of war, fistball, orienteering, sumo,
+  floorball and lifesaving.
 
-  The first thirty-nine are every sport on the 2028 summer programme. The last
-  four are the first sports researched here that are not on it: three that have
-  never been Olympic and one that was removed in the 1920s and carried on
-  without the Games for a century. Thirty-six more sit in the skeleton — seven
-  that lapsed from the Olympic programme before 1940, and twenty-nine that are
-  contested at the Asian or World Games instead.
+  The first thirty-nine are every sport on the 2028 summer programme. The other
+  nine are World Games sports: eight that have never been Olympic, and tug of
+  war, which was removed in the 1920s and carried on without the Games for a
+  century. Thirty-one more sit in the skeleton — seven that lapsed from the
+  Olympic programme before 1940, and twenty-four contested at the Asian or
+  World Games and not yet researched.
 
 The first five were one per family, because a "rule" is a structurally
 different object in each: racket sports legislate scoring, measured sports
@@ -162,6 +163,28 @@ changes. Its two non-Olympic lanes were empty when the lens was built, because
 every sport researched here was an Olympic one — an honest fact about the
 coverage rather than a defect in the lens. Adding korfball, flying disc,
 powerlifting and tug of war filled them, which is what those four were for.
+
+The World Games sports were then chosen the way the Olympic ones were — for
+what each proves rather than for coverage:
+
+- **Fistball and floorball** are controlled experiments in what one rule does
+  to a sport. Fistball is volleyball with the ball allowed to bounce, and that
+  single permission moves its entry barrier down a full step without lowering
+  its ceiling. Floorball never wrote an offside rule, reaching by omission the
+  continuous shape hockey had to abolish its own rule in 1998 to get.
+- **Orienteering** is the site's sharpest comparability case. It is timed to
+  the second and can never have a record, because the terrain is embargoed and
+  the rules set a course to a *target winning time* — so the finishing time is
+  an input to the course design, not a measurement of the athlete. The exact
+  inverse of athletics.
+- **Sumo** is the only combat sport here with no weight classes, and the only
+  sport whose world championship structurally cannot contain its best
+  competitors: the professional Japanese association governs them and enters
+  nothing.
+- **Lifesaving** has rules that answer to a body of knowledge outside sport.
+  Competition technique must reflect current rescue practice, so when
+  resuscitation guidance changes the sport changes, and a method that was fast
+  and correct becomes a disqualification.
 
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause

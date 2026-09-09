@@ -31,6 +31,7 @@
     - { id: floorball, label: Floorball, colour: pitch, members: [floorball] }
     - { id: flying-disc, label: Flying disc, colour: pitch, members: [flying-disc] }
     - { id: korfball, label: Korfball, colour: pitch, members: [korfball] }
+    - { id: lifesaving, label: Lifesaving, colour: pool, members: [lifesaving] }
     - { id: orienteering, label: Orienteering, colour: pool, members: [orienteering] }
     - { id: powerlifting, label: Powerlifting, colour: pool, members: [powerlifting] }
     - { id: sumo, label: Sumo, colour: clay, members: [sumo] }
@@ -96,7 +97,7 @@
       colour: gold
       members: [athletics, gymnastics, swimming, cycling, weightlifting, rowing,
                 sailing, sport-climbing, equestrian, canoeing, triathlon,
-                skateboarding, surfing, powerlifting, orienteering]
+                skateboarding, surfing, powerlifting, orienteering, lifesaving]
     - id: outside-taxonomy
       label: Outside this taxonomy
       colour: unmarked
@@ -116,7 +117,7 @@
       colour: pool
       members: [athletics, swimming, cycling, archery, weightlifting, modern-pentathlon,
                 rowing, sailing, shooting, golf, sport-climbing, canoeing, triathlon,
-                powerlifting, orienteering]
+                powerlifting, orienteering, lifesaving]
     - id: judged
       label: Judged
       colour: gold

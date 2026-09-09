@@ -139,8 +139,11 @@ sports:
       On both programmes: sixes here, and returning to the Games in 2028.
   - id: lifesaving
     label: Lifesaving
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Its federation is a drowning-prevention body; the competition is a
+      training device that grew into a sport.
   - id: muaythai
     label: Muaythai
     coverage: skeleton
