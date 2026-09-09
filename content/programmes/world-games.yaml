@@ -145,8 +145,11 @@ sports:
     held: [2025]
   - id: orienteering
     label: Orienteering
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Times to the second, and no records: the course is set to a target
+      winning time in terrain nobody has seen.
   - id: powerlifting
     label: Powerlifting
     coverage: deep

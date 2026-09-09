@@ -1,0 +1,93 @@
+sport: orienteering
+standing: editorial
+summary: >
+  Anyone can complete a beginner course on their first morning, and almost
+  nobody gets good at it quickly — because the skill being trained is reading
+  ground you have never seen while your heart rate is at threshold.
+
+entry:
+  verdict: low
+  claim: Turn up at a local event, borrow a compass, walk a beginner course. Nobody is watching.
+  why: >
+    Orienteering's entry structure is unusually well built. Local events run
+    colour-coded courses from a beginner line that follows paths and fences,
+    with controls you cannot miss, up to a technical course through open
+    forest. A newcomer walks the easy one and has done the sport properly.
+
+    You compete against a clock rather than an opponent, start alone, and
+    nobody sees you make a mistake — which removes the social exposure that
+    stops adults trying most new sports.
+
+    The equipment is a compass and a borrowed timing chip. What costs money is
+    the map, and the organiser has already made it.
+
+    It sits at low rather than very low because you must find an event: the
+    sport cannot be played on your own without a mapped area, and the terrain
+    has to be surveyed by somebody.
+  evidence:
+    - { label: Competitors needed, value: One, basis: observation }
+    - { label: Kit to start, value: A compass; the map is provided, basis: rule, rule: orienteering-map-specification }
+    - { label: Course difficulty, value: Graded from path-following upwards, basis: observation }
+    - { label: Facility, value: A surveyed and mapped area, basis: judgement, note: The one thing a beginner cannot supply. }
+    - { label: Time to a real event, value: One morning, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Reading unfamiliar terrain at racing heart rate, where the leading cause of losing is a decision rather than a lack of speed.
+  why: >
+    The physical demand is comparable to cross-country running over worse
+    ground. The cognitive demand is what makes the sport hard: an elite
+    orienteer is continuously matching a contour map to the ground in front of
+    them, planning the next route choice, and monitoring their position, while
+    running at threshold through terrain that punishes a glance away.
+
+    Route choice is where races are decided. Two runners with identical fitness
+    can finish minutes apart because one went around a hill and the other over
+    it. Since electronic punching arrived, every split is published, and the
+    data consistently shows elite races lost by navigational decisions rather
+    than by pace.
+
+    The terrain itself has to be learned as a category. Scandinavian forest,
+    Central European karst, British moorland and Iberian granite each read
+    differently, and a competitor strong in one is routinely poor in another —
+    which is why world championships rotate terrain deliberately.
+
+    And there is no way to rehearse. The area is embargoed, the map is handed
+    over at the start line, and every race is the first time.
+  evidence:
+    - label: Terrain unseen
+      value: Embargoed before the event
+      basis: rule
+      rule: orienteering-unseen-terrain
+      note: No course can be practised, so nothing about a race can be rehearsed.
+    - label: Course set to a time
+      value: Not to a distance
+      basis: rule
+      rule: orienteering-winning-time
+      note: There is no standard distance to train against.
+    - label: Splits published
+      value: Since electronic punching
+      basis: rule
+      rule: orienteering-electronic-punching
+      note: The sport can now show that elite races are lost on decisions, not pace.
+    - { label: Typical peak age, value: 25–33, basis: judgement }
+
+gap: >
+  Low to very high, and the shape of the gap is unlike anything else here
+  because the top of it is cognitive.
+
+  Most sports on this site get hard at the elite level because the physical or
+  technical demand rises beyond what an ordinary person can produce.
+  Orienteering's does too — but the thing that actually separates a good club
+  runner from an international is the quality of decisions made in about two
+  seconds, repeatedly, while oxygen-limited. That is trainable and it is
+  trained very slowly, over years of exposure to varied terrain.
+
+  It is also the only sport here where you cannot practise the event. A
+  swimmer can swim the 200 metres a thousand times. An orienteer can never run
+  the course they are about to race, because the rules forbid it and the point
+  of the sport is that they have not seen it.
+
+shaped_by:
+  - orienteering-unseen-terrain
+  - orienteering-winning-time

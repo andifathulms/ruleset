@@ -1,0 +1,44 @@
+id: orienteering-times
+label: Winning times
+unit: s
+higher_is_better: false
+absence_kind: impossible
+cannot_exist: >
+  Orienteering cannot have a progression of times, and it is the only sport on
+  this site that has legislated that outcome on purpose.
+
+  Two rules make it impossible. First, the terrain is different every time and
+  is embargoed beforehand, so no course is ever run twice by anybody. Second —
+  and this is the unusual one — the rules instruct course setters to build to a
+  **target winning time**. A sprint is planned so the winner takes about
+  fifteen minutes; a middle distance, about thirty-five. The winning time is
+  therefore an input to the course design rather than a measurement of the
+  athlete.
+
+  A chart of winning times over the years would be a chart of how well course
+  setters hit their targets. It would tell you nothing about whether anybody
+  got faster, and it would look like a flat line drawn by the rulebook.
+
+  What the sport does measure, since electronic punching arrived in the 1990s,
+  is splits between controls within a single race — the richest per-race data
+  of any sport covered here, and comparable only inside the race that produced
+  it.
+
+  Set this against athletics, where the whole apparatus of the sport exists to
+  make a time in one stadium comparable with a time in another fifty years
+  later. Two measured sports, opposite answers.
+segments: []
+breaks:
+  - at: 1961
+    caused_by: orienteering-unseen-terrain
+    kind: scoped
+    note: >
+      Terrain is unseen and embargoed. Every course is run once, by one field,
+      and never again.
+  - at: 1991
+    caused_by: orienteering-winning-time
+    kind: scale-change
+    note: >
+      Courses are set to a target winning time. The finishing time is designed
+      before the race, so it cannot measure improvement.
+source: iof-rules

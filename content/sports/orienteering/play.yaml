@@ -1,0 +1,131 @@
+sport: orienteering
+as_of: 2026-09
+edition: IOF Competition Rules
+source: iof-rules
+standing: primary-named
+summary: >
+  Visit a set of control points in the prescribed order, in terrain you have
+  never seen, with a map handed to you at the start and a compass. Fastest time
+  wins. Competitors start at intervals and navigate alone.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Complete the course in the least time, visiting every control in order.
+      Missing a control, or taking them out of order, is disqualification —
+      there is no time penalty, because a competitor who skipped a control did
+      not do the event.
+
+      The route between controls is entirely the competitor's choice. That
+      choice is the sport: two runners of identical speed will finish minutes
+      apart on the strength of route selection alone.
+    shaped_by: [orienteering-unseen-terrain]
+
+  - id: field
+    label: The terrain
+    body: >
+      Forest, moorland, sand dune, mountainside, or — for sprint — a city
+      centre or a campus. The terrain is chosen for its navigational interest
+      and is embargoed before the competition: entering the area beforehand is
+      a disqualifiable offence.
+
+      Courses are set to a **target winning time**, not to a distance. The
+      rules say how long the winner should take, and the setter builds a course
+      in that terrain to produce it. A course in dense Scandinavian forest is
+      far shorter in kilometres than one on open Iberian hillside aiming at the
+      same target.
+    facts:
+      - { label: Terrain, value: Unseen, and embargoed beforehand }
+      - { label: Course set to, value: A target winning time }
+      - { label: Sprint target, value: About 15 min }
+      - { label: Middle distance target, value: About 35 min }
+    shaped_by: [orienteering-winning-time, orienteering-unseen-terrain]
+
+  - id: equipment
+    label: Equipment
+    body: >
+      A map, a compass, and a timing chip. Nothing else is permitted that
+      would help you navigate — no GPS device usable for navigation, no
+      altimeter, no pre-marked route.
+
+      The map is the sport's only real technology and it is specified
+      internationally: white is runnable forest, green is undergrowth graded by
+      how much it slows you, yellow is open, brown is landform, blue is water,
+      and the whole thing is oriented to magnetic north so a compass needle and
+      the paper agree without arithmetic.
+    facts:
+      - { label: Map, value: To the international specification, magnetic north }
+      - { label: Compass, value: Permitted }
+      - { label: GPS for navigation, value: Prohibited }
+      - { label: Timing, value: An electronic chip punched at each control }
+    shaped_by: [orienteering-map-specification, orienteering-electronic-punching]
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      One competitor at a time in individual races, started at intervals of a
+      minute or more so that nobody can simply follow the person in front.
+      Following a rival deliberately is an offence against fair play and can be
+      penalised.
+
+      Relays are the exception: those are mass-start, and teams are given
+      different combinations of the same control sites so that following is
+      unproductive.
+    facts:
+      - { label: Start, value: Individual, at intervals }
+      - { label: Following, value: An offence }
+      - { label: Relay start, value: Mass start, with courses shuffled }
+
+  - id: duration
+    label: Time
+    body: >
+      Whatever the course takes, against a target the organiser aimed at.
+      Timing is to the second and, since electronic punching, every split
+      between every pair of controls is recorded and published.
+    facts:
+      - { label: Timing, value: To the second }
+      - { label: Splits, value: Recorded at every control }
+    shaped_by: [orienteering-electronic-punching]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Elapsed time, and nothing else. There is no points system in the
+      classic disciplines and no adjustment for terrain, weather or start
+      position — a runner who drew a start time in heavy rain runs in heavy
+      rain.
+
+      Score events, a separate format, invert this: controls carry point values
+      and the competitor collects as many as possible within a time limit, with
+      a penalty for returning late.
+
+  - id: restarts
+    label: The start
+    body: >
+      The competitor stands at the start line, the clock is running or starts
+      on a signal, and the map is taken at that moment — not before. Reading it
+      is part of the race.
+
+      There is no restart. A competitor who makes a navigational error corrects
+      it inside their own run, and the time it costs is the result.
+    shaped_by: [orienteering-unseen-terrain]
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Entering the embargoed area beforehand. Carrying a device that could
+      assist navigation. Following another competitor deliberately. Crossing
+      terrain marked out of bounds — commonly private land, a crop field or a
+      dangerous area — which is drawn on the map and is absolute.
+
+      And the two that end a run: missing a control, or punching them out of
+      order.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Fastest completion of a valid course. Because the course is unique to
+      that day and that terrain, the winning time is not a mark, cannot be
+      beaten later, and is not recorded as anything but the result of one race.
+    shaped_by: [orienteering-winning-time]

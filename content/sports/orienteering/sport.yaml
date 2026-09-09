@@ -1,0 +1,21 @@
+id: orienteering
+label: Orienteering
+tagline: "A timed sport that has deliberately made its times incomparable: every course is new terrain, and the course is set to a target time rather than a distance."
+governing_body: International Orienteering Federation
+founded: >
+  Grew out of Scandinavian military land navigation in the nineteenth century,
+  with civilian competition from the 1890s; the International Orienteering
+  Federation was formed in 1961.
+coverage: deep
+family_colour: pool
+classification:
+  official: orienteering
+  game-category: performance
+  adjudication: measured
+summary: >
+  Navigate a set of control points in order, in terrain you have never seen,
+  using a map you are given at the start and a compass. It is timed to the
+  second and has no records of any kind, because the sport's own rules set a
+  course to a target winning time rather than to a distance — so the fastest
+  time is designed in advance and the terrain is different every time. A
+  measured sport that has legislated its own comparability away.

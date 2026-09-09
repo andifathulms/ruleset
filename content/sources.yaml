@@ -451,6 +451,13 @@
     Named, not opened. The 2025 Chengdu roster here was entered from general
     reference and has not been read line by line off the IWGA's own listing.
 
+- id: iof-rules
+  standing: primary-named
+  title: IOF Competition Rules
+  publisher: International Orienteering Federation
+  kind: rulebook
+  url: https://orienteering.sport/
+
 - id: ifa-rules
   standing: primary-named
   title: IFA Rules of the Game

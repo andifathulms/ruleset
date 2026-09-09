@@ -1,0 +1,132 @@
+- id: orienteering-unseen-terrain
+  scope: { sport: orienteering, discipline: all }
+  date_adopted: 1961
+  date_effective: 1961
+  status: adopted
+  governing_body: International Orienteering Federation
+  what_changed: >
+    The competitor receives the map at the start and has never seen the
+    terrain. The area is embargoed before the event, entering it is a
+    disqualifiable offence, and the course is not published in advance.
+
+    This is the sport's founding condition rather than a fairness precaution
+    laid on top of it. Orienteering measures the ability to read unfamiliar
+    ground at speed, and prior knowledge does not give an advantage so much as
+    replace the event with a different one.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Local competitors with knowledge of a forest could beat better navigators
+      without it, which made results a measure of residence rather than of
+      skill.
+  citation:
+    source: iof-rules
+    edition: IOF Competition Rules, embargoed areas
+    missing: true
+  comparability_break: orienteering-times
+
+- id: orienteering-winning-time
+  scope: { sport: orienteering, discipline: all }
+  date_adopted: 1991
+  date_effective: 1991
+  status: adopted
+  governing_body: International Orienteering Federation
+  what_changed: >
+    Courses are set to a target winning time rather than to a distance. The
+    rules specify how long the winner should take — a sprint of roughly fifteen
+    minutes, a middle distance of around thirty-five, a long distance
+    considerably more — and the course setter builds a course in that terrain
+    to produce it.
+
+    The consequence is that the winning time is an input, not an output. A
+    course in dense forest is shorter in kilometres than one in open moorland
+    aiming at the same target, and neither distance is the standard. There is
+    no distance in orienteering the way there is a 5000 metres in athletics.
+  cause_primary: fairness and eligibility
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Terrain varies so much in runnability that a fixed distance produced
+      wildly different events, and a fixed target time was the only way to make
+      a discipline mean the same thing in Finland and in Portugal.
+  citation:
+    source: iof-rules
+    edition: IOF Competition Rules, course planning and winning times
+    missing: true
+  comparability_break: orienteering-times
+
+- id: orienteering-1961-iof
+  scope: { sport: orienteering, discipline: all }
+  date_adopted: 1961
+  date_effective: 1961
+  status: adopted
+  governing_body: International Orienteering Federation
+  what_changed: >
+    The IOF was formed in Copenhagen by ten national federations and
+    standardised the sport internationally — control descriptions, the map
+    specification, the start interval, and the principle that competitors go
+    off separately and navigate alone.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      The sport had developed separately across Scandinavia and into central
+      Europe with national conventions for maps and controls that made
+      international competition impractical.
+  citation:
+    source: iof-rules
+    edition: IOF statutes
+    missing: true
+
+- id: orienteering-map-specification
+  scope: { sport: orienteering, discipline: all }
+  date_adopted: 1969
+  date_effective: 1969
+  status: adopted
+  governing_body: International Orienteering Federation
+  what_changed: >
+    The IOF adopted an international map specification: a fixed set of symbols
+    and colours in which white is runnable forest, green is undergrowth graded
+    by how much it slows you, yellow is open ground, brown is landform and blue
+    is water, all oriented to magnetic north.
+
+    The map is the sport's only piece of technology and the specification makes
+    it the same instrument everywhere. A competitor from any country can read a
+    map made in any other, which is what allows a world championship to be held
+    in terrain none of the field has seen.
+  cause_primary: fairness and eligibility
+  cause_secondary: equipment and technology
+  trigger:
+    description: >
+      National mapping conventions differed enough that reading a foreign map
+      was itself a skill, which confounded the thing the sport was trying to
+      measure.
+  citation:
+    source: iof-rules
+    edition: International Specification for Orienteering Maps
+    missing: true
+
+- id: orienteering-electronic-punching
+  scope: { sport: orienteering, discipline: all }
+  date_adopted: 1996
+  date_effective: 1996
+  status: adopted
+  governing_body: International Orienteering Federation
+  what_changed: >
+    Electronic punching replaced the needle punch and paper control card. A
+    competitor carries a chip, registers it at each control, and the system
+    records the time at every point on the course.
+
+    It changed what the sport can see about itself. Before, a result was a
+    finish time and a card proving you had visited the controls; after, every
+    competitor's split between every pair of controls is published, and the
+    sport can identify exactly where a race was lost.
+  cause_primary: integrity
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Paper cards could be mispunched, damaged or lost, and a competitor
+      disqualified for a punch that was present but illegible had no recourse.
+  citation:
+    source: iof-rules
+    edition: IOF Competition Rules, punching systems
+    missing: true

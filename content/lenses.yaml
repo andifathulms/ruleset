@@ -30,6 +30,7 @@
     - { id: fistball, label: Fistball, colour: clay, members: [fistball] }
     - { id: flying-disc, label: Flying disc, colour: pitch, members: [flying-disc] }
     - { id: korfball, label: Korfball, colour: pitch, members: [korfball] }
+    - { id: orienteering, label: Orienteering, colour: pool, members: [orienteering] }
     - { id: powerlifting, label: Powerlifting, colour: pool, members: [powerlifting] }
     - { id: tug-of-war, label: Tug of war, colour: pool, members: [tug-of-war] }
     - { id: modern-pentathlon, label: Modern pentathlon, colour: gold, members: [modern-pentathlon] }
@@ -93,7 +94,7 @@
       colour: gold
       members: [athletics, gymnastics, swimming, cycling, weightlifting, rowing,
                 sailing, sport-climbing, equestrian, canoeing, triathlon,
-                skateboarding, surfing, powerlifting]
+                skateboarding, surfing, powerlifting, orienteering]
     - id: outside-taxonomy
       label: Outside this taxonomy
       colour: unmarked
@@ -113,7 +114,7 @@
       colour: pool
       members: [athletics, swimming, cycling, archery, weightlifting, modern-pentathlon,
                 rowing, sailing, shooting, golf, sport-climbing, canoeing, triathlon,
-                powerlifting]
+                powerlifting, orienteering]
     - id: judged
       label: Judged
       colour: gold

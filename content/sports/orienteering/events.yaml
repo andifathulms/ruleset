@@ -1,0 +1,33 @@
+sport: orienteering
+as_of: 2026-09
+source: iof-rules
+standing: primary-named
+summary: >
+  No Olympic events in any form, summer or winter. Foot orienteering is on the
+  World Games programme, and the IOF governs four distinct disciplines of which
+  only one has a multi-sport place.
+disciplines:
+  - id: foot
+    label: Foot orienteering
+    blurb: The primary discipline. Sprint, middle, long and relay.
+    events:
+      - { id: sprint, label: Sprint, at: [world-games, world-championship], count: 2, note: "Urban terrain, about fifteen minutes; the discipline written to be watchable." }
+      - { id: middle, label: Middle distance, at: [world-games, world-championship], count: 2 }
+      - { id: long, label: Long distance, at: [world-championship], count: 2 }
+      - { id: relay, label: Relay, at: [world-games, world-championship], count: 2, note: Mass start with courses shuffled between legs, so following is unproductive. }
+  - id: other-disciplines
+    label: The other disciplines
+    counts: false
+    blurb: >
+      Governed by the same federation under the same navigational principle,
+      and none of them is on any multi-sport programme.
+    events:
+      - { id: ski, label: Ski orienteering, at: [world-championship], note: "On skis, on a network of tracks; navigation is largely about choosing between prepared trails. Never contested at a Winter Games." }
+      - { id: mtb, label: Mountain bike orienteering, at: [world-championship], note: On tracks and paths, with the map mounted on the handlebars. }
+      - { id: trail, label: Trail orienteering, at: [world-championship], note: "Judged on accuracy rather than speed, and designed so that wheelchair users and walking competitors compete on equal terms. The only discipline here where physical speed is deliberately removed." }
+  - id: formats
+    label: Formats
+    counts: false
+    events:
+      - { id: score, label: Score events, at: [federation-only], note: "Controls carry point values and a time limit applies; the inverse of a fixed course." }
+      - { id: rogaining, label: Long-duration navigation events, at: [federation-only], note: Team navigation over many hours, governed separately in some countries. }
