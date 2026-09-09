@@ -1,0 +1,139 @@
+- id: waterski-1946-federation
+  scope: { sport: waterski-wakeboard, discipline: all }
+  date_adopted: 1946
+  date_effective: 1946
+  status: adopted
+  governing_body: World Water Ski Union, later the IWWF
+  what_changed: >
+    An international federation was formed and codified the three classical
+    disciplines that still constitute tournament water skiing.
+
+    **Slalom:** ski a course of six buoys behind a boat on a fixed path.
+    **Tricks:** perform as many scored manoeuvres as possible in two passes of
+    twenty seconds. **Jump:** clear a ramp for distance.
+
+    An overall title is awarded on combined performance across all three, which
+    makes tournament skiing a triathlon of unrelated skills — the slalom skier's
+    craft has almost nothing in common with the jumper's.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Water skiing had spread through Europe and North America since the 1920s
+      with competitions run to local rules, and international events required a
+      common code.
+  citation:
+    source: iwwf-rules
+    edition: IWWF Tournament Rules
+    missing: true
+
+- id: waterski-slalom-shortening
+  scope: { sport: waterski-wakeboard, discipline: slalom }
+  date_adopted: 1946
+  date_effective: 1946
+  status: adopted
+  governing_body: World Water Ski Union, later the IWWF
+  what_changed: >
+    Slalom is scored by progressive difficulty rather than by a single
+    measurement. A skier passes six buoys; complete the pass and the boat speed
+    increases for the next one. At the maximum speed for the division, the
+    **rope is shortened** instead, in defined increments.
+
+    The consequence is the sport's signature fact: beyond a certain shortening,
+    **the rope is shorter than the distance from the boat's path to the buoy**.
+    The skier can only reach it by generating enough angle and swing that their
+    body travels wider than the rope's length allows on its own.
+
+    A score is therefore compound — so many buoys, at a stated rope length, at a
+    stated speed — and cannot be expressed as one number without stating the
+    other two.
+  cause_primary: fairness and eligibility
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      A fixed course produces a pass or a fall and cannot separate skiers who
+      all complete it, so difficulty had to escalate within the run.
+  citation:
+    source: iwwf-rules
+    edition: IWWF Tournament Rules, slalom
+    missing: true
+  comparability_break: waterski-slalom-scores
+
+- id: waterski-1961-cable
+  scope: { sport: waterski-wakeboard, discipline: cable }
+  date_adopted: 1961
+  date_effective: 1961
+  status: adopted
+  governing_body: Independent operators, later the IWWF
+  what_changed: >
+    The cable system was invented in Germany: an overhead cable circuit that
+    tows skiers and riders around a lake without a boat.
+
+    It removed the boat, the driver, the fuel and most of the cost, and it
+    removed the wake — so cable riding developed its own technical vocabulary
+    around obstacles and rails rather than around a boat's wash.
+
+    Cable disciplines are now contested separately, with their own world
+    championships, because a rider towed by a cable and a rider towed by a boat
+    are doing different things.
+  cause_primary: participation and access
+  cause_secondary: equipment and technology
+  trigger:
+    description: >
+      Boat towing requires a boat, a driver, fuel and a stretch of water per
+      skier, which caps how many people a venue can serve in a day. A cable
+      circuit serves many riders continuously.
+  citation:
+    source: iwwf-rules
+    edition: IWWF cable competition rules
+    missing: true
+
+- id: waterski-1972-olympic-demonstration
+  scope: { sport: waterski-wakeboard, discipline: all }
+  date_adopted: 1972
+  date_effective: 1972
+  status: withdrawn
+  governing_body: International Olympic Committee
+  what_changed: >
+    Water skiing was contested at the Munich Games in 1972 as a demonstration
+    sport. The IOC discontinued the demonstration category after 1992, and the
+    sport has never been on the programme proper.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The demonstration mechanism existed to showcase sports with substantial
+      participation outside the programme, and water skiing had that in Europe
+      and North America.
+  citation:
+    source: iwwf-rules
+    edition: Munich 1972 demonstration sports
+    missing: true
+
+- id: waterski-2013-wakeboard-shortlist
+  scope: { sport: waterski-wakeboard, discipline: wakeboard }
+  date_adopted: 2013
+  date_effective: 2013
+  status: withdrawn
+  governing_body: International Olympic Committee
+  what_changed: >
+    Wakeboarding was shortlisted for addition to the 2020 Olympic programme and
+    was not selected.
+
+    It was the federation's best chance and it rested on the discipline that
+    had arrived from outside — wakeboarding grew out of surf and skate culture
+    in the 1980s and was absorbed into a federation founded for water skiing,
+    the same route skateboarding took into the roller sports body and breaking
+    into a ballroom one.
+
+    Unlike those two, it did not convert. The sports selected for that cycle
+    were baseball and softball, karate, skateboarding, sport climbing and
+    surfing.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The 2020 host organisers were seeking young, urban, board-culture sports,
+      and wakeboarding was a plausible candidate in exactly that category.
+  citation:
+    source: iwwf-rules
+    edition: Tokyo 2020 additional sports process
+    missing: true

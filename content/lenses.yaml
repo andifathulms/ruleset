@@ -56,6 +56,7 @@
     - { id: tennis, label: Tennis, colour: clay, members: [tennis] }
     - { id: underwater-sports, label: Underwater sports, colour: pool, members: [underwater-sports] }
     - { id: volleyball, label: Volleyball, colour: pitch, members: [volleyball] }
+    - { id: waterski-wakeboard, label: Water ski and wakeboard, colour: pool, members: [waterski-wakeboard] }
     - { id: weightlifting, label: Weightlifting, colour: pool, members: [weightlifting] }
     - { id: dragon-boat, label: Dragon boat, colour: pool, members: [dragon-boat] }
     - { id: duathlon, label: Duathlon, colour: pool, members: [duathlon] }
@@ -120,7 +121,7 @@
       members: [athletics, gymnastics, swimming, cycling, weightlifting, rowing,
                 sailing, sport-climbing, equestrian, canoeing, triathlon,
                 skateboarding, surfing, powerlifting, orienteering, lifesaving,
-                finswimming, dragon-boat, duathlon]
+                finswimming, dragon-boat, duathlon, waterski-wakeboard]
     - id: outside-taxonomy
       label: Outside this taxonomy
       colour: unmarked
@@ -143,7 +144,7 @@
       members: [athletics, swimming, cycling, archery, weightlifting, modern-pentathlon,
                 rowing, sailing, shooting, golf, sport-climbing, canoeing, triathlon,
                 powerlifting, orienteering, lifesaving, finswimming, boules,
-                bowling, dragon-boat, air-sports, duathlon]
+                bowling, dragon-boat, air-sports, duathlon, waterski-wakeboard]
     - id: judged
       label: Judged
       colour: gold

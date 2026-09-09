@@ -230,8 +230,11 @@ sports:
       Underwater rugby is the only team sport contested in three dimensions.
   - id: waterski-wakeboard
     label: Water ski and wakeboard
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      A slalom score is buoys at a rope length at a speed, and the boat is
+      driven by somebody else.
   - id: wushu
     label: Wushu
     coverage: deep

@@ -1,0 +1,37 @@
+id: waterski-slalom-scores
+label: Slalom progression
+unit: buoys
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  Slalom scores can be ranked and cannot be charted, because a score is three
+  numbers rather than one.
+
+  A result is quoted as **buoys at a rope length at a speed** — "three at 10.75
+  off at 58 kph". Ordering two such results requires knowing the protocol:
+  more buoys at a shorter rope beats fewer, but a comparison across speeds or
+  divisions needs the whole triple. There is no axis a line could be drawn on
+  without collapsing information the sport considers essential.
+
+  There is a second problem, and it is the more interesting one. **The boat
+  improved.** Hull design, wake characteristics and electronic speed control
+  advanced enormously over the decades, and every one of those improvements
+  makes a pass easier. A progression of slalom scores would therefore chart
+  boat development at least as much as skiing.
+
+  That is a rare shape on this site. Elsewhere the equipment that improved was
+  the athlete's — a javelin, a swimsuit, a bat, a bench shirt, a monofin. Here
+  the decisive equipment is a vehicle the competitor does not own, does not
+  control and does not drive, and its improvement is invisible in the score.
+
+  Nothing is entered because no series carrying the rope length, the speed and
+  the boat protocol has been taken from a cited source.
+segments: []
+breaks:
+  - at: 1946
+    caused_by: waterski-slalom-shortening
+    kind: scale-change
+    note: >
+      A slalom score is buoys at a rope length at a speed. It cannot be reduced
+      to a single quantity without discarding two-thirds of it.
+source: iwwf-rules

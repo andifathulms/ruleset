@@ -1,0 +1,40 @@
+sport: waterski-wakeboard
+as_of: 2026-09
+source: iwwf-rules
+standing: primary-named
+summary: >
+  No Olympic events. Water skiing was a demonstration sport at Munich in 1972,
+  wakeboarding was shortlisted for the 2020 programme and not selected, and the
+  federation's disciplines are contested at the World Games.
+disciplines:
+  - id: classic
+    label: Tournament water skiing
+    blurb: The three classical disciplines, behind a boat, plus a combined title.
+    events:
+      - { id: slalom, label: Slalom, at: [world-games, world-championship], count: 2 }
+      - { id: tricks, label: Tricks, at: [world-games, world-championship], count: 2 }
+      - { id: jump, label: Jump, at: [world-games, world-championship], count: 2 }
+      - { id: overall, label: Overall, at: [world-championship], count: 2, note: Combined across all three; a champion must do three unrelated things. }
+  - id: wakeboard
+    label: Wakeboard
+    blurb: Judged aerial runs off the boat's wake. Arrived from board culture in the 1980s.
+    events:
+      - { id: wake-boat, label: Wakeboard behind a boat, at: [world-games, world-championship], count: 2 }
+      - { id: wake-cable, label: Cable wakeboard, at: [world-games, world-championship], count: 2, note: On an overhead cable circuit, with obstacles and rails instead of a wake. }
+  - id: other
+    label: Other disciplines
+    counts: false
+    blurb: >
+      The federation governs a wider set, several of which have their own world
+      championships.
+    events:
+      - { id: barefoot, label: Barefoot water skiing, at: [world-championship], note: Slalom, tricks and jump with no skis at all. }
+      - { id: racing, label: Ski racing, at: [world-championship], note: Long-distance racing behind powerboats at high speed. }
+      - { id: disabled, label: Adaptive water skiing, at: [world-championship], note: Contested across the classical disciplines with adapted equipment. }
+      - { id: kneeboard, label: Kneeboard and wakesurf, at: [world-championship], count: 2 }
+  - id: olympic-record
+    label: Its Olympic record
+    counts: false
+    events:
+      - { id: munich, label: Water skiing, Munich 1972, at: [lapsed], note: "A demonstration sport; the category was discontinued after 1992." }
+      - { id: shortlist, label: Wakeboard, 2020 shortlist, at: [lapsed], note: Shortlisted for addition to the Tokyo programme and not selected. }

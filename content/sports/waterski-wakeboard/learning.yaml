@@ -1,0 +1,98 @@
+sport: waterski-wakeboard
+standing: editorial
+summary: >
+  Getting up on skis takes an afternoon; competing needs a boat, a driver, a
+  stretch of private water and a season's fuel. It is one of the most
+  facility-bound sports on this site, and cable parks are its answer to that.
+
+entry:
+  verdict: high
+  claim: A boat, a driver, still water and fuel — unless there is a cable park nearby, in which case an afternoon.
+  why: >
+    The physical skill is not the barrier. Most people can be towed upright
+    within a session, and wakeboarding is easier to start than skiing because
+    both feet are fixed to one board.
+
+    The barrier is everything around it. Tournament skiing needs a boat with
+    approved speed control, someone qualified to drive it, a surveyed course on
+    still water, and fuel — and each skier occupies the whole lake for the
+    duration of their run. That is a facility and cost profile closer to
+    equestrian or sailing than to anything else here.
+
+    **Cable parks change the arithmetic completely.** An overhead cable tows
+    riders continuously around a lake with no boat, no driver and no fuel, at a
+    session price comparable to a lift pass. Where a cable park exists, the
+    sport's entry barrier collapses — and cable riding has grown into its own
+    competitive discipline as a result.
+  evidence:
+    - { label: Boat towing, value: Boat, driver, fuel, still water, basis: rule, rule: waterski-1946-federation }
+    - { label: Cable towing, value: No boat, no driver, session pricing, basis: rule, rule: waterski-1961-cable, note: The sport's accessibility answer. }
+    - { label: Time to be towed upright, value: One session, basis: judgement }
+    - { label: Water per competitor, value: The whole course, basis: observation }
+    - { label: Time to a first tournament, value: A season, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Reaching a buoy the rope is too short to reach, on a run that ends at the first mistake.
+  why: >
+    Slalom at the top is one of the strangest technical problems in sport.
+    Beyond a certain shortening, the rope is literally shorter than the
+    distance from the boat's path to the buoy — so the skier cannot be pulled
+    to it. They have to generate so much angle and speed across the wake that
+    their body swings wider than the rope's length permits, arriving at the
+    buoy on momentum they created.
+
+    Getting it wrong ends the run. There is no second attempt and no way to
+    recover a missed buoy, so a season's form is expressed in a few seconds.
+
+    **Tricks** requires a memorised, sequenced routine of scored manoeuvres
+    executed inside two twenty-second passes, with each trick counting once —
+    so a repeated trick is a wasted second.
+
+    **Jump** is the highest-risk discipline in the federation, and elite jumpers
+    travel distances that make the landing the difficulty rather than the
+    flight.
+
+    And through all of it, the boat. A driver a fraction off line or speed
+    changes what the athlete is being asked to do, and the athlete has no
+    control over that at all.
+  evidence:
+    - label: The rope is too short
+      value: Beyond a certain shortening
+      basis: rule
+      rule: waterski-slalom-shortening
+      note: The skier must swing wider than the rope's length allows.
+    - label: One run
+      value: Ends at the first missed buoy
+      basis: rule
+      rule: waterski-slalom-shortening
+      note: No second attempt in slalom.
+    - label: The boat
+      value: Driven by somebody else
+      basis: rule
+      rule: waterski-1946-federation
+      note: A competitor's score depends on another person's precision.
+    - { label: Typical peak age, value: 22–35, basis: judgement }
+
+gap: >
+  High to very high, and this is one of the few sports here whose entry barrier
+  is genuinely close to its ceiling in cost terms.
+
+  Most sports on this site are cheap to start and expensive to pursue.
+  Tournament water skiing is expensive to start, because the boat, the driver
+  and the water are required before anybody does anything, and a beginner
+  consumes the same resources as a champion.
+
+  The cable park is the sport's own answer, and it is the same shape of answer
+  that drone racing gave air sports: when the vehicle became cheap and the
+  operator was no longer required, the barrier collapsed and a new competitive
+  discipline grew inside the same federation.
+
+  The other distinctive thing is the driver. Sailing has conditions nobody
+  controls and equestrian has a partner with its own mind, but this is the only
+  sport covered here where a competitor's score depends on the precision of a
+  person who is not competing, judged separately, and able to void the run.
+
+shaped_by:
+  - waterski-slalom-shortening
+  - waterski-1961-cable

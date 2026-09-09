@@ -33,7 +33,7 @@ Three layers, marked as such everywhere:
   been entered; every other column is hatched rather than blank, because
   "nobody checked" and "absent" are not the same claim and must not be drawn
   the same way.
-- **Deep** — sixty-seven sports: badminton, athletics, football, gymnastics,
+- **Deep** — sixty-nine sports: badminton, athletics, football, gymnastics,
   swimming, table tennis, basketball, cycling, judo, archery, volleyball,
   tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo,
   boxing, equestrian, fencing, rowing, sailing, golf, sport climbing, wrestling,
@@ -43,14 +43,15 @@ Three layers, marked as such everywhere:
   floorball, lifesaving, kabaddi, sepak takraw, finswimming, racquetball and
   dancesport, ju-jitsu, muaythai, wushu, kickboxing, boules, bowling, dragon
   boat, soft tennis, air sports, roller sports, underwater sports,
-  cheerleading, billiards and kurash.
+  cheerleading, billiards, kurash, duathlon and water ski and wakeboard.
 
-  The first thirty-nine are every sport on the 2028 summer programme.
-  Twenty-three are World Games sports — twenty-two that have never been
-  Olympic, plus tug of war, which was removed in the 1920s and carried on
-  without the Games for a century — and five, kabaddi, sepak takraw, dragon
-  boat, soft tennis and kurash, are contested at the Asian Games and nowhere
-  else. Twelve more sit in the skeleton.
+  That is **every sport on the 2028 summer Olympic programme and every sport on
+  the World Games programme** — thirty-nine and twenty-five respectively, with
+  tug of war counted in both — plus five contested at the Asian Games and
+  nowhere else: kabaddi, sepak takraw, dragon boat, soft tennis and kurash.
+
+  Eleven sports remain in the skeleton: seven that lapsed from the Olympic
+  programme before 1940, and four on the Asian Games programme.
 
 The first five were one per family, because a "rule" is a structurally
 different object in each: racket sports legislate scoring, measured sports
@@ -288,6 +289,21 @@ The eighth wave took what was left with genuinely distinct laws:
   ju-jitsu legislates that a bout pass through every range; judo has spent
   fifteen years narrowing towards one, banning leg grabs in 2013; and kurash
   starts there, standing only, with no groundwork and no grip below the waist.
+
+Two more completed the World Games programme, and both are sports defined by
+something taken away:
+
+- **Duathlon** is triathlon with the swim removed, which deletes the barrier
+  that actually keeps people out of triathlon and keeps almost the whole
+  ceiling — the final run begins on legs that have already run hard. It is also
+  two sports under one name, since elite short course is draft-legal and
+  everything else is not.
+- **Water ski and wakeboard** has the only score on this site that cannot be
+  written as one number: slalom results are quoted as buoys at a rope length at
+  a speed, and beyond a certain shortening the rope is shorter than the distance
+  to the buoy. It is also the only sport here where a competitor's result
+  depends on the precision of a person who is not competing — the boat driver,
+  who is judged separately and can void the run.
 
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause

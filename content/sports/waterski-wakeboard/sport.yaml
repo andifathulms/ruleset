@@ -1,0 +1,21 @@
+id: waterski-wakeboard
+label: Water ski and wakeboard
+tagline: "The only sport here where a competitor's performance depends on how well somebody else drives a boat."
+governing_body: International Waterski & Wakeboard Federation
+founded: >
+  Water skiing dates from the 1920s; the World Water Ski Union was founded in
+  1946, and the federation later took wakeboarding and its board disciplines
+  into its name.
+coverage: deep
+family_colour: pool
+classification:
+  official: waterski-wakeboard
+  game-category: performance
+  adjudication: measured
+summary: >
+  Slalom, tricks and jump behind a boat, plus wakeboarding and a set of board
+  disciplines. Slalom is scored by a system found nowhere else: complete a pass
+  through six buoys and the boat goes faster, then the rope is shortened in set
+  increments until it is shorter than the distance to the buoy. And the boat is
+  a competitor's equipment without being under their control — the driver's line
+  and speed are part of every score.

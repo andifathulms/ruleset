@@ -1,0 +1,142 @@
+sport: waterski-wakeboard
+as_of: 2026-09
+edition: IWWF Tournament Rules
+source: iwwf-rules
+standing: primary-named
+summary: >
+  Three classical disciplines behind a boat — slalom, tricks and jump — plus
+  wakeboarding, and a set of cable disciplines towed without a boat at all.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      **Slalom:** pass outside six buoys and back through the boat's wake,
+      repeatedly, as the boat speeds up and then the rope shortens.
+      **Tricks:** score as many manoeuvres as possible in two twenty-second
+      passes, each trick carrying a declared point value.
+      **Jump:** clear a ramp and land, for distance.
+      **Wakeboard:** perform a run of aerial tricks off the wake, judged.
+
+      An overall title combines the three classical disciplines, so a
+      tournament champion must be able to do three things that share almost
+      nothing.
+    facts:
+      - { label: Slalom, value: Buoys, then speed, then rope length }
+      - { label: Tricks, value: Two passes of 20 s }
+      - { label: Jump, value: Distance off a ramp }
+
+  - id: field
+    label: The lake and the boat's path
+    body: >
+      A still-water course with the boat running a surveyed straight line
+      through it. In slalom the boat's path is between the buoys; the skier
+      swings from side to side across it.
+
+      **The boat is part of the field of play and is not under the competitor's
+      control.** The driver must hold a precise line and a precise speed —
+      timed between gates, with tolerances — because a boat a fraction fast or
+      wide changes what the skier is being asked to do.
+
+      Cable courses have no boat: an overhead circuit tows riders past
+      obstacles and rails.
+    facts:
+      - { label: Boat path, value: Surveyed, timed between gates }
+      - { label: Boat speed, value: Held to a tolerance }
+      - { label: Cable, value: No boat, no wake }
+    shaped_by: [waterski-1961-cable]
+
+  - id: equipment
+    label: Skis, boards and the rope
+    body: >
+      A single slalom ski with a deep fin, a pair of trick skis that are short
+      and finless so they can be spun, jump skis that are long, and a wakeboard
+      with bindings and moulded fins.
+
+      **The rope** is the least obvious and most important item. It is
+      inelastic, and it comes in standard lengths with defined shortening
+      increments — the "off" measurements that slalom scores are quoted in. A
+      score of "three at 10.75 off" means three buoys with the rope shortened by
+      10.75 metres from full length.
+
+      **The boat** is regulated as equipment even though the athlete does not
+      drive it: approved hulls, approved speed control, and a wake specification
+      that matters enormously to wakeboarding, where the wake is the ramp.
+    facts:
+      - { label: Rope, value: Inelastic, standard shortening increments }
+      - { label: Slalom ski, value: One ski, deep fin }
+      - { label: Trick skis, value: Short and finless }
+      - { label: Boat, value: Approved hull and speed control }
+    shaped_by: [waterski-slalom-shortening]
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      One competitor at a time, in age and ability divisions. Judges score
+      tricks and wakeboard runs; measurers determine jump distances; and boat
+      judges verify that the driver held the line and the speed.
+
+      That last role has no counterpart on this site. An official is
+      adjudicating the performance of a person who is not competing, whose
+      errors would unfairly affect somebody who is.
+    facts:
+      - { label: Competing, value: One at a time }
+      - { label: Boat judge, value: Verifies the driver's line and speed }
+
+  - id: duration
+    label: Time
+    body: >
+      A slalom run lasts until the skier misses a buoy or falls. Tricks is two
+      passes of twenty seconds. Jump is three attempts, best counting.
+    facts:
+      - { label: Tricks, value: 2 × 20 s }
+      - { label: Jump, value: Three attempts }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      **Slalom** is compound: buoys, at a rope length, at a speed. There is no
+      way to state a slalom result in one number, and the three parts are always
+      quoted together.
+
+      **Tricks** is a points total from a published table of trick values, with
+      each trick counting once.
+
+      **Jump** is distance, measured.
+
+      **Wakeboard** is judged on execution, difficulty, intensity and
+      composition — the only judged discipline in the federation's competitive
+      core.
+    facts:
+      - { label: Slalom score, value: Buoys / rope length / speed }
+      - { label: Tricks, value: A published points table }
+      - { label: Wakeboard, value: Judged }
+    shaped_by: [waterski-slalom-shortening]
+
+  - id: restarts
+    label: Passes and attempts
+    body: >
+      A slalom run continues while the skier keeps completing passes; it ends
+      on a missed buoy or a fall, and the score is where they got to. There is
+      no second attempt.
+
+      Jump allows three attempts. Tricks allows two passes. Wakeboard runs are
+      set by format.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Missing a buoy or taking it on the wrong side. Falling. Releasing the
+      handle before the timing gate. Equipment outside specification — ski
+      dimensions, fin dimensions, rope length and boat approval are all checked.
+
+      And the offence that belongs to the driver rather than the skier: a boat
+      outside its speed tolerance or off its line, which voids the pass and
+      requires a rerun.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The best score in each discipline, and a combined overall title across
+      slalom, tricks and jump. Because a slalom run ends the moment a buoy is
+      missed, a single lapse fixes the score for the day.

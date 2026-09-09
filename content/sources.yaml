@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: iwwf-rules
+  standing: primary-named
+  title: IWWF Tournament Rules
+  publisher: International Waterski & Wakeboard Federation
+  kind: rulebook
+  url: https://www.iwwf.sport/
+
 - id: ika-rules
   standing: primary-named
   title: IKA Rules of Kurash
