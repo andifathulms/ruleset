@@ -1,0 +1,50 @@
+sport: dragon-boat
+as_of: 2026-09
+source: idbf-rules
+standing: primary-named
+summary: >
+  No Olympic events. Dragon boat has been at the Asian Games since 2010 and
+  holds IDBF world championships — and a second international federation, the
+  canoe body, also claims the sport as one of its disciplines.
+disciplines:
+  - id: standard
+    label: Standard boat
+    blurb: Twenty paddlers, a drummer and a steerer.
+    events:
+      - { id: std-200, label: 200 m, at: [asian-games, world-championship], count: 3, note: Open, women's and mixed. }
+      - { id: std-500, label: 500 m, at: [asian-games, world-championship], count: 3 }
+      - { id: std-2000, label: 2000 m, at: [world-championship], count: 3, note: Raced with turns around marks. }
+  - id: small
+    label: Small boat
+    blurb: Ten paddlers, a drummer and a steerer.
+    events:
+      - { id: sm-200, label: 200 m, at: [asian-games, world-championship], count: 3 }
+      - { id: sm-500, label: 500 m, at: [world-championship], count: 3 }
+  - id: bcs
+    label: Breast cancer survivor divisions
+    blurb: >
+      Crews of breast cancer survivors, contested at IDBF world championships.
+      The divisions exist because a 1996 clinical study found that the standing
+      advice against strenuous upper-body exercise after surgery was not
+      supported.
+    events:
+      - { id: bcs-races, label: BCS races, at: [world-championship], count: 2, note: A competitive category that began as a medical trial. }
+  - id: festival
+    label: The festival it comes from
+    counts: false
+    blurb: >
+      Dragon boat racing is a living festival tradition more than two thousand
+      years old, held at the Duanwu Festival and associated with the poet Qu
+      Yuan. Most dragon boat racing in the world is this rather than
+      championship sport.
+    events:
+      - { id: duanwu, label: Festival racing, at: [federation-only], note: Community and ceremonial racing, in vastly greater numbers than the governed sport. }
+  - id: governance
+    label: Claimed by a second federation
+    counts: false
+    blurb: >
+      The international canoe federation runs dragon boat as one of its own
+      disciplines, alongside the IDBF's programme. Two bodies govern the same
+      activity.
+    events:
+      - { id: icf-dragon, label: Canoe federation dragon boat, at: [world-championship], note: A parallel structure with its own championships. }

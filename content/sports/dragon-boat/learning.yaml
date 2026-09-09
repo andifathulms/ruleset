@@ -1,0 +1,87 @@
+sport: dragon-boat
+standing: editorial
+summary: >
+  You can be in a racing crew on your first evening, which is true of almost
+  nothing else on this site — and the top of the sport is twenty people being
+  identical, which is harder than it sounds.
+
+entry:
+  verdict: very-low
+  claim: Turn up at a club, get in the boat, paddle. The club owns everything.
+  why: >
+    Dragon boat has the gentlest entry of any water sport covered here, and the
+    reason is the boat. It is wide, stable and carries twenty-two people, so a
+    beginner cannot capsize it, does not need to balance, and is never alone
+    with the consequences of a mistake.
+
+    Compare canoeing and rowing, where a novice in a single boat spends their
+    first sessions in the water rather than on it. A dragon boat novice is
+    contributing to a crew within minutes.
+
+    Clubs own the boats and paddles. Community and corporate crews recruit
+    complete beginners deliberately, and festival racing is full of people who
+    started six weeks earlier.
+  evidence:
+    - { label: Kit to start, value: Nothing; the club has it, basis: observation }
+    - { label: Stability, value: Very high — a wide boat with 22 people, basis: observation }
+    - { label: Prerequisite, value: Able to swim, basis: judgement }
+    - { label: Crew size, value: "22", basis: rule, rule: dragonboat-crew-composition, note: A beginner can be carried by nineteen other paddlers. }
+    - { label: Time to a real race, value: Weeks, basis: judgement }
+
+mastery:
+  verdict: high
+  claim: Twenty paddlers producing one stroke, for two minutes, in a boat that punishes any of them being early.
+  why: >
+    Elite dragon boat is a synchronisation problem before it is a power
+    problem. Twenty paddlers must enter, pull and exit the water together; a
+    paddler out of time does not merely fail to contribute but actively slows
+    the boat by disturbing the run and unsettling the hull. The difference
+    between a good crew and a great one is visible in the water rather than in
+    anyone's physiology.
+
+    Because the seats are fixed, the stroke is a whole-body rotation driven from
+    the hips and trunk rather than a leg drive, which is a different action
+    from rowing and closer to canoe sprint. Holding it identical, at rate, in a
+    two-minute maximal effort, is the technical demand.
+
+    The 2000 metre event adds turns, which makes steering a competitive skill
+    rather than a lane-keeping one.
+
+    The ceiling is capped institutionally: an Asian Games place, no Olympic
+    place, and a sport where the enormous festival and community participation
+    base does not translate into professional structures anywhere.
+  evidence:
+    - label: Synchronisation
+      value: 20 paddlers, one stroke
+      basis: observation
+      note: A paddler out of time slows the boat rather than merely not helping.
+    - label: Fixed seats
+      value: No sliding seat
+      basis: observation
+      note: Power comes from trunk rotation, not a leg drive.
+    - label: The drummer
+      value: Sets and holds the rate
+      basis: rule
+      rule: dragonboat-crew-composition
+      note: A competitor whose contribution is timing rather than propulsion.
+    - { label: Typical peak age, value: 22–34, basis: judgement }
+
+gap: >
+  Very low to high, and the interesting feature is that the sport is
+  simultaneously one of the most and least accessible things covered here
+  depending on which crew you join.
+
+  A community or corporate crew will take anyone, put them in a boat within an
+  hour, and race them at a festival in a month. An elite crew is twenty people
+  who have trained to be indistinguishable from each other. Both are dragon
+  boat, both race under IDBF rules, and there are more people in the first
+  category than in almost any sport on this site.
+
+  The breast cancer survivor divisions sit inside that structure and are
+  something no other sport here has: a competitive category that exists because
+  a clinical trial in 1996 found the prevailing medical advice was wrong, and
+  the crews formed for the study did not stop.
+
+shaped_by:
+  - dragonboat-crew-composition
+  - dragonboat-bcs-crews

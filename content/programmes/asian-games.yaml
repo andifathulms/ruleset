@@ -109,7 +109,7 @@ sports:
     held: [2022]
   - id: dragon-boat
     label: Dragon boat
-    coverage: skeleton
+    coverage: deep
     held: [2022]
   - id: equestrian
     label: Equestrian

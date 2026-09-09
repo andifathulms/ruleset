@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: idbf-rules
+  standing: primary-named
+  title: IDBF Competition Rules
+  publisher: International Dragon Boat Federation
+  kind: rulebook
+  url: https://www.dragonboat.sport/
+
 - id: ibf-rules
   standing: primary-named
   title: IBF Playing Rules and equipment specifications

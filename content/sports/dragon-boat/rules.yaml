@@ -1,0 +1,105 @@
+- id: dragonboat-crew-composition
+  scope: { sport: dragon-boat, discipline: all }
+  date_adopted: 1991
+  date_effective: 1991
+  status: adopted
+  governing_body: International Dragon Boat Federation
+  what_changed: >
+    The standard crew was fixed at twenty paddlers, a drummer and a steerer —
+    twenty-two people, of whom two do not propel the boat.
+
+    The **drummer** sits at the bow facing the crew and beats time, setting and
+    holding the stroke rate. They are a registered competitor who contributes no
+    propulsion at all. The **steerer** stands at the stern with a long oar and
+    keeps the boat in its lane.
+
+    No other racing sport on this site carries a crew member whose job is
+    rhythm. Rowing's coxswain steers and calls, which is the closest
+    equivalent, and even a cox is not beating a drum.
+  cause_primary: fairness and eligibility
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The festival tradition the sport comes from has always carried a drummer,
+      and international codification kept the role rather than treating it as
+      ceremonial.
+  citation:
+    source: idbf-rules
+    edition: IDBF Competition Rules, crew composition
+    missing: true
+
+- id: dragonboat-1991-idbf
+  scope: { sport: dragon-boat, discipline: all }
+  date_adopted: 1991
+  date_effective: 1991
+  status: adopted
+  governing_body: International Dragon Boat Federation
+  what_changed: >
+    The IDBF was formed to govern dragon boat racing internationally, fixing
+    boat specifications, crew sizes — standard boats of twenty paddlers and
+    small boats of ten — and the racing distances of 200, 500 and 2000 metres.
+
+    It codified a sport out of a festival. Racing had been organised
+    competitively in Hong Kong from 1976 and spread internationally from there,
+    and the federation's job was to make a two-thousand-year-old ceremony into
+    something that could be raced in lanes and timed.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Dragon boat racing had spread worldwide through the 1980s with boats,
+      crew sizes and distances varying by country and by festival.
+  citation:
+    source: idbf-rules
+    edition: IDBF statutes
+    missing: true
+
+- id: dragonboat-bcs-crews
+  scope: { sport: dragon-boat, discipline: all }
+  date_adopted: 1996
+  date_effective: 1996
+  status: adopted
+  governing_body: Research at the University of British Columbia, later the IDBF
+  what_changed: >
+    Dragon boat paddling was studied as rehabilitation after breast cancer
+    surgery, on the hypothesis — contrary to the standing medical advice of the
+    time — that repetitive upper-body exercise would not cause or worsen
+    lymphoedema.
+
+    The finding supported it, and the crews formed for the study became a
+    movement. Breast cancer survivor crews now race worldwide, and the IDBF
+    contests BCS divisions at its world championships.
+
+    That is a competitive division created out of a clinical trial, and this
+    site knows of no other sport whose international championship programme
+    contains one.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      A sports medicine researcher in Vancouver recruited breast cancer
+      survivors into a dragon boat crew to test whether the prevailing advice
+      against strenuous upper-body exercise was justified.
+  citation:
+    source: idbf-rules
+    edition: IDBF Competition Rules, BCS divisions
+    missing: true
+
+- id: dragonboat-2010-asian-games
+  scope: { sport: dragon-boat, discipline: all }
+  date_adopted: 2010
+  date_effective: 2010
+  status: adopted
+  governing_body: Olympic Council of Asia
+  what_changed: >
+    Dragon boat was contested at the Asian Games in Guangzhou in 2010 and has
+    appeared at subsequent editions, giving the sport its only multi-sport
+    programme place.
+  cause_primary: participation and access
+  cause_secondary: commercial
+  trigger:
+    description: >
+      The Games were held in Guangdong, in the region where the festival racing
+      tradition is strongest, and the host proposed the sport.
+  citation:
+    source: oca-asian-games
+    edition: Olympic Council of Asia programme listings
+    missing: true

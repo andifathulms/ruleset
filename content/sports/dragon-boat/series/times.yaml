@@ -1,0 +1,35 @@
+id: dragon-boat-times
+label: Race times
+unit: s
+higher_is_better: false
+absence_kind: impossible
+cannot_exist: >
+  Dragon boat times cannot form a progression, for the reason rowing gives and
+  refuses to call its marks records: the water decides too much.
+
+  A 500 metre time depends on the course, the current, the wind, the water
+  temperature and the boat. Dragon boats are not one-design in the way an
+  Olympic class dinghy is, and a heavy festival boat and a modern racing hull
+  are different craft. A time set on one lake says very little about a time set
+  on another.
+
+  Crew composition compounds it. Standard and small boats, open, women's, mixed
+  and BCS divisions all race the same distances, and the sport's mixed
+  divisions specify the number of each sex aboard — so a mixed time is a
+  function of a rule about who is in the boat.
+
+  There is a governance obstacle as well. Two international federations run
+  dragon boat competition in parallel, and neither ratifies the other's
+  results, which puts the sport in the same position as powerlifting: not
+  short of numbers, short of an authority to say what they mean.
+
+  What the sport has instead is finishing order, which is all it claims.
+segments: []
+breaks:
+  - at: 1991
+    caused_by: dragonboat-crew-composition
+    kind: scoped
+    note: >
+      Standard and small boats, and open, women's, mixed and BCS divisions,
+      race the same distances in different craft with different crews.
+source: idbf-rules

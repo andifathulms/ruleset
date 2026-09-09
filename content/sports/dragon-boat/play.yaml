@@ -1,0 +1,115 @@
+sport: dragon-boat
+as_of: 2026-09
+edition: IDBF Competition Rules
+source: idbf-rules
+standing: primary-named
+summary: >
+  Twenty paddlers on ten benches, a drummer at the bow and a steerer at the
+  stern, racing in lanes over 200, 500 or 2000 metres. Small boats carry ten
+  paddlers instead of twenty.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Cross the line first. It is a straightforward lane race, and everything
+      distinctive about the sport is in who is in the boat and what the paddling
+      action is.
+    facts:
+      - { label: Distances, value: 200, 500 and 2000 m }
+
+  - id: field
+    label: The course
+    body: >
+      Buoyed lanes on flat water, as in canoe sprint and rowing. The 2000 metre
+      event is raced with turns around marks rather than in straight lanes,
+      which introduces a steering contest the shorter races do not have.
+    facts:
+      - { label: Water, value: Flat, buoyed lanes }
+      - { label: 2000 m, value: Raced with turns }
+
+  - id: equipment
+    label: The boat and the paddle
+    body: >
+      A long open boat with a dragon head at the bow and a tail at the stern —
+      decorative fittings that are required in competition, which is unusual: a
+      racing craft on this site is otherwise stripped of everything that does
+      not make it faster.
+
+      Paddlers use a single-bladed paddle, sitting on fixed benches, facing
+      forwards. That combination separates it from both neighbours: rowing uses
+      oars in oarlocks with the crew facing backwards on sliding seats, and
+      kayaking uses a double blade. Dragon boat paddling is closer to canoe
+      sprint, done sitting rather than kneeling.
+
+      The drummer has a drum. The steerer has a long steering oar.
+    facts:
+      - { label: Paddle, value: Single blade, seated, facing forward }
+      - { label: Seats, value: Fixed, not sliding }
+      - { label: Dragon head and tail, value: Required fittings }
+      - { label: Standard boat, value: 20 paddlers }
+      - { label: Small boat, value: 10 paddlers }
+
+  - id: players
+    label: Crew and officials
+    body: >
+      Twenty paddlers in pairs on ten benches, a **drummer** at the bow facing
+      them, and a **steerer** standing at the stern. Twenty-two people, two of
+      whom supply no propulsion.
+
+      The drummer's beat sets and holds the stroke rate and calls the crew's
+      pushes. Whether the drum is essential or ceremonial is argued inside the
+      sport, and the rules settle it by requiring the position.
+
+      Crews race in open, women's, mixed and — distinctively — breast cancer
+      survivor divisions.
+    facts:
+      - { label: In the boat, value: "22" }
+      - { label: Not paddling, value: The drummer and the steerer }
+      - { label: Divisions, value: Open, women's, mixed, and BCS }
+    shaped_by: [dragonboat-crew-composition, dragonboat-bcs-crews]
+
+  - id: duration
+    label: Time
+    body: >
+      Under a minute for a 200, around two minutes for a 500, and roughly ten
+      for a 2000 with turns. Timed to the hundredth, as in canoe sprint.
+    facts:
+      - { label: 200 m, value: Under a minute }
+      - { label: 2000 m, value: About ten minutes, with turns }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Elapsed time, and finishing order in heats and finals. There is no scoring
+      system beyond the clock.
+
+  - id: restarts
+    label: The start
+    body: >
+      A stationary start with boats held on the line. Because a dragon boat is
+      long, heavy and carries twenty-two people, the acceleration phase is a
+      substantial part of a 200 metre race, and the drummer's role is most
+      visible in it.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Leaving your lane and interfering with another crew. Carrying a crew that
+      does not meet the division's composition requirements — the mixed
+      divisions specify the number of each sex in the boat, and the count is
+      checked.
+
+      Paddlers must remain seated, and the steerer must remain standing at the
+      stern; substitution during a race is prohibited.
+
+      Boats are weighed and inspected, and crews are weighed in divisions where
+      a limit applies.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      First across the line. Because crews are large and heats are numerous,
+      championship programmes run enormous numbers of races, and a national
+      squad may contest open, women's, mixed and BCS divisions across three
+      distances and two boat sizes.
