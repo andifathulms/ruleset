@@ -95,8 +95,10 @@ sports:
       difference between it and volleyball.
   - id: floorball
     label: Floorball
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      No offside, no checking, and a goalkeeper who plays without a stick.
   - id: flying-disc
     label: Flying disc
     coverage: deep

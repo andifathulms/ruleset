@@ -1,0 +1,103 @@
+- id: floorball-1986-iff
+  scope: { sport: floorball, discipline: all }
+  date_adopted: 1986
+  date_effective: 1986
+  status: adopted
+  governing_body: International Floorball Federation
+  what_changed: >
+    The IFF was formed by the Swedish, Finnish and Swiss associations and
+    produced one rulebook from three national codes: five outfield players and
+    a goalkeeper, a rink of forty by twenty metres enclosed by low boards,
+    three periods of twenty minutes, and a free hit rather than a face-off to
+    restart after most stoppages.
+
+    It also declined to adopt an offside rule, which the sport has never had.
+    Field hockey abolished its own in 1998 and ice hockey retains one; floorball
+    simply never wrote it, and the game's continuous, end-to-end shape follows
+    from that.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Three countries had developed the sport in parallel through the 1970s
+      with different rink sizes, team sizes and restart conventions, and could
+      not play each other.
+  citation:
+    source: iff-rules
+    edition: IFF Rules of the Game
+    missing: true
+
+- id: floorball-goalkeeper-no-stick
+  scope: { sport: floorball, discipline: all }
+  date_adopted: 1986
+  date_effective: 1986
+  status: adopted
+  governing_body: International Floorball Federation
+  what_changed: >
+    The goalkeeper plays without a stick. They defend the goal from a kneeling
+    position, catch and hold the ball with their hands, and return it to play
+    by throwing.
+
+    No other stick sport does this. An ice hockey or field hockey goalkeeper
+    holds a stick and stands; a floorball goalkeeper is closer to a handball
+    goalkeeper in what they do, in a sport where nobody else may touch the ball
+    with their hands at all.
+  cause_primary: safety
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      The ball is light plastic and travels fast in a small rink. A kneeling,
+      padded goalkeeper covering the lower part of a small goal with the body
+      and hands was judged both safer and better matched to the goal's
+      dimensions than a standing keeper with a stick.
+  citation:
+    source: iff-rules
+    edition: IFF Rules of the Game, the goalkeeper
+    missing: true
+
+- id: floorball-stick-below-waist
+  scope: { sport: floorball, discipline: all }
+  date_adopted: 1986
+  date_effective: 1986
+  status: adopted
+  governing_body: International Floorball Federation
+  what_changed: >
+    The stick may not be raised above the waist at any point — not on the
+    backswing, not on the follow-through, and not when playing the ball. Body
+    checking is prohibited outright, and a stick may not be lifted, held or
+    struck.
+
+    Together these make floorball a genuinely non-contact stick sport, which
+    is unusual: field hockey permits far more, and ice hockey is built around
+    contact. The restriction also caps shot power, because a shot must be
+    generated from a low, controlled swing rather than a slap.
+  cause_primary: safety
+  trigger:
+    description: >
+      A hard swing with a stick in a confined indoor rink, among players
+      wearing no protective equipment, is a straightforward injury mechanism.
+  citation:
+    source: iff-rules
+    edition: IFF Rules of the Game, playing the ball and fouls
+    missing: true
+
+- id: floorball-2011-ioc-recognition
+  scope: { sport: floorball, discipline: all }
+  date_adopted: 2011
+  date_effective: 2011
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    The IFF received full IOC recognition, which confers standing to campaign
+    for inclusion without conferring a place on any programme. Floorball has
+    been on the World Games programme since 2017 and has never been at an
+    Olympic Games.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The federation had grown from three founding members to a large
+      membership across Europe, Asia and Oceania, and sought the recognition
+      that precedes any candidacy.
+  citation:
+    source: iff-rules
+    edition: IOC recognition, 2011
+    missing: true

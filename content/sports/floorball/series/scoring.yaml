@@ -1,0 +1,27 @@
+id: floorball-scoring
+label: Goals per game
+unit: goals per game
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  No goals-per-game series is entered for floorball, for the reason that
+  recurs in every young sport on this site: the figures exist inside national
+  leagues and nowhere in a form that compares across them.
+
+  The Swedish and Finnish leagues are the only substantially professional
+  competitions in the world, and a rate taken from either would describe that
+  league rather than the sport. Rule 4 would require it to be labelled that
+  way, which is the position football is in for the same reason.
+
+  There is also very little to break a series against. Floorball's defining
+  laws — no offside, no checking, the waist-height cap, the goalkeeper without
+  a stick — were written into the 1986 rulebook and have not been reversed. A
+  continuous series is genuinely possible here in a way it is not for
+  gymnastics or badminton. It has simply never been published.
+
+  What the sport does have, and this site records rather than charts, is a
+  competitive concentration so extreme that a scoring rate would mostly measure
+  how often Sweden and Finland played somebody else.
+segments: []
+breaks: []
+source: iff-rules

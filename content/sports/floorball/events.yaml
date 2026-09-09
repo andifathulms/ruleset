@@ -1,0 +1,32 @@
+sport: floorball
+as_of: 2026-09
+source: iff-rules
+standing: primary-named
+summary: >
+  No Olympic events. The IFF holds men's and women's world championships in
+  alternating years and floorball has been on the World Games programme since
+  2017, with IOC recognition since 2011.
+disciplines:
+  - id: floorball
+    label: Floorball
+    blurb: Six a side including the goalkeeper, on a 40 × 20 m boarded rink.
+    events:
+      - { id: men, label: Men's tournament, at: [world-games, world-championship] }
+      - { id: women, label: Women's tournament, at: [world-games, world-championship] }
+  - id: formats
+    label: Other formats
+    counts: false
+    events:
+      - { id: three, label: Three-a-side, at: [federation-only], note: A small-rink format used for development and for schools. }
+      - { id: powerchair, label: Powerchair floorball, at: [federation-only], note: "Played from electric wheelchairs with a stick fixed to the chair; governed nationally in several countries." }
+      - { id: special, label: Special Olympics floorball, at: [federation-only], note: Contested at Special Olympics World Games, under adapted rules. }
+  - id: relatives
+    label: The sports it sits between
+    counts: false
+    blurb: >
+      Floorball is routinely described as indoor hockey and is not the same
+      sport as either code it resembles.
+    events:
+      - { id: hockey, label: Field hockey, at: [olympic], note: "Outdoors, heavier stick and ball, offside abolished in 1998." }
+      - { id: ice, label: Ice hockey, at: [olympic], note: "On ice, with body checking and an offside rule; a Winter Games sport." }
+      - { id: unihockey, label: Rink and floor hockey variants, at: [federation-only], note: The North American school-equipment games from which floorball's original sticks came. }

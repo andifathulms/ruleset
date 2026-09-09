@@ -1,0 +1,90 @@
+sport: floorball
+standing: editorial
+summary: >
+  Probably the easiest stick sport in the world to begin — a light stick, a
+  light ball, no contact and a flat indoor floor — and a fast, high-skill game
+  at the top that only two countries have ever really won.
+
+entry:
+  verdict: very-low
+  claim: A sports hall, twelve people and a stick that weighs a third of a kilo.
+  why: >
+    Floorball was designed into school halls and it shows. The stick is light
+    enough for a child to swing accurately, the ball is 23 grams and does not
+    hurt, the floor is flat and indoors, and body checking is banned outright,
+    so a beginner is never hit.
+
+    The rule that most helps beginners is the one capping the stick at waist
+    height. It removes the dangerous swing that makes field hockey and ice
+    hockey intimidating to learn, and it means a mixed-ability group can play
+    together safely on the first attempt.
+
+    It is a genuine mass-participation school sport in Sweden, Finland,
+    Switzerland and the Czech Republic for exactly these reasons, and the
+    equipment cost is among the lowest of any team sport covered here.
+  evidence:
+    - { label: Players needed, value: "12", basis: rule, rule: floorball-1986-iff }
+    - { label: Stick, value: About 350 g, basis: observation }
+    - { label: Contact, value: Prohibited, basis: rule, rule: floorball-stick-below-waist }
+    - { label: Stick height, value: Never above the waist, basis: rule, rule: floorball-stick-below-waist, note: Removes the swing that makes the other stick sports frightening to learn. }
+    - { label: Time to a real game, value: One session, basis: judgement }
+
+mastery:
+  verdict: high
+  claim: A continuous end-to-end game with no offside, played by full-time athletes in two countries.
+  why: >
+    Take away offside and the game never settles. Both teams can commit forward
+    at any moment, the boards keep the ball live, and free hits restart play
+    without letting a defence reorganise — so elite floorball is played at a
+    sustained pace that requires rolling line changes to survive.
+
+    The technical ceiling is higher than the light equipment suggests. A shot
+    generated entirely below waist height has to come from wrist and blade
+    control rather than from a swing, and the sport's best players do things
+    with a 23-gram ball on a blade — dragging, lifting, shooting on the turn —
+    that have no equivalent in the heavier stick sports.
+
+    The goalkeeper is effectively a separate sport. No stick, kneeling, reading
+    a shot that can come from anywhere and arrive with almost no wind-up.
+
+    What caps the ceiling is the sport's concentration. Sweden and Finland have
+    professional or semi-professional leagues and have won almost everything;
+    for a player anywhere else, the pathway leads to one of those two countries
+    or stops.
+  evidence:
+    - label: No offside
+      value: Never adopted
+      basis: rule
+      rule: floorball-1986-iff
+      note: The game runs end to end with no structural pause.
+    - label: Shot generated below the waist
+      value: Required
+      basis: rule
+      rule: floorball-stick-below-waist
+      note: Power must come from blade and wrist control, not from a swing.
+    - label: Goalkeeper without a stick
+      value: Kneeling, catching by hand
+      basis: rule
+      rule: floorball-goalkeeper-no-stick
+      note: A position with no counterpart in any other stick sport.
+    - { label: Typical peak age, value: 23–31, basis: judgement }
+
+gap: >
+  Very low to high, and it is the sport on this site that most clearly gets
+  both halves of the gap from the same decision.
+
+  Field hockey and ice hockey are hard to start because of the stick — a hard
+  swing, a hard ball or puck, and contact. Floorball capped the stick at the
+  waist, banned checking and used a hollow plastic ball, which removed the
+  danger and therefore the barrier. That same cap is what makes the elite game
+  technical rather than powerful: if you cannot swing, everything has to come
+  from touch.
+
+  Set it against hockey, elsewhere on this site, which abolished its offside
+  rule in 1998 to speed the game up. Floorball never had one to abolish, and
+  arrived at the same continuous shape by not writing the rule in the first
+  place.
+
+shaped_by:
+  - floorball-stick-below-waist
+  - floorball-goalkeeper-no-stick

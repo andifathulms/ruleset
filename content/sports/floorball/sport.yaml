@@ -1,0 +1,20 @@
+id: floorball
+label: Floorball
+tagline: "An indoor stick sport whose goalkeeper has no stick, plays on their knees, and catches the ball with their hands."
+governing_body: International Floorball Federation
+founded: >
+  Developed in Sweden, Finland and Switzerland through the 1970s from American
+  floor hockey equipment; the International Floorball Federation was formed in
+  1986.
+coverage: deep
+family_colour: pitch
+classification:
+  official: floorball
+  game-category: invasion
+  adjudication: decided-by-score
+summary: >
+  Five outfield players and a goalkeeper on a rink forty metres by twenty,
+  playing a light plastic ball with a stick that may never be raised above the
+  waist. There is no offside and no body checking, and the goalkeeper carries
+  no stick at all — they play kneeling and use their hands, which makes them
+  the only goalkeeper in any stick sport who is not holding one.

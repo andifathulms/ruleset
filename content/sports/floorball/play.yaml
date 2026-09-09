@@ -1,0 +1,122 @@
+sport: floorball
+as_of: 2026-09
+edition: IFF Rules of the Game
+source: iff-rules
+standing: primary-named
+summary: >
+  Five outfield players and a goalkeeper, three periods of twenty minutes, on a
+  boarded rink forty by twenty metres. No offside, no body checking, no stick
+  above the waist — and a goalkeeper who plays without one.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Put a light plastic ball into a goal 160 centimetres wide and 115 high,
+      using a stick. More goals wins.
+
+      Because there is no offside, both teams can commit fully forward at any
+      moment, and the game runs end to end at a pace closer to indoor handball
+      than to either hockey code.
+    shaped_by: [floorball-1986-iff]
+
+  - id: field
+    label: The rink
+    body: >
+      Forty metres by twenty, enclosed by boards fifty centimetres high with
+      rounded corners. The ball stays in play off the boards, which is what
+      keeps the game continuous — there are far fewer restarts than in field
+      hockey, and the corners are deliberately curved so the ball keeps moving.
+    facts:
+      - { label: Rink, value: 40 × 20 m }
+      - { label: Boards, value: 50 cm, with rounded corners }
+      - { label: Goal, value: 160 × 115 cm }
+      - { label: Offside, value: Does not exist }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      A stick of composite plastic weighing around 350 grams — far lighter than
+      a field hockey or ice hockey stick — with a blade whose curve is limited
+      by rule.
+
+      The ball is hollow plastic, 72 millimetres across, 23 grams, and pierced
+      with 26 holes. The holes are not decorative: they reduce air resistance
+      and make the ball's flight stable and predictable, which is what allows a
+      very light ball to be controlled at speed indoors.
+
+      Outfield players wear no protective equipment at all. The goalkeeper wears
+      padding, a helmet and gloves, and carries nothing.
+    facts:
+      - { label: Stick, value: About 350 g, limited blade curve }
+      - { label: Ball, value: 72 mm, 23 g, 26 holes }
+      - { label: Outfield protection, value: None }
+      - { label: Goalkeeper's stick, value: None }
+    shaped_by: [floorball-goalkeeper-no-stick]
+
+  - id: players
+    label: Players and officials
+    body: >
+      Five outfield players and a goalkeeper, with rolling substitutions that
+      run continuously — lines change on the fly as in ice hockey, so a squad
+      of twenty players is used across a match.
+
+      The goalkeeper is the sport's structural oddity: no stick, playing from
+      the knees, catching the ball with the hands and throwing it back into
+      play. In a sport where no outfield player may touch the ball with a hand,
+      the goalkeeper does nothing else.
+    facts:
+      - { label: On the rink, value: 5 outfield and a goalkeeper }
+      - { label: Substitution, value: Rolling, on the fly }
+      - { label: Goalkeeper position, value: Kneeling }
+    shaped_by: [floorball-goalkeeper-no-stick]
+
+  - id: duration
+    label: Time
+    body: >
+      Three periods of twenty minutes with the clock stopped at every whistle,
+      which makes a match considerably longer in real time than the sixty
+      minutes suggest.
+    facts:
+      - { label: Periods, value: 3 × 20 min }
+      - { label: Clock, value: Stopped at every whistle }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      One goal, one point. A goal may not be scored with any part of the body,
+      only with the stick — so a ball deflected in off a foot or a knee does not
+      count, deliberately or otherwise.
+
+  - id: restarts
+    label: Starting and restarting
+    body: >
+      A face-off starts each period and follows a goal. Almost everything else
+      restarts with a free hit: the ball is placed and struck without an
+      opponent within three metres, and play does not stop for the opposing
+      team to organise.
+
+      That choice — free hit rather than face-off — is why floorball flows.
+      Field hockey and ice hockey both stop far more often.
+    shaped_by: [floorball-1986-iff]
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Raising the stick above the waist, at any point in the swing. Body
+      checking, pushing, holding, and playing an opponent's stick. Playing the
+      ball with the head or above knee height. Playing the ball with the hand.
+      Jumping to play the ball. Kicking the ball twice in succession, and
+      scoring with the foot.
+
+      Penalties are served in a box, as in ice hockey — two minutes, five
+      minutes, or a match penalty — so a team plays short-handed rather than
+      conceding a free hit.
+    shaped_by: [floorball-stick-below-waist]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More goals. A tie in knockout play goes to sudden-death overtime and then
+      to a penalty sequence, in which a player runs at the goalkeeper from the
+      centre and must keep the ball moving forward.

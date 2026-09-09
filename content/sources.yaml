@@ -451,6 +451,13 @@
     Named, not opened. The 2025 Chengdu roster here was entered from general
     reference and has not been read line by line off the IWGA's own listing.
 
+- id: iff-rules
+  standing: primary-named
+  title: IFF Rules of the Game
+  publisher: International Floorball Federation
+  kind: rulebook
+  url: https://floorball.sport/
+
 - id: ifs-rules
   standing: primary-named
   title: International Sumo Federation competition rules
