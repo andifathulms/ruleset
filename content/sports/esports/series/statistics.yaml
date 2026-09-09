@@ -1,0 +1,45 @@
+id: esports-statistics
+label: Competitive statistics
+unit: points
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Esports produces more data than any sport on this site and almost none of it
+  survives a comparison across time.
+
+  Every action in a competitive match is logged by the server, so the raw
+  material is extraordinary — complete positional, economic and outcome data
+  for every game ever played. It is also worthless for progression, because the
+  game the data describes is replaced every few weeks.
+
+  A publisher patch can rebalance a character, a weapon, an economy or a map.
+  A statistic drawn from one version measures a game that no longer exists, and
+  a professional season is played across several versions. Compare gymnastics,
+  which rewrote its scoring scale once in 2006 and severed its history doing
+  it: esports does the equivalent on a schedule, by a company, without
+  consulting anybody.
+
+  Then the discontinuities that are not patches. A title can be discontinued,
+  and its competitive record ends. A title can be replaced by a sequel, and the
+  numbers do not carry across. A title can be contested at a multi-sport games
+  in a **specially modified version**, as several were at Hangzhou 2022 — so
+  even a single tournament's data may describe a game built for that
+  tournament.
+
+  There is no line to draw here, and no federation with the standing to draw
+  one, because none of them owns the game.
+segments: []
+breaks:
+  - at: 2008
+    caused_by: esports-publisher-owns-the-field
+    kind: scale-change
+    note: >
+      The rules are software owned by a company and revised on a cycle of
+      weeks. Every version is a different game.
+  - at: 2021
+    caused_by: esports-2021-olympic-content-line
+    kind: scoped
+    note: >
+      The titles a multi-sport programme will stage are a different set from
+      the titles the sport is played on commercially.
+source: iesf-rules

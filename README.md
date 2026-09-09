@@ -33,7 +33,7 @@ Three layers, marked as such everywhere:
   been entered; every other column is hatched rather than blank, because
   "nobody checked" and "absent" are not the same claim and must not be drawn
   the same way.
-- **Deep** — sixty-nine sports: badminton, athletics, football, gymnastics,
+- **Deep** — seventy-two sports: badminton, athletics, football, gymnastics,
   swimming, table tennis, basketball, cycling, judo, archery, volleyball,
   tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo,
   boxing, equestrian, fencing, rowing, sailing, golf, sport climbing, wrestling,
@@ -43,15 +43,14 @@ Three layers, marked as such everywhere:
   floorball, lifesaving, kabaddi, sepak takraw, finswimming, racquetball and
   dancesport, ju-jitsu, muaythai, wushu, kickboxing, boules, bowling, dragon
   boat, soft tennis, air sports, roller sports, underwater sports,
-  cheerleading, billiards, kurash, duathlon and water ski and wakeboard.
+  cheerleading, billiards, kurash, duathlon, water ski and wakeboard, board
+  games, contract bridge and esports.
 
-  That is **every sport on the 2028 summer Olympic programme and every sport on
-  the World Games programme** — thirty-nine and twenty-five respectively, with
-  tug of war counted in both — plus five contested at the Asian Games and
-  nowhere else: kabaddi, sepak takraw, dragon boat, soft tennis and kurash.
-
-  Eleven sports remain in the skeleton: seven that lapsed from the Olympic
-  programme before 1940, and four on the Asian Games programme.
+  That is **every sport on the 2028 summer Olympic programme, every sport on
+  the World Games programme, and every sport on the Asian Games programme** —
+  the only exceptions anywhere are seven sports that lapsed from the Olympic
+  programme before 1940 and are recorded at skeleton depth: polo, croquet,
+  rackets, roque, jeu de paume, basque pelota and motorboating.
 
 The first five were one per family, because a "rule" is a structurally
 different object in each: racket sports legislate scoring, measured sports
@@ -304,6 +303,24 @@ something taken away:
   to the buoy. It is also the only sport here where a competitor's result
   depends on the precision of a person who is not competing — the boat driver,
   who is judged separately and can void the run.
+
+The last three completed the Asian Games programme, and they are the sports
+with no physical component at all:
+
+- **Board games** — chess, go and xiangqi — are the only sports here where a
+  machine is definitively better than the best human, at a datable moment:
+  1997 for chess, 2016 for go. That produced an integrity problem no physical
+  sport can have, because assistance does not improve a competitor here, it
+  replaces them. Cheating is detected by measuring how *good* the moves were.
+- **Contract bridge** forbids telling your partner anything and compels telling
+  your opponents everything. Bidding boxes exist to remove tone of voice;
+  screens exist so partners cannot see each other. Its unauthorised-information
+  rule penalises the innocent partner, and a director rules on the
+  counterfactual.
+- **Esports** is the only sport whose field of play is privately owned. The
+  rules are software, revised by a company on a cycle of weeks, and a
+  discipline can cease to exist because its owner stopped supporting it. It
+  makes gymnastics' 2006 rewrite look like a stable constitution.
 
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause

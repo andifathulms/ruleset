@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: iesf-rules
+  standing: primary-named
+  title: IESF competition regulations
+  publisher: International Esports Federation
+  kind: rulebook
+  url: https://iesf.org/
+
 - id: wbf-laws
   standing: primary-named
   title: Laws of Duplicate Bridge

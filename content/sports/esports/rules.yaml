@@ -1,0 +1,149 @@
+- id: esports-2008-iesf
+  scope: { sport: esports, discipline: all }
+  date_adopted: 2008
+  date_effective: 2008
+  status: adopted
+  governing_body: International Esports Federation
+  what_changed: >
+    An international federation was formed, in South Korea, to represent
+    esports internationally: national member associations, world championships,
+    athlete eligibility, anti-doping compliance and the apparatus a sport needs
+    to be recognised.
+
+    It governs everything about competition except the games. A second body,
+    the Global Esports Federation, was formed in 2019 with an overlapping
+    mandate, and commercial publishers run the largest competitions themselves.
+  cause_primary: participation and access
+  cause_secondary: disputed
+  trigger:
+    description: >
+      Competitive gaming had a large professional structure and no
+      representation in the international sports system, which national
+      associations in South Korea and elsewhere set out to build.
+    also_said: >
+      Two international federations claim the space and neither controls the
+      games. Which of them speaks for esports is disputed between them and
+      largely irrelevant to the publishers.
+  citation:
+    source: iesf-rules
+    edition: IESF statutes
+    missing: true
+
+- id: esports-publisher-owns-the-field
+  scope: { sport: esports, discipline: all }
+  date_adopted: 2008
+  date_effective: 2008
+  status: adopted
+  governing_body: The game publishers
+  what_changed: >
+    The rules of every esport are the software, and the software belongs to a
+    company.
+
+    A publisher can rebalance any element of the game by patch — a weapon's
+    damage, a character's abilities, a map's geometry, the economy — usually on
+    a cycle of weeks, and competitive seasons are played across multiple
+    versions. It can also decline to license the game for an event, or stop
+    supporting it, at which point the sport built on it ends.
+
+    Every other sport covered on this site has laws written by a body
+    accountable, however imperfectly, to the people who play. Here the laws are
+    a product, revised for commercial reasons that include competitive balance
+    and are not limited to it.
+  cause_primary: commercial
+  cause_secondary: equipment and technology
+  trigger:
+    description: >
+      Competitive games are live commercial products with revenue models that
+      depend on continuing change, and balance patches serve the wider player
+      base as well as the professional tier.
+  citation:
+    source: iesf-rules
+    edition: IESF competition regulations, title licensing
+    missing: true
+  comparability_break: esports-statistics
+
+- id: esports-2018-asian-games-demo
+  scope: { sport: esports, discipline: all }
+  date_adopted: 2018
+  date_effective: 2018
+  status: adopted
+  governing_body: Olympic Council of Asia
+  what_changed: >
+    Esports was contested at the Asian Games in Jakarta in 2018 as a
+    demonstration event, the first appearance of competitive video gaming at a
+    major multi-sport games.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The Olympic Council of Asia moved earlier than any other multi-sport body
+      on esports, working with regional partners and publishers.
+  citation:
+    source: oca-asian-games
+    edition: Olympic Council of Asia programme listings
+    missing: true
+
+- id: esports-2021-olympic-content-line
+  scope: { sport: esports, discipline: all }
+  date_adopted: 2021
+  date_effective: 2021
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    The IOC ran a virtual series built around **simulations of physical
+    sports** — virtual cycling, rowing, sailing, motorsport, baseball — rather
+    than around the largest competitive esports titles, and has maintained that
+    games must align with Olympic values, which excludes those depicting
+    violence.
+
+    That is a content criterion, and no other sport on this site has one. A
+    programme decision about esports is a decision about what the games are
+    *about*, and it rules out most of the titles that constitute the activity
+    commercially.
+
+    It also creates a split: the esports the IOC will stage and the esports
+    people actually watch are largely different games.
+  cause_primary: commercial
+  cause_secondary: disputed
+  trigger:
+    description: >
+      The IOC sought to engage a young audience through gaming while
+      maintaining a position against games depicting violence.
+    also_said: >
+      Much of the esports industry regards a programme built on sports
+      simulations as missing the sport entirely, since those titles have small
+      competitive scenes relative to the games that were excluded. The IOC's
+      position is that its values are not negotiable for audience reach. Both
+      are recorded.
+  citation:
+    source: iesf-rules
+    edition: IOC statements on virtual sports and esports
+    missing: true
+  comparability_break: esports-statistics
+
+- id: esports-2022-medal-sport
+  scope: { sport: esports, discipline: all }
+  date_adopted: 2022
+  date_effective: 2022
+  status: adopted
+  governing_body: Olympic Council of Asia
+  what_changed: >
+    Esports became a full medal sport at the Asian Games in Hangzhou, with
+    titles including League of Legends, Dota 2, Arena of Valor, EA Sports FC
+    Online, PUBG Mobile and Street Fighter V. The Games, named for 2022, were
+    held in 2023 after being postponed.
+
+    Several titles were contested in **modified versions made for the event**,
+    with in-game monetisation removed and content adjusted. That is worth
+    stating plainly: the field of play was rebuilt by its owner to suit the
+    programme, which is a thing no other sport could do if it wanted to.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The demonstration in 2018 was judged successful and the host had a very
+      large domestic gaming industry and audience.
+  citation:
+    source: oca-asian-games
+    edition: Olympic Council of Asia programme listings
+    missing: true

@@ -1,0 +1,136 @@
+sport: esports
+as_of: 2026-09
+edition: IESF competition regulations, and each publisher's competitive ruleset
+source: iesf-rules
+standing: primary-named
+summary: >
+  A set of competitive video games played under two layers of rules: the
+  publisher's software, which defines what is possible, and the organiser's
+  regulations, which define the conditions. Only the second layer belongs to
+  anybody in the sport.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Whatever the title says. Destroy the opposing base, defuse or plant the
+      bomb, reduce the opponent's health to zero, finish first, score more
+      goals.
+
+      There is no common objective across esports, because there is no common
+      game. What the disciplines share is a control interface and a screen, and
+      almost nothing else — which is a looser grouping than boules or billiards,
+      the site's other umbrella sports, whose codes at least share an ancestor.
+    facts:
+      - { label: Common objective, value: None across titles }
+
+  - id: field
+    label: The game
+    body: >
+      The field of play is software, and it belongs to a company.
+
+      A map's geometry, a character's abilities, a weapon's damage, the economy
+      and the pace are all defined by the current version, and the version
+      changes — typically on a cycle of weeks. A competitive season is played
+      across several of them, and teams re-learn parts of the game between
+      tournaments.
+
+      Physically, competitors sit at identical machines with peripherals they
+      generally bring themselves, on a stage, usually in soundproofed booths or
+      wearing noise-cancelling headsets so that crowd reaction cannot convey
+      information about the opposing team's position.
+    facts:
+      - { label: Field of play, value: Software, owned by the publisher }
+      - { label: Version cycle, value: Typically weeks }
+      - { label: Booths, value: To stop crowd noise conveying information }
+    shaped_by: [esports-publisher-owns-the-field]
+
+  - id: equipment
+    label: Equipment
+    body: >
+      Standardised machines supplied by the organiser, and personal peripherals
+      — mouse, keyboard, controller, headset — which competitors bring and are
+      inspected.
+
+      Configuration is regulated in detail: input device settings, macros
+      (generally prohibited), permitted software, and in-game settings that are
+      locked to a tournament configuration.
+
+      The distinction that matters is between the **client**, which is
+      standardised and controlled, and the **hardware**, where a player's own
+      mouse and its settings are as personal as a fencer's grip.
+    facts:
+      - { label: Machines, value: Supplied and standardised }
+      - { label: Peripherals, value: Personal, inspected }
+      - { label: Macros, value: Generally prohibited }
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      Individuals or teams of five, depending on the title. Referees enforce
+      conditions rather than play — the software adjudicates the game itself,
+      absolutely and without appeal.
+
+      That is the cleanest adjudication on this site. Whether a shot connected
+      is not a judgement; it is a calculation the server already performed.
+    facts:
+      - { label: Team size, value: By title; often five }
+      - { label: Adjudication of play, value: By the software, not an official }
+
+  - id: duration
+    label: Time
+    body: >
+      By title. A fighting game round lasts under a minute; a strategy match can
+      run over an hour with no clock at all. Series are best-of-three or
+      best-of-five, and tournaments run over days.
+    facts:
+      - { label: Range, value: Under a minute to over an hour }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Games won within a series, and series won within a bracket. The internal
+      scoring of each title — kills, objectives, rounds, goals — decides the
+      game and is not comparable to any other title's.
+
+  - id: restarts
+    label: Pauses and remakes
+    body: >
+      The distinctive procedure in esports is the **technical pause**. A player
+      may pause competitive play for a hardware failure, a software fault or a
+      disconnection, and the match resumes from the paused state — sometimes
+      after a long delay, sometimes with a game state restored from a save.
+
+      In a severe case a game is **remade** and replayed from the start. Both
+      are necessary because the field of play can fail in ways a pitch cannot,
+      and both are open to abuse as a tactical reset, which is why their use is
+      regulated and logged.
+    facts:
+      - { label: Technical pause, value: For hardware or software failure }
+      - { label: Remake, value: A game replayed from the start }
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      **Cheating software** — aim assistance, wall vision, automation — which is
+      the sport's equivalent of doping and is detected by anti-cheat software
+      running on the machine and by statistical analysis of inputs.
+
+      **Match fixing**, which esports has had at a scale that has produced
+      criminal prosecutions in several countries, driven by heavy betting
+      markets and young, low-paid players in unregulated leagues.
+
+      **Ghosting** — receiving information about the opposing team's position
+      from outside the booth — which is why booths and headsets exist.
+
+      Also: unauthorised macros, exploiting known software bugs where the
+      ruleset forbids it, and account sharing, which is a form of impersonation
+      the sport has to police because identity is a login.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The series score. Because the software adjudicates play absolutely, there
+      is no equivalent of a disputed decision on the field — every dispute in
+      esports is about conditions, conduct or software, never about what
+      happened in the game.

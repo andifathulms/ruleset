@@ -117,7 +117,7 @@ sports:
     held: [2022]
   - id: esports
     label: Esports
-    coverage: skeleton
+    coverage: deep
     held: [2022]
     note: >-
       Medal events from 2022, which no other programme here awards.

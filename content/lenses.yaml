@@ -63,6 +63,7 @@
     - { id: dragon-boat, label: Dragon boat, colour: pool, members: [dragon-boat] }
     - { id: duathlon, label: Duathlon, colour: pool, members: [duathlon] }
     - { id: equestrian, label: Equestrian, colour: gold, members: [equestrian] }
+    - { id: esports, label: Esports, colour: gold, members: [esports] }
     - { id: fencing, label: Fencing, colour: clay, members: [fencing] }
     - { id: golf, label: Golf, colour: pitch, members: [golf] }
     - { id: roller-sports, label: Roller sports, colour: gold, members: [roller-sports] }
@@ -130,7 +131,7 @@
       members: [judo, taekwondo, boxing, modern-pentathlon, fencing, wrestling,
                 karate, breaking, tug-of-war, sumo, dancesport, ju-jitsu,
                 muaythai, wushu, kickboxing, air-sports, roller-sports,
-                cheerleading, kurash, board-games, bridge]
+                cheerleading, kurash, board-games, bridge, esports]
 
 - id: adjudication
   label: Adjudication
@@ -159,7 +160,7 @@
                 cricket, baseball, hockey, handball, rugby, softball, lacrosse,
                 squash, flag-football, korfball, tug-of-war, fistball, floorball,
                 kabaddi, sepak-takraw, racquetball, soft-tennis, underwater-sports,
-                billiards, board-games, bridge]
+                billiards, board-games, bridge, esports]
     - id: combat
       label: Combat
       colour: clay

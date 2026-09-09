@@ -1,0 +1,94 @@
+sport: esports
+standing: editorial
+summary: >
+  The lowest entry barrier of any sport on this site — the game is free and
+  matchmaking finds you an exact opponent instantly — and a professional
+  ceiling reached younger, held more briefly, and demolished more often by
+  forces outside the athlete than anything else here.
+
+entry:
+  verdict: very-low
+  claim: A computer or a phone. The game is often free and it will find you an opponent at your exact level.
+  why: >
+    Nothing else here is this frictionless. Many of the largest competitive
+    titles are free to download. There is no facility, no club, no equipment
+    beyond a device most people already own, no travel and no opponent to
+    arrange — automated matchmaking supplies one at your rating within seconds,
+    at any hour.
+
+    There is no physical prerequisite, no minimum age in practice, and the
+    ranked ladder means a beginner competes against other beginners from the
+    first game rather than being beaten by somebody serious.
+
+    The barrier that does exist is a device and a connection, which is a real
+    exclusion in much of the world and an invisible one everywhere else.
+  evidence:
+    - { label: Kit to start, value: A device many people already own, basis: observation }
+    - { label: Cost, value: Many major titles are free, basis: observation }
+    - { label: Opponent, value: Matched automatically at your rating, basis: observation }
+    - { label: Facility, value: None, basis: judgement }
+    - { label: Time to a competitive game, value: Minutes, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Elite reaction and decision-making in a game that changes underneath you every few weeks.
+  why: >
+    The mechanical demand is genuine and is usually underestimated by people
+    outside it: elite players sustain very high accurate action rates, react at
+    the limit of human latency, and hold that under tournament pressure for
+    hours.
+
+    The strategic demand is the part that has no equivalent on this site. **The
+    game changes.** A publisher patch can rebalance a character, a weapon, an
+    economy or a map on a cycle of weeks, and a professional's accumulated
+    knowledge is partially invalidated each time. A footballer's decade of
+    experience is worth something for a career; an esports professional's is
+    worth something until the next version.
+
+    So the skill being trained is partly meta-skill: how fast can you re-solve
+    a game you already knew.
+
+    Careers are correspondingly short. Peak ages in the low twenties are normal
+    across most titles, retirement in the mid-twenties is common, and a
+    professional's discipline can be ended outright by a publisher
+    de-prioritising the title — a career terminated by a commercial decision at
+    a company the player has no relationship with.
+  evidence:
+    - label: The rules change by patch
+      value: Typically every few weeks
+      basis: rule
+      rule: esports-publisher-owns-the-field
+      note: Accumulated knowledge is partially invalidated on a schedule.
+    - label: A title can be discontinued
+      value: By its owner
+      basis: rule
+      rule: esports-publisher-owns-the-field
+      note: A discipline can cease to exist for commercial reasons.
+    - label: Adjudication is absolute
+      value: By software
+      basis: observation
+      note: No disputed decisions about play — only about conditions.
+    - { label: Typical peak age, value: 19–24, basis: judgement, note: The youngest peak of any sport covered here. }
+
+gap: >
+  Very low to very high, on the smallest entry cost on this site — and the gap
+  has a shape nothing else does, because the top of it keeps being moved by
+  someone who is not competing.
+
+  Every other sport here has stable laws. A gymnast's Code of Points is revised
+  every four years and the sport treats that as a major event; this site
+  records it as a comparability break. Esports revises its equivalent every few
+  weeks, unilaterally, by a company, for reasons that include commercial ones —
+  and the professionals absorb it as normal.
+
+  The other distinctive feature is how the career ends. Elsewhere a career ends
+  when the body does. Here it can end because a publisher stopped supporting a
+  title, and a world champion's discipline can simply cease to exist while they
+  are still at their peak.
+
+  That is the sport's real difficulty and its real vulnerability, and no
+  federation on either side of it can do anything about it.
+
+shaped_by:
+  - esports-publisher-owns-the-field
+  - esports-2021-olympic-content-line

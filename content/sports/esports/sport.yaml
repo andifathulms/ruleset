@@ -1,0 +1,20 @@
+id: esports
+label: Esports
+tagline: "The only sport whose field of play is privately owned, and whose rules can be rewritten by a company overnight without asking anybody."
+governing_body: International Esports Federation, and the publishers who own the games
+founded: >
+  Competitive video gaming dates from the 1970s and organised international
+  competition from the 1990s; the International Esports Federation was formed
+  in 2008, and esports became an Asian Games medal sport in 2022.
+coverage: deep
+family_colour: gold
+classification:
+  official: esports
+  game-category: outside-taxonomy
+  adjudication: decided-by-score
+summary: >
+  A set of competitive video games contested as a multi-sport listing. What
+  makes it structurally unlike everything else here is ownership: each game is
+  a commercial product belonging to a company that can change its rules by
+  patch at any time, without consultation, and can withdraw it entirely. No
+  federation governs the laws of play, because no federation owns them.

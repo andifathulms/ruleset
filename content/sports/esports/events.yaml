@@ -1,0 +1,44 @@
+sport: esports
+as_of: 2026-09
+source: iesf-rules
+standing: primary-named
+summary: >
+  No Olympic events. Esports was a demonstration at the 2018 Asian Games and a
+  full medal sport at Hangzhou 2022 — and the titles contested change every
+  edition, because which games exist competitively is a commercial matter.
+disciplines:
+  - id: asian-games
+    label: Contested at the Asian Games
+    blurb: >
+      A slate of titles chosen per edition, several of them in versions modified
+      by their publishers for the event.
+    events:
+      - { id: moba, label: Multiplayer online battle arena titles, at: [asian-games], count: 3, note: League of Legends, Dota 2 and Arena of Valor at Hangzhou 2022. }
+      - { id: sports-sim, label: Sports simulation titles, at: [asian-games], note: EA Sports FC Online. }
+      - { id: shooter, label: Shooter titles, at: [asian-games], note: "PUBG Mobile, contested in an Asian Games version with content and monetisation altered." }
+      - { id: fighting, label: Fighting game titles, at: [asian-games], note: Street Fighter V. }
+  - id: olympic-adjacent
+    label: What the IOC has staged
+    counts: false
+    blurb: >
+      Built around simulations of physical sports rather than the largest
+      competitive titles, on the stated ground that games depicting violence do
+      not align with Olympic values.
+    events:
+      - { id: virtual, label: Virtual sports events, at: [federation-only], note: "Virtual cycling, rowing, sailing, archery, taekwondo, motorsport and baseball — a different set of games from the ones the industry competes in." }
+  - id: commercial
+    label: Where the sport actually is
+    counts: false
+    blurb: >
+      The largest esports competitions are run by publishers and commercial
+      organisers, not by either international federation, and that is where the
+      money, the audience and the professionals are.
+    events:
+      - { id: publisher-leagues, label: Publisher-run leagues and world championships, at: [federation-only], note: Franchised leagues and annual world championships operated by the companies that own the games. }
+      - { id: third-party, label: Third-party circuits, at: [federation-only], note: Independent organisers running events under licence from the publisher. }
+  - id: governance
+    label: Claimed by two federations
+    counts: false
+    events:
+      - { id: iesf, label: International Esports Federation, at: [world-championship], note: Formed 2008, with national member associations and a world championship. }
+      - { id: gef, label: Global Esports Federation, at: [world-championship], note: Formed 2019, with an overlapping mandate. Neither controls a single game. }
