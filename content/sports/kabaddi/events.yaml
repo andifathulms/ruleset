@@ -1,0 +1,38 @@
+sport: kabaddi
+as_of: 2026-09
+source: ikf-rules
+standing: primary-named
+summary: >
+  No Olympic events. Kabaddi has been a full Asian Games medal sport since 1990
+  and is not on the World Games programme; its largest competition by money and
+  audience is a domestic professional league in India.
+disciplines:
+  - id: standard
+    label: Standard style
+    blurb: The codified international game. Seven a side on a marked court.
+    events:
+      - { id: men, label: Men's tournament, at: [asian-games, world-championship] }
+      - { id: women, label: Women's tournament, at: [asian-games, world-championship], note: Added to the Asian Games programme in 2010. }
+  - id: circle
+    label: Circle style
+    counts: false
+    blurb: >
+      The Punjabi form, played on a circular field with different scoring and a
+      different tackling culture. Governed separately and widely played in
+      Punjab and among the Punjabi diaspora.
+    events:
+      - { id: circle-men, label: Circle kabaddi, at: [federation-only], note: Its own world cup, unconnected to the standard-style international structure. }
+  - id: professional
+    label: The professional league
+    counts: false
+    blurb: >
+      A domestic Indian league launched in 2014 that became one of the
+      country's largest television sports properties, and the source of the
+      raid clock and do-or-die rules now used internationally.
+    events:
+      - { id: pkl, label: Professional league competition, at: [federation-only], note: Where the sport's full-time athletes are, and where its rules are now effectively written. }
+  - id: variants
+    label: Other forms
+    counts: false
+    events:
+      - { id: beach, label: Beach kabaddi, at: [federation-only], note: Contested at Asian Beach Games. }

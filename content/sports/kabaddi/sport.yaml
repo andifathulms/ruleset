@@ -1,0 +1,21 @@
+id: kabaddi
+label: Kabaddi
+tagline: "The only sport whose central rule regulates a competitor's breathing: the raider must chant continuously, and when the chant stops, the raid is over."
+governing_body: International Kabaddi Federation
+founded: >
+  An ancient South Asian contest, codified in India in the 1920s; a full Asian
+  Games medal sport from 1990, with the International Kabaddi Federation formed
+  in 2004.
+coverage: deep
+family_colour: pitch
+classification:
+  official: kabaddi
+  game-category: invasion
+  adjudication: decided-by-score
+summary: >
+  One player crosses into the opposition's half, tries to touch as many of the
+  seven defenders as possible, and gets back across the line — all while
+  chanting "kabaddi" without pausing for breath. The chant is not tradition
+  laid over the sport; it is the rule that limits the raid, judged by ear, and
+  it makes kabaddi the only sport covered here where the referee is listening
+  rather than watching.

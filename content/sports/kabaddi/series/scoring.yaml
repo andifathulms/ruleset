@@ -1,0 +1,33 @@
+id: kabaddi-scoring
+label: Points per match
+unit: points per match
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  Kabaddi's scoring changed shape in 2014 and the sport has not published a
+  series across it.
+
+  Before the raid clock, a raid ended when the cant broke or the raider was
+  caught, so raids varied in length and a cautious team could run a low-scoring
+  match by declining to engage. The thirty-second clock and the do-or-die raid
+  removed both options. Scoring rose, and points per match before and after
+  describe different games.
+
+  The change also arrived through an unusual route. It was written for a
+  professional television league in India in 2014 and adopted into the
+  international code afterwards — so the severance in kabaddi's statistics was
+  caused by a domestic commercial competition rather than by its federation.
+  That is a first on this site.
+
+  The figures are not entered because they have not been taken from a cited
+  source. The league publishes detailed statistics for its own matches; the
+  international game's are thinner, and nobody has reconciled the two.
+segments: []
+breaks:
+  - at: 2014
+    caused_by: kabaddi-2014-raid-clock
+    kind: reset
+    note: >
+      A thirty-second raid clock and the do-or-die raid. Scoring rates before
+      and after are not comparable.
+source: ikf-rules

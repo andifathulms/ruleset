@@ -1,0 +1,109 @@
+- id: kabaddi-the-cant
+  scope: { sport: kabaddi, discipline: all }
+  date_adopted: 1923
+  date_effective: 1923
+  status: adopted
+  governing_body: Indian codifying bodies, later the IKF
+  what_changed: >
+    A raider entering the opposition's half must chant "kabaddi" continuously
+    and audibly — the cant — and may not take a second breath. When the cant
+    breaks, the raid ends: the raider must be back across the midline or they
+    are out.
+
+    This is a limit on a raid enforced through the athlete's respiration, and
+    nothing else on this site works that way. Every other sport that bounds an
+    action does it with a clock, a line or an opponent. Kabaddi does it with
+    the raider's own lungs, and an official adjudicates it by listening.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      The folk game was formalised into written rules in India in the 1920s so
+      that it could be contested between clubs and regions, and the cant — an
+      existing feature of the traditional game — became its timing mechanism.
+  citation:
+    source: ikf-rules
+    edition: IKF Rules of the Game, the raid
+    missing: true
+
+- id: kabaddi-1990-asian-games
+  scope: { sport: kabaddi, discipline: all }
+  date_adopted: 1990
+  date_effective: 1990
+  status: adopted
+  governing_body: Olympic Council of Asia
+  what_changed: >
+    Kabaddi became a full medal sport at the Asian Games in Beijing in 1990,
+    having previously appeared as a demonstration. It has been contested at
+    every edition since, and India won every men's title for decades.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The Asian Games programme has consistently admitted sports with deep
+      regional participation and no global federation structure, which is
+      exactly what kabaddi was.
+  citation:
+    source: oca-asian-games
+    edition: Olympic Council of Asia programme listings
+    missing: true
+
+- id: kabaddi-2004-ikf
+  scope: { sport: kabaddi, discipline: all }
+  date_adopted: 2004
+  date_effective: 2004
+  status: adopted
+  governing_body: International Kabaddi Federation
+  what_changed: >
+    The International Kabaddi Federation was formed to govern the sport
+    internationally and hold a world cup, consolidating rules that had varied
+    between South Asian national bodies.
+
+    It has not settled the question. Rival international bodies have since
+    claimed the same mandate, and kabaddi is one of several sports on this site
+    where more than one organisation asserts the right to hold a world
+    championship.
+  cause_primary: fairness and eligibility
+  cause_secondary: disputed
+  trigger:
+    description: >
+      The sport was contested internationally at the Asian Games without a
+      single federation to govern it between editions.
+    also_said: >
+      Competing federations dispute each other's standing. This site records
+      the dispute rather than adjudicating it.
+  citation:
+    source: ikf-rules
+    edition: IKF statutes
+    missing: true
+
+- id: kabaddi-2014-raid-clock
+  scope: { sport: kabaddi, discipline: all }
+  date_adopted: 2014
+  date_effective: 2014
+  status: adopted
+  governing_body: Professional league rules, adopted into the international code
+  what_changed: >
+    A thirty-second limit on a raid, and the "do or die" raid: after two
+    consecutive empty raids, a team's third must produce a point or the raider
+    is out.
+
+    Both exist because the cant alone did not guarantee a raid would end
+    promptly — a fit raider could hold a chant for a long time, and defenders
+    could simply decline to engage. The clock made the raid predictable in
+    length and the do-or-die rule made a passive raid expensive.
+
+    It belongs to the same category as the shot clock in basketball and the
+    tie-breaker in softball: a device inserted to stop a sport from being able
+    to stall.
+  cause_primary: broadcast and pacing
+  cause_secondary: commercial
+  trigger:
+    description: >
+      A professional league launched in India in 2014 and became a large
+      television property. Its format requirements — a fixed match length and
+      guaranteed action — were built into the rules and carried into the
+      international game.
+  citation:
+    source: ikf-rules
+    edition: IKF Rules of the Game, raid duration
+    missing: true
+  comparability_break: kabaddi-scoring

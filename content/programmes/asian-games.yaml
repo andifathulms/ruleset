@@ -155,7 +155,7 @@ sports:
     held: [2022]
   - id: kabaddi
     label: Kabaddi
-    coverage: skeleton
+    coverage: deep
     held: [2022]
     note: >-
       Played across South Asia at a scale no Olympic sport matches there, and on no other programme.

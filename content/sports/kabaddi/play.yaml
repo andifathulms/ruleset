@@ -1,0 +1,126 @@
+sport: kabaddi
+as_of: 2026-09
+edition: IKF Rules of the Game
+source: ikf-rules
+standing: primary-named
+summary: >
+  Seven a side on a court thirteen metres by ten. Teams alternate sending one
+  raider into the opposition half to touch defenders and return. The raider
+  must chant continuously on one breath, and has thirty seconds.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Score more points than the opposition. A raider scores one point for each
+      opponent they touch before returning across the midline; the defence
+      scores one point for tackling the raider and holding them until the raid
+      ends.
+
+      Players who are out leave the court and are revived one at a time as
+      their team scores — so a raid that touches three defenders also brings
+      three team-mates back on. Putting the entire opposing side out is an
+      all-out, worth two extra points.
+    facts:
+      - { label: Point per touch, value: "1" }
+      - { label: Point for a tackle, value: "1" }
+      - { label: All-out bonus, value: "2" }
+
+  - id: field
+    label: The court
+    body: >
+      Thirteen metres by ten for men, twelve by eight for women, divided across
+      the middle. Along each side runs a lobby, which is out of play until a
+      tackle begins and then becomes live — a rule that turns the court's
+      dimensions into a tactical variable mid-raid.
+
+      A bonus line sits inside each half. A raider who crosses it with the
+      required number of defenders on court takes an extra point without
+      touching anybody.
+    facts:
+      - { label: "Court, men", value: 13 × 10 m }
+      - { label: "Court, women", value: 12 × 8 m }
+      - { label: Lobbies, value: Out of play until a tackle starts }
+      - { label: Bonus line, value: An extra point for crossing it }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      None. Kabaddi is played barefoot or in light shoes on a mat or on earth,
+      in ordinary kit, with no ball, no implement and no protective equipment.
+
+      It is the only sport covered on this site with no object of play at all.
+      Every other game here has a ball, a disc, a rope, a bar, a target or a
+      weapon; kabaddi has two teams and a line.
+    facts:
+      - { label: Object of play, value: None }
+      - { label: Protective equipment, value: None }
+      - { label: Surface, value: Mat, or earth in the traditional game }
+
+  - id: players
+    label: Players and officials
+    body: >
+      Seven a side on court, with substitutes. Roles are specialised: raiders,
+      corner defenders and cover defenders, and the best players are usually
+      one or the other rather than both.
+
+      Officials are a referee, two umpires, a scorer and assistants — and part
+      of their job is to listen. Whether the cant was continuous is an
+      auditory judgement made over crowd noise.
+    facts:
+      - { label: On court, value: "7" }
+      - { label: Officials, value: Referee, two umpires, scorer }
+      - { label: Cant, value: Judged by ear }
+    shaped_by: [kabaddi-the-cant]
+
+  - id: duration
+    label: Time
+    body: >
+      Two halves of twenty minutes with a five-minute interval. Within that, the
+      raid clock: a raider has thirty seconds, and the raid also ends whenever
+      the cant breaks — so a raid has two independent limits, one mechanical and
+      one physiological.
+    facts:
+      - { label: Halves, value: 2 × 20 min }
+      - { label: Raid clock, value: 30 s }
+      - { label: The other limit, value: One breath }
+    shaped_by: [kabaddi-2014-raid-clock, kabaddi-the-cant]
+
+  - id: scoring
+    label: Scoring
+    body: >
+      One point per touch, one for a tackle, one for the bonus line, two for an
+      all-out, and a point when a raider steps out of bounds or fails to return.
+
+      A raid that produces nothing is an empty raid. After two in a row, the
+      third is a "do or die" raid that must produce a point or the raider is
+      out — a rule that makes stalling expensive rather than merely dull.
+    shaped_by: [kabaddi-2014-raid-clock]
+
+  - id: restarts
+    label: The raid
+    body: >
+      Teams alternate raids. The raider must begin the cant before crossing the
+      midline, keep it audible and unbroken while in the opposition half, and
+      return across the line with it still going to bank any points.
+
+      A raider who is tackled is out unless they can reach back across the
+      line, dragging defenders with them, which is why a kabaddi tackle looks
+      like several people trying to stop one person crawling.
+    shaped_by: [kabaddi-the-cant]
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Breaking the cant while in the opposition half. Crossing the line without
+      having started it. Stepping out of bounds. On the defensive side: holding
+      a raider by the clothing, the hair or the limbs in a way the rules
+      forbid, deliberate violence, and — the characteristic one — more than the
+      permitted defenders entering the lobby before a tackle has begun.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More points at full time. Knockout matches level at the end go to extra
+      periods and then to a set number of raids each, which is the sport's
+      version of a penalty sequence.

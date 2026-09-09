@@ -78,6 +78,23 @@ export function getProgramme(id: string): Program {
 /** The Olympic programme, which several pages still ask for by name. */
 export const getProgram = (): Program => getProgramme('olympic')
 
+/**
+ * Rule 2 says never invent a citation. Until this existed, nothing stopped one
+ * naming a source that was not in sources.yaml — the citation rendered, the
+ * build passed, and the reference went nowhere. A typo was enough to do it.
+ */
+let sourceIds: Set<string> | null = null
+
+function assertSourceExists(where: string, id: string | undefined): void {
+  if (!id) return
+  sourceIds ??= new Set(getSources().map((s) => s.id))
+  if (!sourceIds.has(id)) {
+    throw new Error(
+      `${where}: cites source "${id}", which is not in sources.yaml. Add the source, or fix the reference — a citation that resolves to nothing is worse than none.`,
+    )
+  }
+}
+
 export const getSourceMap = (): Record<string, Source> =>
   Object.fromEntries(getSources().map((s) => [s.id, s]))
 
@@ -120,6 +137,9 @@ export function getRuleChanges(id: string): RuleChange[] {
   const file = path.join(SPORTS, id, 'rules.yaml')
   if (!fs.existsSync(file)) return []
   const rules = parse<RuleChange[] | null>(fs.readFileSync(file, 'utf8')) ?? []
+  for (const r of rules) {
+    assertSourceExists(`rules.yaml (${id}): ${r.id}`, r.citation?.source)
+  }
   return rules
     .map((r) => ({
       ...r,
@@ -155,6 +175,7 @@ export function getSeriesForSport(id: string): Series[] {
  * for the common case of one.
  */
 function normaliseSeries(raw: Series & { break?: SeriesBreak }): Series {
+  assertSourceExists(`series ${raw.id}`, raw.source)
   const { break: single, ...rest } = raw
   const breaks = [...(raw.breaks ?? []), ...(single ? [single] : [])].sort(
     (a, b) => a.at - b.at,
@@ -177,6 +198,7 @@ export function getPlay(id: string): Play | null {
   const file = path.join(SPORTS, id, 'play.yaml')
   if (!fs.existsSync(file)) return null
   const play = parse<Play>(fs.readFileSync(file, 'utf8'))
+  assertSourceExists(`play.yaml (${id})`, play.source)
   assertPlayIsClean(id, play)
   const order = (s: { id: string }) => {
     const i = LAW_SECTIONS.indexOf(s.id as (typeof LAW_SECTIONS)[number])
@@ -258,6 +280,7 @@ export function getEvents(id: string): Events | null {
   const file = path.join(SPORTS, id, 'events.yaml')
   if (!fs.existsSync(file)) return null
   const events = parse<Events>(fs.readFileSync(file, 'utf8'))
+  assertSourceExists(`events.yaml (${id})`, events.source)
   assertEventsAreStatused(id, events)
   return events
 }

@@ -1,0 +1,88 @@
+sport: kabaddi
+standing: editorial
+summary: >
+  The cheapest sport on this site to start — no equipment of any kind — and a
+  professional ceiling that arrived very suddenly, in one country, in 2014.
+
+entry:
+  verdict: very-low
+  claim: Fourteen people and a line drawn on the ground. Nothing to buy.
+  why: >
+    Kabaddi has no object of play. No ball, no stick, no rope, no target. Two
+    teams, a rectangle and a line through the middle, and the game can be
+    played on earth, sand or a mat, barefoot.
+
+    That is the lowest material barrier of any sport covered here, and it is
+    the reason kabaddi is a mass village and school sport across South Asia
+    rather than a club sport. The rules can be explained in a minute and
+    understood on the first raid.
+
+    The one genuine demand at entry is the cant, which is unfamiliar and feels
+    strange, and which a beginner runs out of far sooner than they expect.
+  evidence:
+    - { label: Players needed, value: "14", basis: rule, rule: kabaddi-the-cant }
+    - { label: Kit to start, value: Nothing, basis: observation, note: The only sport here with no object of play. }
+    - { label: Surface, value: Earth, sand or a mat, basis: observation }
+    - { label: Rules to learn, value: Understandable in one raid, basis: judgement }
+    - { label: Time to a real game, value: Immediate, basis: judgement }
+
+mastery:
+  verdict: high
+  claim: Touch seven people and escape, on one breath, against defenders who train only to stop you.
+  why: >
+    The raid is a solved problem for defences and an unsolved one for raiders.
+    Seven defenders coordinate a chain, corner defenders specialise in ankle
+    holds, cover defenders in blocks, and a raider must enter that, take a
+    point and leave — while chanting, and against a thirty-second clock.
+
+    The physiological demand is unusual. A raider is sprinting, changing
+    direction, being tackled by several people and resisting them, all on a
+    single breath, and then doing it again in a couple of minutes. Nothing else
+    on this site combines maximal exertion with a rule against breathing.
+
+    The defensive craft is the sport's least visible skill and its deepest. A
+    kabaddi tackle is not a collision; it is several people holding a stronger
+    opponent away from a line for a few seconds, which is a grappling problem
+    with a deadline.
+
+    The ceiling rose sharply and recently. A professional league from 2014 made
+    kabaddi a full-time career in India, with the training, analysis and
+    conditioning that follow, and the elite standard is not what it was before.
+  evidence:
+    - label: The cant
+      value: One breath, judged by ear
+      basis: rule
+      rule: kabaddi-the-cant
+      note: Maximal effort under a rule against breathing.
+    - label: Raid clock
+      value: 30 s
+      basis: rule
+      rule: kabaddi-2014-raid-clock
+      note: A second limit on top of the breath, added for broadcast.
+    - label: Do-or-die raid
+      value: After two empty raids
+      basis: rule
+      rule: kabaddi-2014-raid-clock
+      note: Removes the option of a cautious raid, so a raider must take risk on demand.
+    - { label: Typical peak age, value: 24–31, basis: judgement }
+
+gap: >
+  Very low to high, on a material budget of zero, which makes kabaddi the
+  clearest case on this site that entry cost and competitive difficulty are
+  independent.
+
+  Everything about starting it is free: no equipment, no facility, no
+  officials required, no prerequisite skill. Everything about the top of it is
+  the ordinary apparatus of elite sport — full-time athletes, specialised
+  positional roles, video analysis and conditioning — arriving in one country
+  within about a decade because a television league made it worth funding.
+
+  It is also the sport here whose gap is most likely to move again. A
+  professional structure exists in India and effectively nowhere else, so the
+  ceiling is national rather than global, and the international competition
+  reflects that: India won every men's Asian Games title from 1990 for
+  decades.
+
+shaped_by:
+  - kabaddi-the-cant
+  - kabaddi-2014-raid-clock
