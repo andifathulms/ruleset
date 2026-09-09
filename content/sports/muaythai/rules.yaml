@@ -1,0 +1,105 @@
+- id: muaythai-eight-limbs
+  scope: { sport: muaythai, discipline: all }
+  date_adopted: 1993
+  date_effective: 1993
+  status: adopted
+  governing_body: IFMA
+  what_changed: >
+    Codified into the international rulebook: fists, elbows, knees and shins
+    are all legal striking surfaces, and the clinch is a fighting position
+    rather than a stoppage — a fighter may strike with knees and elbows from
+    it, and may sweep and off-balance an opponent, until the referee judges
+    that neither is working.
+
+    Set against the other striking sports on this site, that is the widest
+    permission any of them grants. Boxing allows fists and breaks the clinch.
+    Taekwondo is built around kicks and permits almost nothing to the head with
+    the hands. Karate requires control rather than damage. Muaythai allows an
+    elbow to the head from a grip.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      The Thai stadium sport had permitted these techniques for generations,
+      and an international federation seeking to govern it had to codify the
+      sport as practised rather than a reduced version of it.
+  citation:
+    source: ifma-rules
+    edition: IFMA Rules of Muaythai, legal techniques
+    missing: true
+
+- id: muaythai-amateur-protective-code
+  scope: { sport: muaythai, discipline: amateur }
+  date_adopted: 1993
+  date_effective: 1993
+  status: adopted
+  governing_body: IFMA
+  what_changed: >
+    The international amateur code requires protective equipment the
+    professional Thai sport does not use — headguard, shin guards, elbow pads,
+    body protection in some categories — and restricts or removes elbow strikes
+    at junior and lower competitive levels.
+
+    That produces two versions of the sport. The one with Olympic recognition
+    is padded and restricted; the one in the Bangkok stadiums is neither. An
+    athlete's international career and the sport's competitive summit are
+    governed by different rulebooks.
+  cause_primary: safety
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      A sport with legal elbow strikes to the head cannot meet the medical and
+      eligibility standards the international multi-sport system applies
+      without modification.
+  citation:
+    source: ifma-rules
+    edition: IFMA Rules of Muaythai, equipment and categories
+    missing: true
+  comparability_break: muaythai-scoring
+
+- id: muaythai-wai-kru
+  scope: { sport: muaythai, discipline: all }
+  date_adopted: 1993
+  date_effective: 1993
+  status: adopted
+  governing_body: IFMA
+  what_changed: >
+    The wai kru ram muay — a ritual performed in the ring before the bout, in
+    which a fighter pays respect to teacher and lineage — is retained as a
+    required part of international competition, performed to music.
+
+    It is the only mandatory ritual in any sport covered on this site. Sumo's
+    salt and stamping are professional practice within a Japanese institution;
+    this is written into the competition rules of an internationally recognised
+    federation, and a fighter who does not perform it has not completed the
+    bout's requirements.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      Thai federations made retention of the ritual a condition of the sport's
+      internationalisation, on the basis that a muaythai stripped of it would
+      not be muaythai.
+  citation:
+    source: ifma-rules
+    edition: IFMA Rules of Muaythai, ceremony
+    missing: true
+
+- id: muaythai-2021-ioc-recognition
+  scope: { sport: muaythai, discipline: all }
+  date_adopted: 2021
+  date_effective: 2021
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    IFMA received full IOC recognition, having held provisional recognition
+    since 2016. The sport is contested at the World Games and has never been on
+    an Olympic programme.
+  cause_primary: participation and access
+  cause_secondary: commercial
+  trigger:
+    description: >
+      The federation completed the governance, anti-doping and eligibility
+      requirements that provisional recognition had set as conditions.
+  citation:
+    source: ifma-rules
+    edition: IOC recognition, 2021
+    missing: true

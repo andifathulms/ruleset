@@ -1,0 +1,36 @@
+id: muaythai-scoring
+label: A comparable score
+unit: points
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Muaythai runs two scoring systems for the same sport, and they are not
+  translations of each other.
+
+  International amateur competition uses a ten-point must system, scored round
+  by round and added up — the same additive structure as boxing. A fighter who
+  loses two rounds must win the rest.
+
+  Thai professional scoring assesses the bout as a whole, weights the later
+  rounds most heavily, and rewards dominance, balance and visible effect rather
+  than counting strikes. A fighter can concede the opening rounds deliberately,
+  find the range, and take the fight in the fourth and fifth. That is a
+  recognised tactic in Thailand and it is unavailable under an additive system,
+  because the arithmetic will not allow it.
+
+  So a score from one code says nothing about a performance in the other, and
+  the two coexist rather than one having replaced the other. There is no break
+  to draw, because there was never a single line.
+
+  The equipment differs too — the amateur code requires headguards, shin guards
+  and elbow pads and restricts elbows by category — which means the two systems
+  are not even scoring the same permitted techniques.
+segments: []
+breaks:
+  - at: 1993
+    caused_by: muaythai-amateur-protective-code
+    kind: scoped
+    note: >
+      The international amateur code diverges from the Thai professional sport
+      in equipment, permitted techniques and how a round is scored.
+source: ifma-rules

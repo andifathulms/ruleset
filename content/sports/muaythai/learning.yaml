@@ -1,0 +1,89 @@
+sport: muaythai
+standing: editorial
+summary: >
+  Gyms are everywhere and the first class is pads and fitness, which is why so
+  many people do it. Competing is a different proposition, and the summit of
+  the sport is a Thai professional culture you effectively have to move to.
+
+entry:
+  verdict: low
+  claim: A gym, wraps and gloves. Most people who train it never intend to fight.
+  why: >
+    Muaythai has one of the largest recreational participation bases of any
+    combat sport, because the training is unusually accessible: pad work, bag
+    work and conditioning give a complete session with no sparring, and gyms
+    exist in most cities worldwide.
+
+    A beginner needs wraps, gloves and a gym. Nothing about a first class
+    involves being hit.
+
+    The ladder into competition is also graded honestly. Junior and lower
+    amateur categories restrict or remove elbows, require headguards and shin
+    guards, and shorten the bouts, so a first competition is a long way from
+    the professional sport in what it permits.
+  evidence:
+    - { label: Kit to start, value: Wraps and gloves, basis: observation }
+    - { label: First class, value: Pads and conditioning, no contact, basis: observation }
+    - { label: Junior categories, value: Elbows restricted or barred, basis: rule, rule: muaythai-amateur-protective-code }
+    - { label: Protective equipment, value: Required in amateur competition, basis: rule, rule: muaythai-amateur-protective-code }
+    - { label: Time to a first bout, value: A year or more, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Eight weapons, a clinch you must fight in, and a summit that is in one country.
+  why: >
+    The technical breadth is the largest in any striking sport covered here.
+    Fists, elbows, knees and shins, thrown and defended, plus a clinch that is a
+    complete grappling-striking discipline in itself — neck control, sweeps,
+    knees from a grip — which is the phase that most often decides bouts between
+    good fighters and is the least visible to a casual viewer.
+
+    The conditioning demand is severe and specific: shins that can block a kick,
+    a body that can absorb repeated low kicks, and the capacity to work in a
+    clinch, which is exhausting in a way nothing in boxing is.
+
+    The institutional ceiling is the hard part. The sport's competitive summit
+    is the Thai stadium system — a professional culture with its own scoring
+    conventions, its own fight economy and its own gambling structure — and it
+    is not the padded, restricted amateur code that holds the international
+    recognition. Reaching the top of muaythai has historically meant fighting
+    in Thailand, under different rules from the ones your national federation
+    prepared you for.
+  evidence:
+    - label: Eight legal weapons
+      value: Fists, elbows, knees, shins
+      basis: rule
+      rule: muaythai-eight-limbs
+      note: The widest striking permission of any sport covered here.
+    - label: The clinch is fought in
+      value: Not broken by the referee
+      basis: rule
+      rule: muaythai-eight-limbs
+      note: A complete sub-discipline that decides many elite bouts.
+    - label: Two codes
+      value: Amateur padded, professional not
+      basis: rule
+      rule: muaythai-amateur-protective-code
+      note: The version with recognition is not the version with the best fighters.
+    - { label: Typical peak age, value: 22–30, basis: judgement }
+
+gap: >
+  Low to very high, and the shape of it is closest to sumo's on this site — a
+  sport whose ceiling is a national professional institution outside its
+  international federation.
+
+  Sumo's professional association governs the best wrestlers and enters no world
+  championships. Muaythai's summit is the Thai stadium system, which has its
+  own scoring conventions and does not use the amateur code's protective
+  equipment or restrictions. In both cases the internationally recognised
+  federation runs a real competition that is not the top of the sport.
+
+  What muaythai has that sumo does not is an enormous recreational base
+  worldwide, most of which never competes at all. The gap between the number of
+  people who train it and the number who fight professionally is probably the
+  widest of any combat sport here, and the training culture is a large part of
+  why: you can do muaythai for a decade and never be hit.
+
+shaped_by:
+  - muaythai-eight-limbs
+  - muaythai-amateur-protective-code

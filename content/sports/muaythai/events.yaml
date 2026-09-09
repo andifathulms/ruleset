@@ -1,0 +1,41 @@
+sport: muaythai
+as_of: 2026-09
+source: ifma-rules
+standing: primary-named
+summary: >
+  No Olympic events. Muaythai is on the World Games programme, holds IOC
+  recognition since 2021, and its professional summit is a Thai stadium system
+  that this federation does not govern.
+disciplines:
+  - id: amateur
+    label: Amateur muaythai
+    blurb: >
+      The internationally recognised code. Protective equipment required, elbow
+      strikes restricted by category, scored round by round.
+    events:
+      - { id: men, label: Men's weight categories, at: [world-games, world-championship], count: 8 }
+      - { id: women, label: Women's weight categories, at: [world-games, world-championship], count: 8 }
+  - id: forms
+    label: Wai kru and mai muay
+    counts: false
+    blurb: >
+      The ritual and the technique forms, contested as judged events at some
+      championships.
+    events:
+      - { id: waikru, label: Wai kru competition, at: [world-championship], note: The pre-fight ritual, performed and judged as an event in its own right. }
+  - id: professional
+    label: The professional Thai sport
+    counts: false
+    blurb: >
+      Stadium muaythai in Bangkok and across Thailand: five rounds, no
+      protective equipment, elbows legal, scored as a whole with the later
+      rounds weighted, and structurally bound up with legal ringside gambling.
+      IFMA does not govern it.
+    events:
+      - { id: stadium, label: Stadium muaythai, at: [federation-only], note: Where the sport's best fighters are, under a different rulebook from the recognised amateur code. }
+  - id: relatives
+    label: Codes it sits beside
+    counts: false
+    events:
+      - { id: kickboxing, label: Kickboxing, at: [world-games], note: "A separate federation and a separate sport; most of its disciplines bar elbows and break the clinch." }
+      - { id: lethwei, label: Lethwei, at: [federation-only], note: "The Burmese form, which additionally permits headbutts and is governed separately." }

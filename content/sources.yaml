@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: ifma-rules
+  standing: primary-named
+  title: IFMA Rules of Muaythai
+  publisher: International Federation of Muaythai Associations
+  kind: rulebook
+  url: https://muaythai.sport/
+
 - id: jjif-rules
   standing: primary-named
   title: JJIF Sporting Code

@@ -152,8 +152,11 @@ sports:
       training device that grew into a sport.
   - id: muaythai
     label: Muaythai
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      The recognised amateur code is padded and restricts elbows; the Thai
+      professional sport is neither.
   - id: orienteering
     label: Orienteering
     coverage: deep

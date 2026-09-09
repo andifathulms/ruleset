@@ -1,0 +1,120 @@
+sport: muaythai
+as_of: 2026-09
+edition: IFMA Rules of Muaythai
+source: ifma-rules
+standing: primary-named
+summary: >
+  A boxing ring, weight categories, and rounds — with fists, elbows, knees and
+  shins all legal, and a clinch that is fought in rather than broken up. The
+  bout opens with a ritual performed to music.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Win on points, by stoppage, or by knockout. What separates muaythai from
+      the other striking codes is not the objective but the permission: there
+      are more legal ways to damage an opponent here than in any other sport
+      covered on this site.
+    shaped_by: [muaythai-eight-limbs]
+
+  - id: field
+    label: The ring
+    body: >
+      A roped boxing ring. Nothing about the space is distinctive; everything
+      distinctive about the sport happens inside a standard one.
+    facts:
+      - { label: Area, value: A roped ring }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      Gloves, hand wraps, a mouthguard and a groin guard, plus the *prajioud*
+      armbands and the *mongkhon* headband, which is worn during the ritual and
+      removed before the bell.
+
+      **The amateur code adds more.** Headguard, shin guards, elbow pads and, in
+      some categories, body protection — none of which the professional Thai
+      sport uses. The equipment list is the clearest marker of which version of
+      muaythai is being contested.
+    facts:
+      - { label: Amateur, value: Headguard, shin guards, elbow pads }
+      - { label: Professional Thai, value: Gloves and a groin guard }
+      - { label: Mongkhon, value: Worn for the ritual, removed before the bell }
+    shaped_by: [muaythai-amateur-protective-code]
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      One against one in weight categories, with a referee in the ring and
+      judges at ringside. Amateur competition is divided by age and grade, and
+      the permitted techniques narrow as the age falls — elbows in particular
+      are restricted or removed for junior categories.
+    facts:
+      - { label: Categories, value: By weight, age and grade }
+      - { label: Elbows, value: Restricted or barred in junior categories }
+    shaped_by: [muaythai-amateur-protective-code]
+
+  - id: duration
+    label: Time
+    body: >
+      Rounds of three minutes with a minute between them — three rounds in most
+      amateur competition, five in the professional Thai stadium sport.
+
+      The number matters more here than in most sports, because of how a Thai
+      professional bout is scored: the early rounds are treated as exploratory
+      and the later ones carry the decision. Cut a five-round fight to three and
+      you have not shortened it, you have changed what it rewards.
+    facts:
+      - { label: Round, value: 3 min }
+      - { label: Amateur, value: Usually 3 rounds }
+      - { label: Professional Thai, value: 5 rounds }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      International amateur competition scores on a ten-point must system,
+      round by round, as boxing does.
+
+      Thai professional scoring works differently and is genuinely unusual: the
+      bout is assessed as a whole, with the later rounds weighted most heavily,
+      and judges reward dominance, balance and visible effect rather than
+      counting strikes. A fighter can lose the first two rounds deliberately and
+      win the fight — a tactic that has no equivalent in any other combat sport
+      here, and which an additive round-by-round system makes impossible.
+    facts:
+      - { label: Amateur, value: Ten-point must, round by round }
+      - { label: Professional Thai, value: Weighted to the later rounds }
+    shaped_by: [muaythai-amateur-protective-code]
+
+  - id: restarts
+    label: The clinch, and the ritual
+    body: >
+      **The clinch** is not a restart. Where boxing's referee separates fighters
+      who close, muaythai's leaves them to fight — knees, elbows, sweeps and
+      neck control — and intervenes only when neither is making progress.
+
+      **The wai kru ram muay** precedes the bout: a sequence performed to music,
+      paying respect to teacher and lineage, with the mongkhon worn and removed
+      at its end. It is required, not optional.
+    shaped_by: [muaythai-eight-limbs, muaythai-wai-kru]
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Strikes to the groin, the spine and the back of the head. Throws of the
+      kind judo permits — hip and shoulder throws are not allowed, though sweeps
+      and off-balancing from the clinch are. Striking a downed opponent.
+      Deliberate holding without working.
+
+      Notably absent from the list: elbows to the head, knees to the head, and
+      striking from a grip, all of which most striking codes prohibit and this
+      one permits.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Knockout, stoppage, or the judges' decision. Which decision you get
+      depends on which version of the sport you are in — an additive
+      round-by-round count in the amateur code, or a weighted assessment of the
+      whole bout in the Thai professional one.
