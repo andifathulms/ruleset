@@ -1,0 +1,97 @@
+sport: sumo
+standing: editorial
+summary: >
+  The rules take thirty seconds to learn and amateur clubs will take anyone.
+  The professional sport is one of the most closed and physically punishing
+  careers in any sport on this site, and you cannot enter it after about
+  twenty-three.
+
+entry:
+  verdict: low
+  claim: Two rules, a ring drawn on the ground, and amateur clubs with weight classes for everyone.
+  why: >
+    Sumo's laws are the simplest of any combat sport here — touch the ground or
+    leave the ring and you have lost — so a beginner understands what is
+    happening immediately, which is not true of judo scoring or of a boxing
+    decision.
+
+    Amateur sumo, as governed internationally, is genuinely open: weight
+    classes from lightweight upwards, men's and women's divisions, university
+    and club structures in Japan, Mongolia, Brazil, Eastern Europe and the
+    United States. A person of ordinary size can compete properly rather than
+    being a novelty.
+
+    Bouts last seconds, so a beginner's first session involves a large number
+    of complete contests rather than one exhausting round.
+
+    It is low rather than very low because the sport needs a proper ring and a
+    club, and there are not many outside Japan.
+  evidence:
+    - { label: Rules to learn, value: Two losing conditions, basis: rule, rule: sumo-loss-conditions }
+    - { label: Amateur weight classes, value: Four, including open, basis: rule, rule: sumo-1992-ifs-founded }
+    - { label: Women's competition, value: Amateur only, basis: rule, rule: sumo-womens-competition }
+    - { label: Kit to start, value: A mawashi, basis: observation }
+    - { label: Time to a first bout, value: One session, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: A closed professional system entered in your teens, with no weight classes and a body built to suit.
+  why: >
+    Professional sumo is a career decided very early. Recruits enter a stable
+    in their teens, live in it, and progress through a ranking ladder that
+    determines everything about their life including whether they are paid at
+    all — the lower divisions are effectively unpaid apprenticeships. The
+    entry age limit means the door closes in the early twenties.
+
+    The absence of weight classes shapes the athlete more than any rule on this
+    site. Mass is a direct competitive advantage in a 4.55-metre ring, so
+    wrestlers eat and train to be enormous, and the sport's known health
+    outcomes — diabetes, joint failure, shortened life expectancy — follow from
+    a competitive structure that rewards it.
+
+    Technically the ceiling is higher than the two-second bouts suggest. The
+    tachi-ai — the initial collision, timed by mutual consent rather than a
+    signal — decides a large share of professional bouts before any technique
+    is applied, and reading it is a craft.
+
+    And the international competition a foreign athlete can reach is not the
+    top of the sport. The best wrestlers in the world are in the Japanese
+    professional system and do not enter the world championships.
+  evidence:
+    - label: No weight classes
+      value: Professional sumo
+      basis: rule
+      rule: sumo-no-weight-classes
+      note: Mass is a competitive asset rather than a category, with known health consequences.
+    - label: Ring diameter
+      value: 4.55 m
+      basis: observation
+      note: Too small to retreat in, so leverage and the initial charge decide most bouts.
+    - label: Two governing systems
+      value: Professional and amateur
+      basis: rule
+      rule: sumo-1992-ifs-founded
+      note: The world championship does not contain the best wrestlers in the world.
+    - { label: Typical peak age, value: 26–32, basis: judgement }
+
+gap: >
+  Low to very high, and the sport is the site's clearest case of a gap that is
+  institutional rather than technical.
+
+  Nothing about sumo's laws is hard to learn, and amateur sumo is one of the
+  more welcoming competitive structures covered here — weight classes, women's
+  divisions, and clubs that will put a beginner in a ring on day one. The
+  ceiling is high because the top of the sport is a closed Japanese
+  professional system with an age limit, a residential apprenticeship, and no
+  weight classes to protect anybody.
+
+  Compare it with judo, elsewhere on this site: a Japanese combat sport that
+  internationalised so completely that its Olympic competition is unambiguously
+  its highest level, and whose weight classes have been redrawn repeatedly.
+  Sumo kept its apex at home. The World Games event is real sumo and it is not
+  the best sumo, and no athlete outside Japan can change that by training
+  harder.
+
+shaped_by:
+  - sumo-no-weight-classes
+  - sumo-1992-ifs-founded

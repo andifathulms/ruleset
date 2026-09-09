@@ -172,8 +172,11 @@ sports:
       Here for decades while being rejected by the Games; on the 2028 programme at last.
   - id: sumo
     label: Sumo
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Weight classes and women's divisions here; the professional sport in
+      Japan has neither, and enters none of this.
   - id: tug-of-war
     label: Tug of war
     coverage: deep

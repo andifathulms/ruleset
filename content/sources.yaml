@@ -451,6 +451,13 @@
     Named, not opened. The 2025 Chengdu roster here was entered from general
     reference and has not been read line by line off the IWGA's own listing.
 
+- id: ifs-rules
+  standing: primary-named
+  title: International Sumo Federation competition rules
+  publisher: International Sumo Federation
+  kind: rulebook
+  url: https://www.ifs-sumo.org/
+
 - id: iof-rules
   standing: primary-named
   title: IOF Competition Rules

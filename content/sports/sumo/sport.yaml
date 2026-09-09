@@ -1,0 +1,21 @@
+id: sumo
+label: Sumo
+tagline: "The only combat sport here with no weight classes — except in the international version, which has them, and which the best wrestlers in the world do not enter."
+governing_body: International Sumo Federation
+founded: >
+  A Japanese ritual and court practice of great antiquity, professionalised
+  during the Edo period; the modern professional association dates from 1925
+  and the International Sumo Federation from 1992.
+coverage: deep
+family_colour: clay
+classification:
+  official: sumo
+  game-category: outside-taxonomy
+  adjudication: combat
+summary: >
+  Force your opponent out of a ring 4.55 metres across, or make any part of
+  them above the soles of the feet touch the ground. Bouts last seconds and
+  there are no rounds, no time limit and — in the professional Japanese sport —
+  no weight classes at all. The international amateur version has weight
+  classes, women's divisions and a World Games place, and the professional
+  wrestlers who define the sport compete in none of it.

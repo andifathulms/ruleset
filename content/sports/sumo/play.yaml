@@ -1,0 +1,126 @@
+sport: sumo
+as_of: 2026-09
+edition: IFS competition rules
+source: ifs-rules
+standing: primary-named
+summary: >
+  Two wrestlers in a ring 4.55 metres across. You lose by touching the ground
+  with anything but the soles of your feet, or by touching anything outside the
+  ring. No rounds, no time limit, no points — and in the professional Japanese
+  sport, no weight classes.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Put your opponent out of the ring, or put any part of them on the ground.
+      Both conditions are absolute and either ends the bout instantly.
+
+      There is nothing else to win by. No submission, no strike count, no
+      judges' decision on aggression or control. It is the simplest victory
+      condition of any combat sport covered here and it is why a bout can be
+      over in two seconds.
+    facts:
+      - { label: Loss by leaving, value: Any part of the body touching outside the ring }
+      - { label: Loss by falling, value: Any part but the soles of the feet touching the ground }
+    shaped_by: [sumo-loss-conditions]
+
+  - id: field
+    label: The ring
+    body: >
+      The dohyō: a raised clay platform with a circle 4.55 metres in diameter
+      marked by half-buried straw bales, and two short starting lines in the
+      middle.
+
+      The size is the sport's most consequential number. It is small enough
+      that there is no retreating and no circling, so a bout is a direct
+      collision resolved by leverage — and it makes the ring itself the
+      opponent as much as the other wrestler.
+    facts:
+      - { label: Ring diameter, value: 4.55 m }
+      - { label: Surface, value: Clay, with a sand border }
+      - { label: Boundary, value: Half-buried straw bales }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      A mawashi — a heavy belt wrapped around the waist and between the legs —
+      and nothing else. No footwear, no padding, no gloves, no protection of any
+      kind.
+
+      The belt is not incidental. A large proportion of the sport's recognised
+      winning techniques involve gripping it, so what a wrestler is wearing is
+      the principal handle by which they can be moved.
+    facts:
+      - { label: Mawashi, value: The only garment, and the main grip }
+      - { label: Protective equipment, value: None }
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      Two wrestlers, one referee in the ring — the gyōji — and five judges
+      seated around it who can call a conference and overrule him.
+
+      **Weight classes are the fault line between the two versions of the
+      sport.** Professional sumo in Japan has none: any wrestler may be drawn
+      against any other, and only the ranking ladder decides matchups. The
+      international amateur federation runs lightweight, middleweight,
+      heavyweight and open divisions, for men and for women.
+    facts:
+      - { label: Professional, value: No weight classes }
+      - { label: International amateur, value: Weight classes and an open division }
+      - { label: Officials, value: One ring referee, five judges }
+    shaped_by: [sumo-no-weight-classes, sumo-1992-ifs-founded]
+
+  - id: duration
+    label: Time
+    body: >
+      No rounds and no scheduled length. Most bouts are decided in under ten
+      seconds. Professional sumo permits a break and a restart in a bout that
+      becomes a prolonged stalemate, which is rare enough to be notable when it
+      happens.
+    facts:
+      - { label: Rounds, value: None }
+      - { label: Typical bout, value: Seconds }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      There is none. A bout is won or lost, and a tournament is decided on the
+      count of bouts won.
+
+      That absence is unusual among the combat sports on this site: judo,
+      taekwondo, boxing, fencing, karate and wrestling all score, and most of
+      them have rewritten how. Sumo has never had a scoring system to rewrite.
+
+  - id: restarts
+    label: The start
+    body: >
+      Both wrestlers crouch behind their starting lines and must touch both
+      fists to the clay before charging. The start — the tachi-ai — is
+      synchronised by mutual consent rather than by a signal, so the referee
+      does not begin the bout; the wrestlers do, and a false start is simply
+      reset.
+
+      In professional sumo this is preceded by ritual: salt thrown to purify
+      the ring, stamping, and a preparation period that is longer than most
+      bouts.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Punching with a closed fist, kicking the chest or waist, eye-gouging,
+      hair-pulling, choking, and grabbing the vertical part of the mawashi
+      between the legs are all forbidden.
+
+      Open-handed strikes to the face and upper body are legal, which surprises
+      people who assume a belt-grappling sport is purely a wrestling one.
+      Committing a foul loses the bout outright — there is no penalty short of
+      defeat.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Whichever condition happens first. Where the two wrestlers hit the ground
+      or the sand almost together, the judges confer and may order the bout
+      rewrestled — the sport's only remedy for a decision it cannot make.

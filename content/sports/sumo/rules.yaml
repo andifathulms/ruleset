@@ -1,0 +1,138 @@
+- id: sumo-loss-conditions
+  scope: { sport: sumo, discipline: all }
+  date_adopted: 1925
+  date_effective: 1925
+  status: adopted
+  governing_body: Japan Sumo Association
+  what_changed: >
+    Codified by the modern professional association, from a form centuries
+    older: a wrestler loses if any part of the body other than the soles of the
+    feet touches the ground inside the ring, or if any part of the body touches
+    the ground outside it.
+
+    There is no submission, no knockout, no points and no decision. Both losing
+    conditions are visible, binary events, which is why the sport can be
+    decided in under five seconds and why its bouts need no scoring apparatus
+    at all.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Professional sumo was reorganised into a single national association in
+      the 1920s, which required one written rulebook where regional and
+      house traditions had differed.
+  citation:
+    source: ifs-rules
+    edition: Sumo competition rules, conditions of defeat
+    missing: true
+
+- id: sumo-no-weight-classes
+  scope: { sport: sumo, discipline: professional }
+  date_adopted: 1925
+  date_effective: 1925
+  status: adopted
+  governing_body: Japan Sumo Association
+  what_changed: >
+    Professional sumo has no weight divisions. A wrestler of 100 kg may be
+    drawn against one of 200 kg, and the ranking system — not bodyweight — is
+    the only thing that determines who meets whom.
+
+    Every other combat sport covered on this site divides by weight, and most
+    of them have redrawn their divisions repeatedly. Sumo declined the
+    instrument entirely, which makes size a competitive asset rather than a
+    category, and is the direct cause of the sport's characteristic body.
+  cause_primary: fairness and eligibility
+  cause_secondary: disputed
+  trigger:
+    description: >
+      The professional sport retained a form in which any wrestler could meet
+      any other, and the ranking ladder rather than bodyweight determines the
+      matchups.
+    also_said: >
+      Whether the absence is tradition preserved or a health problem left
+      unaddressed is argued outside the sport more than inside it. The
+      international amateur federation, founded much later, adopted weight
+      classes immediately.
+  citation:
+    source: ifs-rules
+    edition: Japan Sumo Association regulations
+    missing: true
+
+- id: sumo-1992-ifs-founded
+  scope: { sport: sumo, discipline: amateur }
+  date_adopted: 1992
+  date_effective: 1992
+  status: adopted
+  governing_body: International Sumo Federation
+  what_changed: >
+    The International Sumo Federation was formed to govern amateur sumo
+    outside Japan, and it made two decisions the professional sport had not:
+    it introduced weight classes — lightweight, middleweight, heavyweight and
+    open — and it opened the sport to women.
+
+    The result is two sumos. The professional sport in Japan, with no weight
+    classes and no women, is where the best wrestlers are and is not governed
+    by this federation. The international sport, with both, holds the world
+    championships and the World Games place.
+  cause_primary: participation and access
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Amateur sumo had spread well beyond Japan, particularly to Mongolia,
+      Brazil, Eastern Europe and the United States, with no international body
+      to hold competitions between them.
+  citation:
+    source: ifs-rules
+    edition: IFS statutes
+    missing: true
+
+- id: sumo-womens-competition
+  scope: { sport: sumo, discipline: amateur }
+  date_adopted: 1997
+  date_effective: 1997
+  status: adopted
+  governing_body: International Sumo Federation
+  what_changed: >
+    The international federation established women's competition, with its own
+    weight classes and world championships.
+
+    Professional sumo in Japan does not admit women, and the prohibition
+    extends beyond competition: women are not permitted to enter the
+    professional dohyō at all, which has produced repeated public incidents
+    including one in which women who entered the ring to give medical aid to a
+    collapsed official were asked over the public address to leave.
+  cause_primary: disputed
+  trigger:
+    description: >
+      The international federation opened the sport as a matter of eligibility
+      and Olympic-standard governance.
+    also_said: >
+      The Japan Sumo Association's stated basis for the professional
+      prohibition is that the dohyō is a sacred space within a religious
+      tradition. Critics describe it as sex discrimination maintained under a
+      religious description. Both readings are recorded; this site does not
+      choose between them.
+  citation:
+    source: ifs-rules
+    edition: IFS competition regulations
+    missing: true
+
+- id: sumo-2001-world-games
+  scope: { sport: sumo, discipline: amateur }
+  date_adopted: 2001
+  date_effective: 2001
+  status: adopted
+  governing_body: International World Games Association
+  what_changed: >
+    Sumo entered the World Games programme at Akita in 2001 and has been
+    contested at the event since, in weight classes and in open categories for
+    both men and women.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The 2001 World Games were held in Akita, in northern Japan, and the host
+      proposed the sport — the same host-city mechanism that has since brought
+      karate and flag football onto Olympic programmes.
+  citation:
+    source: iwga-world-games
+    edition: IWGA programme listings
+    missing: true

@@ -1,0 +1,36 @@
+sport: sumo
+as_of: 2026-09
+source: ifs-rules
+standing: primary-named
+summary: >
+  No Olympic events. Sumo is on the World Games programme in weight classes and
+  open divisions for men and women — and the professional sport that defines it
+  is governed by a Japanese national body that enters none of this.
+disciplines:
+  - id: amateur-men
+    label: Men's amateur
+    blurb: Weight classes and an open division, under International Sumo Federation rules.
+    events:
+      - { id: light, label: Lightweight, at: [world-games, world-championship] }
+      - { id: middle, label: Middleweight, at: [world-games, world-championship] }
+      - { id: heavy, label: Heavyweight, at: [world-games, world-championship] }
+      - { id: open-m, label: Open, at: [world-games, world-championship], note: No weight limit — the only division resembling the professional sport. }
+  - id: amateur-women
+    label: Women's amateur
+    blurb: Established internationally in 1997. Has no professional counterpart.
+    events:
+      - { id: light-w, label: Lightweight, at: [world-games, world-championship] }
+      - { id: middle-w, label: Middleweight, at: [world-games, world-championship] }
+      - { id: heavy-w, label: Heavyweight, at: [world-games, world-championship] }
+      - { id: open-w, label: Open, at: [world-games, world-championship] }
+  - id: professional
+    label: The professional sport
+    counts: false
+    blurb: >
+      Ōzumō, governed by the Japan Sumo Association rather than by the
+      international federation. Six tournaments a year in Japan, no weight
+      classes, no women, and no participation in world championships. The best
+      wrestlers in the world compete here and nowhere else.
+    events:
+      - { id: honbasho, label: The six annual tournaments, at: [federation-only], note: "Fifteen days each; the ranking ladder determines matchups, and there are no weight divisions." }
+      - { id: women-pro, label: Women's professional sumo, at: [federation-only], note: "Does not exist. Women are not permitted to enter the professional dohyō at all." }

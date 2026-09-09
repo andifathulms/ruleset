@@ -1,0 +1,29 @@
+id: sumo-series
+label: A measurable series
+unit: none
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Sumo generates no quantitative series, and unlike most absences on this site
+  it is not the result of anything being severed.
+
+  A bout has no score. It is won by one of two binary events — the ground, or
+  the boundary — and the record of it is a name and a winning technique.
+  There is no time, no points, no margin and no aggregate. A tournament is a
+  count of bouts won out of fifteen, which is bounded and has been for a
+  century.
+
+  Bodyweight is the one number the sport produces in quantity, and it would
+  chart: professional wrestlers have grown substantially heavier over the
+  twentieth century, which is a direct consequence of there being no weight
+  classes. This site does not enter it, because it has not been taken from a
+  cited source, and because a chart of how large men became under a rule that
+  rewards size would need handling with more care than a line.
+
+  The other reason to leave this empty is that the sport is split. The
+  professional records are kept by a Japanese national association and the
+  amateur ones by an international federation with weight classes and women's
+  divisions. They are not two eras of one series. They are two sports.
+segments: []
+breaks: []
+source: ifs-rules
