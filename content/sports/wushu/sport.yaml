@@ -1,0 +1,21 @@
+id: wushu
+label: Wushu
+tagline: "A sport designed by a state, contesting two disciplines with nothing in common — and the only one to be held at an Olympic Games without being on the programme."
+governing_body: International Wushu Federation
+founded: >
+  Standardised by Chinese state sports authorities from the 1950s out of
+  traditional martial arts; the International Wushu Federation was formed in
+  Beijing in 1990.
+coverage: deep
+family_colour: clay
+classification:
+  official: wushu
+  game-category: outside-taxonomy
+  adjudication: combat
+summary: >
+  Wushu contests two things. **Taolu** is judged solo routines, scored like
+  gymnastics with a difficulty component. **Sanda** is full-contact fighting on
+  a raised platform where throwing an opponent off it scores. They share a name
+  and a federation and almost nothing else. The sport was assembled by a
+  government out of traditional martial arts, and in 2008 it was held inside the
+  Beijing Olympics without being an Olympic event.

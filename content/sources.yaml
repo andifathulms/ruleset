@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: iwuf-rules
+  standing: primary-named
+  title: IWUF competition rules for taolu and sanda
+  publisher: International Wushu Federation
+  kind: rulebook
+  url: https://www.iwuf.org/
+
 - id: ifma-rules
   standing: primary-named
   title: IFMA Rules of Muaythai

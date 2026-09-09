@@ -1,0 +1,126 @@
+sport: wushu
+as_of: 2026-09
+edition: IWUF competition rules
+source: iwuf-rules
+standing: primary-named
+summary: >
+  Two disciplines. Taolu is a solo routine on a carpet, judged on quality and
+  on declared difficulty. Sanda is full-contact fighting on a raised platform,
+  where putting an opponent off the edge scores.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      In **taolu**, perform a routine — barehanded or with a weapon — and be
+      marked higher than everyone else. In **sanda**, out-score or stop an
+      opponent using strikes, kicks and throws, including by putting them off
+      the platform.
+
+      These are not two formats of one contest. One is a judged performance
+      against a standard; the other is a fight. They share a federation, a name
+      and a history, and are otherwise unrelated.
+    shaped_by: [wushu-state-codification, wushu-sanda-platform]
+
+  - id: field
+    label: The carpet and the platform
+    body: >
+      **Taolu** is performed on a marked carpet, and staying inside it is part
+      of the routine's execution.
+
+      **Sanda** is fought on the *lei tai*: a raised platform, typically 80
+      centimetres high and 8 metres square, with no ropes. Its edge is live —
+      forcing an opponent off it scores, and falling off is a fact of the sport
+      rather than an accident.
+    facts:
+      - { label: Taolu, value: A marked carpet }
+      - { label: Sanda, value: A raised platform, 8 m square }
+      - { label: Ropes, value: None }
+      - { label: The edge, value: Scores directly }
+    shaped_by: [wushu-sanda-platform]
+
+  - id: equipment
+    label: Equipment
+    body: >
+      **Taolu** uses weapons as apparatus: straightsword, broadsword, staff and
+      spear, each with its own events and its own required techniques. They are
+      competition implements with specified dimensions and flex, not sharpened
+      weapons.
+
+      **Sanda** uses gloves, headguard, mouthguard, chest protector and groin
+      guard — the full amateur combat kit.
+    facts:
+      - { label: Taolu weapons, value: Straightsword, broadsword, staff, spear }
+      - { label: Sanda, value: Gloves, headguard, chest protector }
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      Taolu is a solo event, marked by a judging panel divided by function —
+      one group assessing execution quality, another the declared difficulty
+      elements, another overall performance.
+
+      Sanda is one against one in weight categories, with a referee on the
+      platform and judges around it.
+    facts:
+      - { label: Taolu, value: Solo, judged by panel }
+      - { label: Sanda, value: One against one, by weight }
+
+  - id: duration
+    label: Time
+    body: >
+      A taolu routine runs to a prescribed length — roughly a minute and twenty
+      seconds for most barehanded and weapon events — and finishing outside the
+      window is penalised.
+
+      Sanda is fought in rounds of two minutes, best of three, with a minute
+      between them.
+    facts:
+      - { label: Taolu routine, value: About 1 min 20 s, with penalties outside it }
+      - { label: Sanda round, value: 2 min, best of three }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      **Taolu** is scored on execution quality against a deduction list, plus a
+      declared difficulty component — *nandu* — covering prescribed jumps,
+      rotations and landings, plus an overall performance mark. An athlete
+      declares what they will attempt and is marked on delivering it.
+
+      **Sanda** scores strikes and kicks that land cleanly, throws, and — the
+      distinctive one — putting the opponent off the platform. A fighter who
+      goes off twice in a round loses it.
+    facts:
+      - { label: Taolu, value: Quality, plus declared difficulty, plus performance }
+      - { label: Sanda, value: Strikes, throws, and platform exits }
+      - { label: Two exits in a round, value: Loses the round }
+    shaped_by: [wushu-nandu-scoring, wushu-sanda-platform]
+
+  - id: restarts
+    label: Starts and restarts
+    body: >
+      A taolu routine begins and ends with a salute, and is performed once —
+      there is no second attempt and no restart for any reason.
+
+      Sanda restarts at the platform's centre after a throw, a knockdown or a
+      fall from the edge.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      **Taolu**: stepping outside the carpet, exceeding or undershooting the
+      time, dropping a weapon, and failing a declared difficulty element — all
+      of which carry defined deductions rather than disqualification.
+
+      **Sanda**: strikes to the back of the head, spine and groin; catching a
+      kick and holding for more than a moment; deliberately leaving the
+      platform to avoid a fight; and throws that drive an opponent down head
+      first.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The highest taolu score, or the sanda fighter who takes two rounds.
+      Because the two disciplines produce winners by entirely different
+      mechanisms, wushu's world championships are effectively two championships
+      held together.

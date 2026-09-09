@@ -1,0 +1,144 @@
+- id: wushu-state-codification
+  scope: { sport: wushu, discipline: taolu }
+  date_adopted: 1958
+  date_effective: 1958
+  status: adopted
+  governing_body: Chinese state sports authorities
+  what_changed: >
+    Contemporary wushu was assembled: state sports bodies took the enormous and
+    heterogeneous body of Chinese traditional martial arts and produced
+    standardised routines, compulsory forms, defined events and competition
+    rules for them.
+
+    That is an unusual origin for a sport. Most on this site were codified by
+    clubs, schools or federations that already practised the activity. This one
+    was designed centrally, from many sources, by a government, with the
+    explicit aim of producing a national sport that could be taught, judged and
+    exported.
+  cause_primary: participation and access
+  cause_secondary: commercial
+  trigger:
+    description: >
+      Traditional martial arts existed in hundreds of regional and family
+      lineages with no common curriculum and no way to hold a competition
+      between them.
+    also_said: >
+      Practitioners of traditional lineages have argued since that
+      standardisation produced a performance discipline rather than a martial
+      one, and that the routines were selected for how they look. The site
+      records the objection without adjudicating it.
+  citation:
+    source: iwuf-rules
+    edition: IWUF Rules for International Wushu Taolu Competition
+    missing: true
+
+- id: wushu-sanda-platform
+  scope: { sport: wushu, discipline: sanda }
+  date_adopted: 1979
+  date_effective: 1979
+  status: adopted
+  governing_body: Chinese state sports authorities, later the IWUF
+  what_changed: >
+    Sanda was developed as the sport's full-contact discipline, fought on a
+    raised platform — the lei tai — with strikes, kicks and throws permitted,
+    and with **throwing or forcing an opponent off the platform scoring
+    directly**.
+
+    A ring-out as a scoring method is otherwise almost unknown in modern combat
+    sport. Sumo makes it a victory condition; wushu makes it a scoring one, so
+    the edge of the platform is a tactical feature of every exchange rather
+    than a boundary that stops play.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Standardised routines gave the sport a judged discipline and no contest,
+      and a full-contact format was built to supply one — drawing the platform
+      from the traditional lei tai challenge fights.
+  citation:
+    source: iwuf-rules
+    edition: IWUF Rules for International Sanda Competition
+    missing: true
+
+- id: wushu-1990-iwuf
+  scope: { sport: wushu, discipline: all }
+  date_adopted: 1990
+  date_effective: 1990
+  status: adopted
+  governing_body: International Wushu Federation
+  what_changed: >
+    The IWUF was founded in Beijing, and wushu was contested at the Asian Games
+    in the same year — the same edition that added kabaddi and sepak takraw.
+    International championships followed from 1991.
+  cause_primary: participation and access
+  cause_secondary: commercial
+  trigger:
+    description: >
+      China had spent three decades building a standardised sport and moved to
+      internationalise it, with the federation established in Beijing and Asian
+      Games inclusion secured at the Games China hosted.
+  citation:
+    source: iwuf-rules
+    edition: IWUF statutes
+    missing: true
+
+- id: wushu-nandu-scoring
+  scope: { sport: wushu, discipline: taolu }
+  date_adopted: 2003
+  date_effective: 2003
+  status: adopted
+  governing_body: International Wushu Federation
+  what_changed: >
+    Taolu scoring was rebuilt around a difficulty component — *nandu* — in
+    which prescribed jumps, rotations and landings carry declared values,
+    marked separately from the quality of the performance.
+
+    Before it, a routine was marked as a whole for quality and completeness.
+    After it, an athlete declares difficulty and is scored on execution against
+    it, which is the same structure gymnastics adopted with its open-ended Code
+    of Points in 2006.
+
+    The consequence was the same too: scores before and after are on
+    incompatible scales, and the sport's competitive emphasis moved sharply
+    towards jumps with high rotation counts.
+  cause_primary: fairness and eligibility
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Holistic marking compressed the field at the top and could not separate
+      routines that were equally clean but not equally hard.
+  citation:
+    source: iwuf-rules
+    edition: IWUF Rules for International Wushu Taolu Competition, nandu
+    missing: true
+  comparability_break: wushu-taolu-scores
+
+- id: wushu-2008-concurrent-tournament
+  scope: { sport: wushu, discipline: all }
+  date_adopted: 2008
+  date_effective: 2008
+  status: adopted
+  governing_body: International Olympic Committee and Beijing organisers
+  what_changed: >
+    A wushu tournament was staged in Beijing during the 2008 Olympic Games,
+    with the IOC's approval, and was not part of the Olympic programme. It was
+    not a demonstration sport either — a category the IOC had discontinued
+    after 1992 — and its medals were not Olympic medals.
+
+    No other sport on this site has held that status: present at a Games,
+    sanctioned, and not in it.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      China wanted its national sport at its own Games. Wushu had not been
+      accepted onto the programme, and a concurrent tournament was the
+      arrangement that resulted.
+    also_said: >
+      The federation presented it as a step towards inclusion. Eighteen years
+      later there has been no Olympic place, and wushu's subsequent
+      appearances have been at the Youth Olympic Games in 2014 and at
+      continental multi-sport events.
+  citation:
+    source: iwuf-rules
+    edition: Beijing 2008 Wushu Tournament, IOC sanction
+    missing: true

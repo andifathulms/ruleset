@@ -57,6 +57,7 @@
     - { id: shooting, label: Shooting, colour: pool, members: [shooting] }
     - { id: sport-climbing, label: Sport climbing, colour: gold, members: [sport-climbing] }
     - { id: wrestling, label: Wrestling, colour: clay, members: [wrestling] }
+    - { id: wushu, label: Wushu, colour: clay, members: [wushu] }
     - { id: breaking, label: Breaking, colour: gold, members: [breaking] }
     - { id: canoeing, label: Canoeing, colour: pool, members: [canoeing] }
     - { id: flag-football, label: Flag football, colour: pitch, members: [flag-football] }
@@ -112,7 +113,7 @@
       colour: unmarked
       members: [judo, taekwondo, boxing, modern-pentathlon, fencing, wrestling,
                 karate, breaking, tug-of-war, sumo, dancesport, ju-jitsu,
-                muaythai]
+                muaythai, wushu]
 
 - id: adjudication
   label: Adjudication
@@ -143,7 +144,7 @@
       label: Combat
       colour: clay
       members: [judo, taekwondo, boxing, fencing, wrestling, karate, sumo,
-                ju-jitsu, muaythai]
+                ju-jitsu, muaythai, wushu]
     # A fifth category the lens did not have until a sport arrived that needed
     # it. Every other sport here is adjudicated by someone who is not playing;
     # ultimate is adjudicated by the players, and that is a rule rather than an

@@ -239,7 +239,7 @@ sports:
     held: [2022]
   - id: wushu
     label: Wushu
-    coverage: skeleton
+    coverage: deep
     held: [2022]
     note: >-
       A Chinese martial art with both a judged form and a fighting form.

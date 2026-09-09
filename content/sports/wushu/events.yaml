@@ -1,0 +1,41 @@
+sport: wushu
+as_of: 2026-09
+source: iwuf-rules
+standing: primary-named
+summary: >
+  No Olympic events, and one tournament held inside an Olympic Games without
+  being part of it. Wushu is an Asian Games sport since 1990, is contested at
+  the World Games, and appeared at the 2014 Youth Olympic Games.
+disciplines:
+  - id: taolu
+    label: Taolu
+    blurb: Judged solo routines, barehanded and with weapons, scored on quality and declared difficulty.
+    events:
+      - { id: changquan, label: Changquan — long fist, at: [world-games, asian-games, world-championship], count: 2 }
+      - { id: nanquan, label: Nanquan — southern fist, at: [world-games, asian-games, world-championship], count: 2 }
+      - { id: taijiquan, label: Taijiquan, at: [world-games, asian-games, world-championship], count: 2 }
+      - { id: weapons, label: Sword, broadsword, staff and spear events, at: [asian-games, world-championship], count: 8 }
+      - { id: duilian, label: Duilian — choreographed pair and group routines, at: [world-championship], note: Two or more athletes performing a scripted exchange, judged. }
+  - id: sanda
+    label: Sanda
+    blurb: Full contact on a raised platform. Strikes, kicks, throws, and the edge scores.
+    events:
+      - { id: men-sanda, label: Men's weight categories, at: [world-games, asian-games, world-championship], count: 6 }
+      - { id: women-sanda, label: Women's weight categories, at: [world-games, asian-games, world-championship], count: 4 }
+  - id: olympic-record
+    label: Its Olympic record
+    counts: false
+    blurb: >
+      Wushu has never been on an Olympic programme. It has been at a Games
+      anyway.
+    events:
+      - { id: beijing2008, label: Beijing 2008 Wushu Tournament, at: [lapsed], note: "Held during the 2008 Games with IOC sanction, outside the programme, with medals that were not Olympic medals. Not a demonstration sport — that category had been discontinued after 1992." }
+      - { id: yog, label: Youth Olympic Games 2014, at: [lapsed], note: Contested at Nanjing. }
+  - id: elsewhere
+    label: The arts it was made from
+    counts: false
+    blurb: >
+      Traditional Chinese martial arts continue in hundreds of lineages that do
+      not compete under these rules and in many cases do not compete at all.
+    events:
+      - { id: traditional, label: Traditional styles, at: [federation-only], note: "Contested at some championships in separate traditional categories; practitioners dispute how much standardised wushu represents them." }

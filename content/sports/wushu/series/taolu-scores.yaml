@@ -1,0 +1,34 @@
+id: wushu-taolu-scores
+label: Taolu scores
+unit: points
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Taolu scores cannot form a series across the introduction of the difficulty
+  component, and the reason is the same one this site records for gymnastics.
+
+  Before *nandu*, a routine was marked holistically for quality and
+  completeness against a maximum. After it, an athlete declares prescribed
+  difficulty elements — jumps with rotation counts, and their landings — and is
+  scored on execution against that declaration plus an overall performance
+  mark. The number means a different thing on each side of the change, and the
+  maximum available is constructed differently.
+
+  Gymnastics made the equivalent move in 2006 with the open-ended Code of
+  Points and severed its own history. Wushu made it in 2003, and the effect on
+  the sport was the same in kind: competitive emphasis moved sharply towards
+  the elements that carried declared value.
+
+  There is a second obstacle that gymnastics does not have. Wushu's two
+  disciplines are not comparable with each other at all — a taolu score and a
+  sanda result are a judged performance mark and a fight outcome — so there is
+  no sport-level number to chart even within one era.
+segments: []
+breaks:
+  - at: 2003
+    caused_by: wushu-nandu-scoring
+    kind: scale-change
+    note: >
+      Declared difficulty replaces holistic marking. Scores before and after
+      are constructed differently and are not comparable.
+source: iwuf-rules

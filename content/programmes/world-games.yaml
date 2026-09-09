@@ -210,5 +210,5 @@ sports:
     held: [2025]
   - id: wushu
     label: Wushu
-    coverage: skeleton
+    coverage: deep
     held: [2025]

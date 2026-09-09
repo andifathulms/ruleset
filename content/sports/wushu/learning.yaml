@@ -1,0 +1,89 @@
+sport: wushu
+standing: editorial
+summary: >
+  Two sports with two different curves. Taolu is a gymnastic discipline that
+  must be started in childhood; sanda is a striking sport an adult can take up.
+  Both sit at the top of a national system that produces most of the winners.
+
+entry:
+  verdict: moderate
+  claim: Clubs exist worldwide, but competitive taolu is a childhood sport and you cannot start it at twenty.
+  why: >
+    Recreational wushu is widely available — Chinese community schools, martial
+    arts clubs and university societies teach it across most of the world — and
+    the equipment is a uniform and, eventually, a competition weapon.
+
+    But the two disciplines diverge immediately. **Sanda** is enterable as an
+    adult: it is a striking sport with throws, and someone with a combat
+    background can compete in a couple of years.
+
+    **Taolu** cannot realistically be started late. It requires gymnastic
+    flexibility, aerial rotation and landing control of a kind that is
+    developed in childhood or not at all, and the difficulty elements a
+    competitive routine now declares are beyond an adult beginner's reach. In
+    China the pathway runs through specialist sports schools from a young age.
+  evidence:
+    - { label: Kit to start, value: A uniform; weapons later, basis: observation }
+    - { label: Taolu, value: Requires a childhood gymnastic base, basis: rule, rule: wushu-nandu-scoring }
+    - { label: Sanda, value: Enterable as an adult, basis: observation }
+    - { label: Clubs, value: Widely available worldwide, basis: observation }
+    - { label: Time to a first competition, value: A year for sanda; years for taolu, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Declared aerial difficulty judged on landing, or a fight where the edge of the platform is a weapon.
+  why: >
+    **Taolu** at the top is a gymnastic discipline in martial dress. Since the
+    difficulty component was introduced, athletes declare jumps with high
+    rotation counts and prescribed landings, and a routine is marked on
+    delivering them cleanly on the first and only attempt, inside a time window,
+    with a weapon in hand for half the events. The failure modes are the same as
+    gymnastics' — a landing that travels, a rotation short of its count — and
+    there is no second run.
+
+    **Sanda** adds to an ordinary striking-and-throwing sport a spatial problem
+    nothing else here has. The platform is 8 metres square with no ropes, its
+    edge scores, and two exits in a round lose it. So a sanda fighter is
+    managing distance against an opponent and against a drop, and the best of
+    them use the edge deliberately.
+
+    Above both sits the Chinese system. Specialist sports schools, full-time
+    training from childhood and a very deep domestic field mean the world
+    standard is set by one country, and international competition is largely a
+    contest for the places China does not take.
+  evidence:
+    - label: Declared difficulty
+      value: Since 2003
+      basis: rule
+      rule: wushu-nandu-scoring
+      note: Prescribed jumps and rotations, marked on landing, one attempt.
+    - label: The platform edge scores
+      value: Two exits lose the round
+      basis: rule
+      rule: wushu-sanda-platform
+      note: A spatial threat no other striking sport has.
+    - label: State-built pathway
+      value: Since 1958
+      basis: rule
+      rule: wushu-state-codification
+      note: Specialist sports schools produce most of the world's elite taolu athletes.
+    - { label: Typical peak age, value: 19–27, basis: judgement }
+
+gap: >
+  Moderate to very high, and the sport is really two curves reported as one.
+
+  Sanda's shape is ordinary for a combat sport: accessible in adulthood, hard at
+  the top, with a distinctive spatial rule. Taolu's is gymnastics' shape — a
+  childhood entry window, a declared-difficulty scoring system, and a ceiling
+  set by aerial skill on a single attempt.
+
+  What they share is the institutional half. Wushu was designed by a state,
+  is taught through that state's specialist school system, and its elite
+  standard is set there. A country that wants to compete has to build a
+  comparable pathway or accept a ceiling, which is a more explicit version of
+  the concentration this site records for kabaddi in India and sepak takraw in
+  Thailand.
+
+shaped_by:
+  - wushu-nandu-scoring
+  - wushu-sanda-platform
