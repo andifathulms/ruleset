@@ -1,0 +1,87 @@
+sport: racquetball
+standing: editorial
+summary: >
+  Deliberately the easiest racket sport to have a real rally in, because almost
+  every way of losing a point was designed out — and genuinely hard at the top,
+  where a court with no boundaries becomes a geometry problem.
+
+entry:
+  verdict: very-low
+  claim: A lively ball, a short racquet, and no way to hit it out.
+  why: >
+    Racquetball was written to be immediately playable and it succeeded. There
+    is no tin to clear, no out line to stay under, and no side line — every
+    surface is in play, so a beginner's mishit is usually still a legal shot.
+    That removes the single most demoralising feature of learning squash or
+    tennis, which is losing rallies to the boundary rather than to an opponent.
+
+    The ball is lively and needs no warming up, the racquet is short and easy to
+    control, and the court is enclosed so nobody chases balls.
+
+    Two people can have a genuine rally within minutes. The only real barrier is
+    finding a court, which is now a bigger problem than it was.
+  evidence:
+    - { label: Players needed, value: "2", basis: observation }
+    - { label: Out of bounds, value: Effectively none, basis: rule, rule: racquetball-all-surfaces-live, note: A mishit is usually still a legal shot. }
+    - { label: Kit to start, value: Racquet, ball, eye protection, basis: observation }
+    - { label: Facility, value: A four-wall court — increasingly scarce, basis: judgement }
+    - { label: Time to a real rally, value: Minutes, basis: judgement }
+
+mastery:
+  verdict: high
+  claim: Six live surfaces, a ball that comes off all of them, and an opponent standing where you need to be.
+  why: >
+    Removing the boundaries does not simplify the elite game; it enlarges it.
+    With ceiling, back wall and both side walls live, the number of ways a ball
+    can arrive and be returned is far greater than in squash, and elite play is
+    substantially about controlling that geometry — the ceiling ball as a
+    defensive reset, the pinch shot into the front corner, the splat off the
+    side wall.
+
+    The physical demand is a repeated sprint-and-stop in a small box, with the
+    additional problem that both players want the centre of the court and
+    neither is separated from the other by anything. Court position is contested
+    physically in a way it is not in tennis or badminton.
+
+    Scoring raises the mental cost. Only the server scores, so a player can win
+    rallies for several minutes without the scoreboard moving, and the
+    discipline of continuing to play well through that is a real skill the
+    rally-scoring sports have removed from their athletes.
+
+    The ceiling is capped by the sport's decline: prize money is small, the
+    professional tour is thin, and courts are disappearing.
+  evidence:
+    - label: All surfaces live
+      value: Including the ceiling
+      basis: rule
+      rule: racquetball-all-surfaces-live
+      note: More shot geometry than any other wall sport here, not less.
+    - label: Side-out scoring
+      value: Only the server scores
+      basis: observation
+      note: Retained while squash, badminton, volleyball, table tennis and fistball all abandoned it.
+    - label: Hinders
+      value: Replayed or lost, at the referee's judgement
+      basis: observation
+      note: Both players share one unsegmented court.
+    - { label: Typical peak age, value: 24–33, basis: judgement }
+
+gap: >
+  Very low to high — and the sport to hold it against is squash, which this
+  site also covers, because the two answered the same questions in opposite
+  directions and got opposite outcomes.
+
+  Squash keeps its boundaries and demands precision from the first rally, which
+  makes it hard to begin. Racquetball removed the boundaries and is
+  immediately playable. On the second question, squash rewrote its scoring for
+  broadcast and campaigned for decades; it is on the 2028 Olympic programme.
+  Racquetball kept side-out scoring and is at the World Games.
+
+  It would be too neat to say the scoring decided it — squash's campaign was
+  long, well funded and about far more than points. But the pairing is the
+  cleanest natural experiment on this site in what a sport gains and loses by
+  making itself easy to start and declining to make itself easy to schedule.
+
+shaped_by:
+  - racquetball-all-surfaces-live
+  - racquetball-1950-invention

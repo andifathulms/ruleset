@@ -1,0 +1,126 @@
+sport: racquetball
+as_of: 2026-09
+edition: IRF Official Rules of Racquetball
+source: irf-rules
+standing: primary-named
+summary: >
+  Singles or doubles in a sealed court forty feet by twenty by twenty high.
+  Every surface including the ceiling is in play. The ball must reach the front
+  wall before bouncing twice, and that is very nearly the whole constraint.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Hit the ball so that it reaches the front wall before it bounces twice on
+      the floor, and so that your opponent cannot do the same. It may take any
+      route there — off the ceiling, off the back wall, off both side walls.
+
+      Because there is no tin and no out line, a shot cannot be too low or too
+      high. Almost the only way to lose a rally is to fail to reach the ball.
+    shaped_by: [racquetball-all-surfaces-live]
+
+  - id: field
+    label: The court
+    body: >
+      Forty feet long, twenty wide and twenty high, fully enclosed, with a
+      short line across the middle and a service zone in front of it.
+
+      All six surfaces are live. That is the sport's defining fact and it makes
+      the geometry unusually rich: a ceiling shot is a standard defensive
+      option, and a ball coming off the back wall is a normal attacking
+      opportunity rather than a lost cause.
+    facts:
+      - { label: Court, value: 40 × 20 × 20 ft }
+      - { label: Surfaces in play, value: All of them, including the ceiling }
+      - { label: Tin, value: None — the whole front wall is good }
+      - { label: Out line, value: None }
+    shaped_by: [racquetball-all-surfaces-live]
+
+  - id: equipment
+    label: Equipment
+    body: >
+      A short racquet — no more than twenty-two inches including the handle —
+      strung, and carried on a mandatory wrist tether so it cannot be released
+      into an opponent in a shared enclosed space.
+
+      A hollow rubber ball about two and a quarter inches across, considerably
+      livelier than a squash ball, which is why the game is fast and why it
+      needs no warming up to play.
+
+      **Lensed eye protection is compulsory.** A hard rubber ball travelling at
+      speed inside a sealed box with two people in it is a documented eye-injury
+      mechanism, and the sport made protection mandatory rather than
+      recommended.
+    facts:
+      - { label: Racquet, value: Up to 22 in, with a wrist tether }
+      - { label: Ball, value: Hollow rubber, about 2.25 in }
+      - { label: Eye protection, value: Compulsory }
+
+  - id: players
+    label: Players and officials
+    body: >
+      Singles, doubles, or cutthroat — an informal three-player game in which
+      the server plays the other two. Refereed matches use a referee and two
+      line judges who can be appealed to.
+    facts:
+      - { label: Formats, value: Singles, doubles, cutthroat }
+
+  - id: duration
+    label: Time
+    body: >
+      No clock. Games are played to 15 points, matches are the best of three,
+      and a deciding third game is played to 11.
+    facts:
+      - { label: Game, value: 15 points }
+      - { label: Deciding game, value: 11 points }
+      - { label: Match, value: Best of three }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Only the server can score. Winning a rally on serve adds a point; winning
+      one while receiving earns the serve and nothing else.
+
+      This is the older convention, and racquetball is one of very few sports on
+      this site still using it. Squash abandoned the equivalent for
+      point-a-rally scoring, and badminton, volleyball, table tennis and
+      fistball all did the same between 1999 and 2006 for broadcast reasons.
+      Racquetball did not follow, and matches retain the unpredictable length
+      that the rewrite was designed to remove.
+
+  - id: restarts
+    label: Serving
+    body: >
+      The server stands in the service zone, bounces the ball once, and strikes
+      it to the front wall. It must return past the short line before touching
+      the floor, and may touch at most one side wall on the way.
+
+      A serve that hits the ceiling, the back wall on the full, or two side
+      walls is a fault. Two faults lose the serve.
+    facts:
+      - { label: Serve, value: Bounce once, hit the front wall first }
+      - { label: Must land, value: Past the short line }
+      - { label: Faults allowed, value: Two }
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      The characteristic problem of the sport is that both players occupy the
+      same unsegmented court, so most of the rulebook is about getting in each
+      other's way.
+
+      A **hinder** is accidental interference and the rally is replayed. An
+      **avoidable hinder** is interference the player could have prevented, and
+      loses the rally outright. Distinguishing them is the referee's principal
+      job.
+
+      Also: carrying or double-hitting the ball, striking an opponent with the
+      ball on the way to the front wall, and playing without eye protection.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Two games. Because only the server scores, a game can turn on a long
+      sequence of side-outs in which neither player's total moves — a rhythm
+      that has almost disappeared from other racket sports.

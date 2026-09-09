@@ -1,0 +1,24 @@
+id: racquetball-scoring
+label: Points per match
+unit: points per match
+higher_is_better: true
+absence_kind: unpublished
+cannot_exist: >
+  No scoring series is entered for racquetball, and the reason is the sport's
+  most interesting negative fact: there is no break to draw, because the sport
+  never made the change that severed everybody else's numbers.
+
+  Between 1999 and 2006, volleyball, table tennis, badminton and fistball all
+  moved to rally scoring, and squash — racquetball's closest relative — made
+  the same move. Every one of them severed its own match statistics doing it.
+  Racquetball kept side-out scoring, in which only the server can score, so a
+  match today is counted the same way a match in 1979 was.
+
+  It is therefore one of very few sports on this site that could plausibly
+  hold a continuous statistical series across its whole governed history. The
+  figures have not been assembled from a cited source, so nothing is charted —
+  but the absence here is a gap in the record rather than a property of the
+  sport, and that distinction is worth marking.
+segments: []
+breaks: []
+source: irf-rules

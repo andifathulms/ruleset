@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: irf-rules
+  standing: primary-named
+  title: IRF Official Rules of Racquetball
+  publisher: International Racquetball Federation
+  kind: rulebook
+  url: https://www.internationalracquetball.com/
+
 - id: cmas-rules
   standing: primary-named
   title: CMAS Finswimming Rules

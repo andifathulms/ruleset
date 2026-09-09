@@ -166,8 +166,11 @@ sports:
       A different sport from Olympic weightlifting, and often mistaken for it.
   - id: racquetball
     label: Racquetball
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Every surface in play, including the ceiling; and it kept the scoring
+      squash abandoned.
   - id: roller-sports
     label: Roller sports
     coverage: skeleton

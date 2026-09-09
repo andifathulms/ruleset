@@ -1,0 +1,79 @@
+- id: racquetball-1950-invention
+  scope: { sport: racquetball, discipline: all }
+  date_adopted: 1950
+  date_effective: 1950
+  status: adopted
+  governing_body: Joe Sobek, later the IRF
+  what_changed: >
+    Joe Sobek added a short strung racquet to the existing game of handball,
+    played in the same enclosed four-wall court, and wrote rules for it. He
+    called it paddle rackets; the name racquetball followed.
+
+    The design decision was to change the implement and keep the court. Because
+    handball courts already existed in YMCAs across the United States, the new
+    sport needed no facilities built for it — which is the single largest
+    reason it spread as fast as it did through the 1960s and 1970s.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      Sobek wanted a game that was easier on the hands than handball and faster
+      to learn than squash, playable in courts that were already there.
+  citation:
+    source: irf-rules
+    edition: IRF Official Rules of Racquetball
+    missing: true
+
+- id: racquetball-all-surfaces-live
+  scope: { sport: racquetball, discipline: all }
+  date_adopted: 1950
+  date_effective: 1950
+  status: adopted
+  governing_body: Joe Sobek, later the IRF
+  what_changed: >
+    Every surface of the enclosed court is in play: front wall, side walls, back
+    wall and ceiling. There is no tin at the base of the front wall and no out
+    line above it — the whole front wall is good.
+
+    Squash, the closest comparison, is largely defined by its boundaries: a tin
+    the ball must clear, an out line it must stay below, and side lines.
+    Racquetball deleted nearly all of them. A rally ends when the ball bounces
+    twice on the floor or fails to reach the front wall, and almost nothing
+    else.
+  cause_primary: participation and access
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Removing boundaries removes the commonest way a beginner loses a rally,
+      which was the point: the sport was written to be immediately playable.
+  citation:
+    source: irf-rules
+    edition: IRF Official Rules of Racquetball, the court
+    missing: true
+
+- id: racquetball-1979-irf
+  scope: { sport: racquetball, discipline: all }
+  date_adopted: 1979
+  date_effective: 1979
+  status: adopted
+  governing_body: International Racquetball Federation
+  what_changed: >
+    The International Racquetball Federation was formed, taking a sport that had
+    grown explosively as an American participation activity and giving it an
+    international competitive structure — world championships, and eventually
+    places on the Pan American Games and World Games programmes.
+
+    It arrived at the end of the boom rather than during it. American
+    participation peaked around this period and then declined sharply as
+    commercial clubs converted courts to gym floor space, so the federation
+    spent its first decades governing a sport that was shrinking in the country
+    that invented it.
+  cause_primary: fairness and eligibility
+  cause_secondary: commercial
+  trigger:
+    description: >
+      National associations existed in several countries with no body to hold
+      world championships between them.
+  citation:
+    source: irf-rules
+    edition: IRF statutes
+    missing: true

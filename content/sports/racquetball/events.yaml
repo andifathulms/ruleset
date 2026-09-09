@@ -1,0 +1,41 @@
+sport: racquetball
+as_of: 2026-09
+source: irf-rules
+standing: primary-named
+summary: >
+  No Olympic events. Racquetball is on the World Games and Pan American Games
+  programmes and holds its own world championships — and its nearest relative,
+  squash, joins the Olympic programme in 2028.
+disciplines:
+  - id: racquetball
+    label: Racquetball
+    blurb: Four-wall, in a sealed 40 × 20 × 20 ft court.
+    events:
+      - { id: men-singles, label: Men's singles, at: [world-games, world-championship] }
+      - { id: women-singles, label: Women's singles, at: [world-games, world-championship] }
+      - { id: men-doubles, label: Men's doubles, at: [world-championship] }
+      - { id: women-doubles, label: Women's doubles, at: [world-championship] }
+      - { id: mixed, label: Mixed doubles, at: [world-championship] }
+  - id: continental
+    label: Continental programmes
+    counts: false
+    blurb: >
+      Racquetball's strongest institutional position is in the Americas, where
+      it is a Pan American Games sport.
+    events:
+      - { id: panam, label: Pan American Games racquetball, at: [federation-only], note: Contested since 1995, and the sport's largest multi-sport platform. }
+  - id: variants
+    label: Other forms
+    counts: false
+    events:
+      - { id: onewall, label: One-wall and three-wall, at: [federation-only], note: Outdoor forms played against a single wall or in a three-sided court. }
+      - { id: cutthroat, label: Cutthroat, at: [federation-only], note: "Three players; the server plays the other two. Informal, and widely played." }
+  - id: relatives
+    label: The sports it sits between
+    counts: false
+    blurb: >
+      Racquetball was made by adding a racquet to handball, in handball's own
+      court, and is constantly compared to squash.
+    events:
+      - { id: handball, label: American handball, at: [federation-only], note: The sport it was derived from, played with the hands in the same court. }
+      - { id: squash, label: Squash, at: [olympic], note: "Boundaries, a tin, a dead ball and rally scoring — and on the 2028 Olympic programme." }
