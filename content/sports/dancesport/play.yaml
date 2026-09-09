@@ -1,0 +1,124 @@
+sport: dancesport
+as_of: 2026-09
+edition: WDSF Competition Rules
+source: wdsf-rules
+standing: primary-named
+summary: >
+  Couples dance five dances in a programme — Standard or Latin — and are judged
+  on technical quality, movement to music, partnering skill and choreography.
+  Several couples are on the floor at once, and the panel compares them
+  directly.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Be marked higher than the other couples across all five dances of the
+      programme. A couple's result is an aggregate: excellence in one dance
+      does not carry a round, and a weak dance cannot be hidden.
+
+      What makes the sport unusual is the comparison. In gymnastics, diving and
+      figure skating a competitor performs alone and is scored against a
+      standard. Here, six or more couples perform simultaneously and the judges
+      are watching all of them.
+    facts:
+      - { label: Dances per programme, value: "5" }
+      - { label: On the floor at once, value: Six or more couples }
+
+  - id: field
+    label: The floor
+    body: >
+      A sprung competition floor, with the panel positioned around it. There are
+      no lanes, no marked zones and no assigned space — couples travel around
+      the floor, and in the Standard programme they travel continuously in a
+      counter-clockwise line of dance.
+
+      Navigating a crowded floor without collision is therefore part of the
+      competition, and a couple that is repeatedly blocked will be seen less by
+      the judges.
+    facts:
+      - { label: Floor, value: Sprung, unmarked }
+      - { label: Line of dance, value: Counter-clockwise, in Standard }
+      - { label: Assigned space, value: None }
+
+  - id: equipment
+    label: Costume and shoes
+    body: >
+      Shoes are functional equipment — suede-soled, with a heel height and
+      construction matched to the programme — and costume is regulated by rule
+      rather than left to taste, with detailed provisions on what may be worn in
+      each age and level category.
+
+      Costume regulation exists because appearance is part of what is being
+      judged, so the federation has to draw a line between presentation as a
+      component of performance and expenditure as a competitive advantage. It is
+      the same problem equestrian and gymnastics have, in a sharper form.
+    facts:
+      - { label: Shoes, value: Suede-soled, heel by programme }
+      - { label: Costume, value: Regulated by category }
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      A couple is the competitive unit and is indivisible: partners are
+      registered together, ranked together, and a partnership that splits
+      starts again.
+
+      A panel of judges marks the field. Under the WDSF's absolute system each
+      judge awards marks against defined components; under the older ordinal
+      method still used elsewhere in the sport, judges place couples against
+      each other rather than scoring them.
+    facts:
+      - { label: Competitive unit, value: The couple }
+      - { label: Judging, value: Component marks, in WDSF competition }
+    shaped_by: [dancesport-absolute-judging]
+
+  - id: duration
+    label: Time
+    body: >
+      Each dance runs to a fixed length of music — roughly a minute and a half
+      to two minutes — and a round is five of them in succession with short
+      breaks. A championship runs through qualifying rounds to a final of six
+      couples.
+    facts:
+      - { label: Each dance, value: About 1.5 to 2 min }
+      - { label: Final, value: Six couples }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      In WDSF competition, marks against four components: technical quality,
+      movement to music, partnering skill, and choreography and presentation.
+      Marks across the five dances are aggregated into a placing.
+
+      The older method — used for decades and still used in parts of the sport
+      — asked judges to place couples rather than score them, and resolved the
+      placements by a counting rule. A result under that system was a statement
+      about a field rather than about a performance, and could not say how far
+      apart two couples were.
+    shaped_by: [dancesport-absolute-judging]
+
+  - id: restarts
+    label: Rounds
+    body: >
+      Couples are called on in heats, dance the programme, and are recalled to
+      the next round. There is no restart within a dance: a fall, a collision or
+      a musical error is danced through, and the judges saw it.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Lifts are prohibited in the standard competitive programmes — a partner's
+      feet leaving the floor with assistance is an offence, which separates
+      competitive ballroom from show dance, where lifts are the point.
+
+      Also: costume outside the category's regulations, wrong dance for the
+      music, and deliberate interference with another couple on the floor.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The couple with the best aggregate across the programme. Because six
+      couples dance a final simultaneously and are marked by a full panel, the
+      result rests on many judges' comparative readings of the same crowded
+      floor.

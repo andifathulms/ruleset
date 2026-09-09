@@ -27,6 +27,7 @@
     - { id: football, label: Football, colour: pitch, members: [football] }
     - { id: gymnastics, label: Gymnastics, colour: gold, members: [gymnastics] }
     - { id: judo, label: Judo, colour: clay, members: [judo] }
+    - { id: dancesport, label: DanceSport, colour: gold, members: [dancesport] }
     - { id: finswimming, label: Finswimming, colour: pool, members: [finswimming] }
     - { id: fistball, label: Fistball, colour: clay, members: [fistball] }
     - { id: floorball, label: Floorball, colour: pitch, members: [floorball] }
@@ -108,7 +109,7 @@
       label: Outside this taxonomy
       colour: unmarked
       members: [judo, taekwondo, boxing, modern-pentathlon, fencing, wrestling,
-                karate, breaking, tug-of-war, sumo]
+                karate, breaking, tug-of-war, sumo, dancesport]
 
 - id: adjudication
   label: Adjudication
@@ -127,7 +128,7 @@
     - id: judged
       label: Judged
       colour: gold
-      members: [gymnastics, equestrian, skateboarding, surfing, breaking]
+      members: [gymnastics, equestrian, skateboarding, surfing, breaking, dancesport]
     - id: decided-by-score
       label: Decided by score
       colour: pitch

@@ -1,0 +1,41 @@
+sport: dancesport
+as_of: 2026-09
+source: wdsf-rules
+standing: primary-named
+summary: >
+  No Olympic events for ballroom or Latin. DanceSport is on the World Games
+  programme and holds world championships across both programmes — and the same
+  federation governed breaking at the 2024 Olympics, which is not on the 2028
+  programme either.
+disciplines:
+  - id: standard
+    label: Standard
+    blurb: Waltz, tango, Viennese waltz, slow foxtrot, quickstep.
+    events:
+      - { id: std-couples, label: Standard, couples, at: [world-games, world-championship] }
+      - { id: std-formation, label: Standard formation, at: [world-championship], note: Teams of eight couples dancing a choreographed routine together. }
+  - id: latin
+    label: Latin
+    blurb: Samba, cha-cha-cha, rumba, paso doble, jive.
+    events:
+      - { id: lat-couples, label: Latin, couples, at: [world-games, world-championship] }
+      - { id: lat-formation, label: Latin formation, at: [world-championship] }
+  - id: breaking
+    label: Breaking
+    counts: false
+    blurb: >
+      Governed by the WDSF since 2017, and the only discipline under this
+      federation to have reached an Olympic Games. Covered on this site as its
+      own sport.
+    events:
+      - { id: breaking-olympic, label: Breaking, at: [lapsed], note: "Contested at Paris 2024 and not on the 2028 programme. The federation's newest discipline got the place its oldest ones never have." }
+  - id: elsewhere
+    label: Danced competitively, governed elsewhere
+    counts: false
+    blurb: >
+      Competitive dance is institutionally divided, by style and by
+      amateur-professional status, more than almost anything on this site.
+    events:
+      - { id: wdc, label: Professional ballroom and Latin, at: [federation-only], note: "Governed by the World Dance Council, a separate body; the professional side of the same dances." }
+      - { id: rocknroll, label: Rock'n'roll and boogie-woogie, at: [world-games, federation-only], note: Governed by the World Rock'n'Roll Confederation. }
+      - { id: show, label: Show dance and other styles, at: [world-championship], note: Contested under WDSF rules with lifts permitted, unlike the standard programmes. }

@@ -33,21 +33,21 @@ Three layers, marked as such everywhere:
   been entered; every other column is hatched rather than blank, because
   "nobody checked" and "absent" are not the same claim and must not be drawn
   the same way.
-- **Deep** — forty-eight sports: badminton, athletics, football, gymnastics,
+- **Deep** — fifty-three sports: badminton, athletics, football, gymnastics,
   swimming, table tennis, basketball, cycling, judo, archery, volleyball,
   tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo,
   boxing, equestrian, fencing, rowing, sailing, golf, sport climbing, wrestling,
   shooting, hockey, triathlon, squash, surfing, lacrosse, breaking, rugby,
   handball, canoeing, skateboarding, karate, softball, flag football, korfball,
   flying disc, powerlifting, tug of war, fistball, orienteering, sumo,
-  floorball and lifesaving.
+  floorball, lifesaving, kabaddi, sepak takraw, finswimming, racquetball and
+  dancesport.
 
-  The first thirty-nine are every sport on the 2028 summer programme. The other
-  nine are World Games sports: eight that have never been Olympic, and tug of
+  The first thirty-nine are every sport on the 2028 summer programme. Twelve
+  are World Games sports — eleven that have never been Olympic, plus tug of
   war, which was removed in the 1920s and carried on without the Games for a
-  century. Thirty-one more sit in the skeleton — seven that lapsed from the
-  Olympic programme before 1940, and twenty-four contested at the Asian or
-  World Games and not yet researched.
+  century — and two, kabaddi and sepak takraw, are contested at the Asian Games
+  and nowhere else. Twenty-six more sit in the skeleton.
 
 The first five were one per family, because a "rule" is a structurally
 different object in each: racket sports legislate scoring, measured sports
@@ -185,6 +185,31 @@ what each proves rather than for coverage:
   Competition technique must reflect current rescue practice, so when
   resuscitation guidance changes the sport changes, and a method that was fast
   and correct becomes a disqualification.
+
+And the fifth wave, which pushed past the World Games into the Asian ones:
+
+- **Kabaddi** is the only sport here whose central rule regulates breathing.
+  The raider chants continuously and the raid ends when the chant does — judged
+  by ear, over a crowd. Its 2014 raid clock was written for a domestic
+  television league and adopted internationally afterwards, which is the
+  clearest case on this site of a broadcaster writing a sport's laws.
+- **Sepak takraw** is volleyball with two rules changed: no hands, and one
+  player may take all three touches. The first raises the technical floor
+  enormously, the second raises the ceiling. Its name is a compromise between
+  the Malay and Thai words, adopted so neither country's term won.
+- **Finswimming** is the third answer to the equipment-and-records question.
+  Swimming banned the supersuits and kept the records; athletics redesigned the
+  javelin and reset the book; finswimming can do neither, because an athlete
+  without a fin is not in the sport — so it caps the blade by dimension and
+  splits the book by fin type.
+- **Racquetball and squash** are the site's cleanest natural experiment.
+  Racquetball deleted its boundaries and is trivially easy to start; squash kept
+  them. Squash rewrote its scoring for broadcast and is on the 2028 Olympic
+  programme; racquetball kept side-out scoring and is at the World Games.
+- **DanceSport** held IOC recognition for nearly thirty years without a place,
+  then converted it into one — for breaking, in 2024, which it had governed for
+  three years and which was dropped for 2028. Its own disciplines have never
+  been on a programme.
 
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause

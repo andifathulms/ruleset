@@ -76,8 +76,11 @@ sports:
     held: [2025]
   - id: dancesport
     label: DanceSport
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Its federation governed breaking at the 2024 Olympics; ballroom has
+      never been on the programme.
   - id: duathlon
     label: Duathlon
     coverage: skeleton

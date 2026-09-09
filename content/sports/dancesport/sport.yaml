@@ -1,0 +1,21 @@
+id: dancesport
+label: DanceSport
+tagline: "Its federation got breaking into the Olympics in 2024. Ballroom, the thing it actually governs, has never been on the programme."
+governing_body: World DanceSport Federation
+founded: >
+  Governed internationally since 1957, as the International Council of Amateur
+  Dancers, renamed the International DanceSport Federation in 1990 and the
+  World DanceSport Federation in 2011.
+coverage: deep
+family_colour: gold
+classification:
+  official: dancesport
+  game-category: outside-taxonomy
+  adjudication: judged
+summary: >
+  Competitive ballroom and Latin dancing, contested by couples, and judged in a
+  way nothing else on this site is: six or more couples dance at the same time
+  on the same floor while a panel compares them directly. It spent decades
+  seeking Olympic inclusion, was given governance of breaking, and watched its
+  newest discipline reach the 2024 Games and be dropped for 2028 while ballroom
+  itself never got there at all.

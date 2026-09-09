@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: wdsf-rules
+  standing: primary-named
+  title: WDSF Competition Rules
+  publisher: World DanceSport Federation
+  kind: rulebook
+  url: https://www.worlddancesport.org/
+
 - id: irf-rules
   standing: primary-named
   title: IRF Official Rules of Racquetball

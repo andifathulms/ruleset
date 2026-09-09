@@ -1,0 +1,37 @@
+id: dancesport-scores
+label: Competition scores
+unit: points
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  DanceSport's scores cannot form a series, and the reason is the same one this
+  site records for gymnastics — arrived at from a stranger starting point.
+
+  For most of the sport's history, judges did not score couples at all. They
+  **placed** them, one against another, and the placements were resolved by a
+  counting rule borrowed from figure skating. A result under that system was a
+  statement about a particular field on a particular floor: it could say a
+  couple was third, and could not say by how much, or how they would compare
+  with a couple in another final.
+
+  The WDSF's absolute judging system replaced this in its own competitions with
+  marks against defined components. That is a scale change in the strictest
+  sense — before it, there was no scale, only an order — so nothing on either
+  side of it can be placed on one axis.
+
+  Gymnastics moved from a closed ten-point scale to an open-ended one in 2006
+  and severed its own history. DanceSport moved from no scale at all to a
+  scale, which is the same severance with even less on the earlier side of it.
+
+  There is a third obstacle. Judging remains split between federations, so two
+  couples of comparable standing may be marked under different systems by
+  different bodies in the same season.
+segments: []
+breaks:
+  - at: 2013
+    caused_by: dancesport-absolute-judging
+    kind: scale-change
+    note: >
+      Ordinal placement replaced by component marks. Before the change there
+      was no scale to compare against, only an order within a field.
+source: wdsf-rules

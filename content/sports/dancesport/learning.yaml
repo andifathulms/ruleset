@@ -1,0 +1,89 @@
+sport: dancesport
+standing: editorial
+summary: >
+  A social class in any town gets you started, and a competitive career depends
+  on finding one specific other person and staying with them — which is a
+  constraint no other sport on this site puts on an athlete.
+
+entry:
+  verdict: low
+  claim: Ballroom classes exist nearly everywhere, and they are the sport's actual entry level.
+  why: >
+    Dancesport has the broadest amateur base of any sport covered here that
+    isn't played with a ball. Social ballroom and Latin classes run in
+    community halls, universities and studios across most of the world, teach
+    the same dances the sport contests, and welcome complete beginners of any
+    age.
+
+    The equipment is shoes. The facility is a room with a floor. There is no
+    contact risk, no fitness prerequisite to start, and the first competitive
+    levels are graded so that beginners compete against beginners.
+
+    What holds it at low rather than very low is the partner. You cannot start
+    competing alone, and finding someone at a compatible level who wants the
+    same commitment is a real barrier that has nothing to do with dancing.
+  evidence:
+    - { label: Competitive unit, value: A couple, basis: rule, rule: dancesport-1957-federation, note: You cannot enter alone. }
+    - { label: Kit to start, value: Shoes, basis: observation }
+    - { label: Facility, value: A hall with a floor, basis: observation }
+    - { label: Classes, value: Widely available worldwide, basis: observation }
+    - { label: Time to a first competition, value: Months, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Five dances at championship standard, in a partnership that must survive years.
+  why: >
+    A finalist must be excellent in five distinct dances with different rhythms,
+    postures and technical demands, in one programme, on the same evening.
+    Nothing else on this site asks for five disciplines at once except the
+    combined events in athletics and modern pentathlon.
+
+    The judged component is unusually hard to train against because of how the
+    sport is watched. Six couples are on the floor simultaneously, so being seen
+    is part of performing — floorcraft, the skill of navigating a crowded floor
+    at speed without collision while dancing full out, is real and largely
+    invisible to a spectator.
+
+    And there is the partnership. A couple is the competitive unit, ranked
+    together, and building one takes years of shared training. When a
+    partnership ends, both athletes effectively restart. No other sport covered
+    here makes an athlete's career contingent on one other person's continued
+    availability in quite this way — equestrian's rider and horse is the closest
+    parallel, and a horse does not leave.
+
+    Costume, grooming and presentation are also judged components, which adds a
+    cost dimension to the ceiling that the rules can constrain but not remove.
+  evidence:
+    - label: Five dances per programme
+      value: Standard or Latin
+      basis: rule
+      rule: dancesport-1957-federation
+      note: A weak dance cannot be hidden by a strong one.
+    - label: Judged on components
+      value: Since the WDSF's absolute system
+      basis: rule
+      rule: dancesport-absolute-judging
+      note: Replaced ordinal placement, which scored a field rather than a performance.
+    - { label: Couples on the floor at once, value: Six or more, basis: observation, note: Being seen is part of performing. }
+    - { label: Typical peak age, value: 25–35, basis: judgement }
+
+gap: >
+  Low to very high, and the distinctive feature is that the ceiling is partly
+  social rather than physical.
+
+  Every other sport here asks an athlete to develop capacities in themselves. This
+  one asks that too, and then makes the result depend on a second person's
+  technique, commitment, availability and willingness to keep going. Partnerships
+  end for reasons that have nothing to do with dancing, and when they do, two
+  careers reset at once.
+
+  The sport is also the site's clearest case of the "is it a sport" question
+  being institutionally consequential rather than merely rhetorical. The
+  federation renamed itself around the word, restructured its governance to look
+  like an Olympic federation, and replaced a judging system that produced
+  results a spectator could not read — all in pursuit of a place it has still
+  not been given.
+
+shaped_by:
+  - dancesport-1957-federation
+  - dancesport-absolute-judging

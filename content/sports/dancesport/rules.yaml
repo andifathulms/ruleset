@@ -1,0 +1,118 @@
+- id: dancesport-1957-federation
+  scope: { sport: dancesport, discipline: all }
+  date_adopted: 1957
+  date_effective: 1957
+  status: adopted
+  governing_body: International Council of Amateur Dancers
+  what_changed: >
+    An international federation was formed for amateur competitive dancing,
+    fixing the two competitive programmes the sport still contests: **Standard**
+    — waltz, tango, Viennese waltz, slow foxtrot and quickstep — and **Latin** —
+    samba, cha-cha-cha, rumba, paso doble and jive.
+
+    Five dances in each, danced in sequence, with a couple's placing determined
+    across all five rather than in any one. That structure is the sport, and it
+    has been stable ever since.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Competitive ballroom had developed in Britain and spread across Europe
+      with national bodies using different dance lists and different judging
+      conventions.
+  citation:
+    source: wdsf-rules
+    edition: WDSF Competition Rules
+    missing: true
+
+- id: dancesport-1997-ioc-recognition
+  scope: { sport: dancesport, discipline: all }
+  date_adopted: 1997
+  date_effective: 1997
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    The federation received IOC recognition, which is the step before
+    candidacy, and it renamed itself around the word "sport" — DanceSport — as
+    part of the same effort.
+
+    Recognition has now been held for nearly three decades without producing an
+    Olympic place for the sport that sought it.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The federation reorganised itself to meet the criteria the Olympic
+      movement applies — anti-doping compliance, athlete eligibility rules, and
+      a governance structure resembling other international federations.
+  citation:
+    source: wdsf-rules
+    edition: IOC recognition, 1997
+    missing: true
+
+- id: dancesport-absolute-judging
+  scope: { sport: dancesport, discipline: all }
+  date_adopted: 2013
+  date_effective: 2013
+  status: adopted
+  governing_body: World DanceSport Federation
+  what_changed: >
+    The WDSF introduced an absolute judging system, in which judges award marks
+    against defined components — technical quality, movement to music,
+    partnering skill, and choreography and presentation — replacing, in its own
+    competitions, the ordinal placement method the sport had used for decades.
+
+    Under the old method, borrowed from figure skating, a judge did not score a
+    couple at all: they placed them against the other couples on the floor, and
+    the placements were resolved by a counting rule. A result was therefore a
+    statement about a field, not about a performance.
+
+    Moving to component marks changed what a score is, which means results
+    before and after are on incompatible scales. Gymnastics did the same thing
+    in 2006 with the open-ended Code of Points, and this site records both as
+    the same kind of severance.
+  cause_primary: fairness and eligibility
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Ordinal placement produced results that were hard to explain to a
+      spectator and that could not express how far apart two couples were. A
+      federation seeking Olympic inclusion needed a scoring system that looked
+      like the ones already on the programme.
+  citation:
+    source: wdsf-rules
+    edition: WDSF Judging System, competition rules
+    missing: true
+  comparability_break: dancesport-scores
+
+- id: dancesport-breaking-olympic
+  scope: { sport: dancesport, discipline: breaking }
+  date_adopted: 2020
+  date_effective: 2024
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Breaking was added to the Paris 2024 Olympic programme under the governance
+    of the World DanceSport Federation, and was not included for 2028.
+
+    The federation's mandate over breaking came from its existing Olympic
+    recognition rather than from any historical connection to the dance: a
+    ballroom body was the available route to admission for a street form it did
+    not create. So the discipline the WDSF had governed for three years reached
+    the Games, and the disciplines it had governed since 1957 did not.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Paris organisers sought a young, urban, broadcast-friendly addition, and
+      breaking needed a recognised federation to be admitted under. The WDSF
+      had recognition and breaking did not.
+    also_said: >
+      Parts of the breaking community disputed whether a ballroom federation
+      should govern the form at all. That argument is recorded on this site's
+      breaking pages; from dancesport's side, the fact worth recording is that
+      its recognition was the asset that mattered, and it did not convert into
+      a place for its own disciplines.
+  citation:
+    source: wdsf-rules
+    edition: IOC Session decisions, 2020 and 2023
+    missing: true
