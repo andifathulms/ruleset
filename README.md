@@ -33,18 +33,20 @@ Three layers, marked as such everywhere:
   been entered; every other column is hatched rather than blank, because
   "nobody checked" and "absent" are not the same claim and must not be drawn
   the same way.
-- **Deep** — thirty-nine sports: badminton, athletics, football, gymnastics,
+- **Deep** — forty-three sports: badminton, athletics, football, gymnastics,
   swimming, table tennis, basketball, cycling, judo, archery, volleyball,
   tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo,
   boxing, equestrian, fencing, rowing, sailing, golf, sport climbing, wrestling,
   shooting, hockey, triathlon, squash, surfing, lacrosse, breaking, rugby,
-  handball, canoeing, skateboarding, karate, softball and flag football.
+  handball, canoeing, skateboarding, karate, softball, flag football, korfball,
+  flying disc, powerlifting and tug of war.
 
-  That is every sport on the 2028 summer programme. Forty more sit in the
-  skeleton: eight that lapsed from the Olympic programme before 1940, and
-  thirty-two — kabaddi, sepak takraw, wushu, korfball, dragon boat, esports
-  and the rest — that have never been on it and are contested at the Asian or
-  World Games instead.
+  The first thirty-nine are every sport on the 2028 summer programme. The last
+  four are the first sports researched here that are not on it: three that have
+  never been Olympic and one that was removed in the 1920s and carried on
+  without the Games for a century. Thirty-six more sit in the skeleton — seven
+  that lapsed from the Olympic programme before 1940, and twenty-nine that are
+  contested at the Asian or World Games instead.
 
 The first five were one per family, because a "rule" is a structurally
 different object in each: racket sports legislate scoring, measured sports
@@ -156,9 +158,10 @@ from this site's own data rather than a published taxonomy. It groups sports by
 how they hold their place, and it produced the most surprising number here:
 **eighteen of the thirty-seven sports on the 2028 programme have been removed
 from it and brought back at least once**, accounting for 96 of the 201 rule
-changes. Two of its six lanes are empty and stay empty — this site has
-researched thirty-nine sports and every one of them is Olympic, which is a fact
-about the coverage and belongs on the board.
+changes. Its two non-Olympic lanes were empty when the lens was built, because
+every sport researched here was an Olympic one — an honest fact about the
+coverage rather than a defect in the lens. Adding korfball, flying disc,
+powerlifting and tug of war filled them, which is what those four were for.
 
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause

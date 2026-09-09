@@ -1,0 +1,118 @@
+sport: tug-of-war
+as_of: 2026-09
+edition: TWIF Rules of Tug of War
+source: twif-rules
+standing: primary-named
+summary: >
+  Eight a side on a rope, pulling to move the opposition four metres. Best of
+  three ends, and teams are entered by their combined weight rather than by
+  anyone's individual weight.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Pull the opposing team until the mark nearest them passes the centre
+      line — four metres of rope. There is no points system, no time limit
+      inside an end, and no partial credit: the end is won outright or not at
+      all.
+    facts:
+      - { label: Distance to win an end, value: 4 m }
+      - { label: Ends, value: Best of three }
+
+  - id: field
+    label: The ground
+    body: >
+      Outdoors on grass, or indoors on a rubber mat with a fixed footing. The
+      two surfaces are effectively two disciplines: outdoors the boot's grip in
+      turf is a large part of the contest, and indoors the mat standardises it
+      so that pulling technique dominates.
+
+      The rope is marked at the centre and four metres either side, with the
+      centre mark set over a line on the ground at the start.
+    facts:
+      - { label: Surfaces, value: Grass outdoors, mat indoors }
+      - { label: Rope marks, value: Centre, and 4 m either side }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      A rope of at least 33.5 metres, between 10 and 12.5 centimetres in
+      circumference, with no knots or loops of any kind along it.
+
+      Boots may have a reinforced sole and heel and nothing that projects
+      beyond or beneath the sole. This is a rule with an unusually well
+      documented origin: at the 1908 Games the United States protested against
+      the heavy duty boots worn by a British police team, and lost.
+    facts:
+      - { label: Rope length, value: At least 33.5 m }
+      - { label: Rope circumference, value: 10–12.5 cm }
+      - { label: Knots or loops, value: Prohibited }
+      - { label: Boots, value: Reinforced sole and heel; nothing projecting }
+    shaped_by: [tow-1908-boots-dispute]
+
+  - id: players
+    label: Teams and officials
+    body: >
+      Eight per team, of whom the last is the anchor — the only player
+      permitted to wrap the rope around their body, passing it under one arm
+      and across the back.
+
+      Teams are entered in classes by their combined weight, not by individual
+      weight. A 640 kg team may be eight lifters of 80 kg or a mix of heavier
+      and lighter people; the constraint is the sum, so selection is an
+      arithmetic problem about how to distribute mass across eight bodies.
+    facts:
+      - { label: Per team, value: "8" }
+      - { label: Anchor, value: May wrap the rope around the body }
+      - { label: Classification, value: By combined team weight }
+    shaped_by: [tow-1960-twif-founded]
+
+  - id: duration
+    label: Time
+    body: >
+      No fixed duration. An end lasts until four metres have been pulled or a
+      team is disqualified, and elite ends between matched teams can last
+      several minutes of continuous maximal effort — one of the longest
+      sustained all-out exertions in any sport.
+    facts:
+      - { label: End length, value: Until 4 m is pulled }
+      - { label: Between ends, value: A short rest, and ends are swapped }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Ends, not points. A match is the best of three, and there is nothing else
+      to record — no margin, no time, no aggregate. Two sides can be separated
+      by four metres or by four centimetres of eventual movement and the result
+      is written down identically.
+
+  - id: restarts
+    label: Starting
+    body: >
+      The judge brings both teams to "pick up the rope", then "take the
+      strain", checks the centre mark is over the line, and calls "pull".
+      Moving the rope before the call is an offence, so the start is a
+      controlled, adjudicated moment rather than a race to react.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      The characteristic offences are all about converting the pull into
+      something other than pulling.
+
+      **Sitting** — a deliberate drop to the ground to anchor. **Rowing** —
+      repeatedly sitting and rising to jerk the rope. **Locking** — passing the
+      rope under an arm or otherwise fixing it to the body, permitted only for
+      the anchor. **Leaning on the ground** with any part of the body other
+      than the feet. **Propping** — resting an arm or elbow on the leg.
+
+      Two cautions in an end means disqualification from it. The bulk of the
+      rulebook is devoted to defining postures, because a sport this simple can
+      only be corrupted through the body.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Two ends. Teams change ends between pulls, so the ground itself cannot
+      decide a match.

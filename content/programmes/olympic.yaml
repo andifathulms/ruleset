@@ -344,7 +344,7 @@ sports:
 
   - id: tug-of-war
     label: Tug of war
-    coverage: skeleton
+    coverage: deep
     governing_body: TWIF
     note: Contested at five consecutive Games and never since.
     held: [1900, 1904, 1908, 1912, 1920]

@@ -30,6 +30,7 @@
     - { id: flying-disc, label: Flying disc, colour: pitch, members: [flying-disc] }
     - { id: korfball, label: Korfball, colour: pitch, members: [korfball] }
     - { id: powerlifting, label: Powerlifting, colour: pool, members: [powerlifting] }
+    - { id: tug-of-war, label: Tug of war, colour: pool, members: [tug-of-war] }
     - { id: modern-pentathlon, label: Modern pentathlon, colour: gold, members: [modern-pentathlon] }
     - { id: table-tennis, label: Table tennis, colour: clay, members: [table-tennis] }
     - { id: taekwondo, label: Taekwondo, colour: clay, members: [taekwondo] }
@@ -96,7 +97,7 @@
       label: Outside this taxonomy
       colour: unmarked
       members: [judo, taekwondo, boxing, modern-pentathlon, fencing, wrestling,
-                karate, breaking]
+                karate, breaking, tug-of-war]
 
 - id: adjudication
   label: Adjudication
@@ -121,7 +122,7 @@
       colour: pitch
       members: [football, badminton, table-tennis, tennis, volleyball, basketball,
                 cricket, baseball, hockey, handball, rugby, softball, lacrosse,
-                squash, flag-football, korfball]
+                squash, flag-football, korfball, tug-of-war]
     - id: combat
       label: Combat
       colour: clay
@@ -139,9 +140,12 @@
 # from a published taxonomy: the groups are computed from content/programmes,
 # and the members below are that computation written down.
 #
-# Two of its lanes are empty. That is the finding, not a defect — this site has
-# researched thirty-nine sports and every one of them is Olympic, so the lanes
-# for sports contested only away from the Games have nothing on them.
+# Both of the non-Olympic lanes now carry researched sports: tug of war, which
+# was removed from the programme in the 1920s and built its competitive
+# structure afterwards, and korfball, flying disc and powerlifting, which have
+# never been on it. Until the World Games sports were added, those lanes were
+# empty — the emptiness was a fact about this site's coverage, and filling
+# them was the point of covering them.
 - id: standing
   label: Standing
   blurb: >

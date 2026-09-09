@@ -1,0 +1,121 @@
+- id: tow-1900-olympic-entry
+  scope: { sport: tug-of-war, discipline: all }
+  date_adopted: 1900
+  date_effective: 1900
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Tug of war entered the Olympic programme at Paris in 1900 and was contested
+    at five consecutive Games, through to Antwerp in 1920. It was administered
+    as an athletics event rather than as a sport of its own, which is part of
+    why it was so easy to remove later.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The sport was widely contested by athletics clubs, police and military
+      teams in Britain and Northern Europe, and the early Games drew their
+      programme from what those clubs already did.
+  citation:
+    source: olympedia
+    edition: Olympedia, tug of war 1900–1920
+    missing: true
+
+- id: tow-1908-boots-dispute
+  scope: { sport: tug-of-war, discipline: all }
+  date_adopted: 1908
+  date_effective: 1908
+  status: adopted
+  governing_body: Organising committee, London 1908
+  what_changed: >
+    Footwear was regulated after a dispute at the London Games, where the
+    United States protested that a British police team was wearing heavy
+    reinforced boots. The teams competing were police forces, the boots were
+    their ordinary duty issue, and the protest failed.
+
+    Modern rules address the same question directly: boots may have a
+    reinforced sole and heel, and nothing may project beyond or beneath the
+    sole to dig into the ground.
+  cause_primary: fairness and eligibility
+  cause_secondary: equipment and technology
+  trigger:
+    description: >
+      At London 1908 the United States withdrew from the competition in protest
+      against the boots worn by the City of Liverpool Police team. It is one of
+      the earliest equipment protests in Olympic history.
+  citation:
+    source: twif-rules
+    edition: TWIF Rules of Tug of War, footwear
+    missing: true
+
+- id: tow-1920-programme-removal
+  scope: { sport: tug-of-war, discipline: all }
+  date_adopted: 1920
+  date_effective: 1924
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Tug of war was dropped after the 1920 Games and has never returned. It was
+    removed as part of a general reduction in the size of the programme in the
+    1920s, in which a number of events were cut at once.
+  cause_primary: disputed
+  trigger:
+    description: >
+      The IOC reduced the programme substantially in this period and tug of war
+      was among the events removed. It had no international federation of its
+      own to argue for it — one would not exist for another forty years.
+    also_said: >
+      Accounts also point to the sport's entries being club, police and
+      military teams rather than national selections, which sat badly with the
+      Games' developing structure. The stated administrative reason and the
+      structural one are recorded together rather than chosen between.
+  citation:
+    source: olympedia
+    edition: Olympedia, tug of war
+    missing: true
+
+- id: tow-1960-twif-founded
+  scope: { sport: tug-of-war, discipline: all }
+  date_adopted: 1960
+  date_effective: 1960
+  status: adopted
+  governing_body: Tug of War International Federation
+  what_changed: >
+    TWIF was founded, forty years after the sport left the Olympic programme,
+    and produced the first international rulebook: eight per team, a four-metre
+    pull, best of three ends, and classification by the team's combined weight.
+
+    The combined-weight rule is the sport's defining law. Every other
+    weight-classed sport on this site weighs an individual; tug of war weighs
+    the team as a unit, so selecting a squad means solving for eight people
+    whose total falls under a limit.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      The sport had been contested internationally under national rules that
+      differed on team size, rope length and how a pull was won, with no body
+      able to settle them.
+  citation:
+    source: twif-rules
+    edition: TWIF Rules of Tug of War
+    missing: true
+
+- id: tow-1981-world-games
+  scope: { sport: tug-of-war, discipline: all }
+  date_adopted: 1981
+  date_effective: 1981
+  status: adopted
+  governing_body: International World Games Association
+  what_changed: >
+    Tug of war was on the programme of the first World Games in 1981 and has
+    been on every one since — the multi-sport event created for sports that are
+    not Olympic.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The World Games was founded precisely for governed international sports
+      with no Olympic place, which by 1981 described tug of war exactly: a
+      federation, world championships, and an expulsion sixty years old.
+  citation:
+    source: iwga-world-games
+    edition: IWGA programme listings
+    missing: true

@@ -170,7 +170,7 @@ sports:
     held: [2025]
   - id: tug-of-war
     label: Tug of war
-    coverage: skeleton
+    coverage: deep
     held: [2025]
     note: >-
       On the Olympic programme 1900 to 1920, and on this one ever since it began.

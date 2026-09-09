@@ -1,0 +1,90 @@
+sport: tug-of-war
+standing: editorial
+summary: >
+  Everyone has done it, which is exactly why the gap between doing it and
+  competing at it is one of the widest on this site. Nothing about the sport
+  looks technical until you watch eight people who have been coached hold a
+  position for four minutes.
+
+entry:
+  verdict: very-low
+  claim: A rope and sixteen people. There is no version of this that has to be explained.
+  why: >
+    Tug of war is the only sport covered here that essentially everyone has
+    already played. There is no rule to learn before a first attempt, no
+    equipment to buy beyond a rope, and no skill required to participate at all.
+
+    It is a school sports day event, a village fete event and a military
+    tradition across most of the world, and that ubiquity is genuine — the
+    barrier to a recreational pull is as close to zero as sport gets.
+
+    What raises it above nothing is that competitive tug of war needs sixteen
+    people to turn up at once and a team that stays together, which is a
+    harder organisational problem than the sport's simplicity suggests.
+  evidence:
+    - { label: Players needed, value: "16", basis: rule, rule: tow-1960-twif-founded }
+    - { label: Kit to start, value: A rope, basis: observation }
+    - { label: Rules to learn, value: Effectively none to begin, basis: judgement }
+    - { label: Time to a first pull, value: Immediate, basis: judgement }
+
+mastery:
+  verdict: high
+  claim: Eight people holding one position under maximal load for minutes, and a squad built to a weight limit.
+  why: >
+    Elite tug of war does not look like the sport people have played. Teams
+    hold a low, locked body position — legs extended, back straight, rope
+    against the body — and the contest is largely about which team's position
+    degrades first. A team that is stronger but breaks posture loses to one
+    that is weaker and does not.
+
+    The physiological demand is unusual: several minutes of near-maximal
+    isometric effort, repeated across ends and rounds, which is a stress
+    profile almost nothing else on this site produces. Grip and lower back
+    endurance are the limiting factors more often than raw strength.
+
+    Then there is the selection problem the combined-weight rule creates.
+    Eight people must total under a class limit, so a coach is optimising the
+    distribution of mass across a squad rather than picking the eight strongest
+    — and a team is remade every time one member's weight changes.
+
+    Coordination completes it: eight people must apply force in the same
+    direction at the same instant, on a call, repeatedly, while exhausted.
+  evidence:
+    - label: Combined weight classes
+      value: Team total, not individual
+      basis: rule
+      rule: tow-1960-twif-founded
+      note: Squad selection is a constrained arithmetic problem no other sport has.
+    - label: Prohibited postures
+      value: Sitting, rowing, locking, leaning, propping
+      basis: observation
+      note: Most of the rulebook defines body positions, because that is the only way to cheat.
+    - label: Boots
+      value: Reinforced sole and heel, nothing projecting
+      basis: rule
+      rule: tow-1908-boots-dispute
+      note: Regulated after a protest at the 1908 Games that failed.
+    - { label: Typical peak age, value: 25–38, basis: judgement }
+
+gap: >
+  Very low to high, and the gap is almost entirely invisible from the outside —
+  which makes tug of war the best argument on this site for having a learning
+  layer at all.
+
+  Every other sport here signals its difficulty. A pole vault looks hard, a
+  rise ball looks hard, a Code of Points routine looks hard. Tug of war looks
+  like something a group of adults could win by being large, and the sport's
+  own popularity as a novelty event constantly reinforces that. What actually
+  separates an international team from eight strong volunteers is posture held
+  under load, synchronised force, and a squad assembled to a weight limit.
+
+  Its institutional position is the other half of the story, and it is unlike
+  anything else here. Tug of war is the only sport this site covers that was
+  removed from the Olympic programme and then built a complete competitive
+  structure anyway — a federation forty years later, world championships, and a
+  place at every World Games since the first one. Most sports removed from the
+  programme spend the following decades campaigning. This one carried on.
+
+shaped_by:
+  - tow-1960-twif-founded
+  - tow-1920-programme-removal

@@ -1,0 +1,28 @@
+id: tug-of-war-series
+label: A measurable series
+unit: none
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Tug of war produces no number at all, and this is the purest case of that on
+  the site.
+
+  An end is won when four metres of rope have been pulled. Nothing is recorded
+  about how it was won: no time, no margin, no force, no aggregate. A match is
+  the best of three ends, and the result is two ends to nil or two to one. That
+  is the entire quantitative output of the sport.
+
+  A time could in principle be taken — elite ends last minutes and vary — but a
+  long end means two teams were evenly matched, not that anyone performed
+  better, so the number would measure the pairing rather than the performance.
+
+  The combined-weight classes rule out cross-class comparison as well. A 640 kg
+  team and a 720 kg team are not doing a harder or easier version of the same
+  task; they are in different competitions.
+
+  So there is no series to break and none to draw. What this space records is
+  that a sport can be fully governed, internationally contested and a century
+  old, and still generate nothing a chart could hold.
+segments: []
+breaks: []
+source: twif-rules

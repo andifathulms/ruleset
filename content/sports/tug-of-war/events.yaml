@@ -1,0 +1,32 @@
+sport: tug-of-war
+as_of: 2026-09
+source: twif-rules
+standing: primary-named
+summary: >
+  No current Olympic events, and five Games' worth of former ones. TWIF runs
+  outdoor and indoor world championships across combined-weight classes, and
+  the sport has been on every World Games programme since 1981.
+disciplines:
+  - id: outdoor
+    label: Outdoor
+    blurb: On grass. Boot grip in turf is part of the contest.
+    events:
+      - { id: men-out, label: Men's weight classes, at: [world-games, world-championship], count: 5 }
+      - { id: women-out, label: Women's weight classes, at: [world-games, world-championship], count: 4 }
+      - { id: mixed-out, label: Mixed weight classes, at: [world-championship], count: 2 }
+  - id: indoor
+    label: Indoor
+    blurb: On a mat with fixed footing, which standardises grip and leaves technique.
+    events:
+      - { id: men-in, label: Men's weight classes, at: [world-championship], count: 5 }
+      - { id: women-in, label: Women's weight classes, at: [world-championship], count: 4 }
+      - { id: mixed-in, label: Mixed weight classes, at: [world-championship], count: 2 }
+  - id: olympic-history
+    label: Its Olympic record
+    counts: false
+    blurb: >
+      Contested at five consecutive Games and removed in the programme
+      reduction of the 1920s. Entries were club, police and military teams
+      rather than national selections.
+    events:
+      - { id: former, label: Olympic tug of war, at: [lapsed], note: "1900, 1904, 1908, 1912 and 1920. Administered as an athletics event rather than as a sport of its own." }
