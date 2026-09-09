@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: ika-rules
+  standing: primary-named
+  title: IKA Rules of Kurash
+  publisher: International Kurash Association
+  kind: rulebook
+  url: https://kurash-ika.org/
+
 - id: wcbs-rules
   standing: primary-named
   title: WCBS member federation rules for carom, pool and snooker

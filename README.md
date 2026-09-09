@@ -33,7 +33,7 @@ Three layers, marked as such everywhere:
   been entered; every other column is hatched rather than blank, because
   "nobody checked" and "absent" are not the same claim and must not be drawn
   the same way.
-- **Deep** — sixty-two sports: badminton, athletics, football, gymnastics,
+- **Deep** — sixty-seven sports: badminton, athletics, football, gymnastics,
   swimming, table tennis, basketball, cycling, judo, archery, volleyball,
   tennis, weightlifting, modern pentathlon, cricket, baseball, taekwondo,
   boxing, equestrian, fencing, rowing, sailing, golf, sport climbing, wrestling,
@@ -42,14 +42,15 @@ Three layers, marked as such everywhere:
   flying disc, powerlifting, tug of war, fistball, orienteering, sumo,
   floorball, lifesaving, kabaddi, sepak takraw, finswimming, racquetball and
   dancesport, ju-jitsu, muaythai, wushu, kickboxing, boules, bowling, dragon
-  boat, soft tennis and air sports.
+  boat, soft tennis, air sports, roller sports, underwater sports,
+  cheerleading, billiards and kurash.
 
-  The first thirty-nine are every sport on the 2028 summer programme. Nineteen
-  are World Games sports — eighteen that have never been Olympic, plus tug of
-  war, which was removed in the 1920s and carried on without the Games for a
-  century — and four, kabaddi, sepak takraw, dragon boat and soft tennis, are
-  contested at the Asian Games and nowhere else. Seventeen more sit in the
-  skeleton.
+  The first thirty-nine are every sport on the 2028 summer programme.
+  Twenty-three are World Games sports — twenty-two that have never been
+  Olympic, plus tug of war, which was removed in the 1920s and carried on
+  without the Games for a century — and five, kabaddi, sepak takraw, dragon
+  boat, soft tennis and kurash, are contested at the Asian Games and nowhere
+  else. Twelve more sit in the skeleton.
 
 The first five were one per family, because a "rule" is a structurally
 different object in each: racket sports legislate scoring, measured sports
@@ -262,6 +263,31 @@ institutional weight, and found five different reasons for that:
   than by anything sporting — and a federation founded in 1905 to certify
   records rather than run contests, which is how a sporting body came to fix
   the accepted boundary of space at 100 km.
+
+The eighth wave took what was left with genuinely distinct laws:
+
+- **Roller sports** is the sharpest institutional story here. Every discipline
+  is the wheeled twin of a Winter Olympic sport — artistic roller skating is
+  figure skating on wheels, judged the same way — and none has ever been on a
+  programme, because a selection committee can always say the Games already
+  contests that sport. Then the federation merged with skateboarding in 2017,
+  and the one discipline with no ice twin was Olympic within four years.
+- **Underwater sports** contains the only team sport played in a volume rather
+  than on a surface: underwater rugby, in a five-metre pool, with a ball filled
+  with saltwater so it sinks. Underwater hockey has no goalkeeper, because
+  nobody can hold their breath in one place long enough to be one.
+- **Cheerleading** is the only sport here invented to be an audience — organised
+  crowd-leading from 1898, by men, flipping to overwhelmingly female during the
+  Second World War. Its scoring ceiling is set by a safety code rather than by
+  what athletes can do, which makes its scoresheet partly a medical document.
+- **Billiards** is three codes on three incompatible tables, one with no pockets
+  at all. Snooker's miss rule is one of very few here that adjudicates intent,
+  and its maximum break of 147 is a bounded perfect score that equipment has
+  not devalued — the direct contrast with bowling's 300.
+- **Kurash** completes a line the site can now draw through three sports:
+  ju-jitsu legislates that a bout pass through every range; judo has spent
+  fifteen years narrowing towards one, banning leg grabs in 2013; and kurash
+  starts there, standing only, with no groundwork and no grip below the waist.
 
 - **Current law** — `play.yaml` per deep sport: what the rules actually say now,
   written against nine canonical sections in a fixed order, so the same clause

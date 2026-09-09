@@ -1,0 +1,119 @@
+sport: kurash
+as_of: 2026-09
+edition: IKA Rules of Kurash
+source: ika-rules
+standing: primary-named
+summary: >
+  Standing jacket wrestling in weight categories. Throw your opponent cleanly
+  onto their back and the bout ends immediately. No groundwork, no submissions,
+  and no touching an opponent below the waist.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Throw the opponent onto their back. A clean throw — **halal** — ends the
+      bout at once, and everything else in the sport is an attempt to produce
+      one or to accumulate the partial scores that decide a bout if nobody does.
+
+      There is no other route to victory. No pin, no submission, no points for
+      control, and no decision on aggression alone beyond the penalty count.
+    facts:
+      - { label: Halal, value: A clean throw on the back — the bout ends }
+      - { label: Chala, value: A partial score }
+      - { label: Tanbeh, value: A penalty }
+
+  - id: field
+    label: The mat
+    body: >
+      A matted circular contest area with a surrounding safety zone, as in the
+      other jacket sports. Because there is no groundwork, the mat is used
+      differently: everything happens upright, and leaving the area is a
+      passivity question rather than an interruption of a ground position.
+    facts:
+      - { label: Area, value: Matted, with a safety zone }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      The **yakhtak**, a jacket; the **ishton**, trousers; and the **belbog**, a
+      belt tied around the waist. Blue and green for the two competitors.
+
+      The jacket is functional apparatus rather than clothing — grips on it are
+      most of the sport's technical vocabulary — and the belt is a legal
+      gripping point. The trousers are not: gripping them, or anything below the
+      waist, is prohibited.
+    facts:
+      - { label: Jacket, value: The principal gripping surface }
+      - { label: Belt, value: A legal grip }
+      - { label: Below the waist, value: No grips at all }
+    shaped_by: [kurash-standing-only]
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      One against one in weight categories, for men and women, with a referee on
+      the mat and side judges.
+
+      Because bouts end abruptly on a clean throw and there is no ground phase
+      to slow anything down, a referee's decisions arrive quickly and often
+      finally.
+    facts:
+      - { label: Categories, value: By weight, men and women }
+      - { label: Officials, value: A mat referee and side judges }
+
+  - id: duration
+    label: Time
+    body: >
+      Around four minutes for men and three for women, and frequently much less
+      — a halal can be scored in the opening seconds and the contest is over.
+    facts:
+      - { label: Bout, value: About 4 min men, 3 min women }
+      - { label: Actual length, value: Often far shorter }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      **Halal** is a throw landing the opponent squarely on the back with force
+      and control, and it ends the bout immediately.
+
+      **Chala** is a throw that falls short of that — the landing is partial, or
+      the control incomplete — and accumulates.
+
+      **Tanbeh** penalties are awarded for passivity, for prohibited grips and
+      for stepping out, and enough of them decide a bout.
+
+      What is absent is the point. There is no score for holding an opponent
+      down, because there is no ground phase in which to do it.
+    shaped_by: [kurash-standing-only]
+
+  - id: restarts
+    label: Restarts
+    body: >
+      Whenever the action goes to the ground, the referee stops the bout and
+      both competitors return to standing at the centre. In judo that moment
+      begins a new phase of the contest; here it ends one.
+
+      That single difference is what makes kurash bouts fast: a sport that
+      cannot continue on the ground resets constantly and never settles.
+    shaped_by: [kurash-standing-only]
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Grabbing the legs, the trousers or anything below the waist. Any attempt
+      at a strangle, a joint lock or a hold on the ground. Deliberate passivity.
+      Stepping outside the area. Dangerous throws driving an opponent onto the
+      head.
+
+      The prohibited list is short and it is the sport's whole design. Almost
+      every technique excluded here is one the neighbouring jacket sport
+      permits or once permitted.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      A halal, an accumulation of chala, or the opponent's penalties. Because
+      the bout ends the instant a clean throw lands, kurash produces a higher
+      proportion of decisive finishes than any other grappling sport covered
+      here.

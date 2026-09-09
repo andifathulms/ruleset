@@ -1,0 +1,25 @@
+sport: kurash
+as_of: 2026-09
+source: ika-rules
+standing: primary-named
+summary: >
+  No Olympic events. Kurash has been an Asian Games medal sport since 2018 and
+  holds its own world championships, twenty-five years after the modern code
+  was written.
+disciplines:
+  - id: kurash
+    label: Kurash
+    blurb: Standing jacket wrestling in weight categories.
+    events:
+      - { id: men, label: Men's weight categories, at: [asian-games, world-championship], count: 7 }
+      - { id: women, label: Women's weight categories, at: [asian-games, world-championship], count: 7 }
+  - id: relatives
+    label: The jacket sports it sits between
+    counts: false
+    blurb: >
+      Central Asia and the Caucasus have a dense family of jacket-wrestling
+      traditions, several of which have their own international federations.
+    events:
+      - { id: judo, label: Judo, at: [olympic], note: "The jacket sport with an Olympic place, which has spent fifteen years removing leg grabs and shortening its ground phase." }
+      - { id: belt-wrestling, label: Belt wrestling and regional codes, at: [federation-only], note: "Alysh, gorešh, kokpar and related traditions, governed regionally and at times contested at Asian Indoor and Martial Arts Games." }
+      - { id: sambo, label: Sambo, at: [federation-only], note: "A Soviet jacket sport with legal leg locks, governed separately and on neither programme covered here." }

@@ -41,6 +41,7 @@
     - { id: kabaddi, label: Kabaddi, colour: pitch, members: [kabaddi] }
     - { id: kickboxing, label: Kickboxing, colour: clay, members: [kickboxing] }
     - { id: korfball, label: Korfball, colour: pitch, members: [korfball] }
+    - { id: kurash, label: Kurash, colour: clay, members: [kurash] }
     - { id: lifesaving, label: Lifesaving, colour: pool, members: [lifesaving] }
     - { id: orienteering, label: Orienteering, colour: pool, members: [orienteering] }
     - { id: muaythai, label: Muaythai, colour: clay, members: [muaythai] }
@@ -125,7 +126,7 @@
       members: [judo, taekwondo, boxing, modern-pentathlon, fencing, wrestling,
                 karate, breaking, tug-of-war, sumo, dancesport, ju-jitsu,
                 muaythai, wushu, kickboxing, air-sports, roller-sports,
-                cheerleading]
+                cheerleading, kurash]
 
 - id: adjudication
   label: Adjudication
@@ -159,7 +160,7 @@
       label: Combat
       colour: clay
       members: [judo, taekwondo, boxing, fencing, wrestling, karate, sumo,
-                ju-jitsu, muaythai, wushu, kickboxing]
+                ju-jitsu, muaythai, wushu, kickboxing, kurash]
     # A fifth category the lens did not have until a sport arrived that needed
     # it. Every other sport here is adjudicated by someone who is not playing;
     # ultimate is adjudicated by the players, and that is a rule rather than an

@@ -165,7 +165,7 @@ sports:
     held: [2022]
   - id: kurash
     label: Kurash
-    coverage: skeleton
+    coverage: deep
     held: [2022]
   - id: modern-pentathlon
     label: Modern pentathlon

@@ -1,0 +1,87 @@
+sport: kurash
+standing: editorial
+summary: >
+  The simplest grappling sport on this site to understand and to begin, because
+  three-quarters of what a judoka or a wrestler must learn is not in it — and a
+  ceiling that is narrow, deep and largely confined to one region.
+
+entry:
+  verdict: low
+  claim: A jacket and a mat. There is no ground phase to learn and nothing that submits you.
+  why: >
+    Kurash removes the parts of grappling that beginners find hardest and most
+    unpleasant. There is no groundwork, so nobody is pinned underneath anybody.
+    There are no submissions, so nobody is choked or has a joint attacked. There
+    are no leg grabs, so the technical vocabulary is narrower and can be taught
+    faster.
+
+    What is left — grips, movement, balance, throws — is learnable, and a
+    beginner can contest a bout meaningfully within months rather than years.
+
+    The barrier is finding a club. Outside Central Asia and a handful of other
+    countries, kurash gyms are rare, and most people who want jacket wrestling
+    will find judo instead.
+  evidence:
+    - { label: Kit to start, value: Jacket, trousers and belt, basis: observation }
+    - { label: No groundwork, value: At all, basis: rule, rule: kurash-standing-only, note: The phase beginners find hardest is simply absent. }
+    - { label: No submissions, value: None permitted, basis: rule, rule: kurash-standing-only }
+    - { label: Clubs, value: Scarce outside Central Asia, basis: judgement }
+    - { label: Time to a first bout, value: Months, basis: judgement }
+
+mastery:
+  verdict: high
+  claim: One phase of grappling, contested with nowhere to hide and nothing to fall back on.
+  why: >
+    Narrowing a sport does not make its top easy; it makes it exposed. A kurash
+    competitor has one way to win — the throw — and no ground phase to escape
+    into, no submission to catch someone with, and no leg attack to change
+    range with. Every bout is the same contest, and a competitor who cannot win
+    grips cannot do anything else.
+
+    Bouts end abruptly. A clean throw finishes the contest at once, so a single
+    lapse at any moment in four minutes is the whole match, and there is no
+    equivalent of judo's ground scramble to recover in.
+
+    The ceiling is bounded by the sport's reach. Uzbekistan and its neighbours
+    dominate, the Asian Games is the summit, and there is no professional
+    structure. A world champion has reached the top of a sport that is twenty-
+    five years old as a codified competition.
+  evidence:
+    - label: One phase only
+      value: Standing
+      basis: rule
+      rule: kurash-standing-only
+      note: No ground escape, no submission, no leg attack.
+    - label: Bout ends on a clean throw
+      value: Immediately
+      basis: rule
+      rule: kurash-standing-only
+      note: A single lapse decides the contest.
+    - label: Codified in 1998
+      value: Asian Games by 2018
+      basis: rule
+      rule: kurash-2018-asian-games
+      note: A very short institutional history compared with anything else here.
+    - { label: Typical peak age, value: 22–30, basis: judgement }
+
+gap: >
+  Low to high, and kurash is most interesting held directly against judo, which
+  this site covers in depth.
+
+  Judo was created in the 1880s by taking ju-jitsu and removing what could not
+  be practised safely at full resistance. It has kept removing things since:
+  leg grabs were restricted from 2010 and banned outright in 2013, and the
+  ground phase has been repeatedly shortened. Each removal was argued as
+  protecting judo's identity against wrestling.
+
+  Kurash is what that process arrives at. Standing only, no leg grabs, no
+  submissions, no ground. It did not get there by legislating; it was codified
+  that way in 1998 from a tradition that had always been that way.
+
+  So the site now holds three points on one line — ju-jitsu, which legislates
+  that a bout pass through every range; judo, which has been narrowing towards
+  one; and kurash, which starts there.
+
+shaped_by:
+  - kurash-standing-only
+  - kurash-1998-ika

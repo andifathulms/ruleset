@@ -1,0 +1,86 @@
+- id: kurash-standing-only
+  scope: { sport: kurash, discipline: all }
+  date_adopted: 1998
+  date_effective: 1998
+  status: adopted
+  governing_body: International Kurash Association
+  what_changed: >
+    The codified sport is standing only. There is no groundwork, no submission,
+    no strangle, no joint lock — and no grabbing an opponent below the waist,
+    so the legs may not be attacked with the hands at all.
+
+    A bout is therefore entirely the upright grappling phase: grips, movement,
+    balance and the throw.
+
+    Set against judo, which this site also covers, the comparison is exact and
+    unusual. Judo banned leg grabs outright in 2013 after trialling the
+    restriction from 2010, and has repeatedly narrowed what may be done on the
+    ground and how long may be spent there. Kurash never permitted either. It
+    is what judo has been progressively becoming, arrived at from the other
+    direction.
+  cause_primary: fairness and eligibility
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The traditional Uzbek form was a standing jacket-wrestling contest fought
+      at festivals, and codification recorded that rather than importing the
+      groundwork phase from the international jacket sports.
+  citation:
+    source: ika-rules
+    edition: IKA Rules of Kurash
+    missing: true
+
+- id: kurash-1998-ika
+  scope: { sport: kurash, discipline: all }
+  date_adopted: 1998
+  date_effective: 1998
+  status: adopted
+  governing_body: International Kurash Association
+  what_changed: >
+    Kurash was codified as an international sport and the International Kurash
+    Association was formed in Tashkent, with a written rulebook, weight
+    categories and a scoring system: **halal**, a clean throw onto the back,
+    which ends the bout; **chala**, a partial score; and **tanbeh**, a penalty.
+
+    The codification was a deliberate national project. Uzbekistan set out to
+    take a domestic wrestling tradition and make it an international sport with
+    a federation, a rulebook and a competitive calendar — the same kind of
+    exercise this site records for wushu, conducted by a much smaller state
+    forty years later.
+  cause_primary: commercial
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      Uzbekistan, newly independent, pursued international recognition for a
+      sport identified with its own heritage, and a single organiser produced
+      the modern rules and the federation.
+  citation:
+    source: ika-rules
+    edition: IKA statutes
+    missing: true
+
+- id: kurash-2018-asian-games
+  scope: { sport: kurash, discipline: all }
+  date_adopted: 2018
+  date_effective: 2018
+  status: adopted
+  governing_body: Olympic Council of Asia
+  what_changed: >
+    Kurash was contested at the Asian Games in Jakarta in 2018, twenty years
+    after the sport was codified, and has appeared at subsequent editions.
+
+    That is a very short path from invention of the modern code to a
+    continental multi-sport programme — shorter than any other sport covered
+    here manages — and it reflects both the Asian Games' willingness to admit
+    regional sports and a sustained state campaign behind this one.
+  cause_primary: participation and access
+  cause_secondary: commercial
+  trigger:
+    description: >
+      The Asian Games programme has consistently admitted sports with regional
+      participation and national backing, and kurash had spread through Central
+      Asia and into the Middle East.
+  citation:
+    source: oca-asian-games
+    edition: Olympic Council of Asia programme listings
+    missing: true
