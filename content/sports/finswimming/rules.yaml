@@ -1,0 +1,88 @@
+- id: finswimming-1959-cmas
+  scope: { sport: finswimming, discipline: all }
+  date_adopted: 1959
+  date_effective: 1959
+  status: adopted
+  governing_body: CMAS
+  what_changed: >
+    CMAS was founded as the world federation for underwater activities, with
+    Jacques Cousteau as its first president, and took responsibility for the
+    racing disciplines alongside diving instruction, underwater photography and
+    scientific work.
+
+    That inheritance explains the sport's shape. Finswimming is governed by a
+    body whose primary business is being underwater rather than racing, which
+    is why its events include one raced on a single breath and one raced
+    carrying compressed air.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      Recreational and technical diving organisations across Europe had no
+      international body, and the federation formed to hold standards for
+      underwater activity generally rather than for a sport specifically.
+  citation:
+    source: cmas-rules
+    edition: CMAS statutes
+    missing: true
+
+- id: finswimming-1976-disciplines
+  scope: { sport: finswimming, discipline: all }
+  date_adopted: 1976
+  date_effective: 1976
+  status: adopted
+  governing_body: CMAS
+  what_changed: >
+    The first finswimming world championships were held, codifying the
+    disciplines the sport still contests: **surface**, swum face-down with a
+    monofin and a snorkel; **apnea**, swum entirely underwater on a single
+    breath; and **immersion**, swum underwater carrying an open-circuit
+    compressed-air cylinder.
+
+    No other racing sport on this site contests events under three different
+    respiratory conditions. One is breathing through a tube, one is not
+    breathing at all, and one is carrying a tank.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Finswimming had developed through the 1960s and early 1970s with national
+      variants, particularly in the Soviet Union and Italy, and world
+      championships required a settled programme.
+  citation:
+    source: cmas-rules
+    edition: CMAS Finswimming Rules, disciplines
+    missing: true
+  comparability_break: finswimming-records
+
+- id: finswimming-monofin-regulation
+  scope: { sport: finswimming, discipline: all }
+  date_adopted: 1976
+  date_effective: 1976
+  status: adopted
+  governing_body: CMAS
+  what_changed: >
+    The monofin — a single large blade worn on both feet — is regulated by
+    dimension rather than banned or standardised: maximum surface area and
+    dimensions are capped, and materials are broadly open, so fins vary in
+    stiffness and profile between manufacturers and between athletes.
+
+    Bi-fins events, swum with two conventional fins, are contested as a
+    separate discipline with a separate record book, because a monofin and a
+    pair of fins are not the same sport.
+
+    This is the site's clearest case of a governing body that cannot reach for
+    the instrument its neighbours used. Swimming banned the polyurethane suits
+    in 2010 and let the records stand. Athletics redesigned the javelin and
+    reset the book. Finswimming can do neither, because without the fin there
+    is no event.
+  cause_primary: equipment and technology
+  cause_secondary: fairness and eligibility
+  trigger:
+    description: >
+      Monofin design advanced quickly once the sport was competitive, and an
+      unregulated blade would have made the equipment the only variable that
+      mattered.
+  citation:
+    source: cmas-rules
+    edition: CMAS Finswimming Rules, equipment
+    missing: true
+  comparability_break: finswimming-records

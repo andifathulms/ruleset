@@ -1,0 +1,41 @@
+id: finswimming-records
+label: World record progression
+unit: s
+higher_is_better: false
+absence_kind: unpublished
+cannot_exist: >
+  Finswimming keeps world records and they are, within a discipline and a fin
+  type, genuinely comparable — which makes this one of the few absences on this
+  site caused only by the figures not having been assembled from a cited
+  source rather than by anything in the sport.
+
+  What the sport does have is a record book divided more finely than most.
+  Surface, apnea, immersion and bi-fins are four physically different events;
+  a monofin time and a bi-fins time over the same distance are two different
+  measurements and are never pooled.
+
+  The reason this page exists rather than a chart is worth stating, because it
+  is the site's central question answered a third way. Swimming faced
+  polyurethane suits in 2009, banned them, and let the records stand — which is
+  why several remain unbeaten. Athletics faced the javelin in 1986, redesigned
+  it, and reset the book. Finswimming has never been able to consider either,
+  because an athlete without a fin is not competing in this sport at all.
+
+  So it caps the fin by dimension, leaves materials broadly open, and splits
+  the book by fin type. Equipment selection remains part of the sport, openly,
+  and the records carry that with them.
+segments: []
+breaks:
+  - at: 1976
+    caused_by: finswimming-1976-disciplines
+    kind: scoped
+    note: >
+      Surface, apnea and immersion codified as separate disciplines. Times
+      across them are not comparable.
+  - at: 1976
+    caused_by: finswimming-monofin-regulation
+    kind: scoped
+    note: >
+      Monofin and bi-fins records are kept apart, because the equipment defines
+      the event rather than assisting it.
+source: cmas-rules

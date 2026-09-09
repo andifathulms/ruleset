@@ -84,8 +84,11 @@ sports:
     held: [2025]
   - id: finswimming
     label: Finswimming
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Faster than swimming, and governed by the underwater federation rather
+      than the aquatic one.
   - id: fistball
     label: Fistball
     coverage: deep

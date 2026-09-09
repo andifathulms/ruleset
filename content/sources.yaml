@@ -507,6 +507,13 @@
   kind: rulebook
   url: https://wfdf.sport/
 
+- id: cmas-rules
+  standing: primary-named
+  title: CMAS Finswimming Rules
+  publisher: Confédération Mondiale des Activités Subaquatiques
+  kind: rulebook
+  url: https://www.cmas.org/
+
 - id: istaf-rules
   standing: primary-named
   title: ISTAF Laws of the Game

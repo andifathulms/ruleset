@@ -1,0 +1,46 @@
+sport: finswimming
+as_of: 2026-09
+source: cmas-rules
+standing: primary-named
+summary: >
+  No Olympic events. Finswimming is on the World Games programme and holds CMAS
+  world championships across four disciplines — and it is a pool racing sport
+  governed by an underwater federation rather than by World Aquatics.
+disciplines:
+  - id: surface
+    label: Surface
+    blurb: Face-down on the surface with a monofin and a snorkel. The main discipline.
+    events:
+      - { id: sprint, label: 50 and 100 m, at: [world-games, world-championship], count: 4 }
+      - { id: middle, label: 200 and 400 m, at: [world-games, world-championship], count: 4 }
+      - { id: long, label: 800 and 1500 m, at: [world-championship], count: 4 }
+      - { id: relays, label: Relays, at: [world-games, world-championship], count: 3 }
+  - id: apnea
+    label: Apnea
+    blurb: Swum entirely underwater on a single breath.
+    events:
+      - { id: ap50, label: 50 m apnea, at: [world-championship], count: 2, note: "The only distance contested; a breath does not go further at racing speed." }
+  - id: immersion
+    label: Immersion
+    blurb: >
+      Swum underwater carrying an open-circuit compressed-air cylinder — the
+      only racing event covered on this site where the athlete carries a
+      breathing apparatus.
+    events:
+      - { id: im, label: 100, 400 and 800 m immersion, at: [world-championship], count: 6 }
+  - id: bifins
+    label: Bi-fins
+    blurb: Two conventional fins rather than a monofin. Separate records, never pooled.
+    events:
+      - { id: bf, label: 50, 100 and 200 m bi-fins, at: [world-championship], count: 6 }
+  - id: elsewhere
+    label: Governed by the same federation
+    counts: false
+    blurb: >
+      CMAS is an underwater federation that runs a racing sport, not a racing
+      federation that permits fins.
+    events:
+      - { id: freediving, label: Freediving, at: [world-championship], note: Depth and static disciplines, governed by CMAS alongside other bodies. }
+      - { id: hockey, label: Underwater hockey, at: [world-championship], note: Played on the bottom of a pool on a single breath. }
+      - { id: rugby, label: Underwater rugby, at: [world-championship], note: Played in three dimensions in a deep pool. }
+      - { id: orienteering-uw, label: Underwater orienteering, at: [world-championship], note: Navigation with a compass and a depth gauge, using a diving set. }

@@ -27,6 +27,7 @@
     - { id: football, label: Football, colour: pitch, members: [football] }
     - { id: gymnastics, label: Gymnastics, colour: gold, members: [gymnastics] }
     - { id: judo, label: Judo, colour: clay, members: [judo] }
+    - { id: finswimming, label: Finswimming, colour: pool, members: [finswimming] }
     - { id: fistball, label: Fistball, colour: clay, members: [fistball] }
     - { id: floorball, label: Floorball, colour: pitch, members: [floorball] }
     - { id: flying-disc, label: Flying disc, colour: pitch, members: [flying-disc] }
@@ -100,7 +101,8 @@
       colour: gold
       members: [athletics, gymnastics, swimming, cycling, weightlifting, rowing,
                 sailing, sport-climbing, equestrian, canoeing, triathlon,
-                skateboarding, surfing, powerlifting, orienteering, lifesaving]
+                skateboarding, surfing, powerlifting, orienteering, lifesaving,
+                finswimming]
     - id: outside-taxonomy
       label: Outside this taxonomy
       colour: unmarked
@@ -120,7 +122,7 @@
       colour: pool
       members: [athletics, swimming, cycling, archery, weightlifting, modern-pentathlon,
                 rowing, sailing, shooting, golf, sport-climbing, canoeing, triathlon,
-                powerlifting, orienteering, lifesaving]
+                powerlifting, orienteering, lifesaving, finswimming]
     - id: judged
       label: Judged
       colour: gold

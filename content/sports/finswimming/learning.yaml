@@ -1,0 +1,88 @@
+sport: finswimming
+standing: editorial
+summary: >
+  If you can already swim, the first length in a monofin is exhilarating and
+  immediate. Everything after that is a whole-body undulation trained over
+  years, in a sport with clubs in relatively few countries.
+
+entry:
+  verdict: moderate
+  claim: You must already swim, find a club that owns monofins, and get pool time.
+  why: >
+    The prerequisite is real: this is not a sport you can begin without being a
+    competent swimmer, and it needs a lane in a pool, which is the most
+    contested facility in amateur sport almost everywhere.
+
+    The equipment is the second barrier. A monofin is a specialised item that
+    beginners borrow from a club rather than buy, and clubs exist in a limited
+    set of countries — mostly those with a CMAS-affiliated diving federation
+    that runs racing.
+
+    What makes it moderate rather than high is that the first experience is
+    genuinely easy and genuinely thrilling. A swimmer putting on a monofin moves
+    faster than they ever have under their own power, immediately, and the
+    basic dolphin kick is intuitive enough to produce that on the first
+    attempt.
+  evidence:
+    - { label: Prerequisite, value: Competent swimming, basis: judgement }
+    - { label: Facility, value: A 50 m pool lane, basis: observation }
+    - { label: Kit to start, value: A club monofin and snorkel, basis: rule, rule: finswimming-monofin-regulation }
+    - { label: Clubs, value: Concentrated in CMAS federation countries, basis: observation }
+    - { label: Time to a first race, value: Months, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: A whole-body undulation at maximal output, in three incompatible respiratory conditions.
+  why: >
+    Elite finswimming is the fastest human-powered movement in water, and the
+    technique that produces it is a continuous whole-body wave from the chest
+    through the hips to the blade. It is closer to what a dolphin does than to
+    anything in swimming, it takes years to acquire, and small differences in
+    the timing of the undulation produce large differences in speed.
+
+    The apnea discipline adds something almost nothing else on this site
+    requires: a 50-metre race, at maximum output, on a single breath. The
+    physiological demand of sprinting anaerobically while also not breathing is
+    a distinct trained capacity.
+
+    The equipment is a technical project of its own. A monofin is capped by
+    dimension but not standardised, so blade stiffness and profile are matched
+    to the athlete and to the distance, and part of elite preparation is
+    equipment selection in a way swimming has not permitted since 2010.
+
+    The ceiling is capped institutionally rather than athletically. There is no
+    Olympic event, the professional layer is minimal, and the sport's
+    competitive depth is concentrated in a small number of countries.
+  evidence:
+    - label: Three respiratory conditions
+      value: Snorkel, one breath, compressed air
+      basis: rule
+      rule: finswimming-1976-disciplines
+      note: Three physically different events under one sport.
+    - label: Monofin capped, not standardised
+      value: By dimension
+      basis: rule
+      rule: finswimming-monofin-regulation
+      note: Equipment selection is part of preparation, which swimming removed in 2010.
+    - { label: Speed, value: Faster than swimming over the same distance, basis: observation }
+    - { label: Typical peak age, value: 20–28, basis: judgement }
+
+gap: >
+  Moderate to very high, and the sport is most interesting held against
+  swimming, which this site covers in depth.
+
+  They share a pool, a lane, a touchpad and a start. Swimming's supersuit
+  episode ended with the equipment banned and the records left standing, which
+  is why several of them are still unbeaten. Finswimming faced the same
+  pressure and had no such option, because a finswimmer without a fin is a
+  swimmer. So it did the only other thing available: capped the equipment by
+  dimension, and split the record books by fin type.
+
+  That makes it the third distinct answer on this site to the
+  equipment-and-records question — after swimming's ban-and-keep and athletics'
+  redesign-and-reset — and the only one taken by a sport that could not
+  contemplate removing the object in dispute.
+
+shaped_by:
+  - finswimming-monofin-regulation
+  - finswimming-1976-disciplines

@@ -1,0 +1,117 @@
+sport: finswimming
+as_of: 2026-09
+edition: CMAS Finswimming Rules
+source: cmas-rules
+standing: primary-named
+summary: >
+  Pool racing with a monofin, in three respiratory conditions: on the surface
+  breathing through a snorkel, underwater on a single breath, or underwater
+  carrying a compressed-air cylinder. There is also a bi-fins discipline, using
+  two conventional fins, kept in a separate record book.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Cover the distance faster than everybody else. It is a race, with heats
+      and finals and lanes, and by the ordinary logic of a measured sport
+      nothing about it is complicated.
+
+      What is unusual is that the sport contests the same distances under
+      different breathing rules, so the discipline determines the technique
+      entirely and the times are not comparable between them.
+    shaped_by: [finswimming-1976-disciplines]
+
+  - id: field
+    label: The pool
+    body: >
+      A standard fifty-metre competition pool with lanes, as in swimming.
+      Surface events are swum face-down along the surface; apnea and immersion
+      events are swum underwater, typically close to the bottom, with the
+      athlete out of sight of the crowd for the whole race.
+    facts:
+      - { label: Pool, value: 50 m, lanes as in swimming }
+      - { label: Surface events, value: Face-down, on the surface }
+      - { label: Apnea and immersion, value: Swum underwater }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      **The monofin** is a single large blade worn on both feet, driven by a
+      whole-body dolphin kick. It is capped by dimension rather than
+      standardised, so blades differ in stiffness and profile and are matched
+      to an athlete.
+
+      **The snorkel** is used in surface events: a large-bore centre-mounted
+      tube that lets the swimmer keep their head down for the whole race.
+
+      **The cylinder** is used in immersion: an open-circuit compressed-air set
+      carried through the race, which makes finswimming the only racing sport
+      covered here where the athlete carries a breathing apparatus.
+
+      **Bi-fins** events use two conventional fins and are a separate
+      discipline with separate records.
+    facts:
+      - { label: Monofin, value: Capped by dimension, not standardised }
+      - { label: Snorkel, value: Surface events }
+      - { label: Compressed air, value: Immersion events }
+      - { label: Bi-fins, value: A separate discipline and record book }
+    shaped_by: [finswimming-monofin-regulation]
+
+  - id: players
+    label: Competitors and officials
+    body: >
+      One athlete per lane, with relays in the surface discipline. Officials
+      judge starts, turns and finishes as in swimming, and in apnea events they
+      also watch for a swimmer surfacing — which ends the race.
+    facts:
+      - { label: Per lane, value: One }
+      - { label: Relays, value: In surface events }
+
+  - id: duration
+    label: Time
+    body: >
+      Whatever the race takes, timed by touchpad to the hundredth. Distances run
+      from 50 metres to 1500 in the surface discipline; apnea is contested at
+      50 metres only, because a single breath does not go further at racing
+      speed.
+    facts:
+      - { label: Surface distances, value: 50 m to 1500 m }
+      - { label: Apnea, value: 50 m, on one breath }
+      - { label: Timing, value: To the hundredth }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      Elapsed time. Records are kept per discipline, per distance and per fin
+      type, and are never pooled — a monofin time and a bi-fins time over the
+      same distance are two different measurements.
+    shaped_by: [finswimming-monofin-regulation]
+
+  - id: restarts
+    label: Starts and turns
+    body: >
+      A dive start from blocks, as in swimming. Turns are made at the wall with
+      a rotation rather than a tumble, because a monofin does not permit the
+      same push-off mechanics as feet.
+
+      In apnea, the whole race including the turn happens on one breath and any
+      break of the surface ends it.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      Surfacing during an apnea race. Using a fin outside the permitted
+      dimensions. Using a propulsion aid other than the fin. Breathing
+      apparatus in the wrong discipline — a snorkel is required in surface
+      events and forbidden where the event is raced on a breath.
+
+      As in swimming: false starts, failing to touch at a turn, and interfering
+      with another lane.
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      Fastest time in the final. Because the disciplines are physically
+      different events, an athlete's standing is discipline-specific in a way it
+      is not for a swimmer, who is broadly comparable across strokes.
