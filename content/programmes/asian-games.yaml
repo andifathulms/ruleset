@@ -173,7 +173,7 @@ sports:
     held: [2022]
   - id: roller-sports
     label: Roller sports
-    coverage: skeleton
+    coverage: deep
     held: [2022]
   - id: rowing
     label: Rowing

@@ -65,8 +65,36 @@ const PROGRAMMES = path.join(CONTENT, 'programmes')
  */
 export function getProgrammes(): Program[] {
   const files = fs.readdirSync(PROGRAMMES).filter((f) => f.endsWith('.yaml')).sort()
-  const all = files.map((f) => parse<Program>(fs.readFileSync(path.join(PROGRAMMES, f), 'utf8')))
+  const all = files.map((f) => {
+    const programme = parse<Program>(fs.readFileSync(path.join(PROGRAMMES, f), 'utf8'))
+    assertCoverageMatchesResearch(f, programme)
+    return programme
+  })
   return all.sort((a, b) => (a.id === 'olympic' ? -1 : b.id === 'olympic' ? 1 : a.label.localeCompare(b.label)))
+}
+
+/**
+ * `coverage` is a property of the sport, not of the programme listing it — but
+ * it is written once per programme entry, so a sport on two programmes can be
+ * researched in one table and grey in the other. Roller sports was: deep under
+ * the World Games and rendered as "not yet covered" under the Asian Games,
+ * because only one file was edited. The sport directory is the single source
+ * of truth and this makes the listings agree with it.
+ */
+function assertCoverageMatchesResearch(file: string, programme: Program): void {
+  for (const sport of programme.sports) {
+    const researched = fs.existsSync(path.join(SPORTS, sport.id, 'sport.yaml'))
+    if (researched && sport.coverage !== 'deep') {
+      throw new Error(
+        `programmes/${file}: "${sport.id}" is marked ${sport.coverage} but content/sports/${sport.id} exists. Rule 6 cuts both ways — a researched sport must not render as uncovered.`,
+      )
+    }
+    if (!researched && sport.coverage === 'deep') {
+      throw new Error(
+        `programmes/${file}: "${sport.id}" is marked deep and has no content/sports/${sport.id}. The skeleton layer must never borrow the deep layer's authority.`,
+      )
+    }
+  }
 }
 
 export function getProgramme(id: string): Program {
