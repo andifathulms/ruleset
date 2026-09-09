@@ -27,6 +27,7 @@
     - { id: football, label: Football, colour: pitch, members: [football] }
     - { id: gymnastics, label: Gymnastics, colour: gold, members: [gymnastics] }
     - { id: judo, label: Judo, colour: clay, members: [judo] }
+    - { id: flying-disc, label: Flying disc, colour: pitch, members: [flying-disc] }
     - { id: korfball, label: Korfball, colour: pitch, members: [korfball] }
     - { id: modern-pentathlon, label: Modern pentathlon, colour: gold, members: [modern-pentathlon] }
     - { id: table-tennis, label: Table tennis, colour: clay, members: [table-tennis] }
@@ -75,7 +76,7 @@
       label: Invasion
       colour: pitch
       members: [football, basketball, hockey, handball, rugby, lacrosse,
-                flag-football, korfball]
+                flag-football, korfball, flying-disc]
     - id: striking-and-fielding
       label: Striking and fielding
       colour: pitch
@@ -123,6 +124,14 @@
       label: Combat
       colour: clay
       members: [judo, taekwondo, boxing, fencing, wrestling, karate]
+    # A fifth category the lens did not have until a sport arrived that needed
+    # it. Every other sport here is adjudicated by someone who is not playing;
+    # ultimate is adjudicated by the players, and that is a rule rather than an
+    # absence of one.
+    - id: self-officiated
+      label: Self-officiated
+      colour: unmarked
+      members: [flying-disc]
 
 # The fourth lens, and the only one derived from data on this site rather than
 # from a published taxonomy: the groups are computed from content/programmes,

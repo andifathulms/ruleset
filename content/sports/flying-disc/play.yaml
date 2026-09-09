@@ -1,0 +1,126 @@
+sport: flying-disc
+as_of: 2026-09
+edition: WFDF Rules of Ultimate
+source: wfdf-rules
+standing: primary-named
+summary: >
+  Ultimate: seven a side on a long narrow field, scoring by completing a pass
+  in the end zone. The thrower may not run, contact is prohibited, and there is
+  no referee — the players call their own fouls under a rule called Spirit of
+  the Game.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Complete a pass to a team-mate standing in the end zone you are
+      attacking. Any incompletion — dropped, intercepted, blocked, out of
+      bounds, or held too long — turns the disc over immediately, on the spot,
+      with no stoppage.
+
+      That instant turnover is why the game runs continuously and why
+      possession is worth so much: there is no equivalent of a punt, a
+      goalkeeper or a reset.
+    shaped_by: [disc-1968-ultimate-codified]
+
+  - id: field
+    label: The field
+    body: >
+      A hundred metres by thirty-seven, of which the two end zones take
+      eighteen metres each. Long and narrow by the standards of the invasion
+      sports around it, because a disc travels further and straighter than a
+      thrown ball and the field has to reward that.
+    facts:
+      - { label: Field, value: 100 × 37 m }
+      - { label: End zones, value: 18 m each }
+      - { label: Central playing field, value: 64 m }
+
+  - id: equipment
+    label: Equipment
+    body: >
+      A disc of 175 grams, and nothing else. No protective equipment, no goals,
+      no nets, no posts — the end zone is a region of the field, so a full
+      ultimate pitch can be marked with eight cones.
+
+      A disc flies on a curve that depends on the angle it is released at, so
+      the sport's throws are named for the shapes they make rather than for
+      the body part that makes them: backhand, forehand or flick, and the
+      overhead hammer.
+    facts:
+      - { label: Disc, value: 175 g }
+      - { label: Goals or posts, value: None — the end zone is a region }
+      - { label: Protective equipment, value: None }
+
+  - id: players
+    label: Players and officials
+    body: >
+      Seven a side outdoors. There is no referee, no umpire and no judge: the
+      players officiate the match themselves, and the person who was fouled is
+      the person who calls it.
+
+      Elite events add observers — neutral officials who settle a dispute the
+      players cannot, judge line calls and time limits, and can penalise
+      misconduct. They do not call fouls. That distinction is the whole
+      argument about where the sport is going.
+    facts:
+      - { label: On the field, value: "7" }
+      - { label: Referees, value: None }
+      - { label: Who calls a foul, value: The player who was fouled }
+      - { label: Observers, value: At elite events; they do not call fouls }
+    shaped_by: [disc-spirit-of-the-game, disc-observers-and-referees]
+
+  - id: duration
+    label: Time
+    body: >
+      Played to a score rather than to a clock: first to fifteen, with half
+      time at eight, and a time cap in tournament play to keep a schedule.
+
+      The clock that matters is the stall count. A defender marking the thrower
+      counts aloud to ten, and if the disc has not been released the defence
+      takes it. Possession therefore has a hard time limit enforced by an
+      opponent's voice.
+    facts:
+      - { label: Game to, value: 15 points }
+      - { label: Half time, value: 8 points }
+      - { label: Stall count, value: 10 s, counted aloud by the marker }
+
+  - id: scoring
+    label: Scoring
+    body: >
+      One point per completed pass caught in the end zone, and the scoring team
+      then pulls — throws off — to the other. Every point restarts the game
+      from the ends, which is why teams substitute freely between points and
+      almost never during one.
+
+  - id: restarts
+    label: Starting and restarting
+    body: >
+      Each point begins with a pull: both teams stand on their own end zone
+      line and the defence throws the disc the length of the field. Play begins
+      when the disc is picked up.
+
+      After a turnover, play continues from where the disc came to rest, with
+      no whistle and no stoppage.
+
+  - id: prohibitions
+    label: Infringements
+    body: >
+      No running with the disc — a thrower establishes a pivot foot and keeps
+      it. No contact of any kind: no blocking, no bidding through a player, no
+      contest that goes through a body rather than at the disc. No double
+      teaming the thrower. No holding it past the stall count.
+
+      The characteristic infringements are the foul and the pick — a defender
+      obstructed by another player — and both are called by the affected
+      player, in play, out loud, at which point the game stops until it is
+      resolved.
+    shaped_by: [disc-spirit-of-the-game]
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The first team to fifteen, or ahead when a time cap falls. A disputed
+      call that the players cannot resolve returns the disc to the thrower and
+      the game replays from there — the sport's answer to an argument is to
+      undo the passage of play rather than to award anything.
+    shaped_by: [disc-spirit-of-the-game]

@@ -96,8 +96,10 @@ sports:
     held: [2025]
   - id: flying-disc
     label: Flying disc
-    coverage: skeleton
+    coverage: deep
     held: [2025]
+    note: >-
+      Ultimate, and the only sport covered here with no referees at all.
   - id: gymnastics
     label: Gymnastics
     coverage: deep

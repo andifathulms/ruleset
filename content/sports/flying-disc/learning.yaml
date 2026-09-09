@@ -1,0 +1,85 @@
+sport: flying-disc
+standing: editorial
+summary: >
+  Almost nothing stops you starting — a disc costs less than any other piece of
+  equipment on this site — and the top of the sport asks for something no other
+  sport asks for: to compete at full intensity while also officiating the
+  person you are competing against.
+
+entry:
+  verdict: very-low
+  claim: One disc, some cones, fourteen people. No referee to find and nothing to hurt you.
+  why: >
+    The entry cost is a disc. There are no goals, no posts, no nets, no
+    protective equipment, and the field can be marked with cones on any flat
+    grass — so a game requires people and nothing else.
+
+    It also needs no officials, which is a bigger deal than it sounds: most
+    invasion sports cannot be played competitively at a beginner level without
+    someone willing to referee, and this one is designed to run without one.
+
+    The skill barrier is a real but shallow one. A backhand throw is learnable
+    in minutes; a forehand takes longer and is the thing beginners actually
+    struggle with. Because the thrower cannot run, a new player is never
+    required to beat anyone physically.
+  evidence:
+    - { label: Players needed, value: "14", basis: rule, rule: disc-1968-ultimate-codified }
+    - { label: Kit to start, value: A disc and cones, basis: observation }
+    - { label: Officials needed, value: None, basis: rule, rule: disc-spirit-of-the-game }
+    - { label: Contact, value: Prohibited, basis: rule, rule: disc-1968-ultimate-codified }
+    - { label: Time to a real game, value: One session, basis: judgement }
+
+mastery:
+  verdict: high
+  claim: Elite endurance and disc skill, plus refereeing your opponent in the middle of the point.
+  why: >
+    The physical demand is genuine and underestimated. Ultimate is played in
+    repeated maximal sprints with the disc in the air for long periods, on a
+    hundred-metre field, in tournaments of several matches a day. Elite
+    cutters cover distances comparable to other invasion sports at higher
+    intensity per point.
+
+    The disc adds a skill no other sport has: it flies on an aerodynamic curve
+    that the thrower shapes at release, so throwing into wind, around a marker
+    and to a moving receiver is a genuinely deep technical craft. The defence's
+    equivalent — reading a disc in flight and timing a block — is harder still,
+    because a disc decelerates and can be caught up with.
+
+    What lifts the ceiling above comparable sports is the officiating burden.
+    An elite player must call fouls against an opponent, accept calls made
+    against them, and argue accurately about contact they were part of, at the
+    exact moment they are least disinterested. No other sport at this level
+    asks its athletes to do that, and the sport's own long-running argument
+    about observers is evidence of how hard it is.
+  evidence:
+    - label: Self-officiation
+      value: Required
+      basis: rule
+      rule: disc-spirit-of-the-game
+      note: An athlete must compete and adjudicate simultaneously.
+    - label: Observers at elite level
+      value: Since 2014
+      basis: rule
+      rule: disc-observers-and-referees
+      note: Introduced because self-officiation degrades under competitive pressure.
+    - { label: Stall count, value: 10 s, basis: observation, note: Possession is limited by an opponent counting aloud. }
+    - { label: Typical peak age, value: 24–31, basis: judgement }
+
+gap: >
+  Very low to high, on the smallest equipment budget of any sport on this site.
+
+  The interesting comparison is with flag football, which arrives at a similar
+  gap by deliberately subtracting from an existing sport. Ultimate never had
+  the parts to subtract: it was written in 1968 by students who were reacting
+  against organised sport, and the absence of contact, referees and equipment
+  is original rather than engineered.
+
+  The gap's top half is unusual in kind rather than in size. Most sports get
+  harder at the top because the physical and technical demands rise. Ultimate's
+  do too, and then it adds an obligation — officiate honestly against your own
+  interest, in front of a crowd, in a final — that is a different category of
+  difficulty and cannot be trained the way a throw can.
+
+shaped_by:
+  - disc-spirit-of-the-game
+  - disc-1968-ultimate-codified

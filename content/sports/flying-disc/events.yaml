@@ -1,0 +1,35 @@
+sport: flying-disc
+as_of: 2026-09
+source: wfdf-rules
+standing: primary-named
+summary: >
+  No Olympic events. Ultimate is on the World Games programme and WFDF holds
+  world championships across several disc sports, of which disc golf is by a
+  distance the most played and the least visible on any multi-sport programme.
+disciplines:
+  - id: ultimate
+    label: Ultimate
+    blurb: Seven a side outdoors, self-officiated, played to 15 points.
+    events:
+      - { id: open, label: Open division, at: [world-games, world-championship] }
+      - { id: women, label: Women's division, at: [world-games, world-championship] }
+      - { id: mixed, label: Mixed division, at: [world-games, world-championship], note: "Four and three, and a full championship division rather than a supplementary event — which very few sports can say." }
+  - id: other-disc
+    label: The other disc sports
+    counts: false
+    blurb: >
+      Governed by the same federation under separate rulebooks. Disc golf has
+      far more participants worldwide than ultimate and appears on no
+      multi-sport programme at all.
+    events:
+      - { id: disc-golf, label: Disc golf, at: [world-championship], note: Throw at a chain basket in as few throws as possible. The largest disc sport by participation. }
+      - { id: freestyle, label: Freestyle, at: [world-championship], note: Judged routines to music, with a partner. }
+      - { id: guts, label: Guts, at: [world-championship], note: Two lines of players throwing at each other at speed. The oldest competitive disc sport. }
+      - { id: field, label: Field events, at: [federation-only], note: Distance, accuracy, and self-caught flight. }
+      - { id: ddc, label: Double disc court, at: [federation-only], note: Two discs in play at once, on two courts. }
+  - id: variants
+    label: Formats of ultimate
+    counts: false
+    events:
+      - { id: beach, label: Beach ultimate, at: [world-championship], note: Five a side on sand. }
+      - { id: indoor, label: Indoor ultimate, at: [federation-only], note: Five a side, widely played in northern Europe in winter. }

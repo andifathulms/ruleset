@@ -1,0 +1,107 @@
+- id: disc-1968-ultimate-codified
+  scope: { sport: flying-disc, discipline: ultimate }
+  date_adopted: 1968
+  date_effective: 1968
+  status: adopted
+  governing_body: Columbia High School, Maplewood, New Jersey
+  what_changed: >
+    Ultimate's founding code: a player in possession of the disc may not run
+    with it, scoring is by completing a pass in the end zone, and a turnover
+    follows any incompletion. There is no offside, no goalkeeper and no
+    equipment beyond the disc.
+
+    The non-running rule is the design decision the whole sport rests on. It
+    makes the disc, not the player, the thing that moves, and it removes at a
+    stroke the collisions that a running ball-carrier produces.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      The game was written by students for students, at a school with no
+      interest in fielding it against anyone, and the early rules were
+      explicitly a reaction against organised competitive sport as they found
+      it.
+  citation:
+    source: wfdf-rules
+    edition: WFDF Rules of Ultimate, section 1
+    missing: true
+
+- id: disc-spirit-of-the-game
+  scope: { sport: flying-disc, discipline: all }
+  date_adopted: 1975
+  date_effective: 1975
+  status: adopted
+  governing_body: Ultimate Players Association, later WFDF
+  what_changed: >
+    Spirit of the Game was written into the rules as a rule: the players
+    officiate themselves, a foul is called by the player who was fouled, a
+    disputed call returns the disc to the thrower, and deliberately breaking
+    the rules is an offence against the sport rather than a tactic with a
+    price.
+
+    It is not a preamble or a code of conduct sitting beside the laws. It is
+    clause one, and every other rule is written on the assumption that no
+    official is present to enforce it.
+  cause_primary: fairness and eligibility
+  cause_secondary: participation and access
+  trigger:
+    description: >
+      The sport had no officials because it had begun without them, and as
+      competition grew it had to decide whether to appoint referees or to make
+      self-officiation explicit. It chose to write the obligation down.
+  citation:
+    source: wfdf-rules
+    edition: WFDF Rules of Ultimate, Spirit of the Game
+    missing: true
+
+- id: disc-1985-federation
+  scope: { sport: flying-disc, discipline: all }
+  date_adopted: 1985
+  date_effective: 1985
+  status: adopted
+  governing_body: World Flying Disc Federation
+  what_changed: >
+    WFDF was formed to govern the disc sports internationally — ultimate,
+    disc golf, freestyle, guts and the individual field events — and to hold a
+    single rulebook across countries that had been diverging.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Ultimate had spread from American colleges to Europe with national
+      bodies writing their own variants, and no mechanism existed to settle a
+      common code.
+  citation:
+    source: wfdf-rules
+    edition: WFDF statutes
+    missing: true
+
+- id: disc-observers-and-referees
+  scope: { sport: flying-disc, discipline: ultimate }
+  date_adopted: 2014
+  date_effective: 2014
+  status: adopted
+  governing_body: WFDF
+  what_changed: >
+    WFDF introduced a game advisor, and elite events increasingly use
+    observers: neutral officials who resolve a dispute the players cannot,
+    rule on line calls and time limits, and may issue misconduct penalties —
+    but who do not call fouls. The foul call stays with the player.
+
+    Some professional leagues went further and appointed full referees, which
+    is a different sport by this site's reckoning: once an official calls
+    fouls, Spirit of the Game is no longer load-bearing.
+  cause_primary: integrity
+  cause_secondary: broadcast and pacing
+  trigger:
+    description: >
+      Self-officiation degrades under sufficient competitive pressure, and
+      televised finals decided by an unresolved dispute between the two players
+      involved were an argument the sport could not win.
+    also_said: >
+      The federation's position is that observers support self-officiation
+      rather than replace it, and the foul call remaining with the players is
+      the line it will not cross. Critics inside the sport say an observer with
+      the power to overrule is a referee that has not been named one.
+  citation:
+    source: wfdf-rules
+    edition: WFDF Rules of Ultimate, Appendix — officials
+    missing: true

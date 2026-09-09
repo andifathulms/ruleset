@@ -1,0 +1,26 @@
+id: flying-disc-scoring
+label: Scoring rate
+unit: points per game
+higher_is_better: true
+absence_kind: impossible
+cannot_exist: >
+  Ultimate cannot have a points-per-game series, and for once the reason is in
+  the laws rather than in the record-keeping.
+
+  The game is played to a score, not to a clock: first to fifteen. The winning
+  team therefore scores fifteen points in almost every match ever played, and
+  a rate built from that measures nothing but the cap. Where a time cap
+  intervenes the totals change, which means the number is a property of the
+  tournament schedule rather than of the sport.
+
+  What could be measured — possessions per point, turnovers per possession,
+  completion rate — is collected by some elite teams and is not published in
+  any consistent, cited form across the sport. It is not entered here.
+
+  This is the same shape of absence as gymnastics', arrived at from the
+  opposite direction: gymnastics changed the scale so the numbers stopped
+  comparing, and ultimate fixed the scale so tightly that the numbers never
+  varied.
+segments: []
+breaks: []
+source: wfdf-rules
