@@ -1256,3 +1256,291 @@
   licence: "CC BY-SA 2.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Olympics_2012_Mixed_Doubles_Final.jpg"
+
+# Baseball.
+
+- id: baseball-knickerbockers
+  sport: baseball
+  file: /images/baseball/knickerbockers-1847.jpg
+  width: 1200
+  height: 953
+  alt: "A daguerreotype said to show members of the New York Knickerbocker Base Ball Club, about 1847."
+  shows: >
+   Identified by its source as Alfred and Alexander Cartwright, William
+   Wheaton, Duncan Curry, Daniel Adams and Henry Anthony: the club whose 1845
+   rules are the first substantial codification. The attribution is the
+   source's, and it is hedged there too.
+  title: "New York Knickerbockers Baseball Club, circa 1847.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:New_York_Knickerbockers_Baseball_Club,_circa_1847.jpg"
+
+- id: baseball-doubleday
+  sport: baseball
+  file: /images/baseball/abner-doubleday.jpg
+  width: 909
+  height: 1200
+  alt: "General Abner Doubleday, photographed by Mathew Brady's studio."
+  shows: >
+   A Union general who died in 1893 without ever claiming to have invented
+   anything. The commission credited him with the game in 1907, fourteen
+   years later, because an American inventor was the answer it had been set
+   up to find.
+  title: "Abner Doubleday - Brady-Handy.jpg"
+  author: "Mathew Brady studio"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Abner_Doubleday_-_Brady-Handy.jpg"
+
+- id: baseball-doubleday-field
+  sport: baseball
+  file: /images/baseball/doubleday-field.jpg
+  width: 1200
+  height: 900
+  alt: "Doubleday Field, Cooperstown, New York, 2009."
+  shows: >
+   The myth has a ballpark, and the Hall of Fame sits in the same small town.
+   Neither is evidence that the game began here; both are evidence of how
+   much the sport wanted it to.
+  title: "Doubleday Field 2009.jpg"
+  author: "Wknight94"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Doubleday_Field_2009.jpg"
+
+- id: baseball-ball
+  sport: baseball
+  file: /images/baseball/ball-stitching.jpg
+  width: 1200
+  height: 1138
+  alt: "The stitching on a minor league baseball, 2021."
+  shows: >
+   Weight, circumference and construction are specified, and have not
+   changed. The argument is about what happens inside that specification: how
+   tightly it is wound, how high the seams stand.
+  title: "Baseball stitching.jpg"
+  author: "OKJaguar"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Baseball_stitching.jpg"
+
+- id: baseball-bushong-1888
+  sport: baseball
+  file: /images/baseball/bushong-1888.jpg
+  width: 790
+  height: 1200
+  alt: "Doc Bushong, Brooklyn's catcher, on an Old Judge cigarette card, 1888."
+  shows: >
+   Posed in a studio, crouched behind a plate. The glove of the period was
+   small and thinly padded; its successors grew through the twentieth century
+   until the rules had to specify a size.
+  title: "Doc Bushong in 1888 Old Judge baseball card, crouching position.jpg"
+  author: "Goodwin & Company"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Doc_Bushong_in_1888_Old_Judge_baseball_card,_crouching_position.jpg"
+
+- id: baseball-gibson
+  sport: baseball
+  file: /images/baseball/gibson-1967.jpg
+  width: 539
+  height: 1200
+  alt: "Bob Gibson of the St. Louis Cardinals, 1967."
+  shows: >
+   The year before his 1.12 earned run average, the season the sport answered
+   by lowering the mound.
+  title: "Bob Gibson 1967.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Bob_Gibson_1967.jpg"
+
+- id: baseball-yastrzemski
+  sport: baseball
+  file: /images/baseball/yastrzemski-1969.jpg
+  width: 363
+  height: 439
+  alt: "Carl Yastrzemski of the Boston Red Sox, 1969."
+  shows: >
+   In 1968 he won the American League batting title at .301, the lowest
+   average ever to win one.
+  title: "Carl Yastrzemski 1969.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Carl_Yastrzemski_1969.jpg"
+
+- id: baseball-shift-1923
+  sport: baseball
+  file: /images/baseball/shift-1923.jpg
+  width: 546
+  height: 851
+  alt: "A newspaper description of the shift used against Cy Williams, May 1923."
+  shows: >
+   The shift is not new. Teams were moving fielders to where a pull hitter
+   hit the ball a century before it was restricted. What changed in the 2010s
+   was the data that told every team where every hitter hit it.
+  title: "Cy Williams defensive shift.jpg"
+  author: "Billy Evans"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Cy_Williams_defensive_shift.jpg"
+
+- id: baseball-shift-2015
+  sport: baseball
+  file: /images/baseball/shift-2015.jpg
+  width: 1200
+  height: 698
+  alt: "The Los Angeles Angels shifting their infield, 2015."
+  shows: >
+   Three infielders on one side of second base. From 2023 two must stand on
+   each side, with both feet on the infield dirt.
+  title: "Angels shift the infield.jpg"
+  author: "Jon Gudorf Photography"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Angels_shift_the_infield.jpg"
+
+- id: baseball-pitch-clock
+  sport: baseball
+  file: /images/baseball/pitch-clock-2023.jpg
+  width: 1200
+  height: 800
+  alt: "The pitch clock at Citi Field, April 2023, its first month in the major leagues."
+  shows: >
+   Thirteen seconds left. A sport that had defined itself by having no clock
+   put one on the gap between pitches, and games got substantially shorter at
+   once.
+  title: "Pitch clock at Citi Field, April 8, 2023.jpg"
+  author: "D. Benjamin Miller"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Pitch_clock_at_Citi_Field,_April_8,_2023.jpg"
+
+- id: baseball-umpire-home
+  sport: baseball
+  file: /images/baseball/umpire-home-plate.jpg
+  width: 1200
+  height: 986
+  alt: "An umpire calling a play at home plate, Washington, between 1910 and 1930."
+  shows: >
+   From the National Photo Company collection at the Library of Congress.
+   Whether the runner's hand reached the plate before the tag is a question
+   of fact about one instant, which is the kind of call replay now settles.
+  title: "Umpire makes the call as the catcher applies tag to ball player sliding into home plate during a baseball game LCCN2005676971.jpg"
+  author: "National Photo Company"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Umpire_makes_the_call_as_the_catcher_applies_tag_to_ball_player_sliding_into_home_plate_during_a_baseball_game_LCCN2005676971.jpg"
+
+- id: baseball-under-review
+  sport: baseball
+  file: /images/baseball/play-under-review-2016.jpg
+  width: 1200
+  height: 800
+  alt: "\"Play Under Review\" on the scoreboard at Camden Yards, Baltimore, 2016."
+  shows: >
+   The manager's challenge, two seasons after replay expanded to cover most
+   of the sport. The replay on the lower screen is the evidence.
+  title: "Play Under Review (26533707215).jpg"
+  author: "Keith Allison"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Play_Under_Review_(26533707215).jpg"
+
+- id: baseball-abs-2025
+  sport: baseball
+  file: /images/baseball/abs-2025.jpg
+  width: 1200
+  height: 675
+  alt: "An automated ball-strike challenge at a Triple-A game in Buffalo, June 2025."
+  shows: >
+   The scoreboard shows a pitch tracked against the zone and the call
+   overturned. Trials like this one in the minor leagues are the background
+   to the argument about the major leagues.
+  title: "Automated Ball-Strike System, 2025.jpg"
+  author: "James161723"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Automated_Ball-Strike_System,_2025.jpg"
+
+- id: baseball-koshien-1947
+  sport: baseball
+  file: /images/baseball/koshien-1947.jpg
+  width: 710
+  height: 1200
+  alt: "Two US soldiers outside Koshien Stadium, around 1947."
+  shows: >
+   Baseball reached Japan in the 1870s and Koshien opened in 1924, so the
+   occupation did not bring the game. It is evidence of the American presence
+   the sport's map follows.
+  title: "Koshien Stadium front 2 1947.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Koshien_Stadium_front_2_1947.jpg"
+
+- id: baseball-havana-2016
+  sport: baseball
+  file: /images/baseball/havana-2016.jpg
+  width: 1200
+  height: 800
+  alt: "Cuba's national team against the Tampa Bay Rays, Estadio Latinoamericano, Havana, March 2016."
+  shows: >
+   An exhibition game played in front of the presidents of both countries.
+   Cuba is one of the handful of nations where baseball is the national game.
+  title: "Cuban National Baseball Team Pitcher Throws Pitch at Exhibition Game Attended by U.S. President Obama, Secretary Kerry in Havana, Cuba (25904225991).jpg"
+  author: "US Department of State"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Cuban_National_Baseball_Team_Pitcher_Throws_Pitch_at_Exhibition_Game_Attended_by_U.S._President_Obama,_Secretary_Kerry_in_Havana,_Cuba_(25904225991).jpg"
+
+- id: baseball-the-diamond
+  sport: baseball
+  slot: "play:field"
+  file: /images/baseball/the-diamond-richmond.jpg
+  width: 1200
+  height: 840
+  alt: "The Diamond, Richmond, Virginia, from above, 2023."
+  shows: >
+   The infield is the fixed part: ninety feet between bases, sixty feet six
+   inches to the plate. The outfield is not standardised, and every park
+   draws its own.
+  title: "The Diamond ballpark in Richmond, Virginia.jpg"
+  author: "Quintin Soloviev"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:The_Diamond_ballpark_in_Richmond,_Virginia.jpg"
+
+- id: baseball-wbc-2023
+  sport: baseball
+  slot: "events"
+  file: /images/baseball/wbc-2023.jpg
+  width: 1200
+  height: 900
+  alt: "Shohei Ohtani pitching for Japan against Italy at the World Baseball Classic, Tokyo, March 2023."
+  shows: >
+   The international tournament the professionals will play in, which is why
+   it, and not the Olympics, is where the best players meet.
+  title: "2023 World Baseball Classic - Italy vs Japan.jpg"
+  author: "Scinsvche"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:2023_World_Baseball_Classic_-_Italy_vs_Japan.jpg"
+
+- id: baseball-fukuoka-2009
+  sport: baseball
+  slot: "events"
+  file: /images/baseball/fukuoka-2009.jpg
+  width: 1200
+  height: 900
+  alt: "Before a Nippon Professional Baseball game, Fukuoka Dome, 2009."
+  shows: >
+   The SoftBank Hawks against the Rakuten Eagles. Japan's league grew
+   independently and is not a feeder to Major League Baseball.
+  title: "Pre-game Activities (3794696304).jpg"
+  author: "JoshBerglund19"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Pre-game_Activities_(3794696304).jpg"
