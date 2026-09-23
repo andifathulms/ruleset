@@ -138,6 +138,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="17" cy="42" r="1.6" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // A glove: made compulsory in 1867 to protect people, and argued about
+  // ever since for what it lets them do to each other.
+  boxing: (
+    <>
+      <path d="M22 40 C19 26 27 12 40 13 C51 14 55 25 52 36 C50 43 45 46 38 46 L27 46 C24 46 22.5 43.5 22 40 Z" />
+      <path d="M23.5 38 C16.5 38 14.5 30 18.5 26.5 C22 23.5 27 26 27.5 31 C28 34.5 26.5 37.5 23.5 38 Z" />
+      <rect x="25" y="46" width="21" height="9" rx="1.5" />
+      <path d="M32 46 L32 55 M39 46 L39 55" fill="none" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
