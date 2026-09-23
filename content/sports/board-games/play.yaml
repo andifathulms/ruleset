@@ -24,9 +24,9 @@ sections:
       The three share a board and almost nothing else. Go is additive — stones
       are placed and stay. Chess and xiangqi are subtractive and positional.
     facts:
-      - { label: Chess, value: 64 squares, 32 pieces }
-      - { label: Go, value: 361 intersections, stones placed and not moved }
-      - { label: Xiangqi, value: Played on intersections, with a river and a palace }
+      - { label: Chess, value: "64 squares, 32 pieces" }
+      - { label: Go, value: "361 intersections, stones placed and not moved" }
+      - { label: Xiangqi, value: "Played on intersections, with a river and a palace" }
 
   - id: field
     label: The board
@@ -61,7 +61,7 @@ sections:
       players are screened, because a phone is a stronger player than any human
       alive.
     facts:
-      - { label: Equipment, value: A board, pieces and a clock }
+      - { label: Equipment, value: "A board, pieces and a clock" }
       - { label: Prohibited, value: Any electronic device }
     shaped_by: [board-anti-cheating-regime]
 
@@ -77,7 +77,7 @@ sections:
       conduct, devices and time.
     facts:
       - { label: Players, value: "2" }
-      - { label: Arbiter, value: Enforces conditions, not play }
+      - { label: Arbiter, value: "Enforces conditions, not play" }
 
   - id: duration
     label: Time
@@ -105,8 +105,8 @@ sections:
       every game, calibrated so that a difference in rating predicts an expected
       score. It orders every rated player in the world on one scale.
     facts:
-      - { label: Result, value: 1, ½ or 0 }
-      - { label: Rating, value: A continuous scale, updated by results }
+      - { label: Result, value: "1, ½ or 0" }
+      - { label: Rating, value: "A continuous scale, updated by results" }
     shaped_by: [board-1924-fide]
 
   - id: restarts
