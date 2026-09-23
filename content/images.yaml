@@ -1003,3 +1003,256 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:1962-07_Husson-01.png"
+
+# Badminton.
+
+- id: badminton-chardin
+  sport: badminton
+  file: /images/badminton/chardin-1737.jpg
+  width: 900
+  height: 1092
+  alt: "Jean-Siméon Chardin, Girl with Racket and Shuttlecock, 1737."
+  shows: >
+   The parent game in Europe: a racket, a feathered shuttle, and no net, no
+   court and no score. It is played by keeping the shuttle up, not by making
+   the other side miss.
+  title: "Jean Siméon Chardin - Girl with Racket and Shuttlecock - WGA04765.jpg"
+  author: "Jean-Baptiste-Siméon Chardin"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Jean_Sim%C3%A9on_Chardin_-_Girl_with_Racket_and_Shuttlecock_-_WGA04765.jpg"
+
+- id: badminton-hagoita
+  sport: badminton
+  file: /images/badminton/kiyotomo-hagoita.jpg
+  width: 960
+  height: 973
+  alt: "A woman holding a shuttlecock, with a battledore tucked under her arm. Detail of a Japanese hanging scroll."
+  shows: >
+   The same game in Japan, where it is played at New Year with a flat wooden
+   paddle, the hagoita. The Metropolitan Museum attributes the scroll to
+   Torii Kiyotomo. It is evidence that the game was played widely in Asia,
+   not of where badminton came from.
+  title: "Woman with Battledore and Shuttlecock MET DP-15656-002.jpg"
+  author: "Torii Kiyotomo (attributed); Metropolitan Museum of Art"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Woman_with_Battledore_and_Shuttlecock_MET_DP-15656-002.jpg"
+
+- id: badminton-badminton-house
+  sport: badminton
+  file: /images/badminton/badminton-house-1909.jpg
+  width: 1200
+  height: 864
+  alt: "Badminton House, Gloucestershire, the east front, photographed for In English Homes in 1909."
+  shows: >
+   The Duke of Beaufort's house, which gave the game its name. The house is
+   evidence of the name, not of where the rules were written.
+  title: "In English Homes Vol 3 Badminton House Gloucestershire east front 31295005735708 0260.jpg"
+  author: "Charles Latham"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:In_English_Homes_Vol_3_Badminton_House_Gloucestershire_east_front_31295005735708_0260.jpg"
+
+- id: badminton-garden-1908
+  sport: badminton
+  file: /images/badminton/garden-court-1908.jpg
+  width: 1200
+  height: 956
+  alt: "A game on a lined garden court, Deseronto, Ontario, August 1908."
+  shows: >
+   Fifteen years after the first widely adopted laws. The court is marked out
+   with its service lines, on a lawn rather than an indoor floor.
+  title: "\"Badminton Court, Aug. '08\" (3777414523).jpg"
+  author: "Deseronto Archives"
+  licence: "No known copyright restrictions"
+  licence_url: "https://www.flickr.com/commons/usage/"
+  source_url: "https://commons.wikimedia.org/wiki/File:%22Badminton_Court,_Aug._%2708%22_(3777414523).jpg"
+
+- id: badminton-court-1911
+  sport: badminton
+  slot: "play:field"
+  file: /images/badminton/court-diagram-1911.jpg
+  width: 420
+  height: 747
+  alt: "The court, as drawn in the 1911 Encyclopædia Britannica."
+  shows: >
+   44 feet by 20 feet, with the short and long service lines. That is 13.4 by
+   6.1 metres, today's doubles court exactly: the court is one of the things
+   the sport has not changed.
+  title: "Badminton 1.png"
+  author: "Encyclopædia Britannica, 11th edition"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Badminton_1.png"
+
+- id: badminton-scoreboard-2018
+  sport: badminton
+  slot: "play:scoring"
+  file: /images/badminton/scoreboard-2018.jpg
+  width: 1200
+  height: 1026
+  alt: "A mixed doubles match at the 2018 Asian Games, Jakarta, with the scoreboard in view."
+  shows: >
+   One game finished at 21–17 and the next under way at 5–3. Under the side-
+   out scoring used until 2006, only the server could score and most games
+   went to 15, so neither number could have appeared.
+  title: "Badminton Asian Games 2018 - Individual Event Day 3.jpg"
+  author: "Griff88"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Badminton_Asian_Games_2018_-_Individual_Event_Day_3.jpg"
+
+- id: badminton-feather
+  sport: badminton
+  file: /images/badminton/feather-shuttle.jpg
+  width: 1200
+  height: 900
+  alt: "A feathered shuttlecock: sixteen feathers set in a cork base."
+  shows: >
+   The top-level shuttle, still made this way because the sport chose to keep
+   how it flies.
+  title: "Koogan badminton feather shuttlecock 01.JPG"
+  author: "Stanislas PERRIN"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Koogan_badminton_feather_shuttlecock_01.JPG"
+
+- id: badminton-plastic
+  sport: badminton
+  file: /images/badminton/plastic-shuttle.jpg
+  width: 675
+  height: 1200
+  alt: "A synthetic shuttlecock, 2022."
+  shows: >
+   Cheaper and far more durable than feathers, and approved for general play.
+   It decelerates differently, which is the reason it is not used at the top.
+  title: "Plastic cock.jpg"
+  author: "Janakiraman janaki"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Plastic_cock.jpg"
+
+- id: badminton-paris-2024
+  sport: badminton
+  file: /images/badminton/paris-2024.jpg
+  width: 1200
+  height: 900
+  alt: "The Olympic badminton court at the Porte de la Chapelle arena, Paris 2024."
+  shows: >
+   Badminton has been on the Olympic programme since 1992. Its two rule
+   changes with the clearest triggers, rally scoring and the post-2012 draw,
+   are both about how the sport performs inside a Games.
+  title: "Épreuve Badminton Jeux Olympiques 2024 Arena Porte Chapelle - Paris XVIII (FR75) - 2024-07-28 - 25.jpg"
+  author: "Chabe01"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:%C3%89preuve_Badminton_Jeux_Olympiques_2024_Arena_Porte_Chapelle_-_Paris_XVIII_(FR75)_-_2024-07-28_-_25.jpg"
+
+- id: badminton-officials
+  sport: badminton
+  file: /images/badminton/umpire-service-judge.jpg
+  width: 1200
+  height: 800
+  alt: "A mixed doubles pair and their opponents with the umpire and service judge, BWF World Senior Championships, Ankara."
+  shows: >
+   The two officials in blue are the umpire and the service judge: the second
+   exists to watch one thing, the serve.
+  title: "Ankara 4P5C4537 (28614563788).jpg"
+  author: "Murray Foubister"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ankara_4P5C4537_(28614563788).jpg"
+
+- id: badminton-istora-2026
+  sport: badminton
+  file: /images/badminton/istora-senayan-2026.jpg
+  width: 1200
+  height: 900
+  alt: "Istora Senayan, Jakarta, during the 2026 Indonesia Open."
+  shows: >
+   Where the sport is watched: a national arena, in a country that is one of
+   the handful winning nearly all the medals.
+  title: "Istora Senayan - Indonesia Open 2026 (1).jpg"
+  author: "Griff88"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Istora_Senayan_-_Indonesia_Open_2026_(1).jpg"
+
+- id: badminton-lin-dan-2012
+  sport: badminton
+  file: /images/badminton/lin-dan-2012.jpg
+  width: 856
+  height: 1200
+  alt: "Lin Dan of China in the Olympic men's singles final, London 2012."
+  shows: >
+   He won it, his second Olympic title. China is one of the seven nations
+   that take very nearly all the medals.
+  title: "Lin Dan Returns The Shuttlecock (7758849992).jpg"
+  author: "Antony Stanley"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lin_Dan_Returns_The_Shuttlecock_(7758849992).jpg"
+
+- id: badminton-axelsen-2018
+  sport: badminton
+  file: /images/badminton/axelsen-2018.jpg
+  width: 1200
+  height: 1065
+  alt: "Viktor Axelsen of Denmark at the Indonesia Masters, 2018."
+  shows: >
+   Denmark is the exception the section describes: the one European nation
+   that has stayed competitive, on the strength of a deep club system.
+  title: "Viktor Axelsen - Indonesia Masters 2018.jpg"
+  author: "Fauziananta"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Viktor_Axelsen_-_Indonesia_Masters_2018.jpg"
+
+- id: badminton-lee-2012
+  sport: badminton
+  slot: "events"
+  file: /images/badminton/lee-chong-wei-2012.jpg
+  width: 1200
+  height: 1108
+  alt: "Lee Chong Wei of Malaysia in the Olympic men's singles final, London 2012."
+  shows: >
+   Men's singles, and the event's defining rivalry of its era. He lost this
+   final to Lin Dan, the second of his three Olympic silver medals.
+  title: "Lee Chong Wei Prepares To Smash.jpg"
+  author: "Antony Stanley"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lee_Chong_Wei_Prepares_To_Smash.jpg"
+
+- id: badminton-wd-2008
+  sport: badminton
+  slot: "events"
+  file: /images/badminton/womens-doubles-2008.jpg
+  width: 1200
+  height: 800
+  alt: "The women's doubles final at the Beijing Olympics, 2008: South Korea against China."
+  shows: >
+   Women's doubles. Four years later, four pairs in this event were
+   disqualified for trying to lose.
+  title: "2008 Summer Olympics Badminton – Women's doubles final.jpg"
+  author: "Tom Thai"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2008_Summer_Olympics_Badminton_%E2%80%93_Women%27s_doubles_final.jpg"
+
+- id: badminton-xd-2012
+  sport: badminton
+  slot: "events"
+  file: /images/badminton/mixed-doubles-2012.jpg
+  width: 1200
+  height: 797
+  alt: "The mixed doubles final at London 2012, two Chinese pairs."
+  shows: >
+   Mixed doubles, in which each pair is a man and a woman. Both finalists
+   were Chinese, one more measure of how concentrated the sport's medals are.
+  title: "Olympics 2012 Mixed Doubles Final.jpg"
+  author: "Peter"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Olympics_2012_Mixed_Doubles_Final.jpg"
