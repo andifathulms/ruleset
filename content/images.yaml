@@ -2483,3 +2483,239 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Nurgyul_Salimova_at_the_Chess_Olympiad_2022_in_Chennai.jpg"
+
+# Boules sports.
+
+- id: boules-zamacois-1868
+  sport: boules
+  file: /images/boules/zamacois-1868.jpg
+  width: 923
+  height: 1200
+  alt: "Eduardo Zamacois, Jesters Playing Cochonnet, 1868."
+  shows: >
+   A painting, and a costume piece, not a record of how anyone played. It is
+   evidence that the throw-to-a-jack game was old and familiar enough to
+   paint as a scene from the past.
+  title: "Eduardo Zamacois - Jesters Playing “Cochonnet” - Google Art Project.jpg"
+  author: "Eduardo Zamacois y Zabala"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Eduardo_Zamacois_-_Jesters_Playing_%E2%80%9CCochonnet%E2%80%9D_-_Google_Art_Project.jpg"
+
+- id: boules-cannes-1905
+  sport: boules
+  file: /images/boules/cannes-1905.jpg
+  width: 965
+  height: 640
+  alt: "A game of boules at Cannes, on a postcard of 1905."
+  shows: >
+   Jeu provençal, two years before pétanque by the sport's own account: a
+   long pitch across open ground, played by men standing well back from the
+   target.
+  title: "Cannes jeu provençal.jpg"
+  author: "LL (postcard publisher)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Cannes_jeu_proven%C3%A7al.jpg"
+
+- id: boules-la-ciotat-plaque
+  sport: boules
+  file: /images/boules/la-ciotat-plaque.jpg
+  width: 965
+  height: 658
+  alt: "The plaque at the boulodrome in La Ciotat: \"C'est en l'an 1910 sur ce terrain que fut créé le jeu de pied-tanqué.\""
+  shows: >
+   The sport's own memorial dates the invention to 1910, not the 1907 usually
+   given, and spells the game "pied-tanqué". It is exactly the kind of folk
+   history the section says this is.
+  title: "La Ciotat Boulodrome Jules Le Noir.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:La_Ciotat_Boulodrome_Jules_Le_Noir.jpg"
+
+- id: boules-glackens-1930
+  sport: boules
+  file: /images/boules/glackens-1930.jpg
+  width: 608
+  height: 439
+  alt: "William Glackens, Bowlers, La Ciotat, 1930."
+  shows: >
+   The game in the town where it began, about two decades on, painted by an
+   American visitor: a handful of men on open ground under the trees.
+  title: "'Bowlers, La Ciotat', 1930, William Glackens, Nova Southeastern University Museum of Art.jpg"
+  author: "William James Glackens"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:%27Bowlers,_La_Ciotat%27,_1930,_William_Glackens,_Nova_Southeastern_University_Museum_of_Art.jpg"
+
+- id: boules-drome-village
+  sport: boules
+  file: /images/boules/drome-village.jpg
+  width: 1200
+  height: 876
+  alt: "Boules players on a village square in the Drôme."
+  shows: >
+   A square, a few trees, and whoever turned up. The whole requirement is
+   ground, which is why removing the run-up made this a game for anybody.
+  title: "Joueurs de boules sur la place d'un village de la Drôme (34331475640).jpg"
+  author: "Médiathèques Valence Romans Agglomération"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Joueurs_de_boules_sur_la_place_d%27un_village_de_la_Dr%C3%B4me_(34331475640).jpg"
+
+- id: boules-studded-boule
+  sport: boules
+  file: /images/boules/studded-boule.jpg
+  width: 735
+  height: 740
+  alt: "A boule covered in iron studs."
+  shows: >
+   The surface of hammered nail heads that reinforced wooden boules through
+   the nineteenth century, before steel replaced them in the 1920s.
+  title: "Boule ferrée.jpg"
+  author: "Tapautour"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Boule_ferr%C3%A9e.jpg"
+
+- id: boules-steel-boules
+  sport: boules
+  file: /images/boules/steel-boules.jpg
+  width: 1107
+  height: 1167
+  alt: "A set of steel competition boules and a jack."
+  shows: >
+   Hollow steel, and chosen within the weight and size limits: heavier ones
+   sit where they land, lighter ones travel. The small green ball is the
+   jack, the one target in sport that the play itself moves.
+  title: "Boules set.jpg"
+  author: "Chauki"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Boules_set.jpg"
+
+- id: boules-measuring
+  sport: boules
+  file: /images/boules/measuring-cotonou.jpg
+  width: 1200
+  height: 1200
+  alt: "A player measuring the distance from a boule to the jack, Cotonou, Benin."
+  shows: >
+   The players settle the sport's central question themselves, with a tape on
+   the ground; an umpire is called only when they cannot agree.
+  title: "Joueur de Pétanque.jpg"
+  author: "Domingo Daniella Rhode"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Joueur_de_P%C3%A9tanque.jpg"
+
+- id: boules-shooting-greoux
+  sport: boules
+  file: /images/boules/shooting-greoux.jpg
+  width: 1200
+  height: 886
+  alt: "Shooting at pétanque, Gréoux-les-Bains, 2006."
+  shows: >
+   A tireur, knocking an opponent's boule away rather than placing his own:
+   the shot that destroys a position instead of improving one.
+  title: "Gréoux-les-Bains Pétanque.jpg"
+  author: "ADT 04"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Gr%C3%A9oux-les-Bains_P%C3%A9tanque.jpg"
+
+- id: boules-sea-games-2019
+  sport: boules
+  file: /images/boules/sea-games-2019.jpg
+  width: 1200
+  height: 900
+  alt: "Thailand against Laos in the women's triples at the 2019 Southeast Asian Games."
+  shows: >
+   Thailand is the country that took up the game on purpose and became a
+   leading nation; Laos is one that inherited it from French rule.
+  title: "THA vs LAO - Petanque W3s 2019 Southeast Asian Games.jpg"
+  author: "Roel Balingit"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:THA_vs_LAO_-_Petanque_W3s_2019_Southeast_Asian_Games.jpg"
+
+- id: boules-luxembourg-terrain
+  sport: boules
+  slot: "play:field"
+  file: /images/boules/luxembourg-terrain.jpg
+  width: 1200
+  height: 900
+  alt: "The pétanque terrain in the Jardin du Luxembourg, Paris, 2016."
+  shows: >
+   Gravel over earth, with whatever stones and ruts it has. The terrain is
+   not standardised, and reading it is part of the game.
+  title: "Paris 75006 Jardin du Luxembourg Pétanque 20160417.jpg"
+  author: "Jason Riedy"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Paris_75006_Jardin_du_Luxembourg_P%C3%A9tanque_20160417.jpg"
+
+- id: boules-marseillaise-terrain
+  sport: boules
+  file: /images/boules/marseillaise-terrain.jpg
+  width: 1200
+  height: 750
+  alt: "The terrain d'honneur for the finals of the Mondial la Marseillaise, Marseille, 2022."
+  shows: >
+   A prepared championship pitch inside a stand: the kind of consistency the
+   proposals ask for, and the opposite of the ground the game was made to be
+   played on.
+  title: "Mondial la Marseillaise à pétanque - terrain d'honneur.jpg"
+  author: "Marianne Casamance"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Mondial_la_Marseillaise_%C3%A0_p%C3%A9tanque_-_terrain_d%27honneur.jpg"
+
+- id: boules-precision-2006
+  sport: boules
+  slot: "events"
+  file: /images/boules/precision-shooting-2006.jpg
+  width: 605
+  height: 1200
+  alt: "Dylan Rocher in the precision shooting competition, European Junior Championships, Martigny, 2006."
+  shows: >
+   Precision shooting, contested on its own: set targets, a clock, and no
+   opponent's position to read.
+  title: "Dylan Rocher TIR.jpg"
+  author: "Buahaha"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Dylan_Rocher_TIR.jpg"
+
+- id: boules-lyonnaise-2016
+  sport: boules
+  slot: "events"
+  file: /images/boules/lyonnaise-2016.jpg
+  width: 1200
+  height: 800
+  alt: "The French boule lyonnaise championship at L'Arbresle, 2016."
+  shows: >
+   A different code: a long lane and a run-up, the game pétanque was created
+   by simplifying.
+  title: "Boule lyonnaise - Championnat de France à Arbresle.jpg"
+  author: "Renhour48"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Boule_lyonnaise_-_Championnat_de_France_%C3%A0_Arbresle.jpg"
+
+- id: boules-guignol-1895
+  sport: boules
+  slot: "events"
+  file: /images/boules/guignol-1895.jpg
+  width: 993
+  height: 1200
+  alt: "Guignol at a boules contest, from the Lyon républicain, July 1895."
+  shows: >
+   A newspaper cartoon of the Lyon game twelve years before pétanque: the
+   codes had their own cultures well before the confederation grouped them.
+  title: "Guignol au concours de boules du Lyon républicain (1895).jpg"
+  author: "Bibliothèque municipale de Lyon (Numelyo)"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Guignol_au_concours_de_boules_du_Lyon_r%C3%A9publicain_(1895).jpg"
