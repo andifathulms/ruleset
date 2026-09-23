@@ -26,7 +26,7 @@ sections:
       to say about it, which makes boxing one of the few sports here where the
       venue specification carries no consequence at all.
     facts:
-      - { label: Ring, value: 6.1 m square, note: Inside the ropes, at international level. }
+      - { label: Ring, value: 6.1 m square, note: "Inside the ropes, at international level." }
       - { label: Ropes, value: "4" }
 
   - id: equipment
@@ -44,7 +44,7 @@ sections:
     facts:
       - { label: "Headguard, elite men", value: Removed 2013 }
       - { label: "Headguard, women and juniors", value: Retained }
-      - { label: Glove weight, value: 10 oz or 12 oz, by category }
+      - { label: Glove weight, value: "10 oz or 12 oz, by category" }
       - { label: Mouthguard, value: Compulsory }
     shaped_by: [aiba-1984-headguards, aiba-2013-headguards-removed]
 
