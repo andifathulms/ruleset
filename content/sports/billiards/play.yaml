@@ -44,9 +44,9 @@ sections:
       A player from one code cannot walk to another's table and compete. That
       is the confederation's central problem stated physically.
     facts:
-      - { label: Carom table, value: About 10 × 5 ft, no pockets }
-      - { label: Pool table, value: 9 × 4.5 ft, six pockets }
-      - { label: Snooker table, value: 12 × 6 ft, tight pockets }
+      - { label: Carom table, value: "About 10 × 5 ft, no pockets" }
+      - { label: Pool table, value: "9 × 4.5 ft, six pockets" }
+      - { label: Snooker table, value: "12 × 6 ft, tight pockets" }
 
   - id: equipment
     label: Cues and balls
@@ -62,7 +62,7 @@ sections:
     facts:
       - { label: Carom, value: 3 balls }
       - { label: Pool, value: 15 numbered balls and a cue ball }
-      - { label: Snooker, value: 15 reds, 6 colours and a cue ball }
+      - { label: Snooker, value: "15 reds, 6 colours and a cue ball" }
 
   - id: players
     label: Players and officials
@@ -75,7 +75,7 @@ sections:
       everywhere.
     facts:
       - { label: Format, value: One against one }
-      - { label: Referee, value: In the arena, handling the balls }
+      - { label: Referee, value: "In the arena, handling the balls" }
 
   - id: duration
     label: Time
@@ -89,7 +89,7 @@ sections:
       pushing five other sports into rewriting their scoring.
     facts:
       - { label: Traditional, value: Untimed }
-      - { label: Shortened formats, value: Shot clocks, for broadcast }
+      - { label: Shortened formats, value: "Shot clocks, for broadcast" }
 
   - id: scoring
     label: Scoring
