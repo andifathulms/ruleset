@@ -1544,3 +1544,231 @@
   licence: "CC BY 2.0"
   licence_url: "https://creativecommons.org/licenses/by/2.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Pre-game_Activities_(3794696304).jpg"
+
+# Basketball.
+
+- id: basketball-triangle-1892
+  sport: basketball
+  file: /images/basketball/triangle-1892.jpg
+  width: 955
+  height: 623
+  alt: "The first published picture of the game, from The Triangle, 15 January 1892."
+  shows: >
+   The magazine of the Springfield training school printed Naismith's
+   thirteen rules with this illustration: a basket fixed to the gymnasium's
+   balcony rail, and players reaching up to it. The height of that rail
+   became the height of every rim since.
+  title: "Dr. James Naismith's Original 13 Rules of Basket Ball pg 1.jpg"
+  author: "The Triangle (Springfield YMCA training school)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Dr._James_Naismith%27s_Original_13_Rules_of_Basket_Ball_pg_1.jpg"
+
+- id: basketball-naismith
+  sport: basketball
+  file: /images/basketball/naismith-peach-basket.jpg
+  width: 912
+  height: 1200
+  alt: "James Naismith with a soccer ball and a peach basket."
+  shows: >
+   Photographed later in his life with the two objects the game started with.
+   The basket lost its bottom within a few years, and the soccer ball gave
+   way to a moulded ball in the 1940s. Neither change needed a fight.
+  title: "Dr. James Naismith.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Dr._James_Naismith.jpg"
+
+- id: basketball-eurobasket-2017
+  sport: basketball
+  file: /images/basketball/eurobasket-2017.jpg
+  width: 1200
+  height: 799
+  alt: "Finland against Slovenia at EuroBasket 2017, Helsinki."
+  shows: >
+   A FIBA game, on a FIBA court: the arc at 6.75 metres, ten-minute quarters,
+   five fouls. The same sport in the NBA is played to different numbers on
+   each.
+  title: "EuroBasket 2017 Finland vs Slovenia 22.jpg"
+  author: "Tuomas Vitikainen"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:EuroBasket_2017_Finland_vs_Slovenia_22.jpg"
+
+- id: basketball-dream-team-1992
+  sport: basketball
+  file: /images/basketball/dream-team-1992.jpg
+  width: 783
+  height: 1200
+  alt: "David Robinson shooting a free throw for the United States against Puerto Rico, Barcelona 1992."
+  shows: >
+   The first Olympics after FIBA voted in 1989 to let professionals play. The
+   team that came of it made the professional league a global audience, which
+   is how the NBA's rulebook came to pull FIBA's toward it.
+  title: "Dream Team at the 1992 Summer Olympics.JPEG"
+  author: "Ken Hackman, US Air Force"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Dream_Team_at_the_1992_Summer_Olympics.JPEG"
+
+- id: basketball-chamberlain-1967
+  sport: basketball
+  file: /images/basketball/chamberlain-1967.jpg
+  width: 607
+  height: 1200
+  alt: "Wilt Chamberlain at the rim for the Philadelphia 76ers, 1967."
+  shows: >
+   A player tall and athletic enough that the rules around the basket were
+   rewritten in his career: the lane was widened, and offensive goaltending
+   was defined.
+  title: "Wilt Chamberlain 1967.jpeg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Wilt_Chamberlain_1967.jpeg"
+
+- id: basketball-shot-clock
+  sport: basketball
+  file: /images/basketball/shot-clock-2013.jpg
+  width: 962
+  height: 1200
+  alt: "A shot clock at 8 and the game clock at 11.8, above a basket in a 2013 college game."
+  shows: >
+   The rule the Fort Wayne game produced, above every basket. The red digits
+   count down the time left to shoot and the white ones are the game clock:
+   two of the clocks officials have to keep right, and most of what replay is
+   asked to check.
+  title: "Shot clock (red) and game clock (white) in a basketball game.JPG"
+  author: "TonyTheTiger"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Shot_clock_(red)_and_game_clock_(white)_in_a_basketball_game.JPG"
+
+- id: basketball-palawan
+  sport: basketball
+  file: /images/basketball/palawan-2009.jpg
+  width: 1200
+  height: 800
+  alt: "A game on a dirt court in San Vicente, Palawan, the Philippines, 2009."
+  shows: >
+   Two posts, a board, a hoop. The whole requirement fits in the space
+   between houses, which is why the game spreads wherever there is no room
+   for a pitch.
+  title: "San Vicente, Filipino basketball 2, Palawan, Philippines.jpg"
+  author: "Vyacheslav Argenberg"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:San_Vicente,_Filipino_basketball_2,_Palawan,_Philippines.jpg"
+
+- id: basketball-rucker
+  sport: basketball
+  file: /images/basketball/rucker-park-2008.jpg
+  width: 1200
+  height: 900
+  alt: "Rucker Park, Harlem, New York, 2008."
+  shows: >
+   The urban version of the same point: a fenced hard court between apartment
+   blocks, and one of the most famous places in the sport.
+  title: "Rucker Park.jpg"
+  author: "Stefano Brivio"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rucker_Park.jpg"
+
+- id: basketball-lithuania-1937
+  sport: basketball
+  file: /images/basketball/lithuania-1937.jpg
+  width: 593
+  height: 319
+  alt: "Lithuania's team after winning EuroBasket 1937, their first European title."
+  shows: >
+   FIBA had been founded five years earlier. The international game had its
+   own champions long before the professionals were allowed into it.
+  title: "Lithuania national basketball team - EuroBasket 1937 champions.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Lithuania_national_basketball_team_-_EuroBasket_1937_champions.jpg"
+
+- id: basketball-yao-2006
+  sport: basketball
+  file: /images/basketball/yao-ming-2006.jpg
+  width: 1200
+  height: 1030
+  alt: "Yao Ming of the Houston Rockets, Washington, 2006."
+  shows: >
+   One of the generation of players from outside the United States who came
+   into the professional league after 1992, the movement that FIBA's 2010
+   changes to the court were made to accommodate.
+  title: "Yao Ming (2310531857).jpg"
+  author: "Keith Allison"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Yao_Ming_(2310531857).jpg"
+
+- id: basketball-court
+  sport: basketball
+  slot: "play:field"
+  file: /images/basketball/court-terms.jpg
+  width: 783
+  height: 1200
+  alt: "The court and its markings, labelled, on the dimensions of an NBA court."
+  shows: >
+   The arc, the key and, under the basket, the restricted area: the
+   semicircle inside which a defender cannot draw a charge. Basketball
+   legislates where you may stand, and this is the map of it.
+  title: "Basketball terms.png"
+  author: "Lencer"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Basketball_terms.png"
+
+- id: basketball-womens-final-2012
+  sport: basketball
+  slot: "events"
+  file: /images/basketball/womens-final-2012.jpg
+  width: 1200
+  height: 795
+  alt: "The women's Olympic final, London 2012."
+  shows: >
+   Women's basketball entered the Olympic programme in 1976, forty years
+   after the men's.
+  title: "Womens basketball final at London Olympics 2012.jpg"
+  author: "saw2th"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Womens_basketball_final_at_London_Olympics_2012.jpg"
+
+- id: basketball-wheelchair-2024
+  sport: basketball
+  slot: "events"
+  file: /images/basketball/wheelchair-paris-2024.jpg
+  width: 1200
+  height: 857
+  alt: "Wheelchair basketball, the Netherlands against Japan, Paris 2024 Paralympics."
+  shows: >
+   Governed by its own federation under adapted rules, on the same court and
+   at the same rim height.
+  title: "2024 Summer Paralympics women's wheelchair basketball, Netherlands vs Japan 11.jpg"
+  author: "Gail Leenstra"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2024_Summer_Paralympics_women%27s_wheelchair_basketball,_Netherlands_vs_Japan_11.jpg"
+
+- id: basketball-rim
+  sport: basketball
+  file: /images/basketball/rim-and-net.jpg
+  width: 1200
+  height: 946
+  alt: "A ball dropping through the rim."
+  shows: >
+   A regulation rim is three metres and five centimetres from the floor, as
+   it has been since 1891. The players have grown and the rim has not, and
+   nobody proposes raising it, because every record would stop meaning
+   anything.
+  title: "Basketball through hoop.jpg"
+  author: "Kerelin Molina, US Air Force"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Basketball_through_hoop.jpg"
