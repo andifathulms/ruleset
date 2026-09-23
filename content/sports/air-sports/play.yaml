@@ -23,7 +23,7 @@ sections:
 
       What unites them is the medium and the federation, not the contest.
     facts:
-      - { label: Disciplines, value: Gliding, ballooning, parachuting, paragliding, hang gliding, aerobatics, aeromodelling, drones }
+      - { label: Disciplines, value: "Gliding, ballooning, parachuting, paragliding, hang gliding, aerobatics, aeromodelling, drones" }
 
   - id: field
     label: The air
@@ -43,7 +43,7 @@ sections:
     facts:
       - { label: Playing surface, value: The atmosphere }
       - { label: Standardised, value: Only in drone racing }
-      - { label: Gliding lift, value: Thermal, ridge and mountain wave }
+      - { label: Gliding lift, value: "Thermal, ridge and mountain wave" }
 
   - id: equipment
     label: Aircraft
@@ -63,7 +63,7 @@ sections:
       disadvantage.
     facts:
       - { label: Gliding, value: Classes by wingspan or standard specification }
-      - { label: Certification, value: Airworthiness, not just fairness }
+      - { label: Certification, value: "Airworthiness, not just fairness" }
 
   - id: players
     label: Competitors and officials
@@ -90,7 +90,7 @@ sections:
       The federation's disciplines have less in common in duration than in
       anything else.
     facts:
-      - { label: Gliding task, value: Hours, weather permitting }
+      - { label: Gliding task, value: "Hours, weather permitting" }
       - { label: Drone race, value: About a minute }
 
   - id: scoring
