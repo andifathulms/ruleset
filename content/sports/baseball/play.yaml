@@ -54,7 +54,7 @@ sections:
       that correlate with it.
     facts:
       - { label: Ball weight, value: 5–5.25 oz }
-      - { label: Bat, value: One piece of solid wood, in professional play }
+      - { label: Bat, value: "One piece of solid wood, in professional play" }
       - { label: Bat diameter, value: 2.61 in max }
 
   - id: players
@@ -71,7 +71,7 @@ sections:
     facts:
       - { label: Fielders, value: "9" }
       - { label: Designated hitter, value: Universal since 2022 }
-      - { label: Umpires, value: 4, or 6 in the postseason }
+      - { label: Umpires, value: "4, or 6 in the postseason" }
     shaped_by: [mlb-1973-designated-hitter, mlb-2022-universal-designated-hitter]
 
   - id: duration
@@ -116,7 +116,7 @@ sections:
       A sport that had never told a player to hurry now does so several hundred
       times a game.
     facts:
-      - { label: Pitch clock, bases empty, value: Set by rule, note: Shortened again since 2023. }
+      - { label: "Pitch clock, bases empty", value: Set by rule, note: Shortened again since 2023. }
       - { label: Violation by pitcher, value: Ball }
       - { label: Violation by batter, value: Strike }
     shaped_by: [mlb-2023-pitch-clock-and-shift-ban]
