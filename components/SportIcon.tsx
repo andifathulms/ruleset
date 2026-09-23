@@ -51,6 +51,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M40 36 L40 47" fill="none" />
     </>
   ),
+  // A feathered shuttle: the cork, the skirt, the thread binding the
+  // feathers. The one piece of kit the sport declined to modernise.
+  badminton: (
+    <>
+      <path d="M25.5 43 L14 11 L50 11 L38.5 43 Z" />
+      <path d="M28.5 43 L23 11 M32 43 L32 11 M35.5 43 L41 11 M18.5 23.5 L45.5 23.5" fill="none" />
+      <path d="M24.5 43 L39.5 43 L39.5 46 A7.5 7.5 0 0 1 24.5 46 Z" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
