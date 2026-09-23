@@ -2955,3 +2955,190 @@
   licence: "Public domain"
   licence_url: ""
   source_url: "https://commons.wikimedia.org/wiki/File:Abmessungen_der_Kegel_neuer_Form.jpg"
+
+# Boxing.
+
+- id: boxing-sullivan
+  sport: boxing
+  file: /images/boxing/sullivan-1882.jpg
+  width: 552
+  height: 1000
+  alt: "John L. Sullivan, photographed by José María Mora in 1882."
+  shows: >
+   The last bare-knuckle heavyweight champion. He lost the title in 1892 in
+   one of the first championship fights under the Queensberry Rules, wearing
+   gloves.
+  title: "John L Sullivan.jpg"
+  author: "José María Mora"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:John_L_Sullivan.jpg"
+
+- id: boxing-queensberry
+  sport: boxing
+  file: /images/boxing/queensberry-1877.jpg
+  width: 219
+  height: 371
+  alt: "The Marquess of Queensberry, caricatured by Leslie Ward (\"Spy\") in Vanity Fair, 1877."
+  shows: >
+   The patron whose name the rules carry. The rules themselves were drafted
+   by John Graham Chambers; the caption to this caricature called the
+   marquess "a good light weight".
+  title: "Marquess of Queensberry 10 November 1877.jpg"
+  author: "Leslie Ward"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Marquess_of_Queensberry_10_November_1877.jpg"
+
+- id: boxing-st-louis-1904
+  sport: boxing
+  file: /images/boxing/st-louis-1904.jpg
+  width: 787
+  height: 1200
+  alt: "A women's bout, captioned as taking place at the St. Louis Games of 1904."
+  shows: >
+   Whatever this was, it was not a medal event. Women's boxing reached the
+   Olympic programme in 2012, the last sport on it to include women.
+  title: "Saint-Louis 1904 - boxing - women's fight.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Saint-Louis_1904_-_boxing_-_women%27s_fight.jpg"
+
+- id: boxing-adams-2012
+  sport: boxing
+  file: /images/boxing/adams-ren-2012.jpg
+  width: 1200
+  height: 857
+  alt: "Nicola Adams against Ren Cancan in the women's flyweight final, London 2012."
+  shows: >
+   The final that made Adams the first woman to win an Olympic boxing title.
+   Both boxers wear headguards, as women still do.
+  title: "Nicola Adams v Cancan Ren, London 2012 (8374473182).jpg"
+  author: "Kent Capture"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Nicola_Adams_v_Cancan_Ren,_London_2012_(8374473182).jpg"
+
+- id: boxing-headguard
+  sport: boxing
+  file: /images/boxing/headguard-2007.jpg
+  width: 1200
+  height: 803
+  alt: "A trainer adjusting a boxer's headguard, Pearl Harbor, 2007."
+  shows: >
+   Compulsory in amateur boxing from 1984, on safety grounds; removed from
+   elite men's competition in 2013, also on safety grounds.
+  title: "US Navy 070119-N-4965F-007 A boxing trainer from USA Boxing Hawaii Association, Inc., adjust the headgear of Electronics Technician 3rd Class Anthony Skillman.jpg"
+  author: "US Navy"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:US_Navy_070119-N-4965F-007_A_boxing_trainer_from_USA_Boxing_Hawaii_Association,_Inc.,_adjust_the_headgear_of_Electronics_Technician_3rd_Class_Anthony_Skillman.jpg"
+
+- id: boxing-tokyo-2020-final
+  sport: boxing
+  file: /images/boxing/tokyo-2020-final.jpg
+  width: 1200
+  height: 800
+  alt: "Oleksandr Khyzhniak against Hebert Conceição in the men's middleweight final, Tokyo 2020."
+  shows: >
+   Elite men, bare-headed. The federation argued that the headguard enlarged
+   the target and made concussion more likely; the same rule was not applied
+   to women or juniors.
+  title: "Oleksandr Khyzhniak vs Hebert Conceição at Tokyo 2020.jpg"
+  author: "Ministry of Youth and Sports of Ukraine"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Oleksandr_Khyzhniak_vs_Hebert_Concei%C3%A7%C3%A3o_at_Tokyo_2020.jpg"
+
+- id: boxing-tokyo-2020-quarterfinal
+  sport: boxing
+  file: /images/boxing/tokyo-2020-quarterfinal.jpg
+  width: 1200
+  height: 800
+  alt: "Khyzhniak against Eumir Marcial in the middleweight quarter-final, Tokyo 2020."
+  shows: >
+   A bout in the tournament the IOC ran itself, with its own rules and
+   qualification system, because the sport had no federation it trusted to.
+  title: "Ukraine at the 2020 Summer Olympics - Khyzhniak v. Marcial 1.jpg"
+  author: "Ministry of Youth and Sports of Ukraine"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ukraine_at_the_2020_Summer_Olympics_-_Khyzhniak_v._Marcial_1.jpg"
+
+- id: boxing-on-the-ropes
+  sport: boxing
+  file: /images/boxing/on-the-ropes-1937.jpg
+  width: 960
+  height: 611
+  alt: "A boxer going down against the ropes, Montreal, July 1937."
+  shows: >
+   The moment the ten count exists for: whether a man can continue, turned
+   from a judgement into ten seconds.
+  title: "Boxing. Barry on the Ropes BAnQ P48S1P01204.jpg"
+  author: "Conrad Poirier"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Boxing._Barry_on_the_Ropes_BAnQ_P48S1P01204.jpg"
+
+- id: boxing-stevenson
+  sport: boxing
+  file: /images/boxing/stevenson-1984.jpg
+  width: 784
+  height: 541
+  alt: "Teófilo Stevenson of Cuba against Olaf Walther, 1984."
+  shows: >
+   Olympic heavyweight champion three times over, and never a professional:
+   the product of the state amateur system the section describes.
+  title: "Bundesarchiv Bild 183-1984-0331-021, Teofilo Stevenson, Olaf Walther.jpg"
+  author: "Thomas Lehmann, Bundesarchiv Bild 183-1984-0331-021"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-1984-0331-021,_Teofilo_Stevenson,_Olaf_Walther.jpg"
+
+- id: boxing-kazakhstan
+  sport: boxing
+  file: /images/boxing/kazakhstan-fans-2018.jpg
+  width: 1200
+  height: 800
+  alt: "Kazakhstan's supporters at the boxing tournament of the 2018 Youth Olympics, Buenos Aires."
+  shows: >
+   One of the countries that produce international boxers from very different
+   structures, and follow them.
+  title: "Kazakhstan cheering at boxing 2018 YOG 01.jpg"
+  author: "BugWarp"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kazakhstan_cheering_at_boxing_2018_YOG_01.jpg"
+
+- id: boxing-katie-taylor
+  sport: boxing
+  file: /images/boxing/katie-taylor-2012.jpg
+  width: 1200
+  height: 799
+  alt: "Katie Taylor of Ireland at the London 2012 Olympics."
+  shows: >
+   She won the lightweight title there: the small-country, club-built version
+   of Olympic boxing success the section records.
+  title: "2012 Summer Olympics Katie Taylor 2.jpg"
+  author: "cormac70"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2012_Summer_Olympics_Katie_Taylor_2.jpg"
+
+- id: boxing-ring
+  sport: boxing
+  slot: "play:field"
+  file: /images/boxing/rio-2016-ring.jpg
+  width: 1200
+  height: 774
+  alt: "The boxing ring at Riocentro, Rio de Janeiro, 2016."
+  shows: >
+   Four ropes around a square of about six metres, judges ringside, and the
+   scoreboard above. The Games where the ten-point must system returned, and
+   the judging controversies that followed.
+  title: "Boxing at Riocentro. OG Rio 2016.jpg"
+  author: "Jonas de Carvalho"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Boxing_at_Riocentro._OG_Rio_2016.jpg"
