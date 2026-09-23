@@ -29,7 +29,7 @@ sections:
       almost nothing to specify, which makes breaking one of the cheapest
       sports on this site to stage.
     facts:
-      - { label: Surface, value: Flat, smooth }
+      - { label: Surface, value: "Flat, smooth" }
       - { label: Staging cost, value: Among the lowest here }
 
   - id: equipment
@@ -83,7 +83,7 @@ sections:
       one dancer beat another by that much on that day, and nothing more.
     facts:
       - { label: Criteria, value: "5" }
-      - { label: Judging, value: Comparative, not absolute }
+      - { label: Judging, value: "Comparative, not absolute" }
       - { label: Result, value: Percentage split of a battle }
     shaped_by: [wdsf-2019-trivium]
 
