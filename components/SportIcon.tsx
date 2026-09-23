@@ -169,6 +169,18 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M38.5 22 C35 26.5 31.5 29 31.5 32 C31.5 34.5 34.5 35.8 37 33.8 L36 38.5 L41 38.5 L40 33.8 C42.5 35.8 45.5 34.5 45.5 32 C45.5 29 42 26.5 38.5 22 Z" fill="#F2F5F1" stroke="none" transform="rotate(10 38 31)" />
     </>
   ),
+  // A kayak from the side: the paddler seated, the double blade. The canoe
+  // is the kneeling, single-bladed other half of the sport.
+  canoeing: (
+    <>
+      <path d="M4 40 C14 45 50 45 60 40 C50 37 14 37 4 40 Z" />
+      <circle cx="32" cy="24" r="3.4" />
+      <path d="M32 27.5 L32 37" fill="none" />
+      <path d="M18 44 L46 20" fill="none" strokeWidth="1.8" />
+      <path d="M14.5 44.5 L18 44 L19.5 48 M46 20 L49.5 19.5 L48 16" fill="#F2F5F1" />
+      <path d="M2 50 C8 48 12 52 18 50 S28 48 34 50 S46 52 52 50 S60 48 62 50" fill="none" strokeOpacity="0.6" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
