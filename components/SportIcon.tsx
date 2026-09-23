@@ -60,6 +60,17 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M24.5 43 L39.5 43 L39.5 46 A7.5 7.5 0 0 1 24.5 46 Z" />
     </>
   ),
+  // The diamond: ninety feet a side, the mound short of its centre, and
+  // the foul lines running on past first and third.
+  baseball: (
+    <>
+      <path d="M32 55 L53 34 L32 13 L11 34 Z" />
+      <path d="M53 34 L61 26 M11 34 L3 26" fill="none" />
+      <circle cx="32" cy="36" r="3.2" fill="none" />
+      <path d="M53 31 L56 34 L53 37 L50 34 Z M32 10 L35 13 L32 16 L29 13 Z M11 31 L14 34 L11 37 L8 34 Z" fill="#F2F5F1" stroke="none" />
+      <path d="M29.5 52.5 L34.5 52.5 L34.5 55 L32 57.5 L29.5 55 Z" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
