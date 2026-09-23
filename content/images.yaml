@@ -631,3 +631,375 @@
   licence: "CC BY 3.0"
   licence_url: "https://creativecommons.org/licenses/by/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Field_archery_freestyle_recurve.jpg"
+
+# Athletics.
+
+- id: athletics-amphora
+  sport: athletics
+  file: /images/athletics/panathenaic-amphora.jpg
+  width: 960
+  height: 1200
+  alt: "Runners on a Panathenaic prize amphora, Athens, about 530 BC."
+  shows: >
+   Attributed to the Euphiletos Painter, in the Metropolitan Museum of Art.
+   Jars like this were the prize for a foot race: evidence that the race is
+   ancient, and that nobody recorded how long it took.
+  title: "Terracotta Panathenaic prize amphora MET DP244583.jpg"
+  author: "Euphiletos Painter (attributed); Metropolitan Museum of Art"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Terracotta_Panathenaic_prize_amphora_MET_DP244583.jpg"
+
+- id: athletics-caber
+  sport: athletics
+  file: /images/athletics/highland-caber.jpg
+  width: 1200
+  height: 900
+  alt: "Tossing the caber at the Helensburgh Highland Games, 2019."
+  shows: >
+   One of the rural games athletics drew its throws from. The caber never
+   became a standardised event, and it shows why: an implement that varies
+   from field to field produces a number nobody can compare.
+  title: "DSCN3696 Caber tossing at Helensburgh Highland Games 2019.jpg"
+  author: "AlasdairW"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:DSCN3696_Caber_tossing_at_Helensburgh_Highland_Games_2019.jpg"
+
+- id: athletics-athens-1896
+  sport: athletics
+  file: /images/athletics/athens-1896-100m.jpg
+  width: 901
+  height: 645
+  alt: "The start of a 100 m heat at the first modern Olympics, Athens, 1896."
+  shows: >
+   Some runners crouch and some stand. The distance was fixed; the start, the
+   surface and the clock were not yet the same from one race to the next.
+  title: "100m Athens 1896 partenza.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:100m_Athens_1896_partenza.jpg"
+
+- id: athletics-javelin-1965
+  sport: athletics
+  file: /images/athletics/javelin-helsinki-1965.jpg
+  width: 1200
+  height: 679
+  alt: "The javelin medallists in Helsinki, June 1965: Terje Pedersen, Jorma Kinnunen and Gergely Kulcsár."
+  shows: >
+   Pedersen, on the left, had become the first man to throw beyond 90 metres
+   the year before. That was the aerodynamic javelin, and the specification
+   was tightened after it.
+  title: "Jorma-Kinnunen-1965.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Jorma-Kinnunen-1965.jpg"
+
+- id: athletics-vaporfly
+  sport: athletics
+  file: /images/athletics/vaporfly-cut.jpg
+  width: 1200
+  height: 669
+  alt: "A Nike Vaporfly Next% being cut in half, 2019."
+  shows: >
+   A frame from a video by Seth James DeMoor. The cut edge shows how deep the
+   foam stack is; the 2020 rules cap it at 40 mm for road shoes and allow one
+   rigid plate inside it. The records set in shoes like this stand.
+  title: "Nike Vaporfly Cut in Half.png"
+  author: "Seth James DeMoor"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Nike_Vaporfly_Cut_in_Half.png"
+
+- id: athletics-thorpe
+  sport: athletics
+  file: /images/athletics/thorpe-1912.jpg
+  width: 1200
+  height: 836
+  alt: "Jim Thorpe in the decathlon pole vault, Stockholm 1912."
+  shows: >
+   Thorpe won the pentathlon and the decathlon here and was stripped of both
+   titles the next year, for having been paid to play baseball. That was the
+   amateur rule doing what it was for: deciding who could compete.
+  title: "1912 Jim Thorpe decathlon.JPG"
+  author: "IOC photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1912_Jim_Thorpe_decathlon.JPG"
+
+- id: athletics-nurmi
+  sport: athletics
+  file: /images/athletics/nurmi-1924.jpg
+  width: 843
+  height: 1200
+  alt: "Paavo Nurmi, in a newspaper photograph of 1924."
+  shows: >
+   The dominant distance runner of the decade, and suspended by the
+   federation in 1932 on grounds of professionalism, so he never ran the
+   Olympic marathon he was preparing for.
+  title: "Paavo Nurmi, 1924 photo.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Paavo_Nurmi,_1924_photo.jpg"
+
+- id: athletics-false-start
+  sport: athletics
+  file: /images/athletics/false-start-2012.jpg
+  width: 1200
+  height: 717
+  alt: "A false start in the women's 100 m hurdles, London 2012."
+  shows: >
+   Two years into the rule that the first false start disqualifies. The
+   athlete who moved, Rahamatou Dramé, was disqualified; there was no warning
+   to give.
+  title: "Hurdling false start, 2012 Olympics.jpg"
+  author: "Tom Page"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Hurdling_false_start,_2012_Olympics.jpg"
+
+- id: athletics-photo-finish-1977
+  sport: athletics
+  file: /images/athletics/photo-finish-1977.jpg
+  width: 648
+  height: 446
+  alt: "The photo-finish image of Marlies Oelsner's 100 m world record, Dresden, 1 July 1977."
+  shows: >
+   10.88 seconds, the first time a woman broke eleven seconds on automatic
+   timing, in the year hand-timed marks stopped counting for sprint records.
+   The camera does not photograph a moment; it photographs the line over
+   time, which is why the runners look stretched.
+  title: "Bundesarchiv Bild 183-S0702-0019, 100m-Weltrekordlauf Marlies Oelsner, Zielfoto.jpg"
+  author: "Bundesarchiv, Bild 183-S0702-0019 (photographer unknown)"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-S0702-0019,_100m-Weltrekordlauf_Marlies_Oelsner,_Zielfoto.jpg"
+
+- id: athletics-bannister-1954
+  sport: athletics
+  file: /images/athletics/bannister-1954.jpg
+  width: 523
+  height: 1200
+  alt: "Roger Bannister, 1954."
+  shows: >
+   Described by its source as the run on 6 May 1954 that produced the first
+   sub-four-minute mile. Its 3:59.4 was taken on stopwatches, the instrument
+   that from 1977 could no longer produce a sprint record.
+  title: "Roger Bannister 1954.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Roger_Bannister_1954.jpg"
+
+- id: athletics-pressure-blocks
+  sport: athletics
+  file: /images/athletics/pressure-blocks-2007.jpg
+  width: 1200
+  height: 835
+  alt: "Pressure-sensitive starting blocks on the 100 m line, 2007 Pan American Games, Rio de Janeiro."
+  shows: >
+   The speaker behind each block carries the gun, so every athlete hears it
+   at the same instant. The sensor in the footplate reports anyone who pushes
+   within 0.100 s of it.
+  title: "PressureSensitiveStartingBlocks.jpg"
+  author: "Andrew Hecker"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:PressureSensitiveStartingBlocks.jpg"
+
+- id: athletics-race-walking
+  sport: athletics
+  file: /images/athletics/race-walking-2026.jpg
+  width: 1200
+  height: 900
+  alt: "Race walking at the 2026 European Athletics Championships."
+  shows: >
+   The one event decided by eye. Nothing in the picture can tell you whether
+   a foot has left the ground; a judge at the roadside has to.
+  title: "20260815 2026 European Athletics Championships – Race walking 383.jpg"
+  author: "Bearas"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:20260815_2026_European_Athletics_Championships_%E2%80%93_Race_walking_383.jpg"
+
+- id: athletics-iten
+  sport: athletics
+  file: /images/athletics/iten-st-patricks.jpg
+  width: 1200
+  height: 800
+  alt: "The honours boards inside St Patrick's High School, Iten, Kenya, 2009."
+  shows: >
+   A school in the Rift Valley whose former pupils include Olympic and world
+   champions, listed here with their events. It is evidence of the
+   concentration the section describes, not of the reason for it.
+  title: "Honor wall inside St. Patrick's High School (4260385571).jpg"
+  author: "edskoch"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Honor_wall_inside_St._Patrick%27s_High_School_(4260385571).jpg"
+
+- id: athletics-bolt-2008
+  sport: athletics
+  file: /images/athletics/bolt-beijing-2008.jpg
+  width: 947
+  height: 1200
+  alt: "Usain Bolt seconds after winning the 100 m, Beijing 2008."
+  shows: >
+   Jamaica is one of the handful of places the section names for sprinting,
+   and the map of the event is as narrow as that.
+  title: "Usain Bolt Olympics Celebration.jpg"
+  author: "Richard Giles"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Usain_Bolt_Olympics_Celebration.jpg"
+
+- id: athletics-ineos
+  sport: athletics
+  file: /images/athletics/ineos-159.jpg
+  width: 1200
+  height: 802
+  alt: "Eliud Kipchoge in the last 200 m of the INEOS 1:59 Challenge, Vienna, October 2019."
+  shows: >
+   The first marathon distance run in under two hours, and not a record: it
+   had rotating pacers, a car projecting the pace on the road, and no open
+   competition. The question of which conditions a record needs, asked of a
+   single run.
+  title: "INEOS 159 Eliud last 200m.jpg"
+  author: "Triathlet 79"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:INEOS_159_Eliud_last_200m.jpg"
+
+- id: athletics-munich-layout
+  sport: athletics
+  slot: "play:field"
+  file: /images/athletics/munich-layout.jpg
+  width: 1200
+  height: 435
+  alt: "Munich's Olympic Stadium laid out for athletics, annotated."
+  shows: >
+   A: the track. B: the steeplechase section. C: javelin runways. D: high
+   jump. E: pole vault. F: hammer and discus cages. G: a shot put circle. H:
+   long and triple jump. Forty-odd events share one arena, and several of
+   them run at once.
+  title: "Layout athletics stadium.jpg"
+  author: "BlackEyedLion"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Layout_athletics_stadium.jpg"
+
+- id: athletics-discus-2kg
+  sport: athletics
+  slot: "play:equipment"
+  file: /images/athletics/discus-2kg.jpg
+  width: 1200
+  height: 875
+  alt: "A men's 2 kg competition discus, marked as IAAF certified."
+  shows: >
+   The implement is the rule: mass, diameter and rim are specified, and the
+   certification mark is what makes a throw with it eligible to count.
+  title: "Sport discus for men (2 kg) IAAF certified.jpg"
+  author: "Karl432"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sport_discus_for_men_(2_kg)_IAAF_certified.jpg"
+
+- id: athletics-fosbury
+  sport: athletics
+  slot: "events"
+  file: /images/athletics/fosbury-1968.jpg
+  width: 910
+  height: 1200
+  alt: "Dick Fosbury clearing the bar at the 1968 US Olympic trials, Los Angeles."
+  shows: >
+   He won the Olympic title that October going over backwards. The rules did
+   not change to allow the flop; the landing mat under the bar is what made
+   it survivable.
+  title: "Dick Fosbury at the 1968 Olympic trials.jpg"
+  author: "Los Angeles Times"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Dick_Fosbury_at_the_1968_Olympic_trials.jpg"
+
+- id: athletics-pole-vault
+  sport: athletics
+  slot: "events"
+  file: /images/athletics/pole-vault-linz.jpg
+  width: 1200
+  height: 800
+  alt: "A pole vaulter on the runway at the Linz athletics gala, 2018."
+  shows: >
+   A pole, a box, a mat and a runway: the event is a facility, which is why
+   its geography is a map of facilities.
+  title: "Leichtathletik Gala Linz 2018 pole vault Hodi-5977.jpg"
+  author: "Isiwal"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Leichtathletik_Gala_Linz_2018_pole_vault_Hodi-5977.jpg"
+
+- id: athletics-hurdles
+  sport: athletics
+  slot: "events"
+  file: /images/athletics/hurdles-beijing-2008.jpg
+  width: 1200
+  height: 726
+  alt: "A men's 110 m hurdles semi-final at the Beijing Olympics, 2008."
+  shows: >
+   Ten barriers at 1.067 m, each in its own lane.
+  title: "2008 Summer Olympics - Men's 110m Hurdles - Semifinal 1.jpg"
+  author: "akiwitz"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2008_Summer_Olympics_-_Men%27s_110m_Hurdles_-_Semifinal_1.jpg"
+
+- id: athletics-long-jump
+  sport: athletics
+  slot: "events"
+  file: /images/athletics/long-jump-2013.jpg
+  width: 1200
+  height: 801
+  alt: "A heptathlete in the long jump at the French championships, Paris, 2013."
+  shows: >
+   The measurement is taken from the take-off line to the nearest mark in the
+   sand, which is why a jump can be won or lost by how the athlete falls.
+  title: "Women heptathlon LJ French Athletics Championships 2013 t144221.jpg"
+  author: "Marie-Lan Nguyen"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Women_heptathlon_LJ_French_Athletics_Championships_2013_t144221.jpg"
+
+- id: athletics-discus
+  sport: athletics
+  slot: "events"
+  file: /images/athletics/discus-2014.jpg
+  width: 1200
+  height: 800
+  alt: "A discus thrower in the cage at DécaNation, Paris, 2014."
+  shows: >
+   The net is there because a 1 kg women's discus leaving the circle at speed
+   is a projectile.
+  title: "2014 DécaNation - Discus throw 20.jpg"
+  author: "Pierre-Yves Beaudouin"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2014_D%C3%A9caNation_-_Discus_throw_20.jpg"
+
+- id: athletics-hammer-1962
+  sport: athletics
+  slot: "events"
+  file: /images/athletics/hammer-cage-1962.jpg
+  width: 899
+  height: 899
+  alt: "Guy Husson throwing the hammer at Boulogne-Billancourt, June 1962."
+  shows: >
+   The uploader's caption notes the cage as a minimal one. Today's rules
+   specify a far larger and taller cage for the hammer and the discus,
+   because an implement released a fraction early leaves the circle at speed.
+  title: "1962-07 Husson-01.png"
+  author: "Lucien.BJ"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:1962-07_Husson-01.png"
