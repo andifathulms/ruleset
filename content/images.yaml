@@ -2008,3 +2008,226 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:2013_Basque_Pelota_World_Cup_01.jpg"
+
+# Billiards sports.
+
+- id: billiards-ground-1480
+  sport: billiards
+  file: /images/billiards/ground-billiards-1480.jpg
+  width: 1200
+  height: 834
+  alt: "French ground billiards, from a woodcut of 1480."
+  shows: >
+   The outdoor game: balls driven along the ground with maces towards a hoop.
+   Everything the table kept, it kept from this, starting with the green of
+   the grass.
+  title: "1480 ground billiards.jpg"
+  author: "Artist unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1480_ground_billiards.jpg"
+
+- id: billiards-mace-1730
+  sport: billiards
+  file: /images/billiards/mace-1730.jpg
+  width: 534
+  height: 386
+  alt: "Three men playing billiards with maces, about 1730."
+  shows: >
+   The game has moved onto a table and still carries the lawn with it: the
+   hoop stands on the cloth, and the players push the ball with the flat head
+   of a mace rather than strike it with a cue.
+  title: "Mace.png"
+  author: "Artist unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Mace.png"
+
+- id: billiards-cue-and-mace
+  sport: billiards
+  file: /images/billiards/cue-and-mace-1859.jpg
+  width: 794
+  height: 521
+  alt: "A man with a cue and a woman with a mace at the same table, from Michael Phelan's The Game of Billiards, 1859."
+  shows: >
+   The transition in one drawing: the cue had taken over the serious game,
+   and the mace was still in use at the same table.
+  title: "Cue and mace.jpg"
+  author: "Michael Phelan"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Cue_and_mace.jpg"
+
+- id: billiards-ivory
+  sport: billiards
+  file: /images/billiards/ivory-balls.jpg
+  width: 1200
+  height: 900
+  alt: "Cues and ivory billiard balls at the Judges' Lodgings, Lancaster."
+  shows: >
+   The material the balls were made from until composites replaced it. Ivory
+   varied in weight and elasticity from ball to ball, and it came from
+   elephants.
+  title: "Cues and ivory billiard balls.JPG"
+  author: "Hazel Maher"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cues_and_ivory_billiard_balls.JPG"
+
+- id: billiards-chalk
+  sport: billiards
+  file: /images/billiards/chalk.jpg
+  width: 1200
+  height: 900
+  alt: "A cube of billiard chalk, worn by use."
+  shows: >
+   Chalk and the leather tip together made it possible to strike the cue ball
+   off centre without miscuing, and so made side, screw and cue-ball control
+   possible.
+  title: "Billiard chalk 20050724 001.jpg"
+  author: "Jonas Bergsten"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Billiard_chalk_20050724_001.jpg"
+
+- id: billiards-carom-table
+  sport: billiards
+  slot: "play:field"
+  file: /images/billiards/carom-table-paris.jpg
+  width: 1200
+  height: 900
+  alt: "A carom table in the Café Zéphyr, Paris, 2007."
+  shows: >
+   No pockets. Nothing is ever removed from this table: a point is scored by
+   making the cue ball touch both object balls.
+  title: "A carom table in Café Zéphyr, Paris, France, 14 January 2007.jpg"
+  author: "David Monniaux"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:A_carom_table_in_Caf%C3%A9_Z%C3%A9phyr,_Paris,_France,_14_January_2007.jpg"
+
+- id: billiards-snooker-table
+  sport: billiards
+  slot: "play:field"
+  file: /images/billiards/snooker-table.jpg
+  width: 900
+  height: 1200
+  alt: "A snooker table set for the break, seen from the baulk end."
+  shows: >
+   Twelve feet by six, fifteen reds racked in the triangle and six colours on
+   their spots. The pockets are cut tight to the ball, which is what makes
+   potting over this distance harder than on a pool table.
+  title: "Snooker table as seen from bottom cushion.jpg"
+  author: "Lee Vilenski"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Snooker_table_as_seen_from_bottom_cushion.jpg"
+
+- id: billiards-crucible
+  sport: billiards
+  file: /images/billiards/crucible-2024.jpg
+  width: 1200
+  height: 900
+  alt: "The Crucible Theatre, Sheffield, during the 2024 World Snooker Championship."
+  shows: >
+   The sport's summit, run by the professional body formed in 1968, not by
+   the confederation that holds billiards' Olympic recognition.
+  title: "Crucible Theatre during the 2024 World Snooker Championship 2.jpg"
+  author: "BennyOnTheLoose"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Crucible_Theatre_during_the_2024_World_Snooker_Championship_2.jpg"
+
+- id: billiards-referee
+  sport: billiards
+  file: /images/billiards/referee-2025.jpg
+  width: 1200
+  height: 676
+  alt: "Referee Tatiana Woollaston at the table, German Masters, 2025."
+  shows: >
+   Gloved, handling the balls: a snooker referee re-spots, cleans and
+   retrieves throughout the match, which almost no other official on this
+   site does.
+  title: "Tatiana Woollaston 2025 (1).jpg"
+  author: "Andrej146"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Tatiana_Woollaston_2025_(1).jpg"
+
+- id: billiards-three-cushion-1965
+  sport: billiards
+  file: /images/billiards/three-cushion-1965.jpg
+  width: 1200
+  height: 1073
+  alt: "Koya Ogata of Japan at the table in the 1965 world three-cushion championship."
+  shows: >
+   A Japanese player at a championship won by Raymond Ceulemans of Belgium:
+   carom's two strongholds, continental Europe and East Asia, at the same
+   table.
+  title: "1965 World Three-cushion Championship, Koya Ogata (JPN), Bestanddeelnr 917-7804.jpg"
+  author: "Jan Voets, for Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:1965_World_Three-cushion_Championship,_Koya_Ogata_(JPN),_Bestanddeelnr_917-7804.jpg"
+
+- id: billiards-ding-2025
+  sport: billiards
+  file: /images/billiards/ding-junhui-2025.jpg
+  width: 956
+  height: 1200
+  alt: "Ding Junhui at the Masters, London, 2025."
+  shows: >
+   The player most associated with snooker's growth in China, where much of
+   the sport's audience and, increasingly, its players now come from.
+  title: "Ding Junhui 2025 Masters.jpg"
+  author: "Kroome111"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ding_Junhui_2025_Masters.jpg"
+
+- id: billiards-shenzhen
+  sport: billiards
+  file: /images/billiards/shenzhen-2025.jpg
+  width: 1200
+  height: 900
+  alt: "A cue-sports room in a Shenzhen shopping mall, 2025."
+  shows: >
+   Tables in a mall, open to anyone: the kind of everyday access behind the
+   growth the section describes in China.
+  title: "SZ 深圳 Shenzhen 南山區 Nanshan 萬科里 China Vanke Lane Shopping Mall snooker room Club July 2025 R12S.jpg"
+  author: "PDD Ping Done OK"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:SZ_%E6%B7%B1%E5%9C%B3_Shenzhen_%E5%8D%97%E5%B1%B1%E5%8D%80_Nanshan_%E8%90%AC%E7%A7%91%E9%87%8C_China_Vanke_Lane_Shopping_Mall_snooker_room_Club_July_2025_R12S.jpg"
+
+- id: billiards-efren-reyes
+  sport: billiards
+  file: /images/billiards/efren-reyes-2012.jpg
+  width: 1200
+  height: 761
+  alt: "Efren Reyes of the Philippines at the World 9-Ball Championship, Doha, 2012."
+  shows: >
+   The Philippines has produced world pool champions far out of proportion to
+   its size, and Reyes is one of the most celebrated players the sport has
+   had.
+  title: "Efren Reyes in the World 9-Ball Pool Championship (2).jpg"
+  author: "Vinod Divakaran, for Doha Stadium Plus"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Efren_Reyes_in_the_World_9-Ball_Pool_Championship_(2).jpg"
+
+- id: billiards-artistic-1982
+  sport: billiards
+  slot: "events"
+  file: /images/billiards/artistic-1982.jpg
+  width: 1200
+  height: 797
+  alt: "The Dutch artistic billiards championship, Haarlem, January 1982."
+  shows: >
+   Artistic billiards sets prescribed shots, each with a declared difficulty:
+   a judged-adjacent format inside a scored sport.
+  title: "Nederlandse kampioenschappen Biljarten Kunststoten in Haarlem. Van Oosterhout in, Bestanddeelnr 931-9008.jpg"
+  author: "Hans van Dijk, for Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Nederlandse_kampioenschappen_Biljarten_Kunststoten_in_Haarlem._Van_Oosterhout_in,_Bestanddeelnr_931-9008.jpg"
