@@ -90,6 +90,18 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="42" cy="38" r="2.4" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // A table from above, three balls and a cue: the carom game, which is the
+  // one code with no pockets to draw.
+  billiards: (
+    <>
+      <rect x="6" y="15" width="52" height="30" rx="2.5" />
+      <rect x="10" y="19" width="44" height="22" fill="none" />
+      <circle cx="24" cy="27" r="2.4" fill="#F2F5F1" stroke="none" />
+      <circle cx="38" cy="33" r="2.4" fill="none" />
+      <circle cx="44" cy="25" r="2.4" fill="#F2F5F1" stroke="none" />
+      <path d="M21 29.5 L6 54" fill="none" strokeWidth="2.2" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
