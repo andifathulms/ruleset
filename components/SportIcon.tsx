@@ -113,6 +113,17 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="43" cy="21" r="4.2" fill="#05161A" />
     </>
   ),
+  // Two steel boules and the jack on rough ground: the only target in sport
+  // that the play itself moves.
+  boules: (
+    <>
+      <path d="M4 48 H60" fill="none" />
+      <circle cx="20" cy="36" r="11" />
+      <circle cx="44" cy="39" r="8.6" />
+      <path d="M13.5 31 A8 8 0 0 1 20 27 M39 35 A6 6 0 0 1 44 32" fill="none" />
+      <circle cx="33" cy="45.5" r="2.5" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
