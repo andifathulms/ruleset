@@ -148,6 +148,18 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M32 46 L32 55 M39 46 L39 55" fill="none" />
     </>
   ),
+  // A record on the turntable and the tonearm: the form is named for the
+  // break of a record, and the music is the one thing nobody controls.
+  breaking: (
+    <>
+      <circle cx="28" cy="34" r="20" />
+      <circle cx="28" cy="34" r="14" fill="none" />
+      <circle cx="28" cy="34" r="6" fill="none" />
+      <circle cx="28" cy="34" r="1.6" fill="#F2F5F1" stroke="none" />
+      <path d="M55 9 L55 30 L42 44" fill="none" strokeWidth="2" />
+      <circle cx="55" cy="9" r="2.6" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
