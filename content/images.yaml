@@ -1772,3 +1772,239 @@
   licence: "Public domain"
   licence_url: ""
   source_url: "https://commons.wikimedia.org/wiki/File:Basketball_through_hoop.jpg"
+
+# Basque pelota.
+
+- id: pelota-jeu-de-paume
+  sport: basque-pelota
+  file: /images/basque-pelota/jeu-de-paume-versailles.jpg
+  width: 1200
+  height: 900
+  alt: "The Salle du Jeu de Paume at Versailles, now a museum."
+  shows: >
+   A court built in 1686 for jeu de paume, the handball-over-a-line game that
+   pelota shares its ancestry with, and that produced real tennis. It is
+   remembered now for the oath sworn in it in 1789, not for the game.
+  title: "Salle jeu de paume versailles intérieur 1.jpg"
+  author: "BenP"
+  licence: "CC BY-SA 2.5"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.5"
+  source_url: "https://commons.wikimedia.org/wiki/File:Salle_jeu_de_paume_versailles_int%C3%A9rieur_1.jpg"
+
+- id: pelota-colin-1863
+  sport: basque-pelota
+  file: /images/basque-pelota/colin-1863.jpg
+  width: 1200
+  height: 992
+  alt: "Gustave Colin, A game of pelota under the ramparts of Fontarrabie, 1863."
+  shows: >
+   The wall game in the middle of the nineteenth century, played against the
+   town's own fortifications, with the crowd pressed along the side of the
+   court.
+  title: "Partie de pelote sous les remparts de Fontarabie.jpg"
+  author: "Gustave Colin"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Partie_de_pelote_sous_les_remparts_de_Fontarabie.jpg"
+
+- id: pelota-sare
+  sport: basque-pelota
+  file: /images/basque-pelota/sare-fronton.jpg
+  width: 1200
+  height: 803
+  alt: "The village fronton at Sare, Pyrénées-Atlantiques."
+  shows: >
+   A single high wall and a marked floor in the middle of the village:
+   public, free, always there. This is the infrastructure the section credits
+   with the game's survival.
+  title: "Sare Fronton 2012.jpg"
+  author: "JLPC"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sare_Fronton_2012.jpg"
+
+- id: pelota-paris-1900
+  sport: basque-pelota
+  file: /images/basque-pelota/paris-1900-teams.jpg
+  width: 800
+  height: 613
+  alt: "The two pairs at the 1900 Paris Games: Abadiano and Elicegui for Spain, Chiquito de Cambo and Apesteguy for France."
+  shows: >
+   Pelota's whole Olympic medal history in one photograph: two teams entered,
+   and one match was played. Both pairs hold baskets.
+  title: "Pelote basque, deux équipes des JO 1900.jpg"
+  author: "Le Sport universel illustré"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Pelote_basque,_deux_%C3%A9quipes_des_JO_1900.jpg"
+
+- id: pelota-mano-2019
+  sport: basque-pelota
+  file: /images/basque-pelota/mano-2019.jpg
+  width: 1200
+  height: 800
+  alt: "Hand pelota at the La Blanca tournament, Vitoria-Gasteiz, August 2019."
+  shows: >
+   The specialty the Basque Country follows. The players' hands are taped;
+   that is all the protection the rules allow, against a hard leather ball.
+  title: "Pelotaris.jpg"
+  author: "Pixelillo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Pelotaris.jpg"
+
+- id: pelota-chistera
+  sport: basque-pelota
+  file: /images/basque-pelota/chistera.jpg
+  width: 1200
+  height: 798
+  alt: "A grand chistera, the long wicker basket, 2006."
+  shows: >
+   Woven by hand and strapped to the forearm, it catches the ball and slings
+   it in one motion. This is the implement behind the fastest ball in sport.
+  title: "Chistéra.jpg"
+  author: "Harrieta171"
+  licence: "CC BY 2.5"
+  licence_url: "https://creativecommons.org/licenses/by/2.5"
+  source_url: "https://commons.wikimedia.org/wiki/File:Chist%C3%A9ra.jpg"
+
+- id: pelota-xistera-helmet-ball
+  sport: basque-pelota
+  file: /images/basque-pelota/xistera-helmet-ball.jpg
+  width: 900
+  height: 1200
+  alt: "A xistera, a helmet and a ball, Vitoria-Gasteiz, 2025."
+  shows: >
+   The three objects of the basket game side by side. The helmet was not
+   always required; it is compulsory now in the basket specialties because of
+   what that ball does when it leaves the basket.
+  title: "Xistera, kaskoa eta pilota.jpg"
+  author: "Landita"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Xistera,_kaskoa_eta_pilota.jpg"
+
+- id: pelota-miami
+  sport: basque-pelota
+  file: /images/basque-pelota/miami-jai-alai.jpg
+  width: 1024
+  height: 768
+  alt: "The court at Miami Jai-Alai, built in 1926, photographed in 2013."
+  shows: >
+   Florida legalised betting on jai alai in 1935, and frontons like this one
+   were built to stage it. The players' strike of 1988, and the spread of
+   other legal gambling, took most of the industry away.
+  title: "Miami Jai Alai fronton.jpg"
+  author: "Lander Eizagirre"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Miami_Jai_Alai_fronton.jpg"
+
+- id: pelota-cesta-2025
+  sport: basque-pelota
+  file: /images/basque-pelota/cesta-punta-gernika-2025.jpg
+  width: 1200
+  height: 674
+  alt: "Cesta punta at the Gernika Jai Alai fronton, 2025: Erika Mugartegi in blue, Elaia Gogenola in green."
+  shows: >
+   A match in the basket specialty's league of nations. The net across the
+   front of the court separates the crowd from a ball travelling at around
+   three hundred kilometres an hour.
+  title: "3 Erika Mugartegi (urdinez) eta Elaia Gogenola (berdez) Gernika Jai Alai. Zesta-Puntako Nazioen Liga.jpg"
+  author: "Gorkaazk"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:3_Erika_Mugartegi_(urdinez)_eta_Elaia_Gogenola_(berdez)_Gernika_Jai_Alai._Zesta-Puntako_Nazioen_Liga.jpg"
+
+- id: pelota-havana-1904
+  sport: basque-pelota
+  file: /images/basque-pelota/havana-fronton-1904.jpg
+  width: 1200
+  height: 765
+  alt: "The jai alai hall in Havana, on a postcard of 1904."
+  shows: >
+   A full house for an early professional fronton in Cuba, one of the Latin
+   American countries where Spanish and Basque emigration carried the game.
+  title: "Havana - El Fronton.jpg"
+  author: "Detroit Photographic Co."
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Havana_-_El_Fronton.jpg"
+
+- id: pelota-manila-1955
+  sport: basque-pelota
+  file: /images/basque-pelota/manila-jai-alai-1955.jpg
+  width: 945
+  height: 637
+  alt: "The Manila Jai Alai building in 1955."
+  shows: >
+   Built in 1940 and demolished in 2000. The Philippines ran jai alai on the
+   same betting model as Florida, with a similar ending.
+  title: "Manila Jai Alai Building in 1955.jpg"
+  author: "US Navy"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Manila_Jai_Alai_Building_in_1955.jpg"
+
+- id: pelota-mexico-2017
+  sport: basque-pelota
+  file: /images/basque-pelota/fronton-mexico-2017.jpg
+  width: 1200
+  height: 800
+  alt: "Jai alai at the reopening of the Frontón México, Mexico City, 2017."
+  shows: >
+   Mexico has a deep cesta punta tradition of its own, and produced many of
+   the professionals who filled the American frontons.
+  title: "Jai alai México -i---i- (32607855773).jpg"
+  author: "Gobierno de la Ciudad de México"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jai_alai_M%C3%A9xico_-i---i-_(32607855773).jpg"
+
+- id: pelota-trinquet
+  sport: basque-pelota
+  slot: "play:field"
+  file: /images/basque-pelota/trinquet-arcangues.jpg
+  width: 1200
+  height: 900
+  alt: "The trinquet at Arcangues, in the French Basque Country."
+  shows: >
+   The enclosed court. The sloping roof along the side wall is the penthouse,
+   and the ball is live off it, as it is off the walls and the floor.
+  title: "Trinquet Arcangues01.JPG"
+  author: "xganachex"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Trinquet_Arcangues01.JPG"
+
+- id: pelota-remonte-1922
+  sport: basque-pelota
+  slot: "events"
+  file: /images/basque-pelota/remonte-1922.jpg
+  width: 1024
+  height: 675
+  alt: "A remonte match at the Jai Alai fronton in San Sebastián, 1922."
+  shows: >
+   Remonte uses a shallower basket than the cesta, on the long wall. From the
+   Kutxa photographic archive.
+  title: "Partido de remonte en el frontón Jai Alai (3 de 7) - Fondo Car-Kutxa Fototeka.jpg"
+  author: "Ricardo Martín"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Partido_de_remonte_en_el_front%C3%B3n_Jai_Alai_(3_de_7)_-_Fondo_Car-Kutxa_Fototeka.jpg"
+
+- id: pelota-world-cup-2013
+  sport: basque-pelota
+  slot: "events"
+  file: /images/basque-pelota/world-cup-2013.jpg
+  width: 1200
+  height: 800
+  alt: "The 2013 Basque Pelota World Cup at Le Haillan, France."
+  shows: >
+   The federation's own competition, where each specialty is contested
+   separately. It is not where the professional hand game's audience is.
+  title: "2013 Basque Pelota World Cup 01.jpg"
+  author: "Pierre-Yves Beaudouin"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2013_Basque_Pelota_World_Cup_01.jpg"
