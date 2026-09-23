@@ -41,6 +41,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M50.5 9.5 L54 10 L54.5 13.5 M47.5 12.5 L51 13 L51.5 16.5" fill="none" />
     </>
   ),
+  // The track from above: two lanes round the oval and the finish line
+  // across them. Every event in the sport happens inside or on this shape.
+  athletics: (
+    <>
+      <rect x="6" y="17" width="52" height="30" rx="15" />
+      <rect x="11.5" y="22.5" width="41" height="19" rx="9.5" fill="none" />
+      <rect x="17" y="28" width="30" height="8" rx="4" fill="none" />
+      <path d="M40 36 L40 47" fill="none" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
