@@ -84,7 +84,7 @@ sections:
     facts:
       - { label: "Quarters, FIBA", value: 4 × 10 min }
       - { label: "Quarters, NBA", value: 4 × 12 min }
-      - { label: Overtime, value: 5 min, repeated }
+      - { label: Overtime, value: "5 min, repeated" }
     shaped_by: [fiba-2000-shot-clock-and-quarters]
 
   - id: scoring
