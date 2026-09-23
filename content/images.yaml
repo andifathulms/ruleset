@@ -2231,3 +2231,255 @@
   licence: "CC0"
   licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   source_url: "https://commons.wikimedia.org/wiki/File:Nederlandse_kampioenschappen_Biljarten_Kunststoten_in_Haarlem._Van_Oosterhout_in,_Bestanddeelnr_931-9008.jpg"
+
+# Board games.
+
+- id: board-alfonso-1283
+  sport: board-games
+  file: /images/board-games/libro-de-los-juegos-1283.jpg
+  width: 1019
+  height: 745
+  alt: "A chess problem from the Libro de los juegos, Seville, 1283."
+  shows: >
+   Made for Alfonso X of Castile, and one of the earliest European books on
+   the game. The chess here is the older game, before the queen and bishop
+   took on their long-range moves in the fifteenth century.
+  title: "A black man and a white man playing chess, illustration from the Libro de los juegos, 1283.jpg"
+  author: "Scriptorium of Alfonso X"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:A_black_man_and_a_white_man_playing_chess,_illustration_from_the_Libro_de_los_juegos,_1283.jpg"
+
+- id: board-lewis
+  sport: board-games
+  file: /images/board-games/lewis-chessman.jpg
+  width: 619
+  height: 1200
+  alt: "A bishop from the Lewis chessmen, twelfth century."
+  shows: >
+   Carved from walrus ivory and found on the Isle of Lewis. The pieces had
+   names and shapes long before the moves reached their modern form.
+  title: "Lewis chessmen (crop).jpg"
+  author: "Jessica Spengler"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lewis_chessmen_(crop).jpg"
+
+- id: board-go-1700
+  sport: board-games
+  file: /images/board-games/go-moroshige-1700.jpg
+  width: 1200
+  height: 801
+  alt: "A game of go watched by elegantly dressed women, by Hishikawa Moroshige, about 1700."
+  shows: >
+   Go in Japan, the country that built the professional houses, schools and
+   ranks the modern game inherited.
+  title: "A go game being watched by beautifully attired ladies by Hishikawa Moroshige, c. 1700.jpg"
+  author: "Hishikawa Moroshige"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:A_go_game_being_watched_by_beautifully_attired_ladies_by_Hishikawa_Moroshige,_c._1700.jpg"
+
+- id: board-deep-blue
+  sport: board-games
+  file: /images/board-games/deep-blue.jpg
+  width: 800
+  height: 1200
+  alt: "One of the two cabinets of IBM's Deep Blue, at the Computer History Museum, California."
+  shows: >
+   The machine that beat the world chess champion, Garry Kasparov, in a match
+   in May 1997. It is a pair of computer racks, not a player, and nothing in
+   the rules of chess had to change for it to win.
+  title: "IBM Deep Blue at Computer History Museum (9361685537).jpg"
+  author: "Anton Chiang"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:IBM_Deep_Blue_at_Computer_History_Museum_(9361685537).jpg"
+
+- id: board-staunton
+  sport: board-games
+  file: /images/board-games/staunton-set.jpg
+  width: 1200
+  height: 738
+  alt: "A Staunton-pattern chess set, 2024."
+  shows: >
+   The pattern standardised in the nineteenth century so that a knight, a
+   bishop and a king would be unmistakable in any country: the last change
+   the board and pieces needed.
+  title: "Chess game Staunton No. 6.jpg"
+  author: "Wilfredor"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Chess_game_Staunton_No._6.jpg"
+
+- id: board-chess-clock
+  sport: board-games
+  file: /images/board-games/mechanical-chess-clock.jpg
+  width: 1200
+  height: 900
+  alt: "A Soviet mechanical chess clock, the Jantar."
+  shows: >
+   Two faces, two buttons, and a small flag on each face that falls when that
+   player's time runs out. Time became a resource to spend, and different
+   time controls became different disciplines.
+  title: "Механические часы Янтарь.png"
+  author: "Alexandr Kapustnikov"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D1%87%D0%B0%D1%81%D1%8B_%D0%AF%D0%BD%D1%82%D0%B0%D1%80%D1%8C.png"
+
+- id: board-go-equipment
+  sport: board-games
+  file: /images/board-games/go-equipment.jpg
+  width: 1200
+  height: 649
+  alt: "Board, stones, bowls and an electronic clock, halfway through an amateur go game."
+  shows: >
+   The same short list as chess: a board, playing pieces and a clock.
+   Everything else in the equipment rules is about what may not be brought to
+   the table.
+  title: "Go-Equipment.png"
+  author: "HermanHiddema"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Go-Equipment.png"
+
+- id: board-arbiters-2012
+  sport: board-games
+  file: /images/board-games/arbiters-2012.jpg
+  width: 1200
+  height: 1029
+  alt: "Arbiters Anil Surender and Cor Roet at the Tata Steel tournament, Wijk aan Zee, January 2012."
+  shows: >
+   The officials who decide nothing about the game: the clock, illegal moves,
+   tie-breaks and, increasingly, the anti-cheating regime.
+  title: "ChessArbiters.jpg"
+  author: "Stefan64"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:ChessArbiters.jpg"
+
+- id: board-uzbekistan-2022
+  sport: board-games
+  file: /images/board-games/uzbekistan-2022.jpg
+  width: 1200
+  height: 900
+  alt: "Uzbekistan's team at the 44th Chess Olympiad, Chennai, 2022."
+  shows: >
+   Nodirbek Abdusattorov, Nodirbek Yakubboev, Javokhir Sindarov, Jakhongir
+   Vakhidov and Shamsiddin Vokhidov. They won the open section: a post-Soviet
+   chess nation far above its size.
+  title: "Uzbekistan Chess Team at the 44th Chess Olympiad (2).jpg"
+  author: "Youth Affairs Agency of Uzbekistan"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Uzbekistan_Chess_Team_at_the_44th_Chess_Olympiad_(2).jpg"
+
+- id: board-karpov-1977
+  sport: board-games
+  file: /images/board-games/karpov-1977.jpg
+  width: 796
+  height: 1200
+  alt: "Anatoly Karpov at the Tilburg tournament, September 1977."
+  shows: >
+   World champion at the time, and the product of the Soviet chess system
+   whose strength the post-Soviet map still shows.
+  title: "Interpolisschaaktoernooi Tilburg Karpov aan zet, Bestanddeelnr 929-3627.jpg"
+  author: "Koen Suyk, for Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Interpolisschaaktoernooi_Tilburg_Karpov_aan_zet,_Bestanddeelnr_929-3627.jpg"
+
+- id: board-xiangqi-1984
+  sport: board-games
+  file: /images/board-games/xiangqi-beijing-1984.jpg
+  width: 1200
+  height: 801
+  alt: "Two workers playing xiangqi in Xiangshan Park, Beijing, October 1984."
+  shows: >
+   Xiangqi as it is mostly played: outdoors, in public, in China.
+  title: "Xiangshan workers playing xiangqi October 1984.jpg"
+  author: "BabelStone"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Xiangshan_workers_playing_xiangqi_October_1984.jpg"
+
+- id: board-xiangqi-manhattan
+  sport: board-games
+  file: /images/board-games/xiangqi-manhattan-2008.jpg
+  width: 1200
+  height: 800
+  alt: "Xiangqi players and onlookers in Columbus Park, Manhattan, 2008."
+  shows: >
+   The same game in New York's Chinatown: xiangqi's map follows the Chinese
+   diaspora.
+  title: "Xiangqi in Columbus Park.jpg"
+  author: "Daniel Schwen"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Xiangqi_in_Columbus_Park.jpg"
+
+- id: board-go-germany
+  sport: board-games
+  file: /images/board-games/go-tournament-germany.jpg
+  width: 1200
+  height: 900
+  alt: "A go tournament in Sankt Augustin, Germany, 2006."
+  shows: >
+   Go outside China, Japan and Korea: a real competitive scene, and an
+   amateur one. The professional systems that produce the best players are in
+   three countries.
+  title: "Go Tournament Sankt Augustin 2.jpg"
+  author: "Jens Ohlig"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Go_Tournament_Sankt_Augustin_2.jpg"
+
+- id: board-xiangqi-board
+  sport: board-games
+  slot: "play:field"
+  file: /images/board-games/xiangqi-board-vietnam.jpg
+  width: 1200
+  height: 1200
+  alt: "A xiangqi board painted on a table, Vietnam, 2026."
+  shows: >
+   The river across the middle, the two palaces marked by their diagonals,
+   and the pieces placed on the intersections rather than in squares.
+  title: "Xiangqi-table-board-in-Vietnam20260315.jpg"
+  author: "Manhdeptraipro2114"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Xiangqi-table-board-in-Vietnam20260315.jpg"
+
+- id: board-shogi-2015
+  sport: board-games
+  slot: "events"
+  file: /images/board-games/shogi-oi-sen-2015.jpg
+  width: 1200
+  height: 800
+  alt: "The shogi set used in the fourth game of the 56th Ōi title match, Fukuoka, August 2015."
+  shows: >
+   Habu Yoshiharu against Hirose Akihito. Shogi is Japanese chess, in which
+   captured pieces change sides and come back into play; it is governed
+   separately and is not at the Asian Games.
+  title: "Jeu-shogi-56-oi-sen.jpg"
+  author: "Fabien Osmont"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jeu-shogi-56-oi-sen.jpg"
+
+- id: board-olympiad-2022
+  sport: board-games
+  slot: "events"
+  file: /images/board-games/chess-olympiad-2022.jpg
+  width: 1124
+  height: 1200
+  alt: "Nurgyul Salimova of Bulgaria at the board, Chess Olympiad, Chennai, 2022."
+  shows: >
+   FIDE's team event, which is not part of the Olympic Games despite the
+   name.
+  title: "Nurgyul Salimova at the Chess Olympiad 2022 in Chennai.jpg"
+  author: "Paul Meyer-Dunker"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Nurgyul_Salimova_at_the_Chess_Olympiad_2022_in_Chennai.jpg"
