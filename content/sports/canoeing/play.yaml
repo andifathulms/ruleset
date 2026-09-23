@@ -35,7 +35,7 @@ sections:
     facts:
       - { label: Sprint distances, value: 200 m and 500 m and 1000 m }
       - { label: Sprint lanes, value: "9" }
-      - { label: Slalom gates, value: Up to 25, set per competition }
+      - { label: Slalom gates, value: "Up to 25, set per competition" }
       - { label: Upstream gates, value: Must be negotiated against the flow }
     shaped_by: [icf-1972-slalom-added]
 
@@ -51,8 +51,8 @@ sections:
       minimum width — a limit set after composite construction had made them
       progressively narrower and faster.
     facts:
-      - { label: Kayak, value: Seated, double blade }
-      - { label: Canoe, value: Kneeling, single blade }
+      - { label: Kayak, value: "Seated, double blade" }
+      - { label: Canoe, value: "Kneeling, single blade" }
       - { label: "K1 sprint, minimum", value: 12 kg }
       - { label: Slalom boat width, value: Minimum specified }
     shaped_by: [icf-boat-specifications]
@@ -82,7 +82,7 @@ sections:
     facts:
       - { label: Slalom run, value: About 90 s }
       - { label: "Sprint 200 m", value: Around 35 s }
-      - { label: Kayak cross, value: Four boats, knockout }
+      - { label: Kayak cross, value: "Four boats, knockout" }
     shaped_by: [icf-2024-kayak-cross]
 
   - id: scoring
@@ -100,7 +100,7 @@ sections:
       - { label: Gate touch, value: 2 s }
       - { label: Gate missed, value: 50 s }
       - { label: Sprint timing, value: 0.001 s }
-      - { label: Records, value: Best times, not world records }
+      - { label: Records, value: "Best times, not world records" }
     shaped_by: [icf-slalom-penalties]
 
   - id: restarts
