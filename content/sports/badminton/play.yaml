@@ -127,7 +127,7 @@ sections:
     facts:
       - { label: Maximum service height, value: 1.15 m }
       - { label: Measured from, value: Court surface }
-      - { label: Direction, value: Diagonally, upward }
+      - { label: Direction, value: "Diagonally, upward" }
     shaped_by: [bwf-2018-fixed-service-height]
     citation:
       source: bwf-laws-of-badminton
