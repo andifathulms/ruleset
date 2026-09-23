@@ -124,6 +124,20 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="33" cy="45.5" r="2.5" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // Three pins and a ball on the lane. The oil, the part that decides the
+  // sport, is exactly the part that cannot be drawn.
+  bowling: (
+    <>
+      <path d="M4 52 H60" fill="none" />
+      <path d="M36 52 C34 46 35.5 41 37.5 37 C36.2 34 36.8 30 39 30 C41.2 30 41.8 34 40.5 37 C42.5 41 44 46 42 52 Z" />
+      <path d="M44 52 C42 45 43.5 39 45.5 35 C44.2 32 44.8 28 47 28 C49.2 28 49.8 32 48.5 35 C50.5 39 52 45 50 52 Z" />
+      <path d="M52 52 C50 46 51.5 41 53.5 37 C52.2 34 52.8 30 55 30 C57.2 30 57.8 34 56.5 37 C58.5 41 60 46 58 52 Z" />
+      <circle cx="18" cy="42" r="10" />
+      <circle cx="15" cy="37.5" r="1.4" fill="#F2F5F1" stroke="none" />
+      <circle cx="20" cy="36.5" r="1.4" fill="#F2F5F1" stroke="none" />
+      <circle cx="17" cy="42" r="1.6" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
