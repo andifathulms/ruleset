@@ -81,6 +81,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M23 37 L27 52 M41 37 L37 52 M28.5 38.5 L30 52 M35.5 38.5 L34 52 M24.5 43 L39.5 43 M26 48 L38 48" fill="none" />
     </>
   ),
+  // The village fronton: a high wall with the curved Basque gable, the low
+  // line a ball must clear, and the ball. The wall is why the game survived.
+  'basque-pelota': (
+    <>
+      <path d="M8 50 L8 31 L17 31 L17 24 L25 24 Q32 10 39 24 L47 24 L47 31 L56 31 L56 50 Z" />
+      <path d="M8 44 L56 44 M3 50 L61 50" fill="none" />
+      <circle cx="42" cy="38" r="2.4" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
