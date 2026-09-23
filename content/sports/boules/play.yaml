@@ -37,7 +37,7 @@ sections:
       the intervening ground as it found it.
     facts:
       - { label: Pitch, value: About 15 × 4 m }
-      - { label: Surface, value: Rough ground, deliberately unstandardised }
+      - { label: Surface, value: "Rough ground, deliberately unstandardised" }
       - { label: Jack thrown, value: 6–10 m from the circle }
 
   - id: equipment
@@ -51,7 +51,7 @@ sections:
       plastic ring, and nothing else. There is no footwear requirement, no
       protective equipment and no implement.
     facts:
-      - { label: Boule, value: 650–800 g, 70.5–80 mm }
+      - { label: Boule, value: "650–800 g, 70.5–80 mm" }
       - { label: Boules per player, value: "3" }
       - { label: Jack, value: A small wooden ball }
       - { label: Circle, value: 35–50 cm across }
@@ -64,8 +64,8 @@ sections:
       specialise: a *pointeur* places boules close, a *tireur* knocks the
       opposition's away, and a *milieu* does both.
     facts:
-      - { label: Formats, value: Singles, doubles, triples }
-      - { label: Roles, value: Pointeur, tireur, milieu }
+      - { label: Formats, value: "Singles, doubles, triples" }
+      - { label: Roles, value: "Pointeur, tireur, milieu" }
 
   - id: duration
     label: Time
@@ -74,7 +74,7 @@ sections:
       reach thirteen. Time limits have been introduced in some televised and
       championship formats, which is the sport's concession to scheduling.
     facts:
-      - { label: Match length, value: Untimed, in the traditional game }
+      - { label: Match length, value: "Untimed, in the traditional game" }
 
   - id: scoring
     label: Scoring
