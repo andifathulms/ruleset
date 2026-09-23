@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import SportIcon from '@/components/SportIcon'
 import type { Metadata } from 'next'
 import MiniLane from '@/components/MiniLane'
 import { Reveal } from '@/components/Motion'
@@ -99,7 +100,10 @@ export default function SportsIndex() {
                     }}
                   />
                   <div className="relative flex flex-1 flex-col p-6">
-                    <h3 className="font-display text-fluid-h3 text-chalk">{s.label}</h3>
+                    <div className="flex items-start justify-between gap-4">
+                      <h3 className="font-display text-fluid-h3 text-chalk">{s.label}</h3>
+                      <SportIcon sport={s.id} colour={s.family_colour} className="h-10 w-10" />
+                    </div>
                     <p className="mt-2 text-[15px] leading-snug text-chalk/75">{s.tagline}</p>
                     <p className="mt-3 text-[13px] text-unmarked">{s.governing_body}</p>
 

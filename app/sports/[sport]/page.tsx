@@ -9,6 +9,7 @@ import MiniLane from '@/components/MiniLane'
 import SectionNav from '@/components/SectionNav'
 import Diagram from '@/components/Diagram'
 import PhotoSet from '@/components/PhotoSet'
+import SportIcon from '@/components/SportIcon'
 import JavelinCentreOfGravity from '@/components/diagrams/JavelinCentreOfGravity'
 import ScoringSystems from '@/components/diagrams/ScoringSystems'
 import ScoreScales from '@/components/diagrams/ScoreScales'
@@ -338,7 +339,14 @@ export default function SportPage({ params }: { params: { sport: string } }) {
           <div className="mt-6 grid gap-x-14 gap-y-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,24rem)] lg:items-end">
             <Reveal delay={60}>
               <span aria-hidden className="block h-1.5 w-24" style={{ background: c.bright }} />
-              <h1 className="display-xl mt-5 text-fluid-h1 text-chalk">{sport.label}</h1>
+              <div className="mt-5 flex items-center gap-5 sm:gap-7">
+                <SportIcon
+                  sport={sport.id}
+                  colour={sport.family_colour}
+                  className="h-14 w-14 sm:h-20 sm:w-20"
+                />
+                <h1 className="display-xl min-w-0 text-fluid-h1 text-chalk">{sport.label}</h1>
+              </div>
               <p className="prose-measure mt-4 text-fluid-lead text-chalk/85">{sport.tagline}</p>
             </Reveal>
 
