@@ -160,6 +160,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="55" cy="9" r="2.6" />
     </>
   ),
+  // Two cards fanned, a spade on the front one: thirteen of these each, and
+  // nothing else a player may use to say anything.
+  bridge: (
+    <>
+      <rect x="12" y="14" width="24" height="34" rx="2.5" transform="rotate(-14 24 31)" />
+      <rect x="26" y="14" width="24" height="34" rx="2.5" transform="rotate(10 38 31)" />
+      <path d="M38.5 22 C35 26.5 31.5 29 31.5 32 C31.5 34.5 34.5 35.8 37 33.8 L36 38.5 L41 38.5 L40 33.8 C42.5 35.8 45.5 34.5 45.5 32 C45.5 29 42 26.5 38.5 22 Z" fill="#F2F5F1" stroke="none" transform="rotate(10 38 31)" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
