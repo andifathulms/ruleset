@@ -29,6 +29,18 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M30.6 18.6 C31.4 17.6 32.6 17.6 33.4 18.6" fill="none" />
     </>
   ),
+  // A target face, with one arrow in the ten. The rings are evenly spaced,
+  // as they are on the real face, because the sport is the rings.
+  archery: (
+    <>
+      <circle cx="30" cy="34" r="21" />
+      <circle cx="30" cy="34" r="15.5" fill="none" />
+      <circle cx="30" cy="34" r="10" fill="none" />
+      <circle cx="30" cy="34" r="4.5" fill="none" />
+      <path d="M31 33 L54 10" fill="none" />
+      <path d="M50.5 9.5 L54 10 L54.5 13.5 M47.5 12.5 L51 13 L51.5 16.5" fill="none" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
