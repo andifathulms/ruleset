@@ -71,6 +71,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M29.5 52.5 L34.5 52.5 L34.5 55 L32 57.5 L29.5 55 Z" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // Backboard, rim and net from the front: the one specification that has
+  // not moved since 1891.
+  basketball: (
+    <>
+      <rect x="12" y="9" width="40" height="27" rx="1" />
+      <rect x="25" y="21" width="14" height="11" fill="none" />
+      <ellipse cx="32" cy="37" rx="9" ry="2.4" fill="none" />
+      <path d="M23 37 L27 52 M41 37 L37 52 M28.5 38.5 L30 52 M35.5 38.5 L34 52 M24.5 43 L39.5 43 M26 48 L38 48" fill="none" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
