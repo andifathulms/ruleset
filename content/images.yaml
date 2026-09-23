@@ -2719,3 +2719,239 @@
   licence: "CC0"
   licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   source_url: "https://commons.wikimedia.org/wiki/File:Guignol_au_concours_de_boules_du_Lyon_r%C3%A9publicain_(1895).jpg"
+
+# Bowling.
+
+- id: bowling-steen
+  sport: bowling
+  file: /images/bowling/steen-skittles.jpg
+  width: 967
+  height: 1200
+  alt: "Jan Steen, Skittles Players outside an Inn, about 1660–63."
+  shows: >
+   A pin game in the Dutch countryside two centuries before ten-pin was
+   standardised: a handful of pins, a ball, and a stretch of open ground.
+  title: "Jan Steen - Skittles Players Outside an InnFXD.jpg"
+  author: "Jan Steen"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Jan_Steen_-_Skittles_Players_Outside_an_InnFXD.jpg"
+
+- id: bowling-nine-pins-1818
+  sport: bowling
+  file: /images/bowling/nine-pins-1818.jpg
+  width: 1200
+  height: 696
+  alt: "Children playing nine-pins, a hand-coloured engraving of 1818."
+  shows: >
+   Nine pins in a line: one of the many arrangements the European games used
+   before the United States settled on ten in a triangle.
+  title: "Children playing nine-pins.png"
+  author: "Illustrator unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Children_playing_nine-pins.png"
+
+- id: bowling-pin-boys-1910
+  sport: bowling
+  file: /images/bowling/pin-boys-1910.jpg
+  width: 1200
+  height: 827
+  alt: "Pin boys at the Subway Bowling Alleys, Brooklyn, at one in the morning, April 1910."
+  shows: >
+   Photographed by Lewis Hine for the National Child Labor Committee, whose
+   caption notes that three smaller boys were kept out of the picture by the
+   boss. Before automatic pinsetters, every pin was reset by hand.
+  title: "Pinboys nclc.04636.jpg"
+  author: "Lewis Wickes Hine"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Pinboys_nclc.04636.jpg"
+
+- id: bowling-reactive
+  sport: bowling
+  file: /images/bowling/reactive-resin-ball.jpg
+  width: 1200
+  height: 1200
+  alt: "A reactive resin ball, drilled for a fingertip grip."
+  shows: >
+   The coverstock that arrived around 1991: it grips the dry part of the lane
+   far harder than anything before it, and scores rose permanently.
+  title: "20190118C Reactive resin bowling ball fingertip grip pin up.jpg"
+  author: "RCraig09"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:20190118C_Reactive_resin_bowling_ball_fingertip_grip_pin_up.jpg"
+
+- id: bowling-urethane
+  sport: bowling
+  file: /images/bowling/urethane-ball.jpg
+  width: 1200
+  height: 1200
+  alt: "A urethane ball, drilled the same way."
+  shows: >
+   The generation before. Weight, size, balance and hardness were all
+   specified; how the surface gripped the lane was not, which is how the
+   reactive ball got through the rules.
+  title: "20190222 Urethane bowling ball fingertip grip.jpg"
+  author: "RCraig09"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:20190222_Urethane_bowling_ball_fingertip_grip.jpg"
+
+- id: bowling-oil-machine
+  sport: bowling
+  file: /images/bowling/lane-oil-machine.jpg
+  width: 1200
+  height: 900
+  alt: "An automatic lane-dressing machine at work."
+  shows: >
+   It lays down the oil pattern before a session, to a specification the
+   bowlers cannot see on the lane. The field of play is reapplied every time
+   and consumed by the play on it.
+  title: "BowlingOilMachine.jpg"
+  author: "TH1RT3EN"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:BowlingOilMachine.jpg"
+
+- id: bowling-oil-patterns
+  sport: bowling
+  slot: "play:field"
+  file: /images/bowling/oil-patterns.jpg
+  width: 1200
+  height: 902
+  alt: "Diagrams of a typical house oil pattern and a sport pattern, with darker blue for heavier oil."
+  shows: >
+   The house shot puts the oil in the middle and little on the outside, so a
+   ball that drifts wide grips and comes back: a margin for error built into
+   the lane. The sport pattern is flatter across the lane and takes that
+   margin away. The diagrams are schematic, and the lane's length is
+   compressed.
+  title: "20190106 Oil patterns on bowling lanes.png"
+  author: "RCraig09"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:20190106_Oil_patterns_on_bowling_lanes.png"
+
+- id: bowling-incheon-2014
+  sport: bowling
+  file: /images/bowling/incheon-2014.jpg
+  width: 1200
+  height: 900
+  alt: "Bowling at the 2014 Asian Games, Anyang, South Korea."
+  shows: >
+   A multi-sport games that has bowling on its programme. The Olympic Games,
+   despite repeated bids, never has.
+  title: "2014 Asian Games Bowling.JPG"
+  author: "hyolee2"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2014_Asian_Games_Bowling.JPG"
+
+- id: bowling-pinsetter
+  sport: bowling
+  file: /images/bowling/brunswick-pinsetter.jpg
+  width: 1200
+  height: 1200
+  alt: "A Brunswick automatic pinsetter, its panel showing which pins are standing."
+  shows: >
+   The machine that replaced the pin boys, and that makes the count
+   objective: pins fell or they did not, and the lane reports it.
+  title: "Brunswick pinsetter.jpg"
+  author: "Yuccavalerie"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Brunswick_pinsetter.jpg"
+
+- id: bowling-foul-line-sign
+  sport: bowling
+  file: /images/bowling/foul-line-sign.jpg
+  width: 1200
+  height: 870
+  alt: "Two lanes and their pin boys, between 1890 and 1910, with the sign: \"Stepping or sliding over the foul line is absolutely prohibited on these alleys.\""
+  shows: >
+   The one in-play offence, already posted on the wall more than a century
+   ago. It is detected electronically now.
+  title: "1890-1910 Two bowling lanes with pinboys (pinsetters).jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1890-1910_Two_bowling_lanes_with_pinboys_(pinsetters).jpg"
+
+- id: bowling-queenstown
+  sport: bowling
+  file: /images/bowling/queenstown-singapore.jpg
+  width: 1200
+  height: 900
+  alt: "A disused bowling alley in Queenstown, Singapore, 2009."
+  shows: >
+   Singapore wins at world level far out of proportion to its size. Its
+   alleys, like everyone's, are private businesses, and this one has closed.
+  title: "Disused Bowling Alley, Queenstown, Singapore (3281430232).jpg"
+  author: "yeowatzup"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Disused_Bowling_Alley,_Queenstown,_Singapore_(3281430232).jpg"
+
+- id: bowling-amherst
+  sport: bowling
+  file: /images/bowling/amherst-buffalo.jpg
+  width: 1200
+  height: 720
+  alt: "The former Amherst Bowling Center, Buffalo, New York, in 2020."
+  shows: >
+   Built in 1946 and closed: the same commercial calculation that brings
+   bowling to a place, running the other way.
+  title: "Former Amherst Bowling Center, Buffalo, New York - 20201012.jpg"
+  author: "Andre Carrotflower"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Former_Amherst_Bowling_Center,_Buffalo,_New_York_-_20201012.jpg"
+
+- id: bowling-romania-1972
+  sport: bowling
+  file: /images/bowling/romania-ninepin-1972.jpg
+  width: 1191
+  height: 1200
+  alt: "Romania's women's nine-pin team after winning their fourth consecutive world title, 1972."
+  shows: >
+   Nine-pin is the other sport the federation governs: a Central and Eastern
+   European club game, played by different people from ten-pin.
+  title: "CM de popice din 1972 01.jpg"
+  author: "Dragoș Neagu"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:CM_de_popice_din_1972_01.jpg"
+
+- id: bowling-alle-neune
+  sport: bowling
+  slot: "events"
+  file: /images/bowling/alle-neune-1888.jpg
+  width: 864
+  height: 1200
+  alt: "Christian Wilhelm Allers, \"Alle Neune\", from his Club series, 1888."
+  shows: >
+   A German skittle alley and its players. "Alle neune" — all nine — is the
+   nine-pin strike.
+  title: "Club 36 Alle Negen (Alle Neune).jpg"
+  author: "Christian Wilhelm Allers"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Club_36_Alle_Negen_(Alle_Neune).jpg"
+
+- id: bowling-ninepin-pin
+  sport: bowling
+  slot: "events"
+  file: /images/bowling/ninepin-dimensions.jpg
+  width: 675
+  height: 1200
+  alt: "The dimensions of a nine-pin pin, from the World Ninepin Bowling Association."
+  shows: >
+   Specified to the millimetre, like the ten-pin pin, and a different object:
+   the two games share a federation and not their equipment.
+  title: "Abmessungen der Kegel neuer Form.jpg"
+  author: "World Ninepin Bowling Association"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Abmessungen_der_Kegel_neuer_Form.jpg"
