@@ -3487,3 +3487,207 @@
   licence: "CC BY 3.0"
   licence_url: "https://creativecommons.org/licenses/by/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Contract_bridge_auction_French_5-card_major_1NT.jpg"
+
+# Canoeing.
+
+- id: canoeing-inuit-1854
+  sport: canoeing
+  file: /images/canoeing/inuit-kayak-1854.jpg
+  width: 1200
+  height: 918
+  alt: "An Inuit man with his kayak and double-bladed paddle, photographed in 1854."
+  shows: >
+   One of the earliest photographs of the boat the sport's kayak classes
+   descend from: enclosed, paddled seated with a double blade, and here with
+   its seal-hunting gear. It was a hunting craft, not a racing one. The man
+   is not named in the record.
+  title: "Unidentified Inuit man with a kayak RMG G04267.tiff"
+  author: "Edward Augustus Inglefield"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Unidentified_Inuit_man_with_a_kayak_RMG_G04267.tiff"
+
+- id: canoeing-birchbark
+  sport: canoeing
+  file: /images/canoeing/birchbark-canoe.jpg
+  width: 800
+  height: 1200
+  alt: "A birchbark canoe in the Royal Ontario Museum, Toronto."
+  shows: >
+   The North American boat: open, built by First Nations peoples for rivers
+   and lakes, and paddled kneeling with a single blade, as the sport's canoe
+   classes still are.
+  title: "Birchbark canoe (41280266061).jpg"
+  author: "Thomas Quine"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Birchbark_canoe_(41280266061).jpg"
+
+- id: canoeing-macgregor-1866
+  sport: canoeing
+  file: /images/canoeing/macgregor-tuttlingen-1866.jpg
+  width: 600
+  height: 373
+  alt: "John MacGregor paddling the Rob Roy through Tuttlingen, from his own account of the journey, 1866."
+  shows: >
+   The Scottish barrister whose decked boat and best-selling books started
+   the recreational canoeing craze that turned into clubs, racing and a
+   federation.
+  title: "John MacGregor Tuttlingen.jpg"
+  author: "John MacGregor"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:John_MacGregor_Tuttlingen.jpg"
+
+- id: canoeing-amyot-1936
+  sport: canoeing
+  file: /images/canoeing/amyot-1936.jpg
+  width: 956
+  height: 1168
+  alt: "Frank Amyot of Canada carried by teammates after winning the C-1 1,000 m, Berlin 1936."
+  shows: >
+   The Games at which sprint canoeing entered the programme. The source's
+   caption names him "Frances"; he was Francis Amyot. The canoe events he won
+   were closed to women until 2021.
+  title: "Frances Amyot after winning Canadian Canoe race at 1936 Olympics.png"
+  author: "Official report of the 1936 Games"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Frances_Amyot_after_winning_Canadian_Canoe_race_at_1936_Olympics.png"
+
+- id: canoeing-lee-valley
+  sport: canoeing
+  file: /images/canoeing/lee-valley-2012.jpg
+  width: 640
+  height: 425
+  alt: "The Lee Valley White Water Centre during the London 2012 Games."
+  shows: >
+   An engineered channel built for the Olympic slalom, and kept afterwards. A
+   country that wants slalom paddlers now needs one of these.
+  title: "Lee Valley White Water Centre - geograph.org.uk - 3278443.jpg"
+  author: "Ian Capper"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lee_Valley_White_Water_Centre_-_geograph.org.uk_-_3278443.jpg"
+
+- id: canoeing-la-seu-2019
+  sport: canoeing
+  file: /images/canoeing/la-seu-gates-2019.jpg
+  width: 1200
+  height: 800
+  alt: "A paddler through the gates at La Seu d'Urgell, Spain, 2019 World Championships."
+  shows: >
+   Another purpose-built course, made for the 1992 Barcelona Games' slalom
+   and still a championship venue.
+  title: "2019-09 canoe slalom gates.jpg"
+  author: "Antoine Lamielle"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2019-09_canoe_slalom_gates.jpg"
+
+- id: canoeing-fox-2022
+  sport: canoeing
+  file: /images/canoeing/fox-c1-augsburg-2022.jpg
+  width: 1200
+  height: 800
+  alt: "Noemie Fox of Australia in the women's C-1 at the 2022 World Championships, on the Augsburg Eiskanal."
+  shows: >
+   Two of this page's arguments in one frame: the women's canoe class, absent
+   from the Games until 2021, on the channel built for the 1972 slalom, the
+   first of its kind.
+  title: "2022 ICF Canoe Slalom World Championships - Noemie Fox - Australia - by 2eight - 9SC9396.jpg"
+  author: "Stefan Brending (2eight)"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:2022_ICF_Canoe_Slalom_World_Championships_-_Noemie_Fox_-_Australia_-_by_2eight_-_9SC9396.jpg"
+
+- id: canoeing-kayak-cross-start
+  sport: canoeing
+  file: /images/canoeing/kayak-cross-start-2024.jpg
+  width: 1200
+  height: 800
+  alt: "Four kayaks on the start ramp in kayak cross, Paris 2024."
+  shows: >
+   The discipline's answer to an unwatchable time trial: four boats released
+   together, first to the bottom wins.
+  title: "JO 2024 - Kayak cross - Round 1 (17).jpg"
+  author: "AlSepPhoenix"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:JO_2024_-_Kayak_cross_-_Round_1_(17).jpg"
+
+- id: canoeing-kayak-cross-contact
+  sport: canoeing
+  file: /images/canoeing/kayak-cross-contact-2024.jpg
+  width: 1200
+  height: 800
+  alt: "Kayak cross boats together in the water, Paris 2024."
+  shows: >
+   Contact is permitted, which asks officials a question slalom spent a
+   century avoiding: whether the contact was legitimate.
+  title: "JO 2024 - Kayak cross - Round 1 (08).jpg"
+  author: "AlSepPhoenix"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:JO_2024_-_Kayak_cross_-_Round_1_(08).jpg"
+
+- id: canoeing-doria-gates
+  sport: canoeing
+  file: /images/canoeing/doria-gates-2019.jpg
+  width: 1200
+  height: 800
+  alt: "Mònica Doria of Andorra among the gates in the C-1, La Seu d'Urgell, 2019."
+  shows: >
+   Every gate is two binary questions for a judge: was it touched, and was it
+   negotiated. Two seconds for a touch, fifty for a miss.
+  title: "2019 ICF Canoe slalom World Championships 017 - Monica Doria Vilarrubla.jpg"
+  author: "Antoine Lamielle"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2019_ICF_Canoe_slalom_World_Championships_017_-_Monica_Doria_Vilarrubla.jpg"
+
+- id: canoeing-k4-dorney
+  sport: canoeing
+  file: /images/canoeing/k4-eton-dorney-2012.jpg
+  width: 1200
+  height: 897
+  alt: "The women's K-4 at Eton Dorney during the London 2012 Olympics."
+  shows: >
+   Sprint needs flat water and boats a club can own, which is why its map is
+   so much wider than slalom's.
+  title: "Women's K4, Olympics sprint canoeing, Eton Dorney - geograph.org.uk - 3072927.jpg"
+  author: "David Hawgood"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Women%27s_K4,_Olympics_sprint_canoeing,_Eton_Dorney_-_geograph.org.uk_-_3072927.jpg"
+
+- id: canoeing-prague-2023
+  sport: canoeing
+  file: /images/canoeing/prague-slalom-2023.jpg
+  width: 1200
+  height: 766
+  alt: "Elena Micozzi at the Canoe Slalom World Cup in Prague, 2023."
+  shows: >
+   The Czech Republic is one of the narrow set of slalom nations, and Prague
+   one of the courses that make it so.
+  title: "Micozzi E. – 2023 Canoe Slalom WC Prague 5102.jpg"
+  author: "Pavel Hrdlička"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Micozzi_E._%E2%80%93_2023_Canoe_Slalom_WC_Prague_5102.jpg"
+
+- id: canoeing-k4-moscow
+  sport: canoeing
+  slot: "play:field"
+  file: /images/canoeing/k4-moscow-2016.jpg
+  width: 1200
+  height: 900
+  alt: "The men's K-4 500 m final at the 2016 European Championships, Moscow."
+  shows: >
+   Crews in buoyed lanes on flat water, racing straight and never meeting:
+   the whole of sprint's field of play.
+  title: "Canoe Moscow 2016 - Final A - K4 Men 500m.jpg"
+  author: "Voltmetro"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Canoe_Moscow_2016_-_Final_A_-_K4_Men_500m.jpg"
