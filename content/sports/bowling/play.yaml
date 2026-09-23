@@ -43,7 +43,7 @@ sections:
       been throwing. Reading the transition is the sport.
     facts:
       - { label: Lane, value: 60 ft to the headpin }
-      - { label: Oil pattern, value: Invisible, applied by machine }
+      - { label: Oil pattern, value: "Invisible, applied by machine" }
       - { label: During play, value: Carries down and breaks down }
     shaped_by: [bowling-sport-patterns]
 
@@ -63,9 +63,9 @@ sections:
 
       Shoes are asymmetric — one slides, one grips — with interchangeable soles.
     facts:
-      - { label: Ball, value: Up to 16 lb, drilled to the hand }
-      - { label: Coverstock, value: Reactive resin, since the early 1990s }
-      - { label: Balls carried, value: Several, for different lane conditions }
+      - { label: Ball, value: "Up to 16 lb, drilled to the hand" }
+      - { label: Coverstock, value: "Reactive resin, since the early 1990s" }
+      - { label: Balls carried, value: "Several, for different lane conditions" }
     shaped_by: [bowling-reactive-resin]
 
   - id: players
@@ -78,7 +78,7 @@ sections:
       Officials verify equipment and lane dressing rather than adjudicate play.
       Almost nothing that happens during a game requires a judgement.
     facts:
-      - { label: Competing, value: One at a time, alternating on a pair of lanes }
+      - { label: Competing, value: "One at a time, alternating on a pair of lanes" }
       - { label: Officials, value: Verify equipment and lane conditions }
 
   - id: duration
