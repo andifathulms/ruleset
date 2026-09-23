@@ -37,9 +37,9 @@ sections:
       The court is the first half of a specialty's definition. A hand game on a
       thirty-metre wall and a cesta game on fifty-four are different sports.
     facts:
-      - { label: Frontón lengths, value: 30, 36 and 54 m }
-      - { label: Trinquete, value: Enclosed, with a sloping penthouse roof }
-      - { label: Live surfaces, value: Front wall, side wall, floor, and the penthouse }
+      - { label: Frontón lengths, value: "30, 36 and 54 m" }
+      - { label: Trinquete, value: "Enclosed, with a sloping penthouse roof" }
+      - { label: Live surfaces, value: "Front wall, side wall, floor, and the penthouse" }
 
   - id: equipment
     label: Hand, bat, racket and basket
@@ -61,7 +61,7 @@ sections:
 
       Helmets are compulsory in the basket specialties, for the obvious reason.
     facts:
-      - { label: Mano, value: The bare hand, taped }
+      - { label: Mano, value: "The bare hand, taped" }
       - { label: Cesta punta, value: A wicker basket; about 300 km/h }
       - { label: Helmets, value: Compulsory in the basket specialties }
     shaped_by: [pelota-bare-hand]
@@ -77,7 +77,7 @@ sections:
       and set the pairings — so the sport's most followed form is run by
       businesses rather than by the federation.
     facts:
-      - { label: Format, value: Singles or pairs, by specialty }
+      - { label: Format, value: "Singles or pairs, by specialty" }
       - { label: Professional mano, value: Run by private promotion companies }
 
   - id: duration
@@ -103,7 +103,7 @@ sections:
       the sport sounds like.
     facts:
       - { label: Scoring, value: A point on every rally }
-      - { label: Betting, value: Called aloud during play, in the fronton }
+      - { label: Betting, value: "Called aloud during play, in the fronton" }
 
   - id: restarts
     label: The serve
