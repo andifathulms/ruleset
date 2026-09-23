@@ -20,9 +20,9 @@ sections:
       two hands to each other most accurately reaches the right contract, and
       the play then tests whether the description was true.
     facts:
-      - { label: Players, value: 4, in two partnerships }
+      - { label: Players, value: "4, in two partnerships" }
       - { label: Cards, value: 13 each }
-      - { label: Phases, value: An auction, then the play }
+      - { label: Phases, value: "An auction, then the play" }
 
   - id: field
     label: The table
@@ -36,7 +36,7 @@ sections:
       gesture physically impossible.
     facts:
       - { label: Boards, value: Hold the deal for replay at other tables }
-      - { label: Screens, value: At top level, blocking partners' view of each other }
+      - { label: Screens, value: "At top level, blocking partners' view of each other" }
 
   - id: equipment
     label: Cards, boxes and cards about cards
@@ -56,8 +56,8 @@ sections:
       agreements, kept on the table and available to the opponents.
     facts:
       - { label: Bidding boxes, value: Remove tone of voice from a bid }
-      - { label: Convention card, value: Your agreements, for your opponents to read }
-      - { label: Duplicate boards, value: The same deal, played at every table }
+      - { label: Convention card, value: "Your agreements, for your opponents to read" }
+      - { label: Duplicate boards, value: "The same deal, played at every table" }
     shaped_by: [bridge-full-disclosure, bridge-duplicate-play]
 
   - id: players
@@ -74,7 +74,7 @@ sections:
       the fact.
     facts:
       - { label: Declarer, value: Plays 26 cards }
-      - { label: Dummy, value: Plays none, and may not participate }
+      - { label: Dummy, value: "Plays none, and may not participate" }
     shaped_by: [bridge-1925-contract]
 
   - id: duration
@@ -101,8 +101,8 @@ sections:
       That comparison is the sport's fairness mechanism. A modest result on a
       poor hand can be a top if everybody else did worse with it.
     facts:
-      - { label: Pairs, value: Matchpoints, against everyone who held your cards }
-      - { label: Teams, value: IMPs, against your team-mates' table }
+      - { label: Pairs, value: "Matchpoints, against everyone who held your cards" }
+      - { label: Teams, value: "IMPs, against your team-mates' table" }
     shaped_by: [bridge-duplicate-play]
 
   - id: restarts
