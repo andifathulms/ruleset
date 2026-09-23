@@ -3298,3 +3298,192 @@
   licence: "CC BY-SA 3.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:R16_cypher.jpg"
+
+# Contract bridge.
+
+- id: bridge-whist
+  sport: bridge
+  file: /images/bridge/whist-players.jpg
+  width: 1200
+  height: 829
+  alt: "Johann Anton Sarg and three friends playing whist."
+  shows: >
+   A painting in York Art Gallery of the ancestor game: four players, two
+   partnerships, tricks. Whist had no auction at all, which is the part
+   contract bridge was built around.
+  title: "Johann Anton Sarg and three friends playing whist YORAG-R2870.jpg"
+  author: "Artist unknown (York Art Gallery)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Johann_Anton_Sarg_and_three_friends_playing_whist_YORAG-R2870.jpg"
+
+- id: bridge-vanderbilt
+  sport: bridge
+  file: /images/bridge/harold-vanderbilt.jpg
+  width: 1200
+  height: 874
+  alt: "Harold Vanderbilt, photographed for the Bain News Service."
+  shows: >
+   The man whose 1925 scoring revision created contract bridge: only the
+   tricks a partnership contracted for counted towards game, and the auction
+   became the game.
+  title: "Harold Vanderbilt and others LCCN2014680777.jpg"
+  author: "Bain News Service"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Harold_Vanderbilt_and_others_LCCN2014680777.jpg"
+
+- id: bridge-culbertson-beasley-1933
+  sport: bridge
+  file: /images/bridge/culbertson-beasley-1933.jpg
+  width: 493
+  height: 309
+  alt: "Players and spectators at the Culbertson–Beasley match, 1933."
+  shows: >
+   Eight years after the revision, contract bridge was a public event, played
+   in front of an audience by the people who were writing its bidding
+   systems.
+  title: "Beasleymatch2@72.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Beasleymatch2@72.jpg"
+
+- id: bridge-bidding-boxes
+  sport: bridge
+  file: /images/bridge/bidding-boxes.jpg
+  width: 1200
+  height: 804
+  alt: "An auction made with bidding boxes: each call is a printed card laid on the table."
+  shows: >
+   The stated reason is clarity. The effect is that a bid has no tone of
+   voice, no pause and no emphasis for a partner to read.
+  title: "Bridge bidding sequence.jpg"
+  author: "KoeppiK"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bridge_bidding_sequence.jpg"
+
+- id: bridge-screen-table
+  sport: bridge
+  file: /images/bridge/screen-table.jpg
+  width: 1200
+  height: 900
+  alt: "A bridge table with a screen, the tray and board in the middle."
+  shows: >
+   A diagonal barrier across the table, with a door under which the tray is
+   passed. Each player can see one opponent and cannot see their partner.
+  title: "Bridge table with screen.jpg"
+  author: "KoeppiK"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bridge_table_with_screen.jpg"
+
+- id: bridge-screen-from-above
+  sport: bridge
+  file: /images/bridge/screen-from-above-2014.jpg
+  width: 800
+  height: 549
+  alt: "A screened table at the European Bridge Team Championships, Opatija, 2014, seen from above."
+  shows: >
+   The screen as it works in play: two partnerships, each split down the
+   middle, with the bids passed on the tray.
+  title: "View from the Top (14520912016).jpg"
+  author: "European Bridge League"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:View_from_the_Top_(14520912016).jpg"
+
+- id: bridge-convention-cards
+  sport: bridge
+  file: /images/bridge/convention-cards-2014.jpg
+  width: 800
+  height: 531
+  alt: "Discarded convention cards and a bidding box, European Bridge Team Championships, 2014."
+  shows: >
+   The opposite kind of equipment: a written account of a partnership's
+   private agreements, kept for the opponents to read.
+  title: "Discarded convention cards (14524872785).jpg"
+  author: "European Bridge League"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Discarded_convention_cards_(14524872785).jpg"
+
+- id: bridge-playing-area-2014
+  sport: bridge
+  file: /images/bridge/playing-area-2014.jpg
+  width: 800
+  height: 444
+  alt: "The playing area of the European Bridge Team Championships, Opatija, 2014."
+  shows: >
+   A serious championship, well run: rows of screened tables in a sports
+   hall, and a clock over them. What it does not have is anything for a
+   spectator to watch.
+  title: "European Bridge Team Championships 2014 - the playing area (14357551157).jpg"
+  author: "European Bridge League"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:European_Bridge_Team_Championships_2014_-_the_playing_area_(14357551157).jpg"
+
+- id: bridge-director-2014
+  sport: bridge
+  file: /images/bridge/tournament-director-2014.jpg
+  width: 679
+  height: 800
+  alt: "Rahmi Iyilikci, tournament director, European Bridge Team Championships, 2014."
+  shows: >
+   The official who rules on what happened at a table, and when a partner has
+   had information they were not entitled to, on what would probably have
+   happened instead.
+  title: "Rahmi Iyilikci Tournament Director (14541317862).jpg"
+  author: "European Bridge League"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rahmi_Iyilikci_Tournament_Director_(14541317862).jpg"
+
+- id: bridge-austria-1937
+  sport: bridge
+  file: /images/bridge/austria-1937.jpg
+  width: 397
+  height: 267
+  alt: "Austria's winning team in 1937, with two American players."
+  shows: >
+   European teams dominated long stretches of the sport's history; Austria
+   won the world title that year.
+  title: "Austrian team 72 KB.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Austrian_team_72_KB.jpg"
+
+- id: bridge-screen-up
+  sport: bridge
+  slot: "play:field"
+  file: /images/bridge/screen-up-2014.jpg
+  width: 800
+  height: 531
+  alt: "The screen up and the play under way, European Bridge Team Championships, 2014."
+  shows: >
+   Once the auction is over the screen stays: dummy's cards are on the table,
+   and the partners still cannot see each other.
+  title: "The screen is up, the play underway (14487537501).jpg"
+  author: "European Bridge League"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:The_screen_is_up,_the_play_underway_(14487537501).jpg"
+
+- id: bridge-bidding-box-1nt
+  sport: bridge
+  slot: "play:equipment"
+  file: /images/bridge/bidding-box-1nt.jpg
+  width: 1200
+  height: 800
+  alt: "A bidding box, a hand of thirteen cards, and a call of one no-trump."
+  shows: >
+   Everything a player uses at the table, laid out: the cards, and the box
+   that turns a bid into a printed card.
+  title: "Contract bridge auction French 5-card major 1NT.jpg"
+  author: "Marie-Lan Nguyen"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Contract_bridge_auction_French_5-card_major_1NT.jpg"
