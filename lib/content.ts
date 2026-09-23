@@ -403,6 +403,7 @@ export function getImages(): SourcedImage[] {
   return raw.map((i) => ({ ...i, shows: i.shows.replace(/\s+/g, ' ').trim() }))
 }
 
-export function getImageForSport(sport: string): SourcedImage | undefined {
-  return getImages().find((i) => i.sport === sport)
+/** Every photograph belonging to one sport, in the order images.yaml lists them. */
+export function getImagesForSport(sport: string): SourcedImage[] {
+  return getImages().filter((i) => i.sport === sport)
 }

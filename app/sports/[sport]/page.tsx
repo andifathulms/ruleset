@@ -8,7 +8,7 @@ import RuleList from '@/components/RuleList'
 import MiniLane from '@/components/MiniLane'
 import SectionNav from '@/components/SectionNav'
 import Diagram from '@/components/Diagram'
-import SourcedPhoto from '@/components/SourcedPhoto'
+import PhotoSet from '@/components/PhotoSet'
 import JavelinCentreOfGravity from '@/components/diagrams/JavelinCentreOfGravity'
 import ScoringSystems from '@/components/diagrams/ScoringSystems'
 import ScoreScales from '@/components/diagrams/ScoreScales'
@@ -17,7 +17,7 @@ import CurrentLaws from '@/components/CurrentLaws'
 import LearningCurve from '@/components/LearningCurve'
 import EventTree from '@/components/EventTree'
 import {
-  getCauses, getEvents, getImageForSport, getLearning, getLenses, getPlay,
+  getCauses, getEvents, getImagesForSport, getLearning, getLenses, getPlay,
   getProgram, getProgrammes, getRuleChanges, getSections, getSeriesForSport, getSourceMap,
   getSport, getSportIds,
 } from '@/lib/content'
@@ -76,14 +76,6 @@ function diagramFor(sport: string, slot: string) {
   return null
 }
 
-/** Where each sport's photograph belongs: beside the thing it is evidence of. */
-const PHOTO_SLOT: Record<string, string> = {
-  athletics: 'series',
-  badminton: 'controversies',
-  gymnastics: 'controversies',
-  swimming: 'equipment',
-}
-
 export function generateStaticParams() {
   return getSportIds().map((sport) => ({ sport }))
 }
@@ -122,18 +114,28 @@ export default function SportPage({ params }: { params: { sport: string } }) {
   const breakYears = series.flatMap((s) => s.breaks.map((b) => b.at))
   const span: [number, number] = [Math.min(...ruleYears) - 4, Math.max(...ruleYears) + 4]
 
-  const photo = getImageForSport(params.sport)
-  const photoSlot = PHOTO_SLOT[params.sport]
-  const photoFor = (slot: string) =>
-    photo && photoSlot === slot ? (
-      <SourcedPhoto image={photo} colour={sport.family_colour} />
-    ) : null
+  /* Photographs sit beside the thing they are evidence of: either inline in
+     a narrative section's MDX, by id, or at the end of the section named by
+     their `slot`. */
+  const photos = getImagesForSport(params.sport)
+  const photosById = Object.fromEntries(photos.map((p) => [p.id, p]))
+  const photoFor = (slot: string) => (
+    <PhotoSet images={photos.filter((p) => p.slot === slot)} colour={sport.family_colour} />
+  )
 
   const has = (slug: string) => sections.some((s) => s.slug === slug)
   const prose = (slug: string) => {
     const found = sections.find((s) => s.slug === slug)
     return found ? { id: slug, label: found.title, body: found.body } : null
   }
+  /** A narrative section: its MDX, then any diagram and photographs keyed to it. */
+  const reading = (slug: string) => (
+    <>
+      <Prose source={prose(slug)!.body} images={photosById} colour={sport.family_colour} />
+      {diagramFor(params.sport, slug)}
+      {photoFor(slug)}
+    </>
+  )
 
   /**
    * Every section the page can show, in order, grouped into three acts. Built
@@ -153,32 +155,40 @@ export default function SportPage({ params }: { params: { sport: string } }) {
           id: 'play',
           label: 'How it is played',
           node: (
-            <CurrentLaws
-              play={play}
-              rules={rules}
-              source={getSourceMap()[play.source]}
-              colour={c}
-              sportLabel={sport.label}
-            />
+            <>
+              <CurrentLaws
+                play={play}
+                rules={rules}
+                source={getSourceMap()[play.source]}
+                colour={c}
+                sportLabel={sport.label}
+                figures={(clause) => photoFor(`play:${clause}`)}
+              />
+              {photoFor('play')}
+            </>
           ),
         },
         events && {
           id: 'events',
           label: 'Disciplines and events',
-          node: <EventTree events={events} colour={c} />,
+          node: (
+            <>
+              <EventTree events={events} colour={c} />
+              {photoFor('events')}
+            </>
+          ),
         },
-        prose('officiating') &&
-          {
-            id: 'officiating',
-            label: prose('officiating')!.label,
-            reading: true,
-            node: <Prose source={prose('officiating')!.body} />,
-          },
+        prose('officiating') && {
+          id: 'officiating',
+          label: prose('officiating')!.label,
+          reading: true,
+          node: reading('officiating'),
+        },
         prose('geography') && {
           id: 'geography',
           label: prose('geography')!.label,
           reading: true,
-          node: <Prose source={prose('geography')!.body} />,
+          node: reading('geography'),
         },
         learning && {
           id: 'learning',
@@ -195,7 +205,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
           id: 'origin',
           label: prose('origin')!.label,
           reading: true,
-          node: <Prose source={prose('origin')!.body} />,
+          node: reading('origin'),
         },
         {
           id: 'rules',
@@ -216,30 +226,19 @@ export default function SportPage({ params }: { params: { sport: string } }) {
           id: 'equipment',
           label: prose('equipment')!.label,
           reading: true,
-          node: (
-            <>
-              <Prose source={prose('equipment')!.body} />
-              {diagramFor(params.sport, 'equipment')}
-              {photoFor('equipment')}
-            </>
-          ),
+          node: reading('equipment'),
         },
         prose('politics') && {
           id: 'politics',
           label: prose('politics')!.label,
           reading: true,
-          node: <Prose source={prose('politics')!.body} />,
+          node: reading('politics'),
         },
         prose('controversies') && {
           id: 'controversies',
           label: prose('controversies')!.label,
           reading: true,
-          node: (
-            <>
-              <Prose source={prose('controversies')!.body} />
-              {photoFor('controversies')}
-            </>
-          ),
+          node: reading('controversies'),
         },
       ],
     },
@@ -252,9 +251,12 @@ export default function SportPage({ params }: { params: { sport: string } }) {
           label: 'Series',
           node:
             series.length === 0 ? (
-              <p className="prose-measure text-fluid-base text-unmarked">
-                No series has been assembled for this sport.
-              </p>
+              <>
+                <p className="prose-measure text-fluid-base text-unmarked">
+                  No series has been assembled for this sport.
+                </p>
+                {photoFor('series')}
+              </>
             ) : (
               <>
                 {series.map((s) => (
@@ -271,7 +273,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
           id: 'contested',
           label: prose('contested')!.label,
           reading: true,
-          node: <Prose source={prose('contested')!.body} />,
+          node: reading('contested'),
         },
       ],
     },

@@ -12,13 +12,17 @@ import type { Play, RuleChange, Source } from '@/lib/types'
  * of the timeline rather than as a set of facts that were always true.
  */
 export default function CurrentLaws({
-  play, rules, source, colour, sportLabel,
+  play, rules, source, colour, sportLabel, figures,
 }: {
   play: Play
   rules: RuleChange[]
   source?: Source
   colour: { base: string; bright: string }
   sportLabel: string
+  /** Photographs for one clause, placed under its facts — so a picture of
+      ridge lift sits with the clause about the air, not at the end of all
+      of them. */
+  figures?: (sectionId: string) => React.ReactNode
 }) {
   const ruleMap = Object.fromEntries(rules.map((r) => [r.id, r]))
   const unchecked = play.standing !== 'primary-checked'
@@ -95,6 +99,8 @@ export default function CurrentLaws({
                       ))}
                 </dl>
               )}
+
+              {figures?.(section.id)}
 
               {/* The link that makes this a section of THIS site. */}
               {section.shaped_by && section.shaped_by.length > 0 && (

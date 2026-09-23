@@ -188,6 +188,18 @@
     width: 100%;
     height: auto;
     filter: grayscale(1) contrast(1.08) brightness(0.92);
+    transition: filter 600ms ease;
+  }
+
+  /* The tint is how a borrowed photograph sits on a painted page; hovering
+     one gives it back its own colour, so the reader can see what was
+     actually photographed. */
+  .duotone:hover img {
+    filter: none;
+  }
+
+  .duotone:hover::after {
+    opacity: 0;
   }
 
   .duotone::after {
@@ -198,6 +210,7 @@
     mix-blend-mode: color;
     opacity: 0.82;
     pointer-events: none;
+    transition: opacity 600ms ease;
   }
 
   /* A hairline of the family colour along the top, as everywhere else. */
@@ -293,6 +306,12 @@
   }
 
   .prose-measure p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* A photograph placed inside a narrative section sets its own caption
+     spacing; the paragraph rhythm above is for prose. */
+  .prose-measure figure p {
     margin-bottom: 0;
   }
 
@@ -474,4 +493,6 @@
 
 @media (prefers-reduced-motion: reduce) {
   .chart-point circle:nth-of-type(2) { transition: none; }
+  .duotone img,
+  .duotone::after { transition: none; }
 }

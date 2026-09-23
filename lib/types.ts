@@ -448,4 +448,11 @@ export interface SourcedImage {
   licence: string
   licence_url?: string
   source_url: string
+  /**
+   * The page section the photograph sits at the end of — `play`, `events`,
+   * `origin` and so on — or `play:<clause>` for one clause of the laws.
+   * Left out when the photograph is placed inline in a narrative section's
+   * MDX instead, beside the paragraph it belongs to.
+   */
+  slot?: string
 }

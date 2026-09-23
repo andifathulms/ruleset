@@ -1,4 +1,6 @@
 import { MDXRemote } from 'next-mdx-remote/rsc'
+import PhotoSet from './PhotoSet'
+import type { SourcedImage } from '@/lib/types'
 
 /**
  * Narrative sections are MDX. The reading column is capped at 70 characters and
@@ -35,10 +37,36 @@ const components = {
   ),
 }
 
-export default function Prose({ source }: { source: string }) {
+/**
+ * `images` is the sport's photographs by id, so a section can place one
+ * beside the paragraph it is evidence of — `<Photo id="…" />`, or
+ * `<Photos ids="a b" />` for a pair read together. An id that does not
+ * resolve fails the build: a photograph that silently vanished would leave
+ * prose pointing at nothing, and nobody would notice until it shipped.
+ */
+export default function Prose({
+  source,
+  images = {},
+  colour,
+}: {
+  source: string
+  images?: Record<string, SourcedImage>
+  colour?: string
+}) {
+  const lookup = (id: string) => {
+    const image = images[id]
+    if (!image) throw new Error(`Prose references a photograph with no entry in images.yaml: ${id}`)
+    return image
+  }
+  const photos = {
+    Photo: ({ id }: { id: string }) => <PhotoSet images={[lookup(id)]} colour={colour} />,
+    Photos: ({ ids }: { ids: string }) => (
+      <PhotoSet images={ids.split(/\s+/).filter(Boolean).map(lookup)} colour={colour} />
+    ),
+  }
   return (
     <div className="prose-measure">
-      <MDXRemote source={source} components={components} />
+      <MDXRemote source={source} components={{ ...components, ...photos }} />
     </div>
   )
 }

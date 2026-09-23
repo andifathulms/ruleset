@@ -25,18 +25,22 @@ const COLOUR: Record<string, { base: string; bright: string }> = {
 export default function SourcedPhoto({
   image,
   colour = 'unmarked',
+  compact = false,
 }: {
   image: SourcedImage
   colour?: string
+  /** Set inside a PhotoSet, where the grid cell sets the width and the
+      figure should not add its own vertical margin. */
+  compact?: boolean
 }) {
   const c = COLOUR[colour] ?? COLOUR.unmarked
   // A portrait at the width of the reading column becomes a metre of page.
   // Both orientations are held to roughly the measure's own footprint.
   const portrait = image.height > image.width
-  const width = portrait ? '25rem' : '40rem'
+  const width = compact ? undefined : portrait ? '25rem' : '40rem'
 
   return (
-    <Reveal as="figure" className="my-10">
+    <Reveal as="figure" className={compact ? '' : 'my-10'}>
       <div
         className="duotone border chalk-rule"
         style={{

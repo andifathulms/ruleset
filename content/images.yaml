@@ -8,6 +8,7 @@
 
 - id: athletics
   sport: athletics
+  slot: series
   file: /images/athletics.jpg
   width: 540
   height: 788
@@ -25,6 +26,7 @@
 
 - id: badminton
   sport: badminton
+  slot: controversies
   file: /images/badminton.jpg
   width: 900
   height: 600
@@ -42,6 +44,7 @@
 
 - id: gymnastics
   sport: gymnastics
+  slot: controversies
   file: /images/gymnastics.jpg
   width: 785
   height: 1121
@@ -58,6 +61,7 @@
 
 - id: swimming
   sport: swimming
+  slot: equipment
   file: /images/swimming.jpg
   width: 399
   height: 349
