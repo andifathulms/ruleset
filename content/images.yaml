@@ -75,3 +75,360 @@
   licence: "Public domain"
   licence_url: ""
   source_url: "https://commons.wikimedia.org/wiki/File:Unveiling_of_LZR_Racer_in_NYC_2008-02-13.jpg"
+
+# Air sports. Placed inline in the MDX by id where a photograph belongs to one
+# paragraph; `slot` only where it belongs to a structured section (the laws,
+# the events) or closes a section as a whole.
+
+- id: air-rhon-1922
+  sport: air-sports
+  file: /images/air-sports/rhon-1922.jpg
+  width: 1200
+  height: 675
+  alt: "Akaflieg Berlin's glider Charlotte at the Rhön competition on the Wasserkuppe, August 1922."
+  shows: >
+   A student club's aircraft at one of the Wasserkuppe contests, fifteen
+   years before the federation's first world gliding championships. The
+   launch point is a hillside and the ground crew is whoever is standing
+   nearby: competition existed before anybody governed it.
+  title: "Akaflieg Berlin Charlotte Rhoen 1922.tif"
+  author: "Members of Akaflieg Berlin"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Akaflieg_Berlin_Charlotte_Rhoen_1922.tif"
+
+- id: air-fai-medal
+  sport: air-sports
+  file: /images/air-sports/fai-medal-lindbergh.jpg
+  width: 1200
+  height: 800
+  alt: "The FAI gold medal presented to Charles Lindbergh, awarded on 5 January 1928."
+  shows: >
+   An award rather than a ratified record, so it is evidence of the
+   federation's standing and not of its certifying work: twenty-three years
+   after its founding, its recognition was something to present after the
+   first solo crossing of the Atlantic. Lindbergh gave the medal to the
+   Missouri Historical Society in 1933.
+  title: "Gold Medal From Federation Aeronautique Internationale Presented to Charles A. Lindbergh - DPLA - 37c1dc56fc6d9cc357c0ad1ff08375ce (page 1).jpg"
+  author: "Missouri Historical Society (medal by Le Médaillier)"
+  licence: "No known copyright restrictions"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Gold_Medal_From_Federation_Aeronautique_Internationale_Presented_to_Charles_A._Lindbergh_-_DPLA_-_37c1dc56fc6d9cc357c0ad1ff08375ce_(page_1).jpg"
+
+- id: air-grunau-baby
+  sport: air-sports
+  file: /images/air-sports/grunau-baby.jpg
+  width: 1200
+  height: 798
+  alt: "A Grunau Baby III in the German Gliding Museum on the Wasserkuppe."
+  shows: >
+   Wood, with the grain showing. The Grunau Baby was a common club glider of
+   its era, and the museum dates this one 1943/52. Set beside the eta, it is
+   the distance gliding equipment travelled in a lifetime.
+  title: "Grunau \"Baby III\" D-4303 1943-52 Original (8666288864).jpg"
+  author: "Aleksandr Markin"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Grunau_%22Baby_III%22_D-4303_1943-52_Original_(8666288864).jpg"
+
+- id: air-eta
+  sport: air-sports
+  file: /images/air-sports/eta.jpg
+  width: 1200
+  height: 900
+  alt: "The eta, an open-class two-seat sailplane, taxiing in 2012."
+  shows: >
+   Composite construction and a span of almost thirty-one metres, the
+   largest sailplane built. Open class sets no limit on span, which is the
+   only reason an aircraft like this has a class to compete in.
+  title: "Eta (glider).jpg"
+  author: "Eta-fliegen"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Eta_(glider).jpg"
+
+- id: air-hang-glider
+  sport: air-sports
+  file: /images/air-sports/hang-glider-1982.jpg
+  width: 1200
+  height: 787
+  alt: "Jay Long with a hang glider on a hillside, September 1982."
+  shows: >
+   From Geoff Charles's archive at the National Library of Wales. A wing
+   that is carried up the slope and launched from the pilot's feet: no tow,
+   no runway, no airfield.
+  title: "Jay Long hang gliding (1516876).jpg"
+  author: "Geoff Charles"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jay_Long_hang_gliding_(1516876).jpg"
+
+- id: air-canopy-swoop
+  sport: air-sports
+  file: /images/air-sports/canopy-swoop.jpg
+  width: 1200
+  height: 800
+  alt: "A canopy pilot skimming a pond, January 2008."
+  shows: >
+   A ram-air canopy is a wing, and this is what that makes possible: a
+   descent turned into a fast, flat pass over water, which is canopy piloting
+   in miniature. The spectators on the far bank are the reason it is one of
+   the disciplines the World Games carries.
+  title: "Swoop (2178757373).jpg"
+  author: "Oskari Kettunen"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Swoop_(2178757373).jpg"
+
+- id: air-racing-drone
+  sport: air-sports
+  file: /images/air-sports/racing-drone.jpg
+  width: 1200
+  height: 795
+  alt: "A 220-size racing quadcopter, 2016."
+  shows: >
+   Frame, motors, camera and battery, held together partly with tape. Built
+   by the pilot, repaired by the pilot, and expected to crash — the only
+   aircraft in the federation that is disposable.
+  title: "Racing Drone.jpg"
+  author: "Commanderbryce"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Racing_Drone.jpg"
+
+- id: air-drl-racers
+  sport: air-sports
+  file: /images/air-sports/drl-racers.jpg
+  width: 1200
+  height: 828
+  alt: "Drone Racing League aircraft leaving the start, Hawthorne, California, 2016."
+  shows: >
+   A commercial league's race, two years before the federation held its
+   first drone racing world championship. The discipline grew up like this —
+   indoors, lit, filmed — and was brought inside the FAI afterwards.
+  title: "DRL Racer2 drones.jpg"
+  author: "Melanie Wallner"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:DRL_Racer2_drones.jpg"
+
+- id: air-rhon-1924-crowd
+  sport: air-sports
+  file: /images/air-sports/rhon-1924-crowd.jpg
+  width: 800
+  height: 557
+  alt: "The launch site at the Rhön gliding competition, August 1924."
+  shows: >
+   The archive's original caption remarks on the colossal crowd. In 1924
+   gliders were launched off the hill in front of it; once pilots learned to
+   soar away across country, the contest left its audience behind.
+  title: "Bundesarchiv Bild 102-00625, Rhön, Segelflug-Wettbewerbe.jpg"
+  author: "Bundesarchiv, Bild 102-00625 (photographer unknown)"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-00625,_Rh%C3%B6n,_Segelflug-Wettbewerbe.jpg"
+
+- id: air-wave-pyrenees
+  sport: air-sports
+  file: /images/air-sports/wave-pyrenees.jpg
+  width: 1200
+  height: 900
+  alt: "Mountain wave cloud over the Pyrenees, photographed from a glider at 5,320 m."
+  shows: >
+   Wind crossing a range sets up standing waves in the air downwind, and a
+   glider that finds one can climb far above the peaks and run along it.
+   This is the Pyrenees, not the Andes where the great distance records are
+   flown, but it is the same air — and the reason the record book follows
+   the mountains.
+  title: "Moazagotl sur les Pyrénées.jpg"
+  author: "Robert Prat"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Moazagotl_sur_les_Pyr%C3%A9n%C3%A9es.jpg"
+
+- id: air-barograph
+  sport: air-sports
+  file: /images/air-sports/barograph-1930.jpg
+  width: 1200
+  height: 883
+  alt: "A French barograph of 1930, in the National Air and Space Museum."
+  shows: >
+   A clockwork drum turning under a pen moved by air pressure, so the trace
+   it leaves is height against time. Instruments of this kind were how a
+   pilot proved a climb, or that they had not landed on the way, before the
+   GPS logger replaced them.
+  title: "Barograph (France, 1930).jpg"
+  author: "Votpuske"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Barograph_(France,_1930).jpg"
+
+- id: air-accuracy-landing
+  sport: air-sports
+  file: /images/air-sports/accuracy-landing.jpg
+  width: 900
+  height: 1200
+  alt: "Accuracy landing at the Skydive World Cup Series, Belluno, 2025."
+  shows: >
+   A competitor on final approach to the target pad in the middle of the
+   field. The first point of contact is measured electronically from its
+   centre, which is why this is among the least disputable results the
+   federation produces.
+  title: "Skydive World Cup Series Belluno 1.jpg"
+  author: "kallerna"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Skydive_World_Cup_Series_Belluno_1.jpg"
+
+- id: air-glider-aerobatics
+  sport: air-sports
+  file: /images/air-sports/glider-aerobatics.jpg
+  width: 1200
+  height: 885
+  alt: "A Swift S-1 aerobatic glider trailing smoke at Kemble, 2009."
+  shows: >
+   A display, not a judged flight. The smoke is for the crowd: it draws the
+   figure being flown, which is the one thing the pilot cannot see, and the
+   shape a judging panel would be marking against the declared sequence.
+  title: "Swift s-1 glider g-izii aerobatics at kemble arp.jpg"
+  author: "Adrian Pingstone"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Swift_s-1_glider_g-izii_aerobatics_at_kemble_arp.jpg"
+
+- id: air-rhon-1924-flight
+  sport: air-sports
+  file: /images/air-sports/rhon-1924-flight.jpg
+  width: 800
+  height: 564
+  alt: "A glider fifty metres above the Rhön, August 1924."
+  shows: >
+   From the same competition; the archive's caption names the pilot as
+   Henzen. The Wasserkuppe was the centre of German gliding in these years,
+   when the Treaty of Versailles restricted powered flying and gliding was
+   one of the few ways left to fly.
+  title: "Bundesarchiv Bild 102-00626, Rhön, Segelflug-Wettbewerbe.jpg"
+  author: "Bundesarchiv, Bild 102-00626 (photographer unknown)"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-00626,_Rh%C3%B6n,_Segelflug-Wettbewerbe.jpg"
+
+- id: air-oludeniz
+  sport: air-sports
+  file: /images/air-sports/oludeniz.jpg
+  width: 1200
+  height: 866
+  alt: "Paragliders over Ölüdeniz, Turkey, launched from Babadağ, 2019."
+  shows: >
+   One of the terrain sites the sport concentrates around: a mountain close
+   enough to the sea that a pilot can launch near the summit and land on the
+   beach. Nothing in the frame needed an airfield.
+  title: "Paragliding from Babadag Mountain over the Blue Lagoon in Ölüdeniz, Turkey (49070938897).jpg"
+  author: "dronepicr"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Paragliding_from_Babadag_Mountain_over_the_Blue_Lagoon_in_%C3%96l%C3%BCdeniz,_Turkey_(49070938897).jpg"
+
+- id: air-ridge-soaring
+  sport: air-sports
+  slot: "play:field"
+  file: /images/air-sports/ridge-soaring.jpg
+  width: 1200
+  height: 899
+  alt: "A DG-505 two-seater ridge soaring in Pennsylvania, 2007."
+  shows: >
+   The field of play made visible. Wind meeting the ridge is forced upward,
+   and the glider holds itself in that band of rising air just above the
+   trees — lift that exists only while the wind blows from the right
+   direction.
+  title: "DG505 Ridge.jpg"
+  author: "Dhaluza"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:DG505_Ridge.jpg"
+
+- id: air-paragliding-accuracy
+  sport: air-sports
+  slot: events
+  file: /images/air-sports/paragliding-accuracy.jpg
+  width: 1200
+  height: 800
+  alt: "Paragliding accuracy at the Natural Games, Millau, 2017."
+  shows: >
+   The pilot is aiming for the target on a floating pad, the whole contest in
+   view of the riverbank. It can be staged in front of an audience, which is
+   why it is one of the disciplines the World Games carries.
+  title: "2017-07 Natural Games Paragliding 11.jpg"
+  author: "Antoine Lamielle"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2017-07_Natural_Games_Paragliding_11.jpg"
+
+- id: air-balloon-marker
+  sport: air-sports
+  slot: events
+  file: /images/air-sports/balloon-marker.jpg
+  width: 900
+  height: 1200
+  alt: "A pilot drops a marker at the 22nd FAI World Hot Air Balloon Championship, 2016."
+  shows: >
+   A judge-declared-goal task: the pilot navigates to a cross laid out on the
+   ground and drops a marker, the yellow ribbon, as close to it as they can.
+   Ballooning, too, ends in a measurement.
+  title: "Pilot drops a marker-01 11-05pm 22nd FAI World Hot Air Balloon Championship.jpg"
+  author: "Pekachu"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Pilot_drops_a_marker-01_11-05pm_22nd_FAI_World_Hot_Air_Balloon_Championship.jpg"
+
+- id: air-formation
+  sport: air-sports
+  slot: events
+  file: /images/air-sports/formation-16way.jpg
+  width: 1200
+  height: 842
+  alt: "A sixteen-way skydiving formation over Peterborough, 2014."
+  shows: >
+   Captioned by its uploader as a competition jump. The only view of it is
+   the camera flyer's: a formation built at terminal velocity, thousands of
+   metres above anybody who might watch.
+  title: "Skydiving 16 way Over Peterborough.jpg"
+  author: "Alistair Christie"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Skydiving_16_way_Over_Peterborough.jpg"
+
+- id: air-f1a-launch
+  sport: air-sports
+  slot: events
+  file: /images/air-sports/f1a-launch.jpg
+  width: 1200
+  height: 900
+  alt: "An F1A free-flight glider coming off its towline, 2005."
+  shows: >
+   Aeromodelling's competitors stay on the ground. This class is towed up on
+   a line and released to find lift on its own, and nothing steers it once it
+   is off the line.
+  title: "F1A launch.jpg"
+  author: "Liav he"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:F1A_launch.jpg"
+
+- id: air-top-of-atmosphere
+  sport: air-sports
+  slot: contested
+  file: /images/air-sports/top-of-atmosphere.jpg
+  width: 1200
+  height: 797
+  alt: "The top of the atmosphere, photographed from the International Space Station in 2006."
+  shows: >
+   The station orbits far above the 100-kilometre line, and nothing in the
+   picture marks where that line falls: the atmosphere thins out rather than
+   ending. That is why a boundary had to be defined at all, and why defining
+   it fell to the body that certifies records on either side of it.
+  title: "Top of Atmosphere.jpg"
+  author: "NASA Earth Observatory"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Top_of_Atmosphere.jpg"
