@@ -102,6 +102,17 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M21 29.5 L6 54" fill="none" strokeWidth="2.2" />
     </>
   ),
+  // A board with chequered squares, as chess plays it, and two stones on the
+  // intersections, as go and xiangqi do: the distinction the laws turn on.
+  'board-games': (
+    <>
+      <rect x="10" y="10" width="44" height="44" />
+      <path d="M10 21 H54 M10 32 H54 M10 43 H54 M21 10 V54 M32 10 V54 M43 10 V54" fill="none" />
+      <path d="M10 10 h11 v11 h-11 Z M32 10 h11 v11 h-11 Z M21 21 h11 v11 h-11 Z M43 21 h11 v11 h-11 Z M10 32 h11 v11 h-11 Z M32 32 h11 v11 h-11 Z M21 43 h11 v11 h-11 Z M43 43 h11 v11 h-11 Z" fill="#F2F5F1" fillOpacity="0.28" stroke="none" />
+      <circle cx="32" cy="32" r="4.2" fill="#F2F5F1" />
+      <circle cx="43" cy="21" r="4.2" fill="#05161A" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
