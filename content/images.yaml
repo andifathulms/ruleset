@@ -3142,3 +3142,159 @@
   licence: "CC BY-SA 2.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Boxing_at_Riocentro._OG_Rio_2016.jpg"
+
+# Breaking.
+
+- id: breaking-1520-sedgwick
+  sport: breaking
+  file: /images/breaking/1520-sedgwick.jpg
+  width: 1024
+  height: 768
+  alt: "The entrance of 1520 Sedgwick Avenue, the Bronx, 2008."
+  shows: >
+   The apartment building whose recreation room held the 1973 parties
+   generally credited as hip-hop's beginning. Breaking came out of rooms and
+   block parties like it, not out of a club or a federation.
+  title: "1520Sedgwick Avenue.jpg"
+  author: "Stephanie Morillo"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:1520Sedgwick_Avenue.jpg"
+
+- id: breaking-bronx-cypher
+  sport: breaking
+  file: /images/breaking/bronx-cypher-2007.jpg
+  width: 1200
+  height: 900
+  alt: "B-boy Pumba in the cypher at the Rock Steady Crew's 30th anniversary jam, the Bronx, July 2007."
+  shows: >
+   The circle of dancers and onlookers through which the form has always been
+   passed on and tested, decided by people who know it.
+  title: "Breakdance cypher.JPG"
+  author: "NexusMoves"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Breakdance_cypher.JPG"
+
+- id: breaking-yog-2018
+  sport: breaking
+  file: /images/breaking/yog-2018-podium.jpg
+  width: 1200
+  height: 798
+  alt: "The podium of the mixed international breaking event at the 2018 Youth Olympic Games, Buenos Aires."
+  shows: >
+   Breaking's first appearance under Olympic governance, a year after the
+   World DanceSport Federation took it on.
+  title: "Victory Ceremony Breaking Mixed International 2018 YOG 01.jpg"
+  author: "BugWarp"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Victory_Ceremony_Breaking_Mixed_International_2018_YOG_01.jpg"
+
+- id: breaking-hamburg-street
+  sport: breaking
+  file: /images/breaking/hamburg-street-2007.jpg
+  width: 800
+  height: 1200
+  alt: "A breaker performing in the street, Hamburg, 2007."
+  shows: >
+   Paving stones and a crowd. Nothing specified, nothing issued, nothing to
+   buy: the reason the form grew in public spaces.
+  title: "Public breakdance performance in Hamburg.jpg"
+  author: "Jan Zimmermann"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Public_breakdance_performance_in_Hamburg.jpg"
+
+- id: breaking-dj
+  sport: breaking
+  file: /images/breaking/dj-turntable.jpg
+  width: 490
+  height: 426
+  alt: "A DJ adjusting a turntable before a set, 2003."
+  shows: >
+   The only thing in breaking that works like equipment. The DJ chooses
+   tracks the dancers have not heard, so the raw material of every round is
+   decided by somebody else in real time.
+  title: "KDAY 20th Anniversary - Battlecat 01.jpg"
+  author: "Amin Eshaiker"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:KDAY_20th_Anniversary_-_Battlecat_01.jpg"
+
+- id: breaking-lilou-judging
+  sport: breaking
+  file: /images/breaking/lilou-judging-2011.jpg
+  width: 1200
+  height: 900
+  alt: "B-boy Lilou on the jury of a Red Bull BC One qualifying cypher, Riga, 2011."
+  shows: >
+   Practitioner judging, the tradition that ran for decades before anyone
+   wrote it down: a champion of the form deciding battles without a stated
+   scale.
+  title: "Lilou (b-boy).jpg"
+  author: "Neva Micheva"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lilou_(b-boy).jpg"
+
+- id: breaking-vondelpark-1984
+  sport: breaking
+  file: /images/breaking/vondelpark-1984.jpg
+  width: 1200
+  height: 797
+  alt: "A breakdance contest in the Vondelpark, Amsterdam, August 1984."
+  shows: >
+   A decade out of the Bronx and already competed across Europe, spread by
+   film and music with no governing body anywhere near it.
+  title: "Break Dance wedstrijd in Vondelpark, Bestanddeelnr 933-0477.jpg"
+  author: "Rob Bogaerts, for Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Break_Dance_wedstrijd_in_Vondelpark,_Bestanddeelnr_933-0477.jpg"
+
+- id: breaking-freiburg-1984
+  sport: breaking
+  file: /images/breaking/freiburg-1984.jpg
+  width: 1031
+  height: 676
+  alt: "The first South Baden breakdance championship, Freiburg im Breisgau, March 1984."
+  shows: >
+   A regional championship in West Germany the same year: scenes that built
+   their own competitions long before the Olympic structures arrived.
+  title: "Freiburg im Breisgau- Erste Südbadische Break-Dance-Meisterschaft - LABW - Staatsarchiv Freiburg W 140 Nr. 01610.jpeg"
+  author: "Marlis Decker, Staatsarchiv Freiburg"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Freiburg_im_Breisgau-_Erste_S%C3%BCdbadische_Break-Dance-Meisterschaft_-_LABW_-_Staatsarchiv_Freiburg_W_140_Nr._01610.jpeg"
+
+- id: breaking-airflare
+  sport: breaking
+  file: /images/breaking/airflare-france.jpg
+  width: 700
+  height: 469
+  alt: "B-Boy Marcio of France doing an airflare in a battle, 2007."
+  shows: >
+   France is one of the two strongest competitive nations, the product of
+   decades of local scenes rather than of sports investment.
+  title: "Airflare.jpg"
+  author: "B2frison"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Airflare.jpg"
+
+- id: breaking-r16-floor
+  sport: breaking
+  slot: "play:field"
+  file: /images/breaking/r16-cypher-2014.jpg
+  width: 1200
+  height: 896
+  alt: "A b-boy in the cypher at R-16, South Korea, 2014."
+  shows: >
+   The floor laid for the event: flat, smooth, and the only regulated surface
+   the form has.
+  title: "R16 cypher.jpg"
+  author: "gbern3"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:R16_cypher.jpg"
