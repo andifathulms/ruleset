@@ -432,3 +432,202 @@
   licence: "Public domain"
   licence_url: ""
   source_url: "https://commons.wikimedia.org/wiki/File:Top_of_Atmosphere.jpg"
+
+# Archery.
+
+- id: archery-morella
+  sport: archery
+  file: /images/archery/morella-cave-painting.jpg
+  width: 1000
+  height: 954
+  alt: "Archers in combat, from a Mesolithic rock painting at the Cova del Roure, Morella la Vella, Spain."
+  shows: >
+   A 1924 tracing by Eduardo Hernández Pacheco of a painting dated to the
+   late Mesolithic. It is evidence of the bow as a weapon, thousands of years
+   before anyone shot one at a scoring target, which is the gap the section
+   is about.
+  title: "Morella (combate-de-arquero.png"
+  author: "Eduardo Hernández Pacheco"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Morella_(combate-de-arquero.png"
+
+- id: archery-st-louis-1904
+  sport: archery
+  file: /images/archery/st-louis-1904.jpg
+  width: 1200
+  height: 781
+  alt: "The team competition at the St. Louis Games, 1904."
+  shows: >
+   Every archer at the 1904 Games was American, and the tournament doubled
+   as the American national championship. It is one of the four early
+   Olympic tournaments that had almost nothing in common with each other.
+  title: "National Archery Contest Team competition at the 1904 Olympics.jpg"
+  author: "Jessie Tarbox Beals (attributed)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:National_Archery_Contest_Team_competition_at_the_1904_Olympics.jpg"
+
+- id: archery-grisot-1908
+  sport: archery
+  file: /images/archery/grisot-1908.jpg
+  width: 611
+  height: 1195
+  alt: "Eugène Grisot, winner of the continental-style event at London 1908."
+  shows: >
+   From La Vie au Grand Air. London held a separate event shot in the French
+   and Belgian style beside its British rounds, so the host country's rules
+   decided what the Olympic contest even was. Grisot won it with 263 points
+   from 62 hits.
+  title: "Victoire du français Eugène Grisot au tir à l'arc style continental (62 touches et 263 points), aux JO de Londres 1908.jpg"
+  author: "La Vie au Grand Air"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Victoire_du_fran%C3%A7ais_Eug%C3%A8ne_Grisot_au_tir_%C3%A0_l%27arc_style_continental_(62_touches_et_263_points),_aux_JO_de_Londres_1908.jpg"
+
+- id: archery-recurve
+  sport: archery
+  file: /images/archery/recurve-bow.jpg
+  width: 934
+  height: 1085
+  alt: "An archer with a modern recurve bow, 2025."
+  shows: >
+   The Olympic bow: a sight out in front, a long stabiliser, and no
+   magnification and no release aid. The archer's fingers hold the full draw
+   weight.
+  title: "Archer with modern bow side view.jpg"
+  author: "Hemant23071999"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Archer_with_modern_bow_side_view.jpg"
+
+- id: archery-compound
+  sport: archery
+  file: /images/archery/compound-bow.jpg
+  width: 600
+  height: 1200
+  alt: "A Hoyt compound bow with twin cams, 2007."
+  shows: >
+   The cams at each end of the limbs are what take most of the holding
+   weight off at full draw. Archery did not ban this bow. It gave it a
+   competition of its own, which is not on the Olympic programme.
+  title: "HoytCompoundBOW.JPG"
+  author: "StromBer"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:HoytCompoundBOW.JPG"
+
+- id: archery-lords-2012
+  sport: archery
+  file: /images/archery/lords-2012.jpg
+  width: 1200
+  height: 675
+  alt: "Olympic archery at Lord's Cricket Ground, 29 July 2012."
+  shows: >
+   A full grandstand for the first archery Games after the set system came
+   in. The venues are chosen for the picture as much as the range, and this
+   is what forty years of format changes were for.
+  title: "Lord's Cricket Ground Olympic Archery.jpg"
+  author: "Mark Hillary"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lord%27s_Cricket_Ground_Olympic_Archery.jpg"
+
+- id: archery-sambodromo-2016
+  sport: archery
+  file: /images/archery/sambodromo-2016.jpg
+  width: 1200
+  height: 704
+  alt: "The archery range in the Sambódromo, Rio de Janeiro, August 2016."
+  shows: >
+   Four years later the range went into Rio's carnival parade ground. Two
+   Games in a row, the sport was staged in a landmark built for crowds and
+   cameras rather than on an archery field.
+  title: "Archery at Sambódromo (Rio de Janeiro, BRA) 2016.jpg"
+  author: "Jorge mello ej"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Archery_at_Samb%C3%B3dromo_(Rio_de_Janeiro,_BRA)_2016.jpg"
+
+- id: archery-line-cutters
+  sport: archery
+  file: /images/archery/line-cutters-2012.jpg
+  width: 1200
+  height: 800
+  alt: "Officials checking line cutters at a 70-metre target, London 2012."
+  shows: >
+   The photographer titled it "Scoring line cutters". The one hard call in
+   the sport is settled like this: people walk up to the target and look at
+   the arrow where it landed.
+  title: "Scoring line cutters (7745211872).jpg"
+  author: "Andy Rogers"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Scoring_line_cutters_(7745211872).jpg"
+
+- id: archery-korea-2012
+  sport: archery
+  file: /images/archery/korea-womens-team-2012.jpg
+  width: 1200
+  height: 871
+  alt: "South Korea's women's team celebrate Olympic gold, London 2012."
+  shows: >
+   Their seventh team title in seven Games since the event was introduced in
+   1988. The run continued at every Games after this one.
+  title: "KOCIS Korea London Olympic Archery Womenteam 02 (7682353458).jpg"
+  author: "Korean Olympic Committee, via Korea.net"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:KOCIS_Korea_London_Olympic_Archery_Womenteam_02_(7682353458).jpg"
+
+- id: archery-beijing-range
+  sport: archery
+  slot: "play:field"
+  file: /images/archery/beijing-2008-range.jpg
+  width: 1200
+  height: 891
+  alt: "The Olympic Green Archery Field during the men's individual event, Beijing 2008."
+  shows: >
+   The field from behind the shooting line: archers in the foreground, the
+   targets at the far end, the scoreboard above them. It is flat, open and
+   exposed to whatever wind there is, which the sport chooses not to
+   regulate.
+  title: "Archery at Beijing 2008 (Olympic Green Archery Field).JPG"
+  author: "Shizhao"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Archery_at_Beijing_2008_(Olympic_Green_Archery_Field).JPG"
+
+- id: archery-para-2013
+  sport: archery
+  slot: events
+  file: /images/archery/para-archery-2013.jpg
+  width: 1200
+  height: 800
+  alt: "Ebrahim Ranjbar Kivaj shooting in the para-archery match at the 2013 Archery World Cup final, Paris."
+  shows: >
+   Para archery is on the Paralympic programme. This match was shot at a
+   federation World Cup event alongside the able-bodied finals, on the same
+   range.
+  title: "2013 FITA Archery World Cup - Para-archery - 01.jpg"
+  author: "Pierre-Yves Beaudouin"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2013_FITA_Archery_World_Cup_-_Para-archery_-_01.jpg"
+
+- id: archery-field
+  sport: archery
+  slot: events
+  file: /images/archery/field-archery.jpg
+  width: 1200
+  height: 803
+  alt: "A field archer at the Yorkshire Field Archery Championships, 2008."
+  shows: >
+   The target is in woodland, at a distance the archer has to judge. Field
+   archery keeps the ring and the arrow but drops the flat, measured range
+   that the Olympic discipline is built on.
+  title: "Field archery freestyle recurve.jpg"
+  author: "Mr Barndoor"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Field_archery_freestyle_recurve.jpg"
