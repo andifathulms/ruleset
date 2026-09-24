@@ -202,6 +202,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="52" cy="40" r="5" />
       <path d="M48.5 37 C50.5 39 50.5 41 48.5 43.5 M55.5 36.5 C53.5 39 53.5 41 55.5 43.5" fill="none" strokeWidth="1.1" />
     </>
+  ),  // A hoop, a ball just short of it, and a mallet. At championship level the
+  // hoop clears the ball by a fraction of a millimetre, which is the sport.
+  croquet: (
+    <>
+      <path d="M4 50 H60" fill="none" />
+      <path d="M16 50 L16 30 A8 8 0 0 1 32 30 L32 50" fill="none" strokeWidth="2.2" />
+      <circle cx="40" cy="45" r="5" />
+      <rect x="44" y="40" width="16" height="7" rx="1.5" transform="rotate(-8 52 43.5)" />
+      <path d="M52 40 L58 10" fill="none" strokeWidth="2" />
+    </>
   ),
 }
 
