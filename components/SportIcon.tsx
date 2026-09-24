@@ -375,6 +375,14 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M28 36 L20 56 L26 57 L32 38 M36 36 L44 56 L38 57 L32 38" fill="none" />
     </>
   ),
+  // The judogi: sleeves out, lapels crossed, the belt tied at the waist.
+  judo: (
+    <>
+      <path d="M24 8 L8 16 L4 34 L14 36 L18 24 L18 56 L46 56 L46 24 L50 36 L60 34 L56 16 L40 8" fill="none" />
+      <path d="M24 8 L32 20 L40 8 M26 8 L38 44 M38 8 L32 26" fill="none" />
+      <path d="M18 42 L46 42 M18 46 L46 46 M30 46 L27 54 M34 46 L37 54" fill="none" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
