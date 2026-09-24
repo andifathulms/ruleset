@@ -32,7 +32,7 @@ sections:
       - { label: Field, value: 50 × 20 m }
       - { label: Each half, value: 25 m deep }
       - { label: Tape height, value: 2 m for men }
-      - { label: Barrier, value: A tape, not a net }
+      - { label: Barrier, value: "A tape, not a net" }
 
   - id: equipment
     label: Equipment
@@ -45,7 +45,7 @@ sections:
       with the same rules and a shorter field indoors.
     facts:
       - { label: Ball, value: Slightly smaller and lighter than a football }
-      - { label: Surfaces, value: Grass outdoors, hall indoors }
+      - { label: Surfaces, value: "Grass outdoors, hall indoors" }
 
   - id: players
     label: Players and officials
@@ -63,7 +63,7 @@ sections:
       No clock. Sets are played to eleven points with a two-point margin, and a
       match is decided on sets — the number varying by competition.
     facts:
-      - { label: Set, value: 11 points, two clear }
+      - { label: Set, value: "11 points, two clear" }
       - { label: Scoring, value: Rally scoring since 2000 }
     shaped_by: [fistball-rally-scoring]
 

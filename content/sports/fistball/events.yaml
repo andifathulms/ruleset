@@ -28,4 +28,4 @@ disciplines:
       codification.
     events:
       - { id: pallone, label: Pallone col bracciale, at: [lapsed], note: "The Italian ancestor, struck with a wooden arm-guard; once a major professional sport and now nearly extinct." }
-      - { id: llargues, label: Valencian and Basque hand games, at: [federation-only], note: Regional survivals of the same family, governed locally. }
+      - { id: llargues, label: Valencian and Basque hand games, at: [federation-only], note: "Regional survivals of the same family, governed locally." }
