@@ -5475,3 +5475,216 @@
   licence: "CC BY 3.0"
   licence_url: "https://creativecommons.org/licenses/by/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Romania_v_France_EFS_2013_Fencing_WCH_t165941.jpg"
+
+# Finswimming.
+
+- id: finswimming-bologna-1959
+  sport: finswimming
+  file: /images/finswimming/first1959.jpg
+  width: 1200
+  height: 868
+  alt: "Competitors at a four-club finswimming meet in the covered municipal pool, Bologna, 17 May 1959."
+  shows: >
+   Organised by Franco Pavone of Sub Bologna between clubs from Bologna,
+   Genoa, Milan and Turin, and described by its uploader as the first pool
+   finswimming competition anywhere. It is diving clubs racing: the sport's
+   parentage in one photograph.
+  title: "Prima competizione al mondo di nuoto pinnato, 1959.jpg"
+  author: "Andrea Pavone Coppola"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Prima_competizione_al_mondo_di_nuoto_pinnato,_1959.jpg"
+
+- id: finswimming-italy-1965
+  sport: finswimming
+  file: /images/finswimming/italy1965.jpg
+  width: 966
+  height: 721
+  alt: "Franco Pavone, centre, with Italy's first national finswimming team in Russia, 1965. Air cylinders stand at their feet."
+  shows: >
+   A national team travelling to the Soviet Union eleven years before there
+   was a world championship to travel to.
+  title: "Prima nazionale italiana di nuoto pinnato.jpg"
+  author: "Andrea Pavone Coppola"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Prima_nazionale_italiana_di_nuoto_pinnato.jpg"
+
+- id: finswimming-moscow-1972
+  sport: finswimming
+  file: /images/finswimming/stamp1972.jpg
+  width: 1200
+  height: 873
+  alt: "A Soviet postal card for the European Championships in speed underwater sports, Moscow, 1972, with the CMAS emblem and a gold-medal stamp."
+  shows: >
+   The Soviet state printed the sport onto its stationery four years before
+   the first world championships.
+  title: "USSR PCWCS №06 Speed Diving Championship.jpg"
+  author: "Ministry of Communications of the USSR"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:USSR_PCWCS_%E2%84%9606_Speed_Diving_Championship.jpg"
+
+- id: finswimming-world-games-1981
+  sport: finswimming
+  file: /images/finswimming/wg1981.jpg
+  width: 728
+  height: 484
+  alt: "Finswimmers starting from the blocks at the first World Games, Santa Clara, 1981."
+  shows: >
+   Finswimming was on the programme of the first World Games, which is as far
+   as the sport's multi-sport ambitions go.
+  title: "WG Finswimming July 1981.jpg"
+  author: "Jeff in CA"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WG_Finswimming_July_1981.jpg"
+
+- id: finswimming-kecskemet-1976
+  sport: finswimming
+  file: /images/finswimming/kecskemet1976.jpg
+  width: 1200
+  height: 734
+  alt: "A finswimmer in training at the covered pool on Izsáki út, Kecskemét, Hungary, 1976, a monofin laid over the starting block."
+  shows: >
+   An early monofin: a flat, wide blade on a pair of foot pockets.
+  title: "Kecskemét 1976, Izsáki út, fedett uszoda, búvárúszók edzése. Fortepan 88781.jpg"
+  author: "Fortepan (donor Tamás Urbán)"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kecskem%C3%A9t_1976,_Izs%C3%A1ki_%C3%BAt,_fedett_uszoda,_b%C3%BAv%C3%A1r%C3%BAsz%C3%B3k_edz%C3%A9se._Fortepan_88781.jpg"
+
+- id: finswimming-kiss-monofin
+  sport: finswimming
+  file: /images/finswimming/kiss.jpg
+  width: 640
+  height: 960
+  alt: "Nándor Kiss in a CMAS racing suit, a modern monofin in his hand."
+  shows: >
+   The same idea, forty-odd years on: a profiled composite blade, capped by
+   dimension and matched to the swimmer.
+  title: "Nandor Kiss.jpg"
+  author: "Finswimmer Magazine"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Nandor_Kiss.jpg"
+
+- id: finswimming-monofin-bifins
+  sport: finswimming
+  file: /images/finswimming/specialfins.jpg
+  width: 1200
+  height: 900
+  alt: "A monofin beside a pair of long bi-fins."
+  shows: >
+   One blade on both feet, or one fin on each: two instruments that CMAS
+   keeps in separate record books.
+  title: "SpecialFins.jpg"
+  author: "Emma & Michael's Excellent Adventures"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:SpecialFins.jpg"
+
+- id: finswimming-centre-snorkel
+  sport: finswimming
+  file: /images/finswimming/snorkel.jpg
+  width: 1200
+  height: 800
+  alt: "A swimmer with a centre-mounted snorkel running over the forehead."
+  shows: >
+   The surface-event snorkel sits on the centre line rather than at the side,
+   so the head never has to lift or turn.
+  title: "Mittelschnorchel.jpg"
+  author: "Schwimmschule Steiner"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Mittelschnorchel.jpg"
+
+- id: finswimming-world-games-1981-podium
+  sport: finswimming
+  file: /images/finswimming/wg1981-podium.jpg
+  width: 692
+  height: 570
+  alt: "The finswimming relay medal ceremony at the first World Games, 1981."
+  shows: >
+   The World Games: the intended home for a mature, international sport with
+   no Olympic route.
+  title: "WG Finswimming medal podium July 1981.jpg"
+  author: "Jeff in CA"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WG_Finswimming_medal_podium_July_1981.jpg"
+
+- id: finswimming-jarolim-blocks
+  sport: finswimming
+  file: /images/finswimming/jarolim-nj.jpg
+  width: 800
+  height: 1200
+  alt: "Jakub Jarolím of Czechia stepping onto the starting block in a monofin and centre snorkel, 2016."
+  shows: >
+   Blocks, lanes, lane ropes and touchpads: swimming's apparatus, and
+   swimming's officiating along with it.
+  title: "Jarolím NJ.jpg"
+  author: "Cimba69"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jarol%C3%ADm_NJ.jpg"
+
+- id: finswimming-bologna-1980
+  sport: finswimming
+  file: /images/finswimming/bologna1980.jpg
+  width: 1200
+  height: 959
+  alt: "The poster for the 1980 world finswimming and underwater speed championships, Stadio del Nuoto, Bologna."
+  shows: >
+   Italy was one of the sport's founding centres, and hosted its world
+   championships four years after the first.
+  title: "Campionati del mondo di nuoto pinnato e velocità subacquea.jpg"
+  author: "Andrea Pavone Coppola"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Campionati_del_mondo_di_nuoto_pinnato_e_velocit%C3%A0_subacquea.jpg"
+
+- id: finswimming-uvarova-2023
+  sport: finswimming
+  file: /images/finswimming/uvarova.jpg
+  width: 1082
+  height: 1083
+  alt: "Viktoriia Uvarova of Ukraine with a gold medal at the 2023 CMAS Finswimming European Championships."
+  shows: >
+   Ukraine's Soviet-era inheritance, still on the podium.
+  title: "Uvarova Viktoriia European Championship.jpg"
+  author: "MarySport"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Uvarova_Viktoriia_European_Championship.jpg"
+
+- id: finswimming-jarolim-2013
+  sport: finswimming
+  slot: "play:field"
+  file: /images/finswimming/jarolim-rp.jpg
+  width: 960
+  height: 880
+  alt: "Jakub Jarolím swimming a monofin dolphin kick, seen from above, 2013."
+  shows: >
+   Lanes, lane ropes and the pool floor markings of an ordinary competition
+   pool.
+  title: "Jarolím RP.jpg"
+  author: "Cimba69"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jarol%C3%ADm_RP.jpg"
+
+- id: finswimming-ukraine-relay-2005
+  sport: finswimming
+  slot: "events"
+  file: /images/finswimming/ukr-relay.jpg
+  width: 640
+  height: 640
+  alt: "Ukraine's relay team on the podium at the 8th World Junior Finswimming Championships, Bratislava, 2005."
+  shows: >
+   Relays are contested in the surface discipline only.
+  title: "Ukrainian relay team — 8th World Junior Finswimming Championship, Bratislava 2005.jpg"
+  author: "Ласта2005"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ukrainian_relay_team_%E2%80%94_8th_World_Junior_Finswimming_Championship,_Bratislava_2005.jpg"
