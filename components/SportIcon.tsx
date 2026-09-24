@@ -222,6 +222,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M18 18 L26 18 M38 19 L43 17 L45 21" fill="none" strokeWidth="1.8" />
       <circle cx="28" cy="40" r="2" fill="#F2F5F1" stroke="none" />
     </>
+  ),  // A couple in closed hold, the woman's skirt swinging: the competitive unit
+  // is two people, and the Standard programme never lets go.
+  dancesport: (
+    <>
+      <circle cx="25" cy="13" r="4" />
+      <circle cx="39" cy="15" r="4" />
+      <path d="M25 17 L25 36 M25 36 L21 54 M25 36 L30 54" fill="none" />
+      <path d="M25 23 L32 20 L39 24 M25 23 L17 16" fill="none" />
+      <path d="M39 19 L37 34 L50 50 C44 52 34 52 28 49 Z" />
+    </>
   ),
 }
 
