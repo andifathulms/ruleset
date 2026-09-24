@@ -32,10 +32,10 @@ sections:
       conditions rather than in the Laws themselves. At the centre is a
       22-yard pitch, and that is specified precisely.
     facts:
-      - { label: Pitch length, value: 22 yd, note: 20.12 m, between the wickets. }
+      - { label: Pitch length, value: 22 yd, note: "20.12 m, between the wickets." }
       - { label: Pitch width, value: 10 ft }
       - { label: Stumps, value: 28 in high }
-      - { label: Ground size, value: Not fixed, note: Set by playing conditions, not by the Laws. }
+      - { label: Ground size, value: Not fixed, note: "Set by playing conditions, not by the Laws." }
     citation:
       source: mcc-laws-of-cricket
       article: "Laws 6 and 8"
