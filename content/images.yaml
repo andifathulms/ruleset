@@ -5972,3 +5972,228 @@
   licence: "CC BY-SA 3.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Oldenburg_010.jpg"
+
+# Flag football.
+
+- id: flag-football-camp-dwyer-2013
+  sport: flag-football
+  file: /images/flag-football/dwyer2013.jpg
+  width: 1200
+  height: 800
+  alt: "U.S. Marines of Combat Logistics Company 28 playing flag football between their trucks at Camp Dwyer, Helmand province, Afghanistan, 2013."
+  shows: >
+   Seventy years after the Second World War bases, the military game is still
+   played the same way: in belts, on whatever ground there is.
+  title: "U.S. Marines with Combat Logistics Company 28, Combat Logistics Regiment 2 play flag football during their company barbecue at Camp Dwyer in Helmand province, Afghanistan, April 3, 2013 130403-M-KS710-028.jpg"
+  author: "Sgt. Anthony Ortiz, U.S. Marine Corps"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:U.S._Marines_with_Combat_Logistics_Company_28,_Combat_Logistics_Regiment_2_play_flag_football_during_their_company_barbecue_at_Camp_Dwyer_in_Helmand_province,_Afghanistan,_April_3,_2013_130403-M-KS710-028.jpg"
+
+- id: flag-football-baghdad-bowl-2007
+  sport: flag-football
+  file: /images/flag-football/baghdad2007.jpg
+  width: 1200
+  height: 788
+  alt: "Soldiers of the 1st Cavalry Division lining a dirt field at Al Salam Palace, Baghdad, for the 2007 Baghdad Bowl flag football game."
+  shows: >
+   A game that needs no pads and no stadium, played where the servicemen are.
+  title: "Al Salam Palace (Baghdad, Iraq) · DA-SD-07-43189.JPEG"
+  author: "Staff Sgt. Sean A. Foley, U.S. Army"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Al_Salam_Palace_(Baghdad,_Iraq)_%C2%B7_DA-SD-07-43189.JPEG"
+
+- id: flag-football-texas-intramural
+  sport: flag-football
+  file: /images/flag-football/ut.jpg
+  width: 1023
+  height: 683
+  alt: "An intramural flag football game at the University of Texas at Austin, 2006."
+  shows: >
+   Intramural, school and park sport: where flag football lived in the United
+   States for half a century, in local codes.
+  title: "Flagfootballut.jpg"
+  author: "Enoch Lai"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Flagfootballut.jpg"
+
+- id: flag-football-americas-2023
+  sport: flag-football
+  file: /images/flag-football/usa02.jpg
+  width: 1200
+  height: 675
+  alt: "A United States player carrying the ball at the 2023 IFAF Americas Continental Flag Football Championship."
+  shows: >
+   The five-a-side international format, written to be exported.
+  title: "USA Football 2023 (02).png"
+  author: "USA Football"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:USA_Football_2023_(02).png"
+
+- id: flag-football-belt-and-flags
+  sport: flag-football
+  file: /images/flag-football/juke.jpg
+  width: 960
+  height: 640
+  alt: "A ball carrier twisting away from a defender's grab, both wearing flag belts."
+  shows: >
+   Two flags on a belt, one on each hip: the whole of the protective
+   equipment, and the thing a defender has to reach.
+  title: "Flag Football Juke.jpg"
+  author: "JJ Hohorst"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Flag_Football_Juke.jpg"
+
+- id: flag-football-flag-guarding
+  sport: flag-football
+  file: /images/flag-football/okinawa2.jpg
+  width: 1200
+  height: 800
+  alt: "A ball carrier running between defenders in a Navy against Army game at Camp Shields, Okinawa, 2025."
+  shows: >
+   Where the runner's arm is when a defender reaches for the flag is the
+   sport's most argued call.
+  title: "Army-Navy Flag football, Camp Shields, Okinawa, Japan (9441455).jpg"
+  author: "Justin Rayburn, U.S. Navy"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Army-Navy_Flag_football,_Camp_Shields,_Okinawa,_Japan_(9441455).jpg"
+
+- id: flag-football-the-pull
+  sport: flag-football
+  file: /images/flag-football/corry.jpg
+  width: 1200
+  height: 778
+  alt: "Two Army defenders reaching for the flags of a Navy quarterback at Corry Station, Pensacola, 2007."
+  shows: >
+   Was the flag pulled cleanly, or was the runner touched first? A judgement
+   about whether contact happened at all.
+  title: "US Navy 071201-N-5328N-586 Quarterback and Cryptologic Technician (Technical) 1st Class Jakob Chauvin runs through a gauntlet of Army defenders during the fifth annual CID Corry Station Flag Football Game at Corry Station.jpg"
+  author: "Gary Nichols, U.S. Navy"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:US_Navy_071201-N-5328N-586_Quarterback_and_Cryptologic_Technician_(Technical)_1st_Class_Jakob_Chauvin_runs_through_a_gauntlet_of_Army_defenders_during_the_fifth_annual_CID_Corry_Station_Flag_Football_Game_at_Corry_Station.jpg"
+
+- id: flag-football-tulane-referee
+  sport: flag-football
+  file: /images/flag-football/tulane.jpg
+  width: 1200
+  height: 818
+  alt: "An intramural touchdown celebration at Tulane University, 2009, the referee beside the scorer."
+  shows: >
+   No pile of bodies to see through, and no padding to absorb marginal
+   contact.
+  title: "Flag Football (4050344814).jpg"
+  author: "Tulane Public Relations"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Flag_Football_(4050344814).jpg"
+
+- id: flag-football-cobras-cancun
+  sport: flag-football
+  file: /images/flag-football/cancun.jpg
+  width: 1200
+  height: 800
+  alt: "The women's team of Cobras Cancún after their first win of the 2019 season."
+  shows: >
+   Mexico's domestic depth, which predates the Olympic interest.
+  title: "Cobras Cancùn.jpg"
+  author: "Edison20"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cobras_Canc%C3%B9n.jpg"
+
+- id: flag-football-japan-beach
+  sport: flag-football
+  file: /images/flag-football/japan-beach.jpg
+  width: 950
+  height: 767
+  alt: "A Japanese team at the snap in a beach flag football game, Phuket."
+  shows: >
+   Japan is among the scattered list of countries competitive at world level;
+   this is the sand variant of the game.
+  title: "Japanese team on Beach Flag Football XOKA5210bs (15749928216).jpg"
+  author: "Phuket@photographer.net"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Japanese_team_on_Beach_Flag_Football_XOKA5210bs_(15749928216).jpg"
+
+- id: flag-football-petrozavodsk
+  sport: flag-football
+  file: /images/flag-football/petrozavodsk.jpg
+  width: 1200
+  height: 612
+  alt: "The Laski flag football team of Petrozavodsk, Russia, 2017."
+  shows: >
+   A patch of grass and a set of belts: the sport spreads wherever somebody
+   starts it.
+  title: "Weasels(Flag Football Team).jpg"
+  author: "Gunners 27"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Weasels(Flag_Football_Team).jpg"
+
+- id: flag-football-usa-women-2023
+  sport: flag-football
+  file: /images/flag-football/usa01.jpg
+  width: 1200
+  height: 675
+  alt: "The United States women's team lined up at the 2023 IFAF Americas Continental Flag Football Championship."
+  shows: >
+   The women's game was codified alongside the men's, and Los Angeles 2028
+   contests both on the same format.
+  title: "USA Football 2023 (01).png"
+  author: "USA Football"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:USA_Football_2023_(01).png"
+
+- id: flag-football-fluminense-guerreiras
+  sport: flag-football
+  file: /images/flag-football/brasil5x5.jpg
+  width: 600
+  height: 378
+  alt: "Fluminense Guerreiras celebrating in a Brazilian five-a-side flag final against SP Storm."
+  shows: >
+   The women's club game in Brazil, played to the same five-a-side format.
+  title: "Brasileiro de Flag 5x5.jpg"
+  author: "Vanessa Yorio"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Brasileiro_de_Flag_5x5.jpg"
+
+- id: flag-football-audi-field-2020
+  sport: flag-football
+  slot: "play:field"
+  file: /images/flag-football/audi.jpg
+  width: 1200
+  height: 801
+  alt: "Soldiers playing flag football on Audi Field, Washington, after an XFL season opener, 2020."
+  shows: >
+   The flag field is smaller than this one: fifty by twenty-five yards, with
+   ten-yard end zones.
+  title: "Audi Field flag football 200208-A-KI711-092.jpg"
+  author: "Sgt. Nicholas T. Holmes, U.S. Army"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Audi_Field_flag_football_200208-A-KI711-092.jpg"
+
+- id: flag-football-usa-medals-2023
+  sport: flag-football
+  slot: "events"
+  file: /images/flag-football/usa05.jpg
+  width: 1200
+  height: 675
+  alt: "United States players with their medals at the 2023 IFAF Americas Continental Flag Football Championship."
+  shows: >
+   Continental and world championships, and from 2028 an Olympic tournament
+   for women and for men.
+  title: "USA Football 2023 (05).png"
+  author: "USA Football"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:USA_Football_2023_(05).png"
