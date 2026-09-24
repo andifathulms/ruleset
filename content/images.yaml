@@ -4983,3 +4983,174 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Campeonato_de_Espa%C3%B1a_de_Triatl%C3%B3n_de_Larga_Distancia_y_Aquabike_Open_-_12.jpg"
+
+# Equestrian.
+
+- id: equestrian-roycewicz-1936
+  sport: equestrian
+  file: /images/equestrian/roycewicz-berlin-1936.jpg
+  width: 1200
+  height: 958
+  alt: "Captain Henryk Roycewicz of the 25th Greater Poland Uhlans on Arlekin III in the eventing dressage test, Berlin 1936."
+  shows: >
+   A serving cavalry officer in uniform: until 1948 Olympic equestrian events
+   were open only to commissioned officers.
+  title: "Henryk Leliwa-Roycewicz, Olympic Games 1936 in Berlin.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Henryk_Leliwa-Roycewicz,_Olympic_Games_1936_in_Berlin.jpg"
+
+- id: equestrian-endrody-1936
+  sport: equestrian
+  file: /images/equestrian/endrody-cross-country-1936.jpg
+  width: 1001
+  height: 750
+  alt: "Ágoston Endrődy of Hungary on the cross-country phase of the eventing competition, Berlin 1936."
+  shows: >
+   The "military", as the competition was then called: a test of a cavalry
+   charger across obstructed country.
+  title: "Endrődy Ágoston - Military.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Endr%C5%91dy_%C3%81goston_-_Military.jpg"
+
+- id: equestrian-hartel-1952
+  sport: equestrian
+  file: /images/equestrian/hartel-helsinki-1952.jpg
+  width: 672
+  height: 487
+  alt: "Lis Hartel of Denmark and Jubilee in the dressage at Helsinki, 1952."
+  shows: >
+   The first Games open to civilians and women in dressage. She won the
+   individual silver against men, and men and women have competed against
+   each other in every equestrian event since.
+  title: "1952OG-Lis Hartel-Jubilee.jpg"
+  author: "IOC photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1952OG-Lis_Hartel-Jubilee.jpg"
+
+- id: equestrian-frangible-pin
+  sport: equestrian
+  file: /images/equestrian/frangible-pin.jpg
+  width: 1200
+  height: 777
+  alt: "A frangible pin on a cross-country fence, Kelsall Hill Horse Trials, 2015."
+  shows: >
+   The metal pin under the rail is designed to give way under a specific
+   load, so the fence can collapse instead of rotating a horse over it. Pins
+   were first introduced into eventing in 2002.
+  title: "Kelsall Hill Horse Trials - frangible pin - geograph.org.uk - 4454332.jpg"
+  author: "Jonathan Hutchins"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kelsall_Hill_Horse_Trials_-_frangible_pin_-_geograph.org.uk_-_4454332.jpg"
+
+- id: equestrian-chatsworth-fence
+  sport: equestrian
+  file: /images/equestrian/chatsworth-fence.jpg
+  width: 1200
+  height: 798
+  alt: "A cross-country fence at the Chatsworth Horse Trials, 2015."
+  shows: >
+   Solid timber set into open country: cross-country fences are fixed by
+   definition, which is what makes them a test and what makes them dangerous.
+  title: "Chatsworth Horse Trials, cross-country fence 15 - geograph.org.uk - 4479963.jpg"
+  author: "Jonathan Hutchins"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Chatsworth_Horse_Trials,_cross-country_fence_15_-_geograph.org.uk_-_4479963.jpg"
+
+- id: equestrian-badminton-1990
+  sport: equestrian
+  file: /images/equestrian/badminton-1990.jpg
+  width: 1200
+  height: 768
+  alt: "A horse and rider over a fence at Badminton Horse Trials, 1990."
+  shows: >
+   The long-format era, when the cross-country came after roads and tracks
+   and a steeplechase. The endurance phases were removed for 2005.
+  title: "Badminton Horse Trials, Gloucestershire 1990 - geograph.org.uk - 5245455.jpg"
+  author: "Ray Bird"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Badminton_Horse_Trials,_Gloucestershire_1990_-_geograph.org.uk_-_5245455.jpg"
+
+- id: equestrian-badminton-2016
+  sport: equestrian
+  file: /images/equestrian/badminton-2016.jpg
+  width: 1200
+  height: 756
+  alt: "Cross-country at Badminton Horse Trials, 2016."
+  shows: >
+   The short format: the horse arrives at the cross-country fresh, without
+   the preceding endurance phases.
+  title: "Badminton Horse Trials, Gloucestershire 2016 - geograph.org.uk - 5243639.jpg"
+  author: "Ray Bird"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Badminton_Horse_Trials,_Gloucestershire_2016_-_geograph.org.uk_-_5243639.jpg"
+
+- id: equestrian-maifeld-1936
+  sport: equestrian
+  file: /images/equestrian/maifeld-dressage-1936.jpg
+  width: 1200
+  height: 795
+  alt: "The dressage arena on the Maifeld during the 1936 Olympics, with the Olympic Stadium behind."
+  shows: >
+   The same 60 by 20 metre rectangle, marked out on grass, that dressage is
+   still ridden in.
+  title: "Maifeld az 1936. évi nyári olimpiai játékok díjlovagló versenyei alatt, háttérben az Olimpiai Stadion. Fortepan 16317.jpg"
+  author: "Fortepan (donor Károly Vass)"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Maifeld_az_1936._%C3%A9vi_ny%C3%A1ri_olimpiai_j%C3%A1t%C3%A9kok_d%C3%ADjlovagl%C3%B3_versenyei_alatt,_h%C3%A1tt%C3%A9rben_az_Olimpiai_Stadion._Fortepan_16317.jpg"
+
+- id: equestrian-fry-2024
+  sport: equestrian
+  slot: "play:field"
+  file: /images/equestrian/fry-paris-2024.jpg
+  width: 1200
+  height: 800
+  alt: "Charlotte Fry and Glamourdale in the dressage arena at Paris 2024."
+  shows: >
+   The arena's lettered markers — K is behind them — fix where each movement
+   of a test must be ridden, and the judges sit at stated points round it.
+  title: "OG2024-dressage-Charlotte-Fry01.jpg"
+  author: "Eponimm"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:OG2024-dressage-Charlotte-Fry01.jpg"
+
+- id: equestrian-exell-2013
+  sport: equestrian
+  slot: "events"
+  file: /images/equestrian/exell-driving-2013.jpg
+  width: 1200
+  height: 900
+  alt: "Boyd Exell of Australia with his four-in-hand at the World Cup driving final, Bordeaux, 2013."
+  shows: >
+   Carriage driving, one of the disciplines contested away from the Games,
+   with world championships of its own.
+  title: "Boyd Exell, World Cup Driving Final 2013 (1).JPG"
+  author: "Prométhée33"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Boyd_Exell,_World_Cup_Driving_Final_2013_(1).JPG"
+
+- id: equestrian-christiansen-2014
+  sport: equestrian
+  slot: "events"
+  file: /images/equestrian/christiansen-para-2014.jpg
+  width: 800
+  height: 1200
+  alt: "Sophie Christiansen and Janeiro 6 in para dressage at the 2014 World Equestrian Games."
+  shows: >
+   Para dressage, on the Paralympic programme.
+  title: "Sophie CHRISTIANSEN JEM2014.JPG"
+  author: "Florence.Skowron"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sophie_CHRISTIANSEN_JEM2014.JPG"
