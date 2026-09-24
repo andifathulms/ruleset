@@ -326,6 +326,14 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M6 54 Q10 42 20 34" strokeDasharray="3 4" fill="none" />
     </>
   ),
+  // The panelled ball: a pentagon at the centre, seams running to the rim.
+  football: (
+    <>
+      <circle cx="32" cy="32" r="22" />
+      <path d="M32 23 L40.6 29.2 L37.3 39.3 L26.7 39.3 L23.4 29.2 Z" fill="#F2F5F1" />
+      <path d="M32 23 L32 10 M40.6 29.2 L52.5 25 M37.3 39.3 L44 50 M26.7 39.3 L20 50 M23.4 29.2 L11.5 25" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
