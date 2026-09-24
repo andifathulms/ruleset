@@ -52,7 +52,7 @@ sections:
       permitted for penalty corner defence.
     facts:
       - { label: Stick, value: One flat face only }
-      - { label: Ball, value: 156–163 g, solid }
+      - { label: Ball, value: "156–163 g, solid" }
       - { label: Goalkeeper, value: Full protective kit }
 
   - id: players
@@ -66,8 +66,8 @@ sections:
       referral, which is the same structure cricket uses.
     facts:
       - { label: On pitch, value: "11" }
-      - { label: Substitutions, value: Rolling, unlimited }
-      - { label: Umpires, value: 2, plus video }
+      - { label: Substitutions, value: "Rolling, unlimited" }
+      - { label: Umpires, value: "2, plus video" }
     shaped_by: [fih-2011-video-referral]
 
   - id: duration
