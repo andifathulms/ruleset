@@ -251,6 +251,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M44 30 L52 30 L54 34 L60 36 L60 40 L44 40 Z" fill="#F2F5F1" fillOpacity="0.55" />
       <path d="M8 22 H56 M52 18 L56 22 L52 26" fill="none" />
     </>
+  ),  // A horse's head in profile with its bridle: the competitor that cannot
+  // complain, and the reason the equipment rules are welfare rules.
+  equestrian: (
+    <>
+      <path d="M22 56 L24 34 C24 22 30 12 38 9 L40 4 L43 10 C49 14 56 26 58 34 C59 38 56 41 52 39 L44 33 C42 40 40 48 40 56 Z" />
+      <path d="M38 9 C33 16 30 24 30 34" fill="none" strokeOpacity="0.6" />
+      <path d="M44 33 L51 20 M44 22 L54 30" fill="none" />
+      <circle cx="46" cy="19" r="1.4" fill="#F2F5F1" stroke="none" />
+    </>
   ),
 }
 
