@@ -270,6 +270,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="47" cy="33" r="2" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // Two foils crossed at the blade, bell guards and grips below.
+  fencing: (
+    <>
+      <path d="M12 12 L44 44 M52 12 L20 44" />
+      <path d="M40 40 Q44 50 50 46 Q54 40 44 40 Z" />
+      <path d="M24 40 Q20 50 14 46 Q10 40 20 40 Z" />
+      <path d="M47 47 L54 54 M17 47 L10 54" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
