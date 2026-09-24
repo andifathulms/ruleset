@@ -4087,3 +4087,177 @@
   licence: "CC BY 2.0"
   licence_url: "https://creativecommons.org/licenses/by/2.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Lords_-_June_2011_-_E_v_SL_-_Ian_Bell_Steers_One_Over_the_Slips_(5858008465).jpg"
+
+# Croquet.
+
+- id: croquet-homer-1866
+  sport: croquet
+  file: /images/croquet/homer-1866.jpg
+  width: 1200
+  height: 733
+  alt: "Winslow Homer, Croquet Scene, 1866."
+  shows: >
+   Painted in the years of the craze: men and women playing together, in
+   ordinary clothes, on a lawn. Very few games of the period allowed any of
+   that.
+  title: "Winslow Homer - Croquet Scene - Google Art Project.jpg"
+  author: "Winslow Homer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Winslow_Homer_-_Croquet_Scene_-_Google_Art_Project.jpg"
+
+- id: croquet-wimbledon-set
+  sport: croquet
+  file: /images/croquet/wimbledon-croquet-set.jpg
+  width: 1200
+  height: 900
+  alt: "An F. H. Ayres \"Wimbledon\" croquet set, in the Wimbledon Lawn Tennis Museum."
+  shows: >
+   The club the sport founded, remembered by the sport that took it over:
+   croquet's equipment kept in a tennis museum.
+  title: "Wimbledon croquet set, Wimbledon Lawn Tennis Museum.jpg"
+  author: "Matt Brown"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Wimbledon_croquet_set,_Wimbledon_Lawn_Tennis_Museum.jpg"
+
+- id: croquet-all-england-2011
+  sport: croquet
+  file: /images/croquet/all-england-croquet-2011.jpg
+  width: 640
+  height: 430
+  alt: "Croquet on the lawns of the All England Lawn Tennis and Croquet Club, 2011."
+  shows: >
+   The game is still played at Wimbledon, behind the fence, in the club whose
+   name restored it as a courtesy.
+  title: "Croquet, All England Lawn Tennis and Croquet Club - geograph.org.uk - 2511519.jpg"
+  author: "N Chadwick"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Croquet,_All_England_Lawn_Tennis_and_Croquet_Club_-_geograph.org.uk_-_2511519.jpg"
+
+- id: croquet-paris-1900
+  sport: croquet
+  file: /images/croquet/paris-1900.jpg
+  width: 678
+  height: 431
+  alt: "A croquet match at the 1900 Paris Games."
+  shows: >
+   The sport's only Olympic tournament, contested almost entirely by French
+   entrants and reportedly watched by one paying spectator.
+  title: "Croc 1900.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Croc_1900.jpg"
+
+- id: croquet-garden-set
+  sport: croquet
+  file: /images/croquet/garden-set.jpg
+  width: 900
+  height: 1200
+  alt: "An old garden croquet set in its stand."
+  shows: >
+   Wooden mallets, striped balls and thin wire hoops, far wider than the
+   ball: the game most people have played, in which running a hoop is a
+   formality.
+  title: "Old croquet set.jpg"
+  author: "Joe Mabel"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Old_croquet_set.jpg"
+
+- id: croquet-championship-equipment
+  sport: croquet
+  file: /images/croquet/championship-equipment.jpg
+  width: 1200
+  height: 800
+  alt: "A carbon-fibre mallet, composition balls and a cast-iron championship hoop."
+  shows: >
+   The same four balls and the same hoop, tightened until running one is a
+   real shot: the hoop's clearance over the ball is a fraction of a
+   millimetre.
+  title: "Modern croquet equipment.JPG"
+  author: "Winnywinn"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Modern_croquet_equipment.JPG"
+
+- id: croquet-hurlingham
+  sport: croquet
+  file: /images/croquet/hurlingham-lawns.jpg
+  width: 480
+  height: 640
+  alt: "Hurlingham House and its croquet lawns, London, 2007."
+  shows: >
+   Level grass, closely mown and kept at a consistent speed, owned by a club:
+   the requirement that confines croquet to where clubs already exist.
+  title: "Hurlingham House and Croquet Lawns - geograph.org.uk - 508656.jpg"
+  author: "Carol"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Hurlingham_House_and_Croquet_Lawns_-_geograph.org.uk_-_508656.jpg"
+
+- id: croquet-mallet-ball-hoop
+  sport: croquet
+  slot: "play:equipment"
+  file: /images/croquet/mallet-ball-hoop.jpg
+  width: 1200
+  height: 929
+  alt: "A mallet, a ball and a hoop at a tournament, 2018."
+  shows: >
+   Everything the rules specify, in one frame.
+  title: "Mazo de croquet, bola y aro.jpg"
+  author: "Guillermo Navarro"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Mazo_de_croquet,_bola_y_aro.jpg"
+
+- id: croquet-macrobertson
+  sport: croquet
+  slot: "events"
+  file: /images/croquet/macrobertson-shield.jpg
+  width: 1200
+  height: 1182
+  alt: "The MacRobertson Shield, with the four balls of association croquet."
+  shows: >
+   The oldest and most prestigious team contest in the code, played between
+   Australia, England, New Zealand and the United States.
+  title: "MacRobertson International Croquet Shield.JPG"
+  author: "Christine Irwin"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:MacRobertson_International_Croquet_Shield.JPG"
+
+- id: croquet-roque-1904
+  sport: croquet
+  slot: "events"
+  file: /images/croquet/roque-1904.jpg
+  width: 376
+  height: 298
+  alt: "Roque at the 1904 St. Louis Games."
+  shows: >
+   The American hard-court variant with a raised border, contested at the
+   Olympics once and now effectively extinct.
+  title: "Roque competition during 1904 Summer Olympics.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Roque_competition_during_1904_Summer_Olympics.jpg"
+
+- id: croquet-gateball-2008
+  sport: croquet
+  slot: "events"
+  file: /images/croquet/gateball-2008.jpg
+  width: 1200
+  height: 900
+  alt: "Gateball at a citizens' festival in Gyeongju, South Korea, 2008."
+  shows: >
+   The Japanese team derivative from the 1940s, played to a clock on a small
+   court, with a participation base across East Asia far larger than
+   croquet's.
+  title: "Korea-2008 Gyeongju Citizens' Athletics Festival-Gateball-01.jpg"
+  author: "Grete Howard"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Korea-2008_Gyeongju_Citizens%27_Athletics_Festival-Gateball-01.jpg"
