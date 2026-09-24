@@ -289,6 +289,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M8 54 Q14 50 20 54 T32 54 T44 54 T56 54" />
     </>
   ),
+  // A closed fist striking the ball, with the tape strung between two posts.
+  fistball: (
+    <>
+      <path d="M10 56 L10 30 M54 56 L54 30 M10 32 L54 32" />
+      <circle cx="26" cy="15" r="7" />
+      <rect x="18" y="38" width="16" height="11" rx="4" />
+      <path d="M22 38 L22 43 M26 38 L26 43 M30 38 L30 43 M22 49 L22 56 M30 49 L30 56" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
