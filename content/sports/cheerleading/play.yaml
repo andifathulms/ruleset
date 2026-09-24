@@ -33,7 +33,7 @@ sections:
 
       A routine must stay within the marked area, and leaving it is penalised.
     facts:
-      - { label: Surface, value: Matted, sprung at senior level }
+      - { label: Surface, value: "Matted, sprung at senior level" }
       - { label: Boundary, value: Marked; leaving it is penalised }
     shaped_by: [cheer-safety-code]
 
@@ -50,7 +50,7 @@ sections:
       required spotters standing in defined positions.
     facts:
       - { label: Protective equipment, value: None }
-      - { label: Safety system, value: Rules and spotters, not equipment }
+      - { label: Safety system, value: "Rules and spotters, not equipment" }
     shaped_by: [cheer-safety-code]
 
   - id: players
@@ -66,7 +66,7 @@ sections:
     facts:
       - { label: Team, value: Up to about 24 }
       - { label: Divisions, value: All-female and coed }
-      - { label: Roles, value: Bases, flyers, spotters, tumblers }
+      - { label: Roles, value: "Bases, flyers, spotters, tumblers" }
 
   - id: duration
     label: Time
