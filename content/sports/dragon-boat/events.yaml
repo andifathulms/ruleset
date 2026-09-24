@@ -11,7 +11,7 @@ disciplines:
     label: Standard boat
     blurb: Twenty paddlers, a drummer and a steerer.
     events:
-      - { id: std-200, label: 200 m, at: [asian-games, world-championship], count: 3, note: Open, women's and mixed. }
+      - { id: std-200, label: 200 m, at: [asian-games, world-championship], count: 3, note: "Open, women's and mixed." }
       - { id: std-500, label: 500 m, at: [asian-games, world-championship], count: 3 }
       - { id: std-2000, label: 2000 m, at: [world-championship], count: 3, note: Raced with turns around marks. }
   - id: small
@@ -38,7 +38,7 @@ disciplines:
       Yuan. Most dragon boat racing in the world is this rather than
       championship sport.
     events:
-      - { id: duanwu, label: Festival racing, at: [federation-only], note: Community and ceremonial racing, in vastly greater numbers than the governed sport. }
+      - { id: duanwu, label: Festival racing, at: [federation-only], note: "Community and ceremonial racing, in vastly greater numbers than the governed sport." }
   - id: governance
     label: Claimed by a second federation
     counts: false

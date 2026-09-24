@@ -16,7 +16,7 @@ sections:
       distinctive about the sport is in who is in the boat and what the paddling
       action is.
     facts:
-      - { label: Distances, value: 200, 500 and 2000 m }
+      - { label: Distances, value: "200, 500 and 2000 m" }
 
   - id: field
     label: The course
@@ -25,7 +25,7 @@ sections:
       event is raced with turns around marks rather than in straight lanes,
       which introduces a steering contest the shorter races do not have.
     facts:
-      - { label: Water, value: Flat, buoyed lanes }
+      - { label: Water, value: "Flat, buoyed lanes" }
       - { label: 2000 m, value: Raced with turns }
 
   - id: equipment
@@ -44,8 +44,8 @@ sections:
 
       The drummer has a drum. The steerer has a long steering oar.
     facts:
-      - { label: Paddle, value: Single blade, seated, facing forward }
-      - { label: Seats, value: Fixed, not sliding }
+      - { label: Paddle, value: "Single blade, seated, facing forward" }
+      - { label: Seats, value: "Fixed, not sliding" }
       - { label: Dragon head and tail, value: Required fittings }
       - { label: Standard boat, value: 20 paddlers }
       - { label: Small boat, value: 10 paddlers }
@@ -66,7 +66,7 @@ sections:
     facts:
       - { label: In the boat, value: "22" }
       - { label: Not paddling, value: The drummer and the steerer }
-      - { label: Divisions, value: Open, women's, mixed, and BCS }
+      - { label: Divisions, value: "Open, women's, mixed, and BCS" }
     shaped_by: [dragonboat-crew-composition, dragonboat-bcs-crews]
 
   - id: duration
@@ -76,7 +76,7 @@ sections:
       for a 2000 with turns. Timed to the hundredth, as in canoe sprint.
     facts:
       - { label: 200 m, value: Under a minute }
-      - { label: 2000 m, value: About ten minutes, with turns }
+      - { label: 2000 m, value: "About ten minutes, with turns" }
 
   - id: scoring
     label: Scoring
