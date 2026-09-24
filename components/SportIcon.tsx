@@ -279,6 +279,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M47 47 L54 54 M17 47 L10 54" />
     </>
   ),
+  // A monofin, blade down: two foot pockets over one wide blade, on a waterline.
+  finswimming: (
+    <>
+      <path d="M25 10 Q24 22 27 26 L31 26 Q32 18 31 10 Z" />
+      <path d="M33 10 Q32 18 33 26 L37 26 Q40 22 39 10 Z" />
+      <path d="M25 26 L39 26 L52 44 Q32 50 12 44 Z" />
+      <path d="M32 29 L32 44" />
+      <path d="M8 54 Q14 50 20 54 T32 54 T44 54 T56 54" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
