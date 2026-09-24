@@ -4481,3 +4481,175 @@
   licence: "CC BY-SA 3.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Tour_de_France_2013_-_%C3%89tape_12_-_Foug%C3%A8res_01.JPG"
+
+# DanceSport.
+
+- id: dancesport-kensington-1921
+  sport: dancesport
+  file: /images/dancesport/kensington-1921.jpg
+  width: 1200
+  height: 914
+  alt: "A St. Valentine's dance and ballroom competition at the Royal Palace Hotel, Kensington, February 1921."
+  shows: >
+   The decade the British teaching bodies standardised the technique. The man
+   at the front is Santos Casani, a dancing teacher. The photograph is better
+   known now as the one retouched for the ending of The Shining.
+  title: "1920s Dancers Royal Palace Hotel - The Shining.jpg"
+  author: "Morey, for the Topical Press Agency"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1920s_Dancers_Royal_Palace_Hotel_-_The_Shining.jpg"
+
+- id: dancesport-kiel-1963
+  sport: dancesport
+  file: /images/dancesport/kiel-1963.jpg
+  width: 962
+  height: 649
+  alt: "An international amateur dance tournament at Kieler Woche, Kiel, 1963."
+  shows: >
+   Couples in the Standard programme sharing one floor, a few years after the
+   amateur international council was founded in 1957.
+  title: "Internationales Amateur-Tanzturnier zur Kieler Woche 1963 (Kiel 30.559).jpg"
+  author: "Friedrich Magnussen"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Internationales_Amateur-Tanzturnier_zur_Kieler_Woche_1963_(Kiel_30.559).jpg"
+
+- id: dancesport-standard-2010
+  sport: dancesport
+  file: /images/dancesport/standard-2010.jpg
+  width: 1200
+  height: 1200
+  alt: "Benedetto Ferruggia and Claudia Köhler, German, European and world amateur Standard champions, 2010."
+  shows: >
+   The Standard programme: closed hold, the man's tails, the woman's gown,
+   travelling counter-clockwise round the floor.
+  title: "Tanzturnier 59.JPG"
+  author: "Sigismund von Dobschütz"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Tanzturnier_59.JPG"
+
+- id: dancesport-latin-2012
+  sport: dancesport
+  file: /images/dancesport/latin-2012.jpg
+  width: 800
+  height: 1200
+  alt: "Miha Vodičar and Nadiya Bychkova of Slovenia dancing the cha-cha-cha at the 2012 WDSF World Latin Championships, Vienna."
+  shows: >
+   The Latin programme: open holds, no travelling line, and costume designed
+   to show the lines of the body.
+  title: "Cha-Cha-Cha Vodicar Bychkova 0686.JPG"
+  author: "Ailura"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cha-Cha-Cha_Vodicar_Bychkova_0686.JPG"
+
+- id: dancesport-mens-shoes
+  sport: dancesport
+  file: /images/dancesport/mens-shoes.jpg
+  width: 1200
+  height: 800
+  alt: "Men's ballroom shoes."
+  shows: >
+   Suede soles for a controlled slide on a sprung floor, and a low heel for
+   the Standard posture.
+  title: "Mens' ballroom shoes, Eurodance CZ.jpg"
+  author: "Martin Kozák"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Mens%27_ballroom_shoes,_Eurodance_CZ.jpg"
+
+- id: dancesport-ladies-shoes
+  sport: dancesport
+  file: /images/dancesport/ladies-shoes.jpg
+  width: 1200
+  height: 800
+  alt: "Women's ballroom shoes."
+  shows: >
+   The heel height differs between programmes because the posture and weight
+   placement do.
+  title: "Ladies' ballroom shoes, Tango Shoes 1.jpg"
+  author: "Martin Kozák"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Ladies%27_ballroom_shoes,_Tango_Shoes_1.jpg"
+
+- id: dancesport-shared-floor
+  sport: dancesport
+  file: /images/dancesport/shared-floor-2016.jpg
+  width: 1200
+  height: 800
+  alt: "A Latin couple at the Blaues Band der Spree competition, Berlin, 2016, with other couples dancing behind them."
+  shows: >
+   No lanes and no assigned space: the floor is shared, and a couple blocked
+   or cut off is marked on less evidence.
+  title: "Dynamic (39430031641).jpg"
+  author: "Thomas Quine"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Dynamic_(39430031641).jpg"
+
+- id: dancesport-costume-2012
+  sport: dancesport
+  file: /images/dancesport/costume-2012.jpg
+  width: 800
+  height: 1200
+  alt: "Kristina Raczova of Slovakia in the paso doble, 2012 WDSF World Latin Championships."
+  shows: >
+   A fringed, stoned competition costume. Presentation is one of the things
+   judged, so what a couple wears is part of the performance and its cost a
+   competitive variable.
+  title: "Paso Doble Sivak Raczova 0991.JPG"
+  author: "Ailura"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Paso_Doble_Sivak_Raczova_0991.JPG"
+
+- id: dancesport-blackpool
+  sport: dancesport
+  file: /images/dancesport/blackpool-tower-ballroom.jpg
+  width: 1200
+  height: 800
+  alt: "The Tower Ballroom, Blackpool."
+  shows: >
+   The Blackpool Dance Festival, held at the Winter Gardens a short walk
+   away, is still the event that matters most to many couples whichever
+   federation sanctions it; the Tower Ballroom is the town's dancing
+   landmark.
+  title: "Blackpool Tower Ballroom (7167590030).jpg"
+  author: "Michael Beckwith"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Blackpool_Tower_Ballroom_(7167590030).jpg"
+
+- id: dancesport-formation-standard-2022
+  sport: dancesport
+  slot: "events"
+  file: /images/dancesport/formation-standard-2022.jpg
+  width: 1200
+  height: 799
+  alt: "Jantar Elbląg of Poland at the 2022 WDSF European Formation Standard Championship."
+  shows: >
+   Standard formation: teams of eight couples dancing one choreographed
+   routine together.
+  title: "2022 WDSF European Championship Formation Standard - Jantar Elblag - by 2eight - ZSC4976.jpg"
+  author: "Stefan Brending (2eight)"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:2022_WDSF_European_Championship_Formation_Standard_-_Jantar_Elblag_-_by_2eight_-_ZSC4976.jpg"
+
+- id: dancesport-formation-latin-2007
+  sport: dancesport
+  slot: "events"
+  file: /images/dancesport/formation-latin-2007.jpg
+  width: 1200
+  height: 488
+  alt: "The Latin formation team of ATSC Blau-Silber Aachen, 2007."
+  shows: >
+   The Latin equivalent: eight couples, one routine, judged as a team.
+  title: "Latin formation (atsc bs cteam 2007).jpg"
+  author: "Thornard"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Latin_formation_(atsc_bs_cteam_2007).jpg"
