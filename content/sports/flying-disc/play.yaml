@@ -82,7 +82,7 @@ sections:
     facts:
       - { label: Game to, value: 15 points }
       - { label: Half time, value: 8 points }
-      - { label: Stall count, value: 10 s, counted aloud by the marker }
+      - { label: Stall count, value: "10 s, counted aloud by the marker" }
 
   - id: scoring
     label: Scoring
