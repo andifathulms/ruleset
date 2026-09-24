@@ -80,7 +80,7 @@ sections:
     facts:
       - { label: Direct elimination bout, value: 15 hits or 9 min }
       - { label: Pool bout, value: 5 hits }
-      - { label: Team match, value: 45 hits, relay of 9 }
+      - { label: Team match, value: "45 hits, relay of 9" }
 
   - id: scoring
     label: Scoring
@@ -98,7 +98,7 @@ sections:
       - { label: "Épée target", value: Whole body }
       - { label: "Foil target", value: Torso }
       - { label: "Sabre target", value: Above the waist }
-      - { label: Double hit, value: Both score, in épée only }
+      - { label: Double hit, value: "Both score, in épée only" }
     shaped_by: [fie-1936-electric-epee, fie-1957-electric-foil, fie-1988-electric-sabre]
 
   - id: restarts
