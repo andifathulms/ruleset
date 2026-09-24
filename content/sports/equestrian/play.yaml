@@ -68,7 +68,7 @@ sections:
       competitor for reasons unrelated to the rules of play.
     facts:
       - { label: Mixed-gender, value: In every event }
-      - { label: Team size, value: "3", note: Reduced from four, with no drop score, from 2021. }
+      - { label: Team size, value: "3", note: "Reduced from four, with no drop score, from 2021." }
       - { label: Horse inspection, value: Before and during competition }
     shaped_by: [fei-1952-women-admitted, fei-2020-teams-of-three]
 

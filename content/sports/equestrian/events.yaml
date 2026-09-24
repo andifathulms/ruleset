@@ -31,7 +31,7 @@ disciplines:
     label: Contested away from the Games
     counts: false
     events:
-      - { id: driving, label: Driving, note: Carriage driving, with world championships., at: [world-championship, world-games] }
+      - { id: driving, label: Driving, note: "Carriage driving, with world championships.", at: [world-championship, world-games] }
       - { id: endurance, label: Endurance, note: "Long-distance racing, and the discipline with the sport's worst welfare record.", at: [world-championship] }
       - { id: vaulting, label: Vaulting, at: [world-championship, world-games] }
       - { id: reining, label: Reining, at: [lapsed] }
