@@ -318,6 +318,14 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="44" cy="48" r="2" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // A disc in flight, tilted on its spin, with the arc it has travelled.
+  'flying-disc': (
+    <>
+      <ellipse cx="38" cy="24" rx="19" ry="8" transform="rotate(-12 38 24)" fill="none" />
+      <ellipse cx="38" cy="24" rx="12" ry="4.5" transform="rotate(-12 38 24)" fill="none" />
+      <path d="M6 54 Q10 42 20 34" strokeDasharray="3 4" fill="none" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
