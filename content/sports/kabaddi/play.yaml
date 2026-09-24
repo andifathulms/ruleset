@@ -55,7 +55,7 @@ sections:
     facts:
       - { label: Object of play, value: None }
       - { label: Protective equipment, value: None }
-      - { label: Surface, value: Mat, or earth in the traditional game }
+      - { label: Surface, value: "Mat, or earth in the traditional game" }
 
   - id: players
     label: Players and officials
@@ -69,7 +69,7 @@ sections:
       auditory judgement made over crowd noise.
     facts:
       - { label: On court, value: "7" }
-      - { label: Officials, value: Referee, two umpires, scorer }
+      - { label: Officials, value: "Referee, two umpires, scorer" }
       - { label: Cant, value: Judged by ear }
     shaped_by: [kabaddi-the-cant]
 

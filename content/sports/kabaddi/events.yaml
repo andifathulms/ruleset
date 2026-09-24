@@ -21,7 +21,7 @@ disciplines:
       different tackling culture. Governed separately and widely played in
       Punjab and among the Punjabi diaspora.
     events:
-      - { id: circle-men, label: Circle kabaddi, at: [federation-only], note: Its own world cup, unconnected to the standard-style international structure. }
+      - { id: circle-men, label: Circle kabaddi, at: [federation-only], note: "Its own world cup, unconnected to the standard-style international structure." }
   - id: professional
     label: The professional league
     counts: false
@@ -30,7 +30,7 @@ disciplines:
       country's largest television sports properties, and the source of the
       raid clock and do-or-die rules now used internationally.
     events:
-      - { id: pkl, label: Professional league competition, at: [federation-only], note: Where the sport's full-time athletes are, and where its rules are now effectively written. }
+      - { id: pkl, label: Professional league competition, at: [federation-only], note: "Where the sport's full-time athletes are, and where its rules are now effectively written." }
   - id: variants
     label: Other forms
     counts: false
