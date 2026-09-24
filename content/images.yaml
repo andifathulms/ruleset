@@ -7052,3 +7052,213 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:FIFA_Women%27s_World_Cup_2019_Final_-_US_team_on_podium_(1).jpg"
+
+# Golf.
+
+- id: golf-leith-1867
+  sport: golf
+  file: /images/golf/leith1867.jpg
+  width: 1200
+  height: 954
+  alt: "\"Grand golf tournament by professional players on Leith Links, 17th May 1867\": among the names printed beneath, Tom Morris and Tom Morris Jun."
+  shows: >
+   Leith Links, where the first surviving written rules were drafted for a
+   competition in 1744.
+  title: "Grand golf tournament by professional players on Leith Links, 17th May 1867 LCCN99471604.jpg"
+  author: "Unknown photographer (Library of Congress)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Grand_golf_tournament_by_professional_players_on_Leith_Links,_17th_May_1867_LCCN99471604.jpg"
+
+- id: golf-ra-clubhouse
+  sport: golf
+  file: /images/golf/ra-clubhouse.jpg
+  width: 1200
+  height: 801
+  alt: "The clubhouse of the Royal and Ancient Golf Club behind the Swilcan Burn bridge on the Old Course, St Andrews."
+  shows: >
+   The R&A, one of the two bodies that jointly own the Rules. The USGA holds
+   the other half of the world.
+  title: "R&A Clubhouse, Old Course, Swilcan Burn bridge.jpg"
+  author: "Optograph"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:R%26A_Clubhouse,_Old_Course,_Swilcan_Burn_bridge.jpg"
+
+- id: golf-paris-1900
+  sport: golf
+  file: /images/golf/paris1900.jpg
+  width: 1200
+  height: 820
+  alt: "Two competitors on the same tee in the women's championship at the 1900 Paris Olympics."
+  shows: >
+   Golf's first Olympic appearance. After 1904 it was absent for 112 years.
+  title: "Paris 1900 - Golf - Two competitors next to the same hole.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Paris_1900_-_Golf_-_Two_competitors_next_to_the_same_hole.jpg"
+
+- id: golf-abbott-1900
+  sport: golf
+  file: /images/golf/abbott.jpg
+  width: 1200
+  height: 766
+  alt: "Margaret Abbott playing in the women's golf event at Compiègne during the 1900 Games, from La Vie au Grand Air."
+  shows: >
+   Abbott won it, the first American woman to win an Olympic event.
+  title: "Margaret Abbott golf event 1900 Olympic Games.png"
+  author: "Unknown photographer (La Vie au Grand Air)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Margaret_Abbott_golf_event_1900_Olympic_Games.png"
+
+- id: golf-featherie
+  sport: golf
+  file: /images/golf/featherie.jpg
+  width: 1200
+  height: 1120
+  alt: "Six featherie golf balls."
+  shows: >
+   Feathers stuffed into stitched leather: the ball before gutta-percha,
+   rubber and the solid core.
+  title: "Featherie golf ball.JPG"
+  author: "Geni"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Featherie_golf_ball.JPG"
+
+- id: golf-travis-1901
+  sport: golf
+  file: /images/golf/travis.jpg
+  width: 854
+  height: 1200
+  alt: "Walter Travis with the Havemeyer Trophy after his second U.S. Amateur title, 1901. On the table is the Haskell rubber-cored ball he won with."
+  shows: >
+   The wound rubber ball, new in 1901, which quickly replaced gutta-percha
+   and added distance.
+  title: "WalterTravis1901.jpg"
+  author: "Stuyvesant Company"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:WalterTravis1901.jpg"
+
+- id: golf-hickory-irons
+  sport: golf
+  file: /images/golf/hickory.jpg
+  width: 1200
+  height: 900
+  alt: "Hickory-shafted irons."
+  shows: >
+   Wood shafts, before steel, titanium and composite.
+  title: "Hickory golfstokken.JPG"
+  author: "Pvt pauline"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Hickory_golfstokken.JPG"
+
+- id: golf-drivers-old-new
+  sport: golf
+  file: /images/golf/drivers.jpg
+  width: 1200
+  height: 976
+  alt: "A 460 cc titanium-era driver beside an early-1980s persimmon driver."
+  shows: >
+   Heads grew enormously. The limits on head size and face flex came after
+   the technology.
+  title: "Golf drivers old and new.jpg"
+  author: "ReignMan"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Golf_drivers_old_and_new.jpg"
+
+- id: golf-wedges-grooves
+  sport: golf
+  file: /images/golf/wedges.jpg
+  width: 1200
+  height: 800
+  alt: "Cleveland CG14 wedges, their packaging advertising the brand's biggest grooves."
+  shows: >
+   Groove geometry was restricted in 2010 so that spin from the rough would
+   stop cancelling the penalty for missing the fairway.
+  title: "Cleveland CG14 wedges.jpg"
+  author: "Kevin Ho"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cleveland_CG14_wedges.jpg"
+
+- id: golf-inbee-park
+  sport: golf
+  file: /images/golf/inbee.jpg
+  width: 924
+  height: 1200
+  alt: "Inbee Park of South Korea on the 16th tee at Royal Lytham & St Annes before the 2009 Women's British Open."
+  shows: >
+   South Korea's women's programme, the most successful national pipeline in
+   the sport.
+  title: "2009 Women's British Open – Inbee Park (3).jpg"
+  author: "Wojciech Migda"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2009_Women%27s_British_Open_%E2%80%93_Inbee_Park_(3).jpg"
+
+- id: golf-kobe-range
+  sport: golf
+  file: /images/golf/range3.jpg
+  width: 1200
+  height: 675
+  alt: "A three-tier floodlit driving range in Kobe, Japan, 2016."
+  shows: >
+   The driving ranges that produce Japan's golfers, stacked three storeys
+   high.
+  title: "ゴルフ練習場 3段 2016 (33882011855).jpg"
+  author: "zaopharm"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:%E3%82%B4%E3%83%AB%E3%83%95%E7%B7%B4%E7%BF%92%E5%A0%B4_3%E6%AE%B5_2016_(33882011855).jpg"
+
+- id: golf-matsudo-range
+  sport: golf
+  file: /images/golf/ranran.jpg
+  width: 1200
+  height: 900
+  alt: "The roadside entrance to Ranran Club, a driving range in Matsudo, Chiba."
+  shows: >
+   A 250-yard range in a residential street.
+  title: "Ranran Club 01.jpg"
+  author: "Higa4"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ranran_Club_01.jpg"
+
+- id: golf-rio-2016
+  sport: golf
+  slot: "play:field"
+  file: /images/golf/rio2016.jpg
+  width: 1200
+  height: 800
+  alt: "The Olympic golf course at Barra da Tijuca, Rio de Janeiro, built for 2016."
+  shows: >
+   Fairways, greens, bunkers and water across tens of hectares: the land a
+   course needs.
+  title: "Golfe Rio 2016.jpg"
+  author: "Miriam Jeske / Brasil2016.gov.br"
+  licence: "CC BY 3.0 br"
+  licence_url: "https://creativecommons.org/licenses/by/3.0/br/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Golfe_Rio_2016.jpg"
+
+- id: golf-old-tom-morris
+  sport: golf
+  slot: "events"
+  file: /images/golf/oldtom.jpg
+  width: 503
+  height: 921
+  alt: "Old Tom Morris on a golf course, 1880."
+  shows: >
+   Four times winner of the Open Championship, the oldest of golf's four
+   majors.
+  title: "Old Tom Morris 1880.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Old_Tom_Morris_1880.jpg"
