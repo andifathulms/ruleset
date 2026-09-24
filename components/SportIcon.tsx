@@ -181,6 +181,17 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M2 50 C8 48 12 52 18 50 S28 48 34 50 S46 52 52 50 S60 48 62 50" fill="none" strokeOpacity="0.6" />
     </>
   ),
+  // A megaphone: the whole of the activity's equipment in 1898, before it
+  // became a sport of its own.
+  cheerleading: (
+    <>
+      <path d="M12 28 L44 14 L44 50 L12 36 Z" />
+      <ellipse cx="44" cy="32" rx="4.5" ry="18" />
+      <rect x="7" y="27" width="6" height="10" rx="1.5" />
+      <path d="M22 35 L20 46 L26 46 L28 38" fill="none" />
+      <path d="M52 22 L58 18 M53.5 32 L60 32 M52 42 L58 46" fill="none" strokeOpacity="0.7" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
