@@ -47,7 +47,7 @@ sections:
     facts:
       - { label: "Ball, men", value: Size 3 }
       - { label: "Ball, women", value: Size 2 }
-      - { label: Resin, value: Widely used, and banned in some halls }
+      - { label: Resin, value: "Widely used, and banned in some halls" }
 
   - id: players
     label: Players and officials
@@ -61,7 +61,7 @@ sections:
       without restriction, and attack seven against six with an empty net.
     facts:
       - { label: On court, value: "7" }
-      - { label: Substitutions, value: Rolling, unlimited }
+      - { label: Substitutions, value: "Rolling, unlimited" }
       - { label: Referees, value: "2" }
       - { label: Empty-net attack, value: Legal since 2016 }
     shaped_by: [ihf-2016-seventh-field-player]
