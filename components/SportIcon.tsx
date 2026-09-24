@@ -260,6 +260,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M44 33 L51 20 M44 22 L54 30" fill="none" />
       <circle cx="46" cy="19" r="1.4" fill="#F2F5F1" stroke="none" />
     </>
+  ),  // A controller: the one piece of equipment a competitor brings. The field
+  // of play is software, and belongs to someone else.
+  esports: (
+    <>
+      <path d="M20 22 L44 22 C52 22 57 30 58 40 C59 47 54 50 50 46 L44 40 L20 40 L14 46 C10 50 5 47 6 40 C7 30 12 22 20 22 Z" />
+      <path d="M17 31 H25 M21 27 V35" fill="none" strokeWidth="2" />
+      <circle cx="42" cy="29" r="2" fill="#F2F5F1" stroke="none" />
+      <circle cx="47" cy="33" r="2" fill="#F2F5F1" stroke="none" />
+    </>
   ),
 }
 
