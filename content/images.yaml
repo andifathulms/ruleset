@@ -3836,3 +3836,254 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Penn_cheerleaders_formation.jpg"
+
+# Cricket.
+
+- id: cricket-hayman-1743
+  sport: cricket
+  file: /images/cricket/hayman-1743.jpg
+  width: 1200
+  height: 971
+  alt: "Cricket, an engraving of 1743 after Francis Hayman's painting for Vauxhall Gardens."
+  shows: >
+   The game a year before the first known written laws: two stumps, a curved
+   bat like a hockey stick, and a boy on the grass taking the score.
+  title: "Cricket (BM 1862,1011.615).jpg"
+  author: "After Francis Hayman; engraved by Antoine Benoist"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Cricket_(BM_1862,1011.615).jpg"
+
+- id: cricket-lords-pavilion
+  sport: cricket
+  file: /images/cricket/lords-pavilion.jpg
+  width: 1200
+  height: 900
+  alt: "The Pavilion at Lord's, the home of the Marylebone Cricket Club."
+  shows: >
+   The private members' club that has held the Laws of Cricket since 1788,
+   and still does. The international game is run by a different body.
+  title: "The Pavilion - Lord's Cricket Ground.JPG"
+  author: "PaddyBriggs"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:The_Pavilion_-_Lord%27s_Cricket_Ground.JPG"
+
+- id: cricket-paris-1900
+  sport: cricket
+  file: /images/cricket/paris-1900-team.jpg
+  width: 460
+  height: 288
+  alt: "The Great Britain team that beat France at the 1900 Paris Games."
+  shows: >
+   Actually a touring club, the Devon and Somerset Wanderers. It was
+   cricket's only Olympic match until 2028.
+  title: "Great britain cricket team 1900.jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Great_britain_cricket_team_1900.jpg"
+
+- id: cricket-curved-bat-1766
+  sport: cricket
+  file: /images/cricket/curved-bat-1766.jpg
+  width: 930
+  height: 1200
+  alt: "Francis Cotes, Charles Collyer as a Boy, with a Cricket Bat, 1766."
+  shows: >
+   The curved bat, five years before the width limit of 1771. The Laws went
+   on to constrain length and width, and nothing else, for more than two
+   centuries.
+  title: "Francis Cotes - Charles Collyer as a Boy, with a Cricket Bat - Google Art Project.jpg"
+  author: "Francis Cotes"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Francis_Cotes_-_Charles_Collyer_as_a_Boy,_with_a_Cricket_Bat_-_Google_Art_Project.jpg"
+
+- id: cricket-modern-bat
+  sport: cricket
+  file: /images/cricket/modern-bat-2014.jpg
+  width: 1200
+  height: 800
+  alt: "Alastair Cook batting for Essex, 2014."
+  shows: >
+   The straight modern bat, still within length and width limits written in
+   the eighteenth century. Its edges thickened at the same weight until the
+   2017 Code limited them.
+  title: "Alastair Cook batting 2014.jpg"
+  author: "Kroome111"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Alastair_Cook_batting_2014.jpg"
+
+- id: cricket-helmet-kit
+  sport: cricket
+  file: /images/cricket/helmet-kit-2019.jpg
+  width: 1200
+  height: 675
+  alt: "Gloves, bat and helmet on the grass during a club match, 2019."
+  shows: >
+   Protective equipment is the real safety story: helmets from the late
+   1970s, and neck guards and tighter standards after Phillip Hughes's death
+   in 2014.
+  title: "Cricket kit at Walker Cricket Ground, Southgate, London, England 02.jpg"
+  author: "Acabashi"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cricket_kit_at_Walker_Cricket_Ground,_Southgate,_London,_England_02.jpg"
+
+- id: cricket-eden-gardens-2008
+  sport: cricket
+  file: /images/cricket/eden-gardens-ipl-2008.jpg
+  width: 1200
+  height: 367
+  alt: "Eden Gardens, Kolkata, before an Indian Premier League match in May 2008."
+  shows: >
+   The league's first season. The money in cricket is now overwhelmingly
+   Indian, and this domestic franchise competition, which did not exist
+   before 2008, is the most-watched cricket in the world.
+  title: "Eden Gardens Kolkata.jpg"
+  author: "Partha Bhaumik"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Eden_Gardens_Kolkata.jpg"
+
+- id: cricket-lbw-1904
+  sport: cricket
+  file: /images/cricket/lbw-1904.jpg
+  width: 780
+  height: 1200
+  alt: "\"A clear case\": leg before wicket, from the Badminton Library's Cricket, 1904."
+  shows: >
+   The law in its simple form. What the 1980 Code added was the harder case:
+   a ball pitching outside off stump that the batter padded away without
+   trying to play it.
+  title: "Leg before wicket.jpg"
+  author: "Illustrator unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Leg_before_wicket.jpg"
+
+- id: cricket-lbw-1947
+  sport: cricket
+  file: /images/cricket/lbw-sydney-1947.jpg
+  width: 756
+  height: 1000
+  alt: "Hemu Adhikari out LBW to Bill Johnston for nought, Sydney, December 1947."
+  shows: >
+   The umpire's arm is up: a judgement about where a ball would have gone,
+   which is what ball-tracking now computes.
+  title: "Adhikari out LBW to W. Johnston for 0 (JPEG).jpeg"
+  author: "Herald and Weekly Times"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Adhikari_out_LBW_to_W._Johnston_for_0_(JPEG).jpeg"
+
+- id: cricket-world-t20-2007
+  sport: cricket
+  file: /images/cricket/world-t20-2007.jpg
+  width: 1200
+  height: 900
+  alt: "Bangladesh against South Africa at the first ICC World Twenty20, Cape Town, 2007."
+  shows: >
+   Twenty20 under lights: the format designed in 2003 around a working
+   evening, and a third set of statistics nobody tried to merge with the
+   other two.
+  title: "2007t20.jpg"
+  author: "Warrenski"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2007t20.jpg"
+
+- id: cricket-umpire-out
+  sport: cricket
+  file: /images/cricket/umpire-out.jpg
+  width: 1200
+  height: 900
+  alt: "An umpire giving a batter out, 2005."
+  shows: >
+   The on-field decision that, under the review system, the third umpire
+   checks — and that stands when ball-tracking shows a margin inside its own
+   error.
+  title: "Cricket Umpire dismissal.jpg"
+  author: "Kroome111"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cricket_Umpire_dismissal.jpg"
+
+- id: cricket-afghanistan-2010
+  sport: cricket
+  file: /images/cricket/afghanistan-2010.jpg
+  width: 1200
+  height: 806
+  alt: "Afghanistan's team walking off after the first innings of a World Cricket League match against Ireland, Rotterdam, 2010."
+  shows: >
+   The one genuine addition to cricket's map in decades, and one that arrived
+   through refugee camps rather than a development programme.
+  title: "Afghanistan national cricket team.jpg"
+  author: "Harrias"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Afghanistan_national_cricket_team.jpg"
+
+- id: cricket-stumps
+  sport: cricket
+  slot: "play:field"
+  file: /images/cricket/stumps-and-bails.jpg
+  width: 800
+  height: 1200
+  alt: "Stumps and bails at a club ground, 2018."
+  shows: >
+   Twenty-eight inches high, with the bails resting in the grooves on top.
+   Twenty-two yards from the other set.
+  title: "Buckhurst Hill Cricket Club wicket stumps and bails, Essex, England.jpg"
+  author: "Acabashi"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Buckhurst_Hill_Cricket_Club_wicket_stumps_and_bails,_Essex,_England.jpg"
+
+- id: cricket-ladies-1779
+  sport: cricket
+  slot: "events"
+  file: /images/cricket/ladies-match-1779.jpg
+  width: 1200
+  height: 621
+  alt: "A cricket match played by the Countess of Derby and other ladies, 1779."
+  shows: >
+   Women's cricket is nearly as old as the written laws. It reaches the
+   Olympic programme alongside the men's game in 2028.
+  title: "Cricket Match Played by the Countess of Derby and Other Ladies, 1779.jpg"
+  author: "Artist unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Cricket_Match_Played_by_the_Countess_of_Derby_and_Other_Ladies,_1779.jpg"
+
+- id: cricket-womens-world-cup-2017
+  sport: cricket
+  slot: "events"
+  file: /images/cricket/womens-world-cup-2017.jpg
+  width: 1200
+  height: 800
+  alt: "England's players at Lord's on the day of the 2017 Women's World Cup final."
+  shows: >
+   A sold-out final at the home of the Laws, won by England against India.
+  title: "2017 Women's Cricket World Cup IMG 2878 (35749553020).jpg"
+  author: "Robert Drummond"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:2017_Women%27s_Cricket_World_Cup_IMG_2878_(35749553020).jpg"
+
+- id: cricket-lords-test-2011
+  sport: cricket
+  file: /images/cricket/lords-test-2011.jpg
+  width: 1200
+  height: 918
+  alt: "Ian Bell batting in a Test at Lord's, England against Sri Lanka, June 2011."
+  shows: >
+   Five days, whites, a red ball: the oldest format, which does not travel
+   and is played by twelve countries.
+  title: "Lords - June 2011 - E v SL - Ian Bell Steers One Over the Slips (5858008465).jpg"
+  author: "Gareth Williams"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lords_-_June_2011_-_E_v_SL_-_Ian_Bell_Steers_One_Over_the_Slips_(5858008465).jpg"
