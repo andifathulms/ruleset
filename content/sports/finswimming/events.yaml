@@ -40,7 +40,7 @@ disciplines:
       CMAS is an underwater federation that runs a racing sport, not a racing
       federation that permits fins.
     events:
-      - { id: freediving, label: Freediving, at: [world-championship], note: Depth and static disciplines, governed by CMAS alongside other bodies. }
+      - { id: freediving, label: Freediving, at: [world-championship], note: "Depth and static disciplines, governed by CMAS alongside other bodies." }
       - { id: hockey, label: Underwater hockey, at: [world-championship], note: Played on the bottom of a pool on a single breath. }
       - { id: rugby, label: Underwater rugby, at: [world-championship], note: Played in three dimensions in a deep pool. }
-      - { id: orienteering-uw, label: Underwater orienteering, at: [world-championship], note: Navigation with a compass and a depth gauge, using a diving set. }
+      - { id: orienteering-uw, label: Underwater orienteering, at: [world-championship], note: "Navigation with a compass and a depth gauge, using a diving set." }

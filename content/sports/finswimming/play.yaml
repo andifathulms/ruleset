@@ -30,8 +30,8 @@ sections:
       events are swum underwater, typically close to the bottom, with the
       athlete out of sight of the crowd for the whole race.
     facts:
-      - { label: Pool, value: 50 m, lanes as in swimming }
-      - { label: Surface events, value: Face-down, on the surface }
+      - { label: Pool, value: "50 m, lanes as in swimming" }
+      - { label: Surface events, value: "Face-down, on the surface" }
       - { label: Apnea and immersion, value: Swum underwater }
 
   - id: equipment
@@ -52,7 +52,7 @@ sections:
       **Bi-fins** events use two conventional fins and are a separate
       discipline with separate records.
     facts:
-      - { label: Monofin, value: Capped by dimension, not standardised }
+      - { label: Monofin, value: "Capped by dimension, not standardised" }
       - { label: Snorkel, value: Surface events }
       - { label: Compressed air, value: Immersion events }
       - { label: Bi-fins, value: A separate discipline and record book }
@@ -77,7 +77,7 @@ sections:
       speed.
     facts:
       - { label: Surface distances, value: 50 m to 1500 m }
-      - { label: Apnea, value: 50 m, on one breath }
+      - { label: Apnea, value: "50 m, on one breath" }
       - { label: Timing, value: To the hundredth }
 
   - id: scoring
