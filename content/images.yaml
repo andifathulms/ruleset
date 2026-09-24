@@ -4653,3 +4653,158 @@
   licence: "CC BY-SA 3.0"
   licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
   source_url: "https://commons.wikimedia.org/wiki/File:Latin_formation_(atsc_bs_cteam_2007).jpg"
+
+# Dragon boat.
+
+- id: dragon-boat-qu-yuan
+  sport: dragon-boat
+  file: /images/dragon-boat/qu-yuan-chen-hongshou.jpg
+  width: 1000
+  height: 1010
+  alt: "Qu Yuan, by Chen Hongshou, seventeenth century."
+  shows: >
+   The poet and minister of Chu whose drowning, in the standard account, the
+   Duanwu races re-enact. The painting is evidence of the story's standing,
+   not of how the races began.
+  title: "Qu Yuan Chen Hongshou.jpg"
+  author: "Chen Hongshou"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Qu_Yuan_Chen_Hongshou.jpg"
+
+- id: dragon-boat-changde-1900s
+  sport: dragon-boat
+  file: /images/dragon-boat/changde-1900s.jpg
+  width: 1200
+  height: 811
+  alt: "A dragon boat on the river at Changde, Hunan, between 1900 and 1919."
+  shows: >
+   From a missionary's slide, captioned: races were held every year on the
+   river, and rhythm was kept by the drummer. Festival racing, long before
+   any federation.
+  title: "Close-up of \"dragon boat\", Changde, Hunan, China, ca.1900-1919 (IMP-YDS-RG008-358-0008-0051).jpg"
+  author: "Photographer unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Close-up_of_%22dragon_boat%22,_Changde,_Hunan,_China,_ca.1900-1919_(IMP-YDS-RG008-358-0008-0051).jpg"
+
+- id: dragon-boat-guangzhou-duanwu
+  sport: dragon-boat
+  file: /images/dragon-boat/guangzhou-duanwu-2011.jpg
+  width: 1200
+  height: 797
+  alt: "Dragon boats on the canal at Datang, Guangzhou, during the Duanwu Festival, 2011."
+  shows: >
+   Most dragon boat racing in the world still looks like this: a village
+   festival on local water, with crowds on the banks and incense on the
+   boats.
+  title: "Dragon Boat Festival in Datang.jpg"
+  author: "Newnujilb"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Dragon_Boat_Festival_in_Datang.jpg"
+
+- id: dragon-boat-stanley-2011
+  sport: dragon-boat
+  file: /images/dragon-boat/stanley-2011.jpg
+  width: 1200
+  height: 800
+  alt: "A crew at the Stanley International Dragon Boat Championships, Hong Kong, 2011."
+  shows: >
+   Stanley's races are where the international competition began in 1976. The
+   dragon head is fitted at the bow, as the rules require.
+  title: "Head-on (5803614111).jpg"
+  author: "istolethetv"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Head-on_(5803614111).jpg"
+
+- id: dragon-boat-wuchang-heads
+  sport: dragon-boat
+  file: /images/dragon-boat/wuchang-heads.jpg
+  width: 1200
+  height: 900
+  alt: "Dragon heads from Wuchang dragon boats, on display."
+  shows: >
+   The head is a required fitting on a racing boat: ornament that the rules
+   kept because removing it would have made the boat something else.
+  title: "Heads of the Wuchang Dragon Boats 1.jpg"
+  author: "CatOnMars"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Heads_of_the_Wuchang_Dragon_Boats_1.jpg"
+
+- id: dragon-boat-alkmaar-2022
+  sport: dragon-boat
+  file: /images/dragon-boat/alkmaar-2022.jpg
+  width: 1200
+  height: 800
+  alt: "A crew at the Alkmaar dragon boat festival, the Netherlands, 2022."
+  shows: >
+   Paddlers seated two abreast on fixed benches, single blades, the drummer
+   facing them and the steerer standing at the stern with the long sweep.
+  title: "Drakenbootfestival Alkmaar 2022 - Race The Dragon 15.jpg"
+  author: "Rene Cortin"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Drakenbootfestival_Alkmaar_2022_-_Race_The_Dragon_15.jpg"
+
+- id: dragon-boat-steerer-2013
+  sport: dragon-boat
+  file: /images/dragon-boat/steerer-szeged-2013.jpg
+  width: 460
+  height: 592
+  alt: "A Swedish steerer at the IDBF World Championships in Szeged, 2013."
+  shows: >
+   The one crew member who stands, working the steering oar at the stern.
+  title: "Rasmus Gramer 2013.JPG"
+  author: "SwedishDragonboat"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rasmus_Gramer_2013.JPG"
+
+- id: dragon-boat-szeged-2013
+  sport: dragon-boat
+  slot: "play:field"
+  file: /images/dragon-boat/szeged-2013.jpg
+  width: 1200
+  height: 803
+  alt: "Standard boats in their lanes at the IDBF World Championships, Szeged, 2013."
+  shows: >
+   Flat water and buoyed lanes, with boats usually supplied by the organisers
+   so that no crew races a better hull.
+  title: "IDBF World Championships 2013 Racing U24.JPG"
+  author: "SwedishDragonboat"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:IDBF_World_Championships_2013_Racing_U24.JPG"
+
+- id: dragon-boat-survivors
+  sport: dragon-boat
+  file: /images/dragon-boat/survivors-morro-bay.jpg
+  width: 1200
+  height: 800
+  alt: "The SurviveOars, a breast cancer survivors' paddling team, at Morro Bay, California."
+  shows: >
+   One of the crews in the worldwide movement that began with a clinical
+   study in Vancouver in 1996.
+  title: "SurviveOars Morro Bay Breast Cancer Survivors group (9139013478).jpg"
+  author: "Mike Baird"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:SurviveOars_Morro_Bay_Breast_Cancer_Survivors_group_(9139013478).jpg"
+
+- id: dragon-boat-vancouver-2015
+  sport: dragon-boat
+  file: /images/dragon-boat/vancouver-2015.jpg
+  width: 1200
+  height: 801
+  alt: "The Concord Pacific Dragon Boat Festival, Vancouver, 2015."
+  shows: >
+   Canada is a genuine power, with a very large club and festival scene;
+   Vancouver is where the survivors' movement began.
+  title: "Dragon Boating in Vancouver.jpg"
+  author: "Jsdyson"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Dragon_Boating_in_Vancouver.jpg"
