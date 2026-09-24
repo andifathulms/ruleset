@@ -7542,3 +7542,210 @@
   licence: "CC BY-SA 2.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Rhythmic_gymnastics_at_the_2017_Summer_Universiade_(37033552216).jpg"
+
+# Handball.
+
+- id: handball-field-1953
+  sport: handball
+  file: /images/handball/fotothek1953.jpg
+  width: 800
+  height: 552
+  alt: "Handball players in a game on a grass field, October 1953."
+  shows: >
+   Feldhandball: eleven a side, outdoors, on a football-sized pitch.
+  title: "Fotothek df roe-neg 0006528 017 Handballspieler bei einem Spiel auf dem Feld.jpg"
+  author: "Roger Rössing / Renate Rössing (Deutsche Fotothek)"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Fotothek_df_roe-neg_0006528_017_Handballspieler_bei_einem_Spiel_auf_dem_Feld.jpg"
+
+- id: handball-field-kiel-1964
+  sport: handball
+  file: /images/handball/kiel1964.jpg
+  width: 1024
+  height: 682
+  alt: "THW Kiel and VfL Wolfsburg shaking hands before the final of the North German field handball championship, Kiel, 1964."
+  shows: >
+   The outdoor game was still being played at championship level two years
+   before the indoor game became the international standard.
+  title: "Handballspiel THW Kiel gegen VfL Wolfsburg im Endspiel um die Norddeutsche Meisterschaft im Feldhandball, 10-9 (Kiel 77.027).jpg"
+  author: "Friedrich Magnussen"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Handballspiel_THW_Kiel_gegen_VfL_Wolfsburg_im_Endspiel_um_die_Norddeutsche_Meisterschaft_im_Feldhandball,_10-9_(Kiel_77.027).jpg"
+
+- id: handball-jump-shot
+  sport: handball
+  file: /images/handball/bozovic2018.jpg
+  width: 1200
+  height: 800
+  alt: "Janko Bozovic of Austria in the air between two Czech defenders, 2018."
+  shows: >
+   The shape the goal-area rule gives the sport: jump in, and release the
+   ball before landing.
+  title: "20180105 Men's handball Austria - Czechia Janko Bozovic 850 9203.jpg"
+  author: "Granada"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:20180105_Men%27s_handball_Austria_-_Czechia_Janko_Bozovic_850_9203.jpg"
+
+- id: handball-one-hand
+  sport: handball
+  file: /images/handball/lazarov.jpg
+  width: 1200
+  height: 928
+  alt: "Kiril Lazarov of RK Zagreb holding the ball in one hand, 2009."
+  shows: >
+   The ball's whole design requirement: small enough to hold, throw and catch
+   one-handed.
+  title: "Kiril Lazarov 06.jpg"
+  author: "Armin Kübelbeck"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kiril_Lazarov_06.jpg"
+
+- id: handball-resin
+  sport: handball
+  file: /images/handball/wax.jpg
+  width: 1200
+  height: 835
+  alt: "A tin of handball wax, a grip resin for the fingers."
+  shows: >
+   Universal at elite level, damaging to floors, banned in many halls, and
+   unregulated by the rules.
+  title: "Handballwax 01.jpg"
+  author: "Armin Kübelbeck"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Handballwax_01.jpg"
+
+- id: handball-referee-whistles
+  sport: handball
+  file: /images/handball/ref2021.jpg
+  width: 1200
+  height: 800
+  alt: "A referee's hand with two whistles, at the women's cup Final Four in Germany, 2021."
+  shows: >
+   One of the two referees handball uses where most court sports use one.
+  title: "2021-05-15 Handball Frauen, OLYMP Final4 2021, TuS Metzingen vs. SG BBM Bietigheim 1DX 3516 by Stepro.jpg"
+  author: "Steffen Prößdorf"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2021-05-15_Handball_Frauen,_OLYMP_Final4_2021,_TuS_Metzingen_vs._SG_BBM_Bietigheim_1DX_3516_by_Stepro.jpg"
+
+- id: handball-three-defenders
+  sport: handball
+  file: /images/handball/czefra2010.jpg
+  width: 1200
+  height: 800
+  alt: "Bertrand Gille of France held up by three Czech defenders at the 2010 European Championship."
+  shows: >
+   Continuous contact, at speed, in a confined space, often with bodies
+   between the incident and an official.
+  title: "CZE vs FRA (01) - 2010 European Men's Handball Championship.jpg"
+  author: "Steindy"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:CZE_vs_FRA_(01)_-_2010_European_Men%27s_Handball_Championship.jpg"
+
+- id: handball-foul-block
+  sport: handball
+  file: /images/handball/ilyes.jpg
+  width: 1200
+  height: 800
+  alt: "Ferenc Ilyés of Hungary blocked with a foul by Artur Siódmiak of Poland, 2010."
+  shows: >
+   Where obstruction ends and a dangerous play begins, argued after every
+   major tournament.
+  title: "Ferenc Ilyes (HUN), Artur Siodmiak (POL).jpg"
+  author: "Steindy"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ferenc_Ilyes_(HUN),_Artur_Siodmiak_(POL).jpg"
+
+- id: handball-egypt-2011
+  sport: handball
+  file: /images/handball/egypt2011.jpg
+  width: 1200
+  height: 986
+  alt: "Mohamed Mamdouh of Egypt among the French defence at the 2011 World Championship."
+  shows: >
+   Egypt, one of the significant presences outside Europe.
+  title: "2011 World Men's Handball Championship - Mamdouh (Egypt) in the middle of France's defense.jpg"
+  author: "Guillaume Baviere"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2011_World_Men%27s_Handball_Championship_-_Mamdouh_(Egypt)_in_the_middle_of_France%27s_defense.jpg"
+
+- id: handball-qatar-2015
+  sport: handball
+  file: /images/handball/qatar2015.jpg
+  width: 1200
+  height: 437
+  alt: "The final of the 2015 World Championship, Qatar against France, in Lusail."
+  shows: >
+   Qatar hosted and reached the final.
+  title: "2015 World Men's Handball Championship final, Qatar vs France.jpg"
+  author: "Zyzzzzzy"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2015_World_Men%27s_Handball_Championship_final,_Qatar_vs_France.jpg"
+
+- id: handball-beach-2019
+  sport: handball
+  file: /images/handball/beach2019.jpg
+  width: 1200
+  height: 800
+  alt: "The women's semi-final between Hungary and the Netherlands at the 2019 beach handball European championship."
+  shows: >
+   The federation's development answer: cheaper, outdoor, with double points
+   for spectacular goals.
+  title: "Beach handball Euro 2019 Semifinal Women HUN-NED 192.jpg"
+  author: "Marcus Cyron"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Beach_handball_Euro_2019_Semifinal_Women_HUN-NED_192.jpg"
+
+- id: handball-rio-2016
+  sport: handball
+  file: /images/handball/norbra2016.jpg
+  width: 1200
+  height: 798
+  alt: "Norway against Brazil in the women's tournament at the 2016 Rio Olympics, Future Arena."
+  shows: >
+   The women's game, with Norway among its strongest nations.
+  title: "Future Arena - Barra Olympic Park (28782063306).jpg"
+  author: "Leandro Neumann Ciuffo"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Future_Arena_-_Barra_Olympic_Park_(28782063306).jpg"
+
+- id: handball-signal-goal-area
+  sport: handball
+  slot: "play:prohibitions"
+  file: /images/handball/signal01.jpg
+  width: 800
+  height: 1200
+  alt: "A referee showing the signal for entering the goal area."
+  shows: >
+   Nobody but the goalkeeper may stand in the six-metre area.
+  title: "Handzeichen 01 Betreten des Torraums.jpg"
+  author: "LarsKimpel"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Handzeichen_01_Betreten_des_Torraums.jpg"
+
+- id: handball-timeout-card
+  sport: handball
+  slot: "play:duration"
+  file: /images/handball/equip2021.jpg
+  width: 1200
+  height: 800
+  alt: "A team timeout card on the bench table, women's Bundesliga, 2021."
+  shows: >
+   Each team has three timeouts, requested with a card like this one.
+  title: "2021-02-03 Handball, Bundesliga Frauen, Thüringer HC - SG BBM Bietigheim 1DX 9650 by Stepro.jpg"
+  author: "Steffen Prößdorf"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2021-02-03_Handball,_Bundesliga_Frauen,_Th%C3%BCringer_HC_-_SG_BBM_Bietigheim_1DX_9650_by_Stepro.jpg"
