@@ -12,13 +12,13 @@ disciplines:
     label: Standard
     blurb: Waltz, tango, Viennese waltz, slow foxtrot, quickstep.
     events:
-      - { id: std-couples, label: Standard, couples, at: [world-games, world-championship] }
+      - { id: std-couples, label: "Standard, couples", at: [world-games, world-championship] }
       - { id: std-formation, label: Standard formation, at: [world-championship], note: Teams of eight couples dancing a choreographed routine together. }
   - id: latin
     label: Latin
     blurb: Samba, cha-cha-cha, rumba, paso doble, jive.
     events:
-      - { id: lat-couples, label: Latin, couples, at: [world-games, world-championship] }
+      - { id: lat-couples, label: "Latin, couples", at: [world-games, world-championship] }
       - { id: lat-formation, label: Latin formation, at: [world-championship] }
   - id: breaking
     label: Breaking
@@ -38,4 +38,4 @@ disciplines:
     events:
       - { id: wdc, label: Professional ballroom and Latin, at: [federation-only], note: "Governed by the World Dance Council, a separate body; the professional side of the same dances." }
       - { id: rocknroll, label: Rock'n'roll and boogie-woogie, at: [world-games, federation-only], note: Governed by the World Rock'n'Roll Confederation. }
-      - { id: show, label: Show dance and other styles, at: [world-championship], note: Contested under WDSF rules with lifts permitted, unlike the standard programmes. }
+      - { id: show, label: Show dance and other styles, at: [world-championship], note: "Contested under WDSF rules with lifts permitted, unlike the standard programmes." }

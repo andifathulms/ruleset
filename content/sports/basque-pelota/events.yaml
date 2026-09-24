@@ -24,7 +24,7 @@ disciplines:
       An enclosed court with a sloping penthouse roof and a corner buttress, all
       of it live.
     events:
-      - { id: trinquete-events, label: Hand, paleta and share, at: [world-championship], count: 4, note: "Share is a stringed racket used only here." }
+      - { id: trinquete-events, label: "Hand, paleta and share", at: [world-championship], count: 4, note: "Share is a stringed racket used only here." }
   - id: development
     label: Formats built for export
     counts: false
@@ -37,7 +37,7 @@ disciplines:
     label: Its Olympic record
     counts: false
     events:
-      - { id: paris1900, label: Basque pelota, Paris 1900, at: [lapsed], note: "A medal event contested by two teams, Spanish and French, in one match." }
+      - { id: paris1900, label: "Basque pelota, Paris 1900", at: [lapsed], note: "A medal event contested by two teams, Spanish and French, in one match." }
       - { id: demos, label: Demonstration appearances, at: [lapsed], note: "1924, 1968 and 1992 — the last at Barcelona." }
   - id: professional
     label: The professional game

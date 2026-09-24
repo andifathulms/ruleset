@@ -13,7 +13,7 @@ disciplines:
     blurb: A pocketless table. Score by making the cue ball contact both object balls.
     events:
       - { id: three-cushion, label: Three-cushion, at: [world-games, world-championship], count: 2, note: The premier carom discipline. Three cushions before completing the carom. }
-      - { id: other-carom, label: One-cushion, straight rail and artistic, at: [world-championship], count: 3, note: "Artistic billiards sets prescribed shots of declared difficulty — a judged-adjacent format inside a scored sport." }
+      - { id: other-carom, label: "One-cushion, straight rail and artistic", at: [world-championship], count: 3, note: "Artistic billiards sets prescribed shots of declared difficulty — a judged-adjacent format inside a scored sport." }
   - id: pool
     label: Pool
     blurb: Six pockets on a nine-foot table, with several games under one code.
@@ -35,10 +35,10 @@ disciplines:
       Olympic recognition on the sport's behalf.
     events:
       - { id: pro-tour, label: Professional snooker, at: [federation-only], note: Where the sport's elite competition and broadcast presence are. }
-      - { id: pro-pool, label: Professional pool events, at: [federation-only], note: A thinner but real commercial circuit, largely in the United States and East Asia. }
+      - { id: pro-pool, label: Professional pool events, at: [federation-only], note: "A thinner but real commercial circuit, largely in the United States and East Asia." }
   - id: relatives
     label: Cue games governed elsewhere
     counts: false
     events:
       - { id: english-billiards, label: English billiards, at: [world-championship], note: "Played on a snooker table with three balls; scores by cannons, pots and in-offs. An older game than snooker and now much smaller." }
-      - { id: russian, label: Russian pyramid, at: [federation-only], note: A large table with tight pockets and near-pocket-sized balls, governed separately. }
+      - { id: russian, label: Russian pyramid, at: [federation-only], note: "A large table with tight pockets and near-pocket-sized balls, governed separately." }

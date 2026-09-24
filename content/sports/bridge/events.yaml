@@ -29,6 +29,6 @@ disciplines:
       The overwhelming majority of duplicate bridge is club play, and a large
       and growing share is online.
     events:
-      - { id: clubs, label: Club duplicate, at: [federation-only], note: Weekly sessions run by local clubs, which is where nearly all the sport happens. }
+      - { id: clubs, label: Club duplicate, at: [federation-only], note: "Weekly sessions run by local clubs, which is where nearly all the sport happens." }
       - { id: online, label: Online bridge, at: [federation-only], note: "Large commercial platforms, which grew sharply during the pandemic and brought their own cheating problems — screens cannot be built into a website." }
       - { id: rubber, label: Rubber bridge, at: [federation-only], note: "The social, non-duplicate form; decided substantially by the cards, and not a competitive sport." }

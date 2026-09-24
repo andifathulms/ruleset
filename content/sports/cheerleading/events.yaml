@@ -28,6 +28,6 @@ disciplines:
       and club system, on a commercial competition circuit that the
       international federation does not run.
     events:
-      - { id: school, label: School and collegiate squads, at: [federation-only], note: The sideline role the activity was invented for, and still the largest participation. }
+      - { id: school, label: School and collegiate squads, at: [federation-only], note: "The sideline role the activity was invented for, and still the largest participation." }
       - { id: allstar, label: All-star club competition, at: [federation-only], note: "A large commercial circuit in the United States, where much of the sport's competitive infrastructure — events, apparel and camps — is concentrated in a single company." }
       - { id: parachute, label: Para cheer, at: [world-championship], note: Adaptive divisions contested at ICU championships. }

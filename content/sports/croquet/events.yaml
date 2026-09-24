@@ -26,7 +26,7 @@ disciplines:
     label: Its Olympic record
     counts: false
     events:
-      - { id: paris1900, label: Croquet, Paris 1900, at: [lapsed], note: "Contested once, almost entirely by French entrants, with women among the competitors — and reportedly one paying spectator." }
+      - { id: paris1900, label: "Croquet, Paris 1900", at: [lapsed], note: "Contested once, almost entirely by French entrants, with women among the competitors — and reportedly one paying spectator." }
   - id: relatives
     label: Games in the same family
     counts: false

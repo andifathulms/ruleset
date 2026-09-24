@@ -13,7 +13,7 @@ disciplines:
     blurb: The disciplines that can be held in a venue with spectators.
     events:
       - { id: para-accuracy, label: Paragliding accuracy, at: [world-games, world-championship], count: 2 }
-      - { id: canopy, label: Canopy piloting, at: [world-games, world-championship], count: 2, note: Flying a parachute through a course at speed, close to the water. }
+      - { id: canopy, label: Canopy piloting, at: [world-games, world-championship], count: 2, note: "Flying a parachute through a course at speed, close to the water." }
       - { id: drone, label: Drone racing, at: [world-games, world-championship], note: First world championship in 2018. }
       - { id: aerobatics-glider, label: Glider aerobatics, at: [world-games, world-championship], count: 2 }
   - id: air

@@ -30,5 +30,5 @@ disciplines:
     events:
       - { id: marathon, label: Canoe marathon, at: [world-championship, world-games] }
       - { id: polo, label: Canoe polo, at: [world-championship, world-games] }
-      - { id: freestyle, label: Freestyle kayak, note: Judged, on a single whitewater feature., at: [world-championship, world-games] }
+      - { id: freestyle, label: Freestyle kayak, note: "Judged, on a single whitewater feature.", at: [world-championship, world-games] }
       - { id: para, label: Paracanoe, at: [paralympic] }
