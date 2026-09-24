@@ -212,6 +212,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <rect x="44" y="40" width="16" height="7" rx="1.5" transform="rotate(-8 52 43.5)" />
       <path d="M52 40 L58 10" fill="none" strokeWidth="2" />
     </>
+  ),  // A bicycle as the Lugano Charter defines one: two wheels and a frame made
+  // of two triangles of tubes. Everything else in the rulebook is its edges.
+  cycling: (
+    <>
+      <circle cx="16" cy="40" r="11" />
+      <circle cx="48" cy="40" r="11" />
+      <path d="M16 40 L28 40 L41 24 L24 24 Z M28 40 L22 18 M41 24 L48 40" fill="none" strokeWidth="1.8" />
+      <path d="M18 18 L26 18 M38 19 L43 17 L45 21" fill="none" strokeWidth="1.8" />
+      <circle cx="28" cy="40" r="2" fill="#F2F5F1" stroke="none" />
+    </>
   ),
 }
 
