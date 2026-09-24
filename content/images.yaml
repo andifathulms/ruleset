@@ -5154,3 +5154,127 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Sophie_CHRISTIANSEN_JEM2014.JPG"
+
+# Esports.
+
+- id: esports-spacewar-pdp1
+  sport: esports
+  file: /images/esports/spacewar-pdp1.jpg
+  width: 1200
+  height: 807
+  alt: "Spacewar! running on the restored PDP-1 at the Computer History Museum, California."
+  shows: >
+   The game of the 1972 Stanford tournament, on the machine it was written
+   for in 1962. Competitive gaming is as old as the games.
+  title: "Spacewar!-PDP-1-20070512.jpg"
+  author: "Joi Ito"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Spacewar!-PDP-1-20070512.jpg"
+
+- id: esports-gomtv-2011
+  sport: esports
+  file: /images/esports/gomtv-seoul-2011.jpg
+  width: 1200
+  height: 800
+  alt: "A StarCraft team at the GOMTV studio in Seoul before a Global StarCraft League match, 2011."
+  shows: >
+   South Korea's broadcast leagues are where esports first became a televised
+   spectator sport with salaried players.
+  title: "OGs.jpg"
+  author: "Nick Pettit"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:OGs.jpg"
+
+- id: esports-iem-booth-2020
+  sport: esports
+  file: /images/esports/iem-katowice-booth-2020.jpg
+  width: 1200
+  height: 800
+  alt: "Players at their machines at IEM Katowice, 2020."
+  shows: >
+   Supplied machines, personal peripherals and closed headsets: the headsets
+   exist so that the crowd's reaction cannot tell a team where its opponents
+   are.
+  title: "ALEX, XTQZZZ, apEX IEM Katowice 2020.png"
+  author: "VaKarM.net"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:ALEX,_XTQZZZ,_apEX_IEM_Katowice_2020.png"
+
+- id: esports-the-international-2014
+  sport: esports
+  file: /images/esports/the-international-2014.jpg
+  width: 1200
+  height: 795
+  alt: "The International, the Dota 2 world championship, at KeyArena, Seattle, 2014."
+  shows: >
+   A tournament run by the game's own publisher, with the arena full. The
+   federations govern none of this.
+  title: "The International at KeyArena.jpg"
+  author: "Dota 2 The International"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:The_International_at_KeyArena.jpg"
+
+- id: esports-olympic-esports-week-2023
+  sport: esports
+  file: /images/esports/olympic-esports-week-2023.jpg
+  width: 1200
+  height: 800
+  alt: "A trailer for the Olympic Esports Week at Raffles City, Singapore, 2023."
+  shows: >
+   The IOC's version of esports, built on simulations of physical sports; the
+   screen shows a driving game, not the titles the professional scene plays.
+  title: "Step Inside The Game.jpg"
+  author: "Choo Yut Shing"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Step_Inside_The_Game.jpg"
+
+- id: esports-pc-bang-2001
+  sport: esports
+  file: /images/esports/pc-bang-2001.jpg
+  width: 1024
+  height: 768
+  alt: "A PC bang, a Korean gaming café, in 2001."
+  shows: >
+   Rows of networked computers for hire by the hour: the infrastructure
+   behind the Korean professional scene that appeared at the same time.
+  title: "PC bang in 2001.jpg"
+  author: "Alex C"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:PC_bang_in_2001.jpg"
+
+- id: esports-lpl-2015
+  sport: esports
+  file: /images/esports/lpl-final-2015.jpg
+  width: 1200
+  height: 800
+  alt: "LGD Gaming at the 2015 LPL summer final, China's League of Legends league."
+  shows: >
+   China is the largest market and increasingly the largest competitive
+   force, with franchised leagues run under the publisher.
+  title: "LGD Gaming at the 2015 LPL Summer Finals.jpg"
+  author: "Bruce Liu"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:LGD_Gaming_at_the_2015_LPL_Summer_Finals.jpg"
+
+- id: esports-spodek-2019
+  sport: esports
+  file: /images/esports/spodek-katowice-2019.jpg
+  width: 1200
+  height: 800
+  alt: "The Spodek arena, Katowice, during IEM Katowice Major 2019."
+  shows: >
+   Poland's Katowice has hosted one of the sport's biggest annual events for
+   more than a decade, and Eastern European shooter scenes are among the
+   strongest.
+  title: "IEM Katowice Major 2019.jpg"
+  author: "Esports Kingdom"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:IEM_Katowice_Major_2019.jpg"
