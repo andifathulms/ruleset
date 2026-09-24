@@ -308,6 +308,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M40 35 Q48 36 50 43 Q52 49 56 52 L52 57 Q46 53 44 47 Q42 41 40 40" />
     </>
   ),
+  // The holed plastic ball beside a stick and its blade.
+  floorball: (
+    <>
+      <path d="M46 8 L24 46 Q21 51 15 51 L9 51 Q6 51 7 48 L9 45 L19 45 Q21 45 22 43" />
+      <circle cx="44" cy="44" r="10" />
+      <circle cx="40" cy="41" r="2" fill="#F2F5F1" stroke="none" />
+      <circle cx="47" cy="40" r="2" fill="#F2F5F1" stroke="none" />
+      <circle cx="44" cy="48" r="2" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
