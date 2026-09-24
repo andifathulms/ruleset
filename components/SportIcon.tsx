@@ -351,6 +351,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="44" cy="44" r="8" />
     </>
   ),
+  // The goal, the six-metre arc in front of it, and the ball in flight.
+  handball: (
+    <>
+      <path d="M22 56 L22 40 L42 40 L42 56" />
+      <path d="M8 56 Q8 26 32 26 Q56 26 56 56" strokeDasharray="4 4" />
+      <circle cx="32" cy="14" r="6" />
+      <path d="M27 11 Q32 14 37 11 M27 17 Q32 14 37 17" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
