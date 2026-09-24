@@ -7749,3 +7749,268 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:2021-02-03_Handball,_Bundesliga_Frauen,_Th%C3%BCringer_HC_-_SG_BBM_Bietigheim_1DX_9650_by_Stepro.jpg"
+
+# Hockey.
+
+- id: hockey-flat-face
+  sport: hockey
+  file: /images/hockey/reverse.jpg
+  width: 1200
+  height: 842
+  alt: "A composite stick with a hockey ball resting against its flat face."
+  shows: >
+   Only this side may play the ball. Touching it with the rounded side is a
+   foul, which is why reverse-stick technique had to be invented.
+  title: "Argentinische Ruckhand.JPG"
+  author: "Sigma1981"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Argentinische_Ruckhand.JPG"
+
+- id: hockey-the-circle
+  sport: hockey
+  file: /images/hockey/corner-china.jpg
+  width: 1200
+  height: 738
+  alt: "A penalty corner for China against Korea at the 2012 London Olympics, played around the circle."
+  shows: >
+   A goal counts only from inside the semicircle, which concentrates the
+   sport into two small areas.
+  title: "Olympia London 22 07 2012 Hockey Damen China Korea Strafecke China.jpg"
+  author: "The Hammer"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Olympia_London_22_07_2012_Hockey_Damen_China_Korea_Strafecke_China.jpg"
+
+- id: hockey-empire-1919
+  sport: hockey
+  file: /images/hockey/ladies1919.jpg
+  width: 1024
+  height: 819
+  alt: "The South African College intervarsity ladies' hockey team in play, 1919."
+  shows: >
+   Hockey spread through the British Empire.
+  title: "South African College Intervarsity Ladies Hockey Team, 1919.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:South_African_College_Intervarsity_Ladies_Hockey_Team,_1919.jpg"
+
+- id: hockey-india-1928
+  sport: hockey
+  file: /images/hockey/ams1928-score.jpg
+  width: 1200
+  height: 861
+  alt: "India scoring against Switzerland, 6–0, at the 1928 Amsterdam Olympics."
+  shows: >
+   The first of India's six consecutive Olympic titles, won on grass.
+  title: "Let op, dit is een lores bestand Sport, Olympische Spelen Amsterdam, 1928 India scoort tijdens, SFA006002960.jpg"
+  author: "Unknown photographer (Spaarnestad)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Let_op,_dit_is_een_lores_bestand_Sport,_Olympische_Spelen_Amsterdam,_1928_India_scoort_tijdens,_SFA006002960.jpg"
+
+- id: hockey-amsterdam-1928
+  sport: hockey
+  file: /images/hockey/ams1928-attack.jpg
+  width: 1200
+  height: 899
+  alt: "An attack on the Swiss goal during India against Switzerland, Amsterdam, 1928."
+  shows: >
+   A grass pitch, where the ball did not run true and close stickwork decided
+   everything.
+  title: "Let op, dit is een lores bestand Sport, Olympische Spelen Amsterdam, 1928 Een aanval op het, SFA006002962.jpg"
+  author: "Unknown photographer (Spaarnestad)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Let_op,_dit_is_een_lores_bestand_Sport,_Olympische_Spelen_Amsterdam,_1928_Een_aanval_op_het,_SFA006002962.jpg"
+
+- id: hockey-artificial-pitch
+  sport: hockey
+  file: /images/hockey/saanich.jpg
+  width: 1200
+  height: 985
+  alt: "An artificial-turf hockey pitch in Saanich, British Columbia."
+  shows: >
+   A pitch that is a facility: a construction cost, and for water-based turf
+   an irrigation requirement.
+  title: "Field hockey field in Saanich, British Columbia .jpg"
+  author: "John Newcomb"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Field_hockey_field_in_Saanich,_British_Columbia_.jpg"
+
+- id: hockey-wooden-stick
+  sport: hockey
+  file: /images/hockey/woodstick.jpg
+  width: 1200
+  height: 348
+  alt: "A broken wooden hockey stick with no protective wrapping."
+  shows: >
+   The material composites replaced, raising the speed of a drag flick.
+  title: "Alter holzhockeyschlaeger.jpg"
+  author: "Papanugue"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Alter_holzhockeyschlaeger.jpg"
+
+- id: hockey-drag-flick
+  sport: hockey
+  file: /images/hockey/dragflick.jpg
+  width: 1200
+  height: 400
+  alt: "A drag flick at a club match at Neston, 2017."
+  shows: >
+   The technique a true-running synthetic surface made possible.
+  title: "Neston Drag flick.jpg"
+  author: "AJBUSH1963"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Neston_Drag_flick.jpg"
+
+- id: hockey-amsterdam-teams-1928
+  sport: hockey
+  file: /images/hockey/ams1928-teams.jpg
+  width: 1200
+  height: 880
+  alt: "The Netherlands and British India teams posing together in a full Olympic Stadium, Amsterdam, 1928."
+  shows: >
+   Hockey's early international game grew through the Commonwealth.
+  title: "Olympische Spelen 1928 in Amsterdam De hockeyelftallen van Nederland en Brits-Indië poseren voor, SFA002024910.jpg"
+  author: "Unknown photographer (Spaarnestad)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Olympische_Spelen_1928_in_Amsterdam_De_hockeyelftallen_van_Nederland_en_Brits-Indi%C3%AB_poseren_voor,_SFA002024910.jpg"
+
+- id: hockey-umpire-2012
+  sport: hockey
+  file: /images/hockey/gb-jpn2012.jpg
+  width: 1200
+  height: 800
+  alt: "Great Britain against Japan at the 2012 London Olympics, an umpire by the circle."
+  shows: >
+   Two umpires, one per half, work because the decisions that matter happen
+   near the circles.
+  title: "London Olympics Hockey GB vs Japan.jpg"
+  author: "Paul Stephenson"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:London_Olympics_Hockey_GB_vs_Japan.jpg"
+
+- id: hockey-cards
+  sport: hockey
+  file: /images/hockey/cards.jpg
+  width: 1200
+  height: 900
+  alt: "Hockey's green, yellow and red cards."
+  shows: >
+   Green, yellow and red: escalating sanctions for the judgements the umpires
+   kept.
+  title: "Groene, gele en rode kaart (hockey).jpg"
+  author: "Redmar"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Groene,_gele_en_rode_kaart_(hockey).jpg"
+
+- id: hockey-dhyan-chand-1936
+  sport: hockey
+  file: /images/hockey/dhyan1936.jpg
+  width: 590
+  height: 350
+  alt: "Dhyan Chand with the ball against France in the 1936 Olympic semi-final, Berlin."
+  shows: >
+   Close control on grass, the game India built.
+  title: "Dhyan Chand with the ball vs. France in the 1936 Olympic semi-finals.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Dhyan_Chand_with_the_ball_vs._France_in_the_1936_Olympic_semi-finals.jpg"
+
+- id: hockey-india-1936
+  sport: hockey
+  file: /images/hockey/india1936.jpg
+  width: 637
+  height: 440
+  alt: "India's team at the 1936 Berlin Olympics, Dhyan Chand standing second from left."
+  shows: >
+   Gold in 1936: the third of six in a row.
+  title: "Indian-Hockey-Team-Berlin-1936.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Indian-Hockey-Team-Berlin-1936.jpg"
+
+- id: hockey-netherlands-2012
+  sport: hockey
+  file: /images/hockey/ned2012.jpg
+  width: 1200
+  height: 800
+  alt: "The Netherlands celebrating women's Olympic gold, London 2012."
+  shows: >
+   The dominant power of the women's game.
+  title: "Netherlands womens hockey celebrate - 2012 Olympics.jpg"
+  author: "Ross Huggett"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Netherlands_womens_hockey_celebrate_-_2012_Olympics.jpg"
+
+- id: hockey-leonas-2010
+  sport: hockey
+  file: /images/hockey/leonas2010.jpg
+  width: 1200
+  height: 797
+  alt: "Argentina's women, Las Leonas, before the 2010 World Cup in Rosario."
+  shows: >
+   Sustained success from a smaller facility base than its rivals.
+  title: "Las Leonas (2010).jpg"
+  author: "Luis Oviedo Ortiz"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Las_Leonas_(2010).jpg"
+
+- id: hockey-corner-defence
+  sport: hockey
+  file: /images/hockey/corner-arg.jpg
+  width: 1200
+  height: 900
+  alt: "Argentina preparing to defend a penalty corner against Germany, London 2012."
+  shows: >
+   One set piece, a large share of international goals, and defenders running
+   at the flick.
+  title: "Argentina penalty corner prep.jpg"
+  author: "Simon Q"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Argentina_penalty_corner_prep.jpg"
+
+- id: hockey-corner-inject
+  sport: hockey
+  slot: "play:restarts"
+  file: /images/hockey/corner-markings.jpg
+  width: 783
+  height: 1200
+  alt: "Simon Gougnard of Belgium preparing to inject a penalty corner at the 2012 London Olympics."
+  shows: >
+   The injection from the backline mark that starts the sport's signature set
+   piece.
+  title: "Hockey short corner markings.jpg"
+  author: "Rega Photography"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Hockey_short_corner_markings.jpg"
+
+- id: hockey-ticket-1936
+  sport: hockey
+  slot: "events"
+  file: /images/hockey/ticket1936.jpg
+  width: 575
+  height: 266
+  alt: "A ticket to the hockey stadium at the 1936 Berlin Olympics, 9 August."
+  shows: >
+   Men's hockey has been on every Olympic programme since 1928, and women's
+   since 1980.
+  title: "Hockey-Eintrittskarte OS 1936.jpg"
+  author: "IOC"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Hockey-Eintrittskarte_OS_1936.jpg"
