@@ -367,6 +367,14 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="38" cy="50" r="5" />
     </>
   ),
+  // The tied belt of the jacket: the knot, and its two ends hanging.
+  'ju-jitsu': (
+    <>
+      <path d="M6 24 Q32 32 58 24 M6 32 Q32 40 58 32" fill="none" />
+      <rect x="26" y="25" width="12" height="11" rx="2" />
+      <path d="M28 36 L20 56 L26 57 L32 38 M36 36 L44 56 L38 57 L32 38" fill="none" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
