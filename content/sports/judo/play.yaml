@@ -46,9 +46,9 @@ sections:
       One contestant wears blue and the other white. That has only been true at
       the top level since 1998, and it was done for the camera.
     facts:
-      - { label: Colours, value: One blue, one white }
-      - { label: Belt, value: Rank-coloured, tied at the waist }
-      - { label: Sleeve gap, value: Measured at the wrist, note: A tight jacket resists gripping, so the tolerance is enforced. }
+      - { label: Colours, value: "One blue, one white" }
+      - { label: Belt, value: "Rank-coloured, tied at the waist" }
+      - { label: Sleeve gap, value: Measured at the wrist, note: "A tight jacket resists gripping, so the tolerance is enforced." }
     shaped_by: [ijf-1997-blue-judogi]
     citation:
       source: ijf-sor
