@@ -192,6 +192,17 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M52 22 L58 18 M53.5 32 L60 32 M52 42 L58 46" fill="none" strokeOpacity="0.7" />
     </>
   ),
+  // The wicket: three stumps, two bails, and the ball. It has had three
+  // stumps since the 1770s; the curved bat of 1743 faced two.
+  cricket: (
+    <>
+      <path d="M22 16 L22 54 M32 16 L32 54 M42 16 L42 54" fill="none" strokeWidth="2.4" />
+      <path d="M21 13 L32 13 M32 13 L43 13" fill="none" strokeWidth="2" />
+      <path d="M14 54 H50" fill="none" />
+      <circle cx="52" cy="40" r="5" />
+      <path d="M48.5 37 C50.5 39 50.5 41 48.5 43.5 M55.5 36.5 C53.5 39 53.5 41 55.5 43.5" fill="none" strokeWidth="1.1" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
