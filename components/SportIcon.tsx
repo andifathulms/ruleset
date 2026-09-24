@@ -241,6 +241,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="45" cy="29.5" r="3.5" />
       <path d="M2 50 C8 48 12 52 18 50 S28 48 34 50 S46 52 52 50 S60 48 62 50" fill="none" strokeOpacity="0.6" />
     </>
+  ),  // Run, bike, run: a shoe, a wheel, a shoe, joined by the arrow of the
+  // sequence. The second shoe is the one the sport is decided on.
+  duathlon: (
+    <>
+      <path d="M4 30 L12 30 L14 34 L20 36 L20 40 L4 40 Z" />
+      <circle cx="32" cy="35" r="9" />
+      <path d="M32 26 L32 44 M23 35 L41 35" fill="none" strokeOpacity="0.6" />
+      <path d="M44 30 L52 30 L54 34 L60 36 L60 40 L44 40 Z" fill="#F2F5F1" fillOpacity="0.55" />
+      <path d="M8 22 H56 M52 18 L56 22 L52 26" fill="none" />
+    </>
   ),
 }
 
