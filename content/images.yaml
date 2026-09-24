@@ -8223,3 +8223,228 @@
   licence: "Public domain"
   licence_url: ""
   source_url: "https://commons.wikimedia.org/wiki/File:%E6%A5%8A%E5%BF%83%E5%8F%A4%E6%B5%81%E3%81%AE%E6%BC%94%E6%AD%A6.png"
+
+# Judo.
+
+- id: judo-kodokan-1937
+  sport: judo
+  file: /images/judo/kodokan1937.jpg
+  width: 541
+  height: 533
+  alt: "The Kodokan at Suidōbashi, Tokyo, 1937, with banners for a national championship."
+  shows: >
+   The institute Kanō founded in 1882, which still holds authority over judo
+   as a practice.
+  title: "Kodokan in 1937.jpg"
+  author: "Kodansha"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Kodokan_in_1937.jpg"
+
+- id: judo-kano-statue
+  sport: judo
+  file: /images/judo/kano-statue.jpg
+  width: 800
+  height: 1200
+  alt: "Fumio Asakura's statue of Kanō Jigorō outside the Kodokan, Tokyo."
+  shows: >
+   The founder who wrote down what the sport was for.
+  title: "Kodokan Jigoro Kano Statue.jpg"
+  author: "Fumio Asakura"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Kodokan_Jigoro_Kano_Statue.jpg"
+
+- id: judo-tokyo-1964
+  sport: judo
+  file: /images/judo/podium1964.jpg
+  width: 646
+  height: 745
+  alt: "The open-category podium at the 1964 Tokyo Olympics: Anton Geesink on top, Akio Kaminaga second, Ted Boronovskis and Klaus Glahn third."
+  shows: >
+   Judo's first Olympic tournament, and a Dutchman winning the open class in
+   Tokyo.
+  title: "Akio Kaminaga, Anton Geesink, Ted Boronovskis, Klaus Glahn 1964.jpg"
+  author: "Unknown photographer (Asahi Shinbun)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Akio_Kaminaga,_Anton_Geesink,_Ted_Boronovskis,_Klaus_Glahn_1964.jpg"
+
+- id: judo-belts
+  sport: judo
+  file: /images/judo/obi.jpg
+  width: 850
+  height: 754
+  alt: "Coloured belts for the student grades."
+  shows: >
+   Kanō's grading idea, now so universal across martial arts that its origin
+   is invisible.
+  title: "Obi-gokyū.jpg"
+  author: "chris 論"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Obi-goky%C5%AB.jpg"
+
+- id: judo-grips-2016
+  sport: judo
+  file: /images/judo/rio02.jpg
+  width: 1200
+  height: 800
+  alt: "Two judoka, one in blue and one in white, gripping each other's jackets at the 2016 Rio Olympics."
+  shows: >
+   The jacket is the interface through which the whole sport happens, so its
+   cut is a performance rule.
+  title: "Rio 2016 Judo 1036109-090816judo01756.jpg"
+  author: "Fernando Frazão / Agência Brasil"
+  licence: "CC BY 3.0 br"
+  licence_url: "https://creativecommons.org/licenses/by/3.0/br/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rio_2016_Judo_1036109-090816judo01756.jpg"
+
+- id: judo-riner-2012
+  sport: judo
+  file: /images/judo/riner2012.jpg
+  width: 1200
+  height: 730
+  alt: "Teddy Riner of France throwing in blue against white at the 2012 London Olympics."
+  shows: >
+   Blue and white: a colour change made for the camera, and resisted as a
+   change to what judo was.
+  title: "Teddy Riner (26082139536).jpg"
+  author: "Martin Hesketh"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Teddy_Riner_(26082139536).jpg"
+
+- id: judo-kodokan-now
+  sport: judo
+  file: /images/judo/kodokan-now.jpg
+  width: 1200
+  height: 900
+  alt: "The Kodokan today: the main building and the International Judo Center, Bunkyō, Tokyo."
+  shows: >
+   A separate institution from the IJF, and a separate kind of authority.
+  title: "Kodokan Buildings.jpg"
+  author: "Miyuki Meinaka"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kodokan_Buildings.jpg"
+
+- id: judo-geesink-1961
+  sport: judo
+  file: /images/judo/geesink1961.jpg
+  width: 961
+  height: 1200
+  alt: "Anton Geesink honoured at Utrecht city hall after his 1961 world title, with mayor Coen de Ranitz."
+  shows: >
+   The first world champion from outside Japan, and the start of judo's
+   argument about who owns it.
+  title: "Huldiging van Anton Geesink op stadhuis van Utrecht Anton Geesink en burgemeester Coen de Ranitz, 4 dec. 1961, Bestanddeelnr 913-2528.jpg"
+  author: "Wim van Rossem / Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Huldiging_van_Anton_Geesink_op_stadhuis_van_Utrecht_Anton_Geesink_en_burgemeester_Coen_de_Ranitz,_4_dec._1961,_Bestanddeelnr_913-2528.jpg"
+
+- id: judo-referee-2018
+  sport: judo
+  file: /images/judo/yog-ref1.jpg
+  width: 1029
+  height: 1200
+  alt: "The referee signalling during groundwork in a bronze medal match at the 2018 Youth Olympics, Buenos Aires."
+  shows: >
+   One referee on the mat, with video officials at the side who can correct
+   the score.
+  title: "2018-10-07 Judo Boys' 55 kg at 2018 Summer Youth Olympics – Bronze ISR–AUT (Martin Rulsch) 12.jpg"
+  author: "Martin Rulsch"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2018-10-07_Judo_Boys%27_55_kg_at_2018_Summer_Youth_Olympics_%E2%80%93_Bronze_ISR%E2%80%93AUT_(Martin_Rulsch)_12.jpg"
+
+- id: judo-referee-2015
+  sport: judo
+  file: /images/judo/ref-flickr.jpg
+  width: 1200
+  height: 800
+  alt: "A referee's call at the 2015 Military World Games, one pair throwing, another on the mat beside them."
+  shows: >
+   Whether a throw landed largely on the back, with control and force, is
+   hard to see once from mat level.
+  title: "Judo (21778906238).jpg"
+  author: "Johnson Barros"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Judo_(21778906238).jpg"
+
+- id: judo-kelmendi-statue
+  sport: judo
+  file: /images/judo/kelmendi.jpg
+  width: 900
+  height: 1200
+  alt: "The statue of Majlinda Kelmendi in Pejë, Kosovo."
+  shows: >
+   Kosovo's first Olympic champion, in judo, in 2016.
+  title: "Statue of Majlinda Kelmendi.jpg"
+  author: "IsaBoletinii"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Statue_of_Majlinda_Kelmendi.jpg"
+
+- id: judo-riner-2016
+  sport: judo
+  file: /images/judo/riner2016.jpg
+  width: 1130
+  height: 449
+  alt: "Teddy Riner with his gold medal at the 2016 Rio Olympics."
+  shows: >
+   France: more registered judoka than Japan, and sustained elite success.
+  title: "Teddy Riner in Rio 2016.jpg"
+  author: "Roberto Castro / Brasil2016.gov.br"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Teddy_Riner_in_Rio_2016.jpg"
+
+- id: judo-ippon-signal
+  sport: judo
+  slot: "play:scoring"
+  file: /images/judo/ippon.jpg
+  width: 363
+  height: 432
+  alt: "The referee's signal for ippon."
+  shows: >
+   One arm raised: a throw with control, force and landing largely on the
+   back, and the contest is over.
+  title: "Ippon.png"
+  author: "Emmanuel Roquette"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ippon.png"
+
+- id: judo-mat-2018
+  sport: judo
+  slot: "play:field"
+  file: /images/judo/yog-ref2.jpg
+  width: 1200
+  height: 1064
+  alt: "The contest area and its safety zone at the 2018 Youth Olympics, Buenos Aires."
+  shows: >
+   A matted square with a border in another colour.
+  title: "2018-10-07 Judo Boys' 55 kg at 2018 Summer Youth Olympics – Bronze ISR–AUT (Martin Rulsch) 34.jpg"
+  author: "Martin Rulsch"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2018-10-07_Judo_Boys%27_55_kg_at_2018_Summer_Youth_Olympics_%E2%80%93_Bronze_ISR%E2%80%93AUT_(Martin_Rulsch)_34.jpg"
+
+- id: judo-mixed-team-2024
+  sport: judo
+  slot: "events"
+  file: /images/judo/mixed2024.jpg
+  width: 1200
+  height: 900
+  alt: "Mongolia's mixed team at the 2024 Paris Olympics."
+  shows: >
+   The mixed team event, added for Tokyo 2020: three men and three women per
+   team.
+  title: "Judo - Épreuve mixte par équipe - Phase éliminatoire Mongolie vs Israël - Jeux Olympiques 2024 - Paris Arena Sud (FR75) - 2024-08-03 - 26.jpg"
+  author: "Daieuxetdailleurs"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Judo_-_%C3%89preuve_mixte_par_%C3%A9quipe_-_Phase_%C3%A9liminatoire_Mongolie_vs_Isra%C3%ABl_-_Jeux_Olympiques_2024_-_Paris_Arena_Sud_(FR75)_-_2024-08-03_-_26.jpg"
