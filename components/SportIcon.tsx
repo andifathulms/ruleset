@@ -383,6 +383,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M18 42 L46 42 M18 46 L46 46 M30 46 L27 54 M34 46 L37 54" fill="none" />
     </>
   ),
+  // The court and its midline, and the raider's chant carrying across it.
+  kabaddi: (
+    <>
+      <rect x="6" y="14" width="52" height="36" rx="1" fill="none" />
+      <path d="M32 14 L32 50" />
+      <circle cx="32" cy="32" r="3" fill="#F2F5F1" stroke="none" />
+      <path d="M38 26 Q42 32 38 38 M43 22 Q49 32 43 42 M48 18 Q56 32 48 46" fill="none" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
