@@ -232,6 +232,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M25 23 L32 20 L39 24 M25 23 L17 16" fill="none" />
       <path d="M39 19 L37 34 L50 50 C44 52 34 52 28 49 Z" />
     </>
+  ),  // A dragon boat: the required head at the bow, a row of paddles, and the
+  // drum a crew member beats without propelling anything.
+  'dragon-boat': (
+    <>
+      <path d="M6 40 L50 40 C53 40 55 37 54 34 L58 30 L55 28 L52 31 C50 30 48 32 49 34 L10 34 C7 34 5 36 6 40 Z" />
+      <path d="M16 34 L12 48 M24 34 L20 48 M32 34 L28 48 M40 34 L36 48" fill="none" />
+      <circle cx="45" cy="29.5" r="3.5" />
+      <path d="M2 50 C8 48 12 52 18 50 S28 48 34 50 S46 52 52 50 S60 48 62 50" fill="none" strokeOpacity="0.6" />
+    </>
   ),
 }
 
