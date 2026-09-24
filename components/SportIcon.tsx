@@ -298,6 +298,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M22 38 L22 43 M26 38 L26 43 M30 38 L30 43 M22 49 L22 56 M30 49 L30 56" />
     </>
   ),
+  // The ball above a belt, one flag streaming off it as it is pulled.
+  'flag-football': (
+    <>
+      <ellipse cx="24" cy="17" rx="13" ry="7.5" transform="rotate(-20 24 17)" />
+      <path d="M19 19 L29 15 M21 15 L22 18 M24 14 L25 17 M27 13 L28 16" />
+      <rect x="6" y="34" width="34" height="7" rx="1.5" />
+      <rect x="18" y="32" width="8" height="11" rx="1.5" />
+      <path d="M40 35 Q48 36 50 43 Q52 49 56 52 L52 57 Q46 53 44 47 Q42 41 40 40" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
