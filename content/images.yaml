@@ -8448,3 +8448,267 @@
   licence: "CC BY 4.0"
   licence_url: "https://creativecommons.org/licenses/by/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Judo_-_%C3%89preuve_mixte_par_%C3%A9quipe_-_Phase_%C3%A9liminatoire_Mongolie_vs_Isra%C3%ABl_-_Jeux_Olympiques_2024_-_Paris_Arena_Sud_(FR75)_-_2024-08-03_-_26.jpg"
+
+# Kabaddi.
+
+- id: kabaddi-chettinad
+  sport: kabaddi
+  file: /images/kabaddi/chettinad2.jpg
+  width: 1200
+  height: 800
+  alt: "A tackle in a village kabaddi match at Soorakudi, Sivaganga district, Tamil Nadu."
+  shows: >
+   Earth, a rope for a midline and a crowd along the wall: the game as it is
+   played across South India.
+  title: "Kabaddi in Chettinad-WUS-04245.jpg"
+  author: "Rainer Halama"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kabaddi_in_Chettinad-WUS-04245.jpg"
+
+- id: kabaddi-ha-du-du
+  sport: kabaddi
+  file: /images/kabaddi/hadudu.jpg
+  width: 1200
+  height: 900
+  alt: "Children playing ha-du-du in Bangladesh."
+  shows: >
+   One of the game's many regional names, and the national sport of
+   Bangladesh.
+  title: "Ha Du Du.jpg"
+  author: "S. M. Anisur Rahman"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ha_Du_Du.jpg"
+
+- id: kabaddi-asian-games-2006
+  sport: kabaddi
+  file: /images/kabaddi/ag2006.jpg
+  width: 1024
+  height: 768
+  alt: "A kabaddi match at the 2006 Asian Games, Doha."
+  shows: >
+   A full Asian Games medal event since Beijing 1990.
+  title: "A Kabaddi match at 2006 Asian Games.jpg"
+  author: "Doha 2006"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:A_Kabaddi_match_at_2006_Asian_Games.jpg"
+
+- id: kabaddi-pkl-arena
+  sport: kabaddi
+  file: /images/kabaddi/pkl-arena.jpg
+  width: 1200
+  height: 900
+  alt: "The Pro Kabaddi League arena for the 2024 semi-finals, Balewadi, Pune."
+  shows: >
+   The 2014 league that became one of India's largest television properties
+   and rewrote the rules.
+  title: "PKL 2024 playing arena at Balewadi Stadium, Pune.jpg"
+  author: "DesiBoy101"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:PKL_2024_playing_arena_at_Balewadi_Stadium,_Pune.jpg"
+
+- id: kabaddi-river-bed
+  sport: kabaddi
+  file: /images/kabaddi/sand.jpg
+  width: 1200
+  height: 900
+  alt: "A game of kabaddi on the sandy bed of the Kaveri at Talakadu, Karnataka."
+  shows: >
+   Nothing to buy and nothing to carry: two teams, a space and a line.
+  title: "A game of Kabaddiin the sand.jpg"
+  author: "రవిచంద్ర"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:A_game_of_Kabaddiin_the_sand.jpg"
+
+- id: kabaddi-earth-court
+  sport: kabaddi
+  file: /images/kabaddi/chettinad1.jpg
+  width: 1200
+  height: 800
+  alt: "Teams holding hands in their half before a raid, Soorakudi, Tamil Nadu."
+  shows: >
+   The traditional surface: earth, marked out by hand.
+  title: "Kabaddi in Chettinad-WUS-04239.jpg"
+  author: "Rainer Halama"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kabaddi_in_Chettinad-WUS-04239.jpg"
+
+- id: kabaddi-pkl-review
+  sport: kabaddi
+  file: /images/kabaddi/pkl-semi.jpg
+  width: 1200
+  height: 900
+  alt: "A raid in a 2024 Pro Kabaddi League semi-final in Pune, \"Team Review\" signage around the mat."
+  shows: >
+   A synthetic mat, and the review system: the only instrument the sport has
+   admitted.
+  title: "Players in action during semi-final of PKL 2024 at Balewadi Stadium in Pune.jpg"
+  author: "DesiBoy101"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Players_in_action_during_semi-final_of_PKL_2024_at_Balewadi_Stadium_in_Pune.jpg"
+
+- id: kabaddi-bengaluru-bulls
+  sport: kabaddi
+  file: /images/kabaddi/bulls2019.jpg
+  width: 1200
+  height: 675
+  alt: "Bengaluru Bulls with the Pro Kabaddi League trophy after the sixth season, 2019."
+  shows: >
+   The league made kabaddi a career, and made its format the one the sport
+   now plays.
+  title: "Team Bengaluru Bulls winning Pro Kabaddi League 2018–19 (Season 6).jpg"
+  author: "My Khel"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Team_Bengaluru_Bulls_winning_Pro_Kabaddi_League_2018%E2%80%9319_(Season_6).jpg"
+
+- id: kabaddi-world-cup-2025
+  sport: kabaddi
+  file: /images/kabaddi/wc2025.jpg
+  width: 1200
+  height: 900
+  alt: "Wales against India at the 2025 Kabaddi World Cup."
+  shows: >
+   One of the world cups held by the competing international bodies.
+  title: "2025 Kabaddi World Cup 20250322 145434 Wales vs India.jpg"
+  author: "Bearas"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2025_Kabaddi_World_Cup_20250322_145434_Wales_vs_India.jpg"
+
+- id: kabaddi-referee-holds
+  sport: kabaddi
+  file: /images/kabaddi/bd-trad2.jpg
+  width: 1200
+  height: 800
+  alt: "A referee watching a tackle at a tournament in Bangladesh."
+  shows: >
+   Hair and clothing are off limits, and the line between a legal and an
+   illegal hold is judged live in a pile of bodies.
+  title: "Tradiitonal Game Kabadi 408.jpg"
+  author: "Frameofashik"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Tradiitonal_Game_Kabadi_408.jpg"
+
+- id: kabaddi-iran-2018
+  sport: kabaddi
+  file: /images/kabaddi/iran-m.jpg
+  width: 1050
+  height: 700
+  alt: "Iran's men defending against a raid at the 2018 Asian Games, Jakarta."
+  shows: >
+   The only country to have seriously broken India's dominance.
+  title: "Iran men's national kabaddi team 13970602000510636707411125086620 89866.jpg"
+  author: "Amir Hosseini"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Iran_men%27s_national_kabaddi_team_13970602000510636707411125086620_89866.jpg"
+
+- id: kabaddi-iran-women-2018
+  sport: kabaddi
+  file: /images/kabaddi/iran-w.jpg
+  width: 1050
+  height: 640
+  alt: "Iran's women on the podium at the 2018 Asian Games, Jakarta."
+  shows: >
+   A national programme built by investment.
+  title: "Iran women's national kabaddi team 13970602000432636707284484230954 91802.jpg"
+  author: "Amir Hosseini"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Iran_women%27s_national_kabaddi_team_13970602000432636707284484230954_91802.jpg"
+
+- id: kabaddi-bangladesh-court
+  sport: kabaddi
+  file: /images/kabaddi/bd-trad.jpg
+  width: 1200
+  height: 800
+  alt: "A team lined up on a chalked outdoor court in Bangladesh."
+  shows: >
+   The standard game on an outdoor court.
+  title: "Tradiitonal Game Kabadi 01.jpg"
+  author: "Frameofashik"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Tradiitonal_Game_Kabadi_01.jpg"
+
+- id: kabaddi-pakistan-winter
+  sport: kabaddi
+  file: /images/kabaddi/pak-winter.jpg
+  width: 720
+  height: 403
+  alt: "Kabaddi at Maini, Pakistan, played as winter arrives, with the village watching."
+  shows: >
+   Pakistan plays it widely, and much of it this way.
+  title: "Kabaddi (A local game played at the arrival of winter).jpg"
+  author: "Zafar Hayat Khan"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kabaddi_(A_local_game_played_at_the_arrival_of_winter).jpg"
+
+- id: kabaddi-circle-tournament
+  sport: kabaddi
+  file: /images/kabaddi/bhullar.jpg
+  width: 1200
+  height: 900
+  alt: "A circle-style kabaddi tournament on grass in Punjab, organised by the Bhullar group."
+  shows: >
+   The circle game, with its own competitions and its own world cup.
+  title: "Bhullar tournament.jpg"
+  author: "Jaipartapsinghbhullar"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bhullar_tournament.jpg"
+
+- id: kabaddi-circle-diagram
+  sport: kabaddi
+  file: /images/kabaddi/circle-ground.jpg
+  width: 1200
+  height: 900
+  alt: "A diagram of the circle-style ground: 22 metres across for men, 16 for women."
+  shows: >
+   A circular field, scored differently, and not the code contested at the
+   Asian Games.
+  title: "Circle Style Kabaddi ground.jpg"
+  author: "Malikhpur"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Circle_Style_Kabaddi_ground.jpg"
+
+- id: kabaddi-pkl-court
+  sport: kabaddi
+  slot: "play:field"
+  file: /images/kabaddi/pkl-semi2.jpg
+  width: 1200
+  height: 900
+  alt: "The court in the 2024 Pro Kabaddi League semi-finals, Pune."
+  shows: >
+   A rectangle, a midline, the baulk and bonus lines, and the lobbies along
+   the sides.
+  title: "Players in action during semi-final of PKL 2024 at Balewadi Stadium, Pune.jpg"
+  author: "DesiBoy101"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Players_in_action_during_semi-final_of_PKL_2024_at_Balewadi_Stadium,_Pune.jpg"
+
+- id: kabaddi-world-cup-2025-sco
+  sport: kabaddi
+  slot: "events"
+  file: /images/kabaddi/wc2025-sco.jpg
+  width: 1200
+  height: 900
+  alt: "Scotland against England at the 2025 Kabaddi World Cup."
+  shows: >
+   A world cup contested well beyond South Asia.
+  title: "2025 Kabaddi World Cup 20250322 140611 Scotland vs England.jpg"
+  author: "Bearas"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2025_Kabaddi_World_Cup_20250322_140611_Scotland_vs_England.jpg"
