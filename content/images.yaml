@@ -6453,3 +6453,300 @@
   licence: "CC0"
   licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   source_url: "https://commons.wikimedia.org/wiki/File:IFF_3v3_WFC_2025_Switzerland_scores_the_lead_in_Women%27s_final.jpg"
+
+# Flying disc.
+
+- id: flying-disc-morrison-1950
+  sport: flying-disc
+  file: /images/flying-disc/morrison.jpg
+  width: 1200
+  height: 960
+  alt: "Walter Frederick Morrison, in a space helmet, promoting his Pluto Platter, around 1950."
+  shows: >
+   The disc that became the Frisbee, sold as a flying saucer before there was
+   any game to play with it.
+  title: "Walter Frederick Morrison.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Walter_Frederick_Morrison.jpg"
+
+- id: flying-disc-wham-o-1966
+  sport: flying-disc
+  file: /images/flying-disc/whamo.jpg
+  width: 1200
+  height: 1200
+  alt: "A red Wham-O Frisbee from 1966."
+  shows: >
+   The toy, a decade into Wham-O's marketing and two years before ultimate
+   was written.
+  title: "Wham-O Frisbee.jpg"
+  author: "UnifiedFunctionality"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Wham-O_Frisbee.jpg"
+
+- id: flying-disc-maplewood-plaque
+  sport: flying-disc
+  file: /images/flying-disc/plaque.jpg
+  width: 1200
+  height: 900
+  alt: "The plaque at Columbia High School, Maplewood, New Jersey: \"Birthplace of Ultimate Frisbee, created by Columbia High School students in 1968.\""
+  shows: >
+   The sport's founding, commemorated where it happened.
+  title: "Ultimate Frisbee Birthplace Plaque, Maplewood, NJ.jpg"
+  author: "dkg"
+  licence: "CC BY-SA 2.5"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.5"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ultimate_Frisbee_Birthplace_Plaque,_Maplewood,_NJ.jpg"
+
+- id: flying-disc-pro-model-1972
+  sport: flying-disc
+  file: /images/flying-disc/pro1972.jpg
+  width: 1200
+  height: 1129
+  alt: "A Wham-O Professional Model Frisbee marked for the Canadian Open, 1972."
+  shows: >
+   Described by its uploader as the first Frisbee designed for a disc-sport
+   competition: the toy being respecified as sports equipment.
+  title: "Professional Model Frisbee Canadian Open 1972.jpg"
+  author: "Audra454"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Professional_Model_Frisbee_Canadian_Open_1972.jpg"
+
+- id: flying-disc-world-class-1978
+  sport: flying-disc
+  file: /images/flying-disc/wc1978.jpg
+  width: 1200
+  height: 900
+  alt: "A Frisbee World Class 141 g model, 1978, with the signatures of the Canadian champions Ken Westerfield and Brian McElwain."
+  shows: >
+   Weights were already being specified. The competitive ultimate disc
+   settled at 175 grams.
+  title: "1978 World Class Frisbee Brian McElwian Ken Westerfield.JPG"
+  author: "Audra454"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:1978_World_Class_Frisbee_Brian_McElwian_Ken_Westerfield.JPG"
+
+- id: flying-disc-flick
+  sport: flying-disc
+  file: /images/flying-disc/flick.jpg
+  width: 1200
+  height: 630
+  alt: "James White of Virginia Commonwealth University releasing a throw past a marker."
+  shows: >
+   Where the disc goes depends on the angle it is released at, which is why
+   ultimate's throws are named for grips and shapes.
+  title: "James White Flick.jpg"
+  author: "Evanf32"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:James_White_Flick.jpg"
+
+- id: flying-disc-headrick
+  sport: flying-disc
+  file: /images/flying-disc/headrick.jpg
+  width: 802
+  height: 1200
+  alt: "Ed Headrick with a disc golf basket."
+  shows: >
+   Headrick is widely credited as the father of disc golf; a chain basket
+   like this one is still the sport's target.
+  title: "Father of Disc Golf and the Modern Day Frisbee..tif"
+  author: "Tinking"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Father_of_Disc_Golf_and_the_Modern_Day_Frisbee..tif"
+
+- id: flying-disc-disc-golf-bag
+  sport: flying-disc
+  file: /images/flying-disc/dg-basics.jpg
+  width: 1200
+  height: 1200
+  alt: "A disc golf bag: a putter, a driver and two mid-ranges."
+  shows: >
+   Different rims for different jobs. Disc golf's equipment rules look more
+   like golf's than ultimate's.
+  title: "Disc Golf basics (8631650127).jpg"
+  author: "Scott Schiller"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Disc_Golf_basics_(8631650127).jpg"
+
+- id: flying-disc-world-games-2005
+  sport: flying-disc
+  file: /images/flying-disc/wg2005.jpg
+  width: 1200
+  height: 675
+  alt: "The United States against Australia in the ultimate final of the 2005 World Games, Duisburg."
+  shows: >
+   The World Games, the programme ultimate has been on since the early 2000s.
+  title: "Finals of the Ultimate Frisbee competitions, USA-AUS, World Games 2005, Duisburg-7242593.jpg"
+  author: "Raimond Spekking"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Finals_of_the_Ultimate_Frisbee_competitions,_USA-AUS,_World_Games_2005,_Duisburg-7242593.jpg"
+
+- id: flying-disc-audl-2019
+  sport: flying-disc
+  file: /images/flying-disc/radicals.jpg
+  width: 1200
+  height: 900
+  alt: "The Madison Radicals against the Chicago Wildfire in an American Ultimate Disc League game, Breese Stevens Field, Madison, 2019."
+  shows: >
+   A North American professional league, played with referees.
+  title: "Madison Radicals Chicago Wildfire June 28 2019.jpg"
+  author: "Willsome429"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Madison_Radicals_Chicago_Wildfire_June_28_2019.jpg"
+
+- id: flying-disc-bid-aachen
+  sport: flying-disc
+  file: /images/flying-disc/jump.jpg
+  width: 555
+  height: 1200
+  alt: "Two players going up together for a disc in a friendly between Frizzly Bears Aachen and Pie Wagon Newcastle, Aachen."
+  shows: >
+   A non-contact sport in which two athletes arrive at the same disc at
+   speed.
+  title: "Ultimate Frisbee Jump.jpg"
+  author: "fw42"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ultimate_Frisbee_Jump.jpg"
+
+- id: flying-disc-spirit-award
+  sport: flying-disc
+  file: /images/flying-disc/spirit.jpg
+  width: 1122
+  height: 1200
+  alt: "Two University of Wisconsin players with the Kevin Crowley Spirit Award, an internal award of the Hodags."
+  shows: >
+   Spirit rewarded as well as required.
+  title: "Kevin Crowley Spirit Award.jpg"
+  author: "Jeffmaskalunas"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kevin_Crowley_Spirit_Award.jpg"
+
+- id: flying-disc-cali-2013
+  sport: flying-disc
+  file: /images/flying-disc/cali01.jpg
+  width: 1200
+  height: 301
+  alt: "Ultimate at the 2013 World Games in the Estadio Olímpico Pascual Guerrero, Cali."
+  shows: >
+   Colombia hosted the World Games, and fields some of the strongest mixed
+   and women's teams in the world.
+  title: "Fluganta telero ĉe la Mondaj Ludoj Kalio 2013 05.JPG"
+  author: "Remux"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Fluganta_telero_%C4%89e_la_Mondaj_Ludoj_Kalio_2013_05.JPG"
+
+- id: flying-disc-gbr-jpn-2013
+  sport: flying-disc
+  file: /images/flying-disc/gbjpn.jpg
+  width: 1200
+  height: 900
+  alt: "Great Britain against Japan at the 2013 World Games, Cali."
+  shows: >
+   Japan has been elite for decades. Great Britain is among Europe's
+   strongest programmes.
+  title: "Mondaj Ludoj de 2013 - Britio kontraŭ Japanio 2.JPG"
+  author: "Sahaquiel9102"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Mondaj_Ludoj_de_2013_-_Britio_kontra%C5%AD_Japanio_2.JPG"
+
+- id: flying-disc-uw-madison
+  sport: flying-disc
+  file: /images/flying-disc/uwmadison.jpg
+  width: 1200
+  height: 760
+  alt: "A University of Wisconsin–Madison ultimate team, described by its uploader as the university's first."
+  shows: >
+   College ultimate, the sport's largest talent pipeline anywhere.
+  title: "First UW-Madison Ultimate Frisbee Team.jpg"
+  author: "Jeffmaskalunas"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:First_UW-Madison_Ultimate_Frisbee_Team.jpg"
+
+- id: flying-disc-disc-golf-2022
+  sport: flying-disc
+  file: /images/flying-disc/dg-varazdin.jpg
+  width: 1200
+  height: 675
+  alt: "Players at a basket during the 2022 World Team Disc Golf Championship, Varaždin, Croatia."
+  shows: >
+   A WFDF world championship for the disc sport most people actually play.
+  title: "Disc golf WTDGC Varazdin Croatia 07.jpg"
+  author: "Dinko Šimenc"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Disc_golf_WTDGC_Varazdin_Croatia_07.jpg"
+
+- id: flying-disc-field-2005
+  sport: flying-disc
+  slot: "play:field"
+  file: /images/flying-disc/de-can.jpg
+  width: 800
+  height: 600
+  alt: "Germany against Canada at the 2005 World Games in Duisburg, the end zone marked with cones."
+  shows: >
+   A grass pitch, end zones marked out rather than built: nothing on the
+   field but players and cones.
+  title: "Ultimate Länderspiel Deutschland-Kanada.jpg"
+  author: "Flingeflung"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ultimate_L%C3%A4nderspiel_Deutschland-Kanada.jpg"
+
+- id: flying-disc-westerfield-1977
+  sport: flying-disc
+  slot: "events"
+  file: /images/flying-disc/westerfield-scissors.jpg
+  width: 441
+  height: 639
+  alt: "Ken Westerfield making a freestyle scissors catch, 1977."
+  shows: >
+   Freestyle, the judged disc sport, in the era it was invented.
+  title: "Ken Westerfield freestyle scissors catch 1977.jpg"
+  author: "Audra454"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ken_Westerfield_freestyle_scissors_catch_1977.jpg"
+
+- id: flying-disc-freestyle-2015
+  sport: flying-disc
+  slot: "events"
+  file: /images/flying-disc/freestyle2015.jpg
+  width: 1200
+  height: 800
+  alt: "Freestyle players at the 2015 world championships, SSC Karlsruhe."
+  shows: >
+   Judged routines, and still a WFDF world championship event.
+  title: "Freestyle Frisbee WM2015 SSC Karlsruhe IMG034.jpg"
+  author: "SSC Karlsruhe / Michael Chaussette"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Freestyle_Frisbee_WM2015_SSC_Karlsruhe_IMG034.jpg"
+
+- id: flying-disc-paganello-2016
+  sport: flying-disc
+  slot: "events"
+  file: /images/flying-disc/paganello.jpg
+  width: 1200
+  height: 436
+  alt: "A beach ultimate match at the Paganello tournament, Rimini, 2016."
+  shows: >
+   Five a side on sand, with world championships of its own.
+  title: "Paganello.jpg"
+  author: "HartemLijn"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Paganello.jpg"
