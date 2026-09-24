@@ -343,6 +343,14 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="42" cy="46" r="3" />
     </>
   ),
+  // The still rings, hanging from their straps.
+  gymnastics: (
+    <>
+      <path d="M8 8 L56 8 M20 8 L20 36 M44 8 L44 36" />
+      <circle cx="20" cy="44" r="8" />
+      <circle cx="44" cy="44" r="8" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
