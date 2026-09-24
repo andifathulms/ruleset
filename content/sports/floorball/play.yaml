@@ -29,7 +29,7 @@ sections:
       hockey, and the corners are deliberately curved so the ball keeps moving.
     facts:
       - { label: Rink, value: 40 × 20 m }
-      - { label: Boards, value: 50 cm, with rounded corners }
+      - { label: Boards, value: "50 cm, with rounded corners" }
       - { label: Goal, value: 160 × 115 cm }
       - { label: Offside, value: Does not exist }
 
@@ -48,8 +48,8 @@ sections:
       Outfield players wear no protective equipment at all. The goalkeeper wears
       padding, a helmet and gloves, and carries nothing.
     facts:
-      - { label: Stick, value: About 350 g, limited blade curve }
-      - { label: Ball, value: 72 mm, 23 g, 26 holes }
+      - { label: Stick, value: "About 350 g, limited blade curve" }
+      - { label: Ball, value: "72 mm, 23 g, 26 holes" }
       - { label: Outfield protection, value: None }
       - { label: Goalkeeper's stick, value: None }
     shaped_by: [floorball-goalkeeper-no-stick]
@@ -67,7 +67,7 @@ sections:
       the goalkeeper does nothing else.
     facts:
       - { label: On the rink, value: 5 outfield and a goalkeeper }
-      - { label: Substitution, value: Rolling, on the fly }
+      - { label: Substitution, value: "Rolling, on the fly" }
       - { label: Goalkeeper position, value: Kneeling }
     shaped_by: [floorball-goalkeeper-no-stick]
 

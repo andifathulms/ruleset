@@ -19,7 +19,7 @@ disciplines:
     events:
       - { id: three, label: Three-a-side, at: [federation-only], note: A small-rink format used for development and for schools. }
       - { id: powerchair, label: Powerchair floorball, at: [federation-only], note: "Played from electric wheelchairs with a stick fixed to the chair; governed nationally in several countries." }
-      - { id: special, label: Special Olympics floorball, at: [federation-only], note: Contested at Special Olympics World Games, under adapted rules. }
+      - { id: special, label: Special Olympics floorball, at: [federation-only], note: "Contested at Special Olympics World Games, under adapted rules." }
   - id: relatives
     label: The sports it sits between
     counts: false
