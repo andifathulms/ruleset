@@ -23,8 +23,8 @@ disciplines:
     events:
       - { id: masters, label: The Masters, note: "Played on the same course every year — the only major that is.", at: [professional] }
       - { id: pga, label: PGA Championship, at: [professional] }
-      - { id: usopen, label: U.S. Open, note: Run by the USGA, one of the two bodies that owns the Rules., at: [professional] }
-      - { id: open, label: The Open Championship, note: Run by the R&A, the other one., at: [professional] }
+      - { id: usopen, label: U.S. Open, note: "Run by the USGA, one of the two bodies that owns the Rules.", at: [professional] }
+      - { id: open, label: The Open Championship, note: "Run by the R&A, the other one.", at: [professional] }
   - id: amateur
     label: Where the handicap actually operates
     counts: false

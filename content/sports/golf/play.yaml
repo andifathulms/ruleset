@@ -68,7 +68,7 @@ sections:
       Sailing's penalty turn is the nearest relative on this site.
     facts:
       - { label: Primary official, value: The player }
-      - { label: Handicap, value: Used in amateur play, not in elite competition }
+      - { label: Handicap, value: "Used in amateur play, not in elite competition" }
 
   - id: duration
     label: Format
