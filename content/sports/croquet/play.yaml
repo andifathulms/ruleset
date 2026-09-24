@@ -23,8 +23,8 @@ sections:
 
       The two share equipment and share almost no tactics.
     facts:
-      - { label: Association, value: 26 points — 12 hoops each way, plus the peg }
-      - { label: Golf croquet, value: One hoop at a time, one stroke per turn }
+      - { label: Association, value: "26 points — 12 hoops each way, plus the peg" }
+      - { label: Golf croquet, value: "One hoop at a time, one stroke per turn" }
 
   - id: field
     label: The lawn
@@ -38,7 +38,7 @@ sections:
       running one from an angle is close to impossible.
     facts:
       - { label: Lawn, value: 35 × 28 yd }
-      - { label: Hoops, value: Six, plus a centre peg }
+      - { label: Hoops, value: "Six, plus a centre peg" }
       - { label: Clearance, value: A fraction of a millimetre at championship level }
 
   - id: equipment
@@ -67,7 +67,7 @@ sections:
       one — a self-officiating structure with an official available on request.
     facts:
       - { label: Singles, value: Each player plays two balls }
-      - { label: Officiating, value: Self-called, with a referee on request }
+      - { label: Officiating, value: "Self-called, with a referee on request" }
 
   - id: duration
     label: Time
@@ -76,7 +76,7 @@ sections:
       limit, and a championship game can run for hours. Golf croquet is much
       faster, played to seven or thirteen hoops.
     facts:
-      - { label: Association, value: Hours, or to a time limit }
+      - { label: Association, value: "Hours, or to a time limit" }
       - { label: Golf croquet, value: 7 or 13 hoops }
 
   - id: scoring
@@ -91,7 +91,7 @@ sections:
       handicap does not merely add strokes but hands the recipient the right to
       undo their worst moment.
     facts:
-      - { label: Bisque, value: A free turn, taken when the recipient chooses }
+      - { label: Bisque, value: "A free turn, taken when the recipient chooses" }
     shaped_by: [croquet-bisque-handicap]
 
   - id: restarts
@@ -107,7 +107,7 @@ sections:
       also what ends one.
     facts:
       - { label: Run a hoop, value: One extra stroke }
-      - { label: Roquet, value: Two strokes, the first a croquet stroke }
+      - { label: Roquet, value: "Two strokes, the first a croquet stroke" }
       - { label: Reset, value: Roquets refresh when a hoop is run }
     shaped_by: [croquet-1868-codification]
 
