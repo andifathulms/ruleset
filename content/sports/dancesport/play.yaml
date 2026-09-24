@@ -37,8 +37,8 @@ sections:
       competition, and a couple that is repeatedly blocked will be seen less by
       the judges.
     facts:
-      - { label: Floor, value: Sprung, unmarked }
-      - { label: Line of dance, value: Counter-clockwise, in Standard }
+      - { label: Floor, value: "Sprung, unmarked" }
+      - { label: Line of dance, value: "Counter-clockwise, in Standard" }
       - { label: Assigned space, value: None }
 
   - id: equipment
@@ -54,7 +54,7 @@ sections:
       component of performance and expenditure as a competitive advantage. It is
       the same problem equestrian and gymnastics have, in a sharper form.
     facts:
-      - { label: Shoes, value: Suede-soled, heel by programme }
+      - { label: Shoes, value: "Suede-soled, heel by programme" }
       - { label: Costume, value: Regulated by category }
 
   - id: players
@@ -70,7 +70,7 @@ sections:
       each other rather than scoring them.
     facts:
       - { label: Competitive unit, value: The couple }
-      - { label: Judging, value: Component marks, in WDSF competition }
+      - { label: Judging, value: "Component marks, in WDSF competition" }
     shaped_by: [dancesport-absolute-judging]
 
   - id: duration
