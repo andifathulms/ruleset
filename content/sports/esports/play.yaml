@@ -40,7 +40,7 @@ sections:
       wearing noise-cancelling headsets so that crowd reaction cannot convey
       information about the opposing team's position.
     facts:
-      - { label: Field of play, value: Software, owned by the publisher }
+      - { label: Field of play, value: "Software, owned by the publisher" }
       - { label: Version cycle, value: Typically weeks }
       - { label: Booths, value: To stop crowd noise conveying information }
     shaped_by: [esports-publisher-owns-the-field]
@@ -61,7 +61,7 @@ sections:
       mouse and its settings are as personal as a fencer's grip.
     facts:
       - { label: Machines, value: Supplied and standardised }
-      - { label: Peripherals, value: Personal, inspected }
+      - { label: Peripherals, value: "Personal, inspected" }
       - { label: Macros, value: Generally prohibited }
 
   - id: players
@@ -75,7 +75,7 @@ sections:
       is not a judgement; it is a calculation the server already performed.
     facts:
       - { label: Team size, value: By title; often five }
-      - { label: Adjudication of play, value: By the software, not an official }
+      - { label: Adjudication of play, value: "By the software, not an official" }
 
   - id: duration
     label: Time

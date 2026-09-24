@@ -13,7 +13,7 @@ disciplines:
       A slate of titles chosen per edition, several of them in versions modified
       by their publishers for the event.
     events:
-      - { id: moba, label: Multiplayer online battle arena titles, at: [asian-games], count: 3, note: League of Legends, Dota 2 and Arena of Valor at Hangzhou 2022. }
+      - { id: moba, label: Multiplayer online battle arena titles, at: [asian-games], count: 3, note: "League of Legends, Dota 2 and Arena of Valor at Hangzhou 2022." }
       - { id: sports-sim, label: Sports simulation titles, at: [asian-games], note: EA Sports FC Online. }
       - { id: shooter, label: Shooter titles, at: [asian-games], note: "PUBG Mobile, contested in an Asian Games version with content and monetisation altered." }
       - { id: fighting, label: Fighting game titles, at: [asian-games], note: Street Fighter V. }
@@ -40,5 +40,5 @@ disciplines:
     label: Claimed by two federations
     counts: false
     events:
-      - { id: iesf, label: International Esports Federation, at: [world-championship], note: Formed 2008, with national member associations and a world championship. }
-      - { id: gef, label: Global Esports Federation, at: [world-championship], note: Formed 2019, with an overlapping mandate. Neither controls a single game. }
+      - { id: iesf, label: International Esports Federation, at: [world-championship], note: "Formed 2008, with national member associations and a world championship." }
+      - { id: gef, label: Global Esports Federation, at: [world-championship], note: "Formed 2019, with an overlapping mandate. Neither controls a single game." }
