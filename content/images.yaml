@@ -5278,3 +5278,200 @@
   licence: "CC BY 2.0"
   licence_url: "https://creativecommons.org/licenses/by/2.0"
   source_url: "https://commons.wikimedia.org/wiki/File:IEM_Katowice_Major_2019.jpg"
+
+# Fencing.
+
+- id: fencing-angelo-1765
+  sport: fencing
+  file: /images/fencing/angelo-1765.jpg
+  width: 1200
+  height: 715
+  alt: "A plate from Domenico Angelo's The School of Fencing, London, 1765."
+  shows: >
+   The smallsword of the eighteenth-century gentleman, taught as an art: the
+   weapon and the world the three modern weapons were inherited from.
+  title: "Domenico Angelo The School of Fencing plate20.jpg"
+  author: "Domenico Angelo"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Domenico_Angelo_The_School_of_Fencing_plate20.jpg"
+
+- id: fencing-epee-2013
+  sport: fencing
+  file: /images/fencing/epee-budapest-2013.jpg
+  width: 1200
+  height: 801
+  alt: "Daniel Jérent of France against Tomasz Motyka of Poland in team épée, 2013 World Championships, Budapest."
+  shows: >
+   Épée, the duelling sword: the whole body is target, no conductive jacket
+   is needed, and if both land, both score.
+  title: "France v Pologne EMS-EQ 2013 Fencing WCH t175251.jpg"
+  author: "Marie-Lan Nguyen"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:France_v_Pologne_EMS-EQ_2013_Fencing_WCH_t175251.jpg"
+
+- id: fencing-foil-2013
+  sport: fencing
+  file: /images/fencing/foil-paris-2013.jpg
+  width: 1200
+  height: 801
+  alt: "Jérémy Cadot of France parrying a flèche from Andrea Baldini of Italy, foil, Paris, 2013."
+  shows: >
+   Foil, the practice weapon: the torso-only target is covered by the
+   metallic jacket, and when both land, right of way decides.
+  title: "Final Challenge international de Paris 2013-01-26 193155.jpg"
+  author: "Marie-Lan Nguyen"
+  licence: "CC BY 2.5"
+  licence_url: "https://creativecommons.org/licenses/by/2.5"
+  source_url: "https://commons.wikimedia.org/wiki/File:Final_Challenge_international_de_Paris_2013-01-26_193155.jpg"
+
+- id: fencing-sabre-2013
+  sport: fencing
+  file: /images/fencing/sabre-budapest-2013.jpg
+  width: 1200
+  height: 801
+  alt: "Áron Szilágyi of Hungary against Nikolay Kovalev of Russia in the sabre semi-final, 2013 World Championships, Budapest."
+  shows: >
+   Sabre, the cavalry weapon: everything above the waist is target, and it
+   scores with the edge as well as the point.
+  title: "Kovalev v Szilagyi 2013 Fencing WCH SMS-IN t194135.jpg"
+  author: "Marie-Lan Nguyen"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kovalev_v_Szilagyi_2013_Fencing_WCH_SMS-IN_t194135.jpg"
+
+- id: fencing-athens-1896
+  sport: fencing
+  file: /images/fencing/athens-1896.jpg
+  width: 728
+  height: 528
+  alt: "The final sword match at the first modern Olympics, Athens, 1896."
+  shows: >
+   Fencing has been on every modern Olympic programme since this one.
+  title: "BASA-3K-7-422-25-1896 Summer Olympics.jpg"
+  author: "Albert Meyer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:BASA-3K-7-422-25-1896_Summer_Olympics.jpg"
+
+- id: fencing-ayat-fonst-1900
+  sport: fencing
+  file: /images/fencing/ayat-fonst-1900.jpg
+  width: 1200
+  height: 824
+  alt: "Albert Ayat and Ramón Fonst in the Tuileries during the 1900 Paris Games."
+  shows: >
+   No wires and no machine: in 1900 a hit existed when the president and the
+   judges agreed they had seen one. Épée was not electrified until 1936.
+  title: "Albert Ayat et Ramon Fonst.jpg"
+  author: "Jules Beau"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Albert_Ayat_et_Ramon_Fonst.jpg"
+
+- id: fencing-mask-2013
+  sport: fencing
+  file: /images/fencing/mask-2013.jpg
+  width: 900
+  height: 1200
+  alt: "A fencing mask at the French Championships, 2013."
+  shows: >
+   Mesh, bib and puncture-resistance standard: masks, uniforms and blades
+   were all respecified after 1982.
+  title: "Mask French Fencing Championship 2013 n02.jpg"
+  author: "Marie-Lan Nguyen"
+  licence: "CC BY 2.5"
+  licence_url: "https://creativecommons.org/licenses/by/2.5"
+  source_url: "https://commons.wikimedia.org/wiki/File:Mask_French_Fencing_Championship_2013_n02.jpg"
+
+- id: fencing-video-call-2014
+  sport: fencing
+  file: /images/fencing/video-call-2014.jpg
+  width: 1200
+  height: 801
+  alt: "Referee Florin Gheorghe asking for video review in the final of the Challenge International de Paris, 2014."
+  shows: >
+   The machine has already said that both fencers hit. The referee is
+   deciding priority, the one judgement fencing has never mechanised.
+  title: "Final 2014 CIP t181505.jpg"
+  author: "Marie-Lan Nguyen"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Final_2014_CIP_t181505.jpg"
+
+- id: fencing-video-review-2014
+  sport: fencing
+  file: /images/fencing/video-review-2014.jpg
+  width: 1200
+  height: 801
+  alt: "The referee and the video consultant watching a replay together, Challenge International de Paris, 2014."
+  shows: >
+   A second opinion on a judgement, rather than a measurement.
+  title: "Refereeing teams 2014 CIP t115357.jpg"
+  author: "Marie-Lan Nguyen"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Refereeing_teams_2014_CIP_t115357.jpg"
+
+- id: fencing-nadi-1912
+  sport: fencing
+  file: /images/fencing/nedo-nadi-1912.jpg
+  width: 380
+  height: 799
+  alt: "Nedo Nadi of Italy at the 1912 Stockholm Olympics."
+  shows: >
+   A product of the Italian fencing tradition that, with France, Hungary and
+   Russia, has dominated for a century.
+  title: "1912 Nedo Nadi.JPG"
+  author: "IOC photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1912_Nedo_Nadi.JPG"
+
+- id: fencing-korea-2013
+  sport: fencing
+  file: /images/fencing/korea-sabre-2013.jpg
+  width: 1200
+  height: 801
+  alt: "South Korea's men's sabre team — Gu Bon-gil, Kim Jung-hwan, Oh Eun-seok and Won Jun-ho — on the podium at the 2013 World Championships."
+  shows: >
+   A national programme built deliberately around sabre, and one of the few
+   changes to fencing's century-old map.
+  title: "Korea podium 2013 Fencing WCH SMS-EQ t220116.jpg"
+  author: "Marie-Lan Nguyen"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Korea_podium_2013_Fencing_WCH_SMS-EQ_t220116.jpg"
+
+- id: fencing-pistes-2013
+  sport: fencing
+  slot: "play:field"
+  file: /images/fencing/pistes-budapest-2013.jpg
+  width: 1200
+  height: 797
+  alt: "Pistes in Hall B at the 2013 World Championships, Budapest, during the team épée."
+  shows: >
+   Fourteen metres by one and a half to two, with the lines and warning zones
+   marked on a conductive strip.
+  title: "Hall B 2013 World Fencing Championships n1.jpg"
+  author: "Marie-Lan Nguyen"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Hall_B_2013_World_Fencing_Championships_n1.jpg"
+
+- id: fencing-womens-epee-2013
+  sport: fencing
+  slot: "events"
+  file: /images/fencing/womens-epee-2013.jpg
+  width: 1200
+  height: 801
+  alt: "Ana Maria Brânză of Romania against Lauren Rembi of France in the team épée bronze match, 2013 World Championships."
+  shows: >
+   Individual and team events in all three weapons, for women and men: twelve
+   in all.
+  title: "Romania v France EFS 2013 Fencing WCH t165941.jpg"
+  author: "Marie-Lan Nguyen"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Romania_v_France_EFS_2013_Fencing_WCH_t165941.jpg"
