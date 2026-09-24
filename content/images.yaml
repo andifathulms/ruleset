@@ -6197,3 +6197,259 @@
   licence: "CC BY 3.0"
   licence_url: "https://creativecommons.org/licenses/by/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:USA_Football_2023_(05).png"
+
+# Floorball.
+
+- id: floorball-urdorf-1983
+  sport: floorball
+  file: /images/floorball/urdorf1984.jpg
+  width: 1200
+  height: 799
+  alt: "UHC Urdorf on the opening day of the first Swiss national league season, 6 November 1983, with their plastic sticks on the grass in front of them."
+  shows: >
+   The team went on to win the first official Swiss championship in March
+   1984; Sweden's had begun in 1982. Each country had its own code before the
+   federation existed.
+  title: "First Official Swiss Floorball Champion, UHC Urdorf NLA, 1984.jpg"
+  author: "The Floorballer"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:First_Official_Swiss_Floorball_Champion,_UHC_Urdorf_NLA,_1984.jpg"
+
+- id: floorball-finland-1987
+  sport: floorball
+  file: /images/floorball/table8687.jpg
+  width: 713
+  height: 557
+  alt: "The final table of the first Finnish championship season, 1986–87."
+  shows: >
+   Finland's first national championship season began in 1986, the year the
+   Finnish, Swedish and Swiss associations formed the federation.
+  title: "Sarjataulukko 86-87.jpg"
+  author: "Japetus16"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sarjataulukko_86-87.jpg"
+
+- id: floorball-ball
+  sport: floorball
+  file: /images/floorball/ball-white.jpg
+  width: 1183
+  height: 1200
+  alt: "A floorball ball."
+  shows: >
+   Hollow plastic, 72 millimetres, 26 holes: the holes steady a ball this
+   light in flight.
+  title: "Floorball ball white.JPG"
+  author: "Santeri Viinamäki"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Floorball_ball_white.JPG"
+
+- id: floorball-blade
+  sport: floorball
+  file: /images/floorball/blade.jpg
+  width: 1200
+  height: 900
+  alt: "A floorball blade and ball."
+  shows: >
+   A moulded plastic blade on a composite shaft. How deep it may curve is
+   capped by rule.
+  title: "Exel floorball stick blade and ball.jpg"
+  author: "Santeri Viinamäki"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Exel_floorball_stick_blade_and_ball.jpg"
+
+- id: floorball-goalkeeper-2022
+  sport: floorball
+  file: /images/floorball/gk-toriseva.jpg
+  width: 1200
+  height: 800
+  alt: "Finland's goalkeeper Lassi Toriseva on his knees in front of goal against Sweden at the 2022 World Championships."
+  shows: >
+   Padding, helmet and gloves, and no stick: the only stick sport whose
+   goalkeeper has none.
+  title: "WFC2022 Sweden vs Finland B 125.jpg"
+  author: "Albinfo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WFC2022_Sweden_vs_Finland_B_125.jpg"
+
+- id: floorball-outdoor-rink
+  sport: floorball
+  file: /images/floorball/outdoor.jpg
+  width: 1200
+  height: 900
+  alt: "An outdoor floorball rink in the yard of Seinäjoki co-educational school, Finland, 2023."
+  shows: >
+   Low boards with rounded corners: the geometry that keeps the ball live and
+   the game moving.
+  title: "Outdoor floorball rink Seinäjoki SYK.jpg"
+  author: "Weisself"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Outdoor_floorball_rink_Sein%C3%A4joki_SYK.jpg"
+
+- id: floorball-street-floorball
+  sport: floorball
+  file: /images/floorball/street.jpg
+  width: 1200
+  height: 900
+  alt: "A street floorball tournament on Paasikivi Square, Finland, 2011."
+  shows: >
+   Cheap, safe and small: a rink that fits in a town square, which is the
+   federation's development argument.
+  title: "Katusählyä DSC07736 C.JPG"
+  author: "Anneli Salo"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Katus%C3%A4hly%C3%A4_DSC07736_C.JPG"
+
+- id: floorball-referees-2022
+  sport: floorball
+  file: /images/floorball/refs.jpg
+  width: 1200
+  height: 800
+  alt: "Swiss referees Corina Wehinger and Sandra Zurbuchen at Sweden against Finland, 2022 World Championships."
+  shows: >
+   Two referees with equal authority, working diagonally around the rink.
+  title: "WFC2022 Sweden vs Finland B 08.jpg"
+  author: "Albinfo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WFC2022_Sweden_vs_Finland_B_08.jpg"
+
+- id: floorball-penalty-signal
+  sport: floorball
+  file: /images/floorball/ref-penalty.jpg
+  width: 1200
+  height: 800
+  alt: "Corina Wehinger indicating a penalty during Sweden against Finland, 2022."
+  shows: >
+   Stick above the waist, a played stick, contact: the calls that send a
+   player to the box.
+  title: "WFC2022 Sweden vs Finland B 87.jpg"
+  author: "Albinfo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WFC2022_Sweden_vs_Finland_B_87.jpg"
+
+- id: floorball-penalty-box
+  sport: floorball
+  file: /images/floorball/penaltybox.jpg
+  width: 1200
+  height: 801
+  alt: "Josef Rýpar of the Czech Republic in the penalty box against Slovakia, 2022 World Championships."
+  shows: >
+   Two minutes, as in ice hockey: a player off rather than a set piece
+   conceded.
+  title: "WFC2022 Czech Republic vs Slovakia 55 (cropped).jpg"
+  author: "Albinfo"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WFC2022_Czech_Republic_vs_Slovakia_55_(cropped).jpg"
+
+- id: floorball-sweden-2022
+  sport: floorball
+  file: /images/floorball/final2022-winners.jpg
+  width: 1200
+  height: 800
+  alt: "Sweden celebrating the 2022 world title in Zurich."
+  shows: >
+   Sweden and Finland between them have won almost every world championship
+   contested.
+  title: "WFC2022 Final Sweden vs Czech Republic 01 Winners.jpg"
+  author: "Albinfo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WFC2022_Final_Sweden_vs_Czech_Republic_01_Winners.jpg"
+
+- id: floorball-finland-2018
+  sport: floorball
+  file: /images/floorball/wfc2018-gold.jpg
+  width: 1200
+  height: 801
+  alt: "Finland with the trophy after beating Sweden in the 2018 world final, Prague."
+  shows: >
+   The other half of the duopoly, beating the first half in the final.
+  title: "WFC2018 Final Finland vs Sweden Finland celebration.jpg"
+  author: "Rolandhino1"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WFC2018_Final_Finland_vs_Sweden_Finland_celebration.jpg"
+
+- id: floorball-singapore-2022
+  sport: floorball
+  file: /images/floorball/sgp-phi.jpg
+  width: 1200
+  height: 800
+  alt: "Singapore against the Philippines at the 2022 World Championships."
+  shows: >
+   Singapore has invested in floorball as a school sport.
+  title: "WFC2022 Singapore vs Philippines 11.jpg"
+  author: "Albinfo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WFC2022_Singapore_vs_Philippines_11.jpg"
+
+- id: floorball-thailand-2022
+  sport: floorball
+  file: /images/floorball/can-tha.jpg
+  width: 1200
+  height: 800
+  alt: "Canada against Thailand at the 2022 World Championships."
+  shows: >
+   Two teams from outside the European core: the participation map is wider
+   than the results map.
+  title: "WFC2022 Canada vs Thailand 32.jpg"
+  author: "Albinfo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WFC2022_Canada_vs_Thailand_32.jpg"
+
+- id: floorball-faceoff-2022
+  sport: floorball
+  slot: "play:restarts"
+  file: /images/floorball/faceoff.jpg
+  width: 1200
+  height: 800
+  alt: "A face-off between Sweden and the Czech Republic in the 2022 world final."
+  shows: >
+   A face-off starts each period and follows a goal. Almost everything else
+   restarts with a free hit.
+  title: "WFC2022 Final Sweden vs Czech Republic C 34.jpg"
+  author: "Albinfo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WFC2022_Final_Sweden_vs_Czech_Republic_C_34.jpg"
+
+- id: floorball-turku-2005
+  sport: floorball
+  slot: "play:field"
+  file: /images/floorball/turku2005.jpg
+  width: 1200
+  height: 800
+  alt: "A goalmouth scramble at a league game in Turku, Finland, 2005, the goalkeeper down on the floor."
+  shows: >
+   A hall floor, low boards and a small goal.
+  title: "Turku floorball.jpg"
+  author: "Anssi Koskinen"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Turku_floorball.jpg"
+
+- id: floorball-three-a-side-2025
+  sport: floorball
+  slot: "events"
+  file: /images/floorball/threev3.jpg
+  width: 1200
+  height: 900
+  alt: "Swiss fans as Switzerland take the lead in the women's final of the 2025 three-a-side world championships."
+  shows: >
+   The small-rink format, which now has world championships of its own.
+  title: "IFF 3v3 WFC 2025 Switzerland scores the lead in Women's final.jpg"
+  author: "Gyokuro-du-Rhin"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:IFF_3v3_WFC_2025_Switzerland_scores_the_lead_in_Women%27s_final.jpg"
