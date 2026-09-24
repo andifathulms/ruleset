@@ -45,7 +45,7 @@ sections:
       piece of equipment in the sport: a flag that is tucked, held or tightened
       changes whether a defender can end a play.
     facts:
-      - { label: Flags, value: Two per player, one on each hip }
+      - { label: Flags, value: "Two per player, one on each hip" }
       - { label: Protective equipment, value: None }
       - { label: Ball, value: Smaller than an eleven-a-side ball }
     shaped_by: [flag-1940s-flag-pull]
@@ -73,7 +73,7 @@ sections:
       shorter than one quarter of an eleven-a-side game.
     facts:
       - { label: Halves, value: 2 × 20 min }
-      - { label: Clock, value: Running, except the last two minutes }
+      - { label: Clock, value: "Running, except the last two minutes" }
       - { label: Play clock, value: "Typically 25 s" }
     shaped_by: [flag-five-a-side]
 
@@ -90,7 +90,7 @@ sections:
       There are no field goals.
     facts:
       - { label: Touchdown, value: "6" }
-      - { label: Conversion, value: 1, 2 or 3 points, by distance }
+      - { label: Conversion, value: "1, 2 or 3 points, by distance" }
       - { label: Safety, value: "2" }
       - { label: Field goal, value: Does not exist }
     shaped_by: [flag-no-punt-no-kick]
