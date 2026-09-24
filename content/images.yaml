@@ -6750,3 +6750,305 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Paganello.jpg"
+
+# Football.
+
+- id: football-shrovetide
+  sport: football
+  file: /images/football/shrovetide.jpg
+  width: 1200
+  height: 900
+  alt: "Royal Shrovetide Football at Ashbourne, Derbyshire, Ash Wednesday 2016: a crowd, a ball held aloft, and no pitch."
+  shows: >
+   A surviving local code of the kind the 1863 meetings were called to
+   replace.
+  title: "Royal Shrovetide Football 2016 Ash Wednesday early exchanges - geograph.org.uk - 4822693.jpg"
+  author: "Ian Calderwood"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Royal_Shrovetide_Football_2016_Ash_Wednesday_early_exchanges_-_geograph.org.uk_-_4822693.jpg"
+
+- id: football-laws-1863
+  sport: football
+  file: /images/football/laws1863.jpg
+  width: 1200
+  height: 900
+  alt: "The Football Association's minute book at the National Football Museum, Manchester, open at Ebenezer Cobb Morley's minutes of the Freemasons' Tavern meeting of 24 November 1863, beside the printed first laws."
+  shows: >
+   The laws that settled the carrying and hacking questions. The ball beside
+   it, a museum label says, is an improvised one made by children at Cape
+   Maclear, Malawi, in 2011.
+  title: "Original laws of the game 1863.jpg"
+  author: "Adrian Roebuck"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Original_laws_of_the_game_1863.jpg"
+
+- id: football-freemasons-plaque
+  sport: football
+  file: /images/football/freemasons.jpg
+  width: 900
+  height: 1200
+  alt: "The Football Association's plaque at 61–65 Great Queen Street, London, the site of the Freemasons' Tavern."
+  shows: >
+   "The modern game of football was born on this day": 26 October 1863, the
+   first of the meetings.
+  title: "The Football Association was formed on the proposal of Ebenezer Cobb Morley at the Freemasons' Tavern, which stood on this site.jpg"
+  author: "Spudgun67"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:The_Football_Association_was_formed_on_the_proposal_of_Ebenezer_Cobb_Morley_at_the_Freemasons%27_Tavern,_which_stood_on_this_site.jpg"
+
+- id: football-international-1872
+  sport: football
+  file: /images/football/ralston1872.jpg
+  width: 1090
+  height: 1200
+  alt: "William Ralston's drawing of the first international, Scotland against England, Hamilton Crescent, Glasgow, 1872."
+  shows: >
+   Played between two of the four British associations that would later form
+   the Board to hold the laws jointly.
+  title: "1872 engl v scotland ralston.jpg"
+  author: "William Ralston"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1872_engl_v_scotland_ralston.jpg"
+
+- id: football-telstar-1970
+  sport: football
+  file: /images/football/telstar.jpg
+  width: 1200
+  height: 800
+  alt: "The Adidas Telstar Durlast, official ball of the 1970 World Cup in Mexico."
+  shows: >
+   Leather panels, stitched: the ball that soaked up water, legal under the
+   same loose Law 2 as everything since.
+  title: "Adidas Telstar Mexico 1970 Official ball.jpg"
+  author: "Zac Allan"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Adidas_Telstar_Mexico_1970_Official_ball.jpg"
+
+- id: football-jabulani-2010
+  sport: football
+  file: /images/football/balls2010.jpg
+  width: 1200
+  height: 900
+  alt: "Adidas balls for the 2010 World Cup on sale, among them versions of the Jabulani."
+  shows: >
+   Thermally bonded panels and a flight that players complained about, inside
+   a specification that never had to move.
+  title: "Various Adidas 2010 World Cup balls.JPG"
+  author: "BrokenSphere"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Various_Adidas_2010_World_Cup_balls.JPG"
+
+- id: football-shin-guard
+  sport: football
+  file: /images/football/shinguard.jpg
+  width: 548
+  height: 1200
+  alt: "A modern shin guard."
+  shows: >
+   Compulsory since 1990: one of the few equipment changes with a safety
+   cause and a date.
+  title: "Schienbeinschützer adidas.png"
+  author: "Luxo"
+  licence: "CC BY 2.5"
+  licence_url: "https://creativecommons.org/licenses/by/2.5"
+  source_url: "https://commons.wikimedia.org/wiki/File:Schienbeinsch%C3%BCtzer_adidas.png"
+
+- id: football-home-of-fifa
+  sport: football
+  file: /images/football/fifa-hq.jpg
+  width: 1200
+  height: 798
+  alt: "The Home of FIFA, the federation's headquarters in Zurich."
+  shows: >
+   FIFA runs the competitions and holds four of the Board's eight votes. The
+   laws are an IFAB act.
+  title: "Home of FIFA - buiding and flags.jpg"
+  author: "Albinfo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Home_of_FIFA_-_buiding_and_flags.jpg"
+
+- id: football-preston-1888
+  sport: football
+  file: /images/football/preston1888.jpg
+  width: 1200
+  height: 903
+  alt: "Preston North End, the first Football League champions, 1888–89."
+  shows: >
+   Champions of the first Football League season, three years after the FA
+   accepted professionalism.
+  title: "Preston North End in 1888-89, the first Football League champions.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Preston_North_End_in_1888-89,_the_first_Football_League_champions.jpg"
+
+- id: football-italia-90-ball
+  sport: football
+  file: /images/football/italia90ball.jpg
+  width: 1200
+  height: 1154
+  alt: "A ball commemorating Italia '90, in the Museo del Calcio, Florence."
+  shows: >
+   The tournament generally cited as the trigger for the 1992 back-pass rule.
+  title: "Pallone mondo dei campionati fifa di italia 90.JPG"
+  author: "Sailko"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Pallone_mondo_dei_campionati_fifa_di_italia_90.JPG"
+
+- id: football-var-screen
+  sport: football
+  file: /images/football/var-seattle.jpg
+  width: 900
+  height: 1200
+  alt: "The stadium screen announcing a VAR penalty review at the 2025 FIFA Club World Cup, Lumen Field, Seattle."
+  shows: >
+   The review made visible to the crowd, which is what forced it in the first
+   place.
+  title: "2025 FIFA Club World Cup - Seattle Sounders FC vs. Atlético Madrid - VAR review.jpg"
+  author: "SounderBruce"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2025_FIFA_Club_World_Cup_-_Seattle_Sounders_FC_vs._Atl%C3%A9tico_Madrid_-_VAR_review.jpg"
+
+- id: football-goal-line-diagram
+  sport: football
+  file: /images/football/glt-diagram.jpg
+  width: 1126
+  height: 796
+  alt: "A diagram of goal-line technology: sensors on the goal frame, a signal to the referee's watch."
+  shows: >
+   The one unambiguous definition in the Laws, the whole ball over the whole
+   line, answered by a machine.
+  title: "Goal Line Technology Diagram.png"
+  author: "Ranjithsiji"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Goal_Line_Technology_Diagram.png"
+
+- id: football-var-review
+  sport: football
+  file: /images/football/var-toledo.jpg
+  width: 1200
+  height: 839
+  alt: "Referee Baldomero Toledo at the pitchside monitor during Seattle Sounders against Sporting Kansas City, 2018. The review ended in a red card."
+  shows: >
+   A direct red card, one of the four reviewable categories.
+  title: "Baldomero Toledo checks VAR - Seattle Sounders vs. Sporting Kansas City.jpg"
+  author: "SounderBruce"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Baldomero_Toledo_checks_VAR_-_Seattle_Sounders_vs._Sporting_Kansas_City.jpg"
+
+- id: football-offside-flag
+  sport: football
+  file: /images/football/assistant.jpg
+  width: 1200
+  height: 800
+  alt: "The Chilean FIFA assistant referee Marcia Castillo flagging during Universidad de Chile against Santiago Wanderers, 2018."
+  shows: >
+   The eye the 1925 offside law was written for.
+  title: "Marcia Castillo- Universidad de Chile vs Santiago Wanderers - 41880188155.jpg"
+  author: "Javiera Mera García"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Marcia_Castillo-_Universidad_de_Chile_vs_Santiago_Wanderers_-_41880188155.jpg"
+
+- id: football-dirt-pitch-venezuela
+  sport: football
+  file: /images/football/dirt-venezuela.jpg
+  width: 1200
+  height: 609
+  alt: "Schoolchildren playing football on a dirt pitch, Margarita Island, Venezuela, 2014."
+  shows: >
+   No grass, no markings, no nets: nothing the Laws require that this game
+   lacks.
+  title: "Niños de colegio jugando.jpg"
+  author: "Wilfredor"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ni%C3%B1os_de_colegio_jugando.jpg"
+
+- id: football-dirt-courtyard
+  sport: football
+  file: /images/football/dirt-child.jpg
+  width: 900
+  height: 1200
+  alt: "Children playing football in a dirt courtyard."
+  shows: >
+   A game on packed earth, under the same seventeen Laws as a World Cup
+   final.
+  title: "Childhood Pitch.jpg"
+  author: "Johnnybam"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Childhood_Pitch.jpg"
+
+- id: football-dick-kerr-1920
+  sport: football
+  file: /images/football/dickkerr1920.jpg
+  width: 621
+  height: 857
+  alt: "The captains Alice Kell of Dick, Kerr Ladies and Madeleine Bracquemond of France greeting before the first women's international, Preston, 1920."
+  shows: >
+   A year later the FA banned women's football from its members' grounds, a
+   ban that lasted fifty years.
+  title: "Dick, Kerr's Ladies kiss.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Dick,_Kerr%27s_Ladies_kiss.jpg"
+
+- id: football-pitch-rabat
+  sport: football
+  slot: "play:field"
+  file: /images/football/var-rabat.jpg
+  width: 1200
+  height: 800
+  alt: "FAR Rabat against TP Mazembe in the final of the 2024 CAF Women's Champions League."
+  shows: >
+   Halfway line, centre circle, penalty area: a marked grass pitch, which the
+   Laws allow but do not require.
+  title: "FAR Rabat v TP Mazembe - VAR checking 1.jpg"
+  author: "Reda Benkhadra"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:FAR_Rabat_v_TP_Mazembe_-_VAR_checking_1.jpg"
+
+- id: football-corner-2019
+  sport: football
+  slot: "play:restarts"
+  file: /images/football/wwc2019-corner.jpg
+  width: 900
+  height: 1200
+  alt: "Tobin Heath of the United States taking a corner in the 2019 Women's World Cup final, Lyon."
+  shows: >
+   One of the Laws' restarts, taken from the quarter-circle by the corner
+   flag.
+  title: "FIFA Women's World Cup 2019 Final - Tobin Heath corner kick 2 (9).jpg"
+  author: "Holly Cheng"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:FIFA_Women%27s_World_Cup_2019_Final_-_Tobin_Heath_corner_kick_2_(9).jpg"
+
+- id: football-wwc-2019
+  sport: football
+  slot: "events"
+  file: /images/football/wwc2019.jpg
+  width: 1200
+  height: 674
+  alt: "The United States receiving their medals after the 2019 Women's World Cup final, Lyon."
+  shows: >
+   Men's and women's World Cups, the sport's two senior world championships.
+  title: "FIFA Women's World Cup 2019 Final - US team on podium (1).jpg"
+  author: "Holly Cheng"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:FIFA_Women%27s_World_Cup_2019_Final_-_US_team_on_podium_(1).jpg"
