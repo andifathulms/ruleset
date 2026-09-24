@@ -334,6 +334,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M32 23 L32 10 M40.6 29.2 L52.5 25 M37.3 39.3 L44 50 M26.7 39.3 L20 50 M23.4 29.2 L11.5 25" />
     </>
   ),
+  // The flag on the green, the ball at the lip of the cup.
+  golf: (
+    <>
+      <path d="M30 50 L30 8 L48 14 L30 20" />
+      <ellipse cx="32" cy="51" rx="22" ry="5" />
+      <ellipse cx="30" cy="50" rx="4" ry="1.5" fill="#F2F5F1" stroke="none" />
+      <circle cx="42" cy="46" r="3" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
