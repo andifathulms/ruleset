@@ -360,6 +360,13 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M27 11 Q32 14 37 11 M27 17 Q32 14 37 17" />
     </>
   ),
+  // The stick with its hooked head, and the hard ball at its flat face.
+  hockey: (
+    <>
+      <path d="M40 6 L26 44 Q23 54 16 54 Q9 54 9 48 Q9 44 14 44" fill="none" />
+      <circle cx="38" cy="50" r="5" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
