@@ -4808,3 +4808,178 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Dragon_Boating_in_Vancouver.jpg"
+
+# Duathlon.
+
+- id: duathlon-solana-beach-2013
+  sport: duathlon
+  file: /images/duathlon/solana-beach-start-2013.jpg
+  width: 1200
+  height: 675
+  alt: "The start of the Solana Beach Duathlon, California, 2013."
+  shows: >
+   An age-group race: the first run, the one that begins on fresh legs. For
+   most of the people in a field like this, the missing swim is the
+   difference between racing and not.
+  title: "Duathlon Start (9414230814).jpg"
+  author: "Chris Hunkeler"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Duathlon_Start_(9414230814).jpg"
+
+- id: duathlon-ottawa-2013
+  sport: duathlon
+  file: /images/duathlon/ottawa-worlds-2013.jpg
+  width: 909
+  height: 1200
+  alt: "A British athlete at the finish of the ITU Duathlon World Championships, Ottawa, 2013."
+  shows: >
+   World championships have been held since 1990 under the triathlon
+   federation, and they are the top of a sport with no Olympic route.
+  title: "ITU Duathlon World Championships.jpg"
+  author: "Ozzymate"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:ITU_Duathlon_World_Championships.jpg"
+
+- id: duathlon-time-trial-bars
+  sport: duathlon
+  file: /images/duathlon/time-trial-bars.jpg
+  width: 941
+  height: 626
+  alt: "A time-trial bicycle with triathlon extensions."
+  shows: >
+   Legal in non-drafting racing and restricted in draft-legal racing, where a
+   bunch riding on bars like these, weight forward and brakes out of reach,
+   is dangerous.
+  title: "Argon18 e118 TT bike (cropped).jpg"
+  author: "Glory Cycles"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Argon18_e118_TT_bike_(cropped).jpg"
+
+- id: duathlon-draft-legal-2011
+  sport: duathlon
+  file: /images/duathlon/draft-legal-breakaway-2011.jpg
+  width: 1200
+  height: 800
+  alt: "A breakaway on the bike at the ITU World Championship Series triathlon, London, 2011."
+  shows: >
+   Draft-legal racing in its home format, triathlon: riders in a tight line,
+   taking turns at the front. Elite duathlon followed it into this in the
+   1990s.
+  title: "Bike escapies.jpg"
+  author: "Gemma Bardsley"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bike_escapies.jpg"
+
+- id: duathlon-transition-2012
+  sport: duathlon
+  file: /images/duathlon/run-to-bike-transition.jpg
+  width: 1200
+  height: 800
+  alt: "Competitors leaving transition with their bikes at the Devil Dog Duathlon, Camp Pendleton, California, 2012."
+  shows: >
+   Bikes racked in assigned places and walked or run out, never ridden,
+   inside the area: the transition is inside the race time and so it is
+   raced.
+  title: "USMC-120414-M-0482P-036.jpg"
+  author: "US Marine Corps"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:USMC-120414-M-0482P-036.jpg"
+
+- id: duathlon-dismount-line
+  sport: duathlon
+  file: /images/duathlon/dismount-line-2009.jpg
+  width: 640
+  height: 428
+  alt: "A competitor at the dismount line of the Diss Duathlon, Norfolk, 2009."
+  shows: >
+   Marshals at a painted line: mounting and dismounting on the correct side
+   of it is one of the bright-line rules of the transition area.
+  title: "Diss Duathlon, High School - geograph.org.uk - 1655424.jpg"
+  author: "Katy Walters"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Diss_Duathlon,_High_School_-_geograph.org.uk_-_1655424.jpg"
+
+- id: duathlon-zofingen-2017
+  sport: duathlon
+  file: /images/duathlon/powerman-zofingen-2017.jpg
+  width: 1200
+  height: 799
+  alt: "The men's start at Powerman Zofingen, Switzerland, 2017."
+  shows: >
+   The long-course circuit's best-known race, and host of the long-distance
+   world championships.
+  title: "Powerman Zofingen 2017.jpg"
+  author: "Ozzymate"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Powerman_Zofingen_2017.jpg"
+
+- id: duathlon-van-looy-2019
+  sport: duathlon
+  slot: "events"
+  file: /images/duathlon/van-looy-zofingen-2019.jpg
+  width: 713
+  height: 1200
+  alt: "Diego Van Looy of Belgium winning the long-distance world championship at Powerman Zofingen, 2019."
+  shows: >
+   Belgium has a depth in duathlon out of proportion to its size.
+  title: "Diego Van Looy 2019 ITU Long Distance Powerman Zofingen.jpg"
+  author: "Kronsmans"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Diego_Van_Looy_2019_ITU_Long_Distance_Powerman_Zofingen.jpg"
+
+- id: duathlon-cross-2020
+  sport: duathlon
+  slot: "events"
+  file: /images/duathlon/cross-triathlon-2020.jpg
+  width: 1200
+  height: 794
+  alt: "Arthur Serrières winning the Xterra cross triathlon at Prachatice, Czech Republic, 2020."
+  shows: >
+   Cross triathlon, off-road on a mountain bike, here in the commercial
+   Xterra series. The federation runs cross championships of its own
+   alongside duathlon.
+  title: "Xterra triathlon Prachatice 2020, Arthur Serrieres 00 (cropped).jpg"
+  author: "Jan Beránek"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Xterra_triathlon_Prachatice_2020,_Arthur_Serrieres_00_(cropped).jpg"
+
+- id: duathlon-winterlude-2020
+  sport: duathlon
+  slot: "events"
+  file: /images/duathlon/winterlude-2020.jpg
+  width: 1200
+  height: 797
+  alt: "Skaters in the Winterlude Triathlon on Dow's Lake, Ottawa, 2020."
+  shows: >
+   A local winter race in which one leg is skated. The federation's own
+   winter triathlon is run, mountain bike and cross-country ski; this is the
+   same idea on a frozen lake.
+  title: "2020 Winterlude Triathlon Skaters.jpg"
+  author: "TomasNotThomas"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2020_Winterlude_Triathlon_Skaters.jpg"
+
+- id: duathlon-aquabike-2018
+  sport: duathlon
+  slot: "events"
+  file: /images/duathlon/aquabike-2018.jpg
+  width: 1200
+  height: 800
+  alt: "A competitor at the Spanish long-distance triathlon and aquabike championships, Pontevedra, 2018."
+  shows: >
+   Aquabike removes the run: swim and bike only.
+  title: "Campeonato de España de Triatlón de Larga Distancia y Aquabike Open - 12.jpg"
+  author: "Harpagornis"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Campeonato_de_Espa%C3%B1a_de_Triatl%C3%B3n_de_Larga_Distancia_y_Aquabike_Open_-_12.jpg"
