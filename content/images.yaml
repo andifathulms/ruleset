@@ -4261,3 +4261,223 @@
   licence: "CC BY 3.0"
   licence_url: "https://creativecommons.org/licenses/by/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Korea-2008_Gyeongju_Citizens%27_Athletics_Festival-Gateball-01.jpg"
+
+# Cycling.
+
+- id: cycling-rover-1885
+  sport: cycling
+  file: /images/cycling/rover-safety-1885.jpg
+  width: 1200
+  height: 900
+  alt: "A Rover safety bicycle of 1885, in the Science Museum, London."
+  shows: >
+   Two wheels of near-equal size, a chain to the rear wheel: the machine
+   ordinary people could ride fast, and on which racing began almost at once.
+  title: "Rover safety bicycle of 1885 (left cropped).jpg"
+  author: "Jonathan Cardy"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rover_safety_bicycle_of_1885_(left_cropped).jpg"
+
+- id: cycling-lauto-1903
+  sport: cycling
+  file: /images/cycling/lauto-1903.jpg
+  width: 714
+  height: 1000
+  alt: "The front page of L'Auto on 1 July 1903, announcing the start of the first Tour de France."
+  shows: >
+   A sports paper's route map on its own front page. The race was invented to
+   sell the paper, and it did.
+  title: "Une de L'Auto 1903.png"
+  author: "L'Auto"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Une_de_L%27Auto_1903.png"
+
+- id: cycling-tour-start-1903
+  sport: cycling
+  file: /images/cycling/tour-start-1903.jpg
+  width: 1200
+  height: 826
+  alt: "The start of the first stage of the first Tour de France, Villeneuve-Saint-Georges, July 1903."
+  shows: >
+   A crowd on a country road and riders setting off on a stage of several
+   hundred kilometres. The event and its calendar were designed by a
+   newspaper before broadcasting existed.
+  title: "Départ de la première étape du premier Tour de France (Villeneuve-Saint-Georges 1903).jpg"
+  author: "Jules Beau"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:D%C3%A9part_de_la_premi%C3%A8re_%C3%A9tape_du_premier_Tour_de_France_(Villeneuve-Saint-Georges_1903).jpg"
+
+- id: cycling-garin
+  sport: cycling
+  file: /images/cycling/garin.jpg
+  width: 954
+  height: 1200
+  alt: "Maurice Garin, winner of the first Tour de France, photographed by the Meurisse agency."
+  shows: >
+   He won Paris–Roubaix in 1897 and 1898 and the first Tour in 1903 — races
+   created by newspapers, which the sport's calendar is still built around.
+  title: "Maurice Garin Meurisse BNF Gallica.jpg"
+  author: "Agence Meurisse"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Maurice_Garin_Meurisse_BNF_Gallica.jpg"
+
+- id: cycling-arenberg-2008
+  sport: cycling
+  slot: "events"
+  file: /images/cycling/arenberg-2008.jpg
+  width: 798
+  height: 1200
+  alt: "The cobbled Trouée d'Arenberg during Paris–Roubaix, 2008."
+  shows: >
+   Another newspaper's race, and one that still keeps its cobbles because
+   they are the point.
+  title: "Trouee dArenberg - Paris-Roubaix 2008.jpg"
+  author: "Jack Thurston"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Trouee_dArenberg_-_Paris-Roubaix_2008.jpg"
+
+- id: cycling-merckx-bike-1972
+  sport: cycling
+  file: /images/cycling/merckx-hour-bike-1972.jpg
+  width: 1200
+  height: 1200
+  alt: "The bicycles Eddy Merckx used for his hour record in Mexico City, 1972."
+  shows: >
+   A steel frame of the ordinary shape, round tubes and spoked wheels. In
+   1997 the federation made this the benchmark again, moved every aerodynamic
+   mark to a separate list, and asked riders to beat Merckx on equipment like
+   this.
+  title: "Eddy Merckx bike - Mexico City 1972.JPG"
+  author: "eugenio.baccarini"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Eddy_Merckx_bike_-_Mexico_City_1972.JPG"
+
+- id: cycling-obree-bikes
+  sport: cycling
+  file: /images/cycling/obree-bikes.jpg
+  width: 1200
+  height: 676
+  alt: "Graeme Obree's bicycles on display at the Riverside Museum, Glasgow."
+  shows: >
+   Built by an amateur and ridden in positions nobody had tried. The first
+   position was banned in 1994, and the second after Chris Boardman rode it
+   in 1996; neither had broken any rule when it was first used.
+  title: "Graeme Obree display at the Riverside Museum.jpg"
+  author: "Ed Webster"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Graeme_Obree_display_at_the_Riverside_Museum.jpg"
+
+- id: cycling-lotus-108
+  sport: cycling
+  file: /images/cycling/lotus-108.jpg
+  width: 1200
+  height: 801
+  alt: "The Lotus 108, the one-piece carbon bicycle Chris Boardman rode to Olympic pursuit gold in 1992."
+  shows: >
+   No tubes and no double triangle: exactly the kind of machine the Lugano
+   Charter's definition of a bicycle excluded from 2000.
+  title: "Lotus 108 (24281585325).jpg"
+  author: "Paul Hudson"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lotus_108_(24281585325).jpg"
+
+- id: cycling-dennis-hour-2015
+  sport: cycling
+  file: /images/cycling/dennis-hour-2015.jpg
+  width: 1200
+  height: 794
+  alt: "Rohan Dennis during his hour record in Grenchen, Switzerland, February 2015."
+  shows: >
+   One of the rides that followed the 2014 reunification of the two records,
+   on a modern aerodynamic bicycle — attempts came back as soon as riders
+   were allowed to use the equipment they raced on.
+  title: "Rohan Dennis Hour Record.JPG"
+  author: "Christophe95"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rohan_Dennis_Hour_Record.JPG"
+
+- id: cycling-commissaire-2023
+  sport: cycling
+  file: /images/cycling/commissaire-car-2023.jpg
+  width: 1200
+  height: 900
+  alt: "Race vehicles including a commissaire's car behind the peloton, Tour de France, 2023."
+  shows: >
+   The road's officials ride in a moving convoy spread over 200 kilometres,
+   which is why much of what riders do there cannot be seen.
+  title: "TdF 2023-08 (316), moto france•tv.jpg"
+  author: "Cjp24"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:TdF_2023-08_(316),_moto_france%E2%80%A2tv.jpg"
+
+- id: cycling-manchester-2011
+  sport: cycling
+  file: /images/cycling/manchester-velodrome-2011.jpg
+  width: 1024
+  height: 407
+  alt: "The Manchester Velodrome during a men's keirin, 2011."
+  shows: >
+   Opened in 1994 and the base of the British track programme that lottery
+   funding from the late 1990s turned into medals. Track cycling's map is a
+   map of buildings like this.
+  title: "Manchester Velodrome 2011.jpg"
+  author: "Andrew Last"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Manchester_Velodrome_2011.jpg"
+
+- id: cycling-bernal-2019
+  sport: cycling
+  file: /images/cycling/bernal-2019.jpg
+  width: 1200
+  height: 1042
+  alt: "Egan Bernal of Colombia in the yellow jersey on the final stage of the 2019 Tour de France, Paris."
+  shows: >
+   The first Colombian winner of the Tour, and the clearest evidence of the
+   country's emergence from altitude and a domestic racing culture.
+  title: "Egan Bernal Arrivée 21e étape Tour France 2019 Paris 1.jpg"
+  author: "Chabe01"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Egan_Bernal_Arriv%C3%A9e_21e_%C3%A9tape_Tour_France_2019_Paris_1.jpg"
+
+- id: cycling-keirin-2011
+  sport: cycling
+  slot: "events"
+  file: /images/cycling/keirin-2011.jpg
+  width: 1200
+  height: 800
+  alt: "Riders behind the derny in a keirin, European Track Championships, Apeldoorn, 2011."
+  shows: >
+   A track event with a pacing motorbike that pulls off before the sprint.
+  title: "Derny leading the keirin.jpg"
+  author: "...some guy"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Derny_leading_the_keirin.jpg"
+
+- id: cycling-peloton-2013
+  sport: cycling
+  slot: "play:field"
+  file: /images/cycling/peloton-2013.jpg
+  width: 1200
+  height: 800
+  alt: "The peloton behind the race director's car at the start of a Tour de France stage, 2013."
+  shows: >
+   Road racing's field of play is public road, closed for the race and never
+   the same twice.
+  title: "Tour de France 2013 - Étape 12 - Fougères 01.JPG"
+  author: "Pymouss"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Tour_de_France_2013_-_%C3%89tape_12_-_Foug%C3%A8res_01.JPG"
