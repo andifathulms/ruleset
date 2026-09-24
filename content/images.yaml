@@ -7262,3 +7262,283 @@
   licence: "Public domain"
   licence_url: ""
   source_url: "https://commons.wikimedia.org/wiki/File:Old_Tom_Morris_1880.jpg"
+
+# Gymnastics.
+
+- id: gymnastics-hasenheide-1903
+  sport: gymnastics
+  file: /images/gymnastics/hasenheide1903.jpg
+  width: 1200
+  height: 589
+  alt: "Pupils of the Friedrich-Gymnasium on the Turnplatz in the Hasenheide, Berlin, 1903, with the monument to Jahn behind them."
+  shows: >
+   Jahn's Turnen, on the ground where he opened his first open-air gymnastics
+   field: the apparatus tradition.
+  title: "Turnplatz in der Hasenheide, 1903.png"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Turnplatz_in_der_Hasenheide,_1903.png"
+
+- id: gymnastics-stockholm-1910
+  sport: gymnastics
+  file: /images/gymnastics/gci1910.jpg
+  width: 1200
+  height: 949
+  alt: "Swedish gymnastics at the Royal Gymnastics Central Institute, Stockholm, around 1910."
+  shows: >
+   Ling's system: free exercise and posture, performed in unison.
+  title: "Linggymnastik Gymnastiska Centralinstitutet Stockholm ca 1910, gih001.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Linggymnastik_Gymnastiska_Centralinstitutet_Stockholm_ca_1910,_gih001.jpg"
+
+- id: gymnastics-athens-1896
+  sport: gymnastics
+  file: /images/gymnastics/athens1896.jpg
+  width: 1200
+  height: 820
+  alt: "A team demonstration on the parallel bars at the 1896 Athens Olympics."
+  shows: >
+   The apparatus tradition on the first modern Olympic programme.
+  title: "Athens 1896-A team demonstration at the parallel bars.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Athens_1896-A_team_demonstration_at_the_parallel_bars.jpg"
+
+- id: gymnastics-bars-2018
+  sport: gymnastics
+  file: /images/gymnastics/bars2018.jpg
+  width: 1200
+  height: 926
+  alt: "Tang Xijing of China in the uneven bars final at the 2018 Youth Olympics, Buenos Aires."
+  shows: >
+   Bars set far enough apart to swing between, on fibreglass rails.
+  title: "2018-10-13 Gymnastics at 2018 Summer Youth Olympics – Girls' Artistic Gymnastics – Apparatus finals – Uneven bars (Martin Rulsch) 290.jpg"
+  author: "Martin Rulsch"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2018-10-13_Gymnastics_at_2018_Summer_Youth_Olympics_%E2%80%93_Girls%27_Artistic_Gymnastics_%E2%80%93_Apparatus_finals_%E2%80%93_Uneven_bars_(Martin_Rulsch)_290.jpg"
+
+- id: gymnastics-foam-pit
+  sport: gymnastics
+  file: /images/gymnastics/foampit.jpg
+  width: 1200
+  height: 900
+  alt: "The rope for hauling yourself out of a foam pit, Black Hills Gymnastics, Washington."
+  shows: >
+   Deep foam landings let gymnasts learn skills that would otherwise be too
+   dangerous to attempt.
+  title: "Pit rope - Black Hills Gymnastics, Washington. (6183088531).jpg"
+  author: "Rick McCharles"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Pit_rope_-_Black_Hills_Gymnastics,_Washington._(6183088531).jpg"
+
+- id: gymnastics-horse-1904
+  sport: gymnastics
+  file: /images/gymnastics/spalding1904.jpg
+  width: 878
+  height: 1200
+  alt: "A. G. Spalding's No. 0 vaulting horse, used by the German Turners at the 1904 international competition, shown in a model gymnasium."
+  shows: >
+   Nineteenth-century gymnasium furniture, and still the vault apparatus
+   until 2001.
+  title: "\"A. G. Spalding and Brothers, exhibit of a model gymnasium; showing their No. 0 Vaulting Horse, used by the Team of German Turners during the Turners International and Team competition, July 1, and 2d, 1904.\".jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:%22A._G._Spalding_and_Brothers,_exhibit_of_a_model_gymnasium;_showing_their_No._0_Vaulting_Horse,_used_by_the_Team_of_German_Turners_during_the_Turners_International_and_Team_competition,_July_1,_and_2d,_1904.%22.jpg"
+
+- id: gymnastics-horse-1959
+  sport: gymnastics
+  file: /images/gymnastics/anefo1959.jpg
+  width: 1200
+  height: 728
+  alt: "The vaulting horse at the Dutch women's championships, Leiden, 1959."
+  shows: >
+   A long, narrow, rounded body: the surface a hand could safely land on was
+   the width of two hands.
+  title: "Vaulting horse (cropped).jpg"
+  author: "Harry Pot / Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Vaulting_horse_(cropped).jpg"
+
+- id: gymnastics-vault-table-2018
+  sport: gymnastics
+  file: /images/gymnastics/vault2018.jpg
+  width: 1200
+  height: 946
+  alt: "Sam Dick in the air above the vaulting table in the vault final at the 2018 Youth Olympics, Buenos Aires."
+  shows: >
+   The table that replaced the horse in 2001: wider, longer, sloped, with a
+   much larger contact area.
+  title: "2018-10-14 Gymnastics at 2018 Summer Youth Olympics – Boys' Artistic Gymnastics – Apparatus finals – Vault (Martin Rulsch) 027.jpg"
+  author: "Martin Rulsch"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2018-10-14_Gymnastics_at_2018_Summer_Youth_Olympics_%E2%80%93_Boys%27_Artistic_Gymnastics_%E2%80%93_Apparatus_finals_%E2%80%93_Vault_(Martin_Rulsch)_027.jpg"
+
+- id: gymnastics-judges-sofia
+  sport: gymnastics
+  file: /images/gymnastics/judges-sofia.jpg
+  width: 1200
+  height: 675
+  alt: "The judges' tables at the 2024 rhythmic gymnastics World Cup in Sofia."
+  shows: >
+   A judged sport's credibility sits at this table, and the federation's
+   countermeasures are all aimed at it.
+  title: "2024 Sofia World Cup judges.jpg"
+  author: "FloweringDagwood"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2024_Sofia_World_Cup_judges.jpg"
+
+- id: gymnastics-comaneci-1976
+  sport: gymnastics
+  slot: controversies
+  file: /images/gymnastics/nadia1976.jpg
+  width: 674
+  height: 800
+  alt: "Nadia Comăneci at the 1976 Montreal Olympics, above a scoreboard reading 1.00."
+  shows: >
+   The board had no room for a perfect 10.
+  title: "Nadia Comăneci Montreal1976b.jpeg"
+  author: "Unknown photographer (Romanian Olympic and Sports Committee)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Nadia_Com%C4%83neci_Montreal1976b.jpeg"
+
+- id: gymnastics-judges-2010
+  sport: gymnastics
+  file: /images/gymnastics/judges-yog.jpg
+  width: 1200
+  height: 803
+  alt: "Judges' tables around the horizontal bar during men's qualification at the 2010 Youth Olympics, Singapore."
+  shows: >
+   Panels at every apparatus, working independently of each other.
+  title: "HorizontalBar-YOGArtisticGymnastics-BishanSportsHall-Singapore-20100816-03.jpg"
+  author: "Jacklee"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:HorizontalBar-YOGArtisticGymnastics-BishanSportsHall-Singapore-20100816-03.jpg"
+
+- id: gymnastics-vault-dv-2018
+  sport: gymnastics
+  file: /images/gymnastics/vaultq.jpg
+  width: 1200
+  height: 975
+  alt: "Mohamed Afify of Egypt after a vault in qualification at the 2018 Youth Olympics, the difficulty value, DV 4.00, on the board beside him."
+  shows: >
+   Difficulty is a catalogued number, so it can be displayed, queried and
+   checked.
+  title: "2018-10-08 Gymnastics at 2018 Summer Youth Olympics – Boys' Artistic Gymnastics – Vault qualification (Martin Rulsch) 214.jpg"
+  author: "Martin Rulsch"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2018-10-08_Gymnastics_at_2018_Summer_Youth_Olympics_%E2%80%93_Boys%27_Artistic_Gymnastics_%E2%80%93_Vault_qualification_(Martin_Rulsch)_214.jpg"
+
+- id: gymnastics-tokyo-1964
+  sport: gymnastics
+  file: /images/gymnastics/astakhova1964.jpg
+  width: 960
+  height: 1200
+  alt: "Katalin Makray of Hungary with Polina Astakhova and Larisa Latynina of the Soviet Union on an Olympic podium in Tokyo, 1964."
+  shows: >
+   The state sports systems of the Soviet Union and Hungary on one podium.
+  title: "Katalin Makray, Polina Astakhova, Larisa Latynina 1964b.jpg"
+  author: "Associated Press"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Katalin_Makray,_Polina_Astakhova,_Larisa_Latynina_1964b.jpg"
+
+- id: gymnastics-gdr-1972
+  sport: gymnastics
+  file: /images/gymnastics/ddr1972.jpg
+  width: 767
+  height: 490
+  alt: "The East German men's team leaving the arena after winning team bronze at the 1972 Munich Olympics."
+  shows: >
+   Another centrally funded programme on the historical map.
+  title: "Bundesarchiv Bild 183-L0830-204, DDR-Turnerriege 1972.jpg"
+  author: "Ulrich Kohls / Bundesarchiv"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-L0830-204,_DDR-Turnerriege_1972.jpg"
+
+- id: gymnastics-usa-2016
+  sport: gymnastics
+  file: /images/gymnastics/final5.jpg
+  width: 1028
+  height: 1200
+  alt: "The United States women with their team gold at the 2016 Rio Olympics."
+  shows: >
+   A dense private club system, reaching the same place by another route.
+  title: "Final Five Gymnastics Olympics Team Final Medal Ceremony.jpeg"
+  author: "Fernando Frazão / Agência Brasil"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Final_Five_Gymnastics_Olympics_Team_Final_Medal_Ceremony.jpeg"
+
+- id: gymnastics-china-2026
+  sport: gymnastics
+  file: /images/gymnastics/china2026.jpg
+  width: 1200
+  height: 800
+  alt: "The Chinese national team at the 2026 American Cup."
+  shows: >
+   China, the later addition to the map.
+  title: "Chinese national team - 2026 American Cup 01.jpg"
+  author: "SpiritedMichelle"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Chinese_national_team_-_2026_American_Cup_01.jpg"
+
+- id: gymnastics-beam-2016
+  sport: gymnastics
+  slot: "play:field"
+  file: /images/gymnastics/biles-beam.jpg
+  width: 1200
+  height: 800
+  alt: "Simone Biles in the beam final at the 2016 Rio Olympics."
+  shows: >
+   Ten centimetres wide, 125 centimetres high, five metres long.
+  title: "Simone Biles, na prova final da trave nos Jogos Olímpicos Rio 2016.jpg"
+  author: "Fernando Frazão / Agência Brasil"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Simone_Biles,_na_prova_final_da_trave_nos_Jogos_Ol%C3%ADmpicos_Rio_2016.jpg"
+
+- id: gymnastics-scoreboard-2012
+  sport: gymnastics
+  slot: "play:scoring"
+  file: /images/gymnastics/scoreboard2012.jpg
+  width: 1200
+  height: 676
+  alt: "The scoreboard at the end of the women's all-around final at the 2012 London Olympics."
+  shows: >
+   Scores like 15.000 and totals like 62.232: an open-ended sum, not a mark
+   out of ten.
+  title: "Gabrielle Douglas wins women's all-around artistic gymnastic scoreboard.jpg"
+  author: "David Jones"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Gabrielle_Douglas_wins_women%27s_all-around_artistic_gymnastic_scoreboard.jpg"
+
+- id: gymnastics-rhythmic-2017
+  sport: gymnastics
+  slot: "events"
+  file: /images/gymnastics/rhythmic.jpg
+  width: 1200
+  height: 800
+  alt: "A rhythmic gymnastics group routine with hoops at the 2017 Summer Universiade, Taipei."
+  shows: >
+   Artistic, rhythmic, trampoline and the other disciplines the FIG governs.
+  title: "Rhythmic gymnastics at the 2017 Summer Universiade (37033552216).jpg"
+  author: "Wei-Te Wong"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rhythmic_gymnastics_at_the_2017_Summer_Universiade_(37033552216).jpg"
