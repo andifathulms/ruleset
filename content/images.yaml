@@ -8014,3 +8014,212 @@
   licence: "Public domain"
   licence_url: ""
   source_url: "https://commons.wikimedia.org/wiki/File:Hockey-Eintrittskarte_OS_1936.jpg"
+
+# Ju-jitsu.
+
+- id: ju-jitsu-hokusai
+  sport: ju-jitsu
+  file: /images/ju-jitsu/hokusai.jpg
+  width: 1200
+  height: 856
+  alt: "Jujutsu from the Hokusai Manga: throws, holds and locks, some against an armed opponent."
+  shows: >
+   The old systems as an Edo-period artist saw them: many techniques, few of
+   them safe to practise at full resistance.
+  title: "北斎漫画の柔術.png"
+  author: "Katsushika Hokusai"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E6%96%8E%E6%BC%AB%E7%94%BB%E3%81%AE%E6%9F%94%E8%A1%93.png"
+
+- id: ju-jitsu-tenjin-shinyo
+  sport: ju-jitsu
+  file: /images/ju-jitsu/tenjin.jpg
+  width: 757
+  height: 761
+  alt: "A throw from the Tenjin Shinyō-ryū, illustrated by Yoshida Chiharu."
+  shows: >
+   One of the many ryū, each with its own curriculum.
+  title: "天神真楊流.jpg"
+  author: "Yoshida Chiharu"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E7%A5%9E%E7%9C%9F%E6%A5%8A%E6%B5%81.jpg"
+
+- id: ju-jitsu-kano-1892
+  sport: ju-jitsu
+  file: /images/ju-jitsu/kano1892.jpg
+  width: 722
+  height: 1080
+  alt: "Kanō Jigorō, aged about 32, around 1892."
+  shows: >
+   Judo's founder, who took a subset of the old material and removed what
+   could not be practised at full resistance.
+  title: "Kano-Jigoro-c1892.png"
+  author: "Unknown photographer"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kano-Jigoro-c1892.png"
+
+- id: ju-jitsu-kacchu-ryu
+  sport: ju-jitsu
+  file: /images/ju-jitsu/kacchu.jpg
+  width: 738
+  height: 550
+  alt: "A technique of the Yanagi-shin Kacchū-ryū: seize the striking wrist, move behind, lock the elbow and throw."
+  shows: >
+   The kind of technique that cannot be applied at full force to a resisting
+   partner, and that the Duo system makes contestable by performing it
+   cooperatively.
+  title: "柳心介冑流 小手廻.jpg"
+  author: "古武"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:%E6%9F%B3%E5%BF%83%E4%BB%8B%E5%86%91%E6%B5%81_%E5%B0%8F%E6%89%8B%E5%BB%BB.jpg"
+
+- id: ju-jitsu-gi-armbar
+  sport: ju-jitsu
+  file: /images/ju-jitsu/armbar-gi.jpg
+  width: 1200
+  height: 799
+  alt: "An armbar in a gi grappling competition."
+  shows: >
+   The jacket as apparatus: grips on lapel and sleeve.
+  title: "Brazilian Jiu-Jitsu Gi Competition-Armbar.jpg"
+  author: "parhessiastes"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Brazilian_Jiu-Jitsu_Gi_Competition-Armbar.jpg"
+
+- id: ju-jitsu-no-gi
+  sport: ju-jitsu
+  file: /images/ju-jitsu/nogi.jpg
+  width: 1200
+  height: 858
+  alt: "No-gi grappling during a black belt test."
+  shows: >
+   Without the jacket there are no lapel grips and no collar strangles, and
+   the vocabulary shifts to underhooks and body locks.
+  title: "156 365 no-gi grappling (4672861418).jpg"
+  author: "Mark Bonica"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:156_365_no-gi_grappling_(4672861418).jpg"
+
+- id: ju-jitsu-fighting-system
+  sport: ju-jitsu
+  file: /images/ju-jitsu/ciolino.jpg
+  width: 960
+  height: 640
+  alt: "Vincenzo Ciolino in a ju-jitsu bout, 2014, both fighters in gloves and shin protection."
+  shows: >
+   The Fighting system's equipment exists because its first phase contains
+   strikes.
+  title: "Vincenzo ciolino in un combattimento di ju jitsu 2014-03-07 14-49.jpg"
+  author: "Vincicioli"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Vincenzo_ciolino_in_un_combattimento_di_ju_jitsu_2014-03-07_14-49.jpg"
+
+- id: ju-jitsu-duo-pair
+  sport: ju-jitsu
+  file: /images/ju-jitsu/kaefer.jpg
+  width: 815
+  height: 1200
+  alt: "Matthias Käfer and Mark Hendrich-Szokol at the Lower Austrian ju-jitsu championships, 2017."
+  shows: >
+   Duo is contested by a pair from one team, judged together.
+  title: "Matthias Käfer & Mark Hendrich-Szokol.jpg"
+  author: "Herzi Pinki"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Matthias_K%C3%A4fer_%26_Mark_Hendrich-Szokol.jpg"
+
+- id: ju-jitsu-ibjjf-2012
+  sport: ju-jitsu
+  file: /images/ju-jitsu/werneck.jpg
+  width: 796
+  height: 1200
+  alt: "Cassio Werneck's hand raised after winning gold at the 2012 IBJJF No-Gi World Championship, Long Beach."
+  shows: >
+   The Brazilian sport's own federation and world championships, which
+   continue outside the JJIF.
+  title: "Cassio Werneck, 2012 IBJJF No-Gi World Championship, Gold Medal.jpg"
+  author: "Theentropykid"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cassio_Werneck,_2012_IBJJF_No-Gi_World_Championship,_Gold_Medal.jpg"
+
+- id: ju-jitsu-paris-1905
+  sport: ju-jitsu
+  file: /images/ju-jitsu/paris1905.jpg
+  width: 1200
+  height: 868
+  alt: "A jiu-jitsu demonstration at the Paris Préfecture de Police, November 1905."
+  shows: >
+   Jiu-jitsu reached Europe as self-defence long before it was reassembled
+   there as a sport.
+  title: "Démonstration de jiu jitsu à la préfecture de police, novembre 1905 - btv1b53207172b.jpg"
+  author: "Agence Rol"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:D%C3%A9monstration_de_jiu_jitsu_%C3%A0_la_pr%C3%A9fecture_de_police,_novembre_1905_-_btv1b53207172b.jpg"
+
+- id: ju-jitsu-punch-1910
+  sport: ju-jitsu
+  file: /images/ju-jitsu/punch1910.jpg
+  width: 821
+  height: 595
+  alt: "\"The Suffragette that Knew Jiu-Jitsu\": Punch, 6 July 1910."
+  shows: >
+   Edith Garrud taught ju-jitsu to suffragettes in London, and the name was
+   already public property.
+  title: "Punch6july1910.jpg"
+  author: "Arthur Wallis Mills"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Punch6july1910.jpg"
+
+- id: ju-jitsu-abu-dhabi-2012
+  sport: ju-jitsu
+  file: /images/ju-jitsu/wpjjc2012.jpg
+  width: 652
+  height: 1024
+  alt: "Satricia Knake and Elena Zenkevich at the result of their bout, World Professional Jiu-Jitsu Championship, Abu Dhabi, 2012."
+  shows: >
+   Abu Dhabi's investment in grappling, which made the UAE a power.
+  title: "WPJJC in Abu-Dhabi 2012.jpg"
+  author: "Profigrappling"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WPJJC_in_Abu-Dhabi_2012.jpg"
+
+- id: ju-jitsu-duo-scoreboard
+  sport: ju-jitsu
+  slot: "play:scoring"
+  file: /images/ju-jitsu/resultdisplay.jpg
+  width: 1200
+  height: 785
+  alt: "The scoreboard at the Lower Austrian ju-jitsu championships, 2017, showing two pairs."
+  shows: >
+   Duo is scored pair against pair, series by series.
+  title: "Jiu Jitsu result display.jpg"
+  author: "Herzi Pinki"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jiu_Jitsu_result_display.jpg"
+
+- id: ju-jitsu-yoshin-koryu
+  sport: ju-jitsu
+  slot: "events"
+  file: /images/ju-jitsu/yoshin-demo.jpg
+  width: 1050
+  height: 736
+  alt: "A demonstration of Yōshin Koryū."
+  shows: >
+   A classical school that uses the name and does not compete.
+  title: "楊心古流の演武.png"
+  author: "川内鉄三郎"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:%E6%A5%8A%E5%BF%83%E5%8F%A4%E6%B5%81%E3%81%AE%E6%BC%94%E6%AD%A6.png"
