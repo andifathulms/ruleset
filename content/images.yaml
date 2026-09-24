@@ -3691,3 +3691,148 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Canoe_Moscow_2016_-_Final_A_-_K4_Men_500m.jpg"
+
+# Cheerleading.
+
+- id: cheer-usc-yell-leaders
+  sport: cheerleading
+  file: /images/cheerleading/usc-yell-leaders.jpg
+  width: 995
+  height: 1200
+  alt: "The University of Southern California's yell leaders, around 1915–17, with their megaphones at their feet."
+  shows: >
+   Five men and five megaphones: the activity as it was invented, a job for
+   male students leading a football crowd. The print is catalogued as 1917
+   and dated 1915 on the back.
+  title: "USC Yell leaders, 1917 (uaic-yel-lea-001~1).jpg"
+  author: "Photographer unknown (USC Libraries)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:USC_Yell_leaders,_1917_(uaic-yel-lea-001~1).jpg"
+
+- id: cheer-cornell-liberty
+  sport: cheerleading
+  file: /images/cheerleading/cornell-liberty-2019.jpg
+  width: 800
+  height: 1200
+  alt: "Cornell University cheerleaders in a Liberty stunt, Cornell against Penn, 2019."
+  shows: >
+   A flyer standing on one leg on the hands of her bases, with no helmet, pad
+   or harness anywhere. The safety system is the people underneath her and
+   the rules about what they may attempt.
+  title: "Cornell University cheerleaders at Penn game.jpg"
+  author: "Kenneth C. Zirkel"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cornell_University_cheerleaders_at_Penn_game.jpg"
+
+- id: cheer-pyramid-2009
+  sport: cheerleading
+  file: /images/cheerleading/pyramid-stage-2009.jpg
+  width: 1200
+  height: 830
+  alt: "A pyramid on stage: a High Chair in the middle and 2-2-1 formations at the sides, 2009."
+  shows: >
+   Height is the variable the rules restrict: how many people may stand on
+   how many, graded by age and division.
+  title: "Cheerleading at UP theater.jpg"
+  author: "Cheerrebel"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cheerleading_at_UP_theater.jpg"
+
+- id: cheer-taipei-toss
+  sport: cheerleading
+  file: /images/cheerleading/taipei-worlds-toss.jpg
+  width: 720
+  height: 576
+  alt: "Chinese Taipei's coed team throwing flyers at the ICU World Championships."
+  shows: >
+   Released stunts and tosses, the skills behind the injury record that
+   produced most of the safety code. Chinese Taipei is one of the strongest
+   nations outside the United States.
+  title: "TaipeiICU.jpg"
+  author: "AndrewMT"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:TaipeiICU.jpg"
+
+- id: cheer-memphis-coed
+  sport: cheerleading
+  file: /images/cheerleading/memphis-coed-stunt.jpg
+  width: 640
+  height: 960
+  alt: "University of Memphis cheerleaders in a coed double Cupie, 2013."
+  shows: >
+   Two flyers held overhead on one hand each, with team-mates standing close
+   behind: the spotters whose number and positions the safety officials
+   check.
+  title: "University of Memphis Coed Cheerleaders.jpg"
+  author: "Johnharrison1995"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:University_of_Memphis_Coed_Cheerleaders.jpg"
+
+- id: cheer-cornell-sideline
+  sport: cheerleading
+  file: /images/cheerleading/cornell-sideline-2019.jpg
+  width: 1200
+  height: 854
+  alt: "Cornell's squad on the sideline at the Cornell–Penn game, November 2019."
+  shows: >
+   The United States is cheerleading: school and collegiate squads like this
+   one are its largest participation base, still doing the sideline job the
+   activity was invented for.
+  title: "Cornell University cheerleaders at Cornell-Penn game, 2019.jpg"
+  author: "Kenneth C. Zirkel"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cornell_University_cheerleaders_at_Cornell-Penn_game,_2019.jpg"
+
+- id: cheer-finland-2025
+  sport: cheerleading
+  file: /images/cheerleading/finland-icu-2025.jpg
+  width: 800
+  height: 1200
+  alt: "Finland's captain Cristian Tissari da Costa in the chant section of a routine, ICU World Championships, 2025."
+  shows: >
+   Finland is one of the European nations with a real competitive presence,
+   and the chant is where the crowd-leading origin survives inside the
+   competitive routine.
+  title: "Tissari da Costa Cristian ICU Worlds 25.jpg"
+  author: "CheerWriterFi"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Tissari_da_Costa_Cristian_ICU_Worlds_25.jpg"
+
+- id: cheer-heel-stretch
+  sport: cheerleading
+  slot: "play:players"
+  file: /images/cheerleading/heel-stretch-stunt.jpg
+  width: 800
+  height: 1200
+  alt: "A base holding a flyer in a heel stretch above his head at a college game."
+  shows: >
+   Two of the sport's roles in one frame: the base underneath, and the flyer
+   on top.
+  title: "CollegeHeelStretchStunt.jpg"
+  author: "John Martinez Pavliga"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:CollegeHeelStretchStunt.jpg"
+
+- id: cheer-penn-sideline
+  sport: cheerleading
+  slot: "events"
+  file: /images/cheerleading/penn-sideline-2019.jpg
+  width: 809
+  height: 1200
+  alt: "University of Pennsylvania cheerleaders at the Penn–Cornell game, November 2019."
+  shows: >
+   School and collegiate squads: the sideline role the activity was invented
+   for, and still where most of it happens.
+  title: "Penn cheerleaders formation.jpg"
+  author: "Kenneth C. Zirkel"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Penn_cheerleaders_formation.jpg"
