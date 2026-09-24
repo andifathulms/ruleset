@@ -29,7 +29,7 @@ sections:
       respectively.
     facts:
       - { label: Olympic track length, value: 250 m }
-      - { label: Track surface, value: Timber, indoors }
+      - { label: Track surface, value: "Timber, indoors" }
       - { label: Hour record venue, value: Any UCI-approved track }
     citation:
       source: uci-regulations
@@ -51,7 +51,7 @@ sections:
       manufacturer.
     facts:
       - { label: Minimum weight, value: 6.8 kg }
-      - { label: Frame, value: Double triangle, tubed }
+      - { label: Frame, value: "Double triangle, tubed" }
       - { label: Handlebar extension, value: Limited ahead of the bottom bracket }
       - { label: Concealed motors, value: Prohibited since 2016 }
     shaped_by:
@@ -97,7 +97,7 @@ sections:
       record alone as equipment improved, split it in two in 1997, and merge it
       back in 2014.
     facts:
-      - { label: Hour record, value: One hour, greatest distance }
+      - { label: Hour record, value: "One hour, greatest distance" }
       - { label: Timing, value: To one thousandth on the track }
     shaped_by: [uci-1997-hour-record-split, uci-2014-hour-record-unified]
 
