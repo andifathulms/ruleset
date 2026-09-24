@@ -5688,3 +5688,287 @@
   licence: "CC BY 4.0"
   licence_url: "https://creativecommons.org/licenses/by/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Ukrainian_relay_team_%E2%80%94_8th_World_Junior_Finswimming_Championship,_Bratislava_2005.jpg"
+
+# Fistball.
+
+- id: fistball-fano-1779
+  sport: fistball
+  file: /images/fistball/fano1779.jpg
+  width: 1200
+  height: 949
+  alt: "Piazza di Sant'Antonio Abate, Fano, where pallone was played: an ink-and-wash view by G. B. Theill, 1779."
+  shows: >
+   Pallone played in a town square, with spectators at the windows: the
+   struck-ball family as an eighteenth-century street game.
+  title: "Piazza di S. Antonio Abbate, dove si giuoca al Pallone a Fano.jpg"
+  author: "G. B. Theill"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Piazza_di_S._Antonio_Abbate,_dove_si_giuoca_al_Pallone_a_Fano.jpg"
+
+- id: fistball-sferisterio-cascine
+  sport: fistball
+  file: /images/fistball/sferisterio.jpg
+  width: 1200
+  height: 859
+  alt: "The sferisterio at the Cascine in Florence, with a crowd along one side and players on the long court."
+  shows: >
+   A purpose-built arena for pallone col bracciale, the professional
+   spectator sport of nineteenth-century Italy.
+  title: "Pallone col bracciale.jpg"
+  author: "Unknown photographer (uploaded by DAF, Italian Wikipedia)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Pallone_col_bracciale.jpg"
+
+- id: fistball-scaino-1555
+  sport: fistball
+  file: /images/fistball/scaino-title.jpg
+  width: 737
+  height: 1200
+  alt: "The title page of Antonio Scaino's Trattato del giuoco della palla, Venice, 1555."
+  shows: >
+   Generally cited as the first written rules for a ball game of this family.
+  title: "Title page of Scaino's Trattato del Giuoco della Palla.jpg"
+  author: "Antonio Scaino"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Title_page_of_Scaino%27s_Trattato_del_Giuoco_della_Palla.jpg"
+
+- id: fistball-scaino-bracciale
+  sport: fistball
+  file: /images/fistball/scaino-brassard.jpg
+  width: 1200
+  height: 888
+  alt: "A spread from Scaino's treatise, 1555: the ball drawn with its diameter, beside the spiked bracciale worn on the forearm."
+  shows: >
+   The implement fistball would eventually do without.
+  title: "Trattato-del-Giuoco-p156-157.png"
+  author: "Antonio Scaino"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Trattato-del-Giuoco-p156-157.png"
+
+- id: fistball-steinbach-1926
+  sport: fistball
+  file: /images/fistball/tsv.jpg
+  width: 595
+  height: 480
+  alt: "The first fistball team of TV Steinbach, 1926: Oswald Kring, Julius Otto, Reinhard Pulverich, Ernst Kring and Richard Pulverich."
+  shows: >
+   Five players in gymnastics whites: the German Turnverein, the club system
+   fistball was codified in and still lives inside.
+  title: "Faustball TSV.jpg"
+  author: "TSV Steinbach Haiger"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Faustball_TSV.jpg"
+
+- id: fistball-interclubes-2015
+  sport: fistball
+  file: /images/fistball/interclubes2015.jpg
+  width: 1200
+  height: 795
+  alt: "Teams lined up before the 2015 club world championship, the Mundial de Punhobol Interclubes, a Brazilian flag among them."
+  shows: >
+   Punhobol is fistball's Portuguese name: the game emigration carried to
+   Brazil.
+  title: "Mundial de Punhobol Interclubes 2015.jpg"
+  author: "Nouem Comunicação Integrada"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Mundial_de_Punhobol_Interclubes_2015.jpg"
+
+- id: fistball-world-games-2005
+  sport: fistball
+  file: /images/fistball/wg2005-austria.jpg
+  width: 1200
+  height: 854
+  alt: "The medal ceremony after the fistball final at the 2005 World Games in Duisburg."
+  shows: >
+   The World Games is the programme fistball is on, and the ceiling of its
+   multi-sport ambitions.
+  title: "Fistball award ceremony - Austria - World Games 2005.jpg"
+  author: "Raimond Spekking"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Fistball_award_ceremony_-_Austria_-_World_Games_2005.jpg"
+
+- id: fistball-bracciale-object
+  sport: fistball
+  file: /images/fistball/bracciale-object.jpg
+  width: 1200
+  height: 1148
+  alt: "A nineteenth-century wooden bracciale, with two balls, in the Museo di Palazzo Taglieschi, Anghiari."
+  shows: >
+   A spiked wooden cylinder worn on the forearm: an implement that turned the
+   arm into a bat.
+  title: "Gioco del bracciale, xix secolo 01.jpg"
+  author: "Sailko"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Gioco_del_bracciale,_xix_secolo_01.jpg"
+
+- id: fistball-bracciale-treia
+  sport: fistball
+  file: /images/fistball/treia.jpg
+  width: 1200
+  height: 800
+  alt: "A bracciale on a player's arm before a strike, Treia, 2018."
+  shows: >
+   The ancestral game is still played in the Marche. Its descendant kept the
+   ball and dropped the implement.
+  title: "Gioco del bracciale Treia Il Bracciale prima del colpo.jpg"
+  author: "Cristina Morettini 95"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Gioco_del_bracciale_Treia_Il_Bracciale_prima_del_colpo.jpg"
+
+- id: fistball-tape-serve
+  sport: fistball
+  file: /images/fistball/server.jpg
+  width: 800
+  height: 600
+  alt: "A Swiss player preparing to serve at the 2005 World Games in Duisburg, the tape running between its two posts."
+  shows: >
+   A band at two metres with open air above it: nothing to block against, and
+   nothing in the way of the sightline.
+  title: "Fistball Server.jpg"
+  author: "Flingeflung"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Fistball_Server.jpg"
+
+- id: fistball-switzerland-argentina-2005
+  sport: fistball
+  file: /images/fistball/ch-arg.jpg
+  width: 800
+  height: 350
+  alt: "Switzerland against Argentina in the group stage of the 2005 World Games, Duisburg."
+  shows: >
+   Europe against South America on one rulebook, which is what the 1960
+   federation was formed to produce.
+  title: "FaustballspielCH-ARG.jpg"
+  author: "Flingeflung"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:FaustballspielCH-ARG.jpg"
+
+- id: fistball-germany-women-2004
+  sport: fistball
+  file: /images/fistball/frauen.jpg
+  width: 600
+  height: 627
+  alt: "Janna Meiners setting for Bianca Mollenhauer of Germany, 2004 European Championships."
+  shows: >
+   The women's game is played under a lower tape.
+  title: "Faustball Frauen.jpg"
+  author: "Felix Stoeldt"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Faustball_Frauen.jpg"
+
+- id: fistball-full-stretch
+  sport: fistball
+  file: /images/fistball/defend.jpg
+  width: 1024
+  height: 672
+  alt: "A fistballer defending at full stretch on grass."
+  shows: >
+   The ball may bounce once before each touch. Whether this one has already
+   bounced twice is the referee's call.
+  title: "A fistballer defends the ball at full stretch.jpg"
+  author: "Heino Kreyenfeld"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:A_fistballer_defends_the_ball_at_full_stretch.jpg"
+
+- id: fistball-forearm-set
+  sport: fistball
+  file: /images/fistball/zuspiel.jpg
+  width: 800
+  height: 800
+  alt: "Marcel Stoffel of Switzerland setting for Cyrill Schreiber, sliding in to play the ball off his forearm."
+  shows: >
+   One fist or one forearm is legal; an open hand is not, and at speed the
+   two look alike.
+  title: "Faustball Zuspiel.jpg"
+  author: "Heino Kreye"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Faustball_Zuspiel.jpg"
+
+- id: fistball-germany-brazil-2005
+  sport: fistball
+  file: /images/fistball/angriff.jpg
+  width: 800
+  height: 600
+  alt: "Niels Pannewig attacking for Germany against Brazil in the group stage of the 2005 World Games, Duisburg."
+  shows: >
+   The two clusters of the sport's map, meeting on one field.
+  title: "Faustball Angriff.jpg"
+  author: "Flingeflung"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Faustball_Angriff.jpg"
+
+- id: fistball-porto-alegre-1997
+  sport: fistball
+  file: /images/fistball/abwehr.jpg
+  width: 600
+  height: 357
+  alt: "Ralf Kallmeyer of Turnerschaft Hannover defending in the 1997 World Cup final against Sogipa of Porto Alegre."
+  shows: >
+   A German club against a Brazilian one founded in the same tradition, in
+   the final of a club world cup.
+  title: "Faustball Abwehr.jpg"
+  author: "Flingeflung"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Faustball_Abwehr.jpg"
+
+- id: fistball-australia-2014
+  sport: fistball
+  file: /images/fistball/aus2014.jpg
+  width: 1094
+  height: 610
+  alt: "An Australian player serving at the 2014 Asian Fistball Championships."
+  shows: >
+   The federation's attempt to take the sport beyond its diaspora, recorded
+   as a question rather than a result.
+  title: "Australian attacker serves at the 2014 Asian Fistball Championships.jpg"
+  author: "Themilney"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Australian_attacker_serves_at_the_2014_Asian_Fistball_Championships.jpg"
+
+- id: fistball-field-2005
+  sport: fistball
+  slot: "play:field"
+  file: /images/fistball/spiel.jpg
+  width: 800
+  height: 400
+  alt: "Germany against Switzerland at the 2005 World Games, Duisburg: the whole grass field, with the tape across its centre."
+  shows: >
+   Fifty metres by twenty on grass, with the tape at two metres.
+  title: "Faustballspiel.jpg"
+  author: "Flingeflung"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Faustballspiel.jpg"
+
+- id: fistball-oldenburg-2007
+  sport: fistball
+  slot: "events"
+  file: /images/fistball/oldenburg.jpg
+  width: 1024
+  height: 768
+  alt: "The bronze-medal match at the 2007 World Championships in the Marschwegstadion, Oldenburg."
+  shows: >
+   Outdoor world championships drawing a stadium crowd in the German
+   heartland.
+  title: "Oldenburg 010.jpg"
+  author: "Gruni70"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Oldenburg_010.jpg"
