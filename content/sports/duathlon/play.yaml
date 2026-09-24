@@ -17,8 +17,8 @@ sections:
       disciplines are inside the race time, so changing shoes and racking a bike
       are timed activities.
     facts:
-      - { label: Sequence, value: Run, bike, run }
-      - { label: Clock, value: Continuous, transitions included }
+      - { label: Sequence, value: "Run, bike, run" }
+      - { label: Clock, value: "Continuous, transitions included" }
 
   - id: field
     label: The course
@@ -31,7 +31,7 @@ sections:
       Cross duathlon is run on trails and mountain bikes, which is a different
       event again.
     facts:
-      - { label: Standard, value: About 10 km run, 40 km bike, 5 km run }
+      - { label: Standard, value: "About 10 km run, 40 km bike, 5 km run" }
       - { label: Transition area, value: Inside the race time }
 
   - id: equipment
@@ -47,9 +47,9 @@ sections:
       sport, which is the clearest practical evidence that they are not one
       thing.
     facts:
-      - { label: Draft-legal, value: Road bikes, aerobar restrictions }
+      - { label: Draft-legal, value: "Road bikes, aerobar restrictions" }
       - { label: Non-drafting, value: Time-trial equipment permitted }
-      - { label: Helmet, value: Compulsory, fastened before touching the bike }
+      - { label: Helmet, value: "Compulsory, fastened before touching the bike" }
     shaped_by: [duathlon-drafting-formats]
 
   - id: players
@@ -59,8 +59,8 @@ sections:
       police the transition area, drafting where it is prohibited, and conduct
       on course, issuing time penalties served in a penalty box.
     facts:
-      - { label: Format, value: Individual, with relays }
-      - { label: Penalties, value: Served in a penalty box, during the race }
+      - { label: Format, value: "Individual, with relays" }
+      - { label: Penalties, value: "Served in a penalty box, during the race" }
 
   - id: duration
     label: Time
