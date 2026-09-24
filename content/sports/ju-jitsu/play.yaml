@@ -29,7 +29,7 @@ sections:
       same surface serves all three systems, which is part of why the sport is
       cheap to stage.
     facts:
-      - { label: Area, value: Matted, with a safety border }
+      - { label: Area, value: "Matted, with a safety border" }
       - { label: Same mat, value: Used by all three systems }
 
   - id: equipment
@@ -58,8 +58,8 @@ sections:
       the same side compete against two other people on their own side, with
       nobody opposing anybody.
     facts:
-      - { label: Fighting and Ne-waza, value: One against one, by weight }
-      - { label: Duo, value: A pair from one team, judged }
+      - { label: Fighting and Ne-waza, value: "One against one, by weight" }
+      - { label: Duo, value: "A pair from one team, judged" }
     shaped_by: [jujitsu-duo-system]
 
   - id: duration
@@ -70,7 +70,7 @@ sections:
       as positional grappling needs time to develop. Duo performances are a
       short sequence of called attacks.
     facts:
-      - { label: Fighting, value: One clock, three phases within it }
+      - { label: Fighting, value: "One clock, three phases within it" }
       - { label: Duo, value: A sequence of called attacks }
 
   - id: scoring

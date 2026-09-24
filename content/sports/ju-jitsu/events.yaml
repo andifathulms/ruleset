@@ -28,7 +28,7 @@ disciplines:
       - { id: duo-men, label: Duo men, at: [world-games, world-championship] }
       - { id: duo-women, label: Duo women, at: [world-games, world-championship] }
       - { id: duo-mixed, label: Duo mixed, at: [world-games, world-championship] }
-      - { id: duo-show, label: Duo show, at: [world-championship], note: A freer form, marked on presentation as well as technique. }
+      - { id: duo-show, label: Duo show, at: [world-championship], note: "A freer form, marked on presentation as well as technique." }
   - id: elsewhere
     label: The same name, governed elsewhere
     counts: false
