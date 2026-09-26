@@ -1,4 +1,7 @@
+'use client'
+
 import Link from 'next/link'
+import { useState } from 'react'
 import { DIFFICULTY, DIFFICULTY_LABEL, type Learning, type Sport } from '@/lib/types'
 
 const COLOUR: Record<string, string> = {
@@ -11,6 +14,9 @@ const COLOUR: Record<string, string> = {
  * scatter would put them at coordinates and invite the eye to measure distances
  * between them — which is precisely the arithmetic these values cannot support.
  * Two aligned scales compare fine and claim nothing extra.
+ *
+ * One line per sport, the two scales side by side, and the widest gaps first
+ * with the rest a click away: seventy-five stacked cards ran to 11,000px.
  */
 export default function LearningBoard({
   entries, sports,
@@ -20,6 +26,8 @@ export default function LearningBoard({
 }) {
   const sportMap = Object.fromEntries(sports.map((s) => [s.id, s]))
   const steps = DIFFICULTY.length
+  const [all, setAll] = useState(false)
+  const FIRST = 12
 
   const rows = entries
     .map(({ sport, learning }) => ({
@@ -40,29 +48,41 @@ export default function LearningBoard({
         Editorial — five-point ordinals, never summed or averaged
       </p>
 
-      <ol className="grid gap-px bg-chalk/15">
-        {rows.map((row) => (
-          <li key={row.sport} className="bg-ink p-5 sm:p-6">
-            <div className="flex flex-wrap items-baseline gap-x-3">
-              <span aria-hidden className="h-3 w-3 shrink-0" style={{ background: row.colour }} />
-              <h3 className="font-display text-2xl text-chalk">
-                <Link href={`/sports/${row.sport}/#learning`} className="link-paint">
-                  {row.label}
-                </Link>
-              </h3>
-              <span className="ml-auto text-[14px] text-unmarked">
-                {DIFFICULTY_LABEL[DIFFICULTY[row.entry]]} to start ·{' '}
-                {DIFFICULTY_LABEL[DIFFICULTY[row.mastery]]} at the top
-              </span>
-            </div>
-
-            <div className="mt-4 space-y-2.5">
-              <Bar label="To start" at={row.entry} steps={steps} colour={row.colour} />
-              <Bar label="At the top" at={row.mastery} steps={steps} colour={row.colour} />
-            </div>
+      <div className="hidden grid-cols-[minmax(0,13rem)_minmax(0,1fr)_minmax(0,1fr)] gap-x-6 border-b chalk-rule pb-2 text-[13px] text-unmarked md:grid">
+        <span>Sport</span>
+        <span>To start</span>
+        <span>At the top</span>
+      </div>
+      <ol>
+        {(all ? rows : rows.slice(0, FIRST)).map((row) => (
+          <li
+            key={row.sport}
+            className="grid grid-cols-1 items-center gap-x-6 gap-y-2 border-b chalk-rule py-3 md:grid-cols-[minmax(0,13rem)_minmax(0,1fr)_minmax(0,1fr)]"
+          >
+            <h3 className="flex items-center gap-2.5 font-display text-[21px] leading-tight text-chalk">
+              <span aria-hidden className="h-2.5 w-2.5 shrink-0" style={{ background: row.colour }} />
+              <Link href={`/sports/${row.sport}/#learning`} className="link-paint">
+                {row.label}
+              </Link>
+            </h3>
+            {/* No gap figure: these are ordinals, and a difference between
+                two of them is exactly the arithmetic they cannot support.
+                The order carries the gap instead. */}
+            <Bar label="To start" at={row.entry} steps={steps} colour={row.colour} />
+            <Bar label="At the top" at={row.mastery} steps={steps} colour={row.colour} />
           </li>
         ))}
       </ol>
+      {rows.length > FIRST && (
+        <button
+          type="button"
+          aria-expanded={all}
+          onClick={() => setAll((v) => !v)}
+          className="mt-5 border border-chalk/30 px-4 py-2 text-[14px] text-chalk transition-colors hover:border-chalk"
+        >
+          {all ? `Show the widest ${FIRST} only` : `Show all ${rows.length} sports`}
+        </button>
+      )}
 
       <p className="mt-4 text-[13px] text-unmarked">
         Ordered by the size of the gap, widest first. The scale runs{' '}
@@ -82,7 +102,7 @@ function Bar({
 }) {
   return (
     <div className="flex items-center gap-3">
-      <span className="w-24 shrink-0 text-[13px] text-unmarked">{label}</span>
+      <span className="w-20 shrink-0 text-[12.5px] text-unmarked md:sr-only">{label}</span>
       <span
         className="flex flex-1 gap-1.5"
         role="img"
@@ -92,7 +112,7 @@ function Bar({
           <span
             key={i}
             aria-hidden
-            className="h-2.5 flex-1"
+            className="h-2 flex-1"
             style={{
               background: i <= at ? colour : 'rgb(242 245 241 / 0.12)',
               opacity: i <= at ? 1 - (at - i) * 0.13 : 1,
