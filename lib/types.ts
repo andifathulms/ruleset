@@ -384,6 +384,15 @@ export interface Sport {
   family_colour: FamilyColour
   classification: Record<string, string>
   summary?: string
+  /**
+   * The id of one of the sport's own photographs in images.yaml, used as its
+   * cover on the index card and across the page header. It carries its
+   * credit and licence with it, like every other photograph. Left out, the
+   * sport is drawn on a painted-court panel instead.
+   */
+  cover?: string
+  /** CSS object-position for the cover, where the subject is off-centre. */
+  cover_position?: string
 }
 
 export interface ProgramSport {

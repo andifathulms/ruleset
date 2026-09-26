@@ -403,6 +403,23 @@ export function getImages(): SourcedImage[] {
   return raw.map((i) => ({ ...i, shows: i.shows.replace(/\s+/g, ' ').trim() }))
 }
 
+/**
+ * A sport's cover photograph, or null where it has none. The id must name one
+ * of the sport's own photographs: a cover borrowed from another sport would be
+ * a picture of the wrong thing, and a mistyped id would silently fall back to
+ * the painted panel and nobody would notice.
+ */
+export function getCover(sport: Sport): SourcedImage | null {
+  if (!sport.cover) return null
+  const image = getImages().find((i) => i.id === sport.cover)
+  if (!image || image.sport !== sport.id) {
+    throw new Error(
+      `sport.yaml (${sport.id}): cover "${sport.cover}" is not one of this sport's photographs in images.yaml.`,
+    )
+  }
+  return image
+}
+
 /** Every photograph belonging to one sport, in the order images.yaml lists them. */
 export function getImagesForSport(sport: string): SourcedImage[] {
   return getImages().filter((i) => i.sport === sport)
