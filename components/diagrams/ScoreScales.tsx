@@ -74,8 +74,8 @@ export default function ScoreScales() {
       <rect x="330" y="46" width="80" height="296" fill="url(#scale-gap)" />
       <line x1="330" y1="46" x2="330" y2="342" stroke={CHALK} strokeOpacity="0.35" strokeDasharray="4 5" />
       <line x1="410" y1="46" x2="410" y2="342" stroke={CHALK} strokeOpacity="0.35" strokeDasharray="4 5" />
-      <text x="370" y="362" fontSize="11" fill={UNMARKED} textAnchor="middle" letterSpacing="0.1em">
-        NO CONVERSION
+      <text x="370" y="362" fontSize="12" fill={UNMARKED} textAnchor="middle">
+        No conversion
       </text>
 
       {/* ------------------------------------------------------ from 2006 */}

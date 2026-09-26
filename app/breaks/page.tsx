@@ -2,6 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import SeriesChart from '@/components/SeriesChart'
 import BreakDiagram from '@/components/BreakDiagram'
+import BreaksFilter from '@/components/BreaksFilter'
 import { Reveal } from '@/components/Motion'
 import { BREAK_KIND_LABEL } from '@/lib/series'
 import { headline } from '@/lib/text'
@@ -77,98 +78,9 @@ export default function BreaksPage() {
       </header>
 
       <div className="mx-auto max-w-[86rem] px-5 py-14 sm:py-16">
-        <Reveal>
-          <ol className="grid gap-px border chalk-rule bg-chalk/[0.08] sm:grid-cols-2 lg:grid-cols-5">
-            {KIND_ORDER.slice(0, 5).map((kind) => {
-              const hits = everyBreak.filter((o) => o.brk.kind === kind)
-              return (
-                <li key={kind} className="bg-ink p-5">
-                  <p className="numeral text-fluid-h2 leading-none text-chalk">{hits.length}</p>
-                  <p className="mt-2 font-display text-[21px] text-chalk">
-                    {BREAK_KIND_LABEL[kind]}
-                  </p>
-                  <p className="mt-1.5 text-[14px] leading-snug text-unmarked">
-                    {KIND_BLURB[kind]}
-                  </p>
-                  {hits.length > 0 && (
-                    <p className="mt-3 flex flex-col gap-y-1 text-[13px]">
-                      {hits.map((h) => {
-                        // One rule can sever more than one series in a sport —
-                        // the 2010 suit ban took both freestyle records — and
-                        // naming both links after the sport gave two entries a
-                        // reader could not tell apart.
-                        const ambiguous =
-                          hits.filter((o) => o.sport === h.sport).length > 1
-                        return (
-                          <Link
-                            key={h.series.id}
-                            href={`#${h.series.id}`}
-                            className="link-paint self-start text-chalk/70 hover:text-chalk"
-                          >
-                            {ambiguous
-                              ? h.series.label
-                              : (sports[h.sport]?.label ?? h.sport)}
-                          </Link>
-                        )
-                      })}
-                    </p>
-                  )}
-                </li>
-              )
-            })}
-          </ol>
-        </Reveal>
-
-        {ordered.map(({ sport, series }, i) => {
-          const rule = rules[series.breaks[0].caused_by]
-          const s = sports[sport]
-          const bright = COLOUR[s?.family_colour ?? 'unmarked'] ?? COLOUR.unmarked
-          return (
-            <Reveal
-              as="section"
-              key={series.id}
-              delay={40}
-              className="mt-16 scroll-anchor"
-            >
-              <div id={series.id} className="scroll-anchor border chalk-rule bg-surface/40 p-5 sm:p-8">
-                <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
-                  <span
-                    className="numeral text-fluid-h3 leading-none"
-                    style={{ color: bright }}
-                  >
-                    {series.breaks.map((b) => b.at).join(' · ')}
-                  </span>
-                  <span className="eyebrow">
-                    {series.breaks.map((b) => BREAK_KIND_LABEL[b.kind]).join(' · ')} ·{' '}
-                    {s?.label ?? sport}
-                  </span>
-                  <span className="numeral ml-auto text-[13px] text-unmarked">
-                    {String(i + 1).padStart(2, '0')} / {String(ordered.length).padStart(2, '0')}
-                  </span>
-                </div>
-
-                {rule && (
-                  <>
-                    <h2 className="mt-3 max-w-[26ch] font-display text-fluid-h2 text-chalk">
-                      <Link href={`/sports/${sport}/#${rule.id}`} className="link-paint">
-                        {headline(rule.what_changed)}
-                      </Link>
-                    </h2>
-                    <p className="prose-measure mt-3 text-[15px] text-unmarked">
-                      {rule.governing_body}, effective{' '}
-                      <span className="numeral text-chalk/80">{rule.date_effective}</span>. Cause:{' '}
-                      {rule.cause_primary}.
-                    </p>
-                  </>
-                )}
-
-                <SeriesChart series={series} colour={s?.family_colour ?? 'unmarked'} now={now} />
-              </div>
-            </Reveal>
-          )
-        })}
-
-        <Reveal as="section" className="mt-20 border-t chalk-rule pt-12">
+        {/* The most direct statement of what a break is: two federations,
+            the same problem, opposite rulings. Up front, before the list. */}
+        <Reveal as="section" className="mb-16 border-b chalk-rule pb-14">
           <p className="eyebrow">The comparison this site was built to make</p>
           <h2 className="mt-3 max-w-[22ch] font-display text-fluid-h2 text-chalk">
             The same facts, opposite rulings
@@ -207,6 +119,82 @@ export default function BreaksPage() {
             </p>
           </div>
         </Reveal>
+
+        <Reveal>
+          <h2 className="font-display text-fluid-h2 text-chalk">Every break, by what was done about it</h2>
+          <p className="prose-measure mb-8 mt-3 text-fluid-base text-chalk/80">
+            Pick a kind to keep only those entries, or search for a sport or a
+            series. One entry can carry breaks of more than one kind.
+          </p>
+          <BreaksFilter
+            total={ordered.length}
+            kinds={KIND_ORDER.slice(0, 5).map((kind) => ({
+              id: kind,
+              label: BREAK_KIND_LABEL[kind],
+              blurb: KIND_BLURB[kind],
+              count: ordered.filter(({ series }) => series.breaks.some((b) => b.kind === kind)).length,
+            }))}
+          />
+        </Reveal>
+
+        <p id="breaks-empty" hidden className="prose-measure mt-12 text-fluid-base text-dim">
+          No break matches that. Try the sport&rsquo;s name, or show every entry.
+        </p>
+
+        {ordered.map(({ sport, series }, i) => {
+          const rule = rules[series.breaks[0].caused_by]
+          const s = sports[sport]
+          const bright = COLOUR[s?.family_colour ?? 'unmarked'] ?? COLOUR.unmarked
+          return (
+            <div
+              key={series.id}
+              data-break-kinds={[...new Set(series.breaks.map((b) => b.kind))].join(' ')}
+              data-break-text={[s?.label ?? sport, series.label, rule?.governing_body ?? '']
+                .join(' ')
+                .toLowerCase()}
+            >
+            <Reveal as="section" delay={40} className="mt-12 scroll-anchor">
+              <div id={series.id} className="scroll-anchor border chalk-rule bg-surface/40 p-5 sm:p-8">
+                <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+                  <span
+                    className="numeral text-fluid-h3 leading-none"
+                    style={{ color: bright }}
+                  >
+                    {series.breaks.map((b) => b.at).join(' · ')}
+                  </span>
+                  <span className="text-[14px] text-dim">
+                    <Link href={`/sports/${sport}/`} className="link-paint text-chalk">
+                      {s?.label ?? sport}
+                    </Link>{' '}
+                    · {[...new Set(series.breaks.map((b) => BREAK_KIND_LABEL[b.kind]))].join(' · ')}
+                  </span>
+                  <span className="numeral ml-auto text-[13px] text-unmarked">
+                    {String(i + 1).padStart(2, '0')} / {String(ordered.length).padStart(2, '0')}
+                  </span>
+                </div>
+
+                {rule && (
+                  <>
+                    <h2 className="mt-3 max-w-[26ch] font-display text-fluid-h2 text-chalk">
+                      <Link href={`/sports/${sport}/#${rule.id}`} className="link-paint">
+                        {headline(rule.what_changed)}
+                      </Link>
+                    </h2>
+                    <p className="prose-measure mt-3 text-[15px] text-unmarked">
+                      {rule.governing_body}, effective{' '}
+                      <span className="numeral text-chalk/80">{rule.date_effective}</span>. Cause:{' '}
+                      {rule.cause_primary}.
+                    </p>
+                  </>
+                )}
+
+                <SeriesChart series={series} colour={s?.family_colour ?? 'unmarked'} now={now} />
+              </div>
+            </Reveal>
+            </div>
+          )
+        })}
+
       </div>
     </div>
   )

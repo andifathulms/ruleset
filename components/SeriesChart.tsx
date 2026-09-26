@@ -505,9 +505,9 @@ function BreakGutter({
       </text>
       <text
         x={mid} y={bottom + 40}
-        fontSize={11} fill={UNMARKED} textAnchor="middle" letterSpacing="0.1em"
+        fontSize={12} fill={UNMARKED} textAnchor="middle"
       >
-        NOT COMPARABLE
+        Not comparable
       </text>
     </g>
   )
