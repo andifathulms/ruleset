@@ -326,6 +326,19 @@
     line-height: 1.66;
   }
 
+  /* A reading panel opens on a drop capital in the family colour: the one
+     flourish on the paper, and it marks where the reading starts. */
+  .reading-panel .prose-measure > p:first-child::first-letter {
+    font-family: var(--font-display);
+    font-stretch: 58%;
+    font-weight: 800;
+    float: left;
+    font-size: 4.5em;
+    line-height: 0.8;
+    margin: 0.07em 0.1em 0 0;
+    color: var(--drop, #132a2e);
+  }
+
   .paper ::selection {
     background: var(--tint, #b7502a);
     color: #fff;

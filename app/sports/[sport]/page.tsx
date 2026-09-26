@@ -25,6 +25,25 @@ import {
   getSport, getSportIds, getSports,
 } from '@/lib/content'
 
+/** Each family's paper tint, for reading panels. */
+const PAPER: Record<string, string> = {
+  pool: '#E7EEF3',
+  pitch: '#E6EFE8',
+  clay: '#F3E8E1',
+  gold: '#F3EEDD',
+  unmarked: '#ECEFEE',
+}
+
+/** The family colour dark enough to be read on its own paper (≥4.3:1). Gold's
+    base is 2.2:1 on gold paper, so it gets a deeper ochre. */
+const ON_PAPER: Record<string, string> = {
+  pool: '#1D6FA8',
+  pitch: '#2F7D4F',
+  clay: '#B7502A',
+  gold: '#85650E',
+  unmarked: '#4E6366',
+}
+
 const COLOUR: Record<string, { base: string; bright: string }> = {
   pool: { base: '#1D6FA8', bright: '#57ACE8' },
   pitch: { base: '#2F7D4F', bright: '#5CC684' },
@@ -132,11 +151,12 @@ export default function SportPage({ params }: { params: { sport: string } }) {
     const found = sections.find((s) => s.slug === slug)
     return found ? { id: slug, label: found.title, body: found.body } : null
   }
-  /** A narrative section: its MDX, then any diagram and photographs keyed to it. */
+  /** A narrative section: its MDX and the photographs keyed to it, which
+      sit on the paper panel together. A diagram keyed to it is drawn after
+      the panel, on the court — its line-work is chalk. */
   const reading = (slug: string) => (
     <>
       <Prose source={prose(slug)!.body} images={photosById} colour={sport.family_colour} />
-      {diagramFor(params.sport, slug)}
       {photoFor(slug)}
     </>
   )
@@ -221,7 +241,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
                 from the closed vocabulary and a citation, and says so where the
                 citation is incomplete.
               </p>
-              <RuleList rules={rules} causes={getCauses()} sources={getSourceMap()} series={series} />
+              <RuleList rules={rules} causes={getCauses()} sources={getSourceMap()} series={series} colour={sport.family_colour} />
               {diagramFor(params.sport, 'rules')}
             </>
           ),
@@ -534,6 +554,9 @@ export default function SportPage({ params }: { params: { sport: string } }) {
                   colour={c.bright}
                   reading={item.reading}
                   tint={item.reading ? c.base : undefined}
+                  paper={item.reading ? PAPER[sport.family_colour] ?? PAPER.unmarked : undefined}
+                  ink={item.reading ? ON_PAPER[sport.family_colour] ?? ON_PAPER.unmarked : undefined}
+                  after={item.reading ? diagramFor(params.sport, item.id) : undefined}
                 >
                   {item.node}
                 </Section>
@@ -565,7 +588,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
                   />
                   <span className="numeral text-[30px] leading-none text-chalk">{b.at}</span>{' '}
                   <span className="text-[13px] text-unmarked">{BREAK_KIND_LABEL[b.kind]}</span>
-                  <span className="mt-1.5 line-clamp-4 block text-[13.5px] leading-snug text-dim">
+                  <span className="mt-1.5 line-clamp-4 text-[13.5px] leading-snug text-dim">
                     {b.note.replace(/\s+/g, ' ')}
                   </span>
                 </a>
@@ -648,7 +671,7 @@ function Fact({
 }
 
 function Section({
-  title, id, n, colour, children, reading, tint,
+  title, id, n, colour, children, reading, tint, paper, ink, after,
 }: {
   title: string
   id: string
@@ -659,6 +682,11 @@ function Section({
       reading mode is recognisable without being labelled. */
   reading?: boolean
   tint?: string
+  paper?: string
+  /** The family colour as it reads on its paper: the drop capital. */
+  ink?: string
+  /** Drawn after a reading panel, off the paper: a diagram. */
+  after?: React.ReactNode
 }) {
   return (
     <section id={id} className="mt-20 scroll-anchor">
@@ -676,11 +704,16 @@ function Section({
       </Reveal>
       <Reveal delay={80}>
         {reading ? (
+          /* Paper: the reading ground (DESIGN.md). Everything inside re-maps
+             its text colours to ink through `.paper`, and the prose is set in
+             the serif. */
           <div
-            className="border-l-2 py-9 pl-6 pr-5 sm:pl-12"
+            className="paper reading-panel border-l-4 px-6 py-9 sm:px-12 sm:py-12"
             style={{
-              borderColor: colour,
-              background: `linear-gradient(100deg, ${tint}26, ${tint}08 55%, transparent 88%)`,
+              borderColor: tint,
+              ['--paper' as string]: paper,
+              ['--tint' as string]: tint,
+              ['--drop' as string]: ink,
             }}
           >
             {children}
@@ -689,6 +722,7 @@ function Section({
           children
         )}
       </Reveal>
+      {after}
     </section>
   )
 }
