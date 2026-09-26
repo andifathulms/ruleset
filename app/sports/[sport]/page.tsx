@@ -6,7 +6,9 @@ import Prose from '@/components/Prose'
 import SeriesChart from '@/components/SeriesChart'
 import RuleList from '@/components/RuleList'
 import MiniLane from '@/components/MiniLane'
-import SectionNav from '@/components/SectionNav'
+import SectionNav, { SectionRail, type NavItem } from '@/components/SectionNav'
+import SportCover from '@/components/SportCover'
+import { BREAK_KIND_LABEL } from '@/lib/series'
 import Diagram from '@/components/Diagram'
 import PhotoSet from '@/components/PhotoSet'
 import SportIcon from '@/components/SportIcon'
@@ -18,9 +20,9 @@ import CurrentLaws from '@/components/CurrentLaws'
 import LearningCurve from '@/components/LearningCurve'
 import EventTree from '@/components/EventTree'
 import {
-  getCauses, getEvents, getImagesForSport, getLearning, getLenses, getPlay,
+  getCauses, getCover, getEvents, getImagesForSport, getLearning, getLenses, getPlay,
   getProgram, getProgrammes, getRuleChanges, getSections, getSeriesForSport, getSourceMap,
-  getSport, getSportIds,
+  getSport, getSportIds, getSports,
 } from '@/lib/content'
 
 const COLOUR: Record<string, { base: string; bright: string }> = {
@@ -110,6 +112,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
     .filter((p) => p.id !== 'olympic' && p.sports.some((s) => s.id === params.sport))
     .map((p) => p.short)
   const c = COLOUR[sport.family_colour] ?? COLOUR.unmarked
+  const cover = getCover(sport)
 
   const ruleYears = rules.map((r) => Number(r.date_effective.slice(0, 4)))
   const breakYears = series.flatMap((s) => s.breaks.map((b) => b.at))
@@ -306,172 +309,300 @@ export default function SportPage({ params }: { params: { sport: string } }) {
     officiating: 'Officiating',
     events: 'Events',
   }
-  const nav = acts.flatMap((group) =>
-    group.sections.map((item, i) => ({
+  const nav: NavItem[] = acts.flatMap((group) =>
+    group.sections.map((item) => ({
       id: item.id,
+      n: item.n,
+      act: group.title,
       label: NAV_SHORT[item.id] ?? item.label,
-      ...(i === 0 ? { act: group.title } : {}),
     })),
   )
 
+  /* The sport's breaks, once each, for the rail: a rule that severed two
+     series is one break in the sport's history. */
+  const breaks = [
+    ...new Map(
+      series.flatMap((s) => s.breaks.map((b) => ({ ...b, series: s.id }))).map((b) => [b.at, b]),
+    ).values(),
+  ].sort((a, b) => a.at - b.at)
+
+  /* Neighbours in the index's A to Z, so a page ends somewhere to go. */
+  const all = getSports().sort((a, b) => a.label.localeCompare(b.label))
+  const at = all.findIndex((s) => s.id === sport.id)
+  const prev = at > 0 ? all[at - 1] : null
+  const next = at < all.length - 1 ? all[at + 1] : null
+
+  const editions = program?.held.length ?? 0
+
   return (
     <article>
-      {/* 1. Identity, governing body, current standing on the programmes. */}
-      <header className="relative overflow-hidden border-b chalk-rule">
-        <div aria-hidden className="court-grid court-grid-fade absolute inset-0" />
+      {/* 1. Identity: the cover, the name, and the sport at a glance. */}
+      <header className="relative isolate overflow-hidden border-b chalk-rule">
+        {cover ? (
+          <>
+            <SportCover
+              image={{ file: cover.file, alt: cover.alt, width: cover.width, height: cover.height, position: sport.cover_position }}
+              colour={sport.family_colour}
+              label={sport.label}
+              eager
+              className="!absolute inset-0 -z-20"
+            />
+            <div
+              aria-hidden
+              className="absolute inset-0 -z-10"
+              style={{
+                background:
+                  'linear-gradient(90deg, rgb(4 19 23 / 0.94) 0%, rgb(4 19 23 / 0.72) 45%, rgb(4 19 23 / 0.18) 80%), linear-gradient(0deg, #041317 0%, transparent 50%)',
+              }}
+            />
+          </>
+        ) : (
+          <>
+            <div aria-hidden className="court-grid court-grid-fade absolute inset-0 -z-10" />
+            <div
+              aria-hidden
+              className="absolute inset-0 -z-10"
+              style={{ background: `radial-gradient(58rem 30rem at 6% -10%, ${c.base}55, transparent 70%)` }}
+            />
+          </>
+        )}
+
         <div
-          aria-hidden
-          className="absolute inset-0"
-          style={{
-            background: `radial-gradient(58rem 30rem at 6% -10%, ${c.base}55, transparent 70%)`,
-          }}
-        />
-        <div className="relative mx-auto max-w-[86rem] px-5 pb-12 pt-12 sm:pb-16 sm:pt-16">
+          className={`relative mx-auto flex max-w-[86rem] flex-col justify-end px-5 pb-10 pt-10 sm:pb-14 ${
+            cover ? 'min-h-[30rem] sm:min-h-[36rem]' : 'sm:pt-14'
+          }`}
+        >
           <Reveal>
             <Link
               href="/sports/"
-              className="eyebrow inline-flex items-center gap-2 transition-colors hover:text-chalk"
+              className="inline-flex items-center gap-2 text-[14px] text-dim transition-colors hover:text-chalk"
             >
               <span aria-hidden>←</span> All sports
             </Link>
           </Reveal>
 
-          <div className="mt-6 grid gap-x-14 gap-y-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,24rem)] lg:items-end">
+          <div className="mt-6 grid gap-x-14 gap-y-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,23rem)] lg:items-end">
             <Reveal delay={60}>
-              <span aria-hidden className="block h-1.5 w-24" style={{ background: c.bright }} />
-              <div className="mt-5 flex items-center gap-5 sm:gap-7">
+              <div className="flex items-center gap-4 sm:gap-6">
                 <SportIcon
                   sport={sport.id}
                   colour={sport.family_colour}
-                  className="h-14 w-14 sm:h-20 sm:w-20"
+                  className="h-14 w-14 sm:h-[5.5rem] sm:w-[5.5rem]"
                 />
-                <h1 className="display-xl min-w-0 text-fluid-h1 text-chalk">{sport.label}</h1>
+                <h1 className="display-xl min-w-0 text-fluid-mega text-chalk">{sport.label}</h1>
               </div>
-              <p className="prose-measure mt-4 text-fluid-lead text-chalk/85">{sport.tagline}</p>
+              <p className="mt-5 max-w-[42ch] text-fluid-lead text-chalk/90">{sport.tagline}</p>
+              <dl className="mt-6 flex flex-wrap gap-2 text-[13px]">
+                {lenses.map((lens) => {
+                  const group = lens.groups.find((g) => g.members.includes(sport.id))
+                  return (
+                    <div
+                      key={lens.id}
+                      className="flex items-baseline gap-1.5 rounded-full border border-chalk/25 bg-ink/50 px-3 py-1 backdrop-blur"
+                    >
+                      <dt className="text-dim">{lens.label}</dt>
+                      <dd className="text-chalk">{group?.label ?? 'unclassified'}</dd>
+                    </div>
+                  )
+                })}
+              </dl>
             </Reveal>
 
-            {/* The sport's own lane, before it is expanded further down. */}
+            {/* The sport at a glance, and its own lane before it is expanded
+                further down. */}
             <Reveal delay={140}>
-              <figure className="panel p-5">
-                <MiniLane
-                  className="h-14 w-full"
-                  years={ruleYears}
-                  breaks={breakYears}
-                  colour={sport.family_colour}
-                  from={span[0]}
-                  to={span[1]}
-                />
-                <figcaption className="mt-2 flex items-baseline justify-between text-[13px] text-unmarked">
-                  <span className="numeral">{span[0] + 4}</span>
-                  <span>
-                    {rules.length} rule changes · {breakYears.length} break
-                    {breakYears.length === 1 ? '' : 's'}
-                  </span>
-                  <span className="numeral">{span[1] - 4}</span>
-                </figcaption>
+              <figure className="border border-chalk/20 bg-surface/75 p-5 backdrop-blur-xl">
+                <dl className="grid grid-cols-3 gap-3">
+                  <Glance value={rules.length} label={rules.length === 1 ? 'rule change' : 'rule changes'} />
+                  <Glance
+                    value={breaks.length}
+                    label={breaks.length === 1 ? 'comparability break' : 'comparability breaks'}
+                    colour={c.bright}
+                  />
+                  <Glance value={editions} label={editions === 1 ? 'Olympic edition' : 'Olympic editions'} />
+                </dl>
+                <div className="mt-4 border-t chalk-rule pt-3">
+                  <MiniLane
+                    className="h-12 w-full"
+                    years={ruleYears}
+                    breaks={breakYears}
+                    colour={sport.family_colour}
+                    from={span[0]}
+                    to={span[1]}
+                  />
+                  <figcaption className="mt-1 flex items-baseline justify-between text-[12.5px] text-unmarked">
+                    <span className="numeral">{span[0] + 4}</span>
+                    <span>{rules.length} rule changes on the sport&rsquo;s own lane</span>
+                    <span className="numeral">{span[1] - 4}</span>
+                  </figcaption>
+                </div>
               </figure>
             </Reveal>
           </div>
 
-          <Reveal delay={200}>
-            <dl className="mt-12 grid gap-px border chalk-rule bg-chalk/[0.08] sm:grid-cols-2 lg:grid-cols-5">
-              <Fact term="Governing body" value={sport.governing_body} />
-              <Fact term="Founded" value={sport.founded ?? 'Not recorded'} />
-              <Fact
-                term="Olympic status"
-                value={
-                  program
-                    ? `${program.held.length} edition${program.held.length === 1 ? '' : 's'}${
-                        program.held.includes(2028)
-                          ? ', on the 2028 programme'
-                          : ', not on the 2028 programme'
-                      }`
-                    : 'Not on the Olympic programme'
-                }
-              />
-              <Fact
-                term="Also contested at"
-                value={alsoOn.length ? alsoOn.join(', ') : 'No other programme here'}
-              />
-              <Fact term="Rule changes recorded" value={String(rules.length)} numeral />
-            </dl>
-          </Reveal>
-
-          <Reveal delay={240}>
-            <dl className="mt-6 flex flex-wrap gap-x-8 gap-y-2 text-[14px]">
-              {lenses.map((lens) => {
-                const group = lens.groups.find((g) => g.members.includes(sport.id))
-                return (
-                  <div key={lens.id} className="flex items-baseline gap-2">
-                    <dt className="text-unmarked">{lens.label}:</dt>
-                    <dd className="text-chalk/85">{group?.label ?? 'unclassified'}</dd>
-                  </div>
-                )
-              })}
-            </dl>
-          </Reveal>
+          {cover && (
+            <p className="mt-8 self-end bg-ink/60 px-2.5 py-1 text-right text-[12px] text-chalk/70 backdrop-blur lg:absolute lg:right-5 lg:top-5 lg:mt-0">
+              {cover.alt.replace(/\.$/, '')} · {cover.author} ·{' '}
+              <a href={cover.source_url} className="link-paint" target="_blank" rel="noopener noreferrer">
+                {cover.licence}
+              </a>
+            </p>
+          )}
         </div>
       </header>
 
-      <SectionNav items={nav} />
+      {/* 2. Governing body and standing. Founded is prose, so it gets the room
+          for it rather than a year pulled out of it. */}
+      <Reveal className="border-b chalk-rule">
+        <dl className="mx-auto grid max-w-[86rem] gap-px bg-chalk/[0.08] sm:grid-cols-2 lg:grid-cols-5 min-[1376px]:border-x min-[1376px]:chalk-rule">
+          <Fact term="Governing body" value={sport.governing_body} />
+          <Fact term="Founded" value={sport.founded ?? 'Not recorded'} wide />
+          <Fact
+            term="Olympic status"
+            value={
+              program
+                ? program.held.includes(2028)
+                  ? 'on the 2028 programme'
+                  : 'not on the 2028 programme'
+                : 'Not on the Olympic programme'
+            }
+            figure={program ? `${editions} edition${editions === 1 ? '' : 's'}` : undefined}
+          />
+          <Fact
+            term="Also contested at"
+            value={alsoOn.length ? alsoOn.join(', ') : 'No other programme here'}
+          />
+        </dl>
+      </Reveal>
+
+      <SectionNav items={nav} colour={c.bright} />
+
+      <div className="mx-auto max-w-[86rem] px-5 xl:grid xl:grid-cols-[minmax(0,1fr)_16.5rem] xl:gap-14">
+        <div className="min-w-0">
+          {sport.summary && (
+            <Reveal>
+              <p
+                className="prose-measure mt-14 border-l-2 pl-6 text-fluid-lead text-chalk/85"
+                style={{ borderColor: c.bright }}
+              >
+                <Emphasis>{sport.summary}</Emphasis>
+              </p>
+            </Reveal>
+          )}
+
+          {/*
+            Three acts: what the sport IS, how it GOT here, and what that did
+            to its numbers. Numbering runs unbroken across the acts so a
+            section keeps one identity in the nav and in a deep link.
+          */}
+          {acts.map((act) => (
+            <div key={act.title}>
+              <Reveal>
+                <h2 className="mt-24 border-t-2 pt-6" style={{ borderColor: `${c.bright}66` }}>
+                  <span className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+                    <span className="font-display text-[40px] font-bold leading-none sm:text-[48px]" style={{ color: c.bright }}>
+                      {act.title}
+                    </span>
+                    <span className="font-body text-[16px] font-normal text-dim [font-stretch:normal]">
+                      {act.blurb} · sections {act.sections[0].n}
+                      {act.sections.length > 1 ? ` to ${act.sections[act.sections.length - 1].n}` : ''}
+                    </span>
+                  </span>
+                </h2>
+                <ul className="mt-4 flex flex-wrap gap-2">
+                  {act.sections.map((s) => (
+                    <li key={s.id}>
+                      <a
+                        href={`#${s.id}`}
+                        className="flex items-baseline gap-2 border border-chalk/20 px-3 py-1.5 text-[13.5px] text-dim transition-colors hover:border-chalk/50 hover:text-chalk"
+                      >
+                        <span className="numeral text-[14px]" style={{ color: c.bright }}>
+                          {String(s.n).padStart(2, '0')}
+                        </span>
+                        {NAV_SHORT[s.id] ?? s.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </Reveal>
+              {act.sections.map((item) => (
+                <Section
+                  key={item.id}
+                  title={item.label}
+                  id={item.id}
+                  n={item.n}
+                  colour={c.bright}
+                  reading={item.reading}
+                  tint={item.reading ? c.base : undefined}
+                >
+                  {item.node}
+                </Section>
+              ))}
+            </div>
+          ))}
+        </div>
+
+        <aside className="hidden xl:block" aria-label="On this page">
+          <div className="h-full pt-14">
+            <SectionRail items={nav} colour={c.bright}>
+              {breaks.map((b) => (
+                <a
+                  key={b.at}
+                  href={`#${b.series}`}
+                  className="block border p-4 transition-colors hover:bg-chalk/[0.03]"
+                  style={{
+                    borderColor: `${c.bright}66`,
+                    background: `linear-gradient(180deg, ${c.base}2e, transparent)`,
+                  }}
+                >
+                  <MiniLane
+                    className="mb-2 h-7 w-full"
+                    years={[b.at]}
+                    breaks={[b.at]}
+                    colour={sport.family_colour}
+                    from={b.at - 20}
+                    to={b.at + 20}
+                  />
+                  <span className="numeral text-[30px] leading-none text-chalk">{b.at}</span>{' '}
+                  <span className="text-[13px] text-unmarked">{BREAK_KIND_LABEL[b.kind]}</span>
+                  <span className="mt-1.5 line-clamp-4 block text-[13.5px] leading-snug text-dim">
+                    {b.note.replace(/\s+/g, ' ')}
+                  </span>
+                </a>
+              ))}
+            </SectionRail>
+          </div>
+        </aside>
+      </div>
+
+      <nav aria-label="Neighbouring sports" className="mt-24 border-y chalk-rule">
+        <div className="mx-auto grid max-w-[86rem] sm:grid-cols-2">
+        {[prev, next].map((s, i) =>
+          s ? (
+            <Link
+              key={s.id}
+              href={`/sports/${s.id}/`}
+              className={`group relative flex flex-col gap-1 px-5 py-7 transition-colors hover:bg-surface ${
+                i === 1 ? 'sm:items-end sm:border-l sm:text-right chalk-rule' : ''
+              } ${i === 1 && !prev ? 'sm:col-start-2' : ''}`}
+            >
+              <span className="text-[13px] text-unmarked">
+                {i === 0 ? '← Previous' : 'Next →'}
+              </span>
+              <span className="font-display text-[34px] leading-none text-chalk sm:text-[44px]">{s.label}</span>
+              <span
+                aria-hidden
+                className={`absolute bottom-0 h-[3px] w-0 transition-all duration-500 ease-paint group-hover:w-full ${i === 1 ? 'right-0' : 'left-0'}`}
+                style={{ background: (COLOUR[s.family_colour] ?? COLOUR.unmarked).bright }}
+              />
+            </Link>
+          ) : null,
+        )}
+        </div>
+      </nav>
 
       <div className="mx-auto max-w-[86rem] px-5">
-        {sport.summary && (
-          <Reveal>
-            <p
-              className="prose-measure mt-14 border-l-2 pl-6 text-fluid-lead text-chalk/85"
-              style={{ borderColor: c.bright }}
-            >
-              <Emphasis>{sport.summary}</Emphasis>
-            </p>
-          </Reveal>
-        )}
-
-        {/*
-          Three acts. The page runs to a dozen sections now, and they are not
-          all the same kind of thing: what the sport IS, how it GOT here, and
-          what that did to its numbers. Numbering runs unbroken across the acts
-          so a section keeps one identity in the nav and in a deep link.
-        */}
-        {acts.map((act) => (
-          <div key={act.title}>
-            <Reveal>
-              {/* With the act names out of the nav strip, this is the only
-                  place the grouping is stated, so it is drawn as a division of
-                  the page rather than as a caption above one. */}
-              <h2 className="mt-28 border-t-2 pt-5" style={{ borderColor: `${c.bright}55` }}>
-                <span className="flex flex-wrap items-baseline gap-x-5 gap-y-1">
-                  <span
-                    className="font-display text-[26px] uppercase tracking-[0.14em]"
-                    style={{ color: c.bright }}
-                  >
-                    {act.title}
-                  </span>
-                  <span className="text-[15px] text-unmarked">{act.blurb}</span>
-                  <span aria-hidden className="h-px flex-1 bg-chalk/12" />
-                  <span className="numeral text-[13px] text-unmarked">
-                    {act.sections.length} sections
-                  </span>
-                </span>
-              </h2>
-            </Reveal>
-            {act.sections.map((item) => (
-              <Section
-                key={item.id}
-                title={item.label}
-                id={item.id}
-                n={item.n}
-                colour={c.bright}
-                reading={item.reading}
-                tint={item.reading ? c.base : undefined}
-              >
-                {item.node}
-              </Section>
-            ))}
-          </div>
-        ))}
-
-        <nav className="mb-20 mt-20 flex flex-wrap items-center gap-x-8 gap-y-3 border-t chalk-rule pt-8 text-[15px]">
+        <nav className="mb-20 mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-[15px]">
           <Link href="/" className="link-paint text-chalk">
             Back to the cross-sport timeline
           </Link>
@@ -487,13 +618,31 @@ export default function SportPage({ params }: { params: { sport: string } }) {
   )
 }
 
-function Fact({ term, value, numeral }: { term: string; value: string; numeral?: boolean }) {
+function Glance({ value, label, colour }: { value: number; label: string; colour?: string }) {
   return (
-    <div className="bg-ink px-5 py-4">
-      <dt className="text-[13px] text-unmarked">{term}</dt>
-      <dd className={`mt-1 text-[15px] text-chalk ${numeral ? 'numeral text-[22px]' : ''}`}>
+    <div className="flex flex-col-reverse">
+      <dt className="mt-1.5 text-[12.5px] leading-tight text-dim">{label}</dt>
+      <dd className="numeral text-[44px] font-bold leading-[0.9]" style={{ color: colour }}>
         {value}
       </dd>
+    </div>
+  )
+}
+
+function Fact({
+  term, value, figure, wide,
+}: {
+  term: string
+  value: string
+  /** A short figure set large above the value, where there is one. */
+  figure?: string
+  wide?: boolean
+}) {
+  return (
+    <div className={`bg-ink px-5 py-4 ${wide ? 'lg:col-span-2' : ''}`}>
+      <dt className="text-[13px] text-unmarked">{term}</dt>
+      {figure && <dd className="numeral mt-1 text-[26px] leading-none text-chalk">{figure}</dd>}
+      <dd className={`text-[15px] leading-snug text-chalk/90 ${figure ? 'mt-1' : 'mt-1.5'}`}>{value}</dd>
     </div>
   )
 }
