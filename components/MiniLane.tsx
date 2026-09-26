@@ -23,6 +23,7 @@ export default function MiniLane({
   colour = 'unmarked',
   from,
   to,
+  ticks = [],
   className = '',
 }: {
   years: number[]
@@ -30,6 +31,10 @@ export default function MiniLane({
   colour?: string
   from: number
   to: number
+  /** Years to mark faintly along the foot of the lane, so a shared span can
+      be read. Labels are the caller's, in HTML: text in a stretched viewBox
+      would stretch with it. See `laneTickLeft`. */
+  ticks?: number[]
   className?: string
 }) {
   const W = 260
@@ -72,6 +77,14 @@ export default function MiniLane({
       aria-hidden
       focusable="false"
     >
+      {ticks.filter((t) => t > from && t < to).map((t) => (
+        <line
+          key={`tick-${t}`}
+          x1={x(t)} x2={x(t)} y1={H - 5} y2={H}
+          stroke="#F2F5F1" strokeOpacity={0.28} strokeWidth={1}
+          vectorEffect="non-scaling-stroke"
+        />
+      ))}
       {pieces.map((p, i) => (
         <line
           key={i}
@@ -109,4 +122,11 @@ export default function MiniLane({
       })}
     </svg>
   )
+}
+
+/** Where a tick sits across the lane, as a percentage, for its HTML label. */
+export function laneTickLeft(year: number, from: number, to: number): string {
+  const W = 260
+  const px = 4 + ((year - from) / Math.max(1, to - from)) * (W - 8)
+  return `${((px / W) * 100).toFixed(2)}%`
 }

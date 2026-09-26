@@ -221,6 +221,64 @@
     transition: opacity 600ms ease;
   }
 
+  /*
+    A sport's cover: the same duotone as .duotone, but cropped to fill its
+    box (a card's 16:10, the page header) rather than sized by the image.
+    Inside a hovered card it gives the photograph back its own colour.
+  */
+  .cover,
+  .cover-painted {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    background: var(--tint, #7a8c8a);
+  }
+
+  .cover img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(1) contrast(1.1) brightness(0.88);
+    transform: scale(1.01);
+    transition: filter 600ms ease, transform 900ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .cover::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--tint, #7a8c8a);
+    mix-blend-mode: color;
+    opacity: 0.85;
+    pointer-events: none;
+    transition: opacity 600ms ease;
+  }
+
+  .group:hover .cover img,
+  .group:focus-visible .cover img {
+    filter: none;
+    transform: scale(1.05);
+  }
+
+  .group:hover .cover::after,
+  .group:focus-visible .cover::after {
+    opacity: 0;
+  }
+
+  /* No photograph: a painted court in the family colour, lit from one corner. */
+  .cover-painted {
+    background:
+      radial-gradient(120% 90% at 18% 0%, var(--tint-bright) -40%, var(--tint) 45%, #0b2b30 120%);
+  }
+
+  /* A card's lane repaints under the cursor, the way the board paints on load. */
+  .group:hover .lane-repaint,
+  .group:focus-visible .lane-repaint {
+    animation: wipe-in 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+  }
+
   /* A hairline of the family colour along the top, as everywhere else. */
   .duotone::before {
     content: '';
@@ -513,6 +571,8 @@
   }
 
   .lift:hover { transform: none; }
+  .group:hover .lane-repaint { animation: none; }
+  .group:hover .cover img { transform: none; }
 
   *,
   *::before,
