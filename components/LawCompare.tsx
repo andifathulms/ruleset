@@ -48,7 +48,7 @@ export default function LawCompare({
     <div>
       {/* The questions stay in reach as the answers scroll past. */}
       <fieldset
-        className="sticky z-20 -mx-5 border-b chalk-rule bg-ink/[0.88] px-5 pb-3 pt-3 backdrop-blur-xl"
+        className="sticky z-20 -mx-5 min-w-0 border-b chalk-rule bg-ink/[0.88] px-5 pb-3 pt-3 backdrop-blur-xl"
         style={{ top: 'var(--header-h, 56px)' }}
       >
         <legend className="float-left mb-2 w-full text-[13px] text-unmarked">
