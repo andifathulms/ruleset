@@ -39,7 +39,7 @@ export default function LawCompare({
   return (
     <div>
       <fieldset>
-        <legend className="mb-3 text-[13px] uppercase tracking-[0.14em] text-unmarked">
+        <legend className="mb-3 text-[13px] text-unmarked">
           The same question, asked of every sport
         </legend>
         <div className="flex flex-wrap gap-2">

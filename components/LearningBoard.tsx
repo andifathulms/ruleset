@@ -35,7 +35,7 @@ export default function LearningBoard({
 
   return (
     <div className="mt-8">
-      <p className="mb-5 inline-flex items-center gap-2 border border-unmarked px-3 py-1 text-[13px] uppercase tracking-[0.14em] text-unmarked">
+      <p className="mb-5 inline-flex items-center gap-2 border border-unmarked px-3 py-1 text-[13px] text-unmarked">
         <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-unmarked" />
         Editorial — five-point ordinals, never summed or averaged
       </p>

@@ -17,12 +17,18 @@
   :root {
     /* --font-display and --font-body are supplied by next/font on <html>,
        each already carrying its own metrics-matched fallback stack. */
-    --ink: #05161a;
+    --ink: #041317;
     --surface: #0b2b30;
-    --raised: #10373e;
+    --raised: #113840;
     --chalk: #f2f5f1;
     --dim: #a6bcba;
     --unmarked: #7a8c8a;
+
+    /* Channel forms of the three text colours, which the Tailwind tokens read
+       so that `.paper` can re-map them (see below). */
+    --chalk-rgb: 242 245 241;
+    --dim-rgb: 166 188 186;
+    --unmarked-rgb: 122 140 138;
 
     --pool: #1d6fa8;
     --pitch: #2f7d4f;
@@ -93,9 +99,11 @@
     line-height: 1.05;
   }
 
-  /* Signage scale: the biggest type is set tighter and narrower still. */
+  /* Signage scale: the biggest type is set heavier, tighter and narrower
+     still, so a sport's name reads like a scoreboard and not like a heading. */
   .display-xl {
     font-stretch: 58%;
+    font-weight: 800;
     letter-spacing: -0.012em;
   }
 
@@ -223,12 +231,46 @@
     background: var(--tint-bright, #9fb2b0);
   }
 
-  /* An eyebrow: small, wide, and never louder than the heading under it. */
+  /* A label: small, quiet, and in sentence case. It used to be tracked
+     uppercase, which DESIGN.md rules out ("no all-caps labels"). */
   .eyebrow {
-    font-size: 12px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--unmarked);
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: rgb(var(--unmarked-rgb));
+  }
+
+  /*
+    Paper: the reading ground. Narrative sections sit on a light tint of the
+    family colour (DESIGN.md, "Sport pages"), set in the serif, so reading
+    mode is recognisable without a label. Everything inside re-maps the text
+    colours to ink through the channel variables, which is why no component
+    needs a paper variant of its own. Charts and diagrams never sit on paper:
+    their line-work is drawn in chalk.
+  */
+  .paper {
+    --chalk: #132a2e;
+    --chalk-rgb: 19 42 46;
+    --dim-rgb: 60 80 83;
+    --unmarked: #4e6366;
+    --unmarked-rgb: 78 99 102;
+    --line: rgb(19 42 46 / 0.16);
+    --line-strong: rgb(19 42 46 / 0.3);
+    background: var(--paper, #ecefee);
+    color: var(--chalk);
+  }
+
+  .paper .prose-measure > p,
+  .paper .prose-measure > ul li,
+  .paper .prose-measure > ol li,
+  .paper .prose-measure > blockquote {
+    font-family: var(--font-serif);
+    font-size: clamp(1.125rem, 1.02rem + 0.35vw, 1.28rem);
+    line-height: 1.66;
+  }
+
+  .paper ::selection {
+    background: var(--tint, #b7502a);
+    color: #fff;
   }
 
   /* A link that draws its own underline on hover, left to right. */

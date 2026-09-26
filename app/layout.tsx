@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Archivo, IBM_Plex_Sans } from 'next/font/google'
+import { Archivo, IBM_Plex_Sans, Newsreader } from 'next/font/google'
 import Link from 'next/link'
 import './globals.css'
 import SiteHeader from '@/components/SiteHeader'
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     'How sports became the sports they are. Rule changes with a cause, a date, a citation, and a measurable consequence.',
 }
 
-export const viewport: Viewport = { themeColor: '#05161A' }
+export const viewport: Viewport = { themeColor: '#041317' }
 
 /*
   Self-hosted at build time rather than fetched from Google.
@@ -43,6 +43,16 @@ const body = IBM_Plex_Sans({
   display: 'swap',
 })
 
+/* The reading face, used only on paper panels. A text serif with optical
+   sizes, so it stays sturdy at 18px rather than looking like a display cut. */
+const serif = Newsreader({
+  subsets: ['latin'],
+  axes: ['opsz'],
+  style: ['normal', 'italic'],
+  variable: '--font-serif',
+  display: 'swap',
+})
+
 const FOOTER_NAV = [
   {
     heading: 'The board',
@@ -64,7 +74,7 @@ const FOOTER_NAV = [
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${display.variable} ${body.variable}`}>
+    <html lang="en" className={`${display.variable} ${body.variable} ${serif.variable}`}>
       <body className="min-h-screen bg-ink text-chalk">
         <ScrollProgress />
         <HashLanding />

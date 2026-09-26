@@ -105,7 +105,7 @@ export default function CurrentLaws({
               {/* The link that makes this a section of THIS site. */}
               {section.shaped_by && section.shaped_by.length > 0 && (
                 <div className="mt-5 border-l-2 pl-4" style={{ borderColor: colour.bright }}>
-                  <p className="text-[13px] uppercase tracking-[0.14em] text-unmarked">
+                  <p className="text-[13px] text-unmarked">
                     This clause reads this way because of
                   </p>
                   <ul className="mt-1.5 space-y-1">

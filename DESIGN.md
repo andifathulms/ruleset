@@ -22,13 +22,21 @@ sport you're looking at before you read anything.
 
 | Token | Hex | Job |
 |---|---|---|
-| `surface` | `#0B2B30` | Deep court teal. The ground everything is painted on. |
+| `ink` | `#041317` | The page. Near-black court teal, so panels have something to sit on. |
+| `surface` | `#0B2B30` | Deep court teal. Cards, panels, anything raised off the page. |
+| `raised` | `#113840` | One step further up: hover states, sheets, the section rail. |
 | `chalk` | `#F2F5F1` | Line white, very slightly cool. All rules, all lines. |
 | `pool` | `#1D6FA8` | Measured sports — athletics, swimming. |
 | `pitch` | `#2F7D4F` | Invasion sports — football, basketball, hockey. |
 | `clay` | `#B7502A` | Racket sports — the clay court. |
 | `gold` | `#C8A02C` | Judged sports — the floor, and the vanished Perfect 10. |
 | `unmarked` | `#7A8C8A` | Gaps, uncovered sports, disputed causes. |
+
+Each family has three strengths: the base above for fills, a `bright` for
+line-work, labels and numerals on the dark ground, and a `paper` tint for
+reading panels — pool `#E7EEF3`, pitch `#E6EFE8`, clay `#F3E8E1`, gold
+`#F3EEDD`. Paper is a tint of the family, never a new hue; ink text on it is
+`#132A2E`, at 12.5:1 on clay paper.
 
 Four hues that are genuinely distinct at a glance, which matters because the
 timeline puts all four families on screen at once. `unmarked` is deliberately
@@ -45,11 +53,20 @@ that stays on screen.
 is the actual vernacular of scoreboards and lane numbers, so it belongs here for
 a reason rather than as a style choice. Years on the timeline are set large.
 
-**IBM Plex Sans** for body. Humanist enough to read at length, neutral enough not
+The largest sizes — a sport's name, the index title — go to weight 800 at 58%
+width, so they read as a scoreboard rather than as a heading. Everything else
+stays at 600 and 62%.
+
+**IBM Plex Sans** for the interface, rule text, laws and data. Neutral enough not
 to fight the condensed display face, and clearly a different voice.
 
+**Newsreader** for narrative prose on paper panels, and nowhere else. A text
+serif with optical sizes, 18–20.5px/1.66, measure 62–70 characters. It is what
+makes a reading section feel like reading.
+
 Body 17px/1.6, measure capped at 70 characters. Sentence case throughout. No
-all-caps labels, no eyebrows above headings, no monospace for data.
+all-caps labels, no eyebrows above headings, no monospace for data. Small labels
+are 13px in `unmarked`, sentence case, barely tracked.
 
 ## Layout
 
@@ -98,9 +115,21 @@ MOBILE — lanes rotate, time runs down
  └──────────────────────┘
 ```
 
-Sport pages sit on `surface` for the timeline and charts, and on a lightened
-tint of the family colour for long reading sections, so the reading mode is
-recognisable without a label.
+Sport pages sit on the dark ground for the laws, the rule timeline and charts,
+and on the family's `paper` tint for long reading sections, so the reading mode
+is recognisable without a label. Charts and diagrams never sit on paper: their
+line-work is chalk.
+
+On a wide screen the sport page has a sticky section rail on the right: the
+sections grouped by act, the ones already read ticked off, progress through the
+current one, and the sport's own break kept in view. Below that width the rail
+becomes the section strip, and on a phone a floating sections button.
+
+The sports index is a browser, not a list: search, grouping under the same
+lenses the timeline uses, sorting, and a card or list view (list by default on a
+phone). A card carries the sport's cover photograph in its family duotone, or a
+painted-court panel where it has none; a sport whose pictogram is not drawn yet
+shows a dashed monogram, which reads as "not drawn yet" rather than as missing.
 
 ## Charts
 

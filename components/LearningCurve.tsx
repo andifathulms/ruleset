@@ -29,7 +29,7 @@ export default function LearningCurve({
     <div>
       <p className="prose-measure text-[17px] text-chalk/85"><Emphasis>{clean(learning.summary)}</Emphasis></p>
 
-      <p className="mt-6 inline-flex items-center gap-2 border border-unmarked px-3 py-1 text-[13px] uppercase tracking-[0.14em] text-unmarked">
+      <p className="mt-6 inline-flex items-center gap-2 border border-unmarked px-3 py-1 text-[13px] text-unmarked">
         <span aria-hidden className="h-1.5 w-1.5 rounded-full bg-unmarked" />
         Editorial — the site&rsquo;s reading, not a sourced claim
       </p>
@@ -76,7 +76,7 @@ function Axis({
 }) {
   return (
     <section className="bg-ink p-6 sm:p-7">
-      <p className="text-[13px] uppercase tracking-[0.14em] text-unmarked">{heading}</p>
+      <p className="text-[13px] text-unmarked">{heading}</p>
       <h4 className="mt-1 font-display text-fluid-h3 text-chalk">{question}</h4>
 
       <Scale verdict={axis.verdict} colour={colour} />
@@ -89,7 +89,7 @@ function Axis({
         ))}
       </div>
 
-      <h5 className="mt-6 text-[13px] uppercase tracking-[0.14em] text-unmarked">Evidence</h5>
+      <h5 className="mt-6 text-[13px] text-unmarked">Evidence</h5>
       <ul className="mt-2 divide-y divide-chalk/10 border-t chalk-rule">
         {axis.evidence.map((e, i) => (
           <EvidenceRow key={`${e.label}-${i}`} evidence={e} rule={e.rule ? ruleMap[e.rule] : undefined} />
@@ -149,7 +149,7 @@ function EvidenceRow({ evidence, rule }: { evidence: Evidence; rule?: RuleChange
       <span className="text-[14px] text-unmarked">{evidence.label}</span>
       <span className={`numeral ml-auto text-[17px] ${basis.tone}`}>{evidence.value}</span>
       <span
-        className={`border px-1.5 py-0.5 text-[11px] uppercase tracking-wider ${
+        className={`border px-1.5 py-0.5 text-[12px] ${
           evidence.basis === 'judgement'
             ? 'border-unmarked text-unmarked'
             : 'border-chalk/25 text-chalk/60'
