@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Reveal } from '@/components/Motion'
-import { getAllRuleChanges, getImages, getSources } from '@/lib/content'
+import { getAllRuleChanges, getImages, getSources, getSports } from '@/lib/content'
 import type { SourceStanding } from '@/lib/types'
 import { asset } from '@/lib/asset'
 
@@ -37,6 +37,15 @@ export default function SourcesPage() {
 
   const usage = new Map<string, number>()
   for (const r of rules) usage.set(r.citation.source, (usage.get(r.citation.source) ?? 0) + 1)
+
+  const byUse = [...sources].sort(
+    (a, b) => (usage.get(b.id) ?? 0) - (usage.get(a.id) ?? 0) || a.title.localeCompare(b.title),
+  )
+
+  const labels = Object.fromEntries(getSports().map((s) => [s.id, s.label]))
+  const imageGroups = [...new Set(images.map((i) => i.sport))]
+    .map((sport) => ({ sport, label: labels[sport] ?? sport, list: images.filter((i) => i.sport === sport) }))
+    .sort((a, b) => a.label.localeCompare(b.label))
 
   const incomplete = rules.filter((r) => r.citation.missing || !r.citation.article)
   const checkedPct = Math.round(((rules.length - incomplete.length) / rules.length) * 100)
@@ -108,89 +117,43 @@ export default function SourcesPage() {
         </dl>
       </Reveal>
 
-      {images.length > 0 && (
-        <Reveal as="section" className="mt-14 border-t chalk-rule pt-10">
+      {/* The rulebooks first: they are what this page is for. Most relied
+          upon at the top, so the sources that carry the most weight are the
+          ones read first. */}
+      <section className="mt-16">
+        <Reveal>
           <h2 className="flex items-baseline gap-4 font-display text-fluid-h2 text-chalk">
-            Images
-            <span className="numeral text-[18px] text-unmarked">{images.length}</span>
-            <span aria-hidden className="h-px flex-1 bg-chalk/15" />
+            Rulebooks and records
+            <span className="numeral text-[18px] text-unmarked">{sources.length}</span>
+            <span aria-hidden className="h-px flex-1 self-center bg-chalk/15" />
           </h2>
-          <p className="prose-measure mt-4 text-fluid-base text-unmarked">
-            Photographs are borrowed, so they are cited like everything else
-            borrowed here: author, licence, and the page they came from. Each
-            one is also captioned with what it is actually evidence of, which is
-            usually narrower than the section it sits in — a portrait of a
-            thrower is evidence of the thrower, not of the rule beside it. The
-            diagrams elsewhere on the site are drawn here and carry no credit
-            because none is owed.
+          <p className="prose-measure mt-3 text-fluid-base text-unmarked">
+            Ordered by how many rule changes rest on each.
           </p>
-          <ul className="mt-8 grid gap-x-10 gap-y-5 md:grid-cols-2">
-            {images.map((img) => (
-              <li key={img.id} className="flex gap-4 border-t border-chalk/10 pt-4">
-                <span
-                  aria-hidden
-                  className="mt-1 h-12 w-12 shrink-0 border border-chalk/15 bg-cover bg-center opacity-70"
-                  style={{ backgroundImage: `url(${asset(img.file)})`, filter: 'grayscale(1)' }}
-                />
-                <div className="min-w-0">
-                  <p className="text-[15px] leading-snug text-chalk/85">{img.alt}</p>
-                  <p className="mt-1 text-[13px] text-unmarked">
-                    {img.author}
-                    {' · '}
-                    {img.licence_url ? (
-                      <a
-                        href={img.licence_url}
-                        className="link-paint"
-                        target="_blank"
-                        rel="noopener noreferrer license"
-                      >
-                        {img.licence}
-                      </a>
-                    ) : (
-                      img.licence
-                    )}
-                    {' · '}
-                    <a
-                      href={img.source_url}
-                      className="link-paint"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Commons
-                    </a>
-                  </p>
-                </div>
-              </li>
-            ))}
-          </ul>
         </Reveal>
-      )}
-
-      <ul className="mt-14 border-t chalk-rule">
-        {sources.map((s, i) => (
-          <Reveal
-            as="li"
-            key={s.id}
-            delay={Math.min(i, 8) * 40}
-            className="border-b chalk-rule py-7 transition-colors hover:bg-chalk/[0.02]"
-          >
-            <div className="grid gap-x-8 gap-y-3 lg:grid-cols-[minmax(0,1fr)_16rem]">
-              <div>
-                <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1.5">
-                  <h2 className="font-display text-fluid-h3 text-chalk">
+        <ul className="mt-6 border-t chalk-rule">
+          {byUse.map((s, i) => (
+            <Reveal
+              as="li"
+              key={s.id}
+              delay={Math.min(i, 8) * 30}
+              className="grid gap-x-8 gap-y-2 border-b chalk-rule py-5 transition-colors hover:bg-chalk/[0.02] sm:grid-cols-[5rem_minmax(0,1fr)]"
+            >
+              <p className="flex items-baseline gap-2 text-[13px] text-unmarked sm:flex-col sm:gap-0">
+                <span className="numeral text-[30px] leading-none text-chalk">{usage.get(s.id) ?? 0}</span>
+                <span>{usage.get(s.id) === 1 ? 'rule change' : 'rule changes'}</span>
+              </p>
+              <div className="min-w-0">
+                <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1.5">
+                  <h3 className="font-display text-[24px] leading-tight text-chalk">
                     {s.url ? (
-                      <a
-                        href={s.url}
-                        className="link-paint"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href={s.url} className="link-paint" target="_blank" rel="noopener noreferrer">
                         {s.title}
                       </a>
                     ) : (
                       s.title
                     )}
-                  </h2>
+                  </h3>
                   <span
                     className={`border px-2 py-0.5 text-[12px] ${
                       s.standing === 'primary-checked'
@@ -201,28 +164,99 @@ export default function SourcesPage() {
                     {STANDING[s.standing].label}
                   </span>
                 </div>
-                <p className="mt-1.5 text-[15px] text-unmarked">
+                <p className="mt-1 text-[14px] text-unmarked">
                   {s.publisher} · {s.kind}
                 </p>
-                {s.note && (
-                  <p className="prose-measure mt-2.5 text-[16px] text-chalk/80">{s.note}</p>
-                )}
+                {s.note && <p className="prose-measure mt-2 text-[15.5px] text-chalk/80">{s.note}</p>}
               </div>
+            </Reveal>
+          ))}
+        </ul>
+      </section>
 
-              <p className="flex items-baseline gap-2 text-[14px] text-unmarked lg:justify-end">
-                {usage.has(s.id) ? (
-                  <>
-                    <span className="numeral text-[26px] text-chalk">{usage.get(s.id)}</span>
-                    <span>rule change{usage.get(s.id) === 1 ? '' : 's'} rest on this</span>
-                  </>
-                ) : (
-                  <span>Cited by no rule change yet</span>
-                )}
-              </p>
-            </div>
+      {images.length > 0 && (
+        <section className="mt-20">
+          <Reveal>
+            <h2 className="flex items-baseline gap-4 font-display text-fluid-h2 text-chalk">
+              Photographs
+              <span className="numeral text-[18px] text-unmarked">{images.length}</span>
+              <span aria-hidden className="h-px flex-1 self-center bg-chalk/15" />
+            </h2>
+            <p className="prose-measure mt-4 text-fluid-base text-unmarked">
+              Photographs are borrowed, so they are cited like everything else
+              borrowed here: author, licence, and the page they came from. Each
+              one is also captioned with what it is actually evidence of, which is
+              usually narrower than the section it sits in — a portrait of a
+              thrower is evidence of the thrower, not of the rule beside it. The
+              diagrams elsewhere on the site are drawn here and carry no credit
+              because none is owed.
+            </p>
           </Reveal>
-        ))}
-      </ul>
+
+          {/* By sport, folded: 561 credits in one list ran to 27,000px, and
+              every thumbnail was fetched at full size on arrival. A folded
+              group loads nothing until it is opened. */}
+          <div className="mt-8 border-t chalk-rule">
+            {imageGroups.map(({ sport, label, list }) => (
+              <details key={sport} className="group border-b chalk-rule">
+                <summary className="flex cursor-pointer list-none items-baseline gap-4 py-3.5 transition-colors hover:text-chalk [&::-webkit-details-marker]:hidden">
+                  <span aria-hidden className="numeral w-3 text-[18px] text-chalk">
+                    <span className="group-open:hidden">+</span>
+                    <span className="hidden group-open:inline">&ndash;</span>
+                  </span>
+                  <span className="font-display text-[22px] leading-none text-chalk">{label}</span>
+                  <span className="text-[13px] text-unmarked">
+                    <span className="numeral text-[16px] text-chalk/80">{list.length}</span>{' '}
+                    {list.length === 1 ? 'photograph' : 'photographs'}
+                  </span>
+                  <span className="ml-auto hidden text-right text-[13px] text-unmarked lg:block">
+                    {[...new Set(list.map((i) => i.licence))].join(' · ')}
+                  </span>
+                </summary>
+                <ul className="grid gap-x-8 gap-y-4 pb-6 pl-7 pt-1 md:grid-cols-2">
+                  {list.map((img) => (
+                    <li key={img.id} className="flex gap-4">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={asset(img.file)}
+                        alt=""
+                        width={64}
+                        height={64}
+                        loading="lazy"
+                        decoding="async"
+                        className="mt-0.5 h-16 w-16 shrink-0 border border-chalk/15 object-cover grayscale"
+                      />
+                      <div className="min-w-0">
+                        <p className="text-[15px] leading-snug text-chalk/85">{img.alt}</p>
+                        <p className="mt-1 text-[13px] text-unmarked">
+                          {img.author}
+                          {' · '}
+                          {img.licence_url ? (
+                            <a
+                              href={img.licence_url}
+                              className="link-paint"
+                              target="_blank"
+                              rel="noopener noreferrer license"
+                            >
+                              {img.licence}
+                            </a>
+                          ) : (
+                            img.licence
+                          )}
+                          {' · '}
+                          <a href={img.source_url} className="link-paint" target="_blank" rel="noopener noreferrer">
+                            Commons
+                          </a>
+                        </p>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   )
 }
