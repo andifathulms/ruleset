@@ -102,6 +102,21 @@ export default function Timeline(props: TimelineProps) {
 
   const vertical = width > 0 && width < 760
   const selectedRule = selected ? ruleMap[selected] : null
+  const detail = (
+    <Detail
+      rule={selectedRule}
+      sport={selectedRule ? sportMap[selectedRule.scope.sport] : undefined}
+      cause={selectedRule ? causeMap[selectedRule.cause_primary] : undefined}
+      breakInfo={
+        selectedRule
+          ? series.find((s) => s.series.breaks.some((b) => b.caused_by === selectedRule.id))
+              ?.series
+          : undefined
+      }
+      sources={props.sources}
+      onClose={() => setSelected(null)}
+    />
+  )
   const filtered = activeCauses.length > 0 || range !== null
 
   const toggleCause = (id: CauseId) =>
@@ -139,6 +154,7 @@ export default function Timeline(props: TimelineProps) {
             withdrawn={withdrawn}
             selected={selected}
             onSelect={setSelected}
+            detail={detail}
           />
         ) : (
           <HorizontalBoard
@@ -154,19 +170,9 @@ export default function Timeline(props: TimelineProps) {
         )}
       </div>
 
-      <Detail
-        rule={selectedRule}
-        sport={selectedRule ? sportMap[selectedRule.scope.sport] : undefined}
-        cause={selectedRule ? causeMap[selectedRule.cause_primary] : undefined}
-        breakInfo={
-          selectedRule
-            ? series.find((s) => s.series.breaks.some((b) => b.caused_by === selectedRule.id))
-                ?.series
-            : undefined
-        }
-        sources={props.sources}
-        onClose={() => setSelected(null)}
-      />
+      {/* On a phone the detail opens under the rule that was tapped; below
+          a board of 350 rows it would open a long way from the finger. */}
+      {!vertical && detail}
 
       {marks.length === 0 && (
         <p className="mt-6 border-l-2 border-unmarked pl-4 text-[15px] text-unmarked">
@@ -837,8 +843,8 @@ function DensityStrip({
           </rect>
         )
       })}
-      <text x={left} y={top - 2} fontSize={11} fill={UNMARKED} letterSpacing="0.16em">
-        HOW THICKLY THEY FALL · FIVE-YEAR BUCKETS
+      <text x={left} y={top - 2} fontSize={12} fill={UNMARKED}>
+        How thickly they fall, in five-year buckets
       </text>
     </g>
   )
@@ -849,9 +855,15 @@ function DensityStrip({
 /**
  * Mobile is a different layout, not a shrunk one: time runs down a single
  * painted spine and the marks read as a list. A break still steps the line.
+ *
+ * Grouped by decade, one decade open at a time to begin with — the most
+ * recent — because the whole list ran to three hundred and fifty rows and
+ * some forty-eight thousand pixels, which is not a board anyone reads.
+ * Each decade's header says how many changes and breaks it holds, so the
+ * shape of the history is readable with every decade closed.
  */
 function VerticalBoard({
-  lanes, bounds, causeMap, withdrawn, selected, onSelect,
+  lanes, bounds, causeMap, withdrawn, selected, onSelect, detail,
 }: {
   lanes: Lane[]
   bounds: [number, number]
@@ -859,6 +871,8 @@ function VerticalBoard({
   withdrawn: Set<string>
   selected: string | null
   onSelect: (id: string | null) => void
+  /** The open rule's detail, drawn under its row. */
+  detail: React.ReactNode
 }) {
   const rows = lanes
     .flatMap((lane) =>
@@ -870,64 +884,117 @@ function VerticalBoard({
     )
     .sort((a, b) => a.mark.time - b.mark.time)
 
-  let lastDecade: number | null = null
+  const decades = Array.from(
+    rows.reduce((map, row) => {
+      const d = Math.floor(row.mark.year / 10) * 10
+      map.set(d, [...(map.get(d) ?? []), row])
+      return map
+    }, new Map<number, typeof rows>()),
+  )
+  const densest = Math.max(1, ...decades.map(([, r]) => r.length))
+  const latest = decades.length ? decades[decades.length - 1][0] : null
+  /* Null until the reader opens or closes one: until then the latest decade
+     under the current filters is open, whichever that is. */
+  const [chosen, setChosen] = useState<number[] | null>(null)
+  const open = chosen ?? (latest === null ? [] : [latest])
+  const toggle = (d: number) =>
+    setChosen(open.includes(d) ? open.filter((x) => x !== d) : [...open, d])
+
+  if (rows.length === 0) {
+    return (
+      <p className="px-4 py-5 text-[15px] text-unmarked">
+        Nothing on the board between {bounds[0]} and {bounds[1]} under these filters.
+      </p>
+    )
+  }
 
   return (
-    <ol className="ml-5 mr-3 border-l-2 border-chalk/20 py-2">
-      {rows.map(({ mark, lane, isBreak }) => {
-        const cause = causeMap[mark.cause]
-        const bright = BRIGHT[lane.colour] ?? UNMARKED
-        const isSelected = selected === mark.id
-        const decade = Math.floor(mark.year / 10) * 10
-        const newDecade = decade !== lastDecade
-        lastDecade = decade
+    <ol className="py-1">
+      {decades.map(([decade, list]) => {
+        const isOpen = open.includes(decade)
+        const breaks = list.filter((r) => r.isBreak).length
         return (
-          <li key={mark.id} className="relative">
-            {newDecade && (
-              <p className="numeral -ml-[10px] mb-1 mt-6 w-fit bg-ink px-2 py-0.5 text-[13px] text-unmarked">
-                {decade}s
-              </p>
-            )}
-            {/* A break steps the spine here too, and nothing else may. */}
-            {isBreak && (
-              <span
-                aria-hidden
-                className="absolute -left-[2px] top-0 h-6 w-6 -translate-x-1/2 border-b-2 border-l-2 border-chalk/40"
-              />
-            )}
+          <li key={decade} className="border-b chalk-rule last:border-b-0">
             <button
               type="button"
-              onClick={() => onSelect(isSelected ? null : mark.id)}
-              aria-pressed={isSelected}
-              className={`flex w-full items-start gap-3 py-3 pl-4 pr-2 text-left transition-colors ${
-                isSelected ? 'bg-chalk/10' : 'hover:bg-chalk/5'
-              }`}
-              style={{ borderLeft: `4px solid ${bright}` }}
+              aria-expanded={isOpen}
+              onClick={() => toggle(decade)}
+              className="grid w-full grid-cols-[4.5rem_1fr_9.5rem] items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-chalk/[0.04]"
             >
-              <span className="numeral shrink-0 pt-0.5 text-[20px] text-chalk">{mark.year}</span>
-              <span className="pt-1 text-chalk">
-                <MarkGlyph
-                  shape={cause?.mark ?? 'circle'}
-                  label={cause?.label ?? mark.cause}
-                  withdrawn={withdrawn.has(mark.id)}
+              <span className="numeral text-[22px] leading-none text-chalk">{decade}s</span>
+              {/* How thickly this decade's changes fall, against the densest. */}
+              <span aria-hidden className="h-1.5 bg-chalk/10">
+                <span
+                  className="block h-full bg-chalk/60"
+                  style={{ width: `${(list.length / densest) * 100}%` }}
                 />
               </span>
-              <span className="min-w-0">
-                <span className="block text-[15px] leading-snug text-chalk">{mark.label}</span>
-                <span className="mt-0.5 block text-[13px] text-unmarked">
-                  {lane.label} · {cause?.label ?? mark.cause}
-                  {isBreak ? ` · break: ${BREAK_KIND_LABEL[isBreak.kind] ?? isBreak.kind}` : ''}
+              <span className="flex items-center justify-end gap-2 whitespace-nowrap text-[12.5px] text-unmarked">
+                <span>
+                  <span className="numeral text-[16px] text-chalk">{list.length}</span>{' '}
+                  {list.length === 1 ? 'change' : 'changes'}
+                </span>
+                {breaks > 0 && (
+                  <span>
+                    <span className="numeral text-[16px] text-chalk">{breaks}</span>{' '}
+                    {breaks === 1 ? 'break' : 'breaks'}
+                  </span>
+                )}
+                <span aria-hidden className="numeral w-3 text-[18px] text-chalk">
+                  {isOpen ? '\u2013' : '+'}
                 </span>
               </span>
             </button>
+
+            {isOpen && (
+              <ol className="mb-3 ml-5 mr-3 border-l-2 border-chalk/20">
+                {list.map(({ mark, lane, isBreak }) => {
+                  const cause = causeMap[mark.cause]
+                  const bright = BRIGHT[lane.colour] ?? UNMARKED
+                  const isSelected = selected === mark.id
+                  return (
+                    <li key={mark.id} className="relative">
+                      {/* A break steps the spine here too, and nothing else may. */}
+                      {isBreak && (
+                        <span
+                          aria-hidden
+                          className="absolute -left-[2px] top-0 h-6 w-6 -translate-x-1/2 border-b-2 border-l-2 border-chalk/40"
+                        />
+                      )}
+                      <button
+                        type="button"
+                        onClick={() => onSelect(isSelected ? null : mark.id)}
+                        aria-pressed={isSelected}
+                        className={`flex w-full items-start gap-3 py-3 pl-4 pr-2 text-left transition-colors ${
+                          isSelected ? 'bg-chalk/10' : 'hover:bg-chalk/5'
+                        }`}
+                        style={{ borderLeft: `4px solid ${bright}` }}
+                      >
+                        <span className="numeral shrink-0 pt-0.5 text-[20px] text-chalk">{mark.year}</span>
+                        <span className="pt-1 text-chalk">
+                          <MarkGlyph
+                            shape={cause?.mark ?? 'circle'}
+                            label={cause?.label ?? mark.cause}
+                            withdrawn={withdrawn.has(mark.id)}
+                          />
+                        </span>
+                        <span className="min-w-0">
+                          <span className="block text-[15px] leading-snug text-chalk">{mark.label}</span>
+                          <span className="mt-0.5 block text-[13px] text-unmarked">
+                            {lane.label} · {cause?.label ?? mark.cause}
+                            {isBreak ? ` · break: ${BREAK_KIND_LABEL[isBreak.kind] ?? isBreak.kind}` : ''}
+                          </span>
+                        </span>
+                      </button>
+                      {isSelected && <div className="-mt-5 mb-2 pl-1">{detail}</div>}
+                    </li>
+                  )
+                })}
+              </ol>
+            )}
           </li>
         )
       })}
-      {rows.length === 0 && (
-        <li className="py-4 pl-4 text-[15px] text-unmarked">
-          Nothing on the board between {bounds[0]} and {bounds[1]} under these filters.
-        </li>
-      )}
     </ol>
   )
 }

@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import Timeline from '@/components/Timeline'
 import BreakDiagram from '@/components/BreakDiagram'
+import SportCover from '@/components/SportCover'
 import { Counter, Reveal } from '@/components/Motion'
 import { BREAK_KIND_LABEL } from '@/lib/series'
 import {
-  getAllRuleChanges, getAllSeries, getCauses, getLenses, getProgram, getProgrammes, getSources,
+  getAllRuleChanges, getAllSeries, getCauses, getCover, getLenses, getProgram, getProgrammes, getSources,
   getSports,
 } from '@/lib/content'
 
@@ -14,10 +15,6 @@ const COLOUR: Record<string, { base: string; bright: string }> = {
   clay: { base: '#B7502A', bright: '#EA7E4E' },
   gold: { base: '#C8A02C', bright: '#F2C94F' },
   unmarked: { base: '#7A8C8A', bright: '#9FB2B0' },
-}
-
-const NUMBER: Record<number, string> = {
-  1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six', 7: 'Seven', 8: 'Eight',
 }
 
 const KIND_BLURB: Record<string, string> = {
@@ -43,6 +40,18 @@ export default function Home() {
   const kinds = Array.from(new Set(broken.map((b) => b.brk.kind)))
   const label = Object.fromEntries(sports.map((s) => [s.id, s.label]))
   const earliest = Math.min(...rules.map((r) => Number(r.date_effective.slice(0, 4))))
+
+  /* The sports whose rule changes broke the most series, among those with a
+     cover to show — a break counted once per year, as on the sport page. */
+  const featured = deep
+    .map((sport) => ({
+      sport,
+      cover: getCover(sport),
+      breaks: new Set(broken.filter((b) => b.sport === sport.id).map((b) => b.brk.at)).size,
+    }))
+    .filter((f): f is typeof f & { cover: NonNullable<typeof f.cover> } => f.cover !== null)
+    .sort((a, b) => b.breaks - a.breaks || a.sport.label.localeCompare(b.sport.label))
+    .slice(0, 7)
 
   return (
     <>
@@ -173,82 +182,76 @@ export default function Home() {
       </section>
 
       {/* ---------------------------------------------------------- sports */}
+      {/* A way in, not a second index: the sports whose rules broke the most
+         series, and the door to all of them. The full list lives at /sports/. */}
       <section className="mx-auto max-w-[86rem] px-5 py-16 sm:py-24">
         <Reveal>
-          <p className="eyebrow">The deep layer</p>
-          <h2 className="mt-3 text-fluid-h2 text-chalk">
-            {NUMBER[deep.length] ?? deep.length} sports, one rulebook at a time
-          </h2>
-          <p className="prose-measure mt-4 text-fluid-base text-chalk/80">
-            At least one from each family, chosen because a &ldquo;rule&rdquo;
-            is a structurally different object in each — a scoring system, an
-            implement, a use of space, the scale itself. Building one of each
-            first stops the data model overfitting to a single shape.
-          </p>
+          <div className="flex flex-wrap items-end justify-between gap-x-10 gap-y-5">
+            <div>
+              <p className="eyebrow">The deep layer</p>
+              <h2 className="mt-3 text-fluid-h2 text-chalk">
+                {deep.length} sports, one rulebook at a time
+              </h2>
+              <p className="prose-measure mt-4 text-fluid-base text-chalk/80">
+                Each with its rule changes, a cause and a citation apiece, its
+                laws in force, and the breaks those changes left in its
+                numbers. These are the ones whose rules broke the most.
+              </p>
+            </div>
+            <Link
+              href="/sports/"
+              className="group inline-flex items-center gap-3 border border-chalk/30 px-5 py-2.5 font-display text-lg text-chalk transition-colors hover:border-chalk"
+            >
+              Browse all {deep.length}
+              <span aria-hidden className="transition-transform duration-300 group-hover:translate-x-1">
+                →
+              </span>
+            </Link>
+          </div>
         </Reveal>
 
-        <ul className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {deep.map((s, i) => {
+        <ul className="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
+          {featured.map(({ sport: s, cover, breaks }, i) => {
             const c = COLOUR[s.family_colour] ?? COLOUR.unmarked
-            const n = rules.filter((r) => r.scope.sport === s.id).length
-            const b = broken.filter((x) => x.sport === s.id).length
             return (
-              <Reveal as="li" key={s.id} delay={i * 70}>
+              <Reveal as="li" key={s.id} delay={i * 60}>
                 <Link
                   href={`/sports/${s.id}/`}
-                  className="lift group relative flex h-full flex-col overflow-hidden border border-chalk/[0.12] bg-surface/60 p-6 hover:border-chalk/35 hover:bg-surface"
+                  className="group relative block aspect-[4/3] overflow-hidden border border-chalk/[0.12] transition-colors hover:border-[var(--bright)]"
+                  style={{ ['--bright' as string]: c.bright }}
                 >
-                  {/* The family colour arrives as the card is entered. */}
-                  <span
-                    aria-hidden
-                    className="absolute inset-x-0 top-0 h-1 origin-left scale-x-100 transition-transform duration-500 ease-paint sm:scale-x-[0.22] sm:group-hover:scale-x-100"
-                    style={{ background: c.bright }}
+                  <SportCover
+                    image={{ file: cover.file, alt: cover.alt, width: cover.width, height: cover.height, position: s.cover_position }}
+                    colour={s.family_colour}
+                    label={s.label}
+                    className="!absolute inset-0"
                   />
-                  <span
-                    aria-hidden
-                    className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100"
-                    style={{
-                      background: `radial-gradient(24rem 14rem at 50% 0%, ${c.base}33, transparent 70%)`,
-                    }}
-                  />
-                  <h3 className="relative font-display text-fluid-h3 text-chalk">{s.label}</h3>
-                  <p className="relative mt-2 flex-1 text-[15px] leading-snug text-chalk/75">
-                    {s.tagline}
-                  </p>
-                  <p className="relative mt-5 flex items-baseline gap-4 text-[13px] text-unmarked">
-                    <span>
-                      <span className="numeral text-[17px] text-chalk">{n}</span> rules
+                  <span aria-hidden className="absolute inset-0 bg-gradient-to-t from-ink via-ink/30 to-transparent" />
+                  <span className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-2 p-3 sm:p-4">
+                    <span className="font-display text-[22px] leading-none text-chalk sm:text-[28px]">{s.label}</span>
+                    <span className="whitespace-nowrap text-[12px] text-dim">
+                      <span className="numeral text-[18px]" style={{ color: c.bright }}>{breaks}</span>{' '}
+                      {breaks === 1 ? 'break' : 'breaks'}
                     </span>
-                    <span>
-                      <span className="numeral text-[17px]" style={{ color: c.bright }}>
-                        {b}
-                      </span>{' '}
-                      {b === 1 ? 'break' : 'breaks'}
-                    </span>
-                    <span className="ml-auto transition-transform duration-300 group-hover:translate-x-1">
-                      →
-                    </span>
-                  </p>
+                  </span>
                 </Link>
               </Reveal>
             )
           })}
-
-          {/* The skeleton layer never borrows the deep layer's authority. */}
-          <Reveal as="li" delay={deep.length * 70}>
+          <Reveal as="li" delay={featured.length * 60}>
             <Link
-              href="/program/"
-              className="lift flex h-full flex-col border border-dashed border-unmarked/50 p-6 hover:border-unmarked"
+              href="/sports/"
+              className="group flex aspect-[4/3] flex-col justify-between border border-dashed border-chalk/25 p-3 transition-colors hover:border-chalk/60 hover:bg-surface sm:p-4"
             >
-              <h3 className="font-display text-fluid-h3 text-unmarked-bright">
-                Everything else
-              </h3>
-              <p className="mt-2 flex-1 text-[15px] leading-snug text-unmarked">
-                {program.sports.length - deep.length} more sports are present as
-                Olympic status data only. No causes, no rule citations, and they
-                say so.
-              </p>
-              <p className="mt-5 text-[13px] text-unmarked">Not yet covered →</p>
+              <span className="text-[13px] text-unmarked">
+                and {deep.length - featured.length} more, searchable by lens
+              </span>
+              <span className="font-display text-[22px] leading-none text-chalk sm:text-[28px]">
+                All sports{' '}
+                <span aria-hidden className="inline-block transition-transform duration-300 group-hover:translate-x-1">
+                  →
+                </span>
+              </span>
             </Link>
           </Reveal>
         </ul>
