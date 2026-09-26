@@ -24,7 +24,7 @@ export interface NavItem {
 
 /** Which section is being read, and how far through it, from the scroll. */
 function useReading(items: NavItem[]) {
-  const [state, setState] = useState({ index: 0, progress: 0 })
+  const [state, setState] = useState({ index: 0, progress: 0, past: false })
 
   useEffect(() => {
     let frame = 0
@@ -35,6 +35,7 @@ function useReading(items: NavItem[]) {
       const line = header + window.innerHeight * 0.25
       let index = 0
       let progress = 0
+      let past = false
       items.forEach((item, i) => {
         const el = document.getElementById(item.id)
         if (!el) return
@@ -43,8 +44,14 @@ function useReading(items: NavItem[]) {
           index = i
           progress = Math.min(1, Math.max(0, (line - box.top) / Math.max(1, box.height)))
         }
+        // Past the end of the last section: the page is on its pager and footer.
+        if (i === items.length - 1) past = box.bottom < window.innerHeight * 0.6
       })
-      setState((s) => (s.index === index && Math.abs(s.progress - progress) < 0.01 ? s : { index, progress }))
+      setState((s) =>
+        s.index === index && s.past === past && Math.abs(s.progress - progress) < 0.01
+          ? s
+          : { index, progress, past },
+      )
     }
     const onScroll = () => {
       if (!frame) frame = requestAnimationFrame(measure)
@@ -66,7 +73,7 @@ const pad = (n: number) => String(n).padStart(2, '0')
 
 /** The tablet strip and the phone sheet. Hidden on a wide screen, where the rail takes over. */
 export default function SectionNav({ items, colour }: { items: NavItem[]; colour: string }) {
-  const { index, progress } = useReading(items)
+  const { index, progress, past } = useReading(items)
   const active = items[index]?.id
   const bar = useRef<HTMLElement>(null)
 
@@ -133,7 +140,7 @@ export default function SectionNav({ items, colour }: { items: NavItem[]; colour
         </ul>
       </nav>
 
-      <SectionSheet items={items} index={index} progress={progress} colour={colour} />
+      <SectionSheet items={items} index={index} progress={progress} past={past} colour={colour} />
     </>
   )
 }
@@ -222,11 +229,14 @@ function SectionSheet({
   items,
   index,
   progress,
+  past,
   colour,
 }: {
   items: NavItem[]
   index: number
   progress: number
+  /** Scrolled past the last section: the button steps aside for the footer. */
+  past: boolean
   colour: string
 }) {
   const [open, setOpen] = useState(false)
@@ -259,7 +269,11 @@ function SectionSheet({
         aria-expanded={open}
         aria-controls="section-sheet"
         onClick={() => setOpen(true)}
-        className="fixed bottom-[calc(1rem+env(safe-area-inset-bottom,0px))] left-1/2 z-40 flex -translate-x-1/2 items-center gap-2.5 whitespace-nowrap rounded-full bg-chalk py-2 pl-2 pr-4 text-[14px] font-semibold text-ink shadow-[0_12px_30px_rgb(0_0_0/0.55)]"
+        tabIndex={past ? -1 : undefined}
+        aria-hidden={past || undefined}
+        className={`fixed bottom-[calc(1rem+env(safe-area-inset-bottom,0px))] left-1/2 z-40 flex -translate-x-1/2 transition-[opacity,transform] duration-300 ${
+          past ? 'pointer-events-none translate-y-6 opacity-0' : ''
+        } items-center gap-2.5 whitespace-nowrap rounded-full bg-chalk py-2 pl-2 pr-4 text-[14px] font-semibold text-ink shadow-[0_12px_30px_rgb(0_0_0/0.55)]`}
       >
         <svg viewBox="0 0 26 26" className="h-[26px] w-[26px] -rotate-90" aria-hidden>
           <circle cx="13" cy="13" r={R} stroke="#04131722" strokeWidth="3" fill="none" />
