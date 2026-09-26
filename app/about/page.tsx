@@ -139,7 +139,11 @@ export default function AboutPage() {
               </span>
               <div>
                 <dt className="font-display text-[21px] text-chalk">{c.label}</dt>
-                <dd className="mt-1 text-[15px] leading-snug text-chalk/75">{c.definition}</dd>
+                <dd className="mt-1 text-[15px] leading-snug text-chalk/75">
+                  {/* The YAML marks field names in backticks; DESIGN.md rules
+                      out monospace, and raw backticks read as noise. */}
+                  {c.definition.replace(/`([^`]+)`/g, '$1')}
+                </dd>
               </div>
             </div>
           ))}
@@ -148,21 +152,26 @@ export default function AboutPage() {
 
       <Reveal as="section" className="mt-20">
         <h2 className="flex items-baseline gap-4 font-display text-fluid-h2 text-chalk">
-          The three lenses
+          The {['no', 'one', 'two', 'three', 'four', 'five', 'six'][lenses.length] ?? lenses.length} lenses
           <span aria-hidden className="h-px flex-1 bg-chalk/15" />
         </h2>
-        <dl className="mt-8 grid gap-6 lg:grid-cols-3">
+        <dl className="mt-8 grid gap-x-10 gap-y-8 lg:grid-cols-2">
           {lenses.map((l) => (
             <div key={l.id} className="border-t-2 border-chalk/30 pt-4">
               <dt className="font-display text-fluid-h3 text-chalk">{l.label}</dt>
               <dd className="mt-2 text-[16px] leading-relaxed text-chalk/80">
                 {l.blurb}
                 <span className="mt-3 flex flex-wrap gap-x-2 gap-y-1 text-[13px] text-unmarked">
-                  {l.groups.map((g) => (
+                  {/* A lens with a group per sport would print every sport's
+                      name here; a sample says what kind of grouping it is. */}
+                  {(l.groups.length > 12 ? l.groups.slice(0, 8) : l.groups).map((g) => (
                     <span key={g.id} className="border border-chalk/15 px-2 py-0.5">
                       {g.label}
                     </span>
                   ))}
+                  {l.groups.length > 12 && (
+                    <span className="px-1 py-0.5">and {l.groups.length - 8} more, one per sport</span>
+                  )}
                 </span>
               </dd>
             </div>
