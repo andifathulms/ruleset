@@ -13,7 +13,7 @@ export default function ProgramPage() {
   const programmes = getProgrammes()
 
   return (
-    <div className="mx-auto max-w-[100rem] px-5 py-12 sm:py-16">
+    <div className="mx-auto max-w-[86rem] px-5 py-12 sm:py-16">
       <Reveal>
         <p className="eyebrow">The skeleton layer</p>
         <h1 className="display-xl mt-4 max-w-[18ch] text-fluid-h1 text-chalk">The programmes</h1>
