@@ -4,14 +4,45 @@ import Link from 'next/link'
 import './globals.css'
 import SiteHeader from '@/components/SiteHeader'
 import { HashLanding, ScrollProgress } from '@/components/Motion'
+import { DEFAULT_CARD, SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL, url } from '@/lib/seo'
 
+/*
+  The site-wide defaults, and the card every page inherits unless it sets its
+  own. A shared link previously arrived in a chat app as a bare URL: there was
+  no og:image, and the relative paths a static export emits are not resolved
+  by scrapers anyway, so every URL below is absolute.
+*/
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
-    default: 'Ruleset — how sports became the sports they are',
-    template: '%s — Ruleset',
+    default: `${SITE_NAME} — ${SITE_TAGLINE.toLowerCase()}`,
+    template: `%s — ${SITE_NAME}`,
   },
-  description:
-    'How sports became the sports they are. Rule changes with a cause, a date, a citation, and a measurable consequence.',
+  description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
+  keywords: [
+    'sport rules', 'rule changes', 'rulebook history', 'governing bodies',
+    'comparability break', 'sports records', 'Olympic programme',
+  ],
+  authors: [{ name: 'Andi Fathul Mukminin' }],
+  creator: 'Andi Fathul Mukminin',
+  alternates: { canonical: url('/') },
+  openGraph: {
+    type: 'website',
+    url: url('/'),
+    siteName: SITE_NAME,
+    title: `${SITE_NAME} — ${SITE_TAGLINE.toLowerCase()}`,
+    description: SITE_DESCRIPTION,
+    locale: 'en_GB',
+    images: [DEFAULT_CARD],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${SITE_NAME} — ${SITE_TAGLINE.toLowerCase()}`,
+    description: SITE_DESCRIPTION,
+    images: [DEFAULT_CARD.url],
+  },
+  robots: { index: true, follow: true },
 }
 
 export const viewport: Viewport = { themeColor: '#041317' }

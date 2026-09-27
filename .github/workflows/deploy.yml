@@ -29,6 +29,9 @@ jobs:
 
       # A project site is served from /<repo>, so the built asset paths need
       # that prefix. A user or org page is served from the root and needs none.
+      # The origin goes with it: social cards need absolute URLs, and a
+      # scraper cannot resolve a relative one. Pages serves the owner in
+      # lower case, so the host is folded before it is used.
       - name: Work out the base path
         id: base
         run: |
@@ -37,10 +40,13 @@ jobs:
           else
             echo "path=/${{ github.event.repository.name }}" >> "$GITHUB_OUTPUT"
           fi
+          owner=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
+          echo "origin=https://$owner.github.io" >> "$GITHUB_OUTPUT"
 
       - run: npm run build
         env:
           BASE_PATH: ${{ steps.base.outputs.path }}
+          SITE_ORIGIN: ${{ steps.base.outputs.origin }}
 
       # Pages otherwise runs the export through Jekyll, which drops _next/.
       - run: touch out/.nojekyll

@@ -5,6 +5,8 @@
   "description": "How sports became the sports they are.",
   "scripts": {
     "dev": "next dev",
+    "og": "node scripts/og.mjs",
+    "prebuild": "npm run og",
     "build": "next build",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"
