@@ -96,3 +96,69 @@ export const DEFAULT_CARD: CardImage = {
 export function pageCard(name: string, alt: string): CardImage {
   return { url: assetUrl(`/og/${name}.png`), width: 1200, height: 630, alt }
 }
+
+/** The site itself, declared once on the home page. */
+export function siteSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE_NAME,
+    alternateName: `${SITE_NAME} — ${SITE_TAGLINE}`,
+    url: url('/'),
+    description: SITE_DESCRIPTION,
+    inLanguage: 'en-GB',
+    author: { '@type': 'Person', name: 'Andi Fathul Mukminin' },
+  }
+}
+
+/**
+ * A sport page, as an article about a defined thing.
+ *
+ * `about` names the sport and its governing body rather than leaving the
+ * page to be read as generic prose, and the citation count is stated because
+ * it is what the page is for.
+ */
+export function sportSchema({
+  id, label, description, governingBody, rules, image,
+}: {
+  id: string
+  label: string
+  description: string
+  governingBody?: string
+  rules: number
+  image: string
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: `${label} — how its rules changed`,
+    description,
+    image,
+    inLanguage: 'en-GB',
+    isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: url('/') },
+    mainEntityOfPage: url(`/sports/${id}/`),
+    author: { '@type': 'Person', name: 'Andi Fathul Mukminin' },
+    about: {
+      '@type': 'Thing',
+      name: label,
+      ...(governingBody
+        ? { subjectOf: { '@type': 'Organization', name: governingBody } }
+        : {}),
+    },
+    ...(rules > 0 ? { articleSection: `${rules} recorded rule changes` } : {}),
+  }
+}
+
+/** The trail a crawler shows under a result: Ruleset › Sports › Badminton. */
+export function breadcrumbSchema(trail: { name: string; path: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: trail.map((step, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: step.name,
+      item: url(step.path),
+    })),
+  }
+}

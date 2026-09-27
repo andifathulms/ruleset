@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import JsonLd from '@/components/JsonLd'
+import { siteSchema } from '@/lib/seo'
 import Timeline from '@/components/Timeline'
 import BreakDiagram from '@/components/BreakDiagram'
 import SportCover from '@/components/SportCover'
@@ -55,6 +57,8 @@ export default function Home() {
 
   return (
     <>
+      <JsonLd data={siteSchema()} />
+
       {/* ------------------------------------------------------------ hero */}
       <section className="relative overflow-hidden border-b chalk-rule">
         <div aria-hidden className="court-grid court-grid-fade absolute inset-0" />

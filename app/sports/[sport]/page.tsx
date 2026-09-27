@@ -2,7 +2,8 @@ import Link from 'next/link'
 import Emphasis from '@/components/Emphasis'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { card, pageCard } from '@/lib/seo'
+import JsonLd from '@/components/JsonLd'
+import { assetUrl, breadcrumbSchema, card, pageCard, sportSchema } from '@/lib/seo'
 import Prose from '@/components/Prose'
 import SeriesChart from '@/components/SeriesChart'
 import RuleList from '@/components/RuleList'
@@ -368,8 +369,30 @@ export default function SportPage({ params }: { params: { sport: string } }) {
 
   const editions = program?.held.length ?? 0
 
+  const line =
+    sport.tagline ??
+    `How ${sport.label} became the sport it is: every rule change with a cause, a date and a citation.`
+
   return (
     <article>
+      <JsonLd
+        data={sportSchema({
+          id: sport.id,
+          label: sport.label,
+          description: line,
+          governingBody: sport.governing_body,
+          rules: rules.length,
+          image: assetUrl(`/og/sports/${sport.id}.png`),
+        })}
+      />
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: 'Ruleset', path: '/' },
+          { name: 'Sports', path: '/sports/' },
+          { name: sport.label, path: `/sports/${sport.id}/` },
+        ])}
+      />
+
       {/* 1. Identity: the cover, the name, and the sport at a glance. */}
       <header className="relative isolate overflow-hidden border-b chalk-rule">
         {cover ? (
