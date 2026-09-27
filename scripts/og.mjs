@@ -26,6 +26,16 @@ const INK = '#041317'
 const CHALK = '#F2F5F1'
 const DIM = '#9FB2B0'
 
+/* The bright end of each family's colour, which is the pairing the site uses
+   for a mark on the ink background. */
+const FAMILY = {
+  pool: '#57ACE8',
+  pitch: '#5CC684',
+  clay: '#EA7E4E',
+  gold: '#F2C94F',
+  unmarked: '#9FB2B0',
+}
+
 const font = (file) => fs.readFileSync(path.join(FONTS, file))
 
 const fonts = [
@@ -39,13 +49,13 @@ function SteppedRule({ colour }) {
   return {
     type: 'div',
     props: {
-      style: { display: 'flex', position: 'absolute', left: 80, right: 0, bottom: 150, height: 34, alignItems: 'flex-end' },
+      style: { display: 'flex', width: 1040, height: 32, alignItems: 'flex-end', marginTop: 36 },
       children: [
-        { type: 'div', props: { style: { display: 'flex', width: 430, height: 2, background: CHALK, opacity: 0.3 } } },
+        { type: 'div', props: { style: { display: 'flex', width: 400, height: 2, background: CHALK, opacity: 0.3 } } },
         { type: 'div', props: { style: { display: 'flex', width: 26, height: 2 } } },
-        { type: 'div', props: { style: { display: 'flex', width: 2, height: 32, background: colour, opacity: 0.9 } } },
+        { type: 'div', props: { style: { display: 'flex', width: 2, height: 30, background: colour, opacity: 0.9 } } },
         { type: 'div', props: { style: { display: 'flex', width: 26, height: 2 } } },
-        { type: 'div', props: { style: { display: 'flex', flexGrow: 1, height: 2, background: colour, opacity: 0.9, marginBottom: 30 } } },
+        { type: 'div', props: { style: { display: 'flex', flexGrow: 1, height: 2, background: colour, opacity: 0.9, marginBottom: 28 } } },
       ],
     },
   }
@@ -56,6 +66,12 @@ function SteppedRule({ colour }) {
  * the one line a reader gets in a chat app before deciding to open it.
  */
 function Card({ eyebrow, title, note, footer, colour }) {
+  // A tagline runs long, and a card that overflows its 630px crops mid-word
+  // in the preview. The type steps down instead, and the footer is pushed to
+  // the bottom by the flow rather than pinned over it.
+  const titleSize = title.length > 30 ? 76 : title.length > 20 ? 88 : 104
+  const noteSize = note.length > 150 ? 25 : note.length > 100 ? 27 : 30
+
   return {
     type: 'div',
     props: {
@@ -67,8 +83,7 @@ function Card({ eyebrow, title, note, footer, colour }) {
         background: INK,
         color: CHALK,
         fontFamily: 'Plex',
-        padding: '72px 80px',
-        position: 'relative',
+        padding: '64px 80px 60px',
       },
       children: [
         // The mark and the eyebrow carry the accent: a sport card takes its
@@ -82,7 +97,10 @@ function Card({ eyebrow, title, note, footer, colour }) {
               {
                 type: 'div',
                 props: {
-                  style: { display: 'flex', fontSize: 24, letterSpacing: 6, fontWeight: 600, color: colour, textTransform: 'uppercase' },
+                  style: {
+                    display: 'flex', fontSize: 23, letterSpacing: 5, fontWeight: 600, color: colour,
+                    textTransform: 'uppercase',
+                  },
                   children: eyebrow,
                 },
               },
@@ -93,8 +111,8 @@ function Card({ eyebrow, title, note, footer, colour }) {
           type: 'div',
           props: {
             style: {
-              display: 'flex', fontFamily: 'Archivo', fontWeight: 700, fontSize: title.length > 26 ? 84 : 104,
-              lineHeight: 1.04, marginTop: 26, letterSpacing: -2, maxWidth: 980,
+              display: 'flex', fontFamily: 'Archivo', fontWeight: 700, fontSize: titleSize,
+              lineHeight: 1.04, marginTop: 24, letterSpacing: -2, maxWidth: 1000,
             },
             children: title,
           },
@@ -102,15 +120,16 @@ function Card({ eyebrow, title, note, footer, colour }) {
         {
           type: 'div',
           props: {
-            style: { display: 'flex', fontSize: 30, lineHeight: 1.42, color: DIM, marginTop: 28, maxWidth: 900 },
+            style: { display: 'flex', fontSize: noteSize, lineHeight: 1.4, color: DIM, marginTop: 24, maxWidth: 920 },
             children: note,
           },
         },
+        { type: 'div', props: { style: { display: 'flex', flexGrow: 1 } } },
         SteppedRule({ colour }),
         {
           type: 'div',
           props: {
-            style: { display: 'flex', position: 'absolute', left: 80, right: 80, bottom: 64, justifyContent: 'space-between', fontSize: 24, color: DIM },
+            style: { display: 'flex', justifyContent: 'space-between', fontSize: 24, color: DIM, marginTop: 26 },
             children: [
               { type: 'div', props: { style: { display: 'flex', fontWeight: 600, color: CHALK }, children: 'Ruleset' } },
               { type: 'div', props: { style: { display: 'flex' }, children: footer } },
@@ -139,27 +158,41 @@ const sportIds = () =>
     .sort()
 
 function tally() {
-  const sports = sportIds().map((id) => ({ ...readYaml('sports', id, 'sport.yaml'), id }))
+  const sports = sportIds().map((id) => {
+    const sport = { ...readYaml('sports', id, 'sport.yaml'), id }
+
+    const rulesFile = path.join(CONTENT, 'sports', id, 'rules.yaml')
+    sport.rules = fs.existsSync(rulesFile) ? (readYaml('sports', id, 'rules.yaml') ?? []).length : 0
+
+    const seriesDir = path.join(CONTENT, 'sports', id, 'series')
+    // A series file carries a `breaks` list; the single-break form in the
+    // docs is accepted too, so the count does not depend on which was used.
+    sport.breaks = !fs.existsSync(seriesDir)
+      ? 0
+      : fs.readdirSync(seriesDir)
+          .map((file) => readYaml('sports', id, 'series', file))
+          .flatMap((series) => series?.breaks ?? (series?.break ? [series.break] : []))
+          .filter((b) => b.kind !== 'none')
+          .length
+
+    return sport
+  })
+
   const deep = sports.filter((s) => s.coverage === 'deep')
+  const rules = deep.reduce((total, s) => total + s.rules, 0)
+  const breaks = deep.reduce((total, s) => total + s.breaks, 0)
 
-  let rules = 0
-  let breaks = 0
-  for (const s of deep) {
-    const rulesFile = path.join(CONTENT, 'sports', s.id, 'rules.yaml')
-    if (fs.existsSync(rulesFile)) rules += (readYaml('sports', s.id, 'rules.yaml') ?? []).length
-
-    const seriesDir = path.join(CONTENT, 'sports', s.id, 'series')
-    if (!fs.existsSync(seriesDir)) continue
-    for (const file of fs.readdirSync(seriesDir)) {
-      const series = readYaml('sports', s.id, 'series', file)
-      if (series?.break && series.break.kind !== 'none') breaks += 1
-    }
-  }
-
+  // The skeleton layer lives in the programmes rather than in /content/sports,
+  // so the count of sports carried as status only comes from there.
   const programmes = ['olympic', 'asian-games', 'world-games'].map((p) => readYaml('programmes', `${p}.yaml`))
+  const skeleton = new Set(
+    programmes.flatMap((p) => (p.sports ?? []).filter((s) => s.coverage === 'skeleton').map((s) => s.id)),
+  )
 
   return {
+    list: sports,
     sports: sports.length,
+    skeleton: skeleton.size,
     deep: deep.length,
     rules,
     breaks,
@@ -194,8 +227,8 @@ function pages(n) {
     sports: {
       eyebrow: 'The record',
       title: 'Sports',
-      note: `${plural(n.deep, 'sport researched', 'sports researched')} rule by rule; the other ${n.sports - n.deep} carried as status data and marked as such.`,
-      footer: `${n.sports} sports`,
+      note: `${plural(n.deep, 'sport researched', 'sports researched')} rule by rule, and ${n.skeleton} more carried as status data and marked as such.`,
+      footer: `${n.sports + n.skeleton} sports`,
     },
     breaks: {
       eyebrow: 'Where the numbers stop',
@@ -239,6 +272,35 @@ async function main() {
 
   for (const [name, spec] of Object.entries(pages(n))) {
     await write(name, Card({ ...spec, colour: CHALK }))
+    count += 1
+  }
+
+  /*
+    One card per sport. This is the link people actually send each other, and
+    until now it arrived with nothing attached. The eyebrow names the body
+    that writes the laws, the note is the sport's own tagline, and the footer
+    says how much of it has been researched — so a reader can tell a
+    researched sport from a thin one before opening the page.
+  */
+  fs.mkdirSync(path.join(OUT, 'sports'), { recursive: true })
+  for (const sport of n.list) {
+    const researched = sport.coverage === 'deep' && sport.rules > 0
+    const footer = !researched
+      ? 'Not yet researched'
+      : sport.breaks > 0
+        ? `${plural(sport.rules, 'rule change', 'rule changes')} · ${plural(sport.breaks, 'break', 'breaks')}`
+        : plural(sport.rules, 'rule change', 'rule changes')
+
+    await write(
+      `sports/${sport.id}`,
+      Card({
+        eyebrow: sport.governing_body ?? 'Rule changes',
+        title: sport.label,
+        note: (sport.tagline ?? '').trim(),
+        footer,
+        colour: FAMILY[sport.family_colour] ?? CHALK,
+      }),
+    )
     count += 1
   }
 

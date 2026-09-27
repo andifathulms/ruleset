@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Emphasis from '@/components/Emphasis'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
+import { card, pageCard } from '@/lib/seo'
 import Prose from '@/components/Prose'
 import SeriesChart from '@/components/SeriesChart'
 import RuleList from '@/components/RuleList'
@@ -102,10 +103,23 @@ export function generateStaticParams() {
   return getSportIds().map((sport) => ({ sport }))
 }
 
+/**
+ * A sport page is the link people actually send, so its card is the one that
+ * has to carry the sport: the family colour, the tagline, and how much of the
+ * rule history has been researched. scripts/og.mjs draws one per sport from
+ * the same content this page renders.
+ */
 export function generateMetadata({ params }: { params: { sport: string } }): Metadata {
   try {
     const sport = getSport(params.sport)
-    return { title: sport.label, description: sport.tagline }
+    const line = sport.tagline ?? `How ${sport.label} became the sport it is: every rule change with a cause, a date and a citation.`
+    return card({
+      title: sport.label,
+      description: line,
+      path: `/sports/${sport.id}/`,
+      image: pageCard(`sports/${sport.id}`, `${sport.label} — ${line}`),
+      type: 'article',
+    })
   } catch {
     return { title: 'Sport' }
   }
