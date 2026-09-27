@@ -20,7 +20,13 @@ npm run build    # static export to out/
 
 Next.js 14 with `output: 'export'`. No backend, no database, no API routes, no
 runtime fetching. Pushing to `main` builds and publishes to GitHub Pages; the
-workflow works out `BASE_PATH` from the repository name.
+workflow works out `BASE_PATH` and `SITE_ORIGIN` from the repository name.
+
+`npm run build` first runs `npm run og`, which draws the social card images
+into `public/og` — one per page and one per sport, with the counts read from
+`/content`. They are build output and are not committed, so a card can never
+quote a number the pages no longer show. Run `npm run og` alone to see them
+without a full build.
 
 ## What is here
 
@@ -411,9 +417,13 @@ Uncovered sports show status and classification only and are marked as such.
                          officiating, geography, contested
 /lib
   types.ts               the data model
+  seo.ts                 absolute URLs, social cards, structured data
   content.ts             build-time loaders
   timeline.ts            lanes, marks, and the break-in-the-lane geometry
   series.ts              segment handling — the hard rules live here
+/scripts
+  og.mjs                 the social cards, drawn at build time
+/assets/fonts            the faces those cards are set in
 /components
   CurrentLaws.tsx        the laws in force, linked back to what produced them
   LearningCurve.tsx      two verdicts, with what each rests on
@@ -429,6 +439,7 @@ Uncovered sports show status and classification only and are marked as such.
   Motion.tsx             scroll reveal, counters, read progress
   SiteHeader.tsx         sticky nav that condenses on scroll
   SectionNav.tsx         where in a sport page you are
+  JsonLd.tsx             schema.org, built from the same content
 ```
 
 ## The editorial layer
