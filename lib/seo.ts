@@ -91,3 +91,8 @@ export const DEFAULT_CARD: CardImage = {
   height: 630,
   alt: `${SITE_NAME} — ${SITE_TAGLINE}`,
 }
+
+/** The generated card for a page, by the file name scripts/og.mjs wrote. */
+export function pageCard(name: string, alt: string): CardImage {
+  return { url: assetUrl(`/og/${name}.png`), width: 1200, height: 630, alt }
+}

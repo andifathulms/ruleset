@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { card, pageCard } from '@/lib/seo'
 import SeriesChart from '@/components/SeriesChart'
 import BreakDiagram from '@/components/BreakDiagram'
 import BreaksFilter from '@/components/BreaksFilter'
@@ -8,11 +9,13 @@ import { BREAK_KIND_LABEL } from '@/lib/series'
 import { headline } from '@/lib/text'
 import { getAllRuleChanges, getAllSeries, getSports } from '@/lib/content'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = card({
   title: 'Comparability breaks',
   description:
     'Rule changes that severed a quantitative series, and what each governing body decided to do about it.',
-}
+  path: '/breaks/',
+  image: pageCard('breaks', 'Comparability breaks — Ruleset'),
+})
 
 const KIND_ORDER = ['reset', 'retained', 'scale-change', 'scoped', 'unified', 'none']
 

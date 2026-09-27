@@ -1,15 +1,19 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { card, pageCard } from '@/lib/seo'
 import { Reveal } from '@/components/Motion'
 import SportsBrowser, { type BrowserLens, type SportCard } from '@/components/SportsBrowser'
 import {
   getAllRuleChanges, getAllSeries, getCover, getLenses, getProgrammes, getSports,
 } from '@/lib/content'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = card({
   title: 'Sports',
-  description: 'Two layers, marked as such: the researched sports, and the rest of the Olympic, Asian Games and World Games programmes as status data only.',
-}
+  description:
+    'Two layers, marked as such: the researched sports, and the rest of the Olympic, Asian Games and World Games programmes as status data only.',
+  path: '/sports/',
+  image: pageCard('sports', 'Sports — Ruleset'),
+})
 
 /* The lenses the index can group by. The official lens is left out: it is
    one sport to one group, which groups nothing. */

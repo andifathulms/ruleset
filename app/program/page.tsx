@@ -1,13 +1,16 @@
 import type { Metadata } from 'next'
+import { card, pageCard } from '@/lib/seo'
 import { Reveal } from '@/components/Motion'
 import ProgrammeBoard from '@/components/ProgrammeBoard'
 import { getProgrammes, getSources } from '@/lib/content'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = card({
   title: 'The programmes',
   description:
     'Every sport on the Olympic, Asian Games and World Games programmes, with its status per edition. Status data only.',
-}
+  path: '/program/',
+  image: pageCard('program', 'The programmes — Ruleset'),
+})
 
 export default function ProgramPage() {
   const programmes = getProgrammes()

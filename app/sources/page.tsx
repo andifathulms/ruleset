@@ -1,13 +1,17 @@
 import type { Metadata } from 'next'
+import { card, pageCard } from '@/lib/seo'
 import { Reveal } from '@/components/Motion'
 import { getAllRuleChanges, getImages, getSources, getSports } from '@/lib/content'
 import type { SourceStanding } from '@/lib/types'
 import { asset } from '@/lib/asset'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = card({
   title: 'Sources',
-  description: 'Every source cited, with how far each citation has actually been checked.',
-}
+  description:
+    'Every source cited, with how far each citation has actually been checked.',
+  path: '/sources/',
+  image: pageCard('sources', 'Sources — Ruleset'),
+})
 
 const STANDING: Record<SourceStanding, { label: string; blurb: string }> = {
   'primary-checked': {

@@ -13,6 +13,7 @@
 */
 import fs from 'node:fs'
 import path from 'node:path'
+import yaml from 'js-yaml'
 import { ImageResponse } from 'next/og.js'
 
 const ROOT = process.cwd()
@@ -121,6 +122,54 @@ function Card({ eyebrow, title, note, footer, colour }) {
   }
 }
 
+/*
+  The counts a card prints come from /content, read here directly rather than
+  through lib/content.ts: this script runs before the TypeScript build, and a
+  card that quotes a stale number is worse than one that quotes none.
+*/
+const CONTENT = path.join(ROOT, 'content')
+
+const readYaml = (...parts) =>
+  yaml.load(fs.readFileSync(path.join(CONTENT, ...parts), 'utf8'), { schema: yaml.CORE_SCHEMA })
+
+const sportIds = () =>
+  fs.readdirSync(path.join(CONTENT, 'sports'), { withFileTypes: true })
+    .filter((e) => e.isDirectory())
+    .map((e) => e.name)
+    .sort()
+
+function tally() {
+  const sports = sportIds().map((id) => ({ ...readYaml('sports', id, 'sport.yaml'), id }))
+  const deep = sports.filter((s) => s.coverage === 'deep')
+
+  let rules = 0
+  let breaks = 0
+  for (const s of deep) {
+    const rulesFile = path.join(CONTENT, 'sports', s.id, 'rules.yaml')
+    if (fs.existsSync(rulesFile)) rules += (readYaml('sports', s.id, 'rules.yaml') ?? []).length
+
+    const seriesDir = path.join(CONTENT, 'sports', s.id, 'series')
+    if (!fs.existsSync(seriesDir)) continue
+    for (const file of fs.readdirSync(seriesDir)) {
+      const series = readYaml('sports', s.id, 'series', file)
+      if (series?.break && series.break.kind !== 'none') breaks += 1
+    }
+  }
+
+  const programmes = ['olympic', 'asian-games', 'world-games'].map((p) => readYaml('programmes', `${p}.yaml`))
+
+  return {
+    sports: sports.length,
+    deep: deep.length,
+    rules,
+    breaks,
+    sources: (readYaml('sources.yaml') ?? []).length,
+    programmes: programmes.length,
+  }
+}
+
+const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`
+
 /** Satori returns a stream; a file on disk is what the scrapers need. */
 async function write(name, element) {
   const png = Buffer.from(await new ImageResponse(element, { ...SIZE, fonts }).arrayBuffer())
@@ -128,22 +177,70 @@ async function write(name, element) {
   return png.length
 }
 
-async function main() {
-  fs.rmSync(OUT, { recursive: true, force: true })
-  fs.mkdirSync(OUT, { recursive: true })
-
-  let count = 0
-  count += 1
-  await write(
-    'default',
-    Card({
+/**
+ * One card per page, keyed by the file name the page's metadata asks for.
+ * The note is what somebody reads in a chat window before deciding whether
+ * to open the link, so it says what the page holds rather than repeating the
+ * title back at them.
+ */
+function pages(n) {
+  return {
+    default: {
       eyebrow: 'A record of rule changes',
       title: 'How sports became the sports they are',
       note: 'Every change with a cause, a date, a citation, and what it did to the numbers.',
       footer: 'Nothing interpolated across a break',
-      colour: CHALK,
-    }),
-  )
+    },
+    sports: {
+      eyebrow: 'The record',
+      title: 'Sports',
+      note: `${plural(n.deep, 'sport researched', 'sports researched')} rule by rule; the other ${n.sports - n.deep} carried as status data and marked as such.`,
+      footer: `${n.sports} sports`,
+    },
+    breaks: {
+      eyebrow: 'Where the numbers stop',
+      title: 'Comparability breaks',
+      note: 'Rule changes that severed a series, and what each governing body did about the record book.',
+      footer: plural(n.breaks, 'break', 'breaks'),
+    },
+    program: {
+      eyebrow: 'The skeleton layer',
+      title: 'The programmes',
+      note: 'Olympic, Asian Games and World Games status for every sport, edition by edition.',
+      footer: 'Status data only',
+    },
+    play: {
+      eyebrow: 'The laws in force',
+      title: 'How the games are played',
+      note: 'The current laws for each covered sport, and the same clause read across all of them.',
+      footer: `${plural(n.deep, 'sport', 'sports')}, clause by clause`,
+    },
+    sources: {
+      eyebrow: 'Citations and standing',
+      title: 'Sources',
+      note: 'Every source cited, with how far each citation has actually been checked against the document.',
+      footer: plural(n.sources, 'source', 'sources'),
+    },
+    about: {
+      eyebrow: 'Method',
+      title: 'What this refuses to do',
+      note: 'What counts as a fact here, what will not be drawn, and where the collection is incomplete.',
+      footer: `${plural(n.rules, 'rule change', 'rule changes')} recorded`,
+    },
+  }
+}
+
+async function main() {
+  fs.rmSync(OUT, { recursive: true, force: true })
+  fs.mkdirSync(OUT, { recursive: true })
+
+  const n = tally()
+  let count = 0
+
+  for (const [name, spec] of Object.entries(pages(n))) {
+    await write(name, Card({ ...spec, colour: CHALK }))
+    count += 1
+  }
 
   console.log(`og: wrote ${count} card${count === 1 ? '' : 's'} to public/og`)
 }

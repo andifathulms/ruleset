@@ -1,16 +1,19 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { card, pageCard } from '@/lib/seo'
 import LawCompare from '@/components/LawCompare'
 import { Reveal } from '@/components/Motion'
 import LearningBoard from '@/components/LearningBoard'
 import { getAllLearning, getAllPlay, getProgrammes, getSports } from '@/lib/content'
 import { LAW_SECTIONS, LAW_SECTION_LABEL } from '@/lib/types'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = card({
   title: 'How the games are played',
   description:
     'The laws in force for each covered sport, and the same clause read across all of them.',
-}
+  path: '/play/',
+  image: pageCard('play', 'How the games are played — Ruleset'),
+})
 
 export default function PlayPage() {
   const entries = getAllPlay()

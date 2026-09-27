@@ -1,15 +1,19 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { card, pageCard } from '@/lib/seo'
 import { MarkGlyph } from '@/components/Mark'
 import { Reveal } from '@/components/Motion'
 import {
   getAllPlay, getAllRuleChanges, getAllSeries, getCauses, getLenses, getSports,
 } from '@/lib/content'
 
-export const metadata: Metadata = {
+export const metadata: Metadata = card({
   title: 'About',
-  description: 'What this site treats as a fact, what it refuses to draw, and where it is incomplete.',
-}
+  description:
+    'What this site treats as a fact, what it refuses to draw, and where it is incomplete.',
+  path: '/about/',
+  image: pageCard('about', 'About — Ruleset'),
+})
 
 const REFUSALS = [
   {
