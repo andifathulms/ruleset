@@ -204,8 +204,8 @@ function tally() {
 const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`
 
 /** Satori returns a stream; a file on disk is what the scrapers need. */
-async function write(name, element) {
-  const png = Buffer.from(await new ImageResponse(element, { ...SIZE, fonts }).arrayBuffer())
+async function write(name, element, size = SIZE) {
+  const png = Buffer.from(await new ImageResponse(element, { ...size, fonts }).arrayBuffer())
   fs.writeFileSync(path.join(OUT, `${name}.png`), png)
   return png.length
 }
@@ -303,6 +303,34 @@ async function main() {
     )
     count += 1
   }
+
+  /*
+    The touch icon, drawn from the same mark as app/icon.svg. It lives beside
+    the cards because both are build output: iOS wants a PNG at 180px and
+    will not take the SVG the browsers use.
+  */
+  await write(
+    'apple-touch-icon',
+    {
+      type: 'div',
+      props: {
+        style: { display: 'flex', width: '100%', height: '100%', background: INK, alignItems: 'center', justifyContent: 'center' },
+        children: {
+          type: 'div',
+          props: {
+            style: { display: 'flex', width: 124, height: 64, alignItems: 'flex-end' },
+            children: [
+              { type: 'div', props: { style: { display: 'flex', width: 54, height: 10, background: CHALK } } },
+              { type: 'div', props: { style: { display: 'flex', width: 10, height: 64, background: CHALK } } },
+              { type: 'div', props: { style: { display: 'flex', width: 54, height: 10, background: CHALK, marginBottom: 54 } } },
+            ],
+          },
+        },
+      },
+    },
+    { width: 180, height: 180 },
+  )
+  count += 1
 
   console.log(`og: wrote ${count} card${count === 1 ? '' : 's'} to public/og`)
 }

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import './globals.css'
 import SiteHeader from '@/components/SiteHeader'
 import { HashLanding, ScrollProgress } from '@/components/Motion'
-import { DEFAULT_CARD, SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL, url } from '@/lib/seo'
+import { assetUrl, DEFAULT_CARD, SITE_DESCRIPTION, SITE_NAME, SITE_TAGLINE, SITE_URL, url } from '@/lib/seo'
 
 /*
   The site-wide defaults, and the card every page inherits unless it sets its
@@ -43,6 +43,14 @@ export const metadata: Metadata = {
     images: [DEFAULT_CARD.url],
   },
   robots: { index: true, follow: true },
+  // app/icon.svg is picked up automatically; the touch icon is a PNG because
+  // iOS will not take the SVG, and it is generated alongside the cards.
+  // Declaring `icons` at all replaces the app/icon.svg file convention, so
+  // the SVG has to be named here too or no favicon is emitted.
+  icons: {
+    icon: [{ url: assetUrl('/icon.svg'), type: 'image/svg+xml' }],
+    apple: assetUrl('/og/apple-touch-icon.png'),
+  },
 }
 
 export const viewport: Viewport = { themeColor: '#041317' }

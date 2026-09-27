@@ -1,0 +1,15 @@
+<!--
+  The site's argument at 32px: a line that runs level, then steps. The same
+  hairline appears in the footer and on every social card, and it is the only
+  mark this site has.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="12" fill="#041317"/>
+  <path
+    d="M10,40 H29 M32,40 V24 M35,24 H54"
+    stroke="#F2F5F1"
+    stroke-width="5"
+    stroke-linecap="square"
+    fill="none"
+  />
+</svg>
