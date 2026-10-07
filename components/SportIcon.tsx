@@ -459,6 +459,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M20 14 L46 40 L20 40 Z" fill="#F2F5F1" />
     </>
   ),
+  // Two long-shafted mallets crossed, their cigar heads at the foot, the ball between.
+  polo: (
+    <>
+      <path d="M12 6 L42 50 M52 6 L22 50" fill="none" />
+      <rect x="34" y="48" width="18" height="6" rx="3" transform="rotate(34 43 51)" fill="none" />
+      <rect x="12" y="48" width="18" height="6" rx="3" transform="rotate(-34 21 51)" fill="none" />
+      <circle cx="32" cy="57" r="3.5" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
