@@ -8949,3 +8949,224 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Wheelchair_Karate_-_Kata2_-_WKF_Worlchampionship_2014.jpg"
+
+# Kickboxing.
+
+- id: kickboxing-japan-1969
+  sport: kickboxing
+  file: /images/kickboxing/japan1969.jpg
+  width: 715
+  height: 1200
+  alt: "Albert Boutboul of France saluting the crowd after winning a kickboxing bout in Japan; the file dates it to 1969."
+  shows: >
+   Japan, one of the places the full-force format was built in the 1960s, more
+   or less independently of the others.
+  title: "Japon 1969 - Victoire d'Albert boutboul en Kick-Boxing.png"
+  author: "Maximebtbl"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Japon_1969_-_Victoire_d%27Albert_boutboul_en_Kick-Boxing.png"
+
+- id: kickboxing-codes-2019
+  sport: kickboxing
+  file: /images/kickboxing/pf-podium.jpg
+  width: 1200
+  height: 900
+  alt: "A point-fighting podium at the 2019 WAKO World Championships, Antalya, under a banner listing full contact, point fighting, kick light and musical forms."
+  shows: >
+   A family of codes under one federation, never consolidated into one.
+  title: "Пьедестал на ЧМ-2019 по кикбоксингу, поинтфайтинг.jpg"
+  author: "Natalya Semiglyadova"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:%D0%9F%D1%8C%D0%B5%D0%B4%D0%B5%D1%81%D1%82%D0%B0%D0%BB_%D0%BD%D0%B0_%D0%A7%D0%9C-2019_%D0%BF%D0%BE_%D0%BA%D0%B8%D0%BA%D0%B1%D0%BE%D0%BA%D1%81%D0%B8%D0%BD%D0%B3%D1%83,_%D0%BF%D0%BE%D0%B8%D0%BD%D1%82%D1%84%D0%B0%D0%B9%D1%82%D0%B8%D0%BD%D0%B3.jpg"
+
+- id: kickboxing-light-contact
+  sport: kickboxing
+  file: /images/kickboxing/lightcontact.jpg
+  width: 1200
+  height: 801
+  alt: "A light-contact bout on the tatami, Kyiv, 2021: headguards, gloves and padded feet."
+  shows: >
+   Foot protectors mark the tatami codes, where a padded foot makes a scoring
+   kick safe.
+  title: "Light Contact Kickboxing.jpg"
+  author: "Bovvladua"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Light_Contact_Kickboxing.jpg"
+
+- id: kickboxing-k1-style
+  sport: kickboxing
+  file: /images/kickboxing/k1style.jpg
+  width: 1200
+  height: 801
+  alt: "A K-1-style bout in the ring, Kyiv, 2021, with shin guards and a knee coming in."
+  shows: >
+   In the codes where the shin is the striking surface and the thigh a target,
+   a padded foot would be in the way.
+  title: "K1 style kickboxing.jpg"
+  author: "Bovvladua"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:K1_style_kickboxing.jpg"
+
+- id: kickboxing-full-contact
+  sport: kickboxing
+  file: /images/kickboxing/fullcontact.jpg
+  width: 1200
+  height: 801
+  alt: "A full-contact bout in the ring, Kyiv, 2021: kicks above the waist only."
+  shows: >
+   The code that bars leg kicks, and requires a minimum number of kicks every
+   round.
+  title: "Full contact kickboxing.jpg"
+  author: "Bovvladua"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Full_contact_kickboxing.jpg"
+
+- id: kickboxing-kick-light
+  sport: kickboxing
+  file: /images/kickboxing/kicklight.jpg
+  width: 1200
+  height: 801
+  alt: "A kick-light bout on the tatami, Kyiv, 2021."
+  shows: >
+   Matted floor, light contact.
+  title: "Kick-Light kickboxing.jpg"
+  author: "Bovvladua"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kick-Light_kickboxing.jpg"
+
+- id: kickboxing-wako-pro-2011
+  sport: kickboxing
+  file: /images/kickboxing/wakopro.jpg
+  width: 1200
+  height: 800
+  alt: "Alexey Rybkin against Ralf Krause at the 2011 WAKO-PRO world championship, Rödental."
+  shows: >
+   Roped ring, full force: two surfaces, two kits, two scoring systems in one
+   federation.
+  title: "WAKO-PRO Weltmeisterschaft 309.jpg"
+  author: "Claus Michelfelder"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WAKO-PRO_Weltmeisterschaft_309.jpg"
+
+- id: kickboxing-iska-belt
+  sport: kickboxing
+  file: /images/kickboxing/iska-belt.jpg
+  width: 1200
+  height: 675
+  alt: "An ISKA superheavyweight title fight."
+  shows: >
+   One of the sanctioning bodies outside WAKO awarding its own world titles.
+  title: "ISKA SUPER HEAVYWEIGHT TITLE.jpg"
+  author: "Aroha93"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:ISKA_SUPER_HEAVYWEIGHT_TITLE.jpg"
+
+- id: kickboxing-wku-belt
+  sport: kickboxing
+  file: /images/kickboxing/wku-belt.jpg
+  width: 1200
+  height: 800
+  alt: "Marie Lang with her WKU world title belt, 2016."
+  shows: >
+   Another body, another world champion, and no mechanism that reconciles them.
+  title: "Marie Lang 2016 WKU.JPG"
+  author: "Claus Michelfelder"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Marie_Lang_2016_WKU.JPG"
+
+- id: kickboxing-point-fighting
+  sport: kickboxing
+  file: /images/kickboxing/pointfighting.jpg
+  width: 1200
+  height: 801
+  alt: "Point fighting on the tatami, Kyiv, 2021, the central referee and two side referees watching."
+  shows: >
+   Points are awarded by a vote of three referees, the centre and two at the
+   sides.
+  title: "Двобій за правилами розділу Поінт-файтинг (семі-контакт).jpg"
+  author: "Bovvladua"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:%D0%94%D0%B2%D0%BE%D0%B1%D1%96%D0%B9_%D0%B7%D0%B0_%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%D0%BC%D0%B8_%D1%80%D0%BE%D0%B7%D0%B4%D1%96%D0%BB%D1%83_%D0%9F%D0%BE%D1%96%D0%BD%D1%82-%D1%84%D0%B0%D0%B9%D1%82%D0%B8%D0%BD%D0%B3_(%D1%81%D0%B5%D0%BC%D1%96-%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82).jpg"
+
+- id: kickboxing-k1-hong-kong
+  sport: kickboxing
+  file: /images/kickboxing/k1-hk.jpg
+  width: 1200
+  height: 900
+  alt: "A K-1 World Grand Prix event in Hong Kong."
+  shows: >
+   The Japanese promotion whose ring format gave an amateur discipline its
+   name.
+  title: "K-1 Asia GP HK General View.JPG"
+  author: "Umi1903"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:K-1_Asia_GP_HK_General_View.JPG"
+
+- id: kickboxing-k1-final-2008
+  sport: kickboxing
+  file: /images/kickboxing/bonjasky.jpg
+  width: 1200
+  height: 900
+  alt: "The 2008 K-1 World Grand Prix final between Remy Bonjasky and Badr Hari."
+  shows: >
+   For a period among the largest combat sports properties anywhere.
+  title: "Bonjasky vs Hari.jpg"
+  author: "Vanbasten 23"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Bonjasky_vs_Hari.jpg"
+
+- id: kickboxing-fitness-naples
+  sport: kickboxing
+  file: /images/kickboxing/navy-class.jpg
+  width: 1200
+  height: 857
+  alt: "A kickboxing workout class at the Fit Zone gym, Naval Support Activity Naples, Italy, 2004."
+  shows: >
+   Kickboxing as most people who do it know it: a class, not a competition.
+  title: "US Navy 040329-N-9296W-004 Lt. Dave Merrifield and other students enjoy a kickboxing workout from instructor Laura Galloway in the Fit Zone Gym aboard Naval Support Activity Naples, Italy.jpg"
+  author: "Heather Warick, U.S. Navy"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:US_Navy_040329-N-9296W-004_Lt._Dave_Merrifield_and_other_students_enjoy_a_kickboxing_workout_from_instructor_Laura_Galloway_in_the_Fit_Zone_Gym_aboard_Naval_Support_Activity_Naples,_Italy.jpg"
+
+- id: kickboxing-fitness-ramstein
+  sport: kickboxing
+  file: /images/kickboxing/fitness.jpg
+  width: 1200
+  height: 775
+  alt: "An instructor leading a kickboxing fitness class at Ramstein Air Base, Germany, 2021."
+  shows: >
+   Enormous participation, almost entirely disconnected from the competitive
+   structure.
+  title: "Fitness test success (6706498).jpg"
+  author: "Jared Lovett, U.S. Air Force"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Fitness_test_success_(6706498).jpg"
+
+- id: kickboxing-full-contact-final
+  sport: kickboxing
+  slot: "events"
+  file: /images/kickboxing/isg-fc.jpg
+  width: 1200
+  height: 800
+  alt: "The referee raising the winner's hand after the men's 91 kg final at the 2021 Islamic Solidarity Games, Konya, held in 2022."
+  shows: >
+   Ring and tatami disciplines, each with its own medal events.
+  title: "5. Islamic Solidarity Games 2021 Konya Kickboxing Men 91 kg 20220817.jpg"
+  author: "Astro Medya"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:5._Islamic_Solidarity_Games_2021_Konya_Kickboxing_Men_91_kg_20220817.jpg"
