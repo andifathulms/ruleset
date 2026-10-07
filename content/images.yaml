@@ -10545,3 +10545,255 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Wai_Kru_Sitsiam_Camp.jpg"
+
+# Orienteering.
+
+- id: orienteering-jukola-1972
+  sport: orienteering
+  file: /images/orienteering/jukola1972.jpg
+  width: 1200
+  height: 806
+  alt: "Liedon Parma's orienteers reading the Jukola message after the Jukola relay, Paimio, Finland, 1972."
+  shows: >
+   A mass participation sport in the Nordic countries in a way it has never
+   quite become anywhere else.
+  title: "The Jukola Relay, an annual, orienteering relay race, was held in Paimio, Finland, in June 1972 (JOKAVKH2B09-3).tif"
+  author: "V. K. Hietanen"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:The_Jukola_Relay,_an_annual,_orienteering_relay_race,_was_held_in_Paimio,_Finland,_in_June_1972_(JOKAVKH2B09-3).tif"
+
+- id: orienteering-forest-map
+  sport: orienteering
+  file: /images/orienteering/map-dk.jpg
+  width: 1200
+  height: 748
+  alt: "An orienteering map of Bygholm forest outside Horsens, Denmark, 1:10,000, drawn to the international symbol set."
+  shows: >
+   White runnable forest, green undergrowth, yellow open ground, brown
+   landform, blue water, black rock and features: a Finn can read a Danish map.
+  title: "Orienteringskort bygholm 2005.PNG"
+  author: "Tage Baun and Preben Jørgensen"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Orienteringskort_bygholm_2005.PNG"
+
+- id: orienteering-sprint-map
+  sport: orienteering
+  file: /images/orienteering/map-sprint.jpg
+  width: 1200
+  height: 698
+  alt: "A sprint orienteering map of the Karlova and Ropka districts of Tartu, Estonia, 2017, to the sprint specification."
+  shows: >
+   The same colour logic applied to streets, buildings and gardens.
+  title: "Sprint orienteering map Ropka Tartu Estonia cartography map.jpg"
+  author: "Markus Puusepp"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sprint_orienteering_map_Ropka_Tartu_Estonia_cartography_map.jpg"
+
+- id: orienteering-thumb-compass
+  sport: orienteering
+  file: /images/orienteering/thumb.jpg
+  width: 1200
+  height: 900
+  alt: "A thumb compass held against the map, which is turned until it lines up with the needle."
+  shows: >
+   Map, needle and terrain in one line of sight, so the runner never stops.
+  title: "Het duimkompas met kaart.jpg"
+  author: "Laurine1122"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Het_duimkompas_met_kaart.jpg"
+
+- id: orienteering-compasses
+  sport: orienteering
+  file: /images/orienteering/compasses.jpg
+  width: 1200
+  height: 900
+  alt: "A thumb compass beside a baseplate compass."
+  shows: >
+   The plate compass and the thumb compass that replaced it in racing.
+  title: "Compasses orienteering.jpg"
+  author: "Leinad"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Compasses_orienteering.jpg"
+
+- id: orienteering-si-station
+  sport: orienteering
+  file: /images/orienteering/si-station.jpg
+  width: 1200
+  height: 800
+  alt: "A SportIdent control station with the chip a competitor carries."
+  shows: >
+   Electronic punching: every visit recorded, every split published.
+  title: "SportIdent station with stick.JPG"
+  author: "Ximeg"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:SportIdent_station_with_stick.JPG"
+
+- id: orienteering-punching
+  sport: orienteering
+  file: /images/orienteering/punching.jpg
+  width: 640
+  height: 480
+  alt: "Competitors punching at a control in Dalkeith Park, Scotland, 2006."
+  shows: >
+   The chip in the box is the proof of the course, and the referee.
+  title: "Control punching, Dalkeith Park - geograph.org.uk - 267843.jpg"
+  author: "Richard Webb"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Control_punching,_Dalkeith_Park_-_geograph.org.uk_-_267843.jpg"
+
+- id: orienteering-sprint-2011
+  sport: orienteering
+  file: /images/orienteering/woc2011-sprint.jpg
+  width: 800
+  height: 1200
+  alt: "Rahel Friederich of Switzerland in the sprint final of the 2011 World Championships, Chambéry, France."
+  shows: >
+   Sprint orienteering: fifteen minutes in a town, where cameras and spectators
+   can see the runners.
+  title: "Rahel Friederich (SUI) at sprint at World Orienteering Championships 2011.jpg"
+  author: "Niels-Peter Foppen"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rahel_Friederich_(SUI)_at_sprint_at_World_Orienteering_Championships_2011.jpg"
+
+- id: orienteering-gps-screen
+  sport: orienteering
+  file: /images/orienteering/jukola-night.jpg
+  width: 1200
+  height: 554
+  alt: "Spectators watching GPS-tracked leaders on a big screen during the Jukola night relay, Porvoo, Finland, 2023."
+  shows: >
+   Banned as a navigation aid, required as a broadcast one.
+  title: "Jukola night relay spectators.jpg"
+  author: "Matthäus Gehägeberg"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jukola_night_relay_spectators.jpg"
+
+- id: orienteering-trail-o
+  sport: orienteering
+  file: /images/orienteering/trailo2.jpg
+  width: 900
+  height: 724
+  alt: "Thierry Gueorgiou, many times a world champion in foot orienteering, with Bohuslav Hůlka at a trail orienteering event in Kristianstad."
+  shows: >
+   Accuracy rather than speed, so wheelchair users and walking competitors meet
+   on equal terms.
+  title: "Trail-o demo Bohous+Thierry.jpg"
+  author: "LiborForst"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Trail-o_demo_Bohous%2BThierry.jpg"
+
+- id: orienteering-jukola-2016
+  sport: orienteering
+  file: /images/orienteering/jukola2016.jpg
+  width: 1200
+  height: 799
+  alt: "Runners heading out by headlamp during the Jukola night relay, Lappeenranta, Finland, 2016."
+  shows: >
+   Mass-start relays with shuffled course combinations, so following another
+   runner does not pay.
+  title: "Jukola relay 2016 - 33.jpg"
+  author: "Tuomas Vitikainen"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jukola_relay_2016_-_33.jpg"
+
+- id: orienteering-control-flag
+  sport: orienteering
+  file: /images/orienteering/control-flag.jpg
+  width: 1024
+  height: 683
+  alt: "A control flag on its own in woodland at Archerfield, Scotland, 2017."
+  shows: >
+   No official in the terrain: the competitor and the control, alone.
+  title: "Orienteering control flag, Archerfield - geograph.org.uk - 5397683.jpg"
+  author: "Richard Webb"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Orienteering_control_flag,_Archerfield_-_geograph.org.uk_-_5397683.jpg"
+
+- id: orienteering-o-ringen
+  sport: orienteering
+  file: /images/orienteering/oringen.jpg
+  width: 1200
+  height: 900
+  alt: "The arena at O-Ringen 2025, Jönköping, Sweden."
+  shows: >
+   Sweden's largest events draw participant numbers most sports would call a
+   national championship.
+  title: "O-Ringen 2025, Jönköping, Arena Odensjö 01.jpg"
+  author: "Boivie"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:O-Ringen_2025,_J%C3%B6nk%C3%B6ping,_Arena_Odensj%C3%B6_01.jpg"
+
+- id: orienteering-niggli-2010
+  sport: orienteering
+  file: /images/orienteering/woc2010-sprint.jpg
+  width: 798
+  height: 1200
+  alt: "Simone Niggli-Luder of Switzerland at the 2010 World Championships, Trondheim."
+  shows: >
+   Switzerland, part of the core that has dominated the sport throughout its
+   history.
+  title: "World Orienteering Championships 2010 - sprint 32.jpg"
+  author: "Torben Utzon"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:World_Orienteering_Championships_2010_-_sprint_32.jpg"
+
+- id: orienteering-control-2007
+  sport: orienteering
+  slot: "play:field"
+  file: /images/orienteering/woc2007.jpg
+  width: 798
+  height: 1200
+  alt: "Anders Nordberg of Norway at a control in the long distance at the 2007 World Championships, Kyiv."
+  shows: >
+   Unseen terrain, a control flag, a punching station on its stand.
+  title: "World Orienteering Championships 2007 - long distance 07.jpg"
+  author: "Maksim Kovalenko"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:World_Orienteering_Championships_2007_-_long_distance_07.jpg"
+
+- id: orienteering-ski-o
+  sport: orienteering
+  slot: "events"
+  file: /images/orienteering/ski-start.jpg
+  width: 1200
+  height: 800
+  alt: "The start of a relay at the Swedish ski orienteering championships, 2011."
+  shows: >
+   Ski orienteering, with world championships of its own and never contested at
+   a Winter Games.
+  title: "Ski-orienteering.jpg"
+  author: "Adriano900"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ski-orienteering.jpg"
+
+- id: orienteering-trail-o-2012
+  sport: orienteering
+  slot: "events"
+  file: /images/orienteering/trailo.jpg
+  width: 1200
+  height: 621
+  alt: "Jana Kosťová and Lenka Forstová of the Czech Republic solving a task at the 2012 trail orienteering world championships, Scotland."
+  shows: >
+   Trail orienteering's world championships, for wheelchair users and walking
+   competitors together.
+  title: "Trail-o demo Jana+Lenka Skotsko.jpg"
+  author: "LiborForst"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Trail-o_demo_Jana%2BLenka_Skotsko.jpg"
