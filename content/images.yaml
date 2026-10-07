@@ -9170,3 +9170,194 @@
   licence: "CC BY 2.0"
   licence_url: "https://creativecommons.org/licenses/by/2.0"
   source_url: "https://commons.wikimedia.org/wiki/File:5._Islamic_Solidarity_Games_2021_Konya_Kickboxing_Men_91_kg_20220817.jpg"
+
+# Korfball.
+
+- id: korfball-broekhuysen
+  sport: korfball
+  file: /images/korfball/broekhuysen.jpg
+  width: 790
+  height: 1029
+  alt: "Nico Broekhuysen (1876–1958), the Amsterdam schoolteacher who wrote korfball."
+  shows: >
+   A game designed so that boys and girls in one class would both matter.
+  title: "Nico Broekhuysen.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Nico_Broekhuysen.jpg"
+
+- id: korfball-mixed-1959
+  sport: korfball
+  file: /images/korfball/rhoda1959.jpg
+  width: 1198
+  height: 1200
+  alt: "Rhoda against Westerkwartier, 1959: an attack on the korf, with men and women from both sides around the post."
+  shows: >
+   Mixed teams by law, on the same court, since 1902.
+  title: "Korfbal Rhoda tegen Westerkwartier 6-6, aanval op korfbal van WK, Bestanddeelnr 910-2344.jpg"
+  author: "Henk Lindeboom / Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Korfbal_Rhoda_tegen_Westerkwartier_6-6,_aanval_op_korfbal_van_WK,_Bestanddeelnr_910-2344.jpg"
+
+- id: korfball-amsterdam-1928
+  sport: korfball
+  file: /images/korfball/ams1928.jpg
+  width: 1200
+  height: 878
+  alt: "One of the two teams at the korfball demonstration of the 1928 Amsterdam Olympics, with Broekhuysen standing at the left."
+  shows: >
+   Men and women in one team at an Olympic Games in 1928.
+  title: "Korfbal at the 1928 Summer Olympics, Team White-Red.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Korfbal_at_the_1928_Summer_Olympics,_Team_White-Red.jpg"
+
+- id: korfball-the-korf
+  sport: korfball
+  file: /images/korfball/europacup.jpg
+  width: 1200
+  height: 799
+  alt: "A shot at the korf during the 2018 Europa Cup."
+  shows: >
+   A bottomless basket on a pole, with nothing behind it to shoot against.
+  title: "Europa cup 2018.jpg"
+  author: "Korfbal"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Europa_cup_2018.jpg"
+
+- id: korfball-swift-1948
+  sport: korfball
+  file: /images/korfball/swift1948.jpg
+  width: 1200
+  height: 947
+  alt: "Play around the Swift post in Amsterdam, 1948, the ball dropping towards the korf."
+  shows: >
+   Open field all round the post: attacks come from any direction, and early
+   korfs were woven baskets.
+  title: "Spelmoment voor Swiftdoel. Korfbal, Bestanddeelnr 902-6679.jpg"
+  author: "van Oorschot / Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Spelmoment_voor_Swiftdoel._Korfbal,_Bestanddeelnr_902-6679.jpg"
+
+- id: korfball-world-games-2009
+  sport: korfball
+  file: /images/korfball/wg2009.jpg
+  width: 640
+  height: 480
+  alt: "Belgium against the Netherlands in the korfball final of the 2009 World Games, Kaohsiung."
+  shows: >
+   The World Games, korfball's honest home since the 1980s, and its usual
+   final.
+  title: "WG Kaohsiung - Korfball - BEL vs. NED 1.JPG"
+  author: "Dennis Ho"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WG_Kaohsiung_-_Korfball_-_BEL_vs._NED_1.JPG"
+
+- id: korfball-defended-shot
+  sport: korfball
+  file: /images/korfball/uob.jpg
+  width: 1200
+  height: 800
+  alt: "A shot under pressure in a university match between Birmingham and Nottingham, 2014."
+  shows: >
+   Within arm's length, facing the shooter, nearer the post and trying to
+   block: the four conditions of a defended shot.
+  title: "Korfball uob.jpg"
+  author: "Peter Saxon"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Korfball_uob.jpg"
+
+- id: korfball-running-in
+  sport: korfball
+  file: /images/korfball/dvojtakt.jpg
+  width: 1200
+  height: 800
+  alt: "A running-in shot set up by team-mates, Czech Republic, 2020."
+  shows: >
+   The tactical answer to the defended-shot rule: a shot taken in movement past
+   the post.
+  title: "Korfbal dvojtakt.jpg"
+  author: "Korfbal"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Korfbal_dvojtakt.jpg"
+
+- id: korfball-nld-bel-1961
+  sport: korfball
+  file: /images/korfball/nedbel.jpg
+  width: 1200
+  height: 795
+  alt: "The Netherlands team lined up before playing Belgium, 1961."
+  shows: >
+   The fixture that has decided most of the sport's finals.
+  title: "Korfbal Nederland tegen Belgie, Bestanddeelnr 912-5284.jpg"
+  author: "Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Korfbal_Nederland_tegen_Belgie,_Bestanddeelnr_912-5284.jpg"
+
+- id: korfball-taipei-2009
+  sport: korfball
+  file: /images/korfball/wg2009-tpe.jpg
+  width: 640
+  height: 480
+  alt: "Chinese Taipei celebrating bronze at the 2009 World Games, Kaohsiung."
+  shows: >
+   The strongest side outside Europe.
+  title: "WG Kaohsiung - Korfball - TPE.JPG"
+  author: "Dennis Ho"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WG_Kaohsiung_-_Korfball_-_TPE.JPG"
+
+- id: korfball-wales-2006
+  sport: korfball
+  file: /images/korfball/wales2006.jpg
+  width: 604
+  height: 453
+  alt: "The Wales squad at the 2006 Commonwealth Korfball Championship, London."
+  shows: >
+   A real but shallow structure beyond the Low Countries, and always both sexes
+   in the squad.
+  title: "Welsh Korfball Squad - 2006 Commonwealth Championship.jpg"
+  author: "Pel-Korf"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Welsh_Korfball_Squad_-_2006_Commonwealth_Championship.jpg"
+
+- id: korfball-broekhuysen-1951
+  sport: korfball
+  slot: "events"
+  file: /images/korfball/broek1951.jpg
+  width: 1200
+  height: 1004
+  alt: "Broekhuysen at his desk at 75, honoured as the founder of korfball in the Netherlands, 1951."
+  shows: >
+   One mixed event, governed by the federation he started.
+  title: "Nico Broekhuysen 75 jaar oprichter Korfbalsport in Nederland, Bestanddeelnr 904-9022.jpg"
+  author: "Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Nico_Broekhuysen_75_jaar_oprichter_Korfbalsport_in_Nederland,_Bestanddeelnr_904-9022.jpg"
+
+- id: korfball-demonstration-1928
+  sport: korfball
+  slot: "events"
+  file: /images/korfball/ams1928-demo.jpg
+  width: 1200
+  height: 889
+  alt: "A demonstration korfball match at the 1928 Amsterdam Olympics."
+  shows: >
+   Antwerp 1920 and Amsterdam 1928: korfball's whole Olympic record.
+  title: "Sport, SFA006003619.jpg"
+  author: "Unknown photographer (Spaarnestad)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Sport,_SFA006003619.jpg"
