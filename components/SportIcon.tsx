@@ -392,6 +392,14 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M38 26 Q42 32 38 38 M43 22 Q49 32 43 42 M48 18 Q56 32 48 46" fill="none" />
     </>
   ),
+  // A closed fist driving forward, the speed of the punch behind it.
+  karate: (
+    <>
+      <rect x="28" y="20" width="26" height="24" rx="6" fill="none" />
+      <path d="M36 20 L36 30 M44 20 L44 30 M28 32 L40 32 Q42 36 38 38 L30 38" fill="none" />
+      <path d="M6 24 L20 24 M4 32 L22 32 M6 40 L20 40" fill="none" />
+    </>
+  ),
 }
 
 export function hasSportIcon(sport: string): boolean {
