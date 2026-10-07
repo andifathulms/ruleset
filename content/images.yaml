@@ -9551,3 +9551,240 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Latihan_Pertama_Tim_Kurash_Indonesia.jpg"
+
+# Lacrosse.
+
+- id: lacrosse-catlin-choctaw
+  sport: lacrosse
+  file: /images/lacrosse/catlin-up.jpg
+  width: 1200
+  height: 961
+  alt: "George Catlin, Ball-play of the Choctaw: Ball Up, 1846–1850: hundreds of players with two sticks each, across open country."
+  shows: >
+   The southeastern stickball of the same family of games, at the scale the
+   original games were played: hundreds of players, no fixed field.
+  title: "George Catlin - Ball-play of the Choctaw--Ball Up - Google Art Project.jpg"
+  author: "George Catlin"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:George_Catlin_-_Ball-play_of_the_Choctaw--Ball_Up_-_Google_Art_Project.jpg"
+
+- id: lacrosse-beers
+  sport: lacrosse
+  file: /images/lacrosse/beers.jpg
+  width: 573
+  height: 755
+  alt: "William George Beers, photographed by William Notman, 1868."
+  shows: >
+   The Montreal dentist who codified the game in 1867: a fixed team, a marked
+   field, a goal and a time limit.
+  title: "WilliamGeorgeBeers.JPG"
+  author: "William Notman"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:WilliamGeorgeBeers.JPG"
+
+- id: lacrosse-kahnawake-1867
+  sport: lacrosse
+  file: /images/lacrosse/kahnawake1867.jpg
+  width: 1200
+  height: 905
+  alt: "The Kahnawà:ke Lacrosse Club, photographed in Montreal by William Notman, 1867."
+  shows: >
+   A Mohawk team in the year of Beers's code, before Canadian associations
+   barred Indigenous players as professionals.
+  title: "I-29099.5-P1.jpg"
+  author: "William Notman"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:I-29099.5-P1.jpg"
+
+- id: lacrosse-montreal-1867
+  sport: lacrosse
+  file: /images/lacrosse/montreal1867.jpg
+  width: 556
+  height: 718
+  alt: "The Montreal Lacrosse Club, photographed by William Notman, 1867."
+  shows: >
+   The club game the codified rules were written for.
+  title: "Montreal Lacrosse Club 1867.jpg"
+  author: "William Notman"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Montreal_Lacrosse_Club_1867.jpg"
+
+- id: lacrosse-kahnawake-1876
+  sport: lacrosse
+  file: /images/lacrosse/kahnawake1876.jpg
+  width: 1200
+  height: 967
+  alt: "The Kahnawake lacrosse team in striped kit, photographed by Notman, 1876."
+  shows: >
+   The game's originators, playing a sport whose amateur championships would
+   exclude them.
+  title: "Équipe de crosse de Kahnawake, 1876.jpg"
+  author: "William Notman"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:%C3%89quipe_de_crosse_de_Kahnawake,_1876.jpg"
+
+- id: lacrosse-original-stick
+  sport: lacrosse
+  file: /images/lacrosse/beers-stick.jpg
+  width: 1148
+  height: 284
+  alt: "An original lacrosse stick, drawn in Beers's Lacrosse: The National Game of Canada."
+  shows: >
+   A wooden crosse with a netted hoop at the end.
+  title: "Original lacrosse stick (The National Game of Canada).jpg"
+  author: "William George Beers"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Original_lacrosse_stick_(The_National_Game_of_Canada).jpg"
+
+- id: lacrosse-plastic-head
+  sport: lacrosse
+  file: /images/lacrosse/patent.jpg
+  width: 817
+  height: 1200
+  alt: "The patent drawing for the first plastic lacrosse head, granted in 1970 to inventors at STX, Baltimore."
+  shows: >
+   The composite head, with sidewalls whose height the rules now specify.
+  title: "Patent drawing for the plastic lacrosse head.png"
+  author: "Richard B. C. Tucker et al."
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Patent_drawing_for_the_plastic_lacrosse_head.png"
+
+- id: lacrosse-pocket
+  sport: lacrosse
+  file: /images/lacrosse/pocket.jpg
+  width: 1200
+  height: 800
+  alt: "The strung pocket of a modern lacrosse head."
+  shows: >
+   How deep the ball sits in the mesh decides how hard it is to dislodge, so
+   pocket depth is measured at inspection.
+  title: "Lacrosse pocket.jpg"
+  author: "Max Koo"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lacrosse_pocket.jpg"
+
+- id: lacrosse-six-nations-arena
+  sport: lacrosse
+  file: /images/lacrosse/sixnations-arena.jpg
+  width: 1200
+  height: 675
+  alt: "The Iroquois Lacrosse Arena at Six Nations of the Grand River, Ontario, 2023."
+  shows: >
+   Lacrosse at home among the Haudenosaunee, whose Nationals compete as a
+   nation.
+  title: "Iroquois Lacrosse Arena - Six Nations, ON.jpg"
+  author: "JFVoll"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Iroquois_Lacrosse_Arena_-_Six_Nations,_ON.jpg"
+
+- id: lacrosse-london-1908
+  sport: lacrosse
+  file: /images/lacrosse/oly1908.jpg
+  width: 640
+  height: 464
+  alt: "Patrick Brennan going for a ground ball in the lacrosse final at the 1908 London Olympics."
+  shows: >
+   Canada and Great Britain, the only two teams entered.
+  title: "1908 Olympics Lacrosse 1.png"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1908_Olympics_Lacrosse_1.png"
+
+- id: lacrosse-the-check
+  sport: lacrosse
+  file: /images/lacrosse/armynavy.jpg
+  width: 731
+  height: 1024
+  alt: "Army and Navy players scrambling for the ball after a face-off, Baltimore, 2009."
+  shows: >
+   Helmets, gloves, pads and body contact: the men's game, and the legality of
+   a check at speed.
+  title: "ArmyNavyLaxFaceoff.JPG"
+  author: "Army Athletic Communications"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:ArmyNavyLaxFaceoff.JPG"
+
+- id: lacrosse-world-cup-2001
+  sport: lacrosse
+  file: /images/lacrosse/hw-eng-jpn.jpg
+  width: 1200
+  height: 501
+  alt: "England and Japan lined up before a match at the 2001 Women's Lacrosse World Cup, High Wycombe."
+  shows: >
+   Beyond North America: England, Australia and Japan.
+  title: "HWLWC 01 Womens Lacrosse World Cup High Wycombe-England-Japan.jpg"
+  author: "VasuVR"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:HWLWC_01_Womens_Lacrosse_World_Cup_High_Wycombe-England-Japan.jpg"
+
+- id: lacrosse-six-nations-2011
+  sport: lacrosse
+  file: /images/lacrosse/sixnations-game.jpg
+  width: 1200
+  height: 900
+  alt: "The opening face-off between Peterborough and the Six Nations Chiefs in a 2011 Major Series Lacrosse semi-final."
+  shows: >
+   A Haudenosaunee senior box team at the top of the Canadian game.
+  title: "Lakers vs Six Nations (Game 7 MSL Semi-Finals, 15-AUG-2011).jpg"
+  author: "Copperknob39"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lakers_vs_Six_Nations_(Game_7_MSL_Semi-Finals,_15-AUG-2011).jpg"
+
+- id: lacrosse-field-2015
+  sport: lacrosse
+  slot: "play:field"
+  file: /images/lacrosse/rutgers.jpg
+  width: 1200
+  height: 800
+  alt: "Rutgers against Michigan in women's lacrosse at Michigan Stadium, 2015."
+  shows: >
+   Field lacrosse on a full-size pitch: the format Sixes was written to shrink.
+  title: "Rutgers vs. Michigan women's lacrosse 2015 31.jpg"
+  author: "Michael Barera"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rutgers_vs._Michigan_women%27s_lacrosse_2015_31.jpg"
+
+- id: lacrosse-box-faceoff
+  sport: lacrosse
+  slot: "events"
+  file: /images/lacrosse/box-faceoff.jpg
+  width: 691
+  height: 483
+  alt: "A face-off in Ontario Junior B box lacrosse, 2014."
+  shows: >
+   Box lacrosse, indoors on a rink: the dominant form in Canada.
+  title: "Box lacrosse faceoff.jpg"
+  author: "Devan Mighton"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Box_lacrosse_faceoff.jpg"
+
+- id: lacrosse-london-1948
+  sport: lacrosse
+  slot: "events"
+  file: /images/lacrosse/oly1948.jpg
+  width: 1200
+  height: 919
+  alt: "A demonstration game between Rensselaer and All England at the 1948 London Olympics."
+  shows: >
+   A medal sport in 1904 and 1908, a demonstration sport at later Games, and
+   Sixes from 2028.
+  title: "Lacrosse at the Olympics, London, 1948. (7649951098).jpg"
+  author: "National Media Museum"
+  licence: "No restrictions"
+  licence_url: "https://www.flickr.com/commons/usage/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lacrosse_at_the_Olympics,_London,_1948._(7649951098).jpg"
