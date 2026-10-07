@@ -36,7 +36,7 @@ sections:
       far shorter in kilometres than one on open Iberian hillside aiming at the
       same target.
     facts:
-      - { label: Terrain, value: Unseen, and embargoed beforehand }
+      - { label: Terrain, value: "Unseen, and embargoed beforehand" }
       - { label: Course set to, value: A target winning time }
       - { label: Sprint target, value: About 15 min }
       - { label: Middle distance target, value: About 35 min }
@@ -55,7 +55,7 @@ sections:
       and the whole thing is oriented to magnetic north so a compass needle and
       the paper agree without arithmetic.
     facts:
-      - { label: Map, value: To the international specification, magnetic north }
+      - { label: Map, value: "To the international specification, magnetic north" }
       - { label: Compass, value: Permitted }
       - { label: GPS for navigation, value: Prohibited }
       - { label: Timing, value: An electronic chip punched at each control }
@@ -73,9 +73,9 @@ sections:
       different combinations of the same control sites so that following is
       unproductive.
     facts:
-      - { label: Start, value: Individual, at intervals }
+      - { label: Start, value: "Individual, at intervals" }
       - { label: Following, value: An offence }
-      - { label: Relay start, value: Mass start, with courses shuffled }
+      - { label: Relay start, value: "Mass start, with courses shuffled" }
 
   - id: duration
     label: Time
