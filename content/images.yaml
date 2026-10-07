@@ -9788,3 +9788,268 @@
   licence: "No restrictions"
   licence_url: "https://www.flickr.com/commons/usage/"
   source_url: "https://commons.wikimedia.org/wiki/File:Lacrosse_at_the_Olympics,_London,_1948._(7649951098).jpg"
+
+# Lifesaving.
+
+- id: lifesaving-grierson-1909
+  sport: lifesaving
+  file: /images/lifesaving/grierson.jpg
+  width: 683
+  height: 818
+  alt: "A rescue with a lifebuoy, from Cecilia Grierson's 1909 manual on rescue and first aid."
+  shows: >
+   Lifesaving as public health: teaching people to rescue the drowning.
+  title: "Grierson 101 Salvamento con salvavidas.jpg"
+  author: "Cecilia Grierson"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Grierson_101_Salvamento_con_salvavidas.jpg"
+
+- id: lifesaving-womens-league-1915
+  sport: lifesaving
+  file: /images/lifesaving/womens1915.jpg
+  width: 1200
+  height: 784
+  alt: "Entrants for races of the National Women's Life Saving League, New York, 22 August 1915."
+  shows: >
+   Competition as a training and recruitment device for a rescue society.
+  title: "Nat'l Women's Life Sav. League entrants for races, 8-22-15 LCCN2014699711 (cropped).tif"
+  author: "Bain News Service"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Nat%27l_Women%27s_Life_Sav._League_entrants_for_races,_8-22-15_LCCN2014699711_(cropped).tif"
+
+- id: lifesaving-piha-1938
+  sport: lifesaving
+  file: /images/lifesaving/piha1938.jpg
+  width: 1200
+  height: 871
+  alt: "A chariot race at the Piha Surf Club carnival, New Zealand, around 1938."
+  shows: >
+   The other tradition: surf clubs on ocean beaches, with a competitive culture
+   of their own.
+  title: "Men running in a chariot race at the Piha Surf Club carnival, ca 1938.jpg"
+  author: "Unidentified photographer (National Library of New Zealand)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Men_running_in_a_chariot_race_at_the_Piha_Surf_Club_carnival,_ca_1938.jpg"
+
+- id: lifesaving-march-past-1947
+  sport: lifesaving
+  file: /images/lifesaving/marchpast1947.jpg
+  width: 1200
+  height: 884
+  alt: "The Palm Beach (Queensland) club's march past at the Australian Surf Life Saving Championships, Greenmount beach, 1947."
+  shows: >
+   Patrol, reel and banner: a club culture built around ocean patrol.
+  title: "Palm Beach Qld Surf Life Saving Club - March past team Australian Surf Life Saving Championships, Greenmount beach, 1947 - Photo Andy Frizzell 01.jpg"
+  author: "Andy Frizzell"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Palm_Beach_Qld_Surf_Life_Saving_Club_-_March_past_team_Australian_Surf_Life_Saving_Championships,_Greenmount_beach,_1947_-_Photo_Andy_Frizzell_01.jpg"
+
+- id: lifesaving-noosa-1952
+  sport: lifesaving
+  file: /images/lifesaving/noosa1952.jpg
+  width: 1000
+  height: 727
+  alt: "Surf ski competitors launching into the waves at a surf carnival, Noosa Beach, Queensland, 1952."
+  shows: >
+   Events shaped by surf, not by lane ropes.
+  title: "StateLibQld 2 164219 Surf club competitors at a surf carnival at Noosa Beach, 1952.jpg"
+  author: "Unknown photographer (State Library of Queensland)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:StateLibQld_2_164219_Surf_club_competitors_at_a_surf_carnival_at_Noosa_Beach,_1952.jpg"
+
+- id: lifesaving-manikin-lift
+  sport: lifesaving
+  file: /images/lifesaving/manikin-take.jpg
+  width: 1200
+  height: 789
+  alt: "A competitor diving to lift the manikin from the bottom of the pool in a manikin carry with fins, Italy."
+  shows: >
+   A weighted, water-filled torso of specified dimensions, retrieved from a
+   specified depth.
+  title: "Momentodellapresadelmanichino.jpg"
+  author: "Laradelfreo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Momentodellapresadelmanichino.jpg"
+
+- id: lifesaving-manikin-tow
+  sport: lifesaving
+  file: /images/lifesaving/remorquage.jpg
+  width: 865
+  height: 577
+  alt: "A competitor towing the manikin, its face held clear of the water."
+  shows: >
+   Not sports equipment that resembles a person: a standardised person, carried
+   as a rescue would carry one.
+  title: "Remorquage manequin.JPG"
+  author: "MisterGael"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Remorquage_manequin.JPG"
+
+- id: lifesaving-rescue-tube
+  sport: lifesaving
+  file: /images/lifesaving/tube-guard.jpg
+  width: 829
+  height: 1200
+  alt: "A lifeguard with a rescue tube on Harbor Beach, Oceanside, California, 2016."
+  shows: >
+   The strap-and-float device a patrolling lifeguard carries, used in
+   competition as issued.
+  title: "Lifeguard with Rescue Tube (34127943880).jpg"
+  author: "Chris Hunkeler"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lifeguard_with_Rescue_Tube_(34127943880).jpg"
+
+- id: lifesaving-boards-skis
+  sport: lifesaving
+  file: /images/lifesaving/boards.jpg
+  width: 1200
+  height: 801
+  alt: "Rescue boards and surf skis on the sand at the 2023 US Lifeguard Championships, Virginia Beach."
+  shows: >
+   Patrol craft, whose racing versions have tracked what beach patrols use.
+  title: "Rescue Boards - Flickr - Chris Hunkeler.jpg"
+  author: "Chris Hunkeler"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rescue_Boards_-_Flickr_-_Chris_Hunkeler.jpg"
+
+- id: lifesaving-beach-flags
+  sport: lifesaving
+  file: /images/lifesaving/flags-it.jpg
+  width: 960
+  height: 637
+  alt: "Competitors face down at the start of a beach flags round, Italy, 2015."
+  shows: >
+   Lengths of hose buried in the sand, one fewer than competitors: no rescue
+   equipment at all.
+  title: "Bandierinesullaspiaggia.jpg"
+  author: "Laradelfreo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bandierinesullaspiaggia.jpg"
+
+- id: lifesaving-carry-styles
+  sport: lifesaving
+  file: /images/lifesaving/manikin-carry.jpg
+  width: 1200
+  height: 918
+  alt: "Competitors carrying manikins in different holds in a pool event, Italy."
+  shows: >
+   Every hold must be one a rescue would use; a faster one that would not save
+   anybody is disqualified.
+  title: "Trasportomanichino.JPG"
+  author: "Laradelfreo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Trasportomanichino.JPG"
+
+- id: lifesaving-airway
+  sport: lifesaving
+  file: /images/lifesaving/puppe.jpg
+  width: 800
+  height: 533
+  alt: "The manikin tow at the 2004 Bodenseepokal of the German lifesaving society DLRG, Müllheim."
+  shows: >
+   A manikin whose airway goes under the surface is a disqualification, judged
+   by eye from the poolside.
+  title: "Rettungsschwimmen1.jpg"
+  author: "Alex (de.wikipedia)"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rettungsschwimmen1.jpg"
+
+- id: lifesaving-tube-clip
+  sport: lifesaving
+  file: /images/lifesaving/aggancio.jpg
+  width: 1200
+  height: 814
+  alt: "A competitor clipping the manikin into a rescue tube during a super lifesaver race, Italy."
+  shows: >
+   Technique judged alongside time: an improper attachment is a
+   disqualification, not a penalty.
+  title: "Atleta aggancio.jpg"
+  author: "Laradelfreo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Atleta_aggancio.jpg"
+
+- id: lifesaving-mount-maunganui
+  sport: lifesaving
+  file: /images/lifesaving/surf-comp.jpg
+  width: 900
+  height: 600
+  alt: "Surf lifesavers from around New Zealand competing at Mount Maunganui, 2008."
+  shows: >
+   Australia and New Zealand: a mass volunteer patrol culture, and the
+   competitive heart of the ocean programme.
+  title: "Surf Live Competition (8118001376).jpg"
+  author: "Abaconda Management Group"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Surf_Live_Competition_(8118001376).jpg"
+
+- id: lifesaving-nippers
+  sport: lifesaving
+  file: /images/lifesaving/nippers.jpg
+  width: 1200
+  height: 894
+  alt: "Nippers, junior surf lifesavers, in a surf race in Australia, 2005."
+  shows: >
+   A club structure that starts with children.
+  title: "NippersBoards.jpg"
+  author: "Klaus-Dieter Liss"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:NippersBoards.jpg"
+
+- id: lifesaving-germany-open-water
+  sport: lifesaving
+  file: /images/lifesaving/tube-race.jpg
+  width: 800
+  height: 533
+  alt: "A rescue tube race at the Breisgau open-water lifesaving competition, Germany, 2004."
+  shows: >
+   The European tradition, descended from the 1910 federation.
+  title: "Rettungsschwimmen2.jpg"
+  author: "Alex (de.wikipedia)"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rettungsschwimmen2.jpg"
+
+- id: lifesaving-pool-2015
+  sport: lifesaving
+  slot: "play:field"
+  file: /images/lifesaving/superlifesaver.jpg
+  width: 1200
+  height: 701
+  alt: "The finish of a super lifesaver race with fins, rescue tube and manikin, Italy, 2015."
+  shows: >
+   A fifty-metre pool, lanes, and the manikin at the wall.
+  title: "Atleta Superlifesaver.jpeg"
+  author: "Laradelfreo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Atleta_Superlifesaver.jpeg"
+
+- id: lifesaving-board-race
+  sport: lifesaving
+  slot: "events"
+  file: /images/lifesaving/board-start.jpg
+  width: 1200
+  height: 675
+  alt: "The start of the women's rescue board race at the 2023 US Lifeguard Championships, Virginia Beach."
+  shows: >
+   Board, ski, swim and run: the ocean programme.
+  title: "Women's Rescue Board Race Start - Flickr - Chris Hunkeler.jpg"
+  author: "Chris Hunkeler"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Women%27s_Rescue_Board_Race_Start_-_Flickr_-_Chris_Hunkeler.jpg"
