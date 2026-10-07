@@ -421,6 +421,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M29 14 L52 10 M31 20 L49 17 M35 26 L45 24 M36 8 L42 30 M46 6 L40 31" fill="none" />
     </>
   ),
+  // The ring buoy, banded, on its throw line.
+  lifesaving: (
+    <>
+      <circle cx="32" cy="27" r="19" fill="none" />
+      <circle cx="32" cy="27" r="9" fill="none" />
+      <path d="M25 9.5 L27.5 18.5 M39 9.5 L36.5 18.5 M25 44.5 L27.5 35.5 M39 44.5 L36.5 35.5" fill="none" />
+      <path d="M6 56 Q12 51 18 56 T30 56 T42 56 T54 56 T60 56" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
