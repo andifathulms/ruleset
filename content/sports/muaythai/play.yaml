@@ -38,9 +38,9 @@ sections:
       sport uses. The equipment list is the clearest marker of which version of
       muaythai is being contested.
     facts:
-      - { label: Amateur, value: Headguard, shin guards, elbow pads }
+      - { label: Amateur, value: "Headguard, shin guards, elbow pads" }
       - { label: Professional Thai, value: Gloves and a groin guard }
-      - { label: Mongkhon, value: Worn for the ritual, removed before the bell }
+      - { label: Mongkhon, value: "Worn for the ritual, removed before the bell" }
     shaped_by: [muaythai-amateur-protective-code]
 
   - id: players
@@ -51,7 +51,7 @@ sections:
       the permitted techniques narrow as the age falls — elbows in particular
       are restricted or removed for junior categories.
     facts:
-      - { label: Categories, value: By weight, age and grade }
+      - { label: Categories, value: "By weight, age and grade" }
       - { label: Elbows, value: Restricted or barred in junior categories }
     shaped_by: [muaythai-amateur-protective-code]
 
@@ -83,7 +83,7 @@ sections:
       win the fight — a tactic that has no equivalent in any other combat sport
       here, and which an additive round-by-round system makes impossible.
     facts:
-      - { label: Amateur, value: Ten-point must, round by round }
+      - { label: Amateur, value: "Ten-point must, round by round" }
       - { label: Professional Thai, value: Weighted to the later rounds }
     shaped_by: [muaythai-amateur-protective-code]
 

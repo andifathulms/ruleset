@@ -22,7 +22,7 @@ disciplines:
       The ritual and the technique forms, contested as judged events at some
       championships.
     events:
-      - { id: waikru, label: Wai kru competition, at: [world-championship], note: The pre-fight ritual, performed and judged as an event in its own right. }
+      - { id: waikru, label: Wai kru competition, at: [world-championship], note: "The pre-fight ritual, performed and judged as an event in its own right." }
   - id: professional
     label: The professional Thai sport
     counts: false
@@ -32,7 +32,7 @@ disciplines:
       rounds weighted, and structurally bound up with legal ringside gambling.
       IFMA does not govern it.
     events:
-      - { id: stadium, label: Stadium muaythai, at: [federation-only], note: Where the sport's best fighters are, under a different rulebook from the recognised amateur code. }
+      - { id: stadium, label: Stadium muaythai, at: [federation-only], note: "Where the sport's best fighters are, under a different rulebook from the recognised amateur code." }
   - id: relatives
     label: Codes it sits beside
     counts: false
