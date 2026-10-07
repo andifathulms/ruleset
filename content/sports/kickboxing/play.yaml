@@ -45,7 +45,7 @@ sections:
       codes: a padded foot makes a light-contact scoring kick safe, and would be
       an obstacle in a low-kick bout where the shin is the striking surface.
     facts:
-      - { label: Throughout, value: Gloves, mouthguard, groin guard, shin guards }
+      - { label: Throughout, value: "Gloves, mouthguard, groin guard, shin guards" }
       - { label: Tatami codes, value: Add foot protectors and headguard }
 
   - id: players
@@ -56,8 +56,8 @@ sections:
       which is why the sport's world championships are among the largest combat
       events held anywhere by number of medals.
     facts:
-      - { label: Categories, value: By discipline, weight and sex }
-      - { label: Medals per championship, value: Very large, because disciplines multiply }
+      - { label: Categories, value: "By discipline, weight and sex" }
+      - { label: Medals per championship, value: "Very large, because disciplines multiply" }
 
   - id: duration
     label: Time
@@ -67,7 +67,7 @@ sections:
       fixed time with the clock stopped at every halt, so a two-minute round
       takes much longer than two minutes.
     facts:
-      - { label: Round, value: 2 min amateur, 3 min professional }
+      - { label: Round, value: "2 min amateur, 3 min professional" }
       - { label: Point fighting, value: Clock stops at every point }
 
   - id: scoring
@@ -84,9 +84,9 @@ sections:
       deduction — a technique quota, imposed because a fighter left to optimise
       freely would stop kicking.
     facts:
-      - { label: Point fighting, value: 1, 2 or 3 points, bout halted each time }
-      - { label: Continuous codes, value: Ten-point must, round by round }
-      - { label: Full contact, value: Minimum kicks per round, or penalised }
+      - { label: Point fighting, value: "1, 2 or 3 points, bout halted each time" }
+      - { label: Continuous codes, value: "Ten-point must, round by round" }
+      - { label: Full contact, value: "Minimum kicks per round, or penalised" }
     shaped_by: [kickboxing-minimum-kicks, kickboxing-point-fighting]
 
   - id: restarts

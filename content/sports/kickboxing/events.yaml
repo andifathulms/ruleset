@@ -30,7 +30,7 @@ disciplines:
       Choreographed routines performed to music and judged — contested under
       the same federation as full-contact fighting.
     events:
-      - { id: musical, label: Musical forms, at: [world-championship], note: Hard, soft and weapon categories, marked by a panel. }
+      - { id: musical, label: Musical forms, at: [world-championship], note: "Hard, soft and weapon categories, marked by a panel." }
   - id: elsewhere
     label: The same sport, sanctioned elsewhere
     counts: false
@@ -39,4 +39,4 @@ disciplines:
       world titles. IOC recognition went to one of them.
     events:
       - { id: rivals, label: Other sanctioning bodies, at: [federation-only], note: "Independent organisations awarding their own world championships; no mechanism reconciles them." }
-      - { id: promotions, label: Professional promotions, at: [federation-only], note: Commercial promotions running their own rulesets and titles, where most of the sport's money is. }
+      - { id: promotions, label: Professional promotions, at: [federation-only], note: "Commercial promotions running their own rulesets and titles, where most of the sport's money is." }
