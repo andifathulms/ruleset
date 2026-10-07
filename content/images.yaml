@@ -10053,3 +10053,243 @@
   licence: "CC BY-SA 2.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Women%27s_Rescue_Board_Race_Start_-_Flickr_-_Chris_Hunkeler.jpg"
+
+# Modern pentathlon.
+
+- id: modern-pentathlon-stockholm-fencing
+  sport: modern-pentathlon
+  file: /images/modern-pentathlon/patton1912.jpg
+  width: 1200
+  height: 832
+  alt: "A fencing bout in the modern pentathlon at the 1912 Stockholm Olympics: Jean de Mas Latrie of France against George S. Patton of the United States."
+  shows: >
+   The first edition, contested largely by army officers, as de Coubertin's
+   story intended.
+  title: "1912 fencing patton and mas latrie.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1912_fencing_patton_and_mas_latrie.jpg"
+
+- id: modern-pentathlon-stockholm-run
+  sport: modern-pentathlon
+  file: /images/modern-pentathlon/laval1912.jpg
+  width: 1200
+  height: 1105
+  alt: "Georg de Laval of Sweden finishing the cross-country run of the 1912 modern pentathlon."
+  shows: >
+   Ride, fight, shoot, swim and run: the officer's escape, as five events in
+   one competition.
+  title: "Georg de Laval 1912.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Georg_de_Laval_1912.jpg"
+
+- id: modern-pentathlon-tokyo-stamp
+  sport: modern-pentathlon
+  file: /images/modern-pentathlon/stamp1964.jpg
+  width: 540
+  height: 540
+  alt: "A Japanese stamp for the 1964 Tokyo Olympics showing all five disciplines of modern pentathlon."
+  shows: >
+   Riding, fencing, shooting, swimming and running in one design: the founding
+   combination.
+  title: "1964 Olympics mpentathlon stamp of Japan.jpg"
+  author: "Japan Post"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1964_Olympics_mpentathlon_stamp_of_Japan.jpg"
+
+- id: modern-pentathlon-laser-pistols
+  sport: modern-pentathlon
+  file: /images/modern-pentathlon/pistols.jpg
+  width: 1200
+  height: 900
+  alt: "Two UIPM-homologated laser pistols."
+  shows: >
+   No projectile: no range, no backstop, no firearms licence and no ammunition
+   to move across borders.
+  title: "Laser Pistols (UIPM homologated) for Modern Penathlon, Laser Run and Triathle.jpg"
+  author: "IndyMeister"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Laser_Pistols_(UIPM_homologated)_for_Modern_Penathlon,_Laser_Run_and_Triathle.jpg"
+
+- id: modern-pentathlon-laser-shooting
+  sport: modern-pentathlon
+  file: /images/modern-pentathlon/laserrun-yog.jpg
+  width: 1200
+  height: 800
+  alt: "Annabel Denton shooting in the laser run at the 2018 Youth Olympics, Buenos Aires."
+  shows: >
+   The trigger, the hold and the timing are the same; what changed is who can
+   afford to host it.
+  title: "Women's Individual Laser-Run YOG18 13-10-2018 (002).jpg"
+  author: "Mauricio V. Genta"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Women%27s_Individual_Laser-Run_YOG18_13-10-2018_(002).jpg"
+
+- id: modern-pentathlon-drawn-horse
+  sport: modern-pentathlon
+  file: /images/modern-pentathlon/bremer-ride.jpg
+  width: 1200
+  height: 800
+  alt: "Eli Bremer of the United States riding Dangdang, a horse drawn by lot, in the show jumping at the 2008 Beijing Olympics."
+  shows: >
+   An animal the competitor has never ridden, met twenty minutes before the
+   course.
+  title: "Eli Bremmer Beijing 2008.jpg"
+  author: "Tim Hipps, U.S. Army"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Eli_Bremmer_Beijing_2008.jpg"
+
+- id: modern-pentathlon-obstacle-rings
+  sport: modern-pentathlon
+  file: /images/modern-pentathlon/obstacle2026b.jpg
+  width: 1200
+  height: 799
+  alt: "The rings section of the obstacle discipline at the 2026 World Championships, Guiyang."
+  shows: >
+   A frame, a mat and no living participant other than the athlete: the
+   cheapest fifth discipline available.
+  title: "2026 World Modern Pentathlon Championships - Men's individual final - obstable 02.jpg"
+  author: "三猎"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2026_World_Modern_Pentathlon_Championships_-_Men%27s_individual_final_-_obstable_02.jpg"
+
+- id: modern-pentathlon-obstacle-course
+  sport: modern-pentathlon
+  file: /images/modern-pentathlon/obstacle2026.jpg
+  width: 1200
+  height: 900
+  alt: "Competitors on the obstacle course at the 2026 World Championships, Guiyang."
+  shows: >
+   Obstacle racing, replacing riding from 2028, with a rulebook still being
+   written.
+  title: "2026 World Modern Pentathlon Championships - Men's individual final - obstable 01.jpg"
+  author: "三猎"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2026_World_Modern_Pentathlon_Championships_-_Men%27s_individual_final_-_obstable_01.jpg"
+
+- id: modern-pentathlon-versailles-2024
+  sport: modern-pentathlon
+  file: /images/modern-pentathlon/versailles.jpg
+  width: 1200
+  height: 675
+  alt: "The modern pentathlon venue in the park of the Château de Versailles at the 2024 Paris Olympics."
+  shows: >
+   A compressed final staged in one arena to fit a broadcast window.
+  title: "Paris 2024 Men's Modern Pentathlon Park Of The Chateau Of Versailles.jpg"
+  author: "Eric Salard"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Paris_2024_Men%27s_Modern_Pentathlon_Park_Of_The_Chateau_Of_Versailles.jpg"
+
+- id: modern-pentathlon-laser-run-finish
+  sport: modern-pentathlon
+  file: /images/modern-pentathlon/uipm-comp.jpg
+  width: 1120
+  height: 1200
+  alt: "Competitors running into the shooting range at a UIPM laser-run world championship in Zhengzhou, according to the range signage."
+  shows: >
+   Shooting and running merged in 2009, giving the sport a finish line somebody
+   could point a camera at.
+  title: "Modern pentathlon competition.jpg"
+  author: "UIPM"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Modern_pentathlon_competition.jpg"
+
+- id: modern-pentathlon-epee
+  sport: modern-pentathlon
+  file: /images/modern-pentathlon/fence-uipm.jpg
+  width: 1200
+  height: 839
+  alt: "An épée bout in a modern pentathlon competition, 2024."
+  shows: >
+   Fencing judged by fencing's own rules, with the hit registered electrically.
+  title: "Fencing modern pentathlon.jpg"
+  author: "UIPM"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Fencing_modern_pentathlon.jpg"
+
+- id: modern-pentathlon-sensor-targets
+  sport: modern-pentathlon
+  file: /images/modern-pentathlon/laserrun-yog2.jpg
+  width: 1200
+  height: 800
+  alt: "A line of competitors at the laser-run range in the mixed relay at the 2018 Youth Olympics, Buenos Aires."
+  shows: >
+   Laser shooting registers electronically: a discipline that once needed a
+   range and a scoring process now needs a sensor.
+  title: "Laser Run Mixed Relay Modern Pentathlon 2018 YOG (61).JPG"
+  author: "BugWarp"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Laser_Run_Mixed_Relay_Modern_Pentathlon_2018_YOG_(61).JPG"
+
+- id: modern-pentathlon-leipzig-1965
+  sport: modern-pentathlon
+  file: /images/modern-pentathlon/ddr1965.jpg
+  width: 697
+  height: 809
+  alt: "An East German stamp for the 1965 Modern Pentathlon World Championships in Leipzig, showing a pistol shooter."
+  shows: >
+   A sport whose map follows national programmes able to fund four facilities.
+  title: "Stamps of Germany (DDR) 1965, MiNr 1135.jpg"
+  author: "Deutsche Post der DDR"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Stamps_of_Germany_(DDR)_1965,_MiNr_1135.jpg"
+
+- id: modern-pentathlon-versailles-pool
+  sport: modern-pentathlon
+  slot: "play:field"
+  file: /images/modern-pentathlon/versailles-swim.jpg
+  width: 1200
+  height: 797
+  alt: "The temporary pool at Versailles during the men's swimming at the 2024 Olympics."
+  shows: >
+   A pool, a piste, a riding arena and a run-shoot course, brought together in
+   one venue.
+  title: "JO PARIS 2024 PENTATHLON MODERNE MENS PARC DU CHATEAU DE VERSAILLES - 53915642806.jpg"
+  author: "Eric Salard"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:JO_PARIS_2024_PENTATHLON_MODERNE_MENS_PARC_DU_CHATEAU_DE_VERSAILLES_-_53915642806.jpg"
+
+- id: modern-pentathlon-riding-2024
+  sport: modern-pentathlon
+  slot: "events"
+  file: /images/modern-pentathlon/versailles2.jpg
+  width: 1200
+  height: 797
+  alt: "A competitor jumping in the riding at Versailles, 2024, the last Olympic Games with a horse in the sport."
+  shows: >
+   Riding is removed from 2028.
+  title: "JO PARIS 2024 PENTATHLON MODERNE MENS PARC DU CHATEAU DE VERSAILLES - 53914752742.jpg"
+  author: "Eric Salard"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:JO_PARIS_2024_PENTATHLON_MODERNE_MENS_PARC_DU_CHATEAU_DE_VERSAILLES_-_53914752742.jpg"
+
+- id: modern-pentathlon-worlds-2026
+  sport: modern-pentathlon
+  slot: "events"
+  file: /images/modern-pentathlon/fence2026.jpg
+  width: 1200
+  height: 800
+  alt: "The fencing in the men's final of the 2026 World Championships, Guiyang."
+  shows: >
+   Men's and women's individual events on the Olympic programme.
+  title: "2026 World Modern Pentathlon Championships - Men's individual final - fencing.jpg"
+  author: "三猎"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2026_World_Modern_Pentathlon_Championships_-_Men%27s_individual_final_-_fencing.jpg"
