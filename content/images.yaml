@@ -10797,3 +10797,282 @@
   licence: "CC BY-SA 3.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Trail-o_demo_Jana%2BLenka_Skotsko.jpg"
+
+# Polo.
+
+- id: polo-shahnama-1341
+  sport: polo
+  file: /images/polo/siyavush.jpg
+  width: 988
+  height: 1200
+  alt: "Siyavush displays his skill at polo before Afrasiyab: a folio from a Shahnama dated 1341, Metropolitan Museum of Art."
+  shows: >
+   Mounted ball games as Persian court spectacle, centuries before the British
+   encountered the game.
+  title: "\"Siyavush Displays his Skill at Polo before Afrasiyab\", Folio from a Shahnama (Book of Kings) MET DT214816.jpg"
+  author: "Unknown painter"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:%22Siyavush_Displays_his_Skill_at_Polo_before_Afrasiyab%22,_Folio_from_a_Shahnama_(Book_of_Kings)_MET_DT214816.jpg"
+
+- id: polo-manipur-1875
+  sport: polo
+  file: /images/polo/manipur1875.jpg
+  width: 1200
+  height: 919
+  alt: "Manipuri polo players with their ponies, photographed by Bourne and Shepherd, 1875."
+  shows: >
+   The version of the game the British took up and codified.
+  title: "Manipur Polo Players 1875.jpg"
+  author: "Bourne and Shepherd"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Manipur_Polo_Players_1875.jpg"
+
+- id: polo-sagol-kangjei
+  sport: polo
+  file: /images/polo/sagol.jpg
+  width: 1200
+  height: 795
+  alt: "Sagol kangjei, polo in Manipur, from a photograph by E. J. Mitchell, before 1908."
+  shows: >
+   The surviving Manipuri game the Calcutta Polo Club grew out of.
+  title: "SAGOL KANGJEI - POLO IN MANIPUR.jpg"
+  author: "E. J. Mitchell"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:SAGOL_KANGJEI_-_POLO_IN_MANIPUR.jpg"
+
+- id: polo-paris-1900
+  sport: polo
+  file: /images/polo/paris1900.jpg
+  width: 935
+  height: 498
+  alt: "The Bagatelle Polo Club de Paris, bronze medallists at the 1900 Paris Olympics."
+  shows: >
+   Club and mixed-nationality teams rather than national selections.
+  title: "Le Bagatelle Polo Club de Paris, médaille de bronze aux JO 1900 de Paris.jpg"
+  author: "La Vie au Grand Air"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Le_Bagatelle_Polo_Club_de_Paris,_m%C3%A9daille_de_bronze_aux_JO_1900_de_Paris.jpg"
+
+- id: polo-london-1908
+  sport: polo
+  file: /images/polo/gb1908.jpg
+  width: 904
+  height: 572
+  alt: "The Great Britain polo team at the 1908 London Olympics."
+  shows: >
+   One of five Games with polo on the programme, the last in 1936.
+  title: "Polo-winning team at the 1908 Summer Olympics.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Polo-winning_team_at_the_1908_Summer_Olympics.jpg"
+
+- id: polo-pony
+  sport: polo
+  file: /images/polo/ponies-line.jpg
+  width: 1200
+  height: 1131
+  alt: "A polo player on a pony, its legs bandaged and tail tied up, 2007."
+  shows: >
+   Full-sized horses, bred for acceleration and stopping, changed between
+   chukkas.
+  title: "Polo 070922 16.jpg"
+  author: "Nelly2"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Polo_070922_16.jpg"
+
+- id: polo-mallets
+  sport: polo
+  file: /images/polo/equipment.jpg
+  width: 1200
+  height: 960
+  alt: "Two polo mallets and a ball."
+  shows: >
+   A cane shaft with a hardwood head, struck with the side, carried in the
+   right hand.
+  title: "Polo equipment.jpg"
+  author: "Montanabw"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Polo_equipment.jpg"
+
+- id: polo-knee-guard
+  sport: polo
+  file: /images/polo/kneepad.jpg
+  width: 1067
+  height: 1200
+  alt: "A player's leather knee guard and boot in a polo match."
+  shows: >
+   Helmets compulsory, knee guards common: protection for two half-tonne
+   animals converging.
+  title: "Polo kneepad.jpg"
+  author: "Y. S. Groen"
+  licence: "CC BY 2.5"
+  licence_url: "https://creativecommons.org/licenses/by/2.5"
+  source_url: "https://commons.wikimedia.org/wiki/File:Polo_kneepad.jpg"
+
+- id: polo-taped-tail
+  sport: polo
+  file: /images/polo/tail.jpg
+  width: 797
+  height: 1200
+  alt: "A polo pony's tail plaited and taped."
+  shows: >
+   Tied up so it cannot catch a mallet or a rein.
+  title: "Polo horse tail taped.JPG"
+  author: "Dee.lite"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Polo_horse_tail_taped.JPG"
+
+- id: polo-palermo-2014
+  sport: polo
+  file: /images/polo/catedral.jpg
+  width: 650
+  height: 402
+  alt: "The final of the 2014 Argentine Open at Palermo, Buenos Aires."
+  shows: >
+   The sport's real summit, contested at the highest team handicaps in
+   existence.
+  title: "La Catedral del Polo.jpg"
+  author: "Tomiflores7"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:La_Catedral_del_Polo.jpg"
+
+- id: polo-windsor-2017
+  sport: polo
+  file: /images/polo/guards.jpg
+  width: 1200
+  height: 900
+  alt: "Spectators at the Royal Windsor Cup, Guards Polo Club, 2017."
+  shows: >
+   The British high-goal season, a club competition funded by patrons.
+  title: "The Royal Windsor Cup 2017 at the Guards Polo Club - geograph.org.uk - 5440576.jpg"
+  author: "James Emmans"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:The_Royal_Windsor_Cup_2017_at_the_Guards_Polo_Club_-_geograph.org.uk_-_5440576.jpg"
+
+- id: polo-line-of-ball
+  sport: polo
+  file: /images/polo/jlc1.jpg
+  width: 1200
+  height: 795
+  alt: "Two players following the ball at the Jaeger-LeCoultre Polo Masters, Gstaad, 2013."
+  shows: >
+   The line of the ball, and right of way to whoever follows it most closely.
+  title: "Jaeger-LeCoultre Polo Masters 2013 - 25082013 - Match Poloyou vs Lynx Energy 12.jpg"
+  author: "Clément Bucco-Lechat"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jaeger-LeCoultre_Polo_Masters_2013_-_25082013_-_Match_Poloyou_vs_Lynx_Energy_12.jpg"
+
+- id: polo-ride-off
+  sport: polo
+  file: /images/polo/jlc2.jpg
+  width: 1200
+  height: 795
+  alt: "Two players riding side by side for the ball in the final of the 2013 Jaeger-LeCoultre Polo Masters, Gstaad."
+  shows: >
+   Contact along the line is allowed; crossing it in front of another rider is
+   not.
+  title: "Jaeger-LeCoultre Polo Masters 2013 - 31082013 - Final match Poloyou vs Lynx Energy 13.jpg"
+  author: "Clément Bucco-Lechat"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jaeger-LeCoultre_Polo_Masters_2013_-_31082013_-_Final_match_Poloyou_vs_Lynx_Energy_13.jpg"
+
+- id: polo-mounted-umpire
+  sport: polo
+  file: /images/polo/umpire.jpg
+  width: 1200
+  height: 800
+  alt: "A mounted umpire at the Myopia Hunt Club, South Hamilton, Massachusetts, 2017."
+  shows: >
+   Two umpires on horseback riding with the play, watching an invisible line.
+  title: "Myopia Hunt Club polo umpire, South Hamilton MA.jpg"
+  author: "John Phelan"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Myopia_Hunt_Club_polo_umpire,_South_Hamilton_MA.jpg"
+
+- id: polo-argentine-2010
+  sport: polo
+  file: /images/polo/arg2010.jpg
+  width: 1200
+  height: 675
+  alt: "Players at the 2010 Argentine championship, Palermo."
+  shows: >
+   Almost every ten-goal player alive is Argentine.
+  title: "Campeonato Argentino de Polo 2010 - 5237109478 e7ed034169 o.jpg"
+  author: "Roger Schultz"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Campeonato_Argentino_de_Polo_2010_-_5237109478_e7ed034169_o.jpg"
+
+- id: polo-jodhpur-1925
+  sport: polo
+  file: /images/polo/jodhpur.jpg
+  width: 559
+  height: 461
+  alt: "The Jodhpur polo team in 1925: Thakur Prithi Singh of Bera, Maharaja Umaid Singh, Rao Raja Hanut Singh and Thakur Ram Singh."
+  shows: >
+   India, where the modern codification began.
+  title: "Jodhpur Polo Team 1925.jpg"
+  author: "Bozo100"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jodhpur_Polo_Team_1925.jpg"
+
+- id: polo-kaduna
+  sport: polo
+  file: /images/polo/kaduna.jpg
+  width: 1080
+  height: 792
+  alt: "A polo horse at the Fifth Chukker Polo and Country Club, Kaduna, Nigeria."
+  shows: >
+   Wherever polo is played, the constraint is horses: land, stabling, grooms
+   and trained ponies.
+  title: "Beautiful Polo Horse in Fifth Chukker Polo and Country Club, Kaduna.jpg"
+  author: "Halima Waziri"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Beautiful_Polo_Horse_in_Fifth_Chukker_Polo_and_Country_Club,_Kaduna.jpg"
+
+- id: polo-arena-2015
+  sport: polo
+  slot: "events"
+  file: /images/polo/arena.jpg
+  width: 1200
+  height: 1073
+  alt: "Arena polo at the Maimarkt in Mannheim, Germany, 2015."
+  shows: >
+   Three a side, on a far smaller enclosed ground, with its own world
+   championship.
+  title: "Maimarkt Mannheim 2015 - Polo 2015-04-26 15-14-23.JPG"
+  author: "Radosław Drożdżewski"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Maimarkt_Mannheim_2015_-_Polo_2015-04-26_15-14-23.JPG"
+
+- id: polo-snow-2014
+  sport: polo
+  slot: "events"
+  file: /images/polo/snow.jpg
+  width: 1200
+  height: 795
+  alt: "The St. Moritz Polo World Cup on Snow, 2014."
+  shows: >
+   A club tournament on a frozen lake, outside the federation's own
+   championship.
+  title: "30th St. Moritz Polo World Cup on Snow - 20140202 - Cartier vs Ralph Lauren 9.jpg"
+  author: "Clément Bucco-Lechat"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:30th_St._Moritz_Polo_World_Cup_on_Snow_-_20140202_-_Cartier_vs_Ralph_Lauren_9.jpg"
