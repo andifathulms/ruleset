@@ -430,6 +430,17 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M6 56 Q12 51 18 56 T30 56 T42 56 T54 56 T60 56" fill="none" />
     </>
   ),
+  // The laser pistol of the laser run, a beam to its target, over water.
+  'modern-pentathlon': (
+    <>
+      <path d="M8 16 L36 16 L36 23 L22 23 L19 38 L11 38 L13 23 L8 23 Z" fill="none" />
+      <path d="M20 23 Q24 30 28 23" fill="none" />
+      <path d="M40 19.5 L48 19.5" strokeDasharray="2 3" fill="none" />
+      <circle cx="54" cy="19.5" r="5" fill="none" />
+      <circle cx="54" cy="19.5" r="1.5" fill="#F2F5F1" stroke="none" />
+      <path d="M6 52 Q12 47 18 52 T30 52 T42 52 T54 52 T60 52" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
