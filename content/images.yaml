@@ -10293,3 +10293,255 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:2026_World_Modern_Pentathlon_Championships_-_Men%27s_individual_final_-_fencing.jpg"
+
+# Muaythai.
+
+- id: muaythai-siam-1865
+  sport: muaythai
+  file: /images/muaythai/thomson1865.jpg
+  width: 1200
+  height: 884
+  alt: "A boxing match in Siam, photographed by John Thomson in 1865."
+  shows: >
+   The festival contest before the ring: no gloves, no rounds, no weight
+   classes.
+  title: "Muay Thai match in Siam 1865 John Thomson.jpg"
+  author: "John Thomson"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Muay_Thai_match_in_Siam_1865_John_Thomson.jpg"
+
+- id: muaythai-ayutthaya-1907
+  sport: muaythai
+  file: /images/muaythai/ayutthaya1907.jpg
+  width: 1200
+  height: 1003
+  alt: "A bout in front of the Sanphet Maha Prasat Throne Hall, Ayutthaya, 1907."
+  shows: >
+   Contested in the open, before officials, as a spectacle of the court and the
+   fair.
+  title: "Muay Thai at Sanphet Maha Prasat Throne Hall in Ayutthaya 1907.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Muay_Thai_at_Sanphet_Maha_Prasat_Throne_Hall_in_Ayutthaya_1907.jpg"
+
+- id: muaythai-rope-hands-1915
+  sport: muaythai
+  file: /images/muaythai/boran1915.jpg
+  width: 1200
+  height: 762
+  alt: "Two fighters squaring up around 1915, their hands bound; the inscription names Bang Malikham of Ubon, blue, and Tian Hemasidon of Phra Nakhon, red."
+  shows: >
+   Hands bound in rope, and the red-and-blue corners already in place.
+  title: "Muay Thai Boran Fighters Bang vs Tian c1915.png"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Muay_Thai_Boran_Fighters_Bang_vs_Tian_c1915.png"
+
+- id: muaythai-bangkok-1920s
+  sport: muaythai
+  file: /images/muaythai/bangkok1920s.jpg
+  width: 1200
+  height: 758
+  alt: "Siamese boxing in a Bangkok ring, 1920s."
+  shows: >
+   The transition to a ring sport, with gloves arriving from Western boxing.
+  title: "Siamese Boxing in Bangkok (Muay Thai Boran) 1920s.png"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Siamese_Boxing_in_Bangkok_(Muay_Thai_Boran)_1920s.png"
+
+- id: muaythai-rajadamnern
+  sport: muaythai
+  file: /images/muaythai/rajadamnern.jpg
+  width: 1200
+  height: 675
+  alt: "Rajadamnern Stadium, Ratchadamnoen Avenue, Bangkok."
+  shows: >
+   One of the two stadiums that set the conventions of the professional sport.
+  title: "Rajadamnern Stadium.jpg"
+  author: "DiverDave"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rajadamnern_Stadium.jpg"
+
+- id: muaythai-amateur-kit
+  sport: muaythai
+  file: /images/muaythai/amateur.jpg
+  width: 787
+  height: 526
+  alt: "An amateur muaythai bout: body protectors and shin guards, both fighters kneeling for the ritual."
+  shows: >
+   The international code's protective equipment, written so the sport could
+   meet multi-sport medical standards.
+  title: "Amateur Muay Thai.jpg"
+  author: "やっぱこれでしょ (Japanese Wikipedia)"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Amateur_Muay_Thai.jpg"
+
+- id: muaythai-hand-wraps
+  sport: muaythai
+  file: /images/muaythai/wraps.jpg
+  width: 848
+  height: 1200
+  alt: "A step-by-step guide to wrapping the hands for muaythai."
+  shows: >
+   Wraps and gloves: much of the professional sport's equipment, with shins
+   conditioned rather than protected.
+  title: "Muay Thai Hand Wrapping.jpg"
+  author: "Kru Tony Moore"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Muay_Thai_Hand_Wrapping.jpg"
+
+- id: muaythai-ram-muay
+  sport: muaythai
+  file: /images/muaythai/ramuay.jpg
+  width: 1200
+  height: 800
+  alt: "A fighter performing the ram muay before a bout, the mongkhon on his head and a garland around his neck."
+  shows: >
+   The ritual dance, retained as a condition of internationalisation and
+   written into the rules.
+  title: "Ram Muay (Ritual Dance).jpg"
+  author: "Kru Tony Moore"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ram_Muay_(Ritual_Dance).jpg"
+
+- id: muaythai-mongkhon
+  sport: muaythai
+  file: /images/muaythai/mongkhon.jpg
+  width: 802
+  height: 1200
+  alt: "A mongkhon hanging in a shop, Singapore, 2023."
+  shows: >
+   The headband worn for the pre-fight ritual and removed before the bell.
+  title: "Mongkhon in Singapore (1).jpg"
+  author: "B20180"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Mongkhon_in_Singapore_(1).jpg"
+
+- id: muaythai-lumpinee
+  sport: muaythai
+  file: /images/muaythai/lumpinee-old.jpg
+  width: 1200
+  height: 723
+  alt: "Lumpinee Boxing Stadium, Bangkok, photographed in 2015."
+  shows: >
+   The other of the two great stadiums: the sport's summit, outside the
+   international federation.
+  title: "Bangkok Lumpinee Boxing Stadium 1.jpg"
+  author: "Sayompoo Setabhrahmana"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bangkok_Lumpinee_Boxing_Stadium_1.jpg"
+
+- id: muaythai-ringside
+  sport: muaythai
+  file: /images/muaythai/raj-audience.jpg
+  width: 1200
+  height: 900
+  alt: "The audience at a muaythai match at Rajadamnern Stadium, Bangkok, 2007."
+  shows: >
+   Ringside betting is part of how the professional sport is watched, and
+   judged.
+  title: "Audience at Muay Thai match at Rajadamnern Stadium 2007-05-20.JPG"
+  author: "BrokenSphere"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Audience_at_Muay_Thai_match_at_Rajadamnern_Stadium_2007-05-20.JPG"
+
+- id: muaythai-referee-clinch
+  sport: muaythai
+  file: /images/muaythai/aonang4.jpg
+  width: 1200
+  height: 800
+  alt: "A referee watching a bout at the Ao Nang stadium, Krabi, 2012."
+  shows: >
+   Clinches are left to be worked, and the referee decides when one has stopped
+   being productive.
+  title: "Muay Thai Ao Nang 4.jpg"
+  author: "kallerna"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Muay_Thai_Ao_Nang_4.jpg"
+
+- id: muaythai-europe-2026
+  sport: muaythai
+  file: /images/muaythai/euro2026b.jpg
+  width: 1200
+  height: 900
+  alt: "The ring at the 2026 European Muaythai Championships, Armenia."
+  shows: >
+   The amateur code's international reach, far beyond Thailand.
+  title: "Armenia-IMG20261002140253.jpg"
+  author: "El Pantera"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Armenia-IMG20261002140253.jpg"
+
+- id: muaythai-bangkok-gym
+  sport: muaythai
+  file: /images/muaythai/training.jpg
+  width: 1024
+  height: 683
+  alt: "The ring and mats at a muaythai school in central Bangkok."
+  shows: >
+   A training culture first and a competition second: far more people train
+   than fight.
+  title: "Muay.Thai.Training.JPG"
+  author: "Bjorn Persson"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Muay.Thai.Training.JPG"
+
+- id: muaythai-kun-khmer
+  sport: muaythai
+  file: /images/muaythai/kunkhmer.jpg
+  width: 817
+  height: 686
+  alt: "A kun khmer bout on the Hanuman stage in Cambodia, with its hexagonal ring."
+  shows: >
+   A closely related Cambodian code, and part of a live regional dispute over
+   the shared tradition's name.
+  title: "Hanuman kun khmer.jpg"
+  author: "StreetAhead"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Hanuman_kun_khmer.jpg"
+
+- id: muaythai-ring
+  sport: muaythai
+  slot: "play:field"
+  file: /images/muaythai/aonang6.jpg
+  width: 1200
+  height: 800
+  alt: "The ring at the Ao Nang stadium, Krabi, 2012."
+  shows: >
+   A roped ring, red and blue corners.
+  title: "Muay Thai Ao Nang 6.jpg"
+  author: "kallerna"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Muay_Thai_Ao_Nang_6.jpg"
+
+- id: muaythai-wai-kru
+  sport: muaythai
+  slot: "events"
+  file: /images/muaythai/waikru.jpg
+  width: 1200
+  height: 800
+  alt: "Two fighters performing the wai kru ram muay at the Sitsiam camp, 2015."
+  shows: >
+   Performed and judged as an event in its own right at world championships.
+  title: "Wai Kru Sitsiam Camp.jpg"
+  author: "Kru Tony Moore"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Wai_Kru_Sitsiam_Camp.jpg"
