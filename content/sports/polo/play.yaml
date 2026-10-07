@@ -36,7 +36,7 @@ sections:
     facts:
       - { label: Field, value: 300 × 160 yd boarded }
       - { label: Unboarded, value: 300 × 200 yd }
-      - { label: Arena polo, value: Three a side, far smaller }
+      - { label: Arena polo, value: "Three a side, far smaller" }
 
   - id: equipment
     label: Horses, mallet and ball
@@ -63,7 +63,7 @@ sections:
       - { label: Horses per player, value: Several — changed between chukkas }
       - { label: A pony's workload, value: Usually no more than two chukkas }
       - { label: Mallet, value: Right hand only }
-      - { label: Ball, value: Plastic, about 8 cm }
+      - { label: Ball, value: "Plastic, about 8 cm" }
     shaped_by: [polo-1974-right-handed-only]
 
   - id: players
@@ -78,7 +78,7 @@ sections:
       all Argentine.
     facts:
       - { label: Per side, value: "4" }
-      - { label: Umpires, value: Two mounted, plus a third man on the line }
+      - { label: Umpires, value: "Two mounted, plus a third man on the line" }
       - { label: Handicap, value: −2 to 10 goals per player }
     shaped_by: [polo-1888-goal-handicap]
 
@@ -91,7 +91,7 @@ sections:
       the hooves have torn out.
     facts:
       - { label: Chukka, value: 7 min 30 s }
-      - { label: Match, value: 4, 6 or 8 chukkas }
+      - { label: Match, value: "4, 6 or 8 chukkas" }
       - { label: Half time, value: Spectators stamp the divots back }
 
   - id: scoring
@@ -106,7 +106,7 @@ sections:
       scored, and means a final score cannot be read as a count of goals.
     facts:
       - { label: Starting score, value: Not necessarily nil }
-      - { label: Awarded goals, value: The handicap difference, before play }
+      - { label: Awarded goals, value: "The handicap difference, before play" }
     shaped_by: [polo-1888-goal-handicap]
 
   - id: restarts
@@ -120,7 +120,7 @@ sections:
       without the ball being struck. A penalty in polo can therefore be a goal
       rather than a chance at one.
     facts:
-      - { label: Penalties, value: Free hits from 30, 40 or 60 yd }
+      - { label: Penalties, value: "Free hits from 30, 40 or 60 yd" }
       - { label: Most serious, value: An automatic goal }
 
   - id: prohibitions

@@ -28,7 +28,7 @@ disciplines:
       best players are contracted to club teams rather than national ones.
     events:
       - { id: argentine-open, label: Argentine Open, at: [federation-only], note: "The highest team handicaps in the sport; effectively the world championship in all but name." }
-      - { id: british-us, label: British and United States high-goal seasons, at: [federation-only], note: The Gold Cup, the Queen's Cup and the US Open, contested by patron-funded club teams. }
+      - { id: british-us, label: British and United States high-goal seasons, at: [federation-only], note: "The Gold Cup, the Queen's Cup and the US Open, contested by patron-funded club teams." }
   - id: olympic-record
     label: Its Olympic record
     counts: false
