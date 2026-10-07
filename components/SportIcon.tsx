@@ -451,6 +451,14 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M30 34 L26 46 L28 58 M30 34 L44 32 L40 46" fill="none" />
     </>
   ),
+  // The control flag: a square split on the diagonal, hung from its stake.
+  orienteering: (
+    <>
+      <path d="M14 8 L14 58 M14 10 L50 10" fill="none" />
+      <rect x="20" y="14" width="26" height="26" fill="none" />
+      <path d="M20 14 L46 40 L20 40 Z" fill="#F2F5F1" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
