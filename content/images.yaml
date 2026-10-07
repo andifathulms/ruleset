@@ -9361,3 +9361,193 @@
   licence: "Public domain"
   licence_url: ""
   source_url: "https://commons.wikimedia.org/wiki/File:Sport,_SFA006003619.jpg"
+
+# Kurash.
+
+- id: kurash-bukhara-2011
+  sport: kurash
+  file: /images/kurash/bukhara2011.jpg
+  width: 650
+  height: 432
+  alt: "Kurash before a crowd in a madrasa courtyard during the Asrlar Sadosi festival, Bukhara, 2011."
+  shows: >
+   The tradition at a festival, staged on the matted area of the modern rules.
+  title: "Kurash National Wrestling.jpg"
+  author: "Patisserie"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kurash_National_Wrestling.jpg"
+
+- id: kurash-crimea-1920s
+  sport: kurash
+  file: /images/kurash/festival.jpg
+  width: 1200
+  height: 822
+  alt: "Kuresh wrestling at the Derviza festival in Crimea, 1920s."
+  shows: >
+   One of the related traditions found across the region under many names: two
+   people, belts, standing.
+  title: "Куреш на празднике.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%83%D1%80%D0%B5%D1%88_%D0%BD%D0%B0_%D0%BF%D1%80%D0%B0%D0%B7%D0%B4%D0%BD%D0%B8%D0%BA%D0%B5.jpg"
+
+- id: kurash-carpet
+  sport: kurash
+  file: /images/kurash/carpet.jpg
+  width: 800
+  height: 1200
+  alt: "A carpet showing the 13th-century wrestler Pahlavon Mahmud gripping a belt, in the Museum of Olympic Glory, Tashkent."
+  shows: >
+   The tradition as Uzbekistan presents it: very old, and national.
+  title: "Kurash carpet.jpg"
+  author: "TwoWings"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kurash_carpet.jpg"
+
+- id: kurash-aimag-2017
+  sport: kurash
+  file: /images/kurash/aimag2017.jpg
+  width: 1200
+  height: 800
+  alt: "A throw in blue and green at the 2017 Asian Indoor and Martial Arts Games, Ashgabat."
+  shows: >
+   The codified sport: jackets, belts, standing only.
+  title: "Kurash AIMAG 2017.jpg"
+  author: "Imperor04"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kurash_AIMAG_2017.jpg"
+
+- id: kurash-jacket-belt
+  sport: kurash
+  file: /images/kurash/village.jpg
+  width: 1200
+  height: 800
+  alt: "Two wrestlers gripping jacket and belt at a village kurash bout in Uzbekistan, 2024."
+  shows: >
+   Grips above the waist on the yakhtak and the belbog; the trousers are out of
+   bounds.
+  title: "Kurash at village. Uzbek national sport.jpg"
+  author: "Sinchalak Musulmon"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kurash_at_village._Uzbek_national_sport.jpg"
+
+- id: kurash-stamp-2006
+  sport: kurash
+  file: /images/kurash/stamp2006.jpg
+  width: 446
+  height: 620
+  alt: "An Uzbek postage stamp of 2006 showing kurash."
+  shows: >
+   A national sport, on the state's own stamps eight years after the code was
+   written.
+  title: "Stamps of Uzbekistan, 2006-089.jpg"
+  author: "Post of Uzbekistan"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Stamps_of_Uzbekistan,_2006-089.jpg"
+
+- id: kurash-tomsk-2014
+  sport: kurash
+  file: /images/kurash/sabantuy-tomsk.jpg
+  width: 1200
+  height: 800
+  alt: "Belt wrestling (kuresh) at the Sabantuy festival in Tomsk, Russia, 2014, the referee watching."
+  shows: >
+   A related Tatar and Bashkir tradition with its own codes, the kind of
+   grappling culture into which kurash travels well.
+  title: "Куреш на Сабантуе в Томске.JPG"
+  author: "Ilya Plekhanov"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%83%D1%80%D0%B5%D1%88_%D0%BD%D0%B0_%D0%A1%D0%B0%D0%B1%D0%B0%D0%BD%D1%82%D1%83%D0%B5_%D0%B2_%D0%A2%D0%BE%D0%BC%D1%81%D0%BA%D0%B5.JPG"
+
+- id: kurash-referee-congo
+  sport: kurash
+  file: /images/kurash/congo3.jpg
+  width: 1200
+  height: 801
+  alt: "A referee signalling at a kurash tournament in the Republic of the Congo, 2026."
+  shows: >
+   One mat referee, deciding fast.
+  title: "Tournoi de Kurash 05.jpg"
+  author: "Kani Beat"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Tournoi_de_Kurash_05.jpg"
+
+- id: kurash-village-crowd
+  sport: kurash
+  file: /images/kurash/uzbek.jpg
+  width: 1200
+  height: 800
+  alt: "A village kurash bout on mats laid on a hillside in Uzbekistan, 2024, a crowd seated around it."
+  shows: >
+   Uzbekistan, the sport's home and its deepest competitive field.
+  title: "Kurash. Uzbek national sport.jpg"
+  author: "Sinchalak Musulmon"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kurash._Uzbek_national_sport.jpg"
+
+- id: kurash-sabantuy-moscow
+  sport: kurash
+  file: /images/kurash/sabantuy-moscow.jpg
+  width: 1200
+  height: 804
+  alt: "Belt wrestling on grass at a Bashkir Sabantuy in Moscow."
+  shows: >
+   Belt-wrestling traditions with their own codes, which transfer almost
+   directly.
+  title: "Kurash on Moscow Sabantuy of Moscow bashkirs.jpg"
+  author: "IlshatS"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kurash_on_Moscow_Sabantuy_of_Moscow_bashkirs.jpg"
+
+- id: kurash-congo-2026
+  sport: kurash
+  file: /images/kurash/congo4.jpg
+  width: 1200
+  height: 801
+  alt: "A bout in blue and green at a kurash tournament in the Republic of the Congo, 2026."
+  shows: >
+   A spread made by a federation campaign, reaching into Africa.
+  title: "Tournoi de Kurash 12.jpg"
+  author: "Kani Beat"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Tournoi_de_Kurash_12.jpg"
+
+- id: kurash-congo-medals
+  sport: kurash
+  file: /images/kurash/congo1.jpg
+  width: 1200
+  height: 801
+  alt: "Medals being presented at a kurash tournament in the Republic of the Congo, 2026."
+  shows: >
+   Men's and women's weight categories.
+  title: "Tournoi de Kurash 010.jpg"
+  author: "Kani Beat"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Tournoi_de_Kurash_010.jpg"
+
+- id: kurash-yakutsk-2016
+  sport: kurash
+  slot: "events"
+  file: /images/kurash/indonesia-train.jpg
+  width: 1200
+  height: 1071
+  alt: "Two kurash competitors with an official at the 2016 Children of Asia Games, Yakutsk."
+  shows: >
+   Seven weight categories each for men and women.
+  title: "Latihan Pertama Tim Kurash Indonesia.jpg"
+  author: "Bozky"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Latihan_Pertama_Tim_Kurash_Indonesia.jpg"
