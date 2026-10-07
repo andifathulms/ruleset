@@ -31,7 +31,7 @@ sections:
       differently: everything happens upright, and leaving the area is a
       passivity question rather than an interruption of a ground position.
     facts:
-      - { label: Area, value: Matted, with a safety zone }
+      - { label: Area, value: "Matted, with a safety zone" }
 
   - id: equipment
     label: Equipment
@@ -59,7 +59,7 @@ sections:
       to slow anything down, a referee's decisions arrive quickly and often
       finally.
     facts:
-      - { label: Categories, value: By weight, men and women }
+      - { label: Categories, value: "By weight, men and women" }
       - { label: Officials, value: A mat referee and side judges }
 
   - id: duration
@@ -68,7 +68,7 @@ sections:
       Around four minutes for men and three for women, and frequently much less
       — a halal can be scored in the opening seconds and the contest is over.
     facts:
-      - { label: Bout, value: About 4 min men, 3 min women }
+      - { label: Bout, value: "About 4 min men, 3 min women" }
       - { label: Actual length, value: Often far shorter }
 
   - id: scoring
