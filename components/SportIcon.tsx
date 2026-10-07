@@ -441,6 +441,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M6 52 Q12 47 18 52 T30 52 T42 52 T54 52 T60 52" fill="none" />
     </>
   ),
+  // A fighter driving a knee, guard high, the mongkhon around the head.
+  muaythai: (
+    <>
+      <circle cx="26" cy="11" r="5" fill="none" />
+      <path d="M20 10 L32 10" fill="none" />
+      <path d="M27 17 L30 34" fill="none" />
+      <path d="M27 21 L37 17 L35 9 M27 21 L18 18 L20 10" fill="none" />
+      <path d="M30 34 L26 46 L28 58 M30 34 L44 32 L40 46" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
