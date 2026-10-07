@@ -45,9 +45,9 @@ sections:
       insurance against the technique that goes wrong — the opposite of boxing's
       gloves, which exist so that repeated contact is possible.
     facts:
-      - { label: Belts, value: Red and blue, to distinguish competitors }
+      - { label: Belts, value: "Red and blue, to distinguish competitors" }
       - { label: Mitts and gum shield, value: Required }
-      - { label: Purpose of protection, value: Against error, not for contact }
+      - { label: Purpose of protection, value: "Against error, not for contact" }
 
   - id: players
     label: Competitors and officials
@@ -63,7 +63,7 @@ sections:
     facts:
       - { label: Kumite officials, value: Referee and four judges }
       - { label: Video review, value: Available }
-      - { label: Sensors, value: Not usable, by the nature of the scoring }
+      - { label: Sensors, value: "Not usable, by the nature of the scoring" }
     shaped_by: [wkf-controlled-contact]
 
   - id: duration
@@ -93,7 +93,7 @@ sections:
       - { label: Punch, value: "1" }
       - { label: Kick to the body, value: "2" }
       - { label: Kick to the head, value: "3" }
-      - { label: Kata, value: Points since 2019, flags before }
+      - { label: Kata, value: "Points since 2019, flags before" }
     shaped_by: [wkf-2019-scoring-revision, wkf-kata-scoring-2019]
 
   - id: restarts
@@ -115,7 +115,7 @@ sections:
       Also penalised: attacks to prohibited areas, repeated exits from the
       area, avoiding combat, and grabbing or wrestling beyond permitted limits.
     facts:
-      - { label: Excessive contact, value: Penalty, not a score }
+      - { label: Excessive contact, value: "Penalty, not a score" }
       - { label: Avoiding combat, value: Penalised }
     shaped_by: [wkf-controlled-contact]
 
