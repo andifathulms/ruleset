@@ -392,6 +392,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M38 26 Q42 32 38 38 M43 22 Q49 32 43 42 M48 18 Q56 32 48 46" fill="none" />
     </>
   ),
+  // The korf: a bottomless basket on a tall pole, with no backboard behind it.
+  korfball: (
+    <>
+      <path d="M20 10 L20 58 M12 58 L28 58" fill="none" />
+      <ellipse cx="36" cy="18" rx="13" ry="4" fill="none" />
+      <path d="M23 18 L23 28 Q36 35 49 28 L49 18" fill="none" />
+      <path d="M20 22 L23 22" fill="none" />
+      <circle cx="40" cy="6" r="4" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
