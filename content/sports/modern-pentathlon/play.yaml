@@ -30,7 +30,7 @@ sections:
       single ninety-minute final in one place.
     facts:
       - { label: Swim, value: 200 m freestyle }
-      - { label: Fence, value: Épée, one hit }
+      - { label: Fence, value: "Épée, one hit" }
       - { label: Combined event, value: Running loops with shooting bouts }
       - { label: Olympic final, value: 90 minutes }
     shaped_by: [uipm-2024-laser-run-format]
@@ -47,9 +47,9 @@ sections:
       It is drawn by lot from a pool provided by the organiser, and the rider
       has twenty minutes to get to know it before jumping.
     facts:
-      - { label: Pistol, value: Laser, since 2011 }
+      - { label: Pistol, value: "Laser, since 2011" }
       - { label: Weapon, value: Épée }
-      - { label: Horse, value: Drawn by lot, until 2028 }
+      - { label: Horse, value: "Drawn by lot, until 2028" }
       - { label: Warm-up with the horse, value: 20 minutes }
     shaped_by: [uipm-2011-laser-pistols, uipm-2022-riding-removed]
 
