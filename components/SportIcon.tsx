@@ -413,6 +413,14 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M21 24 L44 36 M43 24 L20 36" fill="none" />
     </>
   ),
+  // The stick: a long shaft and a strung head, the ball sitting in its pocket.
+  lacrosse: (
+    <>
+      <path d="M10 58 L34 30" fill="none" />
+      <path d="M34 30 L26 14 Q28 6 38 5 L52 5 Q60 7 56 14 L40 32 Z" fill="none" />
+      <path d="M29 14 L52 10 M31 20 L49 17 M35 26 L45 24 M36 8 L42 30 M46 6 L40 31" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
