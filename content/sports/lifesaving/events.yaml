@@ -28,7 +28,7 @@ disciplines:
       - { id: surf-race, label: Surf race, at: [world-championship], count: 2 }
       - { id: board, label: Board race, at: [world-championship], count: 2 }
       - { id: ski, label: Surf ski race, at: [world-championship], count: 2 }
-      - { id: ironman, label: Oceanman and Oceanwoman, at: [world-championship], count: 2, note: Swim, board, ski and run in sequence. }
+      - { id: ironman, label: Oceanman and Oceanwoman, at: [world-championship], count: 2, note: "Swim, board, ski and run in sequence." }
       - { id: flags, label: Beach flags, at: [world-championship], count: 2, note: "Face down on the sand, one fewer baton than competitors, elimination every round." }
       - { id: beach-sprint, label: Beach sprint, at: [world-championship], count: 2 }
   - id: judged

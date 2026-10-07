@@ -35,9 +35,9 @@ sections:
       between championships and between heats on the same day. The federation
       holds both and does not compare them.
     facts:
-      - { label: Pool, value: 50 m, with obstacles and manikins }
+      - { label: Pool, value: "50 m, with obstacles and manikins" }
       - { label: Ocean, value: A surf beach; conditions cannot be standardised }
-      - { label: Obstacle depth, value: Swum under, not over }
+      - { label: Obstacle depth, value: "Swum under, not over" }
     shaped_by: [lifesaving-1993-ils-merger]
 
   - id: equipment
@@ -56,7 +56,7 @@ sections:
       flags and not the same number as the competitors.
     facts:
       - { label: Manikin, value: Specified mass; airway must stay clear }
-      - { label: Rescue tube, value: Patrol equipment, used as issued }
+      - { label: Rescue tube, value: "Patrol equipment, used as issued" }
       - { label: Board and ski, value: Derived from beach patrol craft }
     shaped_by: [lifesaving-technique-follows-practice]
 
@@ -75,7 +75,7 @@ sections:
       in the sport and the one closest to the thing the sport is for.
     facts:
       - { label: Timed events, value: All but one }
-      - { label: Simulated emergency response, value: Judged, against an unseen scenario }
+      - { label: Simulated emergency response, value: "Judged, against an unseen scenario" }
 
   - id: duration
     label: Time
@@ -109,7 +109,7 @@ sections:
       take a baton — and there is always one fewer baton than there are
       competitors, so somebody is eliminated every round.
     facts:
-      - { label: Beach flags start, value: Face down, feet towards the batons }
+      - { label: Beach flags start, value: "Face down, feet towards the batons" }
       - { label: Batons, value: One fewer than the competitors }
 
   - id: prohibitions
