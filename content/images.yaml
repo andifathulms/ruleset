@@ -8712,3 +8712,240 @@
   licence: "CC BY 4.0"
   licence_url: "https://creativecommons.org/licenses/by/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:2025_Kabaddi_World_Cup_20250322_140611_Scotland_vs_England.jpg"
+
+# Karate.
+
+- id: karate-kyan
+  sport: karate
+  file: /images/karate/kyan.jpg
+  width: 324
+  height: 443
+  alt: "Kyan Chōtoku (1870–1945), one of the Okinawan masters."
+  shows: >
+   Karate as it was before Japan: transmitted privately, teacher to student, in
+   the Ryukyus.
+  title: "Kyan Chotoku.jpg"
+  author: "Nakasone Genwa"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Kyan_Chotoku.jpg"
+
+- id: karate-miyagi
+  sport: karate
+  file: /images/karate/miyagi.jpg
+  width: 313
+  height: 488
+  alt: "Miyagi Chōjun (1888–1953), founder of Gōjū-ryū."
+  shows: >
+   One of the Okinawan lineages that became a style with its own organisations.
+  title: "Miyagi Chojun.jpg"
+  author: "Nakasone Genwa"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Miyagi_Chojun.jpg"
+
+- id: karate-funakoshi-kanku
+  sport: karate
+  file: /images/karate/funakoshi1924.jpg
+  width: 415
+  height: 681
+  alt: "Funakoshi Gichin performing the kata Kankū, from his 1924 book."
+  shows: >
+   The demonstrations that took karate into Japan's universities, and gave it a
+   standardised syllabus.
+  title: "Funakoshi Gichin2.jpg"
+  author: "Funakoshi Gichin"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Funakoshi_Gichin2.jpg"
+
+- id: karate-funakoshi-makiwara
+  sport: karate
+  file: /images/karate/makiwara.jpg
+  width: 408
+  height: 681
+  alt: "Funakoshi Gichin striking the makiwara, a padded post for training the punch."
+  shows: >
+   Techniques designed to injure, trained against a post rather than a person.
+  title: "Funakoshi Makiwara.jpg"
+  author: "Funakoshi Gichin"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Funakoshi_Makiwara.jpg"
+
+- id: karate-tokyo-2021
+  sport: karate
+  file: /images/karate/tokyo-podium.jpg
+  width: 1200
+  height: 800
+  alt: "The women's kumite −55 kg medallists at the Nippon Budokan, Tokyo, 2021."
+  shows: >
+   Karate's one Olympic Games.
+  title: "Wen Tzu-yun, Bettina Plank, Ivet Goranova and Anzhelika Terliuga with their Olympic medals at Tokyo 2020.jpg"
+  author: "Ministry of Youth and Sports of Ukraine"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Wen_Tzu-yun,_Bettina_Plank,_Ivet_Goranova_and_Anzhelika_Terliuga_with_their_Olympic_medals_at_Tokyo_2020.jpg"
+
+- id: karate-kumite-kit
+  sport: karate
+  file: /images/karate/euro-kumite.jpg
+  width: 1200
+  height: 800
+  alt: "Erminia Perfetto of Italy, red, against Elizaveta Grigoreva in blue, women's kumite −50 kg final, 2026 European Championships, Frankfurt."
+  shows: >
+   Red and blue belts, mitts, and foot and shin protection: insurance against
+   the technique that goes wrong.
+  title: "2026-05-23 61. Karate-Europameisterschaften 2026 Frankfurt-Main STP 6329.jpg"
+  author: "Steffen Prößdorf"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2026-05-23_61._Karate-Europameisterschaften_2026_Frankfurt-Main_STP_6329.jpg"
+
+- id: karate-mabuni
+  sport: karate
+  file: /images/karate/mabuni.jpg
+  width: 349
+  height: 540
+  alt: "Mabuni Kenwa (1889–1952), founder of Shitō-ryū."
+  shows: >
+   Another style, another lineage, another organisation.
+  title: "Mabuni Kenwa.jpg"
+  author: "Nakasone Genwa"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Mabuni_Kenwa.jpg"
+
+- id: karate-jka-2012
+  sport: karate
+  file: /images/karate/jka2012.jpg
+  width: 1200
+  height: 900
+  alt: "A kumite final at the 2012 JKA All-Japan tournament, Nippon Budokan."
+  shows: >
+   The Japan Karate Association, a Shotokan organisation running its own
+   championship under its own rules.
+  title: "2012 JKA Adult All-Japan Tournament Kumite Finals.jpg"
+  author: "Douglas P. Perkins"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2012_JKA_Adult_All-Japan_Tournament_Kumite_Finals.jpg"
+
+- id: karate-tokyo-kumite
+  sport: karate
+  file: /images/karate/tokyo-plank.jpg
+  width: 1200
+  height: 800
+  alt: "Bettina Plank of Austria against Anzhelika Terliuga of Ukraine in the women's kumite −55 kg, Tokyo 2020, held in 2021."
+  shows: >
+   The host city's proposal that brought karate onto the programme for a single
+   Games.
+  title: "Bettina Plank (AUT) vs Anzhelika Terliuga (UKR) at Tokyo 2020.jpg"
+  author: "Ministry of Youth and Sports of Ukraine"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bettina_Plank_(AUT)_vs_Anzhelika_Terliuga_(UKR)_at_Tokyo_2020.jpg"
+
+- id: karate-heian-1925
+  sport: karate
+  file: /images/karate/heian1925.jpg
+  width: 412
+  height: 677
+  alt: "Funakoshi Gichin performing a movement of the kata Heian Nidan, from a 1925 book."
+  shows: >
+   Kata were catalogued and agreed decades ago, which is what let karate write
+   a points scale in 2019.
+  title: "Gichin Funakoshi - Heian Nidan (2).png"
+  author: "Funakoshi Gichin"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Gichin_Funakoshi_-_Heian_Nidan_(2).png"
+
+- id: karate-controlled-contact
+  sport: karate
+  file: /images/karate/tokyo-grande.jpg
+  width: 1200
+  height: 795
+  alt: "Alexandra Grande of Peru against Anita Serogina of Ukraine in the women's kumite −61 kg, Tokyo 2020."
+  shows: >
+   Form, distance, timing and control, judged at speed: a technique that would
+   injure, stopped.
+  title: "Alexandra Grande (PER) vs Anita Serogina (UKR) at Tokyo 2020.jpg"
+  author: "Ministry of Youth and Sports of Ukraine"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Alexandra_Grande_(PER)_vs_Anita_Serogina_(UKR)_at_Tokyo_2020.jpg"
+
+- id: karate-kata-final
+  sport: karate
+  file: /images/karate/euro-katafinal.jpg
+  width: 1200
+  height: 800
+  alt: "Paola García Lozano of Spain in the women's kata final at the 2026 European Championships, Frankfurt."
+  shows: >
+   Kata, scored on points since 2019: technical and athletic performance
+   weighted seventy to thirty.
+  title: "2026-05-23 61. Karate-Europameisterschaften 2026 Frankfurt-Main STP 6359.jpg"
+  author: "Steffen Prößdorf"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2026-05-23_61._Karate-Europameisterschaften_2026_Frankfurt-Main_STP_6359.jpg"
+
+- id: karate-france-germany
+  sport: karate
+  file: /images/karate/euro-team.jpg
+  width: 1200
+  height: 800
+  alt: "France against Germany in the women's team kumite final, 2026 European Championships, Frankfurt."
+  shows: >
+   France, whose licensed membership is larger than Japan's.
+  title: "2026-05-24 61. Karate-Europameisterschaften 2026 Frankfurt-Main STP 6787.jpg"
+  author: "Steffen Prößdorf"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2026-05-24_61._Karate-Europameisterschaften_2026_Frankfurt-Main_STP_6787.jpg"
+
+- id: karate-budokan-areas
+  sport: karate
+  slot: "play:field"
+  file: /images/karate/jka2012b.jpg
+  width: 1200
+  height: 900
+  alt: "Competition areas laid out at the Nippon Budokan for the 2012 JKA All-Japan tournament."
+  shows: >
+   A matted square with a safety border, several to a hall.
+  title: "2012 JKA Adult All-Japan Tournament Day 2.jpg"
+  author: "Douglas P. Perkins"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2012_JKA_Adult_All-Japan_Tournament_Day_2.jpg"
+
+- id: karate-team-kata
+  sport: karate
+  slot: "events"
+  file: /images/karate/euro-teamkata.jpg
+  width: 1200
+  height: 675
+  alt: "Poland's men in the team kata bronze match, 2026 European Championships."
+  shows: >
+   Team kata: three competitors in synchrony, contested away from the Games.
+  title: "2026-05-24 61. Karate-Europameisterschaften 2026 Frankfurt-Main STP 6574.jpg"
+  author: "Steffen Prößdorf"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2026-05-24_61._Karate-Europameisterschaften_2026_Frankfurt-Main_STP_6574.jpg"
+
+- id: karate-para-kata
+  sport: karate
+  slot: "events"
+  file: /images/karate/wheelchair-kata.jpg
+  width: 890
+  height: 595
+  alt: "Franck Duboisse of Belgium performing Sūpārinpei at the 2014 WKF World Championships."
+  shows: >
+   Para karate, with its own world championship events.
+  title: "Wheelchair Karate - Kata2 - WKF Worlchampionship 2014.jpg"
+  author: "Fduboiss"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Wheelchair_Karate_-_Kata2_-_WKF_Worlchampionship_2014.jpg"
