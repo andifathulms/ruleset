@@ -33,7 +33,7 @@ sections:
     facts:
       - { label: "Sixes, team", value: "6" }
       - { label: "Field, team", value: "10" }
-      - { label: "Box, team", value: "6", note: Indoors, on a rink. }
+      - { label: "Box, team", value: "6", note: "Indoors, on a rink." }
       - { label: Sixes shot clock, value: Yes }
     shaped_by: [lacrosse-2021-sixes]
 
@@ -50,7 +50,7 @@ sections:
       only eyewear; optional headgear to a standard was permitted from 2017.
     facts:
       - { label: "Long defensive sticks, Sixes", value: Not permitted }
-      - { label: "Men's game", value: Helmet, gloves, pads }
+      - { label: "Men's game", value: "Helmet, gloves, pads" }
       - { label: "Women's game", value: Eyewear; headgear optional }
     shaped_by: [lacrosse-womens-headgear, lacrosse-2021-sixes]
 
