@@ -402,6 +402,17 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="40" cy="6" r="4" fill="none" />
     </>
   ),
+  // Two wrestlers in the standing clinch, gripping jacket and belt: kurash is
+  // fought on the feet and stops the moment it reaches the ground.
+  kurash: (
+    <>
+      <circle cx="25" cy="13" r="5" fill="none" />
+      <circle cx="39" cy="13" r="5" fill="none" />
+      <path d="M23 19 L14 38 L8 58 M14 38 L20 58" fill="none" />
+      <path d="M41 19 L50 38 L56 58 M50 38 L44 58" fill="none" />
+      <path d="M21 24 L44 36 M43 24 L20 36" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
