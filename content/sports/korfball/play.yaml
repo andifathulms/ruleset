@@ -50,7 +50,7 @@ sections:
       helped in by, so there is no bank shot and no rebound angle to learn: the
       ball goes in or it does not.
     facts:
-      - { label: Korf, value: Bottomless basket, no backboard }
+      - { label: Korf, value: "Bottomless basket, no backboard" }
       - { label: Ball, value: Similar to a size 5 football }
 
   - id: players
@@ -95,7 +95,7 @@ sections:
       post with every other player behind the line of the ball.
     facts:
       - { label: Penalty distance, value: 2.5 m }
-      - { label: Throw-in, value: Within 4 s, never straight at goal }
+      - { label: Throw-in, value: "Within 4 s, never straight at goal" }
 
   - id: prohibitions
     label: Infringements

@@ -16,7 +16,7 @@ disciplines:
     label: Governed by the federation, not on any multi-sport programme
     counts: false
     events:
-      - { id: beach, label: Beach korfball, at: [federation-only], note: Four a side on sand, two of each sex. }
+      - { id: beach, label: Beach korfball, at: [federation-only], note: "Four a side on sand, two of each sex." }
       - { id: korfball4, label: Korfball4, at: [federation-only], note: A shortened four-a-side format written for smaller venues and broadcast. }
   - id: olympic-history
     label: Its Olympic record
