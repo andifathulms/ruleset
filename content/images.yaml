@@ -12226,3 +12226,220 @@
   licence: "CC BY-SA 3.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Softball-SM_2013_Leksand_vs_Enk%C3%B6ping_02.jpg"
+
+# Squash.
+
+- id: squash-british-open-1981
+  sport: squash
+  file: /images/squash/british-open-1981.jpg
+  width: 600
+  height: 423
+  alt: "A brightly lit show court with transparent walls in a darkened hall, British Open 1981"
+  shows: >
+   An ASB show court at the 1981 British Open: the transparent court that let a
+   crowd see into the box, from the early years of that design.
+  title: "ASB Squash Court at British Open 1981.jpg"
+  author: "Simpkin98"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:ASB_Squash_Court_at_British_Open_1981.jpg"
+
+- id: squash-pyramids
+  sport: squash
+  file: /images/squash/pyramids.jpg
+  width: 1200
+  height: 800
+  alt: "A glass squash court lit at night in front of the Pyramids of Giza, with stands of spectators"
+  shows: >
+   The glass court assembled at the Pyramids of Giza for the World Tour
+   Championship final in 2016. Because the walls are transparent, the court can
+   go anywhere and be watched from every side.
+  title: "Squash Court Pyramid.jpg"
+  author: "Simpkin98"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Squash_Court_Pyramid.jpg"
+
+- id: squash-ball
+  sport: squash
+  file: /images/squash/ball.jpg
+  width: 1173
+  height: 1200
+  alt: "A black squash ball with two small coloured dots"
+  shows: >
+   A Dunlop Revelation Pro ball. The dots grade the ball by speed; the slowest
+   grade is the professional ball.
+  title: "Squash Ball Dunlop Revelation Pro (2).jpg"
+  author: "MarcPG"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Squash_Ball_Dunlop_Revelation_Pro_(2).jpg"
+
+- id: squash-grand-central-2012
+  sport: squash
+  file: /images/squash/grand-central-2012.jpg
+  width: 1200
+  height: 800
+  alt: "A glass court inside the main hall of Grand Central Terminal, surrounded by seated spectators"
+  shows: >
+   The Tournament of Champions at Grand Central Terminal, New York, in January
+   2012, during a women's semi-final between Natalie Grinham and Nour El
+   Sherbini. A railway concourse used as a squash venue.
+  title: "Tournament of Champions Squash 2012.jpg"
+  author: "julesgriff"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Tournament_of_Champions_Squash_2012.jpg"
+
+- id: squash-grand-central-2019
+  sport: squash
+  file: /images/squash/grand-central-2019.jpg
+  width: 1060
+  height: 530
+  alt: "A glass court under chandeliers in Grand Central Terminal with a PSA World Tour screen"
+  shows: >
+   The Tournament of Champions at Grand Central Terminal in 2019, with the
+   court in front of a full stand.
+  title: "Squash Tournament of Champions 2019, Grand Central Station, NYC.jpg"
+  author: "Huerndy"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Squash_Tournament_of_Champions_2019,_Grand_Central_Station,_NYC.jpg"
+
+- id: squash-nantes
+  sport: squash
+  file: /images/squash/nantes.jpg
+  width: 1200
+  height: 801
+  alt: "A glass court lit blue beneath scaffolding and hanging lanterns, Nantes 2017"
+  shows: >
+   The glass court set up for the Open International de Squash de Nantes in
+   2017: another court built in a space that has nothing to do with squash.
+  title: "Open International de Squash de Nantes 2017.jpg"
+  author: "Tc159"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Open_International_de_Squash_de_Nantes_2017.jpg"
+
+- id: squash-world-tour-finals-court
+  sport: squash
+  slot: "play:field"
+  file: /images/squash/world-tour-finals-court.jpg
+  width: 1200
+  height: 801
+  alt: "An empty glass squash court with a yellow out line high on the walls and front wall markings"
+  shows: >
+   The glass court used at the 2023-24 PSA World Tour Finals, showing the front
+   wall, the out line running down the side walls, and the floor lines.
+  title: "Miscellaneous at the 2023-24 PSA World Tour Finals-3.jpg"
+  author: "Nettrom"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Miscellaneous_at_the_2023-24_PSA_World_Tour_Finals-3.jpg"
+
+- id: squash-farag-asal
+  sport: squash
+  file: /images/squash/farag-asal.jpg
+  width: 1200
+  height: 858
+  alt: "Two squash players at the front of a glass court, one lunging for a low ball while the other watches behind him"
+  shows: >
+   Ali Farag and Mostafa Asal in the men's final of the 2023-24 PSA World Tour
+   Finals. Both players occupy the same floor, which is where every let and
+   stroke decision comes from.
+  title: "Ali Farag and Mostafa Asal at the 2023-24 PSA World Tour Finals-03.jpg"
+  author: "Nettrom"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ali_Farag_and_Mostafa_Asal_at_the_2023-24_PSA_World_Tour_Finals-03.jpg"
+
+- id: squash-farag-asal-2
+  sport: squash
+  file: /images/squash/farag-asal-2.jpg
+  width: 800
+  height: 1200
+  alt: "Two squash players in the middle of a glass court, one stretching for the ball as the other moves past him"
+  shows: >
+   Farag and Asal in the same final. The player who has just hit must clear a
+   path to the ball, and the referee decides whether he did.
+  title: "Ali Farag and Mostafa Asal at the 2023-24 PSA World Tour Finals-06.jpg"
+  author: "Nettrom"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ali_Farag_and_Mostafa_Asal_at_the_2023-24_PSA_World_Tour_Finals-06.jpg"
+
+- id: squash-el-hammamy-el-sherbini
+  sport: squash
+  file: /images/squash/el-hammamy-el-sherbini.jpg
+  width: 1200
+  height: 973
+  alt: "Two women squash players on a glass court, one hitting a backhand while the other waits behind"
+  shows: >
+   Hania El Hammamy and Nour El Sherbini, both of Egypt, in a semi-final of the
+   2023-24 PSA World Tour Finals.
+  title: "Hania El Hammamy and Nour El Sherbini at the 2023-24 PSA World Tour Finals-02.jpg"
+  author: "Nettrom"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Hania_El_Hammamy_and_Nour_El_Sherbini_at_the_2023-24_PSA_World_Tour_Finals-02.jpg"
+
+- id: squash-ashour-kuwait
+  sport: squash
+  file: /images/squash/ashour-kuwait.jpg
+  width: 1200
+  height: 797
+  alt: "A glass court in a hall at the PSA Kuwait Cup 2009, with a player being introduced"
+  shows: >
+   The PSA Kuwait Cup in 2009, as Egypt's Ramy Ashour is introduced before the
+   semi-final in which he beat Gregory Gaultier, then world number one.
+  title: "PSA Kuwait Cup 2009.jpg"
+  author: "Ian Butterworth"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:PSA_Kuwait_Cup_2009.jpg"
+
+- id: squash-jahangir-khan-ceremony
+  sport: squash
+  file: /images/squash/jahangir-khan-ceremony.jpg
+  width: 1200
+  height: 960
+  alt: "Two squash players holding trophies stand either side of a man in a suit"
+  shows: >
+   Ali Farag and Nouran Gohar, both of Egypt, with their 2023-24 PSA World Tour
+   Finals trophies, alongside Pakistan's Jahangir Khan.
+  title: "2023-24 PSA World Tour Finals prize ceremony-6.jpg"
+  author: "Nettrom"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2023-24_PSA_World_Tour_Finals_prize_ceremony-6.jpg"
+
+- id: squash-hong-kong-centre
+  sport: squash
+  file: /images/squash/hong-kong-centre.jpg
+  width: 1200
+  height: 793
+  alt: "A row of white squash courts seen from a viewing corridor, with a player on one court"
+  shows: >
+   The Hong Kong Squash Centre in Admiralty: a block of conventional courts,
+   each one a sealed box with a view from above and behind.
+  title: "Interior of Hong Kong Squash Centre.jpg"
+  author: "Exploringlife"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Interior_of_Hong_Kong_Squash_Centre.jpg"
+
+- id: squash-club-court
+  sport: squash
+  file: /images/squash/club-court.jpg
+  width: 640
+  height: 480
+  alt: "A low pebbledashed building with a blue upper section beside a sports field"
+  shows: >
+   The squash court building at the Old Crossleyans sports club. A club court
+   needs an enclosed building of its own, which is floor space a commercial
+   operator can put to other uses.
+  title: "Old Crossleyans sports club, squash court - geograph.org.uk - 2225380.jpg"
+  author: "Stephen Craven"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Old_Crossleyans_sports_club,_squash_court_-_geograph.org.uk_-_2225380.jpg"
