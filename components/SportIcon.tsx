@@ -486,6 +486,14 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M28 25 L36 19" fill="none" />
     </>
   ),
+  // The woven ball: crossing strips of cane with open gaps, above the net.
+  'sepak-takraw': (
+    <>
+      <circle cx="32" cy="26" r="19" fill="none" />
+      <path d="M13.1 28.4 L29.6 44.9 M14.4 19.0 L39.0 43.6 M18.6 12.6 L45.4 39.4 M25.0 8.4 L49.6 33.0 M34.4 7.1 L50.9 23.6 M13.1 23.6 L29.6 7.1 M14.4 33.0 L39.0 8.4 M18.6 39.4 L45.4 12.6 M25.0 43.6 L49.6 19.0 M34.4 44.9 L50.9 28.4" fill="none" />
+      <path d="M6 56 L58 56 M6 50 L58 50 M14 50 L14 56 M24 50 L24 56 M34 50 L34 56 M44 50 L44 56 M54 50 L54 56" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
