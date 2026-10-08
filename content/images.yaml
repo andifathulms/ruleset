@@ -12443,3 +12443,388 @@
   licence: "CC BY-SA 2.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Old_Crossleyans_sports_club,_squash_court_-_geograph.org.uk_-_2225380.jpg"
+
+# Table tennis.
+
+- id: table-tennis-hassall-1902
+  sport: table-tennis
+  file: /images/table-tennis/hassall-1902.jpg
+  width: 833
+  height: 1200
+  alt: "A pen cartoon of a small boy and a young woman in a Victorian drawing room, with ping-pong balls on the floor"
+  shows: >
+   A cartoon by John Hassall from The Sketch of 5 March 1902. She asks whether
+   he plays ping-pong; he answers that he has "chucked kids' games". In England
+   it was still a parlour game.
+  title: "Ping-Pong by John Hassall (1868–1948).png"
+  author: "John Hassall"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Ping-Pong_by_John_Hassall_(1868%E2%80%931948).png"
+
+- id: table-tennis-cartoon-1902
+  sport: table-tennis
+  file: /images/table-tennis/cartoon-1902.jpg
+  width: 1024
+  height: 745
+  alt: "A 1902 cartoon of figures in top hats playing ping-pong across a table labelled Havana and Washington"
+  shows: >
+   A Cuban-American cartoon of 1902, "El juego Americano ping-pong", using the
+   game as a picture of trade between Havana and Washington. Within a year or
+   two of the trademark the name was familiar enough to carry a political joke.
+  title: "El juego Americano ping-pong Cuando se cansarán? LCCN2013651745.jpg"
+  author: "Miscellaneous Items in High Demand, PPOC, Library of Congress"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:El_juego_Americano_ping-pong_Cuando_se_cansar%C3%A1n%3F_LCCN2013651745.jpg"
+
+- id: table-tennis-waltzes-1902
+  sport: table-tennis
+  file: /images/table-tennis/waltzes-1902.jpg
+  width: 939
+  height: 1200
+  alt: "The ornate cover of the sheet music Ping Pong Waltzes by W. L. Bingaman"
+  shows: >
+   The cover of Ping Pong Waltzes, sheet music published in Columbus, Ohio, in
+   1902: the brand name already used as the name of the game.
+  title: "Ping Pong Waltzes - DPLA - fcec8da627e603b90da55c8e9947aa1e (page 1).jpg"
+  author: ""
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Ping_Pong_Waltzes_-_DPLA_-_fcec8da627e603b90da55c8e9947aa1e_(page_1).jpg"
+
+- id: table-tennis-paris-1933
+  sport: table-tennis
+  file: /images/table-tennis/paris-1933.jpg
+  width: 1200
+  height: 884
+  alt: "Four young men holding bats stand beside a table tennis table in a hall, 1933"
+  shows: >
+   Doubles pairs at the world championship in Paris, 1933, in a press
+   photograph by Agence Rol: Victor Barna and Miklós Szabados of Hungary with
+   the Yugoslav pair. The bats are those of the period before sponge.
+  title: "(Championnat du monde de ping-pong, salle Marbeuf, les équipes de double) Barna - Szabados (Hongrie), Maximovitch (i.e. Stevica Maksimovic) - Hexner (Tchécoslovaques) (i.e. Yougoslaves) - (photographie de presse) -... - btv1b532887426.jpg"
+  author: "Agence Rol"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:(Championnat_du_monde_de_ping-pong,_salle_Marbeuf,_les_%C3%A9quipes_de_double)_Barna_-_Szabados_(Hongrie),_Maximovitch_(i.e._Stevica_Maksimovic)_-_Hexner_(Tch%C3%A9coslovaques)_(i.e._Yougoslaves)_-_(photographie_de_presse)_-..._-_btv1b532887426.jpg"
+
+- id: table-tennis-utrecht-1950
+  sport: table-tennis
+  file: /images/table-tennis/utrecht-1950.jpg
+  width: 1200
+  height: 1004
+  alt: "A hall filled with spectators around several table tennis tables in play, 1950"
+  shows: >
+   An international tournament in Utrecht in January 1950, several tables in
+   play at once in a hall full of spectators.
+  title: "Internationaal tafeltennis te Utrecht, overzicht, Bestanddeelnr 903-7998.jpg"
+  author: "Winterbergen / Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Internationaal_tafeltennis_te_Utrecht,_overzicht,_Bestanddeelnr_903-7998.jpg"
+
+- id: table-tennis-rubbers
+  sport: table-tennis
+  file: /images/table-tennis/rubbers.jpg
+  width: 1200
+  height: 324
+  alt: "A diagram of two table tennis rubbers: a single pimpled sheet, and a pimpled sheet laid over a grey sponge"
+  shows: >
+   Ordinary pimpled rubber (left) and sandwich rubber, with a layer of sponge
+   under the pimpled sheet (right). The sponge is what multiplied spin from the
+   1950s.
+  title: "Table Tennis Rubbers.jpg"
+  author: "Nekorine"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Table_Tennis_Rubbers.jpg"
+
+- id: table-tennis-japan-1952
+  sport: table-tennis
+  file: /images/table-tennis/japan-1952.jpg
+  width: 790
+  height: 677
+  alt: "Three men in dark Japanese team shirts standing in a stadium, 1952"
+  shows: >
+   Japan's men's team in India in February 1952, the month of the world
+   championships in Bombay: captain Norikazu Fujii, Nishimura and Hiroji Satoh,
+   who won the singles there with a thick sponge bat.
+  title: "Norikazu Fujii, Nishimura and Satoh of Japan.jpg"
+  author: "Photo Division, Government of India"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Norikazu_Fujii,_Nishimura_and_Satoh_of_Japan.jpg"
+
+- id: table-tennis-utrecht-1955
+  sport: table-tennis
+  file: /images/table-tennis/utrecht-1955.jpg
+  width: 1099
+  height: 1200
+  alt: "A Japanese player in a dark shirt playing a forehand at a table, holding the bat in a penhold grip"
+  shows: >
+   A Japanese player in action at the 1955 world championships in Utrecht,
+   identified on Commons as Ichiro Ogimura.
+  title: "Ichiro Ogimura 1955.jpg"
+  author: "Unknown authorUnknown author"
+  licence: "CC BY-SA 3.0 nl"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ichiro_Ogimura_1955.jpg"
+
+- id: table-tennis-speed-glue
+  sport: table-tennis
+  file: /images/table-tennis/speed-glue.jpg
+  width: 618
+  height: 516
+  alt: "A table tennis blade, a loose red rubber sheet, an open tin of glue and a brush on a table"
+  shows: >
+   Speed gluing: a fresh layer of solvent glue spread on the blade before the
+   rubber goes back on. Banned with effect from 2008.
+  title: "Frischkleben.jpg"
+  author: "Pinkafelder"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Frischkleben.jpg"
+
+- id: table-tennis-ball-38-40
+  sport: table-tennis
+  file: /images/table-tennis/ball-38-40.jpg
+  width: 1200
+  height: 778
+  alt: "Two white table tennis balls side by side on a blue table, the right one slightly larger and marked 40"
+  shows: >
+   A 38 mm ball beside a 40 mm one. The enlargement in 2000 was made to slow
+   the game down.
+  title: "Balle 38 40.jpg"
+  author: "Speculos"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Balle_38_40.jpg"
+
+- id: table-tennis-celluloid-balls
+  sport: table-tennis
+  file: /images/table-tennis/celluloid-balls.jpg
+  width: 1200
+  height: 350
+  alt: "Three white 40 mm table tennis balls from different makers against a black background"
+  shows: >
+   Celluloid 40 mm balls, the kind used under the rules until the change to
+   plastic in 2014.
+  title: "40mm table tennis ball Celluloid.jpg"
+  author: "Jü"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:40mm_table_tennis_ball_Celluloid.jpg"
+
+- id: table-tennis-plastic-ball
+  sport: table-tennis
+  slot: "play:equipment"
+  file: /images/table-tennis/plastic-ball.jpg
+  width: 1200
+  height: 799
+  alt: "A white plastic table tennis ball marked 40+ ITTF approved"
+  shows: >
+   A plastic ball marked 40+: the material and size used since 2014.
+  title: "Table Tennis Plastic Ball 40+ mm.jpg"
+  author: "Peter Porai-Koshits"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Table_Tennis_Plastic_Ball_40%2B_mm.jpg"
+
+- id: table-tennis-peking-1972
+  sport: table-tennis
+  file: /images/table-tennis/peking-1972.jpg
+  width: 1200
+  height: 819
+  alt: "A large arena filled with spectators, with rows of athletes lined up beside table tennis tables on the floor"
+  shows: >
+   An athletic exhibition in Peking attended by President Nixon on 23 February
+   1972, during his visit to China. Table tennis tables are set out on the
+   arena floor.
+  title: "Nixon at an athletic exhibition in Peking - NARA - 194757.jpg"
+  author: "Unknown authorUnknown author or not provided"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Nixon_at_an_athletic_exhibition_in_Peking_-_NARA_-_194757.jpg"
+
+- id: table-tennis-bethesda-1972
+  sport: table-tennis
+  file: /images/table-tennis/bethesda-1972.jpg
+  width: 1144
+  height: 619
+  alt: "Members of a Chinese team seated on a television studio set being interviewed, a camera in the foreground"
+  shows: >
+   Members of a Chinese table tennis team being interviewed at a television
+   studio in Bethesda, Maryland, in 1972.
+  title: "Television studio at Bethesda-Chevy Chase High School, Bethesda, Maryland.png"
+  author: "Warren K. Leffler, U.S. News & World Report Magazine"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Television_studio_at_Bethesda-Chevy_Chase_High_School,_Bethesda,_Maryland.png"
+
+- id: table-tennis-ma-long-2014
+  sport: table-tennis
+  file: /images/table-tennis/ma-long-2014.jpg
+  width: 1200
+  height: 800
+  alt: "Ma Long of China stretching for a forehand at the table"
+  shows: >
+   Ma Long of China at the 2014 World Team Championships.
+  title: "Ma Long WTTC2014 3.jpg"
+  author: "Xiaoyu Tang"
+  licence: "CC BY-SA 2.5"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.5"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ma_Long_WTTC2014_3.jpg"
+
+- id: table-tennis-fan-zhendong-2017
+  sport: table-tennis
+  file: /images/table-tennis/fan-zhendong-2017.jpg
+  width: 1200
+  height: 800
+  alt: "Fan Zhendong of China reaching across the table for a ball"
+  shows: >
+   Fan Zhendong of China at the 2017 Asian Championships.
+  title: "Fan Zhendong ATTC2017 78.jpeg"
+  author: "XIAOYU TANG"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Fan_Zhendong_ATTC2017_78.jpeg"
+
+- id: table-tennis-beijing-2008-cameras
+  sport: table-tennis
+  file: /images/table-tennis/beijing-2008-cameras.jpg
+  width: 1200
+  height: 558
+  alt: "Two players at a table at the Beijing 2008 Olympics, with television cameras and a scoreboard behind them"
+  shows: >
+   Vladimir Samsonov and Jörgen Persson at the Beijing 2008 Olympics, with
+   television cameras along the barrier. This was eight years after the ball
+   was enlarged for television.
+  title: "Vladimir Samsonov v. Jörgen Persson - 2008 Summer Olympics.jpg"
+  author: "akiwitz"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Vladimir_Samsonov_v._J%C3%B6rgen_Persson_-_2008_Summer_Olympics.jpg"
+
+- id: table-tennis-umpire
+  sport: table-tennis
+  file: /images/table-tennis/umpire.jpg
+  width: 1024
+  height: 683
+  alt: "An umpire in a suit seated behind a flip scoreboard showing 0 2 0 2"
+  shows: >
+   An umpire at the table with the flip scoreboard, 2005. The umpire sits level
+   with the net and calls the score.
+  title: "Table tennis umpire.jpg"
+  author: "Pablo Pérez"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Table_tennis_umpire.jpg"
+
+- id: table-tennis-yokohama-2009
+  sport: table-tennis
+  file: /images/table-tennis/yokohama-2009.jpg
+  width: 1200
+  height: 900
+  alt: "Two players at a table in a large arena, with an umpire seated at the side of the table and cameras around the court"
+  shows: >
+   Wang Liqin against Ma Lin at the 2009 World Championships in Yokohama, with
+   the umpire seated at the side of the table, level with the net.
+  title: "卓球世界選手権 5 4 (3500695045).jpg"
+  author: "yy from Tokyo, Japan"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:%E5%8D%93%E7%90%83%E4%B8%96%E7%95%8C%E9%81%B8%E6%89%8B%E6%A8%A9_5_4_(3500695045).jpg"
+
+- id: table-tennis-boll-serve
+  sport: table-tennis
+  file: /images/table-tennis/boll-serve.jpg
+  width: 1200
+  height: 819
+  alt: "Timo Boll of Germany crouched over the table, the ball in the air above his open free hand"
+  shows: >
+   Timo Boll of Germany serving at the 2022 European Championships in Munich.
+   The law requires the ball to rest on a flat, open palm and be thrown up, and
+   to stay visible to the receiver throughout.
+  title: "2022-08-19 European Championships 2022 – Table Tennis by Sandro Halank–007.jpg"
+  author: "Sandro Halank, Wikimedia Commons"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2022-08-19_European_Championships_2022_%E2%80%93_Table_Tennis_by_Sandro_Halank%E2%80%93007.jpg"
+
+- id: table-tennis-ishikawa-serve
+  sport: table-tennis
+  slot: "play:restarts"
+  file: /images/table-tennis/ishikawa-serve.jpg
+  width: 800
+  height: 1200
+  alt: "Kasumi Ishikawa of Japan watching the ball high above her after tossing it to serve"
+  shows: >
+   Kasumi Ishikawa of Japan serving at the 2017 German Open: the ball thrown up
+   from the palm before it is struck.
+  title: "ITTF World Tour 2017 German Open Ishikawa Kasumi 01.jpg"
+  author: "Peter Porai-Koshits"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:ITTF_World_Tour_2017_German_Open_Ishikawa_Kasumi_01.jpg"
+
+- id: table-tennis-haikou-park
+  sport: table-tennis
+  file: /images/table-tennis/haikou-park.jpg
+  width: 1200
+  height: 900
+  alt: "A man and a woman playing on an outdoor concrete table tennis table under trees in a park"
+  shows: >
+   People playing on an outdoor table in Haikou People's Park, Hainan, China,
+   in 2012. A table and two bats is all a game needs.
+  title: "Haikou People's Park - people playing ping pong - 01.jpg"
+  author: "Anna Frodesiak"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Haikou_People%27s_Park_-_people_playing_ping_pong_-_01.jpg"
+
+- id: table-tennis-accra-2024
+  sport: table-tennis
+  file: /images/table-tennis/accra-2024.jpg
+  width: 900
+  height: 1200
+  alt: "A smiling woman player in a Madagascar team shirt"
+  shows: >
+   A Madagascar player at the table tennis competition of the 2023 African
+   Games in Accra, held in March 2024.
+  title: "AG 23 Table Tennis 86.jpg"
+  author: "Owula kpakpo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:AG_23_Table_Tennis_86.jpg"
+
+- id: table-tennis-table-and-net
+  sport: table-tennis
+  slot: "play:field"
+  file: /images/table-tennis/table-and-net.jpg
+  width: 1200
+  height: 900
+  alt: "A bat and ball lying on a blue table next to the net, seen from above"
+  shows: >
+   A table seen from above with the net, a bat and a ball.
+  title: "Table Tennis racquet and ball on table - top view.jpg"
+  author: "KeepActive Australia from Melbourne, VIC, Australia"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Table_Tennis_racquet_and_ball_on_table_-_top_view.jpg"
+
+- id: table-tennis-beijing-2008-hall
+  sport: table-tennis
+  slot: "events"
+  file: /images/table-tennis/beijing-2008-hall.jpg
+  width: 1200
+  height: 798
+  alt: "A large arena with several table tennis courts in play, banked seating and Beijing 2008 banners"
+  shows: >
+   The table tennis hall at the Beijing 2008 Olympics, at Peking University
+   Gymnasium.
+  title: "Peking University Gymnasium.jpg"
+  author: "Andre Kiwitz from Medellin, Colombia"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Peking_University_Gymnasium.jpg"
