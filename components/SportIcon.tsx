@@ -553,6 +553,18 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M4 54 H60 M32 50 V58" fill="none" />
     </>
   ),
+  // The surface above, the pool floor below, the basket standing on the bottom,
+  // and the ball sinking towards it: the only team game played in a volume.
+  'underwater-sports': (
+    <>
+      <path d="M4 12 Q11 8 18 12 T32 12 T46 12 T60 12" fill="none" />
+      <path d="M4 56 H60" fill="none" />
+      <path d="M34 36 H54 L50 56 H38 Z M40 36 L42 56 M48 36 L46 56" fill="none" />
+      <circle cx="20" cy="34" r="6" fill="none" />
+      <circle cx="18" cy="22" r="1.5" fill="none" />
+      <circle cx="23" cy="18" r="1.5" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
