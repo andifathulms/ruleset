@@ -503,6 +503,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <ellipse cx="41" cy="8" rx="3" ry="6.5" transform="rotate(60 41 8)" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // The windmill: the arm's full circle, and the big ball let go at the bottom of it.
+  softball: (
+    <>
+      <circle cx="26" cy="26" r="17" strokeDasharray="4 4" fill="none" />
+      <path d="M40 36 L46 42" fill="none" />
+      <circle cx="48" cy="46" r="10" fill="none" />
+      <path d="M42 40 Q47 46 42 52 M54 40 Q49 46 54 52" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
