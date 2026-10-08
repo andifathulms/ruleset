@@ -522,6 +522,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="38" cy="49" r="3.5" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // The table side-on with its net, and the ball's path bouncing once on each
+  // half: the game that began as lawn tennis on a dining table.
+  'table-tennis': (
+    <>
+      <path d="M4 42 H60 M10 42 V56 M54 42 V56" fill="none" />
+      <path d="M32 42 V32" fill="none" strokeWidth="3" />
+      <path d="M8 22 Q14 30 18 42 Q25 18 32 24 Q39 28 44 42 Q48 32 52 30" fill="none" strokeDasharray="3 3" />
+      <circle cx="54" cy="29" r="3" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
