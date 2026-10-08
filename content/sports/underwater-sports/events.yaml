@@ -29,8 +29,8 @@ disciplines:
       The federation governs a wider set of underwater activities, measured and
       judged rather than contested between teams.
     events:
-      - { id: freediving, label: Freediving, at: [world-championship], count: 4, note: Depth, static apnea and dynamic apnea disciplines. }
-      - { id: orienteering-uw, label: Underwater orienteering, at: [world-championship], note: Navigation with compass and depth gauge, using a diving set. }
-      - { id: photography, label: Underwater photography, at: [world-championship], note: Judged, and one of very few competitive disciplines on this site with no physical contest at all. }
+      - { id: freediving, label: Freediving, at: [world-championship], count: 4, note: "Depth, static apnea and dynamic apnea disciplines." }
+      - { id: orienteering-uw, label: Underwater orienteering, at: [world-championship], note: "Navigation with compass and depth gauge, using a diving set." }
+      - { id: photography, label: Underwater photography, at: [world-championship], note: "Judged, and one of very few competitive disciplines on this site with no physical contest at all." }
       - { id: spearfishing, label: Spearfishing, at: [world-championship], note: "Competitive spearfishing is governed by the federation and restricted or banned in a number of countries on conservation grounds." }
       - { id: finswimming, label: Finswimming, at: [world-games, world-championship], note: Governed by the same federation and covered on this site as its own sport. }
