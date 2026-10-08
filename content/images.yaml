@@ -11311,3 +11311,279 @@
   licence: "CC BY-SA 3.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:HandballCourtMacDonaldParkTracyCAJuly2010.jpg"
+
+# Rugby.
+
+- id: rugby-rugby-school-1845
+  sport: rugby
+  file: /images/rugby/kickoff1845.jpg
+  width: 1200
+  height: 585
+  alt: "\"The Kick Off\" at Rugby School, drawn by Charles Harcourt Chambers in 1845."
+  shows: >
+   One of the school codes the 1863 meetings were trying to reconcile.
+  title: "Kick Off (Harcourt Chambers, 1845).jpg"
+  author: "Charles Harcourt Chambers"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Kick_Off_(Harcourt_Chambers,_1845).jpg"
+
+- id: rugby-edinburgh-1871
+  sport: rugby
+  file: /images/rugby/scot1871.jpg
+  width: 1163
+  height: 831
+  alt: "Scotland against England in Edinburgh, 1871, the first international rugby match, as drawn by John Ralston."
+  shows: >
+   Played the year the Rugby Football Union was formed.
+  title: "Scotland-England 1871.png"
+  author: "John Ralston"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Scotland-England_1871.png"
+
+- id: rugby-leeds-1895
+  sport: rugby
+  file: /images/rugby/leeds1895.jpg
+  width: 1200
+  height: 808
+  alt: "A Rugby Football League plaque in Leeds: on 21 September 1895 Leeds played their first home game under Northern Union rules."
+  shows: >
+   The split over paying working players, and the start of rugby league.
+  title: "Celebrating the birth of Rugby League.jpg"
+  author: "Keith Seabridge"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Celebrating_the_birth_of_Rugby_League.jpg"
+
+- id: rugby-paris-1924
+  sport: rugby
+  file: /images/rugby/paris1924.jpg
+  width: 1200
+  height: 782
+  alt: "France against the United States in the rugby final at the Stade de Colombes, 1924 Paris Olympics."
+  shows: >
+   The last Olympic fifteens; the United States won, and remain the reigning
+   champions in that format.
+  title: "1924 France vs USA rugby match 2.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1924_France_vs_USA_rugby_match_2.jpg"
+
+- id: rugby-usa-1924
+  sport: rugby
+  file: /images/rugby/usa1924.jpg
+  width: 1200
+  height: 674
+  alt: "The United States team that won rugby gold at the 1924 Olympics."
+  shows: >
+   Olympic champions in a format that has not been contested since.
+  title: "USA 1924 rugby team.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:USA_1924_rugby_team.jpg"
+
+- id: rugby-invincibles-ball
+  sport: rugby
+  file: /images/rugby/invincibles-ball.jpg
+  width: 1200
+  height: 800
+  alt: "A miniature leather ball signed by the 1924–25 All Blacks touring side, Auckland Museum."
+  shows: >
+   Leather case and lacing, before the synthetic grippy oval.
+  title: "Ball, rugby -miniature- (51370981909).jpg"
+  author: "Auckland Museum"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ball,_rugby_-miniature-_(51370981909).jpg"
+
+- id: rugby-scrum-caps
+  sport: rugby
+  file: /images/rugby/scrumcaps.jpg
+  width: 1200
+  height: 634
+  alt: "Two players in scrum caps, Hammarby, Stockholm, 2012."
+  shows: >
+   Headgear guards against cuts and cauliflower ear; World Rugby says plainly
+   it does not prevent concussion.
+  title: "Rugby players in scrum caps.jpg"
+  author: "Thomas Rydberg"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rugby_players_in_scrum_caps.jpg"
+
+- id: rugby-tackle
+  sport: rugby
+  file: /images/rugby/tackle.jpg
+  width: 1200
+  height: 800
+  alt: "Marc Giraud of SU Agen tackling Jean-Baptiste Poux of Stade Toulousain, 2012."
+  shows: >
+   The defining action, whose legal height is now being lowered.
+  title: "ST vs SUA - 2012-02-18 - Match - 29 - Giraud tackles Poux.jpg"
+  author: "Pierre-Selim Huard"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:ST_vs_SUA_-_2012-02-18_-_Match_-_29_-_Giraud_tackles_Poux.jpg"
+
+- id: rugby-the-breakdown
+  sport: rugby
+  file: /images/rugby/ruck.jpg
+  width: 1200
+  height: 800
+  alt: "A ruck in France against Italy, 2014 Women's Six Nations."
+  shows: >
+   After every tackle, a contest for possession in a pile of bodies, several
+   times a minute.
+  title: "2014 W6N - France vs Italy - Ruck 5939.jpg"
+  author: "Pierre-Selim Huard"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2014_W6N_-_France_vs_Italy_-_Ruck_5939.jpg"
+
+- id: rugby-referee-signal
+  sport: rugby
+  file: /images/rugby/refsignal.jpg
+  width: 1200
+  height: 800
+  alt: "A referee signalling at the Oktoberfest 7s, Munich, 2017."
+  shows: >
+   The hardest officiating job on the site, structured by published procedure.
+  title: "Rugby Referee Signal Close Scrum Oktoberfest 7s 2659.jpg"
+  author: "Henning Schlottmann"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rugby_Referee_Signal_Close_Scrum_Oktoberfest_7s_2659.jpg"
+
+- id: rugby-tokyo-sevens
+  sport: rugby
+  file: /images/rugby/fiji-oly.jpg
+  width: 1200
+  height: 1200
+  alt: "The men's sevens final line-up at the Tokyo 2020 Olympics, held in 2021, which Fiji won."
+  shows: >
+   Fiji's second Olympic gold, both in rugby sevens.
+  title: "Fiji Rugby Team at the 2020 Olympics.jpg"
+  author: "Marshall Islands National Olympic Committee"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Fiji_Rugby_Team_at_the_2020_Olympics.jpg"
+
+- id: rugby-fiji-fans
+  sport: rugby
+  file: /images/rugby/fiji-fans.jpg
+  width: 1130
+  height: 753
+  alt: "Fiji supporters at the rugby sevens, Rio 2016."
+  shows: >
+   The country's first Olympic gold medal of any kind came in sevens that
+   summer.
+  title: "Torcida fijiana em partida de rugby sevens nos Jogos Rio 2016.jpg"
+  author: "Gabriel Fialho / Brasil2016.gov.br"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Torcida_fijiana_em_partida_de_rugby_sevens_nos_Jogos_Rio_2016.jpg"
+
+- id: rugby-rio-women
+  sport: rugby
+  file: /images/rugby/rio-w-final.jpg
+  width: 1200
+  height: 675
+  alt: "Australia in possession during the women's sevens final at the 2016 Rio Olympics."
+  shows: >
+   Sevens fits three days, which is why it was the format readmitted.
+  title: "Australia with possession during the women's final at the 2016 Olympic Sevens.jpg"
+  author: "Sander van Ginkel"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Australia_with_possession_during_the_women%27s_final_at_the_2016_Olympic_Sevens.jpg"
+
+- id: rugby-cardiff-1917
+  sport: rugby
+  file: /images/rugby/cardiff1917.jpg
+  width: 1200
+  height: 741
+  alt: "Cardiff Ladies XV before playing Newport at Cardiff Arms Park, 15 December 1917."
+  shows: >
+   An early women's match; the women's game has grown fastest of anything in
+   rugby over the last decade.
+  title: "Cardiff ladies xv 1917.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Cardiff_ladies_xv_1917.jpg"
+
+- id: rugby-ireland-2023
+  sport: rugby
+  file: /images/rugby/w6n2023.jpg
+  width: 1200
+  height: 800
+  alt: "Ireland's women during the anthems against Italy, 2023 Women's Six Nations."
+  shows: >
+   The women's game, with its own map of strongest nations.
+  title: "Tik Tok Women's Six Nations 2023- Italia vs Irlanda-41.jpg"
+  author: "Stefano Delfrate"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Tik_Tok_Women%27s_Six_Nations_2023-_Italia_vs_Irlanda-41.jpg"
+
+- id: rugby-league-scrum
+  sport: rugby
+  file: /images/rugby/league-scrum.jpg
+  width: 1200
+  height: 800
+  alt: "A rugby league scrum in the French Elite final, 2009."
+  shows: >
+   A separate sport with different laws since 1895.
+  title: "Rugby league scrum finale elite rugby XIII 2010 FCL PIA.png"
+  author: "Gérard Barrau"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rugby_league_scrum_finale_elite_rugby_XIII_2010_FCL_PIA.png"
+
+- id: rugby-scrum
+  sport: rugby
+  slot: "play:restarts"
+  file: /images/rugby/scrum.jpg
+  width: 1200
+  height: 791
+  alt: "A scrum between CSA Steaua and Timișoara Saracens, Romanian SuperLiga, 2017."
+  shows: >
+   The scrum: one of the set-piece restarts.
+  title: "CSA Steaua București - Timișoara Saracens Rugby Scrum 2017.jpg"
+  author: "Gabinho"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:CSA_Steaua_Bucure%C8%99ti_-_Timi%C8%99oara_Saracens_Rugby_Scrum_2017.jpg"
+
+- id: rugby-lineout
+  sport: rugby
+  slot: "play:restarts"
+  file: /images/rugby/lineout.jpg
+  width: 1200
+  height: 800
+  alt: "A lineout jumper lifted for the throw."
+  shows: >
+   The other set-piece restart, from touch.
+  title: "Rugby Lineout.jpg"
+  author: "Milleal2"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rugby_Lineout.jpg"
+
+- id: rugby-scrum-1904
+  sport: rugby
+  slot: "events"
+  file: /images/rugby/scrum1904.jpg
+  width: 1200
+  height: 536
+  alt: "Newport against London Welsh in a scrum, 1904."
+  shows: >
+   Fifteens, the code of the Rugby World Cup.
+  title: "Rugby scrum 1904.jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Rugby_scrum_1904.jpg"
