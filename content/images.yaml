@@ -11587,3 +11587,251 @@
   licence: "Public domain"
   licence_url: ""
   source_url: "https://commons.wikimedia.org/wiki/File:Rugby_scrum_1904.jpg"
+
+# Sepak takraw.
+
+- id: sepak-takraw-chinlone-1899
+  sport: sepak-takraw
+  file: /images/sepak-takraw/chinlone1899.jpg
+  width: 712
+  height: 493
+  alt: "Men playing chinlone in Burma, around 1899: possibly the first photograph of the game."
+  shows: >
+   A circle game: keep the ball up together, judged by grace rather than won.
+  title: "Men playing chinlone.jpg"
+  author: "H. W. Watts and F. A. E. Skeen"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Men_playing_chinlone.jpg"
+
+- id: sepak-takraw-chinlone-inle
+  sport: sepak-takraw
+  file: /images/sepak-takraw/chinlone-inle.jpg
+  width: 1200
+  height: 800
+  alt: "Men playing chinlone at Ywama, Inle Lake, Myanmar."
+  shows: >
+   The Burmese form, still played as a cooperative circle.
+  title: "Chinlone Burma.jpg"
+  author: "Thomas Schoch"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Chinlone_Burma.jpg"
+
+- id: sepak-takraw-paraga
+  sport: sepak-takraw
+  file: /images/sepak-takraw/paraga.jpg
+  width: 960
+  height: 1200
+  alt: "Paraga, the South Sulawesi ball game, performed in a street procession, Indonesia."
+  shows: >
+   One of the many regional forms of keeping a woven ball in the air without
+   the hands.
+  title: "SEPAK RAGA.jpg"
+  author: "Dedy Siswandi"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:SEPAK_RAGA.jpg"
+
+- id: sepak-takraw-rattan-balls
+  sport: sepak-takraw
+  file: /images/sepak-takraw/rattan-balls.jpg
+  width: 1200
+  height: 797
+  alt: "Two woven rattan balls."
+  shows: >
+   An open lattice of cane: light enough to kick hard, slowed enough by air to
+   play in a 13-metre court.
+  title: "Bälle aus Rattan.jpg"
+  author: "Diezmaan"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:B%C3%A4lle_aus_Rattan.jpg"
+
+- id: sepak-takraw-synthetic-ball
+  sport: sepak-takraw
+  file: /images/sepak-takraw/synthetic.jpg
+  width: 1200
+  height: 720
+  alt: "A synthetic takraw ball."
+  shows: >
+   Plastic woven to the same open lattice: the same behaviour as rattan, made
+   consistent.
+  title: "Takraw Ball 2014-08-20 10-44.jpg"
+  author: "Lycahmae"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Takraw_Ball_2014-08-20_10-44.jpg"
+
+- id: sepak-takraw-ball-maker
+  sport: sepak-takraw
+  file: /images/sepak-takraw/basket.jpg
+  width: 797
+  height: 1200
+  alt: "Woven chinlone balls for sale at Nyaung Shwe, Shan State, Myanmar."
+  shows: >
+   The traditional ball as a craft object.
+  title: "Nyaung Shwe, cestería 2.jpg"
+  author: "LBM1948"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Nyaung_Shwe,_cester%C3%ADa_2.jpg"
+
+- id: sepak-takraw-hangzhou-2023
+  sport: sepak-takraw
+  file: /images/sepak-takraw/hangzhou.jpg
+  width: 1200
+  height: 800
+  alt: "Laos against China at the 2022 Asian Games, held in Hangzhou in 2023."
+  shows: >
+   Three a side on a badminton-sized court, with the service circle and quarter
+   circles marked.
+  title: "杭州亚运会藤球 02.jpg"
+  author: "三猎"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E%E4%BA%9A%E8%BF%90%E4%BC%9A%E8%97%A4%E7%90%83_02.jpg"
+
+- id: sepak-takraw-laos-village
+  sport: sepak-takraw
+  file: /images/sepak-takraw/laos-village.jpg
+  width: 1200
+  height: 800
+  alt: "Boys playing sepak takraw over a net in Na Luang village, Luang Prabang Province, Laos, 2016."
+  shows: >
+   Childhood exposure, which is the real barrier to the sport elsewhere.
+  title: "Sepak Takraw, Laos(1).jpg"
+  author: "Ekrem Canli"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sepak_Takraw,_Laos(1).jpg"
+
+- id: sepak-takraw-tekong-serve
+  sport: sepak-takraw
+  file: /images/sepak-takraw/strasbourg.jpg
+  width: 1200
+  height: 1148
+  alt: "The tekong kicking a serve at a match in Strasbourg."
+  shows: >
+   The grounded foot must stay in the circle until the ball is struck.
+  title: "Game of Sepaktakraw at a match in Strasbourg.jpg"
+  author: "François Schnell"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Game_of_Sepaktakraw_at_a_match_in_Strasbourg.jpg"
+
+- id: sepak-takraw-net-incheon
+  sport: sepak-takraw
+  file: /images/sepak-takraw/incheon-w.jpg
+  width: 1200
+  height: 901
+  alt: "Kim I-seul of South Korea and Chiharu Yano of Japan at the net in the women's doubles at the 2014 Asian Games, Incheon."
+  shows: >
+   A blocker may follow through over the net but must not make contact on the
+   other side.
+  title: "Incheon AsianGames Sepaktakraw 09 (15291705581).jpg"
+  author: "Republic of Korea"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Incheon_AsianGames_Sepaktakraw_09_(15291705581).jpg"
+
+- id: sepak-takraw-block-incheon
+  sport: sepak-takraw
+  file: /images/sepak-takraw/incheon2.jpg
+  width: 1200
+  height: 638
+  alt: "South Korea and Japan contesting the ball above the net, 2014 Asian Games, Incheon."
+  shows: >
+   Feet, knees, chest and head, never the hands.
+  title: "Incheon AsianGames Sepaktakraw 02 (15294462532).jpg"
+  author: "Republic of Korea"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Incheon_AsianGames_Sepaktakraw_02_(15294462532).jpg"
+
+- id: sepak-takraw-kings-cup
+  sport: sepak-takraw
+  file: /images/sepak-takraw/kingscup.jpg
+  width: 900
+  height: 1200
+  alt: "The King's Cup Sepaktakraw World Championship trophy before a portrait of King Bhumibol of Thailand."
+  shows: >
+   Thailand, the dominant power, and its championship.
+  title: "King's Cup Sepak Takraw 1.jpg"
+  author: "B20180"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:King%27s_Cup_Sepak_Takraw_1.jpg"
+
+- id: sepak-takraw-acrobatic-smash
+  sport: sepak-takraw
+  file: /images/sepak-takraw/akrobatik.jpg
+  width: 1200
+  height: 800
+  alt: "An acrobatic smash at an Indonesian training hall."
+  shows: >
+   The technical wall: a ball struck above head height with the foot.
+  title: "Akrobatik sang ahli.jpg"
+  author: "Moh. Aripin"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Akrobatik_sang_ahli.jpg"
+
+- id: sepak-takraw-germany
+  sport: sepak-takraw
+  file: /images/sepak-takraw/germany-kc.jpg
+  width: 900
+  height: 1200
+  alt: "Germany's team at the King's Cup in Bangkok."
+  shows: >
+   A small federation outside the region.
+  title: "German Team in King's Cup Sepak Takraw 2.jpg"
+  author: "B20180"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:German_Team_in_King%27s_Cup_Sepak_Takraw_2.jpg"
+
+- id: sepak-takraw-chermside
+  sport: sepak-takraw
+  file: /images/sepak-takraw/chermside.jpg
+  width: 1200
+  height: 900
+  alt: "Informal sepak takraw in 7th Brigade Park, Chermside, Brisbane, 2020."
+  shows: >
+   Played abroad largely by Southeast Asian diaspora communities.
+  title: "Sepak takraw (foot volleyball) in 7th Brigade Park Chermside P1090204.jpg"
+  author: "John Robert McPherson"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sepak_takraw_(foot_volleyball)_in_7th_Brigade_Park_Chermside_P1090204.jpg"
+
+- id: sepak-takraw-court-2023
+  sport: sepak-takraw
+  slot: "play:field"
+  file: /images/sepak-takraw/hangzhou4.jpg
+  width: 1200
+  height: 800
+  alt: "Japan against Indonesia at the 2022 Asian Games, Hangzhou, 2023."
+  shows: >
+   13.4 by 6.1 metres, a badminton doubles court, with a net at about 1.5
+   metres.
+  title: "杭州亚运会藤球 04.jpg"
+  author: "三猎"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:%E6%9D%AD%E5%B7%9E%E4%BA%9A%E8%BF%90%E4%BC%9A%E8%97%A4%E7%90%83_04.jpg"
+
+- id: sepak-takraw-bangkok-street
+  sport: sepak-takraw
+  slot: "events"
+  file: /images/sepak-takraw/bangkok.jpg
+  width: 900
+  height: 600
+  alt: "A game of sepak takraw on an outdoor court in Pathum Wan, Bangkok."
+  shows: >
+   Regu, the three-a-side game.
+  title: "Sepak Takraw Bangkok.jpg"
+  author: "Robertpollai"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sepak_Takraw_Bangkok.jpg"
