@@ -13618,3 +13618,368 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Dt._M%C3%A4nner_Nationalmannschaft_Tauziehen.jpg"
+
+# Underwater sports.
+
+- id: underwater-sports-hockey-bangor-2009
+  sport: underwater-sports
+  file: /images/underwater-sports/hockey-bangor-2009.jpg
+  width: 1200
+  height: 900
+  alt: "Two underwater hockey players in masks and caps reaching for the puck on the tiled floor of a pool"
+  shows: >
+   Two players contest the puck on the pool floor at the GB Underwater Hockey
+   University Student Nationals, Bangor, 2009.
+  title: "OctopushTwoPlayers28092009.JPG"
+  author: "DavidUnderwater"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:OctopushTwoPlayers28092009.JPG"
+
+- id: underwater-sports-hockey-training
+  sport: underwater-sports
+  file: /images/underwater-sports/hockey-training.jpg
+  width: 1200
+  height: 900
+  alt: "Several underwater hockey players swimming low over a tiled pool floor with short sticks"
+  shows: >
+   An underwater hockey training session in the Netherlands. Every player is
+   moving: nobody can hold a position on the bottom long enough to keep goal.
+  title: "Onderwaterhockey.jpg"
+  author: "Wouss at Dutch Wikipedia"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Onderwaterhockey.jpg"
+
+- id: underwater-sports-rugby-basket
+  sport: underwater-sports
+  file: /images/underwater-sports/rugby-basket.jpg
+  width: 1024
+  height: 768
+  alt: "Underwater rugby players diving down towards a metal basket goal on the bottom of a deep pool"
+  shows: >
+   Underwater rugby at TSC Lünen in Germany, 2003, with one of the heavy
+   baskets standing on the pool floor as the goal.
+  title: "Unterwasserrugby2.jpg"
+  author: "Michael Harjes"
+  licence: "CC BY 2.5"
+  licence_url: "https://creativecommons.org/licenses/by/2.5"
+  source_url: "https://commons.wikimedia.org/wiki/File:Unterwasserrugby2.jpg"
+
+- id: underwater-sports-rugby-volume
+  sport: underwater-sports
+  file: /images/underwater-sports/rugby-volume.jpg
+  width: 1200
+  height: 676
+  alt: "Underwater rugby players spread through a deep pool, some near the surface and some at the bottom"
+  shows: >
+   Underwater rugby in 2014, players spread from the surface to the floor: the
+   game uses the whole depth of the pool.
+  title: "Unterwasser Rugby 06.jpg"
+  author: "Waidi's UnterwasserRugby Blog"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Unterwasser_Rugby_06.jpg"
+
+- id: underwater-sports-rugby-depths
+  sport: underwater-sports
+  file: /images/underwater-sports/rugby-depths.jpg
+  width: 1200
+  height: 676
+  alt: "Players at several depths in a deep blue pool, one diving down past another near the bottom"
+  shows: >
+   Another moment from the same game: the contest happens at every level of the
+   water at once.
+  title: "Unterwasser Rugby 14.jpg"
+  author: "Waidi's UnterwasserRugby Blog"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Unterwasser_Rugby_14.jpg"
+
+- id: underwater-sports-glove-stick-puck
+  sport: underwater-sports
+  file: /images/underwater-sports/glove-stick-puck.jpg
+  width: 320
+  height: 240
+  alt: "A black underwater hockey glove, a short white stick and a pink puck on a tiled floor"
+  shows: >
+   An underwater hockey glove, stick and puck. The puck is weighted so that it
+   stays on the pool floor.
+  title: "Glove-stick-puck.jpg"
+  author: "Sea-dragons at English Wikipedia"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Glove-stick-puck.jpg"
+
+- id: underwater-sports-rugby-ball
+  sport: underwater-sports
+  file: /images/underwater-sports/rugby-ball.jpg
+  width: 1200
+  height: 676
+  alt: "An underwater rugby player at the bottom of a deep pool holding a white ball above his head"
+  shows: >
+   An underwater rugby player with the ball, which is filled with saltwater so
+   that it sinks.
+  title: "Unterwasser Rugby 04.jpg"
+  author: "Waidi's UnterwasserRugby Blog"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Unterwasser_Rugby_04.jpg"
+
+- id: underwater-sports-stick-dimensions
+  sport: underwater-sports
+  file: /images/underwater-sports/stick-dimensions.jpg
+  width: 1080
+  height: 1141
+  alt: "A technical drawing of an underwater hockey stick fitting inside a box 350 mm long, 100 mm wide and 50 mm deep"
+  shows: >
+   The limit on an underwater hockey stick under the international rules (10th
+   edition): it must fit inside a box 350 mm long, 100 mm wide and 50 mm deep.
+  title: "UWH Stick dimensions.png"
+  author: "Robliscoe"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:UWH_Stick_dimensions.png"
+
+- id: underwater-sports-hockey-kit
+  sport: underwater-sports
+  file: /images/underwater-sports/hockey-kit.jpg
+  width: 1200
+  height: 900
+  alt: "A mask, a short snorkel with a mouthguard, fins, a water polo cap and a glove"
+  shows: >
+   Basic underwater hockey kit: a low-volume mask, a short snorkel with
+   mouthguard, fins, a cap with ear protectors and a glove. No breathing
+   apparatus.
+  title: "UnderwaterHockeyEquipment.JPG"
+  author: "DavidUnderwater"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:UnderwaterHockeyEquipment.JPG"
+
+- id: underwater-sports-rugby-caps
+  sport: underwater-sports
+  file: /images/underwater-sports/rugby-caps.jpg
+  width: 1200
+  height: 900
+  alt: "Three numbered underwater rugby caps with round ear protectors"
+  shows: >
+   Underwater rugby caps with ear protectors.
+  title: "Different underwater rugby caps.jpg"
+  author: "Karlrt"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Different_underwater_rugby_caps.jpg"
+
+- id: underwater-sports-crystal-palace-2001
+  sport: underwater-sports
+  file: /images/underwater-sports/crystal-palace-2001.jpg
+  width: 1200
+  height: 891
+  alt: "A pool surface broken by splashing and the fins and backs of swimmers"
+  shows: >
+   Underwater hockey at Crystal Palace pool, London, in 2001, seen from the
+   side: what a spectator at the edge of the pool gets to watch.
+  title: "Octopush.jpg"
+  author: "Velela"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Octopush.jpg"
+
+- id: underwater-sports-spearfishing-1960
+  sport: underwater-sports
+  file: /images/underwater-sports/spearfishing-1960.jpg
+  width: 672
+  height: 1024
+  alt: "A spearfisherman in a mask walking out of the sea onto rocks, holding a speargun"
+  shows: >
+   A competitor coming ashore at an underwater fishing competition in San
+   Sebastián, around 1960.
+  title: "Celebración de una prueba de pesca submarina (5 de 15) - Fondo Marín-Kutxa Fototeka.jpg"
+  author: "Paco Marí"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Celebraci%C3%B3n_de_una_prueba_de_pesca_submarina_(5_de_15)_-_Fondo_Mar%C3%ADn-Kutxa_Fototeka.jpg"
+
+- id: underwater-sports-spearfishing-1960-shore
+  sport: underwater-sports
+  file: /images/underwater-sports/spearfishing-1960-shore.jpg
+  width: 1024
+  height: 672
+  alt: "A crowd of men watching from rocks as boats wait offshore"
+  shows: >
+   Spectators on the rocks at the same competition in San Sebastián, around
+   1960.
+  title: "Celebración de una prueba de pesca submarina (1 de 15) - Fondo Marín-Kutxa Fototeka.jpg"
+  author: "Paco Marí"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Celebraci%C3%B3n_de_una_prueba_de_pesca_submarina_(1_de_15)_-_Fondo_Mar%C3%ADn-Kutxa_Fototeka.jpg"
+
+- id: underwater-sports-rugby-at-goal
+  sport: underwater-sports
+  file: /images/underwater-sports/rugby-at-goal.jpg
+  width: 1024
+  height: 768
+  alt: "Underwater rugby players grappling around a basket on the pool floor"
+  shows: >
+   A contest at the basket in underwater rugby, TSC Lünen, 2003. Wrestling the
+   ball carrier is allowed; holding a player down is not.
+  title: "Unterwasserrugby1.jpg"
+  author: "Michael Harjes"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Unterwasserrugby1.jpg"
+
+- id: underwater-sports-rugby-tackle-sydney
+  sport: underwater-sports
+  file: /images/underwater-sports/rugby-tackle-sydney.jpg
+  width: 1040
+  height: 1200
+  alt: "A group of underwater rugby players grappling mid-water in a bright blue pool"
+  shows: >
+   A tackle in underwater rugby with the Underwater Club of UNSW in Sydney.
+  title: "UWR tackle in Sydney.jpg"
+  author: "SpaceKangaroo at English Wikipedia"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:UWR_tackle_in_Sydney.jpg"
+
+- id: underwater-sports-rugby-tangle
+  sport: underwater-sports
+  file: /images/underwater-sports/rugby-tangle.jpg
+  width: 1200
+  height: 676
+  alt: "Underwater rugby players tangled together near the bottom of the pool"
+  shows: >
+   Players tangled near the bottom of the pool in 2014. Bodies hide each other
+   in every direction, which is why one referee is not enough.
+  title: "Unterwasser Rugby 10.jpg"
+  author: "Waidi's UnterwasserRugby Blog"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Unterwasser_Rugby_10.jpg"
+
+- id: underwater-sports-stellenbosch-2014
+  sport: underwater-sports
+  file: /images/underwater-sports/stellenbosch-2014.jpg
+  width: 1200
+  height: 803
+  alt: "An outdoor pool full of underwater hockey players, with tents and spectators along the edge and a mountain behind"
+  shows: >
+   Underwater hockey at Coertzenburg, Stellenbosch University, in South Africa,
+   2014.
+  title: "Underwater hockey at Coertzenburg - panoramio.jpg"
+  author: "Hendrik van den Berg"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Underwater_hockey_at_Coertzenburg_-_panoramio.jpg"
+
+- id: underwater-sports-rugby-finland
+  sport: underwater-sports
+  file: /images/underwater-sports/rugby-finland.jpg
+  width: 1200
+  height: 900
+  alt: "Two underwater rugby players swimming side by side close to the bottom of a pool"
+  shows: >
+   Underwater rugby with a club in Hyvinkää, Finland, in 2009.
+  title: "Uppopallo.jpg"
+  author: "Hyvinkään Urheilusukeltajat ry"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Uppopallo.jpg"
+
+- id: underwater-sports-rugby-germany
+  sport: underwater-sports
+  file: /images/underwater-sports/rugby-germany.jpg
+  width: 1200
+  height: 676
+  alt: "Underwater rugby players grappling at the bottom of a deep pool"
+  shows: >
+   Players grappling for the ball at the bottom of the pool in 2014, the
+   contest the rules allow.
+  title: "Unterwasser Rugby 01.jpg"
+  author: "Waidi's UnterwasserRugby Blog"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Unterwasser_Rugby_01.jpg"
+
+- id: underwater-sports-hockey-play-area
+  sport: underwater-sports
+  slot: "play:field"
+  file: /images/underwater-sports/hockey-play-area.jpg
+  width: 453
+  height: 278
+  alt: "A diagram of a rectangular pool volume 21 to 25 m long, 12 to 15 m wide and 2 to 3.65 m deep, with goals at each end"
+  shows: >
+   The underwater hockey play area as drawn in 2006: a rectangle 21 to 25
+   metres long and 12 to 15 metres wide, 2 to 3.65 metres deep, with a goal at
+   each end on the bottom.
+  title: "Aire de jeu hockey subaquatique.jpg"
+  author: "Loran Bernardi http://fr.wikipedia.org/wiki/Utilisateur:Loran"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Aire_de_jeu_hockey_subaquatique.jpg"
+
+- id: underwater-sports-rugby-play-area
+  sport: underwater-sports
+  slot: "play:field"
+  file: /images/underwater-sports/rugby-play-area.jpg
+  width: 960
+  height: 720
+  alt: "A diagram of the underwater rugby playing area with a basket at each end, exchange areas and an entrance area"
+  shows: >
+   The underwater rugby pool layout: the playing area with a basket at each
+   end, the exchange areas behind them and the entrance area along one side.
+  title: "UV rugby spilleområde.jpg"
+  author: "Fritzhar"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:UV_rugby_spilleomr%C3%A5de.jpg"
+
+- id: underwater-sports-hockey-player-diagram
+  sport: underwater-sports
+  slot: "play:equipment"
+  file: /images/underwater-sports/hockey-player-diagram.jpg
+  width: 1000
+  height: 1000
+  alt: "A cartoon of an underwater hockey player with numbered labels on snorkel, cap, mask, fins, stick, glove and puck"
+  shows: >
+   An underwater hockey player with the kit numbered: snorkel, cap, mask, fins,
+   stick, puck and glove.
+  title: "AnnotatedOctopushPlayer.png"
+  author: "DavidUnderwater"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:AnnotatedOctopushPlayer.png"
+
+- id: underwater-sports-freediving-london-2009
+  sport: underwater-sports
+  slot: "events"
+  file: /images/underwater-sports/freediving-london-2009.jpg
+  width: 1200
+  height: 659
+  alt: "A freediver on a monofin swimming underwater along a pool floor"
+  shows: >
+   A monofin freediver in a dynamic apnea event at a competition in London,
+   2009.
+  title: "Freediving Competition Kick Start (3616372932).jpg"
+  author: "jayhem from Antibes, France"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Freediving_Competition_Kick_Start_(3616372932).jpg"
+
+- id: underwater-sports-hockey-dive
+  sport: underwater-sports
+  file: /images/underwater-sports/hockey-dive.jpg
+  width: 939
+  height: 1200
+  alt: "An underwater hockey player in mask and snorkel diving head first towards the floor of a pool"
+  shows: >
+   A US Coast Guard Academy player diving down during a game at the University
+   of Connecticut, 2011. Every attack begins with a breath at the surface.
+  title: "110319-G-EM820-484 (5579720037).jpg"
+  author: "U.S. Coast Guard / NyxoLyno Cangemi"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:110319-G-EM820-484_(5579720037).jpg"
