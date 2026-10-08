@@ -468,6 +468,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="32" cy="57" r="3.5" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // The short teardrop racquet, its wrist tether looped from the handle, and the ball.
+  racquetball: (
+    <>
+      <path d="M30 34 Q14 30 14 18 Q14 6 28 6 Q42 6 42 18 Q42 30 30 34 Z" fill="none" />
+      <path d="M20 12 L36 28 M18 20 L30 32 M26 8 L40 22 M36 10 L20 26 M40 16 L24 32" fill="none" />
+      <path d="M30 34 L30 50" fill="none" />
+      <path d="M30 50 Q22 58 30 60 Q38 58 30 50" fill="none" />
+      <circle cx="50" cy="44" r="5" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
