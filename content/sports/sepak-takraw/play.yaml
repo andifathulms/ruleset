@@ -49,7 +49,7 @@ sections:
       contact with a foot, and can be struck hard without the mass that would
       make a foot-first sport punishing. No protective equipment is worn.
     facts:
-      - { label: Ball, value: Woven synthetic, about 170 g }
+      - { label: Ball, value: "Woven synthetic, about 170 g" }
       - { label: Circumference, value: About 42 cm }
       - { label: Protective equipment, value: None }
 
@@ -73,7 +73,7 @@ sections:
       is the best of three, with a shortened deciding set if the first two are
       split.
     facts:
-      - { label: Set, value: 21 points, rally scoring }
+      - { label: Set, value: "21 points, rally scoring" }
       - { label: Match, value: Best of three sets }
 
   - id: scoring
@@ -95,7 +95,7 @@ sections:
       So a sepak takraw serve requires two players acting together before the
       ball is in play, which no other net sport on this site does.
     facts:
-      - { label: Serve, value: Kicked, from a service circle }
+      - { label: Serve, value: "Kicked, from a service circle" }
       - { label: Tossed by, value: A team-mate }
 
   - id: prohibitions
