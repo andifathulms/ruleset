@@ -52,8 +52,8 @@ sections:
     facts:
       - { label: Ball diameter, value: 40 mm, note: "Marked 40+; plastic, non-celluloid since 2014." }
       - { label: Ball mass, value: 2.7 g }
-      - { label: Racket sides, value: One red, one black }
-      - { label: Blade, value: 85% natural wood, min }
+      - { label: Racket sides, value: "One red, one black" }
+      - { label: Blade, value: "85% natural wood, min" }
     shaped_by:
       - ittf-2000-forty-millimetre-ball
       - ittf-2014-plastic-ball
