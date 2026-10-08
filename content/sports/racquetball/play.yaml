@@ -32,7 +32,7 @@ sections:
       opportunity rather than a lost cause.
     facts:
       - { label: Court, value: 40 × 20 × 20 ft }
-      - { label: Surfaces in play, value: All of them, including the ceiling }
+      - { label: Surfaces in play, value: "All of them, including the ceiling" }
       - { label: Tin, value: None — the whole front wall is good }
       - { label: Out line, value: None }
     shaped_by: [racquetball-all-surfaces-live]
@@ -53,8 +53,8 @@ sections:
       mechanism, and the sport made protection mandatory rather than
       recommended.
     facts:
-      - { label: Racquet, value: Up to 22 in, with a wrist tether }
-      - { label: Ball, value: Hollow rubber, about 2.25 in }
+      - { label: Racquet, value: "Up to 22 in, with a wrist tether" }
+      - { label: Ball, value: "Hollow rubber, about 2.25 in" }
       - { label: Eye protection, value: Compulsory }
 
   - id: players
@@ -64,7 +64,7 @@ sections:
       the server plays the other two. Refereed matches use a referee and two
       line judges who can be appealed to.
     facts:
-      - { label: Formats, value: Singles, doubles, cutthroat }
+      - { label: Formats, value: "Singles, doubles, cutthroat" }
 
   - id: duration
     label: Time
@@ -99,7 +99,7 @@ sections:
       A serve that hits the ceiling, the back wall on the full, or two side
       walls is a fault. Two faults lose the serve.
     facts:
-      - { label: Serve, value: Bounce once, hit the front wall first }
+      - { label: Serve, value: "Bounce once, hit the front wall first" }
       - { label: Must land, value: Past the short line }
       - { label: Faults allowed, value: Two }
 

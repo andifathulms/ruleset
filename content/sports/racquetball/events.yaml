@@ -23,7 +23,7 @@ disciplines:
       Racquetball's strongest institutional position is in the Americas, where
       it is a Pan American Games sport.
     events:
-      - { id: panam, label: Pan American Games racquetball, at: [federation-only], note: Contested since 1995, and the sport's largest multi-sport platform. }
+      - { id: panam, label: Pan American Games racquetball, at: [federation-only], note: "Contested since 1995, and the sport's largest multi-sport platform." }
   - id: variants
     label: Other forms
     counts: false
@@ -37,5 +37,5 @@ disciplines:
       Racquetball was made by adding a racquet to handball, in handball's own
       court, and is constantly compared to squash.
     events:
-      - { id: handball, label: American handball, at: [federation-only], note: The sport it was derived from, played with the hands in the same court. }
+      - { id: handball, label: American handball, at: [federation-only], note: "The sport it was derived from, played with the hands in the same court." }
       - { id: squash, label: Squash, at: [olympic], note: "Boundaries, a tin, a dead ball and rally scoring — and on the 2028 Olympic programme." }
