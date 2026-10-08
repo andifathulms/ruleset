@@ -11967,3 +11967,262 @@
   licence: "CC BY 3.0"
   licence_url: "https://creativecommons.org/licenses/by/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Wc2007.jpg"
+
+# Softball.
+
+- id: softball-chicago-1897
+  sport: softball
+  file: /images/softball/chicago1897.jpg
+  width: 1200
+  height: 850
+  alt: "A Chicago indoor baseball team, photographed by X. O. Howe, 1897."
+  shows: >
+   Believed by baseball historian Paul Dickson to be the first photograph of a
+   softball team, from the game's indoor years.
+  title: "Chicago Softball Team in 1897.jpg"
+  author: "X. O. Howe"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Chicago_Softball_Team_in_1897.jpg"
+
+- id: softball-indoor-1906
+  sport: softball
+  file: /images/softball/indoor1906.jpg
+  width: 1200
+  height: 965
+  alt: "The Beta Theta Pi chapter's indoor baseball champions, Miami University, Ohio, 1906."
+  shows: >
+   Baseball in a gymnasium in winter: the game's original purpose.
+  title: "Miami University Beta Theta Pi chapter indoor baseball team 1906 (3195981019).jpg"
+  author: "Frank R. Snyder"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Miami_University_Beta_Theta_Pi_chapter_indoor_baseball_team_1906_(3195981019).jpg"
+
+- id: softball-oakville-1934
+  sport: softball
+  file: /images/softball/oakville1934.jpg
+  width: 1200
+  height: 610
+  alt: "The Oakville Ladies softball team of the Lakeshore Road League, Ontario, 1934."
+  shows: >
+   Outdoors, and by then called softball.
+  title: "Oakville Ladies Softball Team 1934 (26083522485).jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Oakville_Ladies_Softball_Team_1934_(26083522485).jpg"
+
+- id: softball-greenwood-1939
+  sport: softball
+  file: /images/softball/greenwood1939.jpg
+  width: 942
+  height: 1200
+  alt: "Players of the Greenwood Electric team in Chicago for the national softball tournament, 1939."
+  shows: >
+   The national tournaments the Amateur Softball Association was built around.
+  title: "Greenwood Electric girls softball team (52358734459).jpg"
+  author: "Unknown photographer (family collection)"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Greenwood_Electric_girls_softball_team_(52358734459).jpg"
+
+- id: softball-geco-1940s
+  sport: softball
+  file: /images/softball/geco.jpg
+  width: 1200
+  height: 952
+  alt: "Workers from the GECO munitions factory playing softball in Ontario, 1940s."
+  shows: >
+   A slide into a base on a works field.
+  title: "Workers from GECO munitions factory playing softball (I0058239).jpg"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Workers_from_GECO_munitions_factory_playing_softball_(I0058239).jpg"
+
+- id: softball-ball
+  sport: softball
+  file: /images/softball/ball.jpg
+  width: 1200
+  height: 800
+  alt: "A worn softball."
+  shows: >
+   Twelve inches round, wound and covered: no longer soft.
+  title: "Softball on white (3211263925).jpg"
+  author: "Rob Marquardt"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Softball_on_white_(3211263925).jpg"
+
+- id: softball-bat
+  sport: softball
+  file: /images/softball/bat.jpg
+  width: 798
+  height: 1200
+  alt: "A batter with an Easton bat in Central Park, New York."
+  shows: >
+   Aluminium and composite bats, regulated by the batted-ball speed they
+   produce.
+  title: "Easton (3486141952).jpg"
+  author: "Ludovic Bertron"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Easton_(3486141952).jpg"
+
+- id: softball-windmill
+  sport: softball
+  file: /images/softball/abbott-pitch.jpg
+  width: 733
+  height: 665
+  alt: "Monica Abbott of the United States in her windmill delivery."
+  shows: >
+   Underhand, from a flat circle about forty feet from the plate.
+  title: "MonicaAbbottPitch.jpg"
+  author: "BDZ Sports"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:MonicaAbbottPitch.jpg"
+
+- id: softball-ueno
+  sport: softball
+  file: /images/softball/ueno.jpg
+  width: 705
+  height: 940
+  alt: "Yukiko Ueno of Japan set to pitch."
+  shows: >
+   The pitcher who could win a tournament alone: Ueno pitched Japan to Olympic
+   gold in 2008 and 2021.
+  title: "Yukiko Ueno 1.jpg"
+  author: "Scinsvche"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Yukiko_Ueno_1.jpg"
+
+- id: softball-japan-usa-2016
+  sport: softball
+  file: /images/softball/japan-usa2016.jpg
+  width: 1200
+  height: 900
+  alt: "Japan and the United States lined up for the 2016 Japan–USA Softball All-Star Series."
+  shows: >
+   Every Olympic gold has gone to one of these two.
+  title: "Japan-USA Softball All-star Series 2016 - Game 1.jpg"
+  author: "Scinsvche"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Japan-USA_Softball_All-star_Series_2016_-_Game_1.jpg"
+
+- id: softball-beijing-2008
+  sport: softball
+  file: /images/softball/usa2008.jpg
+  width: 515
+  height: 305
+  alt: "The United States team with President George W. Bush at their practice field in Beijing, 2008."
+  shows: >
+   Softball's last Games before the 2005 vote took effect.
+  title: "2008 U.S. Women's Softball team and President Bush.jpg"
+  author: "Eric Draper, White House"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:2008_U.S._Women%27s_Softball_team_and_President_Bush.jpg"
+
+- id: softball-home-plate
+  sport: softball
+  file: /images/softball/umpire.jpg
+  width: 388
+  height: 203
+  alt: "Batter, catcher and plate umpire set for the pitch."
+  shows: >
+   The strike zone is a judgement; so is the legality of the pitch.
+  title: "Softball-battercatcherumpireready.jpg"
+  author: "Unknown photographer"
+  licence: "Copyrighted free use"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Softball-battercatcherumpireready.jpg"
+
+- id: softball-safe-at-second
+  sport: softball
+  file: /images/softball/safe2nd.jpg
+  width: 1024
+  height: 682
+  alt: "An umpire watching a play at second base, Texas A&M against Iowa State, 2007."
+  shows: >
+   Baseball's officiating, compressed by shorter distances.
+  title: "Texas A&M Aggies vs Iowa State Cyclones softball, Safe At Second.jpg"
+  author: "StuSeeger"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Texas_A%26M_Aggies_vs_Iowa_State_Cyclones_softball,_Safe_At_Second.jpg"
+
+- id: softball-wcws-2014
+  sport: softball
+  slot: "play:field"
+  file: /images/softball/wcws2014.jpg
+  width: 1024
+  height: 683
+  alt: "Alabama and Florida lined up before the 2014 Women's College World Series final, Oklahoma City."
+  shows: >
+   A smaller diamond than baseball's, with sixty-foot base paths and a flat
+   pitching circle.
+  title: "2014 WCWS Championship Series (Alabama –Florida).jpg"
+  author: "Gary Leland"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2014_WCWS_Championship_Series_(Alabama_%E2%80%93Florida).jpg"
+
+- id: softball-australia-2012
+  sport: softball
+  file: /images/softball/aus-jap.jpg
+  width: 1200
+  height: 800
+  alt: "Stacey Porter of Australia in a series against Japan, Canberra, 2012."
+  shows: >
+   Australia, one of the handful of elite fastpitch nations.
+  title: "Aus v Jap test 1 114.JPG"
+  author: "LauraHale"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Aus_v_Jap_test_1_114.JPG"
+
+- id: softball-slowpitch-1975
+  sport: softball
+  file: /images/softball/slowpitch1975.jpg
+  width: 1200
+  height: 809
+  alt: "Residents of Helen and Robertstown, Georgia, watching a slowpitch game, 1975."
+  shows: >
+   The recreational form, far more widely played than fastpitch.
+  title: "HELEN AND ROBERTSTOWN, GEORGIA AREA RESIDENTS WATCH A SLOW PITCH SOFTBALL GAME IN PROGRESS AT THE SAUTEE-NACOOCHEE... - NARA - 557780.jpg"
+  author: "Al Stephenson, NARA"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:HELEN_AND_ROBERTSTOWN,_GEORGIA_AREA_RESIDENTS_WATCH_A_SLOW_PITCH_SOFTBALL_GAME_IN_PROGRESS_AT_THE_SAUTEE-NACOOCHEE..._-_NARA_-_557780.jpg"
+
+- id: softball-slowpitch-nl
+  sport: softball
+  file: /images/softball/slowpitch-nl.jpg
+  width: 1200
+  height: 800
+  alt: "The Netherlands slowpitch team at the 2019 European championship, Budapest."
+  shows: >
+   Slowpitch has international championships of its own, off the Olympic track.
+  title: "Nederlands slowpitch team 2019.jpg"
+  author: "Prodigyt"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Nederlands_slowpitch_team_2019.jpg"
+
+- id: softball-sweden-2013
+  sport: softball
+  file: /images/softball/leksand.jpg
+  width: 1200
+  height: 900
+  alt: "An umpire speaking with a player at a Swedish championship game, Falun, 2013."
+  shows: >
+   The judgements are made by eye, at short distances.
+  title: "Softball-SM 2013 Leksand vs Enköping 02.jpg"
+  author: "Calle Eklund"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Softball-SM_2013_Leksand_vs_Enk%C3%B6ping_02.jpg"
