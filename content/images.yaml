@@ -11076,3 +11076,238 @@
   licence: "CC BY-SA 3.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:30th_St._Moritz_Polo_World_Cup_on_Snow_-_20140202_-_Cartier_vs_Ralph_Lauren_9.jpg"
+
+# Racquetball.
+
+- id: racquetball-greenwich-ymca
+  sport: racquetball
+  file: /images/racquetball/ymca.jpg
+  width: 1200
+  height: 675
+  alt: "The Greenwich YMCA, Connecticut, where Joe Sobek devised the game in 1950."
+  shows: >
+   A YMCA, and the four-wall handball courts YMCAs across the country already
+   had.
+  title: "Greenwich YMCA.jpg"
+  author: "ajay_suresh"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Greenwich_YMCA.jpg"
+
+- id: racquetball-four-walls
+  sport: racquetball
+  file: /images/racquetball/fortrucker.jpg
+  width: 1200
+  height: 797
+  alt: "Two players in a four-wall court at the Fort Rucker fitness facility, Alabama, 2012, seen from the gallery."
+  shows: >
+   No tin, no out line, no side lines, and the ceiling in play.
+  title: "Fitness facility hosts racquetball tournament (7825498886).jpg"
+  author: "Nathan Pfau, Fort Rucker"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Fitness_facility_hosts_racquetball_tournament_(7825498886).jpg"
+
+- id: racquetball-racquet-ball
+  sport: racquetball
+  file: /images/racquetball/racquet-ball.jpg
+  width: 1200
+  height: 760
+  alt: "A racquetball racquet, with its wrist tether, and ball."
+  shows: >
+   A short racquet, capped at 22 inches, tethered to the wrist; a hollow rubber
+   ball that needs no warming up.
+  title: "Racquetball - Schläger und Ball.jpg"
+  author: "Preiselbeere"
+  licence: "CC BY-SA 2.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Racquetball_-_Schl%C3%A4ger_und_Ball.jpg"
+
+- id: racquetball-eyewear
+  sport: racquetball
+  file: /images/racquetball/vanhees.jpg
+  width: 856
+  height: 1200
+  alt: "Christie Van Hees of Canada in protective eyewear at the 2007 US Open, Memphis."
+  shows: >
+   Lensed eyewear is compulsory, a step squash has not taken for adult play in
+   most places.
+  title: "Christie Van Hees at 2007 US Open Racquetball Championships.jpg"
+  author: "Evan Pritchard"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Christie_Van_Hees_at_2007_US_Open_Racquetball_Championships.jpg"
+
+- id: racquetball-dive
+  sport: racquetball
+  file: /images/racquetball/dive.jpg
+  width: 1200
+  height: 798
+  alt: "Maurice McKoy diving for a ball at Nellis Air Force Base, Nevada, 2012, goggles on and racquet tethered."
+  shows: >
+   Two players in one sealed box, and a fast ball off every wall.
+  title: "Racquet man.jpg"
+  author: "U.S. Air Force"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Racquet_man.jpg"
+
+- id: racquetball-pan-am-2015
+  sport: racquetball
+  file: /images/racquetball/panam2015.jpg
+  width: 675
+  height: 1200
+  alt: "The glass-backed racquetball court at the 2015 Pan American Games, Toronto."
+  shows: >
+   The Pan American Games, the sport's most secure multi-sport platform.
+  title: "Racquetball at the 2015 Pan Am Games.jpg"
+  author: "Sportsfan 1234"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Racquetball_at_the_2015_Pan_Am_Games.jpg"
+
+- id: racquetball-bolivia-2015
+  sport: racquetball
+  file: /images/racquetball/bolivia2015.jpg
+  width: 1200
+  height: 675
+  alt: "Bolivia's men's team with their bronze medals at the 2015 Pan American Games, Toronto."
+  shows: >
+   Bolivia, a power out of all proportion to its size or wealth.
+  title: "Bolivia Racquetball Men's team 2015 Pan American Games.jpg"
+  author: "Sportsfan 1234"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bolivia_Racquetball_Men%27s_team_2015_Pan_American_Games.jpg"
+
+- id: racquetball-hinder
+  sport: racquetball
+  file: /images/racquetball/coalition.jpg
+  width: 1200
+  height: 800
+  alt: "Three players sharing a court during a tournament for coalition forces, 2024."
+  shows: >
+   No dividing line: interference is constant, and avoidable or not is the
+   referee's call.
+  title: "U S and coalition partners participate in racquetball tournament (8697993).jpg"
+  author: "Julian Atkins, U.S. Air Force"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:U_S_and_coalition_partners_participate_in_racquetball_tournament_(8697993).jpg"
+
+- id: racquetball-ready-position
+  sport: racquetball
+  file: /images/racquetball/huczek.jpg
+  width: 762
+  height: 1200
+  alt: "Jack Huczek of the United States waiting to return at the 2006 IRF World Championships, Santo Domingo."
+  shows: >
+   Both players want the same middle of the court.
+  title: "Jack Huczek at 2006 World Racquetball Championships.jpg"
+  author: "Evan Pritchard"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jack_Huczek_at_2006_World_Racquetball_Championships.jpg"
+
+- id: racquetball-moscoso-2022
+  sport: racquetball
+  file: /images/racquetball/moscoso.jpg
+  width: 900
+  height: 1200
+  alt: "Conrrado Moscoso of Bolivia on the podium as men's singles world champion, 2022."
+  shows: >
+   A world champion from Bolivia.
+  title: "Moscoso on podium 2022 Worlds.jpg"
+  author: "Evan Pritchard"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Moscoso_on_podium_2022_Worlds.jpg"
+
+- id: racquetball-mixed-2022
+  sport: racquetball
+  file: /images/racquetball/mixed2022.jpg
+  width: 804
+  height: 1200
+  alt: "Canada and Mexico before the mixed doubles final of the 2022 IRF World Championships, San Luis Potosí."
+  shows: >
+   Mexico and Canada: the sport's centre of gravity in the Americas.
+  title: "Mixed Doubles finalists at 2022 World Championships.jpg"
+  author: "Evan Pritchard"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Mixed_Doubles_finalists_at_2022_World_Championships.jpg"
+
+- id: racquetball-san-luis-potosi
+  sport: racquetball
+  file: /images/racquetball/laloma.jpg
+  width: 1200
+  height: 900
+  alt: "La Loma sports centre, San Luis Potosí, Mexico, host of the 2022 World Championships."
+  shows: >
+   Mexico, now arguably the strongest nation in the sport.
+  title: "La Loma 2022 Worlds 2.jpg"
+  author: "Evan Pritchard"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:La_Loma_2022_Worlds_2.jpg"
+
+- id: racquetball-glass-court
+  sport: racquetball
+  slot: "play:field"
+  file: /images/racquetball/glass.jpg
+  width: 900
+  height: 1200
+  alt: "A glass-backed racquetball court at Marshall University, West Virginia, 2023."
+  shows: >
+   Forty feet by twenty by twenty high, with the service zone marked on the
+   floor.
+  title: "PXL 20230418 134535193 A glass racquetball court at Marshall University's Rec Center.jpg"
+  author: "WalkingRadiance"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:PXL_20230418_134535193_A_glass_racquetball_court_at_Marshall_University%27s_Rec_Center.jpg"
+
+- id: racquetball-court-diagram
+  sport: racquetball
+  slot: "play:field"
+  file: /images/racquetball/dims.jpg
+  width: 480
+  height: 891
+  alt: "The dimensions of a racquetball court."
+  shows: >
+   Service line, short line, receiving line; no lines on the walls.
+  title: "Racquetballcourtdimensions.gif"
+  author: "Joeyfrich"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Racquetballcourtdimensions.gif"
+
+- id: racquetball-three-wall
+  sport: racquetball
+  slot: "events"
+  file: /images/racquetball/outdoor.jpg
+  width: 1200
+  height: 900
+  alt: "Outdoor three-wall courts at Tom Brown Park, Tallahassee, Florida."
+  shows: >
+   One-wall and three-wall forms, played outdoors.
+  title: "Raquetball courts, Tom Brown Park.JPG"
+  author: "Michael Rivera"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Raquetball_courts,_Tom_Brown_Park.JPG"
+
+- id: racquetball-one-wall
+  sport: racquetball
+  slot: "events"
+  file: /images/racquetball/onewall.jpg
+  width: 1200
+  height: 441
+  alt: "A one-wall court with two games in progress at MacDonald Park, Tracy, California, 2010."
+  shows: >
+   The form shared with one-wall handball.
+  title: "HandballCourtMacDonaldParkTracyCAJuly2010.jpg"
+  author: "Gabeguss"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:HandballCourtMacDonaldParkTracyCAJuly2010.jpg"
