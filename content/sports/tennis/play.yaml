@@ -37,7 +37,7 @@ sections:
       - { label: "Width, doubles", value: 10.97 m }
       - { label: Net at centre, value: 0.914 m }
       - { label: Net at posts, value: 1.07 m }
-      - { label: Surfaces, value: Grass, clay, hard, note: Not standardised. No other measured or scored sport here permits this much variation. }
+      - { label: Surfaces, value: "Grass, clay, hard", note: Not standardised. No other measured or scored sport here permits this much variation. }
     citation:
       source: itf-rules-of-tennis
       article: "Rule 1"
@@ -89,7 +89,7 @@ sections:
       that tournament. All four Grand Slams finally adopted the same
       deciding-set rule in 2022.
     facts:
-      - { label: Sets, value: Best of 3, or 5 }
+      - { label: Sets, value: "Best of 3, or 5" }
       - { label: Deciding set, value: 10-point tiebreak at 6–6 }
       - { label: Harmonised across the Slams, value: "2022" }
     shaped_by: [itf-2019-final-set-tiebreaks, itf-2022-final-set-harmonised]
@@ -108,8 +108,8 @@ sections:
       broadcast when the others did.
     facts:
       - { label: Points, value: "15, 30, 40, game" }
-      - { label: Set, value: 6 games, win by 2 }
-      - { label: Tiebreak, value: 7 points, win by 2 }
+      - { label: Set, value: "6 games, win by 2" }
+      - { label: Tiebreak, value: "7 points, win by 2" }
       - { label: Deciding set tiebreak, value: 10 points }
     shaped_by: [itf-1970-tiebreak, itf-2022-final-set-harmonised]
     citation:
@@ -128,7 +128,7 @@ sections:
       which volleyball abolished in 2000 and tennis has kept.
     facts:
       - { label: Serves per point, value: "2" }
-      - { label: Net cord on serve, value: Let, replayed }
+      - { label: Net cord on serve, value: "Let, replayed" }
       - { label: Foot fault, value: Called on contact with the baseline }
 
   - id: prohibitions

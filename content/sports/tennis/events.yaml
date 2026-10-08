@@ -28,4 +28,4 @@ disciplines:
       - { id: rg, label: Roland-Garros, note: Clay. The only major on the surface., at: [professional] }
       - { id: wim, label: Wimbledon, note: Grass. Held out longest against the deciding-set tiebreak., at: [professional] }
       - { id: uso, label: US Open, note: "Hard court. Used a deciding-set tiebreak from 1970, fifty-two years before the others agreed.", at: [professional] }
-      - { id: davis, label: Davis Cup and Billie Jean King Cup, note: The team competitions, run by the ITF., at: [professional] }
+      - { id: davis, label: Davis Cup and Billie Jean King Cup, note: "The team competitions, run by the ITF.", at: [professional] }
