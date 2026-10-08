@@ -494,6 +494,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M6 56 L58 56 M6 50 L58 50 M14 50 L14 56 M24 50 L24 56 M34 50 L34 56 M44 50 L44 56 M54 50 L54 56" fill="none" />
     </>
   ),
+  // The racket, and the soft rubber ball squashing flat against its strings.
+  'soft-tennis': (
+    <>
+      <ellipse cx="28" cy="22" rx="13" ry="16" transform="rotate(-30 28 22)" fill="none" />
+      <path d="M20 12 L36 32 M16 19 L32 38 M26 7 L41 26 M16 28 L36 12 M20 34 L40 18" fill="none" />
+      <path d="M36 35 L50 56" fill="none" strokeWidth="3" />
+      <ellipse cx="41" cy="8" rx="3" ry="6.5" transform="rotate(60 41 8)" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
