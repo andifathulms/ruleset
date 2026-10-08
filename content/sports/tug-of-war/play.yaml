@@ -31,8 +31,8 @@ sections:
       The rope is marked at the centre and four metres either side, with the
       centre mark set over a line on the ground at the start.
     facts:
-      - { label: Surfaces, value: Grass outdoors, mat indoors }
-      - { label: Rope marks, value: Centre, and 4 m either side }
+      - { label: Surfaces, value: "Grass outdoors, mat indoors" }
+      - { label: Rope marks, value: "Centre, and 4 m either side" }
 
   - id: equipment
     label: Equipment
@@ -77,7 +77,7 @@ sections:
       sustained all-out exertions in any sport.
     facts:
       - { label: End length, value: Until 4 m is pulled }
-      - { label: Between ends, value: A short rest, and ends are swapped }
+      - { label: Between ends, value: "A short rest, and ends are swapped" }
 
   - id: scoring
     label: Scoring
