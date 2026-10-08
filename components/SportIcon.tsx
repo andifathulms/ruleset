@@ -542,6 +542,17 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="39" cy="39" r="3" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // The twisted rope with its centre tape and the two marks four metres either
+  // side, over the centre line on the ground: an end is over when a mark crosses it.
+  'tug-of-war': (
+    <>
+      <path d="M4 26 H60 M4 33 H60" fill="none" />
+      <path d="M8 26 L12 33 M16 26 L20 33 M24 26 L28 33 M36 26 L40 33 M44 26 L48 33 M52 26 L56 33" fill="none" />
+      <path d="M32 22 V44" fill="none" strokeWidth="4" />
+      <path d="M17 20 V26 M47 20 V26" fill="none" />
+      <path d="M4 54 H60 M32 50 V58" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
