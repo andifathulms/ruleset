@@ -29,7 +29,7 @@ sections:
     facts:
       - { label: Pitch, value: Up to 100 × 70 m }
       - { label: In-goal area, value: Up to 22 m deep }
-      - { label: Posts, value: 5.6 m apart, crossbar at 3 m }
+      - { label: Posts, value: "5.6 m apart, crossbar at 3 m" }
 
   - id: equipment
     label: Equipment
@@ -42,7 +42,7 @@ sections:
       against cuts and cauliflower ear. World Rugby has been careful to say so,
       which is unusual candour about equipment that looks protective and is not.
     facts:
-      - { label: Ball, value: Oval, 410–460 g }
+      - { label: Ball, value: "Oval, 410–460 g" }
       - { label: Padding, value: Thickness limited }
       - { label: Headgear, value: Optional; does not prevent concussion }
 

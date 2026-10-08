@@ -27,5 +27,5 @@ disciplines:
     counts: false
     events:
       - { id: league, label: Rugby league, note: "A separate sport since the 1895 split over paying players. Different laws, different federation.", at: [world-championship, professional] }
-      - { id: touch, label: Touch and tag rugby, note: Non-contact forms, and the usual entry route for children., at: [world-championship] }
+      - { id: touch, label: Touch and tag rugby, note: "Non-contact forms, and the usual entry route for children.", at: [world-championship] }
       - { id: wheelchair, label: Wheelchair rugby, at: [paralympic] }
