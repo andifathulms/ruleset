@@ -532,6 +532,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="54" cy="29" r="3" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // The court from above: the doubles alleys, the service boxes and the net,
+  // the rectangle Wimbledon drew over Wingfield's hourglass in 1877.
+  tennis: (
+    <>
+      <rect x="14" y="6" width="36" height="52" fill="none" />
+      <path d="M19 6 V58 M45 6 V58 M19 19 H45 M19 45 H45 M32 19 V45" fill="none" />
+      <path d="M10 32 H54" fill="none" strokeWidth="3" />
+      <circle cx="39" cy="39" r="3" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
