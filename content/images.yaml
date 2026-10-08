@@ -12828,3 +12828,441 @@
   licence: "CC BY-SA 2.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Peking_University_Gymnasium.jpg"
+
+# Tennis.
+
+- id: tennis-jeu-de-paume-paris
+  sport: tennis
+  file: /images/tennis/jeu-de-paume-paris.jpg
+  width: 1200
+  height: 791
+  alt: "A wood engraving of two players with rackets in a tall, windowed indoor court with a sagging net"
+  shows: >
+   "Le dernier jeu de paume, à Paris": a nineteenth-century engraving from
+   L'Illustration of the old court of the Comte d'Artois on the boulevard du
+   Temple. The enclosed court and the sagging net are the game lawn tennis came
+   from.
+  title: "Ancien jeu de paume du Comte d’Artois, boulevard du Temple et rue Béranger, G.24965.jpg"
+  author: "Inconnu, graveur"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ancien_jeu_de_paume_du_Comte_d%E2%80%99Artois,_boulevard_du_Temple_et_rue_B%C3%A9ranger,_G.24965.jpg"
+
+- id: tennis-hampton-court
+  sport: tennis
+  file: /images/tennis/hampton-court.jpg
+  width: 1200
+  height: 900
+  alt: "A long red-brick building with high windows under a tiled roof, beside a lawn"
+  shows: >
+   The real tennis court at Hampton Court Palace, one of the handful of courts
+   where the old game is still played.
+  title: "The Real Tennis Court at Hampton Court Palace - panoramio.jpg"
+  author: "Maxwell Hamilton"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:The_Real_Tennis_Court_at_Hampton_Court_Palace_-_panoramio.jpg"
+
+- id: tennis-wingfield-1874
+  sport: tennis
+  file: /images/tennis/wingfield-1874.jpg
+  width: 984
+  height: 631
+  alt: "A black book cover reading Sphairistike or Lawn Tennis, with two crossed rackets"
+  shows: >
+   The cover of Wingfield's rule book of February 1874, under the game's first
+   name, Sphairistikè.
+  title: "Lawn Tennis rule book cover, 1874.jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Lawn_Tennis_rule_book_cover,_1874.jpg"
+
+- id: tennis-hourglass-court-1874
+  sport: tennis
+  file: /images/tennis/hourglass-court-1874.jpg
+  width: 743
+  height: 1200
+  alt: "An engraving of Wingfield's court, wide at the baselines and narrowing to the net, with Victorian players on a lawn"
+  shows: >
+   Wingfield's court as drawn in 1874: an hourglass, wider at the baselines
+   than at the net. The rectangle came with the first Wimbledon.
+  title: "Lawn Tennis Court 1874.jpg"
+  author: "Walter Clopton Wingfield (1833-1912) ?"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Lawn_Tennis_Court_1874.jpg"
+
+- id: tennis-wimbledon-1877
+  sport: tennis
+  file: /images/tennis/wimbledon-1877.jpg
+  width: 1200
+  height: 623
+  alt: "An engraving of spectators in top hats watching matches on grass courts with high nets"
+  shows: >
+   A contemporary engraving of the first Wimbledon championship, at Worple Road
+   in 1877, with the nets of the period much higher than today's.
+  title: "Wimbledon 1877.jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Wimbledon_1877.jpg"
+
+- id: tennis-wimbledon-1877-draw
+  sport: tennis
+  file: /images/tennis/wimbledon-1877-draw.jpg
+  width: 795
+  height: 1186
+  alt: "The printed draw sheet of the 1877 Lawn Tennis Championship, open to all amateurs"
+  shows: >
+   The draw of the 1877 championship, "open to all amateurs", with Spencer
+   Gore's name written in as winner.
+  title: "Wimbledon Championship 1877 Draw.jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Wimbledon_Championship_1877_Draw.jpg"
+
+- id: tennis-wimbledon-1881
+  sport: tennis
+  file: /images/tennis/wimbledon-1881.jpg
+  width: 1200
+  height: 891
+  alt: "An engraving of two moustached men in long trousers playing at the net on grass before a crowd"
+  shows: >
+   William Renshaw against Herbert Lawford at Wimbledon in 1881, from The
+   Graphic. Lawn tennis on lawn, as the name says.
+  title: "Lawford vs Renshaw, Wimbledon in the 1880s.jpg"
+  author: "Arthur Hopkins"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Lawford_vs_Renshaw,_Wimbledon_in_the_1880s.jpg"
+
+- id: tennis-laver-1969
+  sport: tennis
+  file: /images/tennis/laver-1969.jpg
+  width: 792
+  height: 1200
+  alt: "Rod Laver playing a backhand on a clay court, 1969"
+  shows: >
+   Rod Laver at a tournament in Amsterdam in May 1969, the second year of the
+   Open era, when professionals and amateurs could finally play the same
+   events.
+  title: "Top Tennis Toernooi 1969 in Amsterdam Rod Laver , aktie, Bestanddeelnr 922-4468.jpg"
+  author: "Joost Evers / Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Top_Tennis_Toernooi_1969_in_Amsterdam_Rod_Laver_,_aktie,_Bestanddeelnr_922-4468.jpg"
+
+- id: tennis-seoul-1988
+  sport: tennis
+  file: /images/tennis/seoul-1988.jpg
+  width: 1200
+  height: 943
+  alt: "A faded draw board headed Women's Singles, with S. GRAF (FRG) on two lines"
+  shows: >
+   The women's singles draw board from the 1988 Seoul Olympics, with Steffi
+   Graf's name in it. Seoul was tennis's return as a full medal sport.
+  title: "Seoul women's tennis results.jpg"
+  author: "Photocapy"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Seoul_women%27s_tennis_results.jpg"
+
+- id: tennis-wood-racket
+  sport: tennis
+  file: /images/tennis/wood-racket.jpg
+  width: 1200
+  height: 1030
+  alt: "A wooden tennis racket strung with gut beside its wooden press"
+  shows: >
+   A wooden racket from the 1920s with its press, which kept the frame from
+   warping.
+  title: "Racquet, tennis (AM 2015.51.55-1).jpg"
+  author: "Auckland War Memorial Museum"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Racquet,_tennis_(AM_2015.51.55-1).jpg"
+
+- id: tennis-dunlop-comet
+  sport: tennis
+  file: /images/tennis/dunlop-comet.jpg
+  width: 1200
+  height: 572
+  alt: "A wooden Dunlop Comet tennis racket lying on a blue cloth beside a measuring tape"
+  shows: >
+   A Dunlop Comet, a wooden racket of about the 1950s or 1960s. Rackets looked
+   roughly like this for a century.
+  title: "Racquet, tennis (AM 1999.182.3-1).jpg"
+  author: "Auckland War Memorial Museum"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Racquet,_tennis_(AM_1999.182.3-1).jpg"
+
+- id: tennis-spaghetti-patent
+  sport: tennis
+  file: /images/tennis/spaghetti-patent.jpg
+  width: 883
+  height: 1200
+  alt: "Patent drawings of a racket face with two layers of strings threaded with tubes"
+  shows: >
+   Werner Fischer's patent for the double-strung "spaghetti" racket, filed in
+   1977. The ITF wrote its first definition of a strung face in response.
+  title: "U.S. Patent 4,190,249, Spaghetti Racquet.png"
+  author: "Werner Fischer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:U.S._Patent_4,190,249,_Spaghetti_Racquet.png"
+
+- id: tennis-bounce-test
+  sport: tennis
+  file: /images/tennis/bounce-test.jpg
+  width: 1200
+  height: 900
+  alt: "Ground staff on a grass court at Wimbledon dropping a ball from a measuring stick"
+  shows: >
+   Ground staff testing the bounce of the grass on Court 18 at Wimbledon in
+   2006, to check that it rebounds uniformly.
+  title: "Ball bounce test.JPG"
+  author: "Clavecin"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Ball_bounce_test.JPG"
+
+- id: tennis-philippe-chatrier
+  sport: tennis
+  file: /images/tennis/philippe-chatrier.jpg
+  width: 1200
+  height: 900
+  alt: "A full stadium around a clay court at night, seen from high in the stands"
+  shows: >
+   Court Philippe-Chatrier at the French Open in 2023.
+  title: "Court Philippe-Chatrier 2023.jpg"
+  author: "Remi Mathis"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Court_Philippe-Chatrier_2023.jpg"
+
+- id: tennis-rod-laver-arena
+  sport: tennis
+  file: /images/tennis/rod-laver-arena.jpg
+  width: 1200
+  height: 896
+  alt: "A full arena around a blue hard court at the Australian Open"
+  shows: >
+   Rod Laver Arena at the 2015 Australian Open. Each of the four majors sets
+   its own conditions on top of the Rules of Tennis.
+  title: "Rod Laver Arena 2015 Australian Open.jpg"
+  author: "Jono52795"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rod_Laver_Arena_2015_Australian_Open.jpg"
+
+- id: tennis-wills-1924
+  sport: tennis
+  file: /images/tennis/wills-1924.jpg
+  width: 1200
+  height: 866
+  alt: "Helen Wills in a white dress and visor playing a forehand on grass in front of a crowd"
+  shows: >
+   Helen Wills at Wimbledon in July 1924. She won the Olympic singles in Paris
+   that month, at the last Games before tennis was dropped.
+  title: "Juillet 1924, Wimbledon, championnat du monde (de tennis), miss Helen Wills - btv1b53131931v.jpg"
+  author: "Agence Rol. Agence photographique (commanditaire)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Juillet_1924,_Wimbledon,_championnat_du_monde_(de_tennis),_miss_Helen_Wills_-_btv1b53131931v.jpg"
+
+- id: tennis-billie-jean-king-1973
+  sport: tennis
+  file: /images/tennis/billie-jean-king-1973.jpg
+  width: 1200
+  height: 763
+  alt: "Billie Jean King carried in a feathered litter through a crowd holding signs"
+  shows: >
+   Billie Jean King carried onto the court at the Houston Astrodome before the
+   1973 Battle of the Sexes against Bobby Riggs. The US Open paid men and women
+   equally that year, the first major to do so.
+  title: "Billie Jean King carried onto court.jpg"
+  author: "Associated Press, photographer uncredited"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Billie_Jean_King_carried_onto_court.jpg"
+
+- id: tennis-isner-mahut-court-16
+  sport: tennis
+  file: /images/tennis/isner-mahut-court-16.jpg
+  width: 1200
+  height: 900
+  alt: "A scoreboard on Court 16 showing the Isner–Mahut match past fifty games in the fifth set"
+  shows: >
+   The scoreboard on Court 16 showing the Isner–Mahut fifth set in progress on
+   23 June 2010.
+  title: "Isner-Mahut score board on court 16.jpg"
+  author: "Tim Schofield"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Isner-Mahut_score_board_on_court_16.jpg"
+
+- id: tennis-isner-mahut-court-18
+  sport: tennis
+  file: /images/tennis/isner-mahut-court-18.jpg
+  width: 790
+  height: 593
+  alt: "Two tennis players and an umpire in a blazer stand beside a scoreboard reading 70 68 in the last set"
+  shows: >
+   John Isner, Nicolas Mahut and the umpire Mohamed Lahyani beside the Court 18
+   scoreboard after the match, with the final set at 70–68.
+  title: "Isner-Mahut-Lahyani next to scoreboard.jpg"
+  author: "Voo de Mar"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Isner-Mahut-Lahyani_next_to_scoreboard.jpg"
+
+- id: tennis-line-judges
+  sport: tennis
+  file: /images/tennis/line-judges.jpg
+  width: 1200
+  height: 800
+  alt: "Three line judges crouched along the edge of a grass court"
+  shows: >
+   Line judges on Court 1 at Wimbledon in 2012.
+  title: "Flickr - Carine06 - Line judges.jpg"
+  author: "Carine06 from UK"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Flickr_-_Carine06_-_Line_judges.jpg"
+
+- id: tennis-centre-line-judge
+  sport: tennis
+  file: /images/tennis/centre-line-judge.jpg
+  width: 826
+  height: 696
+  alt: "A line judge in a blazer crouched over the centre service line on grass"
+  shows: >
+   A line judge on the centre line at Wimbledon in 2007, the job tour-level
+   tennis did away with in 2025.
+  title: "Centre Line Judge.JPG"
+  author: "Clavecin"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Centre_Line_Judge.JPG"
+
+- id: tennis-hawk-eye
+  sport: tennis
+  file: /images/tennis/hawk-eye.jpg
+  width: 1200
+  height: 900
+  alt: "A large screen above a crowd showing a ball mark with the word IN"
+  shows: >
+   Hawk-Eye's reading of a ball shown on the big screen at Wimbledon in 2011,
+   with the call: in.
+  title: "Hawk-Eye at Wimbledon (7508887344).jpg"
+  author: "Daniel from Galashiels, United Kingdom"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Hawk-Eye_at_Wimbledon_(7508887344).jpg"
+
+- id: tennis-chair-umpire
+  sport: tennis
+  file: /images/tennis/chair-umpire.jpg
+  width: 1200
+  height: 852
+  alt: "An umpire stands at the net with two women players before a match on a hard court"
+  shows: >
+   The chair umpire Pascal Maria with Francesca Schiavone and Vania King at the
+   2014 US Open.
+  title: "2014 US Open (Tennis) - Tournament - Francesa Schiavone, Vania King, and chair umpire Pascal Maria (14925453269).jpg"
+  author: "Steven Pisano from Brooklyn, NY, USA"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2014_US_Open_(Tennis)_-_Tournament_-_Francesa_Schiavone,_Vania_King,_and_chair_umpire_Pascal_Maria_(14925453269).jpg"
+
+- id: tennis-centre-court
+  sport: tennis
+  file: /images/tennis/centre-court.jpg
+  width: 1200
+  height: 900
+  alt: "An empty Centre Court at Wimbledon, the grass worn at the baselines, under a blue sky"
+  shows: >
+   Centre Court at Wimbledon, the one major still played on grass, after the
+   championships in 2023.
+  title: "Far shot of Wimbledon Centre Court.jpg"
+  author: "Bonoahx"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Far_shot_of_Wimbledon_Centre_Court.jpg"
+
+- id: tennis-arthur-ashe
+  sport: tennis
+  file: /images/tennis/arthur-ashe.jpg
+  width: 1200
+  height: 515
+  alt: "A full stadium around a blue hard court under the sun"
+  shows: >
+   Arthur Ashe Stadium at the 2005 US Open, on hard court.
+  title: "Arthur Ashe Stadium 2005 cropped.jpg"
+  author: "Nrbelex"
+  licence: "CC BY-SA 2.5"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.5"
+  source_url: "https://commons.wikimedia.org/wiki/File:Arthur_Ashe_Stadium_2005_cropped.jpg"
+
+- id: tennis-clay
+  sport: tennis
+  file: /images/tennis/clay.jpg
+  width: 1200
+  height: 797
+  alt: "A player's feet and shadow on red clay beside a white line"
+  shows: >
+   Clay at Roland Garros in 2009.
+  title: "2009 RG Clay.jpg"
+  author: "Chris Eason"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2009_RG_Clay.jpg"
+
+- id: tennis-clay-crew
+  sport: tennis
+  file: /images/tennis/clay-crew.jpg
+  width: 1200
+  height: 900
+  alt: "Ground staff watering a red clay court with a hose before play"
+  shows: >
+   Ground staff watering the clay on centre court at Roland Garros in 2009.
+  title: "Clay Crew - water for center court (3593807294).jpg"
+  author: "JC"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Clay_Crew_-_water_for_center_court_(3593807294).jpg"
+
+- id: tennis-federer-serve
+  sport: tennis
+  slot: "play:restarts"
+  file: /images/tennis/federer-serve.jpg
+  width: 1200
+  height: 900
+  alt: "A wide view of Centre Court at Wimbledon with a player serving from the baseline"
+  shows: >
+   Roger Federer serving on Centre Court at Wimbledon in 2006.
+  title: "Federer serve wide view Wimbledon 2006.JPG"
+  author: "Clavecin"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Federer_serve_wide_view_Wimbledon_2006.JPG"
+
+- id: tennis-davis-ward-1900
+  sport: tennis
+  slot: "events"
+  file: /images/tennis/davis-ward-1900.jpg
+  width: 480
+  height: 754
+  alt: "Two young men in white flannels holding rackets stand side by side"
+  shows: >
+   Dwight Davis and Holcombe Ward, the American pair who played the doubles
+   against the British Isles in 1900, the first year of the team competition
+   Davis gave his name to.
+  title: "D.F.Davis and H.Ward.The American Team that Played Against England in Doubles.1900.jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:D.F.Davis_and_H.Ward.The_American_Team_that_Played_Against_England_in_Doubles.1900.jpg"
