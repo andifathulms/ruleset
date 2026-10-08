@@ -478,6 +478,14 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="50" cy="44" r="5" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // The H of the posts, and the oval ball going over the bar.
+  rugby: (
+    <>
+      <path d="M18 8 L18 58 M46 8 L46 58 M18 40 L46 40" fill="none" />
+      <ellipse cx="32" cy="22" rx="10" ry="6" transform="rotate(-30 32 22)" fill="none" />
+      <path d="M28 25 L36 19" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
