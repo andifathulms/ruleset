@@ -512,6 +512,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M42 40 Q47 46 42 52 M54 40 Q49 46 54 52" fill="none" />
     </>
   ),
+  // The court as a closed box seen from the back: the front wall with its tin,
+  // the side walls running out to the floor, and the ball in play between them.
+  squash: (
+    <>
+      <rect x="21" y="18" width="22" height="22" fill="none" />
+      <path d="M21 18 L7 7 M43 18 L57 7 M21 40 L7 57 M43 40 L57 57" fill="none" />
+      <path d="M21 35 H43" fill="none" />
+      <circle cx="38" cy="49" r="3.5" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
