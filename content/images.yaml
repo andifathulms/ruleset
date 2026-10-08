@@ -11835,3 +11835,135 @@
   licence: "CC BY 3.0"
   licence_url: "https://creativecommons.org/licenses/by/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Sepak_Takraw_Bangkok.jpg"
+
+# Soft tennis.
+
+- id: soft-tennis-taihoku
+  sport: soft-tennis
+  file: /images/soft-tennis/taihoku.jpg
+  width: 1200
+  height: 857
+  alt: "Members of a soft tennis club in Taihoku (Taipei), photographed between 1931 and 1945."
+  shows: >
+   The game carried to Taiwan during Japanese rule, and kept.
+  title: "Group photo of members of the soft tennis club in Taihoku.jpg"
+  author: "Peng Ruilin"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Group_photo_of_members_of_the_soft_tennis_club_in_Taihoku.jpg"
+
+- id: soft-tennis-korea-1921
+  sport: soft-tennis
+  file: /images/soft-tennis/korea1921.jpg
+  width: 489
+  height: 372
+  alt: "Finalists at the 1921 Korean national sports festival soft tennis, from the Dong-A Ilbo."
+  shows: >
+   Korea, the other country that took the sport up under Japanese rule.
+  title: "1921 Korea National Sports Festival - Soft Tennis - Cheongnyeon final.png"
+  author: "Dong-A Ilbo"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1921_Korea_National_Sports_Festival_-_Soft_Tennis_-_Cheongnyeon_final.png"
+
+- id: soft-tennis-racket-ball
+  sport: soft-tennis
+  file: /images/soft-tennis/racket.jpg
+  width: 1200
+  height: 797
+  alt: "A Yonex soft tennis racket for a forward player, with a soft tennis ball."
+  shows: >
+   A light, softly strung frame and an unfelted rubber ball: the equipment that
+   made the split permanent.
+  title: "YONEX-NEXTAGE-70V.JPG"
+  author: "吉田有岐"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:YONEX-NEXTAGE-70V.JPG"
+
+- id: soft-tennis-korea-1923
+  sport: soft-tennis
+  file: /images/soft-tennis/korea1923.jpg
+  width: 823
+  height: 544
+  alt: "The final of the 1923 Korean national soft tennis championships, umpire on his chair."
+  shows: >
+   Long rallies built, not struck: the ball cannot be driven past a competent
+   opponent.
+  title: "1923 Korean National Sports Festival - Soft Tennis - Final.png"
+  author: "Dong-A Ilbo"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1923_Korean_National_Sports_Festival_-_Soft_Tennis_-_Final.png"
+
+- id: soft-tennis-dong-a-1923
+  sport: soft-tennis
+  file: /images/soft-tennis/donga1923.jpg
+  width: 984
+  height: 589
+  alt: "Crowds around the court at the Dong-A Ilbo's Flag national soft tennis tournament, 1923."
+  shows: >
+   A mass spectator sport in Korea a century ago.
+  title: "1923 Dong-A Ilbo's Flag National Soft Tennis Tournament.png"
+  author: "Dong-A Ilbo"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1923_Dong-A_Ilbo%27s_Flag_National_Soft_Tennis_Tournament.png"
+
+- id: soft-tennis-korea-1924
+  sport: soft-tennis
+  file: /images/soft-tennis/korea1924.jpg
+  width: 920
+  height: 553
+  alt: "The opening ceremony of the 1924 Korean national soft tennis championships."
+  shows: >
+   A national structure decades before the international federation of 1974.
+  title: "1924 Korean National Sports Festival - Soft Tennis - Opening Ceremony.png"
+  author: "Unknown photographer"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1924_Korean_National_Sports_Festival_-_Soft_Tennis_-_Opening_Ceremony.png"
+
+- id: soft-tennis-japan-2024
+  sport: soft-tennis
+  file: /images/soft-tennis/japan2024.jpg
+  width: 1200
+  height: 904
+  alt: "Spectators arriving for the 2024 All-Japan selection soft tennis tournament."
+  shows: >
+   Japan: a mainstream school and university sport, and the deepest competition
+   anywhere.
+  title: "全日本選抜ソフトテニス大会.jpg"
+  author: "Syced"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:%E5%85%A8%E6%97%A5%E6%9C%AC%E9%81%B8%E6%8A%9C%E3%82%BD%E3%83%95%E3%83%88%E3%83%86%E3%83%8B%E3%82%B9%E5%A4%A7%E4%BC%9A.jpg"
+
+- id: soft-tennis-india-2019
+  sport: soft-tennis
+  file: /images/soft-tennis/wc2019.jpg
+  width: 583
+  height: 1200
+  alt: "Indian player Rohit Dhiman at the 16th World Soft Tennis Championships, Taizhou, China, 2019."
+  shows: >
+   Federations beyond East Asia, often small.
+  title: "A picture during world soft tennis championship.jpg"
+  author: "RohitDhiman27"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:A_picture_during_world_soft_tennis_championship.jpg"
+
+- id: soft-tennis-worlds-2007
+  sport: soft-tennis
+  slot: "events"
+  file: /images/soft-tennis/wc2007.jpg
+  width: 600
+  height: 400
+  alt: "Scenes from the 13th World Soft Tennis Championships, Anseong, South Korea, 2007."
+  shows: >
+   Doubles as the flagship, with singles and team events alongside.
+  title: "Wc2007.jpg"
+  author: "Ast21 (Toshi)"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Wc2007.jpg"
