@@ -50,9 +50,9 @@ sections:
       merging back. A soft tennis racket cannot usefully play tennis, and a
       tennis racket cannot usefully play soft tennis.
     facts:
-      - { label: Ball, value: Air-filled rubber, about 30 g }
+      - { label: Ball, value: "Air-filled rubber, about 30 g" }
       - { label: Ball diameter, value: About 6.6 cm }
-      - { label: Racket, value: Lighter than tennis, low string tension }
+      - { label: Racket, value: "Lighter than tennis, low string tension" }
     shaped_by: [softtennis-1884-rubber-ball]
 
   - id: players
@@ -64,7 +64,7 @@ sections:
       long-term units rather than seasonal ones.
     facts:
       - { label: Principal format, value: Doubles }
-      - { label: Doubles roles, value: One forward, one back }
+      - { label: Doubles roles, value: "One forward, one back" }
     shaped_by: [softtennis-doubles-primary]
 
   - id: duration
@@ -74,7 +74,7 @@ sections:
       seven or nine depending on the competition — and each game is four points.
     facts:
       - { label: Game, value: 4 points }
-      - { label: Match, value: Best of 5, 7 or 9 games }
+      - { label: Match, value: "Best of 5, 7 or 9 games" }
 
   - id: scoring
     label: Scoring
