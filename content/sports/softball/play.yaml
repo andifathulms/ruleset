@@ -30,7 +30,7 @@ sections:
     facts:
       - { label: Base paths, value: 60 ft }
       - { label: "Pitching distance, women", value: 43 ft }
-      - { label: Pitching area, value: A flat circle, not a mound }
+      - { label: Pitching area, value: "A flat circle, not a mound" }
       - { label: Innings, value: "7" }
     shaped_by: [softball-underhand-pitching]
 
@@ -47,7 +47,7 @@ sections:
       same reason.
     facts:
       - { label: Ball circumference, value: About 30 cm }
-      - { label: Bat, value: Performance-limited, not only dimension-limited }
+      - { label: Bat, value: "Performance-limited, not only dimension-limited" }
       - { label: Infielder face masks, value: Standard in many competitions }
     shaped_by: [softball-2018-fastpitch-standards]
 
