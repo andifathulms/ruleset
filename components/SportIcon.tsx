@@ -639,6 +639,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M26 28 V36 M38 28 V36" fill="none" />
     </>
   ),
+  // A wave curling over, and the board riding across its face: a field of play
+  // that is different for every competitor, every time.
+  surfing: (
+    <>
+      <path d="M4 52 Q20 50 30 38 Q40 20 54 16 Q62 16 60 26 Q56 22 50 26 Q44 32 46 44" fill="none" />
+      <path d="M4 58 H60" fill="none" />
+      <path d="M18 42 Q28 34 38 38 Q28 44 18 42 Z" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
