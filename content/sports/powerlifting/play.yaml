@@ -18,9 +18,9 @@ sections:
       is out of the competition with no total at all, regardless of what they
       could bench and pull.
     facts:
-      - { label: Lifts, value: Squat, bench press, deadlift }
+      - { label: Lifts, value: "Squat, bench press, deadlift" }
       - { label: Attempts, value: 3 at each }
-      - { label: Total, value: Best successful attempt at each, summed }
+      - { label: Total, value: "Best successful attempt at each, summed" }
     shaped_by: [pl-1972-ipf-founded]
 
   - id: field
@@ -50,9 +50,9 @@ sections:
       a distinct technical skill. The two are contested as separate divisions
       with separate records and are never compared.
     facts:
-      - { label: Raw, value: Belt, singlet, sleeves, wraps }
-      - { label: Equipped, value: Adds suit, briefs and bench shirt }
-      - { label: Record books, value: Separate, and not comparable }
+      - { label: Raw, value: "Belt, singlet, sleeves, wraps" }
+      - { label: Equipped, value: "Adds suit, briefs and bench shirt" }
+      - { label: Record books, value: "Separate, and not comparable" }
     shaped_by: [pl-equipped-lifting, pl-2012-ipf-raw-division]
 
   - id: players
@@ -90,7 +90,7 @@ sections:
       each revision changing the historical answer to who was best.
     facts:
       - { label: Total, value: Sum of three best lifts }
-      - { label: Across categories, value: A points coefficient, periodically revised }
+      - { label: Across categories, value: "A points coefficient, periodically revised" }
 
   - id: restarts
     label: Commands
@@ -105,7 +105,7 @@ sections:
       why a competition bench is well below what the same lifter can move in
       training.
     facts:
-      - { label: Bench press, value: Paused, on command }
+      - { label: Bench press, value: "Paused, on command" }
       - { label: Deadlift, value: No start command; "down" ends it }
 
   - id: prohibitions

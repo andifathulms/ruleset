@@ -33,4 +33,4 @@ disciplines:
       nothing with beyond a barbell.
     events:
       - { id: weightlifting, label: Olympic weightlifting, at: [olympic], note: "Snatch and clean and jerk, overhead, explosive. A different federation and a different sport." }
-      - { id: strongman, label: Strongman, at: [federation-only], note: Varying implements and events, no fixed programme, and no single governing body. }
+      - { id: strongman, label: Strongman, at: [federation-only], note: "Varying implements and events, no fixed programme, and no single governing body." }
