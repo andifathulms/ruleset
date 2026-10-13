@@ -680,6 +680,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M10 50 l4 -2 M22 56 l4 -2 M34 50 l4 -2 M46 56 l4 -2" fill="none" strokeWidth="3" />
     </>
   ),
+  // The panelled ball above the net: the two teams never touch, and the ball
+  // may never come to rest.
+  volleyball: (
+    <>
+      <circle cx="32" cy="18" r="12" fill="none" />
+      <path d="M22 11 Q32 18 30 30 M42 11 Q32 18 34 30 M20 20 Q32 16 44 20" fill="none" />
+      <path d="M4 40 H60 M4 48 H60 M8 40 V58 M56 40 V58 M18 40 V48 M30 40 V48 M42 40 V48" fill="none" strokeWidth="1.5" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
