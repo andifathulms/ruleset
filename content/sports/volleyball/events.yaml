@@ -26,4 +26,4 @@ disciplines:
     counts: false
     events:
       - { id: snow, label: Snow volleyball, at: [federation-only] }
-      - { id: sitting, label: Sitting volleyball, note: Paralympic, governed by World ParaVolley., at: [paralympic] }
+      - { id: sitting, label: Sitting volleyball, note: "Paralympic, governed by World ParaVolley.", at: [paralympic] }

@@ -76,7 +76,7 @@ sections:
     facts:
       - { label: On court, value: "6" }
       - { label: Libero, value: Since 1998 }
-      - { label: Rotation, value: One position, clockwise }
+      - { label: Rotation, value: "One position, clockwise" }
     shaped_by: [fivb-1998-libero]
 
   - id: duration
