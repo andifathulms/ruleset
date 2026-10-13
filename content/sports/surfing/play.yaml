@@ -33,7 +33,7 @@ sections:
       From 2028 the Olympic field of play is an artificial pool that produces
       the same wave every time.
     facts:
-      - { label: Venue, value: Chosen for waves, not location }
+      - { label: Venue, value: "Chosen for waves, not location" }
       - { label: 2024 Olympic venue, value: "Teahupo'o, Tahiti" }
       - { label: 2028 Olympic venue, value: Artificial wave pool }
     shaped_by: [isa-2024-teahupoo-venue, isa-2025-wave-pool]
@@ -67,7 +67,7 @@ sections:
       to score relative to the wave's potential.
     facts:
       - { label: Judges, value: "5" }
-      - { label: Scores used, value: 3, after discarding high and low }
+      - { label: Scores used, value: "3, after discarding high and low" }
       - { label: Scored relative to, value: The wave's potential }
 
   - id: duration
