@@ -585,6 +585,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M12 12 L8 6 L14 7 Z M24 12 L20 6 L26 7 Z M18 52 L14 58 L20 57 Z M30 52 L26 58 L32 57 Z" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // A dinghy beating upwind towards the mark: the hull, the mast and its
+  // triangle of sail, and the buoy the fleet has to round.
+  sailing: (
+    <>
+      <path d="M22 8 V44 M22 10 L40 42 H22" fill="none" />
+      <path d="M8 46 H44 L38 52 H14 Z" fill="none" />
+      <path d="M4 58 Q10 55 16 58 T28 58 T40 58 T52 58 T60 57" fill="none" />
+      <path d="M50 40 L54 34 L58 40 Z" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
