@@ -14,8 +14,8 @@ disciplines:
       - { id: changquan, label: Changquan — long fist, at: [world-games, asian-games, world-championship], count: 2 }
       - { id: nanquan, label: Nanquan — southern fist, at: [world-games, asian-games, world-championship], count: 2 }
       - { id: taijiquan, label: Taijiquan, at: [world-games, asian-games, world-championship], count: 2 }
-      - { id: weapons, label: Sword, broadsword, staff and spear events, at: [asian-games, world-championship], count: 8 }
-      - { id: duilian, label: Duilian — choreographed pair and group routines, at: [world-championship], note: Two or more athletes performing a scripted exchange, judged. }
+      - { id: weapons, label: "Sword, broadsword, staff and spear events", at: [asian-games, world-championship], count: 8 }
+      - { id: duilian, label: Duilian — choreographed pair and group routines, at: [world-championship], note: "Two or more athletes performing a scripted exchange, judged." }
   - id: sanda
     label: Sanda
     blurb: Full contact on a raised platform. Strikes, kicks, throws, and the edge scores.
