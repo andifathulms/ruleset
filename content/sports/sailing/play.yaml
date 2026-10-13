@@ -74,7 +74,7 @@ sections:
     facts:
       - { label: Races in a series, value: About 10 }
       - { label: Discard, value: Worst result }
-      - { label: Medal race, value: Double points, no discard }
+      - { label: Medal race, value: "Double points, no discard" }
     shaped_by: [sailing-2008-medal-race, sailing-discard]
 
   - id: scoring
