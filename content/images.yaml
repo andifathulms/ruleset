@@ -17025,3 +17025,319 @@
   licence: "No restrictions"
   licence_url: "https://www.flickr.com/commons/usage/"
   source_url: "https://commons.wikimedia.org/wiki/File:Manly_Swimming_Pool_Brisbane_1936_(29672165206).jpg"
+
+# Taekwondo.
+
+- id: taekwondo-seoul-1988-demonstration
+  sport: taekwondo
+  file: /images/taekwondo/seoul-1988-demonstration.jpg
+  width: 1200
+  height: 846
+  alt: "Hundreds of taekwondo practitioners in white doboks seated in rows on a stadium field"
+  shows: >
+   A mass taekwondo demonstration at the opening ceremony of the Seoul 1988
+   Paralympics.
+  title: "XX1088 - Seoul Paralympic Games Opening Ceremony Taekwondo Demonstration - 1 of 6 - Scan.jpg"
+  author: "Don Worley"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:XX1088_-_Seoul_Paralympic_Games_Opening_Ceremony_Taekwondo_Demonstration_-_1_of_6_-_Scan.jpg"
+
+- id: taekwondo-seoul-1988-patterns
+  sport: taekwondo
+  file: /images/taekwondo/seoul-1988-patterns.jpg
+  width: 1200
+  height: 834
+  alt: "Rows of practitioners in white performing the same movement together on a stadium field"
+  shows: >
+   The same demonstration: a syllabus performed in unison, which is what
+   taekwondo was designed to be before it was a spectator sport.
+  title: "XX1088 - Seoul Paralympic Games Opening Ceremony Taekwondo Demonstration - 4 of 6 - Scan.jpg"
+  author: "Don Worley"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:XX1088_-_Seoul_Paralympic_Games_Opening_Ceremony_Taekwondo_Demonstration_-_4_of_6_-_Scan.jpg"
+
+- id: taekwondo-kukkiwon
+  sport: taekwondo
+  file: /images/taekwondo/kukkiwon.jpg
+  width: 1200
+  height: 821
+  alt: "A traditional-style hall with a blue tiled roof among the tower blocks of Seoul"
+  shows: >
+   The Kukkiwon in Seoul, the martial art's technical and grading authority, in
+   2019.
+  title: "Kukkiwon (2019).jpg"
+  author: "Seoul Institute"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kukkiwon_(2019).jpg"
+
+- id: taekwondo-poomsae-2018
+  sport: taekwondo
+  file: /images/taekwondo/poomsae-2018.jpg
+  width: 600
+  height: 418
+  alt: "A medal ceremony for poomsae on a podium at the 2018 Asian Games"
+  shows: >
+   The women's individual poomsae podium at the 2018 Asian Games: the forms
+   side of the syllabus, competed separately from sparring.
+  title: "Women's individual poomsae medalist in taekwondo at the 2018 Asian Games.jpg"
+  author: "Amir Hoseini"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Women%27s_individual_poomsae_medalist_in_taekwondo_at_the_2018_Asian_Games.jpg"
+
+- id: taekwondo-protectors
+  sport: taekwondo
+  file: /images/taekwondo/protectors.jpg
+  width: 480
+  height: 640
+  alt: "A blue trunk protector with forearm and shin guards"
+  shows: >
+   A trunk protector with forearm and shin guards, the padding that before 2009
+   had nothing to do with scoring.
+  title: "Proteccionestkd.JPG"
+  author: "mosso"
+  licence: "CC BY-SA 2.5"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.5"
+  source_url: "https://commons.wikimedia.org/wiki/File:Proteccionestkd.JPG"
+
+- id: taekwondo-sensor-socks
+  sport: taekwondo
+  file: /images/taekwondo/sensor-socks.jpg
+  width: 800
+  height: 557
+  alt: "A close-up of a kick landing on an opponent's red trunk protector, the foot in a sensor sock"
+  shows: >
+   A kick landing at Rio 2016. The sock carries the sensor that tells the
+   system a foot made contact, not a knee or a glove.
+  title: "Taekwondo at the 2016 Summer Olympics1.jpg"
+  author: "Javid Nikpour / Tasnim"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Taekwondo_at_the_2016_Summer_Olympics1.jpg"
+
+- id: taekwondo-head-protector
+  sport: taekwondo
+  file: /images/taekwondo/head-protector.jpg
+  width: 800
+  height: 557
+  alt: "A close-up of a glove on a competitor's blue head protector"
+  shows: >
+   Gloves and head protector at Rio 2016. The head protector is sensor-equipped
+   too.
+  title: "Taekwondo at the 2016 Summer Olympics10.jpg"
+  author: "Javid Nikpour / Tasnim"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Taekwondo_at_the_2016_Summer_Olympics10.jpg"
+
+- id: taekwondo-london-2012-court
+  sport: taekwondo
+  file: /images/taekwondo/london-2012-court.jpg
+  width: 1200
+  height: 800
+  alt: "Two competitors on the court with a referee, the scoreboard in the foreground"
+  shows: >
+   A bout at the London 2012 Olympics, the electronic scoreboard beside the
+   court: by then the points came from the sensors.
+  title: "Taekwondo (8196108094).jpg"
+  author: "Tom Page"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Taekwondo_(8196108094).jpg"
+
+- id: taekwondo-jones-2012
+  sport: taekwondo
+  file: /images/taekwondo/jones-2012.jpg
+  width: 1200
+  height: 800
+  alt: "A competitor in a red head protector landing a high kick on an opponent"
+  shows: >
+   Jade Jones of Great Britain, red, on her way to the 57 kg gold at London
+   2012.
+  title: "Jade Jones - Taekwondo London 2012.jpg"
+  author: "Nizam Uddin"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jade_Jones_-_Taekwondo_London_2012.jpg"
+
+- id: taekwondo-grand-palais-2024
+  sport: taekwondo
+  file: /images/taekwondo/grand-palais-2024.jpg
+  width: 1200
+  height: 800
+  alt: "An octagonal taekwondo court under the glass roof of the Grand Palais, surrounded by stands"
+  shows: >
+   The court under the glass roof of the Grand Palais at the Paris 2024
+   Olympics.
+  title: "Grand Palais - JO Paris 2024 - Taekwondo (03).jpg"
+  author: "AlSepPhoenix"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Grand_Palais_-_JO_Paris_2024_-_Taekwondo_(03).jpg"
+
+- id: taekwondo-tazegul-2012
+  sport: taekwondo
+  file: /images/taekwondo/tazegul-2012.jpg
+  width: 1200
+  height: 800
+  alt: "A competitor in blue kicking to the head as the referee moves in, the scoreboard showing TUR 4"
+  shows: >
+   Servet Tazegül of Turkey against Terrence Jennings of the United States at
+   London 2012. Tazegül won the 68 kg gold.
+  title: "Servet Tazegül vs Terrence Jennings London2012b.jpg"
+  author: "Tom Page"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Servet_Tazeg%C3%BCl_vs_Terrence_Jennings_London2012b.jpg"
+
+- id: taekwondo-demonstration-team-2012
+  sport: taekwondo
+  file: /images/taekwondo/demonstration-team-2012.jpg
+  width: 1200
+  height: 675
+  alt: "A demonstration team in yellow uniforms performing on a lit court"
+  shows: >
+   The World Taekwondo demonstration team performing between sessions at London
+   2012.
+  title: "WTF demonstration team (8195015509).jpg"
+  author: "Tom Page"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WTF_demonstration_team_(8195015509).jpg"
+
+- id: taekwondo-sorn-espinoza-2012
+  sport: taekwondo
+  file: /images/taekwondo/sorn-espinoza-2012.jpg
+  width: 1200
+  height: 900
+  alt: "A competitor in blue kicking at an opponent in red, with a referee between them"
+  shows: >
+   Sorn Davin of Cambodia against María Espinoza of Mexico in the first round
+   at London 2012. Espinoza won 3–2.
+  title: "Davin Sorn vs María Espinoza at the 2012 Olympic games.jpg"
+  author: "Gbrumfiel"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Davin_Sorn_vs_Mar%C3%ADa_Espinoza_at_the_2012_Olympic_games.jpg"
+
+- id: taekwondo-rio-referee
+  sport: taekwondo
+  file: /images/taekwondo/rio-referee.jpg
+  width: 800
+  height: 557
+  alt: "A referee from behind facing a competitor in a head protector who is shouting"
+  shows: >
+   A referee and a competitor at Rio 2016. The referee awards gam-jeom, the
+   penalties where the disputes now live.
+  title: "Taekwondo at the 2016 Summer Olympics15.jpg"
+  author: "Javid Nikpour / Tasnim"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Taekwondo_at_the_2016_Summer_Olympics15.jpg"
+
+- id: taekwondo-park-2024
+  sport: taekwondo
+  file: /images/taekwondo/park-2024.jpg
+  width: 1200
+  height: 900
+  alt: "A competitor in a dobok waiting beside the court before a bout at Paris 2024"
+  shows: >
+   Park Tae-joon of South Korea at the Grand Palais in 2024, where he won the
+   58 kg gold.
+  title: "Taejoon Park - Paris Olympics 2024.jpg"
+  author: "Nicolas22g"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Taejoon_Park_-_Paris_Olympics_2024.jpg"
+
+- id: taekwondo-rio-68kg-flags
+  sport: taekwondo
+  file: /images/taekwondo/rio-68kg-flags.jpg
+  width: 1200
+  height: 800
+  alt: "Four national flags raised in an arena: Russia, Jordan, Spain and South Korea"
+  shows: >
+   The flags raised for the men's 68 kg medallists at Rio 2016, with Jordan's
+   in the gold position.
+  title: "Rio 2016 (28920844790).jpg"
+  author: "Marcelo Martins Teixeira"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rio_2016_(28920844790).jpg"
+
+- id: taekwondo-abughaush-2016
+  sport: taekwondo
+  file: /images/taekwondo/abughaush-2016.jpg
+  width: 1200
+  height: 800
+  alt: "A competitor in a Jordan jersey embracing his coach on the mat"
+  shows: >
+   Ahmad Abughaush celebrating with his coach after winning the 68 kg at Rio
+   2016, Jordan's first Olympic medal.
+  title: "Ahmad Abughaush, 2016 Summer Olympics in Rio de Janeiro, men's 70 kg,.jpg"
+  author: "Salem Khamis"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ahmad_Abughaush,_2016_Summer_Olympics_in_Rio_de_Janeiro,_men%27s_70_kg,.jpg"
+
+- id: taekwondo-rio-heavyweight-podium
+  sport: taekwondo
+  file: /images/taekwondo/rio-heavyweight-podium.jpg
+  width: 1200
+  height: 858
+  alt: "Four medallists on an Olympic podium in front of a crowd"
+  shows: >
+   The men's +80 kg podium at Rio 2016, with Abdoul Razak Issoufou of Niger,
+   left, taking silver.
+  title: "Taekwondo at the 2016 Summer Olympics – Men's +80 kg awarding ceremony 4.jpg"
+  author: "Ilgar Jafarov"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Taekwondo_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_%2B80_kg_awarding_ceremony_4.jpg"
+
+- id: taekwondo-iran-fans-2016
+  sport: taekwondo
+  file: /images/taekwondo/iran-fans-2016.jpg
+  width: 1200
+  height: 800
+  alt: "A man draped in an Iranian flag celebrating as photographers crowd around"
+  shows: >
+   Iranian supporters at the taekwondo at Rio 2016.
+  title: "Rio 2016 (29208896355).jpg"
+  author: "Marcelo Martins Teixeira"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rio_2016_(29208896355).jpg"
+
+- id: taekwondo-rashitov-2024
+  sport: taekwondo
+  file: /images/taekwondo/rashitov-2024.jpg
+  width: 1200
+  height: 909
+  alt: "A competitor in an Uzbekistan jacket biting a gold medal"
+  shows: >
+   Ulugbek Rashitov of Uzbekistan with his gold at Paris 2024, his second in
+   successive Games.
+  title: "Ulugbek Rashitov at the 2024 Summer Olympics 01.jpg"
+  author: "Anvar Ilyasov"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ulugbek_Rashitov_at_the_2024_Summer_Olympics_01.jpg"
+
+- id: taekwondo-board-breaking
+  sport: taekwondo
+  file: /images/taekwondo/board-breaking.jpg
+  width: 1200
+  height: 1043
+  alt: "A practitioner in a dobok breaking a stack of boards while others watch"
+  shows: >
+   Board breaking at a taekwondo tournament at Kunsan Air Base in South Korea:
+   part of the syllabus that sparring competition left behind.
+  title: "Board breaking.jpg"
+  author: "U.S. Air Force / Yi Hak Song"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Board_breaking.jpg"
