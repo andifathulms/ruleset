@@ -630,6 +630,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M44 32 h4 v6 h-4 z" fill="none" strokeWidth="1.5" />
     </>
   ),
+  // The dohyō from above: the raised square of clay, the ring of straw bales,
+  // and the two white starting lines the wrestlers crouch behind.
+  sumo: (
+    <>
+      <rect x="6" y="6" width="52" height="52" fill="none" />
+      <circle cx="32" cy="32" r="20" fill="none" strokeWidth="3" strokeDasharray="5 2" />
+      <path d="M26 28 V36 M38 28 V36" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
