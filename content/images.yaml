@@ -14674,3 +14674,362 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Ergometr_dla_wszystkich.jpg"
+
+# Sailing.
+
+- id: sailing-dutch-states-yacht
+  sport: sailing
+  file: /images/sailing/dutch-states-yacht.jpg
+  width: 700
+  height: 435
+  alt: "A painting of a decorated Dutch yacht under sail near a warship in calm water"
+  shows: >
+   Lieve Verschuier's painting of a Dutch States yacht, seventeenth century:
+   the kind of fast, private vessel the sport began with.
+  title: "Lieve Pieterszoon Verschuier - A Dutch States Yacht.jpg"
+  author: "Lieve Verschuier"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Lieve_Pieterszoon_Verschuier_-_A_Dutch_States_Yacht.jpg"
+
+- id: sailing-english-yacht-rotterdam
+  sport: sailing
+  file: /images/sailing/english-yacht-rotterdam.jpg
+  width: 1200
+  height: 919
+  alt: "A painting of an English yacht firing a salute to a Dutch warship in a crowded harbour"
+  shows: >
+   Abraham Storck, An English Yacht saluting a Dutch Man-of-War in the port of
+   Rotterdam, painted before 1708.
+  title: "Storck, Abraham - An English Yacht saluting a Dutch Man-of-War in the port of Rotterdam - Google Art Project.jpg"
+  author: "Abraham Storck"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Storck,_Abraham_-_An_English_Yacht_saluting_a_Dutch_Man-of-War_in_the_port_of_Rotterdam_-_Google_Art_Project.jpg"
+
+- id: sailing-cumberland-fleet
+  sport: sailing
+  file: /images/sailing/cumberland-fleet.jpg
+  width: 1200
+  height: 861
+  alt: "A painting of sailing yachts racing on the Thames with spectators on the bank"
+  shows: >
+   William Havell's Yachts of the Cumberland Society racing on the Thames,
+   around 1815. The Cumberland Fleet, founded for Thames racing in 1775, was
+   the ancestor of the Royal Thames Yacht Club.
+  title: "Yachts of the Cumberland Society Racing on the Thames, circa 1815 RMG BHC1196.tiff"
+  author: "William Havell"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Yachts_of_the_Cumberland_Society_Racing_on_the_Thames,_circa_1815_RMG_BHC1196.tiff"
+
+- id: sailing-schooner-america
+  sport: sailing
+  file: /images/sailing/schooner-america.jpg
+  width: 1200
+  height: 887
+  alt: "A large two-masted schooner under full sail"
+  shows: >
+   The schooner America, which won the cup that took her name in 1851,
+   photographed later in the century after she had been re-rigged.
+  title: "Schooner America-3.jpg"
+  author: "John S. Johnston"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Schooner_America-3.jpg"
+
+- id: sailing-star-crews-2012
+  sport: sailing
+  file: /images/sailing/star-crews-2012.jpg
+  width: 1200
+  height: 797
+  alt: "Two keelboats racing close together on open water"
+  shows: >
+   Brazilian and German Star-class crews racing close together at the London
+   2012 Olympics, off Weymouth. When boats meet, right-of-way rules from
+   ordinary seamanship decide who keeps clear.
+  title: "Brazilian and German Star-class crews racing at the 2012 Olympics.jpg"
+  author: "Caroline Granycome"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Brazilian_and_German_Star-class_crews_racing_at_the_2012_Olympics.jpg"
+
+- id: sailing-star-fleet-2012
+  sport: sailing
+  file: /images/sailing/star-fleet-2012.jpg
+  width: 1200
+  height: 538
+  alt: "A fleet of keelboats racing in a line beneath white cliffs"
+  shows: >
+   The Star-class fleet at the 2012 Olympics, Weymouth: a regatta is scored on
+   finishing positions across a series, not on times.
+  title: "2012 Olympic Sailing, Weymouth, Dorset.jpg"
+  author: "Caroline Granycome"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2012_Olympic_Sailing,_Weymouth,_Dorset.jpg"
+
+- id: sailing-finns-1952
+  sport: sailing
+  file: /images/sailing/finns-1952.jpg
+  width: 561
+  height: 378
+  alt: "Wooden dinghy hulls under construction in a boatyard workshop, 1952"
+  shows: >
+   Finns being built in a Danish yard for the 1952 Olympics, every one to the
+   same design.
+  title: "Finn 1952.jpg"
+  author: "Olympiakuva / DPA"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Finn_1952.jpg"
+
+- id: sailing-nacra-foiling
+  sport: sailing
+  file: /images/sailing/nacra-foiling.jpg
+  width: 1200
+  height: 749
+  alt: "A catamaran lifted clear of the water on its foils, two sailors on the trapeze"
+  shows: >
+   Billy Besson and Marie Riou of France on a foiling Nacra 17 in 2019.
+  title: "Billy Besson Marie Riou Nacra 17.jpg"
+  author: "THTACY"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Billy_Besson_Marie_Riou_Nacra_17.jpg"
+
+- id: sailing-iqfoil
+  sport: sailing
+  file: /images/sailing/iqfoil.jpg
+  width: 1200
+  height: 800
+  alt: "A windsurfer flying above the water on a foil board"
+  shows: >
+   Hélène Noesmoen on the iQFOiL at Brest in 2023, the foiling windsurfer that
+   replaced the earlier board class for 2024.
+  title: "Hélène NOESMOEN riding an iQFOiL set at Brest, February 2023.jpg"
+  author: "IPoriel"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:H%C3%A9l%C3%A8ne_NOESMOEN_riding_an_iQFOiL_set_at_Brest,_February_2023.jpg"
+
+- id: sailing-finns-newport
+  sport: sailing
+  file: /images/sailing/finns-newport.jpg
+  width: 1200
+  height: 878
+  alt: "Finn dinghies sailing in a harbour lined with houses"
+  shows: >
+   Finns in Newport Harbor, California, in 2021. The class was sailed at every
+   Games from 1952 to 2020 and then removed.
+  title: "Olympic class Finn sailboats in Newport Harbor by Don Ramey Logan.jpg"
+  author: "Don Ramey Logan"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Olympic_class_Finn_sailboats_in_Newport_Harbor_by_Don_Ramey_Logan.jpg"
+
+- id: sailing-ac75
+  sport: sailing
+  file: /images/sailing/ac75.jpg
+  width: 1200
+  height: 675
+  alt: "A dark-hulled America's Cup yacht flying above the water on foils"
+  shows: >
+   Ineos Team UK's AC75 Britannia during the Prada Cup in Auckland, 2021:
+   foiling had transformed racing outside the Games.
+  title: "Ineos Team UK AC75.png"
+  author: "Geoff McKay"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ineos_Team_UK_AC75.png"
+
+- id: sailing-formula-kite
+  sport: sailing
+  file: /images/sailing/formula-kite.jpg
+  width: 1000
+  height: 667
+  alt: "A kitefoiler on a foil board rounding a red race mark"
+  shows: >
+   A Formula Kite racer at Eilat in 2022. Kiteboarding joined the Olympic
+   programme in 2024.
+  title: "קייט 6 אילת.jpg"
+  author: "Uv59"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:%D7%A7%D7%99%D7%99%D7%98_6_%D7%90%D7%99%D7%9C%D7%AA.jpg"
+
+- id: sailing-royal-yacht-squadron
+  sport: sailing
+  file: /images/sailing/royal-yacht-squadron.jpg
+  width: 1200
+  height: 803
+  alt: "The castle headquarters of the Royal Yacht Squadron on the waterfront at Cowes"
+  shows: >
+   The Royal Yacht Squadron's castle at Cowes, Isle of Wight.
+  title: "Royal Yacht Squadron, Cowes, Isle of Wight - geograph.org.uk - 1994737.jpg"
+  author: "Peter Trimming"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Royal_Yacht_Squadron,_Cowes,_Isle_of_Wight_-_geograph.org.uk_-_1994737.jpg"
+
+- id: sailing-flamengo-2016
+  sport: sailing
+  file: /images/sailing/flamengo-2016.jpg
+  width: 1200
+  height: 799
+  alt: "People standing on a beach watching windsurfers racing just offshore"
+  shows: >
+   Spectators without tickets watching Olympic windsurfing from Flamengo beach,
+   Rio 2016.
+  title: "Público assiste à competição de vela na Praia do Flamengo (28238031274).jpg"
+  author: "Tomaz Silva / Agência Brasil"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:P%C3%BAblico_assiste_%C3%A0_competi%C3%A7%C3%A3o_de_vela_na_Praia_do_Flamengo_(28238031274).jpg"
+
+- id: sailing-flamengo-2016-2
+  sport: sailing
+  file: /images/sailing/flamengo-2016-2.jpg
+  width: 1200
+  height: 799
+  alt: "Windsurfers racing close to the shore with yellow mark buoys and support boats"
+  shows: >
+   The same racing seen from the beach.
+  title: "Público assiste à competição de vela na Praia do Flamengo (28824195606).jpg"
+  author: "Tomaz Silva / Agência Brasil"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:P%C3%BAblico_assiste_%C3%A0_competi%C3%A7%C3%A3o_de_vela_na_Praia_do_Flamengo_(28824195606).jpg"
+
+- id: sailing-nacra-medal-race-2024
+  sport: sailing
+  file: /images/sailing/nacra-medal-race-2024.jpg
+  width: 1200
+  height: 797
+  alt: "Several catamarans with national-flag sails racing in a bay with hills behind"
+  shows: >
+   The Nacra 17 medal race at the Paris 2024 Olympics, sailed off Marseille.
+  title: "París2024 - Nacra.jpg"
+  author: "Eric Salard"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Par%C3%ADs2024_-_Nacra.jpg"
+
+- id: sailing-ainslie-2012
+  sport: sailing
+  file: /images/sailing/ainslie-2012.jpg
+  width: 1200
+  height: 797
+  alt: "A Finn dinghy surrounded by spectator boats and orange smoke flares"
+  shows: >
+   Ben Ainslie moments after winning the Finn at the London 2012 Olympics in
+   Weymouth, his fourth successive gold.
+  title: "Ben Ainslie moments after winning a 2012 Olympic Gold in Weymouth.jpg"
+  author: "Caroline Granycome"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ben_Ainslie_moments_after_winning_a_2012_Olympic_Gold_in_Weymouth.jpg"
+
+- id: sailing-broadcast-helicopter
+  sport: sailing
+  file: /images/sailing/broadcast-helicopter.jpg
+  width: 1200
+  height: 800
+  alt: "A helicopter flying over the sea"
+  shows: >
+   An Olympic Broadcasting Services helicopter filming the sailing at Marseille
+   in 2024.
+  title: "F-GKMB JO PARIS 2024 MARSEILLE SAILING Olympic Broadcasting Services.jpg"
+  author: "Eric Salard"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:F-GKMB_JO_PARIS_2024_MARSEILLE_SAILING_Olympic_Broadcasting_Services.jpg"
+
+- id: sailing-grael-kunze-2016
+  sport: sailing
+  file: /images/sailing/grael-kunze-2016.jpg
+  width: 1200
+  height: 800
+  alt: "A group of people in Brazilian team clothing embracing and smiling"
+  shows: >
+   The families of Martine Grael and Kahena Kunze celebrating Brazil's 49erFX
+   gold at Rio 2016.
+  title: "MARTINE GRAEL E KAHENA KUNZE GANHAM REGATA FINAL E LEVAM OURO OLÍMPICO (28453844154).jpg"
+  author: "Fernando Frazão / Agência Brasil"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:MARTINE_GRAEL_E_KAHENA_KUNZE_GANHAM_REGATA_FINAL_E_LEVAM_OURO_OL%C3%8DMPICO_(28453844154).jpg"
+
+- id: sailing-grael-kunze-49erfx
+  sport: sailing
+  file: /images/sailing/grael-kunze-49erfx.jpg
+  width: 1200
+  height: 674
+  alt: "A skiff with a sail in the colours of the Brazilian flag racing past waterfront buildings"
+  shows: >
+   Martine Grael and Kahena Kunze in their 49erFX at Rio 2016.
+  title: "Rio 2016. Vela-Sailing (29018218852).jpg"
+  author: "Jonas de Carvalho"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rio_2016._Vela-Sailing_(29018218852).jpg"
+
+- id: sailing-marseille-ceremony
+  sport: sailing
+  file: /images/sailing/marseille-ceremony.jpg
+  width: 1200
+  height: 797
+  alt: "A medal ceremony on a beach with the three ILCA 7 medallists on the podium and a crowd in front"
+  shows: >
+   The ILCA 7 medal ceremony on the beach at Marseille, 2024, with Matt Wearn
+   of Australia on the top step. The sailing of the Paris Games was staged on
+   the Mediterranean, at the other end of France.
+  title: "SAILING JO PARIS 2024 MARSEILLE MARINA ILCA 7 - 53911262310.jpg"
+  author: "Eric Salard"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:SAILING_JO_PARIS_2024_MARSEILLE_MARINA_ILCA_7_-_53911262310.jpg"
+
+- id: sailing-marseille-marina
+  sport: sailing
+  file: /images/sailing/marseille-marina.jpg
+  width: 1200
+  height: 797
+  alt: "Dinghies rigged on a marina beach in Marseille"
+  shows: >
+   470s rigged at the Marseille marina for the 2024 Games.
+  title: "SAILING JO PARIS 2024 MARSEILLE MARINA 470 (53910279885).jpg"
+  author: "Eric Salard"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:SAILING_JO_PARIS_2024_MARSEILLE_MARINA_470_(53910279885).jpg"
+
+- id: sailing-olympic-classes-2024
+  sport: sailing
+  slot: "events"
+  file: /images/sailing/olympic-classes-2024.jpg
+  width: 1200
+  height: 675
+  alt: "A line of different Olympic sailing boats displayed on a beach"
+  shows: >
+   Boats of the 2024 Olympic classes displayed at the Marseille marina.
+  title: "SAILING JO PARIS 2024 MARSEILLE MARINA ALL SERIES (53911261910).jpg"
+  author: "Eric Salard"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:SAILING_JO_PARIS_2024_MARSEILLE_MARINA_ALL_SERIES_(53911261910).jpg"
+
+- id: sailing-guanabara-470
+  sport: sailing
+  slot: "play:field"
+  file: /images/sailing/guanabara-470.jpg
+  width: 1200
+  height: 900
+  alt: "A two-person dinghy sailing past a row of yellow buoys, mountains behind"
+  shows: >
+   A Polish 470 in Guanabara Bay at Rio 2016, the course laid out with buoys.
+  title: "Rio 2016 - Vela-Sailing (28946322512).jpg"
+  author: "Cavalo Marinho"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Rio_2016_-_Vela-Sailing_(28946322512).jpg"
