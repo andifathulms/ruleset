@@ -34,7 +34,7 @@ sections:
       Archery shoots outdoors at 70 m in whatever weather arrives; shooting
       removes the variables.
     facts:
-      - { label: Air rifle and pistol, value: 10 m, indoors }
+      - { label: Air rifle and pistol, value: "10 m, indoors" }
       - { label: Rifle three positions, value: 50 m }
       - { label: Shotgun, value: Clay targets in flight }
       - { label: Targets, value: Electronic }
@@ -79,7 +79,7 @@ sections:
       A shooter can lead qualification by a wide margin and finish eighth,
       because none of that score carries forward.
     facts:
-      - { label: Final starts from, value: Zero, since 2013 }
+      - { label: Final starts from, value: "Zero, since 2013" }
       - { label: Final format, value: Progressive elimination }
       - { label: Qualification, value: Determines only who qualifies }
     shaped_by: [issf-2013-finals-from-zero, issf-1988-finals-added]

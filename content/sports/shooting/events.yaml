@@ -32,7 +32,7 @@ disciplines:
     counts: false
     blurb: Cut in 2018 so that mixed-team events could be added within the quota.
     events:
-      - { id: freepistol, label: "50 m free pistol, men", note: Contested since 1896, with interruptions., at: [lapsed] }
+      - { id: freepistol, label: "50 m free pistol, men", note: "Contested since 1896, with interruptions.", at: [lapsed] }
       - { id: prone, label: "50 m rifle prone, men", at: [lapsed] }
       - { id: doubletrap, label: "Double trap, men", at: [lapsed] }
       - { id: runningtarget, label: Running target, note: "Removed after 2004; still contested at world level.", at: [lapsed] }
