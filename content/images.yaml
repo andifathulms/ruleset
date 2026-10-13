@@ -18914,3 +18914,267 @@
   licence: "CC BY 2.0"
   licence_url: "https://creativecommons.org/licenses/by/2.0"
   source_url: "https://commons.wikimedia.org/wiki/File:U.S._Army_World_Class_Athlete_Program_wrestler_Sgt._Iris_Smith_(right)_defeats_Chinas_Lijun_Yang.jpg"
+
+# Wushu.
+
+- id: wushu-shaolin-bamboo
+  sport: wushu
+  file: /images/wushu/shaolin-bamboo.jpg
+  width: 216
+  height: 174
+  alt: "A monk practising kung fu on a path through a bamboo forest"
+  shows: >
+   A monk practising in the bamboo forest at the Shaolin Temple, 2004: one of
+   the traditions the state-designed sport drew on.
+  title: "A monk practicing kung fu in the bamboo forest inside the Shaolin Temple.jpg"
+  author: "Justin Guariglia"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:A_monk_practicing_kung_fu_in_the_bamboo_forest_inside_the_Shaolin_Temple.jpg"
+
+- id: wushu-shaolin-performance
+  sport: wushu
+  file: /images/wushu/shaolin-performance.jpg
+  width: 1200
+  height: 800
+  alt: "Monks in ochre robes performing a routine with red fans before an audience"
+  shows: >
+   A Shaolin martial arts performance, 2024.
+  title: "20241103 Shaolin Martial Art Performance 01.jpg"
+  author: "Windmemories"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:20241103_Shaolin_Martial_Art_Performance_01.jpg"
+
+- id: wushu-all-china-games-2005
+  sport: wushu
+  slot: "play:field"
+  file: /images/wushu/all-china-games-2005.jpg
+  width: 1200
+  height: 900
+  alt: "A blue competition carpet in a sports hall, with a judges' table along one side and stands behind"
+  shows: >
+   The taolu carpet at the 10th National Games of China in 2005, with the
+   judging panel's tables beside it.
+  title: "10th all china games floor.jpg"
+  author: "Wushu One Family"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:10th_all_china_games_floor.jpg"
+
+- id: wushu-jian-pair
+  sport: wushu
+  file: /images/wushu/jian-pair.jpg
+  width: 1200
+  height: 875
+  alt: "Two athletes in green performing high kicks in unison with straightswords"
+  shows: >
+   A pair straightsword routine at the 10th National Games of China, 2005.
+  title: "10th all china games Jian pair 406 cropped.jpg"
+  author: "Wushu One Family"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:10th_all_china_games_Jian_pair_406_cropped.jpg"
+
+- id: wushu-staff
+  sport: wushu
+  file: /images/wushu/staff.jpg
+  width: 1200
+  height: 902
+  alt: "An athlete in red in a deep stance with a staff on a large carpet"
+  shows: >
+   Staff (gunshu) at the 10th National Games, 2005.
+  title: "10th all china games Gun 376.jpg"
+  author: "Wushu One Family"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:10th_all_china_games_Gun_376.jpg"
+
+- id: wushu-broadsword
+  sport: wushu
+  file: /images/wushu/broadsword.jpg
+  width: 1200
+  height: 902
+  alt: "An athlete in yellow performing a low stance with a broadsword"
+  shows: >
+   Broadsword (daoshu) at the 10th National Games, 2005.
+  title: "10th all china games Dao 397.jpg"
+  author: "Wushu One Family"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:10th_all_china_games_Dao_397.jpg"
+
+- id: wushu-spear
+  sport: wushu
+  file: /images/wushu/spear.jpg
+  width: 1200
+  height: 900
+  alt: "An athlete thrusting a spear as a television camera films"
+  shows: >
+   Spear (qiangshu) at the 10th National Games, 2005, with the broadcast camera
+   at the carpet's edge.
+  title: "10th all china games Qiang 928.jpg"
+  author: "Wushu One Family"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:10th_all_china_games_Qiang_928.jpg"
+
+- id: wushu-kiani-2018
+  sport: wushu
+  file: /images/wushu/kiani-2018.jpg
+  width: 533
+  height: 824
+  alt: "A woman athlete in green holding a spear with a red tassel in a stance"
+  shows: >
+   Zahra Kiani of Iran in taolu at the 2018 Asian Games in Jakarta.
+  title: "Zahra Kiani 1397052814074430515076294.jpg"
+  author: "Hamed Malekpour"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Zahra_Kiani_1397052814074430515076294.jpg"
+
+- id: wushu-rajabi-2018
+  sport: wushu
+  file: /images/wushu/rajabi-2018.jpg
+  width: 800
+  height: 557
+  alt: "A woman athlete in green and yellow in a low stance shouting"
+  shows: >
+   Hanieh Rajabi of Iran in taolu at the 2018 Asian Games.
+  title: "Hanieh Rajabi 1397052814074330515076294.jpg"
+  author: "Hamed Malekpour"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Hanieh_Rajabi_1397052814074330515076294.jpg"
+
+- id: wushu-mansourian-2018
+  sport: wushu
+  file: /images/wushu/mansourian-2018.jpg
+  width: 1050
+  height: 700
+  alt: "A sanda fighter in a red headguard between rounds"
+  shows: >
+   Shahrbanoo Mansourian of Iran in sanda at the 2018 Asian Games, in headguard
+   and gloves.
+  title: "Shahrbanoo Mansourian 13970530001274636704842085546520 56553.jpg"
+  author: "Amir Hoseini / Fars"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Shahrbanoo_Mansourian_13970530001274636704842085546520_56553.jpg"
+
+- id: wushu-nangun-2018
+  sport: wushu
+  file: /images/wushu/nangun-2018.jpg
+  width: 691
+  height: 520
+  alt: "An athlete in black performing with a southern staff, shouting"
+  shows: >
+   Leung Cheuk-hei of Hong Kong in nangun, the southern staff event, at the
+   2018 Asian Games.
+  title: "Leung cheuk hei Wushu Nangun.jpg"
+  author: "Leung Cheuk-hei"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Leung_cheuk_hei_Wushu_Nangun.jpg"
+
+- id: wushu-all-china-games-crowd
+  sport: wushu
+  file: /images/wushu/all-china-games-crowd.jpg
+  width: 1200
+  height: 900
+  alt: "Full stands around a wushu carpet with camera cranes"
+  shows: >
+   The hall at the 10th National Games of China, 2005: the domestic event whose
+   field is deeper than most world championships.
+  title: "10th all china games floor 1624.jpg"
+  author: "Wushu One Family"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:10th_all_china_games_floor_1624.jpg"
+
+- id: wushu-iran-taolu-2011
+  sport: wushu
+  file: /images/wushu/iran-taolu-2011.jpg
+  width: 1200
+  height: 900
+  alt: "Four Iranian athletes with medals and bouquets"
+  shows: >
+   Iran's taolu team at the 2011 World Wushu Championships in Ankara.
+  title: "Iran taolu team in Ankara-2011.JPG"
+  author: "Sahim"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Iran_taolu_team_in_Ankara-2011.JPG"
+
+- id: wushu-sanshou-club
+  sport: wushu
+  file: /images/wushu/sanshou-club.jpg
+  width: 1200
+  height: 1194
+  alt: "Two fighters in a gym, one landing a kick"
+  shows: >
+   Sanda sparring at a club in Katwijk, the Netherlands, 2006: the discipline
+   adults from other combat sports can cross into.
+  title: "Sanshou (San da) - kick (practice fight) Katwijk, dec 4, 2006.JPG"
+  author: "Richardkw"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sanshou_(San_da)_-_kick_(practice_fight)_Katwijk,_dec_4,_2006.JPG"
+
+- id: wushu-tai-chi-singapore
+  sport: wushu
+  file: /images/wushu/tai-chi-singapore.jpg
+  width: 1200
+  height: 800
+  alt: "Older women practising tai chi in a park in the morning"
+  shows: >
+   Morning tai chi in a Singapore park, 2022.
+  title: "Morning Tai Chi.jpg"
+  author: "Supersusage"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Morning_Tai_Chi.jpg"
+
+- id: wushu-tai-chi-new-york
+  sport: wushu
+  file: /images/wushu/tai-chi-new-york.jpg
+  width: 1200
+  height: 718
+  alt: "A small group practising tai chi in a city park"
+  shows: >
+   Morning tai chi in Bryant Park, New York, 2010: the diaspora's recreational
+   footprint.
+  title: "Morning Tai Chi in Bryant Park.jpg"
+  author: "Carl from New York"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Morning_Tai_Chi_in_Bryant_Park.jpg"
+
+- id: wushu-handan-2024
+  sport: wushu
+  file: /images/wushu/handan-2024.jpg
+  width: 1200
+  height: 808
+  alt: "A large hall with competitors performing on carpets and a results screen"
+  shows: >
+   Taijiquan competition at an international conference in Handan, China, 2024.
+  title: "Handan International Taijiquan Sports Conference (2024).jpg"
+  author: "ShorelineTaiji"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Handan_International_Taijiquan_Sports_Conference_(2024).jpg"
+
+- id: wushu-east-asian-games-2009
+  sport: wushu
+  slot: "events"
+  file: /images/wushu/east-asian-games-2009.jpg
+  width: 1200
+  height: 674
+  alt: "Three wushu medallists on a podium at the 2009 East Asian Games"
+  shows: >
+   A wushu podium at the 2009 East Asian Games in Hong Kong.
+  title: "Hong Kong East Asian Games 2556.JPG"
+  author: "Tinho C."
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Hong_Kong_East_Asian_Games_2556.JPG"
