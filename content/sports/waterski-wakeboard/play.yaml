@@ -22,7 +22,7 @@ sections:
       tournament champion must be able to do three things that share almost
       nothing.
     facts:
-      - { label: Slalom, value: Buoys, then speed, then rope length }
+      - { label: Slalom, value: "Buoys, then speed, then rope length" }
       - { label: Tricks, value: Two passes of 20 s }
       - { label: Jump, value: Distance off a ramp }
 
@@ -41,9 +41,9 @@ sections:
       Cable courses have no boat: an overhead circuit tows riders past
       obstacles and rails.
     facts:
-      - { label: Boat path, value: Surveyed, timed between gates }
+      - { label: Boat path, value: "Surveyed, timed between gates" }
       - { label: Boat speed, value: Held to a tolerance }
-      - { label: Cable, value: No boat, no wake }
+      - { label: Cable, value: "No boat, no wake" }
     shaped_by: [waterski-1961-cable]
 
   - id: equipment
@@ -63,8 +63,8 @@ sections:
       drive it: approved hulls, approved speed control, and a wake specification
       that matters enormously to wakeboarding, where the wake is the ramp.
     facts:
-      - { label: Rope, value: Inelastic, standard shortening increments }
-      - { label: Slalom ski, value: One ski, deep fin }
+      - { label: Rope, value: "Inelastic, standard shortening increments" }
+      - { label: Slalom ski, value: "One ski, deep fin" }
       - { label: Trick skis, value: Short and finless }
       - { label: Boat, value: Approved hull and speed control }
     shaped_by: [waterski-slalom-shortening]

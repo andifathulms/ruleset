@@ -20,7 +20,7 @@ disciplines:
     blurb: Judged aerial runs off the boat's wake. Arrived from board culture in the 1980s.
     events:
       - { id: wake-boat, label: Wakeboard behind a boat, at: [world-games, world-championship], count: 2 }
-      - { id: wake-cable, label: Cable wakeboard, at: [world-games, world-championship], count: 2, note: On an overhead cable circuit, with obstacles and rails instead of a wake. }
+      - { id: wake-cable, label: Cable wakeboard, at: [world-games, world-championship], count: 2, note: "On an overhead cable circuit, with obstacles and rails instead of a wake." }
   - id: other
     label: Other disciplines
     counts: false
@@ -28,7 +28,7 @@ disciplines:
       The federation governs a wider set, several of which have their own world
       championships.
     events:
-      - { id: barefoot, label: Barefoot water skiing, at: [world-championship], note: Slalom, tricks and jump with no skis at all. }
+      - { id: barefoot, label: Barefoot water skiing, at: [world-championship], note: "Slalom, tricks and jump with no skis at all." }
       - { id: racing, label: Ski racing, at: [world-championship], note: Long-distance racing behind powerboats at high speed. }
       - { id: disabled, label: Adaptive water skiing, at: [world-championship], note: Contested across the classical disciplines with adapted equipment. }
       - { id: kneeboard, label: Kneeboard and wakesurf, at: [world-championship], count: 2 }
@@ -36,5 +36,5 @@ disciplines:
     label: Its Olympic record
     counts: false
     events:
-      - { id: munich, label: Water skiing, Munich 1972, at: [lapsed], note: "A demonstration sport; the category was discontinued after 1992." }
-      - { id: shortlist, label: Wakeboard, 2020 shortlist, at: [lapsed], note: Shortlisted for addition to the Tokyo programme and not selected. }
+      - { id: munich, label: "Water skiing, Munich 1972", at: [lapsed], note: "A demonstration sport; the category was discontinued after 1992." }
+      - { id: shortlist, label: "Wakeboard, 2020 shortlist", at: [lapsed], note: Shortlisted for addition to the Tokyo programme and not selected. }
