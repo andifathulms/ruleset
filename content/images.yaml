@@ -18319,3 +18319,257 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Podium_2019_World_Championships.jpg"
+
+# Weightlifting.
+
+- id: weightlifting-sandow-1894
+  sport: weightlifting
+  file: /images/weightlifting/sandow-1894.jpg
+  width: 843
+  height: 1200
+  alt: "A vaudeville poster of a strongman holding a bar overhead with a man sitting in a basket at each end"
+  shows: >
+   "Sandow, in his wonderful performance: lifting the human dumbbell", a poster
+   for Eugen Sandow at the Trocadero, 1894: lifting as an act, with no rules
+   about how.
+  title: "The Sandow Trocadero Vaudevilles, Sandow lifting the human dumbell, 1894.jpg"
+  author: "Adam Cuerden"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:The_Sandow_Trocadero_Vaudevilles,_Sandow_lifting_the_human_dumbell,_1894.jpg"
+
+- id: weightlifting-sandow-1902
+  sport: weightlifting
+  file: /images/weightlifting/sandow-1902.jpg
+  width: 774
+  height: 1200
+  alt: "A strongman flexing in a studio portrait"
+  shows: >
+   Eugen Sandow posing for his magazine of physical culture, published in 1902.
+  title: "\"A New Sandow Pose (VIII)\", Eugen Sandow Wellcome L0035270 - restoration.jpg"
+  author: "D. Bernard & Co / Wellcome Collection"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:%22A_New_Sandow_Pose_(VIII)%22,_Eugen_Sandow_Wellcome_L0035270_-_restoration.jpg"
+
+- id: weightlifting-leipzig-1955
+  sport: weightlifting
+  file: /images/weightlifting/leipzig-1955.jpg
+  width: 573
+  height: 784
+  alt: "A lifter holding a barbell overhead in a high-windowed training hall, 1955"
+  shows: >
+   A training session in weightlifting at the German College of Physical
+   Culture in Leipzig, 1955.
+  title: "Bundesarchiv Bild 183-33533-0006, Leipzig, DHfK, Gewichtheben.jpg"
+  author: "Müller / Bundesarchiv"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-33533-0006,_Leipzig,_DHfK,_Gewichtheben.jpg"
+
+- id: weightlifting-charite-1952
+  sport: weightlifting
+  file: /images/weightlifting/charite-1952.jpg
+  width: 1200
+  height: 998
+  alt: "A lifter in braces holding a loaded barbell at his shoulders in front of wall bars"
+  shows: >
+   Bram Charité of the Netherlands with the bar at his shoulders, 1952: plates
+   of the era, and trousers on the platform.
+  title: "Bram Charite (gewichtheffen), Bestanddeelnr 905-0476.jpg"
+  author: "Van Duinen / Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bram_Charite_(gewichtheffen),_Bestanddeelnr_905-0476.jpg"
+
+- id: weightlifting-kono-1952
+  sport: weightlifting
+  file: /images/weightlifting/kono-1952.jpg
+  width: 848
+  height: 1200
+  alt: "A muscular lifter in a vest with hands on hips"
+  shows: >
+   Tommy Kono of the United States, Olympic champion at Helsinki in 1952.
+  title: "Tommy Kono 1952.jpg"
+  author: "Unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Tommy_Kono_1952.jpg"
+
+- id: weightlifting-alekseyev-1972
+  sport: weightlifting
+  file: /images/weightlifting/alekseyev-1972.jpg
+  width: 636
+  height: 931
+  alt: "A heavyweight lifter holding a huge barbell overhead beside a scoreboard"
+  shows: >
+   Vasily Alekseyev of the Soviet Union at the Munich Olympics in 1972, the
+   last Games at which the press was contested.
+  title: "Vasily Alekseyev 1972b.jpg"
+  author: "UPI"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Vasily_Alekseyev_1972b.jpg"
+
+- id: weightlifting-loading-plates
+  sport: weightlifting
+  file: /images/weightlifting/loading-plates.jpg
+  width: 1200
+  height: 900
+  alt: "Loaders sliding coloured bumper plates onto a bar on an Olympic platform"
+  shows: >
+   Loaders changing the weight on the bar at Rio 2016: calibrated plates,
+   coloured by mass.
+  title: "Rio 2016 - Weightlifting men's 69 kg (29228761392).jpg"
+  author: "Sander van Ginkel"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rio_2016_-_Weightlifting_men%27s_69_kg_(29228761392).jpg"
+
+- id: weightlifting-snatch
+  sport: weightlifting
+  file: /images/weightlifting/snatch.jpg
+  width: 1200
+  height: 800
+  alt: "A woman lifter holding a bar overhead in a deep squat on a platform"
+  shows: >
+   Stefanie Dröxler finishing a snatch in the Austrian league, Linz, 2017, in
+   raised-heel shoes and a singlet that leaves the elbows and knees bare.
+  title: "Stefanie Dröxler clean and jerk-4316.jpg"
+  author: "Isiwal"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Stefanie_Dr%C3%B6xler_clean_and_jerk-4316.jpg"
+
+- id: weightlifting-clean-and-jerk
+  sport: weightlifting
+  file: /images/weightlifting/clean-and-jerk.jpg
+  width: 1200
+  height: 800
+  alt: "A lifter in the split jerk position with 198 kg overhead"
+  shows: >
+   Sargis Martirosjan with 198 kg in the clean and jerk at the same match,
+   2017.
+  title: "Sargis Martirosjan clean and jerk-4974.jpg"
+  author: "Isiwal"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sargis_Martirosjan_clean_and_jerk-4974.jpg"
+
+- id: weightlifting-rio-snatch
+  sport: weightlifting
+  file: /images/weightlifting/rio-snatch.jpg
+  width: 1200
+  height: 900
+  alt: "A lifter catching a snatch in a deep squat on the Olympic platform"
+  shows: >
+   A snatch in the men's 69 kg at Rio 2016.
+  title: "Rio 2016 - Weightlifting men's 69 kg (29228763182).jpg"
+  author: "Sander van Ginkel"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rio_2016_-_Weightlifting_men%27s_69_kg_(29228763182).jpg"
+
+- id: weightlifting-salimi-2016
+  sport: weightlifting
+  file: /images/weightlifting/salimi-2016.jpg
+  width: 800
+  height: 557
+  alt: "An Iranian heavyweight lifter spreading his arms in disbelief"
+  shows: >
+   Behdad Salimi of Iran at Rio 2016, after a snatch passed by the referees was
+   ruled out by the jury.
+  title: "Weightlifting at the 2016 Summer Olympics - Men's +105 kg 014.jpg"
+  author: "Mohammad Hassanzadeh / Tasnim"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Weightlifting_at_the_2016_Summer_Olympics_-_Men%27s_%2B105_kg_014.jpg"
+
+- id: weightlifting-chalk
+  sport: weightlifting
+  file: /images/weightlifting/chalk.jpg
+  width: 800
+  height: 532
+  alt: "A lifter's taped hands slapping chalk into a cloud over a chalk box"
+  shows: >
+   Chalk before an attempt in the +105 kg at Rio 2016.
+  title: "Weightlifting at the 2016 Summer Olympics - Men's +105 kg 003.jpg"
+  author: "Mohammad Hassanzadeh / Tasnim"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Weightlifting_at_the_2016_Summer_Olympics_-_Men%27s_%2B105_kg_003.jpg"
+
+- id: weightlifting-talakhadze-2016
+  sport: weightlifting
+  file: /images/weightlifting/talakhadze-2016.jpg
+  width: 792
+  height: 1200
+  alt: "A Georgian lifter carrying his national flag"
+  shows: >
+   Lasha Talakhadze of Georgia after winning the +105 kg at Rio 2016 with a
+   world-record total of 473 kg, a record annulled with the rest in 2018.
+  title: "Lasha Talakhadze Rio 2016c.jpg"
+  author: "Fernando Frazão / Agência Brasil"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lasha_Talakhadze_Rio_2016c.jpg"
+
+- id: weightlifting-paris-2024-podium
+  sport: weightlifting
+  file: /images/weightlifting/paris-2024-podium.jpg
+  width: 1200
+  height: 800
+  alt: "Three lifters on an Olympic podium in front of the rings"
+  shows: >
+   The men's +102 kg podium at Paris 2024: Akbar Djuraev of Uzbekistan, Liu
+   Huanhua of China and Yauheni Tsikhantsou.
+  title: "Akbar Juraev at the 2024 Summer Olympics 03.jpg"
+  author: "National Olympic Committee of Uzbekistan"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Akbar_Juraev_at_the_2024_Summer_Olympics_03.jpg"
+
+- id: weightlifting-diaz-2016
+  sport: weightlifting
+  file: /images/weightlifting/diaz-2016.jpg
+  width: 464
+  height: 727
+  alt: "A Filipina lifter in uniform holding an Olympic medal"
+  shows: >
+   Hidilyn Diaz with her Rio 2016 silver, the Philippines' first Olympic medal
+   in weightlifting. She won its first gold in 2021.
+  title: "Hidilyn Diaz 2016.jpg"
+  author: "Presidential Communications Operations Office"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Hidilyn_Diaz_2016.jpg"
+
+- id: weightlifting-gdr-team-1966
+  sport: weightlifting
+  file: /images/weightlifting/gdr-team-1966.jpg
+  width: 753
+  height: 473
+  alt: "An East German weightlifting team posed in singlets with their trainer and a loaded bar"
+  shows: >
+   The East German team preparing for the 1966 world and European
+   championships.
+  title: "Bundesarchiv Bild 183-E1011-0020-001, Berlin, DDR-Mannschaft im Gewichtheben mit Trainer.jpg"
+  author: "Studré / Bundesarchiv"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-E1011-0020-001,_Berlin,_DDR-Mannschaft_im_Gewichtheben_mit_Trainer.jpg"
+
+- id: weightlifting-riocentro-2016
+  sport: weightlifting
+  slot: "play:field"
+  file: /images/weightlifting/riocentro-2016.jpg
+  width: 1200
+  height: 800
+  alt: "A competition platform at the end of an arena with spectators and scoreboards"
+  shows: >
+   The platform at Riocentro for the Rio 2016 weightlifting.
+  title: "Rio 2016. Levantamento de pesos- weight lifting (28492757123).jpg"
+  author: "Jonas de Carvalho"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rio_2016._Levantamento_de_pesos-_weight_lifting_(28492757123).jpg"
