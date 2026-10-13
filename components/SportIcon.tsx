@@ -606,6 +606,17 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M32 2 V8 M32 56 V62 M2 32 H8 M56 32 H62" fill="none" />
     </>
   ),
+  // A board in the air mid-ollie, kicked tail low and nose high, over the
+  // edge of a stair set: the trick everything in street is built on.
+  skateboarding: (
+    <>
+      <path d="M8 36 Q10 30 14 31 L46 21 Q50 18 54 20" fill="none" />
+      <circle cx="19" cy="34" r="3" fill="none" />
+      <circle cx="42" cy="27" r="3" fill="none" />
+      <path d="M4 58 H22 V50 H34 V42 H46 V58" fill="none" />
+      <path d="M20 12 Q30 6 40 12" fill="none" strokeDasharray="3 3" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
