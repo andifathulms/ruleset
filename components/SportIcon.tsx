@@ -617,6 +617,19 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M20 12 Q30 6 40 12" fill="none" strokeDasharray="3 3" />
     </>
   ),
+  // A competition wall with its bolted holds, set in a line up the panel, and
+  // the rope running down from the top anchor: the route set afresh each time.
+  'sport-climbing': (
+    <>
+      <rect x="8" y="6" width="48" height="52" fill="none" />
+      <ellipse cx="20" cy="48" rx="5" ry="3" transform="rotate(-20 20 48)" fill="#F2F5F1" stroke="none" />
+      <ellipse cx="30" cy="37" rx="4" ry="2.5" transform="rotate(25 30 37)" fill="#F2F5F1" stroke="none" />
+      <path d="M21 26 L27 22 L29 28 Z" fill="#F2F5F1" stroke="none" />
+      <ellipse cx="36" cy="16" rx="4.5" ry="3" transform="rotate(-10 36 16)" fill="#F2F5F1" stroke="none" />
+      <path d="M46 6 V58" fill="none" strokeDasharray="3 3" />
+      <path d="M44 32 h4 v6 h-4 z" fill="none" strokeWidth="1.5" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
