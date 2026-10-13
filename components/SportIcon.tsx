@@ -701,6 +701,18 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="14" cy="44" r="3" fill="none" />
     </>
   ),
+  // The bar locked overhead at the finish of a snatch: arms straight, the
+  // plates at each end, the deep squat beneath it on the platform.
+  weightlifting: (
+    <>
+      <path d="M6 12 H58" fill="none" strokeWidth="3" />
+      <path d="M10 4 V20 M15 6 V18 M49 6 V18 M54 4 V20" fill="none" strokeWidth="4" />
+      <path d="M20 12 L28 30 M44 12 L36 30" fill="none" />
+      <circle cx="32" cy="26" r="3.5" fill="#F2F5F1" stroke="none" />
+      <path d="M32 30 V42 M32 42 L20 46 L22 56 M32 42 L44 46 L42 56" fill="none" strokeWidth="2.5" />
+      <path d="M4 58 H60" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
