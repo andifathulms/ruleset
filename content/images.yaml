@@ -16083,3 +16083,305 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Janja_Garnbret_SLO_8602.jpg"
+
+# Sumo.
+
+- id: sumo-salt
+  sport: sumo
+  file: /images/sumo/salt.jpg
+  width: 1200
+  height: 800
+  alt: "A wrestler scattering a handful of salt across the clay ring while a referee in a pink robe waits"
+  shows: >
+   Asahishō throwing salt before his bout at the Nagoya tournament, 2014. The
+   salt purifies the ring.
+  title: "Salt (15715088222).jpg"
+  author: "Cesar I. Martins"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Salt_(15715088222).jpg"
+
+- id: sumo-hanging-roof
+  sport: sumo
+  file: /images/sumo/hanging-roof.jpg
+  width: 1200
+  height: 889
+  alt: "A shrine-style roof suspended by cables above the ring in a packed arena"
+  shows: >
+   The suspended roof over the ring at the Ryōgoku Kokugikan in Tokyo, 2006: a
+   shrine roof with no pillars beneath it.
+  title: "Ryogoku Kokugikan Tsuriyane 05212006.jpg"
+  author: "Goki"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ryogoku_Kokugikan_Tsuriyane_05212006.jpg"
+
+- id: sumo-shunsho-1785
+  sport: sumo
+  file: /images/sumo/shunsho-1785.jpg
+  width: 1200
+  height: 899
+  alt: "A woodblock print of two wrestlers locked together, a referee with a fan behind them"
+  shows: >
+   Katsukawa Shunshō's print of Tanikaze Kajinosuke and Onogawa Kisaburō with
+   the referee Kimura Shōnosuke, around 1785: Edo-period sumo as a public
+   spectacle.
+  title: "MET DP145631.jpg"
+  author: "Katsukawa Shunshō"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:MET_DP145631.jpg"
+
+- id: sumo-kunisada-1854
+  sport: sumo
+  file: /images/sumo/kunisada-1854.jpg
+  width: 1200
+  height: 581
+  alt: "A triptych woodblock print of two wrestlers grappling between a judge and a referee"
+  shows: >
+   Utagawa Kunisada's 1854 triptych of Mutsugamine and Unryū, with the judge
+   Oitekaze and the referee Kimura Shōtarō.
+  title: "Sumo-Ukiyo-e-Utagawa Kunisada-1854.jpg"
+  author: "Utagawa Kunisada"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Sumo-Ukiyo-e-Utagawa_Kunisada-1854.jpg"
+
+- id: sumo-hetal-dave
+  sport: sumo
+  file: /images/sumo/hetal-dave.jpg
+  width: 1200
+  height: 800
+  alt: "A woman in a World Games 2009 T-shirt crouching in a sumo stance as water droplets fall"
+  shows: >
+   Hetal Dave, a sumo wrestler from India, in 2015. Amateur sumo admits women;
+   the professional sport does not.
+  title: "हेतल दवे.jpeg"
+  author: "Suraj (Sumit) Patel"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:%E0%A4%B9%E0%A5%87%E0%A4%A4%E0%A4%B2_%E0%A4%A6%E0%A4%B5%E0%A5%87.jpeg"
+
+- id: sumo-women-worlds-2014
+  sport: sumo
+  file: /images/sumo/women-worlds-2014.jpg
+  width: 604
+  height: 453
+  alt: "Women sumo wrestlers in mawashi over leotards on a podium with medals and a Japanese flag"
+  shows: >
+   Medallists in the women's team event at the 2014 world sumo championships in
+   Kaohsiung, Taiwan.
+  title: "Чемпионат Мира по сумо среди женщин Командный турнир (Гаусюнь, Тайвань).jpg"
+  author: "Lozhechcka"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:%D0%A7%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0%D1%82_%D0%9C%D0%B8%D1%80%D0%B0_%D0%BF%D0%BE_%D1%81%D1%83%D0%BC%D0%BE_%D1%81%D1%80%D0%B5%D0%B4%D0%B8_%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD_%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D1%8B%D0%B9_%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%80_(%D0%93%D0%B0%D1%83%D1%81%D1%8E%D0%BD%D1%8C,_%D0%A2%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD%D1%8C).jpg"
+
+- id: sumo-mawashi
+  sport: sumo
+  file: /images/sumo/mawashi.jpg
+  width: 900
+  height: 1200
+  alt: "A heavy-set wrestler sitting on a bench in a white training mawashi"
+  shows: >
+   A wrestler in a white training mawashi at a sumo stable, 2010: the only
+   garment in the sport.
+  title: "Tokitsuumi 2010.JPG"
+  author: "FourTildes"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Tokitsuumi_2010.JPG"
+
+- id: sumo-mawashi-grip
+  sport: sumo
+  file: /images/sumo/mawashi-grip.jpg
+  width: 1046
+  height: 861
+  alt: "Two wrestlers locked chest to chest, one gripping the other's belt"
+  shows: >
+   Asashōryū and Kotoshōgiku at the January tournament, 2008, each with a grip
+   on the other's mawashi.
+  title: "Asashoryu fight Jan08.JPG"
+  author: "Eckhard Pecher"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Asashoryu_fight_Jan08.JPG"
+
+- id: sumo-nagoya-2014
+  sport: sumo
+  slot: "play:field"
+  file: /images/sumo/nagoya-2014.jpg
+  width: 1200
+  height: 800
+  alt: "Two wrestlers clashing in the centre of a raised clay ring with spectators all around"
+  shows: >
+   A bout at the Nagoya tournament, 2014: the raised clay dohyō with its straw-
+   bale ring and no padding anywhere.
+  title: "Sumo tournament (15527624289).jpg"
+  author: "Cesar I. Martins"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sumo_tournament_(15527624289).jpg"
+
+- id: sumo-kokugikan-1909
+  sport: sumo
+  file: /images/sumo/kokugikan-1909.jpg
+  width: 478
+  height: 295
+  alt: "An empty arena with a shrine roof over the ring held up on four pillars, 1909"
+  shows: >
+   The first Kokugikan in 1909, when the roof over the ring still stood on
+   pillars.
+  title: "Kokugikan-dohyo-1909.jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Kokugikan-dohyo-1909.jpg"
+
+- id: sumo-kokugikan-1910
+  sport: sumo
+  file: /images/sumo/kokugikan-1910.jpg
+  width: 1200
+  height: 921
+  alt: "A bout in progress beneath a draped canopy on pillars, with a crowd all around, around 1910"
+  shows: >
+   A bout at the old Kokugikan around 1910, the pillars in front of the
+   spectators' view.
+  title: "Former-Ryogoku-Kokugikan-Sumo-Hall-Interior-c1910.png"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Former-Ryogoku-Kokugikan-Sumo-Hall-Interior-c1910.png"
+
+- id: sumo-dohyo-iri-2014
+  sport: sumo
+  file: /images/sumo/dohyo-iri-2014.jpg
+  width: 1200
+  height: 764
+  alt: "A yokozuna in his white rope belt performing the ring-entering ceremony with two attendants"
+  shows: >
+   Kakuryū's yokozuna ring-entering ceremony at the September tournament,
+   Ryōgoku, 2014.
+  title: "Yokozuna-dohyō-iri-Kakuryu-Rikisaburo-at-Aki-basho-Sep-28-2014-cropped.jpg"
+  author: "Jeffrey Pauletto"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Yokozuna-dohy%C5%8D-iri-Kakuryu-Rikisaburo-at-Aki-basho-Sep-28-2014-cropped.jpg"
+
+- id: sumo-hakuho-2007
+  sport: sumo
+  file: /images/sumo/hakuho-2007.jpg
+  width: 728
+  height: 1200
+  alt: "A large wrestler in a black mawashi standing at the edge of the ring"
+  shows: >
+   Hakuhō, of Mongolia, at the May tournament in Tokyo, 2007. He went on to win
+   more top-division titles than anyone.
+  title: "Hakuho May07.jpg"
+  author: "Eckhard Pecher"
+  licence: "CC BY 2.5"
+  licence_url: "https://creativecommons.org/licenses/by/2.5"
+  source_url: "https://commons.wikimedia.org/wiki/File:Hakuho_May07.jpg"
+
+- id: sumo-nagoya-2014-bout
+  sport: sumo
+  file: /images/sumo/nagoya-2014-bout.jpg
+  width: 1200
+  height: 800
+  alt: "One wrestler stamping with a taped knee as another raises his leg, in front of the referee"
+  shows: >
+   Wrestlers in the ring at Nagoya, 2014, one with a heavily taped knee. There
+   are no weight classes.
+  title: "Sumo tournament (15528357117).jpg"
+  author: "Cesar I. Martins"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sumo_tournament_(15528357117).jpg"
+
+- id: sumo-akebono-2001
+  sport: sumo
+  file: /images/sumo/akebono-2001.jpg
+  width: 1006
+  height: 933
+  alt: "A yokozuna in an ornate apron and white rope belt surrounded by attendants"
+  shows: >
+   Akebono, of Hawaii, the first foreign-born yokozuna, being dressed in the
+   rope belt for his retirement ceremony at the Kokugikan, 2001.
+  title: "YokozunaAkebonoPuttingOnRopeBelt.jpg"
+  author: "Philbert Ono / Photojpn.org"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:YokozunaAkebonoPuttingOnRopeBelt.jpg"
+
+- id: sumo-gyoji
+  sport: sumo
+  file: /images/sumo/gyoji.jpg
+  width: 1200
+  height: 801
+  alt: "A referee in a court robe and black hat shouting with his fan held out"
+  shows: >
+   A gyōji shouting at the wrestlers during a bout, 2007.
+  title: "Gyoji shouting.jpg"
+  author: "elmimmo"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Gyoji_shouting.jpg"
+
+- id: sumo-mono-ii
+  sport: sumo
+  file: /images/sumo/mono-ii.jpg
+  width: 900
+  height: 1200
+  alt: "Five judges in black robes standing together in the middle of the ring conferring"
+  shows: >
+   The judges holding a mono-ii in the ring in 2008, in full view of the crowd.
+  title: "Mono-ii 2008-09-28.jpg"
+  author: "frontriver"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Mono-ii_2008-09-28.jpg"
+
+- id: sumo-shimpan-1919
+  sport: sumo
+  file: /images/sumo/shimpan-1919.jpg
+  width: 1200
+  height: 851
+  alt: "A blurred photograph of judges in dark robes gathered at the edge of the ring, 1919"
+  shows: >
+   Sumo judges, then called inspectors, gathering at the edge of the ring in
+   1919.
+  title: "Shimpan 1919.png"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Shimpan_1919.png"
+
+- id: sumo-bokh
+  sport: sumo
+  file: /images/sumo/bokh.jpg
+  width: 800
+  height: 1200
+  alt: "Two Mongolian wrestlers grappling on a grassy hillside in traditional costume while a third stands"
+  shows: >
+   Mongolian bökh on open grassland, 2011: the wrestling tradition many of the
+   top professional wrestlers come from.
+  title: "Slam (5956720538).jpg"
+  author: "istolethetv"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Slam_(5956720538).jpg"
+
+- id: sumo-yoshibayama-1954
+  sport: sumo
+  slot: "events"
+  file: /images/sumo/yoshibayama-1954.jpg
+  width: 600
+  height: 425
+  alt: "A yokozuna in a crouch with arms spread wide during a ceremony, 1954"
+  shows: >
+   Yoshibayama performing his yokozuna ring-entering ceremony in 1954.
+  title: "Yoshibayama dohyo-iri shiranui.jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Yoshibayama_dohyo-iri_shiranui.jpg"
