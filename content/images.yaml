@@ -15033,3 +15033,339 @@
   licence: "Public domain"
   licence_url: ""
   source_url: "https://commons.wikimedia.org/wiki/File:Rio_2016_-_Vela-Sailing_(28946322512).jpg"
+
+# Shooting.
+
+- id: shooting-us-rifle-team-1912
+  sport: shooting
+  file: /images/shooting/us-rifle-team-1912.jpg
+  width: 1200
+  height: 797
+  alt: "A team of men in military uniforms and campaign hats posed with rifles"
+  shows: >
+   The United States rifle team at the Stockholm Olympics in 1912, most of them
+   soldiers and sailors, from Spalding's official report.
+  title: "Group photo of the United States rifle team at the 1912 Summer Olympics, Stockholm.png"
+  author: "Unknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Group_photo_of_the_United_States_rifle_team_at_the_1912_Summer_Olympics,_Stockholm.png"
+
+- id: shooting-wimbledon-1860
+  sport: shooting
+  file: /images/shooting/wimbledon-1860.jpg
+  width: 1200
+  height: 708
+  alt: "A crowd on open common land watching a small group around a tent with a flag"
+  shows: >
+   Queen Victoria firing the first shot at the National Rifle Association's
+   inaugural meeting on Wimbledon Common, July 1860, photographed by Roger
+   Fenton.
+  title: "Queen Victoria firing the first shot, Wimbledon.jpg"
+  author: "Roger Fenton"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Queen_Victoria_firing_the_first_shot,_Wimbledon.jpg"
+
+- id: shooting-wimbledon-1861
+  sport: shooting
+  file: /images/shooting/wimbledon-1861.jpg
+  width: 1200
+  height: 843
+  alt: "An engraving of riflemen lying prone at a firing point, officials standing behind"
+  shows: >
+   Shooting for the Queen's Prize at the NRA meeting on Wimbledon Common, from
+   the Illustrated London News, July 1861.
+  title: "The National Rifle Association Meeting on Wimbledon Common, Shooting for the Queen's Prize - ILN 1861.jpg"
+  author: "Frederick John Skill"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:The_National_Rifle_Association_Meeting_on_Wimbledon_Common,_Shooting_for_the_Queen%27s_Prize_-_ILN_1861.jpg"
+
+- id: shooting-running-deer-1912
+  sport: shooting
+  file: /images/shooting/running-deer-1912.jpg
+  width: 734
+  height: 591
+  alt: "Four men in suits and hats, one with a long white beard, standing in a field"
+  shows: >
+   Sweden's running deer team, gold medallists at Stockholm 1912: Alfred Swahn,
+   Oscar Swahn, Åke Lundeberg and Per-Olof Arvidsson. The event's target was a
+   running deer, a hunting skill turned into a competition.
+  title: "Per-Olof Arvidsson, Oscar Swahn, Åke Lundeberg, Alfred Swahn 1912.jpg"
+  author: "Popperfoto"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Per-Olof_Arvidsson,_Oscar_Swahn,_%C3%85ke_Lundeberg,_Alfred_Swahn_1912.jpg"
+
+- id: shooting-live-pigeon-1900
+  sport: shooting
+  file: /images/shooting/live-pigeon-1900.jpg
+  width: 1200
+  height: 861
+  alt: "Three men in suits holding shotguns outside a timbered clubhouse"
+  shows: >
+   Maurice Fauré, Léon de Lunden and Donald Mackintosh at the live pigeon
+   shooting held in Paris during the 1900 Exposition, alongside the Games. Clay
+   targets later replaced live birds.
+  title: "Maurice Faure, Léon de Lunden & Donald Mackintosh.jpg"
+  author: "Jules Beau"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Maurice_Faure,_L%C3%A9on_de_Lunden_%26_Donald_Mackintosh.jpg"
+
+- id: shooting-air-rifle-2024
+  sport: shooting
+  file: /images/shooting/air-rifle-2024.jpg
+  width: 1200
+  height: 801
+  alt: "A line of rifle shooters in stiff jackets aiming at targets in an indoor hall with Paris 2024 branding"
+  shows: >
+   The men's 10 m air rifle at the Paris 2024 Olympics, Châteauroux: an indoor
+   precision event with no military application.
+  title: "Army Marksmanship Unit Soldier-Athletes compete in the 2024 Olympics (8554882).jpg"
+  author: "U.S. Army / Kulani Lakanaria"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Army_Marksmanship_Unit_Soldier-Athletes_compete_in_the_2024_Olympics_(8554882).jpg"
+
+- id: shooting-rifle-clothing
+  sport: shooting
+  file: /images/shooting/rifle-clothing.jpg
+  width: 1200
+  height: 801
+  alt: "Two women air rifle shooters standing in thick shooting jackets and trousers, aiming"
+  shows: >
+   Sagen Maddalena (left) in the 10 m air rifle final at Paris 2024. The jacket
+   and trousers are stiff enough to hold the body, and are measured with
+   gauges.
+  title: "Sgt Sagen Maddalena takes fourth in women's 10-meter Air Rifle finals (240729-A-UW671-1010).jpg"
+  author: "U.S. Army / Kulani Lakanaria"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Sgt_Sagen_Maddalena_takes_fourth_in_women%27s_10-meter_Air_Rifle_finals_(240729-A-UW671-1010).jpg"
+
+- id: shooting-iron-sights
+  sport: shooting
+  file: /images/shooting/iron-sights.jpg
+  width: 1200
+  height: 800
+  alt: "An air rifle shooter aiming through a rear aperture sight in front of an ISSF backdrop"
+  shows: >
+   Maximilian Dallinger in a World Cup final in 2023, sighting through an
+   aperture rather than a telescope: optics are prohibited in ISSF events.
+  title: "World Cup Rio 2023 Final.jpg"
+  author: "Maximilian Dallinger"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:World_Cup_Rio_2023_Final.jpg"
+
+- id: shooting-paper-target
+  sport: shooting
+  file: /images/shooting/paper-target.jpg
+  width: 291
+  height: 291
+  alt: "A printed paper 10 m air rifle target with a small black aiming mark"
+  shows: >
+   A paper 10 m air rifle target. Scoring one meant gauging whether a hole
+   touched a line.
+  title: "AR target paper.jpg"
+  author: "Guvava"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:AR_target_paper.jpg"
+
+- id: shooting-electronic-target-monitor
+  sport: shooting
+  file: /images/shooting/electronic-target-monitor.jpg
+  width: 1200
+  height: 900
+  alt: "A monitor at a firing point showing a target face with a group of shots and the score 10.3"
+  shows: >
+   A firing-point monitor for an electronic target, showing a group of shots
+   and the last one scored as 10.3: a decimal score no official with a gauge
+   could give.
+  title: "Sius Ascor target monitor.jpg"
+  author: "Hemmers"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sius_Ascor_target_monitor.jpg"
+
+- id: shooting-final-2024
+  sport: shooting
+  file: /images/shooting/final-2024.jpg
+  width: 1200
+  height: 801
+  alt: "Women rifle shooters in jackets shaking hands on the range after a final"
+  shows: >
+   The women's 10 m air rifle finalists at Paris 2024 after the final, which
+   started from zero.
+  title: "Sgt Sagen Maddalena takes fourth in women's 10-meter Air Rifle finals (240729-A-UW671-1002).jpg"
+  author: "U.S. Army / Kulani Lakanaria"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Sgt_Sagen_Maddalena_takes_fourth_in_women%27s_10-meter_Air_Rifle_finals_(240729-A-UW671-1002).jpg"
+
+- id: shooting-bisley-1978
+  sport: shooting
+  file: /images/shooting/bisley-1978.jpg
+  width: 1200
+  height: 809
+  alt: "Shooters lying prone under a long canopy, with a row of targets far down the range"
+  shows: >
+   Competitors at the 1978 National Smallbore Rifle Meeting at Bisley: hours of
+   shooting and nothing for a spectator to follow.
+  title: "Almond 11 - 1978 NSRA National Smallbore Rifle Meeting competitors.tif"
+  author: "Colin and Brenda Almond"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Almond_11_-_1978_NSRA_National_Smallbore_Rifle_Meeting_competitors.tif"
+
+- id: shooting-beijing-finals-hall
+  sport: shooting
+  file: /images/shooting/beijing-finals-hall.jpg
+  width: 977
+  height: 634
+  alt: "The large modern exterior of a shooting hall with spectators walking in"
+  shows: >
+   The Beijing Shooting Range Hall, used for the finals at the 2008 Olympics.
+  title: "2008 Beijing Shooting Range Hall - Final.JPG"
+  author: "Doma-w"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:2008_Beijing_Shooting_Range_Hall_-_Final.JPG"
+
+- id: shooting-electronic-scoring
+  sport: shooting
+  file: /images/shooting/electronic-scoring.jpg
+  width: 1200
+  height: 800
+  alt: "Two soldiers lying prone at a firing point beside an electronic scoring display"
+  shows: >
+   Sius Ascor electronic scoring on a US Army range at Fort Knox, 2015, a
+   scoring system also used at Olympic level.
+  title: "Qualifying with SIUS ASCOR 150410-Z-OO000-001.jpg"
+  author: "U.S. Army National Guard photo by Spc. Evan Myers/Released"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Qualifying_with_SIUS_ASCOR_150410-Z-OO000-001.jpg"
+
+- id: shooting-paris-2024-podium
+  sport: shooting
+  file: /images/shooting/paris-2024-podium.jpg
+  width: 1200
+  height: 1200
+  alt: "Three rifle shooters on an Olympic podium with medals in a shooting hall"
+  shows: >
+   The 50 m rifle three positions podium at Paris 2024: Liu Yukun of China,
+   Serhiy Kulish of Ukraine and Swapnil Kusale of India.
+  title: "Serhiy Kulish, Liu Yukun, Swapnil Kusale 2024 Summer Olympics.png"
+  author: "Ministry of Youth and Sports of Ukraine"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Serhiy_Kulish,_Liu_Yukun,_Swapnil_Kusale_2024_Summer_Olympics.png"
+
+- id: shooting-manu-bhaker
+  sport: shooting
+  file: /images/shooting/manu-bhaker.jpg
+  width: 561
+  height: 397
+  alt: "A woman in an India team shirt holding an air pistol and a bronze medal on the range"
+  shows: >
+   Manu Bhaker of India with her bronze in the 10 m air pistol at Paris 2024.
+  title: "Manu Bhaker with the bronze medal (10m air pistol event, Paris Olympics 2024).jpg"
+  author: "Ministry of Youth Affairs and Sports, India"
+  licence: "GODL-India"
+  licence_url: "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf"
+  source_url: "https://commons.wikimedia.org/wiki/File:Manu_Bhaker_with_the_bronze_medal_(10m_air_pistol_event,_Paris_Olympics_2024).jpg"
+
+- id: shooting-skeet-1984
+  sport: shooting
+  file: /images/shooting/skeet-1984.jpg
+  width: 1200
+  height: 814
+  alt: "A shotgun shooter in a cap breaking open his gun as spent cartridges fly out"
+  shows: >
+   Matthew Dryke of the United States in the skeet at the 1984 Los Angeles
+   Olympics, which he won.
+  title: "Skeet shooting event at the 1984 Summer Olympics.jpg"
+  author: "Ken Hackman, U.S. Air Force"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Skeet_shooting_event_at_the_1984_Summer_Olympics.jpg"
+
+- id: shooting-hancock-2021
+  sport: shooting
+  file: /images/shooting/hancock-2021.jpg
+  width: 1200
+  height: 800
+  alt: "A shotgun shooter raising both fists in celebration"
+  shows: >
+   Vincent Hancock of the United States winning the skeet at the Tokyo Olympics
+   in 2021, his third Olympic skeet title.
+  title: "Vincent Hancock wins gold in men’s skeet at the 2020 Summer Olympic Games (51352730600).jpg"
+  author: "Brittany Nelson / U.S. Army"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Vincent_Hancock_wins_gold_in_men%E2%80%99s_skeet_at_the_2020_Summer_Olympic_Games_(51352730600).jpg"
+
+- id: shooting-bisley-ranges
+  sport: shooting
+  file: /images/shooting/bisley-ranges.jpg
+  width: 640
+  height: 427
+  alt: "A vast flat grass range with a flag on a pole and targets in the far distance"
+  shows: >
+   The ranges at Bisley in Surrey, home of Britain's National Rifle Association
+   since 1890. The targets are half a kilometre away.
+  title: "Bisley Rifle Ranges - geograph.org.uk - 52076.jpg"
+  author: "Ron Strutt"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bisley_Rifle_Ranges_-_geograph.org.uk_-_52076.jpg"
+
+- id: shooting-schutzenfest
+  sport: shooting
+  file: /images/shooting/schutzenfest.jpg
+  width: 1200
+  height: 729
+  alt: "Members of a shooting club in white uniforms marching with a flag in a town square"
+  shows: >
+   A Schützenfest in Dülmen, Germany, 2012: the parade of a town's shooting
+   club, the kind of association German sport shooting is organised through.
+  title: "Dülmen, -Schützenfest Bürgerschützen- -- 2012 -- 7301.jpg"
+  author: "Dietmar Rabich"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_-Sch%C3%BCtzenfest_B%C3%BCrgersch%C3%BCtzen-_--_2012_--_7301.jpg"
+
+- id: shooting-beijing-clay-range
+  sport: shooting
+  slot: "events"
+  file: /images/shooting/beijing-clay-range.jpg
+  width: 971
+  height: 655
+  alt: "A clay target range with trap houses and stands set among green hills"
+  shows: >
+   The clay target range built for the Beijing 2008 Olympics.
+  title: "2008 Beijing Shooting Range CTF.JPG"
+  author: "Doma-w"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:2008_Beijing_Shooting_Range_CTF.JPG"
+
+- id: shooting-chateauroux-range
+  sport: shooting
+  slot: "play:field"
+  file: /images/shooting/chateauroux-range.jpg
+  width: 1200
+  height: 801
+  alt: "A 10 m indoor range with numbered firing points and targets on the back wall"
+  shows: >
+   The 10 m range at Châteauroux for the Paris 2024 Olympics, each target at
+   the end of its own firing point.
+  title: "Army Marksmanship Unit Soldier-Athletes compete in the 2024 Olympics (8554891).jpg"
+  author: "U.S. Army / Kulani Lakanaria"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Army_Marksmanship_Unit_Soldier-Athletes_compete_in_the_2024_Olympics_(8554891).jpg"
