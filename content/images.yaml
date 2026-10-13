@@ -16697,3 +16697,331 @@
   licence: "CC BY 2.0"
   licence_url: "https://creativecommons.org/licenses/by/2.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Carissa_moore_2013.jpg"
+
+# Swimming.
+
+- id: swimming-strand-1892
+  sport: swimming
+  file: /images/swimming/strand-1892.jpg
+  width: 1200
+  height: 629
+  alt: "A pen drawing of swimmers in striped costumes diving from a floating stage while an official in a top hat starts them"
+  shows: >
+   The start of a swimming race, from The Strand Magazine, 1892.
+  title: "The Strand Magazine vol. 4, no. 23, pg. 459 - Swimming Obstacle Race The Start.png"
+  author: "The Strand Magazine"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:The_Strand_Magazine_vol._4,_no._23,_pg._459_-_Swimming_Obstacle_Race_The_Start.png"
+
+- id: swimming-london-1908
+  sport: swimming
+  file: /images/swimming/london-1908.jpg
+  width: 900
+  height: 600
+  alt: "Swimmers diving into a pool laid out inside a stadium, officials in hats along the edge"
+  shows: >
+   Swimming at the 1908 London Olympics, in a pool dug into the infield of the
+   main stadium, the year FINA was founded.
+  title: "London 1908 Swimming.jpg"
+  author: ""
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:London_1908_Swimming.jpg"
+
+- id: swimming-relay-1908
+  sport: swimming
+  file: /images/swimming/relay-1908.jpg
+  width: 653
+  height: 474
+  alt: "British relay swimmers in costumes carrying a teammate on their shoulders across a stadium"
+  shows: >
+   Britain's winning 4 × 200 m freestyle relay team at the 1908 Olympics, Henry
+   Taylor carried on their shoulders.
+  title: "UK Relay swimming team 1908 Olympic Games.jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:UK_Relay_swimming_team_1908_Olympic_Games.jpg"
+
+- id: swimming-kahanamoku-1912
+  sport: swimming
+  file: /images/swimming/kahanamoku-1912.jpg
+  width: 1200
+  height: 927
+  alt: "Duke Kahanamoku receiving a medal from King Gustav in the Stockholm stadium, 1912"
+  shows: >
+   Duke Kahanamoku receiving his 100 m freestyle gold from King Gustav V at
+   Stockholm, 1912. The crawl he swam is what freestyle came to mean.
+  title: "Duke Kahanamoku accepting the Olympic Gold Medal from King Gustav, Stockholm, Sweden 1912.jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Duke_Kahanamoku_accepting_the_Olympic_Gold_Medal_from_King_Gustav,_Stockholm,_Sweden_1912.jpg"
+
+- id: swimming-buyze-butterfly-1951
+  sport: swimming
+  file: /images/swimming/buyze-butterfly-1951.jpg
+  width: 1200
+  height: 1037
+  alt: "A swimmer mid-stroke with both arms swinging forward over the water"
+  shows: >
+   Daan Buyze swimming butterfly in 1951, one of the first Dutch butterfly
+   swimmers, the year before it became an event of its own.
+  title: "Buyze zwemt vlinderslag, Bestanddeelnr 904-7170.jpg"
+  author: "Daan Noske / Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Buyze_zwemt_vlinderslag,_Bestanddeelnr_904-7170.jpg"
+
+- id: swimming-phelps-butterfly
+  sport: swimming
+  file: /images/swimming/phelps-butterfly.jpg
+  width: 1200
+  height: 800
+  alt: "A swimmer's arms swinging forward together over the water in butterfly"
+  shows: >
+   Michael Phelps swimming butterfly in 2014: the over-water recovery that
+   breaststroke rules once did not forbid.
+  title: "Michael Phelps winning 100 butterfly (18791979248).jpg"
+  author: "JD Lasica"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Michael_Phelps_winning_100_butterfly_(18791979248).jpg"
+
+- id: swimming-peaty-breaststroke
+  sport: swimming
+  file: /images/swimming/peaty-breaststroke.jpg
+  width: 1200
+  height: 800
+  alt: "A breaststroke swimmer surging forward between lane ropes"
+  shows: >
+   Adam Peaty in the 100 m breaststroke final at Rio 2016. Breaststroke is
+   breaststroke because the rulebook says what it is.
+  title: "Adam Peaty Olympics 100m breaststroke 2016.jpg"
+  author: "Fernando Frazão / Agência Brasil"
+  licence: "CC BY 3.0 br"
+  licence_url: "https://creativecommons.org/licenses/by/3.0/br/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Adam_Peaty_Olympics_100m_breaststroke_2016.jpg"
+
+- id: swimming-amsterdam-1928-start
+  sport: swimming
+  file: /images/swimming/amsterdam-1928-start.jpg
+  width: 1200
+  height: 782
+  alt: "A sepia postcard of women swimmers diving off the start of an outdoor pool before crowded stands"
+  shows: >
+   The start of the women's 200 m at the 1928 Amsterdam Olympics, a postcard by
+   Weenenk & Snel.
+  title: "Olympische Spelen. Zwemmen, 200 meter dames, de start. Uitgave Weenenk & Snel, Den Haag, Afb PBKD00435000016.jpg"
+  author: "Weenenk en Snel"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Olympische_Spelen._Zwemmen,_200_meter_dames,_de_start._Uitgave_Weenenk_%26_Snel,_Den_Haag,_Afb_PBKD00435000016.jpg"
+
+- id: swimming-tsuruta-1928
+  sport: swimming
+  file: /images/swimming/tsuruta-1928.jpg
+  width: 789
+  height: 1200
+  alt: "Two swimmers in costumes shaking hands beside a pool before a crowd, 1928"
+  shows: >
+   Yoshiyuki Tsuruta of Japan, winner of the 200 m breaststroke at Amsterdam
+   1928, on a postcard of the Games.
+  title: "Olympische Spelen. Zwemmen, Tsuruta, wereldrecord 200 meter heren. Uitgave Weenenk & Snel, Den Haag, Afb PBKD00435000018.jpg"
+  author: "Weenenk en Snel"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Olympische_Spelen._Zwemmen,_Tsuruta,_wereldrecord_200_meter_heren._Uitgave_Weenenk_%26_Snel,_Den_Haag,_Afb_PBKD00435000018.jpg"
+
+- id: swimming-lzr-nasa
+  sport: swimming
+  file: /images/swimming/lzr-nasa.jpg
+  width: 600
+  height: 400
+  alt: "A computer image of a swimmer in a full-body suit coloured by drag"
+  shows: >
+   A NASA image of drag on the Speedo LZR Racer, from the testing behind the
+   suit.
+  title: "NASA LZR Racer.jpg"
+  author: "NASA"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:NASA_LZR_Racer.jpg"
+
+- id: swimming-rome-2009-pool
+  sport: swimming
+  file: /images/swimming/rome-2009-pool.jpg
+  width: 640
+  height: 427
+  alt: "An outdoor competition pool under a tensile canopy with stands of spectators"
+  shows: >
+   The main pool at the 2009 World Championships in Rome, where forty-three
+   world records fell in eight days.
+  title: "2009 FINA World swimming championships pool.jpg"
+  author: "Michiel Jelijs"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2009_FINA_World_swimming_championships_pool.jpg"
+
+- id: swimming-pellegrini-2009
+  sport: swimming
+  file: /images/swimming/pellegrini-2009.jpg
+  width: 640
+  height: 640
+  alt: "A woman swimmer in a full-length black suit walking on deck"
+  shows: >
+   Federica Pellegrini in a full-body suit at the Rome championships, 2009.
+  title: "Federica Pellegrini - 2009 World Championships.jpg"
+  author: "Michiel Jelijs"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Federica_Pellegrini_-_2009_World_Championships.jpg"
+
+- id: swimming-biedermann-2009
+  sport: swimming
+  file: /images/swimming/biedermann-2009.jpg
+  width: 1200
+  height: 900
+  alt: "A young man waving from a stand with his coach, another swimmer beside them"
+  shows: >
+   Paul Biedermann with his coach Frank Embacher in Rome, 2009. His 200 m
+   freestyle record from that week still stands.
+  title: "Rome 2009 - Paul Biedermann, Frank Embacher, Sarah Sojström - FINA World Championships.jpg"
+  author: "swimfreak"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rome_2009_-_Paul_Biedermann,_Frank_Embacher,_Sarah_Sojstr%C3%B6m_-_FINA_World_Championships.jpg"
+
+- id: swimming-cielo-bernard-2009
+  sport: swimming
+  file: /images/swimming/cielo-bernard-2009.jpg
+  width: 1024
+  height: 1024
+  alt: "Two swimmers in full-length suits on the blocks before a final"
+  shows: >
+   César Cielo and Alain Bernard before the 100 m freestyle final in Rome,
+   2009. Cielo's 46.91 stood until 2024.
+  title: "Cielo and Bernard - before 100m free - Roma09.jpg"
+  author: "Michiel Jelijs"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cielo_and_Bernard_-_before_100m_free_-_Roma09.jpg"
+
+- id: swimming-pan-zhanle-2024
+  sport: swimming
+  file: /images/swimming/pan-zhanle-2024.jpg
+  width: 1151
+  height: 1200
+  alt: "A close-up of a young swimmer with wet hair speaking after a race"
+  shows: >
+   Pan Zhanle of China at the Paris 2024 Olympics, where he won the 100 m
+   freestyle in a world record.
+  title: "Pan Zhanle (潘展乐) at the 2024 Summer Olympics in Paris in August 2024.jpg"
+  author: "China News Service"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Pan_Zhanle_(%E6%BD%98%E5%B1%95%E4%B9%90)_at_the_2024_Summer_Olympics_in_Paris_in_August_2024.jpg"
+
+- id: swimming-backstroke-start
+  sport: swimming
+  file: /images/swimming/backstroke-start.jpg
+  width: 1200
+  height: 900
+  alt: "Backstroke swimmers arching backwards off the wall at the start of a race"
+  shows: >
+   The start of a 50 m backstroke semi-final at the 2015 World Championships in
+   Kazan. How far they may stay underwater is capped at fifteen metres.
+  title: "Kazan 2015 - 50m backstroke start 1st semi.JPG"
+  author: "Voltmetro"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kazan_2015_-_50m_backstroke_start_1st_semi.JPG"
+
+- id: swimming-peaty-touchpad
+  sport: swimming
+  file: /images/swimming/peaty-touchpad.jpg
+  width: 1200
+  height: 900
+  alt: "A swimmer at the end wall looking up at the board, the touchpad under his hand"
+  shows: >
+   Adam Peaty at the wall after winning the 100 m breaststroke at Kazan 2015:
+   the touchpad his hand hit stopped the clock.
+  title: "Kazan 2015 - Adam Peaty wins 100m breaststroke.JPG"
+  author: "Voltmetro"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kazan_2015_-_Adam_Peaty_wins_100m_breaststroke.JPG"
+
+- id: swimming-starting-blocks
+  sport: swimming
+  slot: "play:field"
+  file: /images/swimming/starting-blocks.jpg
+  width: 1200
+  height: 800
+  alt: "A row of numbered starting blocks at the end of a 50 m competition pool with lane ropes"
+  shows: >
+   Starting blocks and lanes at a 50 m pool in Buenos Aires, 2024.
+  title: "Cubos de partida en la pileta del Parque Olímpico de la Juventud.jpg"
+  author: "Diegodlh"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cubos_de_partida_en_la_pileta_del_Parque_Ol%C3%ADmpico_de_la_Juventud.jpg"
+
+- id: swimming-duna-arena-2017
+  sport: swimming
+  file: /images/swimming/duna-arena-2017.jpg
+  width: 1200
+  height: 900
+  alt: "A packed indoor arena with spectators above a competition pool"
+  shows: >
+   The Duna Arena at the 2017 World Championships in Budapest.
+  title: "Budapest2017 fina world championships - Duna Arena - 25 July 2017.jpg"
+  author: "swimfreak"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Budapest2017_fina_world_championships_-_Duna_Arena_-_25_July_2017.jpg"
+
+- id: swimming-ledecky-2016
+  sport: swimming
+  file: /images/swimming/ledecky-2016.jpg
+  width: 867
+  height: 1155
+  alt: "A smiling swimmer in a United States jacket with a medal"
+  shows: >
+   Katie Ledecky of the United States after winning the 200 m freestyle at Rio
+   2016.
+  title: "Katie Ledecky Olympics 2016.jpg"
+  author: "Fernando Frazão / Agência Brasil"
+  licence: "CC BY 3.0 br"
+  licence_url: "https://creativecommons.org/licenses/by/3.0/br/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Katie_Ledecky_Olympics_2016.jpg"
+
+- id: swimming-dassel-pool
+  sport: swimming
+  file: /images/swimming/dassel-pool.jpg
+  width: 1029
+  height: 820
+  alt: "An outdoor public pool with 50 m lanes and a diving tower among trees"
+  shows: >
+   A public outdoor pool with 50 m lanes in Dassel, Germany: the kind of
+   facility the sport's map is drawn by.
+  title: "Swimming Pool Dassel.jpg"
+  author: "Mark Rosenberg"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Swimming_Pool_Dassel.jpg"
+
+- id: swimming-manly-1936
+  sport: swimming
+  file: /images/swimming/manly-1936.jpg
+  width: 1200
+  height: 903
+  alt: "Children on a diving platform and in the water at a seaside pool, 1936"
+  shows: >
+   The tidal swimming pool at Manly, Brisbane, in 1936.
+  title: "Manly Swimming Pool Brisbane 1936 (29672165206).jpg"
+  author: "State Library of Queensland"
+  licence: "No restrictions"
+  licence_url: "https://www.flickr.com/commons/usage/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Manly_Swimming_Pool_Brisbane_1936_(29672165206).jpg"
