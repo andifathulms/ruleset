@@ -74,8 +74,8 @@ sections:
       of how the coaches choose their attempts, which is why the attempt
       sequence had to be formalised at all.
     facts:
-      - { label: Lifts, value: Snatch, then clean and jerk }
-      - { label: Time per attempt, value: 1 min, or 2 following yourself }
+      - { label: Lifts, value: "Snatch, then clean and jerk" }
+      - { label: Time per attempt, value: "1 min, or 2 following yourself" }
     shaped_by: [iwf-2005-two-minute-rule]
 
   - id: scoring
@@ -91,7 +91,7 @@ sections:
     facts:
       - { label: Total, value: Best snatch + best clean and jerk }
       - { label: Failing all three snatches, value: No total }
-      - { label: Ties, value: Broken by bodyweight, then by attempt order }
+      - { label: Ties, value: "Broken by bodyweight, then by attempt order" }
     shaped_by: [iwf-1973-press-abolished]
 
   - id: restarts
