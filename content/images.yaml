@@ -15369,3 +15369,330 @@
   licence: "Public domain"
   licence_url: ""
   source_url: "https://commons.wikimedia.org/wiki/File:Army_Marksmanship_Unit_Soldier-Athletes_compete_in_the_2024_Olympics_(8554891).jpg"
+
+# Skateboarding.
+
+- id: skateboarding-ollie-sequence
+  sport: skateboarding
+  file: /images/skateboarding/ollie-sequence.jpg
+  width: 1200
+  height: 450
+  alt: "Four frames of a skater crouching, snapping the tail down and rising into the air with the board"
+  shows: >
+   The ollie in four frames: the tail snapped down, the front foot dragged
+   forward, and the board lifted without the hands.
+  title: "Ollie skateboarding trick.jpg"
+  author: "TobiasK"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ollie_skateboarding_trick.jpg"
+
+- id: skateboarding-ollie-physics
+  sport: skateboarding
+  file: /images/skateboarding/ollie-physics.jpg
+  width: 1200
+  height: 900
+  alt: "Painted skateboard decks on display explaining the physics of the ollie in English and Spanish"
+  shows: >
+   An exhibit on the physics of the ollie at the Exploratorium in San
+   Francisco.
+  title: "Public exhibit on skateboarding ollie physics at the Exploratorium.jpg"
+  author: "Kylelovesyou"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Public_exhibit_on_skateboarding_ollie_physics_at_the_Exploratorium.jpg"
+
+- id: skateboarding-kdc-2015
+  sport: skateboarding
+  file: /images/skateboarding/kdc-2015.jpg
+  width: 1200
+  height: 800
+  alt: "Three skaters on a podium holding trophies and boards"
+  shows: >
+   The podium of the 2015 Kimberley Diamond Cup street world championships:
+   Luan Oliveira of Brazil, Nyjah Huston of the United States and JS LaPierre
+   of Canada, two years before skateboarding came under World Skate.
+  title: "KDC 2015 street.jpg"
+  author: "Eclecticza"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:KDC_2015_street.jpg"
+
+- id: skateboarding-street-board
+  sport: skateboarding
+  file: /images/skateboarding/street-board.jpg
+  width: 370
+  height: 982
+  alt: "A blue street skateboard deck with trucks and small hard wheels, seen from below"
+  shows: >
+   A street skateboard, with 54 mm urethane wheels on its trucks.
+  title: "Street-skateboard.jpg"
+  author: "PowerPCG5"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Street-skateboard.jpg"
+
+- id: skateboarding-board-1990s
+  sport: skateboarding
+  file: /images/skateboarding/board-1990s.jpg
+  width: 1200
+  height: 932
+  alt: "A battered red and white skateboard with a kicked tail and nose lying on wooden steps"
+  shows: >
+   A mid-1990s board: Powell deck, Independent trucks, concave with kicked nose
+   and tail.
+  title: "1990s skateboard in Tornio 20190608 001.jpg"
+  author: "Methem (Mikko J. Putkonen)"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:1990s_skateboard_in_Tornio_20190608_001.jpg"
+
+- id: skateboarding-barros-tokyo-park
+  sport: skateboarding
+  file: /images/skateboarding/barros-tokyo-park.jpg
+  width: 1150
+  height: 766
+  alt: "A skater in a helmet airborne above the lip of a concrete bowl with the Olympic rings painted on the wall"
+  shows: >
+   Pedro Barros of Brazil in the park final at the Tokyo 2020 Olympics, in a
+   helmet.
+  title: "Pedro Barros 1.jpg"
+  author: "Breno Barros"
+  licence: "CC BY 3.0 br"
+  licence_url: "https://creativecommons.org/licenses/by/3.0/br/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Pedro_Barros_1.jpg"
+
+- id: skateboarding-eaton-xgames-2022
+  sport: skateboarding
+  file: /images/skateboarding/eaton-xgames-2022.jpg
+  width: 1200
+  height: 900
+  alt: "A skater in a cap and knee pads in the air, the board flipping below him"
+  shows: >
+   Jagger Eaton in the men's park final at X Games Chiba, 2022, in a cap rather
+   than a helmet: senior skaters choose.
+  title: "XGames-Chiba-2022 2022-04-24 0303.jpg"
+  author: "RuinDig/Yuki Uchida"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:XGames-Chiba-2022_2022-04-24_0303.jpg"
+
+- id: skateboarding-ariake-2020
+  sport: skateboarding
+  file: /images/skateboarding/ariake-2020.jpg
+  width: 1200
+  height: 674
+  alt: "An aerial view of a flat urban site with skate courses and temporary stands beside tall buildings"
+  shows: >
+   Ariake Urban Sports Park in Tokyo, built for the 2020 Olympics.
+  title: "Ariake Urban Sports Park Tokyo.jpg"
+  author: "Arne Müseler"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ariake_Urban_Sports_Park_Tokyo.jpg"
+
+- id: skateboarding-sls-russell
+  sport: skateboarding
+  file: /images/skateboarding/sls-russell.jpg
+  width: 1200
+  height: 800
+  alt: "A skater sliding a rail in front of a packed grandstand"
+  shows: >
+   Cordano Russell on a rail at a Street League Skateboarding contest in
+   Cleveland, 2025: the commercial circuit that ran long before the Olympic
+   one.
+  title: "Street League Skateboarding Cleveland (54717017464).jpg"
+  author: "Erik Drost"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Street_League_Skateboarding_Cleveland_(54717017464).jpg"
+
+- id: skateboarding-sls-ribeiro
+  sport: skateboarding
+  file: /images/skateboarding/sls-ribeiro.jpg
+  width: 1200
+  height: 800
+  alt: "A skater riding a rail, the board under one foot, crowds behind"
+  shows: >
+   Gustavo Ribeiro of Portugal at the same Street League contest.
+  title: "Street League Skateboarding Cleveland (54717005429).jpg"
+  author: "Erik Drost"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Street_League_Skateboarding_Cleveland_(54717005429).jpg"
+
+- id: skateboarding-vert-ramp
+  sport: skateboarding
+  file: /images/skateboarding/vert-ramp.jpg
+  width: 1152
+  height: 769
+  alt: "A skater riding the top of a wooden vert ramp indoors"
+  shows: >
+   A skater on an indoor vert ramp in Port Melbourne, 2010: the half-pipe
+   discipline not on the Olympic programme.
+  title: "Stephen Hill-skateboarding 2010.jpg"
+  author: "Globe International"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Stephen_Hill-skateboarding_2010.jpg"
+
+- id: skateboarding-bowl-a-rama-2012
+  sport: skateboarding
+  file: /images/skateboarding/bowl-a-rama-2012.jpg
+  width: 1200
+  height: 800
+  alt: "A row of veteran skaters standing at the edge of a bowl in front of Vans banners"
+  shows: >
+   Christian Hosoi, Steve Caballero, Lance Mountain and other veterans of the
+   1970s and 1980s at the Vans Bowl-A-Rama, New York, 2012.
+  title: "Vans Bowl-A-Rama Chelsea Pier 62 Skatepark 2012.jpg"
+  author: "Ianjohnclarke"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Vans_Bowl-A-Rama_Chelsea_Pier_62_Skatepark_2012.jpg"
+
+- id: skateboarding-worlds-2023-air
+  sport: skateboarding
+  file: /images/skateboarding/worlds-2023-air.jpg
+  width: 1200
+  height: 900
+  alt: "A skater in the air over a street course obstacle in front of a crowded stand"
+  shows: >
+   Cordano Russell's second run in the men's street final at the 2023 World
+   Championships, Ariake Coliseum, Tokyo. One score out of 100 for the whole
+   run.
+  title: "Skateboarding-Street-World-Championship-Tokyo-Japan-2023-12-17 05624.jpg"
+  author: "RuinDig/Yuki Uchida"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Skateboarding-Street-World-Championship-Tokyo-Japan-2023-12-17_05624.jpg"
+
+- id: skateboarding-worlds-2023-stairs
+  sport: skateboarding
+  file: /images/skateboarding/worlds-2023-stairs.jpg
+  width: 1200
+  height: 900
+  alt: "A skater rolling towards a stair set and rail on an indoor street course"
+  shows: >
+   The same run: the stairs and rails a judge weighs a trick against.
+  title: "Skateboarding-Street-World-Championship-Tokyo-Japan-2023-12-17 05575.jpg"
+  author: "RuinDig/Yuki Uchida"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Skateboarding-Street-World-Championship-Tokyo-Japan-2023-12-17_05575.jpg"
+
+- id: skateboarding-horigome-2022
+  sport: skateboarding
+  file: /images/skateboarding/horigome-2022.jpg
+  width: 1070
+  height: 1200
+  alt: "A Japanese skater holding a medal on a podium"
+  shows: >
+   Yuto Horigome of Japan after winning the street final at X Games Chiba,
+   2022, a year after his Olympic gold.
+  title: "Yuto Horigome (JAP) 2022.jpg"
+  author: "RuinDig/Yuki Uchida"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Yuto_Horigome_(JAP)_2022.jpg"
+
+- id: skateboarding-hoefler-2021
+  sport: skateboarding
+  file: /images/skateboarding/hoefler-2021.jpg
+  width: 1130
+  height: 753
+  alt: "A skater in a Brazil tracksuit raising his medal in a concrete course"
+  shows: >
+   Kelvin Hoefler of Brazil after taking silver in street at the Tokyo 2020
+   Olympics.
+  title: "Kelvin Hoefler após receber a medalha.jpg"
+  author: "Rodolfo Vilela"
+  licence: "CC BY 3.0 br"
+  licence_url: "https://creativecommons.org/licenses/by/3.0/br/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kelvin_Hoefler_ap%C3%B3s_receber_a_medalha.jpg"
+
+- id: skateboarding-santo-andre
+  sport: skateboarding
+  file: /images/skateboarding/santo-andre.jpg
+  width: 1200
+  height: 803
+  alt: "A large public concrete skatepark with skaters spread across it"
+  shows: >
+   The public skatepark at Santo André, São Paulo, in 2011.
+  title: "Santo André Skatepark - panoramio.jpg"
+  author: "RicardoSAPO"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Santo_Andr%C3%A9_Skatepark_-_panoramio.jpg"
+
+- id: skateboarding-marseille-bowl
+  sport: skateboarding
+  file: /images/skateboarding/marseille-bowl.jpg
+  width: 1200
+  height: 899
+  alt: "A large concrete bowl covered in graffiti beside the sea"
+  shows: >
+   The bowl at the seafront skatepark in Marseille, 2020.
+  title: "Bowl-Marseille2020-2.jpg"
+  author: "Irønie"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bowl-Marseille2020-2.jpg"
+
+- id: skateboarding-barros-silver
+  sport: skateboarding
+  file: /images/skateboarding/barros-silver.jpg
+  width: 1150
+  height: 766
+  alt: "A skater in a Brazil jacket smiling with a silver medal and flowers"
+  shows: >
+   Pedro Barros with his silver in park at Tokyo 2020.
+  title: "Pedro Barros 2.jpg"
+  author: "Breno Barros"
+  licence: "CC BY 3.0 br"
+  licence_url: "https://creativecommons.org/licenses/by/3.0/br/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Pedro_Barros_2.jpg"
+
+- id: skateboarding-pelotas
+  sport: skateboarding
+  file: /images/skateboarding/pelotas.jpg
+  width: 1200
+  height: 900
+  alt: "A small concrete skatepark in a tree-lined square"
+  shows: >
+   A skatepark in a town square in Pelotas, southern Brazil.
+  title: "Dom Antonio Zattera Square, Pelotas, Brazil - Skatepark.JPG"
+  author: "Eugenio Hansen, OFS"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Dom_Antonio_Zattera_Square,_Pelotas,_Brazil_-_Skatepark.JPG"
+
+- id: skateboarding-southbank-undercroft
+  sport: skateboarding
+  file: /images/skateboarding/southbank-undercroft.jpg
+  width: 1200
+  height: 900
+  alt: "A low concrete undercroft covered in graffiti with banks and ledges"
+  shows: >
+   The Undercroft beneath the Queen Elizabeth Hall on London's South Bank,
+   skated since the 1970s.
+  title: "The South Bank, London - Queen Elizabeth Hall - Undercroft graffiti.jpg"
+  author: "Elliott Brown"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:The_South_Bank,_London_-_Queen_Elizabeth_Hall_-_Undercroft_graffiti.jpg"
+
+- id: skateboarding-bucharest-bowl
+  sport: skateboarding
+  slot: "play:field"
+  file: /images/skateboarding/bucharest-bowl.jpg
+  width: 1200
+  height: 848
+  alt: "An empty concrete skatepark bowl painted with graffiti"
+  shows: >
+   A park-style bowl at the IOR skatepark in Bucharest.
+  title: "Bowl of the IOR Skatepark in Bucharest (01).jpg"
+  author: "Neoclassicism Enthusiast"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bowl_of_the_IOR_Skatepark_in_Bucharest_(01).jpg"
