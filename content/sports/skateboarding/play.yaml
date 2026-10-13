@@ -31,7 +31,7 @@ sections:
       opposite of gymnastics, whose apparatus is specified precisely so
       difficulty values can mean the same thing twice.
     facts:
-      - { label: Street, value: Stairs, rails, ledges }
+      - { label: Street, value: "Stairs, rails, ledges" }
       - { label: Park, value: Bowl with transitions }
       - { label: Course, value: Designed per competition }
 
@@ -46,7 +46,7 @@ sections:
       protection or forbid it, and skateboarding leaves it to the athlete.
     facts:
       - { label: Board, value: Unregulated dimensions }
-      - { label: Helmet, value: Required for juniors, optional at senior level }
+      - { label: Helmet, value: "Required for juniors, optional at senior level" }
 
   - id: players
     label: Skaters and judges
@@ -59,7 +59,7 @@ sections:
       relies on their shared understanding of what is hard rather than on a
       published document.
     facts:
-      - { label: Judges, value: A panel, with high and low discarded }
+      - { label: Judges, value: "A panel, with high and low discarded" }
       - { label: Difficulty table, value: None }
     shaped_by: [worldskate-holistic-judging]
 
@@ -74,8 +74,8 @@ sections:
       thing they have rather than protect a score — which is the opposite of
       how gymnastics' deductions work.
     facts:
-      - { label: "Street", value: 2 runs and 5 tricks, best 4 count }
-      - { label: "Park", value: 3 runs, best counts }
+      - { label: "Street", value: "2 runs and 5 tricks, best 4 count" }
+      - { label: "Park", value: "3 runs, best counts" }
     shaped_by: [worldskate-2020-format]
 
   - id: scoring
