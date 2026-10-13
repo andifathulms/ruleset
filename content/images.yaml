@@ -15696,3 +15696,390 @@
   licence: "CC0"
   licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   source_url: "https://commons.wikimedia.org/wiki/File:Bowl_of_the_IOR_Skatepark_in_Bucharest_(01).jpg"
+
+# Sport climbing.
+
+- id: sport-climbing-giggleswick
+  sport: sport-climbing
+  file: /images/sport-climbing/giggleswick.jpg
+  width: 900
+  height: 1200
+  alt: "Two climbers roped on a grey limestone cliff"
+  shows: >
+   Sport climbing at Giggleswick Scar in Yorkshire, where most of the lower
+   routes are now bolt-protected.
+  title: "Sport climbing at Giggleswick Scar - geograph.org.uk - 1754353.jpg"
+  author: "Karl and Ali"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sport_climbing_at_Giggleswick_Scar_-_geograph.org.uk_-_1754353.jpg"
+
+- id: sport-climbing-shipley-bolts
+  sport: sport-climbing
+  file: /images/sport-climbing/shipley-bolts.jpg
+  width: 800
+  height: 1200
+  alt: "A woman climbing a steep orange rock face, clipped into bolts on a rope"
+  shows: >
+   A climber on a bolted route at Shipley Upper in the Blue Mountains,
+   Australia. Permanent bolts made a fall safe, so the question became
+   difficulty.
+  title: "Sport Climb Shipley Upper 2.jpg"
+  author: "Adam Kubalica"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sport_Climb_Shipley_Upper_2.jpg"
+
+- id: sport-climbing-sportroccia-wall
+  sport: sport-climbing
+  file: /images/sport-climbing/sportroccia-wall.jpg
+  width: 900
+  height: 1200
+  alt: "A tall limestone wall rising above a larch forest in a valley"
+  shows: >
+   The Parete dei Militi in the Valle Stretta, the rock face used for
+   Sportroccia in 1985, one of the first organised climbing competitions.
+  title: "Parete dei Militi.jpg"
+  author: "Zelenymuzik"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Parete_dei_Militi.jpg"
+
+- id: sport-climbing-arco-stadium
+  sport: sport-climbing
+  file: /images/sport-climbing/arco-stadium.jpg
+  width: 800
+  height: 1200
+  alt: "A tall artificial climbing wall with a green speed lane, beneath rock cliffs"
+  shows: >
+   The climbing stadium at Arco, Italy, home of the Rock Master, in 2008:
+   competition moved onto artificial walls.
+  title: "Climbing Stadium - Arco, Italy.jpg"
+  author: "Damien Ayers"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Climbing_Stadium_-_Arco,_Italy.jpg"
+
+- id: sport-climbing-arco-2007
+  sport: sport-climbing
+  file: /images/sport-climbing/arco-2007.jpg
+  width: 1181
+  height: 805
+  alt: "A climber hanging on an overhanging competition wall beside an IFSC banner"
+  shows: >
+   Ramón Puigblanque of Spain winning the Arco Rock Master in 2007, the year
+   the IFSC was founded.
+  title: "Ramamon Puigblanque.jpg"
+  author: "IFSC"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ramamon_Puigblanque.jpg"
+
+- id: sport-climbing-innsbruck-walls
+  sport: sport-climbing
+  file: /images/sport-climbing/innsbruck-walls.jpg
+  width: 1200
+  height: 900
+  alt: "A huge outdoor competition wall with coloured holds and a stand of spectators in front"
+  shows: >
+   The lead wall at the 2018 World Championships in Innsbruck.
+  title: "Climbing World Championships 2018 Lead Qual 02.jpg"
+  author: "Simon Legner"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Climbing_World_Championships_2018_Lead_Qual_02.jpg"
+
+- id: sport-climbing-lead-kit
+  sport: sport-climbing
+  file: /images/sport-climbing/lead-kit.jpg
+  width: 1200
+  height: 800
+  alt: "A climber in harness on an overhanging lead wall, the rope clipped below her"
+  shows: >
+   Petra Klingler in the lead round of the combined final at the 2018 World
+   Championships: shoes, chalk, harness and rope, and nothing else.
+  title: "Climbing World Championships 2018 Combined Final Klingler (BT0B0178).jpg"
+  author: "Simon Legner"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Climbing_World_Championships_2018_Combined_Final_Klingler_(BT0B0178).jpg"
+
+- id: sport-climbing-setter-drill
+  sport: sport-climbing
+  file: /images/sport-climbing/setter-drill.jpg
+  width: 1200
+  height: 800
+  alt: "A route setter bolting a large hold onto a competition wall with a drill"
+  shows: >
+   Stefan Danker setting at a championship in Munich in 2012. The route is
+   built afresh for every competition.
+  title: "Stefan Danker GER.JPG"
+  author: "Henning Schlottmann"
+  licence: "CC BY 1.0"
+  licence_url: "https://creativecommons.org/licenses/by/1.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Stefan_Danker_GER.JPG"
+
+- id: sport-climbing-setter-munich
+  sport: sport-climbing
+  file: /images/sport-climbing/setter-munich.jpg
+  width: 1200
+  height: 856
+  alt: "A route setter on a ladder adjusting large holds on a boulder wall"
+  shows: >
+   A route setter at the IFSC Boulder World Cup in Munich, 2015.
+  title: "Officials IFSC WC 2015 0125.JPG"
+  author: "Henning Schlottmann"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Officials_IFSC_WC_2015_0125.JPG"
+
+- id: sport-climbing-speed-wall
+  sport: sport-climbing
+  file: /images/sport-climbing/speed-wall.jpg
+  width: 800
+  height: 1200
+  alt: "A woman climber in a harness racing up a red-holded speed wall"
+  shows: >
+   A speed quarter-final at the 2018 World Championships. The holds are in the
+   same positions on every speed wall in the world.
+  title: "Climbing World Championships 2018 Speed Quarterfinals (BT0A6180).jpg"
+  author: "Simon Legner"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Climbing_World_Championships_2018_Speed_Quarterfinals_(BT0A6180).jpg"
+
+- id: sport-climbing-speed-records
+  sport: sport-climbing
+  file: /images/sport-climbing/speed-records.jpg
+  width: 1200
+  height: 1058
+  alt: "A line chart of men's and women's speed world records falling over time"
+  shows: >
+   Speed world records to June 2022: comparable times, because the route never
+   changes.
+  title: "Speed-climbing-records.svg"
+  author: "Voutter1981"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Speed-climbing-records.svg"
+
+- id: sport-climbing-combined-2018
+  sport: sport-climbing
+  file: /images/sport-climbing/combined-2018.jpg
+  width: 1200
+  height: 544
+  alt: "A darkened arena with brightly lit climbing walls and a large screen reading Innsbruck Tirol 2018"
+  shows: >
+   The combined final at the 2018 World Championships in Innsbruck, the format
+   then used for Tokyo.
+  title: "Climbing World Championships 2018 Combined Final (BT0A9728).jpg"
+  author: "Simon Legner"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Climbing_World_Championships_2018_Combined_Final_(BT0A9728).jpg"
+
+- id: sport-climbing-garnbret-bern-2023
+  sport: sport-climbing
+  file: /images/sport-climbing/garnbret-bern-2023.jpg
+  width: 1200
+  height: 800
+  alt: "A climber leaping between holds on a white boulder wall"
+  shows: >
+   Janja Garnbret of Slovenia in the boulder final at the 2023 World
+   Championships in Bern.
+  title: "Janja Garnbret, Bern 2023, 1.jpg"
+  author: "Cipcippy"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Janja_Garnbret,_Bern_2023,_1.jpg"
+
+- id: sport-climbing-speed-final-2018
+  sport: sport-climbing
+  file: /images/sport-climbing/speed-final-2018.jpg
+  width: 800
+  height: 1200
+  alt: "Two speed climbers embracing at the bottom of the wall after a race"
+  shows: >
+   Two finalists embracing after the men's speed final at the 2018 World
+   Championships.
+  title: "Climbing World Championships 2018 Speed Final (BT0A6581).jpg"
+  author: "Simon Legner"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Climbing_World_Championships_2018_Speed_Final_(BT0A6581).jpg"
+
+- id: sport-climbing-ondra-silence
+  sport: sport-climbing
+  file: /images/sport-climbing/ondra-silence.jpg
+  width: 1200
+  height: 726
+  alt: "A climber hanging horizontally beneath a cave roof, feet hooked above"
+  shows: >
+   Adam Ondra on Silence in Flatanger, Norway, in 2017: outdoor sport climbing,
+   which has no rules, officials or rankings.
+  title: "Adam Ondra climbing Silence 9c by PAVEL BLAZEK 3 - Cropped.jpg"
+  author: "Pavel Blazek"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Adam_Ondra_climbing_Silence_9c_by_PAVEL_BLAZEK_3_-_Cropped.jpg"
+
+- id: sport-climbing-lead-final-route
+  sport: sport-climbing
+  file: /images/sport-climbing/lead-final-route.jpg
+  width: 800
+  height: 1200
+  alt: "A lit competition lead route with coloured holds and volumes, and a clock reading 06:00"
+  shows: >
+   The women's lead final route at the 2018 World Championships, with the six-
+   minute clock: the setters' choices decide what the route rewards.
+  title: "Climbing World Championships 2018 Lead Final 01.jpg"
+  author: "Simon Legner"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Climbing_World_Championships_2018_Lead_Final_01.jpg"
+
+- id: sport-climbing-officials-munich
+  sport: sport-climbing
+  file: /images/sport-climbing/officials-munich.jpg
+  width: 800
+  height: 1200
+  alt: "Officials in black shirts talking beside a competition, one shirt marked Routesetter"
+  shows: >
+   Officials and a route setter at the IFSC Boulder World Cup, Munich, 2015.
+  title: "Officials IFSC WC 2015 0113.JPG"
+  author: "Henning Schlottmann"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Officials_IFSC_WC_2015_0113.JPG"
+
+- id: sport-climbing-avezou-bern-2023
+  sport: sport-climbing
+  file: /images/sport-climbing/avezou-bern-2023.jpg
+  width: 800
+  height: 1200
+  alt: "A climber stretching for a hold marked with a pink tag high on a boulder wall"
+  shows: >
+   Zélia Avezou of France in the boulder final at Bern 2023, reaching for the
+   marked hold.
+  title: "Zélia Avezou, Climbing World Championship Bern 2023 (Boulder Final).jpg"
+  author: "Cipcippy"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Z%C3%A9lia_Avezou,_Climbing_World_Championship_Bern_2023_(Boulder_Final).jpg"
+
+- id: sport-climbing-narasaki-lead
+  sport: sport-climbing
+  file: /images/sport-climbing/narasaki-lead.jpg
+  width: 800
+  height: 1200
+  alt: "A climber hanging from a large yellow volume under an overhang"
+  shows: >
+   Tomoa Narasaki of Japan in the lead semi-final at the 2018 World
+   Championships.
+  title: "Climbing World Championships 2018 Lead Semi Narasaki (BT0A3054).jpg"
+  author: "Simon Legner"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Climbing_World_Championships_2018_Lead_Semi_Narasaki_(BT0A3054).jpg"
+
+- id: sport-climbing-tokyo-gym
+  sport: sport-climbing
+  file: /images/sport-climbing/tokyo-gym.jpg
+  width: 1200
+  height: 675
+  alt: "A colourful indoor bouldering gym with crash mats"
+  shows: >
+   A commercial bouldering gym in Tokyo, 2021.
+  title: "Climbing wall 20211103 145408.jpg"
+  author: "Ka23 13"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Climbing_wall_20211103_145408.jpg"
+
+- id: sport-climbing-osp
+  sport: sport-climbing
+  file: /images/sport-climbing/osp.jpg
+  width: 1200
+  height: 900
+  alt: "Old stone houses in a village beneath a limestone cliff"
+  shows: >
+   The village of Osp in south-western Slovenia, beneath its sport-climbing
+   cliffs.
+  title: "Osp4.JPG"
+  author: "Žiga"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Osp4.JPG"
+
+- id: sport-climbing-osp-crag
+  sport: sport-climbing
+  file: /images/sport-climbing/osp-crag.jpg
+  width: 900
+  height: 1200
+  alt: "Two climbers on a pale limestone face above autumn trees"
+  shows: >
+   Climbers on the limestone at Osp.
+  title: "Climbers in Osp.jpg"
+  author: "Ajznponar"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Climbers_in_Osp.jpg"
+
+- id: sport-climbing-veddriq-bern
+  sport: sport-climbing
+  file: /images/sport-climbing/veddriq-bern.jpg
+  width: 703
+  height: 1200
+  alt: "A speed climber reaching for the top holds of the wall"
+  shows: >
+   Veddriq Leonardo of Indonesia at the 2023 World Championships in Bern. He
+   won the Olympic speed title in Paris a year later.
+  title: "Veddriq Leonardo Bern2023.jpg"
+  author: "Cipcippy"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Veddriq_Leonardo_Bern2023.jpg"
+
+- id: sport-climbing-rudzinska-2018
+  sport: sport-climbing
+  file: /images/sport-climbing/rudzinska-2018.jpg
+  width: 800
+  height: 1200
+  alt: "A Polish woman climber celebrating at the top of a speed wall"
+  shows: >
+   Aleksandra Rudzińska of Poland in the speed final at the 2018 World
+   Championships.
+  title: "Climbing World Championships 2018 Speed Final Rudzinska (BT0A6506).jpg"
+  author: "Simon Legner"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Climbing_World_Championships_2018_Speed_Final_Rudzinska_(BT0A6506).jpg"
+
+- id: sport-climbing-bouldering-gym
+  sport: sport-climbing
+  file: /images/sport-climbing/bouldering-gym.jpg
+  width: 1200
+  height: 806
+  alt: "An indoor climbing gym with a large boulder and thick crash mats"
+  shows: >
+   An indoor bouldering wall and crash mats. A town has one or it doesn't.
+  title: "Indoor Climbing Wall Bouldering Mats.jpg"
+  author: "amrufm"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Indoor_Climbing_Wall_Bouldering_Mats.jpg"
+
+- id: sport-climbing-garnbret-munich-2017
+  sport: sport-climbing
+  slot: "play:field"
+  file: /images/sport-climbing/garnbret-munich-2017.jpg
+  width: 1200
+  height: 800
+  alt: "A climber on an overhanging boulder wall gripping a large red hold"
+  shows: >
+   Janja Garnbret on a boulder at the 2017 World Cup in Munich.
+  title: "Janja Garnbret SLO 8602.jpg"
+  author: "Henning Schlottmann"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Janja_Garnbret_SLO_8602.jpg"
