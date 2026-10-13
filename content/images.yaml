@@ -16385,3 +16385,315 @@
   licence: "Public domain"
   licence_url: ""
   source_url: "https://commons.wikimedia.org/wiki/File:Yoshibayama_dohyo-iri_shiranui.jpg"
+
+# Surfing.
+
+- id: surfing-surf-playing-1851
+  sport: surfing
+  file: /images/surfing/surf-playing-1851.jpg
+  width: 1200
+  height: 742
+  alt: "An engraving of Hawaiians riding boards on breaking waves beneath a headland"
+  shows: >
+   "Hawaiian Sport of Surf Playing", an engraving by W. Roberts published in
+   1851, when missionaries were already discouraging it.
+  title: "Hawaiian Sport of Surf Playing, engraving by W. Roberts.jpg"
+  author: "W. Roberts"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Hawaiian_Sport_of_Surf_Playing,_engraving_by_W._Roberts.jpg"
+
+- id: surfing-surf-riding-1858
+  sport: surfing
+  file: /images/surfing/surf-riding-1858.jpg
+  width: 1200
+  height: 945
+  alt: "An engraving of Hawaiians standing and lying on boards in the surf, the sun rising behind"
+  shows: >
+   "Natives engaged in the sport of surf-riding", from Hutchings' California
+   Magazine, November 1858.
+  title: "Surf-riding 1858.jpg"
+  author: "Butler / Hutchings' California Magazine"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Surf-riding_1858.jpg"
+
+- id: surfing-niihau-1890
+  sport: surfing
+  file: /images/surfing/niihau-1890.jpg
+  width: 1024
+  height: 651
+  alt: "A photograph of a few surfers far out in breaking waves off a rocky shore, around 1890"
+  shows: >
+   Surfers riding waves off Niʻihau around 1890, photographed by H. Carrington
+   Bolton: by then the practice had contracted severely.
+  title: "Surfers riding the waves in Niihau, photograph by H. Carrington Bolton.jpg"
+  author: "H. Carrington Bolton"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Surfers_riding_the_waves_in_Niihau,_photograph_by_H._Carrington_Bolton.jpg"
+
+- id: surfing-duke-kahanamoku
+  sport: surfing
+  file: /images/surfing/duke-kahanamoku.jpg
+  width: 624
+  height: 1000
+  alt: "Duke Kahanamoku in a swimsuit standing in front of a tall wooden surfboard marked DUKE"
+  shows: >
+   Duke Kahanamoku with his board, from the State Library of Queensland. His
+   1914–15 demonstrations in Australia are where the sport took hold there.
+  title: "StateLibQld 2 233981 Duke Kahanamoku, Hawaiian surfing exponent.jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:StateLibQld_2_233981_Duke_Kahanamoku,_Hawaiian_surfing_exponent.jpg"
+
+- id: surfing-waikiki-1920
+  sport: surfing
+  file: /images/surfing/waikiki-1920.jpg
+  width: 374
+  height: 292
+  alt: "A surfer standing on a board riding a small wave at Waikiki, others paddling"
+  shows: >
+   Surf riding at Waikiki, from Frank Coffee's Forty Years on the Pacific,
+   1920.
+  title: "Surf Riding Waikiki, Honolulu.png"
+  author: "Frank Coffee"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Surf_Riding_Waikiki,_Honolulu.png"
+
+- id: surfing-tokyo-podium-2021
+  sport: surfing
+  file: /images/surfing/tokyo-podium-2021.jpg
+  width: 1130
+  height: 753
+  alt: "Three surfers on a podium holding medals and flowers"
+  shows: >
+   The first Olympic surfing podium, Tokyo 2020: Kanoa Igarashi of Japan, Ítalo
+   Ferreira of Brazil and Owen Wright of Australia.
+  title: "Pódio Olímpico (2021, surfe).jpg"
+  author: "Rodolfo Vilela"
+  licence: "CC BY 3.0 br"
+  licence_url: "https://creativecommons.org/licenses/by/3.0/br/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:P%C3%B3dio_Ol%C3%ADmpico_(2021,_surfe).jpg"
+
+- id: surfing-hot-curl-1947
+  sport: surfing
+  file: /images/surfing/hot-curl-1947.jpg
+  width: 257
+  height: 1200
+  alt: "A long, narrow surfboard of laminated redwood and balsa standing upright"
+  shows: >
+   A "hot curl" board of redwood and balsa, made in Hawaii in 1947.
+  title: "'Hot curl' surfboard, redwood and balsa wood, made in Hawaii.JPG"
+  author: "Haa900"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:%27Hot_curl%27_surfboard,_redwood_and_balsa_wood,_made_in_Hawaii.JPG"
+
+- id: surfing-leash
+  sport: surfing
+  file: /images/surfing/leash.jpg
+  width: 1200
+  height: 1200
+  alt: "A blue surfboard flying above the whitewater, still tied to a surfer's ankle by its leash"
+  shows: >
+   A board held by its leash after a wipeout. A leash is required in Olympic
+   competition.
+  title: "Surf board leash.jpg"
+  author: "Bengt Nyman"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Surf_board_leash.jpg"
+
+- id: surfing-lost-shore-air
+  sport: surfing
+  file: /images/surfing/lost-shore-air.jpg
+  width: 1200
+  height: 900
+  alt: "An aerial view of a large artificial surf lagoon among fields and housing"
+  shows: >
+   Lost Shore Surf Resort at Ratho, outside Edinburgh, from the air in 2025: a
+   manufactured wave far from any surf coast.
+  title: "Lost Shore Surf Resort from the air - geograph.org.uk - 8071635.jpg"
+  author: "Thomas Nugent"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lost_Shore_Surf_Resort_from_the_air_-_geograph.org.uk_-_8071635.jpg"
+
+- id: surfing-surf-snowdonia
+  sport: surfing
+  file: /images/surfing/surf-snowdonia.jpg
+  width: 1200
+  height: 682
+  alt: "A long rectangular artificial wave lagoon in a green Welsh valley"
+  shows: >
+   Surf Snowdonia, an artificial wave lagoon at Dolgarrog in Wales, 2015.
+  title: "Surf Snowdonia overview from the west.jpg"
+  author: "DeFacto"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Surf_Snowdonia_overview_from_the_west.jpg"
+
+- id: surfing-teahupoo
+  sport: surfing
+  file: /images/surfing/teahupoo.jpg
+  width: 1200
+  height: 800
+  alt: "A surfer riding inside a huge hollow blue wave breaking over a reef"
+  shows: >
+   Teahupoʻo, Tahiti, in 2022: the heavy reef break where the 2024 Olympic
+   surfing was held.
+  title: "Surf sur la Vague de Teahupoo (Tahiti) (Ifremer 00783-89468 - 49347).jpg"
+  author: "Olivier Dugornay / IFREMER"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Surf_sur_la_Vague_de_Teahupoo_(Tahiti)_(Ifremer_00783-89468_-_49347).jpg"
+
+- id: surfing-teahupoo-2
+  sport: surfing
+  file: /images/surfing/teahupoo-2.jpg
+  width: 1200
+  height: 720
+  alt: "A surfer dropping down the face of a large wave breaking in open water"
+  shows: >
+   Another wave at Teahupoʻo, 2022. The swell breaks on a shallow coral reef.
+  title: "Surf sur la Vague de Teahupoo (Tahiti) (Ifremer 00783-89468 - 49350).jpg"
+  author: "Olivier Dugornay / IFREMER"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Surf_sur_la_Vague_de_Teahupoo_(Tahiti)_(Ifremer_00783-89468_-_49350).jpg"
+
+- id: surfing-tsurigasaki
+  sport: surfing
+  file: /images/surfing/tsurigasaki.jpg
+  width: 1200
+  height: 900
+  alt: "A road painted with the word Tsurigasaki leading towards a beach and a shrine gate"
+  shows: >
+   The road to Tsurigasaki beach in Chiba, venue of the first Olympic surfing
+   in 2021.
+  title: "Tsurigsaki worlds first Olympic surf beach at Japan.jpg"
+  author: "Editorq35"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Tsurigsaki_worlds_first_Olympic_surf_beach_at_Japan.jpg"
+
+- id: surfing-italo-tsurigasaki
+  sport: surfing
+  file: /images/surfing/italo-tsurigasaki.jpg
+  width: 1130
+  height: 753
+  alt: "A surfer in a red jersey launching into the air off a choppy wave"
+  shows: >
+   Ítalo Ferreira of Brazil in the air on his way to gold at Tsurigasaki, in
+   small, messy surf: the Olympic window cannot wait for the swell.
+  title: "Ítalo Ferreira durante a competição.jpg"
+  author: "Rodolfo Vilela"
+  licence: "CC BY 3.0 br"
+  licence_url: "https://creativecommons.org/licenses/by/3.0/br/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:%C3%8Dtalo_Ferreira_durante_a_competi%C3%A7%C3%A3o.jpg"
+
+- id: surfing-jbay-judges-2015
+  sport: surfing
+  file: /images/surfing/jbay-judges-2015.jpg
+  width: 1200
+  height: 800
+  alt: "A scaffold judging tower with a large screen on a bush-covered headland above the surf"
+  shows: >
+   The judging tower at the J-Bay Open, Jeffreys Bay, South Africa, 2015. Five
+   judges score each wave from here.
+  title: "JBay Open - 007.jpg"
+  author: "Leo za1"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:JBay_Open_-_007.jpg"
+
+- id: surfing-medina-2012
+  sport: surfing
+  file: /images/surfing/medina-2012.jpg
+  width: 1200
+  height: 800
+  alt: "A surfer in a contest jersey carving hard off the top of a wave"
+  shows: >
+   Gabriel Medina of Brazil at the Coldwater Classic in Santa Cruz, 2012, two
+   years before he became Brazil's first world champion.
+  title: "Gabriel Medina 2012.jpg"
+  author: "Jim Bahn"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Gabriel_Medina_2012.jpg"
+
+- id: surfing-pipeline
+  sport: surfing
+  file: /images/surfing/pipeline.jpg
+  width: 1200
+  height: 798
+  alt: "A surfer riding a curling wave at Banzai Pipeline on Oahu"
+  shows: >
+   Banzai Pipeline on the North Shore of Oʻahu, 2007: the breaks by which
+   surfers still measure themselves.
+  title: "Surfer at Banzai Pipeline, North Shore (Oahu).jpg"
+  author: "Mandolin Davis"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Surfer_at_Banzai_Pipeline,_North_Shore_(Oahu).jpg"
+
+- id: surfing-lost-shore
+  sport: surfing
+  file: /images/surfing/lost-shore.jpg
+  width: 1200
+  height: 626
+  alt: "A promenade beside the lagoon of an inland surf resort"
+  shows: >
+   The lagoon edge at Lost Shore, 2025.
+  title: "Lost Shore Surf Resort, Ratho, Edinburgh - geograph.org.uk - 7998174.jpg"
+  author: "Gordon Brown"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Lost_Shore_Surf_Resort,_Ratho,_Edinburgh_-_geograph.org.uk_-_7998174.jpg"
+
+- id: surfing-nazare
+  sport: surfing
+  file: /images/surfing/nazare.jpg
+  width: 1200
+  height: 644
+  alt: "A tiny surfer riding down the face of an enormous wave in Portugal"
+  shows: >
+   Sergey Mysovskiy on a big wave at Nazaré, Portugal, 2017.
+  title: "Mysovskiy Sergey surfing Nazare.jpg"
+  author: "Alohamansurfer"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Mysovskiy_Sergey_surfing_Nazare.jpg"
+
+- id: surfing-eisbach
+  sport: surfing
+  file: /images/surfing/eisbach.jpg
+  width: 1200
+  height: 873
+  alt: "A surfer riding a standing river wave in a city channel"
+  shows: >
+   A surfer on the Eisbach standing wave in Munich, 2014, hundreds of
+   kilometres from any ocean.
+  title: "Eisbach Surfer3.JPG"
+  author: "Martin Falbisoner"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Eisbach_Surfer3.JPG"
+
+- id: surfing-carissa-moore
+  sport: surfing
+  file: /images/surfing/carissa-moore.jpg
+  width: 1200
+  height: 900
+  alt: "A smiling woman surfer in a yellow leader's jersey surrounded by fans"
+  shows: >
+   Carissa Moore of Hawaii, in the leader's jersey at Cascais in 2013. She won
+   the first Olympic women's surfing gold in 2021.
+  title: "Carissa moore 2013.jpg"
+  author: "Bruno Nando"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Carissa_moore_2013.jpg"
