@@ -723,6 +723,18 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M24 26 L18 40 L12 52 M18 40 L24 52 M24 28 L34 24 M40 26 L46 40 L52 52 M46 40 L40 52 M40 28 L30 24" fill="none" strokeWidth="3" />
     </>
   ),
+  // The competition straightsword, thin and springy, with its guard, grip and
+  // tassel: a poor weapon and an excellent piece of apparatus.
+  wushu: (
+    <>
+      <path d="M52 8 Q38 22 24 38" fill="none" strokeWidth="2" />
+      <path d="M52 8 L56 6 L54 10 Z" fill="#F2F5F1" stroke="none" />
+      <path d="M18 34 L28 44" fill="none" strokeWidth="4" />
+      <path d="M23 39 L15 47" fill="none" strokeWidth="3" />
+      <circle cx="14" cy="48" r="1.8" fill="#F2F5F1" stroke="none" />
+      <path d="M14 49 Q10 54 12 60 M14 49 Q16 55 20 58 M14 49 Q12 55 8 58" fill="none" strokeWidth="1.5" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
