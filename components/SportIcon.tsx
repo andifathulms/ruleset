@@ -648,6 +648,17 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M18 42 Q28 34 38 38 Q28 44 18 42 Z" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // Lanes from above: the floating ropes, the touchpad wall the swimmer's own
+  // hand stops the clock on, and one swimmer's arm coming over.
+  swimming: (
+    <>
+      <path d="M4 14 H50 M4 32 H50 M4 50 H50" fill="none" strokeDasharray="4 3" />
+      <path d="M54 6 V58" fill="none" strokeWidth="4" />
+      <path d="M14 41 H30" fill="none" />
+      <path d="M26 41 Q32 30 40 38" fill="none" />
+      <circle cx="33" cy="42" r="3" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
