@@ -689,6 +689,18 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M4 40 H60 M4 48 H60 M8 40 V58 M56 40 V58 M18 40 V48 M30 40 V48 M42 40 V48" fill="none" strokeWidth="1.5" />
     </>
   ),
+  // The inelastic rope from the pylon to the handle, a slalom skier leaning
+  // on one ski, and the buoy to be rounded: the rope is the measuring instrument.
+  'waterski-wakeboard': (
+    <>
+      <path d="M4 14 L36 30" fill="none" strokeDasharray="3 2" />
+      <circle cx="42" cy="22" r="4" fill="#F2F5F1" stroke="none" />
+      <path d="M41 26 L38 38 L44 46 M38 38 L34 48 M40 30 L36 30" fill="none" strokeWidth="3" />
+      <path d="M28 50 L52 44" fill="none" strokeWidth="3" />
+      <path d="M4 56 Q12 52 20 56 T36 56 T52 56 T60 55" fill="none" />
+      <circle cx="14" cy="44" r="3" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
