@@ -669,6 +669,17 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M21 26 L14 34 M22 26 L30 30" fill="none" />
     </>
   ),
+  // The three legs in order: the swim's waves, the bike's wheel, the run's
+  // footsteps, each passed through transition into the next.
+  triathlon: (
+    <>
+      <path d="M4 18 Q9 13 14 18 T24 18 M4 26 Q9 21 14 26 T24 26" fill="none" />
+      <circle cx="44" cy="20" r="12" fill="none" />
+      <circle cx="44" cy="20" r="2" fill="#F2F5F1" stroke="none" />
+      <path d="M44 8 V32 M32 20 H56" fill="none" strokeWidth="1" />
+      <path d="M10 50 l4 -2 M22 56 l4 -2 M34 50 l4 -2 M46 56 l4 -2" fill="none" strokeWidth="3" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
