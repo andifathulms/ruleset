@@ -13983,3 +13983,361 @@
   licence: "Public domain"
   licence_url: ""
   source_url: "https://commons.wikimedia.org/wiki/File:110319-G-EM820-484_(5579720037).jpg"
+
+# Powerlifting.
+
+- id: powerlifting-us-nationals-1982-squat
+  sport: powerlifting
+  file: /images/powerlifting/us-nationals-1982-squat.jpg
+  width: 1200
+  height: 869
+  alt: "A lifter in a singlet squatting a loaded bar between stands, with spotters and officials around him"
+  shows: >
+   A squat of 374 lb at the 1982 US National Powerlifting Championships in
+   Portland, Oregon.
+  title: "1982 US National Weightlifting Championships (IJAZ SQUAT 374 lbs).jpg"
+  author: "Mansoor Ijaz"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:1982_US_National_Weightlifting_Championships_(IJAZ_SQUAT_374_lbs).jpg"
+
+- id: powerlifting-us-nationals-1982-deadlift
+  sport: powerlifting
+  file: /images/powerlifting/us-nationals-1982-deadlift.jpg
+  width: 1200
+  height: 792
+  alt: "A lifter pulling a loaded bar from the floor in front of a banner reading Powerlifting Championships, Portland, Oregon"
+  shows: >
+   A deadlift of 418 lb at the same championships, 1982.
+  title: "1982 US National Weightlifting Championships (IJAZ DEADLIFT 418 lbs).jpg"
+  author: "Mansoor Ijaz"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:1982_US_National_Weightlifting_Championships_(IJAZ_DEADLIFT_418_lbs).jpg"
+
+- id: powerlifting-norway-2021-platform
+  sport: powerlifting
+  slot: "play:field"
+  file: /images/powerlifting/norway-2021-platform.jpg
+  width: 1200
+  height: 700
+  alt: "A competition platform on a stage under banners, with a lifter, loaders and three referees' chairs around it"
+  shows: >
+   The platform at the 2021 Norwegian raw powerlifting championships: a lifting
+   area, a loaded bar, and the referees' seats in front and at each side.
+  title: "Hell Amfi P1080385.jpg"
+  author: "Stein Langørgen"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Hell_Amfi_P1080385.jpg"
+
+- id: powerlifting-belt-and-wraps
+  sport: powerlifting
+  file: /images/powerlifting/belt-and-wraps.jpg
+  width: 1200
+  height: 1131
+  alt: "A woman lifter in a wide belt and wrist wraps stepping under a squat bar while spotters stand ready"
+  shows: >
+   Julie Fosseide setting up a squat at the 2021 Norwegian raw championships,
+   in the belt and wrist wraps the rules have always allowed.
+  title: "Julie Fosseide 3455.jpg"
+  author: "Stein Langørgen"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Julie_Fosseide_3455.jpg"
+
+- id: powerlifting-bench-shirt
+  sport: powerlifting
+  file: /images/powerlifting/bench-shirt.jpg
+  width: 1200
+  height: 797
+  alt: "Two men pulling a tight black bench shirt down over a third man's back in a gym"
+  shows: >
+   Two helpers working a lifter into an Inzer bench shirt, Lajes Field, Azores,
+   2009. The shirt is cut smaller than the lifter, which is why it takes others
+   to get it on.
+  title: "Putting on a bench shirt.jpg"
+  author: "U.S. Air Force photo by Tech Sgt. Rebecca F. Corey"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Putting_on_a_bench_shirt.jpg"
+
+- id: powerlifting-helsinki-2001-bench
+  sport: powerlifting
+  file: /images/powerlifting/helsinki-2001-bench.jpg
+  width: 1200
+  height: 800
+  alt: "A lifter pressing a loaded bar on a competition bench while a spotter in yellow stands behind"
+  shows: >
+   Jarosław Baron with 240 kg on the bench at a European championship in
+   Helsinki, 2001.
+  title: "2001 – Helsinki Finlandia Mistrzostwa Europy – 240 KG.jpg"
+  author: "Herkules60"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:2001_%E2%80%93_Helsinki_Finlandia_Mistrzostwa_Europy_%E2%80%93_240_KG.jpg"
+
+- id: powerlifting-classic-squat
+  sport: powerlifting
+  file: /images/powerlifting/classic-squat.jpg
+  width: 1200
+  height: 1028
+  alt: "A woman in a singlet, belt and knee sleeves taking a squat bar from the rack"
+  shows: >
+   Linda Berge at the 2021 Norwegian raw championships: singlet, belt and knee
+   sleeves, the kit of the classic division.
+  title: "Linda Berge 3012.jpg"
+  author: "Stein Langørgen"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Linda_Berge_3012.jpg"
+
+- id: powerlifting-classic-squat-2
+  sport: powerlifting
+  file: /images/powerlifting/classic-squat-2.jpg
+  width: 1200
+  height: 1026
+  alt: "A woman in a red singlet and belt walking a squat bar out of the rack with spotters either side"
+  shows: >
+   Marte Kjenner squatting at the same championships.
+  title: "Marte Kjenner 4158.jpg"
+  author: "Stein Langørgen"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Marte_Kjenner_4158.jpg"
+
+- id: powerlifting-ipf-worlds-2022
+  sport: powerlifting
+  file: /images/powerlifting/ipf-worlds-2022.jpg
+  width: 960
+  height: 1200
+  alt: "Three lifters on a podium in front of a backdrop with the World Games and IPF logos"
+  shows: >
+   A podium at the IPF World Championships in 2022, with Chance Mitchell on the
+   top step.
+  title: "IPF World Championships.jpg"
+  author: "SteveBottle18"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:IPF_World_Championships.jpg"
+
+- id: powerlifting-sydney-2000-para
+  sport: powerlifting
+  file: /images/powerlifting/sydney-2000-para.jpg
+  width: 1200
+  height: 787
+  alt: "A woman lying strapped to a bench pressing a bar loaded with yellow plates"
+  shows: >
+   Suzanne Twelftree of Australia in the 48 kg class at the Sydney 2000
+   Paralympics. Para powerlifting is the bench press alone.
+  title: "221000 - Powerlifting Suzanne Twelftree 48kg action 2 - 3b - Sydney 2000 match photo.jpg"
+  author: "Sport the library"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:221000_-_Powerlifting_Suzanne_Twelftree_48kg_action_2_-_3b_-_Sydney_2000_match_photo.jpg"
+
+- id: powerlifting-atlanta-1996-para
+  sport: powerlifting
+  file: /images/powerlifting/atlanta-1996-para.jpg
+  width: 769
+  height: 1200
+  alt: "A lifter seated on a competition bench before an attempt, a red plate on the bar beside him"
+  shows: >
+   Richard Nicholson of Australia on the bench at the Atlanta 1996 Paralympics.
+  title: "13 ACPS Atlanta 1996 Powerlifting Richard Nicholson.jpg"
+  author: "John Sherwell"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:13_ACPS_Atlanta_1996_Powerlifting_Richard_Nicholson.jpg"
+
+- id: powerlifting-europeans-2022-squat
+  sport: powerlifting
+  file: /images/powerlifting/europeans-2022-squat.jpg
+  width: 960
+  height: 1200
+  alt: "A lifter under a squat bar in a monolift-style rack with loaders on both sides, under an IPF 50th anniversary banner"
+  shows: >
+   Alessio Pavone of Belgium squatting at the 2022 European Championships,
+   under the banner for the IPF's fiftieth anniversary.
+  title: "Alessio Pavone squat European Championships.jpg"
+  author: "FactNoter"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Alessio_Pavone_squat_European_Championships.jpg"
+
+- id: powerlifting-referee-squat-depth
+  sport: powerlifting
+  file: /images/powerlifting/referee-squat-depth.jpg
+  width: 800
+  height: 449
+  alt: "A lifter at the bottom of a squat while a referee in a shirt marked REFEREE crouches to watch from the side"
+  shows: >
+   A side referee watching a squat at the bottom of the lift, at a WPC/AWPC
+   meet: the depth call is made by eye, from three angles.
+  title: "Squat 350KG.jpg"
+  author: "Mahmoud Omrani"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Squat_350KG.jpg"
+
+- id: powerlifting-sweden-2013-bench
+  sport: powerlifting
+  file: /images/powerlifting/sweden-2013-bench.jpg
+  width: 1200
+  height: 801
+  alt: "A lifter pressing on a competition bench under a red clock reading 20.00, with spotters around him"
+  shows: >
+   The Swedish bench press championships, 2013. The bar must pause on the chest
+   and go up on command.
+  title: "SM Bänkpress 2013 Per Montonen Örebro KK.jpg"
+  author: "Calle Eklund/V-wolf"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:SM_B%C3%A4nkpress_2013_Per_Montonen_%C3%96rebro_KK.jpg"
+
+- id: powerlifting-deadlift-lockout
+  sport: powerlifting
+  file: /images/powerlifting/deadlift-lockout.jpg
+  width: 1200
+  height: 899
+  alt: "A woman in a belt standing upright at the top of a deadlift, smiling"
+  shows: >
+   Heidi Hille Arnesen at the top of a deadlift, 2021 Norwegian raw
+   championships: standing upright, shoulders back, waiting for the 'down'.
+  title: "Heidi Hille Arnesen 6440.jpg"
+  author: "Stein Langørgen"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Heidi_Hille_Arnesen_6440.jpg"
+
+- id: powerlifting-deadlift-start
+  sport: powerlifting
+  file: /images/powerlifting/deadlift-start.jpg
+  width: 1200
+  height: 861
+  alt: "A woman lifter gripping a loaded bar on the floor, about to pull"
+  shows: >
+   Sakar Hamawandi setting up a deadlift at the 2021 Norwegian raw
+   championships.
+  title: "Sakar Hamawandi 4462.jpg"
+  author: "Stein Langørgen"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Sakar_Hamawandi_4462.jpg"
+
+- id: powerlifting-melitopol-2014
+  sport: powerlifting
+  file: /images/powerlifting/melitopol-2014.jpg
+  width: 650
+  height: 488
+  alt: "A lifter in a blue singlet deadlifting a loaded bar outdoors in front of a crowd"
+  shows: >
+   An outdoor competition in Melitopol, Ukraine, in 2014.
+  title: "Пауэрлифтинг - Мелитополь.jpg"
+  author: "Максим Стоялов"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D1%83%D1%8D%D1%80%D0%BB%D0%B8%D1%84%D1%82%D0%B8%D0%BD%D0%B3_-_%D0%9C%D0%B5%D0%BB%D0%B8%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C.jpg"
+
+- id: powerlifting-sweden-2013-bench-2
+  sport: powerlifting
+  file: /images/powerlifting/sweden-2013-bench-2.jpg
+  width: 1200
+  height: 801
+  alt: "A lifter on a bench surrounded by loaders and spotters in a hall with a large banner"
+  shows: >
+   Another attempt at the Swedish bench press championships, 2013.
+  title: "SM Bänkpress 2013 Niklas Turunen Södertälje AK.jpg"
+  author: "Calle Eklund/V-wolf"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:SM_B%C3%A4nkpress_2013_Niklas_Turunen_S%C3%B6dert%C3%A4lje_AK.jpg"
+
+- id: powerlifting-adlington-2007
+  sport: powerlifting
+  file: /images/powerlifting/adlington-2007.jpg
+  width: 600
+  height: 450
+  alt: "Seven men in T-shirts lined up in a plain gym with a barbell on the floor"
+  shows: >
+   Lifters at the first Sugden Barbell meet, held at Adlington Barbell club in
+   England in 2007: a meet in a gym.
+  title: "Sugden-Barbell-Photo.jpg"
+  author: "Rb1553"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Sugden-Barbell-Photo.jpg"
+
+- id: powerlifting-spangdahlem-2025
+  sport: powerlifting
+  file: /images/powerlifting/spangdahlem-2025.jpg
+  width: 1200
+  height: 800
+  alt: "A lifter in a cap and belt stepping under a loaded barbell in a gym, others watching"
+  shows: >
+   A gym powerlifting competition at Spangdahlem Air Base, Germany, 2025.
+  title: "2025 Skelton Gym Powerlifting Competition (9326223).jpg"
+  author: "U.S. Air Force / Haiden Morris"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:2025_Skelton_Gym_Powerlifting_Competition_(9326223).jpg"
+
+- id: powerlifting-women-squat
+  sport: powerlifting
+  file: /images/powerlifting/women-squat.jpg
+  width: 1200
+  height: 1006
+  alt: "A woman in a singlet and belt gripping a squat bar"
+  shows: >
+   Marianne Hatlem at the 2021 Norwegian raw championships.
+  title: "Marianne Hatlem 3093.jpg"
+  author: "Stein Langørgen"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Marianne_Hatlem_3093.jpg"
+
+- id: powerlifting-women-deadlift
+  sport: powerlifting
+  file: /images/powerlifting/women-deadlift.jpg
+  width: 1200
+  height: 1133
+  alt: "A woman in a belt and knee sleeves stepping up to a loaded bar on the platform"
+  shows: >
+   Stine Hamre walking up to the bar for a deadlift at the same championships.
+  title: "Stine Hamre 6281.jpg"
+  author: "Stein Langørgen"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Stine_Hamre_6281.jpg"
+
+- id: powerlifting-kings-cup-2021
+  sport: powerlifting
+  file: /images/powerlifting/kings-cup-2021.jpg
+  width: 1200
+  height: 900
+  alt: "A woman and a man holding trophies on a stage"
+  shows: >
+   The King's Cup winners at the 2021 Norwegian raw championships, Marte
+   Kjenner and Trygve Sletten.
+  title: "Kongepokalvinnere styrkeløft 2021.jpg"
+  author: "Stein Langørgen"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kongepokalvinnere_styrkel%C3%B8ft_2021.jpg"
+
+- id: powerlifting-vaasa-1999-bench
+  sport: powerlifting
+  slot: "events"
+  file: /images/powerlifting/vaasa-1999-bench.jpg
+  width: 513
+  height: 517
+  alt: "Three women on a podium in front of flags"
+  shows: >
+   The podium at the IPF World Bench Press Championships in Vaasa, Finland,
+   1999, with Liubou Bialova on the top step: the bench press contested as a
+   championship on its own.
+  title: "Liubou Bialova IPF 10 World Single Bench Press Championship 1999.jpg"
+  author: "Hadson2014"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Liubou_Bialova_IPF_10_World_Single_Bench_Press_Championship_1999.jpg"
