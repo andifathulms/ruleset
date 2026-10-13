@@ -28,10 +28,10 @@ disciplines:
     label: The format that was abandoned
     counts: false
     events:
-      - { id: combined2020, label: Combined, all three disciplines, note: "Contested at 2020 only. Scored by multiplying ranks; dropped after one Games.", at: [lapsed] }
+      - { id: combined2020, label: "Combined, all three disciplines", note: "Contested at 2020 only. Scored by multiplying ranks; dropped after one Games.", at: [lapsed] }
   - id: outside
     label: Contested away from the Games
     counts: false
     events:
       - { id: paraclimbing, label: Paraclimbing, at: [paralympic] }
-      - { id: ice, label: Ice climbing, note: Contested at world level, on the Winter programme's fringe., at: [world-championship] }
+      - { id: ice, label: Ice climbing, note: "Contested at world level, on the Winter programme's fringe.", at: [world-championship] }
