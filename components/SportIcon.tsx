@@ -576,6 +576,15 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M10 32 V56 M15 30 V58 M49 30 V58 M54 32 V56" fill="none" strokeWidth="4" />
     </>
   ),
+  // A four from above: the long hull, and four sweep oars alternating sides,
+  // each with its asymmetric blade in the water.
+  rowing: (
+    <>
+      <path d="M4 32 Q32 26 60 32 Q32 38 4 32 Z" fill="none" />
+      <path d="M18 31 L12 12 M30 31 L24 12 M24 33 L18 52 M36 33 L30 52" fill="none" />
+      <path d="M12 12 L8 6 L14 7 Z M24 12 L20 6 L26 7 Z M18 52 L14 58 L20 57 Z M30 52 L26 58 L32 57 Z" fill="#F2F5F1" stroke="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
