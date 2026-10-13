@@ -659,6 +659,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="33" cy="42" r="3" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // The octagonal court and a turning kick to the head: the technique the
+  // points table was re-priced to reward once sensors made the trunk kick cheap.
+  taekwondo: (
+    <>
+      <path d="M22 4 H42 L60 22 V42 L42 60 H22 L4 42 V22 Z" fill="none" />
+      <circle cx="20" cy="17" r="4" fill="#F2F5F1" stroke="none" />
+      <path d="M21 22 L24 36 L22 52 M24 36 L46 20 L50 22" fill="none" strokeWidth="3" />
+      <path d="M21 26 L14 34 M22 26 L30 30" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
