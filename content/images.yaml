@@ -17994,3 +17994,328 @@
   licence: "CC BY 4.0"
   licence_url: "https://creativecommons.org/licenses/by/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Iran_volleyball_team_at_the_2016_Summer_Olympics.jpg"
+
+# Waterski and wakeboard.
+
+- id: waterski-wakeboard-samuelson
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/samuelson.jpg
+  width: 1039
+  height: 595
+  alt: "An old photograph of a young man on two wide skis leaning back behind a tow rope"
+  shows: >
+   Ralph Samuelson water skiing on Lake Pepin, Minnesota, where he first stood
+   up on skis in 1922.
+  title: "Ralph Samuelson.jpg"
+  author: "Scinauticando.com"
+  licence: "CC BY-SA 2.5"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.5"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ralph_Samuelson.jpg"
+
+- id: waterski-wakeboard-lake-pepin-marker
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/lake-pepin-marker.jpg
+  width: 1200
+  height: 900
+  alt: "A bronze historical marker reading Birthplace of Waterskiing beside a lake marina"
+  shows: >
+   The marker at Lake City, Minnesota: "I decided that if you could ski on
+   snow, you could ski on water."
+  title: "Birthplace of Water Skiing Lake City-Historic marker.jpg"
+  author: "Minnesota Historical Society"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Birthplace_of_Water_Skiing_Lake_City-Historic_marker.jpg"
+
+- id: waterski-wakeboard-loosdrecht-1958
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/loosdrecht-1958.jpg
+  width: 1188
+  height: 1200
+  alt: "A skier with arms raised behind an outboard motorboat, its wake running back"
+  shows: >
+   A water ski competition at Oud-Loosdrecht in the Netherlands, 1958, seen
+   from the boat.
+  title: "Waterskiwedstrijden in Oud Loosdrecht, Bestanddeelnr 909-5844.jpg"
+  author: "Henk Lindeboom / Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Waterskiwedstrijden_in_Oud_Loosdrecht,_Bestanddeelnr_909-5844.jpg"
+
+- id: waterski-wakeboard-slalom
+  sport: waterski-wakeboard
+  slot: "play:field"
+  file: /images/waterski-wakeboard/slalom.jpg
+  width: 1200
+  height: 800
+  alt: "A slalom skier carving hard on one ski past a buoy, spray behind"
+  shows: >
+   Josefa Krug in slalom at the Austrian Open, 2017: one ski with a deep fin,
+   rounding a buoy.
+  title: "Fischlham Mevisto Cup 2017 Slalom Josefa Krug-2598.jpg"
+  author: "Isiwal"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Fischlham_Mevisto_Cup_2017_Slalom_Josefa_Krug-2598.jpg"
+
+- id: waterski-wakeboard-trick-ski
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/trick-ski.jpg
+  width: 1200
+  height: 800
+  alt: "A trick skier balancing on one foot with the tow handle held by the other"
+  shows: >
+   Theresa Schmidberger in tricks at the same event, the handle held by the
+   foot on a short finless ski.
+  title: "Fischlham Mevisto Cup 2017 Trickski Theresa Schmidberger1-1.jpg"
+  author: "Isiwal"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Fischlham_Mevisto_Cup_2017_Trickski_Theresa_Schmidberger1-1.jpg"
+
+- id: waterski-wakeboard-jump-1969
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/jump-1969.jpg
+  width: 1200
+  height: 789
+  alt: "A water skier flying high off a ramp in front of a crowd, 1969"
+  shows: >
+   Pim Braskamp jumping at the Dutch national championships on the Bosbaan,
+   Amsterdam, 1969.
+  title: "P. Braskamp (Nationaal kampioen 1968) in actie, Bestanddeelnr 922-6468.jpg"
+  author: "Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:P._Braskamp_(Nationaal_kampioen_1968)_in_actie,_Bestanddeelnr_922-6468.jpg"
+
+- id: waterski-wakeboard-cable-paderborn
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/cable-paderborn.jpg
+  width: 1200
+  height: 900
+  alt: "An overhead cable system on pylons towing a rider across a lake"
+  shows: >
+   A cable ski system at Nesthauser See, Paderborn, 2006: an overhead circuit,
+   no boat.
+  title: "Paderborn Nesthauser See Wasserski-Seilbahn 2.jpg"
+  author: "Zefram"
+  licence: "CC BY 2.0 de"
+  licence_url: "https://creativecommons.org/licenses/by/2.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Paderborn_Nesthauser_See_Wasserski-Seilbahn_2.jpg"
+
+- id: waterski-wakeboard-cable-rother
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/cable-rother.jpg
+  width: 640
+  height: 428
+  alt: "A wakeboarder in mid-air above a lake, towed from an overhead cable"
+  shows: >
+   A cable wakeboarder airborne at Rother Valley Country Park, England, 2007.
+  title: "Cable Waterskiing, Rother Valley Country Park - geograph.org.uk - 537989.jpg"
+  author: "Stephen McKay"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cable_Waterskiing,_Rother_Valley_Country_Park_-_geograph.org.uk_-_537989.jpg"
+
+- id: waterski-wakeboard-howley-2019
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/howley-2019.jpg
+  width: 1200
+  height: 800
+  alt: "A slalom skier leaning into a turn, spray flying"
+  shows: >
+   Joel Howley of Australia at the 2019 Waterski World Championships in
+   Putrajaya, Malaysia.
+  title: "Joel Howley at the 2019 IWWF Waterski World Championships in Putrajaya, Malaysia. .jpg"
+  author: "Webster Ward"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Joel_Howley_at_the_2019_IWWF_Waterski_World_Championships_in_Putrajaya,_Malaysia._.jpg"
+
+- id: waterski-wakeboard-wake-boats
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/wake-boats.jpg
+  width: 1200
+  height: 675
+  alt: "Two wakeboard boats with tower frames displayed on trailers at a boat show"
+  shows: >
+   Wakeboard boats at a show in Friedrichshafen, 2020: the towers and ballast
+   are there to shape the wake.
+  title: "Wakeboard boats, Interboot 2020, Friedrichshafen (IB200179).jpg"
+  author: "Matti Blume"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Wakeboard_boats,_Interboot_2020,_Friedrichshafen_(IB200179).jpg"
+
+- id: waterski-wakeboard-boat-wake
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/boat-wake.jpg
+  width: 1200
+  height: 900
+  alt: "A rider behind a boat on a lake, the boat throwing a large wake"
+  shows: >
+   A boat towing a rider on Lake Mead, 2020: the wake is built by the boat.
+  title: "Wakesurfing on Lake Mead (4d95a357-94d5-493f-bbb6-24292524bd12).jpg"
+  author: "Andrew Cattoir / NPS"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Wakesurfing_on_Lake_Mead_(4d95a357-94d5-493f-bbb6-24292524bd12).jpg"
+
+- id: waterski-wakeboard-mcguire-1951
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/mcguire-1951.jpg
+  width: 513
+  height: 325
+  alt: "A colour postcard of a woman on one ski balancing in a backward swan"
+  shows: >
+   Willa Worthington McGuire, women's world champion, demonstrating the
+   backward swan she originated, 1951.
+  title: "Water Ski Trick Riding, backward swan as demonstrated by the originator of this trick, Willa... (NBY 6401).jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Water_Ski_Trick_Riding,_backward_swan_as_demonstrated_by_the_originator_of_this_trick,_Willa..._(NBY_6401).jpg"
+
+- id: waterski-wakeboard-cypress-gardens-jump
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/cypress-gardens-jump.jpg
+  width: 600
+  height: 968
+  alt: "A vintage postcard of a skier flying off a ramp at Cypress Gardens"
+  shows: >
+   "The Big Jump" at Cypress Gardens, Florida, a postcard from around 1940.
+  title: "\"The Big Jump - Water Skiing at Florida's Cypress Gardens\" (12433327965).jpg"
+  author: "State Library and Archives of Florida"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:%22The_Big_Jump_-_Water_Skiing_at_Florida%27s_Cypress_Gardens%22_(12433327965).jpg"
+
+- id: waterski-wakeboard-jump-1975
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/jump-1975.jpg
+  width: 1200
+  height: 794
+  alt: "A skier on long jump skis in the air against a pale sky"
+  shows: >
+   Eddy Struyck jumping at the Dutch national championships, Amsterdam, 1975:
+   long skis, and the landing is the problem.
+  title: "Nationaal kampioen Eddy Struyck in aktie, Bestanddeelnr 928-0589.jpg"
+  author: "Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Nationaal_kampioen_Eddy_Struyck_in_aktie,_Bestanddeelnr_928-0589.jpg"
+
+- id: waterski-wakeboard-wakeboard-turn
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/wakeboard-turn.jpg
+  width: 640
+  height: 428
+  alt: "A wakeboarder throwing a wall of spray as he turns"
+  shows: >
+   A cable wakeboarder turning at Rother Valley, 2007.
+  title: "Cable Waterskiing, Rother Valley Country Park - geograph.org.uk - 538842.jpg"
+  author: "Stephen McKay"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cable_Waterskiing,_Rother_Valley_Country_Park_-_geograph.org.uk_-_538842.jpg"
+
+- id: waterski-wakeboard-cable-podium-2014
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/cable-podium-2014.jpg
+  width: 960
+  height: 640
+  alt: "Three riders with wakeboards on a podium beside a lake"
+  shows: >
+   The podium of a French cable wakeboard cup round at Rouffiac, 2014.
+  title: "Coupe de France Rouffiac.jpg"
+  author: "Maxdsh"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Coupe_de_France_Rouffiac.jpg"
+
+- id: waterski-wakeboard-wakeboard-estavayer
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/wakeboard-estavayer.jpg
+  width: 640
+  height: 480
+  alt: "A wakeboarder flipping upside down above a lake"
+  shows: >
+   A wakeboard competition at Estavayer-le-Lac, Switzerland.
+  title: "Wakeboard Estavayer-le-Lac 640x480.JPG"
+  author: "Sébastien Delley"
+  licence: "CC BY-SA 1.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/1.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Wakeboard_Estavayer-le-Lac_640x480.JPG"
+
+- id: waterski-wakeboard-cable-kish
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/cable-kish.jpg
+  width: 800
+  height: 528
+  alt: "A cable wakeboarder airborne over the sea beside an obstacle, cable pylons above"
+  shows: >
+   A cable wakeboard competition on Kish Island, Iran, 2025.
+  title: "Open Water Skiing Competition 2025 in Kish 3 Tasnim.jpg"
+  author: "Behnam Sahvi / Tasnim"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Open_Water_Skiing_Competition_2025_in_Kish_3_Tasnim.jpg"
+
+- id: waterski-wakeboard-private-lake
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/private-lake.jpg
+  width: 960
+  height: 720
+  alt: "A calm narrow man-made lake with a line of slalom buoys and a jump ramp"
+  shows: >
+   A purpose-built ski lake near Orangeville, Ontario, with a slalom course and
+   a jump ramp.
+  title: "Chantalyy Lakes By The Cliff Side.jpg"
+  author: "Chantalduboisadam"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Chantalyy_Lakes_By_The_Cliff_Side.jpg"
+
+- id: waterski-wakeboard-ulm-ski-house
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/ulm-ski-house.jpg
+  width: 1200
+  height: 901
+  alt: "A small clubhouse marked Water Ski beside a lake with a jump ramp"
+  shows: >
+   The University of Louisiana Monroe water ski house and its lake.
+  title: "ULM Water Ski House, Monroe, Louisiana.jpg"
+  author: "Spatms"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:ULM_Water_Ski_House,_Monroe,_Louisiana.jpg"
+
+- id: waterski-wakeboard-cable-scharbeutz
+  sport: waterski-wakeboard
+  file: /images/waterski-wakeboard/cable-scharbeutz.jpg
+  width: 1200
+  height: 900
+  alt: "A cable ski tower beside a pier off a crowded beach"
+  shows: >
+   A cable ski installation by the pier at Scharbeutz on the Baltic, 2010.
+  title: "Scharbeutz Seebruecke.JPG"
+  author: "Wikifreund"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Scharbeutz_Seebruecke.JPG"
+
+- id: waterski-wakeboard-podium-2019
+  sport: waterski-wakeboard
+  slot: "events"
+  file: /images/waterski-wakeboard/podium-2019.jpg
+  width: 1200
+  height: 757
+  alt: "Three slalom skiers on a podium holding their skis"
+  shows: >
+   The men's podium at the 2019 Waterski World Championships: Frederick Winter,
+   Joel Howley and Will Asher.
+  title: "Podium 2019 World Championships.jpg"
+  author: "Webster Ward"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Podium_2019_World_Championships.jpg"
