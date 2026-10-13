@@ -48,8 +48,8 @@ sections:
       chose to leave standing.
     facts:
       - { label: Material, value: Textile only }
-      - { label: "Men's coverage", value: Waist to knee, max }
-      - { label: "Women's coverage", value: Shoulder to knee, max }
+      - { label: "Men's coverage", value: "Waist to knee, max" }
+      - { label: "Women's coverage", value: "Shoulder to knee, max" }
     shaped_by: [fina-2000-full-body-suits, fina-2010-textile-only-swimwear]
     citation:
       source: world-aquatics-rules
@@ -84,7 +84,7 @@ sections:
       that precision.
     facts:
       - { label: Timing precision, value: 0.01 s }
-      - { label: Ties, value: Dead heat, both placed }
+      - { label: Ties, value: "Dead heat, both placed" }
 
   - id: restarts
     label: Starts and turns
