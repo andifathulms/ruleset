@@ -67,7 +67,7 @@ sections:
       ten.
     facts:
       - { label: Rounds, value: 3 × 2 min }
-      - { label: Format, value: Best of three rounds, since 2022 }
+      - { label: Format, value: "Best of three rounds, since 2022" }
       - { label: Tie in a round, value: Decided on criteria }
     shaped_by: [wt-2022-best-of-three]
 
