@@ -713,6 +713,16 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M4 58 H60" fill="none" />
     </>
   ),
+  // Two wrestlers locked head to head in a collar tie inside the circle of the
+  // mat: the sport that needs nothing but a mat and a partner.
+  wrestling: (
+    <>
+      <path d="M4 52 Q32 60 60 52" fill="none" />
+      <circle cx="26" cy="22" r="4" fill="#F2F5F1" stroke="none" />
+      <circle cx="38" cy="22" r="4" fill="#F2F5F1" stroke="none" />
+      <path d="M24 26 L18 40 L12 52 M18 40 L24 52 M24 28 L34 24 M40 26 L46 40 L52 52 M46 40 L40 52 M40 28 L30 24" fill="none" strokeWidth="3" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
