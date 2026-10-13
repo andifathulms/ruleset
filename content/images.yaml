@@ -18573,3 +18573,344 @@
   licence: "CC BY-SA 2.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Rio_2016._Levantamento_de_pesos-_weight_lifting_(28492757123).jpg"
+
+# Wrestling.
+
+- id: wrestling-beni-hasan
+  sport: wrestling
+  file: /images/wrestling/beni-hasan.jpg
+  width: 854
+  height: 1200
+  alt: "A drawing of two Egyptian wrestlers locked in a hold, from a tomb wall"
+  shows: >
+   Wrestlers from the tomb paintings at Beni Hasan in Egypt, about four
+   thousand years old, in a copy held by the Wellcome Collection.
+  title: "Egypt, Group of wrestlers from tomb 15 at Beni Hasan. Wellcome M0006217.jpg"
+  author: "Wellcome Collection"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Egypt,_Group_of_wrestlers_from_tomb_15_at_Beni_Hasan._Wellcome_M0006217.jpg"
+
+- id: wrestling-kerameikos-relief
+  sport: wrestling
+  file: /images/wrestling/kerameikos-relief.jpg
+  width: 1200
+  height: 800
+  alt: "A marble statue base carved with nude athletes, including a pair grappling"
+  shows: >
+   A marble statue base from the Kerameikos in Athens, around 510 BC, carved
+   with athletes including a pair of wrestlers.
+  title: "Relief pentelic marble \"Ball Players\" 510 BC, NAMA 3476 102584.jpg"
+  author: "Zde"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Relief_pentelic_marble_%22Ball_Players%22_510_BC,_NAMA_3476_102584.jpg"
+
+- id: wrestling-greco-roman-1908
+  sport: wrestling
+  file: /images/wrestling/greco-roman-1908.jpg
+  width: 424
+  height: 303
+  alt: "Two wrestlers on a raised mat in a stadium, one on top of the other, 1908"
+  shows: >
+   Verner Weckman over Yrjö Saarela, both of Finland, in the Greco-Roman light
+   heavyweight final at the London 1908 Olympics.
+  title: "Saarela Weckman London 1908.png"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Saarela_Weckman_London_1908.png"
+
+- id: wrestling-ahlgren-varga-1912
+  sport: wrestling
+  file: /images/wrestling/ahlgren-varga-1912.jpg
+  width: 566
+  height: 589
+  alt: "Two heavy wrestlers locked head to head outdoors, 1912"
+  shows: >
+   Anders Ahlgren of Sweden against Béla Varga of Hungary at Stockholm 1912, a
+   Greco-Roman final that ran nine hours and was declared a draw.
+  title: "Anders Ahlgren vs Béla Varga 1912.jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Anders_Ahlgren_vs_B%C3%A9la_Varga_1912.jpg"
+
+- id: wrestling-glima-1908
+  sport: wrestling
+  file: /images/wrestling/glima-1908.jpg
+  width: 721
+  height: 498
+  alt: "Icelandic wrestlers in white posed in a row beside a man in medieval dress"
+  shows: >
+   Iceland's glíma wrestlers at the London 1908 Olympics, one of the many
+   national styles that exist alongside the two Olympic ones.
+  title: "Icelandic wrestlers at the Olympic Games in London 1908.jpg"
+  author: "UnknownUnknown"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Icelandic_wrestlers_at_the_Olympic_Games_in_London_1908.jpg"
+
+- id: wrestling-single-leg
+  sport: wrestling
+  file: /images/wrestling/single-leg.jpg
+  width: 1109
+  height: 1068
+  alt: "A wrestler lifting his opponent by one leg as the referee watches"
+  shows: >
+   A single-leg attack in freestyle at the US Armed Forces championships, 2013:
+   the use of the legs that Greco-Roman forbids.
+  title: "JB MDL hosts Armed Forces Wrestling Championship 130317-F-FB147-169.jpg"
+  author: "U.S. Air Force / Denise Johnson"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:JB_MDL_hosts_Armed_Forces_Wrestling_Championship_130317-F-FB147-169.jpg"
+
+- id: wrestling-greco-roman-throw
+  sport: wrestling
+  file: /images/wrestling/greco-roman-throw.jpg
+  width: 1150
+  height: 1139
+  alt: "A wrestler throwing his opponent head over heels with an upper-body lock"
+  shows: >
+   A Greco-Roman throw at the Armed Forces championships, 2000: all upper body,
+   no leg attacks.
+  title: "GrecoRomanWrestling3.jpg"
+  author: "U.S. Air Force / Harve Shiplett"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:GrecoRomanWrestling3.jpg"
+
+- id: wrestling-byers-lopez-2009
+  sport: wrestling
+  file: /images/wrestling/byers-lopez-2009.jpg
+  width: 1200
+  height: 784
+  alt: "Two heavyweight wrestlers in red and blue locked on the mat"
+  shows: >
+   Dremiel Byers against Mijaín López of Cuba in the Greco-Roman 120 kg final
+   of the 2009 World Championships.
+  title: "US Army 51852 Byers locks Lopez in finale.jpg"
+  author: "U.S. Army / Tim Hipps"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:US_Army_51852_Byers_locks_Lopez_in_finale.jpg"
+
+- id: wrestling-leipzig-1955
+  sport: wrestling
+  file: /images/wrestling/leipzig-1955.jpg
+  width: 800
+  height: 603
+  alt: "Two wrestlers grappling on a canvas mat while others watch from the edge, 1955"
+  shows: >
+   Wrestling at the German College of Physical Culture in Leipzig, 1955, on a
+   canvas mat.
+  title: "Bundesarchiv Bild 183-33533-0005, Leipzig, DHfK, Ringen.jpg"
+  author: "Müller / Bundesarchiv"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-33533-0005,_Leipzig,_DHfK,_Ringen.jpg"
+
+- id: wrestling-london-2012-women
+  sport: wrestling
+  file: /images/wrestling/london-2012-women.jpg
+  width: 1200
+  height: 938
+  alt: "An Olympic medal ceremony for women's wrestling in a packed hall"
+  shows: >
+   The women's freestyle 48 kg medal ceremony at London 2012.
+  title: "Olympic Wrestling - Women's 48kg Victory Ceremony.jpg"
+  author: "Matt Churchill"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Olympic_Wrestling_-_Women%27s_48kg_Victory_Ceremony.jpg"
+
+- id: wrestling-icho-2008
+  sport: wrestling
+  file: /images/wrestling/icho-2008.jpg
+  width: 1024
+  height: 681
+  alt: "A Japanese wrestler pinning an opponent on a mat"
+  shows: >
+   Kaori Icho of Japan at Beijing 2008. She won four successive Olympic titles
+   from 2004 to 2016.
+  title: "Kaori Icho.jpg"
+  author: "Marcello Farina"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kaori_Icho.jpg"
+
+- id: wrestling-asgarov-2016
+  sport: wrestling
+  file: /images/wrestling/asgarov-2016.jpg
+  width: 1200
+  height: 798
+  alt: "Two freestyle wrestlers tied up in a standing clinch beside the scoreboard"
+  shows: >
+   Toghrul Asgarov of Azerbaijan against Kvyatkovskyy of Ukraine in freestyle
+   at Rio 2016: two periods and cumulative scoring since 2013.
+  title: "Wrestling at the 2016 Summer Olympics, Asgarov vs Kvyatkovskyy.jpg"
+  author: "Ilgar Jafarov"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Wrestling_at_the_2016_Summer_Olympics,_Asgarov_vs_Kvyatkovskyy.jpg"
+
+- id: wrestling-rio-referee
+  sport: wrestling
+  file: /images/wrestling/rio-referee.jpg
+  width: 800
+  height: 531
+  alt: "A referee in a blue shirt bending to watch the action on the mat"
+  shows: >
+   The mat referee during a Greco-Roman bout at Rio 2016. A judge and a mat
+   chairman sit alongside.
+  title: "Wrestling at the 2016 Summer Olympics – 85 kg Men's Greco-Roman 20.jpg"
+  author: "Mehdi Daylari / Tasnim"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Wrestling_at_the_2016_Summer_Olympics_%E2%80%93_85_kg_Men%27s_Greco-Roman_20.jpg"
+
+- id: wrestling-rio-scoreboard
+  sport: wrestling
+  file: /images/wrestling/rio-scoreboard.jpg
+  width: 1200
+  height: 798
+  alt: "An Olympic wrestling scoreboard for a women's freestyle bout"
+  shows: >
+   The scoreboard for Mariya Stadnik of Azerbaijan against Patricia Bermúdez of
+   Argentina, women's freestyle 48 kg, Rio 2016.
+  title: "Wrestling at the 2016 Summer Olympics, Stadnik vs Bermudez 2.jpg"
+  author: "Ilgar Jafarov"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Wrestling_at_the_2016_Summer_Olympics,_Stadnik_vs_Bermudez_2.jpg"
+
+- id: wrestling-paris-2024-greco
+  sport: wrestling
+  file: /images/wrestling/paris-2024-greco.jpg
+  width: 1024
+  height: 683
+  alt: "Two Greco-Roman wrestlers locked in an underhook, one with a bandaged head"
+  shows: >
+   Parviz Nasibov of Ukraine against Saeid Esmaeili of Iran in the Greco-Roman
+   67 kg final at Paris 2024.
+  title: "Parviz Nasibov (UKR) vs Saeid Esmaeili (IRI) at Paris 2024.png"
+  author: "Ministry of Youth and Sports of Ukraine"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Parviz_Nasibov_(UKR)_vs_Saeid_Esmaeili_(IRI)_at_Paris_2024.png"
+
+- id: wrestling-yazdani-2018
+  sport: wrestling
+  file: /images/wrestling/yazdani-2018.jpg
+  width: 856
+  height: 700
+  alt: "An Iranian wrestler walking off after a bout as his opponent kneels"
+  shows: >
+   Hassan Yazdani of Iran after a bout at the 2018 Asian Games in Jakarta.
+  title: "Hassan Yazdani in Jakarta 01.jpg"
+  author: "Amir Hosseini"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Hassan_Yazdani_in_Jakarta_01.jpg"
+
+- id: wrestling-naadam-2010
+  sport: wrestling
+  file: /images/wrestling/naadam-2010.jpg
+  width: 1200
+  height: 798
+  alt: "Two Mongolian wrestlers in traditional costume grappling on grass"
+  shows: >
+   Bökh at the Naadam festival in Mandalgovi, Mongolia, 2010.
+  title: "Mongolian Naadam Wrestlers - 2010.jpg"
+  author: "FischerFotos"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Mongolian_Naadam_Wrestlers_-_2010.jpg"
+
+- id: wrestling-naadam-2023
+  sport: wrestling
+  file: /images/wrestling/naadam-2023.jpg
+  width: 1200
+  height: 751
+  alt: "Many pairs of Mongolian wrestlers grappling at once in a stadium"
+  shows: >
+   Wrestlers at Naadam in Ulaanbaatar, 2023.
+  title: "Naadam 2023, Ulan Bator 08.jpg"
+  author: "Bernard Gagnon"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Naadam_2023,_Ulan_Bator_08.jpg"
+
+- id: wrestling-kushti
+  sport: wrestling
+  file: /images/wrestling/kushti.jpg
+  width: 800
+  height: 1200
+  alt: "Two kushti wrestlers mid-throw in a mud pit before a crowd"
+  shows: >
+   Kushti in a mud akhara in Haryana, India, 2025.
+  title: "Kushti.jpg"
+  author: "Artoffabhi"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kushti.jpg"
+
+- id: wrestling-akhara
+  sport: wrestling
+  file: /images/wrestling/akhara.jpg
+  width: 768
+  height: 1024
+  alt: "An Indian wrestler training with heavy wooden clubs at an akhara"
+  shows: >
+   A wrestler training with clubs at an akhara in India, 2010.
+  title: "India wrestling akhara training.jpg"
+  author: "Paratha Sarathi Sahana"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:India_wrestling_akhara_training.jpg"
+
+- id: wrestling-lopez-2024
+  sport: wrestling
+  file: /images/wrestling/lopez-2024.jpg
+  width: 1200
+  height: 867
+  alt: "A Cuban heavyweight wrestler in a red singlet"
+  shows: >
+   Mijaín López of Cuba at Paris 2024, where he won a fifth successive Olympic
+   Greco-Roman title.
+  title: "Mijaín López at the 2024 Summer Olympics.jpg"
+  author: "Dilaver Najafov"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Mija%C3%ADn_L%C3%B3pez_at_the_2024_Summer_Olympics.jpg"
+
+- id: wrestling-paris-2024-women
+  sport: wrestling
+  file: /images/wrestling/paris-2024-women.jpg
+  width: 1200
+  height: 1088
+  alt: "Four women wrestlers on an Olympic podium"
+  shows: >
+   The women's freestyle 62 kg podium at Paris 2024.
+  title: "Victory ceremony of the Women's freestyle 62 kg at Paris 2024.png"
+  author: "Ministry of Youth and Sports of Ukraine"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Victory_ceremony_of_the_Women%27s_freestyle_62_kg_at_Paris_2024.png"
+
+- id: wrestling-women-freestyle
+  sport: wrestling
+  slot: "play:field"
+  file: /images/wrestling/women-freestyle.jpg
+  width: 1200
+  height: 737
+  alt: "Two women wrestlers in a collar tie, foreheads together"
+  shows: >
+   Iris Smith of the United States against Lijun Yang of China at the 2010
+   World Military Wrestling Championships.
+  title: "U.S. Army World Class Athlete Program wrestler Sgt. Iris Smith (right) defeats Chinas Lijun Yang.jpg"
+  author: "U.S. Army"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:U.S._Army_World_Class_Athlete_Program_wrestler_Sgt._Iris_Smith_(right)_defeats_Chinas_Lijun_Yang.jpg"
