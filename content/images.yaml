@@ -17341,3 +17341,328 @@
   licence: "Public domain"
   licence_url: ""
   source_url: "https://commons.wikimedia.org/wiki/File:Board_breaking.jpg"
+
+# Triathlon.
+
+- id: triathlon-kona-swim-2005
+  sport: triathlon
+  file: /images/triathlon/kona-swim-2005.jpg
+  width: 1200
+  height: 857
+  alt: "Hundreds of swimmers in green caps churning the sea at a mass start"
+  shows: >
+   Almost two thousand starters setting off on the 2.4-mile swim at the Ironman
+   World Championship, Kailua-Kona, Hawaii, 2005.
+  title: "US Navy 051015-N-9419C-004 Almost 2,000 triathletes begin the 2.4-mile swim at the Ironman World Championship triathlon, held in Kailua-Kona, Hawaii.jpg"
+  author: "U.S. Navy / Deborah Carson"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:US_Navy_051015-N-9419C-004_Almost_2,000_triathletes_begin_the_2.4-mile_swim_at_the_Ironman_World_Championship_triathlon,_held_in_Kailua-Kona,_Hawaii.jpg"
+
+- id: triathlon-kona-bike-course
+  sport: triathlon
+  file: /images/triathlon/kona-bike-course.jpg
+  width: 491
+  height: 1200
+  alt: "A map of the Ironman Hawaii bike course running up the coast from Kailua-Kona to Hawi and back"
+  shows: >
+   The Ironman Hawaii bike course: 180 kilometres up the Kona coast to Hawi and
+   back, a distance chosen before television had a say.
+  title: "Kailua-Kona Ironman cycling map ger.svg"
+  author: "Flappiefh"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Kailua-Kona_Ironman_cycling_map_ger.svg"
+
+- id: triathlon-ironman-frankfurt-2013
+  sport: triathlon
+  file: /images/triathlon/ironman-frankfurt-2013.jpg
+  width: 668
+  height: 1200
+  alt: "A triathlete on a time-trial bike riding alone down a cobbled street lined with spectators"
+  shows: >
+   Eneko Llanos at Ironman Frankfurt, 2013: long-distance racing, alone on the
+   bike, with drafting banned.
+  title: "Ironman Frankfurt 2013 by Moritz Kosinsky8481.jpg"
+  author: "Moritz Kosinsky"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ironman_Frankfurt_2013_by_Moritz_Kosinsky8481.jpg"
+
+- id: triathlon-hyde-park-run-2012
+  sport: triathlon
+  file: /images/triathlon/hyde-park-run-2012.jpg
+  width: 1200
+  height: 900
+  alt: "Triathletes running on a blue track past a dense crowd in Hyde Park"
+  shows: >
+   The run in the women's triathlon at London 2012, Hyde Park: the Olympic
+   distance, under two hours.
+  title: "Olympics women's triathlon Hyde Park - running - geograph.org.uk - 3066904.jpg"
+  author: "David Hawgood"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Olympics_women%27s_triathlon_Hyde_Park_-_running_-_geograph.org.uk_-_3066904.jpg"
+
+- id: triathlon-chasing-pack-2012
+  sport: triathlon
+  file: /images/triathlon/chasing-pack-2012.jpg
+  width: 1200
+  height: 901
+  alt: "A tight group of triathletes on road bikes riding close behind each other past a crowd"
+  shows: >
+   The chasing pack in the men's triathlon at London 2012, riding in each
+   other's slipstream: drafting has been legal at elite level since 1995.
+  title: "Chasing pack of the Olympic 2012 triathlon.jpg"
+  author: "ㇹヮィㇳ"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Chasing_pack_of_the_Olympic_2012_triathlon.jpg"
+
+- id: triathlon-brownlee-hayes-2012
+  sport: triathlon
+  file: /images/triathlon/brownlee-hayes-2012.jpg
+  width: 1200
+  height: 901
+  alt: "Two British triathletes riding one behind the other in front of a cheering crowd"
+  shows: >
+   Stuart Hayes leading Jonathan Brownlee on the bike at London 2012, a
+   teammate working for the leader as in a cycling peloton.
+  title: "Brownlee and Hayes.jpg"
+  author: "ㇹヮィㇳ"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Brownlee_and_Hayes.jpg"
+
+- id: triathlon-tt-bike
+  sport: triathlon
+  file: /images/triathlon/tt-bike.jpg
+  width: 1200
+  height: 799
+  alt: "A carbon time-trial bicycle with tri-bars and deep-section wheels"
+  shows: >
+   A time-trial bike with tri-bars and deep wheels: the equipment of age-group
+   racing, prohibited in the elite drafting race.
+  title: "Argon18 e118 TT bike.jpg"
+  author: "Glory Cycles"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Argon18_e118_TT_bike.jpg"
+
+- id: triathlon-tri-bars
+  sport: triathlon
+  file: /images/triathlon/tri-bars.jpg
+  width: 1200
+  height: 800
+  alt: "A close-up of a rider's forearms resting on aerodynamic tri-bars"
+  shows: >
+   Forearms on tri-bars at the first Dresden City Triathlon, 2015.
+  title: "Dresden 1. Triathlon (19930191430).jpg"
+  author: "Christoph Freitag"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Dresden_1._Triathlon_(19930191430).jpg"
+
+- id: triathlon-wetsuits
+  sport: triathlon
+  file: /images/triathlon/wetsuits.jpg
+  width: 1200
+  height: 801
+  alt: "Two triathletes zipping each other into wetsuits beside their bikes"
+  shows: >
+   Triathletes pulling on wetsuits before a training session, 2012. Wetsuits
+   are mandatory below a water temperature and banned above another.
+  title: "Habillage Triathlon.jpg"
+  author: "PA"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Habillage_Triathlon.jpg"
+
+- id: triathlon-helmet-fastened
+  sport: triathlon
+  file: /images/triathlon/helmet-fastened.jpg
+  width: 844
+  height: 1200
+  alt: "A triathlete in cycling kit fastening his helmet strap beside his bike in transition"
+  shows: >
+   Fastening the helmet in transition at a mini-triathlon at Keesler Air Force
+   Base, 2016: it must be done up before the bike leaves the rack.
+  title: "Mini-triathlon tests athletes grit 160923-F-BD983-059.jpg"
+  author: "U.S. Air Force / Kemberly Groue"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Mini-triathlon_tests_athletes_grit_160923-F-BD983-059.jpg"
+
+- id: triathlon-tv-motorbike-2012
+  sport: triathlon
+  file: /images/triathlon/tv-motorbike-2012.jpg
+  width: 1200
+  height: 902
+  alt: "A television camera operator riding pillion on a motorbike along a barriered course"
+  shows: >
+   A television motorbike on the course at the London 2012 triathlon.
+  title: "Olympics triathlon Hyde Park - TV motorbike - geograph.org.uk - 3066748.jpg"
+  author: "David Hawgood"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Olympics_triathlon_Hyde_Park_-_TV_motorbike_-_geograph.org.uk_-_3066748.jpg"
+
+- id: triathlon-hyde-park-bike-2012
+  sport: triathlon
+  file: /images/triathlon/hyde-park-bike-2012.jpg
+  width: 1200
+  height: 709
+  alt: "Triathletes cornering on road bikes by Hyde Park Corner in front of crowds"
+  shows: >
+   The bike leg at Hyde Park Corner, London 2012.
+  title: "Athletes burning rubber during mens triathlon (7741371212).jpg"
+  author: "David Poultney / DCMS"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Athletes_burning_rubber_during_mens_triathlon_(7741371212).jpg"
+
+- id: triathlon-seine-buoys
+  sport: triathlon
+  file: /images/triathlon/seine-buoys.jpg
+  width: 1200
+  height: 800
+  alt: "Yellow Paris 2024 buoys and a safety boat on the Seine"
+  shows: >
+   Course buoys and a safety boat on the Seine for the Paris 2024 triathlon,
+   whose swims were thrown into doubt by water quality after rain.
+  title: "Triathlon JO Paris 2024 - Seine - Pont Alexandre III (09).jpg"
+  author: "AlSepPhoenix"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Triathlon_JO_Paris_2024_-_Seine_-_Pont_Alexandre_III_(09).jpg"
+
+- id: triathlon-seine-swim-safety
+  sport: triathlon
+  file: /images/triathlon/seine-swim-safety.jpg
+  width: 1200
+  height: 800
+  alt: "Safety boats and a kayak on the Seine below the quay"
+  shows: >
+   Safety boats on the Seine during the Paris 2024 triathlon.
+  title: "Triathlon JO Paris 2024 - Seine - Pont Alexandre III (04).jpg"
+  author: "AlSepPhoenix"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Triathlon_JO_Paris_2024_-_Seine_-_Pont_Alexandre_III_(04).jpg"
+
+- id: triathlon-rio-women-pack
+  sport: triathlon
+  file: /images/triathlon/rio-women-pack.jpg
+  width: 800
+  height: 1200
+  alt: "A pack of women triathletes on road bikes riding close together along Copacabana"
+  shows: >
+   The women's bike pack along Copacabana at Rio 2016.
+  title: "Women Triathlon, Rio 2016 3.jpg"
+  author: "Diego Baravelli"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Women_Triathlon,_Rio_2016_3.jpg"
+
+- id: triathlon-paris-transition
+  sport: triathlon
+  file: /images/triathlon/paris-transition.jpg
+  width: 1200
+  height: 900
+  alt: "A blue-carpeted transition area laid out across the Pont Alexandre III in Paris"
+  shows: >
+   The transition area on the Pont Alexandre III for the Paris 2024 triathlon,
+   where helmet and mount-line rules are policed.
+  title: "Paris2024 - Triathlon - 01 - Transition.jpg"
+  author: "Rz98"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Paris2024_-_Triathlon_-_01_-_Transition.jpg"
+
+- id: triathlon-hever-transition
+  sport: triathlon
+  file: /images/triathlon/hever-transition.jpg
+  width: 1024
+  height: 684
+  alt: "A long fenced transition area on a grass field with a bike-out arch"
+  shows: >
+   The transition area at the Hever Castle Triathlon in England, 2020: an age-
+   group event on the non-drafting rules.
+  title: "Transition area, Hever Castle Triathlon - geograph.org.uk - 6832682.jpg"
+  author: "N Chadwick"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Transition_area,_Hever_Castle_Triathlon_-_geograph.org.uk_-_6832682.jpg"
+
+- id: triathlon-yee-2024
+  sport: triathlon
+  file: /images/triathlon/yee-2024.jpg
+  width: 899
+  height: 1200
+  alt: "A British triathlete running hard past a crowd"
+  shows: >
+   Alex Yee of Great Britain on the run at Paris 2024, where he took the gold
+   in the final kilometre: the race decided by the 10 km run.
+  title: "Paris2024 - Triathlon - 19 - Alex Yee.jpg"
+  author: "Rz98"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Paris2024_-_Triathlon_-_19_-_Alex_Yee.jpg"
+
+- id: triathlon-jorgensen-2013
+  sport: triathlon
+  file: /images/triathlon/jorgensen-2013.jpg
+  width: 971
+  height: 1200
+  alt: "An American triathlete holding a series leader's trophy"
+  shows: >
+   Gwen Jorgensen of the United States winning in Stockholm in 2013 and taking
+   the series lead. She won the Olympic title in 2016.
+  title: "Gwen Jorgensen winner in Stockholm 2013 -4.jpg"
+  author: "Frankie Fouganthin"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Gwen_Jorgensen_winner_in_Stockholm_2013_-4.jpg"
+
+- id: triathlon-duffy-2016
+  sport: triathlon
+  file: /images/triathlon/duffy-2016.jpg
+  width: 800
+  height: 1200
+  alt: "Two women triathletes riding through a city street"
+  shows: >
+   Flora Duffy of Bermuda leading Lucy Hall at the Leeds Triathlon, 2016. Duffy
+   won Bermuda's first Olympic gold in 2021.
+  title: "Flora Duffy and Lucy Hall, Leeds Triathlon 2016.jpg"
+  author: "Lloyd Tudor"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Flora_Duffy_and_Lucy_Hall,_Leeds_Triathlon_2016.jpg"
+
+- id: triathlon-age-group-swim
+  sport: triathlon
+  file: /images/triathlon/age-group-swim.jpg
+  width: 1200
+  height: 797
+  alt: "Swimmers in green caps setting off in a marina with a kayaker watching"
+  shows: >
+   An age-group swim start in a marina at Yokosuka, Japan, 2011.
+  title: "US Navy 110507-N-5891C-187 Sailors and other members of the Yokosuka community start the 400-meter swim portion of the 2011 Subway Triathlon Series.jpg"
+  author: "U.S. Navy"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:US_Navy_110507-N-5891C-187_Sailors_and_other_members_of_the_Yokosuka_community_start_the_400-meter_swim_portion_of_the_2011_Subway_Triathlon_Series.jpg"
+
+- id: triathlon-dorney-transition
+  sport: triathlon
+  file: /images/triathlon/dorney-transition.jpg
+  width: 1024
+  height: 684
+  alt: "Rows of bikes racked in a transition area beside a lake building"
+  shows: >
+   The transition area of an age-group triathlon at Dorney Lake, 2022.
+  title: "Triathlon transition area, Dorney Lake - geograph.org.uk - 7294913.jpg"
+  author: "N Chadwick"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Triathlon_transition_area,_Dorney_Lake_-_geograph.org.uk_-_7294913.jpg"
