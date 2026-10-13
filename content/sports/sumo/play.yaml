@@ -38,7 +38,7 @@ sections:
       opponent as much as the other wrestler.
     facts:
       - { label: Ring diameter, value: 4.55 m }
-      - { label: Surface, value: Clay, with a sand border }
+      - { label: Surface, value: "Clay, with a sand border" }
       - { label: Boundary, value: Half-buried straw bales }
 
   - id: equipment
@@ -52,7 +52,7 @@ sections:
       winning techniques involve gripping it, so what a wrestler is wearing is
       the principal handle by which they can be moved.
     facts:
-      - { label: Mawashi, value: The only garment, and the main grip }
+      - { label: Mawashi, value: "The only garment, and the main grip" }
       - { label: Protective equipment, value: None }
 
   - id: players
@@ -69,7 +69,7 @@ sections:
     facts:
       - { label: Professional, value: No weight classes }
       - { label: International amateur, value: Weight classes and an open division }
-      - { label: Officials, value: One ring referee, five judges }
+      - { label: Officials, value: "One ring referee, five judges" }
     shaped_by: [sumo-no-weight-classes, sumo-1992-ifs-founded]
 
   - id: duration
