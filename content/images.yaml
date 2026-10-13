@@ -14341,3 +14341,336 @@
   licence: "CC BY-SA 4.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Liubou_Bialova_IPF_10_World_Single_Bench_Press_Championship_1999.jpg"
+
+# Rowing.
+
+- id: rowing-doggett-chelsea
+  sport: rowing
+  file: /images/rowing/doggett-chelsea.jpg
+  width: 1200
+  height: 778
+  alt: "A watercolour of crowds on a riverbank and boats on the Thames at Chelsea, watching a sculling race"
+  shows: >
+   Edward Francis Burney's view at Chelsea of the annual sculling race for
+   Doggett's Coat and Badge, the watermen's race held on the Thames since 1715.
+  title: "Edward Francis Burney - View at Chelsea of the Annual Sculling Race for Doggett's Coat and Badge - B2001.2.695 - Yale Center for British Art.jpg"
+  author: "Edward Francis Burney"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Edward_Francis_Burney_-_View_at_Chelsea_of_the_Annual_Sculling_Race_for_Doggett%27s_Coat_and_Badge_-_B2001.2.695_-_Yale_Center_for_British_Art.jpg"
+
+- id: rowing-doggett-winners
+  sport: rowing
+  file: /images/rowing/doggett-winners.jpg
+  width: 1200
+  height: 1123
+  alt: "Three watermen in long coats with large silver badges on their sleeves standing in a doorway"
+  shows: >
+   Three winners of Doggett's Coat and Badge photographed around 1901 by
+   Benjamin Stone: J. J. Turferry (1900), W. H. Campbell (1850) and A. H.
+   Brewer (1901), in the coat and badge that are the prize.
+  title: "Doggett's Coat and Badge winners c1901 Stone.jpg"
+  author: "John Benjamin Stone"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Doggett%27s_Coat_and_Badge_winners_c1901_Stone.jpg"
+
+- id: rowing-henley-1895
+  sport: rowing
+  file: /images/rowing/henley-1895.jpg
+  width: 640
+  height: 446
+  alt: "The river at Henley crowded with small boats and punts between races"
+  shows: >
+   Between heats at Henley Royal Regatta in 1895.
+  title: "1895 Henley Royal Regatta between heats.jpg"
+  author: "Young"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:1895_Henley_Royal_Regatta_between_heats.jpg"
+
+- id: rowing-boat-race-2012
+  sport: rowing
+  file: /images/rowing/boat-race-2012.jpg
+  width: 1024
+  height: 680
+  alt: "An eight racing on the Thames past riverside houses, a launch following"
+  shows: >
+   The Boat Race between Oxford and Cambridge near Hammersmith Bridge in 2012.
+  title: "Boat Race 2012 In Hammersmith 5 (7055120451).jpg"
+  author: "ale from Italy"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Boat_Race_2012_In_Hammersmith_5_(7055120451).jpg"
+
+- id: rowing-aiguebelette-start
+  sport: rowing
+  file: /images/rowing/aiguebelette-start.jpg
+  width: 1200
+  height: 900
+  alt: "A start pontoon and starting tower on a lake, with World Rowing banners in the water"
+  shows: >
+   The start at the 2015 World Rowing Championships on Lac d'Aiguebelette,
+   France: the beginning of a buoyed 2000-metre course.
+  title: "Aiguebelette 2015 - 08-30 20.JPG"
+  author: "Florian Pépellin"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Aiguebelette_2015_-_08-30_20.JPG"
+
+- id: rowing-bobby-pearce
+  sport: rowing
+  file: /images/rowing/bobby-pearce.jpg
+  width: 1200
+  height: 990
+  alt: "A sculler in a vest sitting in a single scull holding his oars"
+  shows: >
+   Bobby Pearce of Australia, Olympic single sculls champion in 1928. Entering
+   the Diamond Sculls at Henley later that year, he was ruled ineligible
+   because he was a carpenter: the rules excluded anyone 'by trade or
+   employment for wages a mechanic, artisan or labourer'.
+  title: "Bobby Pearce in a single scull.jpg"
+  author: "Milton Kent / Australian National Maritime Museum"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Bobby_Pearce_in_a_single_scull.jpg"
+
+- id: rowing-sliding-seat-1871
+  sport: rowing
+  file: /images/rowing/sliding-seat-1871.jpg
+  width: 315
+  height: 152
+  alt: "An engraving of a curved seat on rails"
+  shows: >
+   John C. Babcock's sliding seat, from an 1871 oarsman's catalogue.
+  title: "Babcocks Sliding seat 1869.jpg"
+  author: "Illustrated Catalogue and Oarsman's Manual"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Babcocks_Sliding_seat_1869.jpg"
+
+- id: rowing-seat-and-stretcher
+  sport: rowing
+  file: /images/rowing/seat-and-stretcher.jpg
+  width: 1200
+  height: 1200
+  alt: "The wooden interior of an old racing boat: a seat on its slide and a pair of shoes fixed to the footboard"
+  shows: >
+   Inside an older racing boat: the seat on its slide and the fixed footrests,
+   the arrangement that brought the legs into the stroke.
+  title: "Rowing 4 2009.jpg"
+  author: "Bengt Nyman"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rowing_4_2009.jpg"
+
+- id: rowing-leander-eight-1912
+  sport: rowing
+  file: /images/rowing/leander-eight-1912.jpg
+  width: 1200
+  height: 871
+  alt: "A wooden racing eight seen from above in a museum, its seats and footrests visible"
+  shows: >
+   The wooden eight in which Leander Club won at the Stockholm Olympics in
+   1912, kept at the Swedish sports museum.
+  title: "Riksidrottsmuseet vinnarbåten 1912b.jpg"
+  author: "Holger.Ellgaard"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Riksidrottsmuseet_vinnarb%C3%A5ten_1912b.jpg"
+
+- id: rowing-lightweight-four-2012
+  sport: rowing
+  file: /images/rowing/lightweight-four-2012.jpg
+  width: 1200
+  height: 669
+  alt: "Two coxless fours racing side by side on a buoyed course with Olympic banners behind"
+  shows: >
+   Great Britain and the Czech Republic in a heat of the men's lightweight
+   coxless four at the London 2012 Olympics, an event that has since left the
+   programme.
+  title: "Rowing at the 2012 Summer Olympics 9240 Mens lightweight coxless four - Heat 2 - GBR CZE.jpg"
+  author: "Steve Elliott"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rowing_at_the_2012_Summer_Olympics_9240_Mens_lightweight_coxless_four_-_Heat_2_-_GBR_CZE.jpg"
+
+- id: rowing-beach-sprint-start
+  sport: rowing
+  file: /images/rowing/beach-sprint-start.jpg
+  width: 1200
+  height: 900
+  alt: "A crowded beach with a start area, tents and spectators, boats waiting at the water's edge"
+  shows: >
+   The start area at the 2024 World Rowing Beach Sprint Finals: a beach instead
+   of a 2000-metre course.
+  title: "2024 World Rowing Beach Sprint Finals 06.jpg"
+  author: "Postcrosser"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2024_World_Rowing_Beach_Sprint_Finals_06.jpg"
+
+- id: rowing-beach-sprint-boats
+  sport: rowing
+  file: /images/rowing/beach-sprint-boats.jpg
+  width: 1200
+  height: 900
+  alt: "Rows of coastal rowing boats laid out on a shingle beach with crowds and surf behind"
+  shows: >
+   Coastal quad sculls on the beach at the same finals.
+  title: "2024 World Rowing Beach Sprint Finals quad scull boats.jpg"
+  author: "Postcrosser"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2024_World_Rowing_Beach_Sprint_Finals_quad_scull_boats.jpg"
+
+- id: rowing-lanes-2009
+  sport: rowing
+  file: /images/rowing/lanes-2009.jpg
+  width: 1200
+  height: 800
+  alt: "Several coxless fours racing in separate buoyed lanes"
+  shows: >
+   Coxless fours in their lanes at the 2009 World Rowing Championships. Crews
+   race apart, and the lane draw decides who gets the shelter.
+  title: "Rowing Worlds - Fantastic Four of Fours.jpg"
+  author: "Ainunau"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rowing_Worlds_-_Fantastic_Four_of_Fours.jpg"
+
+- id: rowing-max-schmitt
+  sport: rowing
+  file: /images/rowing/max-schmitt.jpg
+  width: 1200
+  height: 840
+  alt: "A painting of a sculler resting in a single scull on a calm river with a bridge behind"
+  shows: >
+   Thomas Eakins's The Champion Single Sculls (1871): Max Schmitt, an attorney
+   and amateur sculler, on the Schuylkill in Philadelphia.
+  title: "The Champion Single Sculls (Max Schmitt in a Single Scull) (IA mma the champion single sculls max schmitt in a single scull 10819).jpg"
+  author: "Thomas Eakins"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:The_Champion_Single_Sculls_(Max_Schmitt_in_a_Single_Scull)_(IA_mma_the_champion_single_sculls_max_schmitt_in_a_single_scull_10819).jpg"
+
+- id: rowing-umpire-launch-eva
+  sport: rowing
+  file: /images/rowing/umpire-launch-eva.jpg
+  width: 640
+  height: 421
+  alt: "An old steam launch hull under restoration in a workshop"
+  shows: >
+   The steam launch Eva, built in 1874 as an umpire's launch and used at Henley
+   from 1874 to 1876, seen under restoration.
+  title: "Steam launch Eva (boat, 1874).jpg"
+  author: "Chris Allen"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Steam_launch_Eva_(boat,_1874).jpg"
+
+- id: rowing-photo-finish-2005
+  sport: rowing
+  file: /images/rowing/photo-finish-2005.jpg
+  width: 847
+  height: 237
+  alt: "A stretched photo-finish image of an eight crossing the line"
+  shows: >
+   A photo-finish image of the German junior eight at the 2005 World Rowing
+   Junior Championships in Brandenburg: the finish is the part of rowing that
+   is measured.
+  title: "Fotofinish-scano-rowing-GER-JM8-2005.jpg"
+  author: "technical staff members of the 2005 World Rowing Junior Championships"
+  licence: "CC BY-SA 2.5"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.5"
+  source_url: "https://commons.wikimedia.org/wiki/File:Fotofinish-scano-rowing-GER-JM8-2005.jpg"
+
+- id: rowing-bosbaan-1955
+  sport: rowing
+  file: /images/rowing/bosbaan-1955.jpg
+  width: 1200
+  height: 996
+  alt: "Women's eights racing on a long straight course with spectators lining the bank, 1955"
+  shows: >
+   The finish of the women's eights at the Dutch national championships on the
+   Bosbaan, Amsterdam, 1955.
+  title: "Nationaal roeikampioenschap Bosbaan, finish dames 8, Bestanddeelnr 907-2151.jpg"
+  author: "Wim van Rossem / Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Nationaal_roeikampioenschap_Bosbaan,_finish_dames_8,_Bestanddeelnr_907-2151.jpg"
+
+- id: rowing-soviet-eight-1964
+  sport: rowing
+  file: /images/rowing/soviet-eight-1964.jpg
+  width: 1200
+  height: 781
+  alt: "A Soviet eight crossing the finish beside a lane marker tower, 1964"
+  shows: >
+   The Soviet eight at the finish of a heat at the 1964 European Championships
+   on the Bosbaan.
+  title: "Soviet men rowing eight EC 1964b.jpg"
+  author: "Hugo van Gelderen / Anefo"
+  licence: "CC BY-SA 3.0 nl"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Soviet_men_rowing_eight_EC_1964b.jpg"
+
+- id: rowing-sea-forest
+  sport: rowing
+  file: /images/rowing/sea-forest.jpg
+  width: 1200
+  height: 795
+  alt: "A long concrete waterside promenade beside a rowing course with a grandstand at the end"
+  shows: >
+   The Sea Forest Waterway, built for rowing and canoe sprint at the Tokyo
+   Olympics, in July 2021.
+  title: "Sea Forest Waterway Tokyo (cropped).jpg"
+  author: "U.S. Department of State"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Sea_Forest_Waterway_Tokyo_(cropped).jpg"
+
+- id: rowing-vaires-2024
+  sport: rowing
+  slot: "play:field"
+  file: /images/rowing/vaires-2024.jpg
+  width: 1200
+  height: 734
+  alt: "A double scull on a buoyed course lined with rows of yellow buoys"
+  shows: >
+   A double on the course at the Vaires-sur-Marne nautical stadium, venue for
+   Paris 2024, with the lane buoys running down the 2000 metres.
+  title: "Stade Nautique Vaires Marne - Vaires-sur-Marne (FR77) - 2024-07-28 - 3.jpg"
+  author: "Chabe01"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Stade_Nautique_Vaires_Marne_-_Vaires-sur-Marne_(FR77)_-_2024-07-28_-_3.jpg"
+
+- id: rowing-indoor-2020
+  sport: rowing
+  file: /images/rowing/indoor-2020.jpg
+  width: 1200
+  height: 800
+  alt: "An arena floor lined with rows of rowing machines under stage lights and a results screen"
+  shows: >
+   The 2020 World Rowing Indoor Championships in Paris.
+  title: "2020 World Rowing Indoor Championships.jpg"
+  author: "Vanbasten 23"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2020_World_Rowing_Indoor_Championships.jpg"
+
+- id: rowing-ergometers-poznan
+  sport: rowing
+  file: /images/rowing/ergometers-poznan.jpg
+  width: 1200
+  height: 800
+  alt: "A school hall with a line of rowing machines and crowds of children and adults watching"
+  shows: >
+   A public ergometer competition run by the Polonia Rowing Club in Poznań,
+   2016.
+  title: "Ergometr dla wszystkich.jpg"
+  author: "Szymonrakowski"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Ergometr_dla_wszystkich.jpg"
