@@ -565,6 +565,17 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <circle cx="23" cy="18" r="1.5" fill="none" />
     </>
   ),
+  // The loaded bar under the three referees' lights, two white and one red:
+  // the weight is a fact, and whether it counts is a majority of three.
+  powerlifting: (
+    <>
+      <circle cx="18" cy="14" r="5" fill="#F2F5F1" stroke="none" />
+      <circle cx="32" cy="14" r="5" fill="#F2F5F1" stroke="none" />
+      <circle cx="46" cy="14" r="5" fill="none" />
+      <path d="M4 44 H60" fill="none" />
+      <path d="M10 32 V56 M15 30 V58 M49 30 V58 M54 32 V56" fill="none" strokeWidth="4" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
