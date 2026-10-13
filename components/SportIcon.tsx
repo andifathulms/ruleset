@@ -595,6 +595,17 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M50 40 L54 34 L58 40 Z" fill="#F2F5F1" stroke="none" />
     </>
   ),
+  // The sight picture: an iron aperture ring (no optics allowed) centred on the
+  // black aiming mark, and one shot hole a tenth of a ring off dead centre.
+  shooting: (
+    <>
+      <circle cx="32" cy="32" r="24" fill="none" />
+      <circle cx="32" cy="32" r="19" fill="none" strokeWidth="1" />
+      <circle cx="32" cy="32" r="11" fill="#F2F5F1" stroke="none" />
+      <circle cx="33.5" cy="30.5" r="2.5" fill="none" strokeWidth="1.5" />
+      <path d="M32 2 V8 M32 56 V62 M2 32 H8 M56 32 H62" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
