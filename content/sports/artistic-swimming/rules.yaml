@@ -1,0 +1,86 @@
+- id: fina-2017-renamed-artistic-swimming
+  scope: { sport: artistic-swimming }
+  date_adopted: 2017-07
+  date_effective: 2017-07
+  status: adopted
+  governing_body: Fédération Internationale de Natation
+  what_changed: >
+    Synchronised swimming renamed artistic swimming by vote of the FINA
+    General Congress in Budapest. The rules, events and scoring were not
+    changed by the vote; the sport has competed under the new name since.
+  cause_primary: disputed
+  cause_secondary: commercial
+  trigger:
+    description: >
+      FINA's stated reason, from its vice-president Sam Ramsamy, was that the
+      name "brings it into line with artistic gymnastics and will be better
+      understood by the public and the media. This should help us rebrand and
+      enhance its popularity." Its executive director Cornel Marculescu said
+      the issue had come "from the media … and also from the (International
+      Olympic Committee)".
+    also_said: >
+      Mental Floss, reporting The Atlantic, gives the idea as the IOC's, with
+      the sport's own technical committee resisting before it relented. Inside
+      Synchro records that the vote was taken by the general congress, two
+      delegates per country from any aquatic sport, not by the synchronised
+      swimming experts, and that a protest petition drew nearly 11,000
+      signatures. Whether the change was FINA's rebrand or the IOC's
+      condition is the dispute; both accounts are recorded.
+    source: reuters-2017-artistic-name
+  citation:
+    source: insidesynchro-2017-name
+    edition: FINA General Congress, Budapest, July 2017
+    missing: true
+  comparability_break: null
+
+- id: fina-2023-new-scoring-system
+  scope: { sport: artistic-swimming }
+  date_adopted: 2022-10
+  date_effective: 2023-01-01
+  status: adopted
+  governing_body: Fédération Internationale de Natation
+  what_changed: >
+    Routines declared in advance on a coach card, with every hybrid and
+    acrobatic element given a degree of difficulty calculated by formula.
+    Routines are marked by two panels of five judges, Elements and Artistic
+    Impression, with three difficulty and three synchronisation technical
+    controllers using video review, on a scale of 0 to 10 in quarter points. An element performed differently from its
+    declaration is given a base mark, its minimum value.
+  cause_primary: integrity
+  trigger:
+    description: >
+      The federation's stated aims were to "calculate the difficulty using
+      mathematical values and formulas" and "obtain objective and detailed
+      measurement using technology", dividing the roles of the officials and
+      giving athletes and coaches "more specific feedback".
+    source: fina-2022-technical-congress-roundup
+  citation:
+    source: wa-artistic-swimming-rules-2026
+    edition: Competition Regulations Part Seven, February 2026 (current text)
+    article: "Part Seven, 6.5–6.6"
+  comparability_break: null
+
+- id: ioc-2022-men-in-olympic-team
+  scope: { sport: artistic-swimming, discipline: team }
+  date_adopted: 2022-12-22
+  date_effective: 2024
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Men allowed in the Olympic team event for the first time, up to two in a
+    team of eight. Men had competed at the world championships since the
+    mixed duet was introduced in 2015. The Olympic duet remains a women's
+    event.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      World Aquatics announced the IOC's approval as the outcome of a
+      campaign for men's inclusion led by athletes including Bill May, the
+      first male world champion in 2015, and quoted Giorgio Minisini on "our
+      sport's evolution towards inclusivity".
+    source: wa-2022-men-olympic-artistic
+  citation:
+    source: wa-artistic-swimming-rules-2026
+    edition: Competition Regulations Part Seven, February 2026 (current text)
+    article: "Part Seven, 1.2, 4.2"
+  comparability_break: null

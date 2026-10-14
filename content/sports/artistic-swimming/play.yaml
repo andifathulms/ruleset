@@ -1,0 +1,144 @@
+sport: artistic-swimming
+as_of: 2026-10
+edition: World Aquatics Competition Regulations, Part Seven — Artistic Swimming Rules (February 2026)
+source: wa-artistic-swimming-rules-2026
+standing: primary-checked
+summary: >
+  Perform a routine to music, in the water, without touching the bottom.
+  Since 2023 the difficulty of every element is declared in advance and
+  checked by technical controllers; the judges mark how well it was done and
+  how it looked.
+
+sections:
+  - id: object
+    label: The object of the competition
+    body: >
+      Score the highest total across the routines of an event. At the Games
+      the team swims a technical routine, a free routine and an acrobatic
+      routine, and the duet a technical and a free; the scores of each are
+      added.
+    facts:
+      - { label: Olympic team, value: "Technical, free, acrobatic" }
+      - { label: Olympic duet, value: "Technical, free" }
+    citation:
+      source: wa-artistic-swimming-rules-2026
+      article: "Part Seven, 1.2, 7.2"
+
+  - id: field
+    label: The pool
+    body: >
+      A pool at least thirty metres by twenty and three metres deep at the
+      Games and world championships, with underwater speakers so the swimmers
+      hear the music below the surface and water clear enough to see the
+      bottom.
+    facts:
+      - { label: Olympic pool, value: "30 × 20 m minimum" }
+      - { label: Depth, value: "3.0 m minimum" }
+      - { label: Underwater speakers, value: "4" }
+    citation:
+      source: wa-artistic-swimming-rules-2026
+      article: "Part Seven, 9.1.3, 12.1.4, 12.2.2"
+
+  - id: equipment
+    label: What may be worn
+    body: >
+      A swimsuit, a nose clip and natural make-up. Goggles are not allowed in
+      routines unless approved for medical reasons, nor theatrical make-up,
+      nor any device that aids speed, buoyancy or endurance.
+    facts:
+      - { label: Nose clip, value: Allowed }
+      - { label: Goggles, value: Not in routines }
+      - { label: Theatrical make-up, value: Not allowed }
+    citation:
+      source: wa-artistic-swimming-rules-2026
+      article: "Part Seven, 11.1.4–11.2"
+
+  - id: players
+    label: Swimmers
+    body: >
+      Solo, duet or team. An Olympic team is eight swimmers and a reserve, and
+      may include up to two men. The Olympic duet is a women's event; the
+      world championships also hold men's solos and a mixed duet of one woman
+      and one man.
+    facts:
+      - { label: Olympic team, value: 8 and a reserve }
+      - { label: Men in a team, value: Up to 2 }
+      - { label: Mixed duet, value: "1 woman, 1 man" }
+    shaped_by: [ioc-2022-men-in-olympic-team]
+    citation:
+      source: wa-artistic-swimming-rules-2026
+      article: "Part Seven, 1.2–1.3, 4.2, 6.1.1"
+
+  - id: duration
+    label: Routine times
+    body: >
+      Each routine has a fixed length, with five seconds' allowance either way,
+      and the walk-on along the deck is timed too. Missing the time limit costs
+      eight points.
+    facts:
+      - { label: Solo technical, value: "2:00" }
+      - { label: Duet free, value: "2:45" }
+      - { label: Team technical, value: "2:50" }
+      - { label: Team free, value: "3:30" }
+      - { label: Acrobatic routine, value: "3:00" }
+      - { label: Allowance, value: "±5 seconds" }
+    citation:
+      source: wa-artistic-swimming-rules-2026
+      article: "Part Seven, 6.3, 6.7.4"
+
+  - id: scoring
+    label: Scoring a routine
+    body: >
+      Five Elements judges mark the execution of each element, and five
+      Artistic Impression judges give three marks each — choreography and
+      musicality, performance, and transitions — from 0 to 10 in quarter
+      points. Difficulty is not judged: it is declared on a coach card and
+      verified by three technical controllers, who can apply a base mark to
+      an element performed differently from its declaration.
+    facts:
+      - { label: Judges, value: "2 panels of 5" }
+      - { label: Technical controllers, value: "3 difficulty, 3 synchronisation" }
+      - { label: Scale, value: "0–10 in quarters" }
+    shaped_by: [fina-2023-new-scoring-system]
+    citation:
+      source: wa-artistic-swimming-rules-2026
+      article: "Part Seven, 6.5–6.6"
+
+  - id: restarts
+    label: A new start
+    body: >
+      If a routine is interrupted during the deck movements and a new start
+      is allowed, it costs two points. A swimmer who stops swimming or makes
+      clear use of the pool wall before the end is disqualified, unless the
+      referee finds the cause was beyond their control.
+    facts:
+      - { label: New start, value: "−2 points" }
+      - { label: Stopping, value: Disqualification }
+    citation:
+      source: wa-artistic-swimming-rules-2026
+      article: "Part Seven, 6.7.3, 6.7.5"
+
+  - id: prohibitions
+    label: Penalties
+    body: >
+      Deliberately using the bottom of the pool to propel a swimmer or to help
+      another costs eight points, though contact to protect against an impact
+      injury is not penalised. Synchronisation errors are counted by the
+      controllers and deducted at 0.1 for small, 0.5 for obvious and 3.0 for
+      major ones.
+    facts:
+      - { label: Using the bottom, value: "−8 points" }
+      - { label: Synchronisation errors, value: "0.1, 0.5 or 3.0 each" }
+    citation:
+      source: wa-artistic-swimming-rules-2026
+      article: "Part Seven, 6.8.6–6.8.7, 6.8.14"
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The highest combined score of the routines in the event. A tie is broken
+      by the higher Elements score, then by choreography and musicality, then
+      by the higher declared difficulty.
+    citation:
+      source: wa-artistic-swimming-rules-2026
+      article: "Part Seven, 7.2–7.3"

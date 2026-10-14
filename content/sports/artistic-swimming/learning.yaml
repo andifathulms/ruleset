@@ -1,0 +1,50 @@
+sport: artistic-swimming
+standing: editorial
+summary: >
+  A sport that asks for a swimmer's lungs, a gymnast's flexibility and a
+  dancer's timing at once, performed where the audience cannot see most of
+  the work.
+
+entry:
+  verdict: moderate
+  claim: Any pool and a club; the first skills are sculling and holding a position.
+  why: >
+    It needs nothing a swimming pool does not already have, and a beginner's
+    first lessons — sculling with the hands to stay up, holding the body
+    still at the surface — are learnable in weeks. Clubs exist wherever
+    swimming does, though fewer of them.
+
+    The barrier is everything after that. The routines are held in deep
+    water, much of them upside down, and the breath-holding is trained, not
+    natural.
+  evidence:
+    - { label: Equipment, value: Swimsuit and nose clip, basis: observation }
+    - { label: First skill, value: Sculling, basis: judgement }
+    - { label: Usual background, value: Swimming or gymnastics, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Height out of the water, held still, while synchronised with seven others.
+  why: >
+    The elite standard is measured in how far out of the water a leg or a
+    body rises, and how still it stays there, with no floor to push from:
+    using the bottom costs eight points. Every element is declared in
+    advance and its difficulty is fixed, so the margin is in execution, and
+    in a team of eight every swimmer's error is the team's.
+
+    Russia won every Olympic gold from 2000 to 2020. The standard that set
+    is the one the rest of the world has chased.
+  evidence:
+    - { label: Using the bottom, value: −8 points, basis: rule, rule: fina-2023-new-scoring-system }
+    - { label: Olympic team, value: 8 swimmers, basis: rule, rule: ioc-2022-men-in-olympic-team }
+    - { label: "Russian Olympic golds, 2000–2020", value: "12 of 12", basis: observation }
+
+gap: >
+  The gap is hidden. Most of what makes an elite routine — the eggbeater
+  kick that holds a swimmer up, the breath held through a long underwater
+  sequence — happens below the surface, so a beginner watching from the side
+  sees the result and not the work.
+
+shaped_by:
+  - fina-2023-new-scoring-system
+  - ioc-2022-men-in-olympic-team

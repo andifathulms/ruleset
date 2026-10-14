@@ -922,3 +922,58 @@
   kind: paper
   url: https://ideas.repec.org/a/bes/amstat/v63i2y2009p124-131.html
   note: Full text not obtained; cited for its existence and its subject only.
+
+# Artistic swimming. The February 2026 Competition Regulations were opened and
+# read; the rename and the scoring reform are cited from the accounts below.
+
+- id: wa-artistic-swimming-rules-2026
+  standing: primary-checked
+  title: Competition Regulations, Part Seven — Artistic Swimming Rules (in force from February 2026)
+  publisher: World Aquatics
+  kind: rulebook
+  url: https://resources.fina.org/fina/document/2026/02/18/e6815ecc-06d9-4f0b-98e9-4c441cf5e6a3/2026-02-18_World-Aquatics_CR-Final.pdf
+  note: Articles are cited as "Part Seven, x.x".
+
+- id: fina-2022-technical-congress-roundup
+  standing: primary-checked
+  title: The FINA Technical Congress 2022 round-up (6 October 2022)
+  publisher: World Aquatics
+  kind: circular
+  url: https://www.worldaquatics.com/news/2840725/the-fina-technical-congress-2022-round-up
+  note: Lists the stated aims of the artistic swimming scoring system approved at the congress.
+
+- id: wa-2022-men-olympic-artistic
+  standing: primary-checked
+  title: For the first time, men eligible to compete in artistic swimming at the Olympic Games in Paris 2024 (22 December 2022)
+  publisher: World Aquatics
+  kind: circular
+  url: https://www.worldaquatics.com/news/2990453/for-the-first-time-men-eligible-to-compete-in-artistic-swimming-at-the-olympic-games-in-paris-2024
+
+- id: reuters-2017-artistic-name
+  standing: secondary
+  title: FINA won't revert to 'synchronised swimming' name (Reuters, 27 July 2017)
+  publisher: Reuters, via the Oman Observer
+  kind: circular
+  url: https://www.omanobserver.om/ampArticle/76843
+
+- id: insidesynchro-2017-name
+  standing: secondary
+  title: "Artistic Swimming: Now What? (Inside Synchro, 30 October 2017)"
+  publisher: Christina Marmet / Inside Synchro
+  kind: circular
+  url: https://insidesynchro.org/2017/10/30/artistic-swimming-now-what/
+
+- id: mentalfloss-2024-artistic-name
+  standing: secondary
+  title: Why synchronized swimming changed its name (Mental Floss, 7 August 2024)
+  publisher: Ellen Gutoskey / Mental Floss
+  kind: circular
+  url: https://www.mentalfloss.com/sports/olympics/why-synchronized-swimming-changed-its-name
+  note: Itself reports The Atlantic's account that the rebrand began with the IOC.
+
+- id: insidesynchro-2024-open-letter
+  standing: secondary
+  title: "Fix our sport: an open letter from a world championship athlete (Inside Synchro, 8 February 2024)"
+  publisher: Inside Synchro
+  kind: circular
+  url: https://insidesynchro.org/2024/02/08/fix-our-sport-an-open-letter-from-a-world-championship-athlete/

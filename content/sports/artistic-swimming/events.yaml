@@ -1,0 +1,25 @@
+sport: artistic-swimming
+as_of: 2026-10
+source: wa-artistic-swimming-rules-2026
+standing: primary-checked
+summary: >
+  Two Olympic events, a team and a women's duet, each scored on its routines
+  combined. The world championships give each routine its own medal and add
+  solos for women and men and a mixed duet.
+disciplines:
+  - id: team
+    label: Team
+    events:
+      - { id: team, label: "Team — technical, free and acrobatic combined", at: [olympic, asian-games], note: "Up to two men in the Olympic team from 2024." }
+      - { id: team-wc, count: 3, label: "Team technical, free and acrobatic routines", at: [world-championship] }
+  - id: duet
+    label: Duet
+    events:
+      - { id: duet, label: "Women's duet — technical and free combined", at: [olympic, asian-games] }
+      - { id: duet-wc, count: 2, label: "Women's duet technical and free", at: [world-championship] }
+      - { id: mixed-duet, count: 2, label: "Mixed duet technical and free", at: [world-championship], note: "On the world championship programme since 2015." }
+  - id: solo
+    label: Solo
+    events:
+      - { id: solo-w, count: 2, label: "Women's solo technical and free", at: [world-championship] }
+      - { id: solo-m, count: 2, label: "Men's solo technical and free", at: [world-championship] }

@@ -19877,3 +19877,391 @@
   licence: "CC0"
   licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   source_url: "https://commons.wikimedia.org/wiki/File:Red_Bull_Cliff_Diving_Wolfgangsee_20080720e.jpg"
+
+# Artistic swimming.
+
+- id: artistic-swimming-kellerman-1907
+  sport: artistic-swimming
+  file: /images/artistic-swimming/kellerman-1907.jpg
+  width: 822
+  height: 1200
+  alt: "A studio photograph of a woman in a one-piece swimsuit, one arm outstretched"
+  shows: >
+   Annette Kellerman in a studio portrait of 1907: the Australian swimmer whose
+   stage and film performances made swimming to music a show.
+  title: "Studio portrait of Annette Kellerman (9810588775).jpg"
+  author: "Australian National Maritime Museum"
+  licence: "No restrictions"
+  licence_url: "https://www.flickr.com/commons/usage/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Studio_portrait_of_Annette_Kellerman_(9810588775).jpg"
+
+- id: artistic-swimming-kellerman-champion
+  sport: artistic-swimming
+  file: /images/artistic-swimming/kellerman-champion.jpg
+  width: 1200
+  height: 763
+  alt: "A woman in a one-piece swimsuit lying on her front, smiling"
+  shows: >
+   A postcard of Annette Kellerman, “Champion Lady Swimmer and Diver of the
+   World”.
+  title: "Annette Kellerman, Champion Lady Swimmer and Diver of the World (7654825308).jpg"
+  author: "Australian National Maritime Museum"
+  licence: "No restrictions"
+  licence_url: "https://www.flickr.com/commons/usage/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Annette_Kellerman,_Champion_Lady_Swimmer_and_Diver_of_the_World_(7654825308).jpg"
+
+- id: artistic-swimming-berlin-1932
+  sport: artistic-swimming
+  file: /images/artistic-swimming/berlin-1932.jpg
+  width: 900
+  height: 615
+  alt: "Swimmers seen from above forming a wheel pattern on dark water"
+  shows: >
+   Figure swimming by the Berlin women's club Nixe in the wave pool at
+   Lunapark, November 1932.
+  title: "Bundesarchiv Bild 102-14028, Berlin, Synchronschwimmen der Damen.jpg"
+  author: "Georg Pahl"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-14028,_Berlin,_Synchronschwimmen_der_Damen.jpg"
+
+- id: artistic-swimming-aquacade-1939
+  sport: artistic-swimming
+  file: /images/artistic-swimming/aquacade-1939.jpg
+  width: 978
+  height: 651
+  alt: "An audience watching performers on a stage beside fountains, with modern buildings behind"
+  shows: >
+   The Billy Rose Aquacade at the 1939 New York World's Fair.
+  title: "2-Billy-Rose-Aquacade-Worlds-Fair-1939.jpg"
+  author: "Waeltkm"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2-Billy-Rose-Aquacade-Worlds-Fair-1939.jpg"
+
+- id: artistic-swimming-aquacade-audition-1940
+  sport: artistic-swimming
+  file: /images/artistic-swimming/aquacade-audition-1940.jpg
+  width: 1200
+  height: 959
+  alt: "A row of women in swimsuits, three lying across chairs demonstrating a stroke"
+  shows: >
+   Auditions in Los Angeles in April 1940 for Billy Rose's Aquacade at the
+   Golden Gate International Exposition in San Francisco.
+  title: "Audition for Billy Rose Aquacade (LA Daily News, 1940).jpg"
+  author: "Los Angeles Daily News"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Audition_for_Billy_Rose_Aquacade_(LA_Daily_News,_1940).jpg"
+
+- id: artistic-swimming-aqua-follies-1952
+  sport: artistic-swimming
+  file: /images/artistic-swimming/aqua-follies-1952.jpg
+  width: 899
+  height: 1200
+  alt: "A red and blue programme cover with a diver, a swimmer and a ring of swimmers seen from above"
+  shows: >
+   The programme for Seattle's Aqua Follies of 1952, billed as the “World's
+   Greatest Water Show”.
+  title: "Aqua Follies flyer, 1952 (35565289371).jpg"
+  author: "Seattle Municipal Archives"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Aqua_Follies_flyer,_1952_(35565289371).jpg"
+
+- id: artistic-swimming-esther-williams-1955
+  sport: artistic-swimming
+  file: /images/artistic-swimming/esther-williams-1955.jpg
+  width: 1200
+  height: 960
+  alt: "Two women in formal clothes talking on a staircase"
+  shows: >
+   Esther Williams, whose films made the sport famous, in Amsterdam in May 1955
+   with the Dutch swimmer Geertje Wielema.
+  title: "05-13-1955 13311 Esther Williams en Geertje Wielema.jpg"
+  author: "Ben van Meerendonk / AHF, IISG"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:05-13-1955_13311_Esther_Williams_en_Geertje_Wielema.jpg"
+
+- id: artistic-swimming-france-lift
+  sport: artistic-swimming
+  file: /images/artistic-swimming/france-lift.jpg
+  width: 800
+  height: 1200
+  alt: "A swimmer flipped upside down above the water by teammates beneath her"
+  shows: >
+   France's team in its free routine at the French Open in Montreuil, March
+   2013.
+  title: "Open Make Up For Ever 2013 - Team - France - 19.jpg"
+  author: "Pierre-Yves Beaudouin"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Open_Make_Up_For_Ever_2013_-_Team_-_France_-_19.jpg"
+
+- id: artistic-swimming-france-team
+  sport: artistic-swimming
+  file: /images/artistic-swimming/france-team.jpg
+  width: 1200
+  height: 800
+  alt: "Team swimmers in an indoor pool, one inverted above the surface and another rising beside her"
+  shows: >
+   France's team free routine at the French Open in Montreuil, March 2013.
+  title: "Open Make Up For Ever 2013 - Team - France - 45.jpg"
+  author: "Pierre-Yves Beaudouin"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Open_Make_Up_For_Ever_2013_-_Team_-_France_-_45.jpg"
+
+- id: artistic-swimming-japan-lift
+  sport: artistic-swimming
+  file: /images/artistic-swimming/japan-lift.jpg
+  width: 800
+  height: 1200
+  alt: "A swimmer thrown into the air in a tucked position, arms raised"
+  shows: >
+   A member of Japan's team thrown clear of the water in its free routine,
+   Montreuil, 2013.
+  title: "Open Make Up For Ever 2013 - Team - Japan - 10.jpg"
+  author: "Pierre-Yves Beaudouin"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Open_Make_Up_For_Ever_2013_-_Team_-_Japan_-_10.jpg"
+
+- id: artistic-swimming-japan-team
+  sport: artistic-swimming
+  slot: "events"
+  file: /images/artistic-swimming/japan-team.jpg
+  width: 1200
+  height: 800
+  alt: "A swimmer launched from the water by teammates in an indoor pool, spectators behind"
+  shows: >
+   Japan's team in its free routine at the French Open in Montreuil, 2013. A
+   lift like this is an acrobatic element, and the Olympic team event now
+   includes a whole routine of them.
+  title: "Open Make Up For Ever 2013 - Team - Japan - 07.jpg"
+  author: "Pierre-Yves Beaudouin"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Open_Make_Up_For_Ever_2013_-_Team_-_Japan_-_07.jpg"
+
+- id: artistic-swimming-officials-2013
+  sport: artistic-swimming
+  file: /images/artistic-swimming/officials-2013.jpg
+  width: 1200
+  height: 800
+  alt: "Four officials seated at a table on the poolside"
+  shows: >
+   Officials at the French Open in Montreuil, 2013.
+  title: "Open Make Up For Ever 2013 - Referees 01.jpg"
+  author: "Pierre-Yves Beaudouin"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Open_Make_Up_For_Ever_2013_-_Referees_01.jpg"
+
+- id: artistic-swimming-montreuil-pool
+  sport: artistic-swimming
+  slot: "play:field"
+  file: /images/artistic-swimming/montreuil-pool.jpg
+  width: 1200
+  height: 800
+  alt: "An empty indoor pool with lane markings and a timing board"
+  shows: >
+   The Maurice Thorez pool in Montreuil, host of the French Open. Routines at
+   the Games need water at least three metres deep across thirty metres by
+   twenty.
+  title: "Open Make Up For Ever 2013 - Stade nautique Maurice Thorez 01.jpg"
+  author: "Pierre-Yves Beaudouin"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Open_Make_Up_For_Ever_2013_-_Stade_nautique_Maurice_Thorez_01.jpg"
+
+- id: artistic-swimming-cerruti
+  sport: artistic-swimming
+  file: /images/artistic-swimming/cerruti.jpg
+  width: 1200
+  height: 800
+  alt: "A swimmer at the surface in a red costume and bold make-up, smiling"
+  shows: >
+   Linda Cerruti of Italy in the duet technical routine at Montreuil, 2013.
+  title: "Linda Cerruti.jpg"
+  author: "Pierre-Yves Beaudouin"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Linda_Cerruti.jpg"
+
+- id: artistic-swimming-walk-on
+  sport: artistic-swimming
+  slot: "play:restarts"
+  file: /images/artistic-swimming/walk-on.jpg
+  width: 1200
+  height: 800
+  alt: "Two swimmers posed on the deck before entering the water"
+  shows: >
+   Alla Vaskovich and Alena Zhebeleva on the deck before their duet technical
+   routine, Montreuil, 2013: the walk-on and deck movements are timed.
+  title: "Open Make Up For Ever 2013 - Alla Vaskovich - Alena Zhebeleva - 03.jpg"
+  author: "Pierre-Yves Beaudouin"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Open_Make_Up_For_Ever_2013_-_Alla_Vaskovich_-_Alena_Zhebeleva_-_03.jpg"
+
+- id: artistic-swimming-solo-deck
+  sport: artistic-swimming
+  file: /images/artistic-swimming/solo-deck.jpg
+  width: 800
+  height: 1200
+  alt: "A swimmer posing on the deck in a dark costume before her routine"
+  shows: >
+   Etel Sánchez of Argentina on the deck before her free solo, Montreuil, 2013.
+  title: "Open Make Up For Ever 2013 - Etel Sanchez - 22.jpg"
+  author: "Pierre-Yves Beaudouin"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Open_Make_Up_For_Ever_2013_-_Etel_Sanchez_-_22.jpg"
+
+- id: artistic-swimming-nose-clip
+  sport: artistic-swimming
+  slot: "play:equipment"
+  file: /images/artistic-swimming/nose-clip.jpg
+  width: 1200
+  height: 991
+  alt: "A blue plastic nose clip on a grey surface"
+  shows: >
+   A nose clip, the one piece of equipment the rules allow beyond the swimsuit.
+  title: "Arena Noseclip for swimming.jpg"
+  author: "BastienM"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Arena_Noseclip_for_swimming.jpg"
+
+- id: artistic-swimming-korea-duet-2012
+  sport: artistic-swimming
+  file: /images/artistic-swimming/korea-duet-2012.jpg
+  width: 1200
+  height: 774
+  alt: "Two swimmers at the surface with arms extended in unison"
+  shows: >
+   Park Hyun-ha and Park Hyun-sun of South Korea in the duet at London 2012.
+  title: "Korea London Synchronised 02 (7771950404).jpg"
+  author: "Korean Olympic Committee / Korea.net"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Korea_London_Synchronised_02_(7771950404).jpg"
+
+- id: artistic-swimming-russia-2012
+  sport: artistic-swimming
+  file: /images/artistic-swimming/russia-2012.jpg
+  width: 1100
+  height: 678
+  alt: "Three women in red jackets with medals seated in an audience"
+  shows: >
+   Natalia Ishchenko, Anastasia Davydova and Maria Gromova of Russia's 2012
+   Olympic champion team at a Kremlin reception in August 2012.
+  title: "Synchronized swimmers Ishchenko Davydova Gromova.jpg"
+  author: "kremlin.ru"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Synchronized_swimmers_Ishchenko_Davydova_Gromova.jpg"
+
+- id: artistic-swimming-ukraine-tokyo-team
+  sport: artistic-swimming
+  file: /images/artistic-swimming/ukraine-tokyo-team.jpg
+  width: 1200
+  height: 800
+  alt: "Eight swimmers in tracksuits on a podium holding flowers and medals"
+  shows: >
+   Ukraine's team with its bronze medals at Tokyo 2020.
+  title: "Artistic swimming women's team victory ceremony at Tokyo 2020.jpg"
+  author: "Ministry of Youth and Sports of Ukraine"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Artistic_swimming_women%27s_team_victory_ceremony_at_Tokyo_2020.jpg"
+
+- id: artistic-swimming-ukraine-tokyo-duet
+  sport: artistic-swimming
+  file: /images/artistic-swimming/ukraine-tokyo-duet.jpg
+  width: 1200
+  height: 889
+  alt: "Two swimmers rising from the water side by side with mouths open"
+  shows: >
+   Marta Fiedina and Anastasiya Savchuk of Ukraine in the duet free routine at
+   Tokyo 2020.
+  title: "Anastasiya Savchuk and Marta Fiedina at Tokyo 2020.jpg"
+  author: "Ministry of Youth and Sports of Ukraine"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Anastasiya_Savchuk_and_Marta_Fiedina_at_Tokyo_2020.jpg"
+
+- id: artistic-swimming-brazil-2016
+  sport: artistic-swimming
+  file: /images/artistic-swimming/brazil-2016.jpg
+  width: 1130
+  height: 782
+  alt: "A swimmer standing on teammates' hands above the water, judges seated along the far side"
+  shows: >
+   Brazil's team at Rio 2016, a swimmer held above the water with the judges'
+   panel along the far side.
+  title: "Synchronized swimming at the 2016 Summer Olympics -Presentation of the Brazilian team 02.jpg"
+  author: "Rafael Brais / brasil2016.gov.br"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Synchronized_swimming_at_the_2016_Summer_Olympics_-Presentation_of_the_Brazilian_team_02.jpg"
+
+- id: artistic-swimming-minisini
+  sport: artistic-swimming
+  file: /images/artistic-swimming/minisini.jpg
+  width: 1174
+  height: 1200
+  alt: "A smiling man giving a thumbs up, medals round his neck"
+  shows: >
+   Giorgio Minisini of Italy at the 2022 European Championships in Rome, where
+   he won four golds in the men's and mixed events.
+  title: "Giorgio Minisini (ITA) 2022.jpg"
+  author: "Giorgiominisini"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Giorgio_Minisini_(ITA)_2022.jpg"
+
+- id: artistic-swimming-igla-judges
+  sport: artistic-swimming
+  file: /images/artistic-swimming/igla-judges.jpg
+  width: 1200
+  height: 800
+  alt: "Three judges seen from behind at a poolside table, writing scores"
+  shows: >
+   Judges at the IGLA+ championships in Buenos Aires, 2024.
+  title: "Jurado de nado sincronizado en mundial IGLA+ 2024.jpg"
+  author: "Diegodlh"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Jurado_de_nado_sincronizado_en_mundial_IGLA%2B_2024.jpg"
+
+- id: artistic-swimming-lazzaro
+  sport: artistic-swimming
+  file: /images/artistic-swimming/lazzaro.jpg
+  width: 1200
+  height: 800
+  alt: "A man in the water mid-routine, one arm raised and splashing"
+  shows: >
+   Bruno Lázzaro competing at the IGLA+ championships in Buenos Aires, 2024.
+  title: "Bruno Lázzaro en el mundial IGLA+ 2024.jpg"
+  author: "Diegodlh"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bruno_L%C3%A1zzaro_en_el_mundial_IGLA%2B_2024.jpg"
+
+- id: artistic-swimming-romashina
+  sport: artistic-swimming
+  file: /images/artistic-swimming/romashina.jpg
+  width: 1200
+  height: 742
+  alt: "A smiling woman holding up several gold medals"
+  shows: >
+   Svetlana Romashina in 2021 with her Olympic gold medals. She won seven, more
+   than anyone in the sport.
+  title: "Svetlana Romashina in 2021 - 01.jpg"
+  author: "Ministry of Sport of the Republic of Tatarstan"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Svetlana_Romashina_in_2021_-_01.jpg"
