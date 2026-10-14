@@ -735,6 +735,18 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M14 49 Q10 54 12 60 M14 49 Q16 55 20 58 M14 49 Q12 55 8 58" fill="none" strokeWidth="1.5" />
     </>
   ),
+  // The floating goal with its net, the ball held up out of the water: seven a
+  // side, nobody standing, and most of the fouling below the surface.
+  'water-polo': (
+    <>
+      <path d="M10 40 V18 H40 V40" fill="none" strokeWidth="3" />
+      <path d="M14 18 L18 38 M22 18 L24 38 M30 18 L30 38 M36 18 L34 38 M12 26 H38 M12 33 H38" fill="none" strokeWidth="1" />
+      <circle cx="50" cy="22" r="6" fill="none" />
+      <path d="M45 19 Q50 22 55 19 M45 25 Q50 22 55 25" fill="none" strokeWidth="1.5" />
+      <path d="M4 44 Q11 40 18 44 T32 44 T46 44 T60 43" fill="none" />
+      <path d="M4 54 Q11 50 18 54 T32 54 T46 54 T60 53" fill="none" strokeDasharray="3 3" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
