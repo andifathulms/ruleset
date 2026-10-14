@@ -31,7 +31,8 @@ disciplines:
     counts: false
     blurb: >
       Governed by the same federation under the same rulebook's other sections.
-      They are not swimming, and this site does not cover their rules.
+      They are not swimming; diving, water polo and artistic swimming each have
+      their own page on this site, and high diving is covered under diving.
     events:
       - { id: diving, label: Diving, at: [olympic] }
       - { id: waterpolo, label: Water polo, at: [olympic] }
