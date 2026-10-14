@@ -1,0 +1,29 @@
+sport: diving
+as_of: 2026-10
+source: wa-diving-rules-2024
+standing: primary-checked
+summary: >
+  Eight Olympic events since 2000, unchanged for 2028; the world
+  championships add the one-metre board, mixed events and high diving.
+disciplines:
+  - id: individual
+    label: Individual
+    events:
+      - { id: springboard, count: 2, label: 3 m springboard, at: [olympic, world-championship, asian-games] }
+      - { id: platform, count: 2, label: 10 m platform, at: [olympic, world-championship, asian-games] }
+      - { id: onemetre, count: 2, label: 1 m springboard, at: [world-championship, asian-games] }
+  - id: synchronised
+    label: Synchronised
+    events:
+      - { id: sync3, count: 2, label: Synchronised 3 m springboard, at: [olympic, world-championship, asian-games], note: Added to the Games in 2000. }
+      - { id: sync10, count: 2, label: Synchronised 10 m platform, at: [olympic, world-championship, asian-games], note: Added to the Games in 2000. }
+  - id: mixed
+    label: Mixed events
+    events:
+      - { id: mixed-sync, count: 2, label: "Mixed synchronised 3 m and 10 m", at: [world-championship], note: "On the world championship programme since 2015, not at the Games." }
+      - { id: mixed-team, label: Mixed team event, at: [world-championship] }
+  - id: high
+    label: High diving
+    counts: false
+    events:
+      - { id: high, count: 2, label: "High diving — 27 m men, 20 m women", at: [world-championship], note: Added to the world championships in 2013. }

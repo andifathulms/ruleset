@@ -15,7 +15,7 @@
     and eighteen lanes become four.
   source: ioc-olympic-charter
   groups:
-    - { id: aquatics, label: Aquatics, colour: pool, members: [swimming, water-polo] }
+    - { id: aquatics, label: Aquatics, colour: pool, members: [swimming, diving, water-polo] }
     - { id: air-sports, label: Air sports, colour: pool, members: [air-sports] }
     - { id: archery, label: Archery, colour: pool, members: [archery] }
     - { id: athletics, label: Athletics, colour: pool, members: [athletics] }
@@ -127,7 +127,7 @@
       members: [athletics, gymnastics, swimming, cycling, weightlifting, rowing,
                 sailing, sport-climbing, equestrian, canoeing, triathlon,
                 skateboarding, surfing, powerlifting, orienteering, lifesaving,
-                finswimming, dragon-boat, duathlon, waterski-wakeboard]
+                finswimming, dragon-boat, duathlon, waterski-wakeboard, diving]
     - id: outside-taxonomy
       label: Outside this taxonomy
       colour: unmarked
@@ -155,7 +155,7 @@
       label: Judged
       colour: gold
       members: [gymnastics, equestrian, skateboarding, surfing, breaking, dancesport,
-                roller-sports, cheerleading]
+                roller-sports, cheerleading, diving]
     - id: decided-by-score
       label: Decided by score
       colour: pitch
@@ -203,7 +203,7 @@
       label: Never off
       colour: pool
       members: [athletics, cycling, fencing, gymnastics, rowing, swimming,
-                water-polo]
+                water-polo, diving]
     - id: restored
       label: Removed, restored
       colour: gold

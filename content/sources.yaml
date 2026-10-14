@@ -862,3 +862,63 @@
   publisher: WPD World
   kind: circular
   url: https://www.wpdworld.com/?p=272158
+
+# Diving. The current rules, their difficulty appendix and the facilities rules
+# were opened and read; Olympedia event pages are cited as accounts, by page.
+
+- id: wa-diving-rules-2024
+  standing: primary-checked
+  title: Competition Regulations, Part Four — Diving Rules (in force from 9 November 2024)
+  publisher: World Aquatics
+  kind: rulebook
+  url: https://swiss-aquatics.ch/wp-content/uploads/2024/02/7.4.1-DI-AQUA-Regeln_EN_V3.pdf
+  note: >
+    Copy hosted by Swiss Aquatics. Articles are cited as "Part Four, x.x"; the
+    FINA 2022–2025 rules used the same numbers with a D prefix.
+
+- id: wa-diving-dd-appendix
+  standing: primary-checked
+  title: Diving Rules, Appendices 8–9 — degree of difficulty formula and tables
+  publisher: World Aquatics
+  kind: rulebook
+  url: https://swiss-aquatics.ch/wp-content/uploads/2024/02/7.4.2_DI-Degree-de-Difficulte-formule_EN.pdf
+
+- id: fina-facilities-rules-2017
+  standing: primary-checked
+  title: FINA Facilities Rules 2017–2021 (FR 5.3, diving dimensions)
+  publisher: FINA
+  kind: rulebook
+  url: https://plikimpi.krakow.pl/pliki/532707
+  note: Third-party copy hosted by the city of Kraków.
+
+- id: olympedia-diving-2000
+  standing: secondary
+  title: Diving at the 2000 Summer Olympics (Olympedia)
+  publisher: OlyMADMen / International Olympic Committee
+  kind: database
+  url: https://www.olympedia.org/editions/25/sports/DIV
+  note: >
+    Cited for its account of why synchronised events were added, which it
+    gives as reported rather than as the IOC's statement.
+
+- id: olympedia-1992-womens-platform
+  standing: secondary
+  title: "Platform, Women — 1992 Summer Olympics (Olympedia)"
+  publisher: OlyMADMen / International Olympic Committee
+  kind: database
+  url: https://www.olympedia.org/results/54261
+
+- id: newsweek-1996-fu-mingxia
+  standing: secondary
+  title: Knife slicing water (Newsweek, 11 August 1996)
+  publisher: Newsweek
+  kind: circular
+  url: https://www.newsweek.com/knife-slicing-water-177334
+
+- id: emerson-2009-judging-bias
+  standing: secondary
+  title: Assessing Judging Bias — An Example From the 2000 Olympic Games (The American Statistician, 2009)
+  publisher: Emerson, Seltzer and Lin
+  kind: paper
+  url: https://ideas.repec.org/a/bes/amstat/v63i2y2009p124-131.html
+  note: Full text not obtained; cited for its existence and its subject only.

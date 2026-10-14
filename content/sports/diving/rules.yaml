@@ -1,0 +1,48 @@
+- id: fina-1992-minimum-age-fourteen
+  scope: { sport: diving }
+  date_effective: 1992
+  status: adopted
+  governing_body: Fédération Internationale de Natation
+  what_changed: >
+    Divers must be at least fourteen in the year of the competition to take
+    part in the Olympic Games and the senior world championships. The rule now
+    reads fourteen by 31 December of the competition year.
+  cause_primary: fairness and eligibility
+  trigger:
+    description: >
+      Fu Mingxia of China won the 1991 world platform title at the age of
+      twelve. The diving authorities responded by setting a minimum age;
+      Fu herself competed at Barcelona in 1992 because she turned fourteen
+      twenty days after the platform final.
+    source: olympedia-1992-womens-platform
+  citation:
+    source: wa-diving-rules-2024
+    edition: Competition Regulations Part Four, 2024 (current text)
+    article: "Part Four, 1.4"
+  comparability_break: null
+
+- id: ioc-2000-synchronised-diving
+  scope: { sport: diving, discipline: synchronised }
+  date_effective: 2000
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    Four synchronised events — men's and women's 3 m springboard and 10 m
+    platform — added to the Olympic programme at Sydney, doubling it from four
+    events to eight. The four-event programme had stood since 1928. Synchronised diving is judged by eleven officials: five on
+    synchronisation and three on each diver's execution.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Olympedia records that the events were added "purportedly … because
+      television asked for more diving events". Synchronised diving had been
+      performed as an exhibition since at least 1939.
+    also_said: >
+      No IOC or FINA statement of reasons has been obtained, and the account
+      above is reported rather than official.
+    source: olympedia-diving-2000
+  citation:
+    source: wa-diving-rules-2024
+    edition: Competition Regulations Part Four, 2024 (current text)
+    article: "Part Four, 3.6, 5.2.1"
+  comparability_break: null

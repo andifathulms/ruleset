@@ -19504,3 +19504,376 @@
   licence: "CC BY 4.0"
   licence_url: "https://creativecommons.org/licenses/by/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Summer_Olympics_-_Water_Polo_women%27s_water_polo_classification_7th_8th_match_-_Greece_vs_Canada_-_2024-08-10_-_03.jpg"
+
+# Diving.
+
+- id: diving-dickey-1904
+  sport: diving
+  file: /images/diving/dickey-1904.jpg
+  width: 869
+  height: 1200
+  alt: "A man in a dark swimming costume standing on a block above the water, 1904"
+  shows: >
+   W. E. Dickey of the New York Athletic Club, winner of the plunge for
+   distance at St Louis in 1904 with 62 feet 6 inches — an event held at the
+   Games only once.
+  title: "W.E. Dickey of the New York Athletic Club, winner of the Plunge for Distance competition at the 1904 Olympics with a distance of 62 feet, 6 inches.jpg"
+  author: "Jessie Tarbox Beals (attributed)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:W.E._Dickey_of_the_New_York_Athletic_Club,_winner_of_the_Plunge_for_Distance_competition_at_the_1904_Olympics_with_a_distance_of_62_feet,_6_inches.jpg"
+
+- id: diving-plunge-1904
+  sport: diving
+  file: /images/diving/plunge-1904.jpg
+  width: 843
+  height: 1200
+  alt: "A man crouched on a post at the water's edge about to push off"
+  shows: >
+   Goodwin of the New York Athletic Club competing in the plunge for distance
+   at the 1904 Olympics.
+  title: "Goodwin, New York Athletic Club, competing in Plunge for Distance at the 1904 Olympics.jpg"
+  author: "Unknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Goodwin,_New_York_Athletic_Club,_competing_in_Plunge_for_Distance_at_the_1904_Olympics.jpg"
+
+- id: diving-london-1908
+  sport: diving
+  file: /images/diving/london-1908.jpg
+  width: 692
+  height: 677
+  alt: "A diver tucked in mid-air beside a tall wooden tower over an open-air pool"
+  shows: >
+   Oskar Wetzell of Finland diving at the 1908 London Olympics, where diving
+   was held in a pool built inside the main stadium.
+  title: "Oskar Wetzell London 1908.png"
+  author: "Unknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Oskar_Wetzell_London_1908.png"
+
+- id: diving-johansson-1912
+  sport: diving
+  file: /images/diving/johansson-1912.jpg
+  width: 736
+  height: 1200
+  alt: "A diver in a swallow position high above the water, beside a tower"
+  shows: >
+   Greta Johansson of Sweden at Stockholm in 1912, the first Games with a
+   women's diving event. She won it.
+  title: "Diving 1912 Johansson.png"
+  author: "Jaroslav Kalva"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Diving_1912_Johansson.png"
+
+- id: diving-plain-high-1912
+  sport: diving
+  file: /images/diving/plain-high-1912.jpg
+  width: 768
+  height: 731
+  alt: "Three Swedish divers in costumes with numbers, standing on a wooden deck"
+  shows: >
+   The plain high diving medallists at Stockholm in 1912: Erik Adlerz, Hjalmar
+   Johansson and John Jansson. The event was dropped after 1924.
+  title: "Erik Adlerz, Hjalmar Johansson, John Jansson 1912.jpg"
+  author: "Unknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Erik_Adlerz,_Hjalmar_Johansson,_John_Jansson_1912.jpg"
+
+- id: diving-java-1947
+  sport: diving
+  file: /images/diving/java-1947.jpg
+  width: 808
+  height: 1200
+  alt: "A crowd lining a pool as a diver enters the water"
+  shows: >
+   Diving at an Easter sports meeting held by the Dutch army in the Dutch East
+   Indies, April 1947.
+  title: "Schoonspringen, Bestanddeelnr 197-5-1.jpg"
+  author: "Nationaal Archief / DLC"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Schoonspringen,_Bestanddeelnr_197-5-1.jpg"
+
+- id: diving-hoffmann-1973
+  sport: diving
+  file: /images/diving/hoffmann-1973.jpg
+  width: 791
+  height: 564
+  alt: "A diver photographed from below, arms spread in a layout position"
+  shows: >
+   Falk Hoffmann at the East German championships in Leipzig, 1973. He won the
+   Olympic platform title in 1980.
+  title: "Bundesarchiv Bild 183-M0623-0020, Falk Hoffmann.jpg"
+  author: "Wolfgang Kluge"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-M0623-0020,_Falk_Hoffmann.jpg"
+
+- id: diving-platform-1975
+  sport: diving
+  file: /images/diving/platform-1975.jpg
+  width: 800
+  height: 604
+  alt: "A diver silhouetted against clouds below the end of a platform"
+  shows: >
+   A platform diver at the East German championships in Berlin, 1975.
+  title: "Bundesarchiv Bild 183-P0601-0006, Turmspringer.jpg"
+  author: "Thomas Lehmann"
+  licence: "CC BY-SA 3.0 de"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-P0601-0006,_Turmspringer.jpg"
+
+- id: diving-louganis-plaque
+  sport: diving
+  file: /images/diving/louganis-plaque.jpg
+  width: 1200
+  height: 900
+  alt: "A plaque with a photograph of Greg Louganis wearing medals"
+  shows: >
+   A plaque for Greg Louganis in Mission Viejo, California, listing his Olympic
+   medals of 1976, 1984 and 1988.
+  title: "Greg Louganis plaque MV.jpg"
+  author: "Sewageboy"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Greg_Louganis_plaque_MV.jpg"
+
+- id: diving-london-2012-tower
+  sport: diving
+  slot: "play:field"
+  file: /images/diving/london-2012-tower.jpg
+  width: 1200
+  height: 676
+  alt: "An aquatic centre seen from above, with the diving tower and springboards at one end of a pool"
+  shows: >
+   The London 2012 aquatics centre: springboards, the platform tower, and the deep diving pool in front of them.
+  title: "The Aquatic Centre.jpg"
+  author: "David Jones"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:The_Aquatic_Centre.jpg"
+
+- id: diving-london-2012-pool
+  sport: diving
+  file: /images/diving/london-2012-pool.jpg
+  width: 1200
+  height: 676
+  alt: "The poolside at London 2012, with cameras and officials during a diving session"
+  shows: >
+   The men's 10 metre platform semi-final at London 2012.
+  title: "Men's 10m platform diving semi-final in the Aquatic Centre (7890581354).jpg"
+  author: "David Jones from Isle of Wight, United Kingdom"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Men%27s_10m_platform_diving_semi-final_in_the_Aquatic_Centre_(7890581354).jpg"
+
+- id: diving-springboard-final-2012
+  sport: diving
+  file: /images/diving/springboard-final-2012.jpg
+  width: 726
+  height: 1200
+  alt: "Divers in team tracksuits walking in line along the poolside"
+  shows: >
+   The women's springboard finalists walking out at London 2012.
+  title: "Women's Springboard Finals all contestants.jpg"
+  author: "Joel Solomon"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Women%27s_Springboard_Finals_all_contestants.jpg"
+
+- id: diving-wu-minxia-2012
+  sport: diving
+  file: /images/diving/wu-minxia-2012.jpg
+  width: 1200
+  height: 803
+  alt: "A big screen listing the women's 3 m springboard medallists beside a shot of the podium"
+  shows: >
+   The scoreboard after the women's 3 m springboard at London 2012: Wu Minxia
+   and He Zi of China, Laura Sánchez of Mexico.
+  title: "2012 Summer Olympics Women's Springboard Victory Ceremony 5.jpg"
+  author: "Joel Solomon"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2012_Summer_Olympics_Women%27s_Springboard_Victory_Ceremony_5.jpg"
+
+- id: diving-sync-platform-2016
+  sport: diving
+  file: /images/diving/sync-platform-2016.jpg
+  width: 800
+  height: 557
+  alt: "Two divers blurred into a spinning shape against a Rio 2016 backdrop"
+  shows: >
+   A synchronised platform pair in a fast somersault at Rio 2016.
+  title: "Diving at the 2016 Summer Olympics – Men's synchronized 10 metre platform 9.jpg"
+  author: "Javid Nikpour / Tasnim News"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Diving_at_the_2016_Summer_Olympics_%E2%80%93_Men%27s_synchronized_10_metre_platform_9.jpg"
+
+- id: diving-sync-springboard-china
+  sport: diving
+  file: /images/diving/sync-springboard-china.jpg
+  width: 1200
+  height: 800
+  alt: "Two Chinese divers rising side by side, arms raised, above twin springboards"
+  shows: >
+   Cao Yuan and Qin Kai of China at the take-off in synchronised 3 m
+   springboard, Rio 2016. They won bronze.
+  title: "BRITÂNICOS VENCEM E BRASILEIROS TERMINAM EM ÚLTIMO NO TRAMPOLIM DE 3M SINCRONIZADO DOS SALTOS ORNAMENTAIS (28282471944).jpg"
+  author: "Fernando Frazão / Agência Brasil"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:BRIT%C3%82NICOS_VENCEM_E_BRASILEIROS_TERMINAM_EM_%C3%9ALTIMO_NO_TRAMPOLIM_DE_3M_SINCRONIZADO_DOS_SALTOS_ORNAMENTAIS_(28282471944).jpg"
+
+- id: diving-sync-springboard-germany
+  sport: diving
+  file: /images/diving/sync-springboard-germany.jpg
+  width: 1200
+  height: 800
+  alt: "Two divers blurred in mid-somersault side by side"
+  shows: >
+   Stephan Feck and Patrick Hausding of Germany in synchronised 3 m springboard
+   at Rio 2016.
+  title: "BRITÂNICOS VENCEM E BRASILEIROS TERMINAM EM ÚLTIMO NO TRAMPOLIM DE 3M SINCRONIZADO DOS SALTOS ORNAMENTAIS (28824644181).jpg"
+  author: "Fernando Frazão / Agência Brasil"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:BRIT%C3%82NICOS_VENCEM_E_BRASILEIROS_TERMINAM_EM_%C3%9ALTIMO_NO_TRAMPOLIM_DE_3M_SINCRONIZADO_DOS_SALTOS_ORNAMENTAIS_(28824644181).jpg"
+
+- id: diving-sync-springboard-pike
+  sport: diving
+  slot: "events"
+  file: /images/diving/sync-springboard-pike.jpg
+  width: 1200
+  height: 800
+  alt: "Two divers in matching pike positions side by side against a blue and green backdrop"
+  shows: >
+   Cao Yuan and Qin Kai of China in the synchronised 3 m springboard at Rio
+   2016: two divers, two boards, one score.
+  title: "BRITÂNICOS VENCEM E BRASILEIROS TERMINAM EM ÚLTIMO NO TRAMPOLIM DE 3M SINCRONIZADO DOS SALTOS ORNAMENTAIS (28868671296).jpg"
+  author: "Fernando Frazão / Agência Brasil"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:BRIT%C3%82NICOS_VENCEM_E_BRASILEIROS_TERMINAM_EM_%C3%9ALTIMO_NO_TRAMPOLIM_DE_3M_SINCRONIZADO_DOS_SALTOS_ORNAMENTAIS_(28868671296).jpg"
+
+- id: diving-green-pool-2016
+  sport: diving
+  file: /images/diving/green-pool-2016.jpg
+  width: 1200
+  height: 803
+  alt: "A diving tower above water that has turned visibly green"
+  shows: >
+   The diving pool at the Maria Lenk Aquatics Centre at Rio 2016 after it
+   turned green.
+  title: "Cable cam e Julia Catherine Vincent (RSA) (28867613761).jpg"
+  author: "Leandro Neumann Ciuffo"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Cable_cam_e_Julia_Catherine_Vincent_(RSA)_(28867613761).jpg"
+
+- id: diving-maria-lenk
+  sport: diving
+  file: /images/diving/maria-lenk.jpg
+  width: 1200
+  height: 900
+  alt: "An indoor diving pool with a tower and boards, empty seats around it"
+  shows: >
+   The Maria Lenk Aquatics Centre, Rio de Janeiro, the diving venue for 2016.
+  title: "Centro Aquático Maria Lenk.jpg"
+  author: "Luã Leal"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Centro_Aqu%C3%A1tico_Maria_Lenk.jpg"
+
+- id: diving-barcelona-takeoff
+  sport: diving
+  slot: "play:restarts"
+  file: /images/diving/barcelona-takeoff.jpg
+  width: 1200
+  height: 800
+  alt: "Two divers on the edge of a high platform crouched for the take-off"
+  shows: >
+   Platform divers at the take-off at the 2013 world championships at Montjuïc,
+   Barcelona.
+  title: "BCN2013 Diving DSC 0134 (11098467006).jpg"
+  author: "Xavier Vergés"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:BCN2013_Diving_DSC_0134_(11098467006).jpg"
+
+- id: diving-barcelona-armstand
+  sport: diving
+  slot: "play:equipment"
+  file: /images/diving/barcelona-armstand.jpg
+  width: 800
+  height: 1200
+  alt: "A diver balanced in a handstand on the edge of a platform"
+  shows: >
+   An armstand start on the platform at the 2013 world championships in
+   Barcelona — group 6 of the six dive groups.
+  title: "BCN2013 Diving DSC 0219 (11098420896).jpg"
+  author: "Xavier Vergés"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:BCN2013_Diving_DSC_0219_(11098420896).jpg"
+
+- id: diving-barcelona-reverse
+  sport: diving
+  file: /images/diving/barcelona-reverse.jpg
+  width: 1200
+  height: 800
+  alt: "A diver leaving a platform over a city skyline, judges seated below"
+  shows: >
+   A platform diver at the 2013 world championships in Barcelona, with officials seated below.
+  title: "BCN2013 Diving DSC 0245 (11098314105).jpg"
+  author: "Xavier Vergés"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:BCN2013_Diving_DSC_0245_(11098314105).jpg"
+
+- id: diving-barcelona-pike
+  sport: diving
+  file: /images/diving/barcelona-pike.jpg
+  width: 800
+  height: 1200
+  alt: "A diver in a pike position in mid-air over Barcelona"
+  shows: >
+   A pike position from the platform at the 2013 world championships in
+   Barcelona.
+  title: "BCN2013 Diving DSC 0270 (11098280955).jpg"
+  author: "Xavier Vergés"
+  licence: "CC BY 2.0"
+  licence_url: "https://creativecommons.org/licenses/by/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:BCN2013_Diving_DSC_0270_(11098280955).jpg"
+
+- id: diving-mostar-2017
+  sport: diving
+  file: /images/diving/mostar-2017.jpg
+  width: 1200
+  height: 455
+  alt: "A large crowd on a riverside in a stone town watching a cliff diving event"
+  shows: >
+   The crowd at a Red Bull Cliff Diving World Series event in Mostar, 2017.
+  title: "Red Bull Cliff-diving - Mostar 2017.jpg"
+  author: "A. Omanović"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Red_Bull_Cliff-diving_-_Mostar_2017.jpg"
+
+- id: diving-wolfgangsee-2008
+  sport: diving
+  file: /images/diving/wolfgangsee-2008.jpg
+  width: 1200
+  height: 900
+  alt: "A rock face over a lake with a diving platform near the top and spectators in the water"
+  shows: >
+   High diving from a cliff platform at Wolfgangsee, Austria, 2008.
+  title: "Red Bull Cliff Diving Wolfgangsee 20080720e.jpg"
+  author: "Tigerente"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Red_Bull_Cliff_Diving_Wolfgangsee_20080720e.jpg"

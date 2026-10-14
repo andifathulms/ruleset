@@ -1,0 +1,21 @@
+id: diving
+label: Diving
+tagline: A judged sport that prices every dive in advance and still argues over what a perfect entry looks like.
+governing_body: World Aquatics
+founded: >
+  Fancy diving grew out of gymnastic water landings in nineteenth-century
+  Germany and Sweden; Olympic since 1904 and governed by FINA from 1908,
+  renamed World Aquatics in 2023.
+coverage: deep
+family_colour: pool
+classification:
+  official: aquatics
+  game-category: performance
+  adjudication: judged
+summary: >
+  Diving solved half of the judged-sport problem long before gymnastics
+  did. Every dive has a published degree of difficulty, computed by formula,
+  so what a diver attempts is measured and only how well is judged. The other
+  half — seven people marking the same two seconds of flight — it has managed
+  by throwing away the four marks furthest from the middle.
+cover: diving-sync-springboard-pike

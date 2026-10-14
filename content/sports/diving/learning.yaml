@@ -1,0 +1,50 @@
+sport: diving
+standing: editorial
+summary: >
+  The most dangerous apparatus on this site is water, and the sport's whole
+  development pathway is built around making a ten-metre fall survivable before
+  making it scorable.
+
+entry:
+  verdict: high
+  claim: A pool with deep water and a board, a coach, and years of dryland work first.
+  why: >
+    A first dive off a one-metre board is easy. Everything after it needs a
+    diving pool, which is rarer than a swimming pool because of the depth,
+    and a coach, because the safe way to learn a somersault entry is on a
+    trampoline and in a harness before it is in the water.
+
+    The sport sets a minimum age of fourteen for the Games and senior world
+    championships, but its divers start years earlier, usually from
+    gymnastics.
+  evidence:
+    - { label: Depth needed under 3 m, value: 3.70 m, basis: observation }
+    - { label: Minimum senior age, value: "14", basis: rule, rule: fina-1992-minimum-age-fourteen }
+    - { label: Usual background, value: Gymnastics, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Two seconds of flight, judged by people who have seen thousands of them.
+  why: >
+    The difficulty table is public, so elite divers know exactly what each
+    dive is worth; the margin is in the entry, which judges mark harshly for a
+    splash. A clean entry from ten metres at around fifty kilometres an hour is
+    the hardest part of the sport and the least visible.
+
+    Synchronisation adds a second judgement on top of execution, and the
+    Chinese programme has set the standard so far ahead that the rest of the
+    world's divers are measured against it.
+  evidence:
+    - { label: Marks counted, value: Middle 3 of 7, basis: observation }
+    - { label: Synchronised panel, value: 11 judges, basis: rule, rule: ioc-2000-synchronised-diving }
+    - { label: "China at Paris 2024", value: 8 of 8 golds, basis: observation }
+
+gap: >
+  Diving's gap is the opposite of most judged sports'. Because difficulty is
+  computed rather than judged, a beginner can read exactly what the best
+  divers are attempting — and the published numbers make it plain how far
+  away that is.
+
+shaped_by:
+  - fina-1992-minimum-age-fourteen
+  - ioc-2000-synchronised-diving

@@ -1,0 +1,139 @@
+sport: diving
+as_of: 2026-10
+edition: World Aquatics Competition Regulations, Part Four — Diving Rules (November 2024)
+source: wa-diving-rules-2024
+standing: primary-checked
+summary: >
+  Leave a springboard or platform, perform a declared dive, and enter the
+  water. Each dive is scored by a panel and multiplied by its degree of
+  difficulty, so the sport separates what was attempted from how well it was
+  done — the distinction gymnastics took until 2006 to make.
+
+sections:
+  - id: object
+    label: The object of the competition
+    body: >
+      Score the highest total over a fixed number of dives. Men dive six times
+      in a final and women five, each a different dive, chosen in advance from
+      the published list and declared before the competition.
+    facts:
+      - { label: "Men's final", value: 6 dives }
+      - { label: "Women's final", value: 5 dives }
+      - { label: Repeats, value: No dive number twice }
+    citation:
+      source: wa-diving-rules-2024
+      article: "Part Four, 3.1–3.3"
+
+  - id: field
+    label: Boards and water
+    body: >
+      Springboards at one and three metres, a fixed platform at ten. The water
+      under each board must be deep enough to stop a diver entering at speed,
+      and the deeper the board the deeper the pool.
+    facts:
+      - { label: Springboards, value: "1 m and 3 m, at least 4.8 m long" }
+      - { label: Platform, value: 10 m }
+      - { label: "Depth under 3 m board", value: "3.70 m minimum" }
+      - { label: "Depth under 10 m platform", value: "4.50 m minimum" }
+    citation:
+      source: fina-facilities-rules-2017
+      article: "FR 5.1.1, FR 5.3 table"
+
+  - id: equipment
+    label: Dives and difficulty
+    body: >
+      Every dive has a number and a letter. The number gives the group and the
+      somersaults and twists; the letter gives the body position. Its degree
+      of difficulty is not judged but computed, by adding published values for
+      the somersaults, the position, the twists, the approach and the entry.
+      A forward three and a half somersaults in pike from three metres is 107B
+      and carries a difficulty of 3.1.
+    facts:
+      - { label: Groups, value: "Forward, back, reverse, inward, twisting, armstand" }
+      - { label: Positions, value: "A straight, B pike, C tuck, D free" }
+      - { label: Difficulty, value: "Sum of five published components" }
+    citation:
+      source: wa-diving-dd-appendix
+      article: "Appendices 8–9"
+
+  - id: players
+    label: Divers and judges
+    body: >
+      Individual events, and synchronised pairs who dive side by side. At the
+      Games seven judges mark an individual dive and eleven a synchronised one
+      — five for synchronisation, three for each diver's execution. Divers must
+      be fourteen in the year of competition.
+    facts:
+      - { label: Individual panel, value: 7 judges }
+      - { label: Synchronised panel, value: 11 judges }
+      - { label: Minimum age, value: "14 by 31 December" }
+    shaped_by: [fina-1992-minimum-age-fourteen, ioc-2000-synchronised-diving]
+    citation:
+      source: wa-diving-rules-2024
+      article: "Part Four, 1.4, 5.2.1"
+
+  - id: duration
+    label: Rounds
+    body: >
+      A preliminary round, a semi-final and a final for individual events, each
+      starting from zero, so a lead does not carry forward. Synchronised events
+      go straight to a final. At the Games eighteen divers reach the semi-final
+      and twelve the final.
+    citation:
+      source: wa-diving-rules-2024
+      article: "Part Four, 2.3.1–2.3.3, 2.4.1"
+
+  - id: scoring
+    label: Scoring a dive
+    body: >
+      Each judge awards a mark from 0 to 10 in half points. With seven judges,
+      the two highest and two lowest marks are cancelled and the middle three
+      are added, then multiplied by the degree of difficulty. Seven marks of
+      8.0, 7.5, 7.5, 7.5, 7.5, 7.5 and 7.0 on a dive of difficulty 2.0 score
+      22.5 × 2.0 = 45.0.
+    facts:
+      - { label: Judge's scale, value: "0–10, in halves" }
+      - { label: Marks counted, value: "Middle 3 of 7" }
+      - { label: Score, value: "Sum × difficulty" }
+    citation:
+      source: wa-diving-rules-2024
+      article: "Part Four, 5.1.4, 7.5, 7.8"
+
+  - id: restarts
+    label: The take-off and the restart
+    body: >
+      A diver who stops after starting the approach, or stops pressing the
+      board once the legs have begun to, is given a restart and loses two
+      points from every judge's mark. A second unsuccessful attempt is a failed
+      dive. So is a double bounce on the end of the springboard.
+    facts:
+      - { label: Restart, value: "−2 from each judge's mark" }
+      - { label: Second restart, value: Failed dive }
+    citation:
+      source: wa-diving-rules-2024
+      article: "Part Four, 6.5.1–6.5.4"
+
+  - id: prohibitions
+    label: Failed dives and capped marks
+    body: >
+      The referee declares a failed dive, scoring zero, for a dive of a
+      different number from the one announced, a twist off by ninety degrees
+      or more, or a head-first dive in which the feet enter first. A dive
+      clearly performed in the wrong position is capped at two points per
+      judge; arms in the wrong place on entry cap it at four and a half.
+    facts:
+      - { label: Wrong dive, value: Failed — zero }
+      - { label: Wrong position, value: Capped at 2 points }
+      - { label: Arms wrong on entry, value: Capped at 4½ points }
+    citation:
+      source: wa-diving-rules-2024
+      article: "Part Four, 6.4.12–6.4.13, 6.5.7–6.5.9"
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      The highest total of the dives in the final. Totals from the preliminary
+      and semi-final are not carried forward.
+    citation:
+      source: wa-diving-rules-2024
+      article: "Part Four, 2.3.3"
