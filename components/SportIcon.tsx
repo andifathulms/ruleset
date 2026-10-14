@@ -759,6 +759,17 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M4 54 Q11 50 18 54 T32 54 T46 54 T60 53" fill="none" strokeDasharray="3 3" />
     </>
   ),
+  // Two legs raised straight out of the water in a vertical, toes pointed, the
+  // surface rippling round them: the swimmer is upside down and out of sight.
+  'artistic-swimming': (
+    <>
+      <path d="M28 46 L26 10 M36 46 L38 10" fill="none" strokeWidth="3.5" />
+      <path d="M26 10 L24 6 M38 10 L40 6" fill="none" strokeWidth="2" />
+      <ellipse cx="32" cy="48" rx="12" ry="3" fill="none" />
+      <ellipse cx="32" cy="50" rx="22" ry="6" fill="none" strokeDasharray="3 3" />
+      <path d="M4 58 H60" fill="none" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
