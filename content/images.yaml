@@ -20265,3 +20265,446 @@
   licence: "CC BY 4.0"
   licence_url: "https://creativecommons.org/licenses/by/4.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Svetlana_Romashina_in_2021_-_01.jpg"
+
+# Roller sports.
+
+- id: roller-sports-plimpton-skate
+  sport: roller-sports
+  file: /images/roller-sports/plimpton-skate.jpg
+  width: 1200
+  height: 729
+  alt: "A wooden roller skate with leather straps and four wheels set in pairs"
+  shows: >
+   A prototype of James Plimpton's quad skate, made between 1863 and 1866, at
+   the National Museum of Roller Skating in Lincoln, Nebraska. Four wheels in a square is the design quad skates still follow.
+  title: "Plimpton Roller Skate prototype-between 1863 and 1866-at National Museum of Roller Skating-by Bruce McArthur.jpg"
+  author: "Bruce McArthur"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Plimpton_Roller_Skate_prototype-between_1863_and_1866-at_National_Museum_of_Roller_Skating-by_Bruce_McArthur.jpg"
+
+- id: roller-sports-vel-dhiv-1910
+  sport: roller-sports
+  file: /images/roller-sports/vel-dhiv-1910.jpg
+  width: 1200
+  height: 879
+  alt: "Skaters racing on a wide indoor track under a glass roof"
+  shows: >
+   A roller speed race at the Vélodrome d'Hiver in Paris, November 1910.
+  title: "Course de patinage à roulette, Vel'd'Hiv', 6-11-10 - btv1b6914897f.jpg"
+  author: "Agence Rol"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Course_de_patinage_%C3%A0_roulette,_Vel%27d%27Hiv%27,_6-11-10_-_btv1b6914897f.jpg"
+
+- id: roller-sports-vaudrey-1910
+  sport: roller-sports
+  file: /images/roller-sports/vaudrey-1910.jpg
+  width: 879
+  height: 1200
+  alt: "A man in dark clothes crouched on roller skates beside a track barrier"
+  shows: >
+   Camille de Vaudrey, a professional roller skater credited as holding the
+   24-hour record of 416 kilometres, photographed in 1910.
+  title: "Camille de Vaudrey, professionnel, recordman du monde des 24 heures avec 416 kil(omètres en patins à roulettes) - btv1b6914939b.jpg"
+  author: "Agence Rol"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Camille_de_Vaudrey,_professionnel,_recordman_du_monde_des_24_heures_avec_416_kil(om%C3%A8tres_en_patins_%C3%A0_roulettes)_-_btv1b6914939b.jpg"
+
+- id: roller-sports-leveille-1910
+  sport: roller-sports
+  file: /images/roller-sports/leveille-1910.jpg
+  width: 879
+  height: 1200
+  alt: "A young man on quad skates crouched in a racing stance on a track"
+  shows: >
+   Charles Leveillé, a track roller speed skater, at the Vélodrome d'Hiver in
+   Paris, 1910.
+  title: "Charles Leveillé (patinage de vitesse sur piste) - btv1b69149363.jpg"
+  author: "Agence Rol"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Charles_Leveill%C3%A9_(patinage_de_vitesse_sur_piste)_-_btv1b69149363.jpg"
+
+- id: roller-sports-euclid-beach-rink
+  sport: roller-sports
+  file: /images/roller-sports/euclid-beach-rink.jpg
+  width: 823
+  height: 521
+  alt: "A coloured postcard of a large covered roller rink with flags and a central bandstand"
+  shows: >
+   The roller rink at Euclid Beach Park, Cleveland, Ohio, on an early
+   twentieth-century postcard: rinks like it were where the disciplines began.
+  title: "Roller Skating Rink, Euclid Beach (NBY 1660).jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Roller_Skating_Rink,_Euclid_Beach_(NBY_1660).jpg"
+
+- id: roller-sports-donegan-1913
+  sport: roller-sports
+  file: /images/roller-sports/donegan-1913.jpg
+  width: 916
+  height: 1200
+  alt: "A woman in a feathered headdress posing on one roller skate"
+  shows: >
+   Nellie Donegan, a professional roller skater, in 1913: the stage act that
+   artistic skating grew out of.
+  title: "Nellie Donegan, roller skater, 1913 - photographer Apeda (N.Y.) (4286121969).jpg"
+  author: "Apeda (N.Y.)"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Nellie_Donegan,_roller_skater,_1913_-_photographer_Apeda_(N.Y.)_(4286121969).jpg"
+
+- id: roller-sports-world-games-1981-pairs
+  sport: roller-sports
+  file: /images/roller-sports/world-games-1981-pairs.jpg
+  width: 753
+  height: 602
+  alt: "A smiling man and woman in purple costumes, he wearing a medal"
+  shows: >
+   Tina Kneisley and Paul Price, artistic pairs gold medallists at the first
+   World Games, Santa Clara, July 1981.
+  title: "WG Artistic Skating Pairs July 1981.jpg"
+  author: "Jeff in CA"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WG_Artistic_Skating_Pairs_July_1981.jpg"
+
+- id: roller-sports-world-games-1981-ladies
+  sport: roller-sports
+  slot: "events"
+  file: /images/roller-sports/world-games-1981-ladies.jpg
+  width: 538
+  height: 742
+  alt: "Three women on quad skates wearing medals and waving to a crowd"
+  shows: >
+   The ladies' singles artistic medallists at the first World Games in 1981.
+   Roller sports have been on the World Games programme since the first
+   edition.
+  title: "WG Ladies Singles Artistic Skating July 1981.jpg"
+  author: "Jeff in CA"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WG_Ladies_Singles_Artistic_Skating_July_1981.jpg"
+
+- id: roller-sports-world-games-1981-hockey
+  sport: roller-sports
+  file: /images/roller-sports/world-games-1981-hockey.jpg
+  width: 902
+  height: 629
+  alt: "Players on quad skates chasing a ball with curved sticks"
+  shows: >
+   Roller hockey at the first World Games in Santa Clara, July 1981.
+  title: "WG Roller Hockey 2 July 1981.jpg"
+  author: "Jeff in CA"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:WG_Roller_Hockey_2_July_1981.jpg"
+
+- id: roller-sports-portugal-2007
+  sport: roller-sports
+  file: /images/roller-sports/portugal-2007.jpg
+  width: 1200
+  height: 900
+  alt: "A rink hockey squad posed in two rows with sticks, officials behind"
+  shows: >
+   Portugal's squad at the 2007 men's world championship in Montreux.
+  title: "Portugal au mondial A rink hockey 2007.jpg"
+  author: "Gordon Morrison"
+  licence: "Attribution"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Portugal_au_mondial_A_rink_hockey_2007.jpg"
+
+- id: roller-sports-france-portugal-2007
+  sport: roller-sports
+  file: /images/roller-sports/france-portugal-2007.jpg
+  width: 1200
+  height: 900
+  alt: "A goalkeeper sprawled on the floor in front of his goal as a skater falls over him"
+  shows: >
+   France against Portugal at the 2007 men's world championship in Montreux:
+   the goalkeeper, in helmet and leg guards, down at the post.
+  title: "France-Portugal 2007 rink hockey world championship.jpg"
+  author: "Gordon Morrison"
+  licence: "Attribution"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:France-Portugal_2007_rink_hockey_world_championship.jpg"
+
+- id: roller-sports-euroleague-faceoff
+  sport: roller-sports
+  file: /images/roller-sports/euroleague-faceoff.jpg
+  width: 1200
+  height: 634
+  alt: "Players in red and blue facing each other on a rink before a restart"
+  shows: >
+   Genève against Hockey Valdagno in the 2012–13 Euroleague.
+  title: "Rink-Hockey Euroleague 2012-2013 - Genève vs Hockey Valdagno - 16.jpg"
+  author: "Clément Bucco-Lechat"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rink-Hockey_Euroleague_2012-2013_-_Gen%C3%A8ve_vs_Hockey_Valdagno_-_16.jpg"
+
+- id: roller-sports-euroleague-rink
+  sport: roller-sports
+  slot: "play:field"
+  file: /images/roller-sports/euroleague-rink.jpg
+  width: 1200
+  height: 560
+  alt: "A rink hockey game seen across the floor, the goal and its cage at one end"
+  shows: >
+   Genève against Hockey Valdagno in the Euroleague, February 2013: a boarded
+   rink, five a side, and a goal with a net cage behind it.
+  title: "Rink-Hockey Euroleague 2012-2013 - Genève vs Hockey Valdagno - 44.jpg"
+  author: "Clément Bucco-Lechat"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rink-Hockey_Euroleague_2012-2013_-_Gen%C3%A8ve_vs_Hockey_Valdagno_-_44.jpg"
+
+- id: roller-sports-goalkeeper-crouch
+  sport: roller-sports
+  file: /images/roller-sports/goalkeeper-crouch.jpg
+  width: 1200
+  height: 722
+  alt: "A goalkeeper in a helmet and large leg guards crouched beside an orange goal"
+  shows: >
+   A rink hockey goalkeeper at the post, Genève against Valdagno, 2013.
+  title: "Rink-Hockey Euroleague 2012-2013 - Genève vs Hockey Valdagno - 65.jpg"
+  author: "Clément Bucco-Lechat"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rink-Hockey_Euroleague_2012-2013_-_Gen%C3%A8ve_vs_Hockey_Valdagno_-_65.jpg"
+
+- id: roller-sports-goalkeeper-kneel
+  sport: roller-sports
+  file: /images/roller-sports/goalkeeper-kneel.jpg
+  width: 1200
+  height: 828
+  alt: "A goalkeeper kneeling in front of the goal in full protective kit"
+  shows: >
+   A goalkeeper's full kit — helmet, chest protector, leg guards and gloves —
+   in the Euroleague, 2013.
+  title: "Rink-Hockey Euroleague 2012-2013 - Genève vs Hockey Valdagno - 07.jpg"
+  author: "Clément Bucco-Lechat"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Rink-Hockey_Euroleague_2012-2013_-_Gen%C3%A8ve_vs_Hockey_Valdagno_-_07.jpg"
+
+- id: roller-sports-germany-italy-2014
+  sport: roller-sports
+  slot: "play:restarts"
+  file: /images/roller-sports/germany-italy-2014.jpg
+  width: 1200
+  height: 800
+  alt: "Two players on quad skates contesting the ball with curved sticks"
+  shows: >
+   Germany's captain Kevin Karschau carrying the ball past Italy's captain
+   Davide Motaran at the 2014 European Championship.
+  title: "Alemania vs Italia - 2014 CERH European Championship - 11.jpg"
+  author: "Carlos Delgado"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Alemania_vs_Italia_-_2014_CERH_European_Championship_-_11.jpg"
+
+- id: roller-sports-portugal-germany-2014
+  sport: roller-sports
+  file: /images/roller-sports/portugal-germany-2014.jpg
+  width: 1200
+  height: 800
+  alt: "Two players in maroon shirts and green trousers celebrating beside the boards"
+  shows: >
+   Portugal against Germany at the 2014 European Championship.
+  title: "Portugal vs Alemania - 2014 CERH European Championship - 03.jpg"
+  author: "Carlos Delgado"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Portugal_vs_Alemania_-_2014_CERH_European_Championship_-_03.jpg"
+
+- id: roller-sports-spain-2014
+  sport: roller-sports
+  file: /images/roller-sports/spain-2014.jpg
+  width: 1200
+  height: 720
+  alt: "A rink hockey team in red posed in two rows with sticks and goalkeepers in grey"
+  shows: >
+   Spain's team at the 2014 European Championship.
+  title: "Selección de hockey patines de España - 01.jpg"
+  author: "Carlos Delgado"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Selecci%C3%B3n_de_hockey_patines_de_Espa%C3%B1a_-_01.jpg"
+
+- id: roller-sports-hockey-quad-skate
+  sport: roller-sports
+  slot: "play:equipment"
+  file: /images/roller-sports/hockey-quad-skate.jpg
+  width: 1200
+  height: 900
+  alt: "A black leather quad skate with four wheels and a front stopper"
+  shows: >
+   A rink hockey quad skate: two pairs of wheels, and a brake at the front.
+  title: "Roller-hockey-(Quad)-Skate.jpg"
+  author: "Hardballhock"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Roller-hockey-(Quad)-Skate.jpg"
+
+- id: roller-sports-hockey-stick
+  sport: roller-sports
+  file: /images/roller-sports/hockey-stick.jpg
+  width: 1200
+  height: 629
+  alt: "A curved wooden hockey stick taped at both ends"
+  shows: >
+   A rink hockey stick, still most often made of wood.
+  title: "Roller-hockey-(Quad)-Stick.jpg"
+  author: "Hardballhock"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Roller-hockey-(Quad)-Stick.jpg"
+
+- id: roller-sports-berlin-2017
+  sport: roller-sports
+  file: /images/roller-sports/berlin-2017.jpg
+  width: 1200
+  height: 800
+  alt: "Three inline speed skaters crouched low racing along a city street"
+  shows: >
+   Inline speed skaters racing on the streets of Berlin, April 2017: road
+   racing is half of the speed discipline.
+  title: "Inline speed skating Berlin 2017 gnangarra-101.jpg"
+  author: "Gnangarra"
+  licence: "CC BY 2.5 au"
+  licence_url: "https://creativecommons.org/licenses/by/2.5/au/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Inline_speed_skating_Berlin_2017_gnangarra-101.jpg"
+
+- id: roller-sports-track-finish-2017
+  sport: roller-sports
+  file: /images/roller-sports/track-finish-2017.jpg
+  width: 717
+  height: 490
+  alt: "Two inline skaters lunging for the line on an indoor track"
+  shows: >
+   The finish of a women's inline speed race, November 2017.
+  title: "2017-11-18 NSC 29 - Grand Champions Race - Women's - Inline Speed Skating — finish Skeelerspagaat 1.jpg"
+  author: "National Speedskating Circuit"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:2017-11-18_NSC_29_-_Grand_Champions_Race_-_Women%27s_-_Inline_Speed_Skating_%E2%80%94_finish_Skeelerspagaat_1.jpg"
+
+- id: roller-sports-inline-speed-skates
+  sport: roller-sports
+  file: /images/roller-sports/inline-speed-skates.jpg
+  width: 640
+  height: 480
+  alt: "Two inline speed skates with five large wheels each"
+  shows: >
+   Inline speed skates: long frames with large wheels in a single line.
+  title: "Speed Skates.jpg"
+  author: "Xuacu"
+  licence: "CC BY-SA 3.0"
+  licence_url: "http://creativecommons.org/licenses/by-sa/3.0/"
+  source_url: "https://commons.wikimedia.org/wiki/File:Speed_Skates.jpg"
+
+- id: roller-sports-toronto-2015-track
+  sport: roller-sports
+  file: /images/roller-sports/toronto-2015-track.jpg
+  width: 1200
+  height: 900
+  alt: "A banked outdoor track with a Toronto 2015 arch over the finish"
+  shows: >
+   The roller speed track at the 2015 Pan American Games in Toronto.
+  title: "TO2015 Pan Am Roller Speed Skating venue.JPG"
+  author: "OhanaUnited"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:TO2015_Pan_Am_Roller_Speed_Skating_venue.JPG"
+
+- id: roller-sports-toronto-2015-podium
+  sport: roller-sports
+  file: /images/roller-sports/toronto-2015-podium.jpg
+  width: 1200
+  height: 900
+  alt: "Three skaters in racing suits standing on a podium with medals"
+  shows: >
+   The men's 200 m time-trial medallists at the 2015 Pan American Games.
+  title: "TO2015 Speed Skating Men's 200 metres time-trial medalist.JPG"
+  author: "OhanaUnited"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:TO2015_Speed_Skating_Men%27s_200_metres_time-trial_medalist.JPG"
+
+- id: roller-sports-traonouez
+  sport: roller-sports
+  file: /images/roller-sports/traonouez.jpg
+  width: 289
+  height: 400
+  alt: "A skater in a waistcoat performing on inline skates on a wooden floor"
+  shows: >
+   Éric Traonouez of France, a world champion in inline artistic skating, in
+   2008.
+  title: "Eric Traonouez Champion du Monde.JPG"
+  author: "Mjrm9"
+  licence: "FAL"
+  licence_url: "http://artlibre.org/licence/lal/en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Eric_Traonouez_Champion_du_Monde.JPG"
+
+- id: roller-sports-casado-2019
+  sport: roller-sports
+  file: /images/roller-sports/casado-2019.jpg
+  width: 1130
+  height: 754
+  alt: "A skater in a sequinned costume with both arms raised"
+  shows: >
+   Gustavo Casado of Brazil performing at the 2019 Pan American Games, where he
+   won the men's bronze.
+  title: "Gustavo Casado 2019 Pan American Games.jpg"
+  author: "Abelardo Mendes Jr."
+  licence: "CC BY 3.0 br"
+  licence_url: "https://creativecommons.org/licenses/by/3.0/br/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Gustavo_Casado_2019_Pan_American_Games.jpg"
+
+- id: roller-sports-meriel-2014
+  sport: roller-sports
+  file: /images/roller-sports/meriel-2014.jpg
+  width: 274
+  height: 380
+  alt: "A male skater mid-programme on a rink, arms spread"
+  shows: >
+   Pierre Meriel at the 2014 artistic world championships.
+  title: "Pierre Meriel Mondial 2014.jpg"
+  author: "Sparfy"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Pierre_Meriel_Mondial_2014.jpg"
+
+- id: roller-sports-world-skate-games-2024
+  sport: roller-sports
+  file: /images/roller-sports/world-skate-games-2024.jpg
+  width: 1200
+  height: 800
+  alt: "A skateboarder in the air over a street course in Rome"
+  shows: >
+   Skateboarding at the World Skate Games in Rome, 2024, now run alongside the
+   older roller disciplines by the merged federation.
+  title: "World Skate Games 2024 - Rome, Italy 1.jpg"
+  author: "Lloyd Tudor"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:World_Skate_Games_2024_-_Rome,_Italy_1.jpg"
+
+- id: roller-sports-heel-spin
+  sport: roller-sports
+  file: /images/roller-sports/heel-spin.jpg
+  width: 1200
+  height: 800
+  alt: "A skater spinning on one foot with the other leg extended behind"
+  shows: >
+   A heel spin on quad skates, one of the spins artistic roller shares with
+   figure skating.
+  title: "Pirouette Talon gauche.JPG"
+  author: "GUIGUI81"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Pirouette_Talon_gauche.JPG"
