@@ -735,6 +735,18 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M14 49 Q10 54 12 60 M14 49 Q16 55 20 58 M14 49 Q12 55 8 58" fill="none" strokeWidth="1.5" />
     </>
   ),
+  // The ten-metre platform side-on, and a diver going in vertical and straight:
+  // the entry is the last thing the judges see, and the one they forgive least.
+  diving: (
+    <>
+      <path d="M8 58 V10 H26" fill="none" strokeWidth="3" />
+      <path d="M8 34 H18" fill="none" />
+      <circle cx="40" cy="20" r="3.5" fill="#F2F5F1" stroke="none" />
+      <path d="M40 24 V44 M40 14 V8" fill="none" strokeWidth="3" />
+      <path d="M4 50 H34 M46 50 H60" fill="none" />
+      <path d="M36 54 Q40 48 44 54" fill="none" strokeDasharray="2 2" />
+    </>
+  ),
   // The floating goal with its net, the ball held up out of the water: seven a
   // side, nobody standing, and most of the fouling below the surface.
   'water-polo': (
