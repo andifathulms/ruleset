@@ -770,6 +770,19 @@ const DRAWINGS: Record<string, React.ReactNode> = {
       <path d="M4 58 H60" fill="none" />
     </>
   ),
+  // A quad skate side-on, boot, plate, toe stop and two of its four wheels:
+  // the square footprint the artistic skaters and rink hockey never gave up.
+  'roller-sports': (
+    <>
+      <path d="M18 12 H30 V30 Q34 34 44 35 Q52 36 52 42 V44 H14 V16 Q14 12 18 12 Z" fill="none" />
+      <path d="M22 18 H28 M22 23 H28" fill="none" />
+      <path d="M12 47 H54" fill="none" strokeWidth="3" />
+      <circle cx="22" cy="53" r="5" fill="none" />
+      <circle cx="44" cy="53" r="5" fill="none" />
+      <path d="M54 44 Q58 46 57 51" fill="none" strokeWidth="3" />
+      <path d="M4 60 H60" fill="none" strokeDasharray="3 3" />
+    </>
+  ),
   // A shin in its guard, foot extended, with the arc of the kick behind it:
   // boxing's ring and gloves, with kicks added on top.
   kickboxing: (
