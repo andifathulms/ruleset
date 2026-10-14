@@ -1,0 +1,22 @@
+sport: water-polo
+as_of: 2026-10
+source: wa-water-polo-rules-2026
+standing: secondary
+summary: >
+  Two Olympic tournaments, men's since 1900 and women's since 2000. From 2028
+  they are the same size for the first time.
+disciplines:
+  - id: tournaments
+    label: Tournaments
+    blurb: >
+      The men's tournament has been held at every Games since 1900; the
+      women's joined in 2000.
+    events:
+      - { id: men, label: "Men's tournament", at: [olympic, world-championship, asian-games], note: "12 teams at the Games." }
+      - { id: women, label: "Women's tournament", at: [olympic, world-championship, asian-games], note: "Ten teams in 2024, twelve from 2028." }
+  - id: other
+    label: Contested away from the Games
+    counts: false
+    events:
+      - { id: worldcup, label: Water Polo World Cup, at: [federation-only] }
+      - { id: fours, label: Water polo 4s, at: [federation-only], note: A short four-a-side format in an appendix of the rules. }

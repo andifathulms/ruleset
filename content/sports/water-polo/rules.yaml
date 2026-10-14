@@ -1,0 +1,136 @@
+- id: fina-2005-thirty-second-possession
+  scope: { sport: water-polo }
+  date_adopted: 2005
+  date_effective: 2005
+  status: adopted
+  governing_body: Fédération Internationale de Natation
+  what_changed: >
+    A package from the 2005 FINA congress: possession time cut from 35 to 30
+    seconds, periods lengthened from seven to eight minutes of actual play, and
+    a direct shot allowed from a free throw awarded outside five metres. The
+    penalty throw moved out from four metres to five in the same period.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      No statement of reasons from the federation has been obtained. The
+      academic literature on the change reads it as one of a series meant to
+      make the game faster and more attractive to watch, because so much of
+      it is fought below the surface and out of view; a study of the 2005
+      rules found shots and goals both up by about eighteen per cent.
+    source: argudo-2020-water-polo-shots
+  citation:
+    source: world-aquatics-rules
+    edition: FINA Water Polo Rules, 2005
+    missing: true
+  comparability_break: null
+
+- id: fina-2019-twenty-second-reset
+  scope: { sport: water-polo }
+  date_adopted: 2018-12-10
+  date_effective: 2019
+  status: adopted
+  governing_body: Fédération Internationale de Natation
+  what_changed: >
+    After a corner throw, a rebound kept by the attack, or an exclusion, the
+    possession clock resets to 20 seconds rather than 30, unless more remains.
+    The same package let a corner be shot directly, extended the direct-shot
+    free throw to anywhere outside six metres, gave each team two time-outs,
+    let the goalkeeper cross halfway, and introduced video review of goals and
+    violent action.
+  cause_primary: broadcast and pacing
+  trigger:
+    description: >
+      Adopted at an extraordinary congress in Hangzhou by 161 votes to 2. The
+      committee's own note on the reset is that a team "is not to lose time as
+      a result of the exclusion, nor is the offending team to benefit". USA
+      Water Polo, announcing the rules, reported that trials at youth and World
+      Cup events had produced a 25 per cent rise in goals and a 24 per cent fall
+      in fouls called per game.
+    source: usa-water-polo-2019-rules
+  citation:
+    source: fina-2018-hangzhou-water-polo-rules
+    edition: Hangzhou rules, 10 December 2018
+    article: "WP 20.15"
+  comparability_break: null
+
+- id: wa-2024-twenty-five-metre-field
+  scope: { sport: water-polo }
+  date_adopted: 2024-11-08
+  date_effective: 2025
+  status: adopted
+  governing_body: World Aquatics
+  what_changed: >
+    The men's field shortened from 30 to 25 metres, matching the women's.
+    Men's possession cut from 30 to 25 seconds, and the exclusion and
+    second-possession time cut from 20 to 15 seconds for both. A Coach's
+    Challenge on video was introduced, and a team was allowed to replace its
+    goalkeeper with a seventh field player.
+  cause_primary: disputed
+  trigger:
+    description: >
+      The committee's stated purpose for the Challenge was to "reduce the
+      human factor in certain calls" and "help to protect the game". The rest
+      of the package was reported as meant to raise the pace of play.
+    also_said: >
+      The changes were first presented as trials for the 2025 World Cup and
+      then adopted outright by a Bureau postal vote without a congress. Former
+      Serbia coach Dejan Savić called the process "devastating" and the
+      Challenge "a farce". Whether the package was a considered reform or an
+      untested one is the dispute; both accounts are recorded.
+    source: wpdworld-2024-savic
+  citation:
+    source: wa-twpc-2024-rules-summary
+    edition: TWPC summary, December 2024
+  comparability_break: null
+
+- id: wa-2025-twenty-eight-eighteen
+  scope: { sport: water-polo }
+  date_adopted: 2025-05-09
+  date_effective: 2025
+  status: adopted
+  governing_body: World Aquatics
+  what_changed: >
+    Possession time set at 28 seconds for men and women, and the
+    second-possession and exclusion time at 18 seconds: a partial reversal,
+    six months later, of the 25 and 15 adopted in November 2024. Half-time
+    went from three minutes to five.
+  cause_primary: broadcast and pacing
+  cause_secondary: safety
+  trigger:
+    description: >
+      The federation's letter to national federations says the changes "seek
+      to improve the overall speed and efficiency of the sport, while also
+      enhancing the player safety and overall fairness at all levels of
+      competition". It followed the 2025 World Cup, played under the November
+      rules.
+    also_said: >
+      Coaches remain divided. Ratko Rudić said the game had "lost much of the
+      tactical component"; Tom Hoad called it "more television appropriate
+      now".
+    source: wa-2025-water-polo-letter
+  citation:
+    source: wa-water-polo-rules-2026
+    edition: CR Part Six, February 2026
+    article: "CR 9.1, CR 10.5.2"
+  comparability_break: null
+
+- id: ioc-2025-women-twelve-teams
+  scope: { sport: water-polo, discipline: women }
+  date_adopted: 2025-04-09
+  date_effective: 2028
+  status: adopted
+  governing_body: International Olympic Committee
+  what_changed: >
+    The women's Olympic tournament enlarged to twelve teams from 2028, the same
+    as the men's. Women's water polo entered the Games in 2000 with six teams
+    and had been held at eight and then ten.
+  cause_primary: participation and access
+  trigger:
+    description: >
+      Endorsed by the IOC Executive Board on 9 April 2025, giving the two
+      tournaments the same size for the first time.
+    source: wa-2025-women-water-polo-parity
+  citation:
+    source: wa-2025-women-water-polo-parity
+    edition: World Aquatics release, April 2025
+  comparability_break: null

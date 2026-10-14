@@ -1,0 +1,53 @@
+sport: water-polo
+standing: editorial
+summary: >
+  A team sport whose first requirement is something no other team sport asks:
+  staying up, for an hour, without touching anything, while someone holds you
+  under.
+
+entry:
+  verdict: high
+  claim: You have to be a strong swimmer before you can be a beginner.
+  why: >
+    The rules are learned quickly, and the kit is a cap and a costume. The
+    barrier is the water. A player must tread water upright for long periods
+    with the hands free — the "eggbeater" kick — swim hard in short repeats,
+    and be comfortable being grabbed and pushed under, all in a pool deeper
+    than they can stand in.
+
+    That puts the sport behind swimming itself in the queue: a newcomer is
+    usually a competitive swimmer already, and the pool time is shared with
+    every other aquatic discipline.
+  evidence:
+    - { label: Kit to start, value: "Cap, costume, ball", basis: observation }
+    - { label: Water depth, value: 2 m minimum, basis: rule, rule: wa-2024-twenty-five-metre-field }
+    - { label: Prerequisite, value: Strong swimming and treading water, basis: judgement }
+
+mastery:
+  verdict: very-high
+  claim: Physical contact you cannot see, under a clock that keeps changing.
+  why: >
+    Elite water polo is a contact sport fought mostly below the surface, where
+    the referee's view is worst and the advantage goes to whoever holds and
+    pushes most cleverly without being seen. Learning to do that, and to draw
+    exclusions from opponents, takes years.
+
+    The tactical layer moves under the players' feet. The possession and
+    exclusion times — the numbers that set the length of every power play —
+    have changed three times since 2018.
+  evidence:
+    - { label: Possession clock, value: 28 s, basis: rule, rule: wa-2025-twenty-eight-eighteen }
+    - { label: Power-play length, value: 18 s, basis: rule, rule: wa-2025-twenty-eight-eighteen }
+    - { label: Changes to the reset since 2018, value: "Three", basis: rule, rule: fina-2019-twenty-second-reset }
+
+gap: >
+  The gap is set by the pool, not the rulebook. Entry is hard because the
+  water is unforgiving; mastery is hard because the sport's decisive contact
+  is invisible, so it rewards a kind of experience that cannot be watched and
+  copied. The rule changes on this page have tried to make more of the game
+  visible and faster, and have not touched either of those.
+
+shaped_by:
+  - fina-2019-twenty-second-reset
+  - wa-2024-twenty-five-metre-field
+  - wa-2025-twenty-eight-eighteen

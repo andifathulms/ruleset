@@ -15,7 +15,7 @@
     and eighteen lanes become four.
   source: ioc-olympic-charter
   groups:
-    - { id: aquatics, label: Aquatics, colour: pool, members: [swimming] }
+    - { id: aquatics, label: Aquatics, colour: pool, members: [swimming, water-polo] }
     - { id: air-sports, label: Air sports, colour: pool, members: [air-sports] }
     - { id: archery, label: Archery, colour: pool, members: [archery] }
     - { id: athletics, label: Athletics, colour: pool, members: [athletics] }
@@ -112,7 +112,7 @@
       colour: pitch
       members: [football, basketball, hockey, handball, rugby, lacrosse,
                 flag-football, korfball, flying-disc, floorball, kabaddi,
-                underwater-sports, polo]
+                underwater-sports, polo, water-polo]
     - id: striking-and-fielding
       label: Striking and fielding
       colour: pitch
@@ -164,7 +164,7 @@
                 squash, flag-football, korfball, tug-of-war, fistball, floorball,
                 kabaddi, sepak-takraw, racquetball, soft-tennis, underwater-sports,
                 billiards, board-games, bridge, esports, polo, croquet,
-                basque-pelota]
+                basque-pelota, water-polo]
     - id: combat
       label: Combat
       colour: clay
@@ -202,7 +202,8 @@
     - id: never-off
       label: Never off
       colour: pool
-      members: [athletics, cycling, fencing, gymnastics, rowing, swimming]
+      members: [athletics, cycling, fencing, gymnastics, rowing, swimming,
+                water-polo]
     - id: restored
       label: Removed, restored
       colour: gold

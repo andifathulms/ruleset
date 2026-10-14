@@ -750,3 +750,115 @@
   kind: rulebook
   url: https://www.ifaf.org/
 
+
+# Water polo. The current rules and the three rule-change documents below were
+# opened and read for this entry; the academic papers are cited for history and
+# for reasons only where they say so themselves.
+
+- id: wa-water-polo-rules-2026
+  standing: primary-checked
+  title: Competition Regulations, Part Six — Water Polo Rules (in force from February 2026)
+  publisher: World Aquatics
+  kind: rulebook
+  url: https://www.bwpl.org/uploads/2/6/5/9/26598283/water_polo_rules_extract_from_2026-02-18_world-aquatics_cr-final.pdf
+  note: >
+    Article numbers on this page are the CR numbering of this edition, which
+    replaced the older WP numbering. The copy read is an extract hosted by the
+    British Water Polo League.
+
+- id: fina-2018-hangzhou-water-polo-rules
+  standing: primary-checked
+  title: New rules approved during the FINA Extraordinary Technical Water Polo Congress, Hangzhou, 10 December 2018 (with clarifications)
+  publisher: FINA Technical Water Polo Committee
+  kind: circular
+  url: https://resources.fina.org/fina/document/2021/01/12/bb14ac4b-6e8b-4676-acf2-24a201c60b66/2019-march24-clarificationsdef.pdf
+
+- id: wa-twpc-2024-rules-summary
+  standing: primary-checked
+  title: Water Polo Rules changes, modification and housekeeping (TWPC summary, December 2024)
+  publisher: World Aquatics Technical Water Polo Committee
+  kind: circular
+  url: https://wwpra.org/wp-content/uploads/2024/12/Rules-2025-Summary-by-TWPC.pdf
+
+- id: wa-2025-water-polo-letter
+  standing: primary-checked
+  title: Letter to National Federations re changes to the Water Polo Competition Regulations, 9 May 2025
+  publisher: World Aquatics (Brent J. Nowicki, Executive Director)
+  kind: circular
+  url: https://wwpra.org/wp-content/uploads/2025/05/2025.05.09-BN-Letter-to-NFs-re-Changes-to-the-World-Aquatics-Water-Polo-Competition-Regulations-1.pdf
+
+- id: wa-2025-women-water-polo-parity
+  standing: secondary
+  title: IOC Executive Board endorses twelve-team women's water polo tournament for LA28
+  publisher: World Aquatics
+  kind: circular
+  url: https://www.worldaquatics.com/news/4246145
+  note: >
+    News release reporting the IOC Executive Board decision of 9 April 2025.
+
+- id: madera-2017-water-polo-rules
+  standing: secondary
+  title: Effects of Rule Changes on Game-Related Statistics in Men's Water Polo Matches (Sports, 2017)
+  publisher: Madera, Tella and Saavedra
+  kind: paper
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5969033
+  note: >
+    Table 1 lists the main rule changes from 1942 to 2005, citing Donev and
+    Aleksandrović (2008). Used for dates; it is not a statement of the
+    federation's reasons.
+
+- id: argudo-2020-water-polo-shots
+  standing: secondary
+  title: Effects of rules changes on shots dynamics in Water polo World Championship 2003–2013 (JPES, 2020)
+  publisher: Argudo Iturriaga et al.
+  kind: paper
+  url: https://minerva.usc.gal/bitstreams/bbe44b9d-eadb-4d8f-8b44-412880527b03/download
+
+- id: argudo-2016-penalty-distance
+  standing: secondary
+  title: The Effects of Modifying the Distance of the Penalty Shot in Water Polo (Journal of Human Kinetics, 2016)
+  publisher: Argudo, Ruiz-Barquín and Borges
+  kind: paper
+  url: https://johk.pl/wp-content/uploads/2023/03/10.1515_hukin-2016-0041.pdf
+
+- id: scottish-swimming-water-polo-history
+  standing: secondary
+  title: Water polo — Scottish Swimming archive
+  publisher: Scottish Swimming
+  kind: database
+  url: https://scotswimarchive.scot/water-polo
+
+- id: usa-water-polo-2019-rules
+  standing: secondary
+  title: USA Water Polo announces implementation of new FINA water polo rules (28 January 2019)
+  publisher: USA Water Polo
+  kind: circular
+  url: https://usawaterpolo.org/news/2019/1/28/events-usa-water-polo-announces-implementation-of-new-fina-water-polo-rules.aspx
+
+- id: wpdworld-2024-savic
+  standing: secondary
+  title: Dejan Savić on the November 2024 rule changes (WPD World, 14 November 2024)
+  publisher: WPD World
+  kind: circular
+  url: https://www.wpdworld.com/?p=268248
+
+- id: total-waterpolo-2024-rules
+  standing: secondary
+  title: World Aquatics enforces new rules without testing (Total Waterpolo, 11 November 2024)
+  publisher: Total Waterpolo
+  kind: circular
+  url: https://total-waterpolo.com/?p=103611
+
+- id: wa-2025-hoad-interview
+  standing: secondary
+  title: Aussie water polo legend comments on rule evolution (23 May 2025)
+  publisher: World Aquatics
+  kind: circular
+  url: https://www.worldaquatics.com/news/4271846/aussie-water-polo-legend-comments-on-rule-evolution
+
+- id: wpdworld-2025-rudic
+  standing: secondary
+  title: Ratko Rudić on the new rules (WPD World, 4 September 2025)
+  publisher: WPD World
+  kind: circular
+  url: https://www.wpdworld.com/?p=272158

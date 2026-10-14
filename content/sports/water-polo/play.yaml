@@ -1,0 +1,138 @@
+sport: water-polo
+as_of: 2026-10
+edition: World Aquatics Competition Regulations, Part Six — Water Polo Rules (February 2026)
+source: wa-water-polo-rules-2026
+standing: primary-checked
+summary: >
+  Score more goals than the other team, in water deep enough that nobody can
+  stand. Everything else is a clock: a possession clock, an exclusion clock,
+  and a game clock that stops on every whistle. Those three numbers are the
+  rules the federation changes most often.
+
+sections:
+  - id: object
+    label: The object of the game
+    body: >
+      Throw the ball into the opponents' goal. A team must shoot before its
+      possession clock runs out, may not touch the bottom or hold the side,
+      and may not take the ball underwater when tackled. Contact is allowed
+      and constant; the fouls are about holding, sinking and pulling back a
+      player who does not have the ball.
+
+  - id: field
+    label: The field of play
+    body: >
+      A rectangle marked out in a pool by floating lines, the same size for
+      men and women since 2025. The water must be at least two metres deep
+      everywhere, so no one can push off the floor.
+    facts:
+      - { label: Length, value: 25 m between the goal lines }
+      - { label: Width, value: 20 m }
+      - { label: Depth, value: "2 m minimum" }
+      - { label: Goal, value: "3 m wide, crossbar 0.9 m above the water" }
+      - { label: Water temperature, value: 25–27 °C }
+    shaped_by: [wa-2024-twenty-five-metre-field]
+    citation:
+      source: wa-water-polo-rules-2026
+      article: "CR 20.2, CR 21.6"
+
+  - id: equipment
+    label: The ball and caps
+    body: >
+      The women's ball is slightly smaller and softer than the men's. Caps
+      carry malleable ear protectors in the cap's colour, which the rules
+      require, and a number for the officials to call.
+    facts:
+      - { label: Ball weight, value: 400–450 g }
+      - { label: "Men's ball", value: "0.68–0.71 m round, 7.5–8.5 psi" }
+      - { label: "Women's ball", value: "0.65–0.67 m round, 6.5–7.5 psi" }
+      - { label: Caps, value: "White or blue, goalkeeper red, with ear guards" }
+    citation:
+      source: wa-water-polo-rules-2026
+      article: "CR 21.2, CR 21.4"
+
+  - id: players
+    label: Teams
+    body: >
+      Seven in the water, one of them normally a goalkeeper — though since
+      2025 a team may replace its goalkeeper with a seventh field player. A
+      match squad is up to fourteen, with two goalkeepers, and substitutes
+      swap in from a re-entry area at the team's own end.
+    facts:
+      - { label: In the water, value: 7 }
+      - { label: Match squad, value: "14, including 2 goalkeepers" }
+      - { label: Olympic squad, value: 13 }
+    shaped_by: [wa-2024-twenty-five-metre-field]
+    citation:
+      source: wa-water-polo-rules-2026
+      article: "CR 2.2.2, Appendix 7"
+
+  - id: duration
+    label: Time
+    body: >
+      Four periods of eight minutes of actual play — the clock stops on every
+      whistle, so a match takes well over an hour. Each team has two
+      time-outs.
+    facts:
+      - { label: Periods, value: "4 × 8 min, stopped clock" }
+      - { label: Breaks, value: "2 min, and 5 min at half-time" }
+      - { label: Time-outs, value: 2 per team }
+    shaped_by: [fina-2005-thirty-second-possession, wa-2025-twenty-eight-eighteen]
+    citation:
+      source: wa-water-polo-rules-2026
+      article: "CR 4.1, CR 4.3"
+
+  - id: scoring
+    label: Possession and scoring
+    body: >
+      A team has 28 seconds to shoot. The clock resets to 18 after a corner,
+      after the attack keeps a rebound, and after an exclusion — the number
+      that was 20 until 2024, 15 for six months, and 18 since. A goal is one
+      point, from anywhere, and may be scored directly from a corner or from
+      a free throw awarded outside six metres.
+    facts:
+      - { label: Possession, value: 28 s }
+      - { label: Reset, value: 18 s }
+      - { label: Goal, value: 1 point }
+    shaped_by: [fina-2019-twenty-second-reset, wa-2024-twenty-five-metre-field, wa-2025-twenty-eight-eighteen]
+    citation:
+      source: wa-water-polo-rules-2026
+      article: "CR 9.1, CR 9.8–9.10"
+
+  - id: restarts
+    label: Swim-off and restarts
+    body: >
+      Each period starts with a swim-off: the ball is dropped at halfway and
+      the two fastest players race for it. Ordinary fouls give a free throw
+      taken where the ball is, which keeps the game moving rather than
+      stopping it.
+    shaped_by: [fina-2019-twenty-second-reset]
+
+  - id: prohibitions
+    label: Fouls and exclusions
+    body: >
+      Ordinary fouls cost a free throw. Major fouls — holding, sinking or
+      pulling back a player away from the ball — send the offender to the
+      re-entry area for 18 seconds, or until his team wins the ball back. A
+      foul that stops a likely goal inside six metres is a penalty from five
+      metres. Three personal fouls and a player is out of the match; violent
+      action is a four-minute exclusion.
+    facts:
+      - { label: Exclusion, value: 18 s }
+      - { label: Personal fouls to foul out, value: 3 }
+      - { label: Penalty, value: From 5 m }
+      - { label: Violent action, value: 4 min exclusion }
+    shaped_by: [wa-2025-twenty-eight-eighteen]
+    citation:
+      source: wa-water-polo-rules-2026
+      article: "CR 10.5, CR 10.8, CR 16.2, CR 17.3"
+
+  - id: winning
+    label: Deciding the winner
+    body: >
+      More goals. Where a winner is needed after a draw, the match goes
+      straight to a penalty shootout of five shooters each, with no extra
+      time.
+    citation:
+      source: wa-water-polo-rules-2026
+      article: "CR 4.4.2, Appendix 3"

@@ -1,0 +1,21 @@
+id: water-polo
+label: Water polo
+tagline: Most of the fouling happens where nobody can see it, so the federation keeps changing the clock instead.
+governing_body: World Aquatics
+founded: >
+  Devised as "aquatic football" in Scotland in 1877; governed internationally
+  by FINA from 1908, renamed World Aquatics in 2023.
+coverage: deep
+family_colour: pool
+classification:
+  official: aquatics
+  game-category: invasion
+  adjudication: decided-by-score
+summary: >
+  Seven a side in water too deep to stand in, with a shot clock and a sin bin
+  measured in seconds. Water polo has rewritten its possession and exclusion
+  times more often than any other team sport on this site, and in 2024–25 it
+  changed them, met opposition, and changed them back halfway inside six
+  months. The constant behind all of it is that the contest the referees most
+  need to see happens under the surface.
+cover: water-polo-centre-forward

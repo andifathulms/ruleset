@@ -19178,3 +19178,329 @@
   licence: "CC BY-SA 3.0"
   licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
   source_url: "https://commons.wikimedia.org/wiki/File:Hong_Kong_East_Asian_Games_2556.JPG"
+
+# Water polo.
+
+- id: water-polo-coney-island-1898
+  sport: water-polo
+  file: /images/water-polo/coney-island-1898.jpg
+  width: 1200
+  height: 942
+  alt: "A colourful circus poster of swimmers, divers and water games at Coney Island"
+  shows: >
+   A Barnum & Bailey poster for the Coney Island water carnival, 1898: water
+   games and stunts as popular entertainment in the decades water polo was
+   becoming a sport.
+  title: "The great Coney Island water carnival, poster for Barnum & Bailey, 1898.jpg"
+  author: "Strobridge Lithograph Co."
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:The_great_Coney_Island_water_carnival,_poster_for_Barnum_%26_Bailey,_1898.jpg"
+
+- id: water-polo-goalkeeper-1880s
+  sport: water-polo
+  file: /images/water-polo/goalkeeper-1880s.jpg
+  width: 725
+  height: 847
+  alt: "A drawing of a goalkeeper in the water catching a ball between tall rugby-style posts"
+  shows: >
+   An early water polo goalkeeper defending tall posts, in an illustration of
+   the 1880s game.
+  title: "Water polo goalkeeper original game.png"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Water_polo_goalkeeper_original_game.png"
+
+- id: water-polo-paris-1900
+  sport: water-polo
+  file: /images/water-polo/paris-1900.jpg
+  width: 1123
+  height: 530
+  alt: "Swimmers chasing a ball in open water beside a stone quay, 1900"
+  shows: >
+   Water polo at the Paris Olympics in 1900, played in the Seine.
+  title: "Le Water-Polo aux JO 1900.jpg"
+  author: "La Vie au Grand Air"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Le_Water-Polo_aux_JO_1900.jpg"
+
+- id: water-polo-seine-1912
+  sport: water-polo
+  file: /images/water-polo/seine-1912.jpg
+  width: 1200
+  height: 870
+  alt: "Players in a river with floating goals, spectators on the bank, 1912"
+  shows: >
+   A water polo match at the Île des Cygnes on the Seine in 1912, with floating
+   goals: before pools, the field was marked out in a river.
+  title: "4-8-12, île des Cygnes, match de water-polo - btv1b6920833j.jpg"
+  author: "Agence Rol"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:4-8-12,_%C3%AEle_des_Cygnes,_match_de_water-polo_-_btv1b6920833j.jpg"
+
+- id: water-polo-great-britain-1912
+  sport: water-polo
+  file: /images/water-polo/great-britain-1912.jpg
+  width: 612
+  height: 371
+  alt: "A British water polo team in costumes posed with officials on a jetty, 1912"
+  shows: >
+   Great Britain's team at the Stockholm Olympics in 1912. Britain won four of
+   the first five Olympic tournaments.
+  title: "GB Water Polo 1912.jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:GB_Water_Polo_1912.jpg"
+
+- id: water-polo-amsterdam-1928-final
+  sport: water-polo
+  file: /images/water-polo/amsterdam-1928-final.jpg
+  width: 1200
+  height: 875
+  alt: "A goalkeeper rising out of the water as a shot comes in, crowds behind"
+  shows: >
+   The 1928 Olympic final in Amsterdam, which Germany won 5–2 against Hungary.
+  title: "Sport, Olympische Spelen Amsterdam, Nederland 1928 Finale waterpolo, SFA002008737.jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Sport,_Olympische_Spelen_Amsterdam,_Nederland_1928_Finale_waterpolo,_SFA002008737.jpg"
+
+- id: water-polo-hungary-1932
+  sport: water-polo
+  file: /images/water-polo/hungary-1932.jpg
+  width: 784
+  height: 507
+  alt: "Seven Hungarian players in caps and trunks lined up on the poolside"
+  shows: >
+   Hungary's Olympic champions of 1932 in Los Angeles, the first of nine men's
+   titles.
+  title: "Olympic gold medalist hungarian water polo team (1932, Los Angeles).jpg"
+  author: "Unknown authorUnknown author"
+  licence: "Public domain"
+  licence_url: ""
+  source_url: "https://commons.wikimedia.org/wiki/File:Olympic_gold_medalist_hungarian_water_polo_team_(1932,_Los_Angeles).jpg"
+
+- id: water-polo-berlin-1936
+  sport: water-polo
+  file: /images/water-polo/berlin-1936.jpg
+  width: 1179
+  height: 1200
+  alt: "A crowded Olympic stadium looking down on a water polo pitch marked out in a long pool"
+  shows: >
+   The water polo tournament at the Berlin Olympic swimming stadium in 1936,
+   which Hungary won.
+  title: "Olimpiai Úszóstadion. Olimpiai vizilabdatorna. Fortepan 17425.jpg"
+  author: "Fortepan"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Olimpiai_%C3%9Asz%C3%B3stadion._Olimpiai_vizilabdatorna._Fortepan_17425.jpg"
+
+- id: water-polo-netherlands-1955
+  sport: water-polo
+  file: /images/water-polo/netherlands-1955.jpg
+  width: 1193
+  height: 1200
+  alt: "Players splashing in front of a goal in an outdoor pool with spectators behind"
+  shows: >
+   The Netherlands against Belgium in 1955.
+  title: "Waterpolo Nederland tegen Belgie 3-1, spelmoment, Bestanddeelnr 907-2291.jpg"
+  author: "Herbert Behrens / Anefo"
+  licence: "CC0"
+  licence_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  source_url: "https://commons.wikimedia.org/wiki/File:Waterpolo_Nederland_tegen_Belgie_3-1,_spelmoment,_Bestanddeelnr_907-2291.jpg"
+
+- id: water-polo-moscow-1980
+  sport: water-polo
+  file: /images/water-polo/moscow-1980.jpg
+  width: 1024
+  height: 670
+  alt: "A goalkeeper in a red cap leaping to block a shot as attackers close in"
+  shows: >
+   Hungary against the Netherlands at the Moscow Olympics in 1980.
+  title: "RIAN archive 8772 Hungary vs Holland water polo match.jpg"
+  author: "Vladimir Vyatkin / RIA Novosti"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:RIAN_archive_8772_Hungary_vs_Holland_water_polo_match.jpg"
+
+- id: water-polo-balls
+  sport: water-polo
+  slot: "play:equipment"
+  file: /images/water-polo/balls.jpg
+  width: 1200
+  height: 800
+  alt: "A mesh bag full of yellow and maroon water polo balls"
+  shows: >
+   Water polo balls: the men's and women's balls differ slightly in size and
+   pressure.
+  title: "Water polo balls.jpg"
+  author: "Russell Harrison"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Water_polo_balls.jpg"
+
+- id: water-polo-ball-on-water
+  sport: water-polo
+  file: /images/water-polo/ball-on-water.jpg
+  width: 1200
+  height: 798
+  alt: "A yellow ball floating beside a lane rope"
+  shows: >
+   A ball on the water at a women's team practice, 2008.
+  title: "Water polo ball on water.jpg"
+  author: "Sean Fornelli"
+  licence: "CC BY-SA 2.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/2.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Water_polo_ball_on_water.jpg"
+
+- id: water-polo-referee
+  sport: water-polo
+  file: /images/water-polo/referee.jpg
+  width: 803
+  height: 1200
+  alt: "A referee watching from the poolside above a player swimming with the ball"
+  shows: >
+   A referee walking the side of the pool, 2012. The view from above is the
+   only one the officials have.
+  title: "Waterpolo referee.jpg"
+  author: "Zorro2212"
+  licence: "CC BY-SA 3.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Waterpolo_referee.jpg"
+
+- id: water-polo-swim-off
+  sport: water-polo
+  slot: "play:restarts"
+  file: /images/water-polo/swim-off.jpg
+  width: 801
+  height: 1200
+  alt: "A referee holding the ball at halfway before the swim-off"
+  shows: >
+   A referee about to release the ball for the swim-off at a French league cup
+   match, 2014.
+  title: "DFC Sete v FNC Douai Coupe de la Ligue 2014 t144507.jpg"
+  author: "Marie-Lan Nguyen"
+  licence: "CC BY 3.0"
+  licence_url: "https://creativecommons.org/licenses/by/3.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:DFC_Sete_v_FNC_Douai_Coupe_de_la_Ligue_2014_t144507.jpg"
+
+- id: water-polo-rio-2016-pool
+  sport: water-polo
+  slot: "play:field"
+  file: /images/water-polo/rio-2016-pool.jpg
+  width: 1200
+  height: 675
+  alt: "An Olympic water polo pitch marked with floating lines in a full arena"
+  shows: >
+   The pitch at the Rio 2016 Olympic Aquatics Stadium, the field marked out by
+   floating lines.
+  title: "Piscina Polo Aquático Olimpíadas Rio 2016.jpg"
+  author: "Henriquemarra01"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Piscina_Polo_Aqu%C3%A1tico_Olimp%C3%ADadas_Rio_2016.jpg"
+
+- id: water-polo-centre-forward
+  sport: water-polo
+  file: /images/water-polo/centre-forward.jpg
+  width: 1200
+  height: 800
+  alt: "A centre forward wrestling for position with a defender in front of goal"
+  shows: >
+   The fight for the centre position in the men's final at Rio 2016, Serbia
+   against Croatia: the contest the referees most need to see, much of it under
+   the water.
+  title: "Marcação de Centro, pressão!.jpg"
+  author: "Carlos Antonio Azevedo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Marca%C3%A7%C3%A3o_de_Centro,_press%C3%A3o!.jpg"
+
+- id: water-polo-shot
+  sport: water-polo
+  file: /images/water-polo/shot.jpg
+  width: 1200
+  height: 800
+  alt: "An attacker shooting at goal from the edge of the area, seen from above"
+  shows: >
+   A shot in the men's final at Rio 2016.
+  title: "Chute ao Gol.jpg"
+  author: "Carlos Antonio Azevedo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Chute_ao_Gol.jpg"
+
+- id: water-polo-scramble
+  sport: water-polo
+  file: /images/water-polo/scramble.jpg
+  width: 1200
+  height: 800
+  alt: "Players crowding the goalmouth in a scramble for the ball"
+  shows: >
+   A scramble in front of goal at Rio 2016.
+  title: "Confusao na area.jpg"
+  author: "Jorge Mello"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Confusao_na_area.jpg"
+
+- id: water-polo-serbia-2016
+  sport: water-polo
+  file: /images/water-polo/serbia-2016.jpg
+  width: 1200
+  height: 678
+  alt: "A team in white and red jumping with arms raised on the Olympic podium"
+  shows: >
+   Serbia, Olympic champions at Rio 2016, the first of three successive titles.
+  title: "Campeões!.jpg"
+  author: "Carlos Antonio Azevedo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Campe%C3%B5es!.jpg"
+
+- id: water-polo-yellow-card
+  sport: water-polo
+  file: /images/water-polo/yellow-card.jpg
+  width: 1200
+  height: 799
+  alt: "A referee showing a yellow card towards the bench"
+  shows: >
+   A referee cautioning a coach during the men's final at Rio 2016.
+  title: "Amarelou.jpg"
+  author: "Carlos Antonio Azevedo"
+  licence: "CC BY-SA 4.0"
+  licence_url: "https://creativecommons.org/licenses/by-sa/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Amarelou.jpg"
+
+- id: water-polo-paris-2024-women
+  sport: water-polo
+  file: /images/water-polo/paris-2024-women.jpg
+  width: 1200
+  height: 900
+  alt: "A player rising high out of the water to shoot, a defender behind"
+  shows: >
+   Greece against Canada in the women's tournament at Paris 2024.
+  title: "Summer Olympics - Water Polo women's water polo classification 7th 8th match - Greece vs Canada - 2024-08-10 - 12.jpg"
+  author: "Daieuxetdailleurs"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Summer_Olympics_-_Water_Polo_women%27s_water_polo_classification_7th_8th_match_-_Greece_vs_Canada_-_2024-08-10_-_12.jpg"
+
+- id: water-polo-paris-2024-goal
+  sport: water-polo
+  file: /images/water-polo/paris-2024-goal.jpg
+  width: 1200
+  height: 900
+  alt: "An attacker shooting at goal as the goalkeeper in red reaches across"
+  shows: >
+   An attack on goal in the same match at Paris 2024, La Défense Arena.
+  title: "Summer Olympics - Water Polo women's water polo classification 7th 8th match - Greece vs Canada - 2024-08-10 - 03.jpg"
+  author: "Daieuxetdailleurs"
+  licence: "CC BY 4.0"
+  licence_url: "https://creativecommons.org/licenses/by/4.0"
+  source_url: "https://commons.wikimedia.org/wiki/File:Summer_Olympics_-_Water_Polo_women%27s_water_polo_classification_7th_8th_match_-_Greece_vs_Canada_-_2024-08-10_-_03.jpg"
