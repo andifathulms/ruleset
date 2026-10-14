@@ -36,7 +36,7 @@ sections:
       **Rink hockey** uses a rink 40 metres by 20 with boards and goals — the
       dimensions of a handball court, and close to floorball's.
     facts:
-      - { label: Rink hockey, value: 40 × 20 m, with boards }
+      - { label: Rink hockey, value: "40 × 20 m, with boards" }
       - { label: Speed, value: Banked track and road circuits }
       - { label: Artistic, value: A flat indoor floor }
 
@@ -59,7 +59,7 @@ sections:
     facts:
       - { label: Artistic and rink hockey, value: Quad skates }
       - { label: Speed, value: Inline skates }
-      - { label: Rink hockey ball, value: Hard, struck with a curved stick }
+      - { label: Rink hockey ball, value: "Hard, struck with a curved stick" }
     shaped_by: [roller-inline-transition]
 
   - id: players
@@ -70,7 +70,7 @@ sections:
       five a side including a goalkeeper, with rolling substitutions.
     facts:
       - { label: Rink hockey, value: 5 a side including a goalkeeper }
-      - { label: Artistic, value: Solo, pairs, dance, precision teams }
+      - { label: Artistic, value: "Solo, pairs, dance, precision teams" }
 
   - id: duration
     label: Time
