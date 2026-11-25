@@ -7,6 +7,51 @@ summary: >
   Three classical disciplines behind a boat — slalom, tricks and jump — plus
   wakeboarding, and a set of cable disciplines towed without a boat at all.
 
+walkthrough:
+  title: One slalom run, from the first pass to the score
+  intro: >
+    The sport has several disciplines. This is slalom, the one most people
+    picture: one skier, one ski, a boat and six buoys.
+  steps:
+    - label: The set-up
+      body: >
+        One skier competes at a time, on a single ski, holding the handle of a
+        rope that does not stretch. A driver takes the boat in a straight line
+        down the middle of the course at a set speed. The skier does not
+        control the boat.
+    - label: One pass
+      body: >
+        Six buoys float beside the boat's path, three on each side. The skier
+        swings out round the outside of the first buoy, cuts back across the
+        boat's wake, and rounds the next buoy on the other side. Six buoys
+        rounded is one complete pass.
+    - label: Faster
+      body: >
+        After a complete pass the boat turns and runs the course again, at a
+        higher speed. Each complete pass earns a faster one.
+    - label: Shorter
+      body: >
+        When the boat can go no faster under the rules, the rope is shortened
+        instead, by a set step for each new pass. In time the rope is shorter
+        than the distance from the boat's path to the buoys. The skier must
+        then lean and stretch to get round them.
+    - label: The end of the run
+      body: >
+        The run ends when the skier misses a buoy, passes one on the wrong
+        side, or falls. There is no second attempt. If the boat was off its
+        line or outside its speed limits, that pass does not count and is run
+        again.
+    - label: The score
+      body: >
+        The score is where the skier got to. It is given in three parts: how
+        many buoys, at what rope length, at what speed. More buoys at a
+        shorter rope is better.
+    - label: Who wins
+      body: >
+        The skier with the best score wins the slalom. Tricks and jump are
+        decided in the same way, by points and by distance. An overall title
+        goes to the best skier across all three.
+
 sections:
   - id: object
     label: The object of the game
@@ -42,6 +87,8 @@ sections:
       obstacles and rails.
     facts:
       - { label: Boat path, value: "Surveyed, timed between gates" }
+      - { label: Slalom course, value: "259 m from entry gate to exit gate" }
+      - { label: Slalom buoys, value: "6, three on each side, 11.5 m from the boat's centre line" }
       - { label: Boat speed, value: Held to a tolerance }
       - { label: Cable, value: "No boat, no wake" }
     shaped_by: [waterski-1961-cable]
@@ -55,15 +102,15 @@ sections:
 
       **The rope** is the least obvious and most important item. It is
       inelastic, and it comes in standard lengths with defined shortening
-      increments — the "off" measurements that slalom scores are quoted in. A
-      score of "three at 10.75 off" means three buoys with the rope shortened by
-      10.75 metres from full length.
+      increments. Slalom scores are quoted with the rope length: a score of
+      "three at 10.75" means three buoys with a rope 10.75 metres long.
 
       **The boat** is regulated as equipment even though the athlete does not
       drive it: approved hulls, approved speed control, and a wake specification
       that matters enormously to wakeboarding, where the wake is the ramp.
     facts:
       - { label: Rope, value: "Inelastic, standard shortening increments" }
+      - { label: Full rope length, value: 18.25 m }
       - { label: Slalom ski, value: "One ski, deep fin" }
       - { label: Trick skis, value: Short and finless }
       - { label: Boat, value: Approved hull and speed control }

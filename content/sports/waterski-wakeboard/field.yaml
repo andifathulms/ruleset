@@ -1,0 +1,47 @@
+# The slalom course, from the measurements in play.yaml. The course is 259 m
+# long and only 23 m wide, so the length is compressed here: the drawing is
+# schematic, and the page says so.
+sport: waterski-wakeboard
+title: Six buoys and a straight line
+caption: >
+  The slalom course. The boat drives straight down the middle. The skier
+  swings from side to side and must pass round the outside of all six buoys.
+  The shaded strip is as far as a 10.75 metre rope can reach to each side.
+  The buoys lie outside it, so at that rope length the skier has to lean and
+  stretch beyond the rope to get round them.
+alt: >
+  A long slalom course with the boat's straight path down the middle and six
+  buoys set alternately on either side of it, 11.5 metres out, with a zigzag
+  line showing the skier's path round them.
+scale: schematic
+view: [-9, -19, 74, 21]
+shapes:
+  - { type: rect, x: 0, y: -11.5, w: 64.75, h: 23, fill: area, line: none }
+  - { type: rect, x: 0, y: -10.75, w: 64.75, h: 21.5, fill: zone, line: none }
+  - { type: line, x1: -4, y1: 0, x2: 68.75, y2: 0, line: heavy }
+  - { type: line, x1: 0, y1: -1.6, x2: 0, y2: 1.6 }
+  - { type: line, x1: 64.75, y1: -1.6, x2: 64.75, y2: 1.6 }
+  - { type: line, x1: 0, y1: 0, x2: 6.75, y2: -11.9, line: dashed }
+  - { type: line, x1: 6.75, y1: -11.9, x2: 17, y2: 11.9, line: dashed }
+  - { type: line, x1: 17, y1: 11.9, x2: 27.25, y2: -11.9, line: dashed }
+  - { type: line, x1: 27.25, y1: -11.9, x2: 37.5, y2: 11.9, line: dashed }
+  - { type: line, x1: 37.5, y1: 11.9, x2: 47.75, y2: -11.9, line: dashed }
+  - { type: line, x1: 47.75, y1: -11.9, x2: 58, y2: 11.9, line: dashed }
+  - { type: line, x1: 58, y1: 11.9, x2: 64.75, y2: 0, line: dashed }
+  - { type: dot, x: 6.75, y: -11.5 }
+  - { type: dot, x: 17, y: 11.5 }
+  - { type: dot, x: 27.25, y: -11.5 }
+  - { type: dot, x: 37.5, y: 11.5 }
+  - { type: dot, x: 47.75, y: -11.5 }
+  - { type: dot, x: 58, y: 11.5 }
+  - { type: label, x: 6.75, y: -14, text: "buoy 1", tone: muted }
+  - { type: label, x: 58, y: 15, text: "buoy 6", tone: muted }
+  - { type: label, x: -4.5, y: -1.6, text: "boat", tone: muted }
+  - { type: label, x: 0, y: 4, text: "entry gate", tone: muted, anchor: start }
+  - { type: label, x: 64.75, y: -3, text: "exit gate", tone: muted, anchor: end }
+  - { type: dim, x1: 0, y1: 18.5, x2: 64.75, y2: 18.5, text: "259 m" }
+  - { type: dim, x1: 70, y1: 0, x2: 70, y2: 11.5, text: "11.5 m" }
+legend:
+  - { swatch: zone, label: "reach of a 10.75 m rope" }
+  - { swatch: heavy, label: "the boat's path" }
+  - { swatch: dashed, label: "the skier's path" }

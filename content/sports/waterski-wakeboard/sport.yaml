@@ -1,6 +1,6 @@
 id: waterski-wakeboard
 label: Water ski and wakeboard
-tagline: "The only sport here where a competitor's performance depends on how well somebody else drives a boat."
+tagline: Skiers and riders are towed across flat water by a boat or an overhead cable, and compete in slalom, tricks, jump and wakeboard.
 governing_body: International Waterski & Wakeboard Federation
 founded: >
   Water skiing dates from the 1920s; the World Water Ski Union was founded in
@@ -12,11 +12,18 @@ classification:
   official: waterski-wakeboard
   game-category: performance
   adjudication: measured
+glance:
+  - { value: "6", label: buoys in a slalom pass }
+  - { value: "20 s", label: each tricks pass }
+  - { value: "3", label: jump attempts }
 summary: >
-  Slalom, tricks and jump behind a boat, plus wakeboarding and a set of board
-  disciplines. Slalom is scored by a system found nowhere else: complete a pass
-  through six buoys and the boat goes faster, then the rope is shortened in set
-  increments until it is shorter than the distance to the buoy. And the boat is
-  a competitor's equipment without being under their control — the driver's line
-  and speed are part of every score.
+  A boat tows one competitor at a time across still water on a rope that does
+  not stretch. In slalom the skier swings from side to side round six buoys.
+  Each time they finish a pass the boat goes faster, and then the rope gets
+  shorter, until they miss. In tricks the skier scores points for moves made
+  in two passes of twenty seconds. In jump the skier leaves a ramp and is
+  measured for distance. Wakeboarders ride one board sideways and are judged
+  on tricks thrown off the boat's wake. Riders can also be towed by an overhead
+  cable, with no boat at all. Behind a boat, the driver matters: the boat must
+  hold an exact line and speed, or the pass does not count.
 cover: waterski-wakeboard-slalom

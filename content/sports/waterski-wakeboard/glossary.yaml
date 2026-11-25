@@ -1,0 +1,103 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is contested, not
+# claims about its history, and nothing here carries a cause or a date.
+
+sport: waterski-wakeboard
+terms:
+  - id: slalom
+    term: Slalom
+    definition: >
+      The discipline in which a skier on one ski swings from side to side
+      behind the boat, round six buoys. It gets harder with every pass until
+      the skier misses.
+    see: object
+  - id: tricks
+    term: Tricks
+    definition: >
+      The discipline in which a skier performs spins, turns and flips in two
+      passes of twenty seconds. Every trick has a points value, and each one
+      counts only once.
+    see: scoring
+  - id: jump
+    term: Jump
+    definition: >
+      The discipline in which a skier is towed over a ramp and measured for
+      distance. Each skier has three attempts and the best one counts.
+    see: duration
+  - id: overall
+    term: Overall
+    definition: >
+      The title for the best skier across slalom, tricks and jump together.
+    see: winning
+  - id: wakeboard
+    term: Wakeboard
+    definition: >
+      A single board with bindings for both feet, ridden sideways. Also the
+      discipline in which riders are judged on tricks in the air.
+    see: equipment
+  - id: wake
+    term: Wake
+    definition: >
+      The V-shaped wave a boat leaves behind it. A slalom skier has to cross
+      it, and a wakeboarder uses it as a ramp.
+    see: equipment
+  - id: buoy
+    term: Buoy
+    definition: >
+      A floating marker. In slalom the skier must pass round the outside of
+      six of them, three on each side of the boat's path.
+    see: field
+  - id: pass
+    term: Pass
+    definition: >
+      One trip of the boat through the course with the skier behind it.
+    see: restarts
+  - id: rope-length
+    term: Rope length
+    definition: >
+      How long the tow rope is for a slalom pass. The rope comes in standard
+      lengths, and a shorter rope makes the buoys harder to reach.
+    see: equipment
+  - id: shortening
+    term: Shortening
+    definition: >
+      Making the rope one standard step shorter for the next slalom pass. It
+      begins when the boat has reached its top speed.
+    see: scoring
+  - id: handle
+    term: Handle
+    definition: >
+      The bar at the end of the rope that the skier holds. Letting go of it
+      too early ends the attempt.
+    see: prohibitions
+  - id: trick-skis
+    term: Trick skis
+    definition: >
+      Short skis with no fin, so that they can be spun round on the water.
+    see: equipment
+  - id: driver
+    term: Driver
+    definition: >
+      The person who drives the tow boat. The driver is not the competitor,
+      and must keep the boat on a straight line at the right speed.
+    see: field
+  - id: boat-judge
+    term: Boat judge
+    definition: >
+      The official who checks that the driver kept the boat on its line and at
+      its speed.
+    see: players
+  - id: rerun
+    term: Rerun
+    definition: >
+      A pass skied again because the boat was off its line or outside its
+      speed limits. The first pass does not count.
+    see: prohibitions
+  - id: cable
+    term: Cable
+    definition: >
+      An overhead wire on towers that runs in a circuit round a lake and tows
+      riders without a boat. There is no wake, so riders use obstacles and
+      rails.
+    see: field
