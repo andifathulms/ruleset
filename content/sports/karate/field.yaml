@@ -1,0 +1,30 @@
+# The competition area, from the measurements in play.yaml. Shapes are in metres.
+sport: karate
+title: The tatami
+caption: >
+  Kumite and kata both use a matted square, eight metres on each side. For
+  kumite the outer metre is a warning zone. It tells a competitor that the
+  edge is close, and leaving the area is penalised.
+alt: >
+  A square karate competition area 8 metres on each side, with a warning zone
+  1 metre wide around its edge and two competitors facing each other in the
+  middle.
+scale: to-scale
+view: [-2.2, -1.6, 10.6, 10]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 8, h: 1, fill: zone, line: none }
+  - { type: rect, x: 0, y: 7, w: 8, h: 1, fill: zone, line: none }
+  - { type: rect, x: 0, y: 1, w: 1, h: 6, fill: zone, line: none }
+  - { type: rect, x: 7, y: 1, w: 1, h: 6, fill: zone, line: none }
+  - { type: rect, x: 1, y: 1, w: 6, h: 6, fill: area, line: faint }
+  - { type: rect, x: 0, y: 0, w: 8, h: 8 }
+  - { type: dot, x: 3, y: 4, label: "red belt" }
+  - { type: dot, x: 5, y: 4, label: "blue belt" }
+  - { type: dot, x: 4, y: 2.4, label: "referee" }
+  - { type: label, x: 4, y: 0.5, text: "warning zone", tone: chalk }
+  - { type: dim, x1: 0, y1: 9, x2: 8, y2: 9, text: "8 m" }
+  - { type: dim, x1: 9.2, y1: 0, x2: 9.2, y2: 8, text: "8 m" }
+  - { type: dim, x1: -1, y1: 7, x2: -1, y2: 8, text: "1 m" }
+legend:
+  - { swatch: zone, label: "warning zone, 1 m wide" }
+  - { swatch: area, label: "the rest of the competition area" }

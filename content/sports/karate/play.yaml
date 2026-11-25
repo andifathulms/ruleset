@@ -10,6 +10,49 @@ summary: >
   sequence, judged. One is a combat sport that punishes contact; the other has
   no opponent at all.
 
+walkthrough:
+  title: One kumite bout, exchange by exchange
+  intro: >
+    Kumite is the sparring discipline. Kata, the other discipline, has no
+    opponent: one competitor performs a set sequence and judges score it.
+  steps:
+    - label: Two competitors on the tatami
+      body: >
+        Two competitors from the same weight category stand on a square mat,
+        eight metres on each side. One wears a red belt and the other a blue
+        belt, so the officials can tell them apart. A referee is on the mat
+        with them, and four judges with flags watch the bout.
+    - label: The attack
+      body: >
+        Each competitor tries to land a punch or a kick on a scoring area of
+        the opponent's body or head. The technique must have good form,
+        correct distance, correct timing, awareness and control. Control
+        means it is not landed hard.
+    - label: The stop
+      body: >
+        The referee stops the bout after every scoring exchange. The officials
+        decide whether a technique scored, and the competitors go back to
+        their marks. The bout then starts again, so it is a series of short
+        exchanges.
+    - label: The points
+      body: >
+        A punch to the body or the head scores one point. A kick to the body
+        scores two. A kick to the head scores three, and so does a takedown
+        followed by a scoring technique.
+    - label: Penalties
+      body: >
+        A technique that lands too hard is penalised, even if it would have
+        scored, and repeated excessive contact means disqualification. Leaving
+        the area again and again, avoiding combat, attacking a prohibited area
+        and grabbing or wrestling beyond the permitted limits are also
+        penalised.
+    - label: Winning the bout
+      body: >
+        The bout lasts three minutes. A lead of eight points ends it early.
+        Otherwise the competitor with more points at the end wins. If the
+        scores are level, the bout goes to the competitor who scored first,
+        and if nobody holds that advantage the judges decide.
+
 sections:
   - id: object
     label: The object of the competition
@@ -31,6 +74,7 @@ sections:
     facts:
       - { label: Competition area, value: 8 × 8 m }
       - { label: Warning zone, value: At the perimeter }
+      - { label: Warning zone width, value: 1 m, note: "The outer metre of the competition area, in a different colour." }
       - { label: Leaving the area, value: Penalised }
 
   - id: equipment
@@ -69,12 +113,12 @@ sections:
   - id: duration
     label: Format
     body: >
-      Kumite bouts run three minutes for men and two for women, or until one
+      Kumite bouts run three minutes, for men and for women, or until one
       competitor leads by eight points. Kata is a single performance of a
       chosen sequence from a catalogued list.
     facts:
       - { label: "Kumite, men", value: 3 min }
-      - { label: "Kumite, women", value: 2 min }
+      - { label: "Kumite, women", value: 3 min }
       - { label: Winning margin, value: 8 points ends the bout }
 
   - id: scoring
@@ -123,6 +167,7 @@ sections:
     label: Deciding the winner
     body: >
       An eight-point lead, the higher score at time, or the opponent's
-      disqualification. A drawn bout was decided by senshu — who scored first —
-      until that was removed in 2019, and is now decided by the judges.
+      disqualification. A drawn bout goes to the competitor who scored first,
+      an advantage called senshu. If neither competitor holds senshu, the
+      judges decide.
     shaped_by: [wkf-2019-scoring-revision]

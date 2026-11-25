@@ -1,0 +1,81 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is contested, and
+# nothing here carries a cause or a date.
+
+sport: karate
+terms:
+  - id: kumite
+    term: Kumite
+    definition: >
+      Sparring: a bout between two competitors, scored on controlled punches
+      and kicks.
+    see: object
+  - id: kata
+    term: Kata
+    definition: >
+      A set sequence of movements performed alone, or by a team of three
+      together. Judges score how well it is done.
+    see: object
+  - id: tatami
+    term: Tatami
+    definition: >
+      The square matted area the competition takes place on.
+    see: field
+  - id: warning-zone
+    term: Warning zone
+    definition: >
+      The outer strip of the kumite area. It tells a competitor that the edge
+      is near, because leaving the area is penalised.
+    see: field
+  - id: karategi
+    term: Karategi
+    definition: >
+      The white suit worn for karate, often shortened to gi.
+    see: equipment
+  - id: mitts
+    term: Mitts
+    definition: >
+      The light padded gloves worn in kumite. They protect against a
+      technique that goes wrong.
+    see: equipment
+  - id: control
+    term: Control
+    definition: >
+      Stopping a punch or kick before it lands hard. A technique must be
+      controlled to score.
+    see: object
+  - id: excessive-contact
+    term: Excessive contact
+    definition: >
+      A technique that lands too hard. It is penalised even if it would
+      otherwise have scored, and repeating it leads to disqualification.
+    see: prohibitions
+  - id: scoring-area
+    term: Scoring area
+    definition: >
+      A part of the opponent's body or head where a technique can score.
+    see: scoring
+  - id: takedown
+    term: Takedown
+    definition: >
+      Putting the opponent on the mat. It scores three points when it is
+      followed at once by a scoring technique.
+    see: scoring
+  - id: senshu
+    term: Senshu
+    definition: >
+      The advantage held by the competitor who scored first. It decides a
+      bout that ends with the scores level.
+    see: winning
+  - id: weight-category
+    term: Weight category
+    definition: >
+      A band of body weight. Kumite competitors only meet opponents from the
+      same category.
+    see: players
+  - id: style
+    term: Style
+    definition: >
+      A school of karate, such as Shotokan or Goju-ryu, with its own way of
+      performing techniques and kata.

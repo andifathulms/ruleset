@@ -1,6 +1,6 @@
 id: karate
 label: Karate
-tagline: Waited a century for the Olympics, was contested once at a Games held in the country that invented it, and dropped.
+tagline: A Japanese striking art from Okinawa. In a bout, punches and kicks score only when they are fast, accurate and stopped before they land hard.
 governing_body: World Karate Federation
 founded: >
   Developed in Okinawa from Chinese and indigenous traditions; codified in
@@ -11,10 +11,17 @@ classification:
   official: karate
   game-category: outside-taxonomy
   adjudication: combat
+glance:
+  - { value: "3 min", label: length of a bout }
+  - { value: "8", label: point lead that ends a bout }
+  - { value: "8 × 8 m", label: competition area }
 summary: >
-  Karate appeared at exactly one Olympic Games, in Tokyo, and was not on the
-  next programme — a decision taken before it was contested. Its rules are
-  worth recording anyway, because it solved a problem taekwondo solved with
-  sensors and boxing failed to solve with buttons: how to score a striking
-  sport where the strikes are pulled on purpose.
+  Karate is contested in two ways. In kumite, two competitors in the same
+  weight category spar on a square mat for three minutes. A punch scores one
+  point, a kick to the body two and a kick to the head three, but only when
+  the technique has good form, distance and timing and is kept under control.
+  A strike that lands too hard is a penalty. In kata, one competitor performs
+  a set sequence of movements alone and judges give it a score. What makes
+  karate different from other striking sports is that control: the winning
+  strike is the one that could have hurt and was held back.
 cover: karate-kumite-kit
