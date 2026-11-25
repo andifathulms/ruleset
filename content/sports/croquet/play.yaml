@@ -8,6 +8,51 @@ summary: >
   two sides. In association croquet a turn can last the whole game; in golf
   croquet a turn is one stroke.
 
+walkthrough:
+  title: One turn of association croquet, from the first stroke to the peg
+  intro: >
+    Croquet has two forms. This follows association croquet, where a turn can
+    grow from one stroke into many, and ends with a note on golf croquet.
+  steps:
+    - label: The balls
+      body: >
+        There are four balls on the lawn. One side plays blue and black, and
+        the other plays red and yellow. At the start of each turn the player
+        chooses which of the side's two balls to play.
+    - label: One stroke
+      body: >
+        The player strikes the ball cleanly with a face of the mallet. A turn
+        is one stroke. It goes on only if that stroke earns more.
+    - label: The roquet and the croquet stroke
+      body: >
+        Hitting another ball with your own is a roquet, and it earns two more
+        strokes. For the first, you place your ball against the ball you hit
+        and strike so that both balls move. This is the croquet stroke. The
+        second is an ordinary stroke.
+    - label: Running a hoop
+      body: >
+        Sending your ball through its next hoop scores one point and earns one
+        more stroke. Each of the other balls may be roqueted only once in a
+        turn, but that count starts again every time a hoop is run.
+    - label: The break
+      body: >
+        A player who keeps earning strokes in this way can run several hoops
+        in one turn. This is a break. The turn ends when a stroke earns
+        nothing, or on a fault such as pushing the ball, playing the wrong
+        ball, or sending the croqueted ball off the lawn.
+    - label: Winning
+      body: >
+        Each ball must run the six hoops in order in one direction, then again
+        in the other, and then hit the peg. That is 13 points for a ball and
+        26 for a side. The first side to 26 wins. If there is a time limit,
+        the higher score wins when it is reached.
+    - label: Golf croquet
+      body: >
+        The other form is simpler. The four balls are played in strict
+        rotation, one stroke each, and all go for the same hoop. Whoever runs
+        it wins the point, and everybody moves on to the next hoop. The side
+        that wins the majority of the hoops wins the game.
+
 sections:
   - id: object
     label: The object of the game
@@ -23,7 +68,7 @@ sections:
 
       The two share equipment and share almost no tactics.
     facts:
-      - { label: Association, value: "26 points — 12 hoops each way, plus the peg" }
+      - { label: Association, value: "26 points: each of a side's two balls runs 12 hoops and hits the peg" }
       - { label: Golf croquet, value: "One hoop at a time, one stroke per turn" }
 
   - id: field
@@ -39,6 +84,8 @@ sections:
     facts:
       - { label: Lawn, value: 35 × 28 yd }
       - { label: Hoops, value: "Six, plus a centre peg" }
+      - { label: Hoop setting, value: "Four outer hoops 7 yd in from the two nearest boundaries; two inner hoops on the long centre line, 7 yd either side of the peg" }
+      - { label: Hoop order, value: "Up one long side, down the other, then the two inner hoops; then all six again in the reverse order and direction" }
       - { label: Clearance, value: A fraction of a millimetre at championship level }
 
   - id: equipment

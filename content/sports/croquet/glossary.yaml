@@ -1,0 +1,88 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: croquet
+terms:
+  - id: mallet
+    term: Mallet
+    definition: >
+      The long-handled hammer a player strikes the ball with. Either face of
+      its head may be used.
+    see: equipment
+  - id: hoop
+    term: Hoop
+    definition: >
+      One of the six metal arches set in the lawn. At championship level a
+      hoop is only a little wider than the ball.
+    see: field
+  - id: peg
+    term: Peg
+    definition: >
+      The post in the centre of the lawn. In association croquet a ball
+      finishes by hitting it, for one point.
+    see: object
+  - id: running-a-hoop
+    term: Running a hoop
+    definition: >
+      Sending a ball through its next hoop in the right direction. It scores
+      one point.
+    see: scoring
+  - id: association
+    term: Association croquet
+    definition: >
+      The older form of the game. A player earns extra strokes by running a
+      hoop or hitting another ball, and the first side to 26 points wins.
+    see: object
+  - id: golf-croquet
+    term: Golf croquet
+    definition: >
+      The simpler form of the game. Each turn is one stroke, all four balls go
+      for the same hoop, and whoever runs it wins the point.
+    see: object
+  - id: roquet
+    term: Roquet
+    definition: >
+      A stroke in which your ball hits another ball. In association croquet it
+      earns two more strokes.
+    see: restarts
+  - id: croquet-stroke
+    term: Croquet stroke
+    definition: >
+      The stroke played straight after a roquet. You place your ball against
+      the ball you hit and strike so that both balls move.
+    see: restarts
+  - id: break
+    term: Break
+    definition: >
+      A turn in which a player runs several hoops, using roquets and croquet
+      strokes to keep earning strokes. A break can last the whole game.
+    see: restarts
+  - id: bisque
+    term: Bisque
+    definition: >
+      A free extra turn given to the weaker side in handicap play. The player
+      who has it chooses when to take it.
+    see: scoring
+  - id: triple-peel
+    term: Triple peel
+    definition: >
+      An advanced break in which a player also knocks the partner ball through
+      its last hoops, so the game can be finished in that turn.
+  - id: fault
+    term: Fault
+    definition: >
+      A breach of the laws in making a stroke, such as pushing the ball,
+      touching a ball with the body, or playing the wrong ball.
+    see: prohibitions
+  - id: striker
+    term: Striker
+    definition: >
+      The player whose turn it is.
+    see: prohibitions
+  - id: lawn
+    term: Lawn
+    definition: >
+      The playing area: level, closely mown grass 35 yards by 28.
+    see: field

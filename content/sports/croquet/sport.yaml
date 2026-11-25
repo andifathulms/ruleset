@@ -1,6 +1,6 @@
 id: croquet
 label: Croquet
-tagline: "Its club became Wimbledon and the tennis players took the lawns; its one Olympic appearance drew a single paying spectator."
+tagline: "A lawn game in which players use a mallet to hit balls through six narrow hoops in a set order and then onto a peg in the middle."
 governing_body: World Croquet Federation
 founded: >
   Codified in England in the 1860s, with the first championship in 1867 and the
@@ -12,11 +12,17 @@ classification:
   official: croquet
   game-category: target
   adjudication: decided-by-score
+glance:
+  - { value: "6", label: hoops and one peg }
+  - { value: "4", label: balls on the lawn }
+  - { value: "26", label: "points to win, association" }
 summary: >
-  Two codes under one name. **Association croquet** lets a good player run the
-  entire course in a single turn, so the sport's central skill is constructing
-  a break and its central problem is that an opponent may not get to play.
-  **Golf croquet** removed all of that — one stroke each, all four balls
-  contesting one hoop — and has become the larger game. Contested at one
-  Olympic Games, in 1900, with women among the competitors.
+  Croquet is played on a level grass lawn with six hoops and a peg in the
+  centre. There are four balls. One side plays blue and black, the other red
+  and yellow, and players strike them with a mallet. Croquet has two forms. In
+  association croquet a player earns extra strokes by running a hoop or by
+  hitting another ball, so a skilled player can keep one turn going for a long
+  time, and the first side to 26 points wins. In golf croquet every turn is
+  one stroke, all four balls go for the same hoop, and whoever runs it wins
+  the point.
 cover: croquet-mallet-ball-hoop

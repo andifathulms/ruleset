@@ -1,0 +1,33 @@
+# The lawn, from the measurements in play.yaml. Shapes are in yards.
+sport: croquet
+title: Six hoops and a peg
+caption: >
+  The four outer hoops stand 7 yards in from the two nearest boundaries. The
+  two inner hoops stand on the long centre line, 7 yards either side of the
+  peg. A ball runs the hoops in the order numbered, going up the lawn through
+  1, 2, 5 and 6 and down it through 3 and 4. Then it runs all six again in the
+  reverse order and direction, and finishes on the peg.
+alt: >
+  A croquet lawn 35 yards long and 28 yards wide. Four hoops stand near the
+  corners, two more stand on the centre line, and a peg stands in the middle.
+  The hoops are numbered 1 to 6 in the order they are run.
+scale: to-scale
+view: [-7, -3, 35, 40.5]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 28, h: 35, fill: area }
+  - { type: dot, x: 7, y: 28, label: "1" }
+  - { type: dot, x: 7, y: 7, label: "2" }
+  - { type: dot, x: 21, y: 7, label: "3" }
+  - { type: dot, x: 21, y: 28, label: "4" }
+  - { type: dot, x: 14, y: 24.5, label: "5" }
+  - { type: dot, x: 14, y: 10.5, label: "6" }
+  - { type: circle, cx: 14, cy: 17.5, r: 0.5, fill: target }
+  - { type: label, x: 16.6, y: 17.5, text: "peg" }
+  - { type: dim, x1: 0, y1: 7, x2: 7, y2: 7, text: "7 yd" }
+  - { type: dim, x1: 24, y1: 28, x2: 24, y2: 35, text: "7 yd" }
+  - { type: dim, x1: 11.2, y1: 17.5, x2: 11.2, y2: 24.5, text: "7 yd" }
+  - { type: dim, x1: 0, y1: 37.6, x2: 28, y2: 37.6, text: "28 yd" }
+  - { type: dim, x1: -3.6, y1: 0, x2: -3.6, y2: 35, text: "35 yd" }
+legend:
+  - { swatch: area, label: the lawn }
+  - { swatch: target, label: the peg }
