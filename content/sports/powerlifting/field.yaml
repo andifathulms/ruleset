@@ -1,0 +1,27 @@
+# The platform. play.yaml gives no dimensions for it, so this is a schematic:
+# it shows where the three referees sit, and nothing in it is measured.
+sport: powerlifting
+title: The platform and its three referees
+caption: >
+  One lifter at a time stands on the platform with the bar. Three referees sit
+  around it, one in front and one at each side, so every lift is seen from
+  three angles. Each gives a verdict and the majority decides.
+alt: >
+  A square platform with a barbell across its centre and a lifter behind the
+  bar. One referee sits in front of the platform and one at each side.
+scale: schematic
+view: [-3.2, -1, 7.2, 7]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 4, h: 4, fill: area }
+  - { type: line, x1: 0.9, y1: 2, x2: 3.1, y2: 2, line: heavy }
+  - { type: label, x: 2, y: 2.45, text: "bar", tone: muted }
+  - { type: dot, x: 2, y: 1.3, label: "lifter" }
+  - { type: line, x1: 2, y1: 5.3, x2: 2, y2: 2.6, line: faint }
+  - { type: line, x1: -1.5, y1: 2, x2: 0.7, y2: 2, line: faint }
+  - { type: line, x1: 5.5, y1: 2, x2: 3.3, y2: 2, line: faint }
+  - { type: dot, x: 2, y: 5.5, label: "referee, front" }
+  - { type: dot, x: -1.7, y: 2, label: "referee, side" }
+  - { type: dot, x: 5.7, y: 2, label: "referee, side" }
+legend:
+  - { swatch: area, label: platform }
+  - { swatch: faint, label: "each referee's line of sight" }

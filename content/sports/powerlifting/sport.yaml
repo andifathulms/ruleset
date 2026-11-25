@@ -1,6 +1,6 @@
 id: powerlifting
 label: Powerlifting
-tagline: "Constantly mistaken for Olympic weightlifting, and the two sports have almost nothing in common except a barbell."
+tagline: "A strength sport of three lifts with a barbell: the squat, the bench press and the deadlift. The heaviest total wins."
 governing_body: International Powerlifting Federation
 founded: >
   Emerged from American "odd lifts" competition in the 1950s and 1960s; the
@@ -11,12 +11,18 @@ classification:
   official: powerlifting
   game-category: performance
   adjudication: measured
+glance:
+  - { value: "3", label: lifts in a competition }
+  - { value: "9", label: attempts per lifter }
+  - { value: "1 min", label: to start an attempt }
 summary: >
-  Three lifts — squat, bench press, deadlift — each judged good or not good by
-  three referees, with the best of three attempts summed into a total. It looks
-  like weightlifting and is structurally its opposite: strength held under
-  control rather than a barbell moved explosively overhead, and a sport whose
-  record book has been fractured not by one rule change but by a permanent
-  schism between federations that will not recognise each other's numbers.
+  A lifter squats with a loaded bar on the shoulders, presses a bar from the
+  chest while lying on a bench, and pulls a bar from the floor until standing
+  upright. Those are the three lifts, always in that order, with three
+  attempts at each. Three referees judge every attempt, and a lift counts only
+  if the movement met the standard and the lifter obeyed the referee's
+  commands. The best good lift of each kind is added into a total, and the
+  highest total in a bodyweight category wins. The lifts are slow and plain,
+  and the contest is about strength held under control.
 cover: powerlifting-deadlift-start
 cover_position: "50% 85%"

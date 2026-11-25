@@ -1,0 +1,105 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is contested, not
+# claims about its history, and nothing here carries a cause or a date.
+
+sport: powerlifting
+terms:
+  - id: squat
+    term: Squat
+    definition: >
+      The first lift. The lifter takes the bar on the shoulders, bends the
+      knees until the hips are low enough, and stands up again.
+    see: object
+  - id: bench-press
+    term: Bench press
+    definition: >
+      The second lift. Lying on a bench, the lifter lowers the bar to the
+      chest, holds it still, and presses it up to straight arms.
+    see: object
+  - id: deadlift
+    term: Deadlift
+    definition: >
+      The third lift. The lifter pulls the bar from the floor and stands
+      upright with it.
+    see: object
+  - id: total
+    term: Total
+    definition: >
+      The best good squat, bench press and deadlift added together, in
+      kilograms. The total decides the placings.
+    see: scoring
+  - id: attempt
+    term: Attempt
+    definition: >
+      One try at a lift. A lifter has three attempts at each of the three
+      lifts, nine in all.
+    see: object
+  - id: good-lift
+    term: Good lift
+    definition: >
+      An attempt that at least two of the three referees pass. The opposite
+      verdict is no lift, and a no lift counts for nothing.
+    see: field
+  - id: commands
+    term: Commands
+    definition: >
+      The spoken signals from the referee that begin and end each lift, such as
+      "squat", "press", "rack" and "down". Moving before a command, or missing
+      one, fails the attempt.
+    see: restarts
+  - id: depth
+    term: Depth
+    definition: >
+      How low a squat goes. The squat is deep enough when the crease of the hip
+      drops below the top of the knee.
+    see: prohibitions
+  - id: pause
+    term: Pause
+    definition: >
+      The moment in the bench press when the bar rests still on the chest. The
+      lifter may press only after the referee's command, so the bar cannot be
+      bounced.
+    see: restarts
+  - id: hitching
+    term: Hitching
+    definition: >
+      Resting the bar on the thighs and working it upward in a deadlift. It
+      makes the attempt a no lift.
+    see: prohibitions
+  - id: raw
+    term: Raw
+    definition: >
+      Lifting with a belt, a singlet, knee sleeves, wrist wraps and shoes, and
+      nothing that adds to the lift. The division is also called classic.
+    see: equipment
+  - id: equipped
+    term: Equipped
+    definition: >
+      Lifting in a squat suit, briefs and a bench shirt as well. Equipped and
+      raw lifters compete in separate divisions with separate records.
+    see: equipment
+  - id: bench-shirt
+    term: Bench shirt
+    definition: >
+      A very tight shirt of dense fabric worn for the equipped bench press. It
+      stretches as the bar comes down and helps push it back up.
+    see: equipment
+  - id: category
+    term: Bodyweight category
+    definition: >
+      A division for lifters up to a set bodyweight. Lifters are placed only
+      against others in the same category.
+    see: players
+  - id: coefficient
+    term: Points coefficient
+    definition: >
+      A formula that turns a total into points so that lifters of different
+      bodyweights can be compared, for example for a best-lifter award.
+    see: scoring
+  - id: no-total
+    term: No total
+    definition: >
+      The result of a lifter who fails all three attempts at one lift. The
+      lifter is not placed.
+    see: winning

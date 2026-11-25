@@ -8,6 +8,46 @@ summary: >
   at each, best successful attempt at each summed into a total. Three referees
   vote good lift or no lift, and the majority decides.
 
+walkthrough:
+  title: One attempt, from the call to the total
+  intro: >
+    A lifter does this nine times in a competition: three squats, then three
+    bench presses, then three deadlifts.
+  steps:
+    - label: The call
+      body: >
+        Lifters go one at a time, each in a bodyweight category. Once called,
+        the lifter has one minute to begin the attempt. Spotters and loaders
+        stand on the platform for safety.
+    - label: The commands
+      body: >
+        The referee's commands are part of the lift. The squat begins on
+        "squat" and ends on "rack". The bench press needs "start", then
+        "press" once the bar is still on the chest, then "rack". The deadlift
+        has no start command and ends on "down". Moving before a command, or
+        missing one, fails the attempt at any weight.
+    - label: The standard
+      body: >
+        Each lift has a form it must meet. In the squat the crease of the hip
+        must drop below the top of the knee. In the bench press the bar must
+        pause on the chest and must not sink during the press, and the
+        buttocks must stay on the bench. In the deadlift the bar may not be
+        hitched or ramped up the thighs.
+    - label: The decision
+      body: >
+        Three referees sit around the platform, one in front and one at each
+        side. Each votes good lift or no lift, and the majority decides.
+    - label: Three attempts
+      body: >
+        Only good lifts count, and the best one at each lift is kept. A lifter
+        who fails all three attempts at any one lift has no total and is not
+        placed, however heavy the other lifts were.
+    - label: The total
+      body: >
+        The best squat, the best bench press and the best deadlift are added
+        together. The highest total in the bodyweight category wins. A tie
+        goes to the lighter lifter.
+
 sections:
   - id: object
     label: The object of the game
