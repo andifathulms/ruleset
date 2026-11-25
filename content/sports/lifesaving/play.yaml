@@ -9,6 +9,42 @@ summary: >
   skis and beach flags. Every event is a rescue reduced to something that can
   be timed.
 
+walkthrough:
+  title: One race, from the start to the wall
+  intro: >
+    This follows a manikin carry in the pool, the kind of event that gives
+    the sport its character. Beach events are run differently.
+  steps:
+    - label: The start
+      body: >
+        The race is held in a fifty-metre pool, with each competitor in a
+        lane. The start follows the conventions of swimming.
+    - label: The swim out
+      body: >
+        The competitor swims towards a manikin. It lies under the water, at a
+        distance and a depth that the rules set. It has filled with water, so
+        it is heavy.
+    - label: The pick-up
+      body: >
+        The competitor dives and lifts the manikin to the surface. If an event
+        has a section that must be swum under the water, coming up during it
+        means disqualification.
+    - label: The carry
+      body: >
+        The competitor swims on while holding the manikin. The hold must be an
+        approved one, and the manikin's airway must stay clear of the water
+        all the way. Letting the face go under, or dropping the manikin, means
+        disqualification, however fast the swim.
+    - label: The finish
+      body: >
+        The clock stops at the wall. Officials have judged the time and the
+        technique together. The fastest valid time wins the event.
+    - label: The championship
+      body: >
+        Each event also earns points for the competitor's nation. The nation
+        with the most points across the whole programme wins the overall
+        championship.
+
 sections:
   - id: object
     label: The object of the game

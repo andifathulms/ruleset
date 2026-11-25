@@ -1,6 +1,6 @@
 id: lifesaving
 label: Lifesaving
-tagline: "The only sport here whose events are a rehearsal for something else, and whose governing body would rather prevent drownings than hold races."
+tagline: Races built from the parts of a real rescue. Competitors swim under obstacles, carry a manikin, throw a line or sprint on a beach.
 governing_body: International Life Saving Federation
 founded: >
   The first international federation was founded in France in 1910; the modern
@@ -12,11 +12,16 @@ classification:
   official: lifesaving
   game-category: performance
   adjudication: measured
+glance:
+  - { value: "2", label: settings, pool and beach }
+  - { value: "50 m", label: pool length }
+  - { value: "1 fewer", label: batons than runners in beach flags }
 summary: >
-  Swim two hundred metres over obstacles, dive for a submerged manikin, tow it
-  to the wall with its airway clear, throw a line to a person in the water, or
-  sprint up a beach for a baton that is not there. Every event is a rescue
-  broken into a measurable part, and the rules change when rescue practice
-  changes — which makes it the only sport on this site whose laws answer to a
-  body of knowledge outside sport.
+  Every lifesaving event is one part of a rescue, made into a race. In the
+  pool, competitors swim under obstacles, dive for a manikin on the bottom and
+  carry or tow it to the wall. On a surf beach they race by swimming, on
+  rescue boards and on surf skis, and sprint for batons buried in the sand.
+  The fastest time wins, but only if the rescue was done properly. A manikin
+  carried with its face under the water means disqualification, however fast
+  the swim was.
 cover: lifesaving-manikin-tow

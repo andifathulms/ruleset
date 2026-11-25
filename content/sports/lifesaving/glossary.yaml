@@ -1,0 +1,93 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is contested, not
+# claims about its history, and nothing here carries a cause or a date.
+
+sport: lifesaving
+terms:
+  - id: manikin
+    term: Manikin
+    definition: >
+      A weighted model of a person's head and body, of a set size and mass. It
+      fills with water, and competitors lift it from the bottom of the pool
+      and bring it to the wall.
+    see: equipment
+  - id: carry
+    term: Carry
+    definition: >
+      Swimming while holding the manikin against the body, with its face above
+      the water. Only approved holds are allowed.
+    see: prohibitions
+  - id: tow
+    term: Tow
+    definition: >
+      Pulling the manikin through the water behind the swimmer, usually with a
+      rescue tube, with its face above the water.
+    see: prohibitions
+  - id: airway
+    term: Airway
+    definition: >
+      The manikin's mouth and nose. They must stay clear of the water during a
+      carry or a tow, and letting them go under means disqualification.
+    see: object
+  - id: rescue-tube
+    term: Rescue tube
+    definition: >
+      A long float with a strap, the same one a lifeguard on patrol carries.
+      In some events it is fastened around the manikin for the tow.
+    see: equipment
+  - id: throw-line
+    term: Line throw
+    definition: >
+      An event in which a competitor throws a line to a team-mate in the water
+      and pulls them in.
+    see: equipment
+  - id: obstacle
+    term: Obstacle
+    definition: >
+      A barrier fixed below the surface in a pool lane. Competitors must swim
+      under it.
+    see: field
+  - id: disqualification
+    term: Disqualification
+    definition: >
+      Removal from the result of a race. It is the usual penalty in
+      lifesaving, given when the technique would not have worked as a rescue.
+    see: prohibitions
+  - id: rescue-board
+    term: Rescue board
+    definition: >
+      A long board that a competitor lies or kneels on and paddles with the
+      arms through the surf.
+    see: equipment
+  - id: surf-ski
+    term: Surf ski
+    definition: >
+      A long, narrow craft that a competitor sits on and drives with a
+      double-bladed paddle.
+    see: equipment
+  - id: beach-flags
+    term: Beach flags
+    definition: >
+      A beach event. Competitors lie face down with their feet towards a row
+      of batons, then rise, turn and sprint for one. There is always one baton
+      fewer than there are competitors, so one person is out in every round.
+    see: restarts
+  - id: baton
+    term: Baton
+    definition: >
+      The short length of hose, pushed into the sand, that beach flags
+      competitors sprint and dive for.
+    see: restarts
+  - id: serc
+    term: Simulated emergency response
+    definition: >
+      The one event with no clock. A team meets a staged incident it has not
+      seen before, and judges mark how it reads the scene, responds and
+      resuscitates.
+    see: players
+  - id: oceanman
+    term: Oceanman and Oceanwoman
+    definition: >
+      An ocean event in which one competitor swims, paddles a board, paddles a
+      ski and runs, one after the other.
