@@ -9,6 +9,49 @@ summary: >
   players occupy the same space rather than opposite sides of a net, and
   essentially every difficult rule in it follows from that one fact.
 
+walkthrough:
+  title: One rally, from the serve to the point
+  intro: >
+    A match is this sequence repeated until one player has won three games.
+  steps:
+    - label: The serve
+      body: >
+        The server stands with at least one foot inside a service box. The
+        ball is hit onto the front wall above the service line, and it must
+        come back to land in the opposite back quarter of the court. There is
+        only one attempt.
+    - label: The rally
+      body: >
+        The two players hit the ball in turn. Each shot must reach the front
+        wall above the tin and below the out line. The ball may touch any of
+        the other walls on the way, and it may bounce once on the floor before
+        it is hit.
+    - label: Getting out of the way
+      body: >
+        Both players are on the same floor. The player who has just hit must
+        give the other a clear path to the ball, room to swing and a clear
+        line to the front wall.
+    - label: Let, stroke or no let
+      body: >
+        If a player is blocked, the referee decides. A let means the rally is
+        played again. A stroke gives the point to the blocked player. No let
+        means the player could not have reached the ball anyway, and loses
+        the rally.
+    - label: How the rally ends
+      body: >
+        Without interference, the rally ends when a player cannot make a good
+        return. The ball has bounced twice, or the shot has hit the tin, or it
+        has gone on or above the out line.
+    - label: The point
+      body: >
+        Whoever wins the rally scores a point, whether they served or not. A
+        server who wins the point serves again from the other service box.
+    - label: The game and the match
+      body: >
+        The first player to 11 points wins the game, with a lead of two. There
+        is no clock and no draw. The first player to win three games wins the
+        match.
+
 sections:
   - id: object
     label: The object of the game
@@ -31,6 +74,8 @@ sections:
       viewing position at all.
     facts:
       - { label: Court, value: 9.75 × 6.4 m }
+      - { label: Short line, value: 4.26 m, note: From the back wall. }
+      - { label: Service box, value: 1.6 m square }
       - { label: "Tin height, professional men", value: 17 in }
       - { label: "Tin height, standard", value: 19 in }
       - { label: Championship walls, value: Glass }

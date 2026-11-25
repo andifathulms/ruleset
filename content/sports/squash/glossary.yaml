@@ -1,0 +1,98 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: squash
+terms:
+  - id: front-wall
+    term: Front wall
+    definition: >
+      The wall both players face. Every shot must hit it, above the tin and
+      below the out line, before the ball touches the floor.
+    see: object
+  - id: tin
+    term: Tin
+    definition: >
+      The strip along the bottom of the front wall. A ball that hits it is
+      down, and the player who hit it loses the rally.
+    see: field
+  - id: out-line
+    term: Out line
+    definition: >
+      The line that runs along the top of the front wall and down the side
+      walls. A ball that hits the wall on or above it is out.
+    see: object
+  - id: service-box
+    term: Service box
+    definition: >
+      One of the two squares marked on the floor, one at each side wall. The
+      server must have a foot inside one of them when serving.
+    see: restarts
+  - id: service-line
+    term: Service line
+    definition: >
+      The line across the middle of the front wall. A serve must hit the front
+      wall above it.
+    see: restarts
+  - id: short-line
+    term: Short line
+    definition: >
+      The line across the floor that marks off the back part of the court. A
+      serve must land behind it, in the back quarter opposite the server.
+    see: field
+  - id: the-t
+    term: The T
+    definition: >
+      The centre of the court, where the floor lines meet in the shape of a T.
+      A player standing there can reach every corner, so both players try to
+      hold it.
+  - id: rally
+    term: Rally
+    definition: >
+      One exchange of shots, from the serve until a player fails to make a
+      good return or the referee stops play.
+    see: object
+  - id: interference
+    term: Interference
+    definition: >
+      Being in the opponent's way. A player must give the opponent a clear
+      path to the ball, room to swing and a clear line to the front wall.
+    see: prohibitions
+  - id: let
+    term: Let
+    definition: >
+      A rally that is played again with no point scored. The referee gives it
+      when a player was blocked but could have reached the ball, and the
+      opponent could not avoid being in the way.
+    see: prohibitions
+  - id: stroke
+    term: Stroke
+    definition: >
+      A point given by the referee to a player who was blocked, when the
+      interference stopped a winning shot or could have been avoided.
+    see: prohibitions
+  - id: no-let
+    term: No let
+    definition: >
+      The referee's refusal of a let, because the player could not have
+      reached the ball anyway. That player loses the rally.
+    see: prohibitions
+  - id: point-a-rally
+    term: Point-a-rally scoring
+    definition: >
+      The scoring now in use. Whoever wins a rally scores a point, whether
+      they served or not.
+    see: scoring
+  - id: hand-in-hand-out
+    term: Hand-in hand-out
+    definition: >
+      The older scoring, in which only the server could score. A receiver who
+      won a rally won the serve and no point.
+    see: scoring
+  - id: double-yellow-dot
+    term: Double yellow dot
+    definition: >
+      The slowest grade of ball, marked with two yellow dots. It is the ball
+      used by professionals, because a slower ball makes longer rallies.
+    see: equipment

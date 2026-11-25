@@ -1,0 +1,34 @@
+# The court floor, from the measurements in play.yaml. Shapes are in metres.
+sport: squash
+title: The floor of the court
+caption: >
+  The court is a closed room, drawn here from above with the front wall at the
+  top. The server stands with a foot in one service box and plays the ball
+  off the front wall into the opposite back quarter. After that the whole
+  floor is in play for both players.
+alt: >
+  A squash court floor 9.75 metres long and 6.4 metres wide, seen from above.
+  A line across the floor 4.26 metres from the back wall and a line down the
+  middle divide the back of the court into two quarters, each with a small
+  square service box at the side wall. The back quarter opposite the server
+  is shaded.
+scale: to-scale
+view: [-3.2, -1.7, 10.6, 11.7]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 6.4, h: 9.75, fill: area }
+  - { type: rect, x: 0, y: 5.49, w: 3.2, h: 4.26, fill: zone, line: none }
+  - { type: line, x1: 0, y1: 5.49, x2: 6.4, y2: 5.49 }
+  - { type: line, x1: 3.2, y1: 5.49, x2: 3.2, y2: 9.75 }
+  - { type: rect, x: 0, y: 5.49, w: 1.6, h: 1.6 }
+  - { type: rect, x: 4.8, y: 5.49, w: 1.6, h: 1.6 }
+  - { type: line, x1: 0, y1: 0, x2: 6.4, y2: 0, line: heavy }
+  - { type: label, x: 3.2, y: -0.8, text: "front wall", tone: muted }
+  - { type: label, x: 3.2, y: 4.9, text: "short line", tone: muted }
+  - { type: label, x: 1.6, y: 8.5, text: "serve lands here", tone: chalk }
+  - { type: dot, x: 5.6, y: 6.1, label: "server" }
+  - { type: dim, x1: 0, y1: 10.7, x2: 6.4, y2: 10.7, text: "6.4 m" }
+  - { type: dim, x1: 8.2, y1: 0, x2: 8.2, y2: 9.75, text: "9.75 m" }
+  - { type: dim, x1: -1.5, y1: 5.49, x2: -1.5, y2: 9.75, text: "4.26 m" }
+legend:
+  - { swatch: zone, label: "where this serve must land" }
+  - { swatch: area, label: "the rest of the floor" }

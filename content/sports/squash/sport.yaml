@@ -1,6 +1,6 @@
 id: squash
 label: Squash
-tagline: The fifth sport in the broadcast scoring wave, and the only racket sport where both players stand in the same space.
+tagline: A racket game for two players who share one walled court and take turns to hit a small rubber ball against the front wall.
 governing_body: World Squash Federation
 founded: >
   Codified at Harrow School in the nineteenth century; the international
@@ -11,12 +11,17 @@ classification:
   official: squash
   game-category: net-and-wall
   adjudication: decided-by-score
+glance:
+  - { value: "2", label: players in one court }
+  - { value: "11", label: points to win a game }
+  - { value: "9.75 m", label: court length }
 summary: >
-  Volleyball rewrote its scoring in 1999, table tennis in 2001, squash in 2004
-  and badminton in 2006 — four federations, one stated reason, inside seven
-  years. Squash's version is the least known and among the cleanest: fifteen
-  points with hand-in hand-out became eleven points with a point on every
-  rally, and every match statistic before it stopped meaning the same thing.
-  It also has an officiating problem no other racket sport has, because both
-  players occupy the same court.
+  Squash is played inside a room with four walls. The two players stand on the
+  same floor and hit the ball in turn against the front wall, above a low
+  strip called the tin. The ball may bounce once on the floor and may touch
+  any wall on its way. A rally ends when a player cannot return it. Every
+  rally scores a point, a game goes to 11, and a match is the best of five
+  games. Because the players share the space, each must get out of the
+  other's way, and the hardest rules in the sport are about what happens when
+  one of them does not.
 cover: squash-farag-asal
