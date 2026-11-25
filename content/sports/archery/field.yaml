@@ -1,0 +1,37 @@
+# The target face, from the measurements in play.yaml. Shapes are in
+# centimetres.
+sport: archery
+title: Ten rings, 70 metres away
+caption: >
+  The target face is 122 centimetres across and stands 70 metres from the
+  archer. It has ten rings of equal width. The centre ring scores 10 and the
+  outside ring scores 1. An arrow that touches a line scores the higher
+  value. The small ring inside the ten is the inner ten, used to break ties.
+alt: >
+  A round archery target face 122 centimetres across, with ten rings of equal
+  width. The centre ring, 12.2 centimetres across, is marked 10 and the
+  outside ring is marked 1.
+scale: to-scale
+view: [-84, -70, 84, 80]
+shapes:
+  - { type: circle, cx: 0, cy: 0, r: 61, fill: area }
+  - { type: circle, cx: 0, cy: 0, r: 54.9, line: faint }
+  - { type: circle, cx: 0, cy: 0, r: 48.8, line: faint }
+  - { type: circle, cx: 0, cy: 0, r: 42.7, line: faint }
+  - { type: circle, cx: 0, cy: 0, r: 36.6, line: faint }
+  - { type: circle, cx: 0, cy: 0, r: 30.5, line: faint }
+  - { type: circle, cx: 0, cy: 0, r: 24.4, line: faint }
+  - { type: circle, cx: 0, cy: 0, r: 18.3, line: faint }
+  - { type: circle, cx: 0, cy: 0, r: 12.2, fill: zone, line: faint }
+  - { type: circle, cx: 0, cy: 0, r: 6.1, fill: target }
+  - { type: circle, cx: 0, cy: 0, r: 3.05, line: faint }
+  - { type: label, x: 0, y: -57.9, text: "1", tone: muted }
+  - { type: label, x: 0, y: -33.5, text: "5", tone: muted }
+  - { type: label, x: 0, y: -9.1, text: "9", tone: chalk }
+  - { type: line, x1: 4.5, y1: -4.5, x2: 50, y2: -50, line: faint }
+  - { type: label, x: 52, y: -53, text: "10", anchor: "start", tone: chalk }
+  - { type: dim, x1: -61, y1: 72, x2: 61, y2: 72, text: "122 cm" }
+legend:
+  - { swatch: target, label: "ten ring, 12.2 cm across" }
+  - { swatch: zone, label: nine ring }
+  - { swatch: area, label: "rings 8 down to 1" }

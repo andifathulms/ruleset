@@ -10,6 +10,45 @@ summary: >
   stopped simply adding that measurement up, one of the most contested
   relationships between what an athlete does and whether they win.
 
+walkthrough:
+  title: One match, from the first arrow to six set points
+  intro: >
+    This is an individual match with the recurve bow, the kind shot at the
+    Olympic Games.
+  steps:
+    - label: Before the matches
+      body: >
+        Every archer first shoots a ranking round of 72 arrows. The points are
+        added up, and the totals decide who meets whom in the matches that
+        follow.
+    - label: Two archers, two targets
+      body: >
+        In a match, two archers stand on the same line. Each has a separate
+        target, 70 metres away. Nothing one archer does can affect the other's
+        arrow.
+    - label: A set of three arrows
+      body: >
+        The archers shoot in turn: one arrow, then the opponent's arrow, until
+        each has shot three. Each arrow must be shot within twenty seconds.
+        An arrow shot after the time is up costs the archer their
+        highest-scoring arrow of that set.
+    - label: Reading the target
+      body: >
+        The target has ten rings. An arrow in the centre ring scores 10, and
+        the rings count down to 1 at the edge. An arrow that touches the line
+        between two rings scores the higher value.
+    - label: Set points
+      body: >
+        Each archer's three arrows are added up. The higher total wins the set
+        and earns two set points. If the totals are equal, each archer gets
+        one. The arrow points are then put aside, and the next set starts from
+        zero.
+    - label: Winning the match
+      body: >
+        The first archer to six set points wins. If the match is level, each
+        archer shoots one more arrow, and the higher value wins. If those are
+        equal too, the arrow closer to the centre wins, and that is measured.
+
 sections:
   - id: object
     label: The object of the competition
@@ -92,14 +131,12 @@ sections:
       match result before 2011 is recorded in the first while every result
       since is recorded in the second.
 
-      The mixed team event, added in 2021, still uses cumulative scoring — so
-      the sport runs both systems at the same Games.
+      Team and mixed team matches are scored in sets as well.
     facts:
       - { label: Ring values, value: 10 down to 1 }
       - { label: Set win, value: 2 points }
       - { label: Set draw, value: 1 point }
       - { label: Match to, value: 6 set points }
-      - { label: Mixed team, value: Cumulative, not sets }
     shaped_by: [wa-2011-set-system, wa-2021-mixed-team]
     citation:
       source: world-archery-rulebook

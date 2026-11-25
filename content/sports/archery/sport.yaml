@@ -1,6 +1,6 @@
 id: archery
 label: Archery
-tagline: Replaced the score with the scoreline in 2011, and made its own results incomparable overnight.
+tagline: Archers shoot arrows at a ringed target 70 metres away, and the closer an arrow lands to the centre, the more it scores.
 governing_body: World Archery Federation
 founded: >
   Fédération Internationale de Tir à l'Arc founded 1931; renamed World Archery
@@ -11,11 +11,17 @@ classification:
   official: archery
   game-category: target
   adjudication: measured
+glance:
+  - { value: "70 m", label: distance to the target }
+  - { value: "122 cm", label: width of the target face }
+  - { value: "6", label: set points to win a match }
 summary: >
-  Archery is the purest measured sport on this site: a number produced by where
-  an arrow landed, with no judgement and no opponent involved. Which makes what
-  it did in 2011 remarkable. It stopped adding the numbers up. Head-to-head
-  matches are now scored in sets, so the winner is not necessarily the archer
-  who shot better — and every match score before that date is measured in a
-  unit the sport no longer uses.
+  An archer stands on a line and shoots arrows at a target 70 metres away. The
+  target has ten rings, worth 10 points at the centre down to 1 at the edge.
+  First every archer shoots 72 arrows and the points are added up to rank the
+  field. Then two archers at a time meet in a match, shooting in turn with
+  twenty seconds for each arrow. A match is played in sets of three arrows,
+  and the first archer to six set points wins. Nothing one archer does can
+  touch the other's arrow. The contest is against the target, the wind and
+  your own nerves.
 cover: archery-lords-2012

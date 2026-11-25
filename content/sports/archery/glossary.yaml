@@ -1,0 +1,106 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is practised, not
+# claims about its history, and nothing here carries a cause or a date.
+
+sport: archery
+terms:
+  - id: recurve
+    term: Recurve bow
+    definition: >
+      The bow used at the Olympic Games. The archer holds the full weight of
+      the drawn string with the fingers. It may carry a sight and stabilisers,
+      but no magnifying lens and no release aid.
+    see: equipment
+  - id: compound
+    term: Compound bow
+    definition: >
+      A bow with cams at the ends of its limbs, a magnifying sight and a
+      release aid. It is shot in its own competitions, separate from the
+      recurve.
+    see: equipment
+  - id: release-aid
+    term: Release aid
+    definition: >
+      A hand-held trigger that lets go of the string in place of the fingers.
+      It is allowed on a compound bow and not on a recurve.
+    see: equipment
+  - id: sight
+    term: Sight
+    definition: >
+      A small aiming mark fixed to the bow in front of the archer. On a
+      recurve bow it may not magnify the target.
+    see: equipment
+  - id: stabiliser
+    term: Stabiliser
+    definition: >
+      A rod fixed to the bow that sticks out in front of it and helps to keep
+      the bow steady during the shot.
+    see: equipment
+  - id: target-face
+    term: Target face
+    definition: >
+      The round sheet the archers shoot at, 122 centimetres across and marked
+      with ten scoring rings.
+    see: field
+  - id: ten-ring
+    term: Ten ring
+    definition: >
+      The centre ring of the target, 12.2 centimetres across. An arrow in it
+      scores 10, the highest value.
+    see: field
+  - id: inner-ten
+    term: Inner ten
+    definition: >
+      A smaller ring inside the ten ring, 6.1 centimetres across. It scores 10
+      like the rest of the ten ring, and it is used to break ties.
+    see: field
+  - id: line-cutter
+    term: Line cutter
+    definition: >
+      An arrow whose shaft touches the line between two rings. It scores the
+      higher of the two values.
+    see: object
+  - id: end
+    term: End
+    definition: >
+      A group of arrows shot before the archers stop and the arrows are
+      scored.
+    see: prohibitions
+  - id: ranking-round
+    term: Ranking round
+    definition: >
+      The first stage of a competition. Every archer shoots 72 arrows, the
+      points are added up, and the totals decide who meets whom in the
+      matches.
+    see: duration
+  - id: match-play
+    term: Match play
+    definition: >
+      The stage in which two archers shoot against each other and the loser is
+      out of the competition. The archers shoot in turn, one arrow at a time.
+    see: restarts
+  - id: set
+    term: Set
+    definition: >
+      One round of three arrows each in a recurve match. The archer with the
+      higher total for those three arrows wins the set.
+    see: scoring
+  - id: set-points
+    term: Set points
+    definition: >
+      The points that decide a recurve match. A set won is worth two, a drawn
+      set one, and the first archer to six wins.
+    see: scoring
+  - id: cumulative
+    term: Cumulative scoring
+    definition: >
+      Scoring by adding up the value of every arrow. The highest total wins.
+      The ranking round is scored this way.
+    see: scoring
+  - id: shoot-off
+    term: Shoot-off
+    definition: >
+      The tie-break for a level match: one arrow each. The higher value wins,
+      and if the values are equal, the arrow closer to the centre wins.
+    see: restarts
