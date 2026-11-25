@@ -1,0 +1,95 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is raced, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: dragon-boat
+terms:
+  - id: drummer
+    term: Drummer
+    definition: >
+      The crew member who sits at the front of the boat, facing the paddlers,
+      and beats a drum. The beat sets the rhythm of the stroke. The drummer
+      does not paddle.
+    see: players
+  - id: steerer
+    term: Steerer
+    definition: >
+      The crew member who stands at the back of the boat and steers it with a
+      long oar. The steerer does not paddle.
+    see: players
+  - id: steering-oar
+    term: Steering oar
+    definition: >
+      The long oar at the back of the boat. The steerer uses it to keep the
+      boat straight and to turn it.
+    see: equipment
+  - id: paddle
+    term: Paddle
+    definition: >
+      A short pole with a single blade at one end. A paddler holds it in both
+      hands and is not fixed to the boat in any way.
+    see: equipment
+  - id: bench
+    term: Bench
+    definition: >
+      A fixed seat across the boat. Two paddlers share each bench, one
+      paddling on the left and one on the right.
+    see: equipment
+  - id: stroke-rate
+    term: Stroke rate
+    definition: >
+      How many strokes the crew takes in a minute. The drummer sets it and
+      keeps it steady.
+    see: players
+  - id: head-and-tail
+    term: Dragon head and tail
+    definition: >
+      The carved head fixed to the front of the boat and the tail fixed to
+      the back. The rules require both in a race.
+    see: equipment
+  - id: standard-boat
+    term: Standard boat
+    definition: >
+      The full-size racing boat, with twenty paddlers, a drummer and a
+      steerer.
+    see: equipment
+  - id: small-boat
+    term: Small boat
+    definition: >
+      The shorter racing boat, with ten paddlers, a drummer and a steerer.
+    see: equipment
+  - id: lane
+    term: Lane
+    definition: >
+      A straight strip of water marked by buoys. Each crew has its own lane
+      and must stay in it.
+    see: field
+  - id: division
+    term: Division
+    definition: >
+      A category of crew, such as open, women's or mixed. Crews only race
+      against others in the same division.
+    see: players
+  - id: mixed
+    term: Mixed crew
+    definition: >
+      A crew of men and women. The rules set how many of each must be in the
+      boat, and officials count them.
+    see: prohibitions
+  - id: bcs
+    term: BCS division
+    definition: >
+      A division for crews of breast cancer survivors.
+    see: players
+  - id: turn
+    term: Turn
+    definition: >
+      In the 2000-metre race, the point where boats go around a mark and head
+      back the other way.
+    see: field
+  - id: festival-racing
+    term: Festival racing
+    definition: >
+      Community and ceremonial racing held at the Duanwu Festival and other
+      festivals, outside the championship sport.

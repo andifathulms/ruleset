@@ -8,6 +8,43 @@ summary: >
   stern, racing in lanes over 200, 500 or 2000 metres. Small boats carry ten
   paddlers instead of twenty.
 
+walkthrough:
+  title: One race, from the start line to the finish
+  intro: >
+    This is a 500-metre race in a standard boat, with each crew in its own
+    lane.
+  steps:
+    - label: The crew
+      body: >
+        Twenty paddlers sit in pairs on ten benches, facing forwards. The
+        drummer sits at the front, facing the paddlers. The steerer stands at
+        the back and holds a long steering oar.
+    - label: The start
+      body: >
+        The boats are held still on the start line, each in a lane marked by
+        buoys. They all start together.
+    - label: Getting up to speed
+      body: >
+        A dragon boat is long and heavy, and it takes time to get moving. The
+        drummer beats the rhythm and every paddler puts the blade in on the
+        beat. In the shortest race this first part is a large share of the
+        whole distance.
+    - label: Down the lane
+      body: >
+        The drummer holds the stroke rate and calls for harder efforts. The
+        steerer keeps the boat in its lane. A crew must not leave its lane or
+        get in the way of another boat, and the paddlers must stay seated.
+    - label: The finish
+      body: >
+        The first boat across the line wins. The clock is the only score, and
+        times are taken to a hundredth of a second. A 500-metre race lasts
+        about two minutes.
+    - label: Heats and finals
+      body: >
+        Crews race in heats, and the best go on to a final. The 2000-metre
+        race is different. Boats go around turning marks, so steering becomes
+        part of the contest.
+
 sections:
   - id: object
     label: The object of the game
