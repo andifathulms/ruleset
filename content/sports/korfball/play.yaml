@@ -9,6 +9,50 @@ summary: >
   playable from every angle. No dribbling, no contact, and no shooting while
   someone has you covered.
 
+walkthrough:
+  title: One attack, from the first pass to the goal
+  intro: >
+    A match is this sequence repeated in both zones, with every player taking
+    a turn at attack and at defence.
+  steps:
+    - label: Two zones, four against four
+      body: >
+        The court is divided across the middle into two zones. Four players of
+        each team, two women and two men, stand in each zone and may not leave
+        it. In one zone a team attacks its korf. In the other zone it defends.
+    - label: Moving the ball
+      body: >
+        The ball moves only by passing. A player holding it may not run with
+        it, bounce it or kick it. So the players without the ball do the
+        running, to get free for the next pass.
+    - label: Defending
+      body: >
+        A player may only defend an opponent of the same sex. Contact is not
+        allowed: no blocking, holding or pushing, and no hitting at the ball
+        in an opponent's hands. A defender stops an attack by being in the
+        right place.
+    - label: Finding a free shot
+      body: >
+        A player may not shoot from a defended position. The attackers pass
+        and move until one of them is free of a defender, and that player
+        shoots.
+    - label: The goal
+      body: >
+        The ball must go through the korf, a basket with no bottom and no
+        backboard, 3.5 metres up. Every goal counts one point, from any
+        distance. An offence that takes away a scoring chance gives a penalty
+        shot from 2.5 metres in front of the post.
+    - label: The change of zones
+      body: >
+        After every two goals in the match, whichever team scored them, the
+        players change roles. Attackers become defenders and defenders become
+        attackers.
+    - label: The match
+      body: >
+        There are two halves of 25 minutes. The team with more goals wins. A
+        knockout match that is level goes to extra periods and then to
+        penalties.
+
 sections:
   - id: object
     label: The object of the game

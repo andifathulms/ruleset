@@ -1,0 +1,73 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: korfball
+terms:
+  - id: korf
+    term: Korf
+    definition: >
+      The basket: a cylinder with no bottom, fixed to the top of a post 3.5
+      metres high. It has no backboard. Korf is the Dutch word for basket.
+    see: equipment
+  - id: post
+    term: Post
+    definition: >
+      The pole that carries the korf. It stands inside the court, one sixth of
+      the court's length in from the end line, so players can move and shoot
+      all round it.
+    see: field
+  - id: zone
+    term: Zone
+    definition: >
+      One of the two halves of the court. Four players of each team play in
+      each zone and may not leave it.
+    see: field
+  - id: zone-change
+    term: Change of zones
+    definition: >
+      The switch made after every two goals in the match. The attackers of
+      each team become its defenders, and the defenders become its attackers.
+    see: object
+  - id: defended-shot
+    term: Defended shot
+    definition: >
+      A shot taken while a defender is within arm's length, facing the
+      shooter, nearer the post, and trying to block. All four must be true. A
+      defended shot is an offence, and a goal from one does not count.
+    see: prohibitions
+  - id: running-in-shot
+    term: Running-in shot
+    definition: >
+      A shot taken on the move, as the attacker runs past the post.
+  - id: pivot-foot
+    term: Pivot foot
+    definition: >
+      The foot a player must keep in place while holding the ball. The player
+      may turn on it and may not walk or run.
+    see: prohibitions
+  - id: contact
+    term: Contact
+    definition: >
+      Touching an opponent to stop or move them. Blocking, holding and pushing
+      are all offences, and so is hitting at the ball in an opponent's hands.
+    see: prohibitions
+  - id: same-sex-defending
+    term: Same-sex defending
+    definition: >
+      The rule that a player may only defend an opponent of the same sex. A
+      woman defends a woman and a man defends a man.
+    see: players
+  - id: penalty
+    term: Penalty
+    definition: >
+      A free shot from a mark 2.5 metres in front of the post, given for an
+      offence that took away a chance to score.
+    see: restarts
+  - id: throw-in
+    term: Throw-in
+    definition: >
+      A pass from the side line or end line that restarts play. It must be
+      taken within four seconds and may not be thrown straight at the korf.
+    see: restarts

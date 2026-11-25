@@ -1,6 +1,6 @@
 id: korfball
 label: Korfball
-tagline: "The only team sport whose laws require men and women on the same court, and the only one where you may not shoot when you are being defended."
+tagline: "Two mixed teams of four women and four men pass a ball and shoot at a basket on a tall post, with no dribbling, no contact and no shot while a defender has you covered."
 governing_body: International Korfball Federation
 founded: >
   Devised in Amsterdam in 1902 by the schoolteacher Nico Broekhuysen; the
@@ -11,12 +11,17 @@ classification:
   official: korfball
   game-category: invasion
   adjudication: decided-by-score
+glance:
+  - { value: "4 + 4", label: women and men a side }
+  - { value: "3.5 m", label: height of the korf }
+  - { value: "2", label: goals between zone changes }
 summary: >
-  Korfball was written in 1902 to be played by boys and girls together, and
-  every distinctive law follows from holding that requirement rather than from
-  the game itself. You may only defend an opponent of your own sex. You may not
-  shoot when a defender has you covered. There is no dribbling and no physical
-  contact — because a code that permits either stops being playable by a mixed
-  team on equal terms. It has never been on the Olympic programme, and has
-  been on the World Games one since the 1980s.
+  Korfball is played by two teams of eight, four women and four men each. The
+  court is divided into two zones. Half of each team attacks in one zone and
+  the other half defends in the other, and they change roles after every two
+  goals. Players pass the ball and try to throw it through the korf, a
+  basket with no bottom and no backboard on a post 3.5 metres high. A player
+  may not run with the ball, bounce it, or touch an opponent, and may only
+  defend an opponent of the same sex. A player who is closely defended may
+  not shoot, so the whole game is a search for a free shot.
 cover: korfball-the-korf

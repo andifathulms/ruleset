@@ -1,0 +1,35 @@
+# The court, from the measurements in play.yaml. Shapes are in metres.
+sport: korfball
+title: Two zones and two posts
+caption: >
+  The court is divided into two zones, with four players of each team in each.
+  A team attacks in one zone and defends in the other, and the roles change
+  after every two goals. Each post stands one sixth of the court's length in
+  from the end line, so there is open court all round it and a shot can come
+  from any side. The small ring in front of each post is the penalty spot,
+  2.5 metres from it.
+alt: >
+  A korfball court 40 metres long and 20 metres wide, divided by a centre line
+  into two zones, with a post standing inside each zone 6.67 metres from the
+  end line and a penalty spot in front of each post.
+scale: to-scale
+view: [-3, -3, 44.5, 24]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 40, h: 20, fill: area }
+  - { type: rect, x: 0, y: 0, w: 20, h: 20, fill: zone, line: none }
+  - { type: line, x1: 20, y1: 0, x2: 20, y2: 20 }
+  - { type: circle, cx: 9.17, cy: 10, r: 0.25 }
+  - { type: circle, cx: 30.83, cy: 10, r: 0.25 }
+  - { type: dot, x: 6.67, y: 10, label: "korf" }
+  - { type: dot, x: 33.33, y: 10, label: "korf" }
+  - { type: label, x: 10, y: 3, text: "zone", tone: chalk }
+  - { type: label, x: 30, y: 3, text: "zone", tone: chalk }
+  - { type: label, x: 9.4, y: 11.6, text: "penalty spot", anchor: start, tone: muted }
+  - { type: label, x: 20, y: -1.2, text: "centre line", tone: muted }
+  - { type: line, x1: 0, y1: 10, x2: 6.2, y2: 10, line: dashed }
+  - { type: label, x: 3.2, y: 8.9, text: "6.67 m" }
+  - { type: dim, x1: 0, y1: 22, x2: 40, y2: 22, text: "40 m" }
+  - { type: dim, x1: 42.3, y1: 0, x2: 42.3, y2: 20, text: "20 m" }
+legend:
+  - { swatch: zone, label: "one zone, where a team attacks" }
+  - { swatch: area, label: "the other zone, where the same team defends" }
