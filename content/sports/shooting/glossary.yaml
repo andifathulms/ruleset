@@ -1,0 +1,94 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is practised, not
+# claims about its history, and nothing here carries a cause or a date.
+
+sport: shooting
+terms:
+  - id: air-events
+    term: Air events
+    definition: >
+      The air rifle and air pistol events. They are shot indoors at ten metres
+      with low-powered guns.
+    see: field
+  - id: three-positions
+    term: Three positions
+    definition: >
+      A rifle event at 50 metres in which the shooter fires from three body
+      positions: kneeling, lying down and standing.
+    see: field
+  - id: clay-target
+    term: Clay target
+    definition: >
+      A disc thrown into the air for a shotgun shooter to hit while it is in
+      flight.
+    see: object
+  - id: firing-point
+    term: Firing point
+    definition: >
+      The place on the range where one shooter stands or lies to shoot. Each
+      firing point faces a target of its own.
+    see: field
+  - id: ring
+    term: Ring
+    definition: >
+      One of the ten circles on a rifle or pistol target. The centre ring is
+      worth 10 and the outside ring 1.
+    see: scoring
+  - id: decimal-scoring
+    term: Decimal scoring
+    definition: >
+      Scoring each shot to a tenth of a ring, so that a shot is worth 10.3
+      where whole-ring scoring would call it 10.
+    see: scoring
+  - id: electronic-target
+    term: Electronic target
+    definition: >
+      A target that registers where a shot landed, by sound or by light, and
+      shows its value on a screen at once.
+    see: field
+  - id: qualification
+    term: Qualification
+    definition: >
+      The first stage of an event. Every shooter fires the full number of
+      shots, and the leaders go through to the final.
+    see: duration
+  - id: final
+    term: Final
+    definition: >
+      The last stage, for the leading shooters from qualification. It starts
+      from zero, and shooters drop out one at a time until two are left.
+    see: duration
+  - id: series
+    term: Series
+    definition: >
+      A group of shots fired together inside a time limit.
+    see: restarts
+  - id: commanded
+    term: Shooting on command
+    definition: >
+      In a final, the shooters fire only when told to, one shot or a pair at a
+      time.
+    see: restarts
+  - id: cross-fire
+    term: Cross-fire
+    definition: >
+      A shot that hits another competitor's target. It is penalised.
+    see: prohibitions
+  - id: range-officer
+    term: Range officer
+    definition: >
+      The official who controls the firing line, gives the commands and keeps
+      the time.
+    see: players
+  - id: shooting-jacket
+    term: Shooting jacket
+    definition: >
+      The stiff jacket a rifle shooter wears to help support the body in
+      position. Its thickness and stiffness are measured before competition.
+    see: equipment
+  - id: trigger-weight
+    term: Trigger weight
+    definition: >
+      The force needed to pull the trigger. Each event sets a minimum.
+    see: equipment

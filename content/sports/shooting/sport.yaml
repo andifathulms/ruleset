@@ -1,6 +1,6 @@
 id: shooting
 label: Shooting
-tagline: Threw away the qualification score before every final, so the sport's own results stop counting at the moment they matter most.
+tagline: Shooters fire rifles and pistols at a ringed target, or shotguns at clay discs in the air, and accuracy alone decides the score.
 governing_body: International Shooting Sport Federation
 founded: International Shooting Union founded 1907; ISSF in its present form from 1998.
 coverage: deep
@@ -9,11 +9,18 @@ classification:
   official: shooting
   game-category: target
   adjudication: measured
+glance:
+  - { value: "10 m", label: range in the air events }
+  - { value: "10", label: rings on the target }
+  - { value: "0.1", label: of a ring, the finest score }
 summary: >
-  Shooting is the most precisely measured sport on this site — scores to a
-  tenth of a ring, decided by where a hole is — and it has spent thirty years
-  making those numbers matter less. Finals were added in 1988 with the
-  qualification score carried forward, changed in 2013 so finals start from
-  zero, and rebuilt as elimination formats after that. The measurement got more
-  precise as the competition got further from it.
+  A shooter stands still at a firing point and tries to put every shot in the
+  centre of a target. In rifle and pistol events the target is fixed and has
+  ten rings. In shotgun events it is a clay disc thrown into the air.
+  Electronic targets measure each rifle or pistol shot to a tenth of a ring.
+  A competition has two parts. In qualification every shooter fires a long
+  series of shots and the leaders go through. The final then starts again from
+  zero, and shooters drop out one at a time until two are left to shoot for
+  gold. No shooter can affect another's shot. The whole skill is to stay still
+  and repeat the same action under pressure.
 cover: shooting-air-rifle-2024

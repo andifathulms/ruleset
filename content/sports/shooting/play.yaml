@@ -10,6 +10,42 @@ summary: >
   rearranging its competition format so that the measurement produces a
   televisable ending.
 
+walkthrough:
+  title: One competition, from the first shot to the gold medal
+  intro: >
+    This follows the 10 metre air rifle, an indoor event. The other rifle and
+    pistol events run in a similar way.
+  steps:
+    - label: The firing point
+      body: >
+        Each shooter has a firing point and a target of their own, ten metres
+        away, in an indoor hall. The target does not move. No shooter can
+        affect another shooter's score.
+    - label: One shot
+      body: >
+        The target has ten rings, worth 10 at the centre down to 1 at the
+        edge. An electronic target registers where the shot landed and shows
+        the value at once, to a tenth of a ring. No official has to judge it.
+    - label: Qualification
+      body: >
+        Every shooter fires a set number of shots in series, inside a time
+        limit, and the values are added up. The leading shooters go through to
+        the final. That is all the qualification score decides.
+    - label: The final starts from zero
+      body: >
+        In the final every shooter begins again with no score. They shoot on
+        command, one shot or a pair of shots at a time, so that everyone can
+        follow the order.
+    - label: Dropping out
+      body: >
+        As the final goes on, the shooter in last place drops out, one at a
+        time. This continues until two shooters are left.
+    - label: Winning
+      body: >
+        The last two shoot for the gold medal, and the last shooter standing
+        wins. Firing before or after the command, or running over the time,
+        costs points or cancels the shot.
+
 sections:
   - id: object
     label: The object of the competition
@@ -87,7 +123,7 @@ sections:
   - id: scoring
     label: Scoring
     body: >
-      Ten rings, and since 2013 in the air events, tenths of a ring. Decimal
+      Ten rings, and since 2013 in air rifle qualification, tenths of a ring. Decimal
       scoring exists because whole-ring scores had stopped separating elite
       shooters, who were producing near-identical totals — the instrument had
       run out of resolution.
@@ -97,7 +133,7 @@ sections:
     facts:
       - { label: Rings, value: 10 down to 1 }
       - { label: Decimal scoring, value: Tenths of a ring }
-      - { label: Air events qualification, value: Decimal since 2013 }
+      - { label: Air rifle qualification, value: Decimal since 2013 }
     shaped_by: [issf-2013-decimal-qualification, issf-2013-finals-from-zero]
 
   - id: restarts
