@@ -10,6 +10,42 @@ summary: >
   hanging gates. The federation governs both and they have almost nothing else
   in common.
 
+walkthrough:
+  title: One slalom run, from the start line to the result
+  intro: >
+    Sprint is a straight race in lanes with the first boat home the winner, so
+    this follows the event that needs more explaining, a slalom run.
+  steps:
+    - label: The boat
+      body: >
+        One paddler goes down the course at a time, in a kayak or in a canoe.
+        The kayak paddler sits and uses a paddle with two blades. The canoe
+        paddler kneels and uses a paddle with one.
+    - label: The start
+      body: >
+        The paddler sets off alone, and the clock starts at the start line.
+        Nobody else is on the water.
+    - label: The gates
+      body: >
+        The course is a channel of whitewater with up to 25 numbered gates
+        hanging over it. The paddler must pass through every gate, in order
+        and in the right direction. Some are upstream gates, which have to be
+        paddled through against the flow.
+    - label: The penalties
+      body: >
+        Gate judges watch each gate. If the boat, the paddle or the paddler's
+        body touches a gate, two seconds are added. If a gate is missed, or
+        taken in the wrong direction or order, fifty seconds are added.
+    - label: The result
+      body: >
+        A run takes about ninety seconds. The result is the time on the clock
+        plus the penalties. A slower clean run can beat a faster run with
+        touches, and one missed gate ends any real chance.
+    - label: The rounds
+      body: >
+        The competition has heats, semi-finals and a final. Each round is a
+        new run. In the final, the lowest total of time and penalties wins.
+
 sections:
   - id: object
     label: The object of the race

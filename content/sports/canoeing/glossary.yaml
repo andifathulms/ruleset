@@ -1,0 +1,103 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is done, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: canoeing
+terms:
+  - id: kayak
+    term: Kayak
+    definition: >
+      A boat paddled sitting down, with a paddle that has a blade at each end.
+      Kayak events are written with a K, as in K-1.
+    see: equipment
+  - id: canoe
+    term: Canoe
+    definition: >
+      A boat paddled kneeling, with a paddle that has a single blade. Canoe
+      events are written with a C, as in C-1.
+    see: equipment
+  - id: class
+    term: K-1, C-2, K-4
+    definition: >
+      The name of a boat class. The letter says kayak or canoe, and the number
+      says how many paddlers are in the boat.
+    see: players
+  - id: sprint
+    term: Sprint
+    definition: >
+      Racing in a straight line on flat water, in lanes marked by buoys. The
+      first boat across the line wins.
+    see: object
+  - id: slalom
+    term: Slalom
+    definition: >
+      A timed run down a whitewater course through numbered gates, one boat at
+      a time. Penalty seconds are added for touching or missing gates.
+    see: object
+  - id: kayak-cross
+    term: Kayak cross
+    definition: >
+      A whitewater race with four kayaks on the course together. The boats
+      drop from a ramp to start, contact is allowed, and the first down wins.
+    see: prohibitions
+  - id: whitewater
+    term: Whitewater
+    definition: >
+      Fast, rough water, as in a steep river. It may be a natural river or a
+      channel built for the sport.
+    see: field
+  - id: artificial-course
+    term: Artificial course
+    definition: >
+      A whitewater channel built for the sport, where the flow of water can be
+      controlled.
+    see: field
+  - id: gate
+    term: Gate
+    definition: >
+      Two poles hanging above the water. A slalom paddler must pass between
+      them, in the numbered order and in the right direction.
+    see: field
+  - id: upstream-gate
+    term: Upstream gate
+    definition: >
+      A gate that must be passed against the flow of the water. The paddler
+      has to turn and paddle back up through it.
+    see: field
+  - id: touch
+    term: Touch
+    definition: >
+      Contact between a gate and the boat, the paddle or the paddler. It adds
+      two seconds to the run.
+    see: scoring
+  - id: missed-gate
+    term: Missed gate
+    definition: >
+      A gate that the paddler does not pass through, or passes in the wrong
+      direction or order. It adds fifty seconds to the run.
+    see: scoring
+  - id: gate-judge
+    term: Gate judge
+    definition: >
+      The official who watches a gate and decides whether it was touched and
+      whether it was passed correctly.
+    see: players
+  - id: roll
+    term: Roll
+    definition: >
+      Turning the boat upside down and bringing it upright again without
+      leaving it. Kayak cross paddlers must do one at a set point.
+    see: prohibitions
+  - id: rudder
+    term: Rudder
+    definition: >
+      A small steering fin under the boat. Sprint kayaks have one. Canoes do
+      not, so the paddler steers with the paddle.
+    see: equipment
+  - id: best-time
+    term: Best time
+    definition: >
+      The fastest time paddled in a sprint event. It is not called a world
+      record, because wind and water differ from race to race.
+    see: scoring
