@@ -10,6 +10,53 @@ summary: >
   rule about one weapon, which is why this sport electrified in three
   instalments rather than once.
 
+walkthrough:
+  title: One hit, from on guard to the point
+  intro: >
+    The three weapons differ in the target and in what happens when both
+    fencers hit, and the steps say where.
+  steps:
+    - label: On guard
+      body: >
+        Two fencers stand facing each other on the piste, a strip fourteen
+        metres long and no more than two metres wide. Each is connected by a
+        body wire to the scoring machine. One referee stands beside the piste
+        and starts the fencing.
+    - label: Attack and defence
+      body: >
+        Each fencer tries to hit the opponent's target area and to avoid being
+        hit. They can only move forward and back along the strip. A fencer who
+        retreats off the end of the piste has a hit scored against them.
+    - label: The target
+      body: >
+        In épée the whole body is the target. In foil it is the torso only. In
+        sabre it is everything above the waist, including the head and the
+        arms, and a sabre can score with its edge as well as its point.
+    - label: The machine
+      body: >
+        The scoring machine registers a hit that lands on the target. The
+        referee stops the bout after every exchange. Nobody has to judge
+        whether the blade touched.
+    - label: When both fencers hit
+      body: >
+        In épée, two hits that land within about forty milliseconds of each
+        other both score. In foil and sabre only one fencer can score. The
+        referee decides which fencer had right of way, meaning whose attack it
+        was, and that fencer gets the point.
+    - label: Back on guard
+      body: >
+        The fencers return to their guard positions and start again, so a bout
+        is a series of short exchanges. Offences such as bodily contact,
+        turning the back or covering the target are punished with cards. A
+        yellow card is a warning, a red card is a hit for the opponent, and a
+        black card is exclusion.
+    - label: Winning the bout
+      body: >
+        Every hit is one point. The first fencer to fifteen wins, or the one
+        with more hits after three periods that add up to nine minutes. If the
+        scores are level, one more minute is fenced. One fencer is given
+        priority by lot beforehand and wins if nobody scores in that minute.
+
 sections:
   - id: object
     label: The object of the bout
@@ -32,6 +79,8 @@ sections:
     facts:
       - { label: Piste length, value: 14 m }
       - { label: Piste width, value: 1.5–2 m }
+      - { label: On-guard lines, value: 2 m, note: From the centre line on each side. }
+      - { label: Warning zone, value: 2 m, note: The last two metres at each end of the piste. }
       - { label: Retreating off the end, value: A hit against you }
 
   - id: equipment

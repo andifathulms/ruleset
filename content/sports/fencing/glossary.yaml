@@ -1,0 +1,99 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is contested, and
+# nothing here carries a cause or a date.
+
+sport: fencing
+terms:
+  - id: epee
+    term: Épée
+    definition: >
+      One of the three weapons. The whole body is the target, there is no
+      right of way, and if both fencers hit together both score.
+    see: scoring
+  - id: foil
+    term: Foil
+    definition: >
+      One of the three weapons. Only the torso is the target, and when both
+      fencers hit, right of way decides who scores.
+    see: scoring
+  - id: sabre
+    term: Sabre
+    definition: >
+      One of the three weapons. Everything above the waist is the target, it
+      scores with the edge as well as the point, and right of way applies.
+    see: scoring
+  - id: piste
+    term: Piste
+    definition: >
+      The strip a bout is fenced on. It is fourteen metres long and narrow, so
+      the fencers move only forward and back.
+    see: field
+  - id: on-guard
+    term: On guard
+    definition: >
+      The ready position, and the place on the piste where each fencer stands
+      at the start and after every hit.
+    see: restarts
+  - id: hit
+    term: Hit
+    definition: >
+      A touch of the blade on the opponent's target area. Each hit is one
+      point.
+    see: scoring
+  - id: target
+    term: Target area
+    definition: >
+      The part of the opponent's body where a hit counts. It is different for
+      each weapon.
+    see: scoring
+  - id: right-of-way
+    term: Right of way
+    definition: >
+      The rule in foil and sabre that decides who scores when both fencers
+      hit. The point goes to the fencer whose attack it was. It is also called
+      priority.
+    see: object
+  - id: double-hit
+    term: Double hit
+    definition: >
+      Two hits that land almost together, one from each fencer. In épée both
+      score. In foil and sabre the referee gives the point to one fencer.
+    see: scoring
+  - id: scoring-machine
+    term: Scoring machine
+    definition: >
+      The electrical apparatus that registers a hit. It is also called the
+      scoring apparatus.
+    see: equipment
+  - id: conductive-jacket
+    term: Conductive jacket
+    definition: >
+      A jacket that conducts electricity, worn over the target area in foil
+      and sabre. It lets the machine tell a hit on the target from a hit
+      off it.
+    see: equipment
+  - id: body-wire
+    term: Body wire
+    definition: >
+      The wire that runs under a fencer's jacket and connects the weapon to
+      the scoring machine.
+    see: equipment
+  - id: maraging-steel
+    term: Maraging steel
+    definition: >
+      The steel that blades must be made of. When it breaks it does not leave
+      a long sharp fragment.
+    see: equipment
+  - id: cards
+    term: Cards
+    definition: >
+      The penalties. A yellow card is a warning for a first offence, a red
+      card gives a hit to the opponent, and a black card excludes the fencer.
+    see: prohibitions
+  - id: pool
+    term: Pool
+    definition: >
+      A first-round group in which fencers meet each other in short bouts to
+      five hits.
+    see: duration

@@ -1,0 +1,37 @@
+# The piste, from the measurements in play.yaml. Shapes are in metres.
+sport: fencing
+title: The piste
+caption: >
+  A bout is fenced on a strip fourteen metres long. The fencers start at the
+  on-guard lines, two metres either side of the centre. The last two metres at
+  each end are a warning zone: a fencer who retreats past the end of the piste
+  has a hit scored against them. The piste is between 1.5 and 2 metres wide,
+  and it is drawn here at 2 metres.
+alt: >
+  A long narrow fencing piste, 14 metres by 2 metres, with a centre line, two
+  on-guard lines 2 metres from the centre and a shaded warning zone 2 metres
+  long at each end.
+scale: to-scale
+view: [-1.6, -3.2, 17, 5]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 14, h: 2, fill: area }
+  - { type: rect, x: 0, y: 0, w: 2, h: 2, fill: zone, line: none }
+  - { type: rect, x: 12, y: 0, w: 2, h: 2, fill: zone, line: none }
+  - { type: line, x1: 2, y1: 0, x2: 2, y2: 2 }
+  - { type: line, x1: 12, y1: 0, x2: 12, y2: 2 }
+  - { type: line, x1: 7, y1: 0, x2: 7, y2: 2 }
+  - { type: line, x1: 5, y1: 0, x2: 5, y2: 2 }
+  - { type: line, x1: 9, y1: 0, x2: 9, y2: 2 }
+  - { type: rect, x: 0, y: 0, w: 14, h: 2 }
+  - { type: dot, x: 4.6, y: 1 }
+  - { type: dot, x: 9.4, y: 1 }
+  - { type: label, x: 7, y: -0.6, text: "centre", tone: muted }
+  - { type: label, x: 4.4, y: -0.6, text: "on guard", tone: muted }
+  - { type: label, x: 9.6, y: -0.6, text: "on guard", tone: muted }
+  - { type: dim, x1: 5, y1: -1.7, x2: 7, y2: -1.7, text: "2 m" }
+  - { type: dim, x1: 12, y1: -1.7, x2: 14, y2: -1.7, text: "2 m" }
+  - { type: dim, x1: 0, y1: 3.2, x2: 14, y2: 3.2, text: "14 m" }
+  - { type: label, x: 14.3, y: 1, text: "1.5–2 m", anchor: "start", tone: muted }
+legend:
+  - { swatch: zone, label: "warning zone, the last 2 m" }
+  - { swatch: area, label: "the piste" }
