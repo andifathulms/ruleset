@@ -1,0 +1,32 @@
+# The ultimate field, from the measurements in play.yaml. Shapes are in metres.
+sport: flying-disc
+title: A long field with two end zones
+caption: >
+  The field for ultimate is 100 metres long and 37 metres wide. An end zone 18
+  metres deep lies at each end, and a team scores by catching a pass inside the
+  one it is attacking. There are no goals or posts. At the start of each point
+  the two teams stand on the end zone lines and one team throws the disc to the
+  other.
+alt: >
+  An ultimate field 100 metres long and 37 metres wide, with an end zone 18
+  metres deep at each end and a central playing field 64 metres long between
+  them.
+scale: to-scale
+view: [-5, -11, 113, 49]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 100, h: 37, fill: area }
+  - { type: rect, x: 0, y: 0, w: 18, h: 37, fill: zone, line: none }
+  - { type: rect, x: 82, y: 0, w: 18, h: 37, fill: zone, line: none }
+  - { type: line, x1: 18, y1: 0, x2: 18, y2: 37 }
+  - { type: line, x1: 82, y1: 0, x2: 82, y2: 37 }
+  - { type: label, x: 9, y: 18.5, text: "end zone" }
+  - { type: label, x: 91, y: 18.5, text: "end zone" }
+  - { type: label, x: 50, y: 18.5, text: "central playing field", tone: muted }
+  - { type: dim, x1: 0, y1: -5, x2: 18, y2: -5, text: "18 m" }
+  - { type: dim, x1: 18, y1: -5, x2: 82, y2: -5, text: "64 m" }
+  - { type: dim, x1: 82, y1: -5, x2: 100, y2: -5, text: "18 m" }
+  - { type: dim, x1: 0, y1: 43, x2: 100, y2: 43, text: "100 m" }
+  - { type: dim, x1: 106, y1: 0, x2: 106, y2: 37, text: "37 m" }
+legend:
+  - { swatch: zone, label: "end zone, where points are scored" }
+  - { swatch: area, label: central playing field }

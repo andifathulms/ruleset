@@ -1,6 +1,6 @@
 id: flying-disc
 label: Flying disc
-tagline: "The only sport at this level with no referee: the players call their own fouls, and the rulebook says why."
+tagline: "Ultimate, the main flying disc sport: two teams of seven pass a disc up a long field and score by catching it in the end zone."
 governing_body: World Flying Disc Federation
 founded: >
   The modern plastic disc dates from 1948 and Wham-O's Frisbee from 1957;
@@ -12,11 +12,17 @@ classification:
   official: flying-disc
   game-category: invasion
   adjudication: self-officiated
+glance:
+  - { value: "7", label: players a side }
+  - { value: "15", label: points to win }
+  - { value: "100 m", label: field length }
 summary: >
-  Ultimate is an invasion sport played with a disc, in which the person holding
-  it may not run. What makes it structurally unlike everything else on this
-  site is that it has no referee — players call their own fouls, resolve
-  their own disputes, and the obligation to do so honestly is written into the
-  rules as Spirit of the Game. Elite competition has spent thirty years
-  arguing about whether that can survive being taken seriously.
+  Ultimate is the best-known sport played with a flying disc. Two teams of
+  seven play on a long, narrow field with an end zone at each end. A player
+  holding the disc may not run, so the disc moves only by passes. A team
+  scores a point when one of its players catches a pass in the end zone it is
+  attacking. If a pass is dropped, blocked or caught by the other team, that
+  team takes the disc at once. Players may not touch each other. There is no
+  referee: the players call their own fouls, under a rule named Spirit of the
+  Game. The first team to 15 points wins.
 cover: flying-disc-flick

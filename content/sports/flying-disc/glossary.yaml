@@ -1,0 +1,103 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: flying-disc
+terms:
+  - id: disc
+    term: Disc
+    definition: >
+      The flat plastic plate the game is played with. It weighs 175 grams and
+      flies by spinning.
+    see: equipment
+  - id: end-zone
+    term: End zone
+    definition: >
+      The area, 18 metres deep, at each end of the field. A team scores by
+      catching a pass inside the end zone it is attacking.
+    see: field
+  - id: pull
+    term: Pull
+    definition: >
+      The long throw that starts each point. The defending team throws the
+      disc down the field to the other team.
+    see: restarts
+  - id: turnover
+    term: Turnover
+    definition: >
+      A change of possession. It happens at once when a pass is dropped,
+      blocked, intercepted or thrown out of bounds, or when the thrower holds
+      the disc too long.
+    see: object
+  - id: stall-count
+    term: Stall count
+    definition: >
+      The count to ten that a defender makes aloud while guarding the thrower.
+      If the disc has not been thrown when the count ends, the defence takes
+      it.
+    see: duration
+  - id: marker
+    term: Marker
+    definition: >
+      The defender who guards the thrower and makes the stall count.
+    see: duration
+  - id: pivot
+    term: Pivot
+    definition: >
+      The foot that the thrower keeps on the ground. The thrower may turn on
+      it and step with the other foot, and may not run.
+    see: prohibitions
+  - id: foul
+    term: Foul
+    definition: >
+      Contact between players that the rules forbid. The player who was fouled
+      calls it aloud.
+    see: prohibitions
+  - id: pick
+    term: Pick
+    definition: >
+      An infringement in which a defender is blocked by another player while
+      following an opponent. The blocked defender calls it and play stops.
+    see: prohibitions
+  - id: spirit
+    term: Spirit of the Game
+    definition: >
+      The first rule of ultimate. Players must know the rules, apply them
+      honestly even against themselves, and never break them on purpose.
+    see: players
+  - id: observer
+    term: Observer
+    definition: >
+      A neutral official at some top events. An observer settles a dispute the
+      players cannot settle, and judges lines and time limits. An observer
+      does not call fouls.
+    see: players
+  - id: backhand
+    term: Backhand
+    definition: >
+      The basic throw. The arm swings across the body and the disc leaves from
+      the side opposite the throwing hand.
+    see: equipment
+  - id: forehand
+    term: Forehand
+    definition: >
+      A throw made with a flick of the wrist from the throwing-hand side of
+      the body. It is also called a flick.
+    see: equipment
+  - id: hammer
+    term: Hammer
+    definition: >
+      A throw released over the head, so that the disc flies upside down.
+    see: equipment
+  - id: bid
+    term: Bid
+    definition: >
+      A dive to catch or block the disc.
+    see: prohibitions
+  - id: time-cap
+    term: Time cap
+    definition: >
+      A time limit used in tournaments to keep to a schedule. When it falls,
+      the team that is ahead wins.
+    see: winning

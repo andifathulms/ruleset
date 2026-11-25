@@ -9,6 +9,51 @@ summary: >
   no referee — the players call their own fouls under a rule called Spirit of
   the Game.
 
+walkthrough:
+  title: One point of ultimate, from the pull to the catch
+  intro: >
+    Ultimate is the disc sport played by most teams, and a game is this
+    sequence repeated until one team has 15 points.
+  steps:
+    - label: The pull
+      body: >
+        Both teams of seven line up on their own end zone lines, 64 metres
+        apart. The defending team throws the disc down the field. This throw
+        is the pull. Play starts when the other team picks the disc up.
+    - label: Passing, never running
+      body: >
+        The player holding the disc may not run. The thrower plants one foot
+        as a pivot, keeps it there, and passes to a team-mate. The team moves
+        up the field one pass at a time.
+    - label: The stall count
+      body: >
+        A defender, the marker, stands in front of the thrower and counts
+        aloud to ten. The thrower must release the disc before the count
+        ends. Only one defender may guard the thrower, and nobody may make
+        contact.
+    - label: The turnover
+      body: >
+        If a pass is dropped, blocked, intercepted or goes out of bounds, or
+        if the thrower holds the disc past the count, the other team takes
+        the disc. Play goes on from where the disc stopped, with no whistle
+        and no pause.
+    - label: A call
+      body: >
+        There is no referee. A player who is fouled, or who is blocked by
+        another player in a pick, calls it aloud, and play stops. If the two
+        players cannot agree, the disc goes back to the thrower and play
+        starts again from there.
+    - label: The point
+      body: >
+        A team scores one point when a player catches a pass in the end zone
+        the team is attacking. Players may be substituted between points.
+        The team that scored then pulls to the other team.
+    - label: The win
+      body: >
+        The first team to 15 points wins, and half time comes when one team
+        reaches 8. In tournaments a time cap can end the game early, and the
+        team that is ahead wins.
+
 sections:
   - id: object
     label: The object of the game
