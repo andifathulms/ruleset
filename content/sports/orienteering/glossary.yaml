@@ -1,0 +1,100 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is contested, not
+# claims about its history, and nothing here carries a cause or a date.
+
+sport: orienteering
+terms:
+  - id: control
+    term: Control
+    definition: >
+      A point on the ground that the runner must visit, shown on the map and
+      marked in the terrain. Each control has a station where the runner
+      punches.
+    see: object
+  - id: course
+    term: Course
+    definition: >
+      The set of controls a runner must visit, in a fixed order, from the start
+      to the finish.
+    see: object
+  - id: leg
+    term: Leg
+    definition: >
+      The part of a course between one control and the next.
+    see: object
+  - id: route-choice
+    term: Route choice
+    definition: >
+      The runner's decision about which way to go between two controls, for
+      example around a hill or over it. The rules leave it entirely free.
+    see: object
+  - id: punching
+    term: Punching
+    definition: >
+      Registering a visit to a control. The runner carries an electronic chip
+      and touches it to the station at each control.
+    see: equipment
+  - id: split
+    term: Split
+    definition: >
+      The time a runner took between two controls. The chip records every
+      split, and they are published after the race.
+    see: duration
+  - id: mispunch
+    term: Mispunch
+    definition: >
+      Missing a control, or punching the controls in the wrong order. It means
+      disqualification, with no time penalty in its place.
+    see: prohibitions
+  - id: embargo
+    term: Embargo
+    definition: >
+      The closing of the competition area to competitors before the race, so
+      that nobody has seen the ground. Entering it early means
+      disqualification.
+    see: field
+  - id: winning-time
+    term: Target winning time
+    definition: >
+      The time the rules say the winner of a race should take. The course is
+      planned to produce that time, and its length in kilometres follows from
+      the terrain.
+    see: field
+  - id: interval-start
+    term: Interval start
+    definition: >
+      A start in which runners leave one at a time, a minute or more apart, and
+      navigate alone.
+    see: players
+  - id: mass-start
+    term: Mass start
+    definition: >
+      A start in which everyone leaves together. Relays use it, and give the
+      teams different combinations of the same controls.
+    see: players
+  - id: following
+    term: Following
+    definition: >
+      Deliberately running behind another competitor and letting them do the
+      navigating. It is an offence against fair play.
+    see: players
+  - id: out-of-bounds
+    term: Out of bounds
+    definition: >
+      Ground the map marks as forbidden, such as private land, a crop field or
+      a dangerous area. A runner may not cross it.
+    see: prohibitions
+  - id: sprint
+    term: Sprint
+    definition: >
+      The shortest discipline, planned for a winning time of about fifteen
+      minutes and usually run in a town centre or on a campus.
+    see: field
+  - id: score-event
+    term: Score event
+    definition: >
+      A format in which controls carry points and may be visited in any order.
+      The runner collects as many points as possible within a time limit and
+      loses points for finishing late.
+    see: scoring

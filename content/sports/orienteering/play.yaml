@@ -8,6 +8,45 @@ summary: >
   never seen, with a map handed to you at the start and a compass. Fastest time
   wins. Competitors start at intervals and navigate alone.
 
+walkthrough:
+  title: One race, from the start line to the result
+  intro: >
+    This is an individual race on a fixed course, the usual form. Relays and
+    score events differ, as the clauses below explain.
+  steps:
+    - label: Before the start
+      body: >
+        Nobody has seen the ground. The area is closed to competitors
+        beforehand, and entering it early means disqualification. Runners
+        start one at a time, a minute or more apart, so nobody can simply
+        follow the runner in front.
+    - label: The map
+      body: >
+        The runner takes the map at the moment of starting, with the clock
+        running. Reading it is part of the race. It is drawn to magnetic
+        north, so the compass needle and the paper agree.
+    - label: Choosing a route
+      body: >
+        The controls must be visited in order, but the way between two of
+        them is the runner's choice. The runner has the map and a compass and
+        no other aid: no GPS for navigation and no marked route. Ground marked
+        out of bounds on the map may never be crossed.
+    - label: At each control
+      body: >
+        The runner punches an electronic chip at the control. The chip records
+        that the control was visited and the time, so the split for every part
+        of the course is known.
+    - label: Mistakes
+      body: >
+        There is no restart. A runner who goes wrong must find the way back
+        inside the same run, and the lost time stays in the result. Missing a
+        control, or punching the controls out of order, means disqualification.
+    - label: The result
+      body: >
+        The result is the time taken, to the second. Nothing is added or
+        adjusted for weather or start time. The fastest runner to complete a
+        valid course wins.
+
 sections:
   - id: object
     label: The object of the game

@@ -1,6 +1,6 @@
 id: orienteering
 label: Orienteering
-tagline: "A timed sport that has deliberately made its times incomparable: every course is new terrain, and the course is set to a target time rather than a distance."
+tagline: A race across unfamiliar country with a map and a compass. Runners must find a set of marked points in order, and each chooses a route between them.
 governing_body: International Orienteering Federation
 founded: >
   Grew out of Scandinavian military land navigation in the nineteenth century,
@@ -12,11 +12,17 @@ classification:
   official: orienteering
   game-category: performance
   adjudication: measured
+glance:
+  - { value: "1 min", label: or more between starters }
+  - { value: "15 min", label: target winning time in a sprint }
+  - { value: "35 min", label: target at middle distance }
 summary: >
-  Navigate a set of control points in order, in terrain you have never seen,
-  using a map you are given at the start and a compass. It is timed to the
-  second and has no records of any kind, because the sport's own rules set a
-  course to a target winning time rather than to a distance — so the fastest
-  time is designed in advance and the terrain is different every time. A
-  measured sport that has legislated its own comparability away.
+  Each runner is handed a map at the start line and has never seen the ground
+  before. The map shows a course of control points, and the runner must visit
+  every one in order, using only the map and a compass. The route between two
+  controls is the runner's own choice, and that choice decides most races.
+  Runners start at intervals and navigate alone. An electronic chip records
+  each control, the fastest time wins, and missing a control means
+  disqualification. The race may be in forest, on moorland or dunes, or
+  through the streets of a town.
 cover: orienteering-punching
