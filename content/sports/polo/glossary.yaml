@@ -1,0 +1,105 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: polo
+terms:
+  - id: chukka
+    term: Chukka
+    definition: >
+      One period of play, seven and a half minutes long. A match has four, six
+      or eight of them.
+    see: duration
+  - id: line-of-the-ball
+    term: Line of the ball
+    definition: >
+      The path the ball is travelling along, extended ahead of it and behind
+      it. Most of the rules of polo are about who may ride where in relation
+      to this line.
+    see: prohibitions
+  - id: right-of-way
+    term: Right of way
+    definition: >
+      The priority given to the rider who is following the line of the ball
+      most closely. Other riders must not cross in front of them.
+    see: prohibitions
+  - id: crossing
+    term: Crossing
+    definition: >
+      Riding across the line of the ball in front of a rider who has right of
+      way. It is the most serious foul, and it is called for the danger it
+      creates, whether or not there is contact.
+    see: prohibitions
+  - id: ride-off
+    term: Ride-off
+    definition: >
+      Pushing an opponent off the line by riding alongside, shoulder to
+      shoulder. It is legal when the angle is shallow.
+    see: prohibitions
+  - id: hook
+    term: Hook
+    definition: >
+      Catching an opponent's mallet with your own to block a shot. It is legal
+      below shoulder height and not across the opponent's horse.
+    see: prohibitions
+  - id: mallet
+    term: Mallet
+    definition: >
+      The stick: a cane shaft with a hardwood head. The ball is hit with the
+      side of the head, and the mallet is held in the right hand.
+    see: equipment
+  - id: pony
+    term: Pony
+    definition: >
+      A polo horse. The word is traditional, and the animals are full-sized
+      horses.
+    see: equipment
+  - id: string
+    term: String
+    definition: >
+      The group of ponies one player brings to a match and changes between
+      chukkas.
+    see: equipment
+  - id: handicap
+    term: Handicap
+    definition: >
+      A player's rating, from minus two to ten goals. A team's handicap is the
+      sum of its four players', and in a handicap match the weaker team starts
+      with the difference as goals.
+    see: scoring
+  - id: high-goal
+    term: High-goal
+    definition: >
+      Polo played by teams with high total handicaps. It is the top level of
+      the game.
+    see: players
+  - id: throw-in
+    term: Throw-in
+    definition: >
+      The start of play and the restart after a goal. The umpire bowls the
+      ball between the two teams, lined up side by side.
+    see: restarts
+  - id: penalty-goal
+    term: Automatic goal
+    definition: >
+      A goal awarded by the umpires for the most serious fouls, without the
+      ball being hit.
+    see: restarts
+  - id: third-man
+    term: Third man
+    definition: >
+      The official on the sideline. The two mounted umpires ask the third man
+      when they disagree.
+    see: players
+  - id: patron
+    term: Patron
+    definition: >
+      An amateur who pays for a team and plays in it alongside hired
+      professionals.
+  - id: arena-polo
+    term: Arena polo
+    definition: >
+      The small form of the game, three a side in an enclosed arena with a
+      larger ball.
+    see: field

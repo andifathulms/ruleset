@@ -8,6 +8,51 @@ summary: >
   half minutes, with a fresh horse for most of them. The governing rule is the
   line of the ball and who has right of way along it.
 
+walkthrough:
+  title: One goal, from the throw-in to the change of ends
+  intro: >
+    This follows field polo, four riders a side on the full-size grass field.
+  steps:
+    - label: The score before the start
+      body: >
+        Every player has a handicap, and a team's handicap is the sum of its
+        four players'. In a handicap match the weaker team is given the
+        difference as goals before play begins. The scoreboard may not start
+        at nil.
+    - label: The throw-in
+      body: >
+        The two teams line up side by side, facing the umpire. The umpire
+        bowls the ball in between the two lines, and the riders go for it.
+    - label: The line of the ball
+      body: >
+        When the ball is hit, the path it travels along is the line of the
+        ball. The rider who follows that line most closely has right of way.
+        Crossing the line in front of that rider is the most serious foul,
+        even if nobody is touched.
+    - label: Riding off and hooking
+      body: >
+        A rider may push an opponent off the line, shoulder to shoulder and at
+        a shallow angle. This is a ride-off. A rider may also hook an
+        opponent's mallet with their own to spoil a shot, below shoulder
+        height and not across the other horse. The mallet is always in the
+        right hand.
+    - label: A foul
+      body: >
+        Two mounted umpires ride with the play. For a foul they give the other
+        team a free hit from thirty, forty or sixty yards. For the most
+        serious fouls they award a goal outright.
+    - label: The goal
+      body: >
+        A ball hit between the goalposts scores one goal. The posts have no
+        crossbar, so a ball at any height counts. After every goal the teams
+        change ends, and the umpire throws the ball in again.
+    - label: Chukkas and the result
+      body: >
+        Play goes on in chukkas of seven and a half minutes, with four, six or
+        eight in a match. Riders change horses between chukkas. The team with
+        more goals at the end wins, counting any given on handicap, and a tie
+        goes to an extra chukka.
+
 sections:
   - id: object
     label: The object of the game
@@ -21,6 +66,7 @@ sections:
       site reverses direction that often.
     facts:
       - { label: Goals, value: No crossbar; any height counts }
+      - { label: Goalposts, value: 8 yd apart }
       - { label: Change of ends, value: After every goal }
 
   - id: field
