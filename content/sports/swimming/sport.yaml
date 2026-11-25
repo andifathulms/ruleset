@@ -1,6 +1,6 @@
 id: swimming
 label: Swimming
-tagline: Same problem as the javelin. Opposite decision. The records stand.
+tagline: Racing through water over a set distance, one swimmer to a lane, in one of four strokes that the rules define.
 governing_body: World Aquatics
 founded: >
   Fédération Internationale de Natation founded 1908; renamed World Aquatics
@@ -11,12 +11,18 @@ classification:
   official: aquatics
   game-category: performance
   adjudication: measured
+glance:
+  - { value: "50 m", label: pool length }
+  - { value: "4", label: strokes }
+  - { value: "8", label: swimmers in a final }
 summary: >
-  The reference case for this whole site. Polyurethane suits were banned with
-  effect from 2010, and the records set in them were allowed to stand — which
-  is why several are still unbeaten more than fifteen years later. Athletics
-  faced the same situation with the javelin in 1986 and reset the record book.
-  Two governing bodies, the same facts, opposite rulings, and both are visible
-  here on the same page.
+  Swimmers race side by side in a pool, each in a separate lane, and the first
+  to touch the wall at the end of the distance wins. There are four strokes:
+  freestyle, backstroke, breaststroke and butterfly. Freestyle means any
+  style, and everyone swims the front crawl because it is fastest. The other
+  three are defined by the rulebook, and a swimmer who breaks the definition
+  is disqualified. Times are taken to one hundredth of a second by a pad the
+  swimmer touches. Swimming underwater is faster than swimming on the surface,
+  so the rules limit it to 15 metres after the start and after each turn.
 cover: swimming-backstroke-start
 cover_position: "50% 75%"

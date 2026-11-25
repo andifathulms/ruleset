@@ -11,6 +11,50 @@ summary: >
   history is a history of swimmers finding faster motions the definition did
   not quite exclude.
 
+walkthrough:
+  title: One race, from the blocks to the touchpad
+  intro: >
+    Every pool race follows the same sequence, whatever the stroke and the
+    distance.
+  steps:
+    - label: The lanes
+      body: >
+        The pool is divided into lanes, and each swimmer has one lane for the
+        whole race. A long course pool is 50 metres, so a 100 metres race is
+        two lengths with one turn.
+    - label: The start
+      body: >
+        In freestyle, breaststroke and butterfly the swimmers dive from
+        starting blocks. In backstroke they start in the water. No false start
+        is allowed: a swimmer who makes one is disqualified.
+    - label: Underwater
+      body: >
+        After the start a swimmer may travel underwater, where a dolphin kick
+        is faster than any stroke on the surface. The limit is 15 metres. By
+        then the head must have broken the surface.
+    - label: The stroke
+      body: >
+        Each swimmer must swim the stroke of the event, as the rules define
+        it. Freestyle allows any style. Stroke judges walk beside the pool,
+        and a swimmer who breaks the definition is disqualified. So is one who
+        pushes off the bottom or pulls on the lane rope.
+    - label: The turn
+      body: >
+        At the end of each length the swimmer turns at the wall, watched by a
+        turn judge. The 15-metre underwater limit applies again after every
+        turn.
+    - label: The finish
+      body: >
+        The race ends when the swimmer's hand hits the touchpad on the finish
+        wall. That stops the clock, to one hundredth of a second. The first
+        legal touch wins. Two swimmers on the same hundredth share the place.
+    - label: Heats and the final
+      body: >
+        An event starts with heats, then semi-finals in the shorter events,
+        then a final of eight. Swimmers go through on time alone, so winning a
+        heat is not enough if the time is slow. The winner of the final wins
+        the event.
+
 sections:
   - id: object
     label: The object of the race
@@ -42,7 +86,7 @@ sections:
     label: Swimwear
     body: >
       Suits must be made of textile, may not cover the neck, and may not extend
-      past the shoulders or the ankles; men's suits may not go above the waist.
+      past the shoulders or below the knee; men's suits may not go above the waist.
       This specification exists because for a decade there was none, and
       polyurethane construction produced a run of records that the sport then
       chose to leave standing.

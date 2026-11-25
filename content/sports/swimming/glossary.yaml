@@ -1,0 +1,104 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how a race is swum, not claims
+# about history, and nothing here carries a cause or a date.
+
+sport: swimming
+terms:
+  - id: stroke
+    term: Stroke
+    definition: >
+      A way of swimming. Races are held in four: freestyle, backstroke,
+      breaststroke and butterfly. The rulebook defines the last three.
+    see: object
+  - id: freestyle
+    term: Freestyle
+    definition: >
+      A race in which any style is allowed. Swimmers use the front crawl, on
+      the front with the arms pulling in turn, because it is the fastest.
+    see: object
+  - id: backstroke
+    term: Backstroke
+    definition: >
+      The stroke swum on the back. It is the only one that starts in the
+      water, and a swimmer may roll onto the front only as part of a turn.
+    see: prohibitions
+  - id: breaststroke
+    term: Breaststroke
+    definition: >
+      The stroke swum on the front with both arms moving together and a
+      frog-like kick. The rules define the kick, and an illegal kick means
+      disqualification.
+    see: prohibitions
+  - id: butterfly
+    term: Butterfly
+    definition: >
+      The stroke in which both arms swing forward together over the water. The
+      arms must move at the same time.
+    see: prohibitions
+  - id: dolphin-kick
+    term: Dolphin kick
+    definition: >
+      A kick with both legs together, moving up and down like a tail. Done
+      underwater, it is faster than any stroke on the surface.
+    see: restarts
+  - id: underwater-limit
+    term: Fifteen-metre limit
+    definition: >
+      The furthest a swimmer may travel underwater after the start and after
+      each turn. By 15 metres the head must have broken the surface.
+    see: restarts
+  - id: long-course
+    term: Long course
+    definition: >
+      Racing in a 50-metre pool. Its records are kept apart from short course
+      records.
+    see: field
+  - id: short-course
+    term: Short course
+    definition: >
+      Racing in a 25-metre pool. There are twice as many turns, and turns are
+      faster than swimming, so short course has its own list of records.
+    see: field
+  - id: lane-rope
+    term: Lane rope
+    definition: >
+      The floating line that separates one lane from the next. A swimmer may
+      not pull on it.
+    see: prohibitions
+  - id: starting-block
+    term: Starting block
+    definition: >
+      The raised platform at the end of each lane from which swimmers dive at
+      the start.
+    see: restarts
+  - id: backstroke-flags
+    term: Backstroke flags
+    definition: >
+      Lines of flags hung across the pool 5 metres from each wall. They tell a
+      swimmer on their back that the wall is close.
+    see: field
+  - id: touchpad
+    term: Touchpad
+    definition: >
+      The pad on the wall at the end of each lane. The swimmer's hand presses
+      it, and that records the time.
+    see: scoring
+  - id: dead-heat
+    term: Dead heat
+    definition: >
+      A tie. When two swimmers record the same time to one hundredth of a
+      second, both are given the place.
+    see: scoring
+  - id: heat
+    term: Heat
+    definition: >
+      A first-round race. Swimmers reach the next round on their times, and
+      winning a heat does not guarantee a place.
+    see: duration
+  - id: takeover
+    term: Takeover
+    definition: >
+      The change from one relay swimmer to the next. The next swimmer may not
+      leave the block before the one in the water touches the wall.
+    see: prohibitions

@@ -1,0 +1,40 @@
+# The pool, from the measurements in play.yaml. Shapes are in metres. Drawn
+# with eight lanes of 2.5 m; a pool may have ten.
+sport: swimming
+title: A long course pool
+caption: >
+  Each swimmer keeps to one lane. After the start, and again after every turn,
+  a swimmer may stay underwater only for the first 15 metres from the wall.
+  The backstroke flags hang across the pool 5 metres from each end, so that a
+  swimmer on their back knows the wall is close. The pool is drawn here with
+  eight lanes. Some pools have ten.
+alt: >
+  A swimming pool 50 metres long with eight lanes, each 2.5 metres wide. A
+  band 15 metres deep is shaded at each end, and a dashed line crosses the
+  pool 5 metres from each end wall.
+scale: to-scale
+view: [-8, -8.5, 67, 26]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 50, h: 20, fill: area }
+  - { type: rect, x: 0, y: 0, w: 15, h: 20, fill: zone, line: none }
+  - { type: rect, x: 35, y: 0, w: 15, h: 20, fill: zone, line: none }
+  - { type: line, x1: 0, y1: 2.5, x2: 50, y2: 2.5, line: faint }
+  - { type: line, x1: 0, y1: 5, x2: 50, y2: 5, line: faint }
+  - { type: line, x1: 0, y1: 7.5, x2: 50, y2: 7.5, line: faint }
+  - { type: line, x1: 0, y1: 10, x2: 50, y2: 10, line: faint }
+  - { type: line, x1: 0, y1: 12.5, x2: 50, y2: 12.5, line: faint }
+  - { type: line, x1: 0, y1: 15, x2: 50, y2: 15, line: faint }
+  - { type: line, x1: 0, y1: 17.5, x2: 50, y2: 17.5, line: faint }
+  - { type: line, x1: 5, y1: -0.6, x2: 5, y2: 20.6, line: dashed }
+  - { type: line, x1: 45, y1: -0.6, x2: 45, y2: 20.6, line: dashed }
+  - { type: line, x1: 0, y1: 0, x2: 0, y2: 20, line: heavy }
+  - { type: label, x: -1.2, y: 10, text: "blocks", anchor: end, tone: muted }
+  - { type: label, x: 25, y: 8.75, text: "one lane each", tone: muted }
+  - { type: dim, x1: 0, y1: -2.5, x2: 15, y2: -2.5, text: "15 m" }
+  - { type: label, x: 7.5, y: -5.5, text: "underwater limit", tone: muted }
+  - { type: label, x: 45, y: -2.5, text: "flags, 5 m from wall", tone: muted }
+  - { type: dim, x1: 0, y1: 23, x2: 50, y2: 23, text: "50 m" }
+  - { type: dim, x1: 57, y1: 0, x2: 57, y2: 20, text: "8 × 2.5 m" }
+legend:
+  - { swatch: zone, label: "15 m from each wall, where swimming underwater is allowed" }
+  - { swatch: dashed, label: "backstroke flags, 5 m from each wall" }
