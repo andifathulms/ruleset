@@ -1,0 +1,102 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is raced, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: sailing
+terms:
+  - id: regatta
+    term: Regatta
+    definition: >
+      A whole sailing competition: a series of races over several days, with
+      one overall winner.
+    see: duration
+  - id: fleet
+    term: Fleet
+    definition: >
+      All the boats racing against each other in one race.
+    see: object
+  - id: mark
+    term: Mark
+    definition: >
+      A floating buoy that boats must sail around. A set of marks makes up the
+      course.
+    see: field
+  - id: race-committee
+    term: Race committee
+    definition: >
+      The officials who lay the course and start the race, usually from a
+      boat anchored at one end of the start line.
+    see: players
+  - id: recall
+    term: Recall
+    definition: >
+      Calling back a boat that crossed the start line too early. When too
+      many boats are over, the whole fleet is recalled and starts again.
+    see: restarts
+  - id: starboard-tack
+    term: Starboard tack
+    definition: >
+      Sailing with the wind coming over the right-hand side of the boat. A
+      boat on starboard tack has right of way over a boat on port tack.
+    see: prohibitions
+  - id: port-tack
+    term: Port tack
+    definition: >
+      Sailing with the wind coming over the left-hand side of the boat. A
+      boat on port tack must keep clear of a boat on starboard tack.
+    see: prohibitions
+  - id: windward
+    term: Windward and leeward
+    definition: >
+      Of two boats side by side, the windward boat is the one nearer the wind
+      and the leeward boat is the one further from it. The windward boat must
+      keep clear.
+    see: prohibitions
+  - id: right-of-way
+    term: Right of way
+    definition: >
+      The right to hold your course when two boats meet. The other boat must
+      keep clear.
+    see: prohibitions
+  - id: penalty-turn
+    term: Penalty turn
+    definition: >
+      A full turn of the boat on the water, which costs time and places. A
+      boat that has broken a rule takes it straight away to clear itself.
+    see: prohibitions
+  - id: protest
+    term: Protest
+    definition: >
+      A formal complaint by one boat that another broke a rule. It is heard
+      after racing.
+    see: players
+  - id: jury
+    term: Jury
+    definition: >
+      The panel that hears protests after racing and decides them.
+    see: players
+  - id: discard
+    term: Discard
+    definition: >
+      A boat's worst race result, which is dropped from its total once enough
+      races have been sailed.
+    see: scoring
+  - id: medal-race
+    term: Medal race
+    definition: >
+      The short last race of a regatta, for the top ten boats only. Its points
+      count double and cannot be discarded.
+    see: duration
+  - id: one-design
+    term: One-design
+    definition: >
+      A class in which every boat is built to the same specification, so that
+      the racing is between sailors and not between boats.
+    see: equipment
+  - id: foiling
+    term: Foiling
+    definition: >
+      Sailing on underwater wings, called foils, that lift the hull or board
+      clear of the water at speed.
+    see: equipment

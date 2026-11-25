@@ -9,6 +9,50 @@ summary: >
   is mostly a collision-avoidance code — a system of right of way governing what
   boats converging at speed must do — with the racing bolted onto it.
 
+walkthrough:
+  title: One race, and how a regatta is won
+  intro: >
+    This follows a fleet race in an Olympic class, from the start line to the
+    points, and then the series it belongs to.
+  steps:
+    - label: The course
+      body: >
+        A race committee lays a course of inflatable marks on the water to
+        suit the wind of the day. If the wind shifts, the marks are moved
+        before the next race. There is no standard distance.
+    - label: The start
+      body: >
+        All the boats start together, across a line between a committee boat
+        and a mark. A good place on the line is worth a lot. A boat that
+        crosses early is called back or penalised, and if too many cross
+        early the whole start is run again.
+    - label: Meeting other boats
+      body: >
+        Boats cross each other's paths all the way around the course, and
+        right-of-way rules decide who must keep clear. A boat on port tack
+        keeps clear of one on starboard tack. A windward boat keeps clear of a
+        leeward boat. A boat behind keeps clear of the boat ahead.
+    - label: Breaking a rule
+      body: >
+        A boat that breaks a right-of-way rule can clear itself at once by
+        sailing a penalty turn. Umpires following the fleet may also signal a
+        penalty. A dispute that is not settled on the water goes to a jury as
+        a protest.
+    - label: The finish
+      body: >
+        Boats finish in an order, and the order is the score. First place is
+        one point, second is two, and so on. No time is recorded as a result.
+    - label: The series
+      body: >
+        The fleet sails about ten races over several days, and each boat adds
+        up its points. Once enough races have been sailed, each boat drops its
+        worst result.
+    - label: The medal race
+      body: >
+        The top ten boats sail one more race. Its points count double and
+        cannot be dropped. The boat with the lowest total after it wins the
+        regatta.
+
 sections:
   - id: object
     label: The object of the regatta
@@ -80,8 +124,8 @@ sections:
   - id: scoring
     label: Scoring
     body: >
-      Finishing position is your score for the race — first is one point, last
-      is one more than the fleet size. Lowest total wins. The worst race is
+      Finishing position is your score for the race — first is one point,
+      second is two, and so on down the fleet. Lowest total wins. The worst race is
       discarded once enough races have been completed.
 
       That is the whole system, and it has been essentially unchanged for a

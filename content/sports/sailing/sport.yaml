@@ -1,6 +1,6 @@
 id: sailing
 label: Sailing
-tagline: "Faced rowing's problem and answered it the other way: no times at all, and a final race worth double."
+tagline: Racing boats driven only by the wind around a course of floating marks, over many races, with the lowest points total winning.
 governing_body: World Sailing
 founded: >
   International Yacht Racing Union founded 1907; renamed ISAF in 1996 and
@@ -11,11 +11,16 @@ classification:
   official: sailing
   game-category: performance
   adjudication: measured
+glance:
+  - { value: "about 10", label: races in a series }
+  - { value: "1", label: point for winning a race }
+  - { value: "top 10", label: boats in the medal race }
 summary: >
-  Sailing has rowing's problem in a more extreme form — the wind is not merely
-  an uncontrolled variable, it is the propulsion — and it answered differently.
-  Rowing kept timing its races and stopped calling the times records. Sailing
-  stopped caring about times altogether and scores a regatta on finishing
-  positions across many races, then made the last one worth double so that
-  something happens at the end.
+  A fleet of identical boats starts together and sails around a course marked
+  by buoys, which is laid out fresh for the wind of the day. Nobody records a
+  time. A boat scores its finishing place, one point for first and two for
+  second, and the lowest total over about ten races wins. Each boat drops its
+  worst race, and the top ten then sail a final medal race that counts double.
+  When boats meet, right-of-way rules taken from ordinary seamanship say which
+  one must keep clear. The skill is in reading wind that no one can control.
 cover: sailing-nacra-medal-race-2024
