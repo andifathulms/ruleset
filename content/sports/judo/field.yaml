@@ -1,0 +1,28 @@
+# The mat, from the measurements in play.yaml. Shapes are in metres. The
+# contest area is the minimum size; the width of the safety area is not a
+# fact in play.yaml, so the drawing is schematic and that width is not marked.
+sport: judo
+title: A square inside a square
+caption: >
+  The contest is fought on the inner square, which is at least eight metres
+  on each side and may be as large as ten. The safety area around it is there
+  so that a contestant thrown near the edge still lands on the mat.
+alt: >
+  A square judo contest area 8 metres on each side, surrounded by a wider
+  border of safety matting, with two contestants facing each other in the
+  middle and the referee beside them.
+scale: schematic
+view: [-4, -4, 12, 12]
+shapes:
+  - { type: rect, x: -3, y: -3, w: 14, h: 14, fill: surface }
+  - { type: rect, x: 0, y: 0, w: 8, h: 8, fill: area }
+  - { type: dot, x: 3, y: 4, label: "blue" }
+  - { type: dot, x: 5, y: 4, label: "white" }
+  - { type: dot, x: 4, y: 1.6, label: "referee" }
+  - { type: label, x: 4, y: 6.6, text: "contest area", tone: chalk }
+  - { type: label, x: 4, y: -1.4, text: "safety area", tone: muted }
+  - { type: dim, x1: 0, y1: 9, x2: 8, y2: 9, text: "8 m" }
+  - { type: dim, x1: 9, y1: 0, x2: 9, y2: 8, text: "8 m" }
+legend:
+  - { swatch: area, label: "contest area, 8 to 10 m square" }
+  - { swatch: surface, label: safety area }

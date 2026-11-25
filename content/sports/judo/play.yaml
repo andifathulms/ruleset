@@ -11,6 +11,46 @@ summary: >
   back to the same question: how much less than a perfect throw should be worth
   anything at all.
 
+walkthrough:
+  title: One contest, from the first grip to the winning score
+  intro: >
+    Every judo contest follows this order, whether it lasts ten seconds or ten
+    minutes.
+  steps:
+    - label: Two contestants on the mat
+      body: >
+        Two contestants from the same weight category step onto a square of
+        tatami. One wears a blue judogi and the other a white one. One referee
+        stands on the mat with them, and video officials at the side can
+        correct the referee's score.
+    - label: The grip
+      body: >
+        The contest starts with both contestants standing. Each tries to get
+        a hold on the other's jacket, because a throw starts from a grip.
+        Grabbing the opponent's leg with the hand is forbidden.
+    - label: The throw
+      body: >
+        A throw that puts the opponent largely on their back with control,
+        speed and force is ippon, and the contest is over. A throw that
+        misses one of those elements scores waza-ari, and two waza-ari make
+        ippon. A lesser throw still can score yuko, the smallest score.
+    - label: On the ground
+      body: >
+        The fight may go on when both are down. Holding the opponent down in
+        a pin for twenty seconds is ippon. So is a strangle or an armlock
+        that makes the opponent submit. When the groundwork stops
+        progressing, the referee stands both contestants up and restarts.
+    - label: Penalties
+      body: >
+        The referee gives a penalty, called shido, for breaking a rule. A
+        shido gives the opponent no score. A third shido loses the contest.
+    - label: Time, and golden score
+      body: >
+        The contest lasts four minutes, and the clock stops whenever the
+        referee calls a halt. If the score is level at the end, golden score
+        begins. It has no time limit, and it ends when somebody scores or
+        receives a third penalty. There is no draw and no referees' decision.
+
 sections:
   - id: object
     label: The object of the contest
@@ -82,17 +122,18 @@ sections:
   - id: scoring
     label: Scoring
     body: >
-      Two scores. Ippon ends the contest. Waza-ari is awarded for a throw
-      missing one of ippon's elements, and two waza-ari make ippon.
+      Three scores. Ippon ends the contest. Waza-ari is awarded for a throw
+      missing one of ippon's elements, and two waza-ari make ippon. Yuko is
+      the smallest score, for a throw that falls short of waza-ari, and it
+      never adds up to a larger score.
 
-      There used to be three. Yuko, the smallest score, was abolished in 2017
-      because contests were being won and then defended on a single minimal
-      advantage. Judo has been narrowing its scoring for a decade, always in the
-      same direction: towards the throw and away from the accumulation.
+      Yuko was abolished in 2017 because contests were being won and then
+      defended on a single minimal advantage. It was restored in 2025. For
+      the eight years between, judo had only two scores.
     facts:
       - { label: Ippon, value: Ends the contest }
       - { label: Waza-ari, value: Two make ippon }
-      - { label: Yuko, value: Abolished 2017 }
+      - { label: Yuko, value: Smallest score, note: "Abolished in 2017 and restored in 2025." }
       - { label: Pin for ippon, value: 20 s }
     shaped_by: [ijf-2017-scoring-simplified]
     citation:

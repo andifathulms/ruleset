@@ -1,0 +1,94 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how judo is fought, not claims
+# about its history.
+
+sport: judo
+terms:
+  - id: judoka
+    term: Judoka
+    definition: >
+      A person who practises judo. In a contest the two judoka are also
+      called contestants.
+    see: players
+  - id: judogi
+    term: Judogi
+    definition: >
+      The judo uniform: a strong jacket, trousers and a belt. Both
+      contestants grip the jacket, so its cut is fixed by the rules. One
+      contestant wears blue and the other white.
+    see: equipment
+  - id: tatami
+    term: Tatami
+    definition: >
+      The mat. It is firm enough to stand and move on and soft enough to
+      absorb a body thrown from standing.
+    see: field
+  - id: grip
+    term: Grip
+    definition: >
+      A hold on the opponent's jacket. Every throw starts from a grip, so
+      much of a contest is a fight to get a good one and to deny the opponent
+      theirs.
+    see: restarts
+  - id: ippon
+    term: Ippon
+    definition: >
+      The full score, which ends the contest at once. It is given for a throw
+      that lands the opponent largely on the back with control, speed and
+      force, for a pin held for twenty seconds, or for a submission.
+    see: scoring
+  - id: waza-ari
+    term: Waza-ari
+    definition: >
+      The second score, given for a throw that misses one element of ippon.
+      Two waza-ari make ippon.
+    see: scoring
+  - id: yuko
+    term: Yuko
+    definition: >
+      The smallest score, for a throw that falls short of waza-ari. It never
+      adds up to a larger score.
+    see: scoring
+  - id: pin
+    term: Pin
+    definition: >
+      Holding the opponent down on their back on the mat. A pin held for
+      twenty seconds is ippon.
+    see: object
+  - id: submission
+    term: Submission
+    definition: >
+      Giving up. A contestant caught in a strangle or an armlock submits, and
+      the opponent wins by ippon.
+    see: object
+  - id: shido
+    term: Shido
+    definition: >
+      A penalty for breaking a rule, such as not attacking or gripping only
+      to defend. It gives the opponent no score, and a third shido loses the
+      contest.
+    see: prohibitions
+  - id: golden-score
+    term: Golden score
+    definition: >
+      Extra time, played when the score is level after four minutes. It has
+      no time limit and ends when somebody scores or receives a third
+      penalty.
+    see: duration
+  - id: leg-grab
+    term: Leg grab
+    definition: >
+      Taking hold of the opponent's leg or trousers with the hand to throw
+      them. It is forbidden.
+    see: prohibitions
+  - id: breakfall
+    term: Breakfall
+    definition: >
+      The skill of landing safely when thrown, called ukemi in Japanese. It
+      is the first thing a beginner learns.
+  - id: randori
+    term: Randori
+    definition: >
+      Free practice, in which two judoka try their techniques on each other
+      without a referee or a score.

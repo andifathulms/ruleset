@@ -1,6 +1,6 @@
 id: judo
 label: Judo
-tagline: Rewrote its scoring three times in twenty years, and banned a whole class of technique to stop looking like wrestling.
+tagline: A Japanese grappling sport in which two fighters in heavy jackets try to throw each other flat on the back, or hold each other down on the mat.
 governing_body: International Judo Federation
 founded: >
   Kodokan judo founded by Jigoro Kano in 1882; the International Judo
@@ -11,11 +11,17 @@ classification:
   official: judo
   game-category: outside-taxonomy
   adjudication: combat
+glance:
+  - { value: "4 min", label: contest time }
+  - { value: "20 s", label: pin that wins }
+  - { value: "8 × 8 m", label: contest area }
 summary: >
-  The only combat sport on this site, and the one that shows most clearly what
-  a rule change costs when the rules are the sport. Judo has removed scores,
-  removed techniques and removed the time limit inside two decades, and the
-  most contested of those — banning direct leg grabs in 2013 — was defended on
-  grounds of identity rather than safety or fairness. It is also the only sport
-  here whose founder wrote down what the sport was for.
+  Two contestants of the same weight category face each other on a square mat.
+  Each takes a grip on the other's jacket and tries to throw the other onto
+  their back. A clean throw with control, speed and force is ippon, and it
+  ends the contest at once. So does a pin held for twenty seconds, or a
+  strangle or armlock that makes the opponent give up. A contest lasts four
+  minutes and has no draw: if the score is level, it goes on until somebody
+  scores. Judo is a fight for a grip first and a throw second, and one
+  perfect throw is worth more than everything else put together.
 cover: judo-riner-2012
