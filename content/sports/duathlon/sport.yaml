@@ -1,6 +1,6 @@
 id: duathlon
 label: Duathlon
-tagline: "Triathlon with the swim taken out — which removes the sport's entry barrier and adds a second run on legs that have already run."
+tagline: A continuous race of a run, then a bicycle ride, then a second run, with the clock running through the changes between them.
 governing_body: World Triathlon
 founded: >
   Emerged in the 1980s from the triathlon boom as a format for athletes and
@@ -12,11 +12,16 @@ classification:
   official: duathlon
   game-category: performance
   adjudication: measured
+glance:
+  - { value: "10 km", label: "first run, standard race" }
+  - { value: "40 km", label: bicycle ride }
+  - { value: "5 km", label: second run }
 summary: >
-  Run, bike, run. Removing the swim from triathlon takes away the discipline
-  that keeps most people out of the sport — open-water swimming is the barrier,
-  not the cycling — and puts something back that triathlon does not have: a
-  final run begun on legs that have already run hard. It is governed by a
-  federation named after the sport it is not, and has no Olympic prospect for
-  the same reason.
+  A duathlon is a run, a bicycle ride and a second run, done one after the
+  other without a break. A common championship race is about 10 kilometres of
+  running, 40 kilometres of cycling and 5 more kilometres of running, and takes
+  roughly two hours. The clock never stops, so the two changes between the
+  legs, called transitions, are part of the race, and the first athlete across
+  the line wins. It is a triathlon without the swim. What it has in its place
+  is a last run on legs that have already run hard once.
 cover: duathlon-zofingen-2017

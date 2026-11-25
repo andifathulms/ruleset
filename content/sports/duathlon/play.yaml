@@ -8,6 +8,51 @@ summary: >
   race. Elite short-course racing permits drafting on the bike; most other
   racing does not, and the two are effectively different sports.
 
+walkthrough:
+  title: One standard-distance race, from the first run to the finish line
+  intro: >
+    This is a race at the standard distance, about 10 kilometres of running,
+    40 of cycling and 5 more of running, in the order it happens.
+  steps:
+    - label: The first run
+      body: >
+        All the athletes start together and run the first leg, about 10
+        kilometres on roads and paths. The clock starts here and does not
+        stop until the finish.
+    - label: The first transition
+      body: >
+        The athletes run into the transition area, where each bicycle stands
+        on a rack in its assigned place. The helmet must be fastened before
+        the bicycle is touched. Nobody may ride inside the area, so the
+        athlete runs the bicycle out and mounts only after the line.
+    - label: The bicycle ride
+      body: >
+        The ride is about 40 kilometres. In elite short-course races the
+        riders may shelter close behind each other. In other races this is
+        forbidden, and a rider must stay a set distance from the rider in
+        front, except to overtake within the allowed time.
+    - label: Penalties
+      body: >
+        An athlete who breaks a rule is given a time penalty and must stop
+        in a penalty box during the race. The athlete then carries on.
+        Blocking, taking outside help and dropping equipment outside the
+        marked zones are punished the same way.
+    - label: The second transition
+      body: >
+        The athlete gets off the bicycle before the line and runs it back to
+        its place on the rack. Only after the bicycle is racked may the
+        helmet be unfastened.
+    - label: The second run
+      body: >
+        The last leg is a run of about 5 kilometres. Where riders were
+        allowed to shelter behind each other, they usually arrive together
+        and the race is decided on this run.
+    - label: The finish
+      body: >
+        The first athlete across the line wins. The result is the time from
+        the start of the first run to the end of the second, with both
+        transitions included. There are no points and no bonuses.
+
 sections:
   - id: object
     label: The object of the game

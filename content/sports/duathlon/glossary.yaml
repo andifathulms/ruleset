@@ -1,0 +1,83 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is raced, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: duathlon
+terms:
+  - id: leg
+    term: Leg
+    definition: >
+      One of the three parts of the race: the first run, the bicycle ride or
+      the second run.
+    see: object
+  - id: transition
+    term: Transition
+    definition: >
+      The change between running and cycling, and the marked area where it
+      happens. The clock keeps running, so a fast change saves time.
+    see: restarts
+  - id: rack
+    term: Rack
+    definition: >
+      The rail in the transition area where the bicycles stand. Each athlete
+      has an assigned place on it.
+    see: restarts
+  - id: mount-line
+    term: Mount line
+    definition: >
+      The line at the edge of the transition area. An athlete may get on the
+      bicycle only after it, and must get off before it on the way back.
+    see: restarts
+  - id: drafting
+    term: Drafting
+    definition: >
+      Riding close behind or beside another rider to be sheltered from the
+      wind, which saves a large part of the effort.
+    see: prohibitions
+  - id: draft-legal
+    term: Draft-legal
+    definition: >
+      A race in which drafting is allowed. Riders form a bunch on the bicycle
+      leg, and ride road bicycles.
+    see: equipment
+  - id: non-drafting
+    term: Non-drafting
+    definition: >
+      A race in which drafting is forbidden. Each rider rides alone, and
+      time-trial bicycles are allowed.
+    see: equipment
+  - id: penalty-box
+    term: Penalty box
+    definition: >
+      A marked place on the course where an athlete who has broken a rule
+      must stop and wait for a set time before carrying on.
+    see: prohibitions
+  - id: blocking
+    term: Blocking
+    definition: >
+      Riding in a way that stops another athlete from passing. It is an
+      offence.
+    see: prohibitions
+  - id: time-trial-bars
+    term: Time-trial bars
+    definition: >
+      Handlebar extensions that let a rider rest the forearms and hold a low
+      position against the wind. They are restricted in draft-legal races.
+    see: equipment
+  - id: standard-distance
+    term: Standard distance
+    definition: >
+      A common championship race: a run of about 10 kilometres, a ride of
+      about 40 and a second run of about 5.
+    see: field
+  - id: long-course
+    term: Long course
+    definition: >
+      Racing over much longer distances than the standard race.
+    see: duration
+  - id: cross-duathlon
+    term: Cross duathlon
+    definition: >
+      A duathlon held on trails, with mountain bikes.
+    see: field
