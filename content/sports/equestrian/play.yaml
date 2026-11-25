@@ -10,6 +10,40 @@ summary: >
   this site's adjudication lens: it is a judged sport and a measured one at the
   same time, and the lens can only hold one answer.
 
+walkthrough:
+  title: One jumping round, from the inspection to the result
+  intro: >
+    Equestrian has three disciplines. This follows one round of jumping, the
+    simplest of the three to watch.
+  steps:
+    - label: The inspection
+      body: >
+        Before the competition a veterinary panel inspects every horse. A
+        horse that fails does not start, even if its rider objects.
+    - label: The course
+      body: >
+        The course is a set of numbered obstacles with a designed route. The
+        rider must take them in order. There is a time for the course, and
+        the pair must finish inside it.
+    - label: A fence down
+      body: >
+        The obstacles fall when they are hit. Each fence knocked down adds
+        four faults to the pair's score.
+    - label: A refusal
+      body: >
+        A horse that stops in front of a fence has refused, and the pair is
+        penalised. Three refusals eliminate the pair. A rider may also choose
+        to retire at any point.
+    - label: The clock
+      body: >
+        Every second over the time adds one more fault. Going fast only
+        matters if the fences stay up.
+    - label: The result
+      body: >
+        The pair with the fewest faults wins. If pairs are tied, they ride a
+        jump-off against the clock to decide it. In a team event there are
+        three riders and every score counts.
+
 sections:
   - id: object
     label: The object of the competition

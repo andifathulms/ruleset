@@ -1,0 +1,103 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is contested, not
+# claims about its history.
+
+sport: equestrian
+terms:
+  - id: jumping
+    term: Jumping
+    definition: >
+      The discipline in which horse and rider take a course of numbered
+      obstacles that fall when hit. The pair with the fewest faults wins.
+    see: object
+  - id: dressage
+    term: Dressage
+    definition: >
+      The discipline in which horse and rider perform a set sequence of
+      movements in a marked arena. A panel of judges marks each movement out
+      of ten.
+    see: object
+  - id: eventing
+    term: Eventing
+    definition: >
+      The discipline that combines dressage, a cross-country ride and jumping
+      over several days. The penalties from all three are added together.
+    see: duration
+  - id: cross-country
+    term: Cross-country
+    definition: >
+      The middle phase of eventing: a course over natural ground with fixed
+      obstacles that do not fall when hit.
+    see: field
+  - id: test
+    term: Test
+    definition: >
+      The set sequence of movements a pair performs in dressage. It is ridden
+      to the lettered markers round the arena.
+    see: field
+  - id: fault
+    term: Fault
+    definition: >
+      A penalty point in jumping. A fence knocked down costs four faults, and
+      each second over the time costs one.
+    see: scoring
+  - id: refusal
+    term: Refusal
+    definition: >
+      A horse stopping in front of an obstacle instead of jumping it. Each
+      refusal is penalised, and three eliminate the pair.
+    see: restarts
+  - id: retire
+    term: Retire
+    definition: >
+      To stop a round by the rider's own choice. A rider may retire at any
+      point, for example when the horse is in difficulty.
+    see: restarts
+  - id: elimination
+    term: Elimination
+    definition: >
+      Removal from the competition for a breach of the rules, such as blood on
+      the horse, three refusals, or a fall in cross-country.
+    see: prohibitions
+  - id: jump-off
+    term: Jump-off
+    definition: >
+      An extra round against the clock that settles a tie in jumping.
+    see: winning
+  - id: horse-inspection
+    term: Horse inspection
+    definition: >
+      A check of each horse by a veterinary panel, before the competition and
+      during it. The panel can withdraw a horse even if the rider objects.
+    see: players
+  - id: tack
+    term: Tack
+    definition: >
+      The equipment a horse wears and a rider uses, such as the bit, the
+      noseband, spurs and the whip. The rules specify each piece.
+    see: equipment
+  - id: noseband
+    term: Noseband
+    definition: >
+      The strap that goes round the horse's nose. How tightly it is fastened
+      is measured at competition.
+    see: equipment
+  - id: frangible-pin
+    term: Frangible pin
+    definition: >
+      A pin that holds the rail of a cross-country fence and gives way under a
+      set load, so that the fence collapses instead of tipping the horse over.
+    see: field
+  - id: drop-score
+    term: Drop score
+    definition: >
+      A team's worst score, left out of its total. Olympic teams have three
+      riders and no drop score, so every score counts.
+    see: players
+  - id: steward
+    term: Steward
+    definition: >
+      An official who watches the warm-up arena and checks equipment and the
+      use of the whip.
+    see: equipment

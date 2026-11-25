@@ -1,6 +1,6 @@
 id: equestrian
 label: Equestrian
-tagline: The only sport where half the competitors cannot be asked whether they consent.
+tagline: A rider and a horse compete as one pair, jumping fences against the clock, performing set movements for judges, or riding across open country.
 governing_body: Fédération Equestre Internationale
 founded: Fédération Equestre Internationale founded 1921.
 coverage: deep
@@ -9,14 +9,17 @@ classification:
   official: equestrian
   game-category: performance
   adjudication: judged
+glance:
+  - { value: "3", label: Olympic disciplines }
+  - { value: "4", label: faults for a fence down }
+  - { value: "60 × 20 m", label: dressage arena }
 summary: >
-  Two things make equestrian unlike anything else on this site. It is the only
-  Olympic sport in which men and women compete directly against each other in
-  every event, and it is the only one whose competitor is a person and an
-  animal registered together — polo also plays horses, and rotates a string of
-  them through a match, so no single animal there is the competitor.
-  The second fact now dominates its rulemaking: after riding was removed from
-  modern pentathlon in 2022, the same welfare argument arrived at equestrian's
-  door, and the federation's own commission has told it that public consent for
-  the sport cannot be assumed.
+  Equestrian sport is contested by a rider and a horse together, and it has
+  three Olympic disciplines. In jumping the pair rides a course of fences that
+  fall when touched, and the fewest faults wins. In dressage the pair performs
+  a set sequence of movements in a marked arena, and a panel of judges gives
+  each movement a mark out of ten. Eventing has both, with a cross-country
+  ride over fixed fences between them. Men and women compete against each
+  other in every event. The horse is a competitor too: it has its own
+  passport, a vet inspects it, and many of the rules exist to protect it.
 cover: equestrian-badminton-2016

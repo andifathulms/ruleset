@@ -1,0 +1,29 @@
+# The dressage arena, from the measurement in play.yaml. Shapes are in metres.
+sport: equestrian
+title: The dressage arena
+caption: >
+  Dressage is ridden in a rectangle 60 metres long and 20 metres wide.
+  Lettered markers stand round the outside, and each movement of the test
+  begins or ends at a marker. Only five of the letters are shown here.
+  Jumping and cross-country have no fixed layout: a new course is designed
+  for each competition.
+alt: >
+  A dressage arena 60 metres long and 20 metres wide, with the letters A and
+  C at the middle of the short sides, E and B at the middle of the long sides
+  and X at the centre.
+scale: to-scale
+view: [-7, -6.5, 73, 28.5]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 60, h: 20, fill: area }
+  - { type: line, x1: 0, y1: 10, x2: 60, y2: 10, line: faint }
+  - { type: label, x: -3, y: 10, text: "A" }
+  - { type: label, x: 63, y: 10, text: "C" }
+  - { type: label, x: 30, y: -2.5, text: "E" }
+  - { type: label, x: 30, y: 22.5, text: "B" }
+  - { type: label, x: 30, y: 8, text: "X" }
+  - { type: dot, x: 30, y: 10 }
+  - { type: label, x: 12, y: 8, text: "centre line", tone: muted }
+  - { type: dim, x1: 0, y1: 26, x2: 60, y2: 26, text: "60 m" }
+  - { type: dim, x1: 69, y1: 0, x2: 69, y2: 20, text: "20 m" }
+legend:
+  - { swatch: area, label: the arena }
