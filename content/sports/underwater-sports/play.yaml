@@ -8,6 +8,45 @@ summary: >
   puck, no goalkeeper. Underwater rugby: six in the water at a time in a deep
   pool, a ball that sinks, goals on the bottom, and play in every direction.
 
+walkthrough:
+  title: One attack in underwater hockey, from the wall to the goal
+  intro: >
+    This follows underwater hockey. Underwater rugby runs the same way in a
+    deeper pool, with a ball that sinks and a basket for a goal.
+  steps:
+    - label: The start
+      body: >
+        The puck lies in the middle of the pool floor. Six players from each
+        team wait in the water, touching their own end wall. On the signal
+        both teams swim for the puck.
+    - label: The dive
+      body: >
+        A player takes a breath at the surface and dives to the floor. Players
+        wear a mask, a snorkel and fins, and carry no air. Each dive lasts
+        only as long as one breath.
+    - label: On the floor
+      body: >
+        The player pushes or flicks the puck with a short stick held in one
+        hand. Only the stick may play the puck. The free hand may not push an
+        opponent away, and a player may not block someone who is not playing
+        the puck.
+    - label: Coming up
+      body: >
+        After twenty to forty seconds the player must go up to breathe, and
+        the team is a player short for a moment. A team-mate dives to take
+        over. There is no goalkeeper, because nobody can stay down long
+        enough. Substitutes change with the players in the water all through
+        the game.
+    - label: The goal
+      body: >
+        A team scores by pushing the puck into the metal trough on the floor
+        at the opponents' end. A goal is one point. After every goal the teams
+        go back to their walls and start again.
+    - label: The match
+      body: >
+        A match has two halves of about fifteen minutes, and the clock keeps
+        running. The team with more goals wins.
+
 sections:
   - id: object
     label: The object of the game
@@ -37,6 +76,7 @@ sections:
       an attacking move can go over a defender rather than around them, and a
       defence must cover space above and below as well as ahead.
     facts:
+      - { label: Hockey playing area, value: "About 25 × 15 m" }
       - { label: Hockey pool, value: About 2 m deep }
       - { label: Rugby pool, value: 3.5–5 m deep }
       - { label: Rugby field of play, value: The whole water column }

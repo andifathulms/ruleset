@@ -1,0 +1,86 @@
+# The words of the two games. Each term is defined once here and linked from
+# the essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the games are played, not
+# claims about their history, and nothing here carries a cause or a date.
+
+sport: underwater-sports
+terms:
+  - id: puck
+    term: Puck
+    definition: >
+      The disc used in underwater hockey. It is made of lead and weighs about
+      1.3 kilograms, so it stays on the pool floor.
+    see: equipment
+  - id: stick
+    term: Stick
+    definition: >
+      The short hockey stick, about thirty centimetres long, held in one hand.
+      It pushes the puck and does not strike it.
+    see: equipment
+  - id: flick
+    term: Flick
+    definition: >
+      A quick turn of the stick that lifts the puck off the floor and sends it
+      a short way through the water, to pass or to shoot.
+    see: equipment
+  - id: trough
+    term: Trough
+    definition: >
+      The goal in underwater hockey: a long metal tray on the pool floor at
+      each end. A goal is scored when the puck goes into it.
+    see: object
+  - id: basket
+    term: Basket
+    definition: >
+      The goal in underwater rugby: a heavy metal basket standing on the
+      bottom of the pool at each end. A goal is scored when the ball is put
+      into it.
+    see: object
+  - id: ball
+    term: Ball
+    definition: >
+      The underwater rugby ball. It is filled with saltwater, which makes it
+      heavier than the pool water, so it sinks slowly.
+    see: equipment
+  - id: breath
+    term: One breath
+    definition: >
+      The time a player can work under water before going up for air, about
+      twenty to forty seconds. No player carries an air supply.
+    see: duration
+  - id: surfacing
+    term: Surfacing
+    definition: >
+      Going up to the surface to breathe. A player who surfaces has left the
+      play for a moment, and nothing an opponent does may stop it.
+    see: prohibitions
+  - id: rotation
+    term: Rotation
+    definition: >
+      The steady exchange of players who dive, play, come up and rest, and of
+      substitutes who replace them without play stopping.
+    see: players
+  - id: snorkel
+    term: Snorkel
+    definition: >
+      A short breathing tube. It lets a player breathe at the surface with the
+      face in the water, watching the game below.
+    see: equipment
+  - id: water-column
+    term: Water column
+    definition: >
+      All the water of the pool, from the surface to the floor. In underwater
+      rugby the whole of it is in play.
+    see: field
+  - id: holding-under
+    term: Holding under
+    definition: >
+      Keeping an opponent down or blocking the way to the surface. It is the
+      most serious offence in both games.
+    see: prohibitions
+  - id: scuba
+    term: Scuba
+    definition: >
+      Diving equipment with a tank of air. The referees in the water wear it
+      so that they can stay down and follow the play. The players may not.
+    see: players

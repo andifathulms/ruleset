@@ -1,0 +1,41 @@
+# The underwater hockey floor at the start of play, from the facts in
+# play.yaml. The size is approximate and the goals are not measured there, so
+# the drawing is schematic.
+sport: underwater-sports
+title: The hockey floor at the start
+eyebrow: Underwater hockey, seen from above
+caption: >
+  Underwater hockey is played on the flat floor of a pool about two metres
+  deep. Play starts with the puck in the middle and each team of six touching
+  its own end wall. A team scores by pushing the puck into the trough at the
+  other end. Underwater rugby uses a deeper pool, and the whole depth of it
+  is in play.
+alt: >
+  A rectangular pool floor about 25 metres long and 15 metres wide, with a
+  goal trough at each end, a puck in the centre and six players lined up on
+  each end wall.
+scale: schematic
+view: [-4, -3.5, 33, 20]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 25, h: 15, fill: area }
+  - { type: rect, x: 0, y: 6, w: 0.6, h: 3, fill: target }
+  - { type: rect, x: 24.4, y: 6, w: 0.6, h: 3, fill: target }
+  - { type: dot, x: 12.5, y: 7.5, label: "puck" }
+  - { type: dot, x: 1.6, y: 2 }
+  - { type: dot, x: 1.6, y: 4.2 }
+  - { type: dot, x: 1.6, y: 6.4 }
+  - { type: dot, x: 1.6, y: 8.6 }
+  - { type: dot, x: 1.6, y: 10.8 }
+  - { type: dot, x: 1.6, y: 13 }
+  - { type: dot, x: 23.4, y: 2 }
+  - { type: dot, x: 23.4, y: 4.2 }
+  - { type: dot, x: 23.4, y: 6.4 }
+  - { type: dot, x: 23.4, y: 8.6 }
+  - { type: dot, x: 23.4, y: 10.8 }
+  - { type: dot, x: 23.4, y: 13 }
+  - { type: label, x: 6.5, y: 3.2, text: "six a side", tone: muted }
+  - { type: dim, x1: 0, y1: 17.5, x2: 25, y2: 17.5, text: "about 25 m" }
+  - { type: dim, x1: 28.5, y1: 0, x2: 28.5, y2: 15, text: "about 15 m" }
+legend:
+  - { swatch: target, label: "goal trough" }
+  - { swatch: area, label: "pool floor, about 2 m down" }
