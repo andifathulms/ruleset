@@ -1,0 +1,89 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is contested, and
+# nothing here carries a cause or a date.
+
+sport: taekwondo
+terms:
+  - id: kyorugi
+    term: Kyorugi
+    definition: >
+      Sparring: two competitors fighting each other for points. It is the
+      discipline contested at the Olympic Games.
+    see: object
+  - id: poomsae
+    term: Poomsae
+    definition: >
+      Forms: a set sequence of movements performed without an opponent and
+      marked by judges. It is contested separately from sparring.
+  - id: trunk-protector
+    term: Trunk protector
+    definition: >
+      The padded vest each competitor wears over the body. It is a scoring
+      area, and it carries the sensors that register a kick.
+    see: equipment
+  - id: head-protector
+    term: Head protector
+    definition: >
+      The padded helmet each competitor wears. It carries sensors too, so a
+      kick to the head is registered like a kick to the body.
+    see: equipment
+  - id: sensor-socks
+    term: Sensor socks
+    definition: >
+      Socks with sensors in them, worn by both competitors. They let the
+      system tell a foot from a knee or a glove.
+    see: equipment
+  - id: force-threshold
+    term: Force threshold
+    definition: >
+      How hard a kick must land before the sensors count it. A touch below the
+      threshold scores nothing.
+    see: equipment
+  - id: spinning-technique
+    term: Spinning technique
+    definition: >
+      A kick delivered while the body turns. It is harder to land than a
+      straight kick and earns two extra points.
+    see: scoring
+  - id: gam-jeom
+    term: Gam-jeom
+    definition: >
+      The penalty. The referee gives it for a fault such as grabbing, pushing,
+      falling or leaving the area, and each one adds a point to the opponent's
+      score.
+    see: prohibitions
+  - id: octagon
+    term: Octagon
+    definition: >
+      The eight-sided contest area. A competitor who steps over its boundary
+      is penalised.
+    see: field
+  - id: round
+    term: Round
+    definition: >
+      Two minutes of fighting. Each round is scored on its own, and the first
+      competitor to win two rounds wins the contest.
+    see: duration
+  - id: point-gap
+    term: Point gap
+    definition: >
+      A lead of twelve points inside a round. It ends the round at once in
+      favour of the leader.
+    see: winning
+  - id: weight-category
+    term: Weight category
+    definition: >
+      A band of body weight. Competitors only fight opponents from the same
+      category.
+    see: players
+  - id: video-review
+    term: Video review
+    definition: >
+      A coach's request for the officials to look at a decision again on
+      video. A coach has a limited number of unsuccessful requests.
+    see: players
+  - id: dobok
+    term: Dobok
+    definition: >
+      The white uniform worn for training and competition.

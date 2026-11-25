@@ -9,6 +9,50 @@ summary: >
   other combat sport has attempted, and almost every rule since 2009 has been a
   response to what athletes did once the sensors were installed.
 
+walkthrough:
+  title: One contest of sparring, round by round
+  intro: >
+    This is kyorugi, the sparring discipline, which is the one contested at
+    the Olympic Games.
+  steps:
+    - label: Two fighters on the octagon
+      body: >
+        Two competitors from the same weight category face each other on an
+        eight-sided mat. Each wears a trunk protector, a head protector and
+        socks, and all three carry sensors. A referee stands on the mat with
+        them and starts the round.
+    - label: Landing a kick
+      body: >
+        A competitor scores by kicking the opponent's trunk protector or head.
+        When a foot lands on a scoring area with enough force, the sensors
+        register it and the points are awarded automatically. Nobody has to
+        see the kick for it to count.
+    - label: What a technique is worth
+      body: >
+        A kick to the trunk scores two points and a kick to the head scores
+        three. A turning or spinning kick earns two more on top. A punch to
+        the trunk scores one, and a punch to the head is forbidden. Judges
+        award the points the system does not register, mainly for spinning
+        techniques.
+    - label: Stops and penalties
+      body: >
+        The referee stops and restarts the contest often: after a fall, after
+        a clinch, or when a competitor leaves the area. A fault such as
+        grabbing, pushing, falling, stepping over the boundary or avoiding the
+        fight is punished with a gam-jeom. Each gam-jeom gives one point to
+        the opponent.
+    - label: Winning the round
+      body: >
+        A round lasts two minutes, and the competitor with more points at the
+        end wins it. A tied round is decided on set criteria. A lead of twelve
+        points ends the round at once.
+    - label: Winning the contest
+      body: >
+        There is a one-minute rest between rounds, and each round starts again
+        from nothing. The first competitor to win two rounds wins the contest,
+        so a third round is fought only when the first two are shared. A
+        knockout or a disqualification ends the contest at any moment.
+
 sections:
   - id: object
     label: The object of the contest
@@ -26,6 +70,7 @@ sections:
       avoid engaging once they were ahead.
     facts:
       - { label: Contest area, value: Octagonal }
+      - { label: Contest area across, value: 8 m, note: "Approximate, measured between opposite sides. Each side is about 3.3 m long." }
       - { label: Adopted, value: "2011" }
       - { label: Previous shape, value: Square }
     shaped_by: [wt-2011-octagonal-court]

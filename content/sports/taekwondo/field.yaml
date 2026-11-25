@@ -1,0 +1,25 @@
+# The contest area, from the measurements in play.yaml. Shapes are in metres.
+sport: taekwondo
+title: The octagon
+caption: >
+  The contest area has eight sides and no corners to back into. It is about
+  eight metres across, and each side is about 3.3 metres long. A competitor
+  who steps over the boundary is given a penalty, which is a point for the
+  opponent.
+alt: >
+  An eight-sided taekwondo contest area about 8 metres across, with two
+  competitors facing each other near the centre and a referee beside them.
+scale: to-scale
+view: [-6.6, -5.6, 6.6, 6.2]
+shapes:
+  - { type: polygon, points: [[-1.66, -4], [1.66, -4], [4, -1.66], [4, 1.66], [1.66, 4], [-1.66, 4], [-4, 1.66], [-4, -1.66]], fill: area }
+  - { type: dot, x: -1, y: 0, label: "competitor" }
+  - { type: dot, x: 1, y: 0, label: "competitor" }
+  - { type: dot, x: 0, y: -1.8, label: "referee" }
+  - { type: label, x: 0, y: 2.4, text: "contest area", tone: muted }
+  - { type: dim, x1: -4, y1: 5.2, x2: 4, y2: 5.2, text: "8 m" }
+  - { type: dim, x1: -1.66, y1: -4.8, x2: 1.66, y2: -4.8, text: "3.3 m" }
+  - { type: label, x: 5.2, y: 0, text: "penalty", tone: muted }
+  - { type: label, x: 5.2, y: 0.7, text: "outside", tone: muted }
+legend:
+  - { swatch: area, label: "contest area" }

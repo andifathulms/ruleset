@@ -1,6 +1,6 @@
 id: taekwondo
 label: Taekwondo
-tagline: Installed sensors in 2009 and stopped being a judged sport.
+tagline: A Korean combat sport of fast, high kicks. Two fighters score on each other's padded body and head, and sensors in the padding count the kicks.
 governing_body: World Taekwondo
 founded: >
   Codified in South Korea in the 1950s; World Taekwondo founded 1973 as the
@@ -11,10 +11,17 @@ classification:
   official: taekwondo
   game-category: outside-taxonomy
   adjudication: combat
+glance:
+  - { value: "3 × 2 min", label: rounds in a contest }
+  - { value: "2", label: rounds to win }
+  - { value: "8 m", label: across the octagon }
 summary: >
-  The only sport on this site to change what kind of sport it is. Until 2009
-  taekwondo was scored by four judges pressing buttons and agreeing, which made
-  it a judged sport with all of gymnastics' problems and none of its
-  safeguards. Then it put sensors in the body protectors, and a kick that lands
-  hard enough now scores whether anyone saw it or not.
+  Two competitors in the same weight category fight on an eight-sided mat for
+  up to three rounds of two minutes. They score by kicking the opponent's
+  trunk protector or head. A kick to the head is worth more than a kick to the
+  body, and a spinning kick is worth more again. A punch to the body scores
+  one point and a punch to the head is forbidden. Sensors in the protectors
+  and in the fighters' socks register every kick that lands hard enough, so
+  the equipment counts most of the points. The first competitor to win two
+  rounds wins the contest.
 cover: taekwondo-jones-2012
