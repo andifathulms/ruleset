@@ -1,0 +1,86 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is contested, not
+# claims about its history, and nothing here carries a cause or a date.
+
+sport: modern-pentathlon
+terms:
+  - id: discipline
+    term: Discipline
+    definition: >
+      One of the separate sports that make up the competition, such as the
+      fencing or the swim.
+    see: restarts
+  - id: epee
+    term: Épée
+    definition: >
+      The fencing sword used in modern pentathlon. A bout is decided by a
+      single hit.
+    see: equipment
+  - id: piste
+    term: Piste
+    definition: >
+      The strip on which a fencing bout takes place.
+    see: field
+  - id: hit
+    term: Hit
+    definition: >
+      A touch on the opponent with the point of the épée, registered by
+      electric apparatus. One hit wins the bout.
+    see: prohibitions
+  - id: points-table
+    term: Points table
+    definition: >
+      The federation's table that turns each result, such as a swim time or
+      a fencing record, into points. The points from every discipline are
+      added together.
+    see: scoring
+  - id: laser-pistol
+    term: Laser pistol
+    definition: >
+      The pistol used for the shooting. It fires a beam of light at a target
+      that registers a hit electronically, and it fires no projectile.
+    see: equipment
+  - id: laser-run
+    term: Laser run
+    definition: >
+      The last event, also called the combined event. Athletes run loops of
+      a course and stop between them to shoot.
+    see: field
+  - id: handicap-start
+    term: Handicap start
+    definition: >
+      The staggered start of the last event. The points leader goes first
+      and the others follow at gaps set by their points, so the finishing
+      order is the final result.
+    see: object
+  - id: show-jumping
+    term: Show jumping
+    definition: >
+      Riding a horse over a course of fences in an arena. Mistakes are
+      counted as faults.
+    see: field
+  - id: drawn-horse
+    term: Drawn horse
+    definition: >
+      The horse an athlete rides. It belongs to a pool provided by the
+      organiser and is given to the athlete by lot, twenty minutes before
+      the round.
+    see: equipment
+  - id: refusal
+    term: Refusal
+    definition: >
+      A fault in the riding: the horse stops in front of a fence and will
+      not jump it.
+    see: prohibitions
+  - id: knockdown
+    term: Knockdown
+    definition: >
+      A fault in the riding: the horse knocks down part of a fence.
+    see: prohibitions
+  - id: obstacle-racing
+    term: Obstacle racing
+    definition: >
+      A race over a course of obstacles that the athlete climbs, swings
+      along and crosses. It is the discipline that replaces riding.
+    see: scoring

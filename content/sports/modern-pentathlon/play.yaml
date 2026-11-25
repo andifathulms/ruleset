@@ -11,6 +11,44 @@ summary: >
   Coubertin built it to test the skills a nineteenth-century cavalry officer
   would need behind enemy lines.
 
+walkthrough:
+  title: One competition, from the first fencing bout to the finish line
+  intro: >
+    One athlete goes through every discipline in turn, and each result becomes
+    points on a common table.
+  steps:
+    - label: Fencing
+      body: >
+        The athletes fence each other with the épée. A bout is decided by one
+        hit. Fencing's own judges and rules apply, and each athlete's record
+        in the bouts becomes points.
+    - label: Swimming
+      body: >
+        Each athlete swims 200 metres freestyle. The time becomes points on
+        the federation's table, so every second is worth a set number of
+        points.
+    - label: Riding
+      body: >
+        Each athlete draws a horse by lot from a pool the organiser provides.
+        The athlete has twenty minutes to get to know it, then jumps a show
+        jumping course. A refusal or a fence knocked down is a fault and
+        costs points. The sport is replacing this discipline with an obstacle
+        course.
+    - label: The handicap start
+      body: >
+        The points so far are added up and turned into a start order for the
+        last event. The leader starts first. Every other athlete starts later,
+        by a gap that matches the points they are behind.
+    - label: Running and shooting
+      body: >
+        The last event combines the two. The athletes run loops of a course,
+        and between loops they stop at a range and shoot a laser pistol at a
+        target. Breaking a rule here costs a time penalty.
+    - label: The finish
+      body: >
+        The start gaps have already done the arithmetic. The first athlete
+        across the finish line has the most points and wins the competition.
+
 sections:
   - id: object
     label: The object of the competition
@@ -24,7 +62,7 @@ sections:
   - id: field
     label: Where it happens
     body: >
-      A fencing piste, a 200 m swimming pool, a show jumping arena and a
+      A fencing piste, a swimming pool for the 200 m swim, a show jumping arena and a
       combined running and shooting course, historically across a whole day and
       several venues. Since 2024 the Olympic competition is compressed into a
       single ninety-minute final in one place.
