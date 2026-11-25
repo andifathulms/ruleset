@@ -1,6 +1,6 @@
 id: golf
 label: Golf
-tagline: The only sport on this site with a formal system for making unequal players comparable.
+tagline: Players hit a small ball with clubs across open ground into a series of holes, and the player who needs the fewest strokes wins.
 governing_body: >
   R&A and USGA jointly own the Rules; the IGF runs Olympic golf.
 founded: >
@@ -12,11 +12,17 @@ classification:
   official: golf
   game-category: target
   adjudication: measured
+glance:
+  - { value: "18", label: holes in a round }
+  - { value: "14", label: clubs at most }
+  - { value: "4", label: rounds in a professional event }
 summary: >
-  Everything else on this site is a record of comparability breaking. Golf is
-  the one sport that built a comparability machine on purpose: the handicap
-  takes players of different abilities on different courses in different
-  conditions and produces a number that can be compared. It is the only
-  systematic answer to this site's problem anywhere in the collection — and it
-  works for amateurs and is switched off entirely at the top.
+  Golf is played over a course of eighteen holes laid out across open land.
+  On each hole the player hits the ball from a starting point towards a small
+  hole in the ground, and counts every stroke. The ball is played from
+  wherever it comes to rest, in long grass or sand as well as on short turf,
+  and that one principle is why the rulebook is long. The lowest total of
+  strokes wins. No two courses are alike, and the players do not interfere
+  with each other, so the real opponent is the course. Players are expected
+  to call penalties on themselves.
 cover: golf-rio-2016

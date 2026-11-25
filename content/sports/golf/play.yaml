@@ -9,6 +9,46 @@ summary: >
   designed to be fair — so most of the book is about what to do when the
   situation is not a fairway.
 
+walkthrough:
+  title: One hole, from the first stroke to the score
+  intro: >
+    A round is eighteen holes, and each one is played like this. The example
+    is stroke play, the usual format.
+  steps:
+    - label: The start
+      body: >
+        Each hole starts from a set of tees. The player may carry up to
+        fourteen clubs and picks one for each shot. The aim is to get the ball
+        into the hole in as few strokes as possible.
+    - label: Play it as it lies
+      body: >
+        Every hit at the ball counts as one stroke. The next stroke is played
+        from wherever the ball came to rest. The player may not move the ball
+        to a better spot or improve the ground around it.
+    - label: When the ball is in trouble
+      body: >
+        A ball can finish in a penalty area, out of bounds, or somewhere it
+        cannot be played. Each case has its own procedure, called relief. The
+        player drops the ball from knee height in the place the rule allows,
+        sometimes with a penalty. A lost ball may be searched for during three
+        minutes.
+    - label: Finishing the hole
+      body: >
+        The hole is finished when the ball is in the hole. The strokes taken,
+        together with any penalties, are the score for that hole.
+    - label: Keeping the score
+      body: >
+        The players keep their own scores and call penalties on themselves.
+        Officials can be asked for a ruling, but they do not watch every
+        player. At the end of the round the player signs the scorecard, and
+        signing a wrong one is itself a breach.
+    - label: Winning
+      body: >
+        In stroke play the fewest strokes wins. A professional tournament is
+        four rounds over four days, and only the leading players continue
+        after the second. In match play two sides count the holes each has
+        won. A tie in a major championship is settled by a play-off.
+
 sections:
   - id: object
     label: The object of the game

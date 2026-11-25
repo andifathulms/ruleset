@@ -1,0 +1,102 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: golf
+terms:
+  - id: stroke
+    term: Stroke
+    definition: >
+      One swing made to hit the ball. Strokes are what a golfer counts, and
+      fewer is better.
+    see: scoring
+  - id: stroke-play
+    term: Stroke play
+    definition: >
+      The usual format. Every stroke over the whole round is counted, and the
+      lowest total wins.
+    see: object
+  - id: match-play
+    term: Match play
+    definition: >
+      A format in which two sides play each hole as a separate contest. The
+      side that wins more holes wins the match.
+    see: object
+  - id: lie
+    term: Lie
+    definition: >
+      The place and position in which the ball has come to rest. The basic
+      rule of golf is to play the ball as it lies.
+    see: object
+  - id: tee
+    term: Tee
+    definition: >
+      The marked place where play on a hole begins. A course has several sets
+      of tees, which make each hole longer or shorter.
+    see: field
+  - id: fairway
+    term: Fairway
+    definition: >
+      The strip of short grass between the tee and the hole, which is the
+      easiest ground to hit from.
+  - id: rough
+    term: Rough
+    definition: >
+      The longer grass beside the fairway. The ball is harder to control from
+      it.
+  - id: penalty-area
+    term: Penalty area
+    definition: >
+      A marked part of the course, such as water, where a ball costs the
+      player a penalty to take out. The club may not be grounded in it.
+    see: restarts
+  - id: out-of-bounds
+    term: Out of bounds
+    definition: >
+      Ground outside the edge of the course. A ball that finishes there may
+      not be played.
+    see: restarts
+  - id: relief
+    term: Relief
+    definition: >
+      Permission under a rule to lift the ball and play it from another
+      place. Some relief is free, and some costs a penalty.
+    see: restarts
+  - id: drop
+    term: Drop
+    definition: >
+      The way a ball is put back into play when a player takes relief. It is
+      let fall from knee height.
+    see: restarts
+  - id: grooves
+    term: Grooves
+    definition: >
+      The lines cut across the face of a club. They grip the ball and make it
+      spin, and their shape is limited by rule.
+    see: equipment
+  - id: handicap
+    term: Handicap
+    definition: >
+      A number that stands for a player's ability. It is taken into account
+      in the score, so that a weaker player and a stronger one can compete on
+      level terms. It is used in amateur golf only.
+    see: scoring
+  - id: scratch
+    term: Scratch
+    definition: >
+      Playing with no handicap. Professionals play off scratch.
+    see: scoring
+  - id: course-rating
+    term: Course and slope rating
+    definition: >
+      Two measures of how hard a course plays from a given set of tees, one
+      for a scratch player and one for a weaker player. The handicap uses
+      them to adjust a score for the course.
+    see: field
+  - id: play-off
+    term: Play-off
+    definition: >
+      Extra holes played by players who are tied at the end, to decide the
+      winner.
+    see: winning
