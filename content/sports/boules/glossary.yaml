@@ -1,0 +1,83 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: boules
+terms:
+  - id: petanque
+    term: Pétanque
+    definition: >
+      The most played of the boules games. Players throw from a small circle
+      with both feet on the ground, to a jack 6 to 10 metres away.
+    see: object
+  - id: boule
+    term: Boule
+    definition: >
+      One of the metal balls the players throw. It weighs 650 to 800 grams and
+      is 70.5 to 80 millimetres across.
+    see: equipment
+  - id: jack
+    term: Jack
+    definition: >
+      The small wooden ball that is the target, called the cochonnet in
+      French. It can be hit and moved during play.
+    see: equipment
+  - id: circle
+    term: Circle
+    definition: >
+      The ring on the ground that a player throws from. Both feet must stay on
+      the ground inside it until the boule lands.
+    see: prohibitions
+  - id: end
+    term: End
+    definition: >
+      One round of play. It starts when the jack is thrown and finishes when
+      every boule has been thrown and the points are counted.
+    see: restarts
+  - id: terrain
+    term: Terrain
+    definition: >
+      The ground the game is played on. It is rough and is not made even, and
+      players may not smooth it or remove stones near the jack.
+    see: field
+  - id: holding-the-point
+    term: Holding the point
+    definition: >
+      Having the boule nearest the jack at that moment. The side that is not
+      holding the point must throw next.
+    see: restarts
+  - id: pointing
+    term: Pointing
+    definition: >
+      Throwing a boule so that it stops close to the jack. A player who
+      specialises in this is a pointeur.
+    see: players
+  - id: shooting
+    term: Shooting
+    definition: >
+      Throwing a boule to knock an opponent's boule away from the jack. A
+      player who specialises in this is a tireur.
+    see: players
+  - id: milieu
+    term: Milieu
+    definition: >
+      The player in a team who both points and shoots, as the end requires.
+    see: players
+  - id: carreau
+    term: Carreau
+    definition: >
+      A shot that knocks an opponent's boule away and leaves the thrown boule
+      in its place. It is the best shot in the game.
+  - id: measuring
+    term: Measuring
+    definition: >
+      Checking which boule is nearer the jack with a tape or callipers. The
+      players do it themselves and call an umpire only if they cannot agree.
+    see: scoring
+  - id: triples
+    term: Triples
+    definition: >
+      A game between two teams of three. Pétanque is also played as singles
+      and as doubles.
+    see: players

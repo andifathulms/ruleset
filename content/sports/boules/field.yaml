@@ -1,0 +1,30 @@
+# A pétanque pitch, from the measurements in play.yaml. Shapes are in metres.
+sport: boules
+title: The circle and where the jack may stop
+caption: >
+  A marked competition pitch is about 15 metres by 4. The circle is not fixed.
+  For each new end it is drawn where the jack lay at the end before. The
+  thrown jack must stop between 6 and 10 metres from the circle, and every
+  boule in that end is thrown from the same circle.
+alt: >
+  A pétanque pitch about 15 metres long and 4 metres wide, with a small
+  throwing circle near one end and a shaded band from 6 to 10 metres away
+  from it where the jack must stop.
+scale: to-scale
+view: [-1.2, -2.2, 19.4, 7.6]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 15, h: 4, fill: area }
+  - { type: polygon, points: [[7.16,0],[7.35,0.65],[7.46,1.32],[7.5,2],[7.46,2.68],[7.35,3.35],[7.16,4],[11.3,4],[11.41,3.34],[11.48,2.67],[11.5,2],[11.48,1.33],[11.41,0.66],[11.3,0]], fill: zone, line: none }
+  - { type: circle, cx: 1.5, cy: 2, r: 0.25, line: heavy }
+  - { type: label, x: 1.5, y: 1.2, text: "circle", tone: chalk }
+  - { type: dot, x: 9.3, y: 1.7, label: "jack" }
+  - { type: dim, x1: 0, y1: -1.1, x2: 15, y2: -1.1, text: "about 15 m" }
+  - { type: dim, x1: 17.3, y1: 0, x2: 17.3, y2: 4, text: "about 4 m" }
+  - { type: line, x1: 1.5, y1: 4.2, x2: 1.5, y2: 6.5, line: faint }
+  - { type: line, x1: 7.5, y1: 4.2, x2: 7.5, y2: 5.4, line: faint }
+  - { type: line, x1: 11.5, y1: 4.2, x2: 11.5, y2: 6.5, line: faint }
+  - { type: dim, x1: 1.5, y1: 5.1, x2: 7.5, y2: 5.1, text: "6 m" }
+  - { type: dim, x1: 1.5, y1: 6.2, x2: 11.5, y2: 6.2, text: "10 m" }
+legend:
+  - { swatch: zone, label: "where the jack must stop, 6 to 10 m from the circle" }
+  - { swatch: area, label: the pitch }

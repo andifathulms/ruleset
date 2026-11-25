@@ -8,6 +8,48 @@ summary: >
   small wooden jack than the opposition, with both feet planted inside a circle
   on the ground. First to thirteen points.
 
+walkthrough:
+  title: One end of pétanque, from the jack to the score
+  intro: >
+    A game is a series of rounds called ends, and every end follows the same
+    order.
+  steps:
+    - label: The circle and the jack
+      body: >
+        A circle 35 to 50 centimetres across is drawn or placed on the ground.
+        A player stands in it and throws the jack, a small wooden ball. The
+        jack must stop between 6 and 10 metres from the circle.
+    - label: The throw
+      body: >
+        A player stands in the circle and throws a metal boule toward the
+        jack. Both feet must stay on the ground inside the circle until the
+        boule lands. Then the other side throws.
+    - label: Who throws next
+      body: >
+        The side whose boule is nearest the jack is holding the point. The
+        other side must keep throwing until one of its boules is nearer. This
+        is why one side can throw several boules in a row.
+    - label: Point or shoot
+      body: >
+        A player can point, which means placing a boule close to the jack. Or
+        the player can shoot, which means knocking an opponent's boule away.
+        The jack can be hit and moved too, and play goes on from its new
+        place. Nobody may smooth the ground or remove a stone.
+    - label: Measuring
+      body: >
+        The end is over when every boule has been thrown. If it is not clear
+        which boule is nearer the jack, the players measure with a tape or
+        callipers. An umpire is called only if they cannot agree.
+    - label: The score
+      body: >
+        The side with the nearest boule scores one point for each boule it has
+        closer than the other side's best boule. That side throws the jack for
+        the next end, from a circle drawn where the jack lay.
+    - label: The game
+      body: >
+        Ends are played until one side reaches 13 points. There is no clock in
+        the traditional game.
+
 sections:
   - id: object
     label: The object of the game
@@ -52,7 +94,7 @@ sections:
       protective equipment and no implement.
     facts:
       - { label: Boule, value: "650–800 g, 70.5–80 mm" }
-      - { label: Boules per player, value: "3" }
+      - { label: Boules per player, value: "3 in singles and doubles, 2 in triples" }
       - { label: Jack, value: A small wooden ball }
       - { label: Circle, value: 35–50 cm across }
 

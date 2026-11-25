@@ -1,6 +1,6 @@
 id: boules
 label: Boules sports
-tagline: "Pétanque's founding rule was written in 1907 to let a man with rheumatism keep playing, and it created the sport."
+tagline: "A throwing game in which players stand in a small circle and try to land metal balls closer to a little wooden target ball than their opponents can."
 governing_body: Confédération Mondiale des Sports de Boules
 founded: >
   A family of European throwing games of great antiquity; pétanque was devised
@@ -12,11 +12,17 @@ classification:
   official: boules
   game-category: target
   adjudication: measured
+glance:
+  - { value: "13", label: points to win }
+  - { value: "6–10 m", label: throw to the jack }
+  - { value: "1, 2 or 3", label: players a side }
 summary: >
-  Throw a metal ball closer to a small wooden jack than your opponent can. It
-  is a target sport whose target moves — the jack is knocked about by play — and
-  in which the most valued shot destroys the opponent's position rather than
-  improving your own. Pétanque, its largest code, exists because a rule was
-  relaxed in 1907 for a player who could no longer run, which makes it the only
-  sport here founded on an accessibility accommodation.
+  Pétanque is the most played of the boules games. A small wooden ball, the
+  jack, is thrown six to ten metres from a circle on the ground. Players then
+  stand in the circle with both feet on the ground and throw metal boules
+  toward it. When all the boules are thrown, the side with the nearest boule
+  scores one point for each boule it has closer than the other side's best,
+  and the first side to thirteen wins. The ground is left rough on purpose,
+  and the jack can be knocked to a new place, so a player may place a boule
+  close or knock an opponent's boule away.
 cover: boules-shooting-greoux
