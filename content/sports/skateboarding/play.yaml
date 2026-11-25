@@ -9,6 +9,48 @@ summary: >
   difficulty table, no element list, no required moves — and the absence is
   deliberate.
 
+walkthrough:
+  title: One street final, from the first run to the total
+  intro: >
+    Skateboarding has two Olympic disciplines. This is street, and the last
+    step says how park differs.
+  steps:
+    - label: The course
+      body: >
+        The course looks like a piece of a city: stairs, handrails, ledges and
+        banks. It is built new for each competition. Skaters ride it one at a
+        time.
+    - label: The runs
+      body: >
+        Each skater has two runs. A run is one continuous, timed ride around
+        the course, with as many tricks as the skater can link together. The
+        skater chooses every trick. Nothing is required and nothing is
+        forbidden.
+    - label: The score
+      body: >
+        A panel of judges gives the whole run one score out of 100. The
+        highest and lowest marks are dropped. The judges weigh how hard the
+        tricks were, how cleanly they were landed, the variety, the flow and
+        how the course was used. There is no table that says what a trick is
+        worth.
+    - label: The single tricks
+      body: >
+        Then each skater has five attempts at a single trick, one trick per
+        attempt, on any part of the course. Each attempt gets its own score
+        out of 100.
+    - label: Falling
+      body: >
+        A fall ends that run or that attempt. The skater loses that score and
+        nothing more, and takes the next turn as usual.
+    - label: The total
+      body: >
+        The best run and the two best tricks are added together. The other
+        scores are thrown away. The skater with the highest total wins.
+    - label: Park
+      body: >
+        Park is held in a bowl of curved walls. Each skater has three runs,
+        and only the best one counts.
+
 sections:
   - id: object
     label: The object of the competition
@@ -66,15 +108,15 @@ sections:
   - id: duration
     label: Format
     body: >
-      In street: two runs and five single tricks, with the best four of those
-      seven scores counting. In park: three runs, best one counting.
+      In street: two runs and five single tricks, with the best run and the
+      two best tricks counting. In park: three runs, best one counting.
 
       Counting only the best scores is deliberate. A failed trick costs
       nothing beyond the attempt, so a skater is encouraged to try the hardest
       thing they have rather than protect a score — which is the opposite of
       how gymnastics' deductions work.
     facts:
-      - { label: "Street", value: "2 runs and 5 tricks, best 4 count" }
+      - { label: "Street", value: "2 runs and 5 tricks; best run and best 2 tricks count" }
       - { label: "Park", value: "3 runs, best counts" }
     shaped_by: [worldskate-2020-format]
 

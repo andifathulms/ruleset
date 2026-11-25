@@ -1,0 +1,96 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is contested, not
+# claims about its history, and nothing here carries a cause or a date.
+
+sport: skateboarding
+terms:
+  - id: street
+    term: Street
+    definition: >
+      The discipline held on a course built like a city: stairs, handrails,
+      ledges and banks.
+    see: field
+  - id: park
+    term: Park
+    definition: >
+      The discipline held in a bowl, where skaters use the curved walls to
+      gain speed and fly above the edge.
+    see: field
+  - id: bowl
+    term: Bowl
+    definition: >
+      A hollow shaped like an empty swimming pool, with curved walls all
+      round. It is the course for park.
+    see: field
+  - id: transition
+    term: Transition
+    definition: >
+      A curved surface that joins the flat floor to a steep wall. Skaters ride
+      up it to turn or to jump.
+    see: field
+  - id: vert
+    term: Vert
+    definition: >
+      Skating on a half-pipe, a ramp shaped like the letter U whose walls
+      become vertical at the top.
+  - id: run
+    term: Run
+    definition: >
+      One continuous, timed ride around the course, with many tricks linked
+      together. A run gets one score.
+    see: restarts
+  - id: trick
+    term: Trick
+    definition: >
+      One move on the board, such as a jump, a flip, a slide or a grind. In
+      street a skater also gets attempts at one trick alone.
+    see: restarts
+  - id: ollie
+    term: Ollie
+    definition: >
+      A jump in which the skater snaps the tail of the board down and drags
+      the front foot forward, so the board rises with the feet and no hands
+      are used. Most street tricks start with one.
+  - id: kickflip
+    term: Kickflip
+    definition: >
+      An ollie in which the skater flicks the board so that it spins once
+      along its length before the feet land on it again.
+  - id: rail
+    term: Rail
+    definition: >
+      A metal handrail or bar. Skaters slide along it on the board or grind
+      along it on the trucks.
+    see: field
+  - id: ledge
+    term: Ledge
+    definition: >
+      A low block with a hard edge, like a bench or the side of a planter,
+      that skaters slide and grind along.
+    see: field
+  - id: deck
+    term: Deck
+    definition: >
+      The wooden board the skater stands on. Its two ends, the nose and the
+      tail, curve upward.
+    see: equipment
+  - id: trucks
+    term: Trucks
+    definition: >
+      The two metal axles under the deck that hold the wheels and let the
+      board turn.
+    see: equipment
+  - id: impression-score
+    term: Impression score
+    definition: >
+      One number out of 100 for a whole run or trick. The judges weigh
+      difficulty, execution, variety, flow and use of the course together, and
+      do not publish separate marks for each.
+    see: scoring
+  - id: flow
+    term: Flow
+    definition: >
+      How smoothly a run moves from one trick to the next without stops or
+      pushes that break it up.
+    see: object

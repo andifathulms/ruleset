@@ -1,6 +1,6 @@
 id: skateboarding
 label: Skateboarding
-tagline: A judged sport that refuses to publish a difficulty table, because the culture it came from does not agree there is one.
+tagline: Riders perform tricks on a board with four wheels, over stairs, rails and bowls, and judges give each run or trick one score out of 100.
 governing_body: World Skate
 founded: >
   Emerged in California in the 1950s and 1960s. Governed for Olympic purposes
@@ -11,11 +11,17 @@ classification:
   official: skateboarding
   game-category: performance
   adjudication: judged
+glance:
+  - { value: "100", label: top score for a run }
+  - { value: "2 + 5", label: runs and tricks in street }
+  - { value: "3", label: runs in park }
 summary: >
-  Skateboarding arrived at the Games in 2020 with the same problem breaking had
-  four years later: a culture with its own competitive traditions, no absolute
-  scoring scale, and an external federation asked to invent one in a hurry. It
-  answered differently — holistic impression scores rather than a difficulty
-  table — and it kept its Olympic place where breaking did not.
+  A skater rides a wooden board on four small wheels and makes it jump, flip,
+  slide and grind. Contests have two forms. Street is held on a course built
+  like a piece of a city, with stairs, handrails and ledges. Park is held in a
+  bowl of steep curved walls. Skaters go one at a time, and a panel of judges
+  gives each run or single trick one score out of 100. There is no list of
+  what each trick is worth, no required moves and no penalty for a fall beyond
+  losing that score, so skaters try the hardest things they can do.
 cover: skateboarding-sls-russell
 cover_position: "50% 70%"
