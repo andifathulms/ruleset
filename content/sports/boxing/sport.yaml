@@ -1,6 +1,6 @@
 id: boxing
 label: Boxing
-tagline: Removed its headguards on safety grounds, and lost its governing body altogether.
+tagline: "A combat sport in which two people in padded gloves trade punches in a roped ring, and judges score each round."
 governing_body: >
   World Boxing, recognised by the IOC in 2025. The previous body, AIBA and
   later IBA, was suspended in 2019 and expelled in 2023.
@@ -13,11 +13,16 @@ classification:
   official: boxing
   game-category: outside-taxonomy
   adjudication: combat
+glance:
+  - { value: "3 × 3 min", label: rounds in a bout }
+  - { value: "5", label: judges at ringside }
+  - { value: "6.1 m", label: side of the ring }
 summary: >
-  Boxing is the only sport on this site whose governing body was expelled from
-  the Olympic movement, and the only one where the IOC ran the competition
-  itself because there was nobody it trusted to. It is also the sport with the
-  most counter-intuitive safety rule in the collection: headguards were removed
-  from elite men's competition in 2013, on the argument that they were making
-  concussion more likely rather than less.
+  Two boxers of the same weight category fight in a square, roped ring. Each
+  tries to land clean punches on the other with the knuckle part of a closed
+  glove, above the belt, and to avoid being hit. An Olympic-style bout is
+  three rounds of three minutes. Five judges score every round, ten points to
+  the boxer who won it and nine or fewer to the other. A bout can also end at
+  once, by knockout or when the referee stops it. A boxer who is knocked down
+  must be ready to go on before the referee finishes the count.
 cover: boxing-adams-2012

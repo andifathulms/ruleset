@@ -10,6 +10,45 @@ summary: >
   scores and what protective equipment is worn have been the most unstable of
   any sport on this site.
 
+walkthrough:
+  title: One bout, from the first bell to the decision
+  intro: >
+    This is an Olympic-style bout of three rounds, and every round follows the
+    same pattern.
+  steps:
+    - label: Two boxers, one weight
+      body: >
+        Two boxers from the same weight category meet in a square, roped ring.
+        A referee stands in the ring with them, and five judges sit at
+        ringside. Each boxer wears gloves, hand wraps, a mouthguard and a
+        groin protector.
+    - label: The round
+      body: >
+        A round lasts three minutes. Each boxer tries to land blows with the
+        knuckle part of a closed glove, above the opponent's belt. Only those
+        blows count. After the round there is one minute of rest.
+    - label: Clinches and fouls
+      body: >
+        When the boxers hold each other in a clinch, the referee breaks them
+        apart. Hitting below the belt, holding, hitting with the open glove,
+        using the head and hitting an opponent who is down are fouls. The
+        referee gives a warning first, and can then take a point away or
+        disqualify the boxer.
+    - label: A knockdown
+      body: >
+        When a boxer is knocked down, the referee stops the action and counts.
+        A boxer who cannot go on is knocked out, and the bout is over. The
+        referee may also give a standing count, or stop the bout altogether.
+    - label: Scoring the round
+      body: >
+        Each judge decides who won the round. That boxer gets ten points, and
+        the other gets nine or fewer.
+    - label: The decision
+      body: >
+        After three rounds the judges' totals decide the bout. There is no
+        draw. If the cards are level, set criteria pick the winner, and the
+        bout is not fought again.
+
 sections:
   - id: object
     label: The object of the bout

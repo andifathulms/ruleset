@@ -1,0 +1,98 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how boxing is fought, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: boxing
+terms:
+  - id: bout
+    term: Bout
+    definition: >
+      One contest between two boxers. It is made up of rounds and ends with a
+      decision by the judges or with a stoppage.
+    see: object
+  - id: round
+    term: Round
+    definition: >
+      One timed period of boxing, three minutes long in Olympic-style
+      competition, followed by a minute of rest.
+    see: duration
+  - id: ring
+    term: Ring
+    definition: >
+      The square, roped platform the bout is fought on. Its floor is canvas
+      laid over padding.
+    see: field
+  - id: weight-category
+    term: Weight category
+    definition: >
+      A band of body weight. Boxers only fight opponents from the same
+      category.
+    see: players
+  - id: scoring-blow
+    term: Scoring blow
+    definition: >
+      A punch that counts. It must land above the belt with the knuckle part
+      of a closed glove.
+    see: object
+  - id: jab
+    term: Jab
+    definition: >
+      A quick, straight punch thrown with the front hand. It is the most
+      common punch in boxing.
+  - id: combination
+    term: Combination
+    definition: >
+      Two or more punches thrown one straight after another.
+  - id: body-shot
+    term: Body shot
+    definition: >
+      A punch to the opponent's body, above the belt, as opposed to the head.
+  - id: clinch
+    term: Clinch
+    definition: >
+      The two boxers holding each other at close range so that neither can
+      punch freely. The referee breaks a clinch and the boxing starts again.
+    see: restarts
+  - id: knockdown
+    term: Knockdown
+    definition: >
+      A boxer going down from a punch. The referee stops the action and starts
+      a count.
+    see: restarts
+  - id: count
+    term: Count
+    definition: >
+      The referee counting the seconds aloud after a knockdown. A boxer who is
+      not ready to go on when the count ends has lost.
+    see: restarts
+  - id: standing-count
+    term: Standing count
+    definition: >
+      A count the referee gives to a boxer who is hurt but still standing.
+    see: restarts
+  - id: knockout
+    term: Knockout
+    definition: >
+      A win that ends the bout at once, because the opponent has been knocked
+      down and cannot go on.
+    see: object
+  - id: stoppage
+    term: Stoppage
+    definition: >
+      The referee ending the bout early, usually to protect a boxer who is
+      taking too much punishment.
+    see: winning
+  - id: ten-point-must
+    term: Ten-point must system
+    definition: >
+      The scoring system. Each judge gives the winner of a round ten points
+      and the loser nine or fewer, and the totals over all the rounds decide
+      the bout.
+    see: scoring
+  - id: headguard
+    term: Headguard
+    definition: >
+      A padded helmet that covers the forehead, cheeks and sides of the head
+      and leaves the face open.
+    see: equipment

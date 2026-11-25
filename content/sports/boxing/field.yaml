@@ -1,0 +1,23 @@
+# The ring, from the measurements in play.yaml. Shapes are in metres.
+sport: boxing
+title: A square inside four ropes
+caption: >
+  The ring is a square of 6.1 metres inside the ropes. Four ropes run around
+  it. The two boxers and the referee are the only people inside, and the five
+  judges sit outside at ringside.
+alt: >
+  A square boxing ring 6.1 metres on each side, enclosed by ropes, with two
+  boxers and a referee inside it.
+scale: to-scale
+view: [-2.4, -1.4, 8.5, 7.9]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 6.1, h: 6.1, fill: area, line: heavy }
+  - { type: dot, x: 2.45, y: 3.05, label: "boxer" }
+  - { type: dot, x: 3.65, y: 3.05, label: "boxer" }
+  - { type: dot, x: 3.05, y: 1.6, label: "referee" }
+  - { type: label, x: 3.05, y: -0.55, text: "ropes", tone: muted }
+  - { type: dim, x1: 0, y1: 7.0, x2: 6.1, y2: 7.0, text: "6.1 m" }
+  - { type: dim, x1: 7.1, y1: 0, x2: 7.1, y2: 6.1, text: "6.1 m" }
+legend:
+  - { swatch: area, label: the ring floor }
+  - { swatch: heavy, label: "the ropes, four of them" }
