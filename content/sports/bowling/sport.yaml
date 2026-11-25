@@ -1,6 +1,6 @@
 id: bowling
 label: Bowling
-tagline: "The lane is dressed with oil in a pattern you cannot see, and it changes as you play on it."
+tagline: "A bowler rolls a heavy ball down a long, narrow lane to knock down ten pins, with two tries in each of ten frames."
 governing_body: International Bowling Federation
 founded: >
   Pin games are ancient and ten-pin bowling was codified in the United States
@@ -12,10 +12,18 @@ classification:
   official: bowling
   game-category: target
   adjudication: measured
+glance:
+  - { value: "10", label: pins to knock down }
+  - { value: "300", label: the highest score }
+  - { value: "60 ft", label: foul line to the first pin }
 summary: >
-  Ten pins, two deliveries a frame, ten frames, and a maximum score of 300 that
-  has not changed since the scoring system was written. What has changed is how
-  hard it is to reach, because the lane is coated with an invisible oil pattern
-  that steers the ball and that degrades as balls carry oil down it. The field
-  of play cannot be seen and is different in the tenth frame from the first.
+  Ten pins stand in a triangle at the end of a lane, sixty feet from the
+  bowler. A game is ten frames, and in each frame the bowler has two
+  deliveries to knock the pins down. All ten with the first ball is a strike,
+  and all ten with two is a spare. Both earn bonus pins from the deliveries
+  that follow, so the highest possible score is 300, which takes twelve
+  strikes in a row. The lane is coated with oil in a pattern the bowler cannot
+  see. The ball slides on the oil and hooks where the lane is dry, and the
+  oil moves as the game goes on. Reading that change is the skill of the
+  sport.
 cover: bowling-incheon-2014

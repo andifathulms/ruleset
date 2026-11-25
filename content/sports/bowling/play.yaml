@@ -8,6 +8,44 @@ summary: >
   with an oil pattern the bowler cannot see, which steers the ball and breaks
   down as the game goes on.
 
+walkthrough:
+  title: One frame, from the delivery to the score
+  intro: >
+    A game is this sequence ten times.
+  steps:
+    - label: The lane
+      body: >
+        The bowler stands behind the foul line. Ten pins stand sixty feet
+        away at the far end of the lane, with a gutter along each side. One
+        bowler plays at a time, and two bowlers take turns on a pair of lanes.
+    - label: The first delivery
+      body: >
+        The bowler rolls the ball down the lane. It slides where the lane is
+        oiled and grips and hooks where the lane is dry. The bowler must not
+        cross the foul line. If they do, the pins knocked down by that
+        delivery do not count.
+    - label: Strike, or a second ball
+      body: >
+        If all ten pins fall to the first ball, it is a strike and the frame
+        is over. If not, the bowler has a second delivery at the pins still
+        standing. Knocking down the rest is a spare. Leaving any standing is
+        an open frame.
+    - label: Counting the frame
+      body: >
+        An open frame scores the pins knocked down. A spare scores ten plus
+        the pins from the bowler's next delivery. A strike scores ten plus
+        the pins from the next two deliveries.
+    - label: The tenth frame
+      body: >
+        In the last frame, a bowler who makes a strike or a spare gets a
+        third delivery, so that the bonus can be counted. Twelve strikes in a
+        row make 300, the highest score there is.
+    - label: Winning
+      body: >
+        A game is ten frames. A championship is bowled over many games, and
+        the highest total goes through or wins. Some formats end with a
+        ladder of matches between the leaders.
+
 sections:
   - id: object
     label: The object of the game
@@ -43,6 +81,7 @@ sections:
       been throwing. Reading the transition is the sport.
     facts:
       - { label: Lane, value: 60 ft to the headpin }
+      - { label: Lane width, value: "41.5 in" }
       - { label: Oil pattern, value: "Invisible, applied by machine" }
       - { label: During play, value: Carries down and breaks down }
     shaped_by: [bowling-sport-patterns]

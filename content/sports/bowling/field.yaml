@@ -1,0 +1,47 @@
+# The lane, from the measurements in play.yaml. Lengths are in feet. The lane
+# is drawn much wider than it is, so the drawing is schematic.
+sport: bowling
+title: A long, narrow lane
+caption: >
+  The lane runs sixty feet from the foul line to the headpin and is 41.5
+  inches wide, so it is drawn here far wider than it really is. The first
+  part of the lane carries oil, and the ball slides there. Near the pins the
+  lane is dry, and the ball grips and hooks. Where the oil ends depends on the
+  pattern, which the bowler cannot see. A gutter runs along each side.
+alt: >
+  A bowling lane seen from above, with the foul line at the left, ten pins in
+  a triangle at the right, a gutter along each side, and the path of a ball
+  that runs straight over the oiled part and curves towards the pins on the
+  dry part.
+scale: schematic
+view: [-11, -5, 77, 14]
+shapes:
+  - { type: rect, x: -8, y: 0, w: 8, h: 8, fill: surface, line: faint }
+  - { type: rect, x: 0, y: -1, w: 67, h: 1, fill: surface, line: faint }
+  - { type: rect, x: 0, y: 8, w: 67, h: 1, fill: surface, line: faint }
+  - { type: rect, x: 0, y: 0, w: 67, h: 8, fill: area }
+  - { type: rect, x: 0, y: 0, w: 40, h: 8, fill: zone, line: none }
+  - { type: line, x1: 0, y1: -1.6, x2: 0, y2: 9.6, line: heavy }
+  - { type: line, x1: -5, y1: 5.6, x2: 40, y2: 6.6, line: dashed }
+  - { type: line, x1: 40, y1: 6.6, x2: 59.4, y2: 4.4, line: dashed }
+  - { type: dot, x: 60, y: 4 }
+  - { type: dot, x: 61.8, y: 3 }
+  - { type: dot, x: 61.8, y: 5 }
+  - { type: dot, x: 63.6, y: 2 }
+  - { type: dot, x: 63.6, y: 4 }
+  - { type: dot, x: 63.6, y: 6 }
+  - { type: dot, x: 65.4, y: 1 }
+  - { type: dot, x: 65.4, y: 3 }
+  - { type: dot, x: 65.4, y: 5 }
+  - { type: dot, x: 65.4, y: 7 }
+  - { type: label, x: 0, y: -3.2, text: "foul line", tone: muted }
+  - { type: label, x: 60, y: -3.2, text: "headpin", tone: muted }
+  - { type: label, x: 30, y: -2.4, text: "gutter", tone: muted }
+  - { type: label, x: 20, y: 2.6, text: "oil: the ball slides", tone: chalk }
+  - { type: label, x: 49.5, y: 2, text: "dry: it hooks", tone: chalk }
+  - { type: dim, x1: 0, y1: 11.8, x2: 60, y2: 11.8, text: "60 ft" }
+  - { type: dim, x1: 71, y1: 0, x2: 71, y2: 8, text: "41.5 in" }
+legend:
+  - { swatch: zone, label: oiled part of the lane }
+  - { swatch: area, label: dry part of the lane }
+  - { swatch: dashed, label: path of the ball }

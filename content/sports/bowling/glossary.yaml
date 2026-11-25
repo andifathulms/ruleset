@@ -1,0 +1,102 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: bowling
+terms:
+  - id: frame
+    term: Frame
+    definition: >
+      One turn for a bowler: up to two deliveries at a full set of ten pins.
+      A game has ten frames.
+    see: restarts
+  - id: delivery
+    term: Delivery
+    definition: >
+      One roll of the ball down the lane.
+    see: restarts
+  - id: strike
+    term: Strike
+    definition: >
+      All ten pins knocked down with the first ball of a frame. It scores ten
+      plus the pins from the bowler's next two deliveries.
+    see: object
+  - id: spare
+    term: Spare
+    definition: >
+      All ten pins knocked down with the two balls of a frame. It scores ten
+      plus the pins from the bowler's next delivery.
+    see: object
+  - id: open-frame
+    term: Open frame
+    definition: >
+      A frame in which pins are left standing after both deliveries. It
+      scores only the pins knocked down.
+    see: scoring
+  - id: perfect-game
+    term: Perfect game
+    definition: >
+      A game of twelve strikes in a row, which scores 300. No higher score is
+      possible.
+    see: object
+  - id: foul-line
+    term: Foul line
+    definition: >
+      The line at the start of the lane. A bowler who crosses it loses the
+      pins knocked down by that delivery.
+    see: prohibitions
+  - id: headpin
+    term: Headpin
+    definition: >
+      The front pin of the ten, the one nearest the bowler. It stands sixty
+      feet from the foul line.
+    see: field
+  - id: gutter
+    term: Gutter
+    definition: >
+      The channel along each side of the lane. A ball that drops into it
+      rolls past the pins without touching them.
+    see: field
+  - id: hook
+    term: Hook
+    definition: >
+      The curve of a ball that is rolled with spin. The ball slides straight
+      on the oil and turns towards the pins where the lane is dry.
+    see: field
+  - id: oil-pattern
+    term: Oil pattern
+    definition: >
+      The layout of the oil on the lane, put down by a machine before play.
+      It decides where a ball slides and where it grips, and the bowler
+      cannot see it.
+    see: field
+  - id: house-pattern
+    term: House pattern
+    definition: >
+      The forgiving oil pattern used for everyday bowling. It guides a ball
+      that drifts wide back towards the pins.
+    see: field
+  - id: sport-pattern
+    term: Sport pattern
+    definition: >
+      An oil pattern used in competition. It is flatter across the lane and
+      leaves far less room for error.
+    see: field
+  - id: transition
+    term: Transition
+    definition: >
+      The change in the oil during play. Every ball carries oil down the lane
+      and moves it about, so the lane plays differently late in a game.
+    see: field
+  - id: coverstock
+    term: Coverstock
+    definition: >
+      The outer shell of the ball, the part that touches the lane. Its
+      material and finish decide how hard the ball grips.
+    see: equipment
+  - id: block
+    term: Block
+    definition: >
+      A run of several games bowled one after another in a competition.
+    see: duration
