@@ -1,0 +1,83 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: tug-of-war
+terms:
+  - id: end
+    term: End
+    definition: >
+      One pull, from the judge's call until one team has pulled the other four
+      metres or a team is disqualified. A match is the best of three ends.
+    see: object
+  - id: anchor
+    term: Anchor
+    definition: >
+      The last puller on a team. The anchor is the only one allowed to pass
+      the rope under one arm and across the back.
+    see: players
+  - id: centre-mark
+    term: Centre mark
+    definition: >
+      The mark at the middle of the rope. It is set over a line on the ground
+      before the pull starts.
+    see: field
+  - id: side-marks
+    term: Side marks
+    definition: >
+      The two marks on the rope four metres either side of the centre mark. A
+      team wins the end by pulling its opponents' mark to the centre line.
+    see: field
+  - id: take-the-strain
+    term: Take the strain
+    definition: >
+      The judge's second call at the start. The teams pull the rope tight and
+      hold it still until the call to pull.
+    see: restarts
+  - id: caution
+    term: Caution
+    definition: >
+      A warning from the judge for an illegal position. Two cautions in one
+      end disqualify the team from that end.
+    see: prohibitions
+  - id: sitting
+    term: Sitting
+    definition: >
+      Dropping to the ground on purpose to hold the rope with body weight. It
+      is an offence.
+    see: prohibitions
+  - id: rowing
+    term: Rowing
+    definition: >
+      Sitting and rising again and again to jerk the rope. It is an offence.
+    see: prohibitions
+  - id: locking
+    term: Locking
+    definition: >
+      Passing the rope under an arm or fixing it against the body. Only the
+      anchor may do it.
+    see: prohibitions
+  - id: propping
+    term: Propping
+    definition: >
+      Resting an arm or elbow on the leg while pulling. It is an offence.
+    see: prohibitions
+  - id: weight-class
+    term: Weight class
+    definition: >
+      The group a team competes in. It is set by the combined weight of the
+      eight pullers, and no single puller has a limit.
+    see: players
+  - id: judge
+    term: Judge
+    definition: >
+      The official who starts the pull and watches the pullers' positions
+      through the end.
+    see: restarts
+  - id: indoor
+    term: Indoor tug of war
+    definition: >
+      The form pulled on a rubber mat with a fixed footing. Every team has the
+      same grip, so pulling technique decides the end.
+    see: field

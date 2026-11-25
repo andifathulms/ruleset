@@ -8,6 +8,45 @@ summary: >
   three ends, and teams are entered by their combined weight rather than by
   anyone's individual weight.
 
+walkthrough:
+  title: One end, from picking up the rope to the mark crossing the line
+  intro: >
+    A match is two or three ends, and each end runs in this order.
+  steps:
+    - label: The teams
+      body: >
+        Each team has eight pullers. The two teams are in the same class,
+        which is set by the combined weight of all eight. The last puller on
+        each side is the anchor, the only one allowed to pass the rope under
+        one arm and across the back.
+    - label: The start
+      body: >
+        The judge calls "pick up the rope" and then "take the strain". The
+        judge checks that the centre mark on the rope is over the line on the
+        ground, and calls "pull". Moving the rope before that call is an
+        offence.
+    - label: The pull
+      body: >
+        Both teams pull. There is no time limit inside an end. Between two
+        well-matched teams an end can last several minutes of all-out effort.
+    - label: Pulling legally
+      body: >
+        Only the feet may touch the ground. Pullers may not sit down, lean on
+        the ground, rest an arm on a leg, or lock the rope against the body.
+        The judge gives a caution for each offence. Two cautions in an end
+        disqualify the team from it.
+    - label: Winning the end
+      body: >
+        The rope has a mark four metres to each side of the centre mark. A
+        team wins the end when it has pulled the mark on its opponents' side
+        up to the centre line. That is four metres of rope. The end is also
+        over if a team is disqualified.
+    - label: The match
+      body: >
+        The teams take a short rest and change ends, so that the ground cannot
+        decide the match. A match is the best of three ends, so the first team
+        to win two ends wins. Nothing else is recorded.
+
 sections:
   - id: object
     label: The object of the game

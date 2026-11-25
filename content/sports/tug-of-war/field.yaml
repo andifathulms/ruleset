@@ -1,0 +1,47 @@
+# The rope and its marks, from the measurements in play.yaml. Shapes are in metres.
+sport: tug-of-war
+title: The rope, its marks and the line
+caption: >
+  The rope has a centre mark and a side mark four metres either side of it.
+  At the start the centre mark sits over a line on the ground. A team wins the
+  end when it has pulled its opponents' side mark to that line. The dots show
+  eight pullers a side with the anchor last. Where each puller stands is for
+  illustration only.
+alt: >
+  A rope at least 33.5 metres long, with a mark at its centre over a line on
+  the ground and a mark four metres to each side. Eight pullers hold each half
+  of the rope, with the anchor at the end.
+scale: to-scale
+view: [-19.5, -5.2, 19.5, 6]
+shapes:
+  - { type: rect, x: -4, y: -1.1, w: 8, h: 2.2, fill: zone, line: none }
+  - { type: line, x1: 0, y1: -3, x2: 0, y2: 2, line: dashed }
+  - { type: line, x1: -16.75, y1: 0, x2: 16.75, y2: 0, line: heavy }
+  - { type: line, x1: -4, y1: -1.1, x2: -4, y2: 1.1 }
+  - { type: line, x1: 4, y1: -1.1, x2: 4, y2: 1.1 }
+  - { type: label, x: 0, y: -3.8, text: "line on the ground", tone: muted }
+  - { type: label, x: -4, y: -1.9, text: "side mark", tone: muted }
+  - { type: label, x: 4, y: -1.9, text: "side mark", tone: muted }
+  - { type: dot, x: -6, y: 0 }
+  - { type: dot, x: -7.3, y: 0 }
+  - { type: dot, x: -8.6, y: 0 }
+  - { type: dot, x: -9.9, y: 0 }
+  - { type: dot, x: -11.2, y: 0 }
+  - { type: dot, x: -12.5, y: 0 }
+  - { type: dot, x: -13.8, y: 0 }
+  - { type: dot, x: -15.4, y: 0, label: "anchor" }
+  - { type: dot, x: 6, y: 0 }
+  - { type: dot, x: 7.3, y: 0 }
+  - { type: dot, x: 8.6, y: 0 }
+  - { type: dot, x: 9.9, y: 0 }
+  - { type: dot, x: 11.2, y: 0 }
+  - { type: dot, x: 12.5, y: 0 }
+  - { type: dot, x: 13.8, y: 0 }
+  - { type: dot, x: 15.4, y: 0, label: "anchor" }
+  - { type: dim, x1: -4, y1: 2.7, x2: 0, y2: 2.7, text: "4 m" }
+  - { type: dim, x1: 0, y1: 2.7, x2: 4, y2: 2.7, text: "4 m" }
+  - { type: dim, x1: -16.75, y1: 4.6, x2: 16.75, y2: 4.6, text: "rope, at least 33.5 m" }
+legend:
+  - { swatch: zone, label: "between the side marks, 4 m each way from the centre" }
+  - { swatch: heavy, label: the rope }
+  - { swatch: dashed, label: the line on the ground }

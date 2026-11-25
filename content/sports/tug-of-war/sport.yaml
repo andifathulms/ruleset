@@ -1,6 +1,6 @@
 id: tug-of-war
 label: Tug of war
-tagline: "Thrown off the Olympic programme in the 1920s and a fixture of the World Games since it began — the clearest case here of a sport outliving its expulsion."
+tagline: "Two teams of eight hold opposite ends of one rope and pull, and a team wins when it has dragged the other four metres."
 governing_body: Tug of War International Federation
 founded: >
   Ancient as a contest and codified by British athletics bodies in the
@@ -12,11 +12,16 @@ classification:
   official: tug-of-war
   game-category: outside-taxonomy
   adjudication: decided-by-score
+glance:
+  - { value: "8", label: pullers a side }
+  - { value: "4 m", label: pull to win an end }
+  - { value: "2 of 3", label: ends to win a match }
 summary: >
-  Eight people pull a rope four metres and the other eight try to stop them.
-  It was on the Olympic programme for five consecutive Games and was cut in the
-  1920s, and it is the only sport this site covers that has been a fixture of
-  the World Games since the first one in 1981. Its distinctive rule is that
-  teams are classified by combined weight rather than by individual weight,
-  which makes team selection a constrained arithmetic problem no other sport has.
+  Eight people take one end of a rope and eight take the other. On the
+  judge's call both teams pull, and the team that drags the other four metres
+  wins the end. A match is the best of three ends. There are no points and no
+  clock. Players may touch the ground only with their feet, so they may not
+  sit down or lock the rope against the body, and a judge watches for this
+  through the whole pull. Teams are grouped by the combined weight of all
+  eight members. The sport is played outdoors on grass and indoors on a mat.
 cover: tug-of-war-north-somerset-boots
