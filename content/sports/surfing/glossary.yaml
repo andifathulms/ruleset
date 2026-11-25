@@ -1,0 +1,97 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is contested, not
+# claims about its history, and nothing here carries a cause or a date.
+
+sport: surfing
+terms:
+  - id: break
+    term: Break
+    definition: >
+      A place in the sea where waves break in a way that can be ridden. Every
+      break is different, and a contest is held at one break.
+    see: field
+  - id: reef-break
+    term: Reef break
+    definition: >
+      A break where the waves fold over a reef instead of over sand. The water
+      over the reef can be very shallow, which makes the wave steep and heavy.
+    see: field
+  - id: heat
+    term: Heat
+    definition: >
+      One round of a contest: two to four surfers in the water together for a
+      fixed time. The best of them advance and the others are out.
+    see: duration
+  - id: ride
+    term: Ride
+    definition: >
+      One wave ridden by one surfer, from standing up to the end of the wave
+      or a fall. Each ride gets its own score.
+    see: scoring
+  - id: manoeuvre
+    term: Manoeuvre
+    definition: >
+      A move made on the wave, such as a hard turn or a jump above it. Judges
+      look at how difficult the manoeuvres are and how well they are done.
+    see: object
+  - id: priority
+    term: Priority
+    definition: >
+      The right to choose a wave first. The surfer with priority may take any
+      wave, and the others must keep out of the way. Priority passes on when a
+      wave is taken.
+    see: restarts
+  - id: interference
+    term: Interference
+    definition: >
+      Getting in the way of the surfer who has priority. The penalty is the
+      loss of one of the two waves that count.
+    see: prohibitions
+  - id: drop-in
+    term: Dropping in
+    definition: >
+      Taking off on a wave that another surfer has the right to. It is the most
+      common kind of interference.
+    see: prohibitions
+  - id: two-wave-total
+    term: Two-wave total
+    definition: >
+      A surfer's score for a heat: their two best rides added together. Every
+      other ride counts for nothing.
+    see: scoring
+  - id: judging-panel
+    term: Judging panel
+    definition: >
+      The five judges who score every ride out of ten. The highest and lowest
+      scores are dropped and the other three are averaged.
+    see: players
+  - id: wave-potential
+    term: Wave's potential
+    definition: >
+      What a particular wave made possible. Judges score a ride against the
+      potential of its own wave, because no two waves are the same.
+    see: players
+  - id: shortboard
+    term: Shortboard
+    definition: >
+      A short, light, pointed board made for fast turns. It is the board used
+      in Olympic surfing.
+    see: equipment
+  - id: leash
+    term: Leash
+    definition: >
+      A cord that ties the board to the surfer's ankle, so the board stays
+      close after a fall. It is required in competition.
+    see: equipment
+  - id: waiting-period
+    term: Waiting period
+    definition: >
+      A span of days set aside for a contest. The organisers run the heats on
+      the days inside it when the waves are good.
+    see: duration
+  - id: wave-pool
+    term: Wave pool
+    definition: >
+      A pool in which a machine makes waves. It can make the same wave again
+      and again.

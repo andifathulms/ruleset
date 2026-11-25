@@ -9,6 +9,48 @@ summary: >
   arrives on its own schedule, in unequal instalments, and can only be used by
   one competitor at a time.
 
+walkthrough:
+  title: One heat, from the first wave to the result
+  intro: >
+    This is a shortboard heat in the ocean, the kind held at the Olympic
+    Games.
+  steps:
+    - label: The heat begins
+      body: >
+        Two to four surfers wait in the water at the break. The heat lasts
+        between twenty and thirty-five minutes. Nobody knows how many good
+        waves will come in that time.
+    - label: Who may choose
+      body: >
+        One surfer holds priority. That surfer may take any wave they want,
+        and the others must stay out of the way. A surfer without priority may
+        still ride a wave the priority surfer lets go.
+    - label: The ride
+      body: >
+        The surfer catches a wave, stands up and rides it. They try to perform
+        difficult manoeuvres with speed, power and flow, for as long as the
+        wave allows. Once a wave is taken, priority passes on.
+    - label: The score
+      body: >
+        Five judges give the ride a score out of ten. The highest and the
+        lowest scores are dropped and the other three are averaged. The judges
+        score the ride against what that wave made possible, so a small wave
+        ridden very well can beat a big wave ridden badly.
+    - label: Interference
+      body: >
+        A surfer must not drop in on the surfer with priority, or paddle to
+        block them. A surfer who does loses one of their two counting waves.
+    - label: The total
+      body: >
+        A surfer may ride many waves, but only the two best scores count. They
+        are added together to make the heat total. Catching more waves gives
+        no advantage by itself.
+    - label: Who wins
+      body: >
+        The surfer with the higher two-wave total advances to the next round.
+        The others are eliminated. The rounds go on until one surfer is left,
+        and that surfer wins the event.
+
 sections:
   - id: object
     label: The object of the heat
@@ -29,14 +71,10 @@ sections:
       alike. Competition venues are chosen for wave quality, which for the 2024
       Games meant holding Olympic surfing fifteen thousand kilometres from the
       host city.
-
-      From 2028 the Olympic field of play is an artificial pool that produces
-      the same wave every time.
     facts:
       - { label: Venue, value: "Chosen for waves, not location" }
       - { label: 2024 Olympic venue, value: "Teahupo'o, Tahiti" }
-      - { label: 2028 Olympic venue, value: Artificial wave pool }
-    shaped_by: [isa-2024-teahupoo-venue, isa-2025-wave-pool]
+    shaped_by: [isa-2024-teahupoo-venue]
 
   - id: equipment
     label: The board
