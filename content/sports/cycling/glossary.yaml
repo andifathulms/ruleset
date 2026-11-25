@@ -1,0 +1,95 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is raced, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: cycling
+terms:
+  - id: drafting
+    term: Drafting
+    definition: >
+      Riding close behind another rider to be sheltered from the wind. The
+      rider behind uses much less energy than the rider in front.
+    see: object
+  - id: peloton
+    term: Peloton
+    definition: >
+      The main group of riders in a road race. Riders stay in it because
+      riding in a group is easier than riding alone.
+    see: object
+  - id: road-race
+    term: Road race
+    definition: >
+      A race on roads in which all the riders start together. The first
+      across the line wins.
+    see: winning
+  - id: time-trial
+    term: Time trial
+    definition: >
+      A race against the clock. Riders start one at a time, and the fastest
+      time wins.
+    see: scoring
+  - id: stage-race
+    term: Stage race
+    definition: >
+      A road race held over several days, with one race, called a stage, each
+      day. Each rider's times are added together and the lowest total wins.
+    see: duration
+  - id: classic
+    term: Classic
+    definition: >
+      A famous road race that lasts a single day.
+    see: duration
+  - id: velodrome
+    term: Velodrome
+    definition: >
+      A banked oval track for cycling. The track used in international
+      competition is usually 250 metres around and made of timber.
+    see: field
+  - id: hour-record
+    term: Hour record
+    definition: >
+      The greatest distance one rider has covered alone on a track in exactly
+      one hour, from a standing start.
+    see: scoring
+  - id: starting-gate
+    term: Starting gate
+    definition: >
+      A device that holds the bicycle upright on the track and lets it go at
+      the start. It is used in pursuit and time trial events.
+    see: restarts
+  - id: sprinters-lane
+    term: Sprinter's lane
+    definition: >
+      The marked lane at the inside of the track. In a sprint, a rider may
+      not leave it to block an opponent.
+    see: prohibitions
+  - id: commissaire
+    term: Commissaire
+    definition: >
+      An official of a cycling race. Commissaires apply the rules during the
+      race and inspect the bicycles.
+    see: players
+  - id: double-triangle
+    term: Double-triangle frame
+    definition: >
+      The frame shape the rules require: two triangles of tubes joined along
+      one side, with the rider seated above the join.
+    see: equipment
+  - id: bottom-bracket
+    term: Bottom bracket
+    definition: >
+      The part at the bottom of the frame that the pedal cranks turn in. The
+      rules measure the rider's position from it.
+    see: equipment
+  - id: disc-wheel
+    term: Disc wheel
+    definition: >
+      A wheel with a solid surface in place of spokes, which passes through
+      the air more easily.
+  - id: technological-fraud
+    term: Technological fraud
+    definition: >
+      The offence of racing on a bicycle with a concealed motor. Officials
+      scan frames to look for one.
+    see: prohibitions

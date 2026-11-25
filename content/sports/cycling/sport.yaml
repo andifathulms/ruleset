@@ -1,6 +1,6 @@
 id: cycling
 label: Cycling
-tagline: Split its own record in two in 1997, ran both for seventeen years, then put them back together.
+tagline: Racing on bicycles, on open roads, banked tracks and dirt courses, won by the first rider across the line or the fastest against the clock.
 governing_body: Union Cycliste Internationale
 founded: Union Cycliste Internationale founded 1900.
 coverage: deep
@@ -9,12 +9,17 @@ classification:
   official: cycling
   game-category: performance
   adjudication: measured
+glance:
+  - { value: "250 m", label: one lap of an Olympic track }
+  - { value: "6.8 kg", label: lightest legal bicycle }
+  - { value: "3 weeks", label: longest road races }
 summary: >
-  The hour record is the most instructive series on this site. Faced with
-  equipment that had made old marks unreachable, the UCI did not reset the list
-  and did not leave it alone — it split it, running an equipment-restricted
-  record alongside an unrestricted one for seventeen years, and then reunified
-  them in 2014. Athletics reset, swimming retained, cycling did both at once
-  and then changed its mind. Nowhere else can those three answers be compared
-  against the same problem.
+  Cycling is racing on a bicycle. On the road, riders start together and the
+  first across the line wins, after one day or after three weeks of daily
+  stages added together. On the track, they race on a banked wooden oval, 250
+  metres around. A rider who follows closely behind another saves a great deal
+  of energy, so road racers ride in groups and in teams, and most of a team
+  works to shelter one leader until the last kilometres. The bicycle itself is
+  tightly defined by the rules, because so much of a rider's speed comes from
+  the machine.
 cover: cycling-keirin-2011

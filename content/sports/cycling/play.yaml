@@ -9,6 +9,47 @@ summary: >
   rulebook. More than any other sport here, its regulations describe an object
   rather than a contest, because the object is where the advantage lives.
 
+walkthrough:
+  title: One road race, from the start line to the finish
+  intro: >
+    Cycling has many events. This is the road race, the most widely known of
+    them, in the order it happens.
+  steps:
+    - label: The bicycle
+      body: >
+        Every bicycle must match the federation's definition. The frame is a
+        double triangle of tubes, the whole machine weighs at least 6.8 kg,
+        and a hidden motor is forbidden. Officials called commissaires may
+        inspect the bicycles and scan the frames.
+    - label: The start
+      body: >
+        All the riders start together on the line. There is no starting gate
+        and the clock does not stop until the finish.
+    - label: Riding in the group
+      body: >
+        A rider close behind another is sheltered from the wind and saves a
+        great deal of energy. So the riders stay together in a group and take
+        shelter from each other, even though they are rivals.
+    - label: The team at work
+      body: >
+        Riders race in teams, and most members of a team are not trying to
+        win. Their job is to shelter one teammate from the wind so that this
+        rider is still fresh near the end.
+    - label: What is not allowed
+      body: >
+        A rider may not take shelter behind a vehicle or hold onto one. Food
+        and drink may be taken only in the permitted zones. A bicycle outside
+        the specification is also an offence.
+    - label: The last kilometres
+      body: >
+        Near the finish the cooperation ends and every rider or team races
+        for itself. The first rider across the line wins.
+    - label: One day or three weeks
+      body: >
+        A one-day race ends there. In a stage race the riders race again day
+        after day, for up to three weeks, and each rider's times are added
+        together. The lowest total time wins, sometimes by a few seconds.
+
 sections:
   - id: object
     label: The object of the events
