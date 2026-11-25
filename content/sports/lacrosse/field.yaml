@@ -1,0 +1,29 @@
+# The Sixes field as a schematic. play.yaml gives no measurements for it, so
+# nothing here is drawn to scale and no dimension is shown.
+sport: lacrosse
+title: The Sixes field and the crease
+eyebrow: Sixes
+caption: >
+  The field for Sixes, the Olympic form. Each goal stands inside a circle
+  called the crease. An attacker may not step into
+  the crease, so every shot is taken from outside the circle. Field lacrosse
+  is played on a larger pitch with extra lines, and box lacrosse on an indoor
+  rink.
+alt: >
+  A rectangular lacrosse field with a centre line and, near each end, a goal
+  standing inside a circular crease.
+scale: schematic
+view: [-1, -1.3, 11, 5.8]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 10, h: 5, fill: area }
+  - { type: line, x1: 5, y1: 0, x2: 5, y2: 5, line: faint }
+  - { type: circle, cx: 1.6, cy: 2.5, r: 0.55, fill: zone }
+  - { type: circle, cx: 8.4, cy: 2.5, r: 0.55, fill: zone }
+  - { type: line, x1: 1.6, y1: 2.25, x2: 1.6, y2: 2.75, line: heavy }
+  - { type: line, x1: 8.4, y1: 2.25, x2: 8.4, y2: 2.75, line: heavy }
+  - { type: label, x: 1.6, y: 1.55, text: "crease", tone: chalk }
+  - { type: label, x: 8.4, y: 1.55, text: "goal", tone: chalk }
+  - { type: label, x: 5, y: -0.6, text: "six players a side", tone: muted }
+legend:
+  - { swatch: zone, label: "crease, closed to attackers" }
+  - { swatch: heavy, label: goal }

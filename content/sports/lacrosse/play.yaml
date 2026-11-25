@@ -9,6 +9,43 @@ summary: >
   team sizes, fields and contact rules, and the Olympic one — Sixes — did not
   exist before 2021.
 
+walkthrough:
+  title: One possession in Sixes, from the goalkeeper to the goal
+  intro: >
+    This follows Sixes, the six-a-side Olympic form; field and box lacrosse
+    differ in team size, field and contact.
+  steps:
+    - label: The goalkeeper starts play
+      body: >
+        In Sixes there is no face-off after a goal. The goalkeeper has the
+        ball and passes it out, and the team attacks at once.
+    - label: Carrying and passing
+      body: >
+        The ball is never dribbled or kicked along. A player carries it in the
+        net of the stick, or throws it to a teammate who catches it in theirs.
+        All six players attack and all six defend, because Sixes has no
+        specialist positions.
+    - label: The check
+      body: >
+        A defender may knock the ball out of the net with a legal check. In
+        the men's game that can be a check on the stick or the body, within
+        limits. In the women's game body checking is not allowed and the space
+        around a player's head is protected.
+    - label: The shot clock
+      body: >
+        The team with the ball must shoot before the shot clock runs out. It
+        cannot hold the ball to protect a lead.
+    - label: The shot
+      body: >
+        A player may shoot from anywhere outside the crease, the circle around
+        the goal. An attacker may not step into the crease. If the ball goes
+        into the goal, it is one goal and one point.
+    - label: The match
+      body: >
+        A Sixes match lasts about forty minutes, in short quarters. The team
+        with more goals wins. A knockout match that is level goes to
+        sudden-death overtime, and the next goal ends it.
+
 sections:
   - id: object
     label: The object of the game

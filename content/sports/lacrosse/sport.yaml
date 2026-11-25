@@ -1,6 +1,6 @@
 id: lacrosse
 label: Lacrosse
-tagline: Invented a whole new format in 2021 to get into the Games, and is the only sport whose founding nation had to fight for the right to enter.
+tagline: "A fast team game in which players carry, pass and shoot a hard rubber ball with a netted stick, and try to put it in the other team's goal."
 governing_body: World Lacrosse
 founded: >
   Indigenous to the Haudenosaunee and other First Nations; codified in Montreal
@@ -11,12 +11,16 @@ classification:
   official: lacrosse
   game-category: invasion
   adjudication: decided-by-score
+glance:
+  - { value: "6", label: players a side in Sixes }
+  - { value: "10", label: a side in field lacrosse }
+  - { value: "≈ 40 min", label: a Sixes match }
 summary: >
-  Two things put lacrosse on this site. It invented a format — Sixes — in 2021
-  specifically to meet Olympic requirements, which is the same move rugby made
-  with sevens and the most explicit case of a sport designing a version of
-  itself for admission. And it is the only sport here whose originating nation
-  competes as a nation: the Haudenosaunee Nationals, whose people invented the
-  game, have had to fight repeatedly for recognition and for the right to
-  travel on their own passports.
+  Lacrosse is played with a crosse, a stick with a net at its head. Players
+  carry the ball in the net, pass it through the air and shoot at a goal
+  guarded by a goalkeeper. A defender may knock the ball out of the net with a
+  legal check, so no player holds it safely for long, and play can go from one
+  goal to the other in seconds. The game has several forms. Field lacrosse is
+  ten a side on a large pitch, box lacrosse is played indoors on a rink, and
+  Sixes, the Olympic form, is six a side on a smaller field with a shot clock.
 cover: lacrosse-box-faceoff

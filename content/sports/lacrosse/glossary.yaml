@@ -1,0 +1,89 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: lacrosse
+terms:
+  - id: crosse
+    term: Crosse
+    definition: >
+      The lacrosse stick: a shaft with a netted head at one end. The ball is
+      caught, carried and thrown with the net.
+    see: equipment
+  - id: pocket
+    term: Pocket
+    definition: >
+      The part of the net where the ball sits. The rules limit how deep it may
+      be, because a deep pocket makes the ball hard to knock out.
+    see: equipment
+  - id: cradle
+    term: Cradling
+    definition: >
+      Rocking the stick while running so that the ball stays in the pocket.
+  - id: check
+    term: Check
+    definition: >
+      A defender's attempt to knock the ball out of an opponent's stick, or to
+      move the opponent off the ball. Only some checks are legal.
+    see: prohibitions
+  - id: body-check
+    term: Body check
+    definition: >
+      A check made with the body against an opponent. It is allowed within
+      limits in the men's game and not allowed in the women's game.
+    see: prohibitions
+  - id: slashing
+    term: Slashing
+    definition: >
+      Swinging the stick at an opponent in a way the rules do not allow. It is
+      a foul.
+    see: prohibitions
+  - id: crease
+    term: Crease
+    definition: >
+      The circle marked around each goal. An attacker may not enter it, so
+      every shot comes from outside.
+    see: scoring
+  - id: shot-clock
+    term: Shot clock
+    definition: >
+      A clock that counts down while a team has the ball. The team must shoot
+      before it reaches zero.
+    see: duration
+  - id: face-off
+    term: Face-off
+    definition: >
+      The restart used in field lacrosse at the start of each quarter and
+      after a goal. Two players crouch over the ball and fight for it. Sixes
+      does not use it after a goal.
+    see: restarts
+  - id: penalty-box
+    term: Penalty box
+    definition: >
+      Where a player sits out after a foul. The player's team has one player
+      fewer on the field for that time.
+    see: prohibitions
+  - id: long-stick
+    term: Long stick
+    definition: >
+      The longer crosse carried by defenders in field lacrosse. It is not
+      permitted in Sixes.
+    see: equipment
+  - id: sixes
+    term: Sixes
+    definition: >
+      The six-a-side form of lacrosse, played on a smaller field with a shot
+      clock and no specialist positions. It is the Olympic form.
+    see: field
+  - id: field-lacrosse
+    term: Field lacrosse
+    definition: >
+      The traditional outdoor form, ten a side on a large pitch, with a set
+      number of players required to stay in each half.
+    see: field
+  - id: box-lacrosse
+    term: Box lacrosse
+    definition: >
+      The indoor form, six a side, played on the floor of a hockey rink.
+    see: field
