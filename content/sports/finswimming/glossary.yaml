@@ -1,0 +1,85 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is raced, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: finswimming
+terms:
+  - id: monofin
+    term: Monofin
+    definition: >
+      A single large blade with a place for both feet. The swimmer's legs
+      move together to drive it.
+    see: equipment
+  - id: bi-fins
+    term: Bi-fins
+    definition: >
+      Two ordinary fins, one on each foot. Bi-fins races are a discipline of
+      their own, with their own records.
+    see: equipment
+  - id: dolphin-kick
+    term: Dolphin kick
+    definition: >
+      A kick with both legs together, in a wave that starts at the chest and
+      runs through the hips to the fin.
+    see: equipment
+  - id: snorkel
+    term: Snorkel
+    definition: >
+      A breathing tube worn at the centre of the face and over the forehead.
+      It lets the swimmer breathe with the head down, and it is required in
+      surface races.
+    see: equipment
+  - id: surface
+    term: Surface
+    definition: >
+      The discipline swum face-down along the top of the water with a monofin
+      and a snorkel. It has the most distances and the only relays.
+    see: field
+  - id: apnea
+    term: Apnea
+    definition: >
+      The discipline swum entirely under the water on a single breath. It is
+      raced over 50 metres only.
+    see: duration
+  - id: immersion
+    term: Immersion
+    definition: >
+      The discipline swum under the water while breathing from a cylinder of
+      compressed air that the swimmer carries.
+    see: equipment
+  - id: cylinder
+    term: Cylinder
+    definition: >
+      The small tank of compressed air an immersion swimmer carries through
+      the race and breathes from.
+    see: equipment
+  - id: surfacing
+    term: Surfacing
+    definition: >
+      Breaking the surface of the water during an apnea race. It ends the
+      swimmer's race.
+    see: prohibitions
+  - id: touchpad
+    term: Touchpad
+    definition: >
+      The pad on the end wall of each lane. The swimmer's touch stops the
+      clock, to a hundredth of a second.
+    see: duration
+  - id: false-start
+    term: False start
+    definition: >
+      Leaving the starting block before the start signal.
+    see: prohibitions
+  - id: relay
+    term: Relay
+    definition: >
+      A race between teams, in which each swimmer covers one part of the
+      distance in turn. Relays are held in the surface discipline.
+    see: players
+  - id: record-book
+    term: Record book
+    definition: >
+      The list of best times. Finswimming keeps a separate one for each
+      discipline, each distance and each kind of fin, and never mixes them.
+    see: scoring

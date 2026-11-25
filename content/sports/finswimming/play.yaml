@@ -9,6 +9,44 @@ summary: >
   carrying a compressed-air cylinder. There is also a bi-fins discipline, using
   two conventional fins, kept in a separate record book.
 
+walkthrough:
+  title: One race, from the blocks to the touchpad
+  intro: >
+    This follows a 100 metre surface race, the main discipline: two lengths
+    of the pool with a monofin and a snorkel.
+  steps:
+    - label: The kit
+      body: >
+        The swimmer wears a monofin, one large blade on both feet. Its size
+        must be inside the permitted dimensions. A surface race also needs a
+        snorkel, worn at the centre of the face.
+    - label: The start
+      body: >
+        There is one swimmer in each lane. They dive from starting blocks, as
+        in swimming. Leaving before the signal is a false start.
+    - label: The swim
+      body: >
+        The swimmer lies face-down on the surface and breathes through the
+        snorkel, so the head stays down for the whole race. The legs kick
+        together in a dolphin kick that runs through the whole body. No aid
+        other than the fin may push the swimmer along.
+    - label: The turn
+      body: >
+        At the end of the first length the swimmer must touch the wall, then
+        rotates and pushes off for the second. Each swimmer stays in their
+        own lane and must not get in the way of another.
+    - label: Races under the water
+      body: >
+        Apnea and immersion races are swum below the surface. An apnea race
+        is 50 metres on one breath, and a swimmer who breaks the surface is
+        out of the race. An immersion swimmer carries a cylinder of
+        compressed air and breathes from it.
+    - label: The finish
+      body: >
+        The swimmer touches a pad on the wall, and it stops the clock to a
+        hundredth of a second. There are heats and then a final. The fastest
+        time in the final wins.
+
 sections:
   - id: object
     label: The object of the game

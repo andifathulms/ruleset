@@ -1,0 +1,29 @@
+# The pool seen from the side. The length is the fact in play.yaml; the depth
+# is not given there, so the drawing is schematic.
+sport: finswimming
+title: One pool, raced at two levels
+eyebrow: Side view
+caption: >
+  The pool is 50 metres long, with lanes as in swimming. Surface races are
+  swum face-down along the top of the water. Apnea and immersion races are
+  swum under it, usually close to the bottom, and in apnea a swimmer who
+  comes up to the surface is out of the race.
+alt: >
+  A side view of a 50 metre pool. One swimmer is shown at the surface and
+  another near the bottom, with a starting block at the left end.
+scale: schematic
+view: [-5, -6, 55, 16]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 50, h: 9, fill: area }
+  - { type: rect, x: 0, y: 0, w: 50, h: 1.6, fill: zone, line: none }
+  - { type: rect, x: -2.2, y: -1.2, w: 2.2, h: 1.2, fill: surface }
+  - { type: label, x: -1.1, y: -2.4, text: "block", tone: muted }
+  - { type: label, x: 25, y: -2.4, text: "water surface", tone: muted }
+  - { type: dot, x: 16, y: 0.8 }
+  - { type: label, x: 18, y: 3.1, text: "surface race: snorkel", anchor: "start" }
+  - { type: dot, x: 34, y: 7.6 }
+  - { type: label, x: 32, y: 6.1, text: "apnea or immersion", anchor: "end" }
+  - { type: dim, x1: 0, y1: 12, x2: 50, y2: 12, text: "50 m" }
+legend:
+  - { swatch: zone, label: "where surface races are swum" }
+  - { swatch: area, label: "where apnea and immersion are swum" }

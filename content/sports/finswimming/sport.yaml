@@ -1,6 +1,6 @@
 id: finswimming
 label: Finswimming
-tagline: "The fastest a human can move through water, and a sport that could never ban its equipment because the equipment is the sport."
+tagline: Pool racing in fins. A swimmer drives one large fin with both legs and moves faster than any swimming stroke.
 governing_body: CMAS
 founded: >
   Governed since 1959 by CMAS, the world underwater federation founded with
@@ -12,11 +12,16 @@ classification:
   official: finswimming
   game-category: performance
   adjudication: measured
+glance:
+  - { value: "1", label: fin worn on both feet }
+  - { value: "50 m", label: pool length }
+  - { value: "3", label: ways of breathing }
 summary: >
-  Racing in a pool with a monofin — a single large fin worn on both feet, driven
-  by a dolphin kick — and, in the surface events, a snorkel. It is substantially
-  faster than swimming over the same distances, which makes it the quickest
-  form of human-powered movement in water. It also occupies the opposite corner
-  from swimming on this site's central question: swimming banned the supersuits
-  and kept the records, while finswimming cannot ban its equipment at all.
+  Finswimming is racing in a fifty-metre pool, in lanes, against the clock.
+  The swimmer wears a monofin, a single large blade on both feet, and drives
+  it with a dolphin kick of the whole body. The same distances are raced in
+  three ways: on the surface with a snorkel, under the water on one breath,
+  and under the water with a cylinder of compressed air. A fourth discipline
+  uses two ordinary fins. The fastest time wins, and each discipline keeps
+  its own records.
 cover: finswimming-monofin-bifins
