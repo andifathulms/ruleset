@@ -1,0 +1,36 @@
+# The infield, from the measurements in play.yaml. Shapes are in feet.
+sport: softball
+title: A small diamond and a flat circle
+caption: >
+  The four bases make a square with sides of 60 feet. The pitcher throws
+  underhand from a flat circle, 43 feet from home plate in the women's game.
+  The outfield and its fence are not drawn.
+alt: >
+  A softball infield seen from above: a square of four bases 60 feet apart
+  standing on one corner, with home plate at the bottom, a pitching circle
+  around a point 43 feet from home plate, and two lines running out from home
+  plate past first and third base.
+scale: to-scale
+view: [-92, -112, 92, 22]
+shapes:
+  - { type: polygon, points: [[0, 0], [92, -92], [92, -112], [-92, -112], [-92, -92]], fill: area, line: none }
+  - { type: polygon, points: [[0, 0], [42.43, -42.43], [0, -84.85], [-42.43, -42.43]], fill: zone }
+  - { type: line, x1: 0, y1: 0, x2: 92, y2: -92 }
+  - { type: line, x1: 0, y1: 0, x2: -92, y2: -92 }
+  - { type: circle, cx: 0, cy: -43, r: 8, fill: target }
+  - { type: dim, x1: 0, y1: -4, x2: 0, y2: -34, text: "43 ft" }
+  - { type: dot, x: 0, y: -43 }
+  - { type: dot, x: 0, y: 0, label: "home plate" }
+  - { type: dot, x: 42.43, y: -42.43 }
+  - { type: dot, x: 0, y: -84.85 }
+  - { type: dot, x: -42.43, y: -42.43 }
+  - { type: label, x: 48, y: -38.5, text: "first base", anchor: start }
+  - { type: label, x: 0, y: -92, text: "second base" }
+  - { type: label, x: -48, y: -38.5, text: "third base", anchor: end }
+  - { type: label, x: 28, y: -16, text: "60 ft", anchor: start, tone: muted }
+  - { type: label, x: 0, y: -57, text: "pitcher" }
+  - { type: label, x: 0, y: -104, text: "outfield", tone: muted }
+legend:
+  - { swatch: target, label: "pitching circle, 8 ft radius" }
+  - { swatch: zone, label: "the diamond, 60 ft a side" }
+  - { swatch: area, label: fair ground }

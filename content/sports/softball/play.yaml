@@ -9,6 +9,44 @@ summary: >
   distance cancels the slower delivery, so a batter has about as long to decide
   as they would against a baseball from sixty feet, against a ball that rises.
 
+walkthrough:
+  title: One turn at bat in fastpitch, from the pitch to the run
+  intro: >
+    Fastpitch is the competitive form of the game, and a match is this
+    sequence repeated for seven innings.
+  steps:
+    - label: Two teams, two jobs
+      body: >
+        One team bats and the other fields, with nine players on the field.
+        The batting team sends one batter at a time to home plate. After three
+        outs the teams swap.
+    - label: The pitch
+      body: >
+        The pitcher stands in a flat circle, 43 feet from the batter in the
+        women's game. Both feet must touch the pitching plate at the start.
+        The throw is underhand: the hand passes below the hip, with the wrist
+        no further from the body than the elbow.
+    - label: The hit
+      body: >
+        The batter tries to hit the ball and run to first base, 60 feet away.
+        Batters often bunt or slap the ball a short way and run, because runs
+        are hard to get. A runner already on a base may not leave it until the
+        pitcher has released the ball.
+    - label: The out
+      body: >
+        The fielding team tries to put the batter and the runners out. Three
+        outs end the batting team's turn, and the other team comes in to bat.
+    - label: The run
+      body: >
+        A runner who gets round the bases and back to home plate scores one
+        run. Scores are usually low, so each run matters a great deal.
+    - label: Seven innings and the win
+      body: >
+        Each team bats seven times, and the team with more runs wins. If the
+        score is level, extra innings are played, and each half-inning starts
+        with a runner already on second base. A game that is far out of reach
+        is ended early by the run-ahead rule.
+
 sections:
   - id: object
     label: The object of the game
@@ -31,6 +69,7 @@ sections:
       - { label: Base paths, value: 60 ft }
       - { label: "Pitching distance, women", value: 43 ft }
       - { label: Pitching area, value: "A flat circle, not a mound" }
+      - { label: Pitching circle radius, value: 8 ft }
       - { label: Innings, value: "7" }
     shaped_by: [softball-underhand-pitching]
 

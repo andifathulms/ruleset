@@ -1,0 +1,102 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: softball
+terms:
+  - id: fastpitch
+    term: Fastpitch
+    definition: >
+      The competitive form of softball. The pitcher throws underhand as hard
+      as the rules allow, and the pitch is the centre of the game.
+    see: restarts
+  - id: slowpitch
+    term: Slowpitch
+    definition: >
+      The recreational form of softball. The pitch must travel in a high arc,
+      so it is easy to hit and the game is mostly about batting.
+  - id: run
+    term: Run
+    definition: >
+      The unit of scoring. A team scores one run each time one of its players
+      gets round all the bases and back to home plate.
+    see: scoring
+  - id: out
+    term: Out
+    definition: >
+      The end of one player's turn as a batter or a runner. Three outs end a
+      team's turn at bat.
+    see: object
+  - id: inning
+    term: Inning
+    definition: >
+      One round of the game, in which each team bats once until it has made
+      three outs. A game has seven innings.
+    see: duration
+  - id: pitching-circle
+    term: Pitching circle
+    definition: >
+      The flat circle in the middle of the diamond that the pitcher throws
+      from. Softball has no raised mound.
+    see: field
+  - id: pitching-plate
+    term: Pitching plate
+    definition: >
+      The strip in the pitching circle that the pitcher must touch with both
+      feet at the start of the throw.
+    see: restarts
+  - id: windmill
+    term: Windmill
+    definition: >
+      The usual fastpitch throw. The arm swings in a full circle and lets the
+      ball go low, beside the hip.
+  - id: rise-ball
+    term: Rise ball
+    definition: >
+      An underhand pitch that climbs as it reaches the batter. It is hard to
+      hit because a batter expects a thrown ball to drop.
+    see: restarts
+  - id: illegal-pitch
+    term: Illegal pitch
+    definition: >
+      A pitch thrown in a way the rules forbid, such as with an illegal arm
+      movement or after a crow hop. The umpire calls it and the pitcher is
+      penalised.
+    see: prohibitions
+  - id: crow-hop
+    term: Crow hop
+    definition: >
+      An illegal move in which the pitcher's back foot leaves the ground and
+      lands again before the ball is thrown. It lets the pitcher throw from
+      closer to the batter.
+    see: prohibitions
+  - id: strike-zone
+    term: Strike zone
+    definition: >
+      The space over home plate that a pitch must pass through to count
+      against a batter who does not swing. The umpire judges it by eye.
+  - id: bunt
+    term: Bunt
+    definition: >
+      A soft hit made by holding the bat still and letting the ball tap it, so
+      that the ball stops close to home plate.
+    see: scoring
+  - id: slap-hit
+    term: Slap hit
+    definition: >
+      A short, quick hit made by a batter who is already moving towards first
+      base. It is used to reach base by speed.
+    see: scoring
+  - id: tie-breaker
+    term: Tie-breaker
+    definition: >
+      The rule for extra innings. Each half-inning starts with a runner
+      already on second base, so that a run is likely and the game ends.
+    see: duration
+  - id: run-ahead-rule
+    term: Run-ahead rule
+    definition: >
+      A rule that ends a game early when one team is so far ahead that the
+      other cannot be expected to catch up.
+    see: winning

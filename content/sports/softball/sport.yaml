@@ -1,6 +1,6 @@
 id: softball
 label: Softball
-tagline: Invented the tie-breaker rule baseball adopted eighty years later, and shares an Olympic listing with the sport it is not.
+tagline: A bat-and-ball game for two teams of nine, played on a small diamond with a large ball that the pitcher throws underhand.
 governing_body: World Baseball Softball Confederation
 founded: >
   Invented in Chicago in 1887 as an indoor version of baseball; the
@@ -11,11 +11,16 @@ classification:
   official: softball
   game-category: striking-and-fielding
   adjudication: decided-by-score
+glance:
+  - { value: "9", label: fielders a side }
+  - { value: "7", label: innings in a game }
+  - { value: "43 ft", label: "pitching distance, women" }
 summary: >
-  Softball is not small baseball. The pitch is underhand from forty-three feet,
-  which gives a batter about the same reaction time as a baseball thrown from
-  sixty — so the sport's central confrontation is comparably hard and looks
-  nothing like it. It also solved extra innings decades before baseball did,
-  with a rule baseball eventually copied, and it appears on the Olympic
-  programme as half of a listing shared with a different sport.
+  Softball is played by two teams of nine on a diamond of four bases set 60
+  feet apart. One team bats while the other fields, and they swap after three
+  outs. The pitcher throws underhand from a flat circle, and the batter tries
+  to hit the ball and run round the bases to score a run. A game lasts seven
+  innings, and the team with more runs wins. The pitcher stands very close to
+  the batter, so the batter has little time to decide, and the ball can rise
+  as it arrives. Runs are few, and one run often decides a game.
 cover: softball-home-plate
