@@ -2,7 +2,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import yaml from 'js-yaml'
 import type {
-  Cause, Events, Learning, Lens, Play, Program, RuleChange, Series, Source,
+  Cause, Events, Glossary, Learning, Lens, Play, Program, RuleChange, Series, Source,
   SeriesBreak, SourcedImage, Sport,
 } from './types'
 import { CONTEST_STATUS, LAW_SECTIONS } from './types'
@@ -262,6 +262,49 @@ function assertPlayIsClean(sport: string, play: Play): void {
       }
       labels.add(fact.label)
     }
+  }
+  if (play.walkthrough) {
+    const steps = play.walkthrough.steps
+    if (!play.walkthrough.title || !Array.isArray(steps) || steps.length === 0) {
+      throw new Error(`play.yaml (${sport}): walkthrough needs a title and at least one step`)
+    }
+    for (const step of steps) {
+      if (typeof step.label !== 'string' || typeof step.body !== 'string') {
+        throw new Error(
+          `play.yaml (${sport}): a walkthrough step is missing its label or body — check for an unquoted colon`,
+        )
+      }
+    }
+  }
+}
+
+/**
+ * A sport's glossary, if it has one. Ids are what the prose links to, so a
+ * duplicate would send two different words to one definition; `see` must name
+ * a clause the sport's own laws actually have.
+ */
+export function getGlossary(id: string): Glossary | null {
+  const file = path.join(SPORTS, id, 'glossary.yaml')
+  if (!fs.existsSync(file)) return null
+  const glossary = parse<Glossary>(fs.readFileSync(file, 'utf8'))
+  const clauses = new Set(getPlay(id)?.sections.map((s) => s.id) ?? [])
+  const seen = new Set<string>()
+  for (const t of glossary.terms) {
+    if (!/^[a-z0-9-]+$/.test(t.id ?? '')) {
+      throw new Error(`glossary.yaml (${id}): "${t.id}" is not a usable id — lower case, digits and hyphens only`)
+    }
+    if (typeof t.term !== 'string' || typeof t.definition !== 'string') {
+      throw new Error(`glossary.yaml (${id}): "${t.id}" is missing its term or definition — check for an unquoted colon`)
+    }
+    if (seen.has(t.id)) throw new Error(`glossary.yaml (${id}): two terms share the id "${t.id}"`)
+    seen.add(t.id)
+    if (t.see && !clauses.has(t.see)) {
+      throw new Error(`glossary.yaml (${id}): "${t.id}" points at clause "${t.see}", which this sport's play.yaml does not have`)
+    }
+  }
+  return {
+    ...glossary,
+    terms: [...glossary.terms].sort((a, b) => a.term.localeCompare(b.term)),
   }
 }
 

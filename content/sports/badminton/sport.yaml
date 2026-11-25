@@ -1,6 +1,6 @@
 id: badminton
 label: Badminton
-tagline: The racket sport that rewrote its scoring for television and severed its own statistics doing it.
+tagline: A net game for two or four players, hit with rackets and played with a feathered shuttle that must never touch the floor.
 governing_body: Badminton World Federation
 founded: >
   International Badminton Federation founded 1934; renamed Badminton World
@@ -11,12 +11,17 @@ classification:
   official: racket-sports
   game-category: net-and-wall
   adjudication: decided-by-score
+glance:
+  - { value: "2 or 4", label: players on court }
+  - { value: "21", label: points to win a game }
+  - { value: "13.4 m", label: court length }
 summary: >
-  Badminton's rules are mostly rules about scoring, and its scoring has been
-  rewritten twice in twenty years for the same reason both times: nobody could
-  tell a broadcaster how long a match would take. The 2006 switch to 21-point
-  rally scoring is the cleanest case in this collection of a governing body
-  stating its reason plainly, and it severed every match statistic before it
-  from every one after.
+  Badminton is played across a high net on a court about half the length of a
+  tennis court. Players hit a shuttlecock, a cork base with sixteen feathers,
+  back and forth until it lands on the floor or someone makes a fault. Every
+  rally scores a point, a game goes to 21, and a match is the best of three
+  games. The shuttle is what makes the sport: it slows so sharply in the air
+  that it cannot be hit long from anywhere, so the court is small and the
+  game is played close, fast and overhead.
 cover: badminton-istora-2026
 cover_position: "50% 85%"

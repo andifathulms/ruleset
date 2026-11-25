@@ -1,0 +1,86 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: badminton
+terms:
+  - id: shuttle
+    term: Shuttle
+    definition: >
+      The shuttlecock: a rounded cork base with sixteen feathers, or a plastic
+      skirt, fixed to it. It always flies base first, and it slows down far
+      more quickly than a ball.
+    see: equipment
+  - id: rally
+    term: Rally
+    definition: >
+      One exchange of shots, from the serve until the shuttle lands or a fault
+      is called. Every rally ends with a point for one side.
+    see: object
+  - id: service-court
+    term: Service court
+    definition: >
+      The box a serve must land in. Each side of the net has a right and a left
+      service court, and the serve always goes to the one diagonally opposite
+      the server.
+    see: field
+  - id: tramlines
+    term: Tramlines
+    definition: >
+      The narrow strips between the paired lines at the sides and the back of
+      the court. Whether a tramline is in or out depends on whether the match
+      is singles or doubles, and on whether the shot is a serve.
+    see: field
+  - id: fault
+    term: Fault
+    definition: >
+      Any breach of the laws that ends the rally, such as hitting the shuttle
+      out, touching the net, or serving from above the legal height. The other
+      side wins the point.
+    see: prohibitions
+  - id: let
+    term: Let
+    definition: >
+      A rally that is stopped and replayed with no point scored, called by the
+      umpire when something outside the game interferes with it.
+  - id: clear
+    term: Clear
+    definition: >
+      A high shot hit to the back of the opponent's court. It buys time and
+      pushes the opponent away from the net.
+  - id: drop
+    term: Drop shot
+    definition: >
+      A soft shot from the back of the court that falls just over the net.
+  - id: smash
+    term: Smash
+    definition: >
+      A hard overhead shot hit steeply downward. It is the main attacking shot
+      and the fastest stroke in the game.
+  - id: drive
+    term: Drive
+    definition: >
+      A fast, flat shot that crosses just above the net, used most in doubles.
+  - id: lift
+    term: Lift
+    definition: >
+      An underhand shot played from near the net, high to the back of the
+      opponent's court. It is the defensive answer to a drop shot.
+  - id: net-shot
+    term: Net shot
+    definition: >
+      A gentle shot played from close to the net that tumbles over and falls
+      close to it on the other side.
+  - id: rally-scoring
+    term: Rally scoring
+    definition: >
+      The scoring used since 2006. A point is scored on every rally, by
+      whichever side wins it.
+    see: scoring
+  - id: side-out
+    term: Side-out scoring
+    definition: >
+      The scoring used until 2006. Only the serving side could score. When the
+      receiving side won a rally it won the serve, and no point.
+    see: scoring

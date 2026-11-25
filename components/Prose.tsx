@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { MDXRemote } from 'next-mdx-remote/rsc'
 import PhotoSet from './PhotoSet'
 import type { SourcedImage } from '@/lib/types'
@@ -32,9 +33,15 @@ const components = {
     <blockquote className="my-6 border-l-2 border-chalk/35 pl-5 text-chalk/75" {...p} />
   ),
   hr: () => <hr className="my-10 border-0 border-t chalk-rule" />,
-  a: (p: React.AnchorHTMLAttributes<HTMLAnchorElement>) => (
-    <a className="link-paint text-chalk" {...p} />
-  ),
+  /* A link to another page of this site goes through next/link, which adds
+     the base path the site is served under; a raw href would leave it off
+     and break on GitHub Pages. */
+  a: ({ href = '', ...p }: React.AnchorHTMLAttributes<HTMLAnchorElement>) =>
+    href.startsWith('/') ? (
+      <Link href={href} className="link-paint text-chalk" {...p} />
+    ) : (
+      <a href={href} className="link-paint text-chalk" {...p} />
+    ),
 }
 
 /**
@@ -48,10 +55,13 @@ export default function Prose({
   source,
   images = {},
   colour,
+  terms,
 }: {
   source: string
   images?: Record<string, SourcedImage>
   colour?: string
+  /** The ids in the sport's glossary, which `<Term id="…">` links to. */
+  terms?: Set<string>
 }) {
   const lookup = (id: string) => {
     const image = images[id]
@@ -64,9 +74,19 @@ export default function Prose({
       <PhotoSet images={ids.split(/\s+/).filter(Boolean).map(lookup)} colour={colour} />
     ),
   }
+  /* A glossary link. An id the glossary does not have fails the build, for
+     the same reason a missing photograph does. */
+  const Term = ({ id, children }: { id: string; children: React.ReactNode }) => {
+    if (!terms?.has(id)) throw new Error(`Prose links to a glossary term that does not exist: ${id}`)
+    return (
+      <a href={`#term-${id}`} className="term-link">
+        {children}
+      </a>
+    )
+  }
   return (
     <div className="prose-measure">
-      <MDXRemote source={source} components={{ ...components, ...photos }} />
+      <MDXRemote source={source} components={{ ...components, ...photos, Term }} />
     </div>
   )
 }

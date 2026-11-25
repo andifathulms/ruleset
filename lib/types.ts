@@ -217,7 +217,40 @@ export interface Play {
   /** How far the figures below have been checked against that edition. */
   standing: SourceStanding
   summary: string
+  /**
+   * The game told in the order it happens: one rally, or one attempt, from
+   * its start to the score changing. The sections below are the reference,
+   * arranged by clause; this is the explanation, arranged by time, for a
+   * reader who has never watched the sport.
+   */
+  walkthrough?: Walkthrough
   sections: LawSection[]
+}
+
+export interface Walkthrough {
+  title: string
+  intro?: string
+  steps: { label: string; body: string }[]
+}
+
+/* ----------------------------------------------------------------- glossary */
+
+/**
+ * The sport's own words. A term is defined once here and linked from the
+ * prose with `<Term id="…">`, so an essay can use "clear" or "let" without
+ * stopping to explain it and without assuming the reader knows.
+ */
+export interface GlossaryTerm {
+  id: string
+  term: string
+  definition: string
+  /** The clause of the laws where the term is at work, if there is one. */
+  see?: LawSectionId
+}
+
+export interface Glossary {
+  sport: string
+  terms: GlossaryTerm[]
 }
 
 /* ------------------------------------------------------------ learning curve */
@@ -384,6 +417,12 @@ export interface Sport {
   family_colour: FamilyColour
   classification: Record<string, string>
   summary?: string
+  /**
+   * Three figures that describe the game itself — players, target score, the
+   * size of the court — for the header. Left out, the header counts the
+   * sport's rule changes instead.
+   */
+  glance?: { value: string; label: string }[]
   /**
    * The id of one of the sport's own photographs in images.yaml, used as its
    * cover on the index card and across the page header. It carries its

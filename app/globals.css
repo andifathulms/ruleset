@@ -359,6 +359,34 @@
     background-size: 100% 1px;
   }
 
+  /* Links inside an essay. `link-paint` only draws on hover, which is right
+     for navigation and wrong in running text, where a link nobody can see is
+     a link nobody follows. A glossary link is dotted: it explains a word
+     rather than leaving the page. */
+  .prose-measure a {
+    background-image: none;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+    text-decoration-color: rgb(var(--chalk-rgb) / 0.45);
+    transition: text-decoration-color 0.2s;
+  }
+
+  .prose-measure a:hover,
+  .prose-measure a:focus-visible {
+    text-decoration-color: currentColor;
+  }
+
+  .prose-measure a.term-link {
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1.5px;
+  }
+
+  /* The definition a glossary link lands on. */
+  .term:target {
+    box-shadow: inset 3px 0 0 var(--chalk);
+  }
+
   /*
     Two of these overlap on one painted track to make the date range. The
     input itself is transparent and only the thumb is drawn, so both handles

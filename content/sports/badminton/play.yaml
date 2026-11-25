@@ -15,6 +15,45 @@ summary: >
   the rallies are fast, and almost every law that matters is a law about the
   serve.
 
+walkthrough:
+  title: One rally, from the serve to the point
+  intro: >
+    Everything in a match is this sequence repeated, a few hundred times.
+  steps:
+    - label: Who serves, and from where
+      body: >
+        A game starts with a serve from the right-hand service court. After
+        that the server's own score decides the side: right when it is even,
+        left when it is odd. In doubles the same rule picks which partner
+        serves.
+    - label: The serve
+      body: >
+        The server hits the shuttle underhand, from below 1.15 metres, with
+        both feet still on the floor. It must cross the net and land in the
+        service court diagonally opposite. The receiver may not move until it
+        is hit.
+    - label: The rally
+      body: >
+        The two sides hit the shuttle in turn, one hit each time it crosses
+        the net. In doubles either partner may take it. The shuttle may go
+        anywhere in the opponent's court, and it must not touch the floor.
+    - label: How it ends
+      body: >
+        The rally is over when the shuttle lands. On or inside the lines, it
+        is in, and the side that hit it wins the rally. Out, into the net or
+        under it, or a fault such as touching the net or hitting the shuttle
+        twice, and the other side wins it.
+    - label: The point
+      body: >
+        Whoever wins the rally scores one point, whether they served or not,
+        and serves next.
+    - label: The game and the match
+      body: >
+        First to 21 wins the game, but only with a lead of two. At 29-all the
+        next point wins. There is a short break when the leader reaches 11,
+        the players change ends after each game, and the first side to win two
+        games wins the match.
+
 sections:
   - id: object
     label: The object of the game
@@ -39,6 +78,9 @@ sections:
       - { label: "Width, singles", value: 5.18 m }
       - { label: Net height at centre, value: 1.524 m }
       - { label: Net height at posts, value: 1.55 m }
+      - { label: Short service line, value: 1.98 m, note: From the net. }
+      - { label: Side tramline, value: 0.46 m, note: In for doubles and out for singles. }
+      - { label: Back tramline, value: 0.76 m, note: Out for the doubles serve and in for everything else. }
       - label: Clear height above court
         value: 12 m
         note: Recommended for top-tier play; the shuttle is hit very high.
@@ -73,9 +115,8 @@ sections:
   - id: players
     label: Players and officials
     body: >
-      Singles is one against one; doubles is two against two, including mixed
-      doubles, which is the only Olympic event in any sport where a man and a
-      woman compete as a team against another such team. The umpire runs the
+      Singles is one against one; doubles is two against two, in men's,
+      women's and mixed pairs. The umpire runs the
       match from a raised chair, a service judge watches the serve alone, and
       line judges call in or out. Instant review of line calls is used at top
       tier events, on a limited number of challenges per game.

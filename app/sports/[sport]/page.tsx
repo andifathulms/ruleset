@@ -17,12 +17,14 @@ import SportIcon from '@/components/SportIcon'
 import JavelinCentreOfGravity from '@/components/diagrams/JavelinCentreOfGravity'
 import ScoringSystems from '@/components/diagrams/ScoringSystems'
 import ScoreScales from '@/components/diagrams/ScoreScales'
+import BadmintonCourt from '@/components/diagrams/BadmintonCourt'
+import Glossary from '@/components/Glossary'
 import { Reveal } from '@/components/Motion'
 import CurrentLaws from '@/components/CurrentLaws'
 import LearningCurve from '@/components/LearningCurve'
 import EventTree from '@/components/EventTree'
 import {
-  getCauses, getCover, getEvents, getImagesForSport, getLearning, getLenses, getPlay,
+  getCauses, getCover, getEvents, getGlossary, getImagesForSport, getLearning, getLenses, getPlay,
   getProgram, getProgrammes, getRuleChanges, getSections, getSeriesForSport, getSourceMap,
   getSport, getSportIds, getSports,
 } from '@/lib/content'
@@ -70,6 +72,18 @@ function diagramFor(sport: string, slot: string) {
         caption="Drawn to scale, which is the point: four centimetres on a 2.6 metre shaft is a shift you have to be told to look for, and it took roughly ten per cent off the world record. Moving the balance point towards the tip makes the nose drop earlier, so the implement lands point-first and closer — which is what World Athletics wanted, because flat landings were producing judging arguments and throws were reaching the end of the stadium. The flight paths are schematic; the implement is not."
       >
         <JavelinCentreOfGravity />
+      </Diagram>
+    )
+  }
+  if (sport === 'badminton' && slot === 'play:field') {
+    return (
+      <Diagram
+        eyebrow="The court"
+        title="Two courts painted on one floor"
+        colour="clay"
+        caption="Drawn to scale from the measurements above. Singles is played long and narrow: the side tramlines are out, and the serve may land anywhere back to the boundary. Doubles is played on the whole floor, but the serve must land short of the back tramline, so the doubles service court is wider and 0.76 metres shorter. Once the serve has been returned, the back tramline is in again. The server is drawn in the right-hand court, where every game starts."
+      >
+        <BadmintonCourt />
       </Diagram>
     )
   }
@@ -137,6 +151,8 @@ export default function SportPage({ params }: { params: { sport: string } }) {
   const play = getPlay(params.sport)
   const learning = getLearning(params.sport)
   const events = getEvents(params.sport)
+  const glossary = getGlossary(params.sport)
+  const terms = new Set(glossary?.terms.map((t) => t.id) ?? [])
   const lenses = getLenses()
   const program = getProgram().sports.find((s) => s.id === params.sport)
   /* The other programmes that list this sport. A sport's standing used to be
@@ -171,7 +187,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
       the panel, on the court — its line-work is chalk. */
   const reading = (slug: string) => (
     <>
-      <Prose source={prose(slug)!.body} images={photosById} colour={sport.family_colour} />
+      <Prose source={prose(slug)!.body} images={photosById} colour={sport.family_colour} terms={terms} />
       {photoFor(slug)}
     </>
   )
@@ -201,7 +217,12 @@ export default function SportPage({ params }: { params: { sport: string } }) {
                 source={getSourceMap()[play.source]}
                 colour={c}
                 sportLabel={sport.label}
-                figures={(clause) => photoFor(`play:${clause}`)}
+                figures={(clause) => (
+                  <>
+                    {diagramFor(params.sport, `play:${clause}`)}
+                    {photoFor(`play:${clause}`)}
+                  </>
+                )}
               />
               {photoFor('play')}
             </>
@@ -216,6 +237,11 @@ export default function SportPage({ params }: { params: { sport: string } }) {
               {photoFor('events')}
             </>
           ),
+        },
+        glossary && {
+          id: 'glossary',
+          label: 'The words of the game',
+          node: <Glossary glossary={glossary} play={play} colour={c} />,
         },
         prose('officiating') && {
           id: 'officiating',
@@ -332,7 +358,8 @@ export default function SportPage({ params }: { params: { sport: string } }) {
   /* The nav strip is one line that scrolls; a section title that reads well as
      a heading — "Controversies that forced rule changes" — is too long for it. */
   const NAV_SHORT: Record<string, string> = {
-    play: 'The laws',
+    play: 'How to play',
+    glossary: 'Glossary',
     geography: 'Geography',
     learning: 'Learning',
     rules: 'Rule timeline',
@@ -470,13 +497,23 @@ export default function SportPage({ params }: { params: { sport: string } }) {
             <Reveal delay={140}>
               <figure className="border border-chalk/20 bg-surface/75 p-5 backdrop-blur-xl">
                 <dl className="grid grid-cols-3 gap-3">
-                  <Glance value={rules.length} label={rules.length === 1 ? 'rule change' : 'rule changes'} />
-                  <Glance
-                    value={breaks.length}
-                    label={breaks.length === 1 ? 'comparability break' : 'comparability breaks'}
-                    colour={c.bright}
-                  />
-                  <Glance value={editions} label={editions === 1 ? 'Olympic edition' : 'Olympic editions'} />
+                  {/* The game's own figures where the sport gives them; the
+                      counts of its rule history where it does not yet. */}
+                  {sport.glance ? (
+                    sport.glance.map((g, i) => (
+                      <Glance key={g.label} value={g.value} label={g.label} colour={i === 1 ? c.bright : undefined} />
+                    ))
+                  ) : (
+                    <>
+                      <Glance value={rules.length} label={rules.length === 1 ? 'rule change' : 'rule changes'} />
+                      <Glance
+                        value={breaks.length}
+                        label={breaks.length === 1 ? 'comparability break' : 'comparability breaks'}
+                        colour={c.bright}
+                      />
+                      <Glance value={editions} label={editions === 1 ? 'Olympic edition' : 'Olympic editions'} />
+                    </>
+                  )}
                 </dl>
                 <div className="mt-4 border-t chalk-rule pt-3">
                   <MiniLane
@@ -678,7 +715,7 @@ export default function SportPage({ params }: { params: { sport: string } }) {
   )
 }
 
-function Glance({ value, label, colour }: { value: number; label: string; colour?: string }) {
+function Glance({ value, label, colour }: { value: number | string; label: string; colour?: string }) {
   return (
     <div className="flex flex-col-reverse">
       <dt className="mt-1.5 text-[12.5px] leading-tight text-dim">{label}</dt>

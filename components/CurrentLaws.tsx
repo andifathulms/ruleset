@@ -31,6 +31,42 @@ export default function CurrentLaws({
     <div>
       <p className="prose-measure text-[17px] text-chalk/85"><Emphasis>{clean(play.summary)}</Emphasis></p>
 
+      {/* The game in the order it happens, before the game by clause. The
+          steps are numbered because they are a sequence. */}
+      {play.walkthrough && (
+        <section id="walkthrough" className="scroll-anchor mt-10">
+          <h4 className="font-display text-2xl text-chalk">{play.walkthrough.title}</h4>
+          {play.walkthrough.intro && (
+            <p className="prose-measure mt-3 text-[16px] text-chalk/85">
+              <Emphasis>{clean(play.walkthrough.intro)}</Emphasis>
+            </p>
+          )}
+          <ol className="mt-6 grid gap-px border chalk-rule bg-chalk/15 md:grid-cols-2">
+            {play.walkthrough.steps.map((step, i) => (
+              <li key={step.label} className="flex gap-4 bg-ink px-4 py-4 sm:px-5">
+                <span
+                  aria-hidden
+                  className="numeral text-[30px] leading-none"
+                  style={{ color: colour.bright }}
+                >
+                  {i + 1}
+                </span>
+                <div className="min-w-0">
+                  <p className="text-[16px] font-medium text-chalk">{step.label}</p>
+                  <p className="mt-1 text-[15.5px] leading-relaxed text-chalk/80">
+                    <Emphasis>{clean(step.body)}</Emphasis>
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ol>
+          <p className="mt-10 text-[15px] text-unmarked">
+            That is the game. What follows is the same game clause by clause,
+            with the measurements.
+          </p>
+        </section>
+      )}
+
       <div className="mt-8 flex flex-wrap items-baseline gap-x-6 gap-y-2 border-y chalk-rule py-3 text-[14px]">
         <span className="text-unmarked">In force</span>
         <span className="text-chalk">{play.edition}</span>
