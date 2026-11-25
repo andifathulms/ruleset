@@ -10,6 +10,50 @@ summary: >
   stadium in another decade — which is why the specification of an implement is
   as much a law here as the definition of a false start.
 
+walkthrough:
+  title: One sprint race, from the blocks to the result
+  intro: >
+    Athletics has many events. This follows the simplest one to watch, a 100
+    metres race, and ends with how a field event differs.
+  steps:
+    - label: The lanes
+      body: >
+        The race is run on the straight of the track. There are eight or nine
+        lanes, each 1.22 metres wide, and every runner has one lane for the
+        whole race.
+    - label: The start
+      body: >
+        The runners crouch with their feet on starting blocks. The race begins
+        with the gun. Sensors in the blocks record how soon each runner pushes
+        off.
+    - label: A false start
+      body: >
+        A runner who moves before the gun, or less than 0.100 seconds after
+        it, has made a false start. There is no warning and no second
+        chance. That runner is disqualified.
+    - label: The race
+      body: >
+        Each runner must stay in lane. Leaving the lane in a way that hurts a
+        rival, or obstructing another runner, is an infringement. Nothing else
+        the opponents do matters, because each runner is racing the clock.
+    - label: The finish
+      body: >
+        The first runner across the line wins. A photo-finish system decides a
+        close result, and automatic timing gives every runner a time to one
+        hundredth of a second.
+    - label: The wind and the record
+      body: >
+        With a tailwind above 2.0 metres per second the time cannot count as
+        a record, although the result of the race stands. Winning and setting
+        a record are separate questions.
+    - label: Rounds, and the field events
+      body: >
+        Track events are run in rounds: heats, semi-finals and a final.
+        Runners go through by finishing place and by time, and the winner of
+        the final wins the event. In a field event each athlete has a set
+        number of attempts, usually three, the leading eight take three more,
+        and the best single mark wins.
+
 sections:
   - id: object
     label: The object of the events

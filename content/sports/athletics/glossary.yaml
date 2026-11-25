@@ -1,0 +1,108 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the events are run, not claims
+# about history, and nothing here carries a cause or a date.
+
+sport: athletics
+terms:
+  - id: track
+    term: Track
+    definition: >
+      The oval running surface, 400 metres around its inside lane. The events
+      run on it are called track events.
+    see: field
+  - id: lane
+    term: Lane
+    definition: >
+      One of the eight or nine marked strips of the track, each 1.22 metres
+      wide. In the shorter races every runner must stay in their own lane.
+    see: field
+  - id: stagger
+    term: Stagger
+    definition: >
+      The stepped start positions used in races around a bend. Outer lanes are
+      longer around the curve, so runners in them start further forward and
+      everyone covers the same distance.
+    see: field
+  - id: field-event
+    term: Field event
+    definition: >
+      A jump or a throw. Athletes take turns, each attempt is measured, and the
+      best single mark wins.
+    see: duration
+  - id: implement
+    term: Implement
+    definition: >
+      The object thrown in a throwing event: the javelin, the shot, the discus
+      or the hammer. The rules fix its mass and its dimensions.
+    see: equipment
+  - id: attempt
+    term: Attempt
+    definition: >
+      One try at a jump or a throw. Each athlete usually has three, and the
+      leading eight take three more.
+    see: duration
+  - id: foul
+    term: Foul
+    definition: >
+      A jump or throw that does not count, for example because the athlete
+      touched the ground beyond the foul line or left the throwing circle
+      before the implement landed.
+    see: prohibitions
+  - id: sector
+    term: Sector
+    definition: >
+      The marked wedge of ground in which a thrown implement must land for the
+      throw to count.
+    see: prohibitions
+  - id: starting-blocks
+    term: Starting blocks
+    definition: >
+      The footrests a sprinter pushes against at the start. In races up to 400
+      metres the runners start from blocks in a crouch, and sensors in the
+      blocks time each runner's reaction.
+    see: restarts
+  - id: false-start
+    term: False start
+    definition: >
+      Moving before the gun, or less than 0.100 seconds after it. The runner
+      who does it is disqualified.
+    see: restarts
+  - id: reaction-time
+    term: Reaction time
+    definition: >
+      The time between the gun and a runner's push on the blocks. A reaction
+      faster than 0.100 seconds is ruled a false start.
+    see: restarts
+  - id: heat
+    term: Heat
+    definition: >
+      A first-round race. Runners go through to the semi-final or the final by
+      their finishing place or by their time.
+    see: duration
+  - id: photo-finish
+    term: Photo finish
+    definition: >
+      The camera system at the finish line. It decides the order of the
+      runners when the result is close.
+    see: players
+  - id: automatic-timing
+    term: Fully automatic timing
+    definition: >
+      Timing started by the gun and stopped by the finish-line system, with no
+      person pressing a stopwatch. It reads to one hundredth of a second and
+      is required for a sprint record.
+    see: scoring
+  - id: wind-assistance
+    term: Wind assistance
+    definition: >
+      A following wind that helps a sprinter or a jumper. If it is stronger
+      than 2.0 metres per second, the mark cannot count as a record.
+    see: scoring
+  - id: record
+    term: World record
+    definition: >
+      The best mark ever accepted in an event. The federation checks the
+      conditions it was made in before accepting it, and that check is called
+      ratification.
+    see: winning

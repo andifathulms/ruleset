@@ -1,0 +1,39 @@
+# The track, drawn from the facts in play.yaml: 400 m around the inside lane,
+# lanes 1.22 m wide. The lengths of the straights and the radius of the bends
+# are not facts in play.yaml, so the drawing is marked schematic.
+sport: athletics
+title: The track and the infield
+caption: >
+  One lap of the inside lane is 400 metres. The 100 metres is run along one
+  straight, in lanes, to the finish line that every track race shares. Races
+  that go around a bend start from staggered positions, so that the outer
+  lanes are no longer than the inner one. The jumps and throws take place on
+  the ground inside and beside the track.
+alt: >
+  An oval running track with two straights and two bends, a finish line at
+  the end of one straight, a 100 metres start at the other end of it, and the
+  infield for jumps and throws in the middle.
+scale: schematic
+view: [-58, -62, 142, 72]
+shapes:
+  - { type: polygon, fill: area, line: none, points: [[84.39, -46.26], [90.43, -45.86], [96.36, -44.68], [102.09, -42.74], [107.52, -40.06], [112.55, -36.70], [117.10, -32.71], [121.09, -28.16], [124.45, -23.13], [127.13, -17.70], [129.07, -11.97], [130.25, -6.04], [130.65, 0.00], [130.25, 6.04], [129.07, 11.97], [127.13, 17.70], [124.45, 23.13], [121.09, 28.16], [117.10, 32.71], [112.55, 36.70], [107.52, 40.06], [102.09, 42.74], [96.36, 44.68], [90.43, 45.86], [84.39, 46.26], [0.00, 46.26], [-6.04, 45.86], [-11.97, 44.68], [-17.70, 42.74], [-23.13, 40.06], [-28.16, 36.70], [-32.71, 32.71], [-36.70, 28.16], [-40.06, 23.13], [-42.74, 17.70], [-44.68, 11.97], [-45.86, 6.04], [-46.26, 0.00], [-45.86, -6.04], [-44.68, -11.97], [-42.74, -17.70], [-40.06, -23.13], [-36.70, -28.16], [-32.71, -32.71], [-28.16, -36.70], [-23.13, -40.06], [-17.70, -42.74], [-11.97, -44.68], [-6.04, -45.86], [-0.00, -46.26], [84.39, -46.26], [84.39, -36.50], [-0.00, -36.50], [-4.76, -36.19], [-9.45, -35.26], [-13.97, -33.72], [-18.25, -31.61], [-22.22, -28.96], [-25.81, -25.81], [-28.96, -22.22], [-31.61, -18.25], [-33.72, -13.97], [-35.26, -9.45], [-36.19, -4.76], [-36.50, 0.00], [-36.19, 4.76], [-35.26, 9.45], [-33.72, 13.97], [-31.61, 18.25], [-28.96, 22.22], [-25.81, 25.81], [-22.22, 28.96], [-18.25, 31.61], [-13.97, 33.72], [-9.45, 35.26], [-4.76, 36.19], [0.00, 36.50], [84.39, 36.50], [89.15, 36.19], [93.84, 35.26], [98.36, 33.72], [102.64, 31.61], [106.61, 28.96], [110.20, 25.81], [113.35, 22.22], [116.00, 18.25], [118.11, 13.97], [119.65, 9.45], [120.58, 4.76], [120.89, 0.00], [120.58, -4.76], [119.65, -9.45], [118.11, -13.97], [116.00, -18.25], [113.35, -22.22], [110.20, -25.81], [106.61, -28.96], [102.64, -31.61], [98.36, -33.72], [93.84, -35.26], [89.15, -36.19], [84.39, -36.50]] }
+  - { type: rect, x: -15.61, y: 36.5, w: 100, h: 9.76, fill: zone, line: none }
+  - { type: line, x1: 0, y1: -36.5, x2: 84.39, y2: -36.5 }
+  - { type: line, x1: 0, y1: -46.26, x2: 84.39, y2: -46.26 }
+  - { type: line, x1: -15.61, y1: 36.5, x2: 84.39, y2: 36.5 }
+  - { type: line, x1: -15.61, y1: 46.26, x2: 84.39, y2: 46.26 }
+  - { type: arc, cx: 84.39, cy: 0, r: 36.5, from: -90, to: 90 }
+  - { type: arc, cx: 84.39, cy: 0, r: 46.26, from: -90, to: 90 }
+  - { type: arc, cx: 0, cy: 0, r: 36.5, from: 90, to: 270 }
+  - { type: arc, cx: 0, cy: 0, r: 46.26, from: 90, to: 270 }
+  - { type: line, x1: 84.39, y1: 36.5, x2: 84.39, y2: 46.26, line: heavy }
+  - { type: line, x1: -15.61, y1: 36.5, x2: -15.61, y2: 46.26 }
+  - { type: label, x: 42.20, y: -5, text: "infield" }
+  - { type: label, x: 42.20, y: 5, text: "jumps and throws", tone: muted }
+  - { type: label, x: 88.39, y: 54, text: "finish", anchor: start }
+  - { type: label, x: -19.61, y: 54, text: "100 m start", anchor: end }
+  - { type: label, x: 42.20, y: -54, text: "8 or 9 lanes, each 1.22 m wide", tone: muted }
+  - { type: dim, x1: -15.61, y1: 62, x2: 84.39, y2: 62, text: "100 m" }
+legend:
+  - { swatch: area, label: "the track, 400 m around the inside lane" }
+  - { swatch: zone, label: "the 100 m straight" }
