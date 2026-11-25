@@ -19,7 +19,16 @@ const load = (file) => yaml.load(fs.readFileSync(file, 'utf8'), { schema: yaml.C
 
 const SLUGS = ['origin', 'equipment', 'politics', 'controversies', 'officiating', 'geography', 'contested']
 const LAW_SECTIONS = ['object', 'field', 'equipment', 'players', 'duration', 'scoring', 'restarts', 'prohibitions', 'winning']
-const BANNED = [/\bon this site\b/i, /\bin this collection\b/i, /\bcovered here\b/i, /\bthis site\b/i]
+const BANNED = [/\bon this site\b/i, /\bin this collection\b/i, /\bcovered here\b/i, /\bthis site\b/i, /\bthis collection\b/i, /\bsports? here\b/i]
+/* Further ways the YAML prose talks about the website rather than the sport.
+   YAML only: an essay may say "the site of the 1908 Games". */
+const BANNED_YAML = [
+  /\bthe site\b/i, /\bon this (?:board|page)\b/i, /\bthis page's\b/i,
+  /\b(?:anything|nothing|anywhere|any sport) else (?:here|on this board)\b/i,
+  /\b(?:highest|lowest|longest|shortest|youngest|oldest|widest|narrowest|most|least|only)\b[^.]{0,25}\b(?:recorded )?here\b/i,
+  /\bunder Rule \d\b/, /\bRule \d would\b/, /\bthe reason (?:this sport|both) (?:is|are) (?:on the site|here)\b/i,
+  /\b(?:appears|recorded|cases) here\b/i, /\bunique here\b/i, /\bthis sport is on the site\b/i,
+]
 const PAGE_ANCHORS = new Set(['play', 'walkthrough', 'events', 'glossary', 'learning', 'rules', 'series', ...SLUGS])
 
 const images = load(path.join(ROOT, 'content', 'images.yaml')) ?? []
@@ -95,6 +104,44 @@ async function check(sport) {
   // field.yaml: the loader is the strict check; here only that it parses
   const field = read('field.yaml')
   if (field && (!text(field.title) || !text(field.caption) || !text(field.alt))) err('field.yaml: title, caption and alt must all be text')
+
+  // Every prose field in every YAML file of the sport, which the page renders
+  // as text: the same phrases the essays may not use.
+  const yamlFiles = fs.readdirSync(dir).filter((f) => f.endsWith('.yaml')).map((f) => f)
+  if (fs.existsSync(sdir)) for (const f of fs.readdirSync(sdir)) if (f.endsWith('.yaml')) yamlFiles.push(path.join('series', f))
+  for (const f of yamlFiles) {
+    let data
+    try { data = load(path.join(dir, f)) } catch (e) { err(`${f}: does not parse — ${String(e.message).split('\n')[0]}`); continue }
+    const walk = (v, at) => {
+      if (typeof v === 'string') { for (const b of [...BANNED, ...(f === 'field.yaml' ? [] : BANNED_YAML)]) { const m = v.match(b); if (m) err(`${f} (${at}): contains "${m[0]}"`) } }
+      else if (Array.isArray(v)) v.forEach((x, i) => walk(x, `${at}[${i}]`))
+      else if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) {
+        // Keys here are identifiers. A key with a space in it is prose that an
+        // unquoted comma or colon split off a flow-mapping value.
+        if (/\s/.test(k)) err(`${f} (${at || 'top'}): key "${k.slice(0, 60)}" looks like split-off text — quote the value it came from`)
+        walk(x, at ? `${at}.${k}` : k)
+      }
+    }
+    walk(data, '')
+  }
+
+  // A one-line { … } entry must parse to exactly the keys written in it. An
+  // unquoted comma inside a value starts a phantom key — "Helmet, gloves,
+  // pads" reads as "Helmet" plus two empty keys — and the rest of the text
+  // silently vanishes from the page.
+  for (const f of yamlFiles) {
+    const lines = fs.readFileSync(path.join(dir, f), 'utf8').split('\n')
+    lines.forEach((ln, i) => {
+      const m = ln.match(/^\s*(?:- )?\{ (.*) \}\s*$/)
+      if (!m) return
+      let parsed
+      try { parsed = yaml.load(`{ ${m[1]} }`, { schema: yaml.CORE_SCHEMA }) } catch { return }
+      if (!parsed || typeof parsed !== 'object') return
+      const written = new Set([...m[1].matchAll(/(?:^|,\s+)([a-z_][a-z0-9_]*):\s/g)].map((x) => x[1]))
+      const phantom = Object.keys(parsed).filter((k) => !written.has(k))
+      if (phantom.length) err(`${f}:${i + 1}: unquoted comma splits a value (phantom key "${phantom[0]}") — quote the value`)
+    })
+  }
 
   // essays
   const mine = images.filter((i) => i.sport === sport)
