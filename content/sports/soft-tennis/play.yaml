@@ -8,6 +8,45 @@ summary: >
   grams. Games are four points, doubles is the principal format, and the ball
   is too light to be hit through anybody.
 
+walkthrough:
+  title: One point in doubles, from the serve to the score
+  intro: >
+    Doubles is the main form of soft tennis, so this follows a point between
+    two pairs. Singles runs in the same order.
+  steps:
+    - label: The pair takes its places
+      body: >
+        Each pair has two jobs. One partner plays forward, close to the net.
+        The other plays back, near the baseline. They keep these roles through
+        the match.
+    - label: The serve
+      body: >
+        The server hits the ball over the net, underhand or overhand, with the
+        feet behind the line. One fault is allowed. A second fault on the same
+        point is a double fault, and the other pair wins the point.
+    - label: The rally
+      body: >
+        The pairs hit the ball back and forth over the net, and each shot must
+        land in the opponents' court. The ball is light and slows quickly, so
+        a hard shot rarely ends the rally. Players move the opponents around
+        with angle, depth and changes of pace.
+    - label: How the point ends
+      body: >
+        A pair loses the point when it fails to return the ball into the
+        court. It also loses the point by touching the net, by hitting the
+        ball before it has crossed the net, or by playing out of position
+        where the format fixes the positions.
+    - label: The game
+      body: >
+        Points are counted one, two, three, four. The first pair to four
+        points wins the game. At three-all the score is deuce, and a pair must
+        win two points in a row.
+    - label: The match
+      body: >
+        There are no sets. A match is the best of five, seven or nine games,
+        depending on the competition, and the pair that wins the required
+        number of games wins the match.
+
 sections:
   - id: object
     label: The object of the game
@@ -33,6 +72,10 @@ sections:
       what lengthens the rallies.
     facts:
       - { label: Court, value: The size of a tennis doubles court }
+      - { label: Court length, value: 23.77 m }
+      - { label: "Width, doubles", value: 10.97 m }
+      - { label: "Width, singles", value: 8.23 m }
+      - { label: Service line, value: 6.40 m, note: From the net. }
       - { label: Net, value: Slightly lower than tennis's }
 
   - id: equipment
@@ -79,8 +122,9 @@ sections:
   - id: scoring
     label: Scoring
     body: >
-      A game is the first to four points, with a deciding point played at
-      three-all. There is no fifteen-thirty-forty, no advantage and no set.
+      A game is the first to four points. At three-all the score is deuce, and
+      a side must then win two points in a row to take the game. Points are
+      counted one, two, three: there is no fifteen-thirty-forty and no set.
 
       That is a much flatter structure than tennis's, and it has a consequence:
       soft tennis has nothing equivalent to tennis's nested comebacks, where a

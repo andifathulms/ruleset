@@ -1,0 +1,77 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: soft-tennis
+terms:
+  - id: soft-ball
+    term: Soft ball
+    definition: >
+      The ball of the game: hollow rubber filled with air, with no felt cover.
+      It weighs about thirty grams and loses speed quickly in flight.
+    see: equipment
+  - id: rally
+    term: Rally
+    definition: >
+      The exchange of shots after the serve, which lasts until one side fails
+      to return the ball into the court.
+    see: object
+  - id: forward-player
+    term: Forward player
+    definition: >
+      The partner in a doubles pair who plays close to the net and tries to
+      cut off the opponents' shots.
+    see: players
+  - id: back-player
+    term: Back player
+    definition: >
+      The partner in a doubles pair who plays near the baseline and keeps the
+      rally going from the back of the court.
+    see: players
+  - id: pair
+    term: Pair
+    definition: >
+      The two partners in doubles. A pair has one forward player and one back
+      player, and partners usually stay together for a long time.
+    see: players
+  - id: serve
+    term: Serve
+    definition: >
+      The shot that starts each point. It may be hit underhand or overhand,
+      and the server is allowed one fault.
+    see: restarts
+  - id: fault
+    term: Fault
+    definition: >
+      A serve that is not good. After one fault the server serves again.
+    see: restarts
+  - id: double-fault
+    term: Double fault
+    definition: >
+      Two faults on the same point. The serving side loses the point.
+    see: prohibitions
+  - id: foot-fault
+    term: Foot fault
+    definition: >
+      A serve hit with the server's feet in the wrong place. It counts as a
+      fault.
+    see: prohibitions
+  - id: game
+    term: Game
+    definition: >
+      The unit of the score. The first side to four points wins a game, and a
+      match is the best of five, seven or nine games.
+    see: scoring
+  - id: deuce
+    term: Deuce
+    definition: >
+      The score at three points all. From deuce a side must win two points in
+      a row to win the game.
+    see: scoring
+  - id: out-of-position
+    term: Out of position
+    definition: >
+      In doubles formats that fix where the forward and back players must be,
+      standing in the wrong place. It loses the point.
+    see: prohibitions

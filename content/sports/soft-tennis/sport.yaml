@@ -1,6 +1,6 @@
 id: soft-tennis
 label: Soft tennis
-tagline: "Japan could not import tennis balls, substituted a rubber one, and the substitution became a different sport."
+tagline: Tennis played with a light, soft rubber ball that slows quickly in the air, so points are won by placement and long rallies, mostly in doubles.
 governing_body: International Soft Tennis Federation
 founded: >
   Devised in Japan in the 1880s, when imported tennis balls were scarce and
@@ -12,11 +12,16 @@ classification:
   official: soft-tennis
   game-category: net-and-wall
   adjudication: decided-by-score
+glance:
+  - { value: "2 or 4", label: players on court }
+  - { value: "4", label: points to win a game }
+  - { value: "30 g", label: weight of the ball }
 summary: >
-  Tennis played with a soft, air-filled rubber ball weighing about thirty
-  grams. The ball decelerates, so power achieves very little and the game is
-  decided by placement, angle and long rallies. Doubles is the primary form
-  rather than the secondary one, and a game is four points rather than tennis's
-  fifteen-thirty-forty. The whole sport is the downstream consequence of a
-  nineteenth-century supply problem.
+  Soft tennis is played on a tennis court with a hollow rubber ball that
+  weighs about thirty grams, half as much as a tennis ball. The ball loses
+  speed quickly, so a hard shot does not get past a good opponent. Players
+  win points with angle, depth and changes of pace, and rallies are long.
+  Doubles is the main form of the game. One partner plays forward at the net
+  and the other plays back at the baseline. A game is the first to four
+  points, and a match is the best of five, seven or nine games, with no sets.
 cover: soft-tennis-dong-a-1923
