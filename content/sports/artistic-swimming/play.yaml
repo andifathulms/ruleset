@@ -9,6 +9,51 @@ summary: >
   checked by technical controllers; the judges mark how well it was done and
   how it looked.
 
+walkthrough:
+  title: One routine, from the deck to the score
+  intro: >
+    This follows a team routine at the Games. A duet or a solo goes the same
+    way with fewer swimmers.
+  steps:
+    - label: The coach card
+      body: >
+        Before the competition the team hands in a coach card. It lists every
+        element of the routine and how difficult each one is. The team will be
+        held to this list.
+    - label: The walk-on
+      body: >
+        Eight swimmers walk along the deck and take their starting pose. This
+        walk-on is timed. If the routine is interrupted during the deck
+        movements and the referee allows a new start, it costs two points.
+    - label: Into the water
+      body: >
+        The music plays above the water and through speakers under it, so the
+        swimmers hear it when their heads are below the surface. They perform
+        their elements together, in time with the music and with each other.
+    - label: What they must not do
+      body: >
+        Nobody may use the bottom of the pool to push off or to help another
+        swimmer. That costs eight points. A swimmer who stops swimming, or
+        clearly uses the pool wall, before the end is disqualified.
+    - label: The time
+      body: >
+        Each kind of routine has a fixed length. A team free routine is 3
+        minutes 30 seconds. The swimmers may finish up to five seconds early
+        or late. Missing the time by more costs eight points.
+    - label: The marks
+      body: >
+        Five judges mark how well each element was performed. Five more give
+        marks for choreography and musicality, for performance, and for
+        transitions. Three controllers check each element against the coach
+        card, and an element done differently gets a base mark. Three other
+        controllers count the moments when the swimmers were not together,
+        and each one takes points away.
+    - label: The result
+      body: >
+        A team swims three routines at the Games: technical, free and
+        acrobatic. The scores of the three are added, and the highest total
+        wins.
+
 sections:
   - id: object
     label: The object of the competition

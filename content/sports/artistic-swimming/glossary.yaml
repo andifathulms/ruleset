@@ -1,0 +1,107 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is performed, not
+# claims about its history, and nothing here carries a cause or a date.
+
+sport: artistic-swimming
+terms:
+  - id: routine
+    term: Routine
+    definition: >
+      One performance to music, from the walk-on to the last movement. Each
+      kind of routine has a fixed length.
+    see: duration
+  - id: technical-routine
+    term: Technical routine
+    definition: >
+      A routine built around a set of elements that every competitor must
+      perform.
+    see: object
+  - id: free-routine
+    term: Free routine
+    definition: >
+      A routine in which the swimmers choose their own elements and
+      choreography.
+    see: object
+  - id: acrobatic-routine
+    term: Acrobatic routine
+    definition: >
+      A team routine made mostly of lifts and throws, in which swimmers under
+      the water raise or launch a teammate above it.
+    see: object
+  - id: element
+    term: Element
+    definition: >
+      One marked part of a routine, such as a lift or a sequence of leg
+      movements. Each element has a difficulty value and gets its own mark.
+    see: scoring
+  - id: hybrid
+    term: Hybrid
+    definition: >
+      An element made of a chain of leg movements, performed upside down with
+      the head under the water.
+    see: scoring
+  - id: coach-card
+    term: Coach card
+    definition: >
+      The list a team hands in before it swims. It names every element of the
+      routine and the difficulty of each one.
+    see: scoring
+  - id: difficulty
+    term: Declared difficulty
+    definition: >
+      The value a team claims for an element on its coach card. It is checked
+      by officials and is not a judge's opinion.
+    see: scoring
+  - id: base-mark
+    term: Base mark
+    definition: >
+      The minimum value of an element. A controller gives it when the swimmers
+      perform an element differently from what the coach card declared.
+    see: scoring
+  - id: controller
+    term: Technical controller
+    definition: >
+      An official who checks facts and gives no marks for quality. Three
+      controllers check difficulty against the coach card and three count
+      synchronisation errors.
+    see: scoring
+  - id: elements-panel
+    term: Elements panel
+    definition: >
+      The five judges who mark how well each element was performed.
+    see: scoring
+  - id: artistic-impression
+    term: Artistic impression
+    definition: >
+      The marks of the second panel of five judges, for choreography and
+      musicality, for performance, and for transitions.
+    see: scoring
+  - id: synchronisation-error
+    term: Synchronisation error
+    definition: >
+      A moment when the swimmers do not move together. Each one is counted
+      and costs 0.1, 0.5 or 3.0 points, by how large it is.
+    see: prohibitions
+  - id: walk-on
+    term: Walk-on
+    definition: >
+      The walk along the deck to the starting pose before the swimmers enter
+      the water. It is timed.
+    see: duration
+  - id: nose-clip
+    term: Nose clip
+    definition: >
+      A small clip that holds the nostrils shut, so that water does not enter
+      the nose while the swimmer is upside down.
+    see: equipment
+  - id: sculling
+    term: Sculling
+    definition: >
+      Small, quick movements of the hands that hold a swimmer up or move the
+      body through the water. It is the first skill a beginner learns.
+  - id: eggbeater
+    term: Eggbeater
+    definition: >
+      A kick in which the legs circle one after the other. It holds a swimmer
+      upright and high in the water, with the hands free.

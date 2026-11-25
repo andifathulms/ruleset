@@ -1,0 +1,29 @@
+# The pool, from the measurements in play.yaml. Shapes are in metres.
+sport: artistic-swimming
+title: Deep water, thirty metres by twenty
+caption: >
+  A pool for the Games is at least 30 metres long and 20 metres wide. The
+  water is at least 3 metres deep, too deep to stand in, and using the bottom
+  costs eight points. Four speakers under the water carry the music to the
+  swimmers.
+alt: >
+  A rectangular pool 30 metres long and 20 metres wide, marked as water at
+  least 3 metres deep, with eight swimmers shown in a group.
+scale: to-scale
+view: [-3, -3, 36, 26]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 30, h: 20, fill: area }
+  - { type: label, x: 15, y: 4, text: "water at least 3 m deep", tone: muted }
+  - { type: dot, x: 12, y: 9 }
+  - { type: dot, x: 14, y: 9 }
+  - { type: dot, x: 16, y: 9 }
+  - { type: dot, x: 18, y: 9 }
+  - { type: dot, x: 12, y: 11.5 }
+  - { type: dot, x: 14, y: 11.5 }
+  - { type: dot, x: 16, y: 11.5 }
+  - { type: dot, x: 18, y: 11.5 }
+  - { type: label, x: 15, y: 14.2, text: "a team of eight" }
+  - { type: dim, x1: 0, y1: 22.5, x2: 30, y2: 22.5, text: "30 m" }
+  - { type: dim, x1: 33, y1: 0, x2: 33, y2: 20, text: "20 m" }
+legend:
+  - { swatch: area, label: "deep water, no standing" }
