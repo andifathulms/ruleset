@@ -8,6 +8,44 @@ summary: >
   touches a side, struck with a fist or forearm, and the ball may bounce once
   before each of them.
 
+walkthrough:
+  title: One rally, from the serve to the point
+  intro: >
+    A match is this sequence repeated, set after set, on a field fifty metres
+    long.
+  steps:
+    - label: The serve
+      body: >
+        The server stands behind the service line, three metres from the
+        centre line. The ball may bounce in the server's own half first. The
+        server then hits it with a fist or forearm over the tape, and it must
+        not touch the tape.
+    - label: Three touches, one bounce each
+      body: >
+        The receiving side may touch the ball up to three times before it goes
+        back over. Before each touch the ball may bounce once on the ground.
+        Two bounces in a row end the rally.
+    - label: Fist or forearm only
+      body: >
+        Every touch must be with one closed fist or one forearm. An open hand,
+        both hands together, or any other part of the body is a fault.
+    - label: Defend, set, attack
+      body: >
+        Defenders deep in the field take the ball first. A setter places it,
+        and an attacker strikes it over the tape. The aim is a ball the other
+        side cannot return legally.
+    - label: How the rally ends
+      body: >
+        A side loses the rally if the ball bounces twice, if it touches the
+        ball a fourth time, if it plays the ball with anything but a fist or
+        forearm, or if the ball lands outside the field. Touching the tape or
+        the posts, or crossing the centre line, is also a fault.
+    - label: The point, the set and the match
+      body: >
+        The side that wins the rally scores a point, whoever served. A set goes
+        to eleven with a two-point lead, and at 14-all the next point wins. The
+        side that takes the required number of sets wins the match.
+
 sections:
   - id: object
     label: The object of the game
@@ -32,6 +70,7 @@ sections:
       - { label: Field, value: 50 × 20 m }
       - { label: Each half, value: 25 m deep }
       - { label: Tape height, value: 2 m for men }
+      - { label: Service lines, value: 3 m from the centre line }
       - { label: Barrier, value: "A tape, not a net" }
 
   - id: equipment
@@ -60,10 +99,11 @@ sections:
   - id: duration
     label: Time
     body: >
-      No clock. Sets are played to eleven points with a two-point margin, and a
-      match is decided on sets — the number varying by competition.
+      No clock. Sets are played to eleven points with a two-point margin, up to
+      a limit of fifteen points, and a match is decided on sets — the number
+      varying by competition.
     facts:
-      - { label: Set, value: "11 points, two clear" }
+      - { label: Set, value: "11 points, two clear, at most 15" }
       - { label: Scoring, value: Rally scoring since 2000 }
     shaped_by: [fistball-rally-scoring]
 
@@ -79,8 +119,9 @@ sections:
   - id: restarts
     label: Serving
     body: >
-      The serve is struck with a fist or forearm from behind the back line and
-      must cross the tape without touching it. Unlike volleyball, the serve may
+      The serve is struck with a fist or forearm from behind the service line,
+      three metres from the centre line, and must cross the tape without
+      touching it. Unlike volleyball, the serve may
       bounce in the server's own half first, which makes it a far less
       dominant act — there is no fistball equivalent of an ace-driven game.
     shaped_by: [fistball-one-bounce]
@@ -100,5 +141,6 @@ sections:
   - id: winning
     label: Deciding the winner
     body: >
-      The side taking the required number of sets. There is no tie-break device
-      beyond the two-point margin, and no clock to run down.
+      The side taking the required number of sets. A set needs a two-point
+      lead, except that at 14-all the next point wins it. There is no clock to
+      run down.

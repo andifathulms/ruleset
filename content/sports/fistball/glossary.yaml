@@ -1,0 +1,78 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: fistball
+terms:
+  - id: tape
+    term: Tape
+    definition: >
+      The band strung between two posts across the middle of the field. It is
+      two metres up for men, and the ball must cross over it. There is open
+      space above and below it.
+    see: field
+  - id: bounce
+    term: Bounce
+    definition: >
+      The ball may touch the ground once before each touch by a player. A
+      second bounce in a row ends the rally.
+    see: object
+  - id: touch
+    term: Touch
+    definition: >
+      One contact with the ball. Each side may touch it up to three times
+      before it must go back over the tape.
+    see: players
+  - id: fist-or-forearm
+    term: Fist or forearm
+    definition: >
+      The only legal ways to hit the ball: with one closed fist or one forearm.
+      An open hand or both hands together is a fault.
+    see: prohibitions
+  - id: rally
+    term: Rally
+    definition: >
+      One exchange, from the serve until a side makes a fault or cannot return
+      the ball. Every rally ends with a point for one side.
+    see: object
+  - id: serve
+    term: Serve
+    definition: >
+      The hit that starts a rally, made from behind the service line. The ball
+      may bounce in the server's own half before it is struck.
+    see: restarts
+  - id: service-line
+    term: Service line
+    definition: >
+      The line three metres from the centre line on each side. The server must
+      stand behind it.
+    see: restarts
+  - id: setter
+    term: Setter
+    definition: >
+      The player who places the ball for the attacker to strike.
+    see: players
+  - id: attacker
+    term: Attacker
+    definition: >
+      The player who strikes the ball hard over the tape to win the rally.
+    see: players
+  - id: rally-scoring
+    term: Rally scoring
+    definition: >
+      A point is scored on every rally, by whichever side wins it, no matter
+      who served.
+    see: scoring
+  - id: set
+    term: Set
+    definition: >
+      A part of the match played to eleven points with a two-point lead. At
+      14-all the next point wins the set.
+    see: duration
+  - id: indoor-fistball
+    term: Indoor fistball
+    definition: >
+      The winter form of the game, played in a hall on a shorter field under
+      the same rules.
+    see: equipment

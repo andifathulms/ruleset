@@ -1,6 +1,6 @@
 id: fistball
 label: Fistball
-tagline: "A net sport in which the ball is allowed to hit the ground — once, between every touch."
+tagline: A net game for two teams of five who punch a ball over a tape with the fist or forearm, letting it bounce once on the grass before each touch.
 governing_body: International Fistball Association
 founded: >
   Descended from European ball games with rules written as early as the
@@ -12,10 +12,16 @@ classification:
   official: fistball
   game-category: net-and-wall
   adjudication: decided-by-score
+glance:
+  - { value: "5", label: players a side }
+  - { value: "11", label: points to win a set }
+  - { value: "50 × 20 m", label: field size }
 summary: >
-  Five a side over a tape two metres up, three touches a side, struck with the
-  fist or the forearm and never with an open hand. The rule that makes it its
-  own sport is that the ball may bounce once before each touch — so a fistball
-  rally has the ground in it, and the game is played at a walking pace between
-  moments of violence rather than in volleyball's continuous scramble.
+  Fistball is played five a side on a long grass field, split in the middle
+  by a tape two metres up. Each side may touch the ball three times before it
+  goes back over, and every touch must be with one closed fist or one forearm.
+  The ball may bounce once before each touch. That bounce makes the game:
+  defence is about being in the right place, not about diving, and the field
+  can be fifty metres long because a ball that lands is still alive. Every
+  rally scores a point, and a set goes to eleven.
 cover: fistball-full-stretch
