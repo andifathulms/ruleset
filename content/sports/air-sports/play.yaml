@@ -9,6 +9,44 @@ summary: >
   Aerobatics is judged. Drone racing is a stadium race flown by a pilot
   standing on the ground.
 
+walkthrough:
+  title: One gliding task, from the launch to the points
+  intro: >
+    Air sports have no single contest. This follows one day of a gliding
+    competition, the discipline with the longest flights.
+  steps:
+    - label: The task
+      body: >
+        A task is set on the day, to suit the weather. It is a course round
+        turning points, flown for speed or for distance. Every pilot in the
+        class flies the same task in the same air.
+    - label: The launch
+      body: >
+        A glider has no engine. It is pulled into the air by a tow plane or
+        by a winch on the ground. The launch is only the way to reach the
+        start, and it is not part of the contest.
+    - label: Staying up
+      body: >
+        The pilot stays in the air by finding rising air. It may be a thermal
+        over warm ground, lift where wind blows up a ridge, or a wave
+        downwind of mountains. None of it can be seen, and none of it is
+        there on demand.
+    - label: Round the course
+      body: >
+        The pilot must go round every turning point and stay above a set
+        minimum height. Entering airspace that is closed to the contest is an
+        infringement. A task can take five hours, and it can be abandoned if
+        the weather collapses.
+    - label: The points
+      body: >
+        Points for the day depend on what the other pilots achieved in the
+        same air. A fixed standard would measure the weather and not the
+        pilot.
+    - label: The championship
+      body: >
+        A championship runs over many contest days. The points are added up,
+        and the pilot with the most at the end wins the title.
+
 sections:
   - id: object
     label: The object of the game

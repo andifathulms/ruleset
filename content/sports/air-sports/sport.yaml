@@ -1,6 +1,6 @@
 id: air-sports
 label: Air sports
-tagline: "Its federation ratifies aviation and spaceflight records, and decided where space begins."
+tagline: A family of flying contests, from gliders and balloons to parachutes and racing drones, in which pilots are scored on speed, distance, accuracy or style.
 governing_body: Fédération Aéronautique Internationale
 founded: >
   The Fédération Aéronautique Internationale was founded in 1905 to certify
@@ -12,12 +12,17 @@ classification:
   official: air-sports
   game-category: outside-taxonomy
   adjudication: measured
+glance:
+  - { value: "8", label: disciplines }
+  - { value: "5 hours", label: a long gliding task }
+  - { value: "1 minute", label: a drone race }
 summary: >
-  A federation older than most of the sports it sits beside, governing gliding,
-  ballooning, parachuting, paragliding, hang gliding, aerobatics, aeromodelling
-  and drone racing. Its competitors range from a pilot at four thousand metres
-  to a person standing in a field with a controller. And because it was founded
-  to certify records rather than to run competitions, it ratifies aviation and
-  spaceflight performance generally — which is how a sports body came to define
-  the boundary of space.
+  Air sports are many different contests held in the air under one
+  federation. A glider pilot flies a course round turning points with no
+  engine, staying up on rising air. A parachutist lands on a target, and the
+  miss is measured to the centimetre. An aerobatic pilot flies a set sequence
+  of figures for a panel of judges. A drone pilot stands on the ground and
+  races a small aircraft through gates in about a minute. What the disciplines
+  share is the air itself, which nobody can standardise: the weather on the
+  day decides what is possible.
 cover: air-formation

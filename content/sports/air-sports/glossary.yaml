@@ -1,0 +1,98 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the disciplines are flown,
+# not claims about their history.
+
+sport: air-sports
+terms:
+  - id: sailplane
+    term: Sailplane
+    definition: >
+      A glider built for soaring: an aircraft with long wings and no engine
+      that stays up by using rising air.
+    see: equipment
+  - id: task
+    term: Task
+    definition: >
+      The course set for one day of a gliding contest. It goes round turning
+      points and is flown for speed or for distance.
+    see: object
+  - id: turning-point
+    term: Turning point
+    definition: >
+      A place on the ground that a pilot must fly round to complete a task.
+      Missing one is an infringement.
+    see: prohibitions
+  - id: thermal
+    term: Thermal
+    definition: >
+      A column of warm air rising from heated ground. A glider circles inside
+      it to gain height.
+    see: field
+  - id: ridge-lift
+    term: Ridge lift
+    definition: >
+      Rising air made by wind blowing against a hillside and being pushed
+      upward.
+    see: field
+  - id: mountain-wave
+    term: Mountain wave
+    definition: >
+      Waves in the air downwind of a mountain range. A glider in the rising
+      part of a wave can climb far above the peaks.
+    see: field
+  - id: class
+    term: Class
+    definition: >
+      A group of gliders limited by wingspan or built to a standard
+      specification. Pilots compete only against others in the same class.
+    see: equipment
+  - id: glide-ratio
+    term: Glide ratio
+    definition: >
+      The distance a glider travels forward for each unit of height it loses.
+      A higher ratio means a better glider.
+    see: equipment
+  - id: aerotow
+    term: Aerotow
+    definition: >
+      A launch in which a powered aircraft pulls the glider into the air on a
+      rope. The other common launch is by a winch on the ground.
+    see: restarts
+  - id: accuracy
+    term: Accuracy landing
+    definition: >
+      A parachuting contest in which the jumper tries to land on the centre of
+      a target. The distance from the centre to the first point of contact is
+      measured to the centimetre.
+    see: scoring
+  - id: canopy-piloting
+    term: Canopy piloting
+    definition: >
+      A parachuting discipline in which the pilot flies the open parachute
+      through a course at speed, close to the ground or to water.
+    see: object
+  - id: sequence
+    term: Sequence
+    definition: >
+      The series of figures an aerobatic pilot declares and then flies. Judges
+      take marks off when a figure departs from its correct shape.
+    see: scoring
+  - id: display-box
+    term: Display box
+    definition: >
+      The block of air in which an aerobatic sequence must be flown. Leaving
+      it is penalised.
+    see: prohibitions
+  - id: gate
+    term: Gate
+    definition: >
+      A lit frame that a racing drone must fly through. A drone racing course
+      is a set of gates in a stadium.
+    see: field
+  - id: fpv
+    term: First-person view
+    definition: >
+      Flying a drone by watching the picture from its own camera through
+      goggles, while standing on the ground.
+    see: players
