@@ -1,0 +1,96 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work.
+
+sport: cheerleading
+terms:
+  - id: routine
+    term: Routine
+    definition: >
+      The whole performance a team gives, about two and a half minutes long
+      and set to music. A team performs it once.
+    see: duration
+  - id: stunt
+    term: Stunt
+    definition: >
+      A skill in which one or more athletes lift another athlete off the
+      floor and hold or release her.
+    see: scoring
+  - id: pyramid
+    term: Pyramid
+    definition: >
+      Several stunts joined together into one structure of people. The rules
+      limit how high it may be built.
+    see: prohibitions
+  - id: toss
+    term: Basket toss
+    definition: >
+      A throw in which a group of bases launches a flyer into the air and
+      catches her again. Only certain forms are allowed.
+    see: prohibitions
+  - id: released-stunt
+    term: Released stunt
+    definition: >
+      A stunt in which the flyer leaves the hands of her bases for a moment.
+      The classes of release allowed depend on age and level.
+    see: prohibitions
+  - id: tumbling
+    term: Tumbling
+    definition: >
+      Gymnastic skills such as handsprings and somersaults, performed across
+      the floor in a line called a pass.
+    see: scoring
+  - id: base
+    term: Base
+    definition: >
+      An athlete who stays on the floor and supports, lifts or throws a flyer.
+    see: players
+  - id: flyer
+    term: Flyer
+    definition: >
+      The athlete who is lifted or thrown in a stunt, a pyramid or a toss.
+    see: players
+  - id: spotter
+    term: Spotter
+    definition: >
+      An athlete placed beside or behind a stunt whose job is to catch the
+      flyer if she falls. The rules say how many are needed.
+    see: players
+  - id: tumbler
+    term: Tumbler
+    definition: >
+      An athlete who performs the tumbling passes.
+    see: players
+  - id: deduction
+    term: Deduction
+    definition: >
+      Marks taken off a score for a fall, a dropped stunt, a breach of the
+      safety rules, running over time or leaving the marked area.
+    see: object
+  - id: safety-violation
+    term: Safety violation
+    definition: >
+      A breach of the safety rules, such as a skill above the level allowed
+      for the team or too few spotters. It costs marks even if the skill was
+      done cleanly.
+    see: scoring
+  - id: level
+    term: Level
+    definition: >
+      The grade a team competes in, set by age and division. It decides which
+      skills the team is allowed to attempt.
+    see: prohibitions
+  - id: cheer
+    term: Cheer
+    definition: >
+      The division with stunts, pyramids, tosses, tumbling and crowd-leading.
+  - id: performance-cheer
+    term: Performance Cheer
+    definition: >
+      The dance division, with pom, hip hop and jazz categories and no
+      stunting.
+  - id: coed
+    term: Coed
+    definition: >
+      A team of men and women together. The other division is all-female.
+    see: players

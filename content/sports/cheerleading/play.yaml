@@ -8,6 +8,46 @@ summary: >
   difficulty and execution. The Cheer division contains stunts, pyramids,
   tosses and tumbling; Performance Cheer is dance-based with no stunting.
 
+walkthrough:
+  title: One routine, from the first count to the score
+  intro: >
+    This follows a team in the Cheer division, the one with stunts. A
+    competition is one such routine from every team.
+  steps:
+    - label: The team walks on
+      body: >
+        Up to about twenty-four athletes take the matted floor. Each has a
+        role. Bases lift and throw, flyers are lifted and thrown, spotters
+        stand ready to catch, and tumblers perform the gymnastic passes.
+    - label: The music starts
+      body: >
+        The routine lasts about two and a half minutes and runs without a
+        stop. The team performs it once. There is no second attempt.
+    - label: The skills
+      body: >
+        The team shows stunts, pyramids, tosses and tumbling, and leads the
+        crowd as the sport's name says. Everything must stay inside the
+        marked area and inside the time.
+    - label: If a stunt falls
+      body: >
+        The routine does not stop. The team carries on, and the fall or the
+        dropped stunt costs a deduction.
+    - label: The safety check
+      body: >
+        Separate officials watch for skills that are not allowed at the
+        team's age and level, for pyramids that are too high, and for too few
+        spotters. Each breach costs a deduction of its own, even when the
+        skill was performed cleanly.
+    - label: The score
+      body: >
+        A panel of judges marks the difficulty of the skills and how cleanly
+        they were done, using a set scoresheet. The deductions are then taken
+        off.
+    - label: Who wins
+      body: >
+        The team with the highest score wins. Because each team performs
+        once, one dropped stunt can decide the result.
+
 sections:
   - id: object
     label: The object of the game
