@@ -1,0 +1,33 @@
+# The ring, from the measurements in play.yaml. Shapes are in metres. Only the
+# diameter of the circle is a fact there; the platform, the sand border and
+# the starting lines are drawn without measurements, so the drawing is
+# schematic.
+sport: sumo
+title: A circle of straw on a platform of clay
+caption: >
+  The whole contest happens inside a circle 4.55 metres across, marked by
+  straw bales half buried in the clay. The wrestlers crouch behind the two
+  short lines in the middle. Touching anything outside the bales loses the
+  bout.
+alt: >
+  A sumo ring: a circle 4.55 metres across on a square clay platform, with a
+  band of sand around the circle, two short starting lines in the middle, a
+  wrestler behind each line and the referee to one side.
+scale: schematic
+view: [-4.3, -4.3, 4.3, 5]
+shapes:
+  - { type: rect, x: -3.4, y: -3.4, w: 6.8, h: 6.8, fill: surface }
+  - { type: circle, cx: 0, cy: 0, r: 2.6, fill: zone, line: none }
+  - { type: circle, cx: 0, cy: 0, r: 2.275, fill: area, line: heavy }
+  - { type: line, x1: -0.35, y1: -0.4, x2: -0.35, y2: 0.4 }
+  - { type: line, x1: 0.35, y1: -0.4, x2: 0.35, y2: 0.4 }
+  - { type: dot, x: -0.95, y: 0, label: "wrestler" }
+  - { type: dot, x: 0.95, y: 0, label: "wrestler" }
+  - { type: dot, x: 0, y: -1.5, label: "referee" }
+  - { type: label, x: 0, y: -0.75, text: "starting lines", tone: muted }
+  - { type: label, x: 0, y: 1.5, text: "straw bales at the edge", tone: chalk }
+  - { type: dim, x1: -2.275, y1: 4.1, x2: 2.275, y2: 4.1, text: "4.55 m" }
+legend:
+  - { swatch: area, label: the ring }
+  - { swatch: zone, label: sand border }
+  - { swatch: surface, label: clay platform }

@@ -1,0 +1,82 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how sumo is wrestled, not claims
+# about its history.
+
+sport: sumo
+terms:
+  - id: dohyo
+    term: Dohyō
+    definition: >
+      The ring. It is a raised platform of clay with a circle 4.55 metres
+      across marked on it, and a border of sand around the circle.
+    see: field
+  - id: straw-bales
+    term: Straw bales
+    definition: >
+      The edge of the ring. The bales are half buried in the clay, and a
+      wrestler who touches anything beyond them has lost.
+    see: field
+  - id: starting-lines
+    term: Starting lines
+    definition: >
+      Two short lines in the middle of the ring. Each wrestler crouches
+      behind one before the charge.
+    see: restarts
+  - id: mawashi
+    term: Mawashi
+    definition: >
+      The heavy belt wound around the waist and between the legs. It is the
+      only thing a wrestler wears, and the main thing an opponent grips.
+    see: equipment
+  - id: tachi-ai
+    term: Tachi-ai
+    definition: >
+      The start of a bout: the charge the two wrestlers make at each other
+      from the crouch. They begin it together, with no signal from the
+      referee.
+    see: restarts
+  - id: false-start
+    term: False start
+    definition: >
+      A charge made before both wrestlers are ready. It is not punished. The
+      wrestlers set up and start again.
+    see: restarts
+  - id: gyoji
+    term: Gyōji
+    definition: >
+      The referee, who stands in the ring and declares the winner of each
+      bout.
+    see: players
+  - id: judges
+    term: Judges
+    definition: >
+      The five officials who sit around the ring. They can hold a conference
+      and overrule the referee.
+    see: players
+  - id: mono-ii
+    term: Mono-ii
+    definition: >
+      The judges' conference. When a judge disputes the referee's decision,
+      the judges meet in the ring and confirm it, reverse it or order the
+      bout to be wrestled again.
+    see: winning
+  - id: rematch
+    term: Rematch
+    definition: >
+      A bout wrestled again at once, ordered by the judges when the two
+      wrestlers went down or out too close together to separate.
+    see: winning
+  - id: foul
+    term: Foul
+    definition: >
+      A forbidden act, such as a punch with a closed fist, hair-pulling or
+      choking. There is no smaller penalty: a foul loses the bout.
+    see: prohibitions
+  - id: weight-class
+    term: Weight class
+    definition: >
+      A division for wrestlers of similar weight. International amateur sumo
+      has lightweight, middleweight and heavyweight classes and an open
+      division. Professional sumo has none.
+    see: players

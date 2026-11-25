@@ -9,6 +9,49 @@ summary: >
   ring. No rounds, no time limit, no points — and in the professional Japanese
   sport, no weight classes.
 
+walkthrough:
+  title: One bout, from the crouch to the fall
+  intro: >
+    A sumo bout is short, and every one goes through the same few moments.
+  steps:
+    - label: The ring
+      body: >
+        Two wrestlers step onto the dohyō, a raised platform of clay. On it
+        is a circle 4.55 metres across, marked by straw bales half buried in
+        the clay. Each wrestler wears a mawashi, a heavy belt, and nothing
+        else. A referee stands in the ring, and five judges sit around it.
+    - label: The crouch
+      body: >
+        The wrestlers crouch behind two short starting lines in the middle of
+        the ring. Each must touch both fists to the clay before charging.
+    - label: The charge
+      body: >
+        Nobody gives a signal. The wrestlers start together, by mutual
+        consent, when both are ready. This start is called the tachi-ai. If
+        one goes too early, it is a false start and they set up again.
+    - label: The fight
+      body: >
+        Each tries to drive the other out of the ring or bring him down. A
+        wrestler may push, strike with an open hand at the face and upper
+        body, and grip the opponent's belt to move him. A closed fist, a kick
+        to the chest or waist, hair-pulling and choking are fouls, and a foul
+        loses the bout.
+    - label: The end
+      body: >
+        The bout ends the moment one wrestler touches the ground with any
+        part of the body except the soles of the feet, or touches anything
+        outside the ring. That wrestler loses. There are no rounds and no
+        time limit, and most bouts are decided in under ten seconds.
+    - label: A close finish
+      body: >
+        If both wrestlers go down or out almost together, the judges confer.
+        They can overrule the referee, or order the bout to be wrestled
+        again.
+    - label: The tournament
+      body: >
+        A bout has no score. It is won or lost, and a tournament is decided
+        by counting the bouts each wrestler has won.
+
 sections:
   - id: object
     label: The object of the game

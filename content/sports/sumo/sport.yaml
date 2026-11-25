@@ -1,6 +1,6 @@
 id: sumo
 label: Sumo
-tagline: "The only combat sport here with no weight classes — except in the international version, which has them, and which the best wrestlers in the world do not enter."
+tagline: "Japanese wrestling in a small clay ring: push the opponent out of it, or make any part of them but the soles of the feet touch the ground."
 governing_body: International Sumo Federation
 founded: >
   A Japanese ritual and court practice of great antiquity, professionalised
@@ -12,12 +12,17 @@ classification:
   official: sumo
   game-category: outside-taxonomy
   adjudication: combat
+glance:
+  - { value: "4.55 m", label: ring diameter }
+  - { value: "2", label: ways to lose }
+  - { value: "0", label: rounds or points }
 summary: >
-  Force your opponent out of a ring 4.55 metres across, or make any part of
-  them above the soles of the feet touch the ground. Bouts last seconds and
-  there are no rounds, no time limit and — in the professional Japanese sport —
-  no weight classes at all. The international amateur version has weight
-  classes, women's divisions and a World Games place, and the professional
-  wrestlers who define the sport compete in none of it.
+  Two wrestlers wearing only a heavy belt crouch facing each other in a ring
+  of clay 4.55 metres across. They charge at the same moment, with no signal
+  from the referee. A wrestler loses by touching the ground with anything
+  except the soles of the feet, or by touching anything outside the ring.
+  There are no rounds, no points and no time limit, and most bouts are over
+  in under ten seconds. The ring is too small to retreat in, so a bout is one
+  collision, settled by weight, balance and a grip on the belt.
 cover: sumo-nagoya-2014
 cover_position: "50% 30%"
