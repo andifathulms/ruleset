@@ -1,0 +1,99 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: volleyball
+terms:
+  - id: rally
+    term: Rally
+    definition: >
+      One exchange, from the serve until the ball lands or a fault is called.
+      Every rally ends with a point for one side.
+    see: object
+  - id: serve
+    term: Serve
+    definition: >
+      The hit that starts a rally. One player strikes the ball from behind the
+      end line into the opponent's court.
+    see: restarts
+  - id: jump-serve
+    term: Jump serve
+    definition: >
+      A serve hit hard at the top of a running jump. It is fast enough to win
+      the point without the other team returning it.
+    see: restarts
+  - id: float-serve
+    term: Float serve
+    definition: >
+      A serve hit with no spin, so the ball moves unpredictably in the air.
+  - id: touch
+    term: Touch
+    definition: >
+      One contact with the ball. A team has three touches to send the ball
+      back over the net, and no player may take two of them in a row.
+    see: object
+  - id: pass
+    term: Pass
+    definition: >
+      The first touch after the ball crosses the net. The receiver rebounds it
+      off the forearms, up and towards a team-mate.
+    see: object
+  - id: set-pass
+    term: Set
+    definition: >
+      The second touch: a soft, high ball played with the fingertips so that a
+      team-mate can attack it. The same word also names a part of a match.
+    see: object
+  - id: attack
+    term: Attack
+    definition: >
+      The third touch, usually a hard downward hit from above the net. It is
+      also called a spike.
+    see: object
+  - id: block
+    term: Block
+    definition: >
+      Front-row players jumping at the net with their hands up to stop an
+      attack as it crosses.
+  - id: attack-line
+    term: Attack line
+    definition: >
+      The line three metres from the net on each side. A back-row player may
+      attack the ball above the net only from behind it.
+    see: field
+  - id: rotation
+    term: Rotation
+    definition: >
+      When a team wins back the serve, its six players each move one position
+      clockwise. Every player passes through the front row and the back row.
+    see: players
+  - id: libero
+    term: Libero
+    definition: >
+      A defensive specialist in a contrasting shirt. The libero swaps freely
+      with back-row players and may not attack above the net, block or serve.
+    see: players
+  - id: double-contact
+    term: Double contact
+    definition: >
+      A fault: one player touching the ball twice in a row.
+    see: prohibitions
+  - id: match-set
+    term: Set (of a match)
+    definition: >
+      One part of a match, played to 25 points with a lead of two. A match is
+      the best of five sets, and a fifth set is played to 15.
+    see: scoring
+  - id: rally-scoring
+    term: Rally scoring
+    definition: >
+      The scoring now in use. A point is scored on every rally, by whichever
+      team wins it.
+    see: scoring
+  - id: side-out
+    term: Side-out scoring
+    definition: >
+      The older scoring. Only the serving team could score. When the receiving
+      team won a rally it won the serve, and no point.
+    see: scoring

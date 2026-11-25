@@ -1,0 +1,33 @@
+# The court, from the measurements in play.yaml. Shapes are in metres.
+sport: volleyball
+title: Two squares and a net
+caption: >
+  Each side has a nine-metre square. The attack line, three metres from the
+  net, divides it into a front zone and a back zone. A back-row player may
+  attack the ball above the net only from behind that line. The server stands
+  anywhere behind the end line.
+alt: >
+  A volleyball court 18 metres long and 9 metres wide, divided by the net into
+  two squares, each with an attack line 3 metres from the net.
+scale: to-scale
+view: [-2.5, -2.6, 20.5, 11.5]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 18, h: 9, fill: area }
+  - { type: rect, x: 6, y: 0, w: 3, h: 9, fill: zone, line: none }
+  - { type: rect, x: 9, y: 0, w: 3, h: 9, fill: zone, line: none }
+  - { type: line, x1: 6, y1: 0, x2: 6, y2: 9 }
+  - { type: line, x1: 12, y1: 0, x2: 12, y2: 9 }
+  - { type: line, x1: 9, y1: -0.7, x2: 9, y2: 9.7, line: heavy }
+  - { type: label, x: 9, y: -1.9, text: "net", tone: muted }
+  - { type: label, x: 3, y: 4.5, text: "back zone", tone: muted }
+  - { type: label, x: 7.5, y: 4.5, text: "front", tone: chalk }
+  - { type: label, x: 15, y: 4.5, text: "back zone", tone: muted }
+  - { type: label, x: 10.5, y: 4.5, text: "front", tone: chalk }
+  - { type: label, x: 5.8, y: 8.4, text: "attack line", anchor: end, tone: muted }
+  - { type: dot, x: -1.2, y: 6.5, label: "server" }
+  - { type: dim, x1: 9.2, y1: -0.9, x2: 12, y2: -0.9, text: "3 m" }
+  - { type: dim, x1: 0, y1: 10.4, x2: 18, y2: 10.4, text: "18 m" }
+  - { type: dim, x1: 19.2, y1: 0, x2: 19.2, y2: 9, text: "9 m" }
+legend:
+  - { swatch: zone, label: "front zone, 3 m deep" }
+  - { swatch: area, label: back zone }

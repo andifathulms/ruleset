@@ -10,6 +10,51 @@ summary: >
   collaborative — it is the only sport on this site where the rules make
   passing to a team-mate compulsory rather than optional.
 
+walkthrough:
+  title: "One rally, from the serve to the point"
+  intro: >
+    This is the indoor game, six a side. A match is this sequence repeated
+    until one team has won three sets.
+  steps:
+    - label: "Six players, in order"
+      body: >
+        Each team has six players on its half of the court. They stand in a
+        set order, and that order decides who serves. The attack line, three
+        metres from the net, separates the front row from the back row.
+    - label: "The serve"
+      body: >
+        One player strikes the ball from behind the end line, over the net and
+        into the opponent's court. Any way of hitting it is allowed, and a
+        foot over the line is a fault. A serve that touches the net and
+        carries on is still in play.
+    - label: "Three touches"
+      body: >
+        The receiving team has three touches to send the ball back. No player
+        may take two of them in a row, and nobody may catch, hold or throw the
+        ball. The usual sequence is a pass, a set and an attack.
+    - label: "At the net"
+      body: >
+        Players may not touch the net during play. A back-row player may not
+        attack the ball above the net from in front of the attack line. The
+        teams stay on their own sides and contest only the ball.
+    - label: "How it ends"
+      body: >
+        The rally goes on until the ball lands or a fault is called. A team
+        wins the rally when the ball lands in the opponent's court, or when
+        the opponent fails to return it or commits a fault, such as a fourth
+        touch.
+    - label: "The point"
+      body: >
+        The team that wins the rally scores one point, whether it served or
+        not. If the receiving team wins, it also wins back the serve, and its
+        players rotate one position clockwise before serving.
+    - label: "The set and the match"
+      body: >
+        A set goes to 25 points and must be won by two, so it runs on until
+        one team has that lead. The first team to win three sets wins the
+        match. If a fifth set is needed, it goes to 15, also by two. There is
+        no clock.
+
 sections:
   - id: object
     label: The object of the game

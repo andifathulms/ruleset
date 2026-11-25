@@ -1,6 +1,6 @@
 id: volleyball
 label: Volleyball
-tagline: The third sport in the broadcast wave, and the only one that invented a new position to fix what its rules had broken.
+tagline: "A team game for six a side: send the ball over a high net in three touches or fewer, never catching it, and make it land on the other team's floor."
 governing_body: FIVB
 founded: >
   Invented by William G. Morgan in Holyoke, Massachusetts, in 1895. FIVB
@@ -11,11 +11,16 @@ classification:
   official: volleyball
   game-category: net-and-wall
   adjudication: decided-by-score
+glance:
+  - { value: "6", label: players a side }
+  - { value: "25", label: points to win a set }
+  - { value: "18 × 9 m", label: court }
 summary: >
-  Badminton, table tennis and volleyball all replaced side-out scoring with
-  rally scoring within eight years of each other, for the same stated reason,
-  and volleyball went first. Its 1999 change is the cleanest example on this
-  site of a federation altering the arithmetic of its sport so that a match
-  would fit a broadcast slot — and it severed every set and match statistic
-  the sport had.
+  Volleyball is played by two teams of six on a court divided by a high net. A
+  rally starts with a serve. Each team then has three touches to send the ball
+  back, and no player may touch it twice in a row. The ball may not be caught
+  or held, so every touch is a rebound, and almost every rally follows the
+  same pattern: pass, set, attack. Every rally scores a point. A set goes to
+  25, and a match is the best of five sets. The two teams never touch each
+  other. The whole contest is for the ball.
 cover: volleyball-triple-block
