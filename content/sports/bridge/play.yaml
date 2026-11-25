@@ -8,6 +8,51 @@ summary: >
   the contract; the side that wins it then tries to make it. In competition the
   same deals are played at every table and results are scored by comparison.
 
+walkthrough:
+  title: One board, from the deal to the score
+  intro: >
+    A session of duplicate bridge is this sequence repeated, one board at a
+    time, at every table.
+  steps:
+    - label: The deal
+      body: >
+        Each of the four players takes thirteen cards from a slot in the
+        board. The same board, with the same cards, will be played again at
+        other tables. Partners sit facing each other.
+    - label: The auction
+      body: >
+        The players bid in turn, by laying a printed card from their bidding
+        box on the table. Each bid names a level and a denomination, a trump
+        suit or no trumps. A bid says something about the hand, in a code the
+        partnership has agreed. Each bid must be higher than the last, and
+        the highest bid of the auction becomes the contract.
+    - label: Telling the opponents
+      body: >
+        The code is not secret from the other side. An unusual bid must be
+        alerted, the convention card is on the table, and an opponent may ask
+        what any bid means. Partners may not tell each other anything except
+        through their bids and cards.
+    - label: Declarer and dummy
+      body: >
+        The side that won the auction now tries to make its contract. One
+        player becomes declarer. Declarer's partner becomes dummy: dummy's
+        cards are laid face up, and declarer plays them as well as their own.
+    - label: The play
+      body: >
+        Each player plays one card in turn, and four cards make a trick. There
+        are thirteen tricks in a deal. A player who could follow suit and does
+        not has revoked, and the director puts it right.
+    - label: The score
+      body: >
+        A contract made scores for its level and denomination, with bonuses
+        for game and slam. A contract that fails scores for the defenders.
+        Both count for more when the side is vulnerable.
+    - label: Against the other tables
+      body: >
+        The score is then compared with the scores of everyone who held the
+        same cards. In pairs it becomes matchpoints, and in teams it becomes
+        IMPs. The pair or team with the best comparison over the session wins.
+
 sections:
   - id: object
     label: The object of the game

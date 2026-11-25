@@ -1,6 +1,6 @@
 id: bridge
 label: Contract bridge
-tagline: "A partnership game in which telling your partner anything is an offence, and telling your opponents everything is compulsory."
+tagline: A card game for four players in two partnerships, who bid for a contract and then try to win the tricks they promised.
 governing_body: World Bridge Federation
 founded: >
   Contract bridge was devised in 1925 from earlier whist and auction bridge
@@ -12,11 +12,18 @@ classification:
   official: bridge
   game-category: outside-taxonomy
   adjudication: decided-by-score
+glance:
+  - { value: "4", label: players in two pairs }
+  - { value: "13", label: cards in each hand }
+  - { value: "52", label: cards in the pack }
 summary: >
-  Four players in two partnerships, bidding for a contract and then playing it
-  out. Two rules make it unlike anything else here. You may not communicate
-  with your partner except through the bids and cards themselves — a hesitation
-  or a tone of voice is an ethical violation. And your partnership's private
-  agreements must be fully disclosed to your opponents on request. The secret
-  is kept from the person you are playing with.
+  Four players sit around a table, each facing a partner, and each is dealt
+  thirteen cards. First comes the auction: the players bid in
+  turn, and each bid is a coded message about a hand. The side that bids
+  highest wins the contract, a promise to take a number of tricks, and then
+  tries to keep it in the play of the cards. Two rules make the game what it
+  is. Partners may tell each other things only through their bids and cards,
+  never by a pause or a look. And a pair must explain what its bids mean to
+  the opponents whenever they ask. In competition the same deals are played
+  at every table, so a score says how well a pair played the cards it held.
 cover: bridge-bidding-box-1nt

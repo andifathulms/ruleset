@@ -1,0 +1,104 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: bridge
+terms:
+  - id: auction
+    term: Auction
+    definition: >
+      The first part of each deal. The players bid in turn, and the highest
+      bid becomes the contract.
+    see: object
+  - id: contract
+    term: Contract
+    definition: >
+      The promise made by the side that wins the auction: to take a number of
+      tricks, with a named trump suit or with no trumps.
+    see: object
+  - id: trick
+    term: Trick
+    definition: >
+      A round of four cards, one played by each player in turn. There are
+      thirteen tricks in each deal.
+  - id: declarer
+    term: Declarer
+    definition: >
+      The player who plays the contract for the side that won the auction.
+      Declarer plays their own cards and dummy's.
+    see: players
+  - id: dummy
+    term: Dummy
+    definition: >
+      Declarer's partner. Dummy's cards are laid face up on the table and
+      played by declarer, and dummy takes no further part in the deal.
+    see: players
+  - id: board
+    term: Board
+    definition: >
+      A holder with four slots, one for each player's thirteen cards. It keeps
+      a deal whole so the same cards can be played again at the next table.
+    see: equipment
+  - id: duplicate
+    term: Duplicate
+    definition: >
+      The competitive form of bridge. The same deals are played at every table,
+      and each result is scored by comparison with the others.
+    see: scoring
+  - id: bidding-box
+    term: Bidding box
+    definition: >
+      A box of printed cards, one for every possible bid. A player bids by
+      laying a card on the table instead of speaking.
+    see: equipment
+  - id: screen
+    term: Screen
+    definition: >
+      A barrier set diagonally across the table at top events, so that partners
+      cannot see each other. Bids are passed under it on a tray.
+    see: field
+  - id: convention-card
+    term: Convention card
+    definition: >
+      A written summary of what a partnership's bids mean. It stays on the
+      table for the opponents to read.
+    see: equipment
+  - id: alert
+    term: Alert
+    definition: >
+      A warning to the opponents that a bid has a special, agreed meaning. A
+      conventional bid that is not alerted is an infringement.
+    see: prohibitions
+  - id: unauthorised-information
+    term: Unauthorised information
+    definition: >
+      Anything a player learns from a partner other than through bids and
+      cards, such as a pause or a question. The player who receives it must
+      not use it.
+    see: prohibitions
+  - id: revoke
+    term: Revoke
+    definition: >
+      Failing to follow suit when you could. It is an infringement, and the
+      director decides how it is put right.
+    see: prohibitions
+  - id: matchpoints
+    term: Matchpoints
+    definition: >
+      The scoring used in pairs events. A pair scores against every other pair
+      that held the same cards.
+    see: scoring
+  - id: imps
+    term: IMPs
+    definition: >
+      International Match Points, the scoring used in teams events. The
+      difference between two tables' results on a board is turned into IMPs on
+      a scale.
+    see: scoring
+  - id: director
+    term: Tournament director
+    definition: >
+      The official who rules on infringements. A director may correct an
+      irregularity or adjust a score to what would probably have happened.
+    see: players
