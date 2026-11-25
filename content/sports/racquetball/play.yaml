@@ -8,6 +8,51 @@ summary: >
   Every surface including the ceiling is in play. The ball must reach the front
   wall before bouncing twice, and that is very nearly the whole constraint.
 
+walkthrough:
+  title: "One rally, from the serve to the point"
+  intro: >
+    This is singles, one player against one. Doubles follows the same sequence
+    with two players a side.
+  steps:
+    - label: "The room"
+      body: >
+        The court is a closed room. The floor, the four walls and the ceiling
+        are all in play. The front wall has no line that a shot must stay
+        above or below.
+    - label: "The serve"
+      body: >
+        The server stands in the service zone, bounces the ball once and hits
+        it to the front wall. The ball must come back past the short line
+        before it touches the floor. It may touch one side wall on the way.
+    - label: "A fault"
+      body: >
+        A serve that hits the ceiling, two side walls, or the back wall before
+        the floor is a fault. The server serves again. Two faults lose the
+        serve.
+    - label: "The rally"
+      body: >
+        Each shot must reach the front wall before the ball has bounced twice
+        on the floor. It may take any route there, off the ceiling, the back
+        wall or the side walls. The ball must be struck cleanly. Carrying it
+        or hitting it twice is not allowed.
+    - label: "Sharing the floor"
+      body: >
+        Both players use the same court with no line between them. If one gets
+        in the other's way by accident, it is a hinder and the rally is
+        replayed. If the player could have moved clear, it is an avoidable
+        hinder and that player loses the rally.
+    - label: "The point"
+      body: >
+        The rally ends when the ball bounces twice or fails to reach the front
+        wall. If the server wins the rally, the server scores one point. If
+        the receiver wins it, the receiver scores nothing and becomes the
+        server.
+    - label: "The game and the match"
+      body: >
+        A game is played to 15 points. The first player to win two games wins
+        the match. If each player wins one game, a third game is played to 11.
+        There is no clock.
+
 sections:
   - id: object
     label: The object of the game
@@ -35,6 +80,8 @@ sections:
       - { label: Surfaces in play, value: "All of them, including the ceiling" }
       - { label: Tin, value: None — the whole front wall is good }
       - { label: Out line, value: None }
+      - { label: Short line, value: 20 ft from the front wall }
+      - { label: Service zone, value: "5 ft deep, in front of the short line" }
     shaped_by: [racquetball-all-surfaces-live]
 
   - id: equipment

@@ -1,0 +1,85 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: racquetball
+terms:
+  - id: rally
+    term: Rally
+    definition: >
+      One exchange of shots, from the serve until the ball bounces twice, fails
+      to reach the front wall, or a call ends it.
+    see: object
+  - id: front-wall
+    term: Front wall
+    definition: >
+      The wall every shot must reach before the ball bounces twice. The whole
+      of it is good, from the floor to the ceiling.
+    see: field
+  - id: service-zone
+    term: Service zone
+    definition: >
+      The strip across the middle of the floor where the server stands. It is
+      five feet deep and ends at the short line.
+    see: field
+  - id: short-line
+    term: Short line
+    definition: >
+      The line across the middle of the floor. A serve must come back past it
+      before it touches the floor.
+    see: restarts
+  - id: fault
+    term: Fault serve
+    definition: >
+      A serve that breaks a serving rule, such as one that hits the ceiling,
+      two side walls, or the back wall before the floor. Two faults in a row
+      lose the serve.
+    see: restarts
+  - id: side-out
+    term: Side-out
+    definition: >
+      The server losing the serve. Only the server can score, so a receiver who
+      wins a rally wins the serve and no point.
+    see: scoring
+  - id: hinder
+    term: Hinder
+    definition: >
+      Accidental interference between the players. The rally is stopped and
+      played again.
+    see: prohibitions
+  - id: avoidable-hinder
+    term: Avoidable hinder
+    definition: >
+      Interference a player could have prevented, such as not moving out of
+      the way. That player loses the rally.
+    see: prohibitions
+  - id: ceiling-ball
+    term: Ceiling ball
+    definition: >
+      A shot hit up to the ceiling so that it drops deep in the back of the
+      court. It is a defensive shot that buys time.
+    see: field
+  - id: pinch
+    term: Pinch shot
+    definition: >
+      An attacking shot hit into a front corner, so that it strikes a side
+      wall and the front wall and stays low.
+  - id: tether
+    term: Tether
+    definition: >
+      The cord that fastens the racquet to the player's wrist, so the racquet
+      cannot fly out of the hand.
+    see: equipment
+  - id: eyewear
+    term: Eye protection
+    definition: >
+      Glasses with lenses, made for the sport. A player may not play without
+      them.
+    see: equipment
+  - id: cutthroat
+    term: Cutthroat
+    definition: >
+      An informal game for three players, in which the server plays against
+      the other two.
+    see: players

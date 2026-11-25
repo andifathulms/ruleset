@@ -1,6 +1,6 @@
 id: racquetball
 label: Racquetball
-tagline: "A wall sport with no out of bounds: the ceiling and every wall are in play, and the only way to lose the ball is to let it bounce twice."
+tagline: "A racquet game played in a closed room: hit a rubber ball to the front wall, off any wall or the ceiling, before it bounces twice on the floor."
 governing_body: International Racquetball Federation
 founded: >
   Invented in 1950 by Joe Sobek at a YMCA in Greenwich, Connecticut, by adding
@@ -12,11 +12,18 @@ classification:
   official: racquetball
   game-category: net-and-wall
   adjudication: decided-by-score
+glance:
+  - { value: "2 or 4", label: players on court }
+  - { value: "15", label: points to win a game }
+  - { value: "40 ft", label: court length }
 summary: >
-  Played in a sealed box forty feet by twenty by twenty, in which every surface
-  including the ceiling is in play and the front wall has no tin. Squash, its
-  nearest relative, defines a court by where the ball may not go; racquetball
-  removed almost all of those lines. The two sports also answered the broadcast
-  question differently — squash rewrote its scoring and is on the 2028 Olympic
-  programme, racquetball kept its and is at the World Games.
+  Racquetball is played by two or four people inside a sealed court forty feet
+  long, twenty wide and twenty high. The players hit a lively rubber ball with
+  short racquets. Each shot must reach the front wall before the ball bounces
+  twice on the floor, and it may go there by any route: off the side walls,
+  the back wall or the ceiling. There is no out of bounds, so a rally is
+  almost always lost by failing to reach the ball. Only the server can score.
+  A game goes to 15 points, and a match is the best of three games. Both sides
+  share the same floor, and many of the rules are about keeping out of each
+  other's way.
 cover: racquetball-dive

@@ -1,0 +1,33 @@
+# The floor of the court, from the measurements in play.yaml. Shapes are in feet.
+sport: racquetball
+title: The floor of a closed room
+caption: >
+  The court is a sealed room, seen here from above. The server stands in the
+  service zone and hits the ball to the front wall. The serve must come back
+  past the short line before it touches the floor. After the serve the lines
+  no longer matter: the floor, all four walls and the ceiling, 20 feet up, are
+  in play.
+alt: >
+  The floor of a racquetball court, 40 feet long and 20 feet wide, with the
+  front wall at the left. A service zone 5 feet deep lies across the middle,
+  ending at the short line, 20 feet from the front wall.
+scale: to-scale
+view: [-8, -4, 46, 25]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 40, h: 20, fill: area }
+  - { type: rect, x: 20, y: 0, w: 20, h: 20, fill: zone, line: none }
+  - { type: rect, x: 15, y: 0, w: 5, h: 20, fill: target, line: none }
+  - { type: line, x1: 15, y1: 0, x2: 15, y2: 20 }
+  - { type: line, x1: 20, y1: 0, x2: 20, y2: 20 }
+  - { type: line, x1: 0, y1: 0, x2: 0, y2: 20, line: heavy }
+  - { type: label, x: -1.2, y: 10, text: "front wall", anchor: end, tone: muted }
+  - { type: label, x: 39.3, y: 18.4, text: "back wall", anchor: end, tone: muted }
+  - { type: dot, x: 17.5, y: 12, label: "server" }
+  - { type: label, x: 20.6, y: 1.6, text: "short line", anchor: start, tone: muted }
+  - { type: label, x: 30, y: 10, text: "serve lands here", tone: chalk }
+  - { type: dim, x1: 0, y1: -2, x2: 20, y2: -2, text: "20 ft" }
+  - { type: dim, x1: 0, y1: 22.5, x2: 40, y2: 22.5, text: "40 ft" }
+  - { type: dim, x1: 43, y1: 0, x2: 43, y2: 20, text: "20 ft" }
+legend:
+  - { swatch: target, label: "service zone, 5 ft deep" }
+  - { swatch: zone, label: where a serve must first bounce }
