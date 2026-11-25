@@ -10,6 +10,44 @@ summary: >
   specified in detail, because all three determine how much spin can be
   imparted and how much of it the opponent is allowed to see.
 
+walkthrough:
+  title: One point, from the service to the score
+  intro: >
+    This is a point in singles. Doubles follows the same order, with the two
+    partners hitting the ball in turn.
+  steps:
+    - label: The service
+      body: >
+        The server rests the ball on an open, flat palm and stands behind the
+        end line. The ball is thrown almost straight up, at least 16
+        centimetres, and hit as it comes down. The receiver must be able to
+        see the ball the whole time.
+    - label: Two bounces
+      body: >
+        The served ball bounces once on the server's side, crosses the net
+        and bounces on the receiver's side. There is no second serve. A
+        service that breaks the law gives the point to the receiver.
+    - label: The rally
+      body: >
+        Each player lets the ball bounce once on their own side and then hits
+        it back over the net, so that it lands on the opponent's side. The
+        ball may not be hit before it bounces.
+    - label: How the point ends
+      body: >
+        The rally is over when a player fails to make a legal return, or lets
+        the ball bounce twice. A player also loses the point by moving the
+        table, by touching the net, or by putting the free hand on the playing
+        surface.
+    - label: The score
+      body: >
+        Whoever wins the rally scores one point, whether they served or not.
+        The service passes to the other player after every two points.
+    - label: The game and the match
+      body: >
+        The first player to 11 points wins the game, with a lead of two. From
+        ten-all the service changes after every point until someone leads by
+        two. A match is the best of five or seven games, and there is no draw.
+
 sections:
   - id: object
     label: The object of the game
@@ -76,8 +114,9 @@ sections:
     label: Format
     body: >
       Best of five or seven games, with no clock. There is an expedite system:
-      if a game reaches ten minutes without ten points having been scored, the
-      receiver wins the point on the thirteenth legal return, which effectively
+      if a game is still going after ten minutes of play and fewer than 18
+      points have been scored in it, the receiver wins the point on the
+      thirteenth legal return, which effectively
       forbids defensive stalemate. It is rarely invoked and exists because it
       once had to be.
 
@@ -114,6 +153,7 @@ sections:
       - { label: Minimum throw, value: 16 cm }
       - { label: Ball must be, value: Visible throughout }
       - { label: Struck from, value: Behind the end line }
+      - { label: Service bounces, value: Once on each side, note: First on the server's side of the net and then on the receiver's. }
     shaped_by: [ittf-2002-service-visibility]
     citation:
       source: ittf-handbook

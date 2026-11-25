@@ -1,6 +1,6 @@
 id: table-tennis
 label: Table tennis
-tagline: Changed its ball twice and its scoring once, and every time the reason given was television.
+tagline: A fast game for two or four players, who hit a light hollow ball across a low net on a table, using small bats covered in rubber.
 governing_body: International Table Tennis Federation
 founded: International Table Tennis Federation founded 1926.
 coverage: deep
@@ -9,11 +9,16 @@ classification:
   official: table-tennis
   game-category: net-and-wall
   adjudication: decided-by-score
+glance:
+  - { value: "2 or 4", label: players at the table }
+  - { value: "11", label: points to win a game }
+  - { value: "2.74 m", label: table length }
 summary: >
-  Badminton rewrote its scoring for broadcast in 2006. Table tennis did the
-  same thing five years earlier and then went further, twice enlarging the ball
-  to slow the game down for a camera. It is the clearest case on this site of a
-  federation altering the physics of its own sport rather than its laws of
-  play, and it did so knowing that every rally statistic before the change
-  would stop being comparable.
+  Table tennis is played on a table 2.74 metres long with a net 15 centimetres
+  high across the middle. The ball must bounce once on a player's own side
+  before it is hit, and it must then land on the opponent's side. A point ends
+  when someone fails to make a legal return. A game goes to 11 points, and a
+  match is the best of five or seven games. The game is built on spin. The
+  rubber on the bat can make the ball turn very fast, and the hard part is
+  reading how the opponent's ball is spinning before it arrives.
 cover: table-tennis-fan-zhendong-2017

@@ -1,0 +1,28 @@
+# The table, from the measurements in play.yaml. Shapes are in metres.
+sport: table-tennis
+title: The table, seen from above
+caption: >
+  Every shot must bounce once on the opponent's half of the table. The white
+  line down the middle is used only in doubles. The table top stands 76
+  centimetres above the floor.
+alt: >
+  A table tennis table 2.74 metres long and 1.525 metres wide, seen from
+  above, with a net across the middle and a line down its length. The half
+  beyond the net from the server is shaded as the place the ball must bounce.
+scale: to-scale
+view: [-0.75, -0.62, 3.55, 2.12]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 2.74, h: 1.525, fill: area }
+  - { type: rect, x: 1.37, y: 0, w: 1.37, h: 1.525, fill: zone, line: none }
+  - { type: rect, x: 0, y: 0, w: 2.74, h: 1.525 }
+  - { type: line, x1: 0, y1: 0.7625, x2: 2.74, y2: 0.7625, line: faint }
+  - { type: line, x1: 1.37, y1: -0.12, x2: 1.37, y2: 1.645, line: heavy }
+  - { type: label, x: 1.37, y: -0.36, text: "net, 15.25 cm high", tone: muted }
+  - { type: label, x: 0.68, y: 0.62, text: "centre line", tone: muted }
+  - { type: label, x: 2.05, y: 0.4, text: "the ball lands here", tone: chalk }
+  - { type: dot, x: -0.3, y: 0.95, label: "server" }
+  - { type: dim, x1: 0, y1: 1.88, x2: 2.74, y2: 1.88, text: "2.74 m" }
+  - { type: dim, x1: 3.1, y1: 0, x2: 3.1, y2: 1.525, text: "1.525 m" }
+legend:
+  - { swatch: zone, label: "where the server's shots must bounce" }
+  - { swatch: area, label: "the server's own half" }

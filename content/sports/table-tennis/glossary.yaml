@@ -1,0 +1,93 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: table-tennis
+terms:
+  - id: spin
+    term: Spin
+    definition: >
+      The turning of the ball in flight, put on it by brushing it with the
+      rubber of the bat. Spin bends the ball's path and changes how it jumps
+      off the table and off the opponent's bat.
+    see: equipment
+  - id: service
+    term: Service
+    definition: >
+      The shot that starts each point. The ball is thrown up from an open palm
+      and hit so that it bounces once on the server's side and then on the
+      receiver's side.
+    see: restarts
+  - id: rally
+    term: Rally
+    definition: >
+      The exchange of shots after the service, which lasts until one player
+      fails to make a legal return.
+    see: object
+  - id: return
+    term: Return
+    definition: >
+      A shot that sends the ball back over the net to bounce on the opponent's
+      side, hit after the ball has bounced once on the player's own side.
+    see: object
+  - id: volley
+    term: Volley
+    definition: >
+      Hitting the ball before it has bounced. It is not allowed in table
+      tennis, and the player who does it loses the point.
+    see: prohibitions
+  - id: blade
+    term: Blade
+    definition: >
+      The wooden part of the bat, without its rubber. It may be any size or
+      shape, and it must be at least 85 per cent natural wood.
+    see: equipment
+  - id: rubber
+    term: Rubber
+    definition: >
+      The covering glued to each side of the blade. It is the part that
+      touches the ball, and one side must be red and the other black.
+    see: equipment
+  - id: pimples
+    term: Pimples
+    definition: >
+      The small raised dots on a sheet of bat rubber. They may face outward or
+      inward, and long pimples change or reverse the spin of the incoming
+      ball.
+    see: equipment
+  - id: sponge
+    term: Sponge
+    definition: >
+      A soft layer between the blade and the rubber sheet. It lets the ball
+      sink into the bat, which adds speed and spin.
+    see: equipment
+  - id: twiddling
+    term: Twiddling
+    definition: >
+      Turning the bat round in the hand during a rally, so that the next shot
+      is played with the other rubber.
+    see: equipment
+  - id: end-line
+    term: End line
+    definition: >
+      The edge of the table at each end. The server must hit the ball from
+      behind it.
+    see: restarts
+  - id: centre-line
+    term: Centre line
+    definition: >
+      The white line down the middle of the table. It is used only in doubles.
+    see: field
+  - id: free-hand
+    term: Free hand
+    definition: >
+      The hand that is not holding the bat. It throws the ball up for the
+      service, and it must not touch the playing surface during a rally.
+    see: prohibitions
+  - id: expedite
+    term: Expedite system
+    definition: >
+      A rule for a game that is taking too long. Once it applies, the receiver
+      wins the point by making thirteen legal returns in a rally.
+    see: duration
