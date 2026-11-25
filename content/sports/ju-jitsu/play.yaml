@@ -90,9 +90,8 @@ sections:
       **pair from the same team** performs together — one attacking, one
       defending — against another pair, judged by a panel.
 
-      That makes Duo the only event covered on this site where two people on
-      the same side compete against two other people on their own side, with
-      nobody opposing anybody.
+      In Duo, two people on the same side compete against two other people on
+      their own side, with nobody opposing anybody.
     facts:
       - { label: Fighting and Ne-waza, value: "One against one, by weight" }
       - { label: Duo, value: "A pair from one team, judged" }

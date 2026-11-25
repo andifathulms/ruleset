@@ -1,7 +1,7 @@
 sport: equestrian
 standing: editorial
 summary: >
-  The most expensive sport on this site to enter and one of the few where the
+  One of the most expensive sports to enter and one of the few where the
   competitor's own ability is not the whole barrier — you also need a horse
   capable of the job, and at the top that is a purchase rather than an
   achievement.
@@ -21,8 +21,8 @@ entry:
     cost and access. Equestrian cannot make the same argument about itself.
   evidence:
     - { label: Kit to start, value: A horse, basis: observation, note: Everything else follows from it. }
-    - { label: Facility, value: Stabling, land and an arena, basis: observation }
-    - { label: Partner, value: An animal, basis: observation, note: The only sport here where the other half of the competitor must be acquired. }
+    - { label: Facility, value: "Stabling, land and an arena", basis: observation }
+    - { label: Partner, value: An animal, basis: observation, note: The other half of the competitor must be acquired. }
     - { label: Time to competitive level, value: Years, basis: judgement }
 
 mastery:
@@ -32,13 +32,12 @@ mastery:
     Elite equestrian requires a rider at the top of a difficult craft and a
     horse capable of the same, and the second is bought as often as it is made.
     That is a real and unusual feature of this sport's ceiling: money buys
-    competitive quality more directly here than anywhere else on this site,
-    which is why the sport's elite is drawn from a narrower social band than
-    any other.
+    competitive quality directly, which is why the sport's elite is drawn from
+    a narrow social band.
 
-    The peak window is also the longest here, because it does not depend on a
-    young human body. Riders compete at the highest level into their fifties
-    and beyond, which nothing else on this board comes close to.
+    The peak window is also very long, because it does not depend on a young
+    human body. Riders compete at the highest level into their fifties and
+    beyond.
 
     And the ceiling now has a question mark over it that no other sport's has.
     The federation's own commission has reported that public consent for
@@ -60,17 +59,16 @@ mastery:
       value: Elimination
       basis: rule
       rule: fei-2013-blood-rule
-    - { label: Typical peak age, value: 30–50, basis: judgement, note: By far the widest window on this site. }
+    - { label: Typical peak age, value: 30–50, basis: judgement, note: An unusually wide window. }
     - { label: Mixed-gender competition, value: Every event, basis: rule, rule: fei-1952-women-admitted }
 
 gap: >
   Equestrian is very high at both ends and the reason is money at one end and
-  a purchase at the other, which makes it the least meritocratic learning curve
-  on this board — and the sport does not really dispute that.
+  a purchase at the other, which makes its learning curve unusually
+  unmeritocratic — and the sport does not really dispute that.
 
-  It is also the only entry here whose mastery section has to discuss whether
-  the sport will continue to exist. That is not hyperbole and it is not this
-  site editorialising: the federation's own Equine Ethics and Wellbeing
+  Its mastery also has to reckon with whether the sport will continue to
+  exist. That is not hyperbole or editorialising: the federation's own Equine Ethics and Wellbeing
   Commission reported in 2023 that a significant share of the public does not
   believe horses in sport are well treated, and modern pentathlon lost its
   riding discipline in 2022 within a year of a televised incident. A young

@@ -5,7 +5,7 @@ source: world-sailing-rrs
 standing: primary-named
 summary: >
   Sail a course faster than the rest of the fleet, repeatedly, and be ahead on
-  points at the end. Sailing's rulebook is unlike anything else here because it
+  points at the end. Sailing's rulebook is unusual because it
   is mostly a collision-avoidance code — a system of right of way governing what
   boats converging at speed must do — with the racing bolted onto it.
 
@@ -68,8 +68,8 @@ sections:
     body: >
       A course laid with inflatable marks, set for the wind on the day and
       frequently moved between races as it shifts. No two courses are the same
-      and none is the same twice, which is the most extreme version of the
-      non-standardised venue on this site.
+      and none is the same twice, an extreme version of the non-standardised
+      venue.
     facts:
       - { label: Course, value: Laid for the day's wind }
       - { label: Marks, value: Moved as conditions change }
@@ -82,11 +82,11 @@ sections:
       event is built to the same specification, so the racing is between
       sailors rather than between budgets.
 
-      What is unique here is that the classes themselves are reselected between
+      What is unusual is that the classes themselves are reselected between
       Olympic cycles. The federation chooses which boats the Games will be
       sailed in, and it changes them — foiling equipment arrived for 2024 and
-      long-standing classes were removed. No other sport on this site
-      periodically replaces the equipment that defines its events.
+      long-standing classes were removed. The equipment that defines the
+      events is periodically replaced.
     facts:
       - { label: Class type, value: One-design }
       - { label: Classes, value: Reselected per Olympic cycle }

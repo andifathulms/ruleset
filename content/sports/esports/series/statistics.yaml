@@ -4,8 +4,8 @@ unit: points
 higher_is_better: true
 absence_kind: impossible
 cannot_exist: >
-  Esports produces more data than any sport on this site and almost none of it
-  survives a comparison across time.
+  Esports produces a huge amount of data and almost none of it survives a
+  comparison across time.
 
   Every action in a competitive match is logged by the server, so the raw
   material is extraordinary — complete positional, economic and outcome data

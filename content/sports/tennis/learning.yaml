@@ -3,7 +3,7 @@ standing: editorial
 summary: >
   The counter-example to badminton, and the reason the two are worth reading
   together. Both are racket sports played over a net with an implement in one
-  hand. Badminton is among the easiest sports here to have a real game of on
+  hand. Badminton is among the easiest sports to have a real game of on
   day one; tennis is among the hardest, and the difference is entirely the
   object being hit.
 
@@ -22,13 +22,13 @@ entry:
     reach the reply.
 
     Add the cost — court hire, coaching, restringing — and tennis has the
-    highest genuine barrier to a first real game of any racket sport on this
-    site. The scoring does not help: 15, 30, 40 is inherited rather than
+    a higher genuine barrier to a first real game than badminton or table
+    tennis. The scoring does not help: 15, 30, 40 is inherited rather than
     designed and has to be explained to everyone.
   evidence:
     - { label: Court length, value: 23.77 m, basis: observation, note: Badminton's is 13.4 m. }
     - { label: Players needed, value: "2", basis: observation }
-    - { label: Facility, value: A booked court, basis: observation, note: Rarely free, unlike a basketball hoop or a table. }
+    - { label: Facility, value: A booked court, basis: observation, note: "Rarely free, unlike a basketball hoop or a table." }
     - { label: Serves per point, value: "2", basis: observation, note: The rules concede that the first attempt often fails. }
     - { label: Time to a real rally, value: Months, basis: judgement }
 
@@ -39,19 +39,19 @@ mastery:
     The technical ceiling is high and the physical one higher, but what
     distinguishes tennis at the top is that it asks for competence at three
     different sports. Grass, clay and hard courts produce genuinely different
-    bounce, speed and movement, and tennis is the only scored sport on this
-    site that does not standardise its playing surface. A player can be
+    bounce, speed and movement, and tennis does not standardise its playing
+    surface. A player can be
     world-class on one and ordinary on another.
 
     The calendar compounds it. The tour runs nearly year-round, individually
     rather than in a team, with ranking points that decay — so a player is
     obliged to keep competing rather than to peak for a championship.
 
-    The scoring adds a specific psychological demand no other sport here has.
+    The scoring adds a specific psychological demand.
     Because points nest inside games inside sets, a match can be lost by a
     player who won more points, and the moments that decide it are known in
-    advance to both players. Tennis has more identifiable pressure points per
-    match than anything else on this board.
+    advance to both players. Tennis has many identifiable pressure points in
+    every match.
   evidence:
     - label: Deciding-set tiebreak
       value: Only harmonised in 2022
@@ -68,19 +68,19 @@ mastery:
       basis: rule
       rule: itf-2025-electronic-line-calling
       note: Removed the last route to a favourable error.
-    - { label: Surfaces, value: "3", basis: observation, note: Not standardised, unlike every other scored sport here. }
+    - { label: Surfaces, value: "3", basis: observation, note: Not standardised. }
     - { label: Typical peak age, value: 23–29, basis: judgement }
 
 gap: >
-  Tennis is the racket sport that inverts this site's usual racket-sport shape.
+  Tennis inverts the usual racket-sport shape.
   Badminton and table tennis are very low to start and very high at the top,
   and in both the implement does the beginner a favour. Tennis is high at both
   ends, because the ball does not.
 
   That single physical fact — a shuttle decelerates, a ball does not — produces
   two different sports, two different participation profiles and two different
-  learning curves out of what is otherwise the same game. It is the clearest
-  illustration on this site that a sport's accessibility is a property of its
+  learning curves out of what is otherwise the same game. It is a clear
+  illustration that a sport's accessibility is a property of its
   equipment rather than of its rules, and that the equipment is itself a rule.
 
   Tennis is also the racket sport that declined to rewrite its scoring when

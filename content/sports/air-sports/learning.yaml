@@ -1,8 +1,7 @@
 sport: air-sports
 standing: editorial
 summary: >
-  The highest entry barrier of any sport on this site for most of its
-  disciplines — you need an aircraft, a licence and an airfield — and one
+  A high entry barrier for most of its disciplines — you need an aircraft, a licence and an airfield — and one
   discipline you can start this week with a two-hundred-pound drone.
 
 entry:
@@ -22,13 +21,13 @@ entry:
     **Drone racing is the exception and it is a large one.** A racing drone, a
     controller and goggles cost less than a set of golf clubs, the sport can be
     practised in a field or a car park, and a beginner is flying on the first
-    day. It is the only discipline here that a person can take up alone.
+    day. It is the only air-sports discipline that a person can take up alone.
   evidence:
-    - { label: Most disciplines, value: Aircraft, licence, airfield, club, basis: judgement }
+    - { label: "Most disciplines", value: "Aircraft, licence, airfield, club", basis: "judgement" }
     - { label: Gliding, value: Months of instruction to fly solo, basis: judgement }
     - { label: Drone racing, value: Equipment costs less than a bicycle, basis: rule, rule: fai-2018-drone-racing }
     - { label: Foot-launched, value: Paragliding and hang gliding are the cheapest way into the air, basis: observation }
-    - { label: Time to a first competition, value: Years, or weeks for drones, basis: judgement }
+    - { label: Time to a first competition, value: "Years, or weeks for drones", basis: judgement }
 
 mastery:
   verdict: very-high
@@ -40,7 +39,7 @@ mastery:
     all while flying a task set that morning against pilots in the same air. The
     decisions compound over five hours, and a wrong one puts you in a field.
 
-    That skill is closest, on this site, to orienteering: reading an environment
+    That skill is closest to orienteering's: reading an environment
     nobody standardised, at speed, where the mistake is a decision rather than a
     physical failure.
 
@@ -72,12 +71,11 @@ mastery:
     - { label: Typical peak age, value: 30–50 in gliding; under 25 in drone racing, basis: judgement }
 
 gap: >
-  High to very high, and it is the only sport on this site whose entry barrier
-  is set by aviation law rather than by anything sporting.
+  High to very high, and the entry barrier is set by aviation law rather than by anything sporting.
 
   You cannot begin most of these disciplines without a licence, an aircraft and
-  a facility, and no rule change by any federation can alter that. Where every
-  other sport here can lower its barrier by simplifying its equipment — as
+  a facility, and no rule change by any federation can alter that. Where other
+  sports can lower their barrier by simplifying their equipment — as
   pétanque did in 1907 and flag football did by removing the tackle — air
   sports cannot, because the aircraft is not negotiable.
 

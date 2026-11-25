@@ -21,7 +21,7 @@ entry:
 
     It is a genuine mass-participation school sport in Sweden, Finland,
     Switzerland and the Czech Republic for exactly these reasons, and the
-    equipment cost is among the lowest of any team sport covered here.
+    equipment cost is low.
   evidence:
     - { label: Players needed, value: "12", basis: rule, rule: floorball-1986-iff }
     - { label: Stick, value: About 350 g, basis: observation }
@@ -70,8 +70,7 @@ mastery:
     - { label: Typical peak age, value: 23–31, basis: judgement }
 
 gap: >
-  Very low to high, and it is the sport on this site that most clearly gets
-  both halves of the gap from the same decision.
+  Very low to high, and both halves of the gap come from the same decision.
 
   Field hockey and ice hockey are hard to start because of the stick — a hard
   swing, a hard ball or puck, and contact. Floorball capped the stick at the
@@ -80,7 +79,7 @@ gap: >
   technical rather than powerful: if you cannot swing, everything has to come
   from touch.
 
-  Set it against hockey, elsewhere on this site, which abolished its offside
+  Set it against hockey, which abolished its offside
   rule in 1998 to speed the game up. Floorball never had one to abolish, and
   arrived at the same continuous shape by not writing the rule in the first
   place.

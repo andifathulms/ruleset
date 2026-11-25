@@ -5,7 +5,7 @@ source: itf-rules-of-tennis
 standing: primary-named
 summary: >
   Hit the ball over the net into the opponent's court until they cannot return
-  it. Tennis's distinguishing feature among the sports here is its scoring,
+  it. Tennis's distinguishing feature is its scoring,
   which is inherited rather than designed: points go 15, 30, 40, games go to
   four, sets to six, and none of it is arithmetic anyone would choose. The
   sport has spent fifty years patching that system rather than replacing it.
@@ -58,8 +58,7 @@ sections:
     label: The object of the game
     body: >
       Win points, which win games, which win sets, which win the match.
-      Tennis is the only sport on this site with three nested scoring layers,
-      and that nesting is what makes it dramatic and what makes its length
+      Tennis has three nested scoring layers, and that nesting is what makes it dramatic and what makes its length
       unpredictable: a player can win more points than their opponent and lose
       the match, and this happens regularly rather than as a curiosity.
 
@@ -70,8 +69,8 @@ sections:
     label: The court
     body: >
       A rectangle with tramlines used only in doubles, a service box on each
-      side, and a net lower in the middle than at the posts. Unusually among
-      the sports here, the surface is not standardised: grass, clay and hard
+      side, and a net lower in the middle than at the posts. Unusually, the
+      surface is not standardised: grass, clay and hard
       courts produce measurably different bounce and speed, and the sport
       treats that variation as a feature.
     facts:
@@ -81,7 +80,7 @@ sections:
       - { label: Service line, value: 6.40 m, note: From the net. }
       - { label: Net at centre, value: 0.914 m }
       - { label: Net at posts, value: 1.07 m }
-      - { label: Surfaces, value: "Grass, clay, hard", note: Not standardised. No other measured or scored sport here permits this much variation. }
+      - { label: Surfaces, value: "Grass, clay, hard", note: Not standardised. The sport treats the variation as a feature. }
     citation:
       source: itf-rules-of-tennis
       article: "Rule 1"
@@ -117,8 +116,8 @@ sections:
       abolished outright in 2025 when electronic line calling took over every
       call in real time.
 
-      Tennis is the first sport on this site to remove a category of official
-      rather than give them technology to check their work.
+      Tennis removed a category of official rather than give them technology
+      to check their work.
     shaped_by: [itf-2025-electronic-line-calling, itf-2006-electronic-review]
 
   - id: duration
@@ -147,9 +146,8 @@ sections:
       face before that.
 
       The tiebreak, invented in 1970, is the one piece of deliberate design in
-      the system, and it was bolted on rather than integrated. Tennis is the
-      only racket sport on this site that did not rewrite its scoring for
-      broadcast when the others did.
+      the system, and it was bolted on rather than integrated. Tennis did not
+      rewrite its scoring for broadcast when badminton and table tennis did.
     facts:
       - { label: Points, value: "15, 30, 40, game" }
       - { label: Set, value: "6 games, win by 2" }
@@ -164,9 +162,9 @@ sections:
     label: The serve
     body: >
       Two attempts per point, struck from behind the baseline diagonally into
-      the opposite service box. The second serve is unique on this site: no
-      other sport gives a player a free failed attempt at the action that
-      starts the point, and the whole risk structure of tennis rests on it.
+      the opposite service box. The second serve gives a player a free failed
+      attempt at the action that starts the point, and the whole risk
+      structure of tennis rests on it.
 
       A serve that touches the net and lands in is a let and is replayed —
       which volleyball abolished in 2000 and tennis has kept.

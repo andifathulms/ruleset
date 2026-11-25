@@ -4,8 +4,8 @@ unit: s
 higher_is_better: false
 absence_kind: impossible
 cannot_exist: >
-  Orienteering cannot have a progression of times, and it is the only sport on
-  this site that has legislated that outcome on purpose.
+  Orienteering cannot have a progression of times, and the sport has
+  legislated that outcome on purpose.
 
   Two rules make it impossible. First, the terrain is different every time and
   is embargoed beforehand, so no course is ever run twice by anybody. Second —
@@ -20,8 +20,8 @@ cannot_exist: >
   got faster, and it would look like a flat line drawn by the rulebook.
 
   What the sport does measure, since electronic punching arrived in the 1990s,
-  is splits between controls within a single race — the richest per-race data
-  of any sport covered here, and comparable only inside the race that produced
+  is splits between controls within a single race — very rich per-race data,
+  and comparable only inside the race that produced
   it.
 
   Set this against athletics, where the whole apparatus of the sport exists to

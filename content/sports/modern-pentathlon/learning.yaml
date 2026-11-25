@@ -1,7 +1,7 @@
 sport: modern-pentathlon
 standing: editorial
 summary: >
-  The highest entry barrier on this site by a wide margin, and it is not close.
+  An exceptionally high entry barrier.
   Modern pentathlon requires competence in four separate sports, one of which
   needs a swimming pool, one a fencing club, and one — until 2028 — a horse.
   Nobody stumbles into this sport.
@@ -10,7 +10,7 @@ entry:
   verdict: very-high
   claim: Four sports, four facilities, four coaches, and a horse you do not own.
   why: >
-    Every other sport here can be started with one facility and one skill.
+    A single-discipline sport can be started with one facility and one skill.
     Modern pentathlon needs a pool, a piste, a range and, until 2028, an
     equestrian centre — and enough competence in each that the combination is
     worth entering. There is no casual version and no informal version. A
@@ -23,9 +23,9 @@ entry:
     ground. Obstacle racing needs a frame and a field.
   evidence:
     - { label: Sports required, value: "4", basis: observation, note: Five before 2009. }
-    - { label: Facilities required, value: Pool, piste, range, arena, basis: observation }
+    - { label: Facilities required, value: "Pool, piste, range, arena", basis: observation }
     - { label: Riding removed, value: From 2028, basis: rule, rule: uipm-2022-riding-removed, note: The single largest reduction in this sport's entry barrier. }
-    - { label: Pistol, value: Laser since 2011, basis: rule, rule: uipm-2011-laser-pistols, note: Removed the licence, the range and the ammunition. }
+    - { label: Pistol, value: Laser since 2011, basis: rule, rule: uipm-2011-laser-pistols, note: "Removed the licence, the range and the ammunition." }
     - { label: Time to a first competition, value: Years, basis: judgement }
 
 mastery:
@@ -40,8 +40,8 @@ mastery:
 
     What makes the ceiling unusual is instability. A competitor who spent a
     decade becoming good enough at riding to medal learned in 2022 that the
-    discipline would not exist by 2028. No athlete on this site has had a
-    quarter of their sport removed mid-career.
+    discipline would not exist by 2028. A quarter of their sport was removed
+    mid-career.
 
     The scoring tables are the other moving part. Because each discipline
     converts to points on a table the federation writes, the federation can
@@ -64,8 +64,7 @@ mastery:
     - { label: Typical peak age, value: 24–30, basis: judgement }
 
 gap: >
-  Modern pentathlon is the only sport on this board that is very high at both
-  ends, and it is the clearest case of a barrier that is structural rather than
+  Modern pentathlon is very high at both ends, and it is a clear case of a barrier that is structural rather than
   athletic. Nothing about the individual skills is beyond an ordinary person;
   assembling access to four sports at once is.
 

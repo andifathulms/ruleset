@@ -6,9 +6,8 @@ standing: primary-named
 summary: >
   Hit the opponent above the belt with the knuckle part of a closed glove, more
   cleanly and more often than they hit you, across three rounds. Boxing's rules
-  of play are among the simplest here and its rules about who governs, who
-  scores and what protective equipment is worn have been the most unstable of
-  any sport on this site.
+  of play are simple, and its rules about who governs, who scores and what
+  protective equipment is worn have been very unstable.
 
 walkthrough:
   title: One bout, from the first bell to the decision
@@ -62,8 +61,8 @@ sections:
     label: The ring
     body: >
       A square ring, roped, with a canvas over padding. There is nothing much
-      to say about it, which makes boxing one of the few sports here where the
-      venue specification carries no consequence at all.
+      to say about it. In boxing the venue specification carries no
+      consequence at all.
     facts:
       - { label: Ring, value: 6.1 m square, note: "Inside the ropes, at international level." }
       - { label: Ropes, value: "4" }
@@ -77,9 +76,9 @@ sections:
       elite men's competition in 2013 on the argument that it made concussion
       more likely, and retained for women and juniors throughout.
 
-      That a piece of protective equipment was removed on safety grounds is the
-      most counter-intuitive rule on this site, and the entry records the
-      dispute about whether that was really the reason.
+      That a piece of protective equipment was removed on safety grounds is
+      deeply counter-intuitive, and it is disputed whether that was really
+      the reason.
     facts:
       - { label: "Headguard, elite men", value: Removed 2013 }
       - { label: "Headguard, women and juniors", value: Retained }

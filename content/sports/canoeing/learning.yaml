@@ -2,7 +2,7 @@ sport: canoeing
 standing: editorial
 summary: >
   Two very different learning curves under one federation. A kayak on flat
-  water is among the easier boats on this site to become competent in; a canoe
+  water is among the easier boats to become competent in; a canoe
   kneeling with a single blade, or any boat in whitewater, is not.
 
 entry:
@@ -25,11 +25,11 @@ entry:
     Access is the binding constraint throughout: a club, a boat you cannot
     afford alone, and water of the right kind.
   evidence:
-    - { label: Facility, value: Water, and a whitewater course for slalom, basis: observation }
+    - { label: Facility, value: "Water, and a whitewater course for slalom", basis: observation }
     - { label: Kit to start, value: A club boat, basis: observation }
-    - { label: Kayak, value: Seated, double blade, basis: observation, note: The forgiving entry point. }
-    - { label: Canoe, value: Kneeling, single blade, basis: observation, note: Holding a line is the skill. }
-    - { label: Time to paddle competently, value: Weeks in a kayak, months in a canoe, basis: judgement }
+    - { label: Kayak, value: "Seated, double blade", basis: observation, note: The forgiving entry point. }
+    - { label: Canoe, value: "Kneeling, single blade", basis: observation, note: Holding a line is the skill. }
+    - { label: Time to paddle competently, value: "Weeks in a kayak, months in a canoe", basis: judgement }
 
 mastery:
   verdict: very-high
@@ -42,7 +42,7 @@ mastery:
 
     Slalom's ceiling has an unusual shape. A missed gate costs fifty seconds,
     which is more than the spread of an entire elite field, so the sport
-    punishes a single error more severely than almost anything else here. A
+    punishes a single error very severely. A
     run is a sustained sequence of decisions in which one mistake is
     terminal.
 
@@ -55,7 +55,7 @@ mastery:
       value: Olympic only from 2021
       basis: rule
       rule: icf-2020-womens-canoe
-      note: The latest correction of a single-sex exclusion on this site.
+      note: Later than boxing's admission of women in 2012.
     - label: Missed gate
       value: 50 s
       basis: rule
@@ -69,8 +69,8 @@ mastery:
     - { label: Typical peak age, value: 25–32, basis: judgement }
 
 gap: >
-  Canoeing sits at moderate to very high and its interest here is that it
-  contains two sports with different problems.
+  Canoeing sits at moderate to very high, and what makes it interesting is that
+  it contains two sports with different problems.
 
   Sprint has rowing's problem — a standardised distance on unstandardised water
   — and takes rowing's answer, recognising best times rather than records.
@@ -79,7 +79,7 @@ gap: >
   channels rather than by adjusting what its numbers claim.
 
   Those two responses to the same underlying difficulty, inside one federation,
-  are the reason canoeing is worth having on this board.
+  are what makes canoeing instructive.
 
 shaped_by:
   - icf-slalom-penalties

@@ -11,9 +11,8 @@ entry:
   claim: A club and supervision. The physical demand is close to zero; the legal one is not.
   why: >
     Shooting asks almost nothing physically. There is no strength, speed or
-    endurance requirement of any consequence, and it is one of very few sports
-    here where age, size and physical condition are largely irrelevant — which
-    is why it has one of the widest age ranges in Olympic competition.
+    endurance requirement of any consequence, and age, size and physical
+    condition are largely irrelevant — which is why it has one of the widest age ranges in Olympic competition.
 
     The barriers are legal and institutional. Firearms are regulated, ranges
     are supervised facilities, and in many countries participation requires
@@ -26,7 +25,7 @@ entry:
   evidence:
     - { label: Physical requirement, value: Minimal, basis: judgement }
     - { label: Facility, value: A supervised range, basis: observation }
-    - { label: Legal barrier, value: Varies by country, basis: observation, note: The only sport here whose entry depends on national firearms law. }
+    - { label: Legal barrier, value: Varies by country, basis: observation, note: Entry depends on national firearms law. }
     - { label: Kit to start, value: Club equipment, basis: observation }
     - { label: Time to a first competition, value: Weeks, basis: judgement }
 
@@ -65,22 +64,22 @@ mastery:
       basis: rule
       rule: issf-2005-electronic-targets
       note: Removed the sport's routine dispute about whether a hole touched a line.
-    - { label: Typical peak age, value: 25–40, basis: judgement, note: One of the widest windows here, and the least physically bounded. }
+    - { label: Typical peak age, value: 25–40, basis: judgement, note: "One of the widest windows in Olympic competition, and the least physically bounded." }
 
 gap: >
   Shooting's gap is unusual in that its bottom is limited by law rather than by
   the body, and its top is limited by a margin so small the sport had to invent
   more decimal places to see it.
 
-  Put it beside archery, the other target sport here. Archery shoots outdoors
+  Put it beside archery, another target sport. Archery shoots outdoors
   in uncontrolled weather and moved to set scoring in 2011. Shooting eliminates
   its variables — indoors, electronic targets, tenths of a ring — and then
   discards the qualification score entirely at the final.
 
   Both federations concluded that a pure measurement does not make a watchable
   medal, and both chose the same answer. What makes shooting the sharper case
-  is the contradiction: it is the most precisely measured sport on this site
-  and it has arranged its competition so that the precision has the least
+  is the contradiction: it is an exceptionally precisely measured sport and it
+  has arranged its competition so that the precision has the least
   possible bearing on who wins.
 
 shaped_by:

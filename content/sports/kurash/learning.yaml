@@ -1,7 +1,7 @@
 sport: kurash
 standing: editorial
 summary: >
-  The simplest grappling sport on this site to understand and to begin, because
+  A grappling sport that is simple to understand and to begin, because
   three-quarters of what a judoka or a wrestler must learn is not in it — and a
   ceiling that is narrow, deep and largely confined to one region.
 
@@ -22,7 +22,7 @@ entry:
     countries, kurash gyms are rare, and most people who want jacket wrestling
     will find judo instead.
   evidence:
-    - { label: Kit to start, value: Jacket, trousers and belt, basis: observation }
+    - { label: Kit to start, value: "Jacket, trousers and belt", basis: observation }
     - { label: No groundwork, value: At all, basis: rule, rule: kurash-standing-only, note: The phase beginners find hardest is simply absent. }
     - { label: No submissions, value: None permitted, basis: rule, rule: kurash-standing-only }
     - { label: Clubs, value: Scarce outside Central Asia, basis: judgement }
@@ -61,12 +61,11 @@ mastery:
       value: Asian Games by 2018
       basis: rule
       rule: kurash-2018-asian-games
-      note: A very short institutional history compared with anything else here.
+      note: A very short institutional history.
     - { label: Typical peak age, value: 22–30, basis: judgement }
 
 gap: >
-  Low to high, and kurash is most interesting held directly against judo, which
-  this site covers in depth.
+  Low to high, and kurash is most interesting held directly against judo.
 
   Judo was created in the 1880s by taking ju-jitsu and removing what could not
   be practised safely at full resistance. It has kept removing things since:
@@ -78,7 +77,7 @@ gap: >
   submissions, no ground. It did not get there by legislating; it was codified
   that way in 1998 from a tradition that had always been that way.
 
-  So the site now holds three points on one line — ju-jitsu, which legislates
+  So there are three points on one line — ju-jitsu, which legislates
   that a bout pass through every range; judo, which has been narrowing towards
   one; and kurash, which starts there.
 

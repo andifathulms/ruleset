@@ -8,17 +8,15 @@ cannot_exist: >
   particular weather. Two rounds of 68 are not the same achievement unless the
   courses and conditions were the same, and they never are.
 
-  That would make golf the least comparable sport on this site — except that
-  golf noticed first and built a machine for it. The **handicap** takes a score
+  That would make golf scores almost impossible to compare, except that golf
+  noticed and built a machine for it. The **handicap** takes a score
   and adjusts for the difficulty of the course, the tees played, and since 2020
   the conditions on the day, and produces a number that genuinely can be
   compared across players, courses and countries.
 
-  So this entry is here for the opposite reason to every other absence in this
-  collection. There is no chart of raw scores because raw scores were never
-  comparable and golf has known it for a century. What exists instead is a
-  formal system for making them comparable, which nothing else here has
-  attempted.
+  There is no chart of raw scores because raw scores were never comparable and
+  golf has known it for a century. What exists instead is a formal system for
+  making them comparable.
 
   The elite game, which does not use handicaps, keeps the problem. A winning
   score at one championship and another are not comparable, which is why golf's
@@ -34,9 +32,8 @@ breaks:
     kind: none
     note: >
       Not a break. The opposite: the point at which golf began systematically
-      converting incomparable scores into comparable ones. It is the only entry
-      on this site where a rule change increased comparability rather than
-      destroying it.
+      converting incomparable scores into comparable ones. Here a rule change
+      increased comparability rather than destroying it.
   - at: 2028
     caused_by: golf-2028-ball-rollback
     kind: reset

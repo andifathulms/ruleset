@@ -9,13 +9,12 @@
     each boat scoring points equal to its finishing position and the lowest
     total winning. Time is not recorded as a result at all.
 
-    Sailing is therefore the only sport on this site that does not measure how
-    long its competitors took. A race lasting an hour and one lasting three
+    Sailing therefore does not measure how long its competitors took. A race lasting an hour and one lasting three
     produce the same information: an order.
 
     The date is the federation's founding year rather than a decision date.
-    Series scoring predates the international body, and this site has not
-    established when it was first codified.
+    Series scoring predates the international body, and no source has been
+    found for when it was first codified.
   cause_primary: fairness and eligibility
   trigger:
     description: >
@@ -44,8 +43,7 @@
     description: >
       In a sport where a windshift can put a leading boat last through nobody's
       error, some mechanism for absorbing bad luck was necessary. The discard is
-      that mechanism, and it is unusual on this site: an explicit rule
-      acknowledging that the sport's results contain noise.
+      that mechanism, and it is unusual: an explicit rule acknowledging that the sport's results contain noise.
   citation:
     source: world-sailing-rrs
     edition: The Racing Rules of Sailing, Appendix A
@@ -113,9 +111,8 @@
   what_changed: >
     The Olympic classes were substantially reselected, with foiling equipment
     introduced and long-standing classes removed. Sailing periodically replaces
-    the boats its Olympic events are sailed in, which no other sport on this
-    site does — it is as though athletics changed which events it contested
-    every cycle.
+    the boats its Olympic events are sailed in. It is as though athletics
+    changed which events it contested every cycle.
   cause_primary: equipment and technology
   cause_secondary: commercial
   trigger:

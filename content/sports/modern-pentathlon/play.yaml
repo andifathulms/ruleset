@@ -5,9 +5,8 @@ source: uipm-rules
 standing: primary-named
 summary: >
   Fence, swim, ride and then run while shooting, in one day, scored on a common
-  points table. Modern pentathlon is the only sport on this site assembled from
-  other sports on purpose, and the only one where the question "what is this
-  sport" has a documented answer that the federation has now overruled: de
+  points table. Modern pentathlon was assembled from other sports on purpose,
+  and the question "what is this sport" has a documented answer that the federation has now overruled: de
   Coubertin built it to test the skills a nineteenth-century cavalry officer
   would need behind enemy lines.
 
@@ -78,8 +77,8 @@ sections:
     body: >
       Épée for the fencing, and a laser pistol for the shooting. The pistol
       stopped firing a projectile in 2011, which removed the range, the
-      backstop, the licence and the ammunition from the sport in one change —
-      the single largest reduction in staging cost anywhere on this site.
+      backstop, the licence and the ammunition from the sport in one change.
+      It sharply cut the cost of staging the sport.
 
       Until 2028 there is also a horse, and the horse is not the competitor's.
       It is drawn by lot from a pool provided by the organiser, and the rider
@@ -96,9 +95,8 @@ sections:
     body: >
       Individual competition, with a small field by Olympic standards. Each
       discipline is officiated by its own specialists — fencing judges, swim
-      officials, show jumping judges — which makes modern pentathlon the only
-      sport here that borrows its entire officiating apparatus from other
-      sports.
+      officials, show jumping judges — so modern pentathlon borrows its entire
+      officiating apparatus from other sports.
 
   - id: duration
     label: Format

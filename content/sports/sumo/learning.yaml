@@ -2,15 +2,14 @@ sport: sumo
 standing: editorial
 summary: >
   The rules take thirty seconds to learn and amateur clubs will take anyone.
-  The professional sport is one of the most closed and physically punishing
-  careers in any sport on this site, and you cannot enter it after about
-  twenty-three.
+  The professional sport is a closed and physically punishing career, and you
+  cannot enter it after about twenty-three.
 
 entry:
   verdict: low
   claim: Two rules, a ring drawn on the ground, and amateur clubs with weight classes for everyone.
   why: >
-    Sumo's laws are the simplest of any combat sport here — touch the ground or
+    Sumo's laws are very simple — touch the ground or
     leave the ring and you have lost — so a beginner understands what is
     happening immediately, which is not true of judo scoring or of a boxing
     decision.
@@ -28,7 +27,7 @@ entry:
     club, and there are not many outside Japan.
   evidence:
     - { label: Rules to learn, value: Two losing conditions, basis: rule, rule: sumo-loss-conditions }
-    - { label: Amateur weight classes, value: Four, including open, basis: rule, rule: sumo-1992-ifs-founded }
+    - { label: Amateur weight classes, value: "Four, including open", basis: rule, rule: sumo-1992-ifs-founded }
     - { label: Women's competition, value: Amateur only, basis: rule, rule: sumo-womens-competition }
     - { label: Kit to start, value: A mawashi, basis: observation }
     - { label: Time to a first bout, value: One session, basis: judgement }
@@ -43,8 +42,8 @@ mastery:
     all — the lower divisions are effectively unpaid apprenticeships. The
     entry age limit means the door closes in the early twenties.
 
-    The absence of weight classes shapes the athlete more than any rule on this
-    site. Mass is a direct competitive advantage in a 4.55-metre ring, so
+    The absence of weight classes shapes the athlete more than any other rule.
+    Mass is a direct competitive advantage in a 4.55-metre ring, so
     wrestlers eat and train to be enormous, and the sport's known health
     outcomes — diabetes, joint failure, shortened life expectancy — follow from
     a competitive structure that rewards it.
@@ -75,17 +74,15 @@ mastery:
     - { label: Typical peak age, value: 26–32, basis: judgement }
 
 gap: >
-  Low to very high, and the sport is the site's clearest case of a gap that is
-  institutional rather than technical.
+  Low to very high, and the gap is institutional rather than technical.
 
-  Nothing about sumo's laws is hard to learn, and amateur sumo is one of the
-  more welcoming competitive structures covered here — weight classes, women's
-  divisions, and clubs that will put a beginner in a ring on day one. The
+  Nothing about sumo's laws is hard to learn, and amateur sumo is a welcoming
+  competitive structure — weight classes, women's divisions, and clubs that will put a beginner in a ring on day one. The
   ceiling is high because the top of the sport is a closed Japanese
   professional system with an age limit, a residential apprenticeship, and no
   weight classes to protect anybody.
 
-  Compare it with judo, elsewhere on this site: a Japanese combat sport that
+  Compare it with judo: a Japanese combat sport that
   internationalised so completely that its Olympic competition is unambiguously
   its highest level, and whose weight classes have been redrawn repeatedly.
   Sumo kept its apex at home. The World Games event is real sumo and it is not

@@ -6,9 +6,9 @@ standing: primary-named
 summary: >
   Three disciplines, one partnership. Dressage is judged on the quality of
   movement, jumping is measured in faults and seconds, and eventing runs both
-  plus a cross-country course. That split is why equestrian sits awkwardly in
-  this site's adjudication lens: it is a judged sport and a measured one at the
-  same time, and the lens can only hold one answer.
+  plus a cross-country course. That split is why equestrian is hard to
+  classify by adjudication: it is a judged sport and a measured one at the
+  same time.
 
 walkthrough:
   title: One jumping round, from the inspection to the result
@@ -55,7 +55,7 @@ sections:
 
       In all three the competitor is a partnership, and only one half of it
       chose to be there. That fact is not sentimental — it is the basis of every
-      rule change on this page since 2005.
+      recorded equestrian rule change since 2005.
 
   - id: field
     label: Arena and course
@@ -97,9 +97,9 @@ sections:
 
       The horse is a competitor with its own passport, its own eligibility and
       its own veterinary record. It is inspected before competition and may be
-      withdrawn by a veterinary panel over the rider's objection, which makes
-      the veterinary delegate the only official on this site who can remove a
-      competitor for reasons unrelated to the rules of play.
+      withdrawn by a veterinary panel over the rider's objection. The
+      veterinary delegate can remove a competitor for reasons unrelated to
+      the rules of play.
     facts:
       - { label: Mixed-gender, value: In every event }
       - { label: Team size, value: "3", note: "Reduced from four, with no drop score, from 2021." }
@@ -159,8 +159,7 @@ sections:
       inspection. Three refusals. A fall of horse or rider in cross-country.
 
       Almost every item on that list concerns the horse rather than the
-      contest, which is not true of any other prohibitions section on this
-      site.
+      contest.
     shaped_by: [fei-2013-blood-rule, fei-2023-social-licence]
 
   - id: winning

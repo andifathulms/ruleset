@@ -24,7 +24,7 @@ entry:
     being a hazard, and none of it is visible to a spectator.
   evidence:
     - { label: Facility, value: Water and a club, basis: observation }
-    - { label: Kit to start, value: A club dinghy, basis: observation, note: Individually, a boat is among the most expensive equipment on this site. }
+    - { label: "Kit to start", value: "A club dinghy", basis: "observation", note: "Individually, a boat is very expensive equipment." }
     - { label: Rules to learn first, value: Right of way, basis: observation }
     - { label: Time to first race, value: A season, basis: judgement }
 
@@ -63,21 +63,21 @@ mastery:
       basis: rule
       rule: sailing-discard
       note: An explicit rule acknowledging that results contain luck.
-    - { label: Typical peak age, value: 27–35, basis: judgement, note: Later than most here; experience compounds. }
+    - { label: Typical peak age, value: 27–35, basis: judgement, note: Late because experience compounds. }
 
 gap: >
   Sailing is high at both ends and the reasons are money, water and a rulebook
   you must learn before you can participate safely.
 
-  Its interest on this board is what it shares with rowing and how it differs.
+  Its interest lies in what it shares with rowing and how it differs.
   Both face conditions nobody controls. Rowing kept timing its races and
   refused to call the times records. Sailing stopped producing times at all and
   built a scoring system — aggregate the positions, discard the worst — that is
   a century-old statement that its results are noisy and must be averaged.
 
   Then in 2008 it doubled the points of the final race for broadcast, which
-  undoes a good deal of that. It is the clearest case on this site of a
-  federation contradicting its own epistemics for a camera, and the sailors
+  undoes a good deal of that. It is a clear case of a federation
+  contradicting its own epistemics for a camera, and the sailors
   have said so continuously ever since.
 
 shaped_by:

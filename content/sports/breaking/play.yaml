@@ -5,8 +5,7 @@ source: wdsf-breaking-rules
 standing: primary-named
 summary: >
   Two dancers take turns to music they have not heard, and judges decide which
-  one was better. Breaking's competitive rules are the youngest on this site
-  and were written for a form that had spent forty years judging itself without
+  one was better. Breaking's competitive rules are young, and were written for a form that had spent forty years judging itself without
   any.
 
 walkthrough:
@@ -67,11 +66,10 @@ sections:
     body: >
       A flat circular or square surface with room for the movements — footwork,
       power moves, freezes — and space for the opponent to wait. There is
-      almost nothing to specify, which makes breaking one of the cheapest
-      sports on this site to stage.
+      almost nothing to specify, which makes breaking very cheap to stage.
     facts:
       - { label: Surface, value: "Flat, smooth" }
-      - { label: Staging cost, value: Among the lowest here }
+      - { label: Staging cost, value: Very low }
 
   - id: equipment
     label: Equipment
@@ -79,7 +77,7 @@ sections:
       None specified. Dancers wear what they choose, and the only regulated
       elements are the surface and the sound system.
 
-      That absence is worth recording. Every other judged sport here specifies
+      That absence matters. Other judged sports, such as gymnastics, specify
       apparatus in detail, because the apparatus determines what is possible
       and therefore what a difficulty value means. Breaking has no difficulty
       table, so it has nothing to standardise apparatus for.
@@ -136,8 +134,7 @@ sections:
       and the reason musicality is a judged criterion.
 
       A dancer cannot choreograph. Every round is a response to a track chosen
-      by somebody else, in real time, which makes breaking the only judged sport
-      on this site where the performance cannot be planned.
+      by somebody else, in real time, so the performance cannot be planned.
 
   - id: prohibitions
     label: Penalties

@@ -5,8 +5,8 @@ standing: primary-named
 summary: >
   Five Olympic disciplines under one federation, which is unusual: road, track,
   mountain bike, BMX racing and BMX freestyle share a governing body and almost
-  nothing else. The IOC counts them as one sport, and this is the clearest case
-  on the site of the official taxonomy grouping things that have very little in
+  nothing else. The IOC counts them as one sport, and this is a clear case
+  of the official taxonomy grouping things that have very little in
   common.
 disciplines:
   - id: road

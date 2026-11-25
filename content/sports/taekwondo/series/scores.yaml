@@ -25,9 +25,9 @@ breaks:
     caused_by: wt-2009-electronic-scoring
     kind: scale-change
     note: >
-      A judged point and a measured point are different objects. This is the
-      only place on this site where a sport crossed between adjudication
-      categories, and it did so by installing hardware.
+      A judged point and a measured point are different objects. Here the sport
+      crossed between adjudication categories, and it did so by installing
+      hardware.
   - at: 2022
     caused_by: wt-2022-best-of-three
     kind: scale-change

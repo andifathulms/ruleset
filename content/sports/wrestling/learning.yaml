@@ -7,7 +7,7 @@ summary: >
 
 entry:
   verdict: low
-  claim: A mat, a partner and a coach. The cheapest combat sport here to enter.
+  claim: A mat, a partner and a coach. Cheaper to enter than boxing.
   why: >
     Wrestling needs a mat, a singlet and somebody to wrestle. There is no
     equipment to buy, no facility beyond a room, and school programmes across
@@ -21,7 +21,7 @@ entry:
     The barrier that exists is a coach and a partner, both non-negotiable.
     Nothing in wrestling can be practised alone.
   evidence:
-    - { label: Kit to start, value: A singlet and shoes, basis: observation, note: The least equipment of any combat sport here. }
+    - { label: Kit to start, value: A singlet and shoes, basis: observation, note: Very little equipment for a combat sport. }
     - { label: Facility, value: A mat, basis: observation }
     - { label: Partner required, value: Always, basis: observation }
     - { label: Coach needed, value: "Yes", basis: judgement }
@@ -31,7 +31,7 @@ mastery:
   verdict: very-high
   claim: Weight cutting, a deep global field, and a sport that nearly ceased to be Olympic.
   why: >
-    The physical demand is among the highest here — six minutes of continuous
+    The physical demand is very high — six minutes of continuous
     maximal effort against resistance — and the field is one of the deepest,
     because wrestling is genuinely global and cheap enough to be contested
     everywhere.
@@ -41,7 +41,7 @@ mastery:
     linked to deaths in collegiate wrestling, and it is the reason some
     competitions moved to daily weigh-ins.
 
-    And there is a fact no other athlete on this site has faced. In February
+    And there is a fact few athletes have faced. In February
     2013 wrestlers learned their sport had been voted off the core Olympic
     programme. For seven months the ceiling of the sport simply did not exist,
     and it was restored only after the federation replaced its leadership and
@@ -65,12 +65,12 @@ mastery:
     - { label: Typical peak age, value: 24–30, basis: judgement }
 
 gap: >
-  Wrestling's gap is low to very high, and its bottom end is the most
-  accessible of any combat sport here — cheaper than boxing, with no falling
+  Wrestling's gap is low to very high, and its bottom end is very
+  accessible — cheaper than boxing, with no falling
   prerequisite as judo has, and available through schools in much of the world.
 
   What is singular is the instability at the top, and it is a different kind
-  from anything else on this board. Judo removed techniques. Weightlifting
+  from that of judo, weightlifting or modern pentathlon. Judo removed techniques. Weightlifting
   redrew categories. Modern pentathlon deleted a discipline. Wrestling's sport
   was removed entirely, by an outside body, and given seven months to earn its
   way back.
@@ -78,7 +78,7 @@ gap: >
   The rules it wrote in that window are better than the ones they replaced —
   the ball draw was indefensible and the sport is more watchable now. But they
   were written under an existential deadline set by someone else, which is a
-  cause that appears nowhere else in this collection.
+  rare cause for a rule change.
 
 shaped_by:
   - uww-2013-scoring-rewrite

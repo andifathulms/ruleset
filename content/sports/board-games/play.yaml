@@ -87,8 +87,7 @@ sections:
   - id: equipment
     label: Equipment
     body: >
-      A board, pieces or stones, and a clock. That is the whole list, and it is
-      the shortest on this site.
+      A board, pieces or stones, and a clock. That is the whole list.
 
       The clock is the only piece of technology, and it is essential: without a
       time control a game has no bounded length, and time is now part of the
@@ -128,8 +127,7 @@ sections:
 
       These are treated as different disciplines with separate ratings and
       separate world championships, because the same player is a different
-      strength at each. A sport where the clock setting creates distinct titles
-      has no real counterpart elsewhere on this site.
+      strength at each. Here the clock setting itself creates distinct titles.
     facts:
       - { label: Classical, value: Hours per player }
       - { label: Rapid and blitz, value: Separate titles and separate ratings }
@@ -152,8 +150,7 @@ sections:
   - id: restarts
     label: Openings and adjournment
     body: >
-      A game begins from a fixed starting position — the same one every time,
-      which almost nothing else on this site can say about its field of play.
+      A game begins from a fixed starting position, the same one every time.
 
       Adjournment, in which an unfinished game was sealed and resumed the next
       day, was abolished once engines made overnight analysis decisive. Games

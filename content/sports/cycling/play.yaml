@@ -6,7 +6,7 @@ standing: primary-named
 summary: >
   Cover the distance faster than everyone else, on a machine the federation
   will recognise as a bicycle. That second clause is the whole of cycling's
-  rulebook. More than any other sport here, its regulations describe an object
+  rulebook. Its regulations describe an object
   rather than a contest, because the object is where the advantage lives.
 
 walkthrough:
@@ -55,8 +55,7 @@ sections:
     label: The object of the events
     body: >
       Finish first, or cover the greatest distance in a set time, or the set
-      distance in the least time. Road racing adds something no other sport on
-      this site has: because drafting saves so much energy, the fastest way to
+      distance in the least time. Road racing adds something unusual: because drafting saves so much energy, the fastest way to
       ride is behind someone else, so a road race is a cooperative problem
       pretending to be a competitive one until the final kilometres.
 
@@ -122,9 +121,8 @@ sections:
       races run from a one-day classic to a three-week stage race scored on
       cumulative time.
 
-      There is no clock management and no stoppage. Cycling is the only sport
-      on this site whose events can last three weeks and whose margin of
-      victory can be a few seconds.
+      There is no clock management and no stoppage. Cycling's events can last
+      three weeks, and the margin of victory can be a few seconds.
 
   - id: scoring
     label: Measurement
@@ -165,6 +163,6 @@ sections:
     body: >
       First across the line, or the greatest distance, or the lowest cumulative
       time. Records are ratified centrally, and the hour record's ratification
-      history is the reason this sport is on the site: the same federation has
+      history stands out: the same federation has
       ruled three different ways on what a record is for.
     shaped_by: [uci-1997-hour-record-split, uci-2014-hour-record-unified]

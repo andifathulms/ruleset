@@ -1,16 +1,15 @@
 sport: esports
 standing: editorial
 summary: >
-  The lowest entry barrier of any sport on this site — the game is free and
-  matchmaking finds you an exact opponent instantly — and a professional
-  ceiling reached younger, held more briefly, and demolished more often by
-  forces outside the athlete than anything else here.
+  A very low entry barrier — the game is free and matchmaking finds you an
+  exact opponent instantly — and a professional ceiling reached young, held
+  briefly, and often demolished by forces outside the athlete.
 
 entry:
   verdict: very-low
   claim: A computer or a phone. The game is often free and it will find you an opponent at your exact level.
   why: >
-    Nothing else here is this frictionless. Many of the largest competitive
+    Entry is almost frictionless. Many of the largest competitive
     titles are free to download. There is no facility, no club, no equipment
     beyond a device most people already own, no travel and no opponent to
     arrange — automated matchmaking supplies one at your rating within seconds,
@@ -38,8 +37,7 @@ mastery:
     the limit of human latency, and hold that under tournament pressure for
     hours.
 
-    The strategic demand is the part that has no equivalent on this site. **The
-    game changes.** A publisher patch can rebalance a character, a weapon, an
+    The strategic demand is the unusual part. **The game changes.** A publisher patch can rebalance a character, a weapon, an
     economy or a map on a cycle of weeks, and a professional's accumulated
     knowledge is partially invalidated each time. A footballer's decade of
     experience is worth something for a career; an esports professional's is
@@ -68,16 +66,16 @@ mastery:
       value: By software
       basis: observation
       note: No disputed decisions about play — only about conditions.
-    - { label: Typical peak age, value: 19–24, basis: judgement, note: The youngest peak of any sport covered here. }
+    - { label: Typical peak age, value: 19–24, basis: judgement, note: A young peak. }
 
 gap: >
-  Very low to very high, on the smallest entry cost on this site — and the gap
-  has a shape nothing else does, because the top of it keeps being moved by
-  someone who is not competing.
+  Very low to very high, on a very small entry cost — and the gap has an
+  unusual shape, because the top of it keeps being moved by someone who is not
+  competing.
 
-  Every other sport here has stable laws. A gymnast's Code of Points is revised
-  every four years and the sport treats that as a major event; this site
-  records it as a comparability break. Esports revises its equivalent every few
+  Compare gymnastics. Its Code of Points is revised every four years, the
+  sport treats that as a major event, and each revision is a comparability
+  break. Esports revises its equivalent every few
   weeks, unilaterally, by a company, for reasons that include commercial ones —
   and the professionals absorb it as normal.
 

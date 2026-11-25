@@ -5,8 +5,8 @@ source: world-triathlon-rules
 standing: primary-named
 summary: >
   Swim, cycle, run, in that order, with the clock running through the changes
-  between them. Triathlon's rules are mostly about two things nothing else here
-  has to legislate: what happens in transition, and whether you may ride behind
+  between them. Triathlon's rules are mostly about two things it has to
+  legislate: what happens in transition, and whether you may ride behind
   somebody. The second answer differs depending on whether you are a
   professional.
 
@@ -70,8 +70,7 @@ sections:
       course and a different run, so finishing times are facts about a venue
       rather than about an athlete.
 
-      The swim is the least controlled element of any sport on this site: it is
-      held in water the organiser does not own, and can be shortened or removed
+      The swim is an unusually uncontrolled element: it is held in water the organiser does not own, and can be shortened or removed
       entirely if bacterial levels exceed thresholds after rainfall.
     facts:
       - { label: Olympic swim, value: 1500 m }
@@ -143,8 +142,7 @@ sections:
       the bike may be mounted and dismounted, and that nothing may be
       discarded outside the designated area.
 
-      It is the only part of any sport on this site where changing your clothes
-      is a timed competitive skill.
+      Changing your clothes is a timed competitive skill.
 
   - id: prohibitions
     label: Penalties

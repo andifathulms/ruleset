@@ -4,9 +4,8 @@ unit: kg
 higher_is_better: true
 absence_kind: impossible
 cannot_exist: >
-  Powerlifting cannot have a world record progression, and it is the only sport
-  on this site whose obstacle is not one severing event but a permanent
-  condition.
+  Powerlifting cannot have a world record progression, and its obstacle is not
+  one severing event but a permanent condition.
 
   There is no single world record because there is no single federation. The
   sport split, repeatedly, over drug testing, and the federations that resulted
@@ -23,7 +22,7 @@ cannot_exist: >
 
   So the honest rendering is this space. Powerlifting is a measured sport in
   which the measurement is unambiguous and the comparison is impossible, which
-  is the reverse of most of the absences recorded on this site.
+  is the reverse of most missing series.
 segments: []
 breaks:
   - at: 1980

@@ -1,15 +1,14 @@
 sport: polo
 standing: editorial
 summary: >
-  The highest entry barrier on this site, because the equipment is a string of
-  horses — and a handicap system that nonetheless lets a beginner take the
-  field in a real match on day one, which almost nothing else here can offer.
+  A high entry barrier, because the equipment is a string of horses — and a
+  handicap system that nonetheless lets a beginner take the field in a real match on day one.
 
 entry:
   verdict: high
   claim: You need horses. Several. Or a club that will hire them to you by the chukka.
   why: >
-    Nothing else covered here has an entry cost like this. A player needs
+    The entry cost is the horses themselves. A player needs
     several horses for a single match, each requiring stabling, feed,
     veterinary care, transport and a groom, and the horses are the sport's
     decisive variable rather than an accessory to it.
@@ -21,12 +20,12 @@ entry:
 
     What pulls the verdict back from very high is the **handicap**. A beginner
     rated at −2 is not excluded from real competition; they are a valued team
-    member, because their low rating buys goals for their side. Very few sports
-    on this site let a novice play a meaningful part in a serious match, and
-    polo's rating system is designed to make exactly that happen.
+    member, because their low rating buys goals for their side. Polo lets a
+    novice play a meaningful part in a serious match, and its rating system is
+    designed to make exactly that happen.
   evidence:
     - { label: Equipment, value: Several horses per match, basis: rule, rule: polo-1888-goal-handicap, note: The string is the sport's decisive resource. }
-    - { label: Route in, value: Hired ponies by the chukka, at a club, basis: observation }
+    - { label: Route in, value: "Hired ponies by the chukka, at a club", basis: observation }
     - { label: Handicap, value: A beginner at −2 buys goals for their team, basis: rule, rule: polo-1888-goal-handicap }
     - { label: Prerequisite, value: Competent riding, basis: judgement }
     - { label: Time to a first chukka, value: Months, basis: judgement }
@@ -71,18 +70,17 @@ mastery:
     - { label: Typical peak age, value: 25–38, basis: judgement }
 
 gap: >
-  High to very high, and polo is the site's clearest case of a sport that
-  solved participation and never touched access.
+  High to very high, and polo is a clear case of a sport that solved
+  participation and never touched access.
 
   The handicap is a genuine piece of design. It lets a −2 beginner play a real
-  match alongside professionals and contribute by existing, and it is one of
-  only two deliberate comparability solutions this site has found — golf built
-  the other. Golf's adjusts a score after the round; polo's awards goals before
-  play begins.
+  match alongside professionals and contribute by existing. It is a deliberate
+  comparability solution, like golf's handicap. Golf's adjusts a score after
+  the round; polo's awards goals before play begins.
 
   What it cannot do is make horses cheaper. The sport's entry barrier is a
   living, feeding, transported asset that has to be owned or hired, and no rule
-  change reaches it. Air sports is the only comparable case here, and an
+  change reaches it. Air sports has a comparable barrier, and an
   aeroplane does not need feeding on days nobody flies it.
 
   The result is a sport that is unusually welcoming to beginners of any standard

@@ -25,7 +25,7 @@ entry:
   evidence:
     - { label: Kit to start, value: A dobok, basis: observation }
     - { label: Facility, value: A club with matting, basis: observation }
-    - { label: Partner required, value: For sparring only, basis: observation, note: Forms can be practised alone, unlike anything in judo. }
+    - { label: "Partner required", value: "For sparring only", basis: "observation", note: "Forms can be practised alone, unlike anything in judo." }
     - { label: Time to first grading, value: Months, basis: judgement }
     - { label: Time to competitive sparring, value: A year or more, basis: judgement }
 
@@ -66,18 +66,18 @@ mastery:
     - { label: Typical peak age, value: 22–28, basis: judgement }
 
 gap: >
-  Taekwondo has the widest gap between what a beginner practises and what an
-  elite competitor does of any sport on this board. A club student learns
+  Taekwondo has a very wide gap between what a beginner practises and what an
+  elite competitor does. A club student learns
   forms, self-defence and grading syllabus; an Olympic competitor is producing
   sensor-triggering contacts inside an octagon under a point table that has
   been rewritten three times in fifteen years.
 
-  Set it against judo, the other combat sport here. Judo's entry is harder,
+  Set it against judo, another combat sport. Judo's entry is harder,
   because you must learn to fall before anything else, and its elite version is
   recognisably the same activity as its club version. Taekwondo's entry is
-  easier and the two versions have diverged further. The instrument is why: no
-  other sport on this site automated its scoring, and none has had to redesign
-  what winning looks like so many times as a consequence.
+  easier and the two versions have diverged further. The instrument is why:
+  taekwondo automated its scoring, and has had to redesign what winning looks
+  like repeatedly as a consequence.
 
 shaped_by:
   - wt-2009-electronic-scoring

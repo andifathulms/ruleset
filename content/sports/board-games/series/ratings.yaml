@@ -4,13 +4,12 @@ unit: rating points
 higher_is_better: true
 absence_kind: unpublished
 cannot_exist: >
-  Chess has the best measurement instrument on this site and it still cannot be
+  Chess has an unusually good measurement instrument and it still cannot be
   charted honestly across a century.
 
   The rating is a continuous number, updated by results, calibrated so that a
   difference predicts an expected score. It orders every rated player in the
-  world without their having to meet. Almost nothing else covered here has an
-  equivalent — most sports can rank the people who competed and no more.
+  world without their having to meet. Most sports can rank the people who competed and no more.
 
   The problem is that a rating is **relative**, and the population it is
   relative to has changed enormously. Ratings are computed against other rated
@@ -26,8 +25,8 @@ cannot_exist: >
   evaluation — which is a different measurement from rating and does not
   reconcile with it.
 
-  So the number is excellent within its era and drifting between them, and this
-  site does not draw a line through it.
+  So the number is excellent within its era and drifting between them, and no
+  line is drawn through it.
 segments: []
 breaks:
   - at: 1997

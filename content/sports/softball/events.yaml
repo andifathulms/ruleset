@@ -3,8 +3,8 @@ as_of: 2026-09
 source: wbsc-softball-rules
 standing: primary-named
 summary: >
-  One Olympic event, and it shares a programme listing with baseball — the only
-  case on this site of two distinct sports counted as one entry. Softball has
+  One Olympic event, and it shares a programme listing with baseball, so two
+  distinct sports are counted as one entry. Softball has
   been on the programme for 1996 to 2008, 2020, and 2028.
 disciplines:
   - id: fastpitch

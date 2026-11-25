@@ -9,8 +9,8 @@ cannot_exist: >
   point. Points per game, rally counts, match duration and the scoreline all
   changed meaning in 2004.
 
-  This is the fourth time this absence appears on this site, and by now the
-  pattern is the finding. Volleyball rewrote its scoring in 1999, table tennis
+  The same absence follows four scoring changes, and the pattern is the
+  finding. Volleyball rewrote its scoring in 1999, table tennis
   in 2001, squash in 2004, badminton in 2006. Four federations, four
   continents' worth of member associations, one stated reason — a match had to
   fit a broadcast slot — and not one of them kept a series across its own
@@ -30,5 +30,5 @@ breaks:
     kind: reset
     note: >
       Every match statistic before 2004 is counted in a unit the sport stopped
-      using. The fourth identical break on this site in seven years of sport.
+      using. It is the fourth identical break in four sports in seven years.
 source: world-squash-rules

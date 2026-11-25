@@ -22,4 +22,4 @@ disciplines:
     events:
       - { id: judo, label: Judo, at: [olympic], note: "The jacket sport with an Olympic place, which has spent fifteen years removing leg grabs and shortening its ground phase." }
       - { id: belt-wrestling, label: Belt wrestling and regional codes, at: [federation-only], note: "Alysh, gorešh, kokpar and related traditions, governed regionally and at times contested at Asian Indoor and Martial Arts Games." }
-      - { id: sambo, label: Sambo, at: [federation-only], note: "A Soviet jacket sport with legal leg locks, governed separately and on neither programme covered here." }
+      - { id: sambo, label: Sambo, at: [federation-only], note: "A Soviet jacket sport with legal leg locks, governed separately." }

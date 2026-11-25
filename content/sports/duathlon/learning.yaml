@@ -27,7 +27,7 @@ entry:
     events need organising on roads.
   evidence:
     - { label: No swim, value: The barrier removed, basis: rule, rule: duathlon-run-bike-run, note: Open-water swimming is what keeps people out of triathlon. }
-    - { label: Kit to start, value: Shoes, a bike, a helmet, basis: observation }
+    - { label: "Kit to start", value: "Shoes, a bike, a helmet", basis: "observation" }
     - { label: Existing skills, value: Running and cycling, basis: judgement }
     - { label: Facility, value: Roads and a transition area, basis: observation }
     - { label: Time to a first race, value: Weeks, basis: judgement }
@@ -72,8 +72,7 @@ mastery:
     - { label: Typical peak age, value: 26–35, basis: judgement }
 
 gap: >
-  Low to very high, and duathlon is worth setting directly beside triathlon,
-  which this site already covers.
+  Low to very high, and duathlon is worth setting directly beside triathlon.
 
   Triathlon's gap is wide because of the swim: an adult who cannot swim
   competently is not going to become a triathlete, whatever else they can do.
@@ -81,8 +80,8 @@ gap: >
   running and cycling demands at the top are the same and the second run is
   harder.
 
-  That makes it the clearest accessibility experiment on this site after soft
-  tennis and pétanque: remove one component of an existing sport and the entry
+  That makes it a clear accessibility experiment, like soft tennis and
+  pétanque: remove one component of an existing sport and the entry
   barrier collapses while the elite requirement does not.
 
   What duathlon does not get is the reward. Triathlon has been Olympic since

@@ -14,8 +14,8 @@
     of a dozen is a very good one; the game's best players average somewhere
     above one point per turn.
 
-    A pocketless table is the sport's defining fact. Every other cue game on
-    this site is about removing balls from the table. Carom is about geometry,
+    A pocketless table is the sport's defining fact. Pool and snooker are
+    about removing balls from the table. Carom is about geometry,
     and nothing ever leaves.
   cause_primary: fairness and eligibility
   trigger:
@@ -68,8 +68,8 @@
 
     Its purpose was explicitly institutional: a single body could hold
     recognition and pursue Olympic inclusion on behalf of games that are not
-    played across. This site records the same construction in boules, formed
-    for the same reason seven years earlier.
+    played across. Boules has the same construction, formed for the same
+    reason seven years earlier.
   cause_primary: commercial
   cause_secondary: participation and access
   trigger:

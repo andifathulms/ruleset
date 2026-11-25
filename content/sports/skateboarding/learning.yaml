@@ -1,8 +1,8 @@
 sport: skateboarding
 standing: editorial
 summary: >
-  Almost free to start, extremely painful to progress in, and the only sport
-  here whose learning process happens mostly in public space rather than in any
+  Almost free to start, extremely painful to progress in, and a sport
+  whose learning process happens mostly in public space rather than in any
   facility or club.
 
 entry:
@@ -11,8 +11,7 @@ entry:
   why: >
     Skateboarding needs one object and any hard flat surface. There is no
     club to join, no coach required, no session to book and no opponent. It is
-    among the cheapest sports on this site to begin and the most independent of
-    institutions.
+    very cheap to begin and independent of institutions.
 
     That independence is the point culturally as well as practically.
     Skateboarding developed in public space, transmitted through peers and
@@ -51,7 +50,7 @@ mastery:
       value: No difficulty table
       basis: rule
       rule: worldskate-holistic-judging
-      note: The only judged sport here that declined to price its elements.
+      note: A judged sport that declined to price its elements.
     - label: Criteria revised
       value: Between 2020 and 2024
       basis: rule
@@ -61,7 +60,7 @@ mastery:
       basis: rule
       rule: worldskate-2020-format
       note: Encourages attempting the hardest available trick.
-    - { label: Typical peak age, value: 18–26, basis: judgement, note: Among the youngest here, and the injury profile is why. }
+    - { label: Typical peak age, value: 18–26, basis: judgement, note: "A young peak, and the injury profile is why." }
 
 gap: >
   Skateboarding has the widest gap available — very low to very high — and it
@@ -74,7 +73,7 @@ gap: >
   absolute scores and refused to publish what they are made of.
 
   Both are refusals to invent a difficulty table, arrived at independently, by
-  the two sports on this site whose cultures most resemble each other. One kept
+  two sports whose cultures closely resemble each other. One kept
   its Olympic place and one did not, and nothing about the scoring explains
   which.
 

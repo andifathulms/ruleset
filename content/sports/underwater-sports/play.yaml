@@ -97,8 +97,8 @@ sections:
       negatively buoyant and sinks at a controlled rate. A ball that floated
       would drag the game to the surface and destroy it.
 
-      The referees wear scuba, which makes them the only officials on this site
-      with more equipment than the competitors.
+      The referees wear scuba, so they carry more equipment than the
+      competitors.
     facts:
       - { label: Players' air supply, value: None }
       - { label: Hockey puck, value: "Lead, about 1.3 kg" }
@@ -165,8 +165,7 @@ sections:
       that matters most — anything that prevents an opponent surfacing to
       breathe.
 
-      That last category has no equivalent anywhere else on this site. In a
-      sport played on one breath, obstructing a person's route to air is not a
+      In a sport played on one breath, obstructing a person's route to air is not a
       tactical foul; it is the sport's central safety rule.
     shaped_by: [uw-1961-rugby]
 

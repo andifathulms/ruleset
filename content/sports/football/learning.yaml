@@ -10,8 +10,8 @@ entry:
   verdict: very-low
   claim: One ball, any surface, any number of people.
   why: >
-    Football is the only sport on this site whose entry requirements can be
-    met with a single object and no marked space. Goals can be jumpers, teams
+    Football's entry requirements can be met with a single object and no
+    marked space. Goals can be jumpers, teams
     can be uneven, and the game degrades gracefully all the way down to one
     person against a wall. Nothing in the Laws is needed to have a game; the
     Laws describe the formal version of something people already play.
@@ -22,7 +22,7 @@ entry:
   evidence:
     - { label: Players needed, value: Any number, basis: observation }
     - { label: Kit to start, value: A ball, basis: observation }
-    - { label: Pitch length in the Laws, value: 90–120 m, basis: observation, note: A range, not a dimension — the formal game does not require a standard space. }
+    - { label: "Pitch length in the Laws", value: "90–120 m", basis: "observation", note: "A range, not a dimension — the formal game does not require a standard space." }
     - { label: Time to a real game, value: One session, basis: judgement }
 
 mastery:
@@ -56,7 +56,7 @@ mastery:
       note: Rewrote one position entirely; goalkeepers are now selected for their feet.
     - { label: Typical age of academy entry, value: 6–9, basis: judgement }
     - { label: Typical peak age, value: 26–29, basis: judgement }
-    - { label: Draws are a legitimate result, value: "Yes", basis: observation, note: The only sport here where not winning is a normal outcome, which changes what "good" means. }
+    - { label: Draws are a legitimate result, value: "Yes", basis: observation, note: 'Not winning is a normal outcome, which changes what "good" means.' }
 
 gap: >
   Football's two verdicts sit at opposite ends for a reason that is almost

@@ -102,8 +102,8 @@ sections:
 
       Until 2021, Olympic women could compete only in kayak. Canoe classes —
       kneeling, single blade — were men's events at the Games, and women's canoe
-      was added for Tokyo by removing men's events to fit the quota. It is the
-      latest correction of a single-sex exclusion of any sport on this site.
+      was added for Tokyo by removing men's events to fit the quota. The
+      correction came later than boxing's admission of women in 2012.
     shaped_by: [icf-2020-womens-canoe]
 
   - id: duration
@@ -144,8 +144,7 @@ sections:
     body: >
       Sprint uses a starting gate holding the boats level. Slalom runs are
       individual and timed from a start line. Kayak cross starts with all four
-      boats dropping from a raised ramp into the water simultaneously, which is
-      the most abrupt start of anything on this site.
+      boats dropping from a raised ramp into the water simultaneously.
 
   - id: prohibitions
     label: Infringements

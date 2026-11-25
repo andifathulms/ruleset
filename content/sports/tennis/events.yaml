@@ -5,8 +5,8 @@ standing: primary-named
 summary: >
   Five Olympic events, the same shape as badminton's, but the Olympic
   tournament is not this sport's main competition and everyone involved knows
-  it. Tennis is one of the few sports here whose four most important events are
-  run by nobody on this page — the Grand Slams are independent tournaments that
+  it. Tennis's four most important events are
+  outside the Olympic structure — the Grand Slams are independent tournaments that
   set some of their own conditions.
 disciplines:
   - id: tennis
@@ -22,7 +22,7 @@ disciplines:
     counts: false
     blurb: >
       Listed because a sport's event structure is not the same as its Olympic
-      programme, and in tennis the gap is wider than anywhere else on this site.
+      programme, and in tennis the gap is unusually wide.
     events:
       - { id: ao, label: Australian Open, note: Hard court., at: [professional] }
       - { id: rg, label: Roland-Garros, note: Clay. The only major on the surface., at: [professional] }

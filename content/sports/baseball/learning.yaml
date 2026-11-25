@@ -4,7 +4,7 @@ summary: >
   Two skills at the heart of this sport are among the hardest single actions in
   any of them: hitting a pitched ball, and pitching one accurately at speed
   without destroying your own arm. Almost everything else about baseball is
-  accessible, which produces one of the widest internal gaps on this board.
+  accessible, which produces a very wide gap inside the one sport.
 
 entry:
   verdict: moderate
@@ -26,23 +26,23 @@ entry:
   evidence:
     - { label: Players needed, value: "18", basis: observation, note: For a full game; the informal versions need far fewer. }
     - { label: Pitching distance, value: 60 ft 6 in, basis: observation, note: About 0.4 seconds of flight at professional speed. }
-    - { label: Kit to start, value: A ball, a bat and a glove, basis: observation }
-    - { label: Bat material, value: Wood professionally, aluminium in amateur play, basis: observation, note: The amateur game is deliberately easier to hit in. }
+    - { label: Kit to start, value: "A ball, a bat and a glove", basis: observation }
+    - { label: Bat material, value: "Wood professionally, aluminium in amateur play", basis: observation, note: The amateur game is deliberately easier to hit in. }
     - { label: Time to hit live pitching, value: Months, basis: judgement }
 
 mastery:
   verdict: very-high
   claim: Failing seven times in ten is a good career, and the arm is not built for the job.
   why: >
-    A hitter succeeding three times in ten is excellent. No other sport on this
-    site defines competence as a failure rate that high, and the psychological
+    A hitter succeeding three times in ten is excellent. Few sports define
+    competence as a failure rate that high, and the psychological
     demand of a season built from that is genuinely distinctive.
 
     The pitching half is a physiological problem. Throwing a baseball at
     professional velocity applies forces to the elbow near the failure point of
     the ligament, and reconstruction surgery is close to a routine career
-    event. This is the only sport here whose primary skill reliably injures the
-    people who are best at it, and no rule has ever addressed it.
+    event. The sport's primary skill reliably injures the people who are best
+    at it, and no rule has ever addressed it.
 
     The sport's statistical culture adds a third layer. Because everything is
     recorded and analysed, elite play is now shaped by data — which is what
@@ -72,15 +72,14 @@ gap: >
   pitched ball and throwing one at ninety-five miles an hour are extraordinary
   ones, and there is very little between the two.
 
-  What makes it worth putting next to cricket — the other striking and fielding
-  sport here — is that cricket's barrier is comprehension and cricket's elite
+  What makes it worth putting next to cricket, another striking and fielding
+  sport, is that cricket's barrier is comprehension and cricket's elite
   demand is breadth across three formats, while baseball's barrier is a single
   physical act and its elite demand is tolerating failure at it. Two sports
   from the same family, arriving at very high by completely different routes.
 
-  Baseball is also the only sport on this board whose primary skill injures its
-  best practitioners as a matter of course, and the only one where no rule has
-  ever been written about that.
+  Baseball's primary skill also injures its best practitioners as a matter of
+  course, and no rule has ever been written about that.
 
 shaped_by:
   - mlb-1969-mound-and-strike-zone

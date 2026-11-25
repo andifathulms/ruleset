@@ -24,8 +24,8 @@ entry:
     Lacrosse intended.
   evidence:
     - { label: Prerequisite, value: Catching and throwing with a stick, basis: observation }
-    - { label: Practice alone, value: Possible, against a wall, basis: observation }
-    - { label: "Kit, men's game", value: Helmet, gloves, pads, basis: observation }
+    - { label: Practice alone, value: "Possible, against a wall", basis: observation }
+    - { label: "Kit, men's game", value: "Helmet, gloves, pads", basis: observation }
     - { label: Sixes team size, value: "6", basis: rule, rule: lacrosse-2021-sixes, note: Designed to be enterable by nations without a club system. }
     - { label: Time to play a game, value: Weeks, basis: judgement }
 
@@ -50,7 +50,7 @@ mastery:
       value: Since 2019
       basis: rule
       rule: lacrosse-2019-shot-clock
-      note: The third sport here to adopt one, after basketball and wrestling.
+      note: Adopted after basketball and wrestling had done the same.
     - label: Sixes
       value: Invented 2021
       basis: rule
@@ -64,8 +64,8 @@ mastery:
     - { label: Typical peak age, value: 24–30, basis: judgement }
 
 gap: >
-  Lacrosse sits at moderate to very high, and its interest on this board is
-  that the entry barrier is being deliberately lowered by rule.
+  Lacrosse sits at moderate to very high, and what is interesting is that the
+  entry barrier is being deliberately lowered by rule.
 
   Volleyball invented a position to widen its physical door. Cricket invented a
   format to widen its temporal one. Lacrosse invented a format to widen its
@@ -74,7 +74,7 @@ gap: >
   the Olympic programme demanded a version of lacrosse that would fit.
 
   The commercial motive and the access outcome are the same act, which is
-  unusual. Most of the broadcast-driven changes on this site narrowed something.
+  unusual. Many broadcast-driven changes in other sports narrowed something.
 
 shaped_by:
   - lacrosse-2021-sixes

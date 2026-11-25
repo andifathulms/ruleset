@@ -23,7 +23,7 @@ entry:
     the professional sport in what it permits.
   evidence:
     - { label: Kit to start, value: Wraps and gloves, basis: observation }
-    - { label: First class, value: Pads and conditioning, no contact, basis: observation }
+    - { label: First class, value: "Pads and conditioning, no contact", basis: observation }
     - { label: Junior categories, value: Elbows restricted or barred, basis: rule, rule: muaythai-amateur-protective-code }
     - { label: Protective equipment, value: Required in amateur competition, basis: rule, rule: muaythai-amateur-protective-code }
     - { label: Time to a first bout, value: A year or more, basis: judgement }
@@ -32,7 +32,7 @@ mastery:
   verdict: very-high
   claim: Eight weapons, a clinch you must fight in, and a summit that is in one country.
   why: >
-    The technical breadth is the largest in any striking sport covered here.
+    The technical breadth is very large.
     Fists, elbows, knees and shins, thrown and defended, plus a clinch that is a
     complete grappling-striking discipline in itself — neck control, sweeps,
     knees from a grip — which is the phase that most often decides bouts between
@@ -54,7 +54,7 @@ mastery:
       value: Fists, elbows, knees, shins
       basis: rule
       rule: muaythai-eight-limbs
-      note: The widest striking permission of any sport covered here.
+      note: A wider striking permission than boxing, taekwondo or karate grants.
     - label: The clinch is fought in
       value: Not broken by the referee
       basis: rule
@@ -68,7 +68,7 @@ mastery:
     - { label: Typical peak age, value: 22–30, basis: judgement }
 
 gap: >
-  Low to very high, and the shape of it is closest to sumo's on this site — a
+  Low to very high, and the shape of it is closest to sumo's — a
   sport whose ceiling is a national professional institution outside its
   international federation.
 
@@ -80,8 +80,8 @@ gap: >
 
   What muaythai has that sumo does not is an enormous recreational base
   worldwide, most of which never competes at all. The gap between the number of
-  people who train it and the number who fight professionally is probably the
-  widest of any combat sport here, and the training culture is a large part of
+  people who train it and the number who fight professionally is probably very
+  wide, and the training culture is a large part of
   why: you can do muaythai for a decade and never be hit.
 
 shaped_by:

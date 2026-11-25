@@ -59,8 +59,8 @@ sections:
     body: >
       Win on points, by stoppage, or by knockout. What separates muaythai from
       the other striking codes is not the objective but the permission: there
-      are more legal ways to damage an opponent here than in any other sport
-      covered on this site.
+      are more legal ways to damage an opponent here than in boxing, taekwondo
+      or karate.
     shaped_by: [muaythai-eight-limbs]
 
   - id: field
@@ -125,8 +125,8 @@ sections:
       bout is assessed as a whole, with the later rounds weighted most heavily,
       and judges reward dominance, balance and visible effect rather than
       counting strikes. A fighter can lose the first two rounds deliberately and
-      win the fight — a tactic that has no equivalent in any other combat sport
-      here, and which an additive round-by-round system makes impossible.
+      win the fight, a tactic that an additive round-by-round system makes
+      impossible.
     facts:
       - { label: Amateur, value: "Ten-point must, round by round" }
       - { label: Professional Thai, value: Weighted to the later rounds }

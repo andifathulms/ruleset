@@ -11,7 +11,7 @@ disciplines:
     label: Speed
     blurb: >
       Fifteen metres, identical route worldwide since 2007, about five seconds.
-      Its times are comparable in a way almost nothing else on this site is.
+      Its times are comparable in a way that is rare in sport.
     events:
       - { id: sm, label: "Men's speed", at: [olympic] }
       - { id: sw, label: "Women's speed", at: [olympic] }

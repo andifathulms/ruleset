@@ -23,7 +23,7 @@ entry:
   evidence:
     - { label: Players needed, value: "2", basis: observation }
     - { label: Out of bounds, value: Effectively none, basis: rule, rule: racquetball-all-surfaces-live, note: A mishit is usually still a legal shot. }
-    - { label: Kit to start, value: Racquet, ball, eye protection, basis: observation }
+    - { label: Kit to start, value: "Racquet, ball, eye protection", basis: observation }
     - { label: Facility, value: A four-wall court — increasingly scarce, basis: judgement }
     - { label: Time to a real rally, value: Minutes, basis: judgement }
 
@@ -55,7 +55,7 @@ mastery:
       value: Including the ceiling
       basis: rule
       rule: racquetball-all-surfaces-live
-      note: More shot geometry than any other wall sport here, not less.
+      note: More shot geometry than squash, not less.
     - label: Side-out scoring
       value: Only the server scores
       basis: observation
@@ -67,8 +67,8 @@ mastery:
     - { label: Typical peak age, value: 24–33, basis: judgement }
 
 gap: >
-  Very low to high — and the sport to hold it against is squash, which this
-  site also covers, because the two answered the same questions in opposite
+  Very low to high — and the sport to hold it against is squash, because the
+  two answered the same questions in opposite
   directions and got opposite outcomes.
 
   Squash keeps its boundaries and demands precision from the first rally, which
@@ -79,7 +79,7 @@ gap: >
 
   It would be too neat to say the scoring decided it — squash's campaign was
   long, well funded and about far more than points. But the pairing is the
-  cleanest natural experiment on this site in what a sport gains and loses by
+  clean natural experiment in what a sport gains and loses by
   making itself easy to start and declining to make itself easy to schedule.
 
 shaped_by:

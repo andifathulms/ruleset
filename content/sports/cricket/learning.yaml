@@ -21,14 +21,13 @@ entry:
     cricket across South Asia, beach cricket in the Caribbean and Australia —
     which are the real entry routes and require almost nothing.
 
-    Outside those countries, cricket is one of the least accessible sports
-    here.
+    Outside those countries, cricket is hard to get into.
   evidence:
-    - { label: Players needed, value: "22", basis: observation, note: The most of any sport on this site. }
+    - { label: Players needed, value: "22", basis: observation, note: Eleven a side. }
     - { label: Shortest format, value: 3 hours, basis: rule, rule: icc-2003-twenty20, note: A format designed around the length of a working evening. }
     - { label: Ways of being dismissed, value: "10", basis: observation }
     - { label: Kit to start, value: A bat and a ball, basis: observation, note: The informal versions need nothing else. }
-    - { label: Time to understand the game, value: Weeks, basis: judgement, note: Longer than any other sport here. }
+    - { label: Time to understand the game, value: Weeks, basis: judgement, note: The rules take a long time to learn. }
 
 mastery:
   verdict: very-high
@@ -64,18 +63,17 @@ mastery:
       rule: icc-2009-decision-review-system
       note: Removed the marginal LBW as a source of luck, in both directions.
     - { label: Bat edge limit, value: 40 mm, basis: rule, rule: mcc-2017-bat-size-limits }
-    - { label: Typical peak age, value: 26–32, basis: judgement, note: Among the latest here. }
+    - { label: Typical peak age, value: 26–32, basis: judgement, note: A relatively late peak. }
 
 gap: >
   Cricket's gap is unusual because the bottom of it is intellectual rather than
   physical. Nothing about swinging a bat excludes anyone; the rules, the
   duration and the twenty-two people do.
 
-  The sport is also the only one here to have attacked its own entry barrier
-  deliberately and successfully. Twenty20 was designed in 2003 around how long
-  a person will stay after work, and it worked — it is the most commercially
-  successful rule change in this collection. That it also fractured the sport's
-  statistics into three incomparable sets was accepted from the start, and
+  The sport also attacked its own entry barrier deliberately and
+  successfully. Twenty20 was designed in 2003 around how long a person will
+  stay after work, and it worked — commercially, on a very large scale. That
+  it also fractured the sport's statistics into three incomparable sets was accepted from the start, and
   handled correctly by never merging them.
 
   Compare volleyball, which invented a position to widen its physical door.

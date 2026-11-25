@@ -1,8 +1,7 @@
 sport: boules
 standing: editorial
 summary: >
-  The lowest entry barrier of any sport on this site that uses equipment, by
-  design rather than by accident — and a genuinely high ceiling that is almost
+  A very low entry barrier, by design rather than by accident — and a genuinely high ceiling that is almost
   entirely invisible to the people playing it in a park.
 
 entry:
@@ -15,8 +14,8 @@ entry:
     small circle. There is no run-up, no stride, no impact and no requirement
     to move quickly or at all.
 
-    The consequence is that pétanque is playable across a wider range of age
-    and physical capacity than anything else covered here. Children and people
+    The consequence is that pétanque is playable across an unusually wide
+    range of age and physical capacity. Children and people
     in their eighties compete in the same club sessions, and it is played in
     public squares by people who would not describe themselves as doing sport.
 
@@ -60,27 +59,27 @@ mastery:
     - label: Unstandardised terrain
       value: Read, not controlled
       basis: observation
-      note: Unlike every other target sport covered here.
+      note: Unlike archery and shooting.
     - label: Scoring shape
       value: One point per boule closer than the opponent's best
       basis: rule
       rule: petanque-1958-fipjp
       note: An end can be worth six points or nothing.
-    - { label: Typical peak age, value: 30–50, basis: judgement, note: Later than almost anything else here. }
+    - { label: Typical peak age, value: 30–50, basis: judgement, note: A late peak. }
 
 gap: >
-  Very low to high, and it is the site's most deliberate gap: the bottom of it
-  was lowered on purpose, in 1907, for one person.
+  Very low to high, and it is a deliberate gap: the bottom of it was lowered
+  on purpose, in 1907, for one person.
 
-  Almost every accessible sport on this site is accessible by accident of what
-  it happens to require. Pétanque is accessible because somebody removed the
+  Pétanque is not accessible by accident of what it happens to require. It is
+  accessible because somebody removed the
   hard physical part so a friend could keep playing, and the removal turned out
   to make a better game — one that a whole country now plays in its town
   squares.
 
   The ceiling was not lowered with it. Hitting a small metal ball at ten metres
   on rough ground is difficult in a way that is invisible until you try it, and
-  the peak age of thirty to fifty says something no other sport here says:
+  the peak age of thirty to fifty says something unusual:
   this is a game where experience compounds for longer than physical decline
   costs you.
 

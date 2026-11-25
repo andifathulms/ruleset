@@ -9,7 +9,7 @@ entry:
   verdict: low
   claim: Do a lifesaving award at a local club or pool. The sport is the training, timed.
   why: >
-    Lifesaving's entry route is unlike anything else here: you arrive by
+    Lifesaving's entry route is unusual: you arrive by
     learning to save people. National societies run graded awards through
     clubs, schools and swimming pools, and competition is the same syllabus
     with a clock on it. Millions of people hold an entry-level qualification.
@@ -25,7 +25,7 @@ entry:
     - { label: Route in, value: A lifesaving award at a club or pool, basis: observation }
     - { label: Kit to start, value: Provided by the club, basis: observation }
     - { label: Prerequisite, value: Competent swimming, basis: judgement }
-    - { label: Facility, value: A pool, or a patrolled beach, basis: observation }
+    - { label: Facility, value: "A pool, or a patrolled beach", basis: observation }
     - { label: Time to a first competition, value: Months, basis: judgement }
 
 mastery:
@@ -67,18 +67,17 @@ mastery:
     - { label: Typical peak age, value: 21–29, basis: judgement }
 
 gap: >
-  Low to very high, and the sport is the only one on this site where the entry
-  level has a purpose independent of the sport existing.
+  Low to very high, and the entry level has a purpose independent of the sport
+  existing.
 
-  Everything else covered here is played because people want to play it.
-  Lifesaving's beginner syllabus is a public-health programme that happens to
+  Most sports are played because people want to play them. Lifesaving's beginner syllabus is a public-health programme that happens to
   be competitive at the top, and its federation would tell you — does tell you
   — that the drowning statistics matter more than the medals. That gives the
   bottom of the curve a reason to exist that no other sport has, and it means
   the entry population is enormous relative to the competitive one.
 
-  The top of the curve is unusual in a different way. Every other measured
-  sport here lets an athlete optimise purely for speed. This one caps the
+  The top of the curve is unusual in a different way. Measured sports usually
+  let an athlete optimise purely for speed. This one caps the
   optimisation at the point where the technique would stop being a rescue, and
   moves the cap when the medicine changes.
 

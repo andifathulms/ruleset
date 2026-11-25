@@ -14,7 +14,7 @@ entry:
     covered, always free — and children play against it with a ball and their
     hands.
 
-    That is a genuinely unusual arrangement on this site: the sport's court is
+    That is a genuinely unusual arrangement: the sport's court is
     municipal infrastructure rather than a club asset, which puts the entry
     cost close to zero in its homeland and close to prohibitive everywhere
     else.
@@ -28,7 +28,7 @@ entry:
     hard ball with a bare palm hurts, and learning to take it is part of
     starting.
   evidence:
-    - { label: Facility, value: A public fronton, in Basque villages, basis: observation }
+    - { label: "Facility", value: "A public fronton, in Basque villages", basis: "observation" }
     - { label: Kit to start, value: A ball, basis: rule, rule: pelota-bare-hand }
     - { label: Outside the Basque Country, value: Almost no courts exist, basis: judgement }
     - { label: The hand, value: Hurts from the first session, basis: observation }
@@ -76,13 +76,13 @@ mastery:
 gap: >
   Low to very high, and the interesting thing is where the cost falls.
 
-  Most sports on this site put the barrier at the entrance — equipment,
+  Many sports put the barrier at the entrance — equipment,
   facilities, coaching — and then reward whoever gets through. Pelota inverts
   it in its homeland: the fronton is free public infrastructure and a child can
   start with a ball, and the price is charged later, out of the professional's
   hands.
 
-  It is also the site's clearest case of a sport that is really several. Boules,
+  It is also a clear case of a sport that is really several. Boules,
   billiards and board games group unrelated codes under one federation for
   institutional convenience; pelota's specialties are combinations of a court
   and an implement, contested separately at world championships, and its two

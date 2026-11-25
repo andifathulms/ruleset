@@ -5,8 +5,7 @@ source: world-squash-rules
 standing: primary-named
 summary: >
   Two players in a sealed box, hitting the same ball against the same front
-  wall, alternately. Squash is the only racket sport on this site where both
-  players occupy the same space rather than opposite sides of a net, and
+  wall, alternately. In squash both players occupy the same space rather than opposite sides of a net, and
   essentially every difficult rule in it follows from that one fact.
 
 walkthrough:
@@ -90,8 +89,8 @@ sections:
       longer rallies.
 
       The ball only performs correctly once warm, so players hit before a match
-      to raise its temperature. It is the only implement on this site whose
-      behaviour depends on how long it has been in use.
+      to raise its temperature. Its behaviour depends on how long it has been
+      in use.
     facts:
       - { label: Professional ball, value: Double yellow dot }
       - { label: Ball, value: "Hollow rubber, warms in play" }
@@ -168,9 +167,7 @@ sections:
       winning shot or was avoidable. Or award **no let**, if the player could
       not have reached the ball anyway.
 
-      Every one of those is a judgement about what would have happened, which
-      is a class of question nothing else on this site asks an official to
-      answer.
+      Every one of those is a judgement about what would have happened.
     shaped_by: [wsf-2019-video-review]
 
   - id: winning

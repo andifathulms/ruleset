@@ -12,10 +12,9 @@
 sport: badminton
 standing: editorial
 summary: >
-  One of the two widest gaps on this site — table tennis has the other, for
-  almost the same reason. Badminton is among the easiest sports here to have a
-  real game of on your first afternoon and one of the hardest to be good at,
-  and both facts have the same cause: the shuttle.
+  A very wide gap, like table tennis and for almost the same reason. You can
+  have a real game of badminton on your first afternoon, it is very hard to be
+  good at, and both facts have the same cause: the shuttle.
 
 entry:
   verdict: very-low
@@ -38,7 +37,7 @@ entry:
     - label: Time to a real rally
       value: One session
       basis: judgement
-      note: The site's estimate, and the softest claim on this page.
+      note: An editorial estimate, and the softest of these claims.
     - label: Shuttle mass
       value: 4.74–5.50 g
       basis: observation

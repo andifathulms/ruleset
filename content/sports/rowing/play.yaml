@@ -49,8 +49,7 @@ sections:
   - id: object
     label: The object of the race
     body: >
-      Cross the line first. Rowing is one of the few sports here that is purely
-      a race with no interaction between competitors at all — crews are in
+      Cross the line first. Rowing is purely a race with no interaction between competitors at all — crews are in
       separate lanes, contact is a foul, and nothing one crew does affects
       another except through the water they leave.
 
@@ -99,9 +98,8 @@ sections:
       steering, which is close to the whole of their job — there is very little
       in rowing for an official to interpret.
 
-      The coxswain is the one position on this site whose occupant does not
-      generate any of the boat's power and is nonetheless a competitor with a
-      medal.
+      The coxswain does not generate any of the boat's power and is
+      nonetheless a competitor with a medal.
 
   - id: duration
     label: Format
@@ -122,7 +120,7 @@ sections:
       celebrated, and the federation is explicit that they are **world best
       times** rather than world records.
 
-      The distinction is the reason this sport is on the site. A record implies
+      The distinction matters. A record implies
       a comparable measurement. Rowing's position is that its times are not
       comparable, because the course conditions are not, and that saying so is
       more honest than pretending otherwise or imposing a condition limit it

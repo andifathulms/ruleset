@@ -17,7 +17,7 @@ cannot_exist: >
   races and refusing to call the times records. Sailing went further and
   stopped producing times.
 
-  There is a second discontinuity on top of that one, and it is unique here.
+  There is a second discontinuity on top of that one.
   The Olympic classes — the actual boats — are reselected between cycles. A
   result in the Finn class and a result in the class that replaced it are not
   comparable in any sense at all, because the equipment is different and the
@@ -37,6 +37,6 @@ breaks:
     kind: scale-change
     note: >
       The boats themselves are reselected between Olympic cycles, so results
-      are not comparable across them. No other sport on this site periodically
-      replaces the equipment its events are defined by.
+      are not comparable across them. The equipment the events are defined by
+      is periodically replaced.
 source: world-sailing-rrs

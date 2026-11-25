@@ -25,7 +25,7 @@ entry:
   evidence:
     - { label: Kit to start, value: A gi, basis: observation }
     - { label: Facility, value: A club with mats, basis: observation }
-    - { label: Grading, value: Coloured belts, structured progression, basis: observation }
+    - { label: Grading, value: "Coloured belts, structured progression", basis: observation }
     - { label: Finding the right club, value: Genuinely confusing, basis: rule, rule: jujitsu-1998-federation, note: The name is used by many unrelated organisations. }
     - { label: Time to a first competition, value: Months, basis: judgement }
 
@@ -38,7 +38,7 @@ mastery:
     an athlete cannot avoid a range they are weak in — the referee will take
     them there.
 
-    Elsewhere on this site, each of those ranges is somebody's entire sport.
+    In other sports, each of those ranges is somebody's entire sport.
     Boxing is the first phase. Judo is the second. The grappling arts are the
     third. A ju-jitsu fighter is asked to be competent at all three against
     opponents who may be specialists, and the phase that follows arrives whether
@@ -72,7 +72,7 @@ mastery:
     - { label: Typical peak age, value: 24–32, basis: judgement }
 
 gap: >
-  Low to very high, and the sport is the site's clearest example of a ceiling
+  Low to very high, and the sport is a clear example of a ceiling
   raised by refusing to specialise.
 
   Judo took ju-jitsu's throwing, removed most of the rest, and became an
@@ -86,8 +86,7 @@ gap: >
   are measured against specialists in every phase of every bout.
 
   The Duo system sits outside that comparison entirely. It is a cooperative,
-  judged event contested at a world championship of a combat sport, and there
-  is nothing else quite like it on this site.
+  judged event contested at a world championship of a combat sport.
 
 shaped_by:
   - jujitsu-three-phase-fighting

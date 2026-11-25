@@ -22,8 +22,8 @@ entry:
     and a glove.
   evidence:
     - { label: Players needed, value: "18", basis: observation }
-    - { label: Kit to start, value: A bat, ball and glove, basis: observation }
-    - { label: Ball, value: Larger than a baseball, basis: observation, note: Easier to see, catch and hit. }
+    - { label: Kit to start, value: "A bat, ball and glove", basis: observation }
+    - { label: Ball, value: Larger than a baseball, basis: observation, note: "Easier to see, catch and hit." }
     - { label: Innings, value: "7", basis: observation }
     - { label: Time to a real game, value: One session, basis: judgement }
 
@@ -74,10 +74,9 @@ gap: >
   comparable — so a sport designed to be more accessible arrives at a
   comparably hard central confrontation by a different route.
 
-  The institutional half is unique to it. Softball is the only sport on this
-  site to have been removed from the Olympic programme substantially for
-  another sport's shortcomings, and its federation merged with that sport's in
-  2013 partly in response. Its athletes' pathway now depends on a joint listing
+  The institutional half is unusual. Softball was removed from the Olympic
+  programme substantially for another sport's shortcomings, and its federation
+  merged with that sport's in 2013 partly in response. Its athletes' pathway now depends on a joint listing
   with a game they do not play.
 
 shaped_by:

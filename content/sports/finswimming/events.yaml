@@ -23,9 +23,8 @@ disciplines:
   - id: immersion
     label: Immersion
     blurb: >
-      Swum underwater carrying an open-circuit compressed-air cylinder — the
-      only racing event covered on this site where the athlete carries a
-      breathing apparatus.
+      Swum underwater carrying an open-circuit compressed-air cylinder, so the
+      athlete races with a breathing apparatus.
     events:
       - { id: im, label: "100, 400 and 800 m immersion", at: [world-championship], count: 6 }
   - id: bifins

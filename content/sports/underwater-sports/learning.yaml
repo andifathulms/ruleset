@@ -24,9 +24,9 @@ entry:
     Underwater rugby in particular needs a pool at least three and a half
     metres deep, and there are not many of those.
   evidence:
-    - { label: Kit to start, value: Mask, snorkel, fins, basis: observation }
+    - { label: Kit to start, value: "Mask, snorkel, fins", basis: observation }
     - { label: Facility, value: A pool; 3.5 m deep for rugby, basis: rule, rule: uw-1961-rugby, note: The binding constraint — deep pools are scarce. }
-    - { label: Club provides, value: Sticks, pucks and balls, basis: observation }
+    - { label: Club provides, value: "Sticks, pucks and balls", basis: observation }
     - { label: Prerequisite, value: Comfort under water, basis: judgement }
     - { label: Time to a real game, value: One session, basis: judgement }
 
@@ -75,15 +75,14 @@ gap: >
   Low to very high, and what makes it unusual is that the ceiling is set by
   human physiology rather than by skill acquisition or institutional access.
 
-  Most sports on this site have ceilings you can train towards indefinitely.
-  Here there is a hard biological limit on how long anyone can work without
+  Many sports have ceilings you can train towards indefinitely. Here there is a hard biological limit on how long anyone can work without
   breathing, it varies less between people than most athletic qualities, and
   the sport's whole tactical structure is built around managing it. Elite play
   is not about extending the breath much further; it is about wasting none of
   it.
 
-  The other half of the gap is visibility. These are among the most tactically
-  interesting sports covered here and nobody can watch them. A spectator at the
+  The other half of the gap is visibility. These are tactically rich sports,
+  and nobody can watch them. A spectator at the
   side of a pool sees splashing. That is a harder problem than the one
   orienteering and air sports have, because at least a glider eventually lands
   where people are.

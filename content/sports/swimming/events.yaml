@@ -3,8 +3,8 @@ as_of: 2026-09
 source: world-aquatics-rules
 standing: primary-named
 summary: >
-  Swimming is one discipline of aquatics, which is the clearest illustration on
-  this site of why the IOC's three-level vocabulary is worth using. Aquatics is
+  Swimming is one discipline of aquatics, which is a clear illustration of why
+  the IOC's three-level vocabulary is worth using. Aquatics is
   the sport; swimming, diving, water polo, artistic swimming and open water are
   its disciplines; the 100 m freestyle is an event.
 disciplines:
@@ -31,8 +31,8 @@ disciplines:
     counts: false
     blurb: >
       Governed by the same federation under the same rulebook's other sections.
-      They are not swimming; diving, water polo and artistic swimming each have
-      their own page on this site, and high diving is covered under diving.
+      They are not swimming. Diving, water polo and artistic swimming are each
+      treated separately, and high diving is treated with diving.
     events:
       - { id: diving, label: Diving, at: [olympic] }
       - { id: waterpolo, label: Water polo, at: [olympic] }

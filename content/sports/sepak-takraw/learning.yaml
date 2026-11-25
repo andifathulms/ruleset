@@ -2,7 +2,7 @@ sport: sepak-takraw
 standing: editorial
 summary: >
   A ball and a circle of friends gets you playing immediately, and the
-  competitive game has one of the steepest technical walls on this site: you
+  competitive game has a steep technical wall: you
   must strike a ball above head height with your foot, accurately, repeatedly.
 
 entry:
@@ -23,7 +23,7 @@ entry:
     few can rally on the first day.
   evidence:
     - { label: Kit to start, value: A woven ball, basis: observation }
-    - { label: Traditional form, value: A circle, no net or court, basis: observation }
+    - { label: Traditional form, value: "A circle, no net or court", basis: observation }
     - { label: Players needed for a match, value: "6", basis: rule, rule: takraw-1965-codification }
     - { label: Court, value: A badminton doubles court, basis: observation, note: Widely available across the sport's region. }
     - { label: Time to a real game, value: Weeks, basis: judgement }
@@ -35,8 +35,7 @@ mastery:
     The elite attacking shot is an inverted or rotating kick striking a ball
     above 1.5 metres, downward, into a court 6.1 metres wide, at speed — and it
     is not the highlight of the sport but its standard method of scoring.
-    Nothing else covered here requires an acrobatic inversion as routine
-    technique.
+    The sport requires an acrobatic inversion as routine technique.
 
     The permission for one player to take all three touches raises the ceiling
     rather than lowering it. A killer can control, set and spike alone, which
@@ -62,12 +61,11 @@ mastery:
       basis: rule
       rule: takraw-three-touches-one-player
       note: Volleyball forbids it; here the best players do the whole sequence alone.
-    - { label: Spike height, value: Above a 1.52 m net, with the foot, basis: observation }
+    - { label: Spike height, value: "Above a 1.52 m net, with the foot", basis: observation }
     - { label: Typical peak age, value: 22–30, basis: judgement }
 
 gap: >
-  Low to very high, and the pairing to look at is volleyball, which this site
-  also covers.
+  Low to very high, and the pairing to look at is volleyball.
 
   The two sports share a net, a three-touch limit, a small team and a spike as
   the scoring shot. Sepak takraw removes the hands and permits consecutive
@@ -77,8 +75,8 @@ gap: >
   ceiling, because the best players are allowed to do everything themselves.
 
   So one sport made both ends harder than its relative, with two rules. It is
-  the sharpest example on this site of technical difficulty being designed in
-  rather than inherited, and it is why sepak takraw has never spread far beyond
+  a sharp example of technical difficulty being designed in rather than
+  inherited, and it is why sepak takraw has never spread far beyond
   the region that invented it despite needing almost no equipment.
 
 shaped_by:

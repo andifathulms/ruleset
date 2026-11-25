@@ -138,7 +138,7 @@ sections:
       ground but the grounded foot must stay in contact with the circle.
 
       So a sepak takraw serve requires two players acting together before the
-      ball is in play, which no other net sport on this site does.
+      ball is in play.
     facts:
       - { label: Serve, value: "Kicked, from a service circle" }
       - { label: Tossed by, value: A team-mate }

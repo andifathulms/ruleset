@@ -4,9 +4,8 @@ edition: FIG Code of Points, current cycle
 source: fig-code-of-points
 standing: primary-named
 summary: >
-  Perform a routine on an apparatus and be given a number for it. Gymnastics is
-  the only sport here whose rulebook is not a set of prohibitions but a pricing
-  system: the Code of Points lists the elements, says what each is worth, and
+  Perform a routine on an apparatus and be given a number for it. In gymnastics
+  the rulebook is not a set of prohibitions but a pricing system: the Code of Points lists the elements, says what each is worth, and
   says what comes off for doing it badly. The rule and the score are the same
   document.
 
@@ -135,7 +134,7 @@ sections:
 
       There is no maximum. The 10.0 that stood in one form or another from 1949
       ceased to exist in 2006, and a perfect routine no longer has a number.
-      This is why there is no chart on this page's series section: scores
+      This is why gymnastics scores have no chart: scores
       before and after 2006 are not two values of one quantity.
     facts:
       - { label: Score, value: D + E }

@@ -1,7 +1,7 @@
 sport: handball
 standing: editorial
 summary: >
-  One of the most accessible team sports on this site — throwing and catching
+  One of the most accessible team sports — throwing and catching
   are near-universal skills — and a top end that now demands a tactical
   judgement no other sport asks: whether to play with no goalkeeper.
 
@@ -24,7 +24,7 @@ entry:
     - { label: Kit to start, value: A ball, basis: observation }
     - { label: Facility, value: An indoor court, basis: observation }
     - { label: Players needed, value: "14", basis: observation }
-    - { label: Prerequisite skills, value: Running, throwing, catching, basis: observation }
+    - { label: Prerequisite skills, value: "Running, throwing, catching", basis: observation }
     - { label: Time to a real game, value: One session, basis: judgement }
 
 mastery:
@@ -41,8 +41,8 @@ mastery:
     six with an empty net — accepting that a turnover concedes a goal from
     anywhere on court in exchange for a numerical advantage in attack.
 
-    That is the highest-variance legal tactic in any team sport here, it is
-    used constantly, and it arrived from a rule change presented as a
+    That is an extremely high-variance legal tactic. It is used constantly,
+    and it arrived from a rule change presented as a
     procedural simplification.
   evidence:
     - label: Seventh field player
@@ -67,15 +67,14 @@ gap: >
   basketball as an indoor court sport whose barrier is a building rather than a
   skill.
 
-  Its distinctive entry on this board is the 2016 rule. Almost every rule change
-  in this collection was made to produce an effect — to raise scoring, shorten
-  matches, remove a judgement, protect an athlete. The seventh field player was
-  a simplification of a substitution procedure, and it changed how elite
-  handball attacks.
+  What stands out is the 2016 rule. Many rule changes are made to produce an
+  effect — to raise scoring, shorten matches, remove a judgement, protect an
+  athlete. The seventh field player was a simplification of a substitution
+  procedure, and it changed how elite handball attacks.
 
-  That is the clearest case here of a federation not knowing what it was doing
-  when it did it, and it is worth recording because most of this site's entries
-  assume governing bodies can predict the consequences of their own rules.
+  That is a clear case of a federation not knowing what it was doing when it
+  did it. Governing bodies are often assumed to predict the consequences of
+  their own rules, and here the federation did not.
 
 shaped_by:
   - ihf-2016-seventh-field-player

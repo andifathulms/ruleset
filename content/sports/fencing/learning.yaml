@@ -3,9 +3,8 @@ standing: editorial
 summary: >
   A sport whose entry barrier is almost entirely equipment and coaching rather
   than physical, and whose elite version demands a decision speed that sits at
-  the edge of human reaction. Fencing is also the only sport here where a
-  beginner must learn a rule — right of way — before they can understand who
-  won a point they just watched.
+  the edge of human reaction. In fencing a beginner must also learn a
+  rule — right of way — before they can understand who won a point they just watched.
 
 entry:
   verdict: high
@@ -20,10 +19,10 @@ entry:
     The distinctive difficulty is conceptual. In foil and sabre, both fencers
     frequently land, and the point goes to whoever had priority — a rule about
     who initiated a correctly formed attack. A beginner watching a bout cannot
-    tell who scored or why, and neither can most spectators. No other sport on
-    this site requires you to learn a rule in order to perceive the result.
+    tell who scored or why, and neither can most spectators. You have to learn a
+    rule in order to perceive the result.
   evidence:
-    - { label: Kit to start, value: Mask, jacket, glove, weapon, body wire, basis: observation }
+    - { label: "Kit to start", value: "Mask, jacket, glove, weapon, body wire", basis: "observation" }
     - { label: Facility, value: A club with a piste and a scoring machine, basis: observation }
     - { label: Coach needed, value: "Yes", basis: judgement }
     - { label: Weapons to choose between, value: "3", basis: observation, note: "They are close to different sports; most fencers specialise early." }

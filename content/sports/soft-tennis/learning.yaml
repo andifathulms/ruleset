@@ -24,8 +24,8 @@ entry:
     It is low rather than very low because it needs a tennis court, a net and
     an opponent, and courts are contested facilities almost everywhere.
   evidence:
-    - { label: Ball, value: About 30 g, air-filled rubber, basis: rule, rule: softtennis-1884-rubber-ball, note: Half a tennis ball's weight, and far slower. }
-    - { label: Racket, value: Light, low string tension, basis: observation }
+    - { label: Ball, value: "About 30 g, air-filled rubber", basis: rule, rule: softtennis-1884-rubber-ball, note: "Half a tennis ball's weight, and far slower." }
+    - { label: Racket, value: "Light, low string tension", basis: observation }
     - { label: Facility, value: A tennis-sized court, basis: observation }
     - { label: Players needed, value: 2 or 4, basis: observation }
     - { label: Time to a real rally, value: One session, basis: judgement }
@@ -46,8 +46,8 @@ mastery:
 
     Doubles being the principal format raises it further. Pairs hold defined
     positions, one forward and one back, and the partnership is a long-term
-    technical unit — so a player's ceiling is bound to their partner's in the
-    way this site records for dancesport.
+    technical unit — so a player's ceiling is bound to their partner's, as in
+    dancesport.
 
     The institutional ceiling is regional. The sport's competitive summit is an
     Asian Games title and a world championship contested seriously by three
@@ -71,10 +71,10 @@ mastery:
     - { label: Typical peak age, value: 21–29, basis: judgement }
 
 gap: >
-  Low to high — and this sport is the cleanest demonstration on the site of an
-  argument the tennis and badminton pages already make.
+  Low to high — and this sport is the cleanest demonstration of an
+  argument that comes from comparing tennis with badminton.
 
-  Those two pages argue that a racket sport's accessibility is a property of its
+  That comparison suggests that a racket sport's accessibility is a property of its
   implement: a shuttle decelerates and a tennis ball does not, and two otherwise
   similar games end up with opposite learning curves. Soft tennis is the
   controlled version of that experiment, because it changed *only* the ball and

@@ -24,7 +24,7 @@ entry:
   evidence:
     - { label: Kit to start, value: A uniform and shoes, basis: observation }
     - { label: Facility, value: Matted floor and coaching, basis: rule, rule: cheer-safety-code }
-    - { label: Entry route, value: School squads, in the US; clubs elsewhere, basis: observation }
+    - { label: Entry route, value: "School squads, in the US; clubs elsewhere", basis: observation }
     - { label: Skills, value: Graded by age and level, basis: rule, rule: cheer-safety-code, note: Beginners cannot legally attempt senior stunts. }
     - { label: Time to a first competition, value: A season, basis: judgement }
 
@@ -67,8 +67,8 @@ mastery:
     - { label: Typical peak age, value: 18–25, basis: judgement }
 
 gap: >
-  Moderate to very high, and the sport's real distinction on this site is not
-  the size of the gap but where it started.
+  Moderate to very high, and the sport's real distinction is not the size of
+  the gap but where it started.
 
   Cheerleading was created in 1898 to be an audience. Its purpose was to
   organise a crowd supporting a different sport, and for most of a century that
@@ -79,9 +79,8 @@ gap: >
   The historical inversion is worth recording alongside that. Cheerleading was
   an all-male university pursuit for its first four decades and became
   overwhelmingly female during the Second World War, when the men were
-  conscripted and did not come back to it. Very few activities on this site
-  have flipped their participation that completely, and none has flipped it in
-  that direction.
+  conscripted and did not come back to it. That is a complete flip in
+  participation, from men to women.
 
 shaped_by:
   - cheer-safety-code

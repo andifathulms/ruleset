@@ -1,10 +1,9 @@
 sport: swimming
 standing: editorial
 summary: >
-  The only sport here whose entry barrier is a survival skill. Nobody can begin
-  swimming competitively without first learning not to drown, which makes this
-  the one sport on the site where access to the facility determines access to
-  the sport, permanently and by geography.
+  The entry barrier is a survival skill. Nobody can begin swimming
+  competitively without first learning not to drown, so access to the facility
+  determines access to the sport, permanently and by geography.
 
 entry:
   verdict: moderate
@@ -14,9 +13,9 @@ entry:
     a costume, goggles, a lane. There is no opponent to arrange, no equipment
     to buy, no team to join, and the first race is available within weeks.
 
-    But the prerequisite is unusual. Swimming is the only sport on this site
-    that a person cannot begin without months of prior instruction in something
-    that is not the sport, and the instruction requires a pool. Pools are
+    But the prerequisite is unusual. A person cannot begin swimming without
+    months of prior instruction in something that is not the sport, and the
+    instruction requires a pool. Pools are
     expensive, unevenly distributed, and in much of the world simply absent, so
     the barrier is not skill or money in the individual sense but where a
     person happens to live.
@@ -26,10 +25,10 @@ entry:
     swimmer must learn a legal technique rather than an effective one.
   evidence:
     - { label: Kit to start, value: Costume and goggles, basis: observation }
-    - { label: Facility needed, value: A pool, basis: observation, note: The whole barrier, and it is a question of geography rather than of talent. }
+    - { label: Facility needed, value: A pool, basis: observation, note: "The whole barrier, and it is a question of geography rather than of talent." }
     - { label: Prerequisite, value: Being able to swim, basis: observation }
-    - { label: Strokes defined by rule, value: "3", basis: observation, note: Freestyle is a category, not a technique. }
-    - { label: Time to a first race, value: Weeks, once you can swim, basis: judgement }
+    - { label: Strokes defined by rule, value: "3", basis: observation, note: "Freestyle is a category, not a technique." }
+    - { label: Time to a first race, value: "Weeks, once you can swim", basis: judgement }
 
 mastery:
   verdict: very-high
@@ -74,7 +73,7 @@ gap: >
   Swimming's gap is created by the pool at one end and the record book at the
   other, and both are structural rather than personal.
 
-  Set it against athletics, the other measured sport here. Both judge mastery
+  Set it against athletics, another measured sport. Both judge mastery
   against a published number, but they made opposite decisions about whether an
   unreachable number should stay in the book. Athletics redesigned the javelin
   and annulled the list; swimming banned the suits and kept the marks. A young

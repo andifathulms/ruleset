@@ -3,8 +3,7 @@ as_of: 2026-09
 source: uipm-rules
 standing: primary-named
 summary: >
-  Two Olympic events and, uniquely on this site, a list of disciplines that is
-  about to change. From 2028 the fifth component is obstacle racing rather than
+  Two Olympic events and a list of disciplines that is about to change. From 2028 the fifth component is obstacle racing rather than
   riding, so the sport's own definition of itself has a date attached.
 disciplines:
   - id: events

@@ -129,8 +129,8 @@ sections:
       two days.
 
       Shot clocks exist in some professional pool and in shortened snooker
-      formats, adopted for scheduling — the same pressure this site records
-      pushing five other sports into rewriting their scoring.
+      formats, adopted for scheduling. The same pressure has pushed other
+      sports into rewriting their scoring.
     facts:
       - { label: Traditional, value: Untimed }
       - { label: Shortened formats, value: "Shot clocks, for broadcast" }
@@ -144,8 +144,8 @@ sections:
       **Pool** counts racks or games won.
 
       **Snooker** counts points within a frame — reds one, colours two to seven
-      — and frames within a match. Its bounded maximum, **147**, is one of very
-      few perfect scores on this site that a competitor can actually reach, and
+      — and frames within a match. Its bounded maximum, **147**, is a perfect
+      score that a competitor can actually reach, and
       it is reached rarely enough to remain a genuine achievement. Bowling's 300
       is the direct comparison, and the reason snooker's number still means what
       it meant is that nothing changed the equipment underneath it.
@@ -174,7 +174,7 @@ sections:
       strike the required ball because another is in the way has been
       **snookered**, and if the referee judges no genuine attempt was made, a
       **miss** is called and the shot replayed — a rule that regulates intent
-      rather than outcome, which very few rules on this site do.
+      rather than outcome, which is unusual.
 
   - id: winning
     label: Deciding the winner

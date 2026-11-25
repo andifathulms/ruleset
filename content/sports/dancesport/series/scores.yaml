@@ -4,8 +4,8 @@ unit: points
 higher_is_better: true
 absence_kind: impossible
 cannot_exist: >
-  DanceSport's scores cannot form a series, and the reason is the same one this
-  site records for gymnastics — arrived at from a stranger starting point.
+  DanceSport's scores cannot form a series, and the reason is the same as for
+  gymnastics, arrived at from a stranger starting point.
 
   For most of the sport's history, judges did not score couples at all. They
   **placed** them, one against another, and the placements were resolved by a

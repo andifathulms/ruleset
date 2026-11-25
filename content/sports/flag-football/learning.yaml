@@ -1,7 +1,7 @@
 sport: flag-football
 standing: editorial
 summary: >
-  The easiest sport on this site to start, because it was designed to be, and
+  Very easy to start, because it was designed to be, and
   much harder than it looks at the top, because with the collision removed the
   game becomes almost entirely about reading space in the first two seconds.
 
@@ -45,7 +45,7 @@ mastery:
     strategic for its length — the choice of a one, two or three-point
     conversion is a live decision several times a match.
 
-    The ceiling is lower than most sports here for one reason: the elite
+    The ceiling is lower than it might be for one reason: the elite
     competitive history is short. The international format dates from 2002 and
     the sport has never been at a Games.
   evidence:
@@ -63,23 +63,22 @@ mastery:
       value: Since 2002
       basis: rule
       rule: flag-five-a-side
-      note: A short elite history compared with every other sport on this site.
+      note: A short elite history.
     - { label: Typical peak age, value: 22–30, basis: judgement }
 
 gap: >
-  Very low to high — the widest ratio on this site between how easy a sport is
-  to start and how demanding it is at the top, and the only case where that gap
-  was engineered rather than inherited.
+  Very low to high — a wide ratio between how easy the sport is to start and
+  how demanding it is at the top, and a gap that was engineered rather than
+  inherited.
 
-  Every other sport here arrived at its entry barrier by accident of history.
-  Flag football's low barrier is the product: the tackle, the equipment, the
+  Flag football's low barrier is not an accident of history. It is the
+  product: the tackle, the equipment, the
   field size, the squad size and the kicking game were removed deliberately so
   that people could play. What remained turned out to be a fast, spatial,
   read-and-react game that rewards a different athlete entirely from the one
   American football rewards.
 
-  It is also the sport with the shortest professional pathway on this site,
-  which flattens the top of the curve. That will change if the 2028 Games do
+  It also has a short professional pathway, which flattens the top of the curve. That will change if the 2028 Games do
   what its federation expects.
 
 shaped_by:

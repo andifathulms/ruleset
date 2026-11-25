@@ -5,8 +5,8 @@ source: iwf-technical-rules
 standing: primary-named
 summary: >
   Lift a loaded barbell from the floor to overhead, twice, in two prescribed
-  ways. Weightlifting has the simplest object of any sport on this site and one
-  of the most complicated rulebooks, because almost everything in it is about
+  ways. Weightlifting has a very simple object and a complicated rulebook,
+  because almost everything in it is about
   who a lifter is allowed to be compared with and in what order they are
   allowed to attempt.
 
@@ -73,8 +73,8 @@ sections:
     label: The platform
     body: >
       A four-metre square. Stepping off it invalidates the lift. That is
-      essentially the whole of the venue specification, which makes
-      weightlifting the least spatially regulated sport here.
+      essentially the whole of the venue specification, so the space is barely
+      regulated.
     facts:
       - { label: Platform, value: 4 × 4 m }
       - { label: Attempts per lift, value: "3" }

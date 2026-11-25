@@ -13,7 +13,7 @@ classification:
   game-category: performance
   adjudication: measured
 glance:
-  - { value: "2", label: settings, pool and beach }
+  - { value: "2", label: "settings, pool and beach" }
   - { value: "50 m", label: pool length }
   - { value: "1 fewer", label: batons than runners in beach flags }
 summary: >

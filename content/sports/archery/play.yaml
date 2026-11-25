@@ -5,10 +5,10 @@ source: world-archery-rulebook
 standing: primary-named
 summary: >
   Shoot arrows at a target 70 metres away and score more than your opponent —
-  except that since 2011 "more" has not meant more points. Archery is the
-  sport on this site with the least ambiguity in its measurement and, since it
-  stopped simply adding that measurement up, one of the most contested
-  relationships between what an athlete does and whether they win.
+  except that since 2011 "more" has not meant more points. Archery's
+  measurement has very little ambiguity. Since the sport stopped simply adding
+  that measurement up, it has one of the most contested relationships between
+  what an athlete does and whether they win.
 
 walkthrough:
   title: One match, from the first arrow to six set points
@@ -66,8 +66,8 @@ sections:
     body: >
       An outdoor range with targets at a fixed distance, shot in the weather
       that happens to be there. Wind is not controlled for, not measured, and
-      not compensated — which makes archery the one measured sport here that
-      does not attempt to standardise its conditions.
+      not compensated. Archery is a measured sport that does not attempt to
+      standardise its conditions.
     facts:
       - { label: Olympic distance, value: 70 m }
       - { label: Target face, value: 122 cm }
@@ -102,7 +102,7 @@ sections:
       Individual, team of three, and mixed team of two. Judges call arrow
       values where an arrow touches a line, operate the timing, and inspect
       equipment. There is very little for an official to interpret, which is
-      unusual on this site: the arrow is either touching the line or it is not.
+      unusual: the arrow is either touching the line or it is not.
 
   - id: duration
     label: Format
@@ -159,7 +159,7 @@ sections:
       that end. Equipment outside specification is not permitted onto the
       shooting line. Beyond that there is almost nothing to forbid, because
       there is almost nothing an archer can do to an opponent — which makes
-      this the shortest prohibitions section on the site, and that brevity is
+      the list of prohibitions very short, and that brevity is
       itself the characteristic of a target sport.
 
   - id: winning

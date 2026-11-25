@@ -5,9 +5,8 @@ source: world-skate-rules
 standing: primary-named
 summary: >
   Perform tricks on a course and be judged on the impression the whole thing
-  makes. Skateboarding has fewer rules than anything else on this site — no
-  difficulty table, no element list, no required moves — and the absence is
-  deliberate.
+  makes. Skateboarding has very few rules. There is no difficulty table, no
+  element list and no required moves, and the absence is deliberate.
 
 walkthrough:
   title: One street final, from the first run to the total
@@ -84,8 +83,8 @@ sections:
       choice, and no specification meaningfully constrains them.
 
       Protective equipment is required for younger competitors and optional at
-      senior level, which is unusual — most sports here either mandate
-      protection or forbid it, and skateboarding leaves it to the athlete.
+      senior level. Skateboarding neither mandates protection nor forbids it
+      for adults, and leaves it to the athlete.
     facts:
       - { label: Board, value: Unregulated dimensions }
       - { label: Helmet, value: "Required for juniors, optional at senior level" }
@@ -125,9 +124,8 @@ sections:
     body: >
       One number out of 100 per run or trick, awarded holistically.
 
-      This is skateboarding's defining decision and the reason it is on this
-      site. Every other judged sport here prices its elements. Skateboarding
-      refused, because its culture does not accept that a trick has a fixed
+      This is skateboarding's defining decision. Gymnastics, diving,
+      taekwondo and climbing all price their elements. Skateboarding refused, because its culture does not accept that a trick has a fixed
       value independent of where and how it was done — a kickflip down a
       twelve-stair and the same kickflip on flat ground are not the same
       achievement, and no table captures that.
@@ -156,9 +154,9 @@ sections:
     body: >
       Very few. Time limits on runs, course boundaries, and conduct
       requirements. There are no forbidden tricks and no compulsory elements,
-      which distinguishes skateboarding from every other judged sport on this
-      site — gymnastics requires elements from specified groups, diving
-      requires a declared list.
+      which distinguishes skateboarding from gymnastics, which requires
+      elements from specified groups, and from diving, which requires a
+      declared list.
 
   - id: winning
     label: Deciding the winner

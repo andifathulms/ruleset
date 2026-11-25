@@ -66,9 +66,7 @@ sections:
   - id: field
     label: The air
     body: >
-      The field of play is the atmosphere, and it is the least standardised
-      playing surface of any sport covered here — by a distance that is not
-      close.
+      The field of play is the atmosphere, and nobody can standardise it.
 
       A glider stays up by finding rising air: thermals over heated ground,
       ridge lift on a hillside, mountain wave downwind of a range. None of that
@@ -96,8 +94,7 @@ sections:
       instrument sailing uses, and for the same reason.
 
       Parachuting, paragliding and hang gliding all certify equipment for
-      airworthiness, which is a category of regulation almost nothing else on
-      this site needs: the equipment failing is not a competitive
+      airworthiness, because here the equipment failing is not a competitive
       disadvantage.
     facts:
       - { label: Gliding, value: Classes by wingspan or standard specification }
@@ -146,9 +143,8 @@ sections:
 
       **Drone racing** is elapsed time.
 
-      One federation running a relative-scoring sport, a measured sport, a
-      judged sport and a timed sport is a broader spread than any other body on
-      this site attempts.
+      One federation runs a relative-scoring sport, a measured sport, a judged
+      sport and a timed sport.
     shaped_by: [fai-1937-world-championships]
 
   - id: restarts

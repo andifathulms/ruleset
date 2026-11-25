@@ -4,8 +4,8 @@ unit: points
 higher_is_better: true
 absence_kind: impossible
 cannot_exist: >
-  Cheerleading scores cannot form a series, for the reason every judged sport
-  on this site gives and one that is particular to it.
+  Cheerleading scores cannot form a series, for a reason shared with other
+  judged sports and one that is particular to it.
 
   The general reason: a routine is marked against a scoresheet that is revised,
   and difficulty values change with it. A score is a statement about one
@@ -19,7 +19,7 @@ cannot_exist: >
   athletes can do — and when the code changes, the maximum achievable score
   changes with it.
 
-  No other sport here has its scoring ceiling set by a medical argument.
+  Its scoring ceiling is set by a medical argument.
   Gymnastics removed its ceiling in 2006 to let difficulty run open-ended;
   cheerleading keeps a ceiling deliberately, and moves it for reasons that have
   nothing to do with sport.

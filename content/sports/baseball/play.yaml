@@ -72,7 +72,7 @@ sections:
       never tried to standardise.
 
       The mound's height is specified, and lowering it by five inches in 1969
-      is one of the largest deliberate rebalancings of any sport on this site.
+      was a large, deliberate rebalancing of hitting against pitching.
     facts:
       - { label: Base paths, value: 90 ft }
       - { label: Pitching distance, value: 60 ft 6 in }
@@ -137,8 +137,8 @@ sections:
     label: Scoring
     body: >
       One run per runner reaching home. Baseball's real scoring, though, is its
-      statistics: no sport on this site records itself as thoroughly or is as
-      widely understood through its numbers.
+      statistics. It records itself unusually thoroughly and is widely
+      understood through its numbers.
 
       Which is why its rule changes are unusually consequential. The 1969 mound
       and strike zone changes were made explicitly to raise scoring. The

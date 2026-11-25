@@ -25,8 +25,8 @@ entry:
     very high.
   evidence:
     - { label: Sports to train, value: "3", basis: observation }
-    - { label: Facility, value: A pool, a road and a running route, basis: observation }
-    - { label: Kit to start, value: A bicycle, a wetsuit and shoes, basis: observation }
+    - { label: Facility, value: "A pool, a road and a running route", basis: observation }
+    - { label: Kit to start, value: "A bicycle, a wetsuit and shoes", basis: observation }
     - { label: Prerequisite, value: Being able to swim, basis: observation }
     - { label: Time to a first race, value: Months, basis: judgement }
 
@@ -66,13 +66,11 @@ mastery:
     - { label: Typical peak age, value: 26–32, basis: judgement }
 
 gap: >
-  Triathlon's gap is high to very high, which is unusual — most sports here are
-  much easier to start than to master, and triathlon is genuinely hard at both
-  ends because it demands three sets of access before anything begins.
+  Triathlon's gap is high to very high. It is genuinely hard at both ends,
+  because it demands three sets of access before anything begins.
 
   The distinctive fact is the split rulebook. Baseball ran two batting rules
-  across its two leagues for forty-nine years and this site called that
-  remarkable. Triathlon has run two versions of its central rule for thirty
+  across its two leagues for forty-nine years. Triathlon has run two versions of its central rule for thirty
   years, dividing elite from everyone else, and the sport barely discusses it.
   An age-grouper who has trained the bike leg for a decade is preparing for a
   discipline that, in the version on television, does not decide anything.

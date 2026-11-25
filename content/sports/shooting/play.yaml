@@ -5,8 +5,8 @@ source: issf-rules
 standing: primary-named
 summary: >
   Put a projectile as close to the centre of a target as possible, repeatedly,
-  without moving. Shooting has the least physical action of any sport on this
-  site and one of the most precise measurements — and it has spent thirty years
+  without moving. Shooting has very little physical action and one of the most
+  precise measurements in sport — and it has spent thirty years
   rearranging its competition format so that the measurement produces a
   televisable ending.
 
@@ -66,7 +66,7 @@ sections:
       environment is controlled to a degree impossible in archery: indoors for
       the air events, with lighting and wind eliminated rather than tolerated.
 
-      That is the difference between the two target sports on this site.
+      That is the difference between shooting and archery.
       Archery shoots outdoors at 70 m in whatever weather arrives; shooting
       removes the variables.
     facts:
@@ -85,8 +85,8 @@ sections:
       and their thickness and rigidity are measured with a gauge, because a
       stiffer jacket is a steadier hold.
 
-      That is an equipment rule of exactly the kind this site keeps finding: a
-      performance advantage regulated by measurement rather than banned.
+      That is a common kind of equipment rule: a performance advantage
+      regulated by measurement rather than banned.
     facts:
       - { label: Jacket stiffness, value: Measured }
       - { label: Trigger weight, value: Minimum by event }

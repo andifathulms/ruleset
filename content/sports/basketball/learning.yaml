@@ -3,15 +3,14 @@ standing: editorial
 summary: >
   A hoop on a wall and one ball, which is about as low as a barrier gets. What
   makes basketball's top end unusual is not the skill and not the population —
-  it is the body. This is the only sport on this site where a physical
-  characteristic nobody can train is close to a precondition.
+  it is the body. A physical characteristic nobody can train is close to a
+  precondition.
 
 entry:
   verdict: very-low
   claim: One person, one ball, one hoop, no opponent required.
   why: >
-    Basketball is the only invasion sport here that can be practised alone and
-    usefully. Shooting is a solo skill, the target is fixed, and feedback is
+    Basketball is an invasion sport that can be practised alone, and usefully. Shooting is a solo skill, the target is fixed, and feedback is
     instant. A hoop on a garage or in a park makes the sport available without
     a team, a pitch or a fixture.
 
@@ -22,18 +21,18 @@ entry:
     - { label: Players needed, value: "1", basis: observation, note: To practise. Two for a game. }
     - { label: Kit to start, value: A ball, basis: observation }
     - { label: Facility, value: A hoop and a hard surface, basis: observation }
-    - { label: Basket height, value: 3.05 m, basis: observation, note: Unchanged since 1891, when it was where the running track railing happened to be. }
+    - { label: "Basket height", value: "3.05 m", basis: "observation", note: "Unchanged since 1891, when it was where the running track railing happened to be." }
     - { label: Time to a first game, value: One session, basis: judgement }
 
 mastery:
   verdict: very-high
-  claim: The one sport here where an untrainable physical trait is close to a requirement.
+  claim: An untrainable physical trait is close to a requirement.
   why: >
     Every sport rewards a body type. Basketball is the extreme case: the
     target is 3.05 m up and fixed, so height converts directly into shooting
     angle, rebounding reach and defensive coverage, and it cannot be trained.
     The proportion of professional players drawn from the tallest fraction of
-    the population is unlike anything else on this site.
+    the population is exceptional.
 
     That is not the whole story — the skill demands are high and the tactical
     literacy required is closer to football's than it looks — but it is the
@@ -72,8 +71,8 @@ gap: >
   That distinction is worth keeping because it changes what a rule change can
   do. Football cannot legislate its way to a wider funnel; the funnel is the
   world. Basketball has, once, unintentionally: the three-point line made a
-  trainable skill more valuable relative to an untrainable trait, which is the
-  only door-widening rule change recorded anywhere on this site.
+  trainable skill more valuable relative to an untrainable trait, and so
+  widened the door.
 
 shaped_by:
   - nba-1954-shot-clock

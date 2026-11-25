@@ -32,7 +32,7 @@ disciplines:
       World Triathlon governs a family of combinations, of which only one is
       Olympic.
     events:
-      - { id: triathlon, label: Triathlon, at: [olympic], note: "Swim, bike, run — Olympic since 2000, and covered on this site as its own sport." }
+      - { id: triathlon, label: Triathlon, at: [olympic], note: "Swim, bike, run — Olympic since 2000, and a sport in its own right." }
       - { id: aquathlon, label: Aquathlon, at: [world-championship], note: "Swim and run, with no bike." }
       - { id: aquabike, label: Aquabike, at: [world-championship], note: "Swim and bike, with no run." }
       - { id: winter, label: Winter triathlon, at: [world-championship], note: "Run, mountain bike and cross-country ski." }

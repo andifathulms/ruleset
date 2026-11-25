@@ -11,9 +11,8 @@
     are out.
 
     This is a limit on a raid enforced through the athlete's respiration, and
-    nothing else on this site works that way. Every other sport that bounds an
-    action does it with a clock, a line or an opponent. Kabaddi does it with
-    the raider's own lungs, and an official adjudicates it by listening.
+    that is unusual. Sports usually bound an action with a clock, a line or an
+    opponent. Kabaddi does it with the raider's own lungs, and an official adjudicates it by listening.
   cause_primary: fairness and eligibility
   trigger:
     description: >
@@ -58,9 +57,8 @@
     between South Asian national bodies.
 
     It has not settled the question. Rival international bodies have since
-    claimed the same mandate, and kabaddi is one of several sports on this site
-    where more than one organisation asserts the right to hold a world
-    championship.
+    claimed the same mandate, and in kabaddi, as in several other sports,
+    more than one organisation asserts the right to hold a world championship.
   cause_primary: fairness and eligibility
   cause_secondary: disputed
   trigger:
@@ -68,8 +66,8 @@
       The sport was contested internationally at the Asian Games without a
       single federation to govern it between editions.
     also_said: >
-      Competing federations dispute each other's standing. This site records
-      the dispute rather than adjudicating it.
+      Competing federations dispute each other's standing. The dispute is
+      recorded, not adjudicated.
   citation:
     source: ikf-rules
     edition: IKF statutes

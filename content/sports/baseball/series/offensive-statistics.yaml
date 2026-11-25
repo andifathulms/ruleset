@@ -5,8 +5,8 @@ unit: runs per game
 absence_kind: unpublished
 higher_is_better: true
 cannot_exist: >
-  Baseball keeps better records than any sport on this site and has severed
-  them more often than almost any.
+  Baseball keeps unusually thorough records and has severed them unusually
+  often.
 
   Runs per game, batting average, earned run average and every rate statistic
   built on them respond directly to rule changes, and this sport has made three
@@ -23,8 +23,8 @@ cannot_exist: >
   half a century.
 
   The figures are not entered because they have not been taken from a cited
-  source. When they are, the chart appears here in segments — and it will need
-  more of them than any other chart on this site.
+  source. When they are, the chart will be drawn in segments, and it will need
+  many of them.
 segments: []
 breaks:
   - at: 1969

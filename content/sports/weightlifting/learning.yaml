@@ -2,8 +2,8 @@ sport: weightlifting
 standing: editorial
 summary: >
   Two lifts, no opponent, no tactics on the platform and no judgement about
-  anything except whether the bar was held still. Weightlifting looks like the
-  simplest sport on this site and has one of the highest technical barriers,
+  anything except whether the bar was held still. Weightlifting looks very
+  simple and has one of the highest technical barriers,
   because the two movements are among the fastest and most coordinated things
   a human body can be asked to do.
 
@@ -28,7 +28,7 @@ entry:
     - { label: Coach needed, value: "Yes", basis: judgement, note: Both for technique and because the catch position is unforgiving. }
     - { label: Facility, value: A platform, basis: observation }
     - { label: Time to a competent snatch, value: Months, basis: judgement }
-    - { label: Attempts per lift, value: "3", basis: observation, note: And the weight may only go up, so there is no easy fallback. }
+    - { label: "Attempts per lift", value: "3", basis: "observation", note: "And the weight may only go up, so there is no easy fallback." }
 
 mastery:
   verdict: very-high
@@ -46,7 +46,7 @@ mastery:
     record both times. An athlete who set a record in 2017 held a world record
     in a division that no longer existed a year later.
 
-    No other sport on this site has done that to its athletes twice.
+    It has done that to its athletes twice.
   evidence:
     - label: World records annulled
       value: 1993 and 2018
@@ -66,14 +66,13 @@ mastery:
     - { label: Typical age of specialisation, value: 12–16, basis: judgement }
 
 gap: >
-  Weightlifting is one of the few sports here that is hard at both ends, and it
-  shares that shape with gymnastics for the same underlying reason: the
+  Weightlifting is hard at both ends, and it shares that shape with gymnastics for the same underlying reason: the
   beginner's version of the movement is the elite version of the movement, only
   lighter. There is no simplified game to start with.
 
   Where it stands alone is the instability of what mastery is measured against.
-  Judo changed which techniques were legal three times in a decade and this
-  site called that a moving target. Weightlifting changed who its athletes were
+  Judo changed which techniques were legal three times in a decade, which made
+  its target move. Weightlifting changed who its athletes were
   competing against, and did it by annulling every number the sport had. Twice.
   A lifter cannot be compared with the generation before them, and after 2018,
   cannot be compared with the generation five years before them either.

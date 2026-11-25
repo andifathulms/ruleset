@@ -1,8 +1,8 @@
 sport: gymnastics
 standing: editorial
 summary: >
-  The only sport here that is hard at both ends, and the only one whose
-  rulebook has removed the definition of the top. Since 2006 the difficulty
+  Hard at both ends, with a rulebook that has removed the definition of the
+  top. Since 2006 the difficulty
   score has had no upper limit, so there is no longer a score that means a
   routine could not have been better — mastery in this sport has no stated
   end point, as a matter of law.
@@ -11,7 +11,7 @@ entry:
   verdict: high
   claim: A beginner cannot perform the sport at all until months of preparation are done.
   why: >
-    Almost every other sport on this site can be played badly on day one.
+    Football or badminton can be played badly on day one.
     Gymnastics cannot. Its most basic competitive elements — a handstand held
     still, a back handspring, a swing to handstand on bars — require strength
     and body awareness that do not exist in an untrained adult and are built
@@ -22,8 +22,8 @@ entry:
     you cannot do gymnastics in a park with a friend the way you can play
     football or hit a shuttle.
   evidence:
-    - { label: Facility needed, value: A specialised gym, basis: observation, note: Sprung floor, apparatus, deep matting, foam pit. }
-    - { label: Coach needed, value: "Yes", basis: judgement, note: Spotting is a safety requirement, not a preference. }
+    - { label: "Facility needed", value: "A specialised gym", basis: "observation", note: "Sprung floor, apparatus, deep matting, foam pit." }
+    - { label: "Coach needed", value: "Yes", basis: "judgement", note: "Spotting is a safety requirement, not a preference." }
     - { label: "Men's apparatus", value: "6", basis: observation }
     - { label: "Women's apparatus", value: "4", basis: observation }
     - { label: Time to a first competitive routine, value: Months to years, basis: judgement }
@@ -33,8 +33,7 @@ mastery:
   claim: Specialisation begins before the athlete can consent to it, and the ceiling is undefined by rule.
   why: >
     The elite window is short and it opens early. Gymnasts train seriously from
-    an age at which other sports are still play, peak young by the standards of
-    every other sport here, and are gone by an age at which a footballer is
+    an age at which other sports are still play, peak young, and are gone by an age at which a footballer is
     entering their best years. The federation's own minimum age exists because
     the sport was recruiting below it.
 
@@ -62,10 +61,10 @@ mastery:
       rule: fig-1997-compulsories-abolished
       note: Removed the shared material that let two gymnasts be compared directly.
     - { label: Typical age of specialisation, value: 6–8, basis: judgement }
-    - { label: Typical peak age, value: 16–22, basis: judgement, note: The youngest of any sport recorded here. }
+    - { label: Typical peak age, value: 16–22, basis: judgement, note: Very young. }
 
 gap: >
-  The gap here is the narrowest on the site, and that is the finding. Every
+  The gap is very narrow, and that is the finding. Every
   other sport is much easier to start than to master; gymnastics is hard
   immediately, because the first competitive skill and the hundredth are the
   same kind of thing — a controlled, dangerous movement performed on
@@ -75,8 +74,8 @@ gap: >
   than on the body. Between 1949 and 2005 a gymnast could be perfect, and the
   perfect 10 was a public, legible end of the scale. The 2006 Code bought
   accountability and the ability to reward difficulty, and the price was the
-  finish line. That trade is recorded elsewhere on this page as a comparability
-  break; here it shows up as the reason the ceiling cannot be described.
+  finish line. In the score series that trade is a comparability break. In
+  the learning curve it is the reason the ceiling cannot be described.
 
 shaped_by:
   - fig-2006-open-ended-code

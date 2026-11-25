@@ -3,14 +3,14 @@ standing: editorial
 summary: >
   Golf croquet is understood in one turn and association croquet takes years —
   and the handicap means a beginner can play a competitive match against a
-  champion in either, which almost nothing else on this site can offer.
+  champion in either, which is rare.
 
 entry:
   verdict: low
   claim: A club with a lawn. Golf croquet is playable properly within an hour, and bisques make you competitive at once.
   why: >
-    **Golf croquet** is the easiest competitive entry on this site after
-    pétanque. One stroke per turn, all four balls contesting the same hoop, no
+    **Golf croquet** is a very easy competitive entry; pétanque is easier
+    still. One stroke per turn, all four balls contesting the same hoop, no
     roquets and no breaks — the rules take two minutes and a beginner is
     playing the real game immediately, not a simplified version of it.
 
@@ -25,16 +25,16 @@ entry:
     the sport lives where clubs exist.
   evidence:
     - { label: Golf croquet, value: Playable properly in an hour, basis: rule, rule: croquet-1996-golf-croquet-worlds }
-    - { label: Bisques, value: Free turns, spent when you choose, basis: rule, rule: croquet-bisque-handicap }
+    - { label: "Bisques", value: "Free turns, spent when you choose", basis: "rule", rule: "croquet-bisque-handicap" }
     - { label: Kit to start, value: Provided by the club, basis: observation }
-    - { label: Facility, value: A mown, level lawn, basis: observation }
+    - { label: "Facility", value: "A mown, level lawn", basis: "observation" }
     - { label: Physical demand, value: Very low; playable at any age, basis: judgement }
 
 mastery:
   verdict: very-high
   claim: Running the whole course in one turn, through hoops barely wider than the ball, using three balls you did not choose the position of.
   why: >
-    Association croquet's ceiling is one of the least visible on this site. A
+    Association croquet's ceiling is easy to miss. A
     top player wins by taking a **break** — using the other three balls as
     stepping stones, croqueting each into the position it will be needed in
     several strokes later, and running hoop after hoop without the opponent
@@ -67,14 +67,14 @@ mastery:
       value: In singles
       basis: observation
       note: A player manages a pair, not a ball.
-    - { label: Typical peak age, value: 30–55, basis: judgement, note: Among the longest competitive spans covered here. }
+    - { label: Typical peak age, value: 30–55, basis: judgement, note: A long competitive span. }
 
 gap: >
   Low to very high — and croquet's handicap makes the gap unusually *crossable*
   rather than unusually narrow.
 
-  This site has now found three deliberate comparability solutions: golf's
-  stroke handicap, polo's awarded goals, and croquet's bisques. All three come
+  Golf's stroke handicap, polo's awarded goals and croquet's bisques are three
+  deliberate comparability solutions. All three come
   from sports played across enormous ability ranges in club settings, and
   croquet's is the most powerful of the three, because the recipient chooses
   when to spend it. Golf adjusts your score afterwards and polo adds goals

@@ -74,9 +74,9 @@ sections:
       standardised: stones, ruts and slopes are part of the game, and reading
       the ground is a skill.
 
-      That is unusual among the target sports covered here. Archery and
-      shooting standardise everything between athlete and target; boules leaves
-      the intervening ground as it found it.
+      That sets it apart from archery and shooting, which standardise
+      everything between athlete and target. Boules leaves the intervening
+      ground as it found it.
     facts:
       - { label: Pitch, value: About 15 × 4 m }
       - { label: Surface, value: "Rough ground, deliberately unstandardised" }
@@ -125,8 +125,7 @@ sections:
       callipers and tape to determine which boule is nearer, and the sport's
       characteristic image is two people crouched over a measuring device.
 
-      It is the only sport covered here where the competitors routinely
-      perform the measurement themselves, in the middle of the game, and agree
+      The competitors routinely perform the measurement themselves, in the middle of the game, and agree
       the result.
 
   - id: restarts

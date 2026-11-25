@@ -24,7 +24,7 @@ disciplines:
       An enclosed court with a sloping penthouse roof and a corner buttress, all
       of it live.
     events:
-      - { id: trinquete-events, label: "Hand, paleta and share", at: [world-championship], count: 4, note: "Share is a stringed racket used only here." }
+      - { id: trinquete-events, label: "Hand, paleta and share", at: [world-championship], count: 4, note: "Share is a stringed racket used only in trinquete." }
   - id: development
     label: Formats built for export
     counts: false

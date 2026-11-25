@@ -11,8 +11,7 @@
     defending restriction is what stops the game collapsing into a men's game
     with women present.
 
-    No other team sport on this site requires mixed teams. Several permit
-    mixed events; korfball cannot be played any other way.
+    Some team sports permit mixed events; korfball cannot be played any other way.
   cause_primary: participation and access
   trigger:
     description: >

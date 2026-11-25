@@ -24,7 +24,7 @@ disciplines:
     events:
       - { id: ski, label: Ski orienteering, at: [world-championship], note: "On skis, on a network of tracks; navigation is largely about choosing between prepared trails. Never contested at a Winter Games." }
       - { id: mtb, label: Mountain bike orienteering, at: [world-championship], note: "On tracks and paths, with the map mounted on the handlebars." }
-      - { id: trail, label: Trail orienteering, at: [world-championship], note: "Judged on accuracy rather than speed, and designed so that wheelchair users and walking competitors compete on equal terms. The only discipline here where physical speed is deliberately removed." }
+      - { id: trail, label: Trail orienteering, at: [world-championship], note: "Judged on accuracy rather than speed, and designed so that wheelchair users and walking competitors compete on equal terms. The only orienteering discipline where physical speed is deliberately removed." }
   - id: formats
     label: Formats
     counts: false

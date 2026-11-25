@@ -12,7 +12,7 @@ classification:
 glance:
   - { value: "10 m", label: range in the air events }
   - { value: "10", label: rings on the target }
-  - { value: "0.1", label: of a ring, the finest score }
+  - { value: "0.1", label: "of a ring, the finest score" }
 summary: >
   A shooter stands still at a firing point and tries to put every shot in the
   centre of a target. In rifle and pistol events the target is fixed and has

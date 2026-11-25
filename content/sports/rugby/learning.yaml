@@ -1,9 +1,9 @@
 sport: rugby
 standing: editorial
 summary: >
-  A sport that is easy to start and physically expensive to continue, and the
-  only one on this site currently rewriting its defining action because of what
-  it has learned about long-term harm.
+  A sport that is easy to start and physically expensive to continue, and one
+  that is currently rewriting its defining action because of what it has
+  learned about long-term harm.
 
 entry:
   verdict: low
@@ -65,7 +65,7 @@ mastery:
       value: Only from 1995
       basis: rule
       rule: rugby-1995-professionalism
-      note: The latest abolition of amateurism of any sport on this site.
+      note: A late abolition of amateurism, later than tennis, athletics and football.
     - { label: Typical peak age, value: 26–31, basis: judgement }
 
 gap: >
@@ -73,15 +73,14 @@ gap: >
   top rather than technical. The skills are learnable; the collisions are not
   something you get better at absorbing.
 
-  What puts it on this board is the direction of its current rulemaking. Most
-  safety rules on this site were written after a specific incident — a javelin
+  What stands out is the direction of its current rulemaking. Many safety
+  rules in other sports were written after a specific incident: a javelin
   throw, a broken blade, a horse on camera. Rugby's are being written against
   an accumulating body of evidence about a harm that is intrinsic to the sport
   rather than accidental to it, and the sport is responding by changing the
   action that defines it.
 
-  Boxing has the same problem and has done nothing comparable. That contrast is
-  the reason both are on this site.
+  Boxing has the same problem and has done nothing comparable.
 
 shaped_by:
   - rugby-2023-tackle-height

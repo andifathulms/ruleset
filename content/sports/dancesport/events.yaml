@@ -25,16 +25,16 @@ disciplines:
     counts: false
     blurb: >
       Governed by the WDSF since 2017, and the only discipline under this
-      federation to have reached an Olympic Games. Covered on this site as its
-      own sport.
+      federation to have reached an Olympic Games. Breaking is treated as
+      its own sport.
     events:
       - { id: breaking-olympic, label: Breaking, at: [lapsed], note: "Contested at Paris 2024 and not on the 2028 programme. The federation's newest discipline got the place its oldest ones never have." }
   - id: elsewhere
     label: Danced competitively, governed elsewhere
     counts: false
     blurb: >
-      Competitive dance is institutionally divided, by style and by
-      amateur-professional status, more than almost anything on this site.
+      Competitive dance is deeply divided institutionally, by style and by
+      amateur-professional status.
     events:
       - { id: wdc, label: Professional ballroom and Latin, at: [federation-only], note: "Governed by the World Dance Council, a separate body; the professional side of the same dances." }
       - { id: rocknroll, label: Rock'n'roll and boogie-woogie, at: [world-games, federation-only], note: Governed by the World Rock'n'Roll Confederation. }

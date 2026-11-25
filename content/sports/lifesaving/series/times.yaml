@@ -4,8 +4,8 @@ unit: s
 higher_is_better: false
 absence_kind: unpublished
 cannot_exist: >
-  Lifesaving keeps world best times for its pool events, and this site does not
-  chart them, for a reason particular to this sport: the technique they measure
+  Lifesaving keeps world best times for its pool events, and they are not
+  charted here, for a reason particular to this sport: the technique they measure
   is not allowed to be stable.
 
   Competition technique must reflect current rescue practice. When the
@@ -23,7 +23,7 @@ cannot_exist: >
 
   Nothing is entered here because nothing has been taken from a cited source
   with the rule version attached. A time without the technique standard it was
-  set under would be the kind of number this site exists to avoid.
+  set under would not be comparable with any other.
 segments: []
 breaks:
   - at: 1993

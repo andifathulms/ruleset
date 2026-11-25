@@ -6,9 +6,8 @@ standing: primary-named
 summary: >
   Two teams of eleven, one bats while the other bowls and fields, and the
   batting side tries to score runs before losing ten wickets. What makes
-  cricket structurally unlike every other sport here is that the two sides do
-  not do the same thing at the same time: it is a sport of alternating roles
-  rather than simultaneous ones, which is why an innings is the unit and why
+  cricket structurally unusual is that the two sides do not do the same thing
+  at the same time: it is a sport of alternating roles rather than simultaneous ones, which is why an innings is the unit and why
   the formats can differ so much while the Laws barely change.
 
 walkthrough:
@@ -109,7 +108,7 @@ sections:
     body: >
       Eleven a side. Two on-field umpires, a third umpire with access to
       replay, and a match referee. Cricket gave its officials technology
-      earlier and more comprehensively than most sports here, and it did so
+      earlier and more comprehensively than most sports, and it did so
       through a player-initiated review rather than an official-initiated one.
 
       The distinctive feature is umpire's call: where ball tracking shows a
@@ -189,6 +188,5 @@ sections:
     label: Deciding the winner
     body: >
       More runs. A Test match can be drawn if neither side completes the task
-      in five days, which makes cricket one of only two sports here where not
-      finishing is a legitimate result — and unlike football's draw, cricket's
+      in five days, which makes not finishing a legitimate result — and unlike football's draw, cricket's
       is a consequence of running out of time rather than of parity.

@@ -1,11 +1,10 @@
 sport: volleyball
 standing: editorial
 summary: >
-  The only sport on this site whose beginner's version is genuinely difficult
-  and whose social version is genuinely easy, depending entirely on which
-  version you mean. Beach volleyball on holiday is trivial. Indoor volleyball
-  with a proper net and the no-catching rule is one of the harder sports here
-  to play badly, let alone well.
+  A sport whose beginner's version is genuinely difficult and whose social
+  version is genuinely easy, depending entirely on which version you mean.
+  Beach volleyball on holiday is trivial. Indoor volleyball with a proper net
+  and the no-catching rule is hard to play badly, let alone well.
 
 entry:
   verdict: moderate
@@ -13,18 +12,18 @@ entry:
   why: >
     Volleyball's entry barrier is mostly social. Six a side means twelve people
     for a game, and the sport degrades badly below that — three-a-side indoor
-    volleyball is not really the sport. Almost nothing else here needs so many
-    people to exist at all.
+    volleyball is not really the sport. That is a lot of people for a sport to
+    need before it exists at all.
 
     The technical barrier is real too, and it comes from one rule: the ball may
     not be caught or held. A beginner's instinct on a fast ball is to catch and
     throw, which is a fault, and learning a legal contact — a platform pass, an
-    overhead set — takes weeks rather than minutes. Most sports here let you
-    play badly on day one. Volleyball mostly does not.
+    overhead set — takes weeks rather than minutes. Volleyball mostly does not
+    let you play badly on day one.
 
     Beach volleyball offsets this and is the route most people take in.
   evidence:
-    - { label: Players needed, value: "12", basis: observation, note: Six a side; the fewest of any team sport here that still resembles itself. }
+    - { label: Players needed, value: "12", basis: observation, note: Six a side; the sport degrades badly below that. }
     - { label: Net height, value: 2.43 m, basis: observation, note: Higher than a basketball rim. }
     - { label: Kit to start, value: A ball and a net, basis: observation }
     - { label: Catching the ball, value: A fault, basis: observation, note: The rule that makes the first hour hard. }
@@ -53,7 +52,7 @@ mastery:
       value: Invented 1998
       basis: rule
       rule: fivb-1998-libero
-      note: The only new position created by rule on this site, and the only deliberate widening of a sport's physical door.
+      note: A new position created by rule, and a deliberate widening of the sport's physical door.
     - label: Rally scoring
       value: Since 1999
       basis: rule
@@ -68,16 +67,15 @@ mastery:
     - { label: Typical peak age, value: 25–30, basis: judgement }
 
 gap: >
-  Volleyball's gap is narrower at the bottom than most of this board, because
-  its entry barrier is genuinely non-trivial: twelve people, a high net, and a
+  Volleyball's gap is narrow at the bottom, because its entry barrier is genuinely non-trivial: twelve people, a high net, and a
   rule against the thing a beginner instinctively does with a fast ball.
 
   At the top it joins basketball as a sport where an untrainable physical trait
-  is close to a precondition, and it is the only sport here that has done
-  something about that on purpose. The libero is a position invented by rule so
+  is close to a precondition, and it has done something about that on
+  purpose. The libero is a position invented by rule so
   that a player under six feet could have an elite career, and it worked. Set
-  against basketball, which has never moved its rim, volleyball is the one
-  federation on this site to have widened its own door deliberately.
+  against basketball, which has never moved its rim, volleyball's federation
+  widened its own door deliberately.
 
 shaped_by:
   - fivb-1998-libero

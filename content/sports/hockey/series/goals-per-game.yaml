@@ -20,9 +20,9 @@ cannot_exist: >
   domestic competitions adopted these changes at different times.
 
   The figures are not entered because they have not been taken from a cited
-  source. When they are, the chart appears here in segments — and the caption
+  source. When they are, the chart will be drawn in segments — and the caption
   will have to say that the 1976 break is a change of surface rather than of
-  rules, which is a distinction nothing else on this site has had to draw.
+  rules.
 segments: []
 breaks:
   - at: 1976
@@ -30,8 +30,8 @@ breaks:
     kind: scoped
     note: >
       The surface changed, not the laws. Every skill in the sport and every
-      scoring pattern moved with it, which makes this the only comparability
-      break here caused by the ground.
+      scoring pattern moved with it, which makes this a comparability break
+      caused by the ground.
   - at: 1998
     caused_by: fih-1998-offside-abolished
     kind: scoped

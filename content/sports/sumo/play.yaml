@@ -60,9 +60,8 @@ sections:
       Both conditions are absolute and either ends the bout instantly.
 
       There is nothing else to win by. No submission, no strike count, no
-      judges' decision on aggression or control. It is the simplest victory
-      condition of any combat sport covered here and it is why a bout can be
-      over in two seconds.
+      judges' decision on aggression or control. It is a very simple victory
+      condition, and it is why a bout can be over in two seconds.
     facts:
       - { label: Loss by leaving, value: Any part of the body touching outside the ring }
       - { label: Loss by falling, value: Any part but the soles of the feet touching the ground }
@@ -132,7 +131,7 @@ sections:
       There is none. A bout is won or lost, and a tournament is decided on the
       count of bouts won.
 
-      That absence is unusual among the combat sports on this site: judo,
+      That absence is unusual among combat sports: judo,
       taekwondo, boxing, fencing, karate and wrestling all score, and most of
       them have rewritten how. Sumo has never had a scoring system to rewrite.
 

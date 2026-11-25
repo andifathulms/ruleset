@@ -64,18 +64,16 @@ sections:
       Hit the opponent's valid target area without being hit, or — in the two
       weapons with priority — hit them while holding right of way.
 
-      Right of way is the concept that makes foil and sabre unlike anything
-      else on this site. If both fencers land, the point goes to whoever had
-      the attack, and a referee decides which that was. So two of fencing's
+      Right of way is the concept that makes foil and sabre unusual. If both
+      fencers land, the point goes to whoever had the attack, and a referee decides which that was. So two of fencing's
       three weapons are measured and judged at the same moment: the machine
       says who landed, a human says who deserves it.
 
   - id: field
     label: The piste
     body: >
-      A narrow strip. Fencing is the only combat sport here contested on a
-      line rather than in an area, which means retreat is finite: run out of
-      piste and the opponent scores.
+      A narrow strip. Fencing is contested on a line rather than in an area,
+      which means retreat is finite: run out of piste and the opponent scores.
     facts:
       - { label: Piste length, value: 14 m }
       - { label: Piste width, value: 1.5–2 m }
@@ -182,4 +180,4 @@ sections:
       Fifteen hits, or the higher score when time expires. A bout tied at time
       goes to a one-minute period with priority randomly assigned in advance —
       so if nobody scores, the fencer who was awarded priority by lot wins.
-      That is the only coin toss deciding a result anywhere on this site.
+      In that case a draw by lot decides the result.

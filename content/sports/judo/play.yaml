@@ -59,8 +59,7 @@ sections:
       control, speed and force ends the contest on the spot, as does a pin held
       for twenty seconds or a submission from a strangle or an armlock.
 
-      Judo is the only sport on this site where the primary outcome is
-      instantaneous and total. There is no accumulating towards victory; a
+      In judo the primary outcome is instantaneous and total. There is no accumulating towards victory; a
       contest that goes the distance is, in the sport's own terms, one where
       nobody managed the thing they were trying to do.
 
@@ -100,8 +99,8 @@ sections:
     body: >
       Two contestants in a weight category. One referee on the mat, supported
       by video review officials at the side who can and routinely do correct
-      the mat referee's score — an arrangement in which the official in the
-      room is not the final authority, which is unusual among the sports here.
+      the mat referee's score. The official in the room is not the final
+      authority.
 
   - id: duration
     label: Time
@@ -111,8 +110,8 @@ sections:
       runs without limit until somebody scores or receives a third penalty.
 
       There is no cap, no referees' decision and no draw. A contest lasts
-      exactly as long as it takes, which makes judo the only sport on this site
-      to have deliberately made its own duration unpredictable.
+      exactly as long as it takes. Judo deliberately made its own duration
+      unpredictable.
     facts:
       - { label: Regulation time, value: 4 min }
       - { label: Golden score, value: Unlimited }

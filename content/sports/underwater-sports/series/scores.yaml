@@ -21,9 +21,8 @@ cannot_exist: >
   What can be said without numbers is that scoring in both sports is low, and
   for a reason worth recording: possession is limited by breath rather than by
   a clock or an opponent, so an attack that would succeed given ten more
-  seconds simply ends when the attacker has to surface. It is the only sport
-  covered here where the limiting factor on a move is the athlete's need for
-  air.
+  seconds simply ends when the attacker has to surface. The limiting factor
+  on a move is the athlete's need for air.
 segments: []
 breaks:
   - at: 1980

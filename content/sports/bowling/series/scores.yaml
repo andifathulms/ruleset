@@ -4,8 +4,8 @@ unit: pins per game
 higher_is_better: true
 absence_kind: unpublished
 cannot_exist: >
-  Bowling has the strangest comparability problem on this site, because nothing
-  about its scoring system ever changed.
+  Bowling has a strange comparability problem, because nothing about its
+  scoring system ever changed.
 
   A strike has scored ten plus the next two deliveries for more than a century.
   The maximum is 300 and always has been. The arithmetic is identical in 1960

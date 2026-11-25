@@ -23,9 +23,9 @@ entry:
     which is meaningfully less unpleasant.
   evidence:
     - { label: Kit to start, value: Skates, basis: observation }
-    - { label: Facility, value: Any flat surface, basis: observation, note: No ice plant, no rink hire, no season. }
-    - { label: Disciplines, value: Three, on incompatible equipment, basis: rule, rule: roller-inline-transition }
-    - { label: Players needed, value: One, or ten for rink hockey, basis: observation }
+    - { label: Facility, value: Any flat surface, basis: observation, note: "No ice plant, no rink hire, no season." }
+    - { label: Disciplines, value: "Three, on incompatible equipment", basis: rule, rule: roller-inline-transition }
+    - { label: Players needed, value: "One, or ten for rink hockey", basis: observation }
     - { label: Time to skating, value: One session, basis: judgement }
 
 mastery:

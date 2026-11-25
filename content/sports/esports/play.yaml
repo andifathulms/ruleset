@@ -60,7 +60,7 @@ sections:
       There is no common objective across esports, because there is no common
       game. What the disciplines share is a control interface and a screen, and
       almost nothing else — which is a looser grouping than boules or billiards,
-      the site's other umbrella sports, whose codes at least share an ancestor.
+      umbrella sports whose codes at least share an ancestor.
     facts:
       - { label: Common objective, value: None across titles }
 
@@ -111,7 +111,7 @@ sections:
       conditions rather than play — the software adjudicates the game itself,
       absolutely and without appeal.
 
-      That is the cleanest adjudication on this site. Whether a shot connected
+      That is adjudication at its cleanest. Whether a shot connected
       is not a judgement; it is a calculation the server already performed.
     facts:
       - { label: Team size, value: By title; often five }
