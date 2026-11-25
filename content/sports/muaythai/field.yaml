@@ -1,0 +1,20 @@
+# The ring. play.yaml gives no measurement for it, so this is a schematic.
+sport: muaythai
+title: A roped ring
+caption: >
+  Muaythai is fought in a square, roped ring of the kind boxing uses. The two
+  fighters and the referee are inside it, and the judges sit at ringside.
+alt: >
+  A square roped ring with two fighters and a referee inside it.
+scale: schematic
+view: [-2.4, -1.4, 8.5, 7.1]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 6, h: 6, fill: area, line: heavy }
+  - { type: dot, x: 2.4, y: 3.1, label: "fighter" }
+  - { type: dot, x: 3.6, y: 3.1, label: "fighter" }
+  - { type: dot, x: 3, y: 1.6, label: "referee" }
+  - { type: label, x: 3, y: -0.55, text: "ropes", tone: muted }
+  - { type: label, x: 3, y: 6.6, text: "judges at ringside", tone: muted }
+legend:
+  - { swatch: area, label: the ring floor }
+  - { swatch: heavy, label: the ropes }

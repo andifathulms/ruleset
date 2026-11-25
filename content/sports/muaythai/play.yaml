@@ -8,6 +8,51 @@ summary: >
   shins all legal, and a clinch that is fought in rather than broken up. The
   bout opens with a ritual performed to music.
 
+walkthrough:
+  title: One bout, from the ritual to the decision
+  intro: >
+    This follows a bout under the international amateur rules, and the last
+    step says how the professional sport in Thailand differs.
+  steps:
+    - label: The ritual
+      body: >
+        Before the bout each fighter performs the wai kru ram muay in the
+        ring, to music. It pays respect to the fighter's teacher and lineage,
+        and it is required. The fighter wears the mongkhon headband for it and
+        takes it off before the bell.
+    - label: The fighters
+      body: >
+        Two fighters from the same weight category face each other in a roped
+        ring. A referee is in the ring and judges sit at ringside. Each
+        fighter wears gloves, hand wraps, a mouthguard and a groin guard, and
+        in amateur bouts a headguard, shin guards and elbow pads as well.
+    - label: The round
+      body: >
+        A round lasts three minutes, with a minute of rest after it. The
+        fighters strike with fists, elbows, knees and shins. In junior
+        categories elbows are restricted or not allowed.
+    - label: The clinch
+      body: >
+        When the fighters grip each other, the referee does not separate
+        them. They go on fighting with knees and elbows, control the
+        opponent's neck, and try to sweep the opponent off balance. The
+        referee steps in only when neither fighter is making progress.
+    - label: Fouls
+      body: >
+        Strikes to the groin, the spine and the back of the head are fouls. So
+        are hip throws and shoulder throws, hitting an opponent who is down,
+        and holding on purpose without working.
+    - label: Scoring
+      body: >
+        Amateur judges score each round on the ten-point must system, as in
+        boxing, and the rounds are added up. Most amateur bouts have three
+        rounds.
+    - label: The decision
+      body: >
+        A bout is won by knockout, by a stoppage or on the judges' decision.
+        A professional bout in Thailand has five rounds and is judged as a
+        whole, and the later rounds count most.
+
 sections:
   - id: object
     label: The object of the game

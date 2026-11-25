@@ -1,6 +1,6 @@
 id: muaythai
 label: Muaythai
-tagline: "Eight striking surfaces, a clinch you are allowed to hit from, and a mandatory ritual dance before the bell."
+tagline: "A striking sport from Thailand in which fighters use fists, elbows, knees and shins, and keep fighting when they grip each other."
 governing_body: International Federation of Muaythai Associations
 founded: >
   Descended from Siamese battlefield and festival fighting, professionalised in
@@ -12,12 +12,18 @@ classification:
   official: muaythai
   game-category: outside-taxonomy
   adjudication: combat
+glance:
+  - { value: "8", label: striking surfaces }
+  - { value: "3 min", label: one round }
+  - { value: "3 or 5", label: rounds in a bout }
 summary: >
-  The art of eight limbs: fists, elbows, knees and shins, with a clinch that is
-  not broken up but fought in. It is the most permissive striking code covered
-  on this site, and its international amateur version is markedly less
-  permissive than the professional Thai one — protective equipment, restricted
-  elbows, and a different way of scoring a round. As in sumo, the sport's
-  competitive summit sits in one country, outside the federation that holds the
-  Olympic recognition.
+  Two fighters meet in a roped ring, one against one, in weight categories.
+  They may strike with fists, elbows, knees and shins, eight surfaces in all.
+  When they grip each other in a clinch the referee lets them fight on, with
+  knees, elbows and sweeps. Rounds last three minutes. A bout is won by
+  knockout, by a stoppage or on the judges' decision. Before the first bell
+  each fighter performs a ritual to music, the wai kru ram muay, and the rules
+  require it. International amateur bouts add a headguard, shin guards and
+  elbow pads and are usually three rounds. Professional bouts in Thailand have
+  five rounds and none of the padding.
 cover: muaythai-amateur-kit

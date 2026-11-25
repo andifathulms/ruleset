@@ -1,0 +1,92 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how muaythai is fought, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: muaythai
+terms:
+  - id: eight-limbs
+    term: Eight limbs
+    definition: >
+      The eight striking surfaces a fighter may use: two fists, two elbows,
+      two knees and two shins.
+    see: object
+  - id: clinch
+    term: Clinch
+    definition: >
+      Two fighters gripping each other at close range. In muaythai the clinch
+      is a fighting position: the fighters knee, elbow and sweep from it.
+    see: restarts
+  - id: elbow
+    term: Elbow strike
+    definition: >
+      A blow with the point of the elbow, thrown at close range. It is legal
+      to the head. Amateur rules pad the elbow and limit it in junior
+      categories.
+    see: players
+  - id: knee
+    term: Knee strike
+    definition: >
+      A blow with the knee, to the body or the head. It is most often thrown
+      from the clinch.
+    see: restarts
+  - id: sweep
+    term: Sweep
+    definition: >
+      Taking the opponent off balance and down to the floor from the clinch,
+      without lifting them. A sweep is legal. A hip throw or a shoulder throw
+      is a foul.
+    see: prohibitions
+  - id: wai-kru
+    term: Wai kru ram muay
+    definition: >
+      The ritual each fighter performs in the ring before the bout, to music.
+      It pays respect to the fighter's teacher and lineage, and the rules
+      require it.
+    see: restarts
+  - id: mongkhon
+    term: Mongkhon
+    definition: >
+      The headband a fighter wears during the wai kru. It is taken off before
+      the bell.
+    see: equipment
+  - id: prajioud
+    term: Prajioud
+    definition: >
+      The armbands a fighter wears on the upper arms through the bout.
+    see: equipment
+  - id: round
+    term: Round
+    definition: >
+      One three-minute period of fighting, followed by a minute of rest.
+    see: duration
+  - id: ten-point-must
+    term: Ten-point must system
+    definition: >
+      The amateur scoring system. The judges score every round separately,
+      ten points to its winner and fewer to the loser, and the rounds are
+      added up.
+    see: scoring
+  - id: knockout
+    term: Knockout
+    definition: >
+      A win that ends the bout at once, because the opponent has been knocked
+      down and cannot go on.
+    see: winning
+  - id: stoppage
+    term: Stoppage
+    definition: >
+      The referee ending the bout early because one fighter should not go on.
+    see: winning
+  - id: amateur-code
+    term: Amateur code
+    definition: >
+      The international rules. They require a headguard, shin guards and
+      elbow pads, limit elbows in some categories, and score round by round.
+    see: equipment
+  - id: stadium-muaythai
+    term: Stadium muaythai
+    definition: >
+      The professional sport in Thailand: five rounds, no protective padding,
+      and a bout judged as a whole with the later rounds counting most.
+    see: scoring
