@@ -1,0 +1,91 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how kickboxing is fought, not
+# claims about its history, and nothing here carries a cause or a date.
+
+sport: kickboxing
+terms:
+  - id: full-contact
+    term: Full contact
+    definition: >
+      The ring discipline in which punches and kicks are thrown at full force
+      and every kick must land above the waist. It can end by knockout.
+    see: prohibitions
+  - id: low-kick
+    term: Low kick
+    definition: >
+      A kick to the opponent's leg, and the name of the ring discipline that
+      allows it. In that discipline the shin is the striking surface and the
+      thigh is a target.
+    see: prohibitions
+  - id: k1-style
+    term: K-1 style
+    definition: >
+      The ring discipline that allows kicks to the legs and strikes with the
+      knee, as well as punches and kicks above the waist.
+    see: prohibitions
+  - id: point-fighting
+    term: Point fighting
+    definition: >
+      The discipline in which the bout stops every time a technique scores.
+      The point is given and the fighters start again from the centre.
+    see: scoring
+  - id: light-contact
+    term: Light contact
+    definition: >
+      A discipline fought on mats without stopping, in which the fighters must
+      hold back the force of their punches and kicks.
+    see: object
+  - id: kick-light
+    term: Kick light
+    definition: >
+      A second discipline fought on mats without stopping, with the force of
+      every strike held back.
+    see: object
+  - id: tatami
+    term: Tatami
+    definition: >
+      The matted floor on which point fighting, light contact and kick light
+      are fought.
+    see: field
+  - id: ring
+    term: Ring
+    definition: >
+      The square, roped platform on which full contact, low kick and K-1 style
+      are fought.
+    see: field
+  - id: minimum-kicks
+    term: Minimum kick count
+    definition: >
+      The number of kicks a full-contact fighter must throw in every round,
+      commonly six. Throwing fewer brings a warning and then a loss of points.
+    see: scoring
+  - id: ten-point-must
+    term: Ten-point must system
+    definition: >
+      Scoring round by round. The judges give the winner of a round ten points
+      and the loser fewer.
+    see: scoring
+  - id: clinch
+    term: Clinch
+    definition: >
+      Two fighters holding each other at close range. In kickboxing the
+      referee breaks a clinch and the fighters step apart.
+    see: restarts
+  - id: knockout
+    term: Knockout
+    definition: >
+      A win that ends the bout at once, because the opponent has been knocked
+      down and cannot go on. It is possible only in the ring disciplines.
+    see: winning
+  - id: foot-protectors
+    term: Foot protectors
+    definition: >
+      Padded covers worn over the feet in the tatami disciplines, so that a
+      fast kick can score without hurting the opponent.
+    see: equipment
+  - id: musical-forms
+    term: Musical forms
+    definition: >
+      A discipline with no opponent. A competitor performs a routine of
+      techniques to music, and a panel of judges marks it.

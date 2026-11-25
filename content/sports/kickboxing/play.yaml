@@ -8,6 +8,46 @@ summary: >
   usually define a striking sport: whether the legs may be kicked, whether
   knees are legal, and whether the bout stops after each scoring technique.
 
+walkthrough:
+  title: One round of full contact, and how the other codes differ
+  intro: >
+    Full contact is the ring discipline closest to the sport's beginnings. The
+    last step says what changes in the other five.
+  steps:
+    - label: Two fighters in a ring
+      body: >
+        Full contact is fought in a roped ring, one against one, by fighters
+        from the same weight category. Each wears gloves, a mouthguard, a
+        groin guard and shin guards. A referee is in charge and judges score
+        the bout.
+    - label: The round
+      body: >
+        A round lasts two minutes in most amateur competition and three in the
+        professional ring codes. The fighters punch and kick at full force.
+        In full contact every kick must land above the waist.
+    - label: The kicks
+      body: >
+        Each fighter must throw a minimum number of kicks in every round,
+        commonly six. A fighter who falls short gets a warning, and after that
+        loses points.
+    - label: What the referee stops
+      body: >
+        The referee steps in for fouls, knockdowns and clinches. A clinch is
+        broken, and the fighters do not fight inside it. Elbows, throws,
+        strikes to the back of the head, the spine or the groin, and hitting
+        an opponent who is down are all fouls.
+    - label: Scoring and winning
+      body: >
+        The judges score each round on the ten-point must system, as in
+        boxing. The bout is won on points, by a stoppage or by knockout.
+    - label: The other codes
+      body: >
+        Low kick allows kicks to the legs, and K-1 style allows leg kicks and
+        knees. Light contact and kick light run without stopping, on a matted
+        tatami, with the force held back. Point fighting halts after every
+        scoring technique: one, two or three points are given, and the
+        fighters start again from the centre.
+
 sections:
   - id: object
     label: The object of the game

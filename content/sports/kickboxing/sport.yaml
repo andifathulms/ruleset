@@ -1,6 +1,6 @@
 id: kickboxing
 label: Kickboxing
-tagline: "Has a rule requiring a minimum number of kicks per round, because without one the sport turns back into boxing."
+tagline: "A striking sport of punches and kicks, fought in a ring or on mats in six disciplines, from light touch contact to full force."
 governing_body: WAKO
 founded: >
   Emerged in the 1960s and 1970s from karate practitioners who wanted
@@ -12,11 +12,18 @@ classification:
   official: kickboxing
   game-category: outside-taxonomy
   adjudication: combat
+glance:
+  - { value: "6", label: fighting disciplines }
+  - { value: "2 min", label: an amateur round }
+  - { value: "1 to 3", label: points for one point-fighting score }
 summary: >
-  A federation running several striking codes that disagree with each other
-  about the basics — whether you may kick the legs, whether knees are legal,
-  and whether the bout stops after every scoring technique or runs continuously.
-  Its most revealing rule is a minimum kick count per round in full contact: a
-  sport built by adding kicks to boxing found it had to legislate that they
-  actually be thrown.
+  Two fighters in gloves punch and kick each other, one against one, in weight
+  categories. Kickboxing is a family of six disciplines, and they do not share
+  one set of rules. Full contact, low kick and K-1 style are fought at full
+  force in a roped ring, scored round by round, and can end by knockout. They
+  differ on whether the legs may be kicked and whether knees are allowed.
+  Point fighting, light contact and kick light are fought on mats with
+  controlled contact, and point fighting stops after every score. Elbows are
+  banned in all of them. In full contact a fighter must throw a minimum number
+  of kicks in every round.
 cover: kickboxing-k1-style
