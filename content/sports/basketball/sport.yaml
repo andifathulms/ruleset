@@ -1,6 +1,6 @@
 id: basketball
 label: Basketball
-tagline: The only sport here invented on purpose, in an afternoon, to solve a stated problem.
+tagline: Two teams of five score by throwing a ball down through a hoop fixed 3.05 metres above the floor, and must shoot within 24 seconds.
 governing_body: FIBA, with the NBA keeping its own rulebook
 founded: >
   Invented by James Naismith in Springfield, Massachusetts, in December 1891.
@@ -11,11 +11,17 @@ classification:
   official: basketball
   game-category: invasion
   adjudication: decided-by-score
+glance:
+  - { value: "5", label: players a side on court }
+  - { value: "3.05 m", label: height of the basket }
+  - { value: "24 s", label: to take a shot }
 summary: >
-  Basketball has the cleanest documented origin of any sport on this site — one
-  man, one afternoon, thirteen written rules — and the cleanest documented
-  trigger. A 19–18 game in 1950 produced the shot clock in 1954, and the sport
-  has been managing its own pace by rule ever since. It also runs two rulebooks
-  at once, so almost every question here has to say whether it means FIBA or
-  the NBA.
+  Basketball is played by two teams of five on a hard indoor court with a
+  basket at each end. Players move the ball by passing it or by bouncing it as
+  they go, and score by dropping it through the other team's hoop: two points
+  from close in, three from beyond a painted arc, one for a free throw. A team
+  with the ball has 24 seconds to shoot, so the game never stops moving. The
+  basket is what makes the sport. It lies flat and sits above everyone's
+  head, so nobody can stand in front of it, and height, timing and position
+  decide the game.
 cover: basketball-eurobasket-2017

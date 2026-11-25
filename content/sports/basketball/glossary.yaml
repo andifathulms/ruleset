@@ -1,0 +1,104 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: basketball
+terms:
+  - id: basket
+    term: Basket
+    definition: >
+      The target: a metal ring, the rim, with a net hanging from it, fixed to
+      a backboard 3.05 metres above the floor. A score is also called a basket.
+    see: object
+  - id: dribble
+    term: Dribble
+    definition: >
+      Bouncing the ball on the floor with one hand while moving. It is the
+      only way a player may travel with the ball.
+    see: prohibitions
+  - id: travelling
+    term: Travelling
+    definition: >
+      Moving the feet too far while holding the ball without bouncing it. It is
+      a violation, and the ball goes to the other team.
+    see: prohibitions
+  - id: double-dribble
+    term: Double dribble
+    definition: >
+      Starting to dribble again after stopping, or dribbling with both hands at
+      once. It is a violation.
+    see: prohibitions
+  - id: violation
+    term: Violation
+    definition: >
+      A breach of the rules that involves no contact, such as travelling or
+      running out of time on a clock. The other team gets the ball.
+    see: prohibitions
+  - id: foul
+    term: Foul
+    definition: >
+      Illegal contact with an opponent. Fouls are counted against the player
+      and against the team, and both counts have a limit.
+    see: prohibitions
+  - id: free-throw
+    term: Free throw
+    definition: >
+      An unguarded shot from the free-throw line, given after certain fouls.
+      It is worth one point.
+    see: scoring
+  - id: shot-clock
+    term: Shot clock
+    definition: >
+      The clock that limits how long a team may keep the ball before shooting.
+      A team has 24 seconds to take a shot that hits the rim.
+    see: restarts
+  - id: three-point-arc
+    term: Three-point arc
+    definition: >
+      The curved line painted around each basket. A shot made from beyond it
+      scores three points, and a shot made from inside it scores two.
+    see: scoring
+  - id: key
+    term: Key
+    definition: >
+      The marked rectangle under each basket, also called the lane or the
+      restricted area. An attacker may not stay in it for more than three
+      seconds.
+    see: field
+  - id: rebound
+    term: Rebound
+    definition: >
+      Catching the ball after a missed shot bounces off the rim or the
+      backboard.
+    see: restarts
+  - id: goaltending
+    term: Goaltending
+    definition: >
+      Touching a shot illegally while it is on its way down to the basket. It
+      is a violation.
+    see: prohibitions
+  - id: zone-defence
+    term: Zone defence
+    definition: >
+      A way of defending in which each player guards an area of the court.
+      The other way is for each defender to guard one opponent.
+    see: prohibitions
+  - id: charge
+    term: Charge
+    definition: >
+      A foul by an attacker who runs into a defender who is already standing
+      in position.
+    see: prohibitions
+  - id: no-charge-semicircle
+    term: No-charge semi-circle
+    definition: >
+      The small semi-circle marked under the basket. A defender standing
+      inside it cannot win a charge.
+    see: field
+  - id: throw-in
+    term: Throw-in
+    definition: >
+      A pass from outside the lines of the court that puts the ball back into
+      play.
+    see: restarts

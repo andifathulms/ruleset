@@ -10,6 +10,48 @@ summary: >
   clock, a shot clock, a backcourt clock and a three-second rule, and almost
   every famous rule change in the sport is a change to one of them.
 
+walkthrough:
+  title: One possession, from the throw-in to the basket
+  intro: >
+    A game is this sequence repeated, by each team in turn, well over a
+    hundred times. The numbers are those of the international (FIBA) game.
+  steps:
+    - label: Getting the ball
+      body: >
+        The game opens with a jump ball. After that a team gets the ball from
+        a throw-in, or by taking it from the opponent in play. From the moment
+        a team has the ball, the shot clock starts counting down from 24
+        seconds.
+    - label: Bringing it up the court
+      body: >
+        The team has eight seconds to take the ball past the halfway line.
+        Travelling with the ball or a double dribble is a violation, and the
+        ball goes to the other team.
+    - label: Looking for a shot
+      body: >
+        The five attackers pass and move to find an open shot. No attacker may
+        stay in the restricted area under the basket for more than three
+        seconds. Before the 24 seconds run out, the team must take a shot that
+        at least hits the rim.
+    - label: The shot
+      body: >
+        A shot that goes through the basket from beyond the arc scores three
+        points. From inside the arc it scores two. If the shot misses and the
+        attacking team catches the rebound, it keeps the ball and the shot
+        clock is set to 14 seconds.
+    - label: Fouls and free throws
+      body: >
+        Illegal contact is a foul. Once a team has made four fouls in a
+        quarter, every further foul gives the opponent free throws, and each
+        free throw that goes in scores one point. A player who makes five
+        fouls is out of the game.
+    - label: The game
+      body: >
+        After a basket the other team takes the ball and the sequence starts
+        again. There are four quarters of ten minutes, and the clock stops at
+        every whistle. The team with more points wins. If the score is level,
+        the teams play extra periods of five minutes until one is ahead.
+
 sections:
   - id: object
     label: The object of the game
@@ -34,6 +76,11 @@ sections:
       - { label: "Three-point arc, FIBA", value: 6.75 m }
       - { label: "Three-point arc, NBA", value: 7.24 m, note: At the top of the arc; shorter in the corners. }
       - { label: Free-throw line, value: 4.6 m from the backboard }
+      - { label: "Restricted area (key), FIBA", value: 4.9 × 5.8 m }
+      - { label: "Basket centre, FIBA", value: 1.575 m from the end line }
+      - { label: "Three-point line in the corners, FIBA", value: 0.9 m from the sideline }
+      - { label: "No-charge semi-circle, FIBA", value: 1.25 m radius }
+      - { label: "Centre circle and free-throw semi-circles, FIBA", value: 1.8 m radius }
     shaped_by: [fiba-2010-arc-and-lane, nba-1979-three-point-line]
     citation:
       source: fiba-official-rules

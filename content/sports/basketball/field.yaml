@@ -1,0 +1,52 @@
+# The FIBA court, from the measurements in play.yaml. Shapes are in metres.
+sport: basketball
+title: The court and the three-point arc
+caption: >
+  The international (FIBA) court. A shot from inside the arc scores two points
+  and a shot from beyond it scores three. The arc is 6.75 metres from the
+  centre of the basket and runs straight along the sidelines in the corners.
+  The rectangle under each basket is the key, where an attacker may stay for
+  three seconds at most. The small semi-circle under the basket is the
+  no-charge semi-circle.
+alt: >
+  A basketball court 28 metres long and 15 metres wide, with a basket, a
+  rectangular key and a three-point arc at each end, and a centre circle on
+  the halfway line.
+scale: to-scale
+view: [-2.5, -3, 32, 18]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 28, h: 15, fill: area }
+  - { type: polygon, points: [[0.00, 0.90], [2.99, 0.90], [3.73, 1.10], [4.44, 1.39], [5.11, 1.75], [5.74, 2.19], [6.31, 2.69], [6.82, 3.26], [7.27, 3.88], [7.64, 4.54], [7.94, 5.25], [8.15, 5.98], [8.28, 6.74], [8.32, 7.50], [8.28, 8.26], [8.15, 9.02], [7.94, 9.75], [7.64, 10.46], [7.27, 11.12], [6.82, 11.74], [6.31, 12.31], [5.74, 12.81], [5.11, 13.25], [4.44, 13.61], [3.73, 13.90], [2.99, 14.10], [0.00, 14.10]], fill: zone, line: none }
+  - { type: polygon, points: [[28.00, 0.90], [25.01, 0.90], [24.27, 1.10], [23.56, 1.39], [22.89, 1.75], [22.26, 2.19], [21.69, 2.69], [21.18, 3.26], [20.73, 3.88], [20.36, 4.54], [20.06, 5.25], [19.85, 5.98], [19.72, 6.74], [19.68, 7.50], [19.72, 8.26], [19.85, 9.02], [20.06, 9.75], [20.36, 10.46], [20.73, 11.12], [21.18, 11.74], [21.69, 12.31], [22.26, 12.81], [22.89, 13.25], [23.56, 13.61], [24.27, 13.90], [25.01, 14.10], [28.00, 14.10]], fill: zone, line: none }
+  - { type: line, x1: 0, y1: 0.9, x2: 2.99, y2: 0.9 }
+  - { type: line, x1: 0, y1: 14.1, x2: 2.99, y2: 14.1 }
+  - { type: arc, cx: 1.575, cy: 7.5, r: 6.75, from: -77.9, to: 77.9 }
+  - { type: line, x1: 28, y1: 0.9, x2: 25.01, y2: 0.9 }
+  - { type: line, x1: 28, y1: 14.1, x2: 25.01, y2: 14.1 }
+  - { type: arc, cx: 26.425, cy: 7.5, r: 6.75, from: 102.1, to: 257.9 }
+  - { type: rect, x: 0, y: 5.05, w: 5.8, h: 4.9 }
+  - { type: rect, x: 22.2, y: 5.05, w: 5.8, h: 4.9 }
+  - { type: arc, cx: 5.8, cy: 7.5, r: 1.8, from: -90, to: 90 }
+  - { type: arc, cx: 22.2, cy: 7.5, r: 1.8, from: 90, to: 270 }
+  - { type: arc, cx: 1.575, cy: 7.5, r: 1.25, from: -90, to: 90 }
+  - { type: arc, cx: 26.425, cy: 7.5, r: 1.25, from: 90, to: 270 }
+  - { type: line, x1: 1.2, y1: 6.6, x2: 1.2, y2: 8.4, line: heavy }
+  - { type: line, x1: 26.8, y1: 6.6, x2: 26.8, y2: 8.4, line: heavy }
+  - { type: circle, cx: 1.575, cy: 7.5, r: 0.225 }
+  - { type: circle, cx: 26.425, cy: 7.5, r: 0.225 }
+  - { type: line, x1: 14, y1: 0, x2: 14, y2: 15 }
+  - { type: circle, cx: 14, cy: 7.5, r: 1.8 }
+  - { type: label, x: 3.6, y: 6.1, text: "key", tone: chalk }
+  - { type: label, x: 3.4, y: 12, text: "2 points", tone: chalk }
+  - { type: label, x: 10.6, y: 3, text: "3 points", tone: chalk }
+  - { type: label, x: 24.6, y: 12, text: "2 points", tone: chalk }
+  - { type: label, x: 17.4, y: 3, text: "3 points", tone: chalk }
+  - { type: label, x: 1.4, y: -1, text: "basket", tone: muted }
+  - { type: label, x: 14, y: -1, text: "halfway line", tone: muted }
+  - { type: dim, x1: 0, y1: 16.6, x2: 28, y2: 16.6, text: "28 m" }
+  - { type: dim, x1: 30, y1: 0, x2: 30, y2: 15, text: "15 m" }
+  - { type: line, x1: 26.2, y1: 7.5, x2: 19.675, y2: 7.5, line: dashed }
+  - { type: label, x: 19.4, y: 7.5, text: "6.75 m", anchor: end }
+legend:
+  - { swatch: zone, label: "inside the arc, a basket scores 2" }
+  - { swatch: area, label: "beyond the arc, a basket scores 3" }
