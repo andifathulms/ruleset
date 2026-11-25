@@ -19,12 +19,13 @@ import ScoringSystems from '@/components/diagrams/ScoringSystems'
 import ScoreScales from '@/components/diagrams/ScoreScales'
 import BadmintonCourt from '@/components/diagrams/BadmintonCourt'
 import Glossary from '@/components/Glossary'
+import FieldDiagram from '@/components/FieldDiagram'
 import { Reveal } from '@/components/Motion'
 import CurrentLaws from '@/components/CurrentLaws'
 import LearningCurve from '@/components/LearningCurve'
 import EventTree from '@/components/EventTree'
 import {
-  getCauses, getCover, getEvents, getGlossary, getImagesForSport, getLearning, getLenses, getPlay,
+  getCauses, getCover, getEvents, getField, getGlossary, getImagesForSport, getLearning, getLenses, getPlay,
   getProgram, getProgrammes, getRuleChanges, getSections, getSeriesForSport, getSourceMap,
   getSport, getSportIds, getSports,
 } from '@/lib/content'
@@ -152,6 +153,11 @@ export default function SportPage({ params }: { params: { sport: string } }) {
   const learning = getLearning(params.sport)
   const events = getEvents(params.sport)
   const glossary = getGlossary(params.sport)
+  const field = getField(params.sport)
+  /* The playing area sits with the clause that describes it. A sport whose
+     laws have no such clause still gets its drawing, after the clauses. */
+  const fieldClause = play?.sections.some((s) => s.id === 'field') ?? false
+  const fieldDiagram = field ? <FieldDiagram spec={field} colour={sport.family_colour} /> : null
   const terms = new Set(glossary?.terms.map((t) => t.id) ?? [])
   const lenses = getLenses()
   const program = getProgram().sports.find((s) => s.id === params.sport)
@@ -220,10 +226,12 @@ export default function SportPage({ params }: { params: { sport: string } }) {
                 figures={(clause) => (
                   <>
                     {diagramFor(params.sport, `play:${clause}`)}
+                    {clause === 'field' && fieldDiagram}
                     {photoFor(`play:${clause}`)}
                   </>
                 )}
               />
+              {!fieldClause && fieldDiagram}
               {photoFor('play')}
             </>
           ),

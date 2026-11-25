@@ -6,6 +6,7 @@ import type {
   SeriesBreak, SourcedImage, Sport,
 } from './types'
 import { CONTEST_STATUS, LAW_SECTIONS } from './types'
+import { FIELD_FILLS, FIELD_LINES, FIELD_SHAPES, type FieldSpec } from './fieldSvg'
 
 const CONTENT = path.join(process.cwd(), 'content')
 const SPORTS = path.join(CONTENT, 'sports')
@@ -276,6 +277,53 @@ function assertPlayIsClean(sport: string, play: Play): void {
       }
     }
   }
+}
+
+/**
+ * A sport's playing area, if it has one defined. Checked hard, because the
+ * drawing is built from these numbers with no one looking at each: a missing
+ * coordinate would otherwise draw as NaN and vanish without an error.
+ */
+export function getField(id: string): FieldSpec | null {
+  const file = path.join(SPORTS, id, 'field.yaml')
+  if (!fs.existsSync(file)) return null
+  const field = parse<FieldSpec>(fs.readFileSync(file, 'utf8'))
+  const fail = (why: string): never => {
+    throw new Error(`field.yaml (${id}): ${why}`)
+  }
+  for (const key of ['title', 'caption', 'alt'] as const) {
+    if (typeof field[key] !== 'string' || !field[key].trim()) fail(`"${key}" is missing or did not parse as text`)
+  }
+  if (field.scale !== 'to-scale' && field.scale !== 'schematic') fail('"scale" must be to-scale or schematic')
+  const view = field.view
+  if (!Array.isArray(view) || view.length !== 4 || view.some((v) => !Number.isFinite(v)) || view[2] <= view[0] || view[3] <= view[1]) {
+    fail('"view" must be [left, top, right, bottom] with right > left and bottom > top')
+  }
+  const NUMBERS: Record<string, string[]> = {
+    rect: ['x', 'y', 'w', 'h'], line: ['x1', 'y1', 'x2', 'y2'], circle: ['cx', 'cy', 'r'],
+    arc: ['cx', 'cy', 'r', 'from', 'to'], polygon: [], dot: ['x', 'y'], label: ['x', 'y'],
+    dim: ['x1', 'y1', 'x2', 'y2'],
+  }
+  if (!Array.isArray(field.shapes) || field.shapes.length === 0) fail('has no shapes')
+  field.shapes.forEach((shape, i) => {
+    const s = shape as unknown as Record<string, unknown>
+    const at = `shape ${i + 1} (${String(s.type)})`
+    if (!(FIELD_SHAPES as readonly string[]).includes(String(s.type))) fail(`${at} is not a known shape`)
+    for (const key of NUMBERS[String(s.type)]) {
+      if (!Number.isFinite(s[key])) fail(`${at}: "${key}" is not a number`)
+    }
+    if (s.fill !== undefined && !(FIELD_FILLS as readonly string[]).includes(String(s.fill))) fail(`${at}: unknown fill "${String(s.fill)}"`)
+    if (s.line !== undefined && !(FIELD_LINES as readonly string[]).includes(String(s.line))) fail(`${at}: unknown line "${String(s.line)}"`)
+    if ((s.type === 'label' || s.type === 'dim') && typeof s.text !== 'string') fail(`${at}: "text" must be quoted text`)
+    if (s.type === 'dot' && s.label !== undefined && typeof s.label !== 'string') fail(`${at}: "label" must be quoted text`)
+    if (s.type === 'polygon') {
+      const pts = s.points
+      if (!Array.isArray(pts) || pts.length < 3 || pts.some((p) => !Array.isArray(p) || p.length !== 2 || p.some((v) => !Number.isFinite(v)))) {
+        fail(`${at}: "points" must be at least three [x, y] pairs`)
+      }
+    }
+  })
+  return field
 }
 
 /**
