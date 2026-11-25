@@ -1,0 +1,39 @@
+# The men's court. The outer size comes from play.yaml; the width of the
+# lobbies and the place of the bonus lines do not, so the drawing is
+# schematic.
+sport: kabaddi
+title: Two halves, a line and two lobbies
+caption: >
+  The men's court is 13 metres by 10, and the women's 12 by 8. The midline
+  splits it into two halves, one for each team. A raider crosses the midline,
+  tries to touch defenders, and must get back across it. The lobbies along
+  the sides are out of play until a tackle begins. A raider who crosses the
+  bonus line, when enough defenders are on court, earns an extra point.
+alt: >
+  A rectangular kabaddi court, longer than it is wide, split across the middle
+  by the midline, with a narrow lobby strip along each long side and a bonus
+  line near the far end of each half.
+scale: schematic
+view: [-1.5, -2.6, 14.6, 11.8]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 13, h: 10, fill: area }
+  - { type: rect, x: 0, y: 0, w: 13, h: 1, fill: zone, line: none }
+  - { type: rect, x: 0, y: 9, w: 13, h: 1, fill: zone, line: none }
+  - { type: line, x1: 0, y1: 1, x2: 13, y2: 1 }
+  - { type: line, x1: 0, y1: 9, x2: 13, y2: 9 }
+  - { type: line, x1: 6.5, y1: -0.6, x2: 6.5, y2: 10.6, line: heavy }
+  - { type: line, x1: 1.75, y1: 1, x2: 1.75, y2: 9, line: dashed }
+  - { type: line, x1: 11.25, y1: 1, x2: 11.25, y2: 9, line: dashed }
+  - { type: label, x: 6.5, y: -1.4, text: "midline", tone: muted }
+  - { type: label, x: 3.2, y: 0.65, text: "lobby", tone: chalk }
+  - { type: label, x: 9.8, y: 9.65, text: "lobby", tone: chalk }
+  - { type: label, x: 11.05, y: 2.3, text: "bonus line", anchor: end, tone: muted }
+  - { type: label, x: 3.4, y: 5.2, text: "team A's half", tone: muted }
+  - { type: label, x: 9.6, y: 5.2, text: "team B's half", tone: muted }
+  - { type: dot, x: 8.2, y: 6.6, label: "raider" }
+  - { type: dim, x1: 0, y1: 11.1, x2: 13, y2: 11.1, text: "13 m" }
+  - { type: dim, x1: 13.9, y1: 0, x2: 13.9, y2: 10, text: "10 m" }
+legend:
+  - { swatch: zone, label: "lobby, live only once a tackle begins" }
+  - { swatch: area, label: the playing area }
+  - { swatch: dashed, label: bonus line }

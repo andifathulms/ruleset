@@ -1,6 +1,6 @@
 id: kabaddi
 label: Kabaddi
-tagline: "The only sport whose central rule regulates a competitor's breathing: the raider must chant continuously, and when the chant stops, the raid is over."
+tagline: A team game from South Asia in which one player at a time runs into the other half, chanting on one breath, to touch defenders and get back.
 governing_body: International Kabaddi Federation
 founded: >
   An ancient South Asian contest, codified in India in the 1920s; a full Asian
@@ -12,11 +12,16 @@ classification:
   official: kabaddi
   game-category: invasion
   adjudication: decided-by-score
+glance:
+  - { value: "7", label: players a side }
+  - { value: "30 s", label: to make a raid }
+  - { value: "13 × 10 m", label: "court, men" }
 summary: >
-  One player crosses into the opposition's half, tries to touch as many of the
-  seven defenders as possible, and gets back across the line — all while
-  chanting "kabaddi" without pausing for breath. The chant is not tradition
-  laid over the sport; it is the rule that limits the raid, judged by ear, and
-  it makes kabaddi the only sport covered here where the referee is listening
-  rather than watching.
+  Kabaddi is played by two teams of seven on a small court split by a line.
+  The teams take turns to send one player, the raider, into the other half.
+  The raider tries to touch defenders and get back over the line, chanting
+  "kabaddi" all the time on a single breath. Each defender touched is out,
+  and if the defenders catch and hold the raider, the raider is out. There is
+  no ball and nothing to carry. The chant is the heart of the game: it limits
+  every raid to one breath, and the umpires judge it by ear.
 cover: kabaddi-chettinad

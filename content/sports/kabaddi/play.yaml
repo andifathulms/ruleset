@@ -8,6 +8,52 @@ summary: >
   raider into the opposition half to touch defenders and return. The raider
   must chant continuously on one breath, and has thirty seconds.
 
+walkthrough:
+  title: One raid, from the midline and back
+  intro: >
+    A match is a long run of raids, the two teams taking turns. This is one of
+    them, in the standard seven-a-side game.
+  steps:
+    - label: The raider sets out
+      body: >
+        One player, the raider, goes into the other team's half. The raider
+        must start the cant, chanting "kabaddi" out loud, before crossing the
+        midline.
+    - label: One breath, thirty seconds
+      body: >
+        In the other half the cant must stay loud and unbroken, on a single
+        breath. The raid also has a clock of thirty seconds. The raider tries
+        to touch defenders, or to cross the bonus line for a point without
+        touching anyone.
+    - label: The defence
+      body: >
+        The seven defenders try to catch the raider and hold them until the
+        raid ends. They may not grab the hair or the clothing. Once a tackle
+        begins, the lobbies along the sides come into play.
+    - label: Getting back
+      body: >
+        The raider must get back across the midline with the cant still
+        going. A tackled raider can still reach a hand or a foot over the
+        line, dragging the defenders along. If the cant breaks in the other
+        half, the raid is over.
+    - label: The points
+      body: >
+        A raider who gets back scores one point for each defender touched, and
+        those defenders are out. If the raider is held, the defence scores one
+        point and the raider is out. Each point a team scores brings one of
+        its own out players back on. Putting the whole other team out is an
+        all-out, worth two extra points.
+    - label: No empty raids
+      body: >
+        A raid that scores nothing is an empty raid. After two empty raids in
+        a row, the team's third is a do-or-die raid. It must score a point, or
+        the raider is out.
+    - label: The match
+      body: >
+        A match is two halves of twenty minutes. The team with more points at
+        the end wins. A knockout match that ends level goes to extra time, and
+        then to a set number of raids for each side.
+
 sections:
   - id: object
     label: The object of the game
@@ -49,9 +95,8 @@ sections:
       None. Kabaddi is played barefoot or in light shoes on a mat or on earth,
       in ordinary kit, with no ball, no implement and no protective equipment.
 
-      It is the only sport covered on this site with no object of play at all.
-      Every other game here has a ball, a disc, a rope, a bar, a target or a
-      weapon; kabaddi has two teams and a line.
+      There is nothing to pass, carry or hit. A match needs two teams, a
+      marked court and a line across the middle.
     facts:
       - { label: Object of play, value: None }
       - { label: Protective equipment, value: None }

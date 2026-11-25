@@ -1,0 +1,87 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: kabaddi
+terms:
+  - id: raid
+    term: Raid
+    definition: >
+      One attack. A single player crosses into the other half, tries to touch
+      defenders, and comes back. The teams take turns to raid.
+    see: restarts
+  - id: raider
+    term: Raider
+    definition: >
+      The player who makes the raid. A raider scores by touching defenders and
+      getting back across the midline.
+    see: restarts
+  - id: cant
+    term: Cant
+    definition: >
+      The chant of "kabaddi" that the raider must keep up, loud and unbroken,
+      on one breath. When the cant breaks in the other half, the raid is over.
+    see: restarts
+  - id: midline
+    term: Midline
+    definition: >
+      The line across the middle of the court. A raider must cross it back, with
+      the cant still going, to keep the points from a raid.
+    see: field
+  - id: defender
+    term: Defender
+    definition: >
+      A player on the side being raided. Defenders try to catch the raider and
+      hold them until the raid ends.
+    see: players
+  - id: tackle
+    term: Tackle
+    definition: >
+      Catching and holding the raider so that they cannot get back across the
+      midline. A successful tackle scores the defence a point.
+    see: object
+  - id: lobby
+    term: Lobby
+    definition: >
+      The strip along each side of the court. It is out of play until a tackle
+      begins, and then it is part of the court.
+    see: field
+  - id: bonus-line
+    term: Bonus line
+    definition: >
+      A line inside each half. A raider who crosses it, when enough defenders
+      are on court, scores an extra point without touching anyone.
+    see: field
+  - id: revival
+    term: Revival
+    definition: >
+      A player who is out coming back on court. Each point a team scores
+      revives one of its out players.
+    see: object
+  - id: all-out
+    term: All-out
+    definition: >
+      Putting every player of the other team out. It earns two extra points.
+    see: object
+  - id: empty-raid
+    term: Empty raid
+    definition: >
+      A raid in which neither side scores a point.
+    see: scoring
+  - id: do-or-die
+    term: Do-or-die raid
+    definition: >
+      The third raid after two empty raids in a row. It must score a point, or
+      the raider is out.
+    see: scoring
+  - id: raid-clock
+    term: Raid clock
+    definition: >
+      The thirty seconds a raider has to complete a raid.
+    see: duration
+  - id: circle-kabaddi
+    term: Circle kabaddi
+    definition: >
+      A separate form of the game, played on a round field with its own scoring
+      and its own competitions.
