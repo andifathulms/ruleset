@@ -8,6 +8,44 @@ summary: >
   judged routines on quad skates. Speed is racing on inline skates. Rink hockey
   is five a side with sticks and a ball, on quads.
 
+walkthrough:
+  title: One rink hockey match, from the first whistle to the final score
+  intro: >
+    Roller sports are three separate contests. Artistic skating is judged and
+    speed skating is a race. This walk-through follows the team game, rink
+    hockey.
+  steps:
+    - label: The teams
+      body: >
+        Two teams of five, each with four skaters and a goalkeeper, play on
+        quad skates. Every player has a curved stick. Substitutes come on and
+        go off while play continues.
+    - label: The rink
+      body: >
+        The rink is 40 metres long and 20 metres wide, with a goal at each
+        end. Boards run all the way round it. The ball stays in play when it
+        bounces off the boards, so the game rarely stops.
+    - label: Playing the ball
+      body: >
+        Players pass and shoot a hard ball with their sticks. A goal is scored
+        when the ball goes into the other team's goal. The goalkeeper wears a
+        helmet, a chest protector, leg guards and gloves to stop it.
+    - label: Fouls
+      body: >
+        A player may not raise the stick above the shoulder, charge an
+        opponent, play the ball with the hands or play it above a set height.
+        After a foul the other team restarts with a free hit from the place
+        where it happened.
+    - label: Team fouls
+      body: >
+        Fouls are also counted against the whole team. When a team has too
+        many, the other team gets a direct free hit: one shot straight at the
+        goal. A team that fouls often gives away chances to score.
+    - label: Time and the result
+      body: >
+        A match is two halves of twenty-five minutes. The clock stops whenever
+        play stops. The team with more goals wins.
+
 sections:
   - id: object
     label: The object of the game

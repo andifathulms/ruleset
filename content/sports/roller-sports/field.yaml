@@ -1,0 +1,33 @@
+# The rink hockey rink, from the measurements in play.yaml. The outline is
+# 40 m by 20 m; the positions of the goals and players are only indicative, so
+# the drawing is marked schematic.
+sport: roller-sports
+title: A boarded rink for rink hockey
+caption: >
+  Rink hockey is played five a side on a rink 40 metres long and 20 metres
+  wide. Boards run all the way round, and the ball stays in play when it
+  bounces off them. Each team defends one goal. The dots show one team: a
+  goalkeeper and four skaters.
+alt: >
+  A rectangular rink 40 metres long and 20 metres wide, with a halfway line, a
+  goal near each end and five dots for the players of one team.
+scale: schematic
+view: [-4, -4.5, 48, 26]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 40, h: 20, fill: area, line: heavy }
+  - { type: line, x1: 20, y1: 0, x2: 20, y2: 20, line: faint }
+  - { type: line, x1: 3, y1: 9.1, x2: 3, y2: 10.9, line: heavy }
+  - { type: line, x1: 37, y1: 9.1, x2: 37, y2: 10.9, line: heavy }
+  - { type: label, x: 3, y: 7.6, text: "goal", tone: muted }
+  - { type: label, x: 37, y: 7.6, text: "goal", tone: muted }
+  - { type: label, x: 20, y: -1.4, text: "boards all round", tone: muted }
+  - { type: dot, x: 4.6, y: 10, label: "goalkeeper" }
+  - { type: dot, x: 11, y: 5 }
+  - { type: dot, x: 11, y: 15 }
+  - { type: dot, x: 17, y: 8 }
+  - { type: dot, x: 16, y: 13.5 }
+  - { type: dim, x1: 0, y1: 23.2, x2: 40, y2: 23.2, text: "40 m" }
+  - { type: dim, x1: 43.5, y1: 0, x2: 43.5, y2: 20, text: "20 m" }
+legend:
+  - { swatch: area, label: the rink }
+  - { swatch: heavy, label: boards and goals }

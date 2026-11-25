@@ -1,0 +1,104 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the disciplines are contested,
+# not claims about their history, and nothing here carries a cause or a date.
+
+sport: roller-sports
+terms:
+  - id: quad-skate
+    term: Quad skate
+    definition: >
+      A skate with four wheels in a square, two at the front and two at the
+      back. It is steady from side to side. Artistic skaters and rink hockey
+      players use it.
+    see: equipment
+  - id: inline-skate
+    term: Inline skate
+    definition: >
+      A skate with its wheels in one line. It rolls faster than a quad skate
+      and holds a straight course. Speed skaters use it.
+    see: equipment
+  - id: toe-stop
+    term: Toe stop
+    definition: >
+      A rubber block under the front of an artistic skate. The skater pushes
+      off it to start some jumps, and uses it to stop.
+    see: equipment
+  - id: artistic
+    term: Artistic skating
+    definition: >
+      The discipline of routines with jumps, spins and dance steps, performed
+      on a flat indoor floor and marked by judges.
+    see: object
+  - id: free-skating
+    term: Free skating
+    definition: >
+      The artistic event in which one skater performs a routine of jumps and
+      spins.
+    see: players
+  - id: precision
+    term: Precision team
+    definition: >
+      A group of a dozen or more artistic skaters who perform one routine
+      together in formation.
+    see: players
+  - id: under-rotation
+    term: Under-rotated jump
+    definition: >
+      A jump that lands before the skater has finished the last turn in the
+      air. The judges mark it down.
+    see: prohibitions
+  - id: speed
+    term: Speed skating
+    definition: >
+      The racing discipline, on inline skates. The first skater across the
+      line, or the fastest time, wins.
+    see: object
+  - id: banked-track
+    term: Banked track
+    definition: >
+      An oval racing track whose bends slope upward toward the outside, so
+      skaters can hold their speed through the turns.
+    see: field
+  - id: time-trial
+    term: Time trial
+    definition: >
+      A race against the clock instead of against other skaters on the track.
+      The shortest speed event is a 200 metre time trial.
+    see: duration
+  - id: mass-start
+    term: Mass start
+    definition: >
+      A race in which all the skaters start together and the first to finish
+      wins.
+    see: prohibitions
+  - id: rink-hockey
+    term: Rink hockey
+    definition: >
+      The team game on quad skates: five a side, with curved sticks, a hard
+      ball and a goal at each end of a boarded rink.
+    see: object
+  - id: boards
+    term: Boards
+    definition: >
+      The low wall all round a hockey rink. The ball bounces off it and stays
+      in play.
+    see: restarts
+  - id: free-hit
+    term: Free hit
+    definition: >
+      The way rink hockey restarts after a foul. The team that was fouled hits
+      the ball from the place where the foul happened.
+    see: restarts
+  - id: team-fouls
+    term: Team fouls
+    definition: >
+      The running count of fouls by a whole rink hockey team. When the count
+      passes the limit, the other team is given a direct free hit.
+    see: scoring
+  - id: direct-free-hit
+    term: Direct free hit
+    definition: >
+      A shot straight at the goal from a set distance, given against a team
+      that has collected too many fouls.
+    see: scoring

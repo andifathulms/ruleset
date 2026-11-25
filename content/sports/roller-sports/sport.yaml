@@ -1,6 +1,6 @@
 id: roller-sports
 label: Roller sports
-tagline: "Every discipline is the wheeled twin of a Winter Olympic sport, and none of them is Olympic — except the one with no ice equivalent, which got in."
+tagline: "Sports on roller skates: artistic skating judged on routines, speed racing on inline skates, and rink hockey, a five-a-side game with sticks and a ball."
 governing_body: World Skate
 founded: >
   The Fédération Internationale de Roller Sports was founded in 1924; it merged
@@ -11,11 +11,17 @@ classification:
   official: roller-sports
   game-category: outside-taxonomy
   adjudication: judged
+glance:
+  - { value: "3", label: main disciplines }
+  - { value: "5", label: a side in rink hockey }
+  - { value: "2 × 25", label: minutes in a rink hockey match }
 summary: >
-  Artistic roller skating is figure skating on wheels, judged the same way.
-  Roller speed skating is speed skating without ice. Rink hockey is a stick and
-  ball game on quad skates. Each has an ice counterpart on the Winter Olympic
-  programme and none of them has ever been on a programme itself — while
-  skateboarding, the one discipline under the same federation with no ice twin,
-  reached the Games in 2021.
+  Roller sports are three different contests that share wheels. In artistic
+  skating, skaters perform routines of jumps, spins and dance on quad skates
+  and a panel of judges marks them. In speed skating, racers on inline skates
+  go round banked tracks and road circuits, over anything from 200 metres to a
+  marathon, and the first across the line wins. Rink hockey is a team game:
+  five a side on quad skates, in a rink with boards all round, hitting a hard
+  ball with curved sticks into a goal. The three use different skates and
+  different skills, and almost no skater competes in more than one.
 cover: roller-sports-germany-italy-2014
