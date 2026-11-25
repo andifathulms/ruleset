@@ -1,0 +1,106 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: cricket
+terms:
+  - id: wicket
+    term: Wicket
+    definition: >
+      Three upright wooden stumps with two small bails resting on top. The
+      bowler aims at it and the batter defends it. The word also means one
+      batter getting out: a team that has lost ten wickets has finished its
+      innings.
+    see: field
+  - id: pitch
+    term: Pitch
+    definition: >
+      The narrow strip in the middle of the ground, 22 yards long, with a
+      wicket at each end. The ball is bowled along it.
+    see: field
+  - id: crease
+    term: Crease
+    definition: >
+      A line marked across the pitch near each wicket. The bowler's front foot
+      must not land beyond it when the ball is bowled.
+    see: prohibitions
+  - id: over
+    term: Over
+    definition: >
+      Six balls bowled by one bowler from one end of the pitch. The next over
+      is bowled from the other end by a different bowler.
+    see: restarts
+  - id: innings
+    term: Innings
+    definition: >
+      One team's turn to bat. It ends when ten batters are out, or in the
+      shorter formats when the overs run out.
+    see: scoring
+  - id: run
+    term: Run
+    definition: >
+      The unit of scoring. The batters score one run each time they run from
+      one wicket to the other after a hit.
+    see: scoring
+  - id: boundary
+    term: Boundary
+    definition: >
+      The edge of the field. A ball hit to it along the ground scores four
+      runs, and a ball hit over it in the air scores six.
+    see: scoring
+  - id: extras
+    term: Extras
+    definition: >
+      Runs added to the batting side's score that no batter hit, such as the
+      run given for a no ball or a wide.
+    see: scoring
+  - id: no-ball
+    term: No ball
+    definition: >
+      An illegal ball, for example one bowled with the front foot over the
+      crease. The batting side gets a run and the ball is bowled again.
+    see: prohibitions
+  - id: wide
+    term: Wide
+    definition: >
+      A ball bowled too far from the batter to be reached with a normal shot.
+      The batting side gets a run and the ball is bowled again.
+    see: prohibitions
+  - id: lbw
+    term: Leg before wicket
+    definition: >
+      A way of being out, shortened to LBW. The ball hits the batter's body,
+      usually the pad on the leg, when it would otherwise have gone on to hit
+      the wicket.
+    see: prohibitions
+  - id: test
+    term: Test match
+    definition: >
+      The longest format of the game, played over as many as five days. It can
+      end in a draw if neither side finishes the job in time.
+    see: duration
+  - id: one-day
+    term: One-day international
+    definition: >
+      A match between national teams in which each side bats for fifty overs
+      at most. It is finished in one day.
+    see: duration
+  - id: twenty20
+    term: Twenty20
+    definition: >
+      The shortest format. Each side bats for twenty overs at most, and the
+      match takes about three hours.
+    see: duration
+  - id: super-over
+    term: Super Over
+    definition: >
+      One extra over for each side, played to decide a one-day or Twenty20
+      match that has ended level.
+    see: restarts
+  - id: umpires-call
+    term: Umpire's call
+    definition: >
+      The rule for a review that is too close for the ball-tracking system to
+      be sure of. The decision the umpire made on the field stands.
+    see: players

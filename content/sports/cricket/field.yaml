@@ -1,0 +1,33 @@
+# The pitch, from the measurements in play.yaml. Shapes are in feet.
+sport: cricket
+title: The pitch, wicket to wicket
+caption: >
+  The pitch is the strip at the centre of the ground: 22 yards between the two
+  wickets and 10 feet wide. A crease is marked 4 feet in front of each wicket.
+  The bowler bowls from one end and must not step past that line. The batters
+  score by running from one end to the other. The oval field around the pitch
+  has no fixed size and is not drawn.
+alt: >
+  A cricket pitch seen from above: a long narrow rectangle 22 yards long and 10
+  feet wide, with a wicket in the middle of each short end and a line across
+  the pitch 4 feet in front of each wicket.
+scale: to-scale
+view: [-9, -10, 78, 23]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 66, h: 10, fill: area }
+  - { type: rect, x: 0, y: 0, w: 4, h: 10, fill: zone, line: none }
+  - { type: rect, x: 62, y: 0, w: 4, h: 10, fill: zone, line: none }
+  - { type: line, x1: 4, y1: -1.5, x2: 4, y2: 10 }
+  - { type: line, x1: 62, y1: -1.5, x2: 62, y2: 10 }
+  - { type: line, x1: 0, y1: 4.625, x2: 0, y2: 5.375, line: heavy }
+  - { type: line, x1: 66, y1: 4.625, x2: 66, y2: 5.375, line: heavy }
+  - { type: label, x: 0, y: 13, text: "wicket" }
+  - { type: label, x: 66, y: 13, text: "wicket" }
+  - { type: label, x: 5, y: -4.5, text: "crease, 4 ft", tone: muted }
+  - { type: label, x: 61, y: -4.5, text: "crease, 4 ft", tone: muted }
+  - { type: label, x: 33, y: 5, text: "the ball is bowled along here", tone: muted }
+  - { type: dim, x1: 0, y1: 18.5, x2: 66, y2: 18.5, text: "22 yd" }
+  - { type: dim, x1: 72, y1: 0, x2: 72, y2: 10, text: "10 ft" }
+legend:
+  - { swatch: zone, label: "between the crease and the wicket" }
+  - { swatch: area, label: the pitch }

@@ -11,6 +11,50 @@ summary: >
   rather than simultaneous ones, which is why an innings is the unit and why
   the formats can differ so much while the Laws barely change.
 
+walkthrough:
+  title: One ball, one over, one innings
+  intro: >
+    The same sequence is played in all three formats of the game, and only the
+    number of overs changes.
+  steps:
+    - label: Two sides, two jobs
+      body: >
+        Each team has eleven players. One team bats and the other bowls and
+        fields. The two teams never do the same thing at the same time. They
+        swap when the innings ends.
+    - label: The ball is bowled
+      body: >
+        The bowler bowls from one end of the 22-yard pitch to the batter at
+        the other end, who stands in front of a wicket of stumps 28 inches
+        high. The bowler must not step over the crease, and the ball must not
+        arrive above the waist without bouncing. Either is a no ball. A ball
+        too far from the batter to reach is a wide.
+    - label: The runs
+      body: >
+        The batters score by running between the wickets after a hit, one run
+        each time. A ball hit along the ground to the boundary scores four. A
+        ball hit over the boundary in the air scores six. A no ball or a wide
+        adds one run as well.
+    - label: The dismissal
+      body: >
+        The fielding side tries to get the batter out. Nearly all dismissals
+        are one of five kinds: bowled, caught, leg before wicket, run out, and
+        stumped. A batter who is out is replaced by the next one.
+    - label: The over
+      body: >
+        Six balls make an over. Then the bowling moves to the other end of the
+        pitch, a different bowler takes over, and the fielders change places.
+    - label: The innings
+      body: >
+        An innings ends when ten batters are out. In the shorter formats it
+        also ends when the overs run out: fifty overs in a one-day
+        international, twenty in a Twenty20. Then the other team bats.
+    - label: The result
+      body: >
+        The team with more runs wins. A Test match lasts up to five days and
+        is drawn if it is not finished in that time. A one-day or Twenty20
+        match that ends level is decided by a Super Over.
+
 sections:
   - id: object
     label: The object of the game
@@ -35,6 +79,8 @@ sections:
       - { label: Pitch length, value: 22 yd, note: "20.12 m, between the wickets." }
       - { label: Pitch width, value: 10 ft }
       - { label: Stumps, value: 28 in high }
+      - { label: Wicket width, value: 9 in }
+      - { label: Popping crease, value: 4 ft in front of the stumps }
       - { label: Ground size, value: Not fixed, note: "Set by playing conditions, not by the Laws." }
     citation:
       source: mcc-laws-of-cricket
@@ -135,7 +181,8 @@ sections:
 
       A no ball is an illegal delivery — overstepping the crease, above waist
       height on the full — and a wide is one the batter cannot reasonably
-      reach. Both give a run and, in limited-overs cricket, another delivery.
+      reach. Both give a run, and neither counts as one of the six balls of
+      the over, so the bowler must bowl another.
     shaped_by: [mcc-1980-code-lbw]
 
   - id: winning
