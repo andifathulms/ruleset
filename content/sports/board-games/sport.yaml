@@ -1,6 +1,6 @@
 id: board-games
 label: Board games
-tagline: "The only sports here a machine plays better than any human — and both know the year it happened."
+tagline: "Chess, go and xiangqi: three games of pure thought in which two players take turns on a board, with nothing hidden and no luck."
 governing_body: FIDE, the International Go Federation and the World Xiangqi Federation
 founded: >
   Chess, go and xiangqi are each many centuries old; their international
@@ -12,11 +12,17 @@ classification:
   official: board-games
   game-category: outside-taxonomy
   adjudication: decided-by-score
+glance:
+  - { value: "2", label: players }
+  - { value: "64", label: squares on a chess board }
+  - { value: "361", label: points on a go board }
 summary: >
-  Chess, go and xiangqi, contested at the Asian Games as one listing under
-  three separate federations. They are the only sports on this site with no
-  physical component at all, the only ones where a machine is definitively
-  better than the best human, and the only ones where that produced an
-  integrity problem no other sport can have: a competitor with a hidden device
-  is unbeatable.
+  Board games here means chess, go and xiangqi, three separate games grouped
+  together at the Asian Games. In chess the aim is checkmate: an attack on the
+  opponent's king that it cannot escape. Xiangqi, or Chinese chess, has the
+  same aim against a general who may not leave a small palace. In go the
+  players place stones on a grid to surround territory, and a stone never
+  moves once it is placed. In all three, two players face each other across a
+  board with a clock beside it. Both can see everything, and nothing depends
+  on chance or on the body.
 cover: board-go-equipment

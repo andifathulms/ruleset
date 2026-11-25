@@ -1,0 +1,103 @@
+# The words of the games. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the games are played, not
+# claims about their history.
+
+sport: board-games
+terms:
+  - id: checkmate
+    term: Checkmate
+    definition: >
+      An attack on the king, or on the general in xiangqi, that it cannot
+      escape. It ends the game.
+    see: object
+  - id: stone
+    term: Stone
+    definition: >
+      A playing piece in go. A stone is placed on a point and never moves. It
+      leaves the board only if it is captured.
+    see: object
+  - id: territory
+    term: Territory
+    definition: >
+      The empty points a go player has surrounded. The player who controls
+      more of the board wins.
+    see: object
+  - id: intersection
+    term: Intersection
+    definition: >
+      A point where two lines of the board cross. Go and xiangqi are played on
+      the intersections, and chess is played on the squares.
+    see: field
+  - id: river
+    term: River
+    definition: >
+      The band across the middle of a xiangqi board. Crossing it changes what
+      some pieces may do.
+    see: object
+  - id: palace
+    term: Palace
+    definition: >
+      The nine points at each end of a xiangqi board. The general may not
+      leave it.
+    see: object
+  - id: time-control
+    term: Time control
+    definition: >
+      The amount of thinking time each player has for a game. A player who
+      uses it all loses.
+    see: duration
+  - id: classical
+    term: Classical
+    definition: >
+      The slowest time control, with hours for each player.
+    see: duration
+  - id: rapid-blitz
+    term: Rapid and blitz
+    definition: >
+      Faster time controls. A rapid game gives each player tens of minutes and
+      a blitz game gives minutes. Each has its own ratings and its own world
+      championship.
+    see: duration
+  - id: increment
+    term: Increment
+    definition: >
+      Seconds added to a player's clock for each move, so that a player with a
+      winning position does not lose only because of the clock.
+    see: equipment
+  - id: arbiter
+    term: Arbiter
+    definition: >
+      The official at a game. An arbiter enforces the laws, the clock and the
+      conditions of play, and decides nothing about the position on the board.
+    see: players
+  - id: rating
+    term: Rating
+    definition: >
+      A number that measures a player's strength. It goes up or down after
+      every rated game, and the gap between two ratings predicts the result
+      between those players.
+    see: scoring
+  - id: draw
+    term: Draw
+    definition: >
+      A game with no winner. Each player scores half a point.
+    see: scoring
+  - id: tie-break
+    term: Tie-break
+    definition: >
+      A published calculation that separates players who finish a tournament
+      on the same score, without another game.
+    see: winning
+  - id: adjournment
+    term: Adjournment
+    definition: >
+      The old practice of stopping an unfinished game, sealing the next move
+      and resuming the following day. Games are now finished in one session.
+    see: restarts
+  - id: engine
+    term: Engine
+    definition: >
+      A computer program that plays one of these games. Engines are stronger
+      than any human player.
+    see: equipment

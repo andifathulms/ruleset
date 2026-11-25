@@ -8,6 +8,46 @@ summary: >
   king. Go: surround more territory. Xiangqi: checkmate the general, across a
   river, with pieces that cannot leave their palace.
 
+walkthrough:
+  title: One game of chess, from the first move to the result
+  intro: >
+    Chess, go and xiangqi are different games. This follows one tournament
+    game of chess, and the clock, the arbiter and the scoring work in much
+    the same way for the other two.
+  steps:
+    - label: Before the game
+      body: >
+        Players are screened on the way in. No electronic device may be
+        brought into the playing area.
+    - label: The start
+      body: >
+        The game begins from a fixed starting position, the same one every
+        time: 32 pieces on a board of 64 squares. The clock is set to the
+        time control for the event, which may give each player hours or only
+        minutes.
+    - label: Moves and the clock
+      body: >
+        The two players move in turn, and each has a limited amount of time
+        for the whole game. With an increment, a few seconds are added for
+        every move. An illegal move is penalised, and the penalty grows if it
+        happens again.
+    - label: The arbiter
+      body: >
+        An arbiter watches the clock, the conduct of the players and the
+        conditions in the room. The arbiter never judges the play, because
+        the position on the board is a fact.
+    - label: How it ends
+      body: >
+        A player wins by checkmate, which is an attack on the opponent's king
+        that it cannot escape. A player also wins if the opponent resigns or
+        runs out of time. The two players may agree a draw.
+    - label: The score
+      body: >
+        A win scores one point, a draw half a point each, and a loss nothing.
+        In a tournament the highest total wins, and ties are settled by
+        published tie-break systems. Every game also changes each player's
+        rating.
+
 sections:
   - id: object
     label: The object of the game
