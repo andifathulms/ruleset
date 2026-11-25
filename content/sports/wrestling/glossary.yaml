@@ -1,0 +1,104 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how wrestling is contested, not
+# claims about its history, and nothing here carries a cause or a date.
+
+sport: wrestling
+terms:
+  - id: freestyle
+    term: Freestyle
+    definition: >
+      The style in which a wrestler may attack the opponent's legs and use
+      their own legs to trip, lift and hold.
+    see: prohibitions
+  - id: greco-roman
+    term: Greco-Roman
+    definition: >
+      The style in which every hold must be above the waist. A wrestler may
+      not attack the opponent's legs or use their own legs in a hold.
+    see: prohibitions
+  - id: bout
+    term: Bout
+    definition: >
+      One contest between two wrestlers: two periods of three minutes, unless
+      it ends early.
+    see: duration
+  - id: takedown
+    term: Takedown
+    definition: >
+      Bringing the opponent from standing down to the mat and gaining control
+      of them. It is the most common way to score.
+    see: scoring
+  - id: exposure
+    term: Exposure
+    definition: >
+      Turning the opponent so that their back faces the mat. It scores points
+      and is the step before a fall.
+    see: scoring
+  - id: grand-amplitude
+    term: Throw of grand amplitude
+    definition: >
+      A throw that lifts the opponent off the mat and carries them through the
+      air in a high arc. It is the highest-scoring action.
+    see: scoring
+  - id: fall
+    term: Fall
+    definition: >
+      Holding both of the opponent's shoulders on the mat, also called a pin.
+      It wins the bout at once, whatever the score.
+    see: object
+  - id: technical-superiority
+    term: Technical superiority
+    definition: >
+      A lead so large that the bout is stopped: ten points in freestyle,
+      eight in Greco-Roman.
+    see: scoring
+  - id: step-out
+    term: Step-out
+    definition: >
+      A wrestler stepping outside the contest circle. The opponent gets a
+      point.
+    see: field
+  - id: passivity
+    term: Passivity
+    definition: >
+      Not trying to score: backing away, blocking, or holding without
+      attacking. The referee warns the wrestler and then penalises it.
+    see: restarts
+  - id: passivity-zone
+    term: Passivity zone
+    definition: >
+      The coloured band, one metre wide, at the outer edge of the contest
+      circle. It shows the wrestlers that they are close to stepping out.
+    see: field
+  - id: shot-clock
+    term: Shot clock
+    definition: >
+      The timer started against a wrestler who has been warned for passivity.
+      If that wrestler does not score before it runs out, the opponent gets a
+      point.
+    see: restarts
+  - id: par-terre
+    term: Par terre
+    definition: >
+      Wrestling on the mat instead of on the feet. As a penalty position, one
+      wrestler is on hands and knees and the opponent starts behind them.
+    see: restarts
+  - id: caution
+    term: Caution
+    definition: >
+      A formal penalty for breaking a rule. Cautions add up, and enough of
+      them means disqualification.
+    see: prohibitions
+  - id: challenge
+    term: Challenge
+    definition: >
+      A coach's request for the officials to look at the video of an action
+      and check the points they gave.
+    see: players
+  - id: weigh-in
+    term: Weigh-in
+    definition: >
+      The official check, on a scale, that a wrestler is within the limit of
+      their weight category before competing.
+    see: equipment

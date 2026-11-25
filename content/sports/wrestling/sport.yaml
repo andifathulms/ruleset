@@ -1,6 +1,6 @@
 id: wrestling
 label: Wrestling
-tagline: Voted off the Olympic programme in 2013, and rewrote its rules and its governance in seven months to get back on.
+tagline: "A combat sport with no striking: two wrestlers grip each other and try to throw, take down and pin the opponent on a mat."
 governing_body: United World Wrestling
 founded: >
   International federation founded 1912 as the IAWF; became FILA, and renamed
@@ -11,10 +11,17 @@ classification:
   official: wrestling
   game-category: outside-taxonomy
   adjudication: combat
+glance:
+  - { value: "2 × 3 min", label: periods in a bout }
+  - { value: "9 m", label: circle on the mat }
+  - { value: "2", label: styles of wrestling }
 summary: >
-  Every other sport on this site changed its rules because of an incident, a
-  technology or an audience. Wrestling changed its rules because it had been
-  voted off the Olympic programme and had seven months to persuade the IOC to
-  reverse the decision. It rewrote its scoring, its bout structure, its
-  leadership and its event programme inside that window, and it worked.
+  Two wrestlers of the same weight category meet on a circular mat and try to
+  take each other down and control each other. Pinning both of the opponent's
+  shoulders to the mat ends the bout at once. Otherwise points decide it:
+  points for a takedown, for turning the opponent onto their back, for a high
+  throw, and when the opponent steps off the mat. A bout is two periods of
+  three minutes. There are two styles. In freestyle the legs may be attacked
+  and used. In Greco-Roman every hold must be above the waist. A wrestler who
+  will not attack is put on a clock and must score or give up a point.
 cover: wrestling-asgarov-2016

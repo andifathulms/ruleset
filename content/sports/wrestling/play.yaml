@@ -10,6 +10,52 @@ summary: >
   the waist are forbidden — and almost every scoring rule in the book exists to
   stop a stalemate.
 
+walkthrough:
+  title: One bout, from the whistle to the win
+  intro: >
+    The two styles follow the same sequence. The only difference is that
+    Greco-Roman wrestlers may not attack below the waist or use their legs.
+  steps:
+    - label: Two wrestlers, three officials
+      body: >
+        Two wrestlers from the same weight category face each other on a
+        circular mat. A referee is on the mat with them. A judge and a mat
+        chairman watch from the side, and the three award points by agreement.
+    - label: On the feet
+      body: >
+        Each wrestler tries to bring the other down to the mat and take
+        control. That is a takedown, and it scores two or four points. A throw
+        that carries the opponent high through the air scores five.
+    - label: On the mat
+      body: >
+        A wrestler in control tries to turn the opponent and expose their back
+        to the mat, which scores more points. If both of the opponent's
+        shoulders are pinned to the mat, it is a fall. A fall ends the bout at
+        once, whatever the score.
+    - label: The edge
+      body: >
+        The contest area is a circle nine metres across, with a one-metre
+        passivity zone as its outer band. A wrestler who steps out gives a
+        point to the opponent, so pushing the opponent to the edge is a way to
+        score.
+    - label: Passivity
+      body: >
+        A wrestler who will not attack is warned for passivity and put on a
+        shot clock. They must score within a set time or the opponent gets a
+        point. In Greco-Roman the passive wrestler goes down on hands and
+        knees, in par terre, with the opponent behind them.
+    - label: The clock and the score
+      body: >
+        A bout is two periods of three minutes with a thirty-second break.
+        Points add up across the whole bout. A lead of ten points in
+        freestyle, or eight in Greco-Roman, ends the bout early.
+    - label: The winner
+      body: >
+        The winner is the wrestler who scores a fall, reaches the winning
+        lead, or has more points after six minutes. If the scores are level,
+        the wrestler with fewer penalties wins, and after that the one who
+        scored the last point.
+
 sections:
   - id: object
     label: The object of the bout
@@ -31,6 +77,7 @@ sections:
     facts:
       - { label: Contest circle, value: 9 m diameter }
       - { label: Passivity zone, value: 1 m band at the edge }
+      - { label: Protection area, value: 1.5 m wide, note: "The border around the contest circle." }
       - { label: Stepping out, value: A point to the opponent }
 
   - id: equipment
