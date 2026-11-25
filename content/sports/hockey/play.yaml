@@ -10,6 +10,47 @@ summary: >
   happens in a small, crowded area, which is also why almost all of its
   officiating technology points there.
 
+walkthrough:
+  title: One attack, from the halfway line to the goal
+  intro: >
+    A match is four quarters of attacks like this one, with the ball moving
+    from one end of the pitch to the other.
+  steps:
+    - label: Moving the ball
+      body: >
+        Players pass and dribble the ball with their sticks. Only the flat face
+        of the stick may touch it, never the rounded side and never the body.
+        There is no offside, so an attacker may wait anywhere on the pitch.
+    - label: Fouls and free hits
+      body: >
+        Playing the ball with the rounded side or the body is a foul. So is
+        obstruction: standing between an opponent and the ball without playing
+        it. So is dangerous play. The other team gets a free hit, and the
+        player who takes it may pass or simply carry on with the ball.
+    - label: Into the circle
+      body: >
+        To score, the attack must get into the shooting circle, the semicircle
+        in front of the goal. A goal counts only if an attacker plays the ball
+        inside it. A shot from outside is worth nothing, however good.
+    - label: The penalty corner
+      body: >
+        When the defence commits certain fouls inside its own circle, the
+        attack gets a penalty corner. One attacker plays the ball out from the
+        backline. The defenders start behind their goal line and
+        run out, and the attackers try to stop the ball and shoot. The rules
+        also have a penalty stroke: one shot at goal from 6.4 metres.
+    - label: The goal
+      body: >
+        Every goal is worth one, from open play, a penalty corner or a penalty
+        stroke. The clock stops after a goal, and play restarts from the
+        halfway line.
+    - label: The end of the match
+      body: >
+        A match is four quarters of fifteen minutes. The team with more goals
+        wins. In pool matches a draw stands. In a knockout match a draw goes to
+        a shoot-out: an attacker has eight seconds to score against the
+        goalkeeper, one on one.
+
 sections:
   - id: object
     label: The object of the game
@@ -37,6 +78,7 @@ sections:
       - { label: Pitch, value: 91.4 × 55 m }
       - { label: Surface, value: Artificial turf }
       - { label: Shooting circle, value: 14.63 m radius }
+      - { label: 23-metre lines, value: 22.9 m from each backline }
       - { label: Goal, value: 3.66 × 2.14 m }
     shaped_by: [fih-1976-artificial-turf]
 
@@ -58,8 +100,8 @@ sections:
   - id: players
     label: Players and officials
     body: >
-      Eleven a side with rolling substitutions — players may come on and off
-      continuously, which no other sport on this site permits so freely.
+      Eleven a side with rolling substitutions: players may come on and off
+      continuously, as often as the team likes.
 
       Two umpires, one per half of the pitch, plus a video umpire. Referrals
       are limited to incidents in the circle and each team keeps a successful

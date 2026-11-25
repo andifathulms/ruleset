@@ -1,0 +1,91 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: hockey
+terms:
+  - id: shooting-circle
+    term: Shooting circle
+    definition: >
+      The semicircle in front of each goal. A goal counts only if an attacker
+      plays the ball inside it.
+    see: object
+  - id: flat-face
+    term: Flat face
+    definition: >
+      The flat side of the stick, the only side allowed to play the ball.
+      Touching the ball with the rounded side is a foul.
+    see: equipment
+  - id: reverse-stick
+    term: Reverse stick
+    definition: >
+      Turning the stick over so that its flat face meets the ball on the
+      player's left side. It is how players reach a ball on that side without
+      using the rounded side.
+    see: equipment
+  - id: penalty-corner
+    term: Penalty corner
+    definition: >
+      A set piece given for certain fouls by defenders in their own circle. An
+      attacker plays the ball out from the backline, and the defenders run out
+      from behind their goal line.
+    see: scoring
+  - id: injection
+    term: Injection
+    definition: >
+      The pass from the backline that starts a penalty corner.
+    see: restarts
+  - id: drag-flick
+    term: Drag flick
+    definition: >
+      A shot in which the player drags the ball along the stick and slings it
+      at goal, often in the air. It is the usual shot at a penalty corner.
+  - id: penalty-stroke
+    term: Penalty stroke
+    definition: >
+      A single shot at goal from 6.4 metres, with only the goalkeeper to beat.
+    see: scoring
+  - id: free-hit
+    term: Free hit
+    definition: >
+      The restart given to a team after the other team commits a foul. The
+      player taking it may pass, or play the ball on and carry on.
+    see: restarts
+  - id: self-pass
+    term: Self-pass
+    definition: >
+      Taking a free hit by playing the ball to yourself and carrying on with
+      it, instead of passing to a teammate.
+    see: restarts
+  - id: obstruction
+    term: Obstruction
+    definition: >
+      Putting yourself between an opponent and the ball without
+      trying to play it. It is a foul.
+    see: prohibitions
+  - id: offside
+    term: Offside
+    definition: >
+      A rule, in many team sports, that limits where attackers may wait. Hockey
+      has none, so an attacker may stand anywhere, even behind the last
+      defender.
+    see: prohibitions
+  - id: rolling-substitutions
+    term: Rolling substitutions
+    definition: >
+      Players may leave and join the game at any time, as often as the team
+      likes, without play stopping.
+    see: players
+  - id: video-referral
+    term: Video referral
+    definition: >
+      A team's request for the video umpire to check a decision in the circle.
+      A team that is proved right keeps its referral.
+    see: players
+  - id: shoot-out
+    term: Shoot-out
+    definition: >
+      The way a drawn knockout match is decided. An attacker starts away from
+      goal and has eight seconds to score against the goalkeeper, one on one.
+    see: winning

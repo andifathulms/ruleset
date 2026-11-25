@@ -1,6 +1,6 @@
 id: hockey
 label: Hockey
-tagline: The only major invasion sport to abolish offside outright, and the only one whose surface change priced half the world out.
+tagline: Two teams of eleven pass a hard ball with curved sticks and try to score, which they may do only from inside a semicircle in front of the goal.
 governing_body: International Hockey Federation
 founded: Fédération Internationale de Hockey founded 1924.
 coverage: deep
@@ -9,11 +9,16 @@ classification:
   official: hockey
   game-category: invasion
   adjudication: decided-by-score
+glance:
+  - { value: "11", label: players a side }
+  - { value: "60 min", label: "playing time, in four quarters" }
+  - { value: "91.4 m", label: pitch length }
 summary: >
-  Football's 1925 offside change is the most cited rule amendment in sport.
-  Hockey did something no other invasion sport has ever done and simply removed
-  offside altogether in 1998. The larger change was earlier and quieter: from
-  1976 the sport moved onto artificial turf, which made it faster, changed
-  every skill in it, and turned a game playable on any field into one requiring
-  a facility that costs more than most national federations have.
+  Hockey is played eleven a side on an artificial-turf pitch. Players move a
+  hard ball with a stick that may touch it only with its flat face, and
+  they may not play it with the body. A goal counts only if an attacker plays
+  the ball inside the shooting circle, so the game is a long build-up towards
+  two small, crowded areas. There is no offside, so attackers may stand
+  anywhere. Fouls by defenders in their circle give the penalty corner, the
+  set piece that produces many of the goals.
 cover: hockey-the-circle

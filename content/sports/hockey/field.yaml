@@ -1,0 +1,43 @@
+# The pitch, from the measurements in play.yaml. Shapes are in metres. The
+# shooting circle is two quarter circles of 14.63 m centred on the goalposts,
+# joined by a straight line in front of the goal.
+sport: hockey
+title: A long pitch with two circles
+caption: >
+  The pitch is 91.4 metres long and 55 metres wide. In front of each goal is
+  the shooting circle. A goal counts only if an attacker plays the ball inside
+  it, so most of the game is a fight to get there. The circle reaches 14.63
+  metres out from the goal line. The dot in the right-hand circle is the
+  penalty stroke spot, 6.4 metres from goal.
+alt: >
+  A hockey pitch 91.4 metres long and 55 metres wide, with a centre line, a
+  line 22.9 metres from each end, and a shaded shooting circle of 14.63 metres
+  in front of each goal.
+scale: to-scale
+view: [-7, -9, 105, 64]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 91.4, h: 55.0, fill: area }
+  - { type: polygon, points: [[0, 11.04], [-0.0, 11.04], [2.54, 11.26], [5.0, 11.92], [7.32, 13.0], [9.4, 14.46], [11.21, 16.27], [12.67, 18.35], [13.75, 20.67], [14.41, 23.13], [14.63, 25.67], [14.63, 29.33], [14.41, 31.87], [13.75, 34.33], [12.67, 36.64], [11.21, 38.73], [9.4, 40.54], [7.32, 42.0], [5.0, 43.08], [2.54, 43.74], [0.0, 43.96]], fill: zone }
+  - { type: polygon, points: [[91.4, 11.04], [91.4, 11.04], [88.86, 11.26], [86.4, 11.92], [84.09, 13.0], [82.0, 14.46], [80.19, 16.27], [78.73, 18.35], [77.65, 20.67], [76.99, 23.13], [76.77, 25.67], [76.77, 29.33], [76.99, 31.87], [77.65, 34.33], [78.73, 36.64], [80.19, 38.73], [82.0, 40.54], [84.09, 42.0], [86.4, 43.08], [88.86, 43.74], [91.4, 43.96]], fill: zone }
+  - { type: line, x1: 45.7, y1: 0, x2: 45.7, y2: 55.0 }
+  - { type: line, x1: 22.9, y1: 0, x2: 22.9, y2: 55.0, line: dashed }
+  - { type: line, x1: 68.5, y1: 0, x2: 68.5, y2: 55.0, line: dashed }
+  - { type: line, x1: 0, y1: 25.67, x2: 0, y2: 29.33, line: heavy }
+  - { type: line, x1: 91.4, y1: 25.67, x2: 91.4, y2: 29.33, line: heavy }
+  - { type: line, x1: -1.5, y1: 25.67, x2: 0, y2: 25.67 }
+  - { type: line, x1: -1.5, y1: 29.33, x2: 0, y2: 29.33 }
+  - { type: line, x1: 91.4, y1: 25.67, x2: 92.9, y2: 25.67 }
+  - { type: line, x1: 91.4, y1: 29.33, x2: 92.9, y2: 29.33 }
+  - { type: dot, x: 85, y: 27.5 }
+  - { type: label, x: 45.7, y: -2.2, text: "centre line", tone: muted }
+  - { type: label, x: 22.9, y: -2.2, text: "22.9 m line", tone: muted }
+  - { type: label, x: 68.5, y: -2.2, text: "22.9 m line", tone: muted }
+  - { type: label, x: 7, y: 47, text: "circle", tone: chalk }
+  - { type: label, x: 84.4, y: 47, text: "circle", tone: chalk }
+  - { type: label, x: -3, y: 23.5, text: "goal", tone: muted }
+  - { type: dim, x1: 0, y1: 59, x2: 91.4, y2: 59, text: "91.4 m" }
+  - { type: dim, x1: 99, y1: 0, x2: 99, y2: 55.0, text: "55 m" }
+  - { type: dim, x1: 0, y1: 25.67, x2: 14.63, y2: 25.67, text: "14.63 m" }
+legend:
+  - { swatch: zone, label: "shooting circle, the only place to score from" }
+  - { swatch: dashed, label: "22.9 m line" }
