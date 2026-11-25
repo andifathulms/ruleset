@@ -8,6 +8,48 @@ summary: >
   boarded rink forty by twenty metres. No offside, no body checking, no stick
   above the waist — and a goalkeeper who plays without one.
 
+walkthrough:
+  title: One attack, from the face-off to the goal
+  intro: >
+    A match is this sequence again and again, for three periods of twenty
+    minutes.
+  steps:
+    - label: The face-off
+      body: >
+        Each period starts with a face-off at the centre of the rink. One
+        player from each team stands over the ball, and they play for it with
+        their sticks. A face-off also restarts the game after every goal.
+    - label: Moving the ball
+      body: >
+        The team with the ball passes and runs with it, using the stick. An
+        outfield player may not touch the ball with a hand or the head, may
+        not jump to reach it, and may not kick it twice in a row. There is no
+        offside, so an attacker may wait anywhere on the rink.
+    - label: Off the boards
+      body: >
+        Low boards run all the way around the rink, with rounded corners. A
+        ball that hits them bounces back and play goes on. This is why the
+        game stops so rarely.
+    - label: A foul and a free hit
+      body: >
+        The stick must stay below the waist through the whole swing. A player
+        may not push, hold or check an opponent, or hit an opponent's stick.
+        After most fouls the other team gets a free hit: the ball is placed,
+        opponents stand three metres away, and it is struck at once. For a
+        worse foul the player sits in the penalty box for two or five minutes
+        and the team plays one short.
+    - label: The shot
+      body: >
+        The attacker shoots at a goal 160 centimetres wide and 115 high. The
+        goalkeeper defends it kneeling, with no stick, and may catch the ball
+        and throw it back into play. A goal must be scored with the stick.
+    - label: The goal and the match
+      body: >
+        A goal counts one. The clock stops at every whistle, and the team with
+        more goals after three periods wins. A knockout match that is level
+        goes to sudden-death overtime, where the next goal wins, and then to
+        penalty shots taken one against the goalkeeper from the centre.
+
 sections:
   - id: object
     label: The object of the game
@@ -31,6 +73,8 @@ sections:
       - { label: Rink, value: 40 × 20 m }
       - { label: Boards, value: "50 cm, with rounded corners" }
       - { label: Goal, value: 160 × 115 cm }
+      - { label: Goal crease, value: "4 × 5 m, 2.85 m from the end boards" }
+      - { label: Goal line, value: 3.5 m from the end boards }
       - { label: Offside, value: Does not exist }
 
   - id: equipment

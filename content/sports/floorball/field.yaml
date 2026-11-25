@@ -1,0 +1,31 @@
+# The rink, from the measurements in play.yaml. Shapes are in metres.
+sport: floorball
+title: A boarded rink with a crease at each end
+caption: >
+  Boards fifty centimetres high run all the way around, and their corners are
+  rounded so the ball keeps moving. The goal stands 3.5 metres out from the
+  end boards, so play can pass behind it. The shaded rectangle in front of
+  each goal is the goal crease, the goalkeeper's space. There is no offside
+  line anywhere on the rink.
+alt: >
+  A floorball rink 40 metres long and 20 metres wide with a centre line, and at
+  each end a goal crease 4 metres by 5 with a small goal on its goal line.
+scale: to-scale
+view: [-3, -3.5, 45, 25]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 40, h: 20, fill: area, line: heavy }
+  - { type: line, x1: 20, y1: 0, x2: 20, y2: 20 }
+  - { type: rect, x: 2.85, y: 7.5, w: 4, h: 5, fill: zone }
+  - { type: rect, x: 33.15, y: 7.5, w: 4, h: 5, fill: zone }
+  - { type: line, x1: 3.5, y1: 9.2, x2: 3.5, y2: 10.8, line: heavy }
+  - { type: line, x1: 36.5, y1: 9.2, x2: 36.5, y2: 10.8, line: heavy }
+  - { type: dot, x: 20, y: 10 }
+  - { type: label, x: 21, y: 10, text: "face-off", anchor: start, tone: muted }
+  - { type: label, x: 4.85, y: 6.3, text: "goal crease", tone: chalk }
+  - { type: label, x: 20, y: -1.2, text: "boards all round", tone: muted }
+  - { type: dim, x1: 0, y1: 22.5, x2: 40, y2: 22.5, text: "40 m" }
+  - { type: dim, x1: 42.5, y1: 0, x2: 42.5, y2: 20, text: "20 m" }
+  - { type: label, x: 35.15, y: 6.3, text: "goal", tone: muted }
+legend:
+  - { swatch: zone, label: "goal crease, 4 × 5 m" }
+  - { swatch: heavy, label: boards and goals }

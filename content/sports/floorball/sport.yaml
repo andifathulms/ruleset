@@ -1,6 +1,6 @@
 id: floorball
 label: Floorball
-tagline: "An indoor stick sport whose goalkeeper has no stick, plays on their knees, and catches the ball with their hands."
+tagline: "An indoor team game played with light sticks and a hollow plastic ball, in which the goalkeeper kneels, has no stick and uses the hands."
 governing_body: International Floorball Federation
 founded: >
   Developed in Sweden, Finland and Switzerland through the 1970s from American
@@ -12,10 +12,16 @@ classification:
   official: floorball
   game-category: invasion
   adjudication: decided-by-score
+glance:
+  - { value: "5 + 1", label: players a side on the rink }
+  - { value: "3 × 20", label: minutes of play }
+  - { value: "40 × 20 m", label: rink size }
 summary: >
-  Five outfield players and a goalkeeper on a rink forty metres by twenty,
-  playing a light plastic ball with a stick that may never be raised above the
-  waist. There is no offside and no body checking, and the goalkeeper carries
-  no stick at all — they play kneeling and use their hands, which makes them
-  the only goalkeeper in any stick sport who is not holding one.
+  Floorball is played indoors on a rink forty metres by twenty with low boards
+  around it. Each team has five outfield players and a goalkeeper, and tries to
+  put a light plastic ball into a small goal with a stick. The stick may never
+  go above the waist, players may not push or check each other, and there is
+  no offside. The ball bounces off the boards and stays in play, so the game
+  runs from end to end with few stops. The goalkeeper has no stick. They play
+  on their knees, catch the ball with their hands and throw it back into play.
 cover: floorball-faceoff-2022

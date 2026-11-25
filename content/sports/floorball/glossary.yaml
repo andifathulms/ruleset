@@ -1,0 +1,93 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: floorball
+terms:
+  - id: rink
+    term: Rink
+    definition: >
+      The playing area: a hall floor forty metres by twenty with boards all
+      the way around it.
+    see: field
+  - id: boards
+    term: Boards
+    definition: >
+      The low wall around the rink, fifty centimetres high, with rounded
+      corners. A ball that hits the boards bounces back and stays in play.
+    see: field
+  - id: blade
+    term: Blade
+    definition: >
+      The curved plastic end of the stick, which touches the ball. The rules
+      limit how deep its curve may be.
+    see: equipment
+  - id: face-off
+    term: Face-off
+    definition: >
+      The way play starts at the beginning of each period and after a goal.
+      One player from each team stands over the ball and both play for it.
+    see: restarts
+  - id: free-hit
+    term: Free hit
+    definition: >
+      The usual restart after a foul. The ball is placed on the floor and
+      struck by the team that was fouled, with opponents at least three metres
+      away.
+    see: restarts
+  - id: high-stick
+    term: High stick
+    definition: >
+      Raising the stick above the waist at any point in a swing. It is a foul
+      whether or not the stick touches anyone.
+    see: prohibitions
+  - id: body-check
+    term: Body check
+    definition: >
+      Using the body to knock or push an opponent off the ball. It is not
+      allowed in floorball.
+    see: prohibitions
+  - id: playing-the-stick
+    term: Playing the stick
+    definition: >
+      Lifting, holding or hitting an opponent's stick in place of the ball. It
+      is a foul.
+    see: prohibitions
+  - id: goal-crease
+    term: Goal crease
+    definition: >
+      The marked rectangle in front of each goal, four metres by five. It is
+      the goalkeeper's space.
+    see: field
+  - id: goalkeeper
+    term: Goalkeeper
+    definition: >
+      The one player who defends the goal. The goalkeeper has no stick, plays
+      from the knees, and may catch the ball and throw it.
+    see: players
+  - id: penalty-box
+    term: Penalty box
+    definition: >
+      The bench beside the rink where a penalised player sits for two or five
+      minutes. The player's team has one player fewer on the rink during that
+      time.
+    see: prohibitions
+  - id: rolling-substitution
+    term: Rolling substitution
+    definition: >
+      Changing players while the game goes on. One player steps off the rink
+      and another steps on, without a stop in play.
+    see: players
+  - id: overtime
+    term: Sudden-death overtime
+    definition: >
+      Extra time played when a knockout match is level. The first goal ends
+      the match.
+    see: winning
+  - id: penalty-shot
+    term: Penalty shot
+    definition: >
+      One attacker against the goalkeeper, starting from the centre. The
+      attacker must keep the ball moving forward the whole way.
+    see: winning
