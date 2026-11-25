@@ -1,0 +1,39 @@
+# The court, from the measurements in play.yaml. Shapes are in metres.
+sport: sepak-takraw
+title: A small court with three marked places
+caption: >
+  The court is the size of a badminton doubles court. The serving side is shown
+  on the left. The server, the tekong, keeps one foot in the service circle,
+  and the two team-mates stand in the quarter circles at the net until the
+  ball is kicked. One of them tosses the ball to the tekong.
+alt: >
+  A sepak takraw court 13.4 metres long and 6.1 metres wide, divided by a net.
+  Each half has a small service circle near the back line and a quarter circle
+  at each end of the net.
+scale: to-scale
+view: [-1.6, -1.6, 15.6, 8.3]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 13.4, h: 6.1, fill: area }
+  - { type: polygon, points: [[6.7, 0], [6.7, 0.9], [6.544, 0.886], [6.392, 0.846], [6.25, 0.779], [6.121, 0.689], [6.011, 0.579], [5.921, 0.45], [5.854, 0.308], [5.814, 0.156], [5.8, 0.0]], fill: zone, line: none }
+  - { type: polygon, points: [[6.7, 6.1], [5.8, 6.1], [5.814, 5.944], [5.854, 5.792], [5.921, 5.65], [6.011, 5.521], [6.121, 5.411], [6.25, 5.321], [6.392, 5.254], [6.544, 5.214], [6.7, 5.2]], fill: zone, line: none }
+  - { type: polygon, points: [[6.7, 0], [7.6, 0.0], [7.586, 0.156], [7.546, 0.308], [7.479, 0.45], [7.389, 0.579], [7.279, 0.689], [7.15, 0.779], [7.008, 0.846], [6.856, 0.886], [6.7, 0.9]], fill: zone, line: none }
+  - { type: polygon, points: [[6.7, 6.1], [6.7, 5.2], [6.856, 5.214], [7.008, 5.254], [7.15, 5.321], [7.279, 5.411], [7.389, 5.521], [7.479, 5.65], [7.546, 5.792], [7.586, 5.944], [7.6, 6.1]], fill: zone, line: none }
+  - { type: arc, cx: 6.7, cy: 0, r: 0.9, from: 90, to: 180 }
+  - { type: arc, cx: 6.7, cy: 6.1, r: 0.9, from: 180, to: 270 }
+  - { type: arc, cx: 6.7, cy: 0, r: 0.9, from: 0, to: 90 }
+  - { type: arc, cx: 6.7, cy: 6.1, r: 0.9, from: 270, to: 360 }
+  - { type: circle, cx: 2.45, cy: 3.05, r: 0.3, fill: target }
+  - { type: circle, cx: 10.95, cy: 3.05, r: 0.3, fill: target }
+  - { type: line, x1: 6.7, y1: -0.5, x2: 6.7, y2: 6.6, line: heavy }
+  - { type: label, x: 6.7, y: -0.95, text: "net", tone: muted }
+  - { type: dot, x: 2.45, y: 3.05, label: "tekong" }
+  - { type: dot, x: 6.3, y: 0.4 }
+  - { type: dot, x: 6.3, y: 5.7 }
+  - { type: label, x: 5.6, y: 0.75, text: "team-mate", anchor: end, tone: muted }
+  - { type: label, x: 5.6, y: 5.5, text: "team-mate", anchor: end, tone: muted }
+  - { type: label, x: 10.95, y: 3.95, text: "service circle", tone: muted }
+  - { type: dim, x1: 0, y1: 7.3, x2: 13.4, y2: 7.3, text: "13.4 m" }
+  - { type: dim, x1: 14.4, y1: 0, x2: 14.4, y2: 6.1, text: "6.1 m" }
+legend:
+  - { swatch: target, label: "service circle, 0.3 m radius" }
+  - { swatch: zone, label: "quarter circles, 0.9 m radius" }

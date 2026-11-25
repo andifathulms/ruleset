@@ -1,0 +1,83 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: sepak-takraw
+terms:
+  - id: regu
+    term: Regu
+    definition: >
+      A team of three players. It is also the name of the main form of the
+      game, three against three over a net.
+    see: players
+  - id: tekong
+    term: Tekong
+    definition: >
+      The player who serves. The tekong stands near the back of the court and
+      plays deep during the rally.
+    see: players
+  - id: feeder
+    term: Feeder
+    definition: >
+      The player who sets: a soft, high touch that puts the ball where a
+      team-mate can spike it.
+    see: players
+  - id: killer
+    term: Killer
+    definition: >
+      The player who usually spikes the ball to finish the rally.
+    see: players
+  - id: touch
+    term: Touch
+    definition: >
+      One contact with the ball, made with a foot, knee, chest or head. A side
+      has three touches to return the ball, and one player may take all three.
+    see: object
+  - id: spike
+    term: Spike
+    definition: >
+      The attacking shot. The player jumps and kicks the ball downward from
+      above the net, often while upside down or turning in the air.
+    see: object
+  - id: block
+    term: Block
+    definition: >
+      A jump at the net to stop a spike as it crosses. The blocker may follow
+      through over the net and may not touch the ball on the other side.
+    see: prohibitions
+  - id: serve
+    term: Serve
+    definition: >
+      The kick that starts a rally. A team-mate tosses the ball to the tekong,
+      who kicks it over the net.
+    see: restarts
+  - id: service-circle
+    term: Service circle
+    definition: >
+      The small circle in each half where the tekong stands to serve. One foot
+      must stay on the ground inside it until the ball is kicked.
+    see: restarts
+  - id: quarter-circle
+    term: Quarter circle
+    definition: >
+      A marked area at each end of the net. The tekong's two team-mates stand
+      in the quarter circles until the serve is kicked.
+    see: field
+  - id: rally
+    term: Rally
+    definition: >
+      One exchange, from the serve until one side fails to return the ball
+      legally. Every rally scores one point.
+    see: scoring
+  - id: set
+    term: Set
+    definition: >
+      One part of a match, played to 21 points. A match is the best of three
+      sets.
+    see: duration
+  - id: circle-game
+    term: Circle game
+    definition: >
+      The traditional form. A group stands in a circle and keeps the ball in
+      the air together, with no net and no opponent.

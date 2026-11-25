@@ -8,6 +8,49 @@ summary: >
   badminton doubles court. Three touches a side, taken with feet, knees, chest
   or head — never the hands — and one player may take all three.
 
+walkthrough:
+  title: "One rally, from the serve to the point"
+  intro: >
+    This is regu, the three-a-side game, which is the main form of the sport.
+  steps:
+    - label: "Three a side, no hands"
+      body: >
+        Each side has three players, called a regu. They may play the ball
+        with a foot, a knee, the chest or the head. Touching it with a hand or
+        an arm is a fault.
+    - label: "Taking position"
+      body: >
+        The server, called the tekong, stands with one foot inside the service
+        circle. The two team-mates stand in the quarter circles at the net and
+        must stay there until the ball is kicked.
+    - label: "The serve"
+      body: >
+        A team-mate tosses the ball to the tekong, who kicks it over the net.
+        The kicking foot may leave the ground. The other foot must stay on the
+        ground in the circle until the ball is struck.
+    - label: "Three touches"
+      body: >
+        The receiving side has at most three touches to send the ball back.
+        One player may take all three, or the players may share them. Usually
+        one touch controls the ball, one sets it up near the net, and the last
+        is the attack.
+    - label: "Spike and block"
+      body: >
+        The attack is a spike, a kick from above the net that sends the ball
+        down into the other court. The defenders may jump to block it. Nobody
+        may touch the net or cross under it, and a blocker may not touch the
+        ball on the opponent's side.
+    - label: "The point"
+      body: >
+        The rally ends when a side cannot return the ball legally. The other
+        side scores one point, whoever served. A spike, a serve that is not
+        returned and an opponent's error are all worth one.
+    - label: "The set and the match"
+      body: >
+        A set is played to 21 points. A tied set goes on until one side leads
+        by two, up to a cap, and at the cap the next point decides it. The
+        first side to win two sets wins the match, and a third set is shorter.
+
 sections:
   - id: object
     label: The object of the game
@@ -37,6 +80,8 @@ sections:
       - { label: Same as, value: A badminton doubles court }
       - { label: "Net height, men", value: 1.52 m }
       - { label: "Net height, women", value: 1.42 m }
+      - { label: Service circle, value: "0.3 m radius, centre 2.45 m from the back line" }
+      - { label: Quarter circles, value: "0.9 m radius, at the net posts" }
 
   - id: equipment
     label: Equipment
