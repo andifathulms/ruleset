@@ -1,0 +1,100 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: water-polo
+terms:
+  - id: swim-off
+    term: Swim-off
+    definition: >
+      The start of each period. The ball is dropped at halfway and one player
+      from each team races to reach it first.
+    see: restarts
+  - id: possession-clock
+    term: Possession clock
+    definition: >
+      The clock that limits an attack. A team must shoot within 28 seconds of
+      getting the ball, or the ball goes to the other team.
+    see: scoring
+  - id: reset
+    term: Reset
+    definition: >
+      Putting the possession clock back to 18 seconds. It happens after a
+      corner, after the attack keeps a rebound, and after an exclusion.
+    see: scoring
+  - id: free-throw
+    term: Free throw
+    definition: >
+      The restart after an ordinary foul. The fouled team puts the ball back
+      into play from where it is.
+    see: restarts
+  - id: ordinary-foul
+    term: Ordinary foul
+    definition: >
+      A small foul that costs only a free throw.
+    see: prohibitions
+  - id: major-foul
+    term: Major foul
+    definition: >
+      A serious foul, such as holding, sinking or pulling back a player who
+      does not have the ball. It is punished with an exclusion.
+    see: prohibitions
+  - id: exclusion
+    term: Exclusion
+    definition: >
+      Sending a player out of the game for 18 seconds after a major foul. The
+      player waits in the re-entry area and returns when the time is up or
+      when their team wins the ball.
+    see: prohibitions
+  - id: re-entry-area
+    term: Re-entry area
+    definition: >
+      The corner at a team's own end where excluded players wait and
+      substitutes come in.
+    see: players
+  - id: power-play
+    term: Power play
+    definition: >
+      The time one team has a player more because an opponent is excluded. It
+      is the likeliest time to score.
+    see: prohibitions
+  - id: personal-foul
+    term: Personal foul
+    definition: >
+      A major foul counted against the player who made it. A player with three
+      is out for the rest of the match.
+    see: prohibitions
+  - id: penalty
+    term: Penalty
+    definition: >
+      A free shot at goal from five metres, with only the goalkeeper to beat.
+      It is given for a foul that stops a likely goal inside six metres.
+    see: prohibitions
+  - id: corner
+    term: Corner
+    definition: >
+      A throw awarded to the attacking team from the corner of the field. A
+      goal may be scored from it directly.
+    see: scoring
+  - id: centre-forward
+    term: Centre forward
+    definition: >
+      The attacker who takes position in front of the opponents' goal, with a
+      defender on their back.
+  - id: eggbeater
+    term: Eggbeater
+    definition: >
+      The kick players use to tread water upright with both hands free.
+  - id: cap
+    term: Cap
+    definition: >
+      The numbered cap each player wears, with guards over the ears. One team
+      wears white, the other blue, and goalkeepers wear red.
+    see: equipment
+  - id: shootout
+    term: Penalty shootout
+    definition: >
+      The way a drawn match is decided when a winner is needed. Five players
+      from each team take a penalty in turn.
+    see: winning

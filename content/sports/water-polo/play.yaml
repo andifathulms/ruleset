@@ -9,6 +9,47 @@ summary: >
   and a game clock that stops on every whistle. Those three numbers are the
   rules the federation changes most often.
 
+walkthrough:
+  title: One attack, from the swim-off to the goal
+  intro: >
+    A match is four periods of eight minutes, and each period is a string of
+    attacks like this one.
+  steps:
+    - label: The swim-off
+      body: >
+        The teams line up at their own ends. The referee drops the ball at
+        halfway, and the fastest swimmer from each team races for it. The
+        team that gets there first has the ball.
+    - label: Twenty-eight seconds
+      body: >
+        The team with the ball has 28 seconds to shoot. The players pass the
+        ball while they swim or tread water. Nobody may touch the bottom or
+        hold the side, and a tackled player may not take the ball under the
+        water.
+    - label: An ordinary foul
+      body: >
+        Contact is allowed, and fouls are frequent. An ordinary foul gives the
+        other team a free throw from where the ball is. The game hardly
+        stops.
+    - label: A major foul
+      body: >
+        Holding, sinking or pulling back a player who does not have the ball
+        is a major foul. The offender goes to the re-entry area for 18
+        seconds, or until their team wins the ball back. The attack now has
+        one player more, and its clock is reset to 18 seconds. A foul that
+        stops a likely goal inside six metres is a penalty, thrown from five
+        metres.
+    - label: The shot
+      body: >
+        A goal may be thrown from anywhere, and counts one point. If the shot
+        misses and the attack keeps the rebound, or wins a corner, it gets 18
+        more seconds. If the clock runs out, the ball goes to the other team.
+    - label: The match
+      body: >
+        The clock stops on every whistle. The team with more goals after four
+        periods wins. When a drawn match needs a winner there is no extra
+        time: five players from each team take penalties.
+
 sections:
   - id: object
     label: The object of the game
@@ -28,6 +69,7 @@ sections:
     facts:
       - { label: Length, value: 25 m between the goal lines }
       - { label: Width, value: 20 m }
+      - { label: Six-metre line, value: 6 m from each goal line }
       - { label: Depth, value: "2 m minimum" }
       - { label: Goal, value: "3 m wide, crossbar 0.9 m above the water" }
       - { label: Water temperature, value: 25–27 °C }

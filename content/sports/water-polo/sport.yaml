@@ -1,6 +1,6 @@
 id: water-polo
 label: Water polo
-tagline: Most of the fouling happens where nobody can see it, so the federation keeps changing the clock instead.
+tagline: "A team ball game played in deep water, where seven swimmers a side pass the ball by hand and throw it into a goal, and nobody may touch the bottom."
 governing_body: World Aquatics
 founded: >
   Devised as "aquatic football" in Scotland in 1877; governed internationally
@@ -11,11 +11,17 @@ classification:
   official: aquatics
   game-category: invasion
   adjudication: decided-by-score
+glance:
+  - { value: "7", label: players a side in the water }
+  - { value: "28 s", label: to take a shot }
+  - { value: "25 m", label: between the goal lines }
 summary: >
-  Seven a side in water too deep to stand in, with a shot clock and a sin bin
-  measured in seconds. Water polo has rewritten its possession and exclusion
-  times more often than any other team sport on this site, and in 2024–25 it
-  changed them, met opposition, and changed them back halfway inside six
-  months. The constant behind all of it is that the contest the referees most
-  need to see happens under the surface.
+  Water polo is played in a pool at least two metres deep, so every player
+  swims or treads water for the whole match. Seven players a side, one of them
+  usually a goalkeeper, pass the ball and throw it at a goal three metres
+  wide. A team has 28 seconds to shoot. Contact is allowed and never stops,
+  and a player who holds, sinks or pulls back an opponent without the ball is
+  sent out for 18 seconds, which leaves the other team a player up. Much of
+  the struggle for position happens under the surface, where it is hard to
+  see.
 cover: water-polo-centre-forward

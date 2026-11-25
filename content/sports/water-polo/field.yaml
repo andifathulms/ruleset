@@ -1,0 +1,37 @@
+# The field of play, from the measurements in play.yaml. Shapes are in metres.
+sport: water-polo
+title: A field marked on the water
+caption: >
+  Floating lines mark the field in a pool at least two metres deep. The shaded
+  water is within six metres of a goal. A foul there that stops a likely goal
+  is a penalty, thrown from the five-metre line. A free throw given outside
+  the six-metre line may be shot straight at goal.
+alt: >
+  A water polo field 25 metres between the goal lines and 20 metres wide, with
+  a goal 3 metres wide at each end, a halfway line, and lines 5 and 6 metres
+  from each goal line.
+scale: to-scale
+view: [-3.5, -3.2, 29.5, 24.5]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 25, h: 20, fill: area }
+  - { type: rect, x: 0, y: 0, w: 6, h: 20, fill: zone, line: none }
+  - { type: rect, x: 19, y: 0, w: 6, h: 20, fill: zone, line: none }
+  - { type: line, x1: 6, y1: 0, x2: 6, y2: 20 }
+  - { type: line, x1: 19, y1: 0, x2: 19, y2: 20 }
+  - { type: line, x1: 5, y1: 0, x2: 5, y2: 20, line: dashed }
+  - { type: line, x1: 20, y1: 0, x2: 20, y2: 20, line: dashed }
+  - { type: line, x1: 12.5, y1: 0, x2: 12.5, y2: 20, line: faint }
+  - { type: line, x1: 0, y1: 8.5, x2: 0, y2: 11.5, line: heavy }
+  - { type: line, x1: 25, y1: 8.5, x2: 25, y2: 11.5, line: heavy }
+  - { type: label, x: -0.6, y: 10, text: "goal", anchor: end, tone: muted }
+  - { type: label, x: 12.9, y: 18.8, text: "halfway", anchor: start, tone: muted }
+  - { type: dot, x: 20, y: 10 }
+  - { type: label, x: 18.5, y: 10, text: "penalty", anchor: end, tone: muted }
+  - { type: dim, x1: 0, y1: -1.2, x2: 6, y2: -1.2, text: "6 m" }
+  - { type: dim, x1: 20, y1: -1.2, x2: 25, y2: -1.2, text: "5 m" }
+  - { type: dim, x1: 0, y1: 22, x2: 25, y2: 22, text: "25 m" }
+  - { type: dim, x1: 27, y1: 0, x2: 27, y2: 20, text: "20 m" }
+legend:
+  - { swatch: zone, label: "within 6 m of goal" }
+  - { swatch: dashed, label: "5 m line" }
+  - { swatch: heavy, label: "goal, 3 m wide" }
