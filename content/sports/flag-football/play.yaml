@@ -8,6 +8,50 @@ summary: >
   American football pitch. No tackling, no blocking, no kicking of any kind.
   A ball carrier is down when someone pulls a flag off their belt.
 
+walkthrough:
+  title: One drive, from the five-yard line to the end zone
+  intro: >
+    A match is a series of drives. Each one starts in the same place and ends
+    in a touchdown or with the ball going to the other team.
+  steps:
+    - label: Where a drive starts
+      body: >
+        There is no kick-off. The team with the ball, the offence, starts on
+        its own five-yard line. Each team has five players on the field, and
+        every one of them may catch a pass.
+    - label: The snap
+      body: >
+        Each play begins with the snap. One player passes the ball from the
+        ground back to the quarterback. The quarterback must then release the
+        ball within a short count.
+    - label: The play
+      body: >
+        The offence moves the ball by passing it or running with it. Nobody
+        may block. The defence stops the ball carrier by pulling a flag from
+        their belt, without touching their body. The carrier may not shield a
+        flag with a hand, an arm or the ball.
+    - label: Four downs
+      body: >
+        Each play is called a down. The offence has four downs to reach the
+        halfway line. If it gets there, it has four more to score. If it
+        fails, the ball goes to the other team. There is no punt.
+    - label: The no-run zones
+      body: >
+        In the five yards before the halfway line and the five yards before
+        the end zone, the offence may not run the ball. It must pass.
+    - label: The touchdown
+      body: >
+        Carrying or catching the ball in the opponent's end zone is a
+        touchdown, worth six points. The scoring team then tries a conversion,
+        one more play for extra points. The farther from the goal line it
+        chooses to start, the more points the conversion is worth.
+    - label: Time and the result
+      body: >
+        A match is two halves of twenty minutes, and the clock runs except in
+        the last two minutes of each half. The team with more points wins. If
+        the score is level, the teams take single plays in turn from the
+        five-yard line, with the same number of attempts each.
+
 sections:
   - id: object
     label: The object of the game
@@ -16,7 +60,7 @@ sections:
       to reach the halfway line and, having reached it, four more to score.
 
       Because there is no punt and no field goal, a failed drive simply hands
-      the ball over where it lies. Every possession ends in a touchdown or a
+      the ball over. Every possession ends in a touchdown or a
       turnover, which is why the game is played at the pace it is.
     shaped_by: [flag-no-punt-no-kick]
 
@@ -37,7 +81,7 @@ sections:
   - id: equipment
     label: Equipment
     body: >
-      A belt carrying two flags on each hip, and a ball. No helmet, no pads, no
+      A belt carrying two flags, one on each hip, and a ball. No helmet, no pads, no
       protective equipment of any kind, because there is nothing to protect
       against.
 

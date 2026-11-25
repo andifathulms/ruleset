@@ -1,0 +1,97 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: flag-football
+terms:
+  - id: flag
+    term: Flag
+    definition: >
+      A strip that hangs from a player's belt, one on each hip. It must come
+      away cleanly when it is pulled.
+    see: equipment
+  - id: flag-pull
+    term: Flag pull
+    definition: >
+      The way a ball carrier is stopped. A defender pulls a flag off the
+      carrier's belt, and the play ends at that spot.
+    see: prohibitions
+  - id: flag-guarding
+    term: Flag guarding
+    definition: >
+      Using a hand, an arm or the ball to keep a defender away from a flag. It
+      is an offence by the ball carrier.
+    see: prohibitions
+  - id: offence
+    term: Offence
+    definition: >
+      The team that has the ball and is trying to score. The other team is the
+      defence.
+    see: object
+  - id: down
+    term: Down
+    definition: >
+      One play, from the snap until the ball carrier is stopped or the pass is
+      not caught. The offence has four downs to reach the halfway line, and
+      then four more to score.
+    see: object
+  - id: turnover
+    term: Turnover
+    definition: >
+      The ball passing to the other team, because the offence used its four
+      downs without getting far enough or because the defence caught a pass.
+    see: object
+  - id: snap
+    term: Snap
+    definition: >
+      The start of every play. A player passes the ball from the ground,
+      often between the legs, back to the quarterback.
+    see: restarts
+  - id: quarterback
+    term: Quarterback
+    definition: >
+      The player who receives the snap and usually throws the pass. The
+      quarterback must release the ball within a short count.
+    see: restarts
+  - id: line-of-scrimmage
+    term: Line of scrimmage
+    definition: >
+      The line across the field where the ball is placed before a play. The
+      two teams line up on either side of it.
+    see: restarts
+  - id: end-zone
+    term: End zone
+    definition: >
+      The area ten yards deep at each end of the field. A team scores by
+      getting the ball into the opponent's end zone.
+    see: field
+  - id: touchdown
+    term: Touchdown
+    definition: >
+      Carrying the ball into the opponent's end zone, or catching it there. It
+      is worth six points.
+    see: scoring
+  - id: conversion
+    term: Conversion
+    definition: >
+      A single extra play after a touchdown. The scoring team chooses how far
+      from the goal line to start, and a longer distance is worth more points.
+    see: scoring
+  - id: no-run-zone
+    term: No-run zone
+    definition: >
+      The five yards before the halfway line and the five yards before the end
+      zone. An offence that starts a play there must pass the ball.
+    see: field
+  - id: interception
+    term: Interception
+    definition: >
+      A pass caught by a defender. The defender's team takes over the ball.
+    see: scoring
+  - id: blocking
+    term: Blocking
+    definition: >
+      Using the body to stop a defender reaching the ball carrier. It is not
+      allowed in flag football.
+    see: prohibitions

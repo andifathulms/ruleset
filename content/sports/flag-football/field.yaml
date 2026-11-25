@@ -1,0 +1,39 @@
+# The field, from the measurements in play.yaml. Shapes are in yards.
+sport: flag-football
+title: A small field with four strips where running is not allowed
+caption: >
+  The field is 50 yards long and 25 wide, with an end zone 10 yards deep at
+  each end. A drive starts on the offence's own five-yard line. In the five
+  yards before the halfway line and the five yards before each end zone, the
+  offence may not run the ball and must pass.
+alt: >
+  A flag football field 50 yards long and 25 yards wide with a 10-yard end
+  zone at each end, a halfway line, and a no-run zone 5 yards deep on each
+  side of the halfway line and in front of each end zone.
+scale: to-scale
+view: [-14, -5, 72, 32]
+shapes:
+  - { type: rect, x: -10, y: 0, w: 10, h: 25, fill: surface }
+  - { type: rect, x: 50, y: 0, w: 10, h: 25, fill: surface }
+  - { type: rect, x: 0, y: 0, w: 50, h: 25, fill: area }
+  - { type: rect, x: 0, y: 0, w: 5, h: 25, fill: zone, line: none }
+  - { type: rect, x: 20, y: 0, w: 10, h: 25, fill: zone, line: none }
+  - { type: rect, x: 45, y: 0, w: 5, h: 25, fill: zone, line: none }
+  - { type: line, x1: 0, y1: 0, x2: 0, y2: 25 }
+  - { type: line, x1: 50, y1: 0, x2: 50, y2: 25 }
+  - { type: line, x1: 25, y1: 0, x2: 25, y2: 25 }
+  - { type: line, x1: 5, y1: 0, x2: 5, y2: 25, line: dashed }
+  - { type: line, x1: 20, y1: 0, x2: 20, y2: 25, line: dashed }
+  - { type: line, x1: 30, y1: 0, x2: 30, y2: 25, line: dashed }
+  - { type: line, x1: 45, y1: 0, x2: 45, y2: 25, line: dashed }
+  - { type: label, x: -5, y: 12.5, text: "end zone", tone: chalk }
+  - { type: label, x: 55, y: 12.5, text: "end zone", tone: chalk }
+  - { type: label, x: 25, y: -2, text: "halfway line", tone: muted }
+  - { type: dot, x: 5, y: 17, label: "start" }
+  - { type: dim, x1: 0, y1: 28, x2: 50, y2: 28, text: "50 yd" }
+  - { type: label, x: -5, y: 28, text: "10 yd", tone: muted }
+  - { type: dim, x1: 65, y1: 0, x2: 65, y2: 25, text: "25 yd" }
+legend:
+  - { swatch: zone, label: "no-run zone, 5 yd deep" }
+  - { swatch: surface, label: end zone }
+  - { swatch: area, label: rest of the field }

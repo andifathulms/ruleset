@@ -1,6 +1,6 @@
 id: flag-football
 label: Flag football
-tagline: "American football with the tackle removed — which turns out to change almost everything else."
+tagline: A five-a-side passing game in which a ball carrier is stopped by pulling a flag from their belt, with no tackling, blocking or kicking.
 governing_body: IFAF
 founded: >
   Played in the United States military from the 1940s as a non-contact form of
@@ -12,10 +12,16 @@ classification:
   official: flag-football
   game-category: invasion
   adjudication: decided-by-score
+glance:
+  - { value: "5", label: players a side }
+  - { value: "6", label: points for a touchdown }
+  - { value: "50 yd", label: field length }
 summary: >
-  Removing the tackle from American football was supposed to make it safe.
-  It also removed the offensive line, the punt, the run-first playbook and the
-  two-hundred-pound body type, and what is left is a five-a-side passing game
-  that fits in a fraction of the space. Flag football is the newest sport on the
-  2028 programme and the only one whose founding rule is a subtraction.
+  Flag football is played five a side on a small field with an end zone at
+  each end. Every player wears a belt with a flag on each hip. The team with
+  the ball has four plays to reach the halfway line and four more to reach the
+  end zone, mostly by passing. A defender stops the ball carrier by pulling off
+  one of their flags, and nobody may tackle, block or kick. A touchdown is
+  worth six points. With no contact, size counts for little, and the game is
+  about speed, catching and quick decisions.
 cover: flag-football-the-pull
