@@ -18,11 +18,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - run: npm ci
@@ -48,11 +48,11 @@ jobs:
           BASE_PATH: ${{ steps.base.outputs.path }}
           SITE_ORIGIN: ${{ steps.base.outputs.origin }}
 
-      # Pages otherwise runs the export through Jekyll, which drops _next/.
-      - run: touch out/.nojekyll
-
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      # No .nojekyll is needed: a site deployed by this workflow is served as
+      # uploaded and never passes through Jekyll, so _next/ survives. The
+      # upload action leaves dotfiles out of the artifact in any case.
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: out
 
@@ -64,4 +64,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
