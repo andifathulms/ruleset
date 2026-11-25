@@ -1,6 +1,7 @@
 # PRD — Ruleset
 
-*How sports became the sports they are.*
+*An encyclopedia of sports: what each one is, how it is played, and why its
+rules are the way they are.*
 
 Alternative names if this one doesn't stick: **Amendments**, **Sport Codex**,
 **The Laws**.
@@ -9,15 +10,22 @@ Alternative names if this one doesn't stick: **Amendments**, **Sport Codex**,
 
 ## 1. Why this exists
 
-Every sport is a set of rules that someone changed, for a reason, on a date.
-Wikipedia will tell you that badminton switched to 21-point rally scoring in
-2006. It will not tell you that the switch belongs to a wave of scoring rewrites
-driven by broadcast scheduling that also caught table tennis and volleyball, or
-that it severed every match statistic before it from every one after.
+Most people meet a sport by watching it without knowing the rules, and the
+places that explain the rules are either a rulebook written for officials or a
+paragraph that assumes you already play. This site explains each sport to
+someone who has never seen it: what the game is, how a point or an attempt
+unfolds from start to finish, what the court or field looks like, and what the
+words mean.
 
-This site treats a rule change as a first-class object with a cause, a date, a
-citation, and a measurable consequence. The consequence is often that a number
-series stops being continuous — and that is the part nobody records systematically.
+It then answers the question a rulebook never does: why is the rule like this?
+Every sport is a set of rules that someone changed, for a reason, on a date.
+A rule change is still a first-class object here, with a cause, a date, a
+citation and a consequence, but it is supporting material. It sits beside the
+law it produced and explains it. It is no longer the spine of the site.
+
+*Direction changed in November 2026. The first version put the rule-change
+timeline first and the laws in force second. Badminton was reworked as the
+pilot for the order described here, and every sport follows it.*
 
 Read-only. Built for the author to read.
 
@@ -35,9 +43,9 @@ war held from 1900 to 1920, golf absent from 1904 to 2016, karate contested at
 2020 only, breaking at 2024 only and dropped for 2028, cricket returning in 2028.
 Cheap to build and interesting on its own.
 
-**Deep layer — four sports in v1:** badminton, athletics, football, gymnastics.
-One from each family, chosen because a "rule" is a structurally different object
-in each:
+**Deep layer.** Began as four sports, one from each family, chosen because a
+"rule" is a structurally different object in each. It now covers every sport
+on the three programmes:
 
 | Family | What a rule governs | Series it affects |
 |---|---|---|
@@ -84,12 +92,12 @@ history rather than legislation: the 19–18 game behind basketball's shot clock
 the throw that pushed the javelin to the end of the stadium, the judging
 controversy that ended the Perfect 10.
 
-## 4. The cross-sport timeline (the spine)
+## 4. The cross-sport timeline
 
-All four sports on one horizontal time axis, one lane per family, rule changes as
-marks on the lane, coloured by cause.
+Every covered sport on one horizontal time axis, one lane per family, rule
+changes as marks on the lane, shaped by cause.
 
-This is the whole argument for the site. Individually the rule changes are
+This is the history view of the site, not its front door. Individually the rule changes are
 trivia; laid out together the clustering is visible — broadcast-driven scoring
 rewrites arriving in a wave through the 1990s and 2000s, safety changes following
 deaths, suppression changes following a period of one nation winning everything.
@@ -135,15 +143,42 @@ are ways of sorting the whole corpus, and the timeline honours the active lens.
 
 ## 7. Sport page sections
 
-1. Identity, governing body, current status in the Olympic program
-2. **Origin and invention** — including descent from other codes where it applies
-3. **Rule timeline** — the sport's own lane, expanded
-4. **Equipment evolution** — tied to the rule changes that forced it
-5. **Governing body politics and schisms** — professionalism splits, breakaway
-   federations, the disputes behind the rules
-6. **Controversies that forced rule changes** — the incidents, linked to the
-   rules they produced
-7. Series charts, with breaks rendered as breaks
+A sport page reads in this order: the game first, then its history.
+
+**The game**
+
+1. Identity: a tagline and summary that say what the sport is to someone who
+   has never seen it, three figures that describe the game itself, governing
+   body and programme status
+2. **How it is played** — a walk-through of one rally, attempt or bout in the
+   order it happens, then the laws in force clause by clause with their
+   measurements. Each clause links to the rule change that produced it
+3. **The playing area** — a diagram drawn to scale from the measurements in
+   the laws, wherever the sport has one defined court, field, pool or board
+4. Disciplines and events
+5. **The words of the game** — a glossary the essays link to
+6. Who makes the calls, and where the sport is played
+7. Learning curve (editorial, marked as such)
+
+**The history**
+
+8. **Where it came from**
+9. **Rule timeline** — the sport's own lane, expanded
+10. Essays on equipment, governing-body politics and the incidents that forced
+    rule changes. A sport gets the essays it has a story for. They are not a
+    fixed set and have no target length
+11. Series charts, with breaks rendered as breaks
+12. What is still argued about
+
+### Writing
+
+- The first sentence of a page or an essay tells the reader about the sport.
+  It does not compare the sport with the rest of the collection.
+- Plain words. A term of the sport is defined once in the glossary and linked.
+- An incident is told as a scene where the facts allow: who, where, what
+  happened, what rule followed.
+- A comparison with another sport is a link to it.
+- A direct quotation needs a source like any other claim. None is invented.
 
 ## 8. Sources
 
@@ -165,6 +200,9 @@ filled in from recollection.
 - No editing, accounts, or contributions. Read-only, static.
 - No estimated numbers and no interpolation across a break.
 - No ranking of sports against each other.
-- No results, fixtures, or live data. This is about rules, not competition.
+- No results, fixtures, or live data. This is about how the games are played
+  and why, not about who won.
+- No coaching. The site explains the rules and the shape of play, not
+  technique or training.
 - No completeness. Coverage grows where the author's curiosity goes, and the site
   says so plainly.
