@@ -1,0 +1,22 @@
+# The platform, from the measurements in play.yaml. Shapes are in metres.
+sport: weightlifting
+title: A four-metre square
+caption: >
+  Every lift is made on one square platform, four metres on each side. The
+  lifter may touch it only with the feet and must stay on it until the lift is
+  judged. The men's bar, drawn here, is 2.2 metres long, a little more than
+  half the width of the platform.
+alt: >
+  A square weightlifting platform 4 metres by 4 metres, with a barbell 2.2
+  metres long lying across its centre and a lifter standing behind the bar.
+scale: to-scale
+view: [-1.2, -0.6, 6, 5.4]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 4, h: 4, fill: area }
+  - { type: line, x1: 0.9, y1: 2, x2: 3.1, y2: 2, line: heavy }
+  - { type: label, x: 2, y: 1.55, text: "bar, 2.2 m", tone: chalk }
+  - { type: dot, x: 2, y: 2.45, label: "lifter" }
+  - { type: dim, x1: 0, y1: 4.7, x2: 4, y2: 4.7, text: "4 m" }
+  - { type: dim, x1: 4.7, y1: 0, x2: 4.7, y2: 4, text: "4 m" }
+legend:
+  - { swatch: area, label: "platform: the lifter must stay on it" }

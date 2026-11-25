@@ -1,0 +1,99 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is contested, not
+# claims about its history, and nothing here carries a cause or a date.
+
+sport: weightlifting
+terms:
+  - id: snatch
+    term: Snatch
+    definition: >
+      The first of the two lifts. The bar goes from the floor to straight arms
+      overhead in one movement.
+    see: object
+  - id: clean-and-jerk
+    term: Clean and jerk
+    definition: >
+      The second of the two lifts, done in two movements. The clean brings the
+      bar from the floor to the shoulders, and the jerk drives it from the
+      shoulders to straight arms overhead.
+    see: object
+  - id: total
+    term: Total
+    definition: >
+      A lifter's best snatch added to their best clean and jerk. The total is
+      the result that decides the placings.
+    see: scoring
+  - id: attempt
+    term: Attempt
+    definition: >
+      One try at a lift. A lifter has three attempts in the snatch and three in
+      the clean and jerk, and the weight can never go down between them.
+    see: object
+  - id: declared-weight
+    term: Declared weight
+    definition: >
+      The weight a lifter says they will try next. Lifters are called in
+      ascending order of declared weight, and a declaration may be changed
+      twice before the call.
+    see: restarts
+  - id: platform
+    term: Platform
+    definition: >
+      The four-metre square on which every lift is made. A lifter who steps off
+      it during a lift has failed the attempt.
+    see: field
+  - id: category
+    term: Bodyweight category
+    definition: >
+      A division for lifters up to a set bodyweight. Lifters compete, and
+      records are kept, only within a category.
+    see: players
+  - id: weigh-in
+    term: Weigh-in
+    definition: >
+      The weighing of every lifter before the session, which fixes the category
+      they compete in.
+    see: players
+  - id: no-lift
+    term: No lift
+    definition: >
+      The referees' decision that an attempt has failed, because the bar was
+      not lifted or not held in the prescribed way.
+    see: prohibitions
+  - id: press-out
+    term: Press-out
+    definition: >
+      A fault in which the lifter goes on pushing the bar up after the arms
+      have begun to straighten, where the arms should lock in one motion. It
+      makes the attempt a no lift.
+    see: prohibitions
+  - id: referees
+    term: Referees
+    definition: >
+      The three officials who judge each attempt. Each gives a verdict on the
+      movement, and the majority decides.
+    see: players
+  - id: jury
+    term: Jury
+    definition: >
+      The panel that oversees the referees at major competitions. It can
+      reverse their decision on a lift.
+  - id: bumper-plates
+    term: Plates
+    definition: >
+      The calibrated discs loaded on the bar. They are colour-coded by weight,
+      so the load can be read from a distance.
+    see: equipment
+  - id: singlet
+    term: Singlet
+    definition: >
+      The one-piece costume a lifter wears. It leaves the elbows and knees
+      uncovered so the referees can see whether the arms and legs locked.
+    see: equipment
+  - id: no-total
+    term: No total
+    definition: >
+      The result of a lifter who fails all three attempts at a lift. With no
+      good snatch there is nothing to add, and the lifter is out.
+    see: scoring

@@ -10,6 +10,52 @@ summary: >
   who a lifter is allowed to be compared with and in what order they are
   allowed to attempt.
 
+walkthrough:
+  title: One attempt, from the declared weight to the total
+  intro: >
+    A competition is this sequence repeated: up to three times in the snatch,
+    then up to three times in the clean and jerk.
+  steps:
+    - label: The weigh-in
+      body: >
+        Before the session every lifter is weighed. This fixes the bodyweight
+        category, and a lifter is compared only with the others in it.
+    - label: Declaring a weight
+      body: >
+        Each lifter declares the weight they will try. The bar is loaded in
+        ascending order, so the lifter who asked for the lightest weight goes
+        first. A declared weight may be changed twice before the lifter is
+        called.
+    - label: The call and the clock
+      body: >
+        The lifter is called to the platform and has one minute to start the
+        lift. A lifter who follows their own previous attempt has two minutes.
+        Once the bar leaves the floor, the attempt is being judged and cannot
+        be restarted.
+    - label: The lift
+      body: >
+        The bar must go from the floor to overhead in the prescribed way. The
+        snatch comes first in the session, and the clean and jerk second. The
+        lifter must hold the bar still overhead, with arms and legs locked,
+        until the referees signal. Only the feet may touch the platform, and
+        the lifter may not step off it.
+    - label: The decision
+      body: >
+        Three referees judge the movement, and the majority decides. A lift
+        fails if the lifter pressed the bar out, did not hold it still,
+        lowered it before the signal, touched the platform with anything but
+        the feet, or left the platform.
+    - label: The next attempt
+      body: >
+        Each lifter has three attempts at each lift. The weight on the bar
+        only goes up, so a lifter who fails does not get an easier weight. A
+        lifter who fails all three snatches has no total and is out.
+    - label: The total
+      body: >
+        The best snatch and the best clean and jerk are added together. The
+        highest total in the category wins. If two lifters have the same
+        total, the one who reached it first is placed higher.
+
 sections:
   - id: object
     label: The object of the competition
@@ -48,6 +94,8 @@ sections:
       - { label: "Bar, women", value: 15 kg }
       - { label: Smallest increment, value: 1 kg }
       - { label: Belt width, value: 12 cm max }
+      - { label: "Bar length, men", value: 2.2 m }
+      - { label: "Bar length, women", value: 2.01 m }
 
   - id: players
     label: Lifters and officials
@@ -91,7 +139,7 @@ sections:
     facts:
       - { label: Total, value: Best snatch + best clean and jerk }
       - { label: Failing all three snatches, value: No total }
-      - { label: Ties, value: "Broken by bodyweight, then by attempt order" }
+      - { label: Ties, value: "To the lifter who reached the total first" }
     shaped_by: [iwf-1973-press-abolished]
 
   - id: restarts
@@ -116,7 +164,7 @@ sections:
   - id: winning
     label: Deciding the winner
     body: >
-      The highest total within the category. Ties go to the lighter lifter, and
-      then to whoever reached the weight first — so a lifter can win by having
-      declared more boldly earlier, which is the only place in this sport where
-      tactics beat strength outright.
+      The highest total within the category. A tie goes to whoever reached the
+      total first — so a lifter can win by having declared more boldly earlier,
+      which is the only place in this sport where tactics beat strength
+      outright.
