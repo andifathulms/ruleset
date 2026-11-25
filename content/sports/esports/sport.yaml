@@ -1,6 +1,6 @@
 id: esports
 label: Esports
-tagline: "The only sport whose field of play is privately owned, and whose rules can be rewritten by a company overnight without asking anybody."
+tagline: "Competitive video gaming: players or teams face each other in a video game, on identical machines, and the game's own software keeps the score."
 governing_body: International Esports Federation, and the publishers who own the games
 founded: >
   Competitive video gaming dates from the 1970s and organised international
@@ -12,10 +12,17 @@ classification:
   official: esports
   game-category: outside-taxonomy
   adjudication: decided-by-score
+glance:
+  - { value: "5", label: players in many team games }
+  - { value: "3 or 5", label: games in a series }
+  - { value: "weeks", label: between game updates }
 summary: >
-  A set of competitive video games contested as a multi-sport listing. What
-  makes it structurally unlike everything else here is ownership: each game is
-  a commercial product belonging to a company that can change its rules by
-  patch at any time, without consultation, and can withdraw it entirely. No
-  federation governs the laws of play, because no federation owns them.
+  Esports is a group of different video games played as organised
+  competition. Each game has its own aim: destroy the other team's base,
+  plant or defuse a bomb, knock out an opponent, score more goals. Players
+  compete alone or in teams, often of five, at identical machines on a stage.
+  The software decides everything that happens in play, so no referee ever
+  judges a shot. A match is a series of games, usually the best of three or
+  five. Each game belongs to the company that published it, and the company
+  updates it every few weeks, so players keep having to learn it again.
 cover: esports-the-international-2014

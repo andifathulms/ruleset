@@ -9,6 +9,46 @@ summary: >
   regulations, which define the conditions. Only the second layer belongs to
   anybody in the sport.
 
+walkthrough:
+  title: One series between two teams, from the set-up to the result
+  intro: >
+    Every game is different, but a match in most of them runs the same way.
+    This follows a series between two teams.
+  steps:
+    - label: The set-up
+      body: >
+        The organiser supplies identical machines. Players bring their own
+        mouse, keyboard, controller and headset, and officials inspect them.
+        The game's settings are locked to the tournament's configuration.
+    - label: The booth
+      body: >
+        The teams sit on a stage, in soundproof booths or wearing
+        noise-cancelling headsets. This stops the crowd's reaction telling a
+        team where its opponents are.
+    - label: The game
+      body: >
+        Each game has the aim its title sets, such as destroying the opposing
+        base or winning more rounds. The software decides every action in
+        play, and its decision cannot be appealed. A game can last under a
+        minute or more than an hour, depending on the title.
+    - label: A pause
+      body: >
+        A player may call a technical pause for a hardware failure, a software
+        fault or a lost connection. Play then resumes from the point where it
+        stopped. In a serious case the game is remade, which means it is
+        played again from the start.
+    - label: The referees
+      body: >
+        Referees do not judge the play. They watch the conditions around it:
+        cheating software, banned macros, and information reaching a team
+        from outside the booth.
+    - label: The series
+      body: >
+        The game's own score decides who wins each game. A series is the best
+        of three or the best of five games. The team that wins the series
+        moves on through the bracket, and a tournament runs over several
+        days.
+
 sections:
   - id: object
     label: The object of the game

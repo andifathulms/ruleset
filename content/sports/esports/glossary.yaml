@@ -1,0 +1,92 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how competition works, not claims
+# about its history.
+
+sport: esports
+terms:
+  - id: title
+    term: Title
+    definition: >
+      One video game played as a competition. Each title is a separate
+      discipline with its own aim and its own scoring.
+    see: object
+  - id: publisher
+    term: Publisher
+    definition: >
+      The company that owns a game. It decides what the game's rules are and
+      who may hold a competition in it.
+    see: field
+  - id: patch
+    term: Patch
+    definition: >
+      An update to a game from its publisher. A patch can change what a
+      character, a weapon or a map does, so it changes the rules of play.
+    see: field
+  - id: version
+    term: Version
+    definition: >
+      The exact state of a game after a given patch. A tournament states
+      which version it is played on.
+    see: field
+  - id: map
+    term: Map
+    definition: >
+      The virtual place a game is played in. Its layout is part of the
+      software.
+    see: field
+  - id: peripherals
+    term: Peripherals
+    definition: >
+      The devices a player holds or wears: mouse, keyboard, controller and
+      headset. Players bring their own, and officials inspect them.
+    see: equipment
+  - id: macro
+    term: Macro
+    definition: >
+      A setting that makes one key press perform several actions. Macros are
+      generally banned.
+    see: equipment
+  - id: booth
+    term: Booth
+    definition: >
+      A soundproof box on the stage in which a team plays, so that noise from
+      the crowd cannot give it information.
+    see: field
+  - id: series
+    term: Series
+    definition: >
+      A match made of several games between the same two sides. The winner is
+      the first to win two games in a best-of-three, or three in a
+      best-of-five.
+    see: scoring
+  - id: bracket
+    term: Bracket
+    definition: >
+      The draw of a tournament, showing who plays whom. The winner of each
+      series moves forward in it.
+    see: scoring
+  - id: technical-pause
+    term: Technical pause
+    definition: >
+      A stop in play called for a hardware failure, a software fault or a
+      lost connection. The game resumes from where it stopped.
+    see: restarts
+  - id: remake
+    term: Remake
+    definition: >
+      A game thrown out after a serious failure and played again from the
+      start.
+    see: restarts
+  - id: ghosting
+    term: Ghosting
+    definition: >
+      Getting information about the other team's position from outside the
+      booth, for example from the reaction of the crowd.
+    see: prohibitions
+  - id: anti-cheat
+    term: Anti-cheat
+    definition: >
+      Software that runs on the competition machines and looks for cheating
+      programs, such as aim assistance or seeing through walls.
+    see: prohibitions
