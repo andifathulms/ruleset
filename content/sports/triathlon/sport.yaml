@@ -1,6 +1,6 @@
 id: triathlon
 label: Triathlon
-tagline: Legalised drafting in 1995 and turned three time trials into one race.
+tagline: One continuous race made of a swim, then a bicycle ride, then a run, with the clock running through the changes between them.
 governing_body: World Triathlon
 founded: >
   International Triathlon Union founded 1989; renamed World Triathlon in 2020.
@@ -10,11 +10,16 @@ classification:
   official: triathlon
   game-category: performance
   adjudication: measured
+glance:
+  - { value: "1500 m", label: swim }
+  - { value: "40 km", label: bicycle ride }
+  - { value: "10 km", label: run }
 summary: >
-  One rule change did almost everything to this sport. Until 1995, riding in
-  another competitor's slipstream was forbidden, so the bike leg was a time
-  trial and a triathlon was three individual efforts added together. Legalising
-  drafting turned it into a pack race in which tactics, positioning and a
-  sprint finish decide the result — and it severed every bike split the sport
-  had recorded.
+  A triathlon is a swim in open water, a bicycle ride and a run, done one after
+  the other without a break. At the Olympic distance that is 1500 metres, 40
+  kilometres and 10 kilometres, finished in under two hours. The clock never
+  stops, so the two changes between the legs, called transitions, are part of
+  the race. The first athlete across the finish line wins. Professionals may
+  ride close behind each other on the bicycle and so they race in packs.
+  Everyone else must keep a gap and ride alone.
 cover: triathlon-chasing-pack-2012

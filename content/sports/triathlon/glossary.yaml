@@ -1,0 +1,98 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is raced, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: triathlon
+terms:
+  - id: leg
+    term: Leg
+    definition: >
+      One of the three parts of the race: the swim, the bicycle ride or the
+      run.
+    see: object
+  - id: transition
+    term: Transition
+    definition: >
+      The change from one leg to the next, and the marked area where it
+      happens. The clock keeps running, so a fast change saves time.
+    see: restarts
+  - id: rack
+    term: Rack
+    definition: >
+      The rail in the transition area where each athlete's bicycle stands
+      during the swim and the run.
+    see: restarts
+  - id: mount-line
+    term: Mount line
+    definition: >
+      The line at the edge of the transition area. An athlete may get on the
+      bicycle only after it, and must get off before it on the way back.
+    see: restarts
+  - id: drafting
+    term: Drafting
+    definition: >
+      Riding close behind another rider to be sheltered from the wind, which
+      saves a great deal of energy. It is allowed in elite racing and
+      forbidden in age-group racing.
+    see: prohibitions
+  - id: pack
+    term: Pack
+    definition: >
+      A group of athletes riding close together on the bicycle leg, each
+      sheltered by the riders in front.
+    see: object
+  - id: elite
+    term: Elite
+    definition: >
+      The professional level of the sport. Elite races allow drafting.
+    see: prohibitions
+  - id: age-group
+    term: Age-group
+    definition: >
+      Amateur racing, in which athletes compete against others of a similar
+      age. Drafting is forbidden.
+    see: prohibitions
+  - id: penalty-box
+    term: Penalty box
+    definition: >
+      A marked place on the course where an athlete who has broken a rule
+      must stop and wait for a set time.
+    see: prohibitions
+  - id: tri-bars
+    term: Tri-bars
+    definition: >
+      Handlebar extensions that let a rider rest the forearms and hold a low
+      position against the wind. They are not allowed in elite races.
+    see: equipment
+  - id: wetsuit
+    term: Wetsuit
+    definition: >
+      A rubber suit worn for the swim. It keeps the swimmer warm and helps
+      the body float, so the water temperature decides whether it must be
+      worn or may not be.
+    see: equipment
+  - id: split
+    term: Split
+    definition: >
+      An athlete's time for one leg of the race, published beside the
+      finishing time.
+    see: scoring
+  - id: olympic-distance
+    term: Olympic distance
+    definition: >
+      A swim of 1500 metres, a ride of 40 kilometres and a run of 10
+      kilometres.
+    see: field
+  - id: mixed-relay
+    term: Mixed relay
+    definition: >
+      A team race for two men and two women. Each does a short triathlon in
+      turn, and the whole race takes about eighty minutes.
+    see: duration
+  - id: duathlon
+    term: Duathlon
+    definition: >
+      A race of running and cycling with no swim. A triathlon becomes one
+      when the water is not clean enough to swim in.
+    see: field

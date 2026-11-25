@@ -10,6 +10,47 @@ summary: >
   somebody. The second answer differs depending on whether you are a
   professional.
 
+walkthrough:
+  title: One race at the Olympic distance, from the water to the finish line
+  intro: >
+    This is the elite race at the Olympic distance, in the order it happens.
+    Where the rule is different for amateurs, the step says so.
+  steps:
+    - label: The swim
+      body: >
+        The race starts in open water and the athletes swim 1500 metres. The
+        water temperature decides the wetsuit: in cold water it must be worn,
+        and in warm water it is not allowed. The clock starts here and does
+        not stop until the finish.
+    - label: The first transition
+      body: >
+        The athletes run from the water to their bicycles, which stand on
+        racks. The helmet must be fastened before the bicycle is taken from
+        the rack. The bicycle may be mounted only where the rules allow.
+    - label: The bicycle ride
+      body: >
+        The ride is 40 kilometres on roads. Elite athletes may ride close
+        behind each other, so they form packs, and their bicycles may not
+        have aerodynamic handlebar extensions. In age-group racing an athlete
+        must stay out of the zone behind the rider in front, and breaking
+        that rule costs a time penalty served in a penalty box.
+    - label: The second transition
+      body: >
+        The athlete gets off where the rules allow and puts the bicycle back
+        on the rack. Only then may the helmet be unfastened. Nothing may be
+        left outside the marked area.
+    - label: The run
+      body: >
+        The last leg is a run of 10 kilometres. In an elite race the leaders
+        usually leave the second transition together, so the race is decided
+        here.
+    - label: The finish
+      body: >
+        The first athlete across the line wins. Each athlete has one time,
+        from the start of the swim to the end of the run, with both
+        transitions included. A whole race at this distance takes under two
+        hours.
+
 sections:
   - id: object
     label: The object of the race
