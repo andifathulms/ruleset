@@ -9,6 +9,52 @@ summary: >
   difficulty, so the sport separates what was attempted from how well it was
   done — the distinction gymnastics took until 2006 to make.
 
+walkthrough:
+  title: One dive, from the board to the score
+  intro: >
+    This follows a single dive in an individual event, marked by seven judges
+    as at the Games.
+  steps:
+    - label: The list
+      body: >
+        Before the competition each diver chooses dives from the published
+        list and declares them. Every dive on a diver's list must be
+        different.
+    - label: What the dive is worth
+      body: >
+        Each dive has a number and a letter, which give its group, its
+        somersaults and twists, and its body position. Its degree of
+        difficulty is worked out from published values. The judges do not
+        decide it.
+    - label: The take-off
+      body: >
+        The diver goes from a springboard at 1 or 3 metres, or from the
+        10-metre platform. A diver who stops after starting the approach is
+        given a restart and loses two points from every judge's mark. A second
+        failed attempt, or a double bounce on the end of the springboard, is a
+        failed dive.
+    - label: The flight and the entry
+      body: >
+        The diver must perform the dive that was announced. A dive of a
+        different number, a twist that is off by ninety degrees or more, or a
+        head-first dive in which the feet enter first, is a failed dive and
+        scores zero. A dive clearly done in the wrong position can earn at
+        most two points from each judge.
+    - label: The marks
+      body: >
+        Each of the seven judges gives a mark from 0 to 10, in half points.
+        The two highest and the two lowest marks are cancelled.
+    - label: The score
+      body: >
+        The middle three marks are added and multiplied by the degree of
+        difficulty. Three marks of 7.5 make 22.5, and on a dive of difficulty
+        2.0 that scores 45.0.
+    - label: Winning
+      body: >
+        In a final, men make six dives and women five. The diver with the
+        highest total for the final wins. Scores from the earlier rounds are
+        not carried forward.
+
 sections:
   - id: object
     label: The object of the competition

@@ -1,0 +1,38 @@
+# The boards and the water, seen from the side. Heights and depths are the
+# facts in play.yaml. Widths and the shape of the pool floor are not, so the
+# drawing is marked schematic.
+sport: diving
+title: The boards and the water, from the side
+caption: >
+  The platform is 10 metres above the water. The springboards are at 3 metres
+  and 1 metre, and each is at least 4.8 metres long. The water must be deep
+  enough to stop a diver who enters at speed: at least 4.5 metres under the
+  platform and 3.7 metres under the 3-metre board. Heights and depths are
+  shown in proportion. Widths are not.
+alt: >
+  A side view of a diving pool. A platform stands 10 metres above the water on
+  the left, with water 4.5 metres deep below it. Springboards 3 metres and 1
+  metre above the water are on the right, with water 3.7 metres deep below
+  them.
+scale: schematic
+view: [-7, -3.5, 41, 17]
+shapes:
+  - { type: polygon, fill: area, points: [[4, 10], [26, 10], [26, 13.7], [15, 13.7], [15, 14.5], [4, 14.5]] }
+  - { type: line, x1: -5, y1: 10, x2: 4, y2: 10 }
+  - { type: line, x1: 26, y1: 10, x2: 33, y2: 10 }
+  - { type: rect, x: 0, y: 0, w: 2.5, h: 10, fill: surface, line: faint }
+  - { type: line, x1: -0.5, y1: 0, x2: 5.5, y2: 0, line: heavy }
+  - { type: rect, x: 27.6, y: 7, w: 1.6, h: 3, fill: surface, line: faint }
+  - { type: line, x1: 24, y1: 7, x2: 28.8, y2: 7, line: heavy }
+  - { type: line, x1: 24, y1: 9, x2: 28.8, y2: 9, line: heavy }
+  - { type: label, x: 2.5, y: -1.6, text: "platform" }
+  - { type: label, x: 30, y: 7, text: "3 m springboard", anchor: start }
+  - { type: label, x: 30, y: 9, text: "1 m springboard", anchor: start }
+  - { type: label, x: 15, y: 11.6, text: "water", tone: muted }
+  - { type: dim, x1: 8, y1: 0, x2: 8, y2: 10, text: "10 m" }
+  - { type: dim, x1: 22, y1: 7, x2: 22, y2: 10, text: "3 m" }
+  - { type: dim, x1: 8, y1: 10, x2: 8, y2: 14.5, text: "4.5 m" }
+  - { type: dim, x1: 22, y1: 10, x2: 22, y2: 13.7, text: "3.7 m" }
+legend:
+  - { swatch: area, label: "water, deeper under the higher board" }
+  - { swatch: heavy, label: "the boards a diver leaves from" }

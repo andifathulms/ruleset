@@ -1,6 +1,6 @@
 id: diving
 label: Diving
-tagline: A judged sport that prices every dive in advance and still argues over what a perfect entry looks like.
+tagline: Jumping from a springboard or a high platform, turning in the air, and entering the water cleanly, with judges marking every dive.
 governing_body: World Aquatics
 founded: >
   Fancy diving grew out of gymnastic water landings in nineteenth-century
@@ -12,10 +12,18 @@ classification:
   official: aquatics
   game-category: performance
   adjudication: judged
+glance:
+  - { value: "10 m", label: platform height }
+  - { value: "7", label: judges for one dive }
+  - { value: "0–10", label: each judge's mark }
 summary: >
-  Diving solved half of the judged-sport problem long before gymnastics
-  did. Every dive has a published degree of difficulty, computed by formula,
-  so what a diver attempts is measured and only how well is judged. The other
-  half — seven people marking the same two seconds of flight — it has managed
-  by throwing away the four marks furthest from the middle.
+  A diver leaves a springboard at one or three metres, or a fixed platform at
+  ten, performs somersaults and twists in the air, and enters the water.
+  Every dive is chosen and declared before the competition. Its difficulty is
+  a published number, worked out by formula. Seven judges mark how well the
+  dive was done, from 0 to 10. The two highest and two lowest marks are thrown
+  away, the middle three are added, and the sum is multiplied by the
+  difficulty. So what a diver attempts is fixed in advance, and only the
+  quality of the dive is judged. The highest total over five or six dives
+  wins.
 cover: diving-sync-springboard-pike

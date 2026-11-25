@@ -1,0 +1,101 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how diving is done and scored, not
+# claims about history, and nothing here carries a cause or a date.
+
+sport: diving
+terms:
+  - id: springboard
+    term: Springboard
+    definition: >
+      A flexible board, at least 4.8 metres long, set 1 metre or 3 metres
+      above the water. The diver bounces on its end to gain height.
+    see: field
+  - id: platform
+    term: Platform
+    definition: >
+      A fixed, rigid stage 10 metres above the water. It gives no spring, so
+      the diver's height comes only from the jump.
+    see: field
+  - id: fulcrum
+    term: Fulcrum
+    definition: >
+      The movable support under a springboard. Moving it forward makes the
+      board stiffer, and moving it back gives more lift.
+  - id: dive-number
+    term: Dive number
+    definition: >
+      The code that names a dive. The number gives its group, somersaults and
+      twists, and the letter gives the body position.
+    see: equipment
+  - id: degree-of-difficulty
+    term: Degree of difficulty
+    definition: >
+      The published value of a dive, worked out by adding figures for its
+      somersaults, position, twists, approach and entry. The judges' marks
+      are multiplied by it.
+    see: equipment
+  - id: group
+    term: Group
+    definition: >
+      One of the six families of dive: forward, back, reverse, inward,
+      twisting and armstand.
+    see: equipment
+  - id: position
+    term: Position
+    definition: >
+      The shape of the body during the dive. There are four: straight, pike,
+      tuck and free.
+    see: equipment
+  - id: pike
+    term: Pike
+    definition: >
+      A body position bent at the hips with the legs straight.
+    see: equipment
+  - id: tuck
+    term: Tuck
+    definition: >
+      A body position rolled into a ball, with the knees bent and drawn up to
+      the chest.
+    see: equipment
+  - id: somersault
+    term: Somersault
+    definition: >
+      A full turn of the body, head over feet. Dives are counted in half
+      somersaults.
+    see: equipment
+  - id: twist
+    term: Twist
+    definition: >
+      A turn of the body around its own length, from head to feet. A twist
+      that finishes ninety degrees or more off makes the dive a failed dive.
+    see: prohibitions
+  - id: armstand
+    term: Armstand
+    definition: >
+      A dive that starts from a handstand on the edge of the platform.
+    see: equipment
+  - id: entry
+    term: Entry
+    definition: >
+      The moment the diver goes into the water, head first or feet first as
+      the dive requires. It is the last thing the judges see.
+    see: prohibitions
+  - id: failed-dive
+    term: Failed dive
+    definition: >
+      A dive that scores zero, declared by the referee. Examples are a dive
+      different from the one announced and a second unsuccessful take-off.
+    see: prohibitions
+  - id: restart
+    term: Restart
+    definition: >
+      A second try at the take-off, given to a diver who stopped after
+      starting. It costs two points from every judge's mark.
+    see: restarts
+  - id: synchronised
+    term: Synchronised diving
+    definition: >
+      An event in which two divers perform side by side at the same moment.
+      Some judges mark each diver and others mark how well the two match.
+    see: players
