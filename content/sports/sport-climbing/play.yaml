@@ -10,6 +10,46 @@ summary: >
   as high as you can get. Almost no elite climber does all three, which is what
   made the 2020 Olympic format so contested.
 
+walkthrough:
+  title: One lead attempt, from isolation to the score
+  intro: >
+    Lead is the long route climbed on a rope. Boulder and speed work
+    differently, and the last step says how.
+  steps:
+    - label: The route
+      body: >
+        Route-setters build a new route for the competition, more than fifteen
+        metres long. Nobody has climbed it before. The climbers see it for the
+        first time on the day.
+    - label: Isolation
+      body: >
+        Before climbing, the competitors are kept in isolation. They may not
+        watch anyone else on the route, and nobody outside may tell them how
+        it is climbed.
+    - label: The attempt
+      body: >
+        The climber ties in to a rope and starts up. There is one attempt and
+        a time limit of up to six minutes. The climber may use only the holds
+        of the route.
+    - label: How it ends
+      body: >
+        The attempt ends when the climber falls, runs out of time or reaches
+        the top. A fall is safe, because the rope catches it, but it cannot be
+        taken back.
+    - label: The score
+      body: >
+        The score is the highest hold the climber controlled. A judge decides
+        whether a hold was controlled and which hold was reached. Points are
+        given for reaching defined holds on the way up.
+    - label: The winner, and the other two disciplines
+      body: >
+        The climber who gets highest wins the lead round. In boulder, climbers
+        try several short problems as often as time allows, and each extra
+        attempt costs points. Boulder and lead share a hundred-point scale, so
+        the two scores can be added. Speed is separate: a knockout race up an
+        identical route, timed electronically, where the faster climber goes
+        through.
+
 sections:
   - id: object
     label: The object of the competition

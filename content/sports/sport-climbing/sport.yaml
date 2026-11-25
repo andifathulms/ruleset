@@ -1,6 +1,6 @@
 id: sport-climbing
 label: Sport climbing
-tagline: Multiplied three disciplines' ranks together to make one medal, then abandoned it after a single Games.
+tagline: Climbing an artificial wall by its bolted-on holds, in three forms. Speed is a race, boulder is a set of short problems, and lead is one long route on a rope.
 governing_body: International Federation of Sport Climbing
 founded: IFSC founded 2007, having separated from the mountaineering federation.
 coverage: deep
@@ -9,12 +9,18 @@ classification:
   official: sport-climbing
   game-category: performance
   adjudication: measured
+glance:
+  - { value: "3", label: disciplines }
+  - { value: "15 m", label: length of the speed route }
+  - { value: "6 min", label: limit for a lead attempt }
 summary: >
-  The newest sport on this site and the one that has rewritten its Olympic
-  format between every Games it has contested. For 2020 it combined three
-  disciplines into one medal by multiplying the ranks together, which produced
-  a scoring system nobody could follow and results that turned on arithmetic
-  rather than climbing. It was abandoned after one Games. Underneath that,
-  speed climbing has something almost nothing else here has: an identical route
-  worldwide, so its times genuinely are comparable.
+  Sport climbing is contested on artificial walls fitted with holds for the
+  hands and feet. In speed, two climbers race side by side up the same
+  fifteen-metre route, and a run takes about five seconds. In boulder,
+  climbers work out short problems close to the ground, with no rope and mats
+  below, in as few attempts as they can. In lead, a climber on a rope has one
+  attempt to get as high as possible on a long route. Boulder and lead routes
+  are built new for every competition, and the climbers see them for the first
+  time on the day. Reading an unknown route is as much a part of the sport as
+  strength.
 cover: sport-climbing-garnbret-munich-2017

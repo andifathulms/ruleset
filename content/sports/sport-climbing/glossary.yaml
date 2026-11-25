@@ -1,0 +1,98 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is contested, not
+# claims about its history, and nothing here carries a cause or a date.
+
+sport: sport-climbing
+terms:
+  - id: hold
+    term: Hold
+    definition: >
+      A shaped grip bolted to the wall for the hands or feet. Where the holds
+      are placed decides how hard a climb is.
+    see: field
+  - id: route
+    term: Route
+    definition: >
+      The line of holds a climber must follow up the wall. In lead and boulder
+      it is built new for every competition.
+    see: field
+  - id: speed
+    term: Speed
+    definition: >
+      The discipline that is a race. Two climbers go side by side up the same
+      fifteen-metre route, and the faster one wins.
+    see: object
+  - id: boulder
+    term: Boulder
+    definition: >
+      The discipline of short climbs close to the ground, done without a rope
+      above mats. Climbers may try each one several times within a fixed time.
+    see: object
+  - id: lead
+    term: Lead
+    definition: >
+      The discipline of one long route climbed on a rope. Each climber has a
+      single attempt and tries to get as high as possible.
+    see: object
+  - id: problem
+    term: Problem
+    definition: >
+      One climb in a boulder round. It is called a problem because the climber
+      has to work out the moves as well as make them.
+    see: object
+  - id: route-setter
+    term: Route-setter
+    definition: >
+      A person who designs the routes and problems and fixes the holds to the
+      wall before a competition.
+    see: players
+  - id: isolation
+    term: Isolation
+    definition: >
+      The area where boulder and lead climbers wait before their turn. They
+      cannot see the wall from it, so nobody watches another climber on the
+      route first.
+    see: restarts
+  - id: beta
+    term: Beta
+    definition: >
+      Information about how a route is climbed. Receiving beta from outside
+      during a competition is against the rules.
+    see: prohibitions
+  - id: control
+    term: Control
+    definition: >
+      Holding a hold steadily enough for a judge to count it as reached.
+      Touching a hold is not the same as controlling it.
+    see: players
+  - id: top
+    term: Top
+    definition: >
+      The last hold of a route or problem. A climber who controls it has
+      finished the climb.
+    see: scoring
+  - id: zone
+    term: Zone
+    definition: >
+      A marked hold on a boulder problem that scores when the climber reaches
+      it, even if the problem is not finished.
+    see: scoring
+  - id: attempt
+    term: Attempt
+    definition: >
+      One try at a route or problem. Lead allows one attempt. Boulder allows
+      many, and each one costs points.
+    see: restarts
+  - id: false-start
+    term: False start
+    definition: >
+      Leaving the ground too early in a speed race. It is an infringement
+      detected electronically.
+    see: prohibitions
+  - id: combined
+    term: Combined
+    definition: >
+      A format that gives one result across more than one discipline. Boulder
+      and lead are combined by adding their points.
+    see: scoring
