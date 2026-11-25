@@ -1,6 +1,6 @@
 id: billiards
 label: Billiards sports
-tagline: "Three sports that cannot be played on each other's tables — and one of them has no pockets at all."
+tagline: "Three cue games, carom, pool and snooker, in which a player strikes a white ball with a cue to hit or pocket other balls on a cloth-covered table."
 governing_body: World Confederation of Billiards Sports
 founded: >
   Cue games descend from lawn games moved indoors in the fifteenth century;
@@ -12,11 +12,17 @@ classification:
   official: billiards
   game-category: target
   adjudication: decided-by-score
+glance:
+  - { value: "3", label: games under one name }
+  - { value: "0", label: pockets on a carom table }
+  - { value: "147", label: highest snooker break }
 summary: >
-  Carom, pool and snooker share a cue, a cloth and an ancestry, and are
-  otherwise three different sports. The carom table has no pockets — a point is
-  scored by making the cue ball touch both object balls — while pool and
-  snooker have six each, on tables of different sizes with different balls. An
-  umbrella confederation was built above them in 1992 to pursue Olympic
-  inclusion, obtained recognition in 1998, and has never been selected.
+  Carom, pool and snooker are played with a cue on a cloth-covered table, one
+  player against one. In each, the player strikes the white cue ball so that
+  it hits other balls. A carom table has no pockets, and a point is scored
+  when the cue ball touches both of the other two balls. Pool and snooker
+  tables have six pockets, and the aim is to knock balls into them. A player
+  stays at the table for as long as each shot scores, so the real skill is
+  leaving the cue ball in the right place for the next shot. The three tables
+  differ in size, and a player of one game cannot simply compete at another.
 cover: billiards-efren-reyes

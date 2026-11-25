@@ -8,6 +8,50 @@ summary: >
   cue ball touch both object balls. Pool pockets numbered balls on a nine-foot
   table. Snooker pockets reds and colours on a twelve-foot one.
 
+walkthrough:
+  title: One frame of snooker, from the break to the last ball
+  intro: >
+    Carom, pool and snooker are three different games, so this follows one of
+    them, snooker.
+  steps:
+    - label: The table
+      body: >
+        The table is twelve feet by six, with six pockets. On it are fifteen
+        red balls, six balls of other colours, and the white cue ball. A
+        player only ever strikes the cue ball, and only with the tip of the
+        cue.
+    - label: The break
+      body: >
+        One player starts the frame with the break shot. The two players then
+        take turns at the table.
+    - label: A red, then a colour
+      body: >
+        The player at the table tries to pot a red, which means knocking it
+        into a pocket. A red scores one point. After a red the player tries
+        to pot a colour, which scores two to seven points. Then another red,
+        then a colour, and so on.
+    - label: The visit
+      body: >
+        A player stays at the table for as long as each shot scores. This turn
+        is called a visit. It ends on a miss or a foul, such as hitting the
+        wrong ball first or potting the cue ball, and the other player comes
+        to the table.
+    - label: Snookered
+      body: >
+        Sometimes another ball blocks the path to the ball the player must
+        hit. The player is then snookered. If the player fails to hit the
+        right ball and the referee judges it was not a real attempt, the
+        referee calls a miss and the shot is played again.
+    - label: Clearing the colours
+      body: >
+        When all the reds are gone, the six colours are potted in a set order.
+        The most a player can score in one visit is 147.
+    - label: The frame and the match
+      body: >
+        The player with more points wins the frame. A match is played over a
+        number of frames, and the player who wins more frames wins the match.
+        There is no clock in the traditional game.
+
 sections:
   - id: object
     label: The object of the game

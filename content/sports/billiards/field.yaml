@@ -1,0 +1,42 @@
+# The three tables, from the measurements in play.yaml. Shapes are in feet.
+sport: billiards
+title: Three tables, drawn to the same scale
+caption: >
+  A snooker table is twelve feet by six, a carom table about ten by five, and
+  a competition pool table nine by four and a half. The dots are pockets. Pool
+  and snooker tables have six each, and a carom table has none. The pockets
+  are marks only and are not drawn to size.
+alt: >
+  Three rectangles side by side at one scale. The snooker table is the
+  largest, at twelve feet by six, with six pockets. The carom table is about
+  ten feet by five, with no pockets. The pool table is nine feet by four and a
+  half, with six pockets.
+scale: to-scale
+view: [-2, -2.6, 21.5, 14]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 6, h: 12, fill: area }
+  - { type: dot, x: 0, y: 0 }
+  - { type: dot, x: 6, y: 0 }
+  - { type: dot, x: 0, y: 6 }
+  - { type: dot, x: 6, y: 6 }
+  - { type: dot, x: 0, y: 12 }
+  - { type: dot, x: 6, y: 12 }
+  - { type: label, x: 3, y: -1.6, text: "snooker" }
+  - { type: label, x: 3, y: -0.7, text: "six pockets", tone: muted }
+  - { type: label, x: 3, y: 13.1, text: "12 × 6 ft" }
+
+  - { type: rect, x: 8, y: 2, w: 5, h: 10, fill: area }
+  - { type: label, x: 10.5, y: 0.4, text: "carom" }
+  - { type: label, x: 10.5, y: 1.3, text: "no pockets", tone: muted }
+  - { type: label, x: 10.5, y: 13.1, text: "about 10 × 5 ft" }
+
+  - { type: rect, x: 15, y: 3, w: 4.5, h: 9, fill: area }
+  - { type: dot, x: 15, y: 3 }
+  - { type: dot, x: 19.5, y: 3 }
+  - { type: dot, x: 15, y: 7.5 }
+  - { type: dot, x: 19.5, y: 7.5 }
+  - { type: dot, x: 15, y: 12 }
+  - { type: dot, x: 19.5, y: 12 }
+  - { type: label, x: 17.25, y: 1.4, text: "pool" }
+  - { type: label, x: 17.25, y: 2.3, text: "six pockets", tone: muted }
+  - { type: label, x: 17.25, y: 13.1, text: "9 × 4.5 ft" }

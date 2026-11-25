@@ -1,0 +1,101 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: billiards
+terms:
+  - id: cue
+    term: Cue
+    definition: >
+      The long stick a player strikes the ball with. Only its tip may touch a
+      ball.
+    see: equipment
+  - id: cue-ball
+    term: Cue ball
+    definition: >
+      The white ball. It is the only ball a player strikes with the cue, and
+      every other ball is moved by hitting it with the cue ball.
+    see: object
+  - id: object-ball
+    term: Object ball
+    definition: >
+      Any ball other than the cue ball. The player sends the cue ball into it.
+    see: object
+  - id: cushion
+    term: Cushion
+    definition: >
+      The raised, padded edge of the table. Balls bounce off it.
+    see: field
+  - id: pocket
+    term: Pocket
+    definition: >
+      One of the six openings at the edge of a pool or snooker table that a
+      ball can drop into. A carom table has none.
+    see: field
+  - id: pot
+    term: Pot
+    definition: >
+      To knock a ball into a pocket.
+    see: object
+  - id: carom
+    term: Carom
+    definition: >
+      A stroke in which the cue ball touches both object balls. It scores one
+      point, and it gives its name to the game played on a table without
+      pockets.
+    see: scoring
+  - id: three-cushion
+    term: Three-cushion
+    definition: >
+      The main form of carom. The cue ball must also touch the cushions three
+      times in the stroke for the point to count.
+    see: object
+  - id: frame
+    term: Frame
+    definition: >
+      One game of snooker, from the break until the balls are cleared. A match
+      is a number of frames. In pool the same unit is called a rack.
+    see: winning
+  - id: break
+    term: Break
+    definition: >
+      The first shot of a frame. In snooker the word also means the points a
+      player scores in one visit.
+    see: restarts
+  - id: visit
+    term: Visit
+    definition: >
+      One turn at the table. It lasts for as long as the player keeps scoring
+      and ends on a miss or a foul.
+    see: restarts
+  - id: position
+    term: Position
+    definition: >
+      Where the cue ball stops after a shot. Good position means the next shot
+      is available.
+  - id: foul
+    term: Foul
+    definition: >
+      A breach of the rules, such as hitting the wrong ball first, potting the
+      cue ball, or touching a ball with anything but the tip of the cue.
+    see: prohibitions
+  - id: snookered
+    term: Snookered
+    definition: >
+      Unable to hit the required ball in a straight line because another ball
+      is in the way.
+    see: prohibitions
+  - id: miss
+    term: Miss
+    definition: >
+      A call in snooker. The referee makes it when a player fails to hit the
+      required ball and is judged not to have made a real attempt. The shot is
+      played again.
+    see: prohibitions
+  - id: rest
+    term: Rest
+    definition: >
+      A support for the cue, used in snooker to reach a shot far across the
+      table.
+    see: equipment
