@@ -1,6 +1,6 @@
 id: handball
 label: Handball
-tagline: Legalised playing without a goalkeeper, and produced the most extreme risk-reward tactic in team sport.
+tagline: Two teams of seven pass a small ball by hand and throw it into a goal, shooting from outside or above an area that only the goalkeeper may stand in.
 governing_body: International Handball Federation
 founded: >
   Codified in northern Europe in the 1910s and 1920s; the IHF in its present
@@ -11,11 +11,17 @@ classification:
   official: handball
   game-category: invasion
   adjudication: decided-by-score
+glance:
+  - { value: "7", label: players a side on court }
+  - { value: "6 m", label: depth of the goal area }
+  - { value: "2 × 30", label: minutes in a match }
 summary: >
-  A rule change in 2016 let a team substitute its goalkeeper for an outfield
-  player at any time without restriction, and elite handball responded by doing
-  it constantly — attacking seven against six with an empty net. It is the
-  clearest recent example on this site of a permissive rule change producing a
-  tactic nobody predicted, and the federation has spent a decade deciding
-  whether it likes what it made.
+  Handball is played indoors by two teams of seven, six court players and a
+  goalkeeper. Players pass a ball small enough to hold in one hand and try to
+  throw it into the other team's goal. A player with the ball may take three
+  steps and hold it for three seconds. In front of each goal is an area six
+  metres deep that only the goalkeeper may stand in. Attackers may jump into
+  it if they let go of the ball before they land, so most shots are thrown in
+  mid-air. Defenders may block with the body, the game is fast and physical,
+  and each team usually scores between 25 and 35 goals.
 cover: handball-jump-shot

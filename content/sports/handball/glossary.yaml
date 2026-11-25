@@ -1,0 +1,84 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: handball
+terms:
+  - id: goal-area
+    term: Goal area
+    definition: >
+      The area in front of each goal, six metres deep, marked by a curved
+      line. Only the goalkeeper may stand in it.
+    see: object
+  - id: jump-shot
+    term: Jump shot
+    definition: >
+      A shot thrown in mid-air. The attacker jumps from outside the goal area,
+      flies over its line and lets go of the ball before landing.
+    see: object
+  - id: court-player
+    term: Court player
+    definition: >
+      Any of the six players on a team who are not the goalkeeper.
+    see: players
+  - id: throw-off
+    term: Throw-off
+    definition: >
+      The throw from the centre of the court that starts play, and restarts it
+      after every goal.
+    see: restarts
+  - id: free-throw
+    term: Free throw
+    definition: >
+      The throw that restarts play after a foul. When the foul is close to the
+      goal, it is taken from the free-throw line, nine metres out.
+    see: restarts
+  - id: seven-metre-throw
+    term: Seven-metre throw
+    definition: >
+      The penalty throw. One attacker shoots from seven metres with only the
+      goalkeeper to beat. It is given when a foul takes away a clear chance to
+      score.
+    see: restarts
+  - id: goalkeeper-throw
+    term: Goalkeeper throw
+    definition: >
+      The throw a goalkeeper takes to restart play after the ball has gone out
+      over the goal line.
+    see: restarts
+  - id: passive-play
+    term: Passive play
+    definition: >
+      Keeping the ball without trying to score. The referees give a warning,
+      and the team then has four passes before it must shoot.
+    see: restarts
+  - id: suspension
+    term: Suspension
+    definition: >
+      Two minutes off the court for a foul. The team plays one short until the
+      time is up, and a player's third suspension is a disqualification.
+    see: prohibitions
+  - id: blue-card
+    term: Blue card
+    definition: >
+      A card shown with a red card for serious foul play. It means the
+      referees will write a report, and a disciplinary process follows after
+      the match.
+    see: prohibitions
+  - id: empty-net
+    term: Empty net
+    definition: >
+      A goal with no goalkeeper in it. A team may take its goalkeeper off for
+      an extra court player and attack seven against six.
+    see: players
+  - id: team-timeout
+    term: Team timeout
+    definition: >
+      A short break that a team may ask for. Each team has three in a match.
+    see: duration
+  - id: resin
+    term: Resin
+    definition: >
+      A sticky substance players put on their fingers to grip the ball.
+    see: equipment

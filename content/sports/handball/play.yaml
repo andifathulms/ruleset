@@ -10,6 +10,50 @@ summary: >
   distance or from the air, and produces the sport's characteristic jump into
   the space above it.
 
+walkthrough:
+  title: One attack, from the throw-off to the goal
+  intro: >
+    A match is this sequence repeated, by each team in turn, for sixty
+    minutes.
+  steps:
+    - label: The throw-off
+      body: >
+        Play starts with a throw-off from the centre of the court. After a
+        goal, the team that conceded it takes the throw-off, and it may do so
+        at once, without waiting for the other team to go back to its own
+        half.
+    - label: Moving the ball
+      body: >
+        The ball is played with the hands. A player holding it may take three
+        steps and may keep it for three seconds. The player may then bounce it
+        and take three more steps. Most of the time the attackers pass.
+    - label: Meeting the defence
+      body: >
+        A defender may block a moving attacker with the body and a bent arm.
+        Hitting, pulling, and pushing from behind are fouls. After a foul the
+        attackers restart with a free throw from nine metres. A defender who
+        fouls badly is sent off for two minutes, and the team plays one short.
+    - label: The shot
+      body: >
+        Only the goalkeeper may stand in the goal area, six metres deep in
+        front of the goal. An attacker shoots from outside it, or jumps in
+        over the line and lets go of the ball before landing.
+    - label: No stalling
+      body: >
+        A team must try to score. If it does not, the referees warn it for
+        passive play. After the warning the team has four passes, and then it
+        must shoot.
+    - label: The goal
+      body: >
+        A ball thrown into the goal scores one goal. If a foul takes away a
+        clear chance to score, the attackers get a throw from seven metres
+        with only the goalkeeper to beat.
+    - label: The match
+      body: >
+        There are two halves of thirty minutes. The team with more goals wins.
+        A group match may end level. A knockout match that is level goes to
+        extra time and then to a shoot-out of seven-metre throws.
+
 sections:
   - id: object
     label: The object of the game
@@ -31,7 +75,7 @@ sections:
       was played outdoors on a football pitch by eleven players a side.
     facts:
       - { label: Court, value: 40 × 20 m }
-      - { label: Goal area, value: 6 m arc }
+      - { label: Goal area, value: 6 m arc, note: "Measured from the goal: a straight line 3 m long in front of it, joined to a quarter-circle around each goalpost. The free-throw line is drawn the same way at 9 m." }
       - { label: Free-throw line, value: 9 m }
       - { label: Goal, value: 3 × 2 m }
       - { label: Penalty throw, value: 7 m }
