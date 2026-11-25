@@ -10,6 +10,51 @@ summary: >
   says what comes off for doing it badly. The rule and the score are the same
   document.
 
+walkthrough:
+  title: One routine, from the salute to the score
+  intro: >
+    A competition is this sequence repeated: one gymnast, one apparatus, one
+    attempt, one number.
+  steps:
+    - label: The routine is built in advance
+      body: >
+        The Code of Points lists the elements a gymnast may perform and says
+        what each is worth. The gymnast and coach choose the elements weeks
+        before the competition. A harder routine is worth more, and it is
+        also harder to perform cleanly.
+    - label: The salute
+      body: >
+        The gymnast salutes the judges and begins. There is one attempt and no
+        restart. The exception is a vault final, where the gymnast performs
+        two vaults and the scores are averaged.
+    - label: The routine
+      body: >
+        The gymnast performs the elements on the apparatus. No opponent can
+        interfere. A fall costs a fixed deduction and the routine goes on. On
+        beam and floor the clock keeps running through a fall.
+    - label: Two panels watch
+      body: >
+        The D panel works out the difficulty value from the elements that
+        were actually performed and how they were connected. The E panel
+        starts from 10 and takes points off for faults in form, control and
+        landing. The two panels work independently.
+    - label: Penalties
+      body: >
+        Stepping outside the floor area, going over the time limit, or
+        performing the wrong number of elements each costs a stated
+        deduction. Almost nothing leads to disqualification.
+    - label: The score
+      body: >
+        The gymnast salutes again and the score appears. It is the difficulty
+        value plus the execution score. Difficulty has no upper limit, so
+        there is no maximum score.
+    - label: Who wins
+      body: >
+        The highest total wins. If two gymnasts are level, the one with the
+        higher execution score is placed first. A championship runs from
+        qualification to a team final, an all-around final and a final on
+        each apparatus.
+
 sections:
   - id: object
     label: The object of the competition

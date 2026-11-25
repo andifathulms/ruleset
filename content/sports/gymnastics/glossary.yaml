@@ -1,0 +1,100 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work.
+
+sport: gymnastics
+terms:
+  - id: apparatus
+    term: Apparatus
+    definition: >
+      The piece of equipment a routine is performed on, such as the beam, the
+      rings or the vault. The floor counts as an apparatus too. Men compete on
+      six and women on four.
+    see: field
+  - id: routine
+    term: Routine
+    definition: >
+      One performance on one apparatus, from the first salute to the second.
+      A gymnast gets one attempt at it.
+    see: restarts
+  - id: element
+    term: Element
+    definition: >
+      A single skill, such as a somersault or a handstand, that the rulebook
+      lists and gives a value. A routine is a chain of elements.
+    see: object
+  - id: code-of-points
+    term: Code of Points
+    definition: >
+      The rulebook. It lists the elements, says what each is worth, and says
+      how many points come off for each kind of fault.
+    see: scoring
+  - id: d-score
+    term: Difficulty score
+    definition: >
+      The first half of a score, often called the D score. It is the sum of
+      the values of the elements performed and their connections, and it has
+      no upper limit.
+    see: scoring
+  - id: e-score
+    term: Execution score
+    definition: >
+      The second half of a score, often called the E score. It starts at 10
+      and the judges take points off for faults in form, control and landing.
+    see: scoring
+  - id: deduction
+    term: Deduction
+    definition: >
+      Points taken off a score for a fault or a breach of the rules. A fall,
+      a step outside the floor area and a routine that runs over time each
+      have a stated deduction.
+    see: prohibitions
+  - id: d-panel
+    term: D panel
+    definition: >
+      The judges who decide the difficulty score. They record which elements
+      were performed and add up their values.
+    see: players
+  - id: e-panel
+    term: E panel
+    definition: >
+      The judges who decide the execution score. They work independently of
+      the D panel.
+    see: players
+  - id: salute
+    term: Salute
+    definition: >
+      The raised-arm signal a gymnast gives the judges before the routine
+      starts and again when it ends.
+    see: restarts
+  - id: vault
+    term: Vault
+    definition: >
+      The apparatus a gymnast runs at and pushes off with the hands, and the
+      single jump performed over it. In a vault final each gymnast performs
+      two vaults and the scores are averaged.
+    see: restarts
+  - id: all-around
+    term: All-around
+    definition: >
+      The event in which each gymnast performs on every apparatus and the
+      scores are added together.
+    see: duration
+  - id: apparatus-final
+    term: Apparatus final
+    definition: >
+      A final on one apparatus only, contested by the gymnasts who scored best
+      on it in qualification.
+    see: duration
+  - id: inquiry
+    term: Inquiry
+    definition: >
+      A formal request by a coach for the D panel to look again at a
+      difficulty score. The execution score cannot be queried.
+  - id: compulsory
+    term: Compulsory exercise
+    definition: >
+      A set routine that every gymnast had to perform in the same way, next to
+      a routine of their own choice. It is no longer part of international
+      competition.
+    see: duration

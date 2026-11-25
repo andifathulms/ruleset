@@ -1,0 +1,25 @@
+# The floor area and the beam, from the measurements in play.yaml. Metres.
+sport: gymnastics
+title: The floor and the beam, at one scale
+caption: >
+  Gymnastics has no single field. Each apparatus is its own playing area, and
+  these are two of them drawn at the same scale. The floor exercise is
+  performed on a square of 12 metres, and a step outside it costs a
+  deduction. The beam is 5 metres long and 10 centimetres wide, and it stands
+  125 centimetres above the mat.
+alt: >
+  A square floor area 12 metres on each side, and beside it a balance beam
+  5 metres long drawn at the same scale, so thin that it appears as a line.
+scale: to-scale
+view: [-2, -2, 15.5, 18]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 12, h: 12, fill: area }
+  - { type: label, x: 6, y: 6, text: "floor area", tone: muted }
+  - { type: dim, x1: 0, y1: 13, x2: 12, y2: 13, text: "12 m" }
+  - { type: dim, x1: 13.2, y1: 0, x2: 13.2, y2: 12, text: "12 m" }
+  - { type: rect, x: 3.5, y: 15.3, w: 5, h: 0.1, fill: target, line: none }
+  - { type: label, x: 9, y: 15.35, text: "beam, 10 cm wide", anchor: "start", tone: muted }
+  - { type: dim, x1: 3.5, y1: 16.4, x2: 8.5, y2: 16.4, text: "5 m" }
+legend:
+  - { swatch: area, label: floor exercise area }
+  - { swatch: target, label: "balance beam, seen from above" }
