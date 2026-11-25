@@ -9,6 +9,50 @@ summary: >
   Several couples are on the floor at once, and the panel compares them
   directly.
 
+walkthrough:
+  title: One round, from the call to the floor to the result
+  intro: >
+    This follows a couple through a round of a Standard or Latin competition
+    under the federation's own judging system.
+  steps:
+    - label: The call to the floor
+      body: >
+        Couples are called on in heats. Six or more couples share the floor
+        at once. The floor has no lanes and no marked places.
+    - label: The music starts
+      body: >
+        Every couple dances the same dance to the same music, for about a
+        minute and a half to two minutes. In the Standard programme the
+        couples travel around the floor counter-clockwise, along the line of
+        dance.
+    - label: Sharing the floor
+      body: >
+        A couple must steer through the others without a collision. Blocking
+        another couple on purpose is an offence. A couple that is often
+        blocked is seen less by the judges. If a couple falls or collides,
+        they keep dancing. Nothing is restarted.
+    - label: What is not allowed
+      body: >
+        A partner may not be lifted off the floor. The costume must follow
+        the rules for the couple's age and level, and the dance must be the
+        right one for the music.
+    - label: The judges mark
+      body: >
+        The panel is placed around the floor and watches all the couples
+        together. Each judge gives marks for four things: technical quality,
+        movement to music, partnering skill, and choreography and
+        presentation.
+    - label: Five dances
+      body: >
+        After a short break the next dance begins, until all five dances of
+        the programme are done. The marks from the five dances are added
+        into one placing.
+    - label: The next round, and the winner
+      body: >
+        The best couples are recalled to the next round, and the rounds go
+        on until six couples are left for the final. The couple with the best
+        total across the five dances of the final wins.
+
 sections:
   - id: object
     label: The object of the game

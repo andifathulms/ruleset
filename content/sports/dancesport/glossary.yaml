@@ -1,0 +1,95 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work.
+
+sport: dancesport
+terms:
+  - id: couple
+    term: Couple
+    definition: >
+      Two partners who dance together. The couple is the competitor: partners
+      are registered and ranked together, and a couple that splits starts
+      again.
+    see: players
+  - id: programme
+    term: Programme
+    definition: >
+      A fixed set of five dances that a couple dances in one competition.
+      There are two programmes, Standard and Latin.
+    see: object
+  - id: standard
+    term: Standard
+    definition: >
+      The programme of waltz, tango, Viennese waltz, slow foxtrot and
+      quickstep. The partners hold each other closely and travel around the
+      floor.
+    see: field
+  - id: latin
+    term: Latin
+    definition: >
+      The programme of samba, cha-cha-cha, rumba, paso doble and jive. The
+      partners hold each other more openly than in Standard.
+  - id: line-of-dance
+    term: Line of dance
+    definition: >
+      The counter-clockwise path around the floor that couples follow in the
+      Standard programme.
+    see: field
+  - id: floorcraft
+    term: Floorcraft
+    definition: >
+      The skill of steering through the other couples on a crowded floor
+      without a collision, while still dancing fully.
+    see: field
+  - id: heat
+    term: Heat
+    definition: >
+      One group of couples called onto the floor to dance together in a
+      round.
+    see: restarts
+  - id: recall
+    term: Recall
+    definition: >
+      Being chosen by the judges to dance in the next round.
+    see: restarts
+  - id: final
+    term: Final
+    definition: >
+      The last round of a competition, danced by six couples.
+    see: duration
+  - id: lift
+    term: Lift
+    definition: >
+      A move in which one partner's feet leave the floor with the other's
+      help. It is not allowed in the Standard and Latin programmes.
+    see: prohibitions
+  - id: components
+    term: Components
+    definition: >
+      The four things a judge gives marks for: technical quality, movement to
+      music, partnering skill, and choreography and presentation.
+    see: scoring
+  - id: absolute-judging
+    term: Absolute judging
+    definition: >
+      The judging system of the World DanceSport Federation. Each judge gives
+      a couple marks for each component.
+    see: scoring
+  - id: ordinal-placement
+    term: Ordinal placement
+    definition: >
+      The older judging method. Each judge puts the couples in order, first
+      to last, and a counting rule turns the judges' orders into a result. It
+      gives no marks.
+    see: scoring
+  - id: adjudicator
+    term: Adjudicator
+    definition: >
+      A judge. A panel of adjudicators is placed around the floor and marks every
+      couple on it.
+    see: players
+  - id: formation
+    term: Formation
+    definition: >
+      A team event in which eight couples dance one choreographed routine
+      together.
