@@ -1,0 +1,87 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is contested, and
+# nothing here carries a cause or a date.
+
+sport: wushu
+terms:
+  - id: taolu
+    term: Taolu
+    definition: >
+      The routines discipline. An athlete performs a sequence of movements
+      alone, barehanded or with a weapon, and judges give it a score.
+    see: object
+  - id: sanda
+    term: Sanda
+    definition: >
+      The fighting discipline. Two fighters punch, kick and throw each other
+      at full contact on a raised platform.
+    see: object
+  - id: lei-tai
+    term: Lei tai
+    definition: >
+      The raised platform sanda is fought on. It is eight metres square and
+      has no ropes, so a fighter can be pushed or thrown off it.
+    see: field
+  - id: carpet
+    term: Carpet
+    definition: >
+      The marked floor a taolu routine is performed on. Stepping outside it
+      costs a deduction.
+    see: field
+  - id: nandu
+    term: Nandu
+    definition: >
+      The difficulty part of a taolu score. It covers set jumps, rotations
+      and landings that the athlete declares before performing.
+    see: scoring
+  - id: deduction
+    term: Deduction
+    definition: >
+      Points taken off a taolu score for an error, such as a step off the
+      carpet or a dropped weapon.
+    see: prohibitions
+  - id: salute
+    term: Salute
+    definition: >
+      The gesture that begins and ends every taolu routine.
+    see: restarts
+  - id: straightsword
+    term: Straightsword
+    definition: >
+      A straight, double-edged sword used in taolu. The competition version is
+      thin and flexible and is not sharpened.
+    see: equipment
+  - id: broadsword
+    term: Broadsword
+    definition: >
+      A curved, single-edged sword used in taolu.
+    see: equipment
+  - id: staff
+    term: Staff
+    definition: >
+      A long pole used in taolu. It has its own events and its own required
+      techniques.
+    see: equipment
+  - id: spear
+    term: Spear
+    definition: >
+      A long, flexible shaft with a pointed head, used in taolu.
+    see: equipment
+  - id: platform-exit
+    term: Platform exit
+    definition: >
+      A sanda fighter leaving the platform. Being put off scores for the
+      opponent, and going off twice in a round loses the round.
+    see: scoring
+  - id: throw
+    term: Throw
+    definition: >
+      Taking the opponent off their feet and onto the platform. Throws score
+      in sanda, unless they drive the opponent down head first.
+    see: scoring
+  - id: duilian
+    term: Duilian
+    definition: >
+      A taolu routine for two or more athletes, who perform a scripted
+      exchange together.

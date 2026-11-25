@@ -1,0 +1,28 @@
+# The sanda platform, from the measurements in play.yaml. Shapes are in metres.
+sport: wushu
+title: The sanda platform
+caption: >
+  Sanda is fought on the lei tai, a platform eight metres square and 80
+  centimetres above the floor. It has no ropes. A fighter who puts the
+  opponent over the edge scores, and a fighter who goes off twice in a round
+  loses the round. Taolu is performed on a separate marked carpet, which is
+  not shown.
+alt: >
+  A square sanda platform 8 metres on each side, with two fighters and a
+  referee near the centre and the lower floor around all four edges.
+scale: to-scale
+view: [-3, -2.4, 11.6, 10.6]
+shapes:
+  - { type: rect, x: -1.2, y: -1.2, w: 10.4, h: 10.4, fill: surface, line: none }
+  - { type: rect, x: 0, y: 0, w: 8, h: 8, fill: area, line: heavy }
+  - { type: dot, x: 3, y: 4, label: "fighter" }
+  - { type: dot, x: 5, y: 4, label: "fighter" }
+  - { type: dot, x: 4, y: 2.3, label: "referee" }
+  - { type: label, x: 4, y: 6.6, text: "platform", tone: muted }
+  - { type: label, x: 4, y: -0.6, text: "the edge has no ropes", tone: muted }
+  - { type: label, x: 4, y: 8.6, text: "floor, 80 cm lower", tone: muted }
+  - { type: dim, x1: 0, y1: 9.9, x2: 8, y2: 9.9, text: "8 m" }
+  - { type: dim, x1: 10.2, y1: 0, x2: 10.2, y2: 8, text: "8 m" }
+legend:
+  - { swatch: area, label: "the platform" }
+  - { swatch: heavy, label: "the edge: going over it scores for the opponent" }

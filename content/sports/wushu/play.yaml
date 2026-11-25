@@ -8,6 +8,55 @@ summary: >
   on declared difficulty. Sanda is full-contact fighting on a raised platform,
   where putting an opponent off the edge scores.
 
+walkthrough:
+  title: A taolu routine, then a sanda bout
+  intro: >
+    Wushu has two disciplines that work in different ways, so this follows
+    one routine and then one fight.
+  steps:
+    - label: "Taolu: the salute and the routine"
+      body: >
+        One athlete walks onto a marked carpet, alone, and salutes. The
+        athlete then performs a routine, barehanded or with a straightsword,
+        broadsword, staff or spear. Most routines last about a minute and
+        twenty seconds. There is one attempt and no restart.
+    - label: "Taolu: what the judges mark"
+      body: >
+        The judging panel is divided into groups. One group takes points off
+        for each error in the quality of the movements. Another checks the
+        difficult jumps, rotations and landings that the athlete declared
+        before performing. A third gives a mark for the performance as a
+        whole.
+    - label: "Taolu: the score"
+      body: >
+        Stepping off the carpet, dropping a weapon, missing the time or
+        failing a declared element each costs a set deduction. The marks are
+        combined into one score, and the athlete with the highest score wins
+        the event.
+    - label: "Sanda: two fighters on the platform"
+      body: >
+        Two fighters from the same weight category meet on a raised platform,
+        eight metres square, with no ropes. They wear gloves, a headguard, a
+        mouthguard, a chest protector and a groin guard. A referee is on the
+        platform with them.
+    - label: "Sanda: scoring"
+      body: >
+        Punches and kicks that land cleanly score, and so do throws. Putting
+        the opponent off the platform also scores. After a throw, a knockdown
+        or a fall from the edge, the fight restarts in the centre.
+    - label: "Sanda: fouls and the edge"
+      body: >
+        Strikes to the back of the head, the spine and the groin are fouls.
+        So is a throw that drives the opponent down head first, and so is
+        stepping off the platform on purpose to avoid the fight. A fighter who
+        goes off the platform twice in one round loses that round.
+    - label: "Sanda: winning"
+      body: >
+        A round lasts two minutes, with a minute of rest before the next. The
+        fighter who out-scores the opponent takes the round, and the first to
+        win two rounds wins the bout. A fighter can also win by stopping the
+        opponent.
+
 sections:
   - id: object
     label: The object of the game
@@ -35,6 +84,7 @@ sections:
     facts:
       - { label: Taolu, value: A marked carpet }
       - { label: Sanda, value: "A raised platform, 8 m square" }
+      - { label: Platform height, value: 80 cm }
       - { label: Ropes, value: None }
       - { label: The edge, value: Scores directly }
     shaped_by: [wushu-sanda-platform]
