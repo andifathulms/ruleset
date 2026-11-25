@@ -10,6 +10,49 @@ summary: >
   four, sets to six, and none of it is arithmetic anyone would choose. The
   sport has spent fifty years patching that system rather than replacing it.
 
+walkthrough:
+  title: One point, from the serve to the score
+  intro: >
+    A match is this sequence repeated, with the points counted up into games,
+    sets and the match.
+  steps:
+    - label: The serve
+      body: >
+        The server stands behind the baseline and hits the ball over the net.
+        It must land in the service box diagonally opposite. The server's foot
+        must not touch the baseline before the ball is hit.
+    - label: Two attempts
+      body: >
+        The server has two serves for every point. If the first is a fault,
+        the server tries again. If the second also fails, it is a double
+        fault and the receiver wins the point. A serve that touches the net
+        and still lands in the box is a let, and it is played again.
+    - label: The rally
+      body: >
+        The players hit the ball back and forth over the net. The ball may
+        bounce once before it is hit, and it must land inside the opponent's
+        court. The strips at the sides, the tramlines, are part of the court
+        only in doubles.
+    - label: How the point ends
+      body: >
+        A player loses the point by hitting the ball out or into the net, or
+        by letting it bounce twice. A player also loses it by touching the
+        net while the ball is in play, by being hit by the ball, or by
+        hitting the ball before it has crossed the net.
+    - label: The game
+      body: >
+        Points in a game are called 15, 30 and 40, and the next point wins the
+        game. If both players reach 40 the score is deuce. From deuce a player
+        must win two points in a row: the first gives advantage, the second
+        gives the game.
+    - label: The set and the match
+      body: >
+        The first player to win six games wins the set, with a lead of two
+        games. At six games all, a tiebreak decides the set: first to seven
+        points, with a lead of two. A match is the best of three sets, or the
+        best of five for men at the four Grand Slam tournaments. There is no
+        draw.
+
 sections:
   - id: object
     label: The object of the game
@@ -35,6 +78,7 @@ sections:
       - { label: Court length, value: 23.77 m }
       - { label: "Width, singles", value: 8.23 m }
       - { label: "Width, doubles", value: 10.97 m }
+      - { label: Service line, value: 6.40 m, note: From the net. }
       - { label: Net at centre, value: 0.914 m }
       - { label: Net at posts, value: 1.07 m }
       - { label: Surfaces, value: "Grass, clay, hard", note: Not standardised. No other measured or scored sport here permits this much variation. }

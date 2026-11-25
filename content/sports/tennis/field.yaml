@@ -1,0 +1,35 @@
+# The court, from the measurements in play.yaml. Shapes are in metres.
+sport: tennis
+title: One court, two widths
+caption: >
+  The whole rectangle is the doubles court. In singles the two strips at the
+  sides, the tramlines, are out. A serve must land in the service box
+  diagonally opposite the server, between the net and the service line.
+alt: >
+  A tennis court 23.77 metres long and 10.97 metres wide, divided by a net,
+  with a narrower singles court 8.23 metres wide inside it and two service
+  boxes on each side of the net. One service box is shaded as the target of
+  a serve from the far corner.
+scale: to-scale
+view: [-6.2, -3.2, 28.3, 14]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 23.77, h: 10.97, fill: area }
+  - { type: rect, x: 11.885, y: 1.37, w: 6.4, h: 4.115, fill: zone, line: none }
+  - { type: line, x1: 0, y1: 1.37, x2: 23.77, y2: 1.37 }
+  - { type: line, x1: 0, y1: 9.6, x2: 23.77, y2: 9.6 }
+  - { type: line, x1: 5.485, y1: 1.37, x2: 5.485, y2: 9.6 }
+  - { type: line, x1: 18.285, y1: 1.37, x2: 18.285, y2: 9.6 }
+  - { type: line, x1: 5.485, y1: 5.485, x2: 18.285, y2: 5.485 }
+  - { type: line, x1: 11.885, y1: -0.5, x2: 11.885, y2: 11.47, line: heavy }
+  - { type: label, x: 11.885, y: -2.3, text: "net", tone: muted }
+  - { type: label, x: 15.085, y: 3.43, text: "service box", tone: chalk }
+  - { type: label, x: 2.74, y: 0.69, text: "tramline", tone: muted }
+  - { type: label, x: 21.03, y: 5.485, text: "baseline", tone: muted }
+  - { type: dot, x: -1.7, y: 7.4, label: "server" }
+  - { type: dim, x1: 11.885, y1: -1.1, x2: 18.285, y2: -1.1, text: "6.40 m" }
+  - { type: dim, x1: 0, y1: 12.6, x2: 23.77, y2: 12.6, text: "23.77 m" }
+  - { type: dim, x1: 25.6, y1: 0, x2: 25.6, y2: 10.97, text: "10.97 m" }
+  - { type: dim, x1: -4.4, y1: 1.37, x2: -4.4, y2: 9.6, text: "8.23 m" }
+legend:
+  - { swatch: zone, label: "where this serve must land" }
+  - { swatch: area, label: "the court; side strips count in doubles only" }

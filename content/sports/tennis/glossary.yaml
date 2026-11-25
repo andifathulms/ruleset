@@ -1,0 +1,98 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: tennis
+terms:
+  - id: serve
+    term: Serve
+    definition: >
+      The shot that starts every point. The server hits the ball from behind
+      the baseline into the service box diagonally opposite, and has two
+      attempts to do it.
+    see: restarts
+  - id: service-box
+    term: Service box
+    definition: >
+      The box a serve must land in. Each side of the net has two, side by
+      side, between the net and the service line.
+    see: field
+  - id: baseline
+    term: Baseline
+    definition: >
+      The line at each end of the court. The server stands behind it, and a
+      ball that lands beyond it is out.
+    see: field
+  - id: tramlines
+    term: Tramlines
+    definition: >
+      The two long strips at the sides of the court. They are part of the
+      court in doubles and out in singles.
+    see: field
+  - id: rally
+    term: Rally
+    definition: >
+      The exchange of shots after the serve, which lasts until one player
+      fails to return the ball into the court.
+    see: object
+  - id: fault
+    term: Fault
+    definition: >
+      A serve that does not land in the correct service box, or that is hit
+      with a foot on the baseline. After one fault the server serves again.
+    see: restarts
+  - id: double-fault
+    term: Double fault
+    definition: >
+      Two faults on the same point. The server loses the point.
+    see: prohibitions
+  - id: let
+    term: Let
+    definition: >
+      A serve that touches the net and still lands in the service box. It
+      does not count and is played again.
+    see: restarts
+  - id: game
+    term: Game
+    definition: >
+      The smallest unit of the score after the point. One player serves for
+      the whole game, and the points are called 15, 30, 40 and game.
+    see: scoring
+  - id: deuce
+    term: Deuce
+    definition: >
+      The score when both players have 40. From deuce a player needs two
+      points in a row to win the game.
+    see: scoring
+  - id: advantage
+    term: Advantage
+    definition: >
+      The point won straight after deuce. The player who has it wins the game
+      with the next point, or goes back to deuce by losing it.
+    see: scoring
+  - id: set
+    term: Set
+    definition: >
+      A group of games. The first player to win six games, with a lead of
+      two, wins the set. A match is the best of three or five sets.
+    see: scoring
+  - id: tiebreak
+    term: Tiebreak
+    definition: >
+      A short game played at six games all to decide a set. Points are
+      counted one, two, three, and the first player to seven with a lead of
+      two wins the set.
+    see: scoring
+  - id: hindrance
+    term: Hindrance
+    definition: >
+      Deliberately distracting the opponent during a point. The umpire judges
+      it, and the player who does it loses the point.
+    see: prohibitions
+  - id: chair-umpire
+    term: Chair umpire
+    definition: >
+      The official who runs the match from a high chair beside the net,
+      keeps the score and applies the code of conduct.
+    see: players
