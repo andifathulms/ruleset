@@ -1,0 +1,106 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: rugby
+terms:
+  - id: try
+    term: Try
+    definition: >
+      The main way to score. A player grounds the ball over the opponent's
+      goal line, and the team gets five points.
+    see: scoring
+  - id: conversion
+    term: Conversion
+    definition: >
+      The kick at goal that follows a try. If the ball goes between the posts
+      and over the crossbar, it adds two points.
+    see: scoring
+  - id: drop-goal
+    term: Drop goal
+    definition: >
+      A kick between the posts in open play, made by dropping the ball and
+      kicking it as it bounces. It is worth three points.
+    see: scoring
+  - id: in-goal
+    term: In-goal
+    definition: >
+      The area behind each goal line. A try is scored by grounding the ball
+      there.
+    see: field
+  - id: forward-pass
+    term: Forward pass
+    definition: >
+      A pass that travels towards the opponent's goal line. It is not allowed,
+      and the other team gets a scrum.
+    see: object
+  - id: knock-on
+    term: Knock-on
+    definition: >
+      Dropping or knocking the ball forwards with the hand or arm. The other
+      team gets a scrum.
+    see: restarts
+  - id: tackle
+    term: Tackle
+    definition: >
+      Stopping the ball carrier by holding them and bringing them to the
+      ground. A tackled player must release the ball.
+    see: object
+  - id: high-tackle
+    term: High tackle
+    definition: >
+      A tackle that makes contact too high on the carrier's body. It is
+      dangerous play, and the referee can give a penalty, a yellow card or a
+      red card.
+    see: prohibitions
+  - id: breakdown
+    term: Breakdown
+    definition: >
+      The contest for the ball on the ground after a tackle. Players from both
+      teams arrive and try to win it, under laws about who may do what and
+      from where.
+    see: restarts
+  - id: scrum
+    term: Scrum
+    definition: >
+      A restart after a knock-on or a forward pass. Players from each team
+      bind together and push against each other for the ball, eight a side in
+      fifteens and three a side in sevens.
+    see: restarts
+  - id: lineout
+    term: Lineout
+    definition: >
+      The restart after the ball goes into touch. The ball is thrown in
+      between two lines of players, who jump for it.
+    see: restarts
+  - id: touch
+    term: Touch
+    definition: >
+      The ground outside the side lines of the pitch. A ball that goes there
+      is out of play.
+    see: restarts
+  - id: offside
+    term: Offside
+    definition: >
+      Being in a position from which a player may not take part in play. A
+      player who joins in from an offside position is penalised.
+    see: prohibitions
+  - id: fifteens
+    term: Fifteens
+    definition: >
+      The main form of rugby union: fifteen players a side and two halves of
+      forty minutes.
+    see: players
+  - id: sevens
+    term: Sevens
+    definition: >
+      The Olympic form of rugby: seven players a side and two halves of seven
+      minutes, on the same full-size pitch.
+    see: players
+  - id: tmo
+    term: Television match official
+    definition: >
+      An official who reviews video at elite matches. The referee can ask
+      about tries, grounding and foul play.
+    see: players

@@ -1,0 +1,38 @@
+# The pitch, from the measurements in play.yaml. Shapes are in metres. The
+# Laws give maximum sizes; this is drawn at the maximum.
+sport: rugby
+title: A pitch with a scoring area behind each goal line
+caption: >
+  A try is scored by grounding the ball in the in-goal area behind the
+  opponent's goal line. The posts stand on the goal line, 5.6 metres apart,
+  and a kick must pass between them above the crossbar, which is 3 metres
+  high. The pitch is drawn at the largest size the Laws allow, and a ground
+  may be smaller.
+alt: >
+  A rugby pitch 100 metres long and 70 metres wide between the goal lines,
+  with a halfway line, a line 22 metres from each goal line, posts on each
+  goal line and an in-goal area up to 22 metres deep behind each one.
+scale: to-scale
+view: [-30, -10, 160, 84]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 100, h: 70, fill: area }
+  - { type: rect, x: -22, y: 0, w: 22, h: 70, fill: zone }
+  - { type: rect, x: 100, y: 0, w: 22, h: 70, fill: zone }
+  - { type: line, x1: 50, y1: 0, x2: 50, y2: 70 }
+  - { type: line, x1: 22, y1: 0, x2: 22, y2: 70 }
+  - { type: line, x1: 78, y1: 0, x2: 78, y2: 70 }
+  - { type: line, x1: 0, y1: 32.2, x2: 0, y2: 37.8, line: heavy }
+  - { type: line, x1: 100, y1: 32.2, x2: 100, y2: 37.8, line: heavy }
+  - { type: label, x: -11, y: 35, text: "in-goal", tone: chalk }
+  - { type: label, x: 111, y: 35, text: "in-goal", tone: chalk }
+  - { type: label, x: 3, y: 35, text: "posts", anchor: "start", tone: muted }
+  - { type: label, x: 36, y: 8, text: "22 m line", tone: muted }
+  - { type: label, x: 52, y: 62, text: "halfway", anchor: "start", tone: muted }
+  - { type: label, x: 3, y: 62, text: "goal line", anchor: "start", tone: muted }
+  - { type: dim, x1: 0, y1: 77, x2: 100, y2: 77, text: "up to 100 m" }
+  - { type: dim, x1: 141, y1: 0, x2: 141, y2: 70, text: "up to 70 m" }
+  - { type: label, x: -11, y: -5, text: "up to 22 m", tone: muted }
+legend:
+  - { swatch: zone, label: "in-goal, where a try is scored" }
+  - { swatch: area, label: field of play }
+  - { swatch: heavy, label: "goal posts, 5.6 m apart" }

@@ -1,6 +1,6 @@
 id: rugby
 label: Rugby
-tagline: Left the Olympics as a fifteen-a-side game in 1924 and came back in 2016 as a different one.
+tagline: Two teams carry, pass and kick an oval ball to ground it over the other team's goal line, and the ball may only be passed backwards.
 governing_body: World Rugby
 founded: >
   Rugby Football Union founded 1871, after the 1863 split from association
@@ -11,11 +11,18 @@ classification:
   official: rugby
   game-category: invasion
   adjudication: decided-by-score
+glance:
+  - { value: "15 or 7", label: players a side }
+  - { value: "5", label: points for a try }
+  - { value: "80 min", label: a fifteens match }
 summary: >
-  Rugby's Olympic sport is not the sport most people mean. It was contested as
-  fifteens from 1900 to 1924 and returned in 2016 as sevens — same Laws,
-  fifteen fewer players, fourteen minutes instead of eighty. It is also the
-  clearest case on this site of a sport rewriting its central action for safety:
-  the tackle has been progressively lowered by law since 2019 because of what
-  the sport learned about repeated head impact.
+  Rugby is played with an oval ball on a large grass pitch with tall posts at
+  each end. A player may run with the ball or kick it forwards, but may only
+  pass it backwards, so a team gains ground by running into the defence. The
+  defence stops the carrier with a tackle, the tackled player must let go of
+  the ball, and both teams fight for it on the ground. Grounding the ball over
+  the goal line is a try, worth five points, and kicks between the posts add
+  two or three. The main game has fifteen players a side and lasts eighty
+  minutes. Sevens, the Olympic game, uses the same pitch with seven a side
+  and lasts fourteen.
 cover: rugby-tackle

@@ -9,6 +9,48 @@ summary: >
   a sport of collision rather than of evasion, and everything else in the Laws
   follows from managing what happens when the carrier is stopped.
 
+walkthrough:
+  title: One attack, from the first carry to the try
+  intro: >
+    Fifteens and sevens follow the same sequence. The numbers given here are
+    for fifteens unless the step says otherwise.
+  steps:
+    - label: Carrying the ball
+      body: >
+        A player runs forward with the ball in hand. The ball may be carried
+        or kicked forwards, but a pass to a team-mate must go backwards. So
+        the carrier's team-mates stay behind the ball, and ground is won by
+        running at the defence.
+    - label: The tackle
+      body: >
+        A defender stops the carrier with a tackle. A tackled player must
+        release the ball. Players from both teams arrive to contest it on the
+        ground, and this contest is called the breakdown. Whoever wins the
+        ball there attacks next.
+    - label: Mistakes and set pieces
+      body: >
+        If a player knocks the ball on or passes it forward, play restarts
+        with a scrum, with eight players a side in fifteens and three in
+        sevens. If the ball goes into touch, play restarts with a lineout.
+    - label: Foul play
+      body: >
+        Offside and dangerous contact are penalised. A high tackle is punished
+        with a penalty, a yellow card or a red card, depending on the height
+        of the contact and the danger. A team given a penalty may kick at
+        goal for three points.
+    - label: The try
+      body: >
+        A try is scored when a player grounds the ball over the opponent's
+        goal line. It is worth five points. The scoring team then takes a
+        conversion kick between the posts for two more. A drop goal in open
+        play is worth three.
+    - label: Time and the result
+      body: >
+        Fifteens is two halves of forty minutes, and sevens is two halves of
+        seven. The team with more points wins. A draw stands in league play.
+        A knockout match goes to extra time and then, if still level, to a
+        kicking competition.
+
 sections:
   - id: object
     label: The object of the game
@@ -29,6 +71,7 @@ sections:
     facts:
       - { label: Pitch, value: Up to 100 × 70 m }
       - { label: In-goal area, value: Up to 22 m deep }
+      - { label: 22-metre line, value: 22 m from each goal line }
       - { label: Posts, value: "5.6 m apart, crossbar at 3 m" }
 
   - id: equipment
