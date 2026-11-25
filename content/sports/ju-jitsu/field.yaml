@@ -1,0 +1,24 @@
+# The mat. play.yaml records a matted competition area with a marked safety
+# border and no measurements, so this drawing is schematic and carries none.
+sport: ju-jitsu
+title: One mat for three contests
+caption: >
+  Fighting, Ne-waza and Duo all use the same mat: a competition area with a
+  marked safety border around it. A Fighting bout starts with the two athletes
+  apart, at striking distance.
+alt: >
+  A square matted competition area with a safety border around it, two
+  fighters standing apart in the middle and a referee beside them.
+scale: schematic
+view: [-3, -3, 13, 13]
+shapes:
+  - { type: rect, x: -2, y: -2, w: 14, h: 14, fill: surface }
+  - { type: rect, x: 0, y: 0, w: 10, h: 10, fill: area }
+  - { type: dot, x: 3.6, y: 5, label: "fighter" }
+  - { type: dot, x: 6.4, y: 5, label: "fighter" }
+  - { type: dot, x: 5, y: 2.4, label: "referee" }
+  - { type: label, x: 5, y: 8.4, text: "competition area", tone: chalk }
+  - { type: label, x: 5, y: -0.8, text: "safety border", tone: muted }
+legend:
+  - { swatch: area, label: competition area }
+  - { swatch: surface, label: safety border }

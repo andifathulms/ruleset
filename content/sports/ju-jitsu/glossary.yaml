@@ -1,0 +1,88 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how ju-jitsu is contested, not
+# claims about its history.
+
+sport: ju-jitsu
+terms:
+  - id: fighting
+    term: Fighting system
+    definition: >
+      The one-against-one contest that uses strikes, throws and groundwork.
+      A bout goes through the three as phases, always in that order.
+    see: object
+  - id: ne-waza
+    term: Ne-waza
+    definition: >
+      Groundwork. As a competition system it is a bout fought on the ground
+      only, with points for gaining a better position and a win by
+      submission.
+    see: scoring
+  - id: duo
+    term: Duo system
+    definition: >
+      The judged contest. A pair from the same team, one attacking and one
+      defending, performs defences against attacks the referee calls. A panel
+      marks them against another pair.
+    see: players
+  - id: phase
+    term: Phase
+    definition: >
+      One of the three parts of a Fighting bout: striking at a distance,
+      throwing from a grip, and groundwork. The referee moves the bout from
+      one to the next.
+    see: restarts
+  - id: controlled-strike
+    term: Controlled strike
+    definition: >
+      A punch or kick that lands on the target without the force to hurt.
+      Only controlled strikes score, and uncontrolled contact is an
+      infringement.
+    see: prohibitions
+  - id: gi
+    term: Gi
+    definition: >
+      The jacket, trousers and belt worn on the mat. In grappling the jacket
+      gives both athletes something to grip.
+    see: equipment
+  - id: no-gi
+    term: No-gi
+    definition: >
+      Grappling without the jacket. It is a separate category in Ne-waza,
+      because without cloth to hold the techniques are different.
+    see: equipment
+  - id: hold
+    term: Hold
+    definition: >
+      Keeping the opponent under control on the ground. A hold scores points
+      in the third phase of a Fighting bout.
+    see: scoring
+  - id: submission
+    term: Submission
+    definition: >
+      Giving up when caught in a lock or a strangle. A submission ends the
+      bout.
+    see: object
+  - id: lock
+    term: Lock
+    definition: >
+      A technique that bends a joint, such as the elbow, towards the limit of
+      its movement so that the opponent must submit.
+    see: prohibitions
+  - id: strangle
+    term: Strangle
+    definition: >
+      A technique that applies pressure to the neck so that the opponent
+      must submit.
+    see: prohibitions
+  - id: called-attack
+    term: Called attack
+    definition: >
+      In Duo, the attack the referee names from a set list. One partner
+      makes that attack and the other defends against it.
+    see: restarts
+  - id: safety-border
+    term: Safety border
+    definition: >
+      The marked strip of matting around the competition area.
+    see: field

@@ -1,6 +1,6 @@
 id: ju-jitsu
 label: Ju-jitsu
-tagline: "A combat sport that legislates the sequence of ranges — strike, throw, ground — and another event where two athletes from the same team fight nobody at all."
+tagline: "A Japanese martial art made into three contests: a fight with strikes, throws and groundwork, a fight on the ground only, and a judged display by a pair."
 governing_body: Ju-Jitsu International Federation
 founded: >
   Descended from Japanese battlefield grappling systems; the modern competitive
@@ -12,11 +12,17 @@ classification:
   official: ju-jitsu
   game-category: outside-taxonomy
   adjudication: combat
+glance:
+  - { value: "3", label: systems of competition }
+  - { value: "3", label: phases in a fighting bout }
+  - { value: "2", label: partners in a duo pair }
 summary: >
-  The Fighting system runs a bout through three phases in a fixed order —
-  striking at distance, then throwing, then groundwork — which makes it the
-  only combat sport covered here that legislates the range the fight happens
-  at. The Duo system goes further: two athletes from the same team perform
-  defences against called attacks, judged, with no opponent. It is the parent
-  art of judo, competing as a sport younger than its own descendant.
+  Ju-jitsu is contested on a mat in three systems. In Fighting, two athletes
+  in jackets, gloves and shin guards go through three phases in a fixed
+  order: controlled strikes at a distance, then throws, then groundwork with
+  holds, locks and strangles. Ne-waza is groundwork alone, won on points for
+  position or by submission. In Duo there is no opponent: two team-mates show
+  defences against attacks the referee calls, and judges mark them against
+  another pair. What sets the sport apart is that its main contest makes a
+  fighter compete at every range, one after another.
 cover: ju-jitsu-gi-armbar

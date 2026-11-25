@@ -8,6 +8,42 @@ summary: >
   striking, throwing and groundwork in that order. Ne-waza is groundwork alone.
   Duo is a judged, cooperative demonstration with no opponent.
 
+walkthrough:
+  title: One Fighting bout, through its three phases
+  intro: >
+    Fighting is the system that uses the whole art, so this follows one
+    Fighting bout. Ne-waza is its groundwork alone, and Duo is a judged
+    display with no opponent.
+  steps:
+    - label: Two fighters on the mat
+      body: >
+        Two athletes from the same weight category meet on the mat. Each
+        wears a gi, with a coloured belt or sash to tell them apart. Because
+        the bout includes strikes, they also wear gloves, shin protection and
+        a mouthguard.
+    - label: "Phase one: strikes"
+      body: >
+        The bout starts at a distance, with strikes. Every strike must be
+        controlled. A controlled strike that lands scores points, and a
+        strike with uncontrolled contact is an infringement.
+    - label: "Phase two: throws"
+      body: >
+        When the conditions for it are met, the referee moves the bout from
+        striking to gripping. Now the fighters hold each other and try to
+        throw. A clean throw scores points. Dangerous throws are forbidden.
+    - label: "Phase three: groundwork"
+      body: >
+        From gripping the bout moves to the ground. Here a fighter scores
+        with a hold, or ends the bout by making the opponent submit.
+    - label: One clock
+      body: >
+        All three phases happen inside one clock, and a bout lasts a few
+        minutes. The phases are not timed separately.
+    - label: Who wins
+      body: >
+        A full score or a submission ends the bout early. Otherwise the
+        fighter with more points across the three phases wins.
+
 sections:
   - id: object
     label: The object of the game
