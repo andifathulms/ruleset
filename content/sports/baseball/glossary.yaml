@@ -1,0 +1,100 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: baseball
+terms:
+  - id: run
+    term: Run
+    definition: >
+      The unit of scoring. A team scores one run each time one of its players
+      touches all four bases in order without being put out.
+    see: scoring
+  - id: out
+    term: Out
+    definition: >
+      The end of one player's turn as a batter or a runner. Three outs end a
+      team's turn at bat.
+    see: object
+  - id: inning
+    term: Inning
+    definition: >
+      One round of the game, in which each team bats once until it has made
+      three outs. A game has nine innings.
+    see: duration
+  - id: extra-innings
+    term: Extra innings
+    definition: >
+      Innings added when the score is level after nine. They go on until one
+      team is ahead at the end of an inning.
+    see: winning
+  - id: pitcher
+    term: Pitcher
+    definition: >
+      The fielder who throws the ball to the batter from the mound. Every play
+      starts with a pitch.
+    see: object
+  - id: batter
+    term: Batter
+    definition: >
+      The player from the batting team who stands at home plate and tries to
+      hit the pitch.
+    see: object
+  - id: mound
+    term: Mound
+    definition: >
+      The low hill of dirt in the middle of the diamond that the pitcher throws
+      from. It is 10 inches high.
+    see: field
+  - id: diamond
+    term: Diamond
+    definition: >
+      The square made by the four bases, 90 feet on each side. It is called a
+      diamond because it is seen from home plate, corner first.
+    see: field
+  - id: home-plate
+    term: Home plate
+    definition: >
+      The base where the batter stands and where a run is scored. It is the
+      first corner and the last corner of the diamond.
+    see: field
+  - id: strike
+    term: Strike
+    definition: >
+      A count against the batter, given for a swing that misses or for a good
+      pitch the batter lets go by. Three strikes and the batter is out.
+  - id: ball
+    term: Ball
+    definition: >
+      A count against the pitcher, given for a pitch outside the strike zone
+      that the batter does not swing at. Four balls send the batter to first
+      base.
+  - id: strike-zone
+    term: Strike zone
+    definition: >
+      The space over home plate that a pitch must pass through to be a strike
+      when the batter does not swing. Its height depends on the batter's body.
+  - id: home-run
+    term: Home run
+    definition: >
+      A hit that lets the batter run round all four bases at once, most often
+      because the ball went over the outfield wall.
+  - id: designated-hitter
+    term: Designated hitter
+    definition: >
+      A player who bats in place of the pitcher and does not field.
+    see: players
+  - id: shift
+    term: Shift
+    definition: >
+      A way of defending in which fielders move from their usual places to
+      where a certain batter usually hits the ball. The rules now limit it:
+      two infielders must stand on each side of second base.
+    see: prohibitions
+  - id: pitch-clock
+    term: Pitch clock
+    definition: >
+      A countdown that limits the time between pitches. It does not limit the
+      length of the game.
+    see: restarts

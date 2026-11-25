@@ -1,6 +1,6 @@
 id: baseball
 label: Baseball
-tagline: Ran two different rulebooks inside one sport for forty-nine years, then put a clock on a game that had never had one.
+tagline: A bat-and-ball game for two teams of nine, who take turns to bat and to field, and score by running around four bases.
 governing_body: >
   WBSC internationally; Major League Baseball keeps the rulebook that matters
   for this site's purposes.
@@ -13,10 +13,16 @@ classification:
   official: baseball
   game-category: striking-and-fielding
   adjudication: decided-by-score
+glance:
+  - { value: "9", label: fielders a side }
+  - { value: "9", label: innings in a game }
+  - { value: "90 ft", label: between the bases }
 summary: >
-  Baseball is the most statistically self-aware sport in the world and has
-  severed its own numbers repeatedly. It lowered the pitching mound in 1969
-  after a season nobody could hit in, ran two leagues under different batting
-  rules from 1973 to 2022, and in 2023 put a clock on a game that had defined
-  itself for a century by not having one.
+  Baseball is played by two teams of nine on a field built around a square of
+  four bases. One team bats while the other fields, and they swap after three
+  outs. A pitcher throws the ball to a batter, who tries to hit it and run from
+  base to base. A runner who gets all the way round to home scores one run.
+  Each team bats nine times, and the team with more runs wins. The game has no
+  clock and no draw, so it goes on until one team is ahead. The heart of it is
+  one pitcher against one batter, again and again.
 cover: baseball-wbc-2023

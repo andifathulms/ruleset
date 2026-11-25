@@ -10,6 +10,47 @@ summary: >
   one in 2023, which is the largest single change to how the sport feels since
   the mound was lowered in 1969.
 
+walkthrough:
+  title: One turn at bat, from the pitch to the run
+  intro: >
+    A game is this sequence repeated, one batter after another, until both
+    teams have batted nine times.
+  steps:
+    - label: Two teams, two jobs
+      body: >
+        One team bats and the other fields. The fielding team has nine players
+        on the field: a pitcher in the middle of the diamond, a catcher behind
+        home plate, and seven fielders behind the pitcher. The batting team
+        sends one batter at a time to home plate.
+    - label: The pitch
+      body: >
+        The pitcher throws the ball from the mound towards the batter, 60 feet
+        6 inches away. A clock runs between pitches. The pitcher must start
+        the throw before it runs out, and the batter must be ready in time. A
+        late pitcher is charged a ball, and a late batter is charged a strike.
+    - label: The hit and the bases
+      body: >
+        The batter tries to hit the ball with the bat and then run to first
+        base. The bases are 90 feet apart, and a runner must touch them in
+        order: first, second, third, and home. A runner may stop safely at a
+        base and wait for the next batter to hit.
+    - label: The out
+      body: >
+        The fielding team tries to put the batter and the runners out before
+        they reach a base safely. A player who is out leaves the field. After
+        three outs the batting team's turn is over, and the two teams swap
+        jobs.
+    - label: The run
+      body: >
+        A runner who touches all four bases in order without being put out
+        scores one run. That is the only way to score.
+    - label: The innings and the win
+      body: >
+        Each team bats nine times. The team with more runs after nine innings
+        wins. If the score is level, the teams play extra innings until one of
+        them is ahead at the end of an inning. There is no draw and no game
+        clock.
+
 sections:
   - id: object
     label: The object of the game

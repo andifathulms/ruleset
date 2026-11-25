@@ -1,0 +1,34 @@
+# The infield, from the measurements in play.yaml. Shapes are in feet.
+sport: baseball
+title: The diamond
+caption: >
+  The four bases make a square with sides of 90 feet. The pitcher throws from
+  the middle of it to the batter at home plate, and a runner goes round the
+  bases anticlockwise. The two lines from home plate run on to the outfield
+  wall. The outfield has no fixed size, so it is left open here.
+alt: >
+  A baseball infield seen from above: a square of four bases 90 feet apart
+  standing on one corner, with home plate at the bottom, the pitcher's mound
+  60 feet 6 inches from home plate, and two lines running out from home plate
+  past first and third base.
+scale: to-scale
+view: [-135, -165, 135, 30]
+shapes:
+  - { type: polygon, points: [[0, 0], [135, -135], [135, -165], [-135, -165], [-135, -135]], fill: area, line: none }
+  - { type: polygon, points: [[0, 0], [63.64, -63.64], [0, -127.28], [-63.64, -63.64]], fill: zone }
+  - { type: line, x1: 0, y1: 0, x2: 135, y2: -135 }
+  - { type: line, x1: 0, y1: 0, x2: -135, y2: -135 }
+  - { type: dim, x1: 0, y1: -6, x2: 0, y2: -46, text: "60 ft 6 in" }
+  - { type: dot, x: 0, y: -60.5, label: "pitcher" }
+  - { type: dot, x: 0, y: 0, label: "home plate" }
+  - { type: dot, x: 63.64, y: -63.64 }
+  - { type: dot, x: 0, y: -127.28 }
+  - { type: dot, x: -63.64, y: -63.64 }
+  - { type: label, x: 72, y: -58, text: "first base", anchor: start }
+  - { type: label, x: 0, y: -138, text: "second base" }
+  - { type: label, x: -72, y: -58, text: "third base", anchor: end }
+  - { type: label, x: 42, y: -24, text: "90 ft", anchor: start, tone: muted }
+  - { type: label, x: 0, y: -155, text: "outfield, no fixed size", tone: muted }
+legend:
+  - { swatch: zone, label: "the diamond, 90 ft a side" }
+  - { swatch: area, label: fair ground }
