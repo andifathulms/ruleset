@@ -1,6 +1,6 @@
 id: kurash
 label: Kurash
-tagline: "Jacket wrestling with no groundwork and no grabbing below the waist — everything judo has spent fifteen years removing, absent from the start."
+tagline: "Uzbek jacket wrestling fought only on the feet: grip the jacket or the belt, and throw the opponent onto their back."
 governing_body: International Kurash Association
 founded: >
   An Uzbek wrestling tradition of great antiquity, codified as an international
@@ -12,10 +12,17 @@ classification:
   official: kurash
   game-category: outside-taxonomy
   adjudication: combat
+glance:
+  - { value: "1", label: clean throw ends the bout }
+  - { value: "~4 min", label: a men's bout }
+  - { value: "~3 min", label: a women's bout }
 summary: >
-  Standing jacket wrestling: throw your opponent onto their back and the bout
-  ends. There is no groundwork, no submission, no strangle and no grabbing
-  below the waist — the contest exists entirely in the upright grappling phase.
-  It was codified in 1998 as a deliberate national-heritage export by
-  Uzbekistan, and reached the Asian Games twenty years later.
+  Two wrestlers in jackets and belts, one in blue and one in green, face each
+  other standing on a mat. Each grips the other's jacket or belt and tries to
+  throw. A clean throw onto the back is called halal, and it ends the bout at
+  once. A throw that falls short scores chala. Nothing happens on the ground:
+  when the wrestlers go down, the referee stops them and stands them up
+  again. There are no pins, no strangles and no locks, and no one may hold
+  anything below the waist. The whole sport is the standing fight for a grip
+  and a throw.
 cover: kurash-aimag-2017

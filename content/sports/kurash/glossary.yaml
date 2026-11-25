@@ -1,0 +1,66 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how kurash is fought, not claims
+# about its history.
+
+sport: kurash
+terms:
+  - id: halal
+    term: Halal
+    definition: >
+      The winning throw. The opponent lands squarely on the back, with force
+      and control, and the bout ends at once.
+    see: scoring
+  - id: chala
+    term: Chala
+    definition: >
+      A partial score, given for a throw that falls short of halal because
+      the landing is partial or the control incomplete. Chala are counted up
+      if nobody scores a halal.
+    see: scoring
+  - id: tanbeh
+    term: Tanbeh
+    definition: >
+      A penalty. It is given for passivity, for a forbidden grip and for
+      stepping out of the area, and enough of them decide a bout.
+    see: scoring
+  - id: yakhtak
+    term: Yakhtak
+    definition: >
+      The jacket. It is the main thing a wrestler grips, so most techniques
+      start from a hold on it.
+    see: equipment
+  - id: belbog
+    term: Belbog
+    definition: >
+      The belt, tied around the waist. Gripping it is legal.
+    see: equipment
+  - id: ishton
+    term: Ishton
+    definition: >
+      The trousers. They may not be gripped, because nothing below the waist
+      may be held.
+    see: equipment
+  - id: grip
+    term: Grip
+    definition: >
+      A hold on the opponent's jacket or belt. Every throw starts from a
+      grip, and a grip below the waist is forbidden.
+    see: prohibitions
+  - id: passivity
+    term: Passivity
+    definition: >
+      Avoiding the fight instead of trying to throw. It is punished with a
+      tanbeh.
+    see: prohibitions
+  - id: stepping-out
+    term: Stepping out
+    definition: >
+      Leaving the contest area. It is an infringement and brings a tanbeh.
+    see: prohibitions
+  - id: restart
+    term: Restart
+    definition: >
+      What happens when the wrestlers go to the ground. The referee stops
+      the bout, and both return to the centre and begin again standing.
+    see: restarts

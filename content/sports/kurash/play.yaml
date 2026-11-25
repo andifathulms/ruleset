@@ -8,6 +8,45 @@ summary: >
   onto their back and the bout ends immediately. No groundwork, no submissions,
   and no touching an opponent below the waist.
 
+walkthrough:
+  title: One bout, from the first grip to the throw
+  intro: >
+    A kurash bout can be over in seconds, and it always follows this order.
+  steps:
+    - label: Two wrestlers, standing
+      body: >
+        Two competitors from the same weight category meet on the mat. Each
+        wears a jacket, trousers and a belt, one in blue and the other in
+        green. A referee stands on the mat with them, and side judges
+        assist.
+    - label: The grip
+      body: >
+        Each wrestler tries to take hold of the other's jacket or belt. Those
+        are the only legal grips. Holding the trousers, the legs or anything
+        else below the waist is forbidden.
+    - label: The throw
+      body: >
+        From a grip, a wrestler tries to throw the other. A throw that lands
+        the opponent squarely on the back, with force and control, is halal,
+        and the bout ends at once. A throw with a partial landing or
+        incomplete control scores chala.
+    - label: On the ground, stop
+      body: >
+        There is no fighting on the ground. When the action goes down, the
+        referee stops the bout and both wrestlers return to the centre and
+        start again standing. Strangles, joint locks and holds on the ground
+        are all forbidden.
+    - label: Penalties
+      body: >
+        A penalty is called tanbeh. The referee gives one for passivity, for
+        a forbidden grip and for stepping out of the area.
+    - label: Who wins
+      body: >
+        A halal wins immediately. If nobody scores one, the bout runs for
+        about four minutes for men and three for women. It is then decided by
+        the chala each wrestler has collected, or by the opponent's
+        penalties.
+
 sections:
   - id: object
     label: The object of the game
