@@ -1,0 +1,83 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: basque-pelota
+terms:
+  - id: pelota
+    term: Pelota
+    definition: >
+      The ball, and the name of the whole family of games. Every game in the
+      family is played by hitting a ball against a front wall.
+    see: object
+  - id: fronton
+    term: Frontón
+    definition: >
+      The open court: a front wall, a long side wall on the left, and a marked
+      floor. It comes in three lengths, 30, 36 and 54 metres.
+    see: field
+  - id: trinquete
+    term: Trinquete
+    definition: >
+      The closed court, with walls on four sides. A sloping roof runs along one
+      wall, and the ball may be played off it.
+    see: field
+  - id: penthouse
+    term: Penthouse
+    definition: >
+      The sloping roof along one wall of a trinquete. A ball that hits it is
+      still in play.
+    see: field
+  - id: specialty
+    term: Specialty
+    definition: >
+      One of the separate games that make up pelota. A specialty is one kind of
+      court combined with one way of striking the ball, and each has its own
+      competition.
+    see: field
+  - id: mano
+    term: Mano
+    definition: >
+      The bare-hand game. The ball is struck with the hand, which is protected
+      only by tape and small pads.
+    see: equipment
+  - id: pala
+    term: Pala
+    definition: >
+      A heavy bat of solid wood. The paleta is a lighter bat of the same kind.
+    see: equipment
+  - id: share
+    term: Share
+    definition: >
+      A racket with strings, used only in the trinquete.
+    see: equipment
+  - id: cesta
+    term: Cesta
+    definition: >
+      A long, curved wicker basket strapped to the arm. The player catches the
+      ball in it and slings it back in one motion.
+    see: equipment
+  - id: cesta-punta
+    term: Cesta punta
+    definition: >
+      The basket game played on the 54-metre frontón. It is also called jai
+      alai.
+    see: equipment
+  - id: remonte
+    term: Remonte
+    definition: >
+      A basket game played on the long wall with a shallower basket than the
+      cesta.
+    see: equipment
+  - id: corredor
+    term: Corredor
+    definition: >
+      A bookmaker who works in the crowd at a frontón. Corredores call out odds
+      while the match is being played.
+    see: scoring
+  - id: frontball
+    term: Frontball
+    definition: >
+      A short format on a small court with three walls, made for schools and
+      for countries that have no frontón.

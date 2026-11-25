@@ -8,6 +8,48 @@ summary: >
   return it — with the court, the implement and the ball all varying by
   specialty, and the specialties contested separately.
 
+walkthrough:
+  title: "One rally in the hand game"
+  intro: >
+    Pelota is many games. This is mano, the bare-hand game, played on a
+    frontón by two players or two pairs.
+  steps:
+    - label: "The court"
+      body: >
+        A frontón has a front wall, a long side wall on the left and a marked
+        floor. All the players share the same floor. There is no net and no
+        line between the two sides.
+    - label: "The serve"
+      body: >
+        One player serves by striking the ball to the front wall. The ball
+        must reach the wall and come back to land inside the marked zones on
+        the floor.
+    - label: "The rally"
+      body: >
+        The two sides then strike the ball in turn. Each shot must reach the
+        front wall, and the ball must be hit before it bounces twice. In mano
+        the ball may be touched only with the hand, and it must be struck,
+        never caught or scooped.
+    - label: "Sharing the floor"
+      body: >
+        A player moving to the ball often crosses the space an opponent wants.
+        A player may not interfere with an opponent's swing or path, and the
+        judge on the court decides when that has happened.
+    - label: "How it ends"
+      body: >
+        A side loses the rally when it lets the ball bounce twice, fails to
+        reach the front wall, or sends the ball outside the marked lines of
+        the court.
+    - label: "The point"
+      body: >
+        The side that wins the rally scores one point. Every rally scores, for
+        whichever side wins it.
+    - label: "Winning the match"
+      body: >
+        The match is played to a target score, commonly 22 points in
+        professional hand pelota. There is no clock and there are no sets. The
+        first side to reach the target wins.
+
 sections:
   - id: object
     label: The object of the game
