@@ -31,10 +31,10 @@ export default function NotFound() {
 
         <p className="mt-12 flex flex-wrap gap-x-6 gap-y-2 text-[15px]">
           <Link href="/" className="link-paint text-chalk">
-            Back to the timeline
+            Back to the front page
           </Link>
           <Link href="/sports/" className="link-paint text-chalk/75 hover:text-chalk">
-            The researched sports
+            All the sports
           </Link>
         </p>
       </div>

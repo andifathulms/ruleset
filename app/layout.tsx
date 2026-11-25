@@ -94,19 +94,20 @@ const serif = Newsreader({
 
 const FOOTER_NAV = [
   {
-    heading: 'The board',
+    heading: 'The games',
     links: [
-      { href: '/', label: 'Cross-sport timeline' },
-      { href: '/breaks/', label: 'Comparability breaks' },
+      { href: '/sports/', label: 'Sports' },
+      { href: '/play/', label: 'How the games are played' },
       { href: '/program/', label: 'The programmes' },
     ],
   },
   {
-    heading: 'The record',
+    heading: 'The history',
     links: [
-      { href: '/sports/', label: 'Sports' },
+      { href: '/history/', label: 'Rule changes over time' },
+      { href: '/breaks/', label: 'Comparability breaks' },
       { href: '/sources/', label: 'Sources and standing' },
-      { href: '/about/', label: 'What this refuses to do' },
+      { href: '/about/', label: 'How the facts are kept honest' },
     ],
   },
 ]
@@ -135,11 +136,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div>
                 <p className="font-display text-3xl text-chalk">Ruleset</p>
                 <p className="prose-measure mt-3 text-[15px] text-dim">
-                  Read-only, static, and deliberately incomplete. Coverage grows
-                  where the author&rsquo;s curiosity goes. The researched sports
-                  carry a cause and a citation per rule change; the rest of the
-                  programmes are present as status data only, and are marked as
-                  such wherever they appear.
+                  An encyclopedia of sports: how each game is played, and why
+                  its rules are the way they are. Read-only and static. Sports
+                  on the programmes that have not been written up yet appear as
+                  status data only, and are marked as such wherever they appear.
                 </p>
               </div>
 

@@ -11,7 +11,7 @@ import { url } from '@/lib/seo'
  * between these pages would be a claim the site cannot support.
  */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = ['/', '/sports/', '/breaks/', '/play/', '/program/', '/sources/', '/about/']
+  const pages = ['/', '/sports/', '/history/', '/breaks/', '/play/', '/program/', '/sources/', '/about/']
 
   return [
     ...pages.map((path) => ({ url: url(path), changeFrequency: 'monthly' as const })),

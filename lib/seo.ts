@@ -17,10 +17,10 @@ export const SITE_URL = `${ORIGIN}${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}`
 
 export const SITE_NAME = 'Ruleset'
 
-export const SITE_TAGLINE = 'How sports became the sports they are'
+export const SITE_TAGLINE = 'How the games are played, and why'
 
 export const SITE_DESCRIPTION =
-  'How sports became the sports they are. Rule changes with a cause, a date, a citation, and a measurable consequence.'
+  'An encyclopedia of sports: how each game is played, explained for someone who has never seen it, and why its rules are the way they are.'
 
 /** An absolute URL for a route. `/breaks/` in, `https://host/base/breaks/` out. */
 export function url(path: string): string {

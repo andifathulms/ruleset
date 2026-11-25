@@ -219,10 +219,16 @@ async function write(name, element, size = SIZE) {
 function pages(n) {
   return {
     default: {
-      eyebrow: 'A record of rule changes',
-      title: 'How sports became the sports they are',
-      note: 'Every change with a cause, a date, a citation, and what it did to the numbers.',
-      footer: 'Nothing interpolated across a break',
+      eyebrow: 'An encyclopedia of sports',
+      title: 'How the games are played, and why',
+      note: 'Each sport explained for someone who has never seen it, and every rule traced to the change that made it.',
+      footer: plural(n.deep, 'sport', 'sports'),
+    },
+    history: {
+      eyebrow: 'The history',
+      title: 'Every rule change, on one timeline',
+      note: 'Each change with a cause, a date, a citation, and what it did to the numbers.',
+      footer: plural(n.rules, 'rule change', 'rule changes'),
     },
     sports: {
       eyebrow: 'The record',

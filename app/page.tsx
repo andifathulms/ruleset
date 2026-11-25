@@ -1,14 +1,12 @@
 import Link from 'next/link'
 import JsonLd from '@/components/JsonLd'
 import { siteSchema } from '@/lib/seo'
-import Timeline from '@/components/Timeline'
 import BreakDiagram from '@/components/BreakDiagram'
 import SportCover from '@/components/SportCover'
 import { Counter, Reveal } from '@/components/Motion'
-import { BREAK_KIND_LABEL } from '@/lib/series'
+import { fieldSvg } from '@/lib/fieldSvg'
 import {
-  getAllRuleChanges, getAllSeries, getCauses, getCover, getLenses, getProgram, getProgrammes, getSources,
-  getSports,
+  getAllRuleChanges, getCover, getField, getGlossary, getLenses, getPlay, getSports,
 } from '@/lib/content'
 
 const COLOUR: Record<string, { base: string; bright: string }> = {
@@ -19,41 +17,63 @@ const COLOUR: Record<string, { base: string; bright: string }> = {
   unmarked: { base: '#7A8C8A', bright: '#9FB2B0' },
 }
 
-const KIND_BLURB: Record<string, string> = {
-  reset: 'The marks were annulled and the list restarted.',
-  retained: 'The rule changed; the old marks were allowed to stand.',
-  'scale-change': 'The measurement scale itself was replaced.',
-  scoped: 'No series exists for the sport, only for one competition.',
+/**
+ * A way in for a reader who knows few of these games: some that are watched
+ * everywhere, and some that are not, from different families. Chosen by hand
+ * because "most popular" is not something the site measures. A sport without
+ * a cover photograph is skipped rather than shown as an empty panel.
+ */
+const START_WITH = [
+  'football', 'badminton', 'cricket', 'judo',
+  'volleyball', 'kabaddi', 'fencing', 'sepak-takraw', 'archery',
+]
+
+/** The court on the front page: drawn from its field.yaml, like every sport's. */
+const FRONT_FIELD = 'tennis'
+
+/** The game-category lens is the index by kind of game. Its catch-all group
+    is named for what it holds on this page, not for the taxonomy it escapes. */
+const INDEX_LENS = 'game-category'
+const GROUP_TITLE: Record<string, string> = {
+  'outside-taxonomy': 'Combat, judged and other contests',
 }
 
 export default function Home() {
-  const rules = getAllRuleChanges()
-  const series = getAllSeries()
   const sports = getSports()
-  const sources = getSources()
-  const program = getProgram()
-  /* Every sport listed on any programme, deduplicated: several appear on all
-     three, and a sport counted twice would overstate the skeleton layer. */
-  const programmeSports = new Set(
-    getProgrammes().flatMap((p) => p.sports.map((s) => s.id)),
-  ).size
-  const deep = sports.filter((s) => s.coverage === 'deep')
-  const broken = series.flatMap(({ sport, series: x }) => x.breaks.map((brk) => ({ sport, series: x, brk })))
-  const kinds = Array.from(new Set(broken.map((b) => b.brk.kind)))
-  const label = Object.fromEntries(sports.map((s) => [s.id, s.label]))
-  const earliest = Math.min(...rules.map((r) => Number(r.date_effective.slice(0, 4))))
+  const rules = getAllRuleChanges()
+  const byId = Object.fromEntries(sports.map((s) => [s.id, s]))
 
-  /* The sports whose rule changes broke the most series, among those with a
-     cover to show — a break counted once per year, as on the sport page. */
-  const featured = deep
-    .map((sport) => ({
-      sport,
-      cover: getCover(sport),
-      breaks: new Set(broken.filter((b) => b.sport === sport.id).map((b) => b.brk.at)).size,
+  const fields = sports.filter((s) => getField(s.id) !== null || s.id === 'badminton').length
+  const terms = sports.reduce((n, s) => n + (getGlossary(s.id)?.terms.length ?? 0), 0)
+  const walkthroughs = sports.filter((s) => getPlay(s.id)?.walkthrough).length
+
+  const start = START_WITH.map((id) => byId[id])
+    .filter(Boolean)
+    .map((sport) => ({ sport, cover: getCover(sport) }))
+    .filter((x): x is typeof x & { cover: NonNullable<typeof x.cover> } => x.cover !== null)
+    .slice(0, 8)
+
+  const field = getField(FRONT_FIELD)
+  const fieldSport = byId[FRONT_FIELD]
+  const fieldColour = COLOUR[fieldSport?.family_colour ?? 'unmarked'] ?? COLOUR.unmarked
+
+  const lens = getLenses().find((l) => l.id === INDEX_LENS)
+  const groups = (lens?.groups ?? [])
+    .map((g) => ({
+      id: g.id,
+      title: GROUP_TITLE[g.id] ?? g.label,
+      colour: COLOUR[g.colour] ?? COLOUR.unmarked,
+      members: g.members
+        .filter((id) => byId[id])
+        .sort((a, b) => byId[a].label.localeCompare(byId[b].label)),
     }))
-    .filter((f): f is typeof f & { cover: NonNullable<typeof f.cover> } => f.cover !== null)
-    .sort((a, b) => b.breaks - a.breaks || a.sport.label.localeCompare(b.sport.label))
-    .slice(0, 7)
+    .filter((g) => g.members.length > 0)
+  /* A sport the lens does not list still belongs in the index. */
+  const listed = new Set(groups.flatMap((g) => g.members))
+  const unlisted = sports.filter((s) => !listed.has(s.id)).map((s) => s.id)
+  if (unlisted.length) {
+    groups.push({ id: 'unlisted', title: 'Not yet grouped', colour: COLOUR.unmarked, members: unlisted })
+  }
 
   return (
     <>
@@ -64,265 +84,228 @@ export default function Home() {
         <div aria-hidden className="court-grid court-grid-fade absolute inset-0" />
 
         <div className="relative mx-auto max-w-[86rem] px-5 pb-16 pt-14 sm:pb-24 sm:pt-20">
-          <Reveal>
-            <p className="eyebrow">
-              {program.editions.length} Olympic editions · {sources.length} sources cited
-            </p>
-          </Reveal>
-
-          <Reveal delay={80}>
-            <h1 className="display-xl mt-5 max-w-[20ch] text-fluid-h1 text-chalk">
-              Every sport is a set of rules that someone{' '}
-              <span className="relative inline-block">
-                changed
-                <span
-                  aria-hidden
-                  className="absolute bottom-[0.1em] left-0 h-[3px] w-full bg-gold-bright"
-                />
-              </span>
-              , for a reason, on a date.
-            </h1>
-          </Reveal>
-
-          <div className="mt-9 grid gap-x-14 gap-y-9 lg:grid-cols-[minmax(0,1fr)_minmax(0,22rem)]">
-            <Reveal delay={160}>
-              <div className="prose-measure text-fluid-lead text-chalk/85">
-                <p>
-                  Wikipedia will tell you that badminton switched to 21-point
-                  rally scoring in 2006. It will not tell you that the switch
-                  belongs to a wave of scoring rewrites driven by broadcast
-                  scheduling, or that it severed every match statistic before it
-                  from every one after.
-                </p>
-              </div>
-              <div className="mt-7 flex flex-wrap items-center gap-4">
-                <a
-                  href="#board"
-                  className="group inline-flex items-center gap-3 bg-chalk px-6 py-3 font-display text-lg tracking-wide text-ink transition-colors hover:bg-gold-bright"
-                >
-                  Open the board
-                  <span
-                    aria-hidden
-                    className="inline-block transition-transform duration-300 group-hover:translate-y-1"
+          <div className="grid gap-x-14 gap-y-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,30rem)] lg:items-center">
+            <div>
+              <Reveal>
+                <p className="eyebrow">An encyclopedia of {sports.length} sports</p>
+              </Reveal>
+              <Reveal delay={80}>
+                <h1 className="display-xl mt-5 max-w-[18ch] text-fluid-h1 text-chalk">
+                  How every game is played, and why its rules are the way they are.
+                </h1>
+              </Reveal>
+              <Reveal delay={160}>
+                <div className="prose-measure mt-7 text-fluid-lead text-chalk/85">
+                  <p>
+                    Each sport is explained for someone who has never seen it:
+                    one rally, bout or race from start to finish, the playing
+                    area drawn to scale, the words players use, and the laws in
+                    force. Behind every law is the rule change that made it,
+                    with its date, its reason and its source.
+                  </p>
+                </div>
+                <div className="mt-8 flex flex-wrap items-center gap-4">
+                  <Link
+                    href="/sports/"
+                    className="group inline-flex items-center gap-3 bg-chalk px-6 py-3 font-display text-lg tracking-wide text-ink transition-colors hover:bg-gold-bright"
                   >
-                    ↓
-                  </span>
-                </a>
-                <Link
-                  href="/breaks/"
-                  className="group inline-flex items-center gap-3 border border-chalk/30 px-6 py-3 font-display text-lg tracking-wide text-chalk transition-colors hover:border-chalk"
-                >
-                  What a break is
-                  <span
-                    aria-hidden
-                    className="inline-block transition-transform duration-300 group-hover:translate-x-1"
+                    Browse the sports
+                    <span aria-hidden className="inline-block transition-transform duration-300 group-hover:translate-x-1">
+                      →
+                    </span>
+                  </Link>
+                  <Link
+                    href="/play/"
+                    className="group inline-flex items-center gap-3 border border-chalk/30 px-6 py-3 font-display text-lg tracking-wide text-chalk transition-colors hover:border-chalk"
                   >
-                    →
-                  </span>
-                </Link>
-              </div>
-            </Reveal>
+                    Compare the laws
+                    <span aria-hidden className="inline-block transition-transform duration-300 group-hover:translate-x-1">
+                      →
+                    </span>
+                  </Link>
+                </div>
+              </Reveal>
+            </div>
 
-            {/* The argument, drawn. A line that runs, stops, steps, resumes. */}
-            <Reveal delay={240} className="self-end">
-              <figure className="panel p-6">
-                <BreakDiagram className="h-24" />
-                <figcaption className="mt-3 text-[14px] text-dim">
-                  A comparability break. The line stops, steps, and resumes on a
-                  different baseline. Nothing is ever drawn across the gap —
-                  here or anywhere else on this site.
-                </figcaption>
-              </figure>
-            </Reveal>
+            {/* One court, drawn the way every sport's is. */}
+            {field && fieldSport && (
+              <Reveal delay={240}>
+                <figure className="panel p-5 sm:p-6">
+                  <div dangerouslySetInnerHTML={{ __html: fieldSvg(field, fieldColour.bright) }} />
+                  <figcaption className="mt-4 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 text-[14px] text-dim">
+                    <span>{field.title}, drawn to scale from the laws.</span>
+                    <Link href={`/sports/${fieldSport.id}/#play`} className="link-paint text-chalk">
+                      How {fieldSport.label.toLowerCase()} is played
+                    </Link>
+                  </figcaption>
+                </figure>
+              </Reveal>
+            )}
           </div>
 
           {/* --------------------------------------------------- stat strip */}
           <Reveal delay={300}>
             <dl className="mt-14 grid grid-cols-2 gap-px border chalk-rule bg-chalk/[0.08] sm:grid-cols-4">
-              <Stat n={rules.length} label="rule changes" sub={`since ${earliest}`} />
-              <Stat n={deep.length} label="sports researched" sub="every family covered" />
-              <Stat n={broken.length} label="comparability breaks" sub={`${kinds.length} kinds`} />
-              <Stat
-                n={programmeSports}
-                label="sports on a programme"
-                sub="Olympic, Asian, World"
-              />
+              <Stat n={walkthroughs} label="sports explained" sub="one rally or race, step by step" />
+              <Stat n={fields} label="playing areas drawn" sub="from the measurements in the laws" />
+              <Stat n={terms} label="terms defined" sub="each sport's own words" />
+              <Stat n={rules.length} label="rule changes" sub="each with a date and a reason" />
             </dl>
           </Reveal>
         </div>
       </section>
 
-      {/* ----------------------------------------------------------- board */}
-      <section id="board" className="relative scroll-anchor border-b chalk-rule">
-        <div aria-hidden className="court-grid absolute inset-0 opacity-40" />
-        <div className="relative mx-auto max-w-[86rem] px-5 py-16 sm:py-20">
-          <Reveal>
-            <p className="eyebrow">The spine</p>
-            <h2 className="mt-3 text-fluid-h2 text-chalk">One time axis, every sport at once</h2>
-            <p className="prose-measure mt-4 text-fluid-base text-chalk/80">
-              {rules.length} rule changes across {deep.length} researched sports.
-              One lane per family under the classification lens you pick; cause
-              is carried by the shape of the mark, never by a second colour. A
-              step in a lane is a{' '}
-              <Link href="/breaks/" className="link-paint text-chalk">
-                comparability break
-              </Link>{' '}
-              — the point at which a number series stops being continuous. There
-              are {broken.length} of them here.
-            </p>
-          </Reveal>
-
-          <div className="mt-10">
-            <Timeline
-              rules={rules}
-              series={series}
-              lenses={getLenses()}
-              causes={getCauses()}
-              sports={sports}
-              sources={sources}
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* ---------------------------------------------------------- sports */}
-      {/* A way in, not a second index: the sports whose rules broke the most
-         series, and the door to all of them. The full list lives at /sports/. */}
+      {/* ----------------------------------------------------- start with */}
       <section className="mx-auto max-w-[86rem] px-5 py-16 sm:py-24">
         <Reveal>
           <div className="flex flex-wrap items-end justify-between gap-x-10 gap-y-5">
             <div>
-              <p className="eyebrow">The deep layer</p>
-              <h2 className="mt-3 text-fluid-h2 text-chalk">
-                {deep.length} sports, one rulebook at a time
-              </h2>
+              <h2 className="text-fluid-h2 text-chalk">Start with a game</h2>
               <p className="prose-measure mt-4 text-fluid-base text-chalk/80">
-                Each with its rule changes, a cause and a citation apiece, its
-                laws in force, and the breaks those changes left in its
-                numbers. These are the ones whose rules broke the most.
+                A few to begin with, some watched everywhere and some barely
+                known outside the places that play them.
               </p>
             </div>
             <Link
               href="/sports/"
               className="group inline-flex items-center gap-3 border border-chalk/30 px-5 py-2.5 font-display text-lg text-chalk transition-colors hover:border-chalk"
             >
-              Browse all {deep.length}
-              <span aria-hidden className="transition-transform duration-300 group-hover:translate-x-1">
-                →
-              </span>
+              All {sports.length} sports
+              <span aria-hidden className="transition-transform duration-300 group-hover:translate-x-1">→</span>
             </Link>
           </div>
         </Reveal>
 
-        <ul className="mt-10 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4">
-          {featured.map(({ sport: s, cover, breaks }, i) => {
+        <ul className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
+          {start.map(({ sport: s, cover }, i) => {
             const c = COLOUR[s.family_colour] ?? COLOUR.unmarked
             return (
               <Reveal as="li" key={s.id} delay={i * 60}>
                 <Link
                   href={`/sports/${s.id}/`}
-                  className="group relative block aspect-[4/3] overflow-hidden border border-chalk/[0.12] transition-colors hover:border-[var(--bright)]"
+                  className="group flex h-full flex-col border border-chalk/[0.12] transition-colors hover:border-[var(--bright)]"
                   style={{ ['--bright' as string]: c.bright }}
                 >
-                  <SportCover
-                    image={{ file: cover.file, alt: cover.alt, width: cover.width, height: cover.height, position: s.cover_position }}
-                    colour={s.family_colour}
-                    label={s.label}
-                    className="!absolute inset-0"
-                  />
-                  <span aria-hidden className="absolute inset-0 bg-gradient-to-t from-ink via-ink/30 to-transparent" />
-                  <span className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-2 p-3 sm:p-4">
-                    <span className="font-display text-[22px] leading-none text-chalk sm:text-[28px]">{s.label}</span>
-                    <span className="whitespace-nowrap text-[12px] text-dim">
-                      <span className="numeral text-[18px]" style={{ color: c.bright }}>{breaks}</span>{' '}
-                      {breaks === 1 ? 'break' : 'breaks'}
-                    </span>
+                  <span className="relative block aspect-[16/10] overflow-hidden">
+                    <SportCover
+                      image={{ file: cover.file, alt: cover.alt, width: cover.width, height: cover.height, position: s.cover_position }}
+                      colour={s.family_colour}
+                      label={s.label}
+                      className="!absolute inset-0"
+                    />
+                  </span>
+                  <span className="flex flex-1 flex-col gap-2 p-4">
+                    <span className="font-display text-[26px] leading-none text-chalk">{s.label}</span>
+                    <span className="line-clamp-3 text-[14.5px] leading-snug text-chalk/75">{s.tagline}</span>
                   </span>
                 </Link>
               </Reveal>
             )
           })}
-          <Reveal as="li" delay={featured.length * 60}>
-            <Link
-              href="/sports/"
-              className="group flex aspect-[4/3] flex-col justify-between border border-dashed border-chalk/25 p-3 transition-colors hover:border-chalk/60 hover:bg-surface sm:p-4"
-            >
-              <span className="text-[13px] text-unmarked">
-                and {deep.length - featured.length} more, searchable by lens
-              </span>
-              <span className="font-display text-[22px] leading-none text-chalk sm:text-[28px]">
-                All sports{' '}
-                <span aria-hidden className="inline-block transition-transform duration-300 group-hover:translate-x-1">
-                  →
-                </span>
-              </span>
-            </Link>
-          </Reveal>
         </ul>
       </section>
 
-      {/* ---------------------------------------------------------- breaks */}
+      {/* ---------------------------------------------------- by kind */}
       <section className="border-y chalk-rule bg-surface/40">
         <div className="mx-auto max-w-[86rem] px-5 py-16 sm:py-20">
           <Reveal>
-            <p className="eyebrow">The consequence</p>
-            <h2 className="mt-3 text-fluid-h2 text-chalk">
-              Four federations, four different answers
-            </h2>
+            <h2 className="text-fluid-h2 text-chalk">Every sport, by kind of game</h2>
             <p className="prose-measure mt-4 text-fluid-base text-chalk/80">
-              A rule change that severs a quantitative series leaves every
-              governing body the same choice and gets a different answer each
-              time. This site takes no position on which is right; it insists
-              only that the distinction is recorded.
+              Grouped by what the players are trying to do: get the ball past a
+              net, invade the other side&rsquo;s ground, hit and run, hit a
+              target, or perform for a clock, a tape or a panel.
             </p>
           </Reveal>
 
-          <ol className="mt-10 grid gap-px border chalk-rule bg-chalk/[0.08] sm:grid-cols-2 lg:grid-cols-4">
-            {['reset', 'retained', 'scale-change', 'scoped'].map((kind, i) => {
-              const hit = broken.find((b) => b.brk.kind === kind)
-              return (
-                <Reveal as="li" key={kind} delay={i * 70} className="bg-ink">
-                  <Link
-                    href={hit ? `/breaks/#${hit.series.id}` : '/breaks/'}
-                    className="group flex h-full flex-col p-6 transition-colors hover:bg-surface"
-                  >
-                    <span className="numeral text-[15px] text-unmarked">
-                      {hit ? hit.brk.at : '—'}
-                    </span>
-                    <span className="mt-1 font-display text-2xl text-chalk">
-                      {BREAK_KIND_LABEL[kind]}
-                    </span>
-                    <span className="mt-2 flex-1 text-[14px] leading-snug text-chalk/70">
-                      {KIND_BLURB[kind]}
-                    </span>
-                    <span className="mt-5 text-[13px] text-unmarked transition-colors group-hover:text-chalk">
-                      {hit ? label[hit.sport] ?? hit.sport : 'see all'} →
-                    </span>
-                  </Link>
-                </Reveal>
-              )
-            })}
-          </ol>
+          <div className="mt-10 grid gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+            {groups.map((g, i) => (
+              <Reveal key={g.id} delay={i * 50}>
+                <h3 className="flex items-baseline gap-3 border-t-2 pt-3 font-display text-2xl text-chalk" style={{ borderColor: g.colour.bright }}>
+                  {g.title}
+                  <span className="numeral text-[15px] text-unmarked">{g.members.length}</span>
+                </h3>
+                <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5 text-[15.5px]">
+                  {g.members.map((id) => (
+                    <li key={id}>
+                      <Link href={`/sports/${id}/`} className="link-paint text-chalk/85 hover:text-chalk">
+                        {byId[id].label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ------------------------------------------------------- history */}
+      <section className="mx-auto max-w-[86rem] px-5 py-16 sm:py-24">
+        <div className="grid gap-x-14 gap-y-9 lg:grid-cols-[minmax(0,1fr)_minmax(0,22rem)] lg:items-end">
+          <Reveal>
+            <h2 className="text-fluid-h2 text-chalk">Why the rules are the way they are</h2>
+            <div className="prose-measure mt-4 space-y-4 text-fluid-base text-chalk/80">
+              <p>
+                Every law was written by someone, for a reason, on a date.
+                Badminton went to 21-point rally scoring in 2006 so that a match
+                would fit a broadcast slot. The javelin was redesigned in 1986
+                because throws were reaching the end of the stadium.
+              </p>
+              <p>
+                The history lays all {rules.length} recorded changes on one time
+                axis, so the patterns show: scoring rewritten for television,
+                safety rules after injuries. Some changes cut a record book in
+                two, and those breaks are drawn as breaks.
+              </p>
+            </div>
+            <div className="mt-7 flex flex-wrap gap-4">
+              <Link
+                href="/history/"
+                className="group inline-flex items-center gap-3 bg-chalk px-6 py-3 font-display text-lg tracking-wide text-ink transition-colors hover:bg-gold-bright"
+              >
+                Open the history
+                <span aria-hidden className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+              </Link>
+              <Link
+                href="/breaks/"
+                className="group inline-flex items-center gap-3 border border-chalk/30 px-6 py-3 font-display text-lg tracking-wide text-chalk transition-colors hover:border-chalk"
+              >
+                Where the numbers stop
+                <span aria-hidden className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+              </Link>
+            </div>
+          </Reveal>
+          <Reveal delay={120}>
+            <figure className="panel p-6">
+              <BreakDiagram className="h-24" />
+              <figcaption className="mt-3 text-[14px] text-dim">
+                A comparability break. The line stops, steps, and resumes on a
+                different baseline. Nothing is ever drawn across the gap.
+              </figcaption>
+            </figure>
+          </Reveal>
         </div>
       </section>
 
       {/* ----------------------------------------------------------- close */}
-      <section className="mx-auto max-w-[86rem] px-5 py-16 sm:py-24">
-        <Reveal>
-          <p className="prose-measure text-fluid-lead text-chalk/80">
-            Read-only, static, and deliberately incomplete. Most citations name
-            the right edition without a confirmed article number, and every one
-            of those renders as incomplete rather than being quietly finished.
-          </p>
-          <p className="mt-6 flex flex-wrap gap-x-6 gap-y-2 text-[15px]">
-            <Link href="/sources/" className="link-paint text-chalk">
-              How far each citation has been checked
-            </Link>
-            <Link href="/about/" className="link-paint text-chalk">
-              What this site refuses to do
-            </Link>
-          </p>
-        </Reveal>
+      <section className="border-t chalk-rule">
+        <div className="mx-auto max-w-[86rem] px-5 py-14">
+          <Reveal>
+            <p className="prose-measure text-fluid-base text-chalk/75">
+              Read-only and static. The laws are entered from the edition each
+              governing body names, and a figure not yet checked against that
+              text says so on the page.
+            </p>
+            <p className="mt-5 flex flex-wrap gap-x-6 gap-y-2 text-[15px]">
+              <Link href="/sources/" className="link-paint text-chalk">
+                How far each citation has been checked
+              </Link>
+              <Link href="/about/" className="link-paint text-chalk">
+                How the facts are kept honest
+              </Link>
+            </p>
+          </Reveal>
+        </div>
       </section>
     </>
   )

@@ -5,9 +5,9 @@ import { usePathname } from 'next/navigation'
 import { useEffect, useRef, useState } from 'react'
 
 const NAV = [
-  { href: '/', label: 'Timeline' },
   { href: '/sports/', label: 'Sports' },
   { href: '/play/', label: 'How to play' },
+  { href: '/history/', label: 'History' },
   { href: '/program/', label: 'Programme' },
   { href: '/breaks/', label: 'Breaks' },
   { href: '/sources/', label: 'Sources' },
@@ -93,7 +93,7 @@ export default function SiteHeader() {
             stuck ? 'opacity-0' : 'opacity-100'
           }`}
         >
-          How sports became the sports they are.
+          How the games are played, and why.
         </p>
 
         <nav aria-label="Primary" className="ml-auto hidden items-center gap-x-1 md:flex">

@@ -36,8 +36,9 @@ export default function PlayPage() {
         <h1 className="font-display text-fluid-h1 text-chalk">How the games are played</h1>
         <div className="prose-measure mt-5 space-y-4 text-fluid-base text-chalk/85">
           <p>
-            The rest of this site records how the rules changed. This is what
-            they say now.
+            The laws of every sport, as they stand now, side by side. Each
+            sport&rsquo;s own page walks through the game step by step first;
+            this is the reference.
           </p>
           <p>
             Every sport here answers the same nine questions — what you are
@@ -50,8 +51,8 @@ export default function PlayPage() {
           </p>
           <p className="text-unmarked">
             Each clause below links to the recorded rule changes that produced
-            it, because the current law is not a set of facts that were always
-            true. It is what the timeline output.
+            it. The current law was not always true; someone changed it, for a
+            reason, on a date.
           </p>
         </div>
       </Reveal>

@@ -708,8 +708,11 @@ export default function SportPage({ params }: { params: { sport: string } }) {
 
       <div className="mx-auto max-w-[86rem] px-5">
         <nav className="mb-20 mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-[15px]">
-          <Link href="/" className="link-paint text-chalk">
-            Back to the cross-sport timeline
+          <Link href="/sports/" className="link-paint text-chalk">
+            All sports
+          </Link>
+          <Link href="/history/" className="link-paint text-chalk/75 hover:text-chalk">
+            Every sport&rsquo;s rule changes on one timeline
           </Link>
           <Link href="/breaks/" className="link-paint text-chalk/75 hover:text-chalk">
             Every comparability break

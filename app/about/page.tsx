@@ -58,20 +58,25 @@ export default function AboutPage() {
         <h1 className="display-xl mt-4 max-w-[16ch] text-fluid-h1 text-chalk">About</h1>
         <div className="prose-measure mt-5 space-y-4 text-fluid-lead text-chalk/85">
           <p>
-            This site treats a rule change as a first-class object with a cause,
-            a date, a citation, and a measurable consequence. The consequence is
-            often that a number series stops being continuous, and that is the
-            part nobody records systematically.
-          </p>
-          <p className="text-fluid-base">
-            It also says what the rules are now. Each covered sport has its{' '}
+            Ruleset is an encyclopedia of sports. Each one is explained for
+            someone who has never seen it: how a rally, bout or race unfolds,
+            the playing area drawn to scale, the words of the game, and the{' '}
             <Link href="/play/" className="link-paint text-chalk">
               laws in force
-            </Link>{' '}
-            written out against nine questions asked in the same order of every
-            sport — and each clause links to the recorded changes that produced
-            it, so the current law reads as the output of the timeline rather
-            than as facts that were always true.
+            </Link>
+            , written against nine questions asked in the same order of every
+            sport.
+          </p>
+          <p className="text-fluid-base">
+            Behind the laws is their{' '}
+            <Link href="/history/" className="link-paint text-chalk">
+              history
+            </Link>
+            . A rule change is recorded as an object with a cause, a date, a
+            citation and a consequence, and each clause of the laws links to the
+            changes that produced it. Often the consequence is that a number
+            series stops being continuous, which is the part nobody records
+            systematically.
           </p>
           <p className="text-fluid-base">
             Read-only, static, and built for its author to read. There is no
