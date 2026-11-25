@@ -9,6 +9,47 @@ summary: >
   and were written for a form that had spent forty years judging itself without
   any.
 
+walkthrough:
+  title: One battle, from the first track to the result
+  intro: >
+    A competition is a series of battles like this one, each between two
+    dancers.
+  steps:
+    - label: Two dancers, one floor
+      body: >
+        The battle is one against one. The two dancers share a flat, smooth
+        floor. One dances while the other waits at the side.
+    - label: The DJ plays
+      body: >
+        A DJ chooses the music. The dancers have not heard it before, so
+        they cannot prepare a routine. Everything is a response to the track
+        that is playing.
+    - label: The first round
+      body: >
+        The first dancer takes a turn, usually under a minute long. The
+        dancer mixes footwork, power moves and freezes, and fits them to the
+        music.
+    - label: The reply
+      body: >
+        The second dancer answers with a round of their own. The two go on
+        taking turns. A battle is a handful of rounds.
+    - label: What costs a dancer
+      body: >
+        A crash, which is a move that fails, brings a penalty. So does
+        repeating a move already used in the battle, going over the time for
+        a round, and unsportsmanlike behaviour towards the opponent.
+    - label: The judges compare
+      body: >
+        The judges compare the two dancers on five criteria: technique,
+        vocabulary, execution, musicality and originality. For each one a
+        judge moves a slider towards the dancer who was better. The sliders
+        are combined into a percentage split.
+    - label: Who wins
+      body: >
+        The dancer with the higher percentage across the rounds wins the
+        battle. There is no draw, and nothing is carried into the next
+        battle.
+
 sections:
   - id: object
     label: The object of the battle

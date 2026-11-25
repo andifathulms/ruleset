@@ -1,6 +1,6 @@
 id: breaking
 label: Breaking
-tagline: A judging system invented for one Games, used once, and dropped before the next.
+tagline: Two dancers take turns to music chosen by a DJ, and judges decide which of them danced better.
 governing_body: World DanceSport Federation
 founded: >
   Emerged in the Bronx in the early 1970s. Governed for Olympic purposes by the
@@ -11,11 +11,16 @@ classification:
   official: breaking
   game-category: outside-taxonomy
   adjudication: judged
+glance:
+  - { value: "1 v 1", label: dancers in a battle }
+  - { value: "5", label: criteria the judges compare }
+  - { value: "< 1 min", label: length of a round }
 summary: >
-  Breaking was contested at one Olympic Games and is not on the next programme.
-  What it leaves behind is the Trivium: a judging system built from nothing for
-  a dance form that had never been scored, using comparative sliders rather
-  than absolute marks. It is the only scoring system on this site designed for
-  a single Games, and the only sport here whose community substantially did not
-  want the Olympic recognition it received.
+  A breaking contest is called a battle. Two dancers face each other on a
+  flat, smooth floor and take turns, in short rounds that usually last under
+  a minute. A DJ chooses the music and the dancers have not heard it before,
+  so nothing can be planned. Every round is made up on the spot from
+  footwork, power moves and freezes. The judges give no marks out of ten. On
+  each of five criteria they say which of the two dancers was better, and
+  the result is a percentage split between the two.
 cover: breaking-r16-floor

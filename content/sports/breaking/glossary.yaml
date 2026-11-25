@@ -1,0 +1,89 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work.
+
+sport: breaking
+terms:
+  - id: battle
+    term: Battle
+    definition: >
+      A contest between two dancers, or two groups, who take turns to dance
+      against each other. The judges name one winner.
+    see: object
+  - id: round
+    term: Round
+    definition: >
+      One dancer's turn in a battle. It usually lasts under a minute.
+    see: duration
+  - id: b-boy
+    term: B-Boy and B-Girl
+    definition: >
+      A male and a female breaker. They are also the names of the men's and
+      the women's events.
+    see: players
+  - id: cypher
+    term: Cypher
+    definition: >
+      A circle of dancers and onlookers. Dancers step into the middle one at
+      a time.
+  - id: crew
+    term: Crew
+    definition: >
+      A group of breakers who train, travel and battle together.
+  - id: jam
+    term: Jam
+    definition: >
+      An informal gathering where breakers dance, meet and battle.
+  - id: footwork
+    term: Footwork
+    definition: >
+      Steps danced low to the floor, with the hands and the feet both
+      carrying the body.
+    see: field
+  - id: power-move
+    term: Power move
+    definition: >
+      A spinning or swinging move that needs strength and momentum, such as a
+      headspin or an airflare.
+    see: field
+  - id: freeze
+    term: Freeze
+    definition: >
+      A pose held still, often balanced on the hands or the head.
+    see: field
+  - id: crash
+    term: Crash
+    definition: >
+      A move that fails. It brings a penalty.
+    see: prohibitions
+  - id: trivium
+    term: Trivium
+    definition: >
+      The judging system. On each criterion a judge moves a slider towards
+      the better of the two dancers, and the sliders together give a
+      percentage split.
+    see: scoring
+  - id: split
+    term: Percentage split
+    definition: >
+      The result of a round or a battle, such as 62 to 38. It says which
+      dancer was better and by how much, in that battle only.
+    see: scoring
+  - id: vocabulary
+    term: Vocabulary
+    definition: >
+      The range of different moves a dancer shows. It is one of the five
+      criteria, so repeating a move counts against a dancer.
+    see: prohibitions
+  - id: musicality
+    term: Musicality
+    definition: >
+      How well a dancer fits the movement to the music. It is one of the
+      five criteria.
+    see: restarts
+  - id: dj
+    term: DJ
+    definition: >
+      The person who chooses and plays the music for a battle. The dancers
+      do not know the tracks in advance.
+    see: restarts
