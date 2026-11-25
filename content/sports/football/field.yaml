@@ -1,0 +1,44 @@
+# The pitch, from the measurements in play.yaml. Shapes are in metres. The
+# Laws give the length and width as ranges; this one is drawn at 105 by 68,
+# inside the range for international matches.
+sport: football
+title: A pitch of no fixed size, with boxes that never change
+caption: >
+  The length and the width of a pitch are ranges, so grounds differ. This one
+  is drawn at 105 by 68 metres. The markings in front of each goal are the
+  same everywhere. In the penalty area the goalkeeper may handle the ball, and
+  a foul by a defender there can be punished with a penalty kick from the spot.
+alt: >
+  A football pitch with a halfway line and a centre circle, and at each end a
+  goal, a small goal area, a penalty area 16.5 metres deep and a penalty spot
+  11 metres from the goal line.
+scale: to-scale
+view: [-17, -6, 130, 82]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 105, h: 68, fill: area }
+  - { type: rect, x: 0, y: 13.84, w: 16.5, h: 40.32, fill: zone }
+  - { type: rect, x: 88.5, y: 13.84, w: 16.5, h: 40.32, fill: zone }
+  - { type: rect, x: 0, y: 24.84, w: 5.5, h: 18.32 }
+  - { type: rect, x: 99.5, y: 24.84, w: 5.5, h: 18.32 }
+  - { type: rect, x: -2, y: 30.34, w: 2, h: 7.32, fill: target }
+  - { type: rect, x: 105, y: 30.34, w: 2, h: 7.32, fill: target }
+  - { type: arc, cx: 11, cy: 34, r: 9.15, from: -53.05, to: 53.05 }
+  - { type: arc, cx: 94, cy: 34, r: 9.15, from: 126.95, to: 233.05 }
+  - { type: line, x1: 52.5, y1: 0, x2: 52.5, y2: 68 }
+  - { type: circle, cx: 52.5, cy: 34, r: 9.15 }
+  - { type: circle, cx: 52.5, cy: 34, r: 0.4, fill: target, line: none }
+  - { type: circle, cx: 11, cy: 34, r: 0.5, fill: target, line: none }
+  - { type: circle, cx: 94, cy: 34, r: 0.5, fill: target, line: none }
+  - { type: label, x: -4, y: 34, text: "7.32 m", anchor: "end", tone: muted }
+  - { type: label, x: 8.25, y: 18, text: "penalty", tone: chalk }
+  - { type: label, x: 8.25, y: 21.5, text: "area", tone: chalk }
+  - { type: label, x: 55, y: 47, text: "9.15 m radius", anchor: "start", tone: muted }
+  - { type: label, x: 94, y: 60, text: "spot, 11 m", tone: muted }
+  - { type: label, x: 18.5, y: 17, text: "16.5 m deep", anchor: "start", tone: muted }
+  - { type: dim, x1: 0, y1: 75, x2: 105, y2: 75, text: "90–120 m" }
+  - { type: dim, x1: 118, y1: 0, x2: 118, y2: 68, text: "45–90 m" }
+  - { type: dim, x1: 76, y1: 13.84, x2: 76, y2: 54.16, text: "40.32 m" }
+legend:
+  - { swatch: zone, label: penalty area }
+  - { swatch: target, label: goal }
+  - { swatch: area, label: rest of the pitch }

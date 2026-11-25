@@ -1,0 +1,112 @@
+# The words of the game. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the game is played, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: football
+terms:
+  - id: goalkeeper
+    term: Goalkeeper
+    definition: >
+      The one player on each team who may handle the ball, and only inside
+      their own penalty area. The goalkeeper guards the goal.
+    see: players
+  - id: penalty-area
+    term: Penalty area
+    definition: >
+      The large box marked in front of each goal, 16.5 metres deep. Inside it
+      the defending goalkeeper may use hands, and a foul by a defender that
+      would be a direct free kick becomes a penalty kick.
+    see: field
+  - id: offside
+    term: Offside
+    definition: >
+      The law that stops attackers waiting beside the goal. An attacker needs
+      two opponents between them and the goal line to be onside, and the
+      goalkeeper is usually one of the two.
+    see: prohibitions
+  - id: offside-trap
+    term: Offside trap
+    definition: >
+      A way of defending. The defenders step up the pitch together just before
+      a pass is played, so that the attacker it is meant for is left offside.
+    see: prohibitions
+  - id: free-kick
+    term: Free kick
+    definition: >
+      A kick given to a team after the other team commits an offence. A goal
+      can be scored straight from a direct free kick. From an indirect free
+      kick the ball must touch another player first.
+    see: restarts
+  - id: penalty-kick
+    term: Penalty kick
+    definition: >
+      A free shot from the penalty spot, 11 metres from the goal line, with
+      only the goalkeeper to beat. It is given for a direct free kick offence
+      by a defender inside their own penalty area.
+    see: restarts
+  - id: throw-in
+    term: Throw-in
+    definition: >
+      The restart when the ball goes out over a side line. A player from the
+      team that did not touch it last throws it back in with both hands.
+    see: restarts
+  - id: corner-kick
+    term: Corner kick
+    definition: >
+      The restart when a defender is the last to touch the ball before it goes
+      out over their own goal line. The attacking team kicks it in from the
+      corner of the pitch.
+    see: restarts
+  - id: goal-kick
+    term: Goal kick
+    definition: >
+      The restart when an attacker is the last to touch the ball before it goes
+      out over the goal line. The defending team kicks it out from in front of
+      their goal.
+    see: restarts
+  - id: back-pass
+    term: Back-pass
+    definition: >
+      A ball deliberately kicked to the goalkeeper by a team-mate. The
+      goalkeeper may play it with the feet and may not pick it up.
+    see: restarts
+  - id: handball
+    term: Handball
+    definition: >
+      The offence of handling the ball. The referee judges whether the arm
+      made the player's body unnaturally bigger.
+    see: prohibitions
+  - id: red-card
+    term: Red card
+    definition: >
+      The card the referee shows to send a player off. The player leaves the
+      match and the team plays on with one fewer.
+    see: prohibitions
+  - id: added-time
+    term: Added time
+    definition: >
+      The minutes the referee plays at the end of each half to make up for
+      stoppages. The referee alone decides how many.
+    see: duration
+  - id: extra-time
+    term: Extra time
+    definition: >
+      Two further periods of 15 minutes, played when a match that needs a
+      winner is level after ninety minutes.
+    see: duration
+  - id: penalty-shootout
+    term: Kicks from the penalty mark
+    definition: >
+      The way a winner is found when a match is still level after extra time.
+      The teams take penalty kicks in turn. It is often called a penalty
+      shoot-out.
+    see: winning
+  - id: var
+    term: VAR
+    definition: >
+      The video assistant referee, an official who watches the match on
+      screens. The VAR may recommend a review of a goal, a penalty decision, a
+      direct red card or a case of mistaken identity, and the referee still
+      makes the decision.
+    see: players

@@ -11,6 +11,50 @@ summary: >
   space and time rather than an implement, which is why it has no record book
   and nothing central to break.
 
+walkthrough:
+  title: One attack, from the kick-off to the goal
+  intro: >
+    A match is ninety minutes of this: one team tries to move the ball to the
+    other team's goal, and the other team tries to take it away.
+  steps:
+    - label: The kick-off
+      body: >
+        Each team has eleven players on the pitch, and one of them is the
+        goalkeeper. Play starts with a kick-off. From that moment the clock
+        runs and does not stop.
+    - label: Moving the ball
+      body: >
+        Players pass, run with and shoot the ball using any part of the body
+        except the hands and arms. The team without the ball tries to win it
+        back with a tackle or by cutting out a pass. There is no limit on how
+        long a team may keep the ball.
+    - label: Staying onside
+      body: >
+        An attacker cannot simply wait beside the goal. To be onside, an
+        attacker needs two opponents between them and the goal line, and the
+        goalkeeper is usually one of the two. The defenders move up the pitch
+        together to use this law.
+    - label: When play stops
+      body: >
+        When the ball leaves the pitch, play restarts with a throw-in, a goal
+        kick or a corner kick. When a player commits a foul, the other team
+        gets a free kick, or a penalty kick from the spot 11 metres from the
+        goal line. Careless contact is a direct free kick, and excessive force
+        is also a red card.
+    - label: The goal
+      body: >
+        A goal is scored when the whole ball crosses the whole goal line,
+        between the posts and under the bar. It counts as one goal, from any
+        distance and from any legal part of the body. Play begins again with a
+        kick-off.
+    - label: Time and the result
+      body: >
+        Each half lasts 45 minutes, and the referee adds time at the end for
+        stoppages. The team with more goals wins, and in a league a draw is a
+        normal result. When a competition needs a winner, the teams play two
+        extra periods of 15 minutes and then, if still level, take kicks from
+        the penalty mark.
+
 sections:
   - id: object
     label: The object of the game
@@ -34,6 +78,8 @@ sections:
       - { label: Goal, value: 7.32 × 2.44 m }
       - { label: Penalty spot, value: 11 m from goal line }
       - { label: Penalty area, value: 16.5 m deep }
+      - { label: Penalty area width, value: 40.32 m, note: "16.5 m to each side of the goalposts." }
+      - { label: Goal area, value: 5.5 m deep, note: "5.5 m to each side of the goalposts." }
       - { label: Centre circle, value: 9.15 m radius }
     citation:
       source: ifab-laws-of-the-game
@@ -153,8 +199,7 @@ sections:
   - id: winning
     label: Deciding the winner
     body: >
-      More goals. A draw is a legitimate result in league play, which
-      distinguishes football from every other sport on this site. Where a
+      More goals. A draw is a legitimate result in league play. Where a
       competition needs a winner: extra time played in full, then kicks from
       the penalty mark, which the Laws are careful to describe as a method of
       determining the winner rather than as part of the match.

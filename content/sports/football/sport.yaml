@@ -1,6 +1,6 @@
 id: football
 label: Football
-tagline: The sport with no central record book, and therefore no way to break one.
+tagline: Two teams of eleven try to put a ball into the other team's goal, using any part of the body except the hands and arms.
 governing_body: FIFA, with the Laws held by the International Football Association Board
 founded: >
   Laws of the Game first codified by the Football Association in 1863; the
@@ -12,11 +12,16 @@ classification:
   official: football
   game-category: invasion
   adjudication: decided-by-score
+glance:
+  - { value: "11", label: players a side }
+  - { value: "90 min", label: length of a match }
+  - { value: "7.32 m", label: width of the goal }
 summary: >
-  Football's rules govern space and time rather than an implement or a scale,
-  so its comparability problem takes a different shape. There is no world
-  record to reset, and no single body that keeps a continuous quantitative
-  series for the sport. Any rate statistic — goals per game above all — belongs
-  to one named competition and must be labelled as that competition wherever it
-  appears.
+  Football is played by two teams of eleven on a large pitch with a goal at
+  each end. Players move the ball with their feet, head and body, and only the
+  goalkeeper may handle it. A goal counts when the whole ball crosses the goal
+  line between the posts and under the bar, and every goal is worth one. A
+  match is two halves of 45 minutes. The clock does not stop, so the referee
+  adds time at the end of each half for stoppages. Goals are hard to score, so
+  a single one can decide a match, and in league play a match may end level.
 cover: football-dirt-pitch-venezuela
