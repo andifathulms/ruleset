@@ -1,0 +1,98 @@
+# The words of the sport. Each term is defined once here and linked from the
+# essays with <Term id="…">. `see` names the clause of play.yaml where the
+# word is at work. These are definitions of how the sport is rowed, not claims
+# about its history, and nothing here carries a cause or a date.
+
+sport: rowing
+terms:
+  - id: sculling
+    term: Sculling
+    definition: >
+      Rowing with two oars, one in each hand. Boats rowed this way are called
+      sculls.
+    see: object
+  - id: sweep
+    term: Sweep rowing
+    definition: >
+      Rowing with one oar, held in both hands. Half of the crew row on one
+      side of the boat and half on the other.
+    see: object
+  - id: shell
+    term: Shell
+    definition: >
+      A racing boat. It is very long, very narrow and light, which makes it
+      fast and also easy to tip over.
+    see: equipment
+  - id: blade
+    term: Blade
+    definition: >
+      The flat end of the oar that goes into the water. Rowers also use the
+      word for the whole oar.
+    see: equipment
+  - id: sliding-seat
+    term: Sliding seat
+    definition: >
+      A seat on small wheels that rolls along rails in the boat. The rower's
+      feet are fixed, so the seat lets the legs push on every stroke.
+  - id: coxswain
+    term: Coxswain
+    definition: >
+      The crew member who steers the boat and calls instructions to the
+      rowers. The coxswain, or cox, does not row and faces the finish.
+    see: players
+  - id: single-scull
+    term: Single scull
+    definition: >
+      A boat for one rower with two oars. It is the smallest racing boat.
+    see: players
+  - id: eight
+    term: Eight
+    definition: >
+      A sweep boat with eight rowers and a coxswain. It is the largest and
+      fastest racing boat.
+    see: players
+  - id: coxless
+    term: Coxless
+    definition: >
+      Without a coxswain. In a coxless pair or four, one of the rowers steers.
+    see: players
+  - id: lane
+    term: Lane
+    definition: >
+      One of the straight strips of water, marked by lines of buoys, that
+      divide the course. Each crew has its own lane and must stay in it.
+    see: field
+  - id: false-start
+    term: False start
+    definition: >
+      Leaving the start before the signal. The crew is penalised, and a crew
+      that repeats it is excluded.
+    see: restarts
+  - id: heat
+    term: Heat
+    definition: >
+      A race in the first round of a regatta. The best crews in each heat go
+      forward to the next round.
+    see: duration
+  - id: repechage
+    term: Repechage
+    definition: >
+      A second-chance race for crews that did not go forward from their heat.
+      The best crews in a repechage rejoin the competition.
+    see: duration
+  - id: world-best-time
+    term: World best time
+    definition: >
+      The fastest time rowed in an event. Rowing does not call it a world
+      record, because wind and water differ from one race to the next.
+    see: scoring
+  - id: lightweight
+    term: Lightweight
+    definition: >
+      A category for rowers under a set body weight, so that smaller athletes
+      race each other.
+  - id: beach-sprint
+    term: Beach sprint
+    definition: >
+      A short knockout race on the open sea. It begins and ends with a run on
+      the beach.

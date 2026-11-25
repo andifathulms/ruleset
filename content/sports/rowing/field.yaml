@@ -1,0 +1,39 @@
+# The course, from the facts in play.yaml. Drawn as a schematic: a real course
+# is far too long and narrow to show to scale.
+sport: rowing
+title: Six lanes, two kilometres
+caption: >
+  The course is a straight line 2000 metres long, divided by buoys into six
+  lanes. Each crew stays in its own lane from the start to the finish. The
+  rowers face the start as they race, so they cannot see the finish line.
+alt: >
+  A long straight rowing course divided into six parallel lanes, with the
+  start line at the left end, the finish line at the right end, and a boat in
+  each lane.
+scale: schematic
+view: [-3, -3.2, 43, 12.6]
+shapes:
+  - { type: rect, x: 0, y: 0, w: 40, h: 9, fill: area }
+  - { type: line, x1: 0, y1: 1.5, x2: 40, y2: 1.5, line: dashed }
+  - { type: line, x1: 0, y1: 3, x2: 40, y2: 3, line: dashed }
+  - { type: line, x1: 0, y1: 4.5, x2: 40, y2: 4.5, line: dashed }
+  - { type: line, x1: 0, y1: 6, x2: 40, y2: 6, line: dashed }
+  - { type: line, x1: 0, y1: 7.5, x2: 40, y2: 7.5, line: dashed }
+  - { type: line, x1: 0, y1: -0.6, x2: 0, y2: 9.6, line: heavy }
+  - { type: line, x1: 40, y1: -0.6, x2: 40, y2: 9.6, line: heavy }
+  - { type: label, x: 0, y: -1.6, text: "start", tone: muted }
+  - { type: label, x: 40, y: -1.6, text: "finish", tone: muted }
+  - { type: label, x: 20, y: -1.6, text: "direction of the race →", tone: muted }
+  - { type: polygon, points: [[9, 0.6], [12, 0.75], [9, 0.9]], fill: target }
+  - { type: polygon, points: [[11, 2.1], [14, 2.25], [11, 2.4]], fill: target }
+  - { type: polygon, points: [[10, 3.6], [13, 3.75], [10, 3.9]], fill: target }
+  - { type: polygon, points: [[12, 5.1], [15, 5.25], [12, 5.4]], fill: target }
+  - { type: polygon, points: [[10.5, 6.6], [13.5, 6.75], [10.5, 6.9]], fill: target }
+  - { type: polygon, points: [[8.5, 8.1], [11.5, 8.25], [8.5, 8.4]], fill: target }
+  - { type: label, x: -1.2, y: 0.75, text: "1", tone: muted }
+  - { type: label, x: -1.2, y: 8.25, text: "6", tone: muted }
+  - { type: dim, x1: 0, y1: 11, x2: 40, y2: 11, text: "2000 m" }
+legend:
+  - { swatch: area, label: the course }
+  - { swatch: dashed, label: lines of buoys between lanes }
+  - { swatch: target, label: a boat in its lane }

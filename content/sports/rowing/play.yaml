@@ -9,6 +9,42 @@ summary: >
   interesting provision is not about how to race at all — it is the decision
   not to call the resulting times records.
 
+walkthrough:
+  title: One race, from the start to the finish line
+  intro: >
+    This is a 2000-metre race on flat water, the kind rowed at a championship
+    regatta.
+  steps:
+    - label: The crews line up
+      body: >
+        Six boats sit side by side, each in its own lane marked by buoys. A
+        boat holds one, two, four or eight rowers. Everyone except a coxswain
+        sits with their back to the finish.
+    - label: The start
+      body: >
+        Each boat is held at a starting gate, and all of them are released
+        together. A crew that goes too early has made a false start and is
+        penalised. A crew that keeps doing it is excluded from the race.
+    - label: Down the course
+      body: >
+        The crews row 2000 metres in a straight line. Each boat must stay in
+        its own lane, and boats and oars must not touch. Umpires follow in a
+        motor launch and step in if a crew steers into another lane.
+    - label: The finish
+      body: >
+        The first boat across the line wins. Nothing is added or taken away
+        for wind or current. There is no restart once the race is under way.
+    - label: The time
+      body: >
+        Every boat's time is recorded to a hundredth of a second and
+        published. The fastest time ever rowed in an event is called a world
+        best time. It is not called a world record.
+    - label: The regatta
+      body: >
+        A regatta lasts several days. Crews race in heats first, then
+        semi-finals, then a final. A crew that loses its heat gets a second
+        chance in a race called a repechage.
+
 sections:
   - id: object
     label: The object of the race
@@ -24,8 +60,8 @@ sections:
   - id: field
     label: The course
     body: >
-      A 2000-metre buoyed course on flat water, standardised in 1912 and
-      unchanged since. That is the one condition rowing controls.
+      A 2000-metre buoyed course on flat water, standardised in 1912. That is
+      the one condition rowing controls.
 
       Everything else — wind direction and strength, current, water
       temperature, air density — is not controlled, not limited and not

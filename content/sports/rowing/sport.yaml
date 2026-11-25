@@ -1,6 +1,6 @@
 id: rowing
 label: Rowing
-tagline: Refuses to call its times world records, because it knows they are not comparable.
+tagline: A race over 2000 metres of flat water in long, narrow boats, with every rower sitting backwards and pulling on oars.
 governing_body: World Rowing
 founded: >
   Fédération Internationale des Sociétés d'Aviron founded 1892, the oldest
@@ -11,11 +11,17 @@ classification:
   official: rowing
   game-category: performance
   adjudication: measured
+glance:
+  - { value: "2000 m", label: length of the course }
+  - { value: "6", label: boats in a race }
+  - { value: "1 to 8", label: rowers in a boat }
 summary: >
-  This site exists to record the moments when a governing body's numbers stop
-  being comparable. Rowing is the federation that worked it out in advance and
-  said so in its own rulebook. It does not recognise world records. It
-  recognises world best times, on the stated ground that a 2000-metre course's
-  wind, current and water temperature cannot be standardised — so two times set
-  on different days are not measurements of the same thing.
+  Six crews line up side by side in separate lanes and race 2000 metres in a
+  straight line. The rowers sit facing backwards and drive the boat with oars,
+  two each in sculling and one each in sweep rowing. A boat carries one, two,
+  four or eight rowers, and the eight also carries a coxswain who steers. The
+  first boat across the line wins. Crews never touch, so the race is decided
+  by power, timing and the wind and water of that day. Because the conditions
+  are different every day, the fastest times are called world best times and
+  are not called records.
 cover: rowing-lightweight-four-2012
